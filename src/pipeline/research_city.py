@@ -32,7 +32,7 @@ def find_hallucinated_names(
 ) -> set[str]:
     """Return lowercased names from candidate_waypoints that appear in reason_text.
 
-    Deterministic case-insensitive substring match. Used by phase_c_validate
+    Deterministic case-insensitive whole-word match. Used by phase_c_validate
     to identify which sampled waypoints a QA-audit reason text is flagging
     as hallucinated.
 
@@ -43,19 +43,44 @@ def find_hallucinated_names(
     proportional threshold then read as "zero hallucinations" and used to
     demote a FAIL verdict.
 
+    Matching strategy:
+    - Word boundaries (\b) so "bar" does not match "barring" and short
+      generic names ("Park", "Inn") do not trip on incidental substrings.
+    - Longest candidate first, then skip a shorter candidate when it is a
+      proper substring of a longer already-matched name. Prevents a reason
+      flagging "Central Park" from also deleting a sibling "Park" waypoint.
+
     Trade-off: cannot catch hallucinations that the audit describes
-    positionally ("the first four waypoints are fake"). The caller treats
+    positionally ("the first four waypoints are fake") or with fuzzy
+    variants ("St. James Park" vs "St. James's Park"). The caller treats
     a zero-match result as "cannot reliably demote / cannot reliably clean"
     and either preserves FAIL or escalates WARNING → FAIL accordingly.
     """
     if not reason_text:
         return set()
     lower = reason_text.lower()
+    names = sorted(
+        {
+            (w.get("name") or "").strip().lower()
+            for w in candidate_waypoints
+            if w.get("name")
+        },
+        key=len,
+        reverse=True,
+    )
     result: set[str] = set()
-    for w in candidate_waypoints:
-        name = (w.get("name") or "").strip().lower()
-        if name and name in lower:
-            result.add(name)
+    for name in names:
+        if not name:
+            continue
+        pattern = r"\b" + re.escape(name) + r"\b"
+        if not re.search(pattern, lower):
+            continue
+        # Containment guard: if this name is a proper substring of an
+        # already-matched longer name, the longer name is what the reason
+        # actually flagged. Skip the shorter to avoid double-deletion.
+        if any(name != longer and name in longer for longer in result):
+            continue
+        result.add(name)
     return result
 
 
@@ -1225,6 +1250,16 @@ Data sample:
                     # Gemini flagged hallucinations but we can't identify
                     # specific places to remove. Escalate to FAIL rather
                     # than ship data with known-bad unremediated waypoints.
+                    #
+                    # This is an intentional quality improvement over UE's
+                    # behavior (which would have accepted the WARNING and
+                    # let bad data through). A vague "several places are
+                    # fabricated" reason produces zero name matches under
+                    # the deterministic matcher, which would otherwise be
+                    # a no-op cleanup — we prefer a lost city to a
+                    # silently-corrupted one. Expect a small uptick in
+                    # per-batch FAIL rate; offset by the proportional-
+                    # threshold demotions on the FAIL side.
                     print("  ↑ WARNING escalated to FAIL: reason mentions hallucination but no sample names matched")
                     print(f"    Original Gemini reason: {reason}")
                     status = "FAIL"

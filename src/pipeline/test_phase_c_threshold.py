@@ -191,7 +191,32 @@ class TestFindHallucinatedNames:
 
     def test_candidate_name_embedded_in_longer_phrase_matches(self):
         # Gemini often writes "the Foo place doesn't exist" rather than
-        # the name standalone. Substring match handles this.
+        # the name standalone. Whole-word match handles this (both names
+        # are surrounded by word boundaries in the reason).
         reason = "the Foo place doesn't exist and Bar was demolished"
         waypoints = [{"name": "Foo"}, {"name": "Bar"}]
         assert find_hallucinated_names(reason, waypoints) == {"foo", "bar"}
+
+    def test_substring_false_positive_avoided_via_word_boundary(self):
+        # Naive `name in lower` would match "bar" inside "barring" and
+        # delete a legitimate waypoint. Word boundaries prevent this.
+        reason = "Joe's Diner doesn't exist. Barring that, the rest are fine."
+        waypoints = [{"name": "Bar"}]
+        assert find_hallucinated_names(reason, waypoints) == set()
+
+    def test_longer_candidate_wins_over_shorter_contained_name(self):
+        # A reason flagging "Central Park" would naively also match a
+        # sibling "Park" candidate (because "park" is a substring of
+        # "central park"). Longest-first + containment guard prevents
+        # the over-match.
+        reason = "Central Park is fabricated."
+        waypoints = [{"name": "Park"}, {"name": "Central Park"}]
+        assert find_hallucinated_names(reason, waypoints) == {"central park"}
+
+    def test_shorter_name_still_matches_when_not_contained_in_longer(self):
+        # Containment guard only suppresses shorter names that are proper
+        # substrings of a matched longer name. Here "Bar" is NOT a
+        # substring of "Central Park", so both match legitimately.
+        reason = "Central Park is fabricated and Bar doesn't exist."
+        waypoints = [{"name": "Bar"}, {"name": "Central Park"}]
+        assert find_hallucinated_names(reason, waypoints) == {"bar", "central park"}
