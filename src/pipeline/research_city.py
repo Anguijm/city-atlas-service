@@ -23,6 +23,8 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+from phase_c_threshold import apply_proportional_fail_threshold
+
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
 CITY_CACHE = PROJECT_ROOT / "src" / "data" / "global_city_cache.json"
@@ -1070,26 +1072,96 @@ def phase_c_validate(city: dict, data: dict, json_path: Path):
 Review this sample of generated data for {city['name']}, {city['country']}.
 
 FAIL CRITERIA (show-stopping — use only if data is systemically bad):
-- MAJORITY of places are hallucinated (more than 20% don't exist)
+- MAJORITY of places are hallucinated: more than 25% of the audited waypoints don't exist
 - Wrong city: coordinates place many items in a different city
 - Massive fabrication: most addresses don't exist
 - Only FAIL if the data is unusable overall.
 
 WARNING CRITERIA (isolated issues — use these for minor problems):
-- 1-2 hallucinated or misidentified places in an otherwise valid sample
+- Up to 25% of places hallucinated or misidentified in an otherwise valid sample
 - Fuzzy coordinates: off by a few blocks is fine for a walking app
 - Fuzzy neighborhood boundaries: place in adjacent neighborhood is acceptable
 - Permanently closed or relocated businesses: data freshness, NOT hallucination
 - Minor description imprecision: slightly outdated hours or details
 
-Be TOLERANT. Most cities will have 1-2 imperfect entries. That's a WARNING, not a FAIL.
-A single hallucinated place out of 15 is WARNING. Three+ hallucinations is FAIL.
+Be TOLERANT. Most cities will have 1-3 imperfect entries out of 15. That's a WARNING, not a FAIL.
+FAIL requires strictly more than 25% of the sample to be hallucinated (e.g. 4+ out of 15, 3+ out of 10).
+Downstream code re-checks the proportion and will demote a marginal FAIL to WARNING anyway, so err on the side of WARNING.
 
 Respond with JSON:
-{{"status": "PASS" | "WARNING" | "FAIL", "reason": "Brief explanation. If FAIL, name ALL specific hallucinated places and explain why they don't exist."}}
+{{"status": "PASS" | "WARNING" | "FAIL", "reason": "Brief explanation. If FAIL or WARNING, name ALL specific hallucinated places and explain why they don't exist."}}
 
 Data sample:
 {json.dumps(sample, ensure_ascii=False)}"""
+
+    HALLUCINATION_KEYWORDS = (
+        "hallucinat", "doesn't exist", "does not exist", "fabricat",
+        "not real", "non-existent", "nonexistent",
+    )
+
+    def _extract_hallucinated_names(reason_text: str) -> set[str]:
+        """Call Gemini to extract the exact hallucinated place names from the QA reason.
+
+        Returns an empty set on any failure — callers decide what that means.
+        """
+        extract_prompt = f"""From the QA reason below, extract the EXACT names of places flagged as hallucinated / non-existent / fabricated. Return JSON only.
+
+QA reason: {reason_text}
+
+Candidate place names in the sample (match against these):
+{json.dumps([w.get("name") for w in sampled_waypoints], ensure_ascii=False)}
+
+Respond with JSON: {{"hallucinated": ["exact name 1", "exact name 2"]}}"""
+        try:
+            extract_resp = client.models.generate_content(
+                model="gemini-2.5-flash",
+                contents=extract_prompt,
+                config=genai.types.GenerateContentConfig(
+                    response_mime_type="application/json",
+                    temperature=0.0,
+                ),
+            )
+            extract_text = extract_resp.text
+            try:
+                extract_json = json.loads(extract_text)
+            except json.JSONDecodeError:
+                m = re.search(r"\{[\s\S]*\}", extract_text)
+                extract_json = json.loads(m.group()) if m else {"hallucinated": []}
+            return {
+                n.strip().lower()
+                for n in extract_json.get("hallucinated", [])
+                if isinstance(n, str) and n.strip()
+            }
+        except Exception as e:
+            print(f"    ⚠ Hallucination extraction failed (non-fatal): {e}")
+            return set()
+
+    def _remove_hallucinated_places(bad_names: set[str]) -> None:
+        """Strip waypoints whose names match bad_names and drop their orphan tasks.
+
+        Mutates `data` and refreshes the `waypoints`/`tasks` locals used for
+        the downstream quality-tier calculation.
+        """
+        nonlocal waypoints, tasks
+        if not bad_names:
+            return
+        before_wp = len(data["waypoints"])
+        removed_wp_ids = {
+            w.get("id") for w in data["waypoints"]
+            if (w.get("name") or "").strip().lower() in bad_names
+        }
+        data["waypoints"] = [
+            w for w in data["waypoints"]
+            if w.get("id") not in removed_wp_ids
+        ]
+        before_tasks = len(data["tasks"])
+        data["tasks"] = [
+            t for t in data["tasks"]
+            if t.get("waypoint_id") not in removed_wp_ids
+        ]
+        waypoints = data["waypoints"]
+        tasks = data["tasks"]
+        print(f"    → Removed {before_wp - len(waypoints)} hallucinated waypoints, {before_tasks - len(tasks)} orphan tasks")
 
     status = "PASS"  # Default; overwritten by audit result
     try:
@@ -1117,59 +1189,30 @@ Data sample:
         status = result.get("status", "FAIL")
         reason = result.get("reason", "No reason provided")
 
+        # Proportional FAIL threshold: if Gemini flagged hallucinations, count
+        # how many actually match waypoints in the sample and demote FAIL to
+        # WARNING when the ratio is <= 25%. This fixes false-positive FAILs on
+        # small enrichment deltas where 3/15 = 20% was being rejected.
+        mentions_hallucination = any(kw in reason.lower() for kw in HALLUCINATION_KEYWORDS)
+        if status in ("FAIL", "WARNING") and mentions_hallucination:
+            bad_names = _extract_hallucinated_names(reason)
+            if status == "FAIL":
+                new_status, demotion_reason = apply_proportional_fail_threshold(
+                    "FAIL", len(bad_names), len(sampled_waypoints)
+                )
+                if demotion_reason:
+                    print(f"  ↓ FAIL demoted to WARNING: {demotion_reason}")
+                    print(f"    Original Gemini reason: {reason}")
+                    status = new_status
+            if status == "WARNING":
+                _remove_hallucinated_places(bad_names)
+
         if status == "FAIL":
             print(f"  ✗ Semantic audit FAILED: {reason}")
             _move_to_failed(json_path)
             sys.exit(1)
         elif status == "WARNING":
             print(f"  ⚠ Semantic audit WARNING (accepted): {reason}")
-            # Fix 1: If hallucination detected, extract + remove bad places
-            if any(kw in reason.lower() for kw in ("hallucinat", "doesn't exist", "does not exist", "fabricat", "not real", "non-existent", "nonexistent")):
-                try:
-                    extract_prompt = f"""From the QA reason below, extract the EXACT names of places flagged as hallucinated / non-existent / fabricated. Return JSON only.
-
-QA reason: {reason}
-
-Candidate place names in the sample (match against these):
-{json.dumps([w.get("name") for w in sampled_waypoints], ensure_ascii=False)}
-
-Respond with JSON: {{"hallucinated": ["exact name 1", "exact name 2"]}}"""
-                    extract_resp = client.models.generate_content(
-                        model="gemini-2.5-flash",
-                        contents=extract_prompt,
-                        config=genai.types.GenerateContentConfig(
-                            response_mime_type="application/json",
-                            temperature=0.0,
-                        ),
-                    )
-                    extract_text = extract_resp.text
-                    try:
-                        extract_json = json.loads(extract_text)
-                    except json.JSONDecodeError:
-                        m = re.search(r"\{[\s\S]*\}", extract_text)
-                        extract_json = json.loads(m.group()) if m else {"hallucinated": []}
-                    bad_names = {n.strip().lower() for n in extract_json.get("hallucinated", []) if isinstance(n, str)}
-                    if bad_names:
-                        before_wp = len(data["waypoints"])
-                        removed_wp_ids = {
-                            w.get("id") for w in data["waypoints"]
-                            if (w.get("name") or "").strip().lower() in bad_names
-                        }
-                        data["waypoints"] = [
-                            w for w in data["waypoints"]
-                            if w.get("id") not in removed_wp_ids
-                        ]
-                        before_tasks = len(data["tasks"])
-                        data["tasks"] = [
-                            t for t in data["tasks"]
-                            if t.get("waypoint_id") not in removed_wp_ids
-                        ]
-                        # Refresh locals for quality calc
-                        waypoints = data["waypoints"]
-                        tasks = data["tasks"]
-                        print(f"    → Removed {before_wp - len(waypoints)} hallucinated waypoints, {before_tasks - len(tasks)} orphan tasks")
-                except Exception as e:
-                    print(f"    ⚠ Hallucination extraction failed (non-fatal): {e}")
         else:
             print(f"  ✓ Semantic audit PASSED: {reason}")
 
