@@ -1,0 +1,1681 @@
+{
+  "neighborhoods": [
+    {
+      "id": "bishop-arts-district",
+      "city_id": "dallas",
+      "name": {
+        "en": "Bishop Arts District"
+      },
+      "summary": {
+        "en": "A charming, creative enclave in Oak Cliff with a palpable independent spirit. It’s a foodie paradise that feels both sophisticated and refreshingly down-to-earth."
+      },
+      "lat": 32.7495,
+      "lng": -96.8315,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown",
+      "city_id": "dallas",
+      "name": {
+        "en": "Downtown"
+      },
+      "summary": {
+        "en": "A striking mix of soaring corporate architecture and hidden culinary artistry. This neighborhood of dramatic contrasts rewards those who look beyond the surface."
+      },
+      "lat": 32.7801,
+      "lng": -96.8004,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district",
+      "city_id": "dallas",
+      "name": {
+        "en": "Design District"
+      },
+      "summary": {
+        "en": "Sleek, stylish, and unapologetically bold, this is where Dallas comes to see and be seen. It’s the perfect area for a fun, glamorous night out."
+      },
+      "lat": 32.793,
+      "lng": -96.825,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum",
+      "city_id": "dallas",
+      "name": {
+        "en": "Deep Ellum"
+      },
+      "summary": {
+        "en": "Historically the city's hub for jazz and blues, Deep Ellum maintains its edgy, artistic soul, focusing on singular, masterful culinary experiences."
+      },
+      "lat": 32.783,
+      "lng": -96.782,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown",
+      "city_id": "dallas",
+      "name": {
+        "en": "Uptown"
+      },
+      "summary": {
+        "en": "Polished, cosmopolitan, and effortlessly chic, Uptown is where Dallas's global sophistication shines through its luxe restaurants and modern spaces."
+      },
+      "lat": 32.798,
+      "lng": -96.804,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas",
+      "city_id": "dallas",
+      "name": {
+        "en": "East Dallas"
+      },
+      "summary": {
+        "en": "A dynamic blend of the trendy energy of Knox/Henderson and the relaxed, patio-centric vibe of Lower Greenville, this area is all about variety and choice."
+      },
+      "lat": 32.815,
+      "lng": -96.77,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "bishop-arts-district-enr-taco-y-vino",
+      "city_id": "dallas",
+      "neighborhood_id": "bishop-arts-district",
+      "name": {
+        "en": "Taco Y Vino"
+      },
+      "description": {
+        "en": "A laid-back haven for exploring unique wine pairings with expertly crafted tacos at a price that feels like a neighborhood secret."
+      },
+      "type": "drink",
+      "lat": 32.7485,
+      "lng": -96.8295,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-enr-paradiso",
+      "city_id": "dallas",
+      "neighborhood_id": "bishop-arts-district",
+      "name": {
+        "en": "Paradiso"
+      },
+      "description": {
+        "en": "More than just a restaurant, this spot is described as a 'pizza party' with a vibrant atmosphere ideal for gathering with friends for cocktails or wine."
+      },
+      "type": "drink",
+      "lat": 32.75,
+      "lng": -96.831,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-enr-starship-bagel",
+      "city_id": "dallas",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Starship Bagel"
+      },
+      "description": {
+        "en": "A humble 'Downtown stand' that serves 'genuinely great' bagels, offering a delicious, unpretentious counterpoint to the area's grandeur."
+      },
+      "type": "food",
+      "lat": 32.7815,
+      "lng": -96.799,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-enr-tei-an",
+      "city_id": "dallas",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Tei-An"
+      },
+      "description": {
+        "en": "A glamorous room that feels like a movie set, making it an exceptional destination for a sophisticated drink like premium sake."
+      },
+      "type": "drink",
+      "lat": 32.7888,
+      "lng": -96.8025,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-enr-partenope-ristorante",
+      "city_id": "dallas",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Partenope Ristorante"
+      },
+      "description": {
+        "en": "In a city full of great food, this downtown Italian spot earns the high praise of having 'the best pizza in Dallas.'"
+      },
+      "type": "food",
+      "lat": 32.781,
+      "lng": -96.7935,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-enr-sushi-kozy",
+      "city_id": "dallas",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Sushi Kozy"
+      },
+      "description": {
+        "en": "For the discerning diner, this spot offers an 'excellent kaiseki' experience, a thoughtful, multi-course journey through Japanese cuisine."
+      },
+      "type": "food",
+      "lat": 32.7895,
+      "lng": -96.7995,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-enr-viewpoint-the-skyline-from-monarch",
+      "city_id": "dallas",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Viewpoint: The Skyline from Monarch"
+      },
+      "description": {
+        "en": "Located on the 49th floor, the 'views of downtown Dallas take this spot to another level,' offering a breathtaking perspective of the city."
+      },
+      "type": "viewpoint",
+      "lat": 32.782,
+      "lng": -96.8008,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-enr-delilah-dallas",
+      "city_id": "dallas",
+      "neighborhood_id": "design-district",
+      "name": {
+        "en": "Delilah Dallas"
+      },
+      "description": {
+        "en": "Described as 'big, loud, and very fun,' this is the place to go for a high-energy drink where the vibrant vibe is the main event."
+      },
+      "type": "nightlife",
+      "lat": 32.7925,
+      "lng": -96.823,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-enr-carbone-vino",
+      "city_id": "dallas",
+      "neighborhood_id": "design-district",
+      "name": {
+        "en": "Carbone Vino"
+      },
+      "description": {
+        "en": "The 'lower-key' sibling to the world-famous Carbone, this spot focuses on 'great wine' and iconic dishes in a more relaxed but equally chic setting."
+      },
+      "type": "drink",
+      "lat": 32.7905,
+      "lng": -96.8195,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-enr-town-hearth",
+      "city_id": "dallas",
+      "neighborhood_id": "design-district",
+      "name": {
+        "en": "Town Hearth"
+      },
+      "description": {
+        "en": "A steakhouse that breaks the mold by being 'a little more informal than your usual' stuffy institution, with a relaxed and fun atmosphere."
+      },
+      "type": "food",
+      "lat": 32.791,
+      "lng": -96.826,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-enr-evelyn",
+      "city_id": "dallas",
+      "neighborhood_id": "design-district",
+      "name": {
+        "en": "Evelyn"
+      },
+      "description": {
+        "en": "This restaurant embraces its 'over-the-top vibe' to create a memorable dining experience with high drama and high-quality food."
+      },
+      "type": "food",
+      "lat": 32.7915,
+      "lng": -96.8245,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-enr-purepecha",
+      "city_id": "dallas",
+      "neighborhood_id": "deep-ellum",
+      "name": {
+        "en": "Purépecha"
+      },
+      "description": {
+        "en": "The ultimate hidden gem: a 'one-of-a-kind Mexican tasting menu, in the back of a kitchen.' It’s an intimate 'love letter to Michoacán.'"
+      },
+      "type": "hidden_gem",
+      "lat": 32.7845,
+      "lng": -96.781,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-enr-tatsu",
+      "city_id": "dallas",
+      "neighborhood_id": "deep-ellum",
+      "name": {
+        "en": "Tatsu"
+      },
+      "description": {
+        "en": "Hailed as the 'platonic ideal of an omakase restaurant,' Tatsu is an intimate counter for the sushi purist, where the focus is on craft and quality."
+      },
+      "type": "food",
+      "lat": 32.7865,
+      "lng": -96.7775,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-enr-deep-ellum-street-art-murals",
+      "city_id": "dallas",
+      "neighborhood_id": "deep-ellum",
+      "name": {
+        "en": "Deep Ellum Street Art & Murals"
+      },
+      "description": {
+        "en": "The neighborhood is famous for its extensive street art and murals, which embody its edgy, artistic soul and are perfect for a self-guided walking tour."
+      },
+      "type": "culture",
+      "lat": 32.7835,
+      "lng": -96.7825,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-enr-mamani",
+      "city_id": "dallas",
+      "neighborhood_id": "uptown",
+      "name": {
+        "en": "Mamani"
+      },
+      "description": {
+        "en": "A high-end, luxe French dining experience located in the upscale Quad development, offering classic flavors in a luxurious environment."
+      },
+      "type": "food",
+      "lat": 32.7975,
+      "lng": -96.8055,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-enr-domodomo-ko",
+      "city_id": "dallas",
+      "neighborhood_id": "uptown",
+      "name": {
+        "en": "Domodomo Kō"
+      },
+      "description": {
+        "en": "A sleek spot that blends Korean and Japanese influences, known for its high-quality sushi and modern, stylish ambiance."
+      },
+      "type": "food",
+      "lat": 32.8035,
+      "lng": -96.805,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-enr-ngon",
+      "city_id": "dallas",
+      "neighborhood_id": "east-dallas",
+      "name": {
+        "en": "Ngon"
+      },
+      "description": {
+        "en": "This Vietnamese spot is celebrated for its 'happy hour to enjoy on their Lower Greenville patio,' making it a quintessential neighborhood hangout."
+      },
+      "type": "drink",
+      "lat": 32.804,
+      "lng": -96.771,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-enr-mister-charles",
+      "city_id": "dallas",
+      "neighborhood_id": "east-dallas",
+      "name": {
+        "en": "Mister Charles"
+      },
+      "description": {
+        "en": "This Knox/Henderson spot 'swings big' with 'luxurious takes on French and Italian classics' in an opulent setting."
+      },
+      "type": "food",
+      "lat": 32.818,
+      "lng": -96.795,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-enr-meridian",
+      "city_id": "dallas",
+      "neighborhood_id": "east-dallas",
+      "name": {
+        "en": "Meridian"
+      },
+      "description": {
+        "en": "Located in The Village, this spot offers elevated American classics in a comfortable setting 'somewhere between a neighborhood bistro and a Hillstone.'"
+      },
+      "type": "food",
+      "lat": 32.858,
+      "lng": -96.77,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "bishop-arts-district-task-1",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Indie Spirit"
+      },
+      "prompt": {
+        "en": "Find a storefront that perfectly captures the independent, creative spirit of Bishop Arts and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-2",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Culinary Craft"
+      },
+      "prompt": {
+        "en": "Capture a close-up photo of a beautifully crafted dish or drink you've ordered. Focus on the details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-3",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Historic Charm"
+      },
+      "prompt": {
+        "en": "Take a picture of an architectural detail on one of the historic buildings that feels like a step back in time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-4",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Neighborhood Secret"
+      },
+      "prompt": {
+        "en": "Find a quiet alleyway or a small garden nook and take a photo that feels like a hidden discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-5",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Foodie's Delight"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most delicious-looking thing you've eaten or drank today."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-6",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Artistic Expression"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a colorful mural and pose with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-7",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "The Perfect Pairing"
+      },
+      "prompt": {
+        "en": "Create your own 'high-low' photo: pair something fancy with something simple (e.g., a designer bag on a rustic bench)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-8",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Ask a shopkeeper or server for their favorite thing about the neighborhood and capture a photo that represents their answer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-9",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "As the sun starts to set, capture the warm light hitting the unique storefronts of the district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-10",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Sidewalk Stories"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, focusing on the interesting textures and patterns of the sidewalks and streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-11",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most interesting or quirky window display and take a creative photo of its reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-12",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "A Moment of Pause"
+      },
+      "prompt": {
+        "en": "Find a bench or patio and take a photo of your view, capturing a moment of relaxation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-13",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "The Color Palette"
+      },
+      "prompt": {
+        "en": "Identify the dominant color scheme of a particular block and take a photo that highlights it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-14",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Sounds of the Street"
+      },
+      "prompt": {
+        "en": "Take a photo that suggests the sound of the neighborhood - a musician, an open door of a lively cafe, or people chatting on a patio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "bishop-arts-district-task-15",
+      "neighborhood_id": "bishop-arts-district",
+      "title": {
+        "en": "Texture Hunter"
+      },
+      "prompt": {
+        "en": "Find three different textures (e.g., brick, wood, metal) close together and compose an abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-1",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Giants of the City"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at a skyscraper, emphasizing its immense scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-2",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Urban Contrast"
+      },
+      "prompt": {
+        "en": "Find an example of old architecture next to new architecture and capture it in a single frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-3",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "The Human Element"
+      },
+      "prompt": {
+        "en": "Take a photo of a person (or yourself) walking, dwarfed by the massive buildings around you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-4",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Discover a small park, a piece of public art, or a unique doorway that seems hidden among the corporate towers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-5",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Reflection Perfection"
+      },
+      "prompt": {
+        "en": "Use the glass facade of a skyscraper to capture a reflection of the city or the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-6",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Street-Level Story"
+      },
+      "prompt": {
+        "en": "Find a simple, everyday object (like a fire hydrant or a newspaper stand) and photograph it with a towering building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-7",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Concrete Jungle"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the geometric patterns and lines created by the city's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-8",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "A Bite of the City"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a quick, simple snack against the backdrop of the grand downtown scenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-9",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "The City's Pulse"
+      },
+      "prompt": {
+        "en": "Capture a moment of motion: traffic, pedestrians crossing the street, or a city bus pulling away."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-10",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "From a Different Angle"
+      },
+      "prompt": {
+        "en": "Crouch low to get a worm's-eye view of the downtown landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-11",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Play with the dramatic shadows cast by the tall buildings in the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-12",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Window to the World"
+      },
+      "prompt": {
+        "en": "Take a photo from inside a building, looking out a window at the cityscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-13",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Downtown Details"
+      },
+      "prompt": {
+        "en": "Find a unique architectural detail on a building's facade and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-14",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "The Color of Downtown"
+      },
+      "prompt": {
+        "en": "Find a surprising splash of color in the otherwise concrete and glass environment and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "downtown-task-15",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "After Dark"
+      },
+      "prompt": {
+        "en": "Capture the glow of the city lights, either from street lamps, building windows, or neon signs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-1",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Statement Piece"
+      },
+      "prompt": {
+        "en": "Find a bold piece of furniture, art, or decor in a public space or showroom window and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-2",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Dressed to Impress"
+      },
+      "prompt": {
+        "en": "Take a stylish selfie showing off your outfit against a chic, modern backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-3",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "High-Energy Shot"
+      },
+      "prompt": {
+        "en": "Try to capture the feeling of motion or high energy in a still photo, perhaps using a slight motion blur."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-4",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Luxurious Texture"
+      },
+      "prompt": {
+        "en": "Find a luxurious material—velvet, marble, polished metal—and take a close-up, abstract photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-5",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "The Art of the Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the most dramatic or stylish entryway you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-6",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "A Toast to Style"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a cocktail or a glass of wine in a glamorous setting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-7",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "See and Be Seen"
+      },
+      "prompt": {
+        "en": "Capture a candid-style photo that embodies the 'see-and-be-seen' vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-8",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Modern Lines"
+      },
+      "prompt": {
+        "en": "Find a building or interior with strong, clean, modern lines and use them to compose your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-9",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Bold and Beautiful"
+      },
+      "prompt": {
+        "en": "Find the most over-the-top piece of decor or art and take a picture with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-10",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "The Color of Glamour"
+      },
+      "prompt": {
+        "en": "Identify a color that feels particularly glamorous (gold, deep red, black) and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-11",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "A Reflection of Style"
+      },
+      "prompt": {
+        "en": "Use a mirror or reflective surface to take a creative self-portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-12",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Design Detail"
+      },
+      "prompt": {
+        "en": "Find a small but impeccably designed object, like a door handle or a light fixture, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-13",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "Capture the sophisticated glow of the district's lighting after dark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-14",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "The Perfect Pose"
+      },
+      "prompt": {
+        "en": "Strike your most high-fashion pose in front of a sleek, minimalist wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "design-district-task-15",
+      "neighborhood_id": "design-district",
+      "title": {
+        "en": "Interior World"
+      },
+      "prompt": {
+        "en": "Peek into a stylish lobby or restaurant and capture the essence of its interior design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-1",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Soul of the Street"
+      },
+      "prompt": {
+        "en": "Find a mural or piece of street art that you feel captures the artistic soul of Deep Ellum."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-2",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Musical Roots"
+      },
+      "prompt": {
+        "en": "Take a photo of something that hints at the neighborhood's jazz and blues history—a sign, an instrument, a venue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-3",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Photograph a doorway, alley, or sign that looks like it leads to a hidden secret."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-4",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Edgy Details"
+      },
+      "prompt": {
+        "en": "Find a texture that feels unique to Deep Ellum—weathered brick, peeling paint, a metal grate—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-5",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "The Colors of Deep Ellum"
+      },
+      "prompt": {
+        "en": "Create a photo that showcases the vibrant and diverse color palette of the neighborhood's murals."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-6",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "A Moment of Art"
+      },
+      "prompt": {
+        "en": "Take a selfie where you appear to be interacting with a piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-7",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Urban Canvas"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the layers of art, posters, and graffiti on a single wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-8",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Before the Show"
+      },
+      "prompt": {
+        "en": "Capture the quiet anticipation of the neighborhood before the nightlife kicks in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-9",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Echoes of Music"
+      },
+      "prompt": {
+        "en": "Find a music venue and take a photo of its exterior, trying to capture its history and character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-10",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "The Perfect Bite"
+      },
+      "prompt": {
+        "en": "If you have a meal here, take a photo of your food that makes it look like a work of art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-11",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Look Up, Look Down"
+      },
+      "prompt": {
+        "en": "Find an interesting detail either high up on a building or on the pavement below your feet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-12",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Portrait of a Neighborhood"
+      },
+      "prompt": {
+        "en": "Take a photo of a person who you think embodies the cool, artistic vibe of Deep Ellum. (Ask for permission!)"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-13",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the glow of a neon sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-14",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "Industrial Beauty"
+      },
+      "prompt": {
+        "en": "Find beauty in the industrial elements of the neighborhood—fire escapes, old warehouses, exposed pipes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "deep-ellum-task-15",
+      "neighborhood_id": "deep-ellum",
+      "title": {
+        "en": "A Story in a Sticker"
+      },
+      "prompt": {
+        "en": "Find a wall or pole covered in stickers and take a close-up of the one that tells the most interesting story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-1",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Polished Perfection"
+      },
+      "prompt": {
+        "en": "Find a perfectly manicured green space or architectural feature and capture its clean, polished look."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-2",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Global Sophistication"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the international flavor of the neighborhood—a foreign flag, a restaurant sign, or a piece of architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-3",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Modern Elegance"
+      },
+      "prompt": {
+        "en": "Photograph the sleek lines and glass facade of a modern building in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-4",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Chic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures your most effortlessly chic, cosmopolitan look."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-5",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "The Finer Things"
+      },
+      "prompt": {
+        "en": "Capture a close-up of a luxury detail—a designer logo in a shop window, a high-end car, or a beautifully crafted cocktail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-6",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Architectural Stroll"
+      },
+      "prompt": {
+        "en": "Take a photo of a pedestrian-friendly street or plaza that showcases the area's modern design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-7",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "A Toast to the Good Life"
+      },
+      "prompt": {
+        "en": "Take an elegant photo of your drink at a sophisticated bar or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-8",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a small park, fountain, or landscaped area that feels like a calm oasis in the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-9",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Minimalist Moment"
+      },
+      "prompt": {
+        "en": "Create a minimalist photograph focusing on simple shapes, lines, and negative space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-10",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Window on the World"
+      },
+      "prompt": {
+        "en": "Find an interesting reflection in a clean, modern window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-11",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "The Art of Plating"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully presented dish that looks like a piece of modern art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-12",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "People Watching"
+      },
+      "prompt": {
+        "en": "Find a good spot to sit and capture the stylish flow of people in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-13",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "The Height of Style"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle to make a modern building look even more imposing and stylish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-14",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Uptown Glow"
+      },
+      "prompt": {
+        "en": "Capture the ambient light from storefronts and restaurants in the evening."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "uptown-task-15",
+      "neighborhood_id": "uptown",
+      "title": {
+        "en": "Symmetry Search"
+      },
+      "prompt": {
+        "en": "Find a perfectly symmetrical scene, whether in architecture or landscaping, and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-1",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "A Tale of Two Vibes"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the contrast between the trendy, high-energy side and the relaxed, neighborhood side of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-2",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Find the most inviting patio and take a photo that makes you want to sit down and relax for an hour."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-3",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Neighborhood Vibe"
+      },
+      "prompt": {
+        "en": "Capture a scene that feels quintessentially 'local' and laid-back."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-4",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Trendy Moment"
+      },
+      "prompt": {
+        "en": "Take a photo of something that feels very 'of the moment' or trendy—a dish, an outfit, a sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-5",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Happy Hour Hero"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a happy hour drink or snack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-6",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "The Perfect Hangout"
+      },
+      "prompt": {
+        "en": "Photograph a spot that looks like the perfect place to gather with a group of friends."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-7",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Hidden Gem Hunt"
+      },
+      "prompt": {
+        "en": "Look for a small, unassuming spot that seems like it holds a neighborhood secret and take its picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-8",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "From Day to Night"
+      },
+      "prompt": {
+        "en": "Capture the energy of the neighborhood as it transitions from a sunny afternoon to a lively evening."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-9",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Food for Every Mood"
+      },
+      "prompt": {
+        "en": "Take a picture of a dish that represents the casual, delicious food of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-10",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Walkable Wonders"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the walkability and street life of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-11",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Local Color"
+      },
+      "prompt": {
+        "en": "Find a colorful storefront, mural, or sign and make it the star of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-12",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "See and Be Seen Selfie"
+      },
+      "prompt": {
+        "en": "In the Knox/Henderson area, take a selfie that captures the see-and-be-seen energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-13",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Relaxed and Radiant"
+      },
+      "prompt": {
+        "en": "In the Lower Greenville area, take a photo that captures the warm, relaxed glow of a patio in the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-14",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "The Choice is Yours"
+      },
+      "prompt": {
+        "en": "Find two restaurants or shops next to each other with completely different vibes and capture them in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    },
+    {
+      "id": "east-dallas-task-15",
+      "neighborhood_id": "east-dallas",
+      "title": {
+        "en": "Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Photograph a house or building that has a unique character that adds to the neighborhood's charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-07T20:05:35.186036+00:00"
+    }
+  ]
+}

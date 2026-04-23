@@ -1,0 +1,1316 @@
+{
+  "neighborhoods": [
+    {
+      "id": "east-austin",
+      "city_id": "austin",
+      "name": {
+        "en": "East Austin & East Cesar Chavez"
+      },
+      "summary": {
+        "en": "A creative-industrial hub with a vibrant, independent energy, where warehouses host genre-bending restaurants, affordable cocktail bars, and a thriving arts scene."
+      },
+      "lat": 30.2615,
+      "lng": -97.7228,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin",
+      "city_id": "austin",
+      "name": {
+        "en": "South Lamar & Bouldin"
+      },
+      "summary": {
+        "en": "This area maintains a classic Austin funkiness, blending old-school residential streets with iconic local businesses and a food scene that is proudly Texan."
+      },
+      "lat": 30.2501,
+      "lng": -97.7612,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin",
+      "city_id": "austin",
+      "name": {
+        "en": "Downtown Austin"
+      },
+      "summary": {
+        "en": "A dynamic mix of business and culture, where the urban core's modern shine is defined by its proximity to the Colorado River and a diverse food scene."
+      },
+      "lat": 30.2672,
+      "lng": -97.7431,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown",
+      "city_id": "austin",
+      "name": {
+        "en": "North Austin's Koreatown"
+      },
+      "summary": {
+        "en": "An unassuming culinary powerhouse where strip malls hide the city's most vibrant and authentic hub for Korean food, attracting locals from all over the city."
+      },
+      "lat": 30.345,
+      "lng": -97.7185,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "east-austin-enr-parley",
+      "city_id": "austin",
+      "neighborhood_id": "east-austin",
+      "name": {
+        "en": "Parley"
+      },
+      "description": {
+        "en": "An affordable and unpretentious cocktail bar proving you don't need to spend a fortune for a creative, well-made drink."
+      },
+      "type": "drink",
+      "lat": 30.2575,
+      "lng": -97.7241,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-enr-lefty-s",
+      "city_id": "austin",
+      "neighborhood_id": "east-austin",
+      "name": {
+        "en": "Lefty's"
+      },
+      "description": {
+        "en": "A classic, no-frills sports bar that serves as a genuine local hangout for catching a game."
+      },
+      "type": "drink",
+      "lat": 30.2642,
+      "lng": -97.7325,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-enr-konbini",
+      "city_id": "austin",
+      "neighborhood_id": "east-austin",
+      "name": {
+        "en": "Konbini"
+      },
+      "description": {
+        "en": "A Japanese-Mexican sushi bar with the energy of a warehouse party, embodying the neighborhood's innovative spirit."
+      },
+      "type": "food",
+      "lat": 30.2688,
+      "lng": -97.7211,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-enr-iki-chicken-rice-thai-food",
+      "city_id": "austin",
+      "neighborhood_id": "east-austin",
+      "name": {
+        "en": "Iki Chicken Rice & Thai Food"
+      },
+      "description": {
+        "en": "A food truck specializing in incredibly flavorful and authentic Thai street dishes, representing the quintessential Austin food truck experience."
+      },
+      "type": "food",
+      "lat": 30.2599,
+      "lng": -97.701,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-enr-industrial-art-canvases",
+      "city_id": "austin",
+      "neighborhood_id": "east-austin",
+      "name": {
+        "en": "Industrial Art Canvases"
+      },
+      "description": {
+        "en": "The warehouses and older buildings in this area often serve as ephemeral, ever-changing canvases for impressive street art and murals."
+      },
+      "type": "culture",
+      "lat": 30.263,
+      "lng": -97.725,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-enr-hidden-patios-yards",
+      "city_id": "austin",
+      "neighborhood_id": "east-austin",
+      "name": {
+        "en": "Hidden Patios & Yards"
+      },
+      "description": {
+        "en": "Many bars and restaurants hide their best assets out back; peek down alleyways to find sprawling, tree-covered patios and beer gardens."
+      },
+      "type": "hidden_gem",
+      "lat": 30.2605,
+      "lng": -97.7285,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-enr-quirky-storefronts",
+      "city_id": "austin",
+      "neighborhood_id": "east-austin",
+      "name": {
+        "en": "Quirky Storefronts"
+      },
+      "description": {
+        "en": "The area is dotted with independent shops and studios with hand-painted signs and unusual window displays, often in repurposed structures."
+      },
+      "type": "shopping",
+      "lat": 30.2655,
+      "lng": -97.7201,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-enr-kiin-di",
+      "city_id": "austin",
+      "neighborhood_id": "south-lamar-bouldin",
+      "name": {
+        "en": "Kiin Di"
+      },
+      "description": {
+        "en": "A must-visit for lovers of spicy, authentic Thai food, this spot offers a fiery and flavorful menu that attracts a loyal local following."
+      },
+      "type": "food",
+      "lat": 30.252,
+      "lng": -97.7633,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-enr-high-road",
+      "city_id": "austin",
+      "neighborhood_id": "south-lamar-bouldin",
+      "name": {
+        "en": "High Road"
+      },
+      "description": {
+        "en": "A restaurant proudly 'obsessed with Texas,' serving modern Texas cuisine that thoughtfully explores the state's ingredients and culinary traditions."
+      },
+      "type": "food",
+      "lat": 30.2551,
+      "lng": -97.7568,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-enr-vintage-signage",
+      "city_id": "austin",
+      "neighborhood_id": "south-lamar-bouldin",
+      "name": {
+        "en": "Vintage Signage"
+      },
+      "description": {
+        "en": "Walk along South Lamar and keep an eye out for classic neon and mid-century signs from businesses that have been around for decades."
+      },
+      "type": "landmark",
+      "lat": 30.2535,
+      "lng": -97.7605,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-enr-quirky-yard-art",
+      "city_id": "austin",
+      "neighborhood_id": "south-lamar-bouldin",
+      "name": {
+        "en": "Quirky Yard Art"
+      },
+      "description": {
+        "en": "Wander into the Bouldin Creek neighborhood to observe unique front yards famous for quirky lawn ornaments, sculptures, and gardens."
+      },
+      "type": "hidden_gem",
+      "lat": 30.2488,
+      "lng": -97.7589,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-enr-independent-boutiques",
+      "city_id": "austin",
+      "neighborhood_id": "south-lamar-bouldin",
+      "name": {
+        "en": "Independent Boutiques"
+      },
+      "description": {
+        "en": "The area is home to unique, locally-owned shops tucked between restaurants, selling everything from vintage clothing to handmade jewelry."
+      },
+      "type": "shopping",
+      "lat": 30.2511,
+      "lng": -97.7621,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-enr-restaurant-francois",
+      "city_id": "austin",
+      "neighborhood_id": "downtown-austin",
+      "name": {
+        "en": "Restaurant François"
+      },
+      "description": {
+        "en": "An excellent and elegant French restaurant offering a sophisticated dining experience with classic European cuisine executed at a high level."
+      },
+      "type": "food",
+      "lat": 30.2685,
+      "lng": -97.7488,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-enr-rogue-radish",
+      "city_id": "austin",
+      "neighborhood_id": "downtown-austin",
+      "name": {
+        "en": "Rogue Radish"
+      },
+      "description": {
+        "en": "A counter-service spot serving healthy and delicious grain bowls, catering to locals with fresh, fast, and high-quality food."
+      },
+      "type": "food",
+      "lat": 30.2699,
+      "lng": -97.741,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-enr-colorado-river-trail",
+      "city_id": "austin",
+      "neighborhood_id": "downtown-austin",
+      "name": {
+        "en": "Colorado River Trail"
+      },
+      "description": {
+        "en": "The Ann and Roy Butler Hike-and-Bike Trail runs along the edge of downtown, offering a stunning natural escape and a different city perspective."
+      },
+      "type": "nature",
+      "lat": 30.2591,
+      "lng": -97.7435,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-enr-hidden-public-art",
+      "city_id": "austin",
+      "neighborhood_id": "downtown-austin",
+      "name": {
+        "en": "Hidden Public Art"
+      },
+      "description": {
+        "en": "Look beyond major statues for smaller, overlooked public art, from sculptures in building plazas to artistic bike racks and benches."
+      },
+      "type": "culture",
+      "lat": 30.2665,
+      "lng": -97.7455,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-enr-historical-markers",
+      "city_id": "austin",
+      "neighborhood_id": "downtown-austin",
+      "name": {
+        "en": "Historical Markers"
+      },
+      "description": {
+        "en": "Amidst modern skyscrapers, older buildings feature historical plaques detailing their past lives, offering a secret history lesson of the city."
+      },
+      "type": "landmark",
+      "lat": 30.2695,
+      "lng": -97.742,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-enr-rooftop-vantage-points",
+      "city_id": "austin",
+      "neighborhood_id": "downtown-austin",
+      "name": {
+        "en": "Rooftop Vantage Points"
+      },
+      "description": {
+        "en": "Seek out publicly accessible parking garages, whose top floors often provide stunning, free views of the skyline, especially at sunset."
+      },
+      "type": "viewpoint",
+      "lat": 30.265,
+      "lng": -97.749,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-enr-an-nyeong-k-tofu-bbq",
+      "city_id": "austin",
+      "neighborhood_id": "north-austin-koreatown",
+      "name": {
+        "en": "An Nyeong K Tofu & BBQ"
+      },
+      "description": {
+        "en": "A standout Korean restaurant known for its excellent KBBQ and comforting tofu stews, serving as a great introduction to the area's flavors."
+      },
+      "type": "food",
+      "lat": 30.3401,
+      "lng": -97.7215,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-enr-soha",
+      "city_id": "austin",
+      "neighborhood_id": "north-austin-koreatown",
+      "name": {
+        "en": "Soha"
+      },
+      "description": {
+        "en": "A lively Korean restaurant in a strip mall that is perfect for a fun, energetic meal where the atmosphere is as much a draw as the food."
+      },
+      "type": "food",
+      "lat": 30.3498,
+      "lng": -97.7289,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-enr-zzim-korean-grill",
+      "city_id": "austin",
+      "neighborhood_id": "north-austin-koreatown",
+      "name": {
+        "en": "Zzim Korean Grill"
+      },
+      "description": {
+        "en": "For the adventurous eater, this spot serves specific and authentic dishes like gopchang and rich stews, showcasing the depth of Korean cuisine."
+      },
+      "type": "food",
+      "lat": 30.3581,
+      "lng": -97.7143,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-enr-international-grocery-stores",
+      "city_id": "austin",
+      "neighborhood_id": "north-austin-koreatown",
+      "name": {
+        "en": "International Grocery Stores"
+      },
+      "description": {
+        "en": "Exploring a large Asian grocery store like H-Mart is an adventure, with aisles of unique snacks, produce, and housewares."
+      },
+      "type": "shopping",
+      "lat": 30.3605,
+      "lng": -97.7122,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-enr-strip-mall-gems",
+      "city_id": "austin",
+      "neighborhood_id": "north-austin-koreatown",
+      "name": {
+        "en": "Strip Mall Gems"
+      },
+      "description": {
+        "en": "The fun of this neighborhood is the treasure hunt; look for tiny, family-run bakeries, specialty tea shops, or other hidden culinary gems."
+      },
+      "type": "hidden_gem",
+      "lat": 30.348,
+      "lng": -97.7199,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-enr-boba-and-dessert-shops",
+      "city_id": "austin",
+      "neighborhood_id": "north-austin-koreatown",
+      "name": {
+        "en": "Boba and Dessert Shops"
+      },
+      "description": {
+        "en": "Complementing the savory food scene is a proliferation of excellent boba tea shops and dessert cafes specializing in Asian treats."
+      },
+      "type": "drink",
+      "lat": 30.3525,
+      "lng": -97.716,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "east-austin-task-1",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Industrial Elegance"
+      },
+      "prompt": {
+        "en": "Find a piece of street art on a corrugated metal wall and capture the contrast between the rough texture and the creative art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-2",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Take a photo that shows an old, industrial building right next to a sleek, modern one. Try to capture the story of the neighborhood's evolution."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-3",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Hidden Hangout"
+      },
+      "prompt": {
+        "en": "Find a hidden patio or beer garden and take a picture that makes it look like a secret oasis in the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-4",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Creative Energy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the creative, independent vibe of the neighborhood. Use a mural or a quirky storefront as your background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-5",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Sign of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a unique, hand-painted, or neon sign for an independent business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-6",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Food Truck Feast"
+      },
+      "prompt": {
+        "en": "Capture a photo of a food truck that looks like it's serving up something amazing. Focus on the colors and atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-7",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "The Unofficial Gallery"
+      },
+      "prompt": {
+        "en": "Find a small, clever piece of street art that isn't a giant mural—like a sticker, a stencil, or a tiny sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-8",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Repurposed Life"
+      },
+      "prompt": {
+        "en": "Find a building that has clearly been repurposed from something else (e.g., a garage turned into a cafe) and photograph its most interesting feature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-9",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Alleyway Discovery"
+      },
+      "prompt": {
+        "en": "Take a picture looking down an interesting alleyway. What secrets or stories does it seem to hold?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-10",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Neighborhood Color Palette"
+      },
+      "prompt": {
+        "en": "Find a wall or building with at least three bold, contrasting colors and take a vibrant, abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-11",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "The Local's View"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that feels authentically local and not polished for tourists."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-12",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Drinkable Art"
+      },
+      "prompt": {
+        "en": "Photograph a creative-looking cocktail or coffee. Focus on the presentation and garnish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-13",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by a fire escape, a sign, or an old piece of industrial equipment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-14",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Window to a World"
+      },
+      "prompt": {
+        "en": "Photograph the reflection in a shop window, capturing both what's inside and the street scene outside in one image."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "east-austin-task-15",
+      "neighborhood_id": "east-austin",
+      "title": {
+        "en": "Warehouse Party Vibe"
+      },
+      "prompt": {
+        "en": "Find a spot with an industrial, energetic vibe and take a photo that captures that feeling, focusing on lights and architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-1",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Keepin' it Weird"
+      },
+      "prompt": {
+        "en": "Find the quirkiest, most unusual piece of yard art or decoration on a residential street and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-2",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic, vintage neon sign. Try to get it just as it starts to glow at dusk for extra points!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-3",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Funky Mailbox Find"
+      },
+      "prompt": {
+        "en": "Go on a hunt for the most creative and unusual mailbox in the neighborhood and photograph your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-4",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Texan Pride Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with something that feels unmistakably Texan in the background—a lone star, a BBQ joint sign, or a pair of cowboy boots."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-5",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Artistic Fences"
+      },
+      "prompt": {
+        "en": "Find a fence or wall that has been decorated with mosaics, colorful paint, or other artistic touches and capture its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-6",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Mid-Century Moment"
+      },
+      "prompt": {
+        "en": "Photograph a building or sign with cool, mid-century modern architecture or typography."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-7",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Take a picture of a dish that looks spicy and delicious. Capture the vibrant colors of the food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-8",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Boutique Treasure"
+      },
+      "prompt": {
+        "en": "Find an interesting item in the window of a locally-owned boutique and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-9",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Lived-In Look"
+      },
+      "prompt": {
+        "en": "Capture a scene that feels comfortable and lived-in, reflecting the neighborhood's relaxed vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-10",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Xeriscaped Beauty"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful and water-wise xeriscaped garden, focusing on the textures of the rocks and native plants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-11",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "The Perfect Patio"
+      },
+      "prompt": {
+        "en": "Find a welcoming restaurant patio and take a photo that makes you want to sit down and stay awhile."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-12",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Street Style Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows off your own style against a backdrop that represents the neighborhood's funky vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-13",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Find a faded, painted advertisement on the side of an old brick building and capture its ghostly presence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-14",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "Tire Swing Story"
+      },
+      "prompt": {
+        "en": "Find a classic neighborhood feature like a tire swing, a basketball hoop, or a front porch swing and take a nostalgic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "south-lamar-bouldin-task-15",
+      "neighborhood_id": "south-lamar-bouldin",
+      "title": {
+        "en": "South Austin Sunlight"
+      },
+      "prompt": {
+        "en": "Capture the way the late afternoon sun hits an old building or a giant live oak tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-1",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Nature vs. Steel"
+      },
+      "prompt": {
+        "en": "Frame a shot that captures both a modern skyscraper and a natural element like the river, a large tree, or the sky in a dramatic way."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-2",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Skyline Reflection"
+      },
+      "prompt": {
+        "en": "Find a reflection of the city skyline in a puddle, a glass building, or on the surface of the Colorado River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-3",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "History in the Modern Age"
+      },
+      "prompt": {
+        "en": "Photograph a historical marker or an old building, framed by the modern city around it to show the contrast of time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-4",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Urban Canyon"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a street and look up, capturing the feeling of being in an 'urban canyon' created by tall buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-5",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Secret Art Spot"
+      },
+      "prompt": {
+        "en": "Find a piece of public art that isn't a famous statue. It could be a cool bench, a unique bike rack, or a small sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-6",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Elevated Perspective Selfie"
+      },
+      "prompt": {
+        "en": "Find a high vantage point (like a bridge or the top of a parking garage) and take a selfie with the city spread out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-7",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Healthy & Delicious"
+      },
+      "prompt": {
+        "en": "Photograph a fresh, healthy-looking meal like a grain bowl or salad, showcasing the vibrant colors of the ingredients."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-8",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "River Life"
+      },
+      "prompt": {
+        "en": "Take a photo of people enjoying the Colorado River—kayaking, paddleboarding, or just relaxing by the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-9",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the golden hour before sunset, capture the warm light hitting the side of a downtown building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-10",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Architectural Details"
+      },
+      "prompt": {
+        "en": "Look up! Find an interesting architectural detail on the top of a building and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-11",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "City in Motion"
+      },
+      "prompt": {
+        "en": "Try to capture the motion of the city. Use a slow shutter speed to blur the movement of cars or people against a static background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-12",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Elegant Escape"
+      },
+      "prompt": {
+        "en": "Find a quiet, elegant-looking spot—like the entrance to a fancy restaurant or a peaceful plaza—and capture its sophisticated atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-13",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Stand on a pedestrian bridge and take a wide shot that shows the river, the trail, and the skyline all in one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-14",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Green in the Concrete"
+      },
+      "prompt": {
+        "en": "Find a small park, a green rooftop, or even a determined plant growing in a crack in the sidewalk. Photograph this patch of green."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "downtown-austin-task-15",
+      "neighborhood_id": "downtown-austin",
+      "title": {
+        "en": "Working Crowd"
+      },
+      "prompt": {
+        "en": "Capture the energy of the downtown lunch rush or the flow of people heading home from work."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-1",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Strip Mall Surprise"
+      },
+      "prompt": {
+        "en": "Take a photo that contrasts a plain, unassuming strip-mall exterior with a glimpse of the vibrant food or culture inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-2",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Grocery Store Treasure"
+      },
+      "prompt": {
+        "en": "Visit an international grocery store and photograph the most interesting or beautifully designed snack package you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-3",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Food-Focused Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a delicious-looking Korean dish or a colorful boba tea. Make the food the star!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-4",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Sizzling Shot"
+      },
+      "prompt": {
+        "en": "Capture the steam rising from a hot bowl of stew or the sizzle of food on a grill. Focus on the action!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-5",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a scene inside a restaurant or market that shows it as a lively community gathering place."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-6",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Aisle of Wonders"
+      },
+      "prompt": {
+        "en": "In an international market, take a photo down an aisle packed with colorful and unfamiliar products."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-7",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Find a unique Asian dessert, like shaved ice or taiyaki, and take a mouth-watering photo before you dig in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-8",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Sign Language"
+      },
+      "prompt": {
+        "en": "Find a sign with Korean characters and take a photo that highlights the beauty of the script."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-9",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "The Adventurous Bite"
+      },
+      "prompt": {
+        "en": "Photograph a dish that looks bold and adventurous. The more unique, the better!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-10",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Parking Lot Panorama"
+      },
+      "prompt": {
+        "en": "Take a panoramic shot of a strip mall that shows the variety of different businesses hidden there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-11",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Banchan Beauty"
+      },
+      "prompt": {
+        "en": "Capture an overhead shot of a colorful array of banchan (Korean side dishes)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-12",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Lively and Loud"
+      },
+      "prompt": {
+        "en": "Find a restaurant with a fun, energetic atmosphere and take a photo that captures that lively feeling."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-13",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Photograph the entrance to a restaurant that looks like a true hidden gem, easily missed by passersby."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-14",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Produce Portrait"
+      },
+      "prompt": {
+        "en": "In a grocery store, find an unusual fruit or vegetable you've never seen before and take a dramatic close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    },
+    {
+      "id": "north-austin-koreatown-task-15",
+      "neighborhood_id": "north-austin-koreatown",
+      "title": {
+        "en": "Destination Dining"
+      },
+      "prompt": {
+        "en": "Take a photo that shows people who have clearly made a trip to the neighborhood specifically for the food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T05:16:33.100237+00:00"
+    }
+  ]
+}

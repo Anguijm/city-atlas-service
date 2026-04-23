@@ -1,0 +1,1197 @@
+{
+  "neighborhoods": [
+    {
+      "id": "over-the-rhine",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Over-the-Rhine (OTR)"
+      },
+      "summary": {
+        "en": "OTR is Cincinnati's ultra-trendy, revitalized heart, where a dense collection of 19th-century architecture houses a bustling scene of markets, breweries, and boutiques."
+      },
+      "lat": 39.112,
+      "lng": -84.517,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Camp Washington & Northside"
+      },
+      "summary": {
+        "en": "This area combines the gritty, industrial heritage of Camp Washington with the serene, park-like expanse of Northside, offering a journey through a century of American aesthetics."
+      },
+      "lat": 39.145,
+      "lng": -84.54,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Eden Park"
+      },
+      "summary": {
+        "en": "Perched on the hills just east of downtown, Eden Park is a nearly 200-acre urban sanctuary offering a mix of manicured gardens, green spaces, and cultural institutions."
+      },
+      "lat": 39.115,
+      "lng": -84.495,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Downtown & The Banks"
+      },
+      "summary": {
+        "en": "This is the civic and cultural core of Cincinnati, where the city meets the mighty Ohio River, featuring grand institutions, sobering history, and spectacular skyline views."
+      },
+      "lat": 39.098,
+      "lng": -84.512,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "over-the-rhine-enr-findlay-market",
+      "city_id": "cincinnati",
+      "neighborhood_id": "over-the-rhine",
+      "name": {
+        "en": "Findlay Market"
+      },
+      "description": {
+        "en": "Cincinnati’s oldest continuously running public market, this is the soul of the neighborhood, a vibrant experience with local farmers, butchers, and artisans."
+      },
+      "type": "landmark",
+      "lat": 39.1131,
+      "lng": -84.5182,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-enr-historic-german-architecture",
+      "city_id": "cincinnati",
+      "neighborhood_id": "over-the-rhine",
+      "name": {
+        "en": "Historic German Architecture"
+      },
+      "description": {
+        "en": "Wander the streets like Elm and Race to see the dense collection of ornate 19th-century buildings that tell the story of the German immigrants who built the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 39.11,
+      "lng": -84.5145,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-enr-hidden-murals-street-art",
+      "city_id": "cincinnati",
+      "neighborhood_id": "over-the-rhine",
+      "name": {
+        "en": "Hidden Murals & Street Art"
+      },
+      "description": {
+        "en": "The brick walls of OTR serve as a canvas for large-scale public art that often tells stories of the city's culture and history."
+      },
+      "type": "culture",
+      "lat": 39.1115,
+      "lng": -84.516,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-enr-american-sign-museum",
+      "city_id": "cincinnati",
+      "neighborhood_id": "camp-washington-northside",
+      "name": {
+        "en": "American Sign Museum"
+      },
+      "description": {
+        "en": "A unique and dazzling museum celebrating over 100 years of American signage, featuring a glowing 'Main Street' of vintage and iconic neon signs."
+      },
+      "type": "culture",
+      "lat": 39.1343,
+      "lng": -84.5351,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-enr-spring-grove-cemetery",
+      "city_id": "cincinnati",
+      "neighborhood_id": "camp-washington-northside",
+      "name": {
+        "en": "Spring Grove Cemetery"
+      },
+      "description": {
+        "en": "A U.S. National Historic Landmark, this is not a macabre destination but a stunning public art display with sprawling lawns and tranquil ponds."
+      },
+      "type": "landmark",
+      "lat": 39.1655,
+      "lng": -84.5342,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-enr-spring-grove-arboretum",
+      "city_id": "cincinnati",
+      "neighborhood_id": "camp-washington-northside",
+      "name": {
+        "en": "Spring Grove Arboretum"
+      },
+      "description": {
+        "en": "The 400-acre grounds of the cemetery are a breathtaking arboretum, perfect for a long, reflective walk among beautiful landscapes."
+      },
+      "type": "nature",
+      "lat": 39.167,
+      "lng": -84.532,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-enr-the-twelve-ponds-of-spring-grove",
+      "city_id": "cincinnati",
+      "neighborhood_id": "camp-washington-northside",
+      "name": {
+        "en": "The Twelve Ponds of Spring Grove"
+      },
+      "description": {
+        "en": "A key feature of the arboretum's landscape design, these serene water features attract local birdlife and offer peaceful vantage points."
+      },
+      "type": "nature",
+      "lat": 39.168,
+      "lng": -84.535,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-enr-gothic-revival-architecture-at-spring-grove",
+      "city_id": "cincinnati",
+      "neighborhood_id": "camp-washington-northside",
+      "name": {
+        "en": "Gothic Revival Architecture at Spring Grove"
+      },
+      "description": {
+        "en": "The cemetery features stunning examples of Gothic Revival architecture in its grand mausoleums and monuments, creating a solemn and beautiful atmosphere."
+      },
+      "type": "landmark",
+      "lat": 39.166,
+      "lng": -84.536,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-enr-krohn-conservatory",
+      "city_id": "cincinnati",
+      "neighborhood_id": "eden-park",
+      "name": {
+        "en": "Krohn Conservatory"
+      },
+      "description": {
+        "en": "An iconic Art Deco glasshouse that serves as a year-round tropical oasis, featuring over 3,500 plant species from around the world."
+      },
+      "type": "landmark",
+      "lat": 39.1135,
+      "lng": -84.4933,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-enr-cincinnati-zoo",
+      "city_id": "cincinnati",
+      "neighborhood_id": "eden-park",
+      "name": {
+        "en": "Cincinnati Zoo"
+      },
+      "description": {
+        "en": "As the nation's second-oldest zoo, this Cincinnati icon is more than just an animal park; it's a historic institution and a beautiful garden."
+      },
+      "type": "landmark",
+      "lat": 39.143,
+      "lng": -84.5085,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-enr-cincinnati-botanical-garden",
+      "city_id": "cincinnati",
+      "neighborhood_id": "eden-park",
+      "name": {
+        "en": "Cincinnati Botanical Garden"
+      },
+      "description": {
+        "en": "The grounds of the Cincinnati Zoo are a beautiful botanical garden in their own right, worth exploring for their diverse plant life and landscaping."
+      },
+      "type": "nature",
+      "lat": 39.144,
+      "lng": -84.509,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-enr-hippo-cove-home-of-fiona",
+      "city_id": "cincinnati",
+      "neighborhood_id": "eden-park",
+      "name": {
+        "en": "Hippo Cove (Home of Fiona)"
+      },
+      "description": {
+        "en": "Visit the zoo's most famous resident, Fiona, the smallest hippo ever to survive a premature birth and an international phenomenon."
+      },
+      "type": "landmark",
+      "lat": 39.1425,
+      "lng": -84.507,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-enr-national-underground-railroad-freedom-center",
+      "city_id": "cincinnati",
+      "neighborhood_id": "downtown-the-banks",
+      "name": {
+        "en": "National Underground Railroad Freedom Center"
+      },
+      "description": {
+        "en": "A powerful museum on the banks of the Ohio River exploring the history of slavery and the ongoing fight for freedom worldwide."
+      },
+      "type": "culture",
+      "lat": 39.097,
+      "lng": -84.512,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-enr-taft-museum-of-art",
+      "city_id": "cincinnati",
+      "neighborhood_id": "downtown-the-banks",
+      "name": {
+        "en": "Taft Museum of Art"
+      },
+      "description": {
+        "en": "An intimate collection in a historic 1820 residence, featuring European and American masterworks and pre-Civil War domestic murals."
+      },
+      "type": "culture",
+      "lat": 39.1,
+      "lng": -84.505,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-enr-bb-riverboats-ohio-river-tour",
+      "city_id": "cincinnati",
+      "neighborhood_id": "downtown-the-banks",
+      "name": {
+        "en": "BB Riverboats Ohio River Tour"
+      },
+      "description": {
+        "en": "Get on the water to truly appreciate Cincinnati as a river city, with boat tours offering unparalleled views of the skyline and bridges."
+      },
+      "type": "viewpoint",
+      "lat": 39.097,
+      "lng": -84.508,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-enr-roebling-suspension-bridge",
+      "city_id": "cincinnati",
+      "neighborhood_id": "downtown-the-banks",
+      "name": {
+        "en": "Roebling Suspension Bridge"
+      },
+      "description": {
+        "en": "An iconic Cincinnati landmark and a symbol of the path to freedom, offering spectacular views and a historic connection between Ohio and Kentucky."
+      },
+      "type": "landmark",
+      "lat": 39.095,
+      "lng": -84.511,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-enr-the-banks-riverfront-park",
+      "city_id": "cincinnati",
+      "neighborhood_id": "downtown-the-banks",
+      "name": {
+        "en": "The Banks Riverfront Park"
+      },
+      "description": {
+        "en": "The area where the city meets the Ohio River, offering green space, walking paths, and incredible views of the water and the Kentucky shoreline."
+      },
+      "type": "nature",
+      "lat": 39.096,
+      "lng": -84.513,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "over-the-rhine-task-1",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find a building with a date stone from before 1880 and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-2",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Market Colors"
+      },
+      "prompt": {
+        "en": "Capture the most colorful display of produce you can find at a local market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-3",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Mural Magic"
+      },
+      "prompt": {
+        "en": "Take a selfie with a piece of street art that tells a story about Cincinnati."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-4",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "German Roots"
+      },
+      "prompt": {
+        "en": "Find a street sign or building name that hints at the neighborhood's German heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-5",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Sidewalk Cafe Scene"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the bustling energy of an outdoor cafe or brewery patio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-6",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Ironwork Art"
+      },
+      "prompt": {
+        "en": "Find an example of ornate 19th-century ironwork on a fence or balcony and capture its intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-7",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic building next to a modern boutique or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-8",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Local Brews"
+      },
+      "prompt": {
+        "en": "Find a brewery and take a photo of its tap list. Bonus points for a creative name!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-9",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Cobblestone Steps"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a cobblestone or brick-paved alleyway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-10",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Peek into a building's entryway and capture a photo of a hidden courtyard or garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-11",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "OTR Reflection"
+      },
+      "prompt": {
+        "en": "Find a modern glass window and capture the reflection of a historic building in it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-12",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "The Perfect Pastry"
+      },
+      "prompt": {
+        "en": "Find a local bakery and take a mouth-watering photo of their most tempting treat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-13",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Neighborhood Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that you think perfectly sums up the trendy, historic vibe of OTR."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-14",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Cheese Challenge"
+      },
+      "prompt": {
+        "en": "Find a local cheese shop and photograph a cheese you've never heard of before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "over-the-rhine-task-15",
+      "neighborhood_id": "over-the-rhine",
+      "title": {
+        "en": "Waffle Wonder"
+      },
+      "prompt": {
+        "en": "Document your taste test of a classic Belgian waffle from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-1",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Take a self-portrait where your silhouette is illuminated by the glow of a vintage neon sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-2",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Industrial Relic"
+      },
+      "prompt": {
+        "en": "Find a piece of old industrial machinery or a weathered factory wall and capture its gritty texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-3",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Gothic Grandeur"
+      },
+      "prompt": {
+        "en": "Photograph a Gothic-style monument or building, focusing on its dramatic arches and spires."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-4",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Nature's Reflection"
+      },
+      "prompt": {
+        "en": "Frame a shot of a stone bridge or monument reflecting perfectly in the still water of a pond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-5",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Golden Hour Light"
+      },
+      "prompt": {
+        "en": "At golden hour, capture the light filtering through the trees, illuminating a grand tombstone or statue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-6",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "A Century of Signs"
+      },
+      "prompt": {
+        "en": "Find two signs from completely different eras (e.g., hand-painted vs. neon) and photograph them together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-7",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Serene Pathway"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a long, tree-lined path in a cemetery or park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-8",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Man vs. Nature"
+      },
+      "prompt": {
+        "en": "Find a spot where an old structure is being reclaimed by nature (vines on a wall, etc.) and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-9",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Artistic Rust"
+      },
+      "prompt": {
+        "en": "Find a piece of rusted metal and take a close-up, abstract photo of its colors and textures."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-10",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Silent Story"
+      },
+      "prompt": {
+        "en": "Find a weathered, old gravestone and take a photo that evokes a sense of history and memory."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-11",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Industrial Sky"
+      },
+      "prompt": {
+        "en": "Frame a shot of the sky using the silhouette of an industrial building or smokestack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-12",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Park Bench Peace"
+      },
+      "prompt": {
+        "en": "Find an empty park bench in a beautiful spot and take a photo that feels peaceful and inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-13",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the long shadows of late afternoon to create a dramatic photo of a monument or statue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-14",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "The Big Boy Pose"
+      },
+      "prompt": {
+        "en": "Find a classic Big Boy statue and strike a matching pose for a selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "camp-washington-northside-task-15",
+      "neighborhood_id": "camp-washington-northside",
+      "title": {
+        "en": "Genie's Wish"
+      },
+      "prompt": {
+        "en": "Locate the 19-foot genie statue near the Sign Museum and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-1",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Tropical Droplet"
+      },
+      "prompt": {
+        "en": "Find a vibrant tropical leaf or flower petal and capture a macro shot of a water droplet on it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-2",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Desert Oddity"
+      },
+      "prompt": {
+        "en": "Find the most bizarre-looking plant in a desert collection and take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-3",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Art Deco Lines"
+      },
+      "prompt": {
+        "en": "Photograph the clean, geometric lines of an Art Deco building like the Krohn Conservatory."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-4",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Hippo Yawn"
+      },
+      "prompt": {
+        "en": "Try to capture a photo of a hippo with its mouth wide open, either above or below water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-5",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Garden Path"
+      },
+      "prompt": {
+        "en": "Find a winding garden path and take a photo that invites the viewer to walk down it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-6",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "Fill your entire camera frame with the petals of a single, brightly colored flower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-7",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Through the Glass"
+      },
+      "prompt": {
+        "en": "Take a photo of a tropical plant or flower through the steamy glass of a conservatory."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-8",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Park Panorama"
+      },
+      "prompt": {
+        "en": "Find a high point in the park and take a sweeping panoramic photo of the view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-9",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Animal Encounter"
+      },
+      "prompt": {
+        "en": "Take a photo of a zoo animal making eye contact with your camera."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-10",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Botanical Texture"
+      },
+      "prompt": {
+        "en": "Find a plant with an interesting texture (spiky, fuzzy, smooth) and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-11",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "A Moment of Zen"
+      },
+      "prompt": {
+        "en": "Find a quiet spot by a pond or in a garden and take a selfie looking completely relaxed."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-12",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use tree branches or leaves to create a natural frame around a distant view or landmark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-13",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Greenhouse Geometry"
+      },
+      "prompt": {
+        "en": "Look up inside a greenhouse and capture the repeating patterns of the glass panes and metal frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-14",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Wild and Manicured"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between a manicured flower bed and a wilder, more natural area of the park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "eden-park-task-15",
+      "neighborhood_id": "eden-park",
+      "title": {
+        "en": "Zoo Symphony"
+      },
+      "prompt": {
+        "en": "Record a short video clip of the sounds of the zoo, from animal calls to visitor chatter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-1",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Bridge to Freedom"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes the Roebling Suspension Bridge, symbolizing the path to freedom."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-2",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Skyline at Sunset"
+      },
+      "prompt": {
+        "en": "Capture the Cincinnati skyline from the riverfront as the city lights begin to sparkle at dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-3",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "River City"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the Ohio River's role in the city, perhaps featuring a riverboat or barge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-4",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Historic Home"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of a historic building, like the Taft Museum, focusing on its Federal-period architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-5",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet spot to reflect on the city's history and take a photo that feels thoughtful or somber."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-6",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "City on the Water"
+      },
+      "prompt": {
+        "en": "From a riverboat or the riverbank, take a photo of the city's reflection on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-7",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Find a symbol of the city (a flag, a logo, a public statue) and take a powerful photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-8",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Old and New"
+      },
+      "prompt": {
+        "en": "Capture a view that includes both a historic landmark and a modern skyscraper in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-9",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Ohio to Kentucky"
+      },
+      "prompt": {
+        "en": "Take a photo that clearly shows both the Ohio and Kentucky sides of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-10",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Museum Still Life"
+      },
+      "prompt": {
+        "en": "Inside a museum, create an artistic shot of a single artifact or painting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-11",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "The Suspension's Span"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot looking up at the cables and towers of the Roebling Suspension Bridge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-12",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Freedom's View"
+      },
+      "prompt": {
+        "en": "From near the Freedom Center, take a photo looking across the river, contemplating its historical significance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-13",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Urban Green Space"
+      },
+      "prompt": {
+        "en": "Find a park or plaza downtown and take a photo showing how nature and the city coexist."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-14",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Find two buildings from different eras that have a similar shape or design element and photograph them together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    },
+    {
+      "id": "downtown-the-banks-task-15",
+      "neighborhood_id": "downtown-the-banks",
+      "title": {
+        "en": "Gilded Age Glamour"
+      },
+      "prompt": {
+        "en": "Find an object or room inside a museum that looks like it belongs in a Gilded Age mansion."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T12:41:37.539132+00:00"
+    }
+  ]
+}

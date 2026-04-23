@@ -1,0 +1,1477 @@
+{
+  "neighborhoods": [
+    {
+      "id": "kapahulu",
+      "city_id": "honolulu",
+      "name": {
+        "en": "Kapahulu"
+      },
+      "summary": {
+        "en": "Just east of Waikiki, Kapahulu Avenue is a gritty, unpretentious, and delicious artery of local life where generations of residents have come for authentic food."
+      },
+      "lat": 21.2751,
+      "lng": -157.8153,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley",
+      "city_id": "honolulu",
+      "name": {
+        "en": "Nuʻuanu Valley"
+      },
+      "summary": {
+        "en": "A lush, cool escape from the city's heat, this area is draped in greenery and mist, offering a serene walk into the 19th-century world of Hawaiian royalty."
+      },
+      "lat": 21.3415,
+      "lng": -157.8308,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili",
+      "city_id": "honolulu",
+      "name": {
+        "en": "Mōʻiliʻili"
+      },
+      "summary": {
+        "en": "A diverse, residential neighborhood near the University of Hawaii with deep Japanese-American roots, blending academic energy with quiet heritage."
+      },
+      "lat": 21.2912,
+      "lng": -157.8275,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki",
+      "city_id": "honolulu",
+      "name": {
+        "en": "Makiki"
+      },
+      "summary": {
+        "en": "An artistic urban oasis focused on art, architecture, and design, home to Honolulu's premier art institution and peaceful green spaces."
+      },
+      "lat": 21.3033,
+      "lng": -157.8461,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama",
+      "city_id": "honolulu",
+      "name": {
+        "en": "Kalihi-Pālama"
+      },
+      "summary": {
+        "en": "A working-class neighborhood that holds one of the state's most important cultural treasures, offering an educational exploration into the deep history of Hawaii and the Pacific."
+      },
+      "lat": 21.3325,
+      "lng": -157.8703,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe",
+      "city_id": "honolulu",
+      "name": {
+        "en": "Kaneohe"
+      },
+      "summary": {
+        "en": "A true escape into a vast, 400-acre tropical paradise on the windward side, offering an immersive walking experience among global flora against a dramatic mountain backdrop."
+      },
+      "lat": 21.395,
+      "lng": -157.812,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "kapahulu-enr-leonard-s-bakery",
+      "city_id": "honolulu",
+      "neighborhood_id": "kapahulu",
+      "name": {
+        "en": "Leonard's Bakery"
+      },
+      "description": {
+        "en": "A Portuguese-Hawaiian bakery and local institution serving its legendary, sugar-dusted malasadas hot from the fryer since 1952."
+      },
+      "type": "food",
+      "lat": 21.2745,
+      "lng": -157.8155,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-enr-fatboy-s",
+      "city_id": "honolulu",
+      "neighborhood_id": "kapahulu",
+      "name": {
+        "en": "Fatboy's"
+      },
+      "description": {
+        "en": "A casual eatery and a prime example of the classic Hawaiian plate lunch spot, serving budget-friendly comfort food like loco moco."
+      },
+      "type": "food",
+      "lat": 21.2711,
+      "lng": -157.7795,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-enr-queen-emma-summer-palace-hanaiakamalama",
+      "city_id": "honolulu",
+      "neighborhood_id": "nuuanu-valley",
+      "name": {
+        "en": "Queen Emma Summer Palace (Hānaiakamalama)"
+      },
+      "description": {
+        "en": "The secluded summer home of Queen Emma and King Kamehameha IV, offering an intimate look at the personal lives of Hawaiian royalty."
+      },
+      "type": "culture",
+      "lat": 21.3412,
+      "lng": -157.8301,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-enr-japanese-cultural-center-of-hawaii",
+      "city_id": "honolulu",
+      "neighborhood_id": "moiliili",
+      "name": {
+        "en": "Japanese Cultural Center of Hawaii"
+      },
+      "description": {
+        "en": "A multifaceted complex dedicated to telling the story of Japanese immigration and life in Hawaii, featuring a historical gallery and a traditional teahouse."
+      },
+      "type": "culture",
+      "lat": 21.2914,
+      "lng": -157.8278,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-enr-honolulu-museum-of-art",
+      "city_id": "honolulu",
+      "neighborhood_id": "makiki",
+      "name": {
+        "en": "Honolulu Museum of Art"
+      },
+      "description": {
+        "en": "The largest art museum in Hawaii, where galleries are connected by serene, open-air courtyards filled with sculptures and lush greenery."
+      },
+      "type": "culture",
+      "lat": 21.3035,
+      "lng": -157.8464,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-enr-bishop-museum",
+      "city_id": "honolulu",
+      "neighborhood_id": "kalihi-palama",
+      "name": {
+        "en": "Bishop Museum"
+      },
+      "description": {
+        "en": "The definitive museum of Hawaiian and Pacific cultural and natural history, featuring the breathtaking Hawaiian Hall and exhibits on Polynesian voyaging."
+      },
+      "type": "culture",
+      "lat": 21.3328,
+      "lng": -157.8706,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-enr-hoomaluhia-botanical-garden",
+      "city_id": "honolulu",
+      "neighborhood_id": "kaneohe",
+      "name": {
+        "en": "Hoʻomaluhia Botanical Garden"
+      },
+      "description": {
+        "en": "A free, expansive 400-acre park featuring a stunning collection of tropical plants from around the world, set against the dramatic Koʻolau mountains."
+      },
+      "type": "nature",
+      "lat": 21.3953,
+      "lng": -157.8125,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "kapahulu-task-1",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "The Perfect Bite"
+      },
+      "prompt": {
+        "en": "Capture a delicious-looking close-up shot of a local dish or snack you're trying."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-2",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Neighborhood Flavor"
+      },
+      "prompt": {
+        "en": "Photograph a restaurant sign that looks like it's been there for generations."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-3",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Street Scene"
+      },
+      "prompt": {
+        "en": "Take a picture that captures the gritty, unpretentious energy of Kapahulu Avenue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-4",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Sweet Treat Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a local dessert from a neighborhood bakery or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-5",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Ono Grindz Quest"
+      },
+      "prompt": {
+        "en": "Find a food item with a Hawaiian name on a menu and photograph the menu description."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-6",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a brightly colored building or mural and use it as a backdrop for a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-7",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Generations of Flavor"
+      },
+      "prompt": {
+        "en": "Photograph a detail that suggests a long-standing family business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-8",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "The Takeout Box"
+      },
+      "prompt": {
+        "en": "Artfully arrange a classic plate lunch or takeout meal for a photo before you dig in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-9",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Capture the warm light of a neon sign from a local eatery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-10",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Texture Study"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a unique food texture, like a crispy skin or a flaky pastry."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-11",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Culinary Corridor"
+      },
+      "prompt": {
+        "en": "Take a photo looking down the street, showing the variety of local eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-12",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Hidden Menu"
+      },
+      "prompt": {
+        "en": "Find a handwritten sign advertising a 'special of the day' and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-13",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Food Truck Find"
+      },
+      "prompt": {
+        "en": "If you spot a food truck, capture its unique character and menu."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-14",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "My Kapahulu Meal"
+      },
+      "prompt": {
+        "en": "Take a flat-lay photo of your food haul from the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kapahulu-task-15",
+      "neighborhood_id": "kapahulu",
+      "title": {
+        "en": "Local's View"
+      },
+      "prompt": {
+        "en": "Frame a shot from the perspective of someone waiting in line for a popular food spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-1",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Lush Greenery"
+      },
+      "prompt": {
+        "en": "Find a wall of green foliage and take a photo emphasizing its texture and depth."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-2",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Take a selfie in a quiet spot, capturing the serene atmosphere of the valley."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-3",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Misty Mountain"
+      },
+      "prompt": {
+        "en": "Capture a photo of the mist rolling over the valley's ridges."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-4",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Royal Retreat"
+      },
+      "prompt": {
+        "en": "Find a location that looks grand and peaceful enough for royalty and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-5",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use leaves or branches to frame a beautiful view of the valley."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-6",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Filtered Light"
+      },
+      "prompt": {
+        "en": "Photograph the way sunlight filters through the canopy of a large tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-7",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Ancient Witness"
+      },
+      "prompt": {
+        "en": "Find the oldest, most majestic-looking tree you can and take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-8",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Cool Escape"
+      },
+      "prompt": {
+        "en": "Capture an image that conveys the cool, refreshing feeling of being in the valley."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-9",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Inviting Pathways"
+      },
+      "prompt": {
+        "en": "Photograph an inviting path or trail leading deeper into the greenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-10",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Shades of Green"
+      },
+      "prompt": {
+        "en": "Take a photo that includes at least five different shades of green."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-11",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Historical Echoes"
+      },
+      "prompt": {
+        "en": "Find a structure or object that looks like it belongs to another era and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-12",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Vertical View"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up into the branches of a tall tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-13",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Contemplative Corner"
+      },
+      "prompt": {
+        "en": "Find a bench or quiet spot and take a photo from that point of view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-14",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Water's Journey"
+      },
+      "prompt": {
+        "en": "Find a stream or evidence of rainfall and capture its presence in the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "nuuanu-valley-task-15",
+      "neighborhood_id": "nuuanu-valley",
+      "title": {
+        "en": "Whispering Leaves"
+      },
+      "prompt": {
+        "en": "Take a short video capturing the sound of the wind rustling through the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-1",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Heritage Detail"
+      },
+      "prompt": {
+        "en": "Find an example of Japanese architectural influence, like a roof tile or gate, and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-2",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes a traditional element against a modern Honolulu backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-3",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Academic Energy"
+      },
+      "prompt": {
+        "en": "Capture a scene that reflects the neighborhood's proximity to the university."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-4",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Cultural Symbol"
+      },
+      "prompt": {
+        "en": "Photograph a symbol or character that represents Japanese culture in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-5",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a peaceful garden or courtyard and capture its tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-6",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Taste of Japan"
+      },
+      "prompt": {
+        "en": "Find a Japanese snack or drink at a local store and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-7",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "The Art of Simplicity"
+      },
+      "prompt": {
+        "en": "Create a minimalist composition focusing on a single, simple object you find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-8",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Urban Zen"
+      },
+      "prompt": {
+        "en": "Capture an image that blends urban elements with a sense of zen or peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-9",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Discovery Quest"
+      },
+      "prompt": {
+        "en": "Find a sign with Japanese writing on it and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-10",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Neighborhood Lines"
+      },
+      "prompt": {
+        "en": "Photograph the interesting lines and angles of a local building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-11",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Lantern Light"
+      },
+      "prompt": {
+        "en": "If you see any paper lanterns, photograph their delicate structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-12",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Campus Gateway"
+      },
+      "prompt": {
+        "en": "Take a photo looking towards the University of Hawaii campus area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-13",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Generational Story"
+      },
+      "prompt": {
+        "en": "Find something that represents the history of Japanese-Americans in Hawaii and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-14",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Take a picture of a place where people from the community are gathering or interacting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "moiliili-task-15",
+      "neighborhood_id": "moiliili",
+      "title": {
+        "en": "Bonsai Perspective"
+      },
+      "prompt": {
+        "en": "Find a small, manicured plant and photograph it from a low angle to make it look large and majestic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-1",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Courtyard Composition"
+      },
+      "prompt": {
+        "en": "Find a courtyard and capture the interplay of light, shadow, architecture, and plants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-2",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a sculpture from a unique and creative angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-3",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Architectural Lines"
+      },
+      "prompt": {
+        "en": "Find a building with interesting lines and create an abstract photo focusing on its geometry."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-4",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture a dramatic shadow cast by a building, sculpture, or tree in the late afternoon light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-5",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Urban Oasis Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a green space that feels like a hidden oasis within the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-6",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Reflections of Art"
+      },
+      "prompt": {
+        "en": "Use a window, puddle, or polished surface to capture a reflection of the surrounding architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-7",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "Find a single, bright color against a neutral background and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-8",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Nature's Sculpture"
+      },
+      "prompt": {
+        "en": "Photograph a plant or tree that has a unique, sculptural shape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-9",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Design Detail"
+      },
+      "prompt": {
+        "en": "Take a close-up of an interesting design element, like a door handle, tile pattern, or fountain."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-10",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Creative Frame"
+      },
+      "prompt": {
+        "en": "Use an archway, window, or doorway to frame a compelling shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-11",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Light and Form"
+      },
+      "prompt": {
+        "en": "Photograph how natural light interacts with a three-dimensional object or building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-12",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "My Modernist Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes clean lines and geometric shapes in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-13",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Artful Texture"
+      },
+      "prompt": {
+        "en": "Find an interesting texture on a wall or sculpture and take a macro shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-14",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "Peaceful Corner"
+      },
+      "prompt": {
+        "en": "Capture a quiet, inspiring spot that encourages creative thought."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "makiki-task-15",
+      "neighborhood_id": "makiki",
+      "title": {
+        "en": "The Space Between"
+      },
+      "prompt": {
+        "en": "Focus your photo on the negative space between buildings or objects to create an interesting composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-1",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Story in a Structure"
+      },
+      "prompt": {
+        "en": "Photograph an old building that seems to hold a lot of history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-2",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Community Pride"
+      },
+      "prompt": {
+        "en": "Find a mural or sign that expresses local community identity and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-3",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Voyager's View"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at a large structure, to create a sense of scale and awe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-4",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Keeper of Stories"
+      },
+      "prompt": {
+        "en": "Capture an image of a place that seems to preserve history, like a museum, library, or historic site."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-5",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Working-Class Soul"
+      },
+      "prompt": {
+        "en": "Photograph a scene that represents the authentic, non-touristy life of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-6",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Pacific Patterns"
+      },
+      "prompt": {
+        "en": "Find a traditional Hawaiian or Polynesian pattern on a building, fabric, or object."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-7",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "The Wayfinder"
+      },
+      "prompt": {
+        "en": "Take a photo pointing in the direction of the ocean, imagining ancient navigation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-8",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Cultural Treasure"
+      },
+      "prompt": {
+        "en": "Find something you consider a local treasure and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-9",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Industrial Beauty"
+      },
+      "prompt": {
+        "en": "Find beauty in the industrial or functional architecture of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-10",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Neighborhood Heartbeat"
+      },
+      "prompt": {
+        "en": "Take a photo of a local business that seems essential to the community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-11",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Signs of the Past"
+      },
+      "prompt": {
+        "en": "Photograph a faded sign or an old advertisement on the side of a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-12",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "A Deeper Look"
+      },
+      "prompt": {
+        "en": "Take a photo that encourages the viewer to learn more about Hawaiian history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-13",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Local's Perspective"
+      },
+      "prompt": {
+        "en": "Frame a shot that a tourist might overlook but a resident would appreciate."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-14",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "The Soul of the Island"
+      },
+      "prompt": {
+        "en": "Capture an image that you feel represents the true spirit of Hawaii, beyond the beaches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kalihi-palama-task-15",
+      "neighborhood_id": "kalihi-palama",
+      "title": {
+        "en": "Generations"
+      },
+      "prompt": {
+        "en": "Capture a scene that suggests the presence of multiple generations living and working together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-1",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Mountain Majesty"
+      },
+      "prompt": {
+        "en": "Frame a photo with the dramatic Koʻolau Mountains as the dominant subject."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-2",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Tropical Immersion Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you are surrounded by immense tropical plants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-3",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Global Flora"
+      },
+      "prompt": {
+        "en": "Find two plants that look like they come from different parts of the world and photograph them together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-4",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "The Road Ahead"
+      },
+      "prompt": {
+        "en": "Capture a compelling photo of a road or path winding through the lush landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-5",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Use a lake or pond to capture a perfect reflection of the mountains or sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-6",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "A World of Green"
+      },
+      "prompt": {
+        "en": "Take a photo that showcases the incredible variety of green hues in the garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-7",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Leafy Giants"
+      },
+      "prompt": {
+        "en": "Find the largest leaf you can and use your hand or another object to show its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-8",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Rainforest Vibe"
+      },
+      "prompt": {
+        "en": "Find a dense, shaded area and capture the feeling of being in a rainforest."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-9",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Color Burst"
+      },
+      "prompt": {
+        "en": "Photograph a brightly colored tropical flower in extreme close-up."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-10",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Windward Wonder"
+      },
+      "prompt": {
+        "en": "Capture an image that conveys the feeling of the windward side of the island."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-11",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Nature's Cathedral"
+      },
+      "prompt": {
+        "en": "Take a photo looking up through a canopy of tall trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-12",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Birdwatcher's View"
+      },
+      "prompt": {
+        "en": "Try to spot and photograph a local bird in its natural habitat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-13",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Living Sculpture"
+      },
+      "prompt": {
+        "en": "Find a tree with a unique shape, twisted trunk, or interesting roots and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-14",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "Path to Paradise"
+      },
+      "prompt": {
+        "en": "Photograph an inviting trail or walkway that disappears into the foliage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    },
+    {
+      "id": "kaneohe-task-15",
+      "neighborhood_id": "kaneohe",
+      "title": {
+        "en": "The Grand Scale"
+      },
+      "prompt": {
+        "en": "Take a wide, panoramic shot to capture the vastness of the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:42:56.219177+00:00"
+    }
+  ]
+}

@@ -1,0 +1,3286 @@
+{
+  "neighborhoods": [
+    {
+      "id": "french-concession",
+      "city_id": "shanghai",
+      "name": {
+        "en": "The French Concession"
+      },
+      "summary": {
+        "en": "Once known as the 'Paris of the East,' this leafy district is an architectural marvel that blends traditional Chinese shikumen (stone-gate) houses with European design flair. It is characterized by well-preserved 1920s-1940s garden villas, cozy alleyways, and tree-lined streets, bustling with boutique shopping, small galleries, and a cosmopolitan nightlife."
+      },
+      "lat": 31.2,
+      "lng": 121.45,
+      "trending_score": 95
+    },
+    {
+      "id": "jing-an",
+      "city_id": "shanghai",
+      "name": {
+        "en": "Jing'an"
+      },
+      "summary": {
+        "en": "Continuously inhabited since the 3rd century AD, this district is an incredible mix of ancient history and modern commercial power. It features historic residential pockets interspersed with towering skyscrapers and high-end shopping."
+      },
+      "lat": 31.22,
+      "lng": 121.45,
+      "trending_score": 90
+    },
+    {
+      "id": "the-bund",
+      "city_id": "shanghai",
+      "name": {
+        "en": "The Bund & Old International Settlement"
+      },
+      "summary": {
+        "en": "This area serves as the historic core and former colonial riverside. It is defined by its stately 1920s architecture—including Neoclassical, Art Deco, and Gothic styles—that once housed foreign banks and trading companies."
+      },
+      "lat": 31.23,
+      "lng": 121.49,
+      "trending_score": 98
+    },
+    {
+      "id": "old-city",
+      "city_id": "shanghai",
+      "name": {
+        "en": "The Old City (Nanshi)"
+      },
+      "summary": {
+        "en": "The historic walled Chinese area that existed long before the foreign concessions. Though the walls are gone, it preserves ancient wooden architecture, narrow bustling lanes, traditional gardens, and deep cultural roots."
+      },
+      "lat": 31.22,
+      "lng": 121.48,
+      "trending_score": 94
+    },
+    {
+      "id": "hongkou",
+      "city_id": "shanghai",
+      "name": {
+        "en": "Hongkou & North Shanghai"
+      },
+      "summary": {
+        "en": "Located north and east of downtown, this area was the former Japanese concession and a safe haven for Jewish refugees in the 1930s. It offers a unique mix of quiet residential life, deep literary history, and repurposed industrial spaces."
+      },
+      "lat": 31.27,
+      "lng": 121.5,
+      "trending_score": 80
+    },
+    {
+      "id": "pudong",
+      "city_id": "shanghai",
+      "name": {
+        "en": "Pudong (Lujiazui & Riverside)"
+      },
+      "summary": {
+        "en": "A hyper-modern, skyscraper-laden financial and commercial district on the east bank of the Huangpu River. Developed rapidly from farmland since the 1990s, it represents futuristic Shanghai and boasts some of the tallest buildings in the world."
+      },
+      "lat": 31.23,
+      "lng": 121.51,
+      "trending_score": 97
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "french-concession-inferno",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Inferno"
+      },
+      "description": {
+        "en": "A down-to-earth rock 'n' roll bar where locals and expats mingle over tasty booze."
+      },
+      "type": "drink",
+      "lat": 31.201,
+      "lng": 121.452,
+      "trending_score": 80
+    },
+    {
+      "id": "french-concession-shanghai-brewery",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Shanghai Brewery"
+      },
+      "description": {
+        "en": "An independent local brewery serving craft drinks and food."
+      },
+      "type": "drink",
+      "lat": 31.203,
+      "lng": 121.45,
+      "trending_score": 85
+    },
+    {
+      "id": "french-concession-spicy-joint",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Spicy Joint"
+      },
+      "description": {
+        "en": "An extremely popular restaurant known for its excellent Sichuan food served in classy surroundings."
+      },
+      "type": "food",
+      "lat": 31.205,
+      "lng": 121.453,
+      "trending_score": 90
+    },
+    {
+      "id": "french-concession-jian-guo-328",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Jian Guo 328"
+      },
+      "description": {
+        "en": "A beloved local spot for MSG-free, classic Shanghainese dishes like red-braised pork. (Note: Not from sources; verify independently.)"
+      },
+      "type": "food",
+      "lat": 31.2,
+      "lng": 121.455,
+      "trending_score": 88
+    },
+    {
+      "id": "french-concession-tianzifang",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Tianzifang"
+      },
+      "description": {
+        "en": "Overhauled, picturesque shikumen alleyways that emphasize arts, crafts, and unique boutique shopping."
+      },
+      "type": "shopping",
+      "lat": 31.206,
+      "lng": 121.46,
+      "trending_score": 92
+    },
+    {
+      "id": "french-concession-wukang-road",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Wukang Road"
+      },
+      "description": {
+        "en": "A historic street lined with well-preserved garden villas that once housed famous historical figures."
+      },
+      "type": "landmark",
+      "lat": 31.208,
+      "lng": 121.448,
+      "trending_score": 85
+    },
+    {
+      "id": "french-concession-fuxing-park",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Fuxing Park"
+      },
+      "description": {
+        "en": "A park featuring formal French-style gardens where you will likely find locals playing wei qi (Go)."
+      },
+      "type": "nature",
+      "lat": 31.21,
+      "lng": 121.462,
+      "trending_score": 78
+    },
+    {
+      "id": "french-concession-shanghai-propaganda-poster-and-art-centre",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Shanghai Propaganda Poster and Art Centre"
+      },
+      "description": {
+        "en": "A hidden, private collection of uncensored Mao-era posters located inside a residential apartment building."
+      },
+      "type": "hidden_gem",
+      "lat": 31.212,
+      "lng": 121.445,
+      "trending_score": 90
+    },
+    {
+      "id": "jing-an-kaiba",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Kaiba"
+      },
+      "description": {
+        "en": "An independent craft beer bar offering imported Belgian ales and American craft beers in a proper tasting environment."
+      },
+      "type": "drink",
+      "lat": 31.225,
+      "lng": 121.455,
+      "trending_score": 85
+    },
+    {
+      "id": "jing-an-sumerian-coffee",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Sumerian Coffee"
+      },
+      "description": {
+        "en": "An independent local favorite for specialty coffee and bagels. (Note: Not from sources; verify independently.)"
+      },
+      "type": "drink",
+      "lat": 31.22,
+      "lng": 121.45,
+      "trending_score": 82
+    },
+    {
+      "id": "jing-an-xiao-yang-shengjian",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Xiao Yang Shengjian"
+      },
+      "description": {
+        "en": "A legendary, no-frills spot to try authentic sheng jian bao (pan-fried pork buns)."
+      },
+      "type": "food",
+      "lat": 31.223,
+      "lng": 121.457,
+      "trending_score": 93
+    },
+    {
+      "id": "jing-an-mex-co",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Mex & Co"
+      },
+      "description": {
+        "en": "Regarded as one of the best independent Mexican fast-food restaurants in the city."
+      },
+      "type": "food",
+      "lat": 31.224,
+      "lng": 121.458,
+      "trending_score": 78
+    },
+    {
+      "id": "jing-an-jing-an-temple",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Jing'an Temple"
+      },
+      "description": {
+        "en": "A magnificent Buddhist temple with over 1500 years of history sitting directly amidst modern high-rises."
+      },
+      "type": "landmark",
+      "lat": 31.226,
+      "lng": 121.451,
+      "trending_score": 95
+    },
+    {
+      "id": "jing-an-chairman-mao-shanghai-house",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Chairman Mao's Shanghai House"
+      },
+      "description": {
+        "en": "A preserved historic residence offering a glimpse into China's revolutionary history."
+      },
+      "type": "culture",
+      "lat": 31.228,
+      "lng": 121.449,
+      "trending_score": 88
+    },
+    {
+      "id": "jing-an-shanghai-natural-history-museum",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Shanghai Natural History Museum"
+      },
+      "description": {
+        "en": "A striking natural history and science museum located next to the Jing'an Sculpture Park."
+      },
+      "type": "culture",
+      "lat": 31.23,
+      "lng": 121.453,
+      "trending_score": 80
+    },
+    {
+      "id": "jing-an-jing-an-sculpture-park",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Jing'an Sculpture Park"
+      },
+      "description": {
+        "en": "A modern urban park featuring various sculptures, adjacent to the Shanghai Natural History Museum. (Note: Derived from context; verify independently.)"
+      },
+      "type": "nature",
+      "lat": 31.231,
+      "lng": 121.454,
+      "trending_score": 75
+    },
+    {
+      "id": "the-bund-bar-rouge",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "Bar Rouge"
+      },
+      "description": {
+        "en": "A famous, pulsating nightlife spot known for its spectacular skyline views and mix of locals and expats."
+      },
+      "type": "nightlife",
+      "lat": 31.235,
+      "lng": 121.495,
+      "trending_score": 95
+    },
+    {
+      "id": "the-bund-mint",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "MINT"
+      },
+      "description": {
+        "en": "A posh, high-energy nightclub."
+      },
+      "type": "nightlife",
+      "lat": 31.234,
+      "lng": 121.496,
+      "trending_score": 90
+    },
+    {
+      "id": "the-bund-jiajia-tang-bao",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "Jiajia Tang Bao"
+      },
+      "description": {
+        "en": "A highly recommended, no-frills local dining spot serving some of the best xiaolongbao (soup dumplings) in the city."
+      },
+      "type": "food",
+      "lat": 31.23,
+      "lng": 121.488,
+      "trending_score": 96
+    },
+    {
+      "id": "the-bund-yangzhou-fandian",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "Yangzhou Fandian"
+      },
+      "description": {
+        "en": "A local restaurant famous for serving traditional xiefen shizitou (crab meat pork meatballs)."
+      },
+      "type": "food",
+      "lat": 31.232,
+      "lng": 121.489,
+      "trending_score": 89
+    },
+    {
+      "id": "the-bund-holy-trinity-church",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "Holy Trinity Church"
+      },
+      "description": {
+        "en": "A beautiful Anglican cathedral located on the east side of People's Square."
+      },
+      "type": "landmark",
+      "lat": 31.233,
+      "lng": 121.485,
+      "trending_score": 80
+    },
+    {
+      "id": "the-bund-power-station-of-art",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "Power Station of Art"
+      },
+      "description": {
+        "en": "Housed in a converted power plant, this is China's first state-run contemporary art museum."
+      },
+      "type": "culture",
+      "lat": 31.21,
+      "lng": 121.498,
+      "trending_score": 85
+    },
+    {
+      "id": "the-bund-bund-historical-museum",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "Bund Historical Museum"
+      },
+      "description": {
+        "en": "Located in a park at the north end of the Bund, offering historical context to the waterfront."
+      },
+      "type": "culture",
+      "lat": 31.24,
+      "lng": 121.49,
+      "trending_score": 75
+    },
+    {
+      "id": "the-bund-the-bund-waterfront",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "The Bund Waterfront"
+      },
+      "description": {
+        "en": "Shanghai's iconic waterfront promenade, offering stunning views of the colonial-era buildings and Pudong skyline. (Note: Derived from context; verify independently.)"
+      },
+      "type": "viewpoint",
+      "lat": 31.238,
+      "lng": 121.492,
+      "trending_score": 99
+    },
+    {
+      "id": "old-city-huxingting-tea-house",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Huxingting Tea House"
+      },
+      "description": {
+        "en": "A classic, historic tea house situated in the middle of a traditional pond."
+      },
+      "type": "drink",
+      "lat": 31.225,
+      "lng": 121.489,
+      "trending_score": 90
+    },
+    {
+      "id": "old-city-old-shanghai-teahouse",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Old Shanghai Teahouse"
+      },
+      "description": {
+        "en": "A quaint spot filled with antiques and local charm. (Note: Not from sources; verify independently.)"
+      },
+      "type": "drink",
+      "lat": 31.224,
+      "lng": 121.488,
+      "trending_score": 85
+    },
+    {
+      "id": "old-city-nanxiang-steamed-bun-shop",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Nanxiang Steamed Bun Shop"
+      },
+      "description": {
+        "en": "A historic take-out window serving legendary dumplings; be prepared for crowds."
+      },
+      "type": "food",
+      "lat": 31.226,
+      "lng": 121.49,
+      "trending_score": 97
+    },
+    {
+      "id": "old-city-lu-bo-lang",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Lu Bo Lang"
+      },
+      "description": {
+        "en": "Famous for its traditional Shanghai snacks and multi-layered pastries. (Note: Not from sources; verify independently.)"
+      },
+      "type": "food",
+      "lat": 31.227,
+      "lng": 121.491,
+      "trending_score": 88
+    },
+    {
+      "id": "old-city-yuyuan-gardens",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Yuyuan (Yu) Gardens"
+      },
+      "description": {
+        "en": "A nearly 500-year-old classical Jiangnan-style garden filled with pavilions and ponds."
+      },
+      "type": "nature",
+      "lat": 31.228,
+      "lng": 121.487,
+      "trending_score": 96
+    },
+    {
+      "id": "old-city-dongtai-road-antique-market",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Dongtai Road Antique Market"
+      },
+      "description": {
+        "en": "A bustling market for jade, antiques, and Mao-era memorabilia where bargaining is essential."
+      },
+      "type": "shopping",
+      "lat": 31.215,
+      "lng": 121.485,
+      "trending_score": 87
+    },
+    {
+      "id": "old-city-temple-of-the-town-god",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Temple of the Town God (Chenghuang Miao)"
+      },
+      "description": {
+        "en": "The spiritual heart of the Old City, dedicated to the city's protector deities."
+      },
+      "type": "landmark",
+      "lat": 31.223,
+      "lng": 121.49,
+      "trending_score": 91
+    },
+    {
+      "id": "old-city-shanghai-confucian-temple",
+      "city_id": "shanghai",
+      "neighborhood_id": "old-city",
+      "name": {
+        "en": "Shanghai Confucian Temple (Wen Miao)"
+      },
+      "description": {
+        "en": "A serene oasis dedicated to Confucius."
+      },
+      "type": "culture",
+      "lat": 31.218,
+      "lng": 121.48,
+      "trending_score": 82
+    },
+    {
+      "id": "hongkou-1933-cafe",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "1933 Cafe"
+      },
+      "description": {
+        "en": "A quirky cafe nestled inside the historic abattoir. (Note: Not from sources; verify independently.)"
+      },
+      "type": "drink",
+      "lat": 31.275,
+      "lng": 121.505,
+      "trending_score": 85
+    },
+    {
+      "id": "hongkou-lu-xun-park-teahouse",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "Lu Xun Park Teahouse"
+      },
+      "description": {
+        "en": "A traditional spot to enjoy tea by the lake. (Note: Not from sources; verify independently.)"
+      },
+      "type": "drink",
+      "lat": 31.27,
+      "lng": 121.498,
+      "trending_score": 75
+    },
+    {
+      "id": "hongkou-guangming-cun",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "Guangming Cun"
+      },
+      "description": {
+        "en": "A local favorite for fresh, traditional Shanghai deli foods and pastries. (Note: Not from sources; verify independently.)"
+      },
+      "type": "food",
+      "lat": 31.272,
+      "lng": 121.5,
+      "trending_score": 82
+    },
+    {
+      "id": "hongkou-sichuan-north-road-noodle-shops",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "Sichuan North Road Noodle Shops"
+      },
+      "description": {
+        "en": "The area is known for authentic hole-in-the-wall spots serving rich noodle soups. (Note: Not from sources; verify independently.)"
+      },
+      "type": "food",
+      "lat": 31.273,
+      "lng": 121.501,
+      "trending_score": 80
+    },
+    {
+      "id": "hongkou-1933-shanghai",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "1933 Shanghai"
+      },
+      "description": {
+        "en": "A former abattoir converted into a creative hub with theaters, studios, and boutique shops."
+      },
+      "type": "culture",
+      "lat": 31.276,
+      "lng": 121.506,
+      "trending_score": 90
+    },
+    {
+      "id": "hongkou-lu-xun-park-and-tomb",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "Lu Xun Park and Tomb"
+      },
+      "description": {
+        "en": "Dedicated to the famous writer, this park features a lake, kids' rides, and historical monuments."
+      },
+      "type": "nature",
+      "lat": 31.271,
+      "lng": 121.499,
+      "trending_score": 83
+    },
+    {
+      "id": "hongkou-shanghai-jewish-refugees-museum",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "Shanghai Jewish Refugees Museum (Ohel Moishe Synagogue)"
+      },
+      "description": {
+        "en": "Commemorates the thousands of Jewish refugees who fled Nazi Germany and settled in Shanghai."
+      },
+      "type": "culture",
+      "lat": 31.278,
+      "lng": 121.508,
+      "trending_score": 89
+    },
+    {
+      "id": "hongkou-duolun-road-cultural-street",
+      "city_id": "shanghai",
+      "neighborhood_id": "hongkou",
+      "name": {
+        "en": "Duolun Road Cultural Street"
+      },
+      "description": {
+        "en": "A historic pedestrian street known for its literary heritage, old residences, and antique shops. (Note: Independently verifiable place in Hongkou.)"
+      },
+      "type": "landmark",
+      "lat": 31.28,
+      "lng": 121.502,
+      "trending_score": 78
+    },
+    {
+      "id": "pudong-flair-rooftop",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Flair Rooftop"
+      },
+      "description": {
+        "en": "Located high up in the Ritz-Carlton, offering unmatched river views. (Note: Not from sources; verify independently.)"
+      },
+      "type": "viewpoint",
+      "lat": 31.238,
+      "lng": 121.508,
+      "trending_score": 92
+    },
+    {
+      "id": "pudong-seesaw-coffee",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Seesaw Coffee"
+      },
+      "description": {
+        "en": "A famous Chinese independent specialty coffee roaster. (Note: Not from sources; verify independently.)"
+      },
+      "type": "drink",
+      "lat": 31.235,
+      "lng": 121.509,
+      "trending_score": 80
+    },
+    {
+      "id": "pudong-din-tai-fung",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Din Tai Fung"
+      },
+      "description": {
+        "en": "An internationally renowned spot famous for its xiaolongbao; while it operates multiple locations, its Pudong outpost is highly recommended for world-class dumplings."
+      },
+      "type": "food",
+      "lat": 31.237,
+      "lng": 121.51,
+      "trending_score": 98
+    },
+    {
+      "id": "pudong-jade-on-36",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Jade on 36"
+      },
+      "description": {
+        "en": "An independent fine-dining experience with spectacular skyline views. (Note: Not from sources; verify independently.)"
+      },
+      "type": "food",
+      "lat": 31.236,
+      "lng": 121.511,
+      "trending_score": 90
+    },
+    {
+      "id": "pudong-shanghai-tower",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Shanghai Tower"
+      },
+      "description": {
+        "en": "Currently the tallest building in China, featuring a massive spiraling architectural design."
+      },
+      "type": "landmark",
+      "lat": 31.235,
+      "lng": 121.505,
+      "trending_score": 99
+    },
+    {
+      "id": "pudong-oriental-pearl-tower",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Oriental Pearl Tower"
+      },
+      "description": {
+        "en": "A massive, iconic TV tower with distinctive spheres."
+      },
+      "type": "landmark",
+      "lat": 31.239,
+      "lng": 121.503,
+      "trending_score": 97
+    },
+    {
+      "id": "pudong-shanghai-municipal-history-museum",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Shanghai Municipal History Museum"
+      },
+      "description": {
+        "en": "Located underneath the Pearl Tower, it offers a fascinating look into the city's past."
+      },
+      "type": "culture",
+      "lat": 31.239,
+      "lng": 121.504,
+      "trending_score": 85
+    },
+    {
+      "id": "pudong-lujiazui-footbridges",
+      "city_id": "shanghai",
+      "neighborhood_id": "pudong",
+      "name": {
+        "en": "Lujiazui Footbridges"
+      },
+      "description": {
+        "en": "A network of pedestrian-friendly footbridges offering unobstructed views for photographing the towering skyscrapers of Pudong. (Note: Derived from context; verify independently.)"
+      },
+      "type": "viewpoint",
+      "lat": 31.237,
+      "lng": 121.507,
+      "trending_score": 93
+    },
+    {
+      "id": "the-bund-enr-bund-sightseeing-tunnel",
+      "city_id": "shanghai",
+      "neighborhood_id": "the-bund",
+      "name": {
+        "en": "Bund Sightseeing Tunnel"
+      },
+      "description": {
+        "en": "A psychedelic and bizarre tourist tunnel under the Huangpu river, described as a leisurely descent into madness with its trippy light show."
+      },
+      "type": "hidden_gem",
+      "lat": 31.2401,
+      "lng": 121.4935,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-enr-shanghai-marriage-market",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Shanghai Marriage Market"
+      },
+      "description": {
+        "en": "A weekend market in People's Park where parents gather to find suitable partners for their adult children, hawking their stats like a meat market."
+      },
+      "type": "culture",
+      "lat": 31.2325,
+      "lng": 121.4752,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-enr-shanghart-supermarket",
+      "city_id": "shanghai",
+      "neighborhood_id": "french-concession",
+      "name": {
+        "en": "Shanghart Supermarket"
+      },
+      "description": {
+        "en": "An art installation that looks like a typical convenience store, but all the bottles are empty and containers are filled with nothing but air."
+      },
+      "type": "hidden_gem",
+      "lat": 31.2155,
+      "lng": 121.4581,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-enr-shanghai-jing-an-park",
+      "city_id": "shanghai",
+      "neighborhood_id": "jing-an",
+      "name": {
+        "en": "Shanghai Jing'an Park"
+      },
+      "description": {
+        "en": "A tranquil green space in the bustling Jing'an district, located right next to the famous Jing'an Temple, offering a peaceful respite."
+      },
+      "type": "nature",
+      "lat": 31.2252,
+      "lng": 121.4485,
+      "trending_score": 68,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "french-concession-inferno-task-1",
+      "waypoint_id": "french-concession-inferno",
+      "title": {
+        "en": "Rock 'n' Roll Vibe"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of Inferno with its rock 'n' roll vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-inferno-task-2",
+      "waypoint_id": "french-concession-inferno",
+      "title": {
+        "en": "Tasty Booze"
+      },
+      "prompt": {
+        "en": "Photograph a unique drink from Inferno's menu."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-shanghai-brewery-task-1",
+      "waypoint_id": "french-concession-shanghai-brewery",
+      "title": {
+        "en": "Craft Brew Showcase"
+      },
+      "prompt": {
+        "en": "Showcase a craft beer from Shanghai Brewery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-shanghai-brewery-task-2",
+      "waypoint_id": "french-concession-shanghai-brewery",
+      "title": {
+        "en": "Brewery Ambiance"
+      },
+      "prompt": {
+        "en": "Capture the exterior or interior ambiance of Shanghai Brewery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-spicy-joint-task-1",
+      "waypoint_id": "french-concession-spicy-joint",
+      "title": {
+        "en": "Sichuan Delights"
+      },
+      "prompt": {
+        "en": "Photograph a vibrant Sichuan dish at Spicy Joint."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-spicy-joint-task-2",
+      "waypoint_id": "french-concession-spicy-joint",
+      "title": {
+        "en": "Classy Dining"
+      },
+      "prompt": {
+        "en": "Capture the classy interior of Spicy Joint."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-jian-guo-328-task-1",
+      "waypoint_id": "french-concession-jian-guo-328",
+      "title": {
+        "en": "Red-Braised Pork"
+      },
+      "prompt": {
+        "en": "Capture the signature red-braised pork at Jian Guo 328."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-jian-guo-328-task-2",
+      "waypoint_id": "french-concession-jian-guo-328",
+      "title": {
+        "en": "Local Charm"
+      },
+      "prompt": {
+        "en": "Photograph the local charm of Jian Guo 328."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-tianzifang-task-1",
+      "waypoint_id": "french-concession-tianzifang",
+      "title": {
+        "en": "Boutique Alleyways"
+      },
+      "prompt": {
+        "en": "Capture the unique boutique shopping experience in Tianzifang's alleyways."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-tianzifang-task-2",
+      "waypoint_id": "french-concession-tianzifang",
+      "title": {
+        "en": "Shikumen Charm"
+      },
+      "prompt": {
+        "en": "Photograph the picturesque shikumen architecture in Tianzifang."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-wukang-road-task-1",
+      "waypoint_id": "french-concession-wukang-road",
+      "title": {
+        "en": "Historic Villas"
+      },
+      "prompt": {
+        "en": "Capture the historic charm of Wukang Road, focusing on a garden villa."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-wukang-road-task-2",
+      "waypoint_id": "french-concession-wukang-road",
+      "title": {
+        "en": "Tree-Lined Streets"
+      },
+      "prompt": {
+        "en": "Photograph the tree-lined streetscape of Wukang Road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-fuxing-park-task-1",
+      "waypoint_id": "french-concession-fuxing-park",
+      "title": {
+        "en": "Board Game Intensity"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of elderly locals locked in an intense board game at Fuxing Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-fuxing-park-task-2",
+      "waypoint_id": "french-concession-fuxing-park",
+      "title": {
+        "en": "French Gardens"
+      },
+      "prompt": {
+        "en": "Photograph the formal French-style gardens within Fuxing Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-shanghai-propaganda-poster-and-art-centre-task-1",
+      "waypoint_id": "french-concession-shanghai-propaganda-poster-and-art-centre",
+      "title": {
+        "en": "Space-Exploration Poster"
+      },
+      "prompt": {
+        "en": "Find a poster featuring a unique space-exploration theme at the Propaganda Poster Centre and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-shanghai-propaganda-poster-and-art-centre-task-2",
+      "waypoint_id": "french-concession-shanghai-propaganda-poster-and-art-centre",
+      "title": {
+        "en": "Hidden Entrance"
+      },
+      "prompt": {
+        "en": "Capture the discreet entrance or exterior of this hidden art center."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-kaiba-task-1",
+      "waypoint_id": "jing-an-kaiba",
+      "title": {
+        "en": "Craft Beer Selection"
+      },
+      "prompt": {
+        "en": "Capture the unique selection of imported craft beers at Kaiba."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-kaiba-task-2",
+      "waypoint_id": "jing-an-kaiba",
+      "title": {
+        "en": "Inviting Interior"
+      },
+      "prompt": {
+        "en": "Photograph the inviting interior of this independent beer bar."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-sumerian-coffee-task-1",
+      "waypoint_id": "jing-an-sumerian-coffee",
+      "title": {
+        "en": "Specialty Coffee"
+      },
+      "prompt": {
+        "en": "Showcase a specialty coffee drink from Sumerian Coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-sumerian-coffee-task-2",
+      "waypoint_id": "jing-an-sumerian-coffee",
+      "title": {
+        "en": "Local Coffee Spot"
+      },
+      "prompt": {
+        "en": "Capture the local favorite coffee shop's ambiance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-xiao-yang-shengjian-task-1",
+      "waypoint_id": "jing-an-xiao-yang-shengjian",
+      "title": {
+        "en": "Steaming Sheng Jian Bao"
+      },
+      "prompt": {
+        "en": "Photograph the steam escaping from a freshly bitten sheng jian bao at Xiao Yang Shengjian."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-xiao-yang-shengjian-task-2",
+      "waypoint_id": "jing-an-xiao-yang-shengjian",
+      "title": {
+        "en": "Legendary Spot"
+      },
+      "prompt": {
+        "en": "Capture the bustling, no-frills atmosphere of this legendary food spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-mex-co-task-1",
+      "waypoint_id": "jing-an-mex-co",
+      "title": {
+        "en": "Mexican Flavors"
+      },
+      "prompt": {
+        "en": "Photograph a vibrant dish from Mex & Co, highlighting its Mexican flavors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-mex-co-task-2",
+      "waypoint_id": "jing-an-mex-co",
+      "title": {
+        "en": "Fast-Food Energy"
+      },
+      "prompt": {
+        "en": "Capture the lively fast-food restaurant environment of Mex & Co."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-jing-an-temple-task-1",
+      "waypoint_id": "jing-an-jing-an-temple",
+      "title": {
+        "en": "Temple vs. Skyscrapers"
+      },
+      "prompt": {
+        "en": "Capture the golden rooftops of Jing'an Temple contrasting sharply with the modern glass skyscrapers looming behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-jing-an-temple-task-2",
+      "waypoint_id": "jing-an-jing-an-temple",
+      "title": {
+        "en": "Buddhist Architecture"
+      },
+      "prompt": {
+        "en": "Photograph the intricate Buddhist architecture of Jing'an Temple."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-chairman-mao-shanghai-house-task-1",
+      "waypoint_id": "jing-an-chairman-mao-shanghai-house",
+      "title": {
+        "en": "Revolutionary History"
+      },
+      "prompt": {
+        "en": "Capture a historical artifact or room inside Chairman Mao's Shanghai House."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-chairman-mao-shanghai-house-task-2",
+      "waypoint_id": "jing-an-chairman-mao-shanghai-house",
+      "title": {
+        "en": "Preserved Residence"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of this preserved revolutionary residence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-shanghai-natural-history-museum-task-1",
+      "waypoint_id": "jing-an-shanghai-natural-history-museum",
+      "title": {
+        "en": "Striking Exhibit"
+      },
+      "prompt": {
+        "en": "Capture a striking exhibit or architectural detail inside the Shanghai Natural History Museum."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-shanghai-natural-history-museum-task-2",
+      "waypoint_id": "jing-an-shanghai-natural-history-museum",
+      "title": {
+        "en": "Modern Facade"
+      },
+      "prompt": {
+        "en": "Photograph the modern facade of the Shanghai Natural History Museum."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-jing-an-sculpture-park-task-1",
+      "waypoint_id": "jing-an-jing-an-sculpture-park",
+      "title": {
+        "en": "Urban Sculpture"
+      },
+      "prompt": {
+        "en": "Capture an interesting sculpture within Jing'an Sculpture Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "jing-an-jing-an-sculpture-park-task-2",
+      "waypoint_id": "jing-an-jing-an-sculpture-park",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Photograph the green spaces of the park amidst the urban landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-bar-rouge-task-1",
+      "waypoint_id": "the-bund-bar-rouge",
+      "title": {
+        "en": "Skyline Views"
+      },
+      "prompt": {
+        "en": "Capture the spectacular skyline view from Bar Rouge."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-bar-rouge-task-2",
+      "waypoint_id": "the-bund-bar-rouge",
+      "title": {
+        "en": "Nightlife Energy"
+      },
+      "prompt": {
+        "en": "Photograph the vibrant nightlife energy of Bar Rouge."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-mint-task-1",
+      "waypoint_id": "the-bund-mint",
+      "title": {
+        "en": "Posh Ambiance"
+      },
+      "prompt": {
+        "en": "Capture the posh and high-energy ambiance of MINT nightclub."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-mint-task-2",
+      "waypoint_id": "the-bund-mint",
+      "title": {
+        "en": "Unique Design"
+      },
+      "prompt": {
+        "en": "Photograph a unique architectural or design element within MINT."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-jiajia-tang-bao-task-1",
+      "waypoint_id": "the-bund-jiajia-tang-bao",
+      "title": {
+        "en": "Perfect Dumplings"
+      },
+      "prompt": {
+        "en": "Photograph a dozen dumplings perfectly lined up in their bamboo steamer at Jiajia Tang Bao."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-jiajia-tang-bao-task-2",
+      "waypoint_id": "the-bund-jiajia-tang-bao",
+      "title": {
+        "en": "Local Dining"
+      },
+      "prompt": {
+        "en": "Capture the authentic, no-frills local dining experience at Jiajia Tang Bao."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-yangzhou-fandian-task-1",
+      "waypoint_id": "the-bund-yangzhou-fandian",
+      "title": {
+        "en": "Crab Meat Pork Meatballs"
+      },
+      "prompt": {
+        "en": "Photograph the traditional xiefen shizitou (crab meat pork meatballs) at Yangzhou Fandian."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-yangzhou-fandian-task-2",
+      "waypoint_id": "the-bund-yangzhou-fandian",
+      "title": {
+        "en": "Classic Restaurant"
+      },
+      "prompt": {
+        "en": "Capture the classic local restaurant setting of Yangzhou Fandian."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-holy-trinity-church-task-1",
+      "waypoint_id": "the-bund-holy-trinity-church",
+      "title": {
+        "en": "Anglican Architecture"
+      },
+      "prompt": {
+        "en": "Capture the beautiful Anglican architecture of Holy Trinity Church."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-holy-trinity-church-task-2",
+      "waypoint_id": "the-bund-holy-trinity-church",
+      "title": {
+        "en": "People's Square Setting"
+      },
+      "prompt": {
+        "en": "Photograph the church's setting near People's Square."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-power-station-of-art-task-1",
+      "waypoint_id": "the-bund-power-station-of-art",
+      "title": {
+        "en": "Repurposed Smokestack"
+      },
+      "prompt": {
+        "en": "Capture the massive, repurposed smokestack outside the Power Station of Art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-power-station-of-art-task-2",
+      "waypoint_id": "the-bund-power-station-of-art",
+      "title": {
+        "en": "Contemporary Art"
+      },
+      "prompt": {
+        "en": "Photograph a piece of contemporary art inside China's first state-run contemporary art museum."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-bund-historical-museum-task-1",
+      "waypoint_id": "the-bund-bund-historical-museum",
+      "title": {
+        "en": "Historical Context"
+      },
+      "prompt": {
+        "en": "Capture an exhibit detailing the historical context of the Bund waterfront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-bund-historical-museum-task-2",
+      "waypoint_id": "the-bund-bund-historical-museum",
+      "title": {
+        "en": "Museum Exterior"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of the museum within its park setting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-the-bund-waterfront-task-1",
+      "waypoint_id": "the-bund-the-bund-waterfront",
+      "title": {
+        "en": "Colonial Panorama"
+      },
+      "prompt": {
+        "en": "Capture a panoramic view of the colonial-era buildings along the Bund."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-bund-the-bund-waterfront-task-2",
+      "waypoint_id": "the-bund-the-bund-waterfront",
+      "title": {
+        "en": "Pudong Skyline"
+      },
+      "prompt": {
+        "en": "Photograph the contrasting modern skyline of Pudong from the Bund."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-huxingting-tea-house-task-1",
+      "waypoint_id": "old-city-huxingting-tea-house",
+      "title": {
+        "en": "Zig-Zag Bridge"
+      },
+      "prompt": {
+        "en": "Take a photo of the zig-zag bridge leading to the Huxingting Tea House (designed to keep evil spirits away)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-huxingting-tea-house-task-2",
+      "waypoint_id": "old-city-huxingting-tea-house",
+      "title": {
+        "en": "Tea House Architecture"
+      },
+      "prompt": {
+        "en": "Capture the traditional architecture of the tea house amidst the pond."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-old-shanghai-teahouse-task-1",
+      "waypoint_id": "old-city-old-shanghai-teahouse",
+      "title": {
+        "en": "Antique Charm"
+      },
+      "prompt": {
+        "en": "Photograph an antique or charming detail inside the Old Shanghai Teahouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-old-shanghai-teahouse-task-2",
+      "waypoint_id": "old-city-old-shanghai-teahouse",
+      "title": {
+        "en": "Quaint Atmosphere"
+      },
+      "prompt": {
+        "en": "Capture the quaint and local atmosphere of this teahouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-nanxiang-steamed-bun-shop-task-1",
+      "waypoint_id": "old-city-nanxiang-steamed-bun-shop",
+      "title": {
+        "en": "Legendary Dumplings"
+      },
+      "prompt": {
+        "en": "Capture the legendary dumplings from Nanxiang Steamed Bun Shop, showing the crowds if possible."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-nanxiang-steamed-bun-shop-task-2",
+      "waypoint_id": "old-city-nanxiang-steamed-bun-shop",
+      "title": {
+        "en": "Historic Take-Out"
+      },
+      "prompt": {
+        "en": "Photograph the historic take-out window and its surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-lu-bo-lang-task-1",
+      "waypoint_id": "old-city-lu-bo-lang",
+      "title": {
+        "en": "Traditional Snacks"
+      },
+      "prompt": {
+        "en": "Showcase the traditional Shanghai snacks or multi-layered pastries from Lu Bo Lang."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-lu-bo-lang-task-2",
+      "waypoint_id": "old-city-lu-bo-lang",
+      "title": {
+        "en": "Yuyuan Bazaar Spot"
+      },
+      "prompt": {
+        "en": "Capture the essence of this famous snack spot in Yuyuan Bazaar."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-yuyuan-gardens-task-1",
+      "waypoint_id": "old-city-yuyuan-gardens",
+      "title": {
+        "en": "Pavilions and Ponds"
+      },
+      "prompt": {
+        "en": "Capture a picturesque view of the pavilions and ponds within Yuyuan Gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-yuyuan-gardens-task-2",
+      "waypoint_id": "old-city-yuyuan-gardens",
+      "title": {
+        "en": "Jiangnan Details"
+      },
+      "prompt": {
+        "en": "Photograph a unique architectural detail or rockery in the classical Jiangnan-style garden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-dongtai-road-antique-market-task-1",
+      "waypoint_id": "old-city-dongtai-road-antique-market",
+      "title": {
+        "en": "Strangest Memorabilia"
+      },
+      "prompt": {
+        "en": "Find the strangest piece of vintage memorabilia at the Dongtai Road Antique Market and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-dongtai-road-antique-market-task-2",
+      "waypoint_id": "old-city-dongtai-road-antique-market",
+      "title": {
+        "en": "Bustling Market"
+      },
+      "prompt": {
+        "en": "Capture the bustling atmosphere of the market, highlighting items like jade or antiques."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-temple-of-the-town-god-task-1",
+      "waypoint_id": "old-city-temple-of-the-town-god",
+      "title": {
+        "en": "Protector Deities"
+      },
+      "prompt": {
+        "en": "Photograph the ornate entrance or a deity statue at the Temple of the Town God."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-temple-of-the-town-god-task-2",
+      "waypoint_id": "old-city-temple-of-the-town-god",
+      "title": {
+        "en": "Spiritual Heart"
+      },
+      "prompt": {
+        "en": "Capture the spiritual ambiance of this important Old City temple."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-shanghai-confucian-temple-task-1",
+      "waypoint_id": "old-city-shanghai-confucian-temple",
+      "title": {
+        "en": "Serene Oasis"
+      },
+      "prompt": {
+        "en": "Capture the serene and peaceful atmosphere of the Shanghai Confucian Temple."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-city-shanghai-confucian-temple-task-2",
+      "waypoint_id": "old-city-shanghai-confucian-temple",
+      "title": {
+        "en": "Confucius Dedication"
+      },
+      "prompt": {
+        "en": "Photograph an architectural element dedicated to Confucius."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-1933-cafe-task-1",
+      "waypoint_id": "hongkou-1933-cafe",
+      "title": {
+        "en": "Quirky Cafe Interior"
+      },
+      "prompt": {
+        "en": "Capture the quirky interior design of 1933 Cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-1933-cafe-task-2",
+      "waypoint_id": "hongkou-1933-cafe",
+      "title": {
+        "en": "Historic Setting Beverage"
+      },
+      "prompt": {
+        "en": "Photograph a unique beverage served in this historic setting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-lu-xun-park-teahouse-task-1",
+      "waypoint_id": "hongkou-lu-xun-park-teahouse",
+      "title": {
+        "en": "Lake View Tea"
+      },
+      "prompt": {
+        "en": "Capture the serene view of the lake from the Lu Xun Park Teahouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-lu-xun-park-teahouse-task-2",
+      "waypoint_id": "hongkou-lu-xun-park-teahouse",
+      "title": {
+        "en": "Traditional Tea"
+      },
+      "prompt": {
+        "en": "Photograph a traditional tea ceremony or setting at the teahouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-guangming-cun-task-1",
+      "waypoint_id": "hongkou-guangming-cun",
+      "title": {
+        "en": "Shanghai Deli Delights"
+      },
+      "prompt": {
+        "en": "Showcase a traditional Shanghai pastry or deli item from Guangming Cun."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-guangming-cun-task-2",
+      "waypoint_id": "hongkou-guangming-cun",
+      "title": {
+        "en": "Local Favorite Atmosphere"
+      },
+      "prompt": {
+        "en": "Capture the local atmosphere of this popular food spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-sichuan-north-road-noodle-shops-task-1",
+      "waypoint_id": "hongkou-sichuan-north-road-noodle-shops",
+      "title": {
+        "en": "Rich Noodle Soup"
+      },
+      "prompt": {
+        "en": "Photograph a steaming bowl of authentic noodle soup from a local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-sichuan-north-road-noodle-shops-task-2",
+      "waypoint_id": "hongkou-sichuan-north-road-noodle-shops",
+      "title": {
+        "en": "Hole-in-the-Wall Charm"
+      },
+      "prompt": {
+        "en": "Capture the humble, hole-in-the-wall charm of a noodle shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-1933-shanghai-task-1",
+      "waypoint_id": "hongkou-1933-shanghai",
+      "title": {
+        "en": "Escher-like Staircases"
+      },
+      "prompt": {
+        "en": "Take a dizzying upward shot of the interlacing concrete ramps and 'Escher-like' staircases at 1933 Shanghai."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-1933-shanghai-task-2",
+      "waypoint_id": "hongkou-1933-shanghai",
+      "title": {
+        "en": "Creative Hub"
+      },
+      "prompt": {
+        "en": "Photograph a creative art installation or boutique within the converted abattoir."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-lu-xun-park-and-tomb-task-1",
+      "waypoint_id": "hongkou-lu-xun-park-and-tomb",
+      "title": {
+        "en": "Lu Xun's Tomb"
+      },
+      "prompt": {
+        "en": "Snap a respectful, quiet photo of Lu Xun's tomb in the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-lu-xun-park-and-tomb-task-2",
+      "waypoint_id": "hongkou-lu-xun-park-and-tomb",
+      "title": {
+        "en": "Tranquil Park"
+      },
+      "prompt": {
+        "en": "Capture the tranquil lake or other historical monuments in Lu Xun Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-shanghai-jewish-refugees-museum-task-1",
+      "waypoint_id": "hongkou-shanghai-jewish-refugees-museum",
+      "title": {
+        "en": "Refugee Commemoration"
+      },
+      "prompt": {
+        "en": "Photograph an exhibit or artifact commemorating Jewish refugees at the museum."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-shanghai-jewish-refugees-museum-task-2",
+      "waypoint_id": "hongkou-shanghai-jewish-refugees-museum",
+      "title": {
+        "en": "Ohel Moishe Synagogue"
+      },
+      "prompt": {
+        "en": "Capture the exterior of the historic Ohel Moishe Synagogue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-duolun-road-cultural-street-task-1",
+      "waypoint_id": "hongkou-duolun-road-cultural-street",
+      "title": {
+        "en": "Literary Heritage"
+      },
+      "prompt": {
+        "en": "Capture the literary ambiance of Duolun Road, focusing on historical architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "hongkou-duolun-road-cultural-street-task-2",
+      "waypoint_id": "hongkou-duolun-road-cultural-street",
+      "title": {
+        "en": "Antique Finds"
+      },
+      "prompt": {
+        "en": "Photograph an antique shop or a unique street detail on Duolun Road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-flair-rooftop-task-1",
+      "waypoint_id": "pudong-flair-rooftop",
+      "title": {
+        "en": "Unmatched River Views"
+      },
+      "prompt": {
+        "en": "Capture the unparalleled river and skyline views from Flair Rooftop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-flair-rooftop-task-2",
+      "waypoint_id": "pudong-flair-rooftop",
+      "title": {
+        "en": "Sophisticated Ambiance"
+      },
+      "prompt": {
+        "en": "Photograph the sophisticated ambiance of this high-altitude bar."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-seesaw-coffee-task-1",
+      "waypoint_id": "pudong-seesaw-coffee",
+      "title": {
+        "en": "Specialty Coffee Creation"
+      },
+      "prompt": {
+        "en": "Showcase a unique coffee creation from Seesaw Coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-seesaw-coffee-task-2",
+      "waypoint_id": "pudong-seesaw-coffee",
+      "title": {
+        "en": "Modern Coffee Spot"
+      },
+      "prompt": {
+        "en": "Capture the modern and inviting atmosphere of this specialty coffee roaster."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-din-tai-fung-task-1",
+      "waypoint_id": "pudong-din-tai-fung",
+      "title": {
+        "en": "Perfect Xiaolongbao"
+      },
+      "prompt": {
+        "en": "Photograph a perfectly crafted xiaolongbao at Din Tai Fung, showing its delicate folds."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-din-tai-fung-task-2",
+      "waypoint_id": "pudong-din-tai-fung",
+      "title": {
+        "en": "World-Class Dining"
+      },
+      "prompt": {
+        "en": "Capture the elegant dining environment of this world-renowned dumpling spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-jade-on-36-task-1",
+      "waypoint_id": "pudong-jade-on-36",
+      "title": {
+        "en": "Fine Dining with a View"
+      },
+      "prompt": {
+        "en": "Capture a beautifully plated dish from Jade on 36 with the city skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-jade-on-36-task-2",
+      "waypoint_id": "pudong-jade-on-36",
+      "title": {
+        "en": "Luxurious Interior"
+      },
+      "prompt": {
+        "en": "Photograph the luxurious interior and fine dining setting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-shanghai-tower-task-1",
+      "waypoint_id": "pudong-shanghai-tower",
+      "title": {
+        "en": "Twisting Facade Upward Shot"
+      },
+      "prompt": {
+        "en": "Stand at the base of the Shanghai Tower and shoot straight up to capture the twisting facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-shanghai-tower-task-2",
+      "waypoint_id": "pudong-shanghai-tower",
+      "title": {
+        "en": "Tallest in China"
+      },
+      "prompt": {
+        "en": "Photograph the impressive height and modern design of China's tallest building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-oriental-pearl-tower-task-1",
+      "waypoint_id": "pudong-oriental-pearl-tower",
+      "title": {
+        "en": "Iconic Spheres"
+      },
+      "prompt": {
+        "en": "Capture the distinctive spheres and iconic structure of the Oriental Pearl Tower."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-oriental-pearl-tower-task-2",
+      "waypoint_id": "pudong-oriental-pearl-tower",
+      "title": {
+        "en": "Night Illumination"
+      },
+      "prompt": {
+        "en": "Photograph the Oriental Pearl Tower illuminated at night."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-shanghai-municipal-history-museum-task-1",
+      "waypoint_id": "pudong-shanghai-municipal-history-museum",
+      "title": {
+        "en": "Old Shanghai Diorama"
+      },
+      "prompt": {
+        "en": "Find a diorama of old Shanghai street life inside the Municipal History Museum and photograph its intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-shanghai-municipal-history-museum-task-2",
+      "waypoint_id": "pudong-shanghai-municipal-history-museum",
+      "title": {
+        "en": "City's Past"
+      },
+      "prompt": {
+        "en": "Capture an exhibit that highlights a unique aspect of Shanghai's past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-lujiazui-footbridges-task-1",
+      "waypoint_id": "pudong-lujiazui-footbridges",
+      "title": {
+        "en": "Skyscraper Panorama"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of the towering skyscrapers from the Lujiazui Footbridges."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pudong-lujiazui-footbridges-task-2",
+      "waypoint_id": "pudong-lujiazui-footbridges",
+      "title": {
+        "en": "Bridge Architecture"
+      },
+      "prompt": {
+        "en": "Photograph the unique architectural design of the footbridges themselves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "french-concession-task-1",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Plane Tree Canopy"
+      },
+      "prompt": {
+        "en": "Capture a photo looking up through the iconic plane trees that line the streets of the French Concession."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-2",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Art Deco Details"
+      },
+      "prompt": {
+        "en": "Find a building with classic Art Deco architecture and take a close-up shot of an interesting detail, like a window frame or doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-3",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Chic Cafe Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie at an outdoor table of a charming sidewalk cafe, capturing the relaxed vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-4",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Lane House Entrance"
+      },
+      "prompt": {
+        "en": "Discover a hidden 'longtang' (lane house community) and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-5",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Boutique Window Shopping"
+      },
+      "prompt": {
+        "en": "Find a unique independent boutique and snap a picture of its creative window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-6",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Vintage Wheels"
+      },
+      "prompt": {
+        "en": "Spot a vintage bicycle or scooter parked along the street and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-7",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Photograph an old villa with a modern skyscraper peeking out from behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-8",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Local Pastry"
+      },
+      "prompt": {
+        "en": "Buy a pastry from a local bakery and take a photo of it before you take a bite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-9",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting patterns of light and shadow cast by the trees on the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-10",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet, peaceful-looking corner or courtyard and capture its serene atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-11",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Wall Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of subtle street art or a beautifully weathered wall and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-12",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Neighborhood Cat"
+      },
+      "prompt": {
+        "en": "Spot one of the many cats that lounge in the area and snap a respectful photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-13",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Stylish Local"
+      },
+      "prompt": {
+        "en": "Capture the fashionable street style of the French Concession (from a respectful distance)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-14",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Cobblestone View"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a cobblestone or brick-paved lane."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "french-concession-task-15",
+      "neighborhood_id": "french-concession",
+      "title": {
+        "en": "Hidden Garden Gate"
+      },
+      "prompt": {
+        "en": "Find an interesting or ornate gate leading to a private garden or residence and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-1",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Temple Meets Tower"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both the golden roof of Jing'an Temple and a modern glass skyscraper in the same picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-2",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Luxury Window Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie reflected in the window of a luxury brand's storefront on West Nanjing Road."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-3",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Sculpture Interaction"
+      },
+      "prompt": {
+        "en": "Find a public sculpture in a park or plaza and pose with it in a creative way."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-4",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Coffee Art"
+      },
+      "prompt": {
+        "en": "Order a latte from a trendy coffee shop and take a top-down photo of the foam art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-5",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Take a photo from inside a park, looking out at the surrounding high-rise buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-6",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the glow of neon signs from a shop or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-7",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Dumpling Delight"
+      },
+      "prompt": {
+        "en": "Find a spot selling shengjianbao (pan-fried pork buns) and take a close-up of them sizzling in the pan."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-8",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Fashion Forward"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents the high-fashion energy of the Jing'an district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-9",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Modern Architecture Lines"
+      },
+      "prompt": {
+        "en": "Find a modern building and take a photo focusing on its interesting lines, curves, or patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-10",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "People in the Park"
+      },
+      "prompt": {
+        "en": "Visit a local park and take a photo of people enjoying the space – dancing, playing cards, or relaxing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-11",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Street Food Scene"
+      },
+      "prompt": {
+        "en": "Photograph a bustling street food stall or a small noodle shop with patrons outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-12",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Metro Entrance"
+      },
+      "prompt": {
+        "en": "Take a dynamic photo of the entrance to a Metro station, capturing the flow of people."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-13",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Designer Dog"
+      },
+      "prompt": {
+        "en": "Spot a pampered dog being walked and take its picture (with the owner's permission!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-14",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Incense Smoke"
+      },
+      "prompt": {
+        "en": "Capture the smoke from incense burning at a local temple or shrine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "jing-an-task-15",
+      "neighborhood_id": "jing-an",
+      "title": {
+        "en": "Shopping Bag Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a shopping bag from a store unique to the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-1",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Classic Skyline Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie from the Bund waterfront with the entire Pudong skyline (including the Oriental Pearl and Shanghai Tower) visible behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-2",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Architectural Giants"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between the colonial-era buildings on the Bund and the futuristic skyscrapers of Pudong across the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-3",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Art Deco Doorway"
+      },
+      "prompt": {
+        "en": "Find one of the historic buildings and take a close-up photo of its ornate, Art Deco-style entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-4",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "River Traffic"
+      },
+      "prompt": {
+        "en": "Photograph the barges and tourist boats moving along the Huangpu River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-5",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "The Bull Pose"
+      },
+      "prompt": {
+        "en": "Find the Bund Bull statue and strike a powerful pose next to it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-6",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "After dark, take a long-exposure photo of the Pudong skyline to capture the vibrant lights."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-7",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Tai Chi Morning"
+      },
+      "prompt": {
+        "en": "If you're here in the morning, capture a photo of locals practicing Tai Chi along the waterfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-8",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Rooftop View"
+      },
+      "prompt": {
+        "en": "Find a rooftop bar or viewpoint and take a photo of the Bund from above."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-9",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Historic Plaque"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on one of the old bank buildings and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-10",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Street Style on the Bund"
+      },
+      "prompt": {
+        "en": "The Bund is a popular spot for photoshoots. Capture a candid photo of the street style and fashion you see."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-11",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Flag Reflection"
+      },
+      "prompt": {
+        "en": "Find a Chinese flag flying and capture its reflection in a puddle or a building's window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-12",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Looking Back"
+      },
+      "prompt": {
+        "en": "Stand on the Bund and take a photo looking away from the river, focusing on the grand architecture behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-13",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "The Clock Tower"
+      },
+      "prompt": {
+        "en": "Take a photo of the old Customs House clock tower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-14",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Crowd Watching"
+      },
+      "prompt": {
+        "en": "Capture the energy of the crowds walking along the Bund waterfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "the-bund-task-15",
+      "neighborhood_id": "the-bund",
+      "title": {
+        "en": "Waterfront Snack"
+      },
+      "prompt": {
+        "en": "Grab a local snack from a nearby vendor and take a picture of it with the skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-1",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Zigzag Bridge Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the Zigzag Bridge in the Yu Garden Bazaar, trying to capture the teahouse in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-2",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Rooftop Dragon"
+      },
+      "prompt": {
+        "en": "Look up! Find a traditional curved roof with ornate carvings, like dragons or phoenixes, and take a detailed photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-3",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Steaming Dumplings"
+      },
+      "prompt": {
+        "en": "Find a shop selling xiaolongbao (soup dumplings) and capture a photo of the steam rising from the bamboo baskets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-4",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Red Lanterns"
+      },
+      "prompt": {
+        "en": "Take a vibrant photo of the red lanterns that decorate the streets and buildings of the Old City."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-5",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Market Treasures"
+      },
+      "prompt": {
+        "en": "Photograph an interesting item for sale in one of the many market stalls, like calligraphy brushes, tea sets, or antiques."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-6",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Temple Incense"
+      },
+      "prompt": {
+        "en": "Capture the smoke and glow of incense sticks at the City God Temple."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-7",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Narrow Alleyway"
+      },
+      "prompt": {
+        "en": "Find a narrow, bustling alleyway and take a photo that captures the chaotic energy of the Old City."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-8",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Old and New"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the traditional architecture of the Old City with a modern Shanghai skyscraper visible in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-9",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Tea Time"
+      },
+      "prompt": {
+        "en": "Take a photo of a traditional tea-making ceremony or a beautifully presented cup of tea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-10",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Goldfish Pond"
+      },
+      "prompt": {
+        "en": "Find a pond with goldfish or koi fish and take a picture of them swimming."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-11",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Window Frame"
+      },
+      "prompt": {
+        "en": "Photograph a scene through an ornate, traditional Chinese window frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-12",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Street Food Selfie"
+      },
+      "prompt": {
+        "en": "Buy a unique street food snack and take a selfie while eating it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-13",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Calligraphy Master"
+      },
+      "prompt": {
+        "en": "Find someone practicing calligraphy and, with permission, take a photo of their work."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-14",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Night Market Glow"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere and bright lights of the Old City after sunset."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "old-city-task-15",
+      "neighborhood_id": "old-city",
+      "title": {
+        "en": "Guardian Lion"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the stone guardian lion statues often found at the entrance of temples and traditional buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-1",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "1933 Slaughterhouse Lines"
+      },
+      "prompt": {
+        "en": "Find a spot in or around the 1933 building and take a photo focusing on the unique geometric patterns of its concrete bridges and staircases."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-2",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Literary Lane"
+      },
+      "prompt": {
+        "en": "Stroll down Duolun Road and capture an image that evokes its 1930s literary and cultural atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-3",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Refugee History"
+      },
+      "prompt": {
+        "en": "Take a respectful photo of the exterior of a building in the former Jewish Ghetto area, reflecting on its history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-4",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Park Life Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in Lu Xun Park with locals enjoying their daily activities (like music, dancing, or chess) in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-5",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Noodle Shop Moment"
+      },
+      "prompt": {
+        "en": "Find a small, local noodle shop and take a picture of a steaming bowl of noodles."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-6",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Architectural Juxtaposition"
+      },
+      "prompt": {
+        "en": "Photograph an old, historic lane house next to a modern apartment building to show the neighborhood's evolution."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-7",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Riverside View"
+      },
+      "prompt": {
+        "en": "Find a spot along Suzhou Creek and take a photo looking towards the Pudong skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-8",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Local Market Find"
+      },
+      "prompt": {
+        "en": "Explore a local wet market and photograph a colorful display of fresh produce or spices."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-9",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Red Memory"
+      },
+      "prompt": {
+        "en": "Find a statue, plaque, or building related to a famous writer or revolutionary figure from the area and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-10",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Quiet Teahouse Corner"
+      },
+      "prompt": {
+        "en": "Peer into a local teahouse and capture a quiet moment of people enjoying their tea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-11",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Old Street Sign"
+      },
+      "prompt": {
+        "en": "Find and photograph an old or interesting-looking street sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-12",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from one of the many bridges crossing Suzhou Creek, focusing on the perspective lines."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-13",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Daily Life"
+      },
+      "prompt": {
+        "en": "Capture a candid scene of daily life, like laundry hanging out to dry between buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-14",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Art Deco Echoes"
+      },
+      "prompt": {
+        "en": "Find a residential building with subtle Art Deco details and photograph its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "hongkou-task-15",
+      "neighborhood_id": "hongkou",
+      "title": {
+        "en": "Stadium Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Hongkou Football Stadium in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-1",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Skyscraper Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie from ground level looking straight up, with the top of the Shanghai Tower, SWFC, or Jin Mao Tower behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-2",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Sky-High View"
+      },
+      "prompt": {
+        "en": "From an observation deck, take a photo looking down on the Huangpu River and the historic Bund."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-3",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Footbridge Geometry"
+      },
+      "prompt": {
+        "en": "Go to the Lujiazui circular footbridge and take a photo that emphasizes its futuristic curves and the surrounding towers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-4",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Pearl in Hand"
+      },
+      "prompt": {
+        "en": "Use forced perspective to take a photo where it looks like you are holding the Oriental Pearl Tower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-5",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Riverside Relaxation"
+      },
+      "prompt": {
+        "en": "Find a spot on the Pudong riverside promenade and take a photo of people relaxing with the Bund skyline across the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-6",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Architectural Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of one skyscraper in the glass facade of another."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-7",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Future is Now"
+      },
+      "prompt": {
+        "en": "Take a photo that you think best captures the futuristic feeling of Lujiazui."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-8",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Luxury Mall Interior"
+      },
+      "prompt": {
+        "en": "Photograph the grand, modern interior of one of the luxury shopping malls like the IFC."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-9",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Green Space in the Concrete Jungle"
+      },
+      "prompt": {
+        "en": "Find a park or green space in Lujiazui and take a photo of nature surrounded by giant buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-10",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Nighttime Neon"
+      },
+      "prompt": {
+        "en": "Capture the dazzling neon lights and building illuminations of Pudong at night."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-11",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Corporate Logo"
+      },
+      "prompt": {
+        "en": "Take a photo of a massive logo of a bank or corporation on one of the skyscrapers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-12",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Ferry Crossing"
+      },
+      "prompt": {
+        "en": "Take a photo from the ferry as you cross the Huangpu River, capturing the view of Pudong from the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-13",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "The Bottle Opener"
+      },
+      "prompt": {
+        "en": "Take a photo of the Shanghai World Financial Center, making sure to capture its unique 'bottle opener' aperture at the top."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-14",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Business Lunch"
+      },
+      "prompt": {
+        "en": "Find a restaurant and photograph a beautifully presented dish, imagining it as a power lunch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    },
+    {
+      "id": "pudong-task-15",
+      "neighborhood_id": "pudong",
+      "title": {
+        "en": "Looking Through the Pearl"
+      },
+      "prompt": {
+        "en": "Frame a shot of another skyscraper by looking through a part of the Oriental Pearl Tower's structure from below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T16:53:10.516072+00:00"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Runtime deps for the Python pipeline (src/pipeline/research_city.py,
+# batch_research.py, add_coverage_tiers.py). The council has its own
+# separate requirements.txt at .harness/scripts/requirements.txt.
+
+google-genai==0.8.0
+google-cloud-firestore==2.20.0

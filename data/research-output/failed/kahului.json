@@ -1,0 +1,138 @@
+{
+  "neighborhoods": [
+    {
+      "id": "central-kahului",
+      "city_id": "kahului",
+      "name": {
+        "en": "Central Kahului"
+      },
+      "summary": {
+        "en": "This is the island's functional, beating heart. The vibe is practical and unpretentious, offering an authentic glimpse into the everyday Maui that exists away from the beachfront postcard."
+      },
+      "lat": 20.8875,
+      "lng": -156.4712,
+      "trending_score": 70
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "central-kahului-tasaka-guri-guri",
+      "city_id": "kahului",
+      "neighborhood_id": "central-kahului",
+      "name": {
+        "en": "Tasaka Guri-Guri"
+      },
+      "description": {
+        "en": "A true taste of Maui's history, this cash-only counter has served its signature frozen treat—a secret family recipe that's neither sherbet nor ice cream—since 1929."
+      },
+      "type": "food",
+      "lat": 20.8863,
+      "lng": -156.4731,
+      "trending_score": 92
+    },
+    {
+      "id": "central-kahului-maui-nui-botanical-gardens",
+      "city_id": "kahului",
+      "neighborhood_id": "central-kahului",
+      "name": {
+        "en": "Maui Nui Botanical Gardens"
+      },
+      "description": {
+        "en": "A surprising oasis of native Hawaiian ecology amidst the urban sprawl, this living museum is dedicated to the conservation of Hawaiian and Polynesian-introduced plants."
+      },
+      "type": "nature",
+      "lat": 20.8891,
+      "lng": -156.4695,
+      "trending_score": 85
+    },
+    {
+      "id": "central-kahului-kanaha-pond-sanctuary",
+      "city_id": "kahului",
+      "neighborhood_id": "central-kahului",
+      "name": {
+        "en": "Kanaha Pond State Wildlife Sanctuary"
+      },
+      "description": {
+        "en": "A gem hidden in plain sight, this 235-acre wetland is a critical refuge for endangered native Hawaiian birds like the Hawaiian stilt and Hawaiian coot."
+      },
+      "type": "hidden_gem",
+      "lat": 20.8955,
+      "lng": -156.4588,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "central-kahului-task-1",
+      "neighborhood_id": "central-kahului",
+      "title": {
+        "en": "The Real Maui"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the everyday, non-touristy life of Kahului's residents in the island's functional heart."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-kahului-task-2",
+      "neighborhood_id": "central-kahului",
+      "title": {
+        "en": "Commercial Character"
+      },
+      "prompt": {
+        "en": "Find a low-rise commercial building with unique, local character and take a photo of its most interesting feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-kahului-task-3",
+      "neighborhood_id": "central-kahului",
+      "title": {
+        "en": "Generational Flavors"
+      },
+      "prompt": {
+        "en": "Find a local food spot that looks like it's been around for decades and snap a picture of its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-kahului-task-4",
+      "neighborhood_id": "central-kahului",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Look for an unexpected patch of nature thriving amidst the urban landscape—a unique tree, a flowering bush, or a community garden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-kahului-task-5",
+      "neighborhood_id": "central-kahului",
+      "title": {
+        "en": "Local Wheels Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a classic 'local-style' truck or car, often called a 'Maui Cruiser', that shows the practical side of island life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-kahului-task-6",
+      "neighborhood_id": "central-kahului",
+      "title": {
+        "en": "Unpretentious Details"
+      },
+      "prompt": {
+        "en": "Photograph a detail that captures the practical, unpretentious vibe of Central Kahului—a hand-painted sign, a vintage storefront, or a well-used community space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

@@ -1,0 +1,3459 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-town",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "Old Town"
+      },
+      "summary": {
+        "en": "The medieval heart of Edinburgh, characterized by towering tenement buildings, narrow alleys, and a dark, gothic atmosphere."
+      },
+      "lat": 55.949,
+      "lng": -3.188,
+      "trending_score": 95
+    },
+    {
+      "id": "new-town",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "New Town"
+      },
+      "summary": {
+        "en": "A stark contrast to the Old Town, this elegant grid of Georgian mansions, wide boulevards, and pristine gardens is the city's cultural and upmarket shopping district."
+      },
+      "lat": 55.954,
+      "lng": -3.197,
+      "trending_score": 90
+    },
+    {
+      "id": "stockbridge-canonmills",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "Stockbridge and Canonmills"
+      },
+      "summary": {
+        "en": "These neighborhoods offer a peaceful, bohemian, and village-like atmosphere, famous for their independent shopping scenes."
+      },
+      "lat": 55.959,
+      "lng": -3.208,
+      "trending_score": 80
+    },
+    {
+      "id": "leith",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "Leith"
+      },
+      "summary": {
+        "en": "Edinburgh’s raffish, gritty, yet vibrant former port, known for its authentic traditional pubs and local charm."
+      },
+      "lat": 55.976,
+      "lng": -3.174,
+      "trending_score": 85
+    },
+    {
+      "id": "south-university-quarter",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "South (Southside / University Quarter)"
+      },
+      "summary": {
+        "en": "Dominated by the University of Edinburgh, this area bursts with youthful energy and affordable places to eat and drink."
+      },
+      "lat": 55.944,
+      "lng": -3.187,
+      "trending_score": 75
+    },
+    {
+      "id": "west-haymarket",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "West (West End to Haymarket)"
+      },
+      "summary": {
+        "en": "A busy, modern thoroughfare serving as the gateway to the city's sports culture, zoo, and contemporary art scene."
+      },
+      "lat": 55.945,
+      "lng": -3.213,
+      "trending_score": 70
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-town-scotch-whisky-experience",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "The Scotch Whisky Experience"
+      },
+      "description": {
+        "en": "The city's premier interactive spot to learn about and taste Scotland's first national drink."
+      },
+      "type": "drink",
+      "lat": 55.9497,
+      "lng": -3.1905,
+      "trending_score": 90
+    },
+    {
+      "id": "old-town-cameo",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Cameo"
+      },
+      "description": {
+        "en": "An excellent, independent arthouse cinema beloved by locals."
+      },
+      "type": "drink",
+      "lat": 55.9445,
+      "lng": -3.201,
+      "trending_score": 85
+    },
+    {
+      "id": "old-town-little-cairo-central-mosque",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Little Cairo / Central Mosque"
+      },
+      "description": {
+        "en": "Highly recommended by locals for authentic, great-value, and cosmopolitan food."
+      },
+      "type": "food",
+      "lat": 55.9475,
+      "lng": -3.187,
+      "trending_score": 80
+    },
+    {
+      "id": "old-town-forrest-road-eateries",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Forrest Road Eateries"
+      },
+      "description": {
+        "en": "A specific street noted for non-touristy, excellent value food near Greyfriars Bobby."
+      },
+      "type": "food",
+      "lat": 55.946,
+      "lng": -3.19,
+      "trending_score": 78
+    },
+    {
+      "id": "old-town-national-museum-of-scotland",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "National Museum of Scotland"
+      },
+      "description": {
+        "en": "An amazing, free collection covering Scottish history, nature, and science that can easily absorb an afternoon."
+      },
+      "type": "culture",
+      "lat": 55.9475,
+      "lng": -3.1895,
+      "trending_score": 92
+    },
+    {
+      "id": "old-town-victoria-cockburn-street",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Victoria Street & Cockburn Street"
+      },
+      "description": {
+        "en": "Steep, winding streets known for their small, quirky independent stores rather than chain traps."
+      },
+      "type": "shopping",
+      "lat": 55.949,
+      "lng": -3.192,
+      "trending_score": 88
+    },
+    {
+      "id": "old-town-bedlam-theatre",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Bedlam Theatre"
+      },
+      "description": {
+        "en": "An excellent student-run theatre housed in an old church, home to The Improverts, Scotland's oldest improvised comedy troupe."
+      },
+      "type": "nightlife",
+      "lat": 55.947,
+      "lng": -3.1875,
+      "trending_score": 70
+    },
+    {
+      "id": "old-town-arthurs-seat",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Arthur's Seat"
+      },
+      "description": {
+        "en": "The massive extinct volcano looming directly over the city, offering panoramic views."
+      },
+      "type": "viewpoint",
+      "lat": 55.944,
+      "lng": -3.165,
+      "trending_score": 98
+    },
+    {
+      "id": "new-town-edinburgh-gin",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Edinburgh Gin"
+      },
+      "description": {
+        "en": "Look for bars pouring this specific local gin, which is distilled in and around the city."
+      },
+      "type": "drink",
+      "lat": 55.952,
+      "lng": -3.199,
+      "trending_score": 85
+    },
+    {
+      "id": "new-town-rose-street-pubs",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Rose Street Pubs"
+      },
+      "description": {
+        "en": "This pedestrian-friendly lane is packed with traditional drinking spots, flanking George Street."
+      },
+      "type": "drink",
+      "lat": 55.9525,
+      "lng": -3.2,
+      "trending_score": 88
+    },
+    {
+      "id": "new-town-thistle-street-eateries",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Thistle Street Eateries"
+      },
+      "description": {
+        "en": "A local favorite for good value, independent food away from the overpriced main drags, running parallel to Princes Street."
+      },
+      "type": "food",
+      "lat": 55.954,
+      "lng": -3.1995,
+      "trending_score": 75
+    },
+    {
+      "id": "new-town-traditional-chippy",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "A Traditional 'Chippy'"
+      },
+      "description": {
+        "en": "Find a local fish and chip shop to try deep-fried pizza, black pudding, or haggis."
+      },
+      "type": "food",
+      "lat": 55.953,
+      "lng": -3.195,
+      "trending_score": 70
+    },
+    {
+      "id": "new-town-calton-hill",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Calton Hill"
+      },
+      "description": {
+        "en": "A miniature version of Arthur's Seat at the east end of Princes Street, featuring an ersatz Acropolis and incredibly accessible views."
+      },
+      "type": "viewpoint",
+      "lat": 55.954,
+      "lng": -3.183,
+      "trending_score": 93
+    },
+    {
+      "id": "new-town-scottish-national-portrait-gallery",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Scottish National Portrait Gallery"
+      },
+      "description": {
+        "en": "A stunning, ornate red-sandstone building containing Scotland's history in portraits."
+      },
+      "type": "culture",
+      "lat": 55.956,
+      "lng": -3.196,
+      "trending_score": 87
+    },
+    {
+      "id": "new-town-multrees-walk",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Multrees Walk"
+      },
+      "description": {
+        "en": "An upmarket, modern shopping enclave with designer labels next to St Andrew Square bus station."
+      },
+      "type": "shopping",
+      "lat": 55.9535,
+      "lng": -3.191,
+      "trending_score": 72
+    },
+    {
+      "id": "new-town-princes-street-gardens",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Princes Street Gardens"
+      },
+      "description": {
+        "en": "Beautiful gardens filling the depression between Princes Street and the Old Town heights, with the railway tracks at their base."
+      },
+      "type": "nature",
+      "lat": 55.9505,
+      "lng": -3.1965,
+      "trending_score": 89
+    },
+    {
+      "id": "stockbridge-canonmills-stockbridge-pubs",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Stockbridge Traditional Pubs"
+      },
+      "description": {
+        "en": "Known for off-the-beaten-path pubs where locals go for a pint."
+      },
+      "type": "drink",
+      "lat": 55.958,
+      "lng": -3.206,
+      "trending_score": 75
+    },
+    {
+      "id": "stockbridge-canonmills-nb-gin",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "NB Gin"
+      },
+      "description": {
+        "en": "Look for this local gin, distilled nearby in North Berwick, in independent neighborhood bars."
+      },
+      "type": "drink",
+      "lat": 55.96,
+      "lng": -3.209,
+      "trending_score": 70
+    },
+    {
+      "id": "stockbridge-canonmills-canonmills-local-shops",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Canonmills Local Shops"
+      },
+      "description": {
+        "en": "Areas surrounding the local Tesco on Broughton Road host various independent spots for locals."
+      },
+      "type": "food",
+      "lat": 55.961,
+      "lng": -3.199,
+      "trending_score": 65
+    },
+    {
+      "id": "stockbridge-canonmills-elm-row",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Elm Row"
+      },
+      "description": {
+        "en": "A fantastic street for excellent value, diverse food at the top of Leith Walk."
+      },
+      "type": "food",
+      "lat": 55.9595,
+      "lng": -3.182,
+      "trending_score": 72
+    },
+    {
+      "id": "stockbridge-canonmills-royal-botanic-garden",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Royal Botanic Garden"
+      },
+      "description": {
+        "en": "Extensive, beautiful gardens that offer a green retreat (note: historic glasshouses are closed until 2025)."
+      },
+      "type": "nature",
+      "lat": 55.965,
+      "lng": -3.204,
+      "trending_score": 88
+    },
+    {
+      "id": "stockbridge-canonmills-water-of-leith",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Water of Leith (Stockbridge section)"
+      },
+      "description": {
+        "en": "A small, tranquil river that meanders right through the neighborhood, completely hiding the urban surroundings."
+      },
+      "type": "nature",
+      "lat": 55.9585,
+      "lng": -3.21,
+      "trending_score": 78
+    },
+    {
+      "id": "stockbridge-canonmills-independent-shops",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Independent Shops (Stockbridge)"
+      },
+      "description": {
+        "en": "Famed for unique, non-chain retail, offering a distinct shopping experience."
+      },
+      "type": "shopping",
+      "lat": 55.9575,
+      "lng": -3.207,
+      "trending_score": 82
+    },
+    {
+      "id": "stockbridge-canonmills-broughton-road",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Broughton Road"
+      },
+      "description": {
+        "en": "A vibrant area in Canonmills with various local shops and a lively atmosphere."
+      },
+      "type": "hidden_gem",
+      "lat": 55.9605,
+      "lng": -3.1895,
+      "trending_score": 68
+    },
+    {
+      "id": "leith-folk-pubs",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Leith Folk Pubs"
+      },
+      "description": {
+        "en": "The area is celebrated for authentic traditional pubs hosting regular live folk music."
+      },
+      "type": "drink",
+      "lat": 55.975,
+      "lng": -3.175,
+      "trending_score": 80
+    },
+    {
+      "id": "leith-walk-pubs",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Leith Walk Pubs"
+      },
+      "description": {
+        "en": "The long, bustling avenue connecting the city to the port, offering numerous drinking spots."
+      },
+      "type": "drink",
+      "lat": 55.968,
+      "lng": -3.178,
+      "trending_score": 75
+    },
+    {
+      "id": "leith-easter-road-area-food",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Easter Road Area Food"
+      },
+      "description": {
+        "en": "A strictly local neighborhood area near Hibernian Stadium, known for its authentic eateries."
+      },
+      "type": "food",
+      "lat": 55.962,
+      "lng": -3.166,
+      "trending_score": 65
+    },
+    {
+      "id": "leith-commercial-quay",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Commercial Quay"
+      },
+      "description": {
+        "en": "A waterfront area near Leith Bridge, great for local food spots with historic docks in the background."
+      },
+      "type": "food",
+      "lat": 55.9765,
+      "lng": -3.172,
+      "trending_score": 78
+    },
+    {
+      "id": "leith-royal-yacht-britannia",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Royal Yacht Britannia"
+      },
+      "description": {
+        "en": "The permanent mooring place of the famous royal ship at Ocean Terminal."
+      },
+      "type": "landmark",
+      "lat": 55.979,
+      "lng": -3.173,
+      "trending_score": 90
+    },
+    {
+      "id": "leith-edinburgh-playhouse",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Edinburgh Playhouse"
+      },
+      "description": {
+        "en": "Europe's largest theatre boasting 3,000 seats, located at the top of Leith Walk."
+      },
+      "type": "culture",
+      "lat": 55.957,
+      "lng": -3.185,
+      "trending_score": 82
+    },
+    {
+      "id": "leith-ocean-terminal",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Ocean Terminal"
+      },
+      "description": {
+        "en": "A major shopping hub right on the waterfront, offering views over the Firth of Forth."
+      },
+      "type": "shopping",
+      "lat": 55.9795,
+      "lng": -3.1725,
+      "trending_score": 70
+    },
+    {
+      "id": "leith-firth-of-forth-waterfront",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Firth of Forth Waterfront"
+      },
+      "description": {
+        "en": "The glittering estuary merging into the North Sea, where cruise ships anchor and passengers are tendered ashore."
+      },
+      "type": "nature",
+      "lat": 55.98,
+      "lng": -3.17,
+      "trending_score": 77
+    },
+    {
+      "id": "south-university-stewart-brewing",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Stewart Brewing"
+      },
+      "description": {
+        "en": "A major local beer brewery; hunt for their beers on tap in this area."
+      },
+      "type": "drink",
+      "lat": 55.942,
+      "lng": -3.185,
+      "trending_score": 70
+    },
+    {
+      "id": "south-university-dominion",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Dominion"
+      },
+      "description": {
+        "en": "A beloved, historic local cinema in the Southside."
+      },
+      "type": "drink",
+      "lat": 55.939,
+      "lng": -3.201,
+      "trending_score": 68
+    },
+    {
+      "id": "south-university-tollcross-eateries",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Tollcross Eateries"
+      },
+      "description": {
+        "en": "An area specifically noted by locals for excellent value food that heavily caters to diverse diets (vegan, halal, gluten-free)."
+      },
+      "type": "food",
+      "lat": 55.9425,
+      "lng": -3.2,
+      "trending_score": 78
+    },
+    {
+      "id": "south-university-lothian-road-spots",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Lothian Road Spots"
+      },
+      "description": {
+        "en": "Another prime strip for good, affordable meals, bustling with university students."
+      },
+      "type": "food",
+      "lat": 55.945,
+      "lng": -3.204,
+      "trending_score": 72
+    },
+    {
+      "id": "south-university-the-meadows",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "The Meadows"
+      },
+      "description": {
+        "en": "A massive green park that hosts the Meadows Festival and countless student gatherings."
+      },
+      "type": "nature",
+      "lat": 55.941,
+      "lng": -3.19,
+      "trending_score": 85
+    },
+    {
+      "id": "south-university-craigmillar-castle",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Craigmillar Castle"
+      },
+      "description": {
+        "en": "An extensive, historic medieval ruin located further south from the city center."
+      },
+      "type": "landmark",
+      "lat": 55.925,
+      "lng": -3.145,
+      "trending_score": 80
+    },
+    {
+      "id": "south-university-blackford-hill",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Blackford Hill"
+      },
+      "description": {
+        "en": "A beautiful nature walk featuring a prominent telecom mast and panoramic views of the Edinburgh skyline."
+      },
+      "type": "viewpoint",
+      "lat": 55.926,
+      "lng": -3.195,
+      "trending_score": 88
+    },
+    {
+      "id": "south-university-university-of-edinburgh-campus",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "University of Edinburgh Campus"
+      },
+      "description": {
+        "en": "The central hub of the university, contributing to the area's youthful and academic atmosphere."
+      },
+      "type": "culture",
+      "lat": 55.9455,
+      "lng": -3.1885,
+      "trending_score": 70
+    },
+    {
+      "id": "west-haymarket-caledonian-brewery",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Caledonian Brewery"
+      },
+      "description": {
+        "en": "One of the city's major local breweries; find a pub near Haymarket serving their guest ale."
+      },
+      "type": "drink",
+      "lat": 55.943,
+      "lng": -3.22,
+      "trending_score": 70
+    },
+    {
+      "id": "west-haymarket-filmhouse",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Filmhouse"
+      },
+      "description": {
+        "en": "An interesting arthouse cinema central to the Edinburgh International Film Festival."
+      },
+      "type": "drink",
+      "lat": 55.9465,
+      "lng": -3.2045,
+      "trending_score": 75
+    },
+    {
+      "id": "west-haymarket-queensferry-street-eateries",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Queensferry Street Eateries"
+      },
+      "description": {
+        "en": "A stretch running down to Haymarket, known for great value local food."
+      },
+      "type": "food",
+      "lat": 55.948,
+      "lng": -3.209,
+      "trending_score": 68
+    },
+    {
+      "id": "west-haymarket-haymarket-station-area-pubs",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Haymarket Station Area Pubs"
+      },
+      "description": {
+        "en": "A massive cluster of local pubs and eating places surrounds this newly rebuilt railway hub."
+      },
+      "type": "food",
+      "lat": 55.945,
+      "lng": -3.2135,
+      "trending_score": 72
+    },
+    {
+      "id": "west-haymarket-modern-one-two",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Modern One & Two"
+      },
+      "description": {
+        "en": "The city's contemporary and modern art galleries, located west of Haymarket."
+      },
+      "type": "culture",
+      "lat": 55.9485,
+      "lng": -3.226,
+      "trending_score": 80
+    },
+    {
+      "id": "west-haymarket-murrayfield-stadium",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Murrayfield Stadium"
+      },
+      "description": {
+        "en": "The massive home of Scottish Rugby Union, where the 6 Nations games are played."
+      },
+      "type": "landmark",
+      "lat": 55.947,
+      "lng": -3.237,
+      "trending_score": 88
+    },
+    {
+      "id": "west-haymarket-water-of-leith-west-glen",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Water of Leith (West Glen)"
+      },
+      "description": {
+        "en": "The deep, wilder glen of the river, offering nature walks and cycling paths."
+      },
+      "type": "nature",
+      "lat": 55.949,
+      "lng": -3.22,
+      "trending_score": 77
+    },
+    {
+      "id": "west-haymarket-haymarket-station",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Haymarket Station"
+      },
+      "description": {
+        "en": "A newly rebuilt railway hub and a significant transport interchange in the west of the city."
+      },
+      "type": "landmark",
+      "lat": 55.9455,
+      "lng": -3.213,
+      "trending_score": 65
+    },
+    {
+      "id": "old-town-enr-dance-base",
+      "city_id": "edinburgh",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Dance Base"
+      },
+      "description": {
+        "en": "An award-winning building in the Grassmarket area established to provide dance classes, workshops, and performances for the community."
+      },
+      "type": "culture",
+      "lat": 55.9482,
+      "lng": -3.1968,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-enr-little-capo",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Little Capo"
+      },
+      "description": {
+        "en": "A seductive little Italian restaurant in New Town that aims to provide a memorable and enjoyable dining experience."
+      },
+      "type": "food",
+      "lat": 55.9565,
+      "lng": -3.1892,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-enr-stockbridge-eating-house",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Stockbridge Eating House"
+      },
+      "description": {
+        "en": "A stylish restaurant that offers an affordable British-European set lunch in a chic atmosphere."
+      },
+      "type": "food",
+      "lat": 55.9571,
+      "lng": -3.2091,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-enr-lannan-bakery-pantry",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge-canonmills",
+      "name": {
+        "en": "Lannan Bakery & Pantry"
+      },
+      "description": {
+        "en": "A mega-hyped Stockbridge bakery that is considered well worth the wait for its delicious baked goods."
+      },
+      "type": "food",
+      "lat": 55.9592,
+      "lng": -3.2088,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-enr-starbank-park",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Starbank Park"
+      },
+      "description": {
+        "en": "A peaceful and beautiful park offering fantastic views over the Firth of Forth, perfect for relaxing in the sea air."
+      },
+      "type": "nature",
+      "lat": 55.9782,
+      "lng": -3.1915,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-enr-wardie-bay",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Wardie Bay"
+      },
+      "description": {
+        "en": "A small beach on the Firth of Forth that is a favorite local spot for wild swimming in the city."
+      },
+      "type": "nature",
+      "lat": 55.9765,
+      "lng": -3.2115,
+      "trending_score": 68,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-enr-pilrig-park",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Pilrig Park"
+      },
+      "description": {
+        "en": "A park holding the hidden treasure of 16th-century siege works, believed to be the only ones of their kind found in Britain."
+      },
+      "type": "hidden_gem",
+      "lat": 55.9665,
+      "lng": -3.1805,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-enr-leith-victoria-swim-centre",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Leith Victoria Swim Centre"
+      },
+      "description": {
+        "en": "An architectural gem featuring a beautiful swimming pool surrounded by an ornate, Baroque, cast-iron colonnade."
+      },
+      "type": "culture",
+      "lat": 55.9729,
+      "lng": -3.1711,
+      "trending_score": 69,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-enr-newhaven-harbour",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Newhaven Harbour"
+      },
+      "description": {
+        "en": "A cute and quaint hidden gem, this historic harbour is perfect for a walk and enjoying fish and chips by the sea."
+      },
+      "type": "landmark",
+      "lat": 55.9775,
+      "lng": -3.1895,
+      "trending_score": 76,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-enr-sabzi",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Sabzi"
+      },
+      "description": {
+        "en": "A family-run Punjabi restaurant on Ferry Road, considered one of Edinburgh's must-visit culinary destinations."
+      },
+      "type": "food",
+      "lat": 55.9695,
+      "lng": -3.1895,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-enr-ardfern",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Ardfern"
+      },
+      "description": {
+        "en": "A cool, all-day modern European-ish restaurant and wine bar showcasing Scottish produce that will make you want to become a regular."
+      },
+      "type": "drink",
+      "lat": 55.9698,
+      "lng": -3.1785,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-enr-rogue-bros",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Rogue Bros"
+      },
+      "description": {
+        "en": "A fabulous gourmet sandwich eatery in Marchmont known for its astonishingly delicious soups and homemade crumbles."
+      },
+      "type": "food",
+      "lat": 55.9365,
+      "lng": -3.1955,
+      "trending_score": 74,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-enr-maras-picklery",
+      "city_id": "edinburgh",
+      "neighborhood_id": "south-university-quarter",
+      "name": {
+        "en": "Mara’s Picklery"
+      },
+      "description": {
+        "en": "A cute, ferment-obsessed, country-style cafe in Marchmont perfect for sharing a few plates or grabbing a toastie to go."
+      },
+      "type": "food",
+      "lat": 55.9388,
+      "lng": -3.1948,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-enr-the-palmerston",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "The Palmerston"
+      },
+      "description": {
+        "en": "One of Edinburgh’s most-loved restaurants in the West End, featuring an in-house bakery and moreish European cooking."
+      },
+      "type": "food",
+      "lat": 55.9475,
+      "lng": -3.2165,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-town-scotch-whisky-experience-task-1",
+      "waypoint_id": "old-town-scotch-whisky-experience",
+      "title": {
+        "en": "Birth Year Whisky"
+      },
+      "prompt": {
+        "en": "Find and photograph a bottle of whisky from your birth year."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-scotch-whisky-experience-task-2",
+      "waypoint_id": "old-town-scotch-whisky-experience",
+      "title": {
+        "en": "Whisky Tasting Moment"
+      },
+      "prompt": {
+        "en": "Capture a photo of a whisky tasting glass, highlighting its color and clarity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-cameo-task-1",
+      "waypoint_id": "old-town-cameo",
+      "title": {
+        "en": "Indie Marquee Art"
+      },
+      "prompt": {
+        "en": "Take an artistic shot of their indie film marquee."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-cameo-task-2",
+      "waypoint_id": "old-town-cameo",
+      "title": {
+        "en": "Classic Cinema Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the classic entrance of the Cameo cinema, capturing its historic charm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-little-cairo-central-mosque-task-1",
+      "waypoint_id": "old-town-little-cairo-central-mosque",
+      "title": {
+        "en": "Vibrant Cuisine Colors"
+      },
+      "prompt": {
+        "en": "Capture the vibrant colors of the spices or a steaming plate of local cuisine."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-little-cairo-central-mosque-task-2",
+      "waypoint_id": "old-town-little-cairo-central-mosque",
+      "title": {
+        "en": "Mosque Architecture Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph an interesting architectural detail of the Central Mosque."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-forrest-road-eateries-task-1",
+      "waypoint_id": "old-town-forrest-road-eateries",
+      "title": {
+        "en": "Local Scottish Legend"
+      },
+      "prompt": {
+        "en": "Find a restaurant sign or menu featuring a local Scottish legend (like a dog)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-forrest-road-eateries-task-2",
+      "waypoint_id": "old-town-forrest-road-eateries",
+      "title": {
+        "en": "Street Food Scene"
+      },
+      "prompt": {
+        "en": "Photograph the bustling street scene of Forrest Road, focusing on a food stall or cafe exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-national-museum-of-scotland-task-1",
+      "waypoint_id": "old-town-national-museum-of-scotland",
+      "title": {
+        "en": "Oldest Medieval Artifact"
+      },
+      "prompt": {
+        "en": "Find the oldest, strangest medieval artifact on display."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-national-museum-of-scotland-task-2",
+      "waypoint_id": "old-town-national-museum-of-scotland",
+      "title": {
+        "en": "Museum Grand Hall"
+      },
+      "prompt": {
+        "en": "Capture the impressive architecture of the museum's Grand Gallery or main hall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-victoria-cockburn-street-task-1",
+      "waypoint_id": "old-town-victoria-cockburn-street",
+      "title": {
+        "en": "Curved Street View"
+      },
+      "prompt": {
+        "en": "Capture the perfect curve of Victoria Street's colorful storefronts from the terrace above."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-victoria-cockburn-street-task-2",
+      "waypoint_id": "old-town-victoria-cockburn-street",
+      "title": {
+        "en": "Quirky Shopfront"
+      },
+      "prompt": {
+        "en": "Photograph a unique or quirky shopfront display on either Victoria or Cockburn Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-bedlam-theatre-task-1",
+      "waypoint_id": "old-town-bedlam-theatre",
+      "title": {
+        "en": "Historic Exterior Selfie"
+      },
+      "prompt": {
+        "en": "Snap a selfie in front of the historic, imposing gothic exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-bedlam-theatre-task-2",
+      "waypoint_id": "old-town-bedlam-theatre",
+      "title": {
+        "en": "Theatre Poster"
+      },
+      "prompt": {
+        "en": "Find and photograph a poster for an upcoming student-run show at Bedlam Theatre."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-arthurs-seat-task-1",
+      "waypoint_id": "old-town-arthurs-seat",
+      "title": {
+        "en": "Panoramic Summit Shot"
+      },
+      "prompt": {
+        "en": "Find the 'simple ascent' path on the far side and take a panoramic shot from the summit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-arthurs-seat-task-2",
+      "waypoint_id": "old-town-arthurs-seat",
+      "title": {
+        "en": "Volcanic Landscape"
+      },
+      "prompt": {
+        "en": "Capture a photo that highlights the rugged, volcanic landscape of Arthur's Seat."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-edinburgh-gin-task-1",
+      "waypoint_id": "new-town-edinburgh-gin",
+      "title": {
+        "en": "Creative Gin Cocktail"
+      },
+      "prompt": {
+        "en": "Order a creative cocktail featuring Edinburgh Gin and photograph the garnish."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-edinburgh-gin-task-2",
+      "waypoint_id": "new-town-edinburgh-gin",
+      "title": {
+        "en": "Local Gin Bottle"
+      },
+      "prompt": {
+        "en": "Find and photograph a bottle of Edinburgh Gin in a local bar or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-rose-street-pubs-task-1",
+      "way andpoint_id": "new-town-rose-street-pubs",
+      "title": {
+        "en": "Guest Ale Tasting"
+      },
+      "prompt": {
+        "en": "Find a pub offering a 'guest ale' and ask the bartender for a tasting sample."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-rose-street-pubs-task-2",
+      "waypoint_id": "new-town-rose-street-pubs",
+      "title": {
+        "en": "Rose Street Vibe"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of Rose Street, focusing on a traditional pub exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-thistle-street-eateries-task-1",
+      "waypoint_id": "new-town-thistle-street-eateries",
+      "title": {
+        "en": "Chalkboard Special"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully written, chalk-board lunch special."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-thistle-street-eateries-task-2",
+      "waypoint_id": "new-town-thistle-street-eateries",
+      "title": {
+        "en": "Independent Eatery Facade"
+      },
+      "prompt": {
+        "en": "Take a photo of the charming facade of an independent eatery on Thistle Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-traditional-chippy-task-1",
+      "waypoint_id": "new-town-traditional-chippy",
+      "title": {
+        "en": "Salt'n'Sauce Chips"
+      },
+      "prompt": {
+        "en": "Order your chips with the uniquely Edinburgh 'salt'n'sauce' (a runny, vinegary brown sauce) and photograph the distinct condiment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-traditional-chippy-task-2",
+      "waypoint_id": "new-town-traditional-chippy",
+      "title": {
+        "en": "Deep-Fried Delicacy"
+      },
+      "prompt": {
+        "en": "Photograph a unique deep-fried item from a chippy, like a deep-fried Mars bar or haggis."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-calton-hill-task-1",
+      "waypoint_id": "new-town-calton-hill",
+      "title": {
+        "en": "Acropolis Skyline"
+      },
+      "prompt": {
+        "en": "Frame the Old Town skyline through the stone pillars of the National Monument."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-calton-hill-task-2",
+      "waypoint_id": "new-town-calton-hill",
+      "title": {
+        "en": "Dugald Stewart Monument"
+      },
+      "prompt": {
+        "en": "Capture an iconic shot of the circular Dugald Stewart Monument against the city backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-scottish-national-portrait-gallery-task-1",
+      "waypoint_id": "new-town-scottish-national-portrait-gallery",
+      "title": {
+        "en": "Famous Author Portrait"
+      },
+      "prompt": {
+        "en": "Locate a portrait of a famous native Edinburgh author, like Sir Walter Scott or Sir Arthur Conan Doyle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-scottish-national-portrait-gallery-task-2",
+      "waypoint_id": "new-town-scottish-national-portrait-gallery",
+      "title": {
+        "en": "Gallery Interior Grandeur"
+      },
+      "prompt": {
+        "en": "Photograph the stunning, ornate interior architecture of the Scottish National Portrait Gallery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-multrees-walk-task-1",
+      "waypoint_id": "new-town-multrees-walk",
+      "title": {
+        "en": "Luxury Reflection"
+      },
+      "prompt": {
+        "en": "Capture an interesting architectural reflection in one of the luxury store windows."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-multrees-walk-task-2",
+      "waypoint_id": "new-town-multrees-walk",
+      "title": {
+        "en": "Designer Storefront"
+      },
+      "prompt": {
+        "en": "Take a photo of a prominent designer storefront on Multrees Walk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-princes-street-gardens-task-1",
+      "waypoint_id": "new-town-princes-street-gardens",
+      "title": {
+        "en": "Floral Display"
+      },
+      "prompt": {
+        "en": "Find and photograph a vibrant floral display within Princes Street Gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-town-princes-street-gardens-task-2",
+      "waypoint_id": "new-town-princes-street-gardens",
+      "title": {
+        "en": "Castle View from Gardens"
+      },
+      "prompt": {
+        "en": "Capture a scenic shot of Edinburgh Castle towering above Princes Street Gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-stockbridge-pubs-task-1",
+      "waypoint_id": "stockbridge-canonmills-stockbridge-pubs",
+      "title": {
+        "en": "Folk Music Session"
+      },
+      "prompt": {
+        "en": "Find a pub hosting a live, traditional Scottish folk music session."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-stockbridge-pubs-task-2",
+      "waypoint_id": "stockbridge-canonmills-stockbridge-pubs",
+      "title": {
+        "en": "Cozy Pub Interior"
+      },
+      "prompt": {
+        "en": "Photograph the cozy and traditional interior of a Stockbridge pub."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-nb-gin-task-1",
+      "waypoint_id": "stockbridge-canonmills-nb-gin",
+      "title": {
+        "en": "Local Spirit Pour"
+      },
+      "prompt": {
+        "en": "Photograph the bartender pouring a local spirit, ideally NB Gin."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-nb-gin-task-2",
+      "waypoint_id": "stockbridge-canonmills-nb-gin",
+      "title": {
+        "en": "Gin Bottle Display"
+      },
+      "prompt": {
+        "en": "Find and photograph a creative display of NB Gin bottles in a local establishment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-canonmills-local-shops-task-1",
+      "waypoint_id": "stockbridge-canonmills-canonmills-local-shops",
+      "title": {
+        "en": "Locally Baked Treat"
+      },
+      "prompt": {
+        "en": "Find a locally baked treat in an independent shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-canonmills-local-shops-task-2",
+      "waypoint_id": "stockbridge-canonmills-canonmills-local-shops",
+      "title": {
+        "en": "Charming Shopfront"
+      },
+      "prompt": {
+        "en": "Capture the charming exterior of a local independent shop in Canonmills."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-elm-row-task-1",
+      "waypoint_id": "stockbridge-canonmills-elm-row",
+      "title": {
+        "en": "Vibrant Global Dish"
+      },
+      "prompt": {
+        "en": "Photograph a vibrant dish from a global cuisine spot on Elm Row."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-elm-row-task-2",
+      "waypoint_id": "stockbridge-canonmills-elm-row",
+      "title": {
+        "en": "Diverse Eatery Row"
+      },
+      "prompt": {
+        "en": "Take a wide shot of Elm Row, showcasing its diverse range of eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-royal-botanic-garden-task-1",
+      "waypoint_id": "stockbridge-canonmills-royal-botanic-garden",
+      "title": {
+        "en": "Exotic Scottish Plant"
+      },
+      "prompt": {
+        "en": "Find the most exotic plant thriving in the chilly Scottish climate."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-royal-botanic-garden-task-2",
+      "waypoint_id": "stockbridge-canonmills-royal-botanic-garden",
+      "title": {
+        "en": "Garden Pathway"
+      },
+      "prompt": {
+        "en": "Photograph a serene pathway winding through the Royal Botanic Garden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-water-of-leith-task-1",
+      "waypoint_id": "stockbridge-canonmills-water-of-leith",
+      "title": {
+        "en": "Tranquil River Scene"
+      },
+      "prompt": {
+        "en": "Snap a serene photo of the river or local wildlife along the Water of Leith."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-water-of-leith-task-2",
+      "waypoint_id": "stockbridge-canonmills-water-of-leith",
+      "title": {
+        "en": "Hidden Urban Nature"
+      },
+      "prompt": {
+        "en": "Capture a shot that shows how the Water of Leith hides the urban surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-independent-shops-task-1",
+      "waypoint_id": "stockbridge-canonmills-independent-shops",
+      "title": {
+        "en": "Quirky Local Art"
+      },
+      "prompt": {
+        "en": "Find the quirkiest piece of local art or vintage clothing on display."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-independent-shops-task-2",
+      "waypoint_id": "stockbridge-canonmills-independent-shops",
+      "title": {
+        "en": "Unique Shop Interior"
+      },
+      "prompt": {
+        "en": "Photograph an interesting interior detail of one of Stockbridge's independent shops."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-broughton-road-task-1",
+      "waypoint_id": "stockbridge-canonmills-broughton-road",
+      "title": {
+        "en": "Broughton Road Buzz"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of Broughton Road, focusing on local activity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stockbridge-canonmills-broughton-road-task-2",
+      "waypoint_id": "stockbridge-canonmills-broughton-road",
+      "title": {
+        "en": "Local Business Sign"
+      },
+      "prompt": {
+        "en": "Find and photograph a unique sign from a local business on Broughton Road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-folk-pubs-task-1",
+      "waypoint_id": "leith-folk-pubs",
+      "title": {
+        "en": "Folk Music Performance"
+      },
+      "prompt": {
+        "en": "Record a short snippet or take a photo of an acoustic guitar or fiddle performance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-folk-pubs-task-2",
+      "waypoint_id": "leith-folk-pubs",
+      "title": {
+        "en": "Traditional Pub Exterior"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of a traditional Leith folk pub, capturing its character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-walk-pubs-task-1",
+      "waypoint_id": "leith-walk-pubs",
+      "title": {
+        "en": "Pint with Urban Backdrop"
+      },
+      "prompt": {
+        "en": "Take a photo of a pint of a local guest ale against a gritty, urban backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-walk-pubs-task-2",
+      "waypoint_id": "leith-walk-pubs",
+      "title": {
+        "en": "Leith Walk Street Scene"
+      },
+      "prompt": {
+        "en": "Capture the bustling street life and diverse architecture along Leith Walk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-easter-road-area-food-task-1",
+      "waypoint_id": "leith-easter-road-area-food",
+      "title": {
+        "en": "Hibs Colors"
+      },
+      "prompt": {
+        "en": "Find a bakery or cafe subtly showing the green colors of the local 'Hibs' football team."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-easter-road-area-food-task-2",
+      "waypoint_id": "leith-easter-road-area-food",
+      "title": {
+        "en": "Local Eatery Sign"
+      },
+      "prompt": {
+        "en": "Photograph a sign from a local, non-touristy eatery in the Easter Road area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-commercial-quay-task-1",
+      "waypoint_id": "leith-commercial-quay",
+      "title": {
+        "en": "Lunch by the Docks"
+      },
+      "prompt": {
+        "en": "Photograph your lunch with the historic docks in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-commercial-quay-task-2",
+      "waypoint_id": "leith-commercial-quay",
+      "title": {
+        "en": "Waterfront View"
+      },
+      "prompt": {
+        "en": "Capture a scenic view of the Commercial Quay waterfront, including boats or reflections."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-royal-yacht-britannia-task-1",
+      "waypoint_id": "leith-royal-yacht-britannia",
+      "title": {
+        "en": "Royal Yacht Selfie"
+      },
+      "prompt": {
+        "en": "Frame a selfie to capture the sheer scale of the Royal Yacht Britannia."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-royal-yacht-britannia-task-2",
+      "waypoint_id": "leith-royal-yacht-britannia",
+      "title": {
+        "en": "Ship's Deck Detail"
+      },
+      "prompt": {
+        "en": "Photograph an interesting detail on the deck or exterior of the Royal Yacht Britannia."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-edinburgh-playhouse-task-1",
+      "waypoint_id": "leith-edinburgh-playhouse",
+      "title": {
+        "en": "Massive Marquee"
+      },
+      "prompt": {
+        "en": "Snap the massive grand marquee of a West End show at the Edinburgh Playhouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-edinburgh-playhouse-task-2",
+      "waypoint_id": "leith-edinburgh-playhouse",
+      "title": {
+        "en": "Theatre Entrance"
+      },
+      "prompt": {
+        "en": "Capture the grand entrance of Europe's largest theatre, the Edinburgh Playhouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-ocean-terminal-task-1",
+      "waypoint_id": "leith-ocean-terminal",
+      "title": {
+        "en": "Firth of Forth Vantage Point"
+      },
+      "prompt": {
+        "en": "Find the best indoor vantage point looking out over the Firth of Forth."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-ocean-terminal-task-2",
+      "waypoint_id": "leith-ocean-terminal",
+      "title": {
+        "en": "Shopping Hub Interior"
+      },
+      "prompt": {
+        "en": "Photograph a unique architectural feature or bustling scene inside Ocean Terminal."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-firth-of-forth-waterfront-task-1",
+      "waypoint_id": "leith-firth-of-forth-waterfront",
+      "title": {
+        "en": "Anchored Cruise Ship"
+      },
+      "prompt": {
+        "en": "Capture a photo of a cruise ship anchored in the Firth of Forth (if visible)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "leith-firth-of-forth-waterfront-task-2",
+      "waypoint_id": "leith-firth-of-forth-waterfront",
+      "title": {
+        "en": "Estuary Landscape"
+      },
+      "prompt": {
+        "en": "Photograph the wide expanse of the Firth of Forth, highlighting the natural beauty of the estuary."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-stewart-brewing-task-1",
+      "waypoint_id": "south-university-stewart-brewing",
+      "title": {
+        "en": "Stewart Brewing Tap Handle"
+      },
+      "prompt": {
+        "en": "Find a tap handle featuring the Stewart Brewing logo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-stewart-brewing-task-2",
+      "waypoint_id": "south-university-stewart-brewing",
+      "title": {
+        "en": "Local Craft Beer"
+      },
+      "prompt": {
+        "en": "Photograph a glass of Stewart Brewing beer, showcasing its color and head."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-dominion-task-1",
+      "waypoint_id": "south-university-dominion",
+      "title": {
+        "en": "Vintage Cinema Seating"
+      },
+      "prompt": {
+        "en": "Capture the vintage seating or classic ticket booth of the Dominion cinema."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-dominion-task-2",
+      "waypoint_id": "south-university-dominion",
+      "title": {
+        "en": "Historic Cinema Facade"
+      },
+      "prompt": {
+        "en": "Photograph the distinctive art deco facade of the Dominion cinema."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-tollcross-eateries-task-1",
+      "waypoint_id": "south-university-tollcross-eateries",
+      "title": {
+        "en": "Vegan Scottish Twist"
+      },
+      "prompt": {
+        "en": "Find a menu offering a unique vegan twist on a traditional Scottish dish."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-tollcross-eateries-task-2",
+      "waypoint_id": "south-university-tollcross-eateries",
+      "title": {
+        "en": "Diverse Food Street"
+      },
+      "prompt": {
+        "en": "Capture a photo that highlights the diverse range of food options available in Tollcross."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-lothian-road-spots-task-1",
+      "waypoint_id": "south-university-lothian-road-spots",
+      "title": {
+        "en": "Bustling Dining Room"
+      },
+      "prompt": {
+        "en": "Photograph a bustling, atmospheric dining room full of university students."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-lothian-road-spots-task-2",
+      "waypoint_id": "south-university-lothian-road-spots",
+      "title": {
+        "en": "Affordable Meal Find"
+      },
+      "prompt": {
+        "en": "Find and photograph a menu board advertising an appealing and affordable meal."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-the-meadows-task-1",
+      "waypoint_id": "south-university-the-meadows",
+      "title": {
+        "en": "Park Life Action Shot"
+      },
+      "prompt": {
+        "en": "Take an action shot of locals playing sports or having a barbecue in The Meadows."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-the-meadows-task-2",
+      "waypoint_id": "south-university-the-meadows",
+      "title": {
+        "en": "Meadows Festival Spirit"
+      },
+      "prompt": {
+        "en": "Capture a photo that embodies the spirit of community and relaxation in the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-craigmillar-castle-task-1",
+      "waypoint_id": "south-university-craigmillar-castle",
+      "title": {
+        "en": "Hidden Castle Nook"
+      },
+      "prompt": {
+        "en": "Find the most hidden nook or cranny within the medieval stone walls."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-craigmillar-castle-task-2",
+      "waypoint_id": "south-university-craigmillar-castle",
+      "title": {
+        "en": "Castle Ruin Grandeur"
+      },
+      "prompt": {
+        "en": "Photograph the impressive scale and ruinous beauty of Craigmillar Castle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-blackford-hill-task-1",
+      "waypoint_id": "south-university-blackford-hill",
+      "title": {
+        "en": "Skyline Panorama"
+      },
+      "prompt": {
+        "en": "A panoramic shot of the Edinburgh skyline from the hillside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-blackford-hill-task-2",
+      "waypoint_id": "south-university-blackford-hill",
+      "title": {
+        "en": "Telecom Mast View"
+      },
+      "prompt": {
+        "en": "Capture an interesting perspective of the prominent telecom mast on Blackford Hill."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-university-of-edinburgh-campus-task-1",
+      "waypoint_id": "south-university-university-of-edinburgh-campus",
+      "title": {
+        "en": "Historic University Building"
+      },
+      "prompt": {
+        "en": "Photograph one of the historic buildings on the University of Edinburgh campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-university-university-of-edinburgh-campus-task-2",
+      "waypoint_id": "south-university-university-of-edinburgh-campus",
+      "title": {
+        "en": "Student Life Snapshot"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of student life on the university campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-caledonian-brewery-task-1",
+      "waypoint_id": "west-haymarket-caledonian-brewery",
+      "title": {
+        "en": "Caledonian Guest Ale"
+      },
+      "prompt": {
+        "en": "Find a pub near Haymarket serving a Caledonian guest ale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-caledonian-brewery-task-2",
+      "waypoint_id": "west-haymarket-caledonian-brewery",
+      "title": {
+        "en": "Brewery Branding"
+      },
+      "prompt": {
+        "en": "Photograph the logo or branding of Caledonian Brewery on a bottle or tap."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-filmhouse-task-1",
+      "waypoint_id": "west-haymarket-filmhouse",
+      "title": {
+        "en": "Indie Film Poster"
+      },
+      "prompt": {
+        "en": "Photograph the current indie film poster display at Filmhouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-filmhouse-task-2",
+      "waypoint_id": "west-haymarket-filmhouse",
+      "title": {
+        "en": "Film Festival Vibe"
+      },
+      "prompt": {
+        "en": "Capture a photo that evokes the arthouse cinema and film festival atmosphere of Filmhouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-queensferry-street-eateries-task-1",
+      "waypoint_id": "west-haymarket-queensferry-street-eateries",
+      "title": {
+        "en": "Appetizing Lunch Board"
+      },
+      "prompt": {
+        "en": "Find the most appetizing, hand-written lunchtime special board."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-queensferry-street-eateries-task-2",
+      "waypoint_id": "west-haymarket-queensferry-street-eateries",
+      "title": {
+        "en": "Street Food Variety"
+      },
+      "prompt": {
+        "en": "Photograph a selection of diverse food options available on Queensferry Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-haymarket-station-area-pubs-task-1",
+      "waypoint_id": "west-haymarket-haymarket-station-area-pubs",
+      "title": {
+        "en": "Classic Pub & Tram"
+      },
+      "prompt": {
+        "en": "Capture a classic pub exterior contrasting with a modern tram gliding past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-haymarket-station-area-pubs-task-2",
+      "waypoint_id": "west-haymarket-haymarket-station-area-pubs",
+      "title": {
+        "en": "Pub Interior Detail"
+      },
+      "prompt": {
+        "en": "Photograph an interesting interior detail of a traditional pub near Haymarket Station."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-modern-one-two-task-1",
+      "waypoint_id": "west-haymarket-modern-one-two",
+      "title": {
+        "en": "Abstract Sculpture Pose"
+      },
+      "prompt": {
+        "en": "Recreate a pose from an abstract sculpture in the gallery grounds."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-modern-one-two-task-2",
+      "waypoint_id": "west-haymarket-modern-one-two",
+      "title": {
+        "en": "Modern Art Piece"
+      },
+      "prompt": {
+        "en": "Photograph a piece of modern art that particularly catches your eye inside one of the galleries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-murrayfield-stadium-task-1",
+      "waypoint_id": "west-haymarket-murrayfield-stadium",
+      "title": {
+        "en": "Stadium Scale Shot"
+      },
+      "prompt": {
+        "en": "Capture the sheer scale of the Murrayfield Stadium exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-murrayfield-stadium-task-2",
+      "waypoint_id": "west-haymarket-murrayfield-stadium",
+      "title": {
+        "en": "Rugby Spirit"
+      },
+      "prompt": {
+        "en": "Find and photograph a symbol or sign representing Scottish Rugby at the stadium."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-water-of-leith-west-glen-task-1",
+      "waypoint_id": "west-haymarket-water-of-leith-west-glen",
+      "title": {
+        "en": "River Path Explorer"
+      },
+      "prompt": {
+        "en": "Spot a local cyclist or walker navigating the off-street dirt paths."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-water-of-leith-west-glen-task-2",
+      "waypoint_id": "west-haymarket-water-of-leith-west-glen",
+      "title": {
+        "en": "Wilder Glen Scenery"
+      },
+      "prompt": {
+        "en": "Photograph the wilder, natural scenery of the Water of Leith's upper glen."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-haymarket-haymarket-station-task-1",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-haymarket",
+      "name": {
+        "en": "Haymarket Station"
+      },
+      "description": {
+        "en": "A newly rebuilt railway hub and a significant transport interchange in the west of the city."
+      },
+      "type": "landmark",
+      "lat": 55.9455,
+      "lng": -3.213,
+      "trending_score": 65
+    },
+    {
+      "id": "west-haymarket-haymarket-station-task-2",
+      "waypoint_id": "west-haymarket-haymarket-station",
+      "title": {
+        "en": "Station Architecture"
+      },
+      "prompt": {
+        "en": "Capture a photo of the modern architecture of the rebuilt Haymarket Station."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-1",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Cobblestone Close-Up"
+      },
+      "prompt": {
+        "en": "Take an artistic, low-angle photo of a cobblestone street. Try to capture the texture and history under your feet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-2",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Hidden Close Discovery"
+      },
+      "prompt": {
+        "en": "Find a narrow alleyway or 'close' off the Royal Mile and take a picture looking from the darkness into the light of the main street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-3",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Historic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a building that looks like it has a thousand stories to tell. What's its story?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-4",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Ghost Tour Gaze"
+      },
+      "prompt": {
+        "en": "Spot a ghost tour group. Without being intrusive, capture the spooky atmosphere or an interesting character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-5",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Pub Sign Portrait"
+      },
+      "prompt": {
+        "en": "Find the most interesting or oldest-looking pub sign and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-6",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Tartan Seeker"
+      },
+      "prompt": {
+        "en": "Photograph the most colourful or unusual tartan pattern you can find, whether on a kilt, scarf, or souvenir."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-7",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Steeple Silhouettes"
+      },
+      "prompt": {
+        "en": "Capture a photo of the Old Town's skyline, focusing on the silhouettes of its many church steeples and historic rooftops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-8",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Whisky Window Shopping"
+      },
+      "prompt": {
+        "en": "Find a shop window displaying an impressive collection of Scotch whisky and take a photo of the 'water of life'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-9",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Street Performer Spotlight"
+      },
+      "prompt": {
+        "en": "Capture a moment of a street performer's act on the Royal Mile. A piper, a magician, or a musician!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-10",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Medieval Munchies"
+      },
+      "prompt": {
+        "en": "Find a bakery or cafe selling a traditional Scottish treat like a scone or shortbread. Take a delicious-looking photo before you eat it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-11",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on an old building – a gargoyle, a crest, or an old inscription – and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-12",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Reflection of the Past"
+      },
+      "prompt": {
+        "en": "Capture a reflection of an old building in a puddle, a shop window, or even someone's sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-13",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Up the Steps"
+      },
+      "prompt": {
+        "en": "The Old Town is full of stairs. Find a particularly long or winding set of steps and take a photo looking up or down."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-14",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "A Splash of Green"
+      },
+      "prompt": {
+        "en": "Find a hidden garden, a colourful window box, or a patch of moss growing on an ancient wall. Capture this touch of nature amidst the stone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "old-town-task-15",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "The Tourist Tide"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energy and movement of the crowds exploring the historic streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-1",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Georgian Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the symmetry and elegance of a Georgian terrace or crescent. Look for repeating patterns in the windows and doors."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-2",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Posh Door Selfie"
+      },
+      "prompt": {
+        "en": "Find the most impressive-looking front door – think grand pillars, a shiny brass knocker, and a bold colour. Take a selfie in front of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-3",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Designer Window Display"
+      },
+      "prompt": {
+        "en": "Find a high-end shop on George Street or Multrees Walk and photograph its creative and luxurious window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-4",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Secret Mews Lane"
+      },
+      "prompt": {
+        "en": "Discover a quiet mews lane behind the grand main streets. Capture the charming, village-like atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-5",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Elegant Ironwork"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of the intricate iron railings and balconies that are a signature feature of New Town architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-6",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Coffee and Class"
+      },
+      "prompt": {
+        "en": "Find a chic cafe and take a picture of your coffee or tea against an elegant backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-7",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Private Garden Peek"
+      },
+      "prompt": {
+        "en": "Many squares have private gardens for residents. Find one and (from the outside!) take a photo peeking through the railings at the hidden greenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-8",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Streetlight Glow"
+      },
+      "prompt": {
+        "en": "Capture the classic design of a New Town streetlight, either during the day or as it begins to glow at dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-9",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Reflection in a Grand Window"
+      },
+      "prompt": {
+        "en": "Use one of the large, clean windows of a gallery or shop to capture a reflection of the street scene opposite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-10",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Statue's Point of View"
+      },
+      "prompt": {
+        "en": "Find one of the many statues in the New Town's squares. Take a photo from the statue's perspective, looking out at what it 'sees' every day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-11",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Cobbled Contrast"
+      },
+      "prompt": {
+        "en": "Find a street that still has its original cobblestones and capture the contrast between the old stones and the grand, smooth buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-12",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Basement Dwelling"
+      },
+      "prompt": {
+        "en": "Look down! Take a photo of the basement-level entrances and windows that are a unique feature of New Town architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-13",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Even in the bustling New Town, there are quiet moments. Find a peaceful side street or square and capture the tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-14",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "The Perfect Pint"
+      },
+      "prompt": {
+        "en": "The New Town has many stylish pubs. Find one and take a picture that captures the sophisticated pub atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "new-town-task-15",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Rooftop Views"
+      },
+      "prompt": {
+        "en": "Look up and capture the uniform lines of the New Town rooftops and their chimney pots against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-1",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Village Vibe"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the 'village within a city' feel of Stockbridge. This could be a quaint shopfront, a quiet street, or a local chatting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-2",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Charity Shop Treasure"
+      },
+      "prompt": {
+        "en": "Find the most interesting, quirky, or vintage item you can see in a charity shop window and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-3",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Water of Leith Reflection"
+      },
+      "prompt": {
+        "en": "Find a calm spot on the Water of Leith and capture the reflection of the surrounding trees and buildings on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-4",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Artisan Foodie Photo"
+      },
+      "prompt": {
+        "en": "Stockbridge is full of artisan food shops (bakers, cheesemongers, delis). Take a mouth-watering photo of a display of delicious local produce."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-5",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Colourful Tenement"
+      },
+      "prompt": {
+        "en": "Find a particularly colourful or well-kept tenement building and take a photo that highlights its charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-6",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Bridge Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on one of the bridges crossing the Water of Leith, with the water and greenery in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-7",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of an independent shop with a unique name or interesting design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-8",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "A Local's Best Friend"
+      },
+      "prompt": {
+        "en": "Stockbridge is very dog-friendly. Capture a photo of a cute dog enjoying a walk or waiting patiently outside a shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-9",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Sunday Market Scene"
+      },
+      "prompt": {
+        "en": "If it's a Sunday, capture the bustling atmosphere of the Stockbridge Market. If not, find a spot where the market is held and imagine the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-10",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Cozy Pub Corner"
+      },
+      "prompt": {
+        "en": "Find a traditional pub and take a photo that captures its cozy, welcoming atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-11",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Floral Display"
+      },
+      "prompt": {
+        "en": "Many shops and homes have beautiful flower boxes or hanging baskets. Find the most vibrant floral display and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-12",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Canonmills Contrasts"
+      },
+      "prompt": {
+        "en": "In Canonmills, capture a photo that shows the mix of old stone buildings and newer developments."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-13",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "The Clock Tower"
+      },
+      "prompt": {
+        "en": "Find the St Stephen's Church clock tower and take a photo of it from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-14",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "Path to Nature"
+      },
+      "prompt": {
+        "en": "Find an entrance to the Water of Leith walkway and take a photo looking down the path, inviting the viewer to explore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "stockbridge-canonmills-task-15",
+      "neighborhood_id": "stockbridge-canonmills",
+      "title": {
+        "en": "A Quiet Read"
+      },
+      "prompt": {
+        "en": "Find a bench with a nice view and take a photo from the perspective of someone sitting down to relax with a book."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-1",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Maritime Echoes"
+      },
+      "prompt": {
+        "en": "Find something that hints at Leith's maritime past – an anchor, a ship's name on a pub, a seagull, or a view of the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-2",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Leith Street Art"
+      },
+      "prompt": {
+        "en": "Leith is known for its street art. Find a cool mural or piece of graffiti and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-3",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Capture the mix of old industrial buildings and modern apartments. Find a shot that shows the contrast between old and new Leith."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-4",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Global Flavours"
+      },
+      "prompt": {
+        "en": "Leith is a melting pot of cultures. Take a photo of a restaurant, shop, or sign that represents a country far from Scotland."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-5",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Waterfront Selfie"
+      },
+      "prompt": {
+        "en": "Head to The Shore or the waterfront and take a selfie with the water and boats in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-6",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "The Long Walk"
+      },
+      "prompt": {
+        "en": "Take a photo looking down the long, straight stretch of Leith Walk, capturing the buses, people, and the endless line of shops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-7",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "A Proper Pub"
+      },
+      "prompt": {
+        "en": "Find a pub that looks like it's been there for centuries. Take a photo of its classic exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-8",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Bridge Over Troubled Water"
+      },
+      "prompt": {
+        "en": "There are several bridges crossing the Water of Leith in this area. Frame a photo looking through or over one of them."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-9",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Many of the old tenement buildings have hidden courtyards or back greens. Find a view into one of these secret spaces."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-10",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Seafood Sensation"
+      },
+      "prompt": {
+        "en": "Find a seafood restaurant and take a photo of its menu or a fresh display. Capture the essence of food from the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-11",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Tenement Towers"
+      },
+      "prompt": {
+        "en": "Look up! Take a low-angle shot of the tall, imposing sandstone tenement buildings that define much of Leith."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-12",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "The Shore's Reflection"
+      },
+      "prompt": {
+        "en": "At The Shore, capture the reflection of the colourful buildings in the water of the harbour."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-13",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "A Quirky Sign"
+      },
+      "prompt": {
+        "en": "Leith has a unique character. Find a shop or pub sign with a funny, strange, or very 'Leith' name and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-14",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Find a park or a leafy green space like Leith Links or Pilrig Park and capture a moment of peace away from the busy streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "leith-task-15",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "The Firth of Forth"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see the open water of the Firth of Forth. Take a photo looking out to sea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-1",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Meadows Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the scale and life of The Meadows. People relaxing, playing sports, or just the long, tree-lined paths."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-2",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Student Life"
+      },
+      "prompt": {
+        "en": "Capture a scene that says 'university'. It could be students with books, a university building, or a cafe full of people studying."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-3",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Academic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of an impressive-looking University of Edinburgh building. Look thoughtful!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-4",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Cheap Eats Quest"
+      },
+      "prompt": {
+        "en": "This area is full of affordable, delicious food. Find a place with a great lunch deal or a tempting menu and snap a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-5",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Theatrical Flair"
+      },
+      "prompt": {
+        "en": "Find a theatre, like the Festival Theatre or Bedlam Theatre, and take a photo of its entrance or a show poster."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-6",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet courtyard or garden within the university campus and capture the peaceful, studious atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-7",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Marchmont Tenements"
+      },
+      "prompt": {
+        "en": "The Marchmont area has beautiful, grand tenement buildings. Take a photo that shows off their distinctive architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-8",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Bike Racks and Backpacks"
+      },
+      "prompt": {
+        "en": "Take a photo that includes two key elements of student life: a bicycle and a backpack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-9",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "A World of Food"
+      },
+      "prompt": {
+        "en": "Photograph a street that has restaurants from at least three different continents on it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-10",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Find a group of people enjoying The Meadows or Bruntsfield Links and capture the moment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-11",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic university building stands next to a modern one. Capture the architectural contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-12",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Coffee Break"
+      },
+      "prompt": {
+        "en": "Take a photo of a cozy-looking coffee shop, a hub for students and locals alike."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-13",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Leafy Streets"
+      },
+      "prompt": {
+        "en": "Many streets in this area are lined with trees. Take a photo down a long, leafy residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-14",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "Hidden Details"
+      },
+      "prompt": {
+        "en": "Look for small, interesting details on the buildings – a date stone, a small carving, or a unique piece of stained glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "south-university-quarter-task-15",
+      "neighborhood_id": "south-university-quarter",
+      "title": {
+        "en": "View of the Crags"
+      },
+      "prompt": {
+        "en": "From The Meadows, you can often see Arthur's Seat or the Salisbury Crags. Frame a photo with the park in the foreground and the hills in the back."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-1",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Haymarket Hubbub"
+      },
+      "prompt": {
+        "en": "Capture the constant motion around Haymarket Station – the trams, trains, buses, and people all coming and going."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-2",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Grand Crescent"
+      },
+      "prompt": {
+        "en": "The West End is famous for its elegant crescents. Find one and take a wide photo that shows its beautiful curve."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-3",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Modern Art Moment"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or sculpture, perhaps near the Modern Art galleries, and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-4",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Rugby Ready"
+      },
+      "prompt": {
+        "en": "Find a pub decorated with rugby memorabilia or a sign pointing towards Murrayfield Stadium. Capture the sporting spirit of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-5",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Station Clock Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the iconic clock of Haymarket Station in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-6",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Hidden Pub"
+      },
+      "prompt": {
+        "en": "The West End has many hidden basement pubs and classic bars. Find one that looks inviting and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-7",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Tram's Eye View"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of someone waiting for a tram, looking down the tracks as it approaches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-8",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Dean Village Detour"
+      },
+      "prompt": {
+        "en": "If you're near the edge of the neighborhood, find a view looking towards the picturesque Dean Village and the Water of Leith."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-9",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Business and Pleasure"
+      },
+      "prompt": {
+        "en": "This area mixes business with leisure. Capture a photo showing a modern office building next to a traditional pub or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-10",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Elegant Eatery"
+      },
+      "prompt": {
+        "en": "Find a restaurant with a particularly stylish or elegant exterior and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-11",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Step off the main roads and find a quiet residential street. Capture the peaceful contrast to the nearby transport hub."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-12",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Architectural Lines"
+      },
+      "prompt": {
+        "en": "Look for interesting lines and shapes in the architecture, whether from the Victorian station or the Georgian townhouses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-13",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "The Commuter's Coffee"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the morning coffee rush at a cafe near the station."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-14",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "On a sunny day, find interesting shadows cast by the grand buildings or the station's structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    },
+    {
+      "id": "west-haymarket-task-15",
+      "neighborhood_id": "west-haymarket",
+      "title": {
+        "en": "Looking towards the Castle"
+      },
+      "prompt": {
+        "en": "From certain streets in the West End, you can get a glimpse of Edinburgh Castle. Find a view and frame the castle in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-05T04:17:03.631045+00:00"
+    }
+  ]
+}
