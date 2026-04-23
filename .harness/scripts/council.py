@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Gemini-powered council runner for LLMwiki_StudyGroup.
+"""Gemini-powered council runner for city-atlas-service.
 
 Reads every persona in .harness/council/ (except lead-architect.md and README.md),
 dispatches them in parallel against the plan or diff, then runs the Lead Architect

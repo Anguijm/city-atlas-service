@@ -1,44 +1,41 @@
 # Model upgrade audit
 
-Run through every layer below whenever you swap a model (Claude tier, Gemini version, Voyage embedding model, AssemblyAI transcription model, or OpenRouter fallback). Skipping a layer is how regressions ship.
+Run through every layer below whenever you swap a model (Gemini pipeline version, Gemini council version, or the Claude model used by the PR watcher). Skipping a layer is how regressions ship.
 
-Adapted from the yolo-projects 5-layer model-swap checklist, tailored for the Next.js + Supabase + Claude + Voyage + AssemblyAI + Gemini-council stack.
+Adapted from the yolo-projects 5-layer model-swap checklist, tailored for a Python + TypeScript pipeline whose model surface is Gemini-primary (research, structuring, validation, council) with Claude as the PR watcher only.
 
 ## 1. Config
 
-- [ ] Model ID updated in the single source of truth (e.g., `lib/ai/config.ts`, env var, or constants module).
+- [ ] Model ID updated in the single source of truth: hard-coded strings in `src/pipeline/research_city.py` (`model="gemini-..."` callsites), `.harness/scripts/council.py` default, `.github/workflows/pr-watch.yml` for the Claude watcher.
 - [ ] No stray references to the old model ID anywhere in the repo. Grep for the old ID before committing.
-- [ ] Env var names (if used) documented in `.env.example` and `README.md`.
-- [ ] Default fallback model still valid (OpenRouter fallback shouldn't point at a retired ID).
+- [ ] Env vars overrides (`HARNESS_MODEL`) documented in `SESSION_HANDOFF.md` and `CLAUDE.md` if changed.
 
 ## 2. Callsites
 
 - [ ] Every callsite that used the old model is either migrated or explicitly opted into staying on the old model (with a comment).
-- [ ] SDK parameters still valid: max_tokens, temperature, system prompt shape, tool_use format, streaming options.
-- [ ] Anthropic prompt caching block structure still correct (cache_control on system + tools, not user turns, unless intentional).
-- [ ] Gemini: `genai.GenerativeModel(...)` calls use the new model ID; `.harness/scripts/council.py` default updated if applicable.
+- [ ] SDK parameters still valid: `temperature`, `response_mime_type`, `system_instruction` shape, `GenerateContentConfig` options, streaming flags.
+- [ ] Gemini-specific: `client.models.generate_content(model=...)` calls use the new model ID. Phase A/B (Gemini Pro) and Phase C (Gemini Flash) are separate knobs — don't conflate.
 
 ## 3. Prompts
 
 - [ ] System prompts still produce the expected shape of output. Newer models can be stricter about instruction-following or more verbose.
-- [ ] Tool-use schemas still match the model's tool definition format (minor field renames happen between Claude versions).
-- [ ] Output JSON schemas still validate against real outputs — run a sample through your Zod/Pydantic schema before merging.
-- [ ] Edge-case prompts (very long docs, non-English content, math/code-heavy) still produce usable output.
+- [ ] `response_mime_type: application/json` still yields parseable output on the new model — run a sample through the JSON-decode path before merging.
+- [ ] Phase A historical-guard regex still matches (vitest test pins it).
+- [ ] Phase C `HALLUCINATION_KEYWORDS` coverage still triggers correctly — run the `TestHallucinationKeywords` pytest class.
 
 ## 4. Tests
 
-- [ ] Regression prompts exist for every major use (summarization, tagging, extraction, discussion prompt gen, council angle review).
-- [ ] Run the regression set against the new model; diff outputs against a baseline checked into the repo.
-- [ ] Unit tests still pass — no implicit dependency on old model's token-count or output length.
-- [ ] Manual smoke test: ingest one real PDF, one real YouTube video transcript, one real set of lecture notes. Check downstream outputs.
+- [ ] `npm run test` (vitest) green on the scraper + Firestore-writer suites.
+- [ ] `python3.12 -m pytest src/pipeline/` green on the 31 Phase C cases.
+- [ ] Manual smoke test: one representative city end-to-end (e.g., `python3.12 src/pipeline/research_city.py --city boston --enrich`) with the new model; compare the resulting JSON to a baseline from the old model.
 
 ## 5. Costs
 
 - [ ] New model's price-per-token documented in the callsite comment.
-- [ ] Per-user per-month estimate updated in `CLAUDE.md` "Cost posture" section if the model change is user-facing.
+- [ ] Gemini call budget (3–4 Pro calls per full pipeline run per city) still fits the per-enrichment-cycle envelope.
+- [ ] Council call cap (~10 Gemini calls per PR) still enforced in `council.yml`.
 - [ ] Rate limits adjusted if the new model has different TPM/RPM ceilings.
-- [ ] Prompt caching cost impact reviewed: did the cache structure stay intact? Cache hit rate shouldn't drop to 0% on the swap.
-- [ ] Cron / Inngest job cost ceilings re-validated — a "cheaper" model that's 10x slower can still blow budget via retries.
+- [ ] Batch-level cost sanity-check: a 185-city full enrichment shouldn't exceed the previous cycle's total spend without explicit justification.
 
 ## Post-swap smoke test
 
@@ -46,19 +43,19 @@ Adapted from the yolo-projects 5-layer model-swap checklist, tailored for the Ne
 2. Swap the model.
 3. Run the council again on the same diff; save to `.harness/memory/post-swap-council.md`.
 4. Diff the two. Confirm scores and non-negotiables are consistent in direction (±1 per angle is fine; swings of 3+ are a red flag).
-5. Spot-check one full Claude callsite in production-like conditions (dev env with real corpus).
+5. Spot-check one full `research_city.py` run against the new model on a city with known-good baseline JSON.
 
 ## Rollback plan
 
 Every model swap commit must describe how to revert:
 
-- The single config change to revert.
+- The single config change to revert (model ID string).
 - Any prompt changes that must be reverted alongside.
-- Whether re-embedding is needed (embedding model swaps: always yes).
-- Whether the council persona files need updating (usually no, but major Gemini version jumps may change default output format).
+- Whether the council persona files need updating (usually no, but major Gemini version jumps may change default output format or instruction-following style).
+- Whether Phase C `HALLUCINATION_KEYWORDS` needs expanding for the new model's audit-reason vocabulary.
 
 ## Never
 
-- Mix embedding models on the same pgvector index. If swapping embeddings, it's a full reindex, not a gradual migration. Plan for it.
 - Swap model *and* change prompt in the same PR. Split them so regressions can be attributed.
 - Swap to a preview / experimental model ID on a production path. Preview models can be deprecated with 30 days' notice.
+- Swap the pipeline model and the council model in the same PR — you lose the ability to blame a PR regression on either change in isolation.

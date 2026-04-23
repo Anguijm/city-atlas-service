@@ -6,13 +6,13 @@ Each `*.md` file in this directory (other than this README and `lead-architect.m
 
 | File | Role | Scope |
 |------|------|-------|
-| `security.md` | Security Reviewer | RLS, auth, secrets, prompt injection, XSS, rate limits, PII, supply chain |
-| `architecture.md` | Architecture Reviewer | App Router boundaries, data model, migrations, Inngest idempotency, RAG pipeline, provider abstraction |
-| `product.md` | Product Reviewer | Cohort value, scope, mobile, SRS/wiki loop, anti-scope |
-| `bugs.md` | Bug Hunter | Nulls, races, retries, boundaries, encoding, cleanup, silent failures |
-| `cost.md` | Cost Reviewer | Claude routing, caching, embeddings, transcription, per-user ceiling |
-| `accessibility.md` | Accessibility Reviewer | Keyboard, screen reader, WCAG AA, motion, i18n, touch targets |
-| `lead-architect.md` | Resolver (synthesizes the above into one plan) |
+| `security.md` | Security Reviewer | `firestore.rules`, Admin SDK scope, secret handling, prompt injection, supply chain, subprocess safety |
+| `architecture.md` | Architecture Reviewer | Pipeline boundaries (Python orchestrator + TS writers), `cityAtlas.ts` cross-consumer contract, idempotency, manifest semantics |
+| `product.md` | Product Reviewer | UE vs Roadtripper consumer impact, coverage tier calibration, degraded-vs-rejected trade-offs, per-app task semantics |
+| `bugs.md` | Bug Hunter | Phase C semantic audit coverage, Gemini hallucination/coordinate drift, manifest races, subprocess non-determinism, historical-guard regression |
+| `cost.md` | Cost Reviewer | Gemini Pro budget per cycle, scraper rate limits, council call cap, cache effectiveness |
+| `accessibility.md` | Accessibility Reviewer | Machine-parseable log output, operator ergonomics, no UI surface here so the scope is narrow |
+| `lead-architect.md` | Resolver (synthesizes the above into one verdict) |
 
 ## Adding a new angle
 
@@ -42,7 +42,7 @@ The runner enforces 15 Gemini calls per run (hard). Adding a new angle eats one 
 ## Style invariants for new personas
 
 - No emojis.
-- Opening line: `You are a <Role> examining a development plan for LLMwiki_StudyGroup...`
+- Opening line: `You are a <Role> examining a development plan for city-atlas-service...`
 - Always include non-negotiables that grant veto power (so the Lead Architect knows when to reject).
 - Keep the checklist actionable — questions, not lectures.
 - Output format must be machine-parseable (fenced block with `Score:` on its own line so the log can extract it).
