@@ -181,12 +181,27 @@ def scrape_wikipedia_if_needed(city_id: str) -> None:
         print(f"  ⚠ Wikipedia scrape failed (non-fatal): {e}")
 
 
+# Reddit's unauthenticated API is the most rate-limit-sensitive source (tighter
+# than Wikipedia's 1 req/sec). We hard-cap Reddit scrape invocations per batch
+# to mitigate IP-ban risk — overridable via HARNESS_REDDIT_BATCH_CAP env var.
+# At ~10 API calls per city (6 searches + up to 5 post threads + throttled
+# delays), 50 cities = ~500 calls, which fits comfortably within a single
+# batch. Cap stops new reddit scrapes once reached; cached cities still load.
+REDDIT_BATCH_CAP = int(os.environ.get("HARNESS_REDDIT_BATCH_CAP", "60"))
+_reddit_calls_this_batch = 0
+
+
 def scrape_reddit_if_needed(city_id: str) -> None:
-    """Pre-scrape Reddit threads if not already cached."""
+    """Pre-scrape Reddit threads if not already cached. Respects REDDIT_BATCH_CAP."""
+    global _reddit_calls_this_batch
     reddit_file = PROJECT_ROOT / "data" / "reddit" / f"{city_id}.md"
     if reddit_file.exists():
+        return  # cached; no API call needed, no budget consumed
+    if _reddit_calls_this_batch >= REDDIT_BATCH_CAP:
+        print(f"  ⚠ Reddit batch cap reached ({REDDIT_BATCH_CAP}); skipping {city_id} (non-fatal)")
         return
-    print(f"  → Scraping Reddit for {city_id}...")
+    _reddit_calls_this_batch += 1
+    print(f"  → Scraping Reddit for {city_id}... ({_reddit_calls_this_batch}/{REDDIT_BATCH_CAP})")
     try:
         result = subprocess.run(
             ["npx", "tsx", str(PROJECT_ROOT / "src" / "scrapers" / "reddit.ts"),

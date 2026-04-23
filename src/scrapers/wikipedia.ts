@@ -21,7 +21,7 @@ import * as path from "path";
 const OUTPUT_DIR = path.join(__dirname, "..", "data", "wikipedia");
 const CITY_CACHE = path.join(__dirname, "..", "src", "data", "global_city_cache.json");
 const DEFAULT_INTERVAL_MS = 1500;
-const USER_AGENT = "UrbanExplorer/1.0 (+https://urbanexplorer.app; anguijm@gmail.com)";
+const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)";
 
 // Shared floor for per-city .md output. Higher than Phase A's 200-char gate
 // (src/pipeline/research_city.py:350) so we never produce output Phase A rejects.

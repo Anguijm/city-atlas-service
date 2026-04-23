@@ -742,7 +742,12 @@ async function commitInBatches(
     const chunk = ops.slice(i, i + BATCH_SIZE);
     const batch = db.batch();
     for (const op of chunk) {
-      batch.set(op.ref, op.data);
+      // `merge: true` preserves existing fields (vibeClass, loreAnchor,
+      // vernacularName, aliases, coverageTier, maxRadiusKm) that are not
+      // in the current payload. Without merge, a baseline re-ingest silently
+      // deletes fields set by previous enrichment runs. Matches the merge
+      // semantics in the flat-mirror write path at line ~1108.
+      batch.set(op.ref, op.data, { merge: true });
     }
     try {
       await batch.commit();
