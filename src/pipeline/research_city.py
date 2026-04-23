@@ -26,6 +26,30 @@ from pathlib import Path
 from phase_c_threshold import apply_proportional_fail_threshold
 
 
+# Gating keywords: phase_c_validate only runs name extraction + deletion on
+# FAIL/WARNING verdicts whose reason text contains one of these tokens.
+# Without the gate, a legitimate non-hallucination WARNING like "coordinates
+# off for Alpha and Beta" would match candidate names via find_hallucinated_names
+# and escalate to FAIL or delete valid waypoints. Keep this list tight —
+# adding a keyword widens the delete-path surface; missing one lets corrupt
+# data through (the original list missed "fictional" / "made up" / "imaginary"
+# / "invented", which a Phase C audit reason can use instead of "fabricated").
+HALLUCINATION_KEYWORDS = (
+    "hallucinat",
+    "doesn't exist",
+    "does not exist",
+    "fabricat",
+    "not real",
+    "non-existent",
+    "nonexistent",
+    "fictional",
+    "made up",
+    "made-up",
+    "imaginary",
+    "invented",
+)
+
+
 def find_hallucinated_names(
     reason_text: str,
     candidate_waypoints: list[dict],
@@ -1153,16 +1177,13 @@ Respond with JSON:
 Data sample:
 {json.dumps(sample, ensure_ascii=False)}"""
 
-    HALLUCINATION_KEYWORDS = (
-        "hallucinat", "doesn't exist", "does not exist", "fabricat",
-        "not real", "non-existent", "nonexistent",
-    )
-
     def _remove_hallucinated_places(bad_names: set[str]) -> None:
         """Strip waypoints whose names match bad_names and drop their orphan tasks.
 
         Mutates `data` and refreshes the `waypoints`/`tasks` locals used for
-        the downstream quality-tier calculation.
+        the downstream quality-tier calculation. Emits a structured audit
+        log line per deletion so Cloud Logging / grep can surface anomalous
+        runs (e.g., per-batch deletion-count dashboards).
         """
         nonlocal waypoints, tasks
         if not bad_names:
@@ -1174,16 +1195,17 @@ Data sample:
         sample_size = len(sampled_waypoints) or 1
         if len(bad_names) / sample_size > 0.75:
             print(
-                f"    ⚠ CRITICAL: {len(bad_names)}/{sample_size} "
+                f"    CRITICAL: {len(bad_names)}/{sample_size} "
                 f"({len(bad_names)/sample_size:.0%}) of sample flagged; "
                 f"skipping deletion to prevent mass wipe"
             )
             return
         before_wp = len(data["waypoints"])
-        removed_wp_ids = {
-            w.get("id") for w in data["waypoints"]
+        removed_wp = [
+            w for w in data["waypoints"]
             if (w.get("name") or "").strip().lower() in bad_names
-        }
+        ]
+        removed_wp_ids = {w.get("id") for w in removed_wp}
         data["waypoints"] = [
             w for w in data["waypoints"]
             if w.get("id") not in removed_wp_ids
@@ -1195,7 +1217,19 @@ Data sample:
         ]
         waypoints = data["waypoints"]
         tasks = data["tasks"]
-        print(f"    → Removed {before_wp - len(waypoints)} hallucinated waypoints, {before_tasks - len(tasks)} orphan tasks")
+        deleted_wp_count = before_wp - len(waypoints)
+        deleted_task_count = before_tasks - len(tasks)
+        print(f"    REMOVED: {deleted_wp_count} hallucinated waypoints, {deleted_task_count} orphan tasks")
+        # Structured audit trail for the automated deletion path. Downstream
+        # monitoring can grep for the event tag or filter in Cloud Logging.
+        print("AUDIT_DELETION " + json.dumps({
+            "event": "phase_c_hallucination_deletion",
+            "city_id": city.get("id"),
+            "deleted_waypoint_count": deleted_wp_count,
+            "deleted_task_count": deleted_task_count,
+            "deleted_names": [w.get("name") for w in removed_wp],
+            "original_gemini_reason": reason,
+        }, ensure_ascii=False))
 
     status = "PASS"  # Default; overwritten by audit result
     try:
@@ -1236,13 +1270,13 @@ Data sample:
                     # Reason mentions hallucination but no sampled name
                     # appears in it. A 0/N ratio would silently demote the
                     # verdict — preserve the primary-model FAIL instead.
-                    print("  ✗ FAIL reason mentions hallucination but no sample names matched; preserving FAIL")
+                    print("  PRESERVED: FAIL reason mentions hallucination but no sample names matched")
                 else:
                     new_status, demotion_reason = apply_proportional_fail_threshold(
                         "FAIL", len(bad_names), len(sampled_waypoints)
                     )
                     if demotion_reason:
-                        print(f"  ↓ FAIL demoted to WARNING: {demotion_reason}")
+                        print(f"  DEMOTED: FAIL -> WARNING ({demotion_reason})")
                         print(f"    Original Gemini reason: {reason}")
                         status = new_status
             elif status == "WARNING":
@@ -1260,7 +1294,7 @@ Data sample:
                     # silently-corrupted one. Expect a small uptick in
                     # per-batch FAIL rate; offset by the proportional-
                     # threshold demotions on the FAIL side.
-                    print("  ↑ WARNING escalated to FAIL: reason mentions hallucination but no sample names matched")
+                    print("  ESCALATED: WARNING -> FAIL (reason mentions hallucination but no sample names matched)")
                     print(f"    Original Gemini reason: {reason}")
                     status = "FAIL"
 

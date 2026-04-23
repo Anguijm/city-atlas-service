@@ -13,7 +13,7 @@ the bad places without losing the whole city.
 """
 
 from phase_c_threshold import apply_proportional_fail_threshold
-from research_city import find_hallucinated_names
+from research_city import HALLUCINATION_KEYWORDS, find_hallucinated_names
 
 
 class TestPassThrough:
@@ -220,3 +220,22 @@ class TestFindHallucinatedNames:
         reason = "Central Park is fabricated and Bar doesn't exist."
         waypoints = [{"name": "Bar"}, {"name": "Central Park"}]
         assert find_hallucinated_names(reason, waypoints) == {"bar", "central park"}
+
+
+class TestHallucinationKeywords:
+    """The keyword list gates whether phase_c_validate runs name extraction
+    and cleanup. Missing common variants causes silent data corruption —
+    e.g., a `WARNING` with reason "the following places are fictional: A, B"
+    would bypass cleanup entirely if "fictional" isn't a listed keyword.
+    """
+
+    def test_covers_original_variants(self):
+        for term in ("hallucinat", "doesn't exist", "does not exist", "fabricat"):
+            assert term in HALLUCINATION_KEYWORDS, f"missing keyword {term!r}"
+
+    def test_covers_fictional_variants_added_in_round_4(self):
+        # Gemini audit reasons use these interchangeably with "fabricated";
+        # adding them closes the silent-bypass path the bugs reviewer
+        # flagged in round-4 council feedback.
+        for term in ("fictional", "made up", "made-up", "imaginary", "invented"):
+            assert term in HALLUCINATION_KEYWORDS, f"missing keyword {term!r}"
