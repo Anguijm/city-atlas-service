@@ -47,3 +47,7 @@ data/                           # scraped .md content (git-tracked)
 ## License
 
 See `LICENSE`.
+
+## Status
+
+Initial scaffold complete. Awaiting first pipeline-code PRs.
