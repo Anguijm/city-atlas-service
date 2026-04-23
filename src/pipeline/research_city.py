@@ -23,6 +23,92 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+from phase_c_threshold import apply_proportional_fail_threshold
+
+
+# Gating keywords: phase_c_validate only runs name extraction + deletion on
+# FAIL/WARNING verdicts whose reason text contains one of these tokens.
+# Without the gate, a legitimate non-hallucination WARNING like "coordinates
+# off for Alpha and Beta" would match candidate names via find_hallucinated_names
+# and escalate to FAIL or delete valid waypoints. Keep this list tight —
+# adding a keyword widens the delete-path surface; missing one lets corrupt
+# data through (the original list missed "fictional" / "made up" / "imaginary"
+# / "invented", which a Phase C audit reason can use instead of "fabricated").
+HALLUCINATION_KEYWORDS = (
+    "hallucinat",
+    "doesn't exist",
+    "does not exist",
+    "fabricat",
+    "not real",
+    "non-existent",
+    "nonexistent",
+    "fictional",
+    "made up",
+    "made-up",
+    "imaginary",
+    "invented",
+    "spurious",
+)
+
+
+def find_hallucinated_names(
+    reason_text: str,
+    candidate_waypoints: list[dict],
+) -> set[str]:
+    """Return lowercased names from candidate_waypoints that appear in reason_text.
+
+    Deterministic case-insensitive whole-word match. Used by phase_c_validate
+    to identify which sampled waypoints a QA-audit reason text is flagging
+    as hallucinated.
+
+    Chosen over an LLM-based parser (an earlier iteration of this code) to
+    eliminate (a) a prompt-injection chain where a compromised reason_text
+    could steer a second Gemini call to list arbitrary names, and (b) a
+    silent-failure path where Gemini errors returned an empty set that the
+    proportional threshold then read as "zero hallucinations" and used to
+    demote a FAIL verdict.
+
+    Matching strategy:
+    - Word boundaries (\b) so "bar" does not match "barring" and short
+      generic names ("Park", "Inn") do not trip on incidental substrings.
+    - Longest candidate first, then skip a shorter candidate when it is a
+      proper substring of a longer already-matched name. Prevents a reason
+      flagging "Central Park" from also deleting a sibling "Park" waypoint.
+
+    Trade-off: cannot catch hallucinations that the audit describes
+    positionally ("the first four waypoints are fake") or with fuzzy
+    variants ("St. James Park" vs "St. James's Park"). The caller treats
+    a zero-match result as "cannot reliably demote / cannot reliably clean"
+    and either preserves FAIL or escalates WARNING → FAIL accordingly.
+    """
+    if not reason_text:
+        return set()
+    lower = reason_text.lower()
+    names = sorted(
+        {
+            (w.get("name") or "").strip().lower()
+            for w in candidate_waypoints
+            if w.get("name")
+        },
+        key=len,
+        reverse=True,
+    )
+    result: set[str] = set()
+    for name in names:
+        if not name:
+            continue
+        pattern = r"\b" + re.escape(name) + r"\b"
+        if not re.search(pattern, lower):
+            continue
+        # Containment guard: if this name is a proper substring of an
+        # already-matched longer name, the longer name is what the reason
+        # actually flagged. Skip the shorter to avoid double-deletion.
+        if any(name != longer and name in longer for longer in result):
+            continue
+        result.add(name)
+    return result
+
+
 # Paths
 PROJECT_ROOT = Path(__file__).parent.parent
 CITY_CACHE = PROJECT_ROOT / "src" / "data" / "global_city_cache.json"
@@ -1070,26 +1156,81 @@ def phase_c_validate(city: dict, data: dict, json_path: Path):
 Review this sample of generated data for {city['name']}, {city['country']}.
 
 FAIL CRITERIA (show-stopping — use only if data is systemically bad):
-- MAJORITY of places are hallucinated (more than 20% don't exist)
+- MAJORITY of places are hallucinated: more than 25% of the audited waypoints don't exist
 - Wrong city: coordinates place many items in a different city
 - Massive fabrication: most addresses don't exist
 - Only FAIL if the data is unusable overall.
 
 WARNING CRITERIA (isolated issues — use these for minor problems):
-- 1-2 hallucinated or misidentified places in an otherwise valid sample
+- Up to 25% of places hallucinated or misidentified in an otherwise valid sample
 - Fuzzy coordinates: off by a few blocks is fine for a walking app
 - Fuzzy neighborhood boundaries: place in adjacent neighborhood is acceptable
 - Permanently closed or relocated businesses: data freshness, NOT hallucination
 - Minor description imprecision: slightly outdated hours or details
 
-Be TOLERANT. Most cities will have 1-2 imperfect entries. That's a WARNING, not a FAIL.
-A single hallucinated place out of 15 is WARNING. Three+ hallucinations is FAIL.
+Be TOLERANT. Most cities will have 1-3 imperfect entries out of 15. That's a WARNING, not a FAIL.
+FAIL requires strictly more than 25% of the sample to be hallucinated (e.g. 4+ out of 15, 3+ out of 10).
+Downstream code re-checks the proportion and will demote a marginal FAIL to WARNING anyway, so err on the side of WARNING.
 
 Respond with JSON:
-{{"status": "PASS" | "WARNING" | "FAIL", "reason": "Brief explanation. If FAIL, name ALL specific hallucinated places and explain why they don't exist."}}
+{{"status": "PASS" | "WARNING" | "FAIL", "reason": "Brief explanation. If FAIL or WARNING, name ALL specific hallucinated places and explain why they don't exist."}}
 
 Data sample:
 {json.dumps(sample, ensure_ascii=False)}"""
+
+    def _remove_hallucinated_places(bad_names: set[str]) -> None:
+        """Strip waypoints whose names match bad_names and drop their orphan tasks.
+
+        Mutates `data` and refreshes the `waypoints`/`tasks` locals used for
+        the downstream quality-tier calculation. Emits a structured audit
+        log line per deletion so Cloud Logging / grep can surface anomalous
+        runs (e.g., per-batch deletion-count dashboards).
+        """
+        nonlocal waypoints, tasks
+        if not bad_names:
+            return
+        # Sanity guard: a genuine catastrophic hallucination rate should
+        # have come back as FAIL and stayed FAIL past the proportional
+        # threshold, not reached this cleanup path. Skip deletion rather
+        # than wipe a city's data on a >75% flag.
+        sample_size = len(sampled_waypoints) or 1
+        if len(bad_names) / sample_size > 0.75:
+            print(
+                f"    CRITICAL: {len(bad_names)}/{sample_size} "
+                f"({len(bad_names)/sample_size:.0%}) of sample flagged; "
+                f"skipping deletion to prevent mass wipe"
+            )
+            return
+        before_wp = len(data["waypoints"])
+        removed_wp = [
+            w for w in data["waypoints"]
+            if (w.get("name") or "").strip().lower() in bad_names
+        ]
+        removed_wp_ids = {w.get("id") for w in removed_wp}
+        data["waypoints"] = [
+            w for w in data["waypoints"]
+            if w.get("id") not in removed_wp_ids
+        ]
+        before_tasks = len(data["tasks"])
+        data["tasks"] = [
+            t for t in data["tasks"]
+            if t.get("waypoint_id") not in removed_wp_ids
+        ]
+        waypoints = data["waypoints"]
+        tasks = data["tasks"]
+        deleted_wp_count = before_wp - len(waypoints)
+        deleted_task_count = before_tasks - len(tasks)
+        print(f"    REMOVED: {deleted_wp_count} hallucinated waypoints, {deleted_task_count} orphan tasks")
+        # Structured audit trail for the automated deletion path. Downstream
+        # monitoring can grep for the event tag or filter in Cloud Logging.
+        print("AUDIT_DELETION " + json.dumps({
+            "event": "phase_c_hallucination_deletion",
+            "city_id": city.get("id"),
+            "deleted_waypoint_count": deleted_wp_count,
+            "deleted_task_count": deleted_task_count,
+            "deleted_names": [w.get("name") for w in removed_wp],
+            "original_gemini_reason": reason,
+        }, ensure_ascii=False))
 
     status = "PASS"  # Default; overwritten by audit result
     try:
@@ -1117,59 +1258,56 @@ Data sample:
         status = result.get("status", "FAIL")
         reason = result.get("reason", "No reason provided")
 
+        # Proportional FAIL threshold: if Gemini flagged hallucinations, find
+        # which sampled waypoint names actually appear in the reason text and
+        # use that count as the numerator. FAIL is demoted to WARNING when
+        # the ratio is <= 25%; WARNING is escalated to FAIL if no specific
+        # names could be identified (can't clean what we can't name).
+        mentions_hallucination = any(kw in reason.lower() for kw in HALLUCINATION_KEYWORDS)
+        if status in ("FAIL", "WARNING") and mentions_hallucination:
+            bad_names = find_hallucinated_names(reason, sampled_waypoints)
+            if status == "FAIL":
+                if not bad_names:
+                    # Reason mentions hallucination but no sampled name
+                    # appears in it. A 0/N ratio would silently demote the
+                    # verdict — preserve the primary-model FAIL instead.
+                    print("  PRESERVED: FAIL reason mentions hallucination but no sample names matched")
+                else:
+                    new_status, demotion_reason = apply_proportional_fail_threshold(
+                        "FAIL", len(bad_names), len(sampled_waypoints)
+                    )
+                    if demotion_reason:
+                        print(f"  DEMOTED: FAIL -> WARNING ({demotion_reason})")
+                        print(f"    Original Gemini reason: {reason}")
+                        status = new_status
+            elif status == "WARNING":
+                if not bad_names:
+                    # Gemini flagged hallucinations but we can't identify
+                    # specific places to remove. Escalate to FAIL rather
+                    # than ship data with known-bad unremediated waypoints.
+                    #
+                    # This is an intentional quality improvement over UE's
+                    # behavior (which would have accepted the WARNING and
+                    # let bad data through). A vague "several places are
+                    # fabricated" reason produces zero name matches under
+                    # the deterministic matcher, which would otherwise be
+                    # a no-op cleanup — we prefer a lost city to a
+                    # silently-corrupted one. Expect a small uptick in
+                    # per-batch FAIL rate; offset by the proportional-
+                    # threshold demotions on the FAIL side.
+                    print("  ESCALATED: WARNING -> FAIL (reason mentions hallucination but no sample names matched)")
+                    print(f"    Original Gemini reason: {reason}")
+                    status = "FAIL"
+
+            if status == "WARNING":
+                _remove_hallucinated_places(bad_names)
+
         if status == "FAIL":
             print(f"  ✗ Semantic audit FAILED: {reason}")
             _move_to_failed(json_path)
             sys.exit(1)
         elif status == "WARNING":
             print(f"  ⚠ Semantic audit WARNING (accepted): {reason}")
-            # Fix 1: If hallucination detected, extract + remove bad places
-            if any(kw in reason.lower() for kw in ("hallucinat", "doesn't exist", "does not exist", "fabricat", "not real", "non-existent", "nonexistent")):
-                try:
-                    extract_prompt = f"""From the QA reason below, extract the EXACT names of places flagged as hallucinated / non-existent / fabricated. Return JSON only.
-
-QA reason: {reason}
-
-Candidate place names in the sample (match against these):
-{json.dumps([w.get("name") for w in sampled_waypoints], ensure_ascii=False)}
-
-Respond with JSON: {{"hallucinated": ["exact name 1", "exact name 2"]}}"""
-                    extract_resp = client.models.generate_content(
-                        model="gemini-2.5-flash",
-                        contents=extract_prompt,
-                        config=genai.types.GenerateContentConfig(
-                            response_mime_type="application/json",
-                            temperature=0.0,
-                        ),
-                    )
-                    extract_text = extract_resp.text
-                    try:
-                        extract_json = json.loads(extract_text)
-                    except json.JSONDecodeError:
-                        m = re.search(r"\{[\s\S]*\}", extract_text)
-                        extract_json = json.loads(m.group()) if m else {"hallucinated": []}
-                    bad_names = {n.strip().lower() for n in extract_json.get("hallucinated", []) if isinstance(n, str)}
-                    if bad_names:
-                        before_wp = len(data["waypoints"])
-                        removed_wp_ids = {
-                            w.get("id") for w in data["waypoints"]
-                            if (w.get("name") or "").strip().lower() in bad_names
-                        }
-                        data["waypoints"] = [
-                            w for w in data["waypoints"]
-                            if w.get("id") not in removed_wp_ids
-                        ]
-                        before_tasks = len(data["tasks"])
-                        data["tasks"] = [
-                            t for t in data["tasks"]
-                            if t.get("waypoint_id") not in removed_wp_ids
-                        ]
-                        # Refresh locals for quality calc
-                        waypoints = data["waypoints"]
-                        tasks = data["tasks"]
-                        print(f"    → Removed {before_wp - len(waypoints)} hallucinated waypoints, {before_tasks - len(tasks)} orphan tasks")
-                except Exception as e:
-                    print(f"    ⚠ Hallucination extraction failed (non-fatal): {e}")
         else:
             print(f"  ✓ Semantic audit PASSED: {reason}")
 
