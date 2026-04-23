@@ -1,0 +1,90 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper function for Auth
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+
+    // Helper: verify the authenticated user owns the resource
+    function isOwner(userId) {
+      return isAuthenticated() && request.auth.uid == userId;
+    }
+
+    // 🌍 GLOBAL VIBE CACHE (The New Moat)
+    match /global_city_cache/{cityId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    // Vibe Cache collections (cache-first retrieval)
+    match /cities/{cityId} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+
+      match /neighborhoods/{neighborhoodId} {
+        allow read: if isAuthenticated();
+        allow write: if false;
+
+        match /waypoints/{waypointId} {
+          allow read: if isAuthenticated();
+          allow write: if false;
+        }
+
+        match /tasks/{taskId} {
+          allow read: if isAuthenticated();
+          allow write: if false;
+        }
+      }
+    }
+
+    match /vibe_neighborhoods/{id} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    match /vibe_waypoints/{id} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    match /vibe_tasks/{id} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    match /seasonal_variants/{id} {
+      allow read: if isAuthenticated();
+      allow write: if false;
+    }
+
+    // 🚦 CONCURRENCY LOCKS (Stampede Prevention)
+    // All lock operations now use the Firebase Admin SDK (server-side),
+    // which bypasses these rules entirely. Lock the collection to clients.
+    match /cache_locks/{cityId} {
+      allow read, write: if false;
+    }
+
+    // 📊 DISCOVERY QUEUE (Batch Research Pipeline)
+    // Written by Admin SDK on cache miss. Read by monthly cron.
+    match /pending_research/{docId} {
+      allow read, write: if false;
+    }
+
+    // 📈 HEALTH METRICS (Autoresearch-inspired scalar tracking)
+    // Written by vibeRefreshAgent (Admin SDK). Admin-only reads.
+    match /health_metrics/{docId} {
+      allow read: if isAuthenticated() && request.auth.token.admin == true;
+      allow write: if false;
+    }
+
+    // 🗺️ SAVED HUNTS (Existing Feature)
+    match /saved_hunts/{huntId} {
+      // FIXED: Split create and read/update to handle null resource on creation
+      allow create: if isOwner(request.resource.data.userId);
+      allow read, update: if isOwner(resource.data.userId);
+      allow delete: if false; // SOFT-DELETE ONLY — prevent client-side data loss
+    }
+  }
+}

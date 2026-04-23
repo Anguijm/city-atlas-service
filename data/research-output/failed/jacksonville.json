@@ -1,0 +1,321 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-jacksonville",
+      "city_id": "jacksonville",
+      "name": {
+        "en": "Downtown Jacksonville"
+      },
+      "summary": {
+        "en": "A district of contrasts, this urban core mixes sleek office towers with historic architecture and quiet riverside promenades, rewarding the patient observer."
+      },
+      "lat": 30.3265,
+      "lng": -81.6591,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-jacksonville-northbank-riverwalk",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "The Northbank Riverwalk"
+      },
+      "description": {
+        "en": "The primary artery for exploration, offering fantastic, unobstructed views of the St. Johns River and the city's signature bridges."
+      },
+      "type": "landmark",
+      "lat": 30.3235,
+      "lng": -81.6588,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-jacksonville-architectural-ghosts",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "Architectural Ghosts of Downtown"
+      },
+      "description": {
+        "en": "Explore streets like Forsyth and Adams and look up to see ornate details and faded names from the post-1901 rebuilding era on the upper floors of older buildings."
+      },
+      "type": "culture",
+      "lat": 30.3281,
+      "lng": -81.6574,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-jacksonville-jwj-park",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "James Weldon Johnson Park"
+      },
+      "description": {
+        "en": "One of Florida's oldest public parks, this central hub of downtown life is a great spot for people-watching and finding public art installations."
+      },
+      "type": "landmark",
+      "lat": 30.3276,
+      "lng": -81.6593,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-jacksonville-main-street-bridge-underbelly",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "The Underbelly of the Main Street Bridge"
+      },
+      "description": {
+        "en": "This area offers a unique, gritty, and symmetrical view of the massive steel structure of the iconic blue bridge, a powerful perspective most people miss."
+      },
+      "type": "hidden_gem",
+      "lat": 30.3225,
+      "lng": -81.6575,
+      "trending_score": 70
+    },
+    {
+      "id": "downtown-jacksonville-find-coffee-shop",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "Mission: Find an Independent Coffee Shop"
+      },
+      "description": {
+        "en": "Bypass corporate logos and seek out a small, ground-floor cafe with local art on the walls, perhaps on a side street off Laura Street."
+      },
+      "type": "drink",
+      "lat": 30.3279,
+      "lng": -81.6581,
+      "trending_score": 65
+    },
+    {
+      "id": "downtown-jacksonville-find-watering-hole",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "Mission: Find a Low-Key Watering Hole"
+      },
+      "description": {
+        "en": "Find a small bar or pub that feels like it’s been there for decades, catering to the downtown workforce rather than tourists."
+      },
+      "type": "nightlife",
+      "lat": 30.3288,
+      "lng": -81.6569,
+      "trending_score": 60
+    },
+    {
+      "id": "downtown-jacksonville-find-lunch-deli",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "Mission: Find a 'Lunch Rush' Deli"
+      },
+      "description": {
+        "en": "Discover a small, independent sandwich shop bustling with office workers between noon and 1 p.m. to find unpretentious, authentic city fare."
+      },
+      "type": "food",
+      "lat": 30.3271,
+      "lng": -81.6565,
+      "trending_score": 70
+    },
+    {
+      "id": "downtown-jacksonville-find-courtyard-eatery",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-jacksonville",
+      "name": {
+        "en": "Mission: Find a Hidden Courtyard Eatery"
+      },
+      "description": {
+        "en": "Search for a restaurant tucked away from the main thoroughfares in a hidden courtyard or alleyway, offering a quiet escape from the city bustle."
+      },
+      "type": "hidden_gem",
+      "lat": 30.3265,
+      "lng": -81.6585,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-jacksonville-task-1",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a historic building in the glass facade of a modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-2",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "River City Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the St. Johns River and one of its iconic bridges in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-3",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail (like a gargoyle or terracotta flourish) on a pre-war building and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-4",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Find a faded, hand-painted 'ghost sign' advertisement on the side of a brick building and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-5",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Urban Symmetry"
+      },
+      "prompt": {
+        "en": "Find a symmetrical view under a bridge or overpass and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-6",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Art in the Open"
+      },
+      "prompt": {
+        "en": "Take a picture of a piece of public art or a street mural."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-7",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "City in Motion"
+      },
+      "prompt": {
+        "en": "Capture the motion of downtown life, whether it's traffic, pedestrians, or a fountain."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-8",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Take a photo of a coffee or a meal from a non-chain, independent downtown establishment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-9",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet park bench or hidden courtyard and take a photo that captures a sense of peace amidst the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-10",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up from the base of a tall building, focusing on the lines and shapes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-11",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern made by shadows from buildings, trees, or structures."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-12",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Historical Marker"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-13",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the hour before sunset, capture a photo of the light hitting the downtown buildings or the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-14",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of an interesting texture you find, like old bricks, peeling paint, or rusted metal."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-jacksonville-task-15",
+      "neighborhood_id": "downtown-jacksonville",
+      "title": {
+        "en": "City of Contrasts"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a strong contrast, such as nature vs. concrete, or old vs. new."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

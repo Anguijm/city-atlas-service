@@ -39,6 +39,26 @@ CALL_CAP = 15
 DEFAULT_MODEL = os.environ.get("HARNESS_MODEL", "gemini-2.5-pro")
 EXCLUDED_PERSONAS = {"lead-architect.md", "README.md"}
 
+# Path patterns that should NOT be included in the diff passed to reviewers.
+# These are content/data artifacts, not code — reviewing them wastes the
+# per-minute Gemini input-token budget without producing useful signal.
+# Applied as `git diff -- . ':!pattern1' ':!pattern2' ...` pathspec exclusions.
+# Patterns can be extended via HARNESS_DIFF_EXCLUDES (comma-separated env var).
+_DEFAULT_DIFF_EXCLUDES = [
+    "data/**",                    # scraped markdown + pipeline output artifacts
+    "package-lock.json",          # dependency lockfiles
+    "pnpm-lock.yaml",
+    "yarn.lock",
+    "**/*.min.js",                # minified bundles
+    "**/*.min.css",
+    "**/dist/**",                 # build output
+    "**/build/**",
+    "docs/DATA_COVERAGE_MATRIX.txt",  # generated per-city coverage dump
+]
+DIFF_EXCLUDES = _DEFAULT_DIFF_EXCLUDES + [
+    p.strip() for p in os.environ.get("HARNESS_DIFF_EXCLUDES", "").split(",") if p.strip()
+]
+
 
 def die(msg: str, code: int = 1) -> None:
     print(f"[council] {msg}", file=sys.stderr)
@@ -135,9 +155,12 @@ def get_plan_text(args: argparse.Namespace) -> tuple[str, str]:
             "ambiguous argument",
             "not a tree object",
         )
+        # Pathspec-exclude content/data directories so reviewers see only code.
+        # `git diff BASE...HEAD -- . ':!data/**' ':!package-lock.json' ...`
+        exclude_spec = ["."] + [f":!{p}" for p in DIFF_EXCLUDES]
         try:
             diff = subprocess.check_output(
-                ["git", "diff", f"{base}...HEAD"],
+                ["git", "diff", f"{base}...HEAD", "--"] + exclude_spec,
                 cwd=REPO_ROOT,
                 text=True,
                 stderr=subprocess.STDOUT,
@@ -158,7 +181,7 @@ def get_plan_text(args: argparse.Namespace) -> tuple[str, str]:
         if not diff.strip():
             try:
                 diff = subprocess.check_output(
-                    ["git", "diff", "HEAD"],
+                    ["git", "diff", "HEAD", "--"] + exclude_spec,
                     cwd=REPO_ROOT,
                     text=True,
                 )

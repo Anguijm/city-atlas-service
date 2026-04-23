@@ -1,0 +1,497 @@
+{
+  "neighborhoods": [
+    {
+      "id": "gion",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Hakata Old Town (Gion)"
+      },
+      "summary": {
+        "en": "The serene and historic spiritual heart of Fukuoka, where ancient temples line quiet streets and every corner holds a piece of folklore."
+      },
+      "lat": 33.5951,
+      "lng": 130.4155,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "daimyo",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Daimyo"
+      },
+      "summary": {
+        "en": "Fukuoka's epicenter of youth culture, alternative fashion, and underground art, flourishing in a dense network of narrow alleys."
+      },
+      "lat": 33.5885,
+      "lng": 130.3958,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "nagahama",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Nagahama"
+      },
+      "summary": {
+        "en": "A gritty, functional port-side district with a singular focus on ramen, representing the authentic origin of the city's most famous dish."
+      },
+      "lat": 33.593,
+      "lng": 130.3901,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "hakata-station",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Hakata Station"
+      },
+      "summary": {
+        "en": "A high-energy vortex of commuters and shoppers, this hyper-modern transit hub hides tiny, whimsical secrets for the observant explorer."
+      },
+      "lat": 33.59,
+      "lng": 130.4207,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "shime",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Shime"
+      },
+      "summary": {
+        "en": "A quiet, post-industrial town on the edge of Fukuoka, visually and culturally dominated by the ghost of its coal-mining past."
+      },
+      "lat": 33.6052,
+      "lng": 130.4751,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "dazaifu",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Dazaifu"
+      },
+      "summary": {
+        "en": "A historic and sacred city where ancient tradition unexpectedly collides with world-class modern design on its main approach to the shrine."
+      },
+      "lat": 33.5215,
+      "lng": 130.535,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "gion-enr-japans-first-tea-tree",
+      "city_id": "fukuoka",
+      "neighborhood_id": "gion",
+      "name": {
+        "en": "Japan’s First Tea Tree"
+      },
+      "description": {
+        "en": "A living monument located in Shofukuji Temple, this is the descendant of the tree that introduced tea culture to Japan from China."
+      },
+      "type": "landmark",
+      "lat": 33.5978,
+      "lng": 130.4145,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "gion-enr-tomb-of-the-wet-kimono",
+      "city_id": "fukuoka",
+      "neighborhood_id": "gion",
+      "name": {
+        "en": "Tomb of the Wet Kimono"
+      },
+      "description": {
+        "en": "A small gravesite that is the origin of the Japanese idiom for a false accusation, telling a tragic local story."
+      },
+      "type": "hidden_gem",
+      "lat": 33.5965,
+      "lng": 130.4162,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "daimyo-enr-sanatorium-wonder-museum-annex",
+      "city_id": "fukuoka",
+      "neighborhood_id": "daimyo",
+      "name": {
+        "en": "Sanatorium - Wonder Museum Annex"
+      },
+      "description": {
+        "en": "A bizarre cafe themed like a Taisho-era sanatorium, filled with anatomical models, strange art, and medical ephemera."
+      },
+      "type": "drink",
+      "lat": 33.5889,
+      "lng": 130.3948,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "nagahama-enr-site-of-ganso-nagahama-ya",
+      "city_id": "fukuoka",
+      "neighborhood_id": "nagahama",
+      "name": {
+        "en": "Site of Ganso Nagahama-ya"
+      },
+      "description": {
+        "en": "A pilgrimage site marking the former location of the legendary shop that pioneered Nagahama-style tonkotsu ramen."
+      },
+      "type": "landmark",
+      "lat": 33.5925,
+      "lng": 130.3895,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "hakata-station-enr-golden-frog-of-hakata-station",
+      "city_id": "fukuoka",
+      "neighborhood_id": "hakata-station",
+      "name": {
+        "en": "Golden Frog of Hakata Station"
+      },
+      "description": {
+        "en": "A tiny, gleaming golden frog statue hidden in plain sight within the station, said to bring good luck to those who spot it."
+      },
+      "type": "hidden_gem",
+      "lat": 33.5898,
+      "lng": 130.4205,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "shime-enr-winding-tower-of-shime-coal-mine",
+      "city_id": "fukuoka",
+      "neighborhood_id": "shime",
+      "name": {
+        "en": "Winding Tower of Shime Coal Mine"
+      },
+      "description": {
+        "en": "A colossal, brutalist concrete structure that is Japan’s only surviving winding tower of its kind, a monument to industrial heritage."
+      },
+      "type": "landmark",
+      "lat": 33.605,
+      "lng": 130.4753,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "dazaifu-enr-starbucks-dazaifu-tenmangu-omote-sando",
+      "city_id": "fukuoka",
+      "neighborhood_id": "dazaifu",
+      "name": {
+        "en": "Starbucks Dazaifu Tenmangu Omote-Sando"
+      },
+      "description": {
+        "en": "An architectural landmark designed by Kengo Kuma, featuring an intricate web of over 2,000 interlocking wooden batons."
+      },
+      "type": "landmark",
+      "lat": 33.5218,
+      "lng": 130.5345,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "gion-task-1",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a quiet corner and take a photo that captures the serene, historic atmosphere of the neighborhood. Focus on textures like old wood, stone, or moss."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "gion-task-2",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Folklore Finder"
+      },
+      "prompt": {
+        "en": "Photograph an object or a detail that looks like it could be part of an ancient legend or a local ghost story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "gion-task-3",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Temple Geometry"
+      },
+      "prompt": {
+        "en": "Capture the elegant lines and shapes of a temple roof against the sky. Play with angles to create a powerful composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "gion-task-4",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Silent Story"
+      },
+      "prompt": {
+        "en": "Find a weathered sign or an old stone marker. Take a close-up shot that makes you wonder about the story behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "daimyo-task-1",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Alternative Angles"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a unique storefront in a narrow alley and photograph it from an unusual, creative angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "daimyo-task-2",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Portrait of a Vibe"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures your reaction to the eccentric, creative energy of Daimyo. Use a reflection or a strange background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "daimyo-task-3",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Fashion Detail"
+      },
+      "prompt": {
+        "en": "Capture a close-up photo of an interesting fashion detail—on a mannequin in a shop window or an accessory you spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "daimyo-task-4",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Hidden Entrance"
+      },
+      "prompt": {
+        "en": "Many of Daimyo's best spots are hidden. Photograph an interesting doorway or staircase that looks like it leads to a secret place."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "nagahama-task-1",
+      "neighborhood_id": "nagahama",
+      "title": {
+        "en": "Port-Side Grit"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the gritty, functional, and authentic character of this port-side district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "nagahama-task-2",
+      "neighborhood_id": "nagahama",
+      "title": {
+        "en": "Aroma of Ramen"
+      },
+      "prompt": {
+        "en": "Photograph something that evokes the smell of ramen without showing the noodles themselves—steam from a vent, a stack of bowls, or a shop's noren curtain."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "nagahama-task-3",
+      "neighborhood_id": "nagahama",
+      "title": {
+        "en": "The Noodle Neon"
+      },
+      "prompt": {
+        "en": "Find a sign with the character for ramen (ラメーン) and capture it in a compelling way, day or night."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "hakata-station-task-1",
+      "neighborhood_id": "hakata-station",
+      "title": {
+        "en": "Stream of Commuters"
+      },
+      "prompt": {
+        "en": "Use a slow shutter speed or motion blur effect to capture the constant flow of people through the station's main concourse."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "hakata-station-task-2",
+      "neighborhood_id": "hakata-station",
+      "title": {
+        "en": "Labyrinth Reflections"
+      },
+      "prompt": {
+        "en": "Find a reflective surface (a window, a polished floor, a sign) and take a photo that shows the station's architecture and energy in a distorted way."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "hakata-station-task-3",
+      "neighborhood_id": "hakata-station",
+      "title": {
+        "en": "The Calm in the Storm"
+      },
+      "prompt": {
+        "en": "Find a small, quiet spot amidst the chaos—a single empty chair, a forgotten corner—and photograph it to emphasize the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "shime-task-1",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Industrial Ghost"
+      },
+      "prompt": {
+        "en": "Take a photo that makes an industrial relic look like a lonely giant haunting the modern landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "shime-task-2",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Concrete and Sky"
+      },
+      "prompt": {
+        "en": "Capture the texture and form of a large concrete structure against the open sky. Use a low angle to make it feel monumental."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "shime-task-3",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Find a view that shows the contrast between the area's industrial past and the quiet residential neighborhood that exists today."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "dazaifu-task-1",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Old and New"
+      },
+      "prompt": {
+        "en": "Frame a shot that captures both a traditional, historic architectural element and a piece of world-class modern design in the same view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "dazaifu-task-2",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Sacred Light"
+      },
+      "prompt": {
+        "en": "Photograph the way natural light filters through trees or architecture in the sacred grounds near the shrine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    },
+    {
+      "id": "dazaifu-task-3",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Taste of Tradition"
+      },
+      "prompt": {
+        "en": "Take an artful photo of a traditional local snack being sold or prepared along the main street (Omote-Sando)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T13:16:59.162007+00:00"
+    }
+  ]
+}

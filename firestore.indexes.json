@@ -1,0 +1,50 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "vibe_neighborhoods",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "city_id", "order": "ASCENDING" },
+        { "fieldPath": "trending_score", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "vibe_waypoints",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "city_id", "order": "ASCENDING" },
+        { "fieldPath": "neighborhood_id", "order": "ASCENDING" },
+        { "fieldPath": "trending_score", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "seasonal_variants",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "city_id", "order": "ASCENDING" },
+        { "fieldPath": "starts_at", "order": "ASCENDING" },
+        { "fieldPath": "ends_at", "order": "ASCENDING" }
+      ]
+    }
+    ,
+    {
+      "collectionGroup": "saved_hunts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "isArchived", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    },
+    {
+      "collectionGroup": "saved_hunts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "userId", "order": "ASCENDING" },
+        { "fieldPath": "title", "order": "ASCENDING" },
+        { "fieldPath": "createdAt", "order": "DESCENDING" }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

@@ -1,0 +1,4417 @@
+{
+  "neighborhoods": [
+    {
+      "id": "tokyo-daikanyama",
+      "trending_score": 88,
+      "summary": {
+        "en": "An elegant, tranquil district known for its sophisticated atmosphere, high-end boutiques, design-focused architecture, and stylish cafes, offering a quiet luxury experience."
+      },
+      "is_active": true,
+      "lat": 35.648,
+      "city_id": "tokyo",
+      "lng": 139.7032,
+      "name": {
+        "zh-Hans": "代官山",
+        "zh-Hant": "代官山",
+        "en": "Daikanyama"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka",
+      "trending_score": 87,
+      "summary": {
+        "en": "A sophisticated district blending traditional Japanese elegance with French influences, famous for its winding stone-paved alleys and historic geisha past."
+      },
+      "is_active": true,
+      "lat": 35.7025,
+      "city_id": "tokyo",
+      "lng": 139.739,
+      "name": {
+        "zh-Hans": "神楽坂",
+        "zh-Hant": "神樂坂",
+        "en": "Kagurazaka"
+      }
+    },
+    {
+      "id": "tokyo-kichijoji",
+      "trending_score": 88,
+      "summary": {
+        "en": "Consistently ranked one of Tokyo's most desirable places to live, combining city convenience with lush parkland, independent boutiques, and a vibrant arts scene."
+      },
+      "is_active": true,
+      "lat": 35.7035,
+      "city_id": "tokyo",
+      "lng": 139.58,
+      "name": {
+        "zh-Hans": "吉祥寺",
+        "zh-Hant": "吉祥寺",
+        "en": "Kichijoji"
+      }
+    },
+    {
+      "id": "tokyo-koenji",
+      "trending_score": 78,
+      "summary": {
+        "en": "Tokyo's anti-establishment hub, brimming with retro shops, punk rock venues, quirky cafes, and a laid-back, alternative atmosphere."
+      },
+      "is_active": true,
+      "lat": 35.7042,
+      "city_id": "tokyo",
+      "lng": 139.6483,
+      "name": {
+        "zh-Hans": "高円寺",
+        "zh-Hant": "高圓寺",
+        "en": "Koenji"
+      }
+    },
+    {
+      "id": "tokyo-kuramae",
+      "trending_score": 82,
+      "summary": {
+        "en": "An emerging artisan district along the Sumida River, known for its independent craft studios, coffee roasters, and industrial-chic cafes."
+      },
+      "is_active": true,
+      "lat": 35.7088,
+      "city_id": "tokyo",
+      "lng": 139.7915,
+      "name": {
+        "zh-Hans": "蔵前",
+        "zh-Hant": "藏前",
+        "en": "Kuramae"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro",
+      "trending_score": 92,
+      "summary": {
+        "en": "A sophisticated, stylish neighborhood known for its picturesque canals lined with cherry trees, trendy boutiques, and upscale cafes and restaurants."
+      },
+      "is_active": true,
+      "lat": 35.6477,
+      "city_id": "tokyo",
+      "lng": 139.697,
+      "name": {
+        "zh-Hans": "中目黒",
+        "zh-Hant": "中目黑",
+        "en": "Nakameguro"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa",
+      "trending_score": 88,
+      "summary": {
+        "en": "A quirky, bohemian district known for its vintage shops, live music venues, independent theaters, and cozy cafes, exuding a laid-back, artistic vibe."
+      },
+      "is_active": true,
+      "lat": 35.6601,
+      "city_id": "tokyo",
+      "lng": 139.6678,
+      "name": {
+        "zh-Hans": "下北沢",
+        "zh-Hant": "下北澤",
+        "en": "Shimokitazawa"
+      }
+    },
+    {
+      "id": "tokyo-yanaka",
+      "trending_score": 85,
+      "summary": {
+        "en": "Step back in time in this charming old Tokyo district, famous for its temples, narrow lanes, artisan shops, and abundance of friendly stray cats."
+      },
+      "is_active": true,
+      "lat": 35.7275,
+      "city_id": "tokyo",
+      "lng": 139.7645,
+      "name": {
+        "zh-Hans": "谷中",
+        "zh-Hant": "谷中",
+        "en": "Yanaka"
+      }
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "tokyo-daikanyama-bonjour-records",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "An independent record store and cafe with a curated selection of music, books, and fashion items, reflecting Daikanyama's chic and cultured ambiance."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJx3HggUWLGGAR4G94rngxqWU",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.648705899999996,
+      "city_id": "tokyo",
+      "lng": 139.7017109,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.931Z",
+      "name": {
+        "zh-Hans": "Bonjour Records",
+        "zh-Hant": "Bonjour Records",
+        "en": "Bonjour Records"
+      }
+    },
+    {
+      "id": "tokyo-daikanyama-daikanyama-green-dog",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "A high-end, independent pet shop and salon, reflecting Daikanyama's sophisticated pet culture, offering premium products and services."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJI3jj2U-LGGARvf7LtrvlGqk",
+      "trending_score": 81,
+      "is_active": true,
+      "lat": 35.6495106,
+      "city_id": "tokyo",
+      "lng": 139.7003928,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:38.242Z",
+      "name": {
+        "zh-Hans": "代官山绿色狗狗",
+        "zh-Hant": "代官山綠色狗狗",
+        "en": "Daikanyama Green Dog"
+      }
+    },
+    {
+      "id": "tokyo-daikanyama-gallery-speak-for",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "An independent contemporary art gallery showcasing emerging and established artists, contributing to Daikanyama's vibrant arts scene."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJVVVJh0-LGGARP9v9uqYswtc",
+      "trending_score": 84,
+      "is_active": true,
+      "lat": 35.6487492,
+      "city_id": "tokyo",
+      "lng": 139.7012149,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:38.363Z",
+      "name": {
+        "zh-Hans": "Speak For 画廊",
+        "zh-Hant": "Speak For 畫廊",
+        "en": "Gallery Speak For"
+      }
+    },
+    {
+      "id": "tokyo-daikanyama-hillside-terrace",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "An iconic architectural complex designed by Fumihiko Maki, housing sophisticated boutiques, cafes, and art galleries, a cornerstone of Daikanyama's design culture."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJJQ8x9UWLGGARAyBdN0HoOkc",
+      "trending_score": 92,
+      "is_active": true,
+      "lat": 35.6486093,
+      "city_id": "tokyo",
+      "lng": 139.7005548,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:38.155Z",
+      "name": {
+        "zh-Hans": "山丘露台",
+        "zh-Hant": "山丘露台",
+        "en": "Hillside Terrace"
+      }
+    },
+    {
+      "id": "tokyo-daikanyama-kyu-asakura-house",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "A beautifully preserved traditional Japanese house and garden from the Taisho era, offering a tranquil glimpse into the area's rich history."
+      },
+      "type": "landmark",
+      "google_place_id": "ChIJPULLZU-LGGARsv8E3tigyqQ",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.6471947,
+      "city_id": "tokyo",
+      "lng": 139.70153399999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:38.131Z",
+      "name": {
+        "zh-Hans": "旧朝仓家住宅",
+        "zh-Hant": "舊朝倉家住宅",
+        "en": "Kyu Asakura House"
+      }
+    },
+    {
+      "id": "tokyo-daikanyama-okinawan-dining-champroo",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "An independent restaurant bringing the vibrant flavors of Okinawan cuisine to Tokyo, offering unique dishes in a cozy, welcoming setting."
+      },
+      "type": "food",
+      "google_place_id": "ChIJwxGmgU-LGGAR8houKHL6rkM",
+      "trending_score": 80,
+      "is_active": true,
+      "lat": 35.648629299999996,
+      "city_id": "tokyo",
+      "lng": 139.7012248,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:38.089Z",
+      "name": {
+        "zh-Hans": "冲绳料理Champroo",
+        "zh-Hant": "沖繩料理Champroo",
+        "en": "Okinawan Dining Champroo"
+      }
+    },
+    {
+      "id": "tokyo-daikanyama-table-moderno",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "A stylish, independent Italian restaurant offering a modern twist on classic dishes, known for its elegant ambiance and fresh ingredients."
+      },
+      "type": "food",
+      "google_place_id": "ChIJF_WJQb6LGGAR5mWw4Q82lN0",
+      "trending_score": 83,
+      "is_active": true,
+      "lat": 35.6494344,
+      "city_id": "tokyo",
+      "lng": 139.70221999999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:38.152Z",
+      "name": {
+        "zh-Hans": "Table Moderno",
+        "zh-Hant": "Table Moderno",
+        "en": "Table Moderno"
+      }
+    },
+    {
+      "id": "tokyo-daikanyama-the-coffee-shop",
+      "neighborhood_id": "tokyo-daikanyama",
+      "description": {
+        "en": "A minimalist, independent specialty coffee shop dedicated to high-quality beans and expert brewing, catering to Daikanyama's discerning tastes."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJPZSXRe-LGGARk33GfABab1Y",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.6487574,
+      "city_id": "tokyo",
+      "lng": 139.7023996,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:38.003Z",
+      "name": {
+        "zh-Hans": "The Coffee Shop",
+        "zh-Hant": "The Coffee Shop",
+        "en": "The Coffee Shop"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-akagi-shrine",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A strikingly modern Shinto shrine redesigned by architect Kengo Kuma, seamlessly blending traditional spirituality with contemporary aesthetics."
+      },
+      "type": "landmark",
+      "google_place_id": "ChIJgeazv1aMGGARQh5cREuvLjI",
+      "trending_score": 82,
+      "is_active": true,
+      "lat": 35.7048282,
+      "city_id": "tokyo",
+      "lng": 139.7363603,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.106Z",
+      "name": {
+        "zh-Hans": "赤城神社",
+        "zh-Hant": "赤城神社",
+        "en": "Akagi Shrine"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-akebono-coffee",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A classic, independent Japanese coffee shop offering a retro charm and a cozy atmosphere, perfect for a quiet break from Kagurazaka's elegant streets."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJD0Cmuk6NGGAR7MxbA7YPNH4",
+      "trending_score": 75,
+      "is_active": true,
+      "lat": 35.7046978,
+      "city_id": "tokyo",
+      "lng": 139.7372354,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.726Z",
+      "name": {
+        "zh-Hans": "曙咖啡",
+        "zh-Hant": "曙咖啡",
+        "en": "Akebono Coffee"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-akomeya-chaya-kagurazaka",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A traditional Japanese tea house and cafe connected to a specialty rice shop, offering elegant sweets and refreshing teas in a serene atmosphere."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJ2fVCP1aMGGARpfUu6aefDAw",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.7035908,
+      "city_id": "tokyo",
+      "lng": 139.7332051,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.618Z",
+      "name": {
+        "zh-Hans": "神乐坂Akomeya茶屋",
+        "zh-Hant": "神樂坂Akomeya茶屋",
+        "en": "Akomeya Chaya Kagurazaka"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-bishamonten-zenkokuji-temple",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A prominent Buddhist temple and a central landmark in Kagurazaka, known for its distinctive red lanterns and the worship of Bishamonten, god of warriors."
+      },
+      "type": "landmark",
+      "google_place_id": "ChIJx6PKXlqMGGAR5gDIJambKD4",
+      "trending_score": 86,
+      "is_active": true,
+      "lat": 35.701512699999995,
+      "city_id": "tokyo",
+      "lng": 139.7394549,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.862Z",
+      "name": {
+        "zh-Hans": "毘沙门天善国寺",
+        "zh-Hant": "毘沙門天善國寺",
+        "en": "Bishamonten Zenkokuji Temple"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-geisha-district-alleys",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "The network of narrow, atmospheric backstreets, once a thriving geisha district, where echoes of traditional Japanese entertainment can still be felt."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJI6rg3VqMGGARfHGKhpgOhTk",
+      "trending_score": 84,
+      "is_active": true,
+      "lat": 35.701478099999996,
+      "city_id": "tokyo",
+      "lng": 139.7410128,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.108Z",
+      "name": {
+        "zh-Hans": "艺伎区小巷",
+        "zh-Hant": "藝伎區小巷",
+        "en": "Geisha District Alleys"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-ishikawa",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A highly acclaimed Michelin three-star restaurant serving exquisite traditional Japanese cuisine, an experience in fine dining and hospitality."
+      },
+      "type": "food",
+      "google_place_id": "ChIJa0WEW1qMGGARPztXG-uvYjI",
+      "trending_score": 94,
+      "is_active": true,
+      "lat": 35.7012024,
+      "city_id": "tokyo",
+      "lng": 139.7394666,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.789Z",
+      "name": {
+        "zh-Hans": "石川",
+        "zh-Hant": "石川",
+        "en": "Ishikawa"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-izakaya-enishi",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A cozy, independent izakaya offering a menu of seasonal Japanese dishes and a wide selection of sake, tucked away in one of Kagurazaka's charming alleys."
+      },
+      "type": "food",
+      "google_place_id": "ChIJlX5mKTCNGGAR5qJ-M_SDAac",
+      "trending_score": 79,
+      "is_active": true,
+      "lat": 35.7012804,
+      "city_id": "tokyo",
+      "lng": 139.7401483,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.981Z",
+      "name": {
+        "zh-Hans": "居酒屋缘",
+        "zh-Hant": "居酒屋緣",
+        "en": "Izakaya Enishi"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-kagurazaka-hantei",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A renowned independent Chinese restaurant famous for its colossal 'Jumbo Gyoza' and other classic Chinese dishes, a long-standing local favorite."
+      },
+      "type": "food",
+      "google_place_id": "ChIJfzteWWqNGGARHtfZmm0t-_0",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.7014389,
+      "city_id": "tokyo",
+      "lng": 139.740062,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.861Z",
+      "name": {
+        "zh-Hans": "神乐坂饭店",
+        "zh-Hant": "神樂坂飯店",
+        "en": "Kagurazaka Hantei"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-kakurenbo-yokocho",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A picturesque, stone-paved alley known as 'Hide-and-Seek Alley,' lined with traditional restaurants and evoking the historical charm of Kagurazaka's geisha district."
+      },
+      "type": "hidden_gem",
+      "google_place_id": "ChIJFfFAcNSNGGARJrymMof-YoY",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.7019056,
+      "city_id": "tokyo",
+      "lng": 139.7409677,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.958Z",
+      "name": {
+        "zh-Hans": "捉迷藏横丁",
+        "zh-Hant": "捉迷藏橫丁",
+        "en": "Kakurenbo Yokocho"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-kakurenbo-yokocho-hide-and-seek-alley",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "One of Kagurazaka's most atmospheric stone-paved alleys, winding between traditional ryotei (restaurants) and hiding secret entrances."
+      },
+      "type": "hidden_gem",
+      "google_place_id": "ChIJFfFAcNSNGGARJrymMof-YoY",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.7019056,
+      "city_id": "tokyo",
+      "lng": 139.7409677,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.838Z",
+      "name": {
+        "zh-Hans": "捉迷藏横丁",
+        "zh-Hant": "捉迷藏橫丁",
+        "en": "Kakurenbo Yokocho (Hide-and-seek Alley)"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-la-kagu-cafe",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A stylish cafe within the La Kagu lifestyle complex, housed in a beautifully renovated warehouse, offering a contemporary space for coffee and light meals."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJ2fVCP1aMGGARpfUu6aefDAw",
+      "trending_score": 89,
+      "is_active": true,
+      "lat": 35.7035908,
+      "city_id": "tokyo",
+      "lng": 139.7332051,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.676Z",
+      "name": {
+        "zh-Hans": "La Kagu咖啡",
+        "zh-Hant": "La Kagu咖啡",
+        "en": "La Kagu Cafe"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-le-bretagne-bar-a-cidre",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "An authentic French cidre bar offering a wide selection of ciders and galettes, providing a taste of Brittany in the heart of Tokyo's 'Little Paris'."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJ9SW73lqMGGAR6l8OT2tKMzo",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.7016238,
+      "city_id": "tokyo",
+      "lng": 139.741083,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.842Z",
+      "name": {
+        "zh-Hans": "Le Bretagne 苹果酒酒吧",
+        "zh-Hant": "Le Bretagne 蘋果酒酒吧",
+        "en": "Le Bretagne Bar a Cidre"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-le-bretagne-kagurazaka",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "An authentic French creperie that brings a taste of Brittany to Tokyo, famous for its delicious galettes and crepes in a charming setting."
+      },
+      "type": "food",
+      "google_place_id": "ChIJHw-KilqMGGARWP-CLnM4__I",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.70188110000001,
+      "city_id": "tokyo",
+      "lng": 139.73970409999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.802Z",
+      "name": {
+        "zh-Hans": "神乐坂布列塔尼",
+        "zh-Hant": "神樂坂布列塔尼",
+        "en": "Le Bretagne Kagurazaka"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-osekkai",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A small, independent shop specializing in exquisite traditional Japanese accessories, handmade gifts, and unique souvenirs."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJp3YszVCMGGARociGYhxMNBc",
+      "trending_score": 83,
+      "is_active": true,
+      "lat": 35.7035459,
+      "city_id": "tokyo",
+      "lng": 139.7370971,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.975Z",
+      "name": {
+        "zh-Hans": "Osekkai (传统饰品店)",
+        "zh-Hant": "Osekkai (傳統飾品店)",
+        "en": "Osekkai"
+      }
+    },
+    {
+      "id": "tokyo-kagurazaka-sotobori-park",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "description": {
+        "en": "A pleasant park stretching along the outer moat, offering green spaces, walking paths, and beautiful views, especially during cherry blossom season."
+      },
+      "type": "nature",
+      "google_place_id": "ChIJ08IS-4qMGGAR4rjoONNcZAU",
+      "trending_score": 84,
+      "is_active": true,
+      "lat": 35.6883019,
+      "city_id": "tokyo",
+      "lng": 139.7308924,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.035Z",
+      "name": {
+        "zh-Hans": "外濠公园",
+        "zh-Hant": "外濠公園",
+        "en": "Sotobori Park"
+      }
+    },
+    {
+      "id": "tokyo-koenji-coffee-amp",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A cozy, independent coffee shop with a relaxed, bohemian vibe, serving expertly brewed coffee and light bites, a perfect reflection of Koenji's laid-back atmosphere."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJyy2RymPyGGARue0KOU7fI-s",
+      "trending_score": 80,
+      "is_active": true,
+      "lat": 35.6992106,
+      "city_id": "tokyo",
+      "lng": 139.6475442,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.582Z",
+      "name": {
+        "zh-Hans": "咖啡放大器",
+        "zh-Hant": "咖啡放大器",
+        "en": "Coffee Amp"
+      }
+    },
+    {
+      "id": "tokyo-koenji-darumaya",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A beloved, old-school independent yakitori joint, known for its charcoal-grilled skewers and lively, unpretentious atmosphere, a true taste of local Koenji."
+      },
+      "type": "food",
+      "google_place_id": "ChIJC5Mz9ofyGGARYv6-HccVwUM",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.704489099999996,
+      "city_id": "tokyo",
+      "lng": 139.650376,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.674Z",
+      "name": {
+        "zh-Hans": "达摩屋",
+        "zh-Hant": "達摩屋",
+        "en": "Darumaya"
+      }
+    },
+    {
+      "id": "tokyo-koenji-fujiyama-shokai",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A unique, old-school shop specializing in vintage toys and traditional Japanese sweets, a nostalgic trip back in time."
+      },
+      "type": "hidden_gem",
+      "google_place_id": "ChIJ14NLjn3yGGAR8iXQTRvmipM",
+      "trending_score": 79,
+      "is_active": true,
+      "lat": 35.7060278,
+      "city_id": "tokyo",
+      "lng": 139.6496958,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.561Z",
+      "name": {
+        "zh-Hans": "富士山商店",
+        "zh-Hant": "富士山商店",
+        "en": "Fujiyama Shokai"
+      }
+    },
+    {
+      "id": "tokyo-koenji-hattifnatt-cafe-koenji",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A whimsical, fairytale-themed cafe with tiny doors and a magical atmosphere, serving enchanting drinks and desserts."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJq0VLDYfyGGARSijyy0aUJgU",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.7070316,
+      "city_id": "tokyo",
+      "lng": 139.6515891,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.374Z",
+      "name": {
+        "zh-Hans": "高円寺Hattifnatt咖啡",
+        "zh-Hant": "高圓寺Hattifnatt咖啡",
+        "en": "Hattifnatt Cafe Koenji"
+      }
+    },
+    {
+      "id": "tokyo-koenji-junk-cafe-koenji",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A quirky, independent burger and cafe joint with a unique interior, reflecting Koenji's alternative and artistic character, serving delicious comfort food."
+      },
+      "type": "food",
+      "google_place_id": "ChIJ1WDPIn3yGGAR3UxBOx76Sws",
+      "trending_score": 82,
+      "is_active": true,
+      "lat": 35.7040007,
+      "city_id": "tokyo",
+      "lng": 139.6484251,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.719Z",
+      "name": {
+        "zh-Hans": "Junk Cafe 高円寺",
+        "zh-Hant": "Junk Cafe 高圓寺",
+        "en": "Junk Cafe Koenji"
+      }
+    },
+    {
+      "id": "tokyo-koenji-kid-ailack-art-hall",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "An independent art gallery and performance space that embodies Koenji's alternative spirit, often featuring experimental works."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJXypxfofyGGARLmB0f_6Xqkk",
+      "trending_score": 74,
+      "is_active": true,
+      "lat": 35.706296099999996,
+      "city_id": "tokyo",
+      "lng": 139.6504003,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.561Z",
+      "name": {
+        "zh-Hans": "Kid Ailack艺术馆",
+        "zh-Hant": "Kid Ailack藝術館",
+        "en": "Kid Ailack Art Hall"
+      }
+    },
+    {
+      "id": "tokyo-koenji-kitakore-building",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "An eccentric, DIY-style complex housing independent fashion boutiques and art spaces, a prime example of Koenji's counter-culture and avant-garde spirit."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJBxfIOnzyGGARhXKZous9K6s",
+      "trending_score": 86,
+      "is_active": true,
+      "lat": 35.706387899999996,
+      "city_id": "tokyo",
+      "lng": 139.64705189999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.829Z",
+      "name": {
+        "zh-Hans": "Kitakore 大楼",
+        "zh-Hant": "Kitakore 大樓",
+        "en": "Kitakore Building"
+      }
+    },
+    {
+      "id": "tokyo-koenji-koenji-beer-kobo",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "An independent craft brewery and pub offering a rotating selection of local brews, popular with both locals and visitors for its vibrant atmosphere."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJUbo7RIfyGGARPzxsD91QzmY",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.7078884,
+      "city_id": "tokyo",
+      "lng": 139.6512132,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.597Z",
+      "name": {
+        "zh-Hans": "高円寺啤酒工坊",
+        "zh-Hant": "高圓寺啤酒工坊",
+        "en": "Koenji Beer Kobo"
+      }
+    },
+    {
+      "id": "tokyo-koenji-koenji-high",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A renowned live house that's a cornerstone of the Koenji music scene, showcasing a wide array of indie bands and underground acts."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJ9dpIDojyGGARtPtxxIWdB3Q",
+      "trending_score": 80,
+      "is_active": true,
+      "lat": 35.703585,
+      "city_id": "tokyo",
+      "lng": 139.65108510000002,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.549Z",
+      "name": {
+        "zh-Hans": "高円寺HIGH",
+        "zh-Hant": "高圓寺HIGH",
+        "en": "Koenji HIGH"
+      }
+    },
+    {
+      "id": "tokyo-koenji-koenji-junjo-shotengai",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A vibrant and energetic shopping street famous for its eclectic mix of independent shops, eateries, and vintage stores, embodying Koenji's unique charm."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJ14NLjn3yGGAR8iXQTRvmipM",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.7060278,
+      "city_id": "tokyo",
+      "lng": 139.6496958,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.688Z",
+      "name": {
+        "zh-Hans": "高円寺纯情商店街",
+        "zh-Hant": "高圓寺純情商店街",
+        "en": "Koenji Junjo Shotengai"
+      }
+    },
+    {
+      "id": "tokyo-koenji-koenji-look-shotengai",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "Another lively covered shopping arcade renowned for its high concentration of vintage clothing shops, quirky cafes, and local businesses."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJ14NLjn3yGGAR8iXQTRvmipM",
+      "trending_score": 89,
+      "is_active": true,
+      "lat": 35.7060278,
+      "city_id": "tokyo",
+      "lng": 139.6496958,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.894Z",
+      "name": {
+        "zh-Hans": "高円寺Look商店街",
+        "zh-Hant": "高圓寺Look商店街",
+        "en": "Koenji Look Shotengai"
+      }
+    },
+    {
+      "id": "tokyo-koenji-mabashi-inari-shrine",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A beautiful and tranquil shrine known for its unique 'dragon gates' and a peaceful escape from the bustling streets."
+      },
+      "type": "landmark",
+      "google_place_id": "ChIJJQOMrHvyGGARhvbHRXZ1XJc",
+      "trending_score": 81,
+      "is_active": true,
+      "lat": 35.7032524,
+      "city_id": "tokyo",
+      "lng": 139.6427114,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.632Z",
+      "name": {
+        "zh-Hans": "马桥稻荷神社",
+        "zh-Hant": "馬橋稻荷神社",
+        "en": "Mabashi Inari Shrine"
+      }
+    },
+    {
+      "id": "tokyo-koenji-mendokoro-haru",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A highly-rated independent ramen shop renowned for its exquisite shio (salt-based) ramen, a must-try for ramen enthusiasts."
+      },
+      "type": "food",
+      "google_place_id": "ChIJcUMoCZCOGGARY3nowNQnMPk",
+      "trending_score": 83,
+      "is_active": true,
+      "lat": 35.719648,
+      "city_id": "tokyo",
+      "lng": 139.78340129999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.310Z",
+      "name": {
+        "zh-Hans": "面处晴",
+        "zh-Hant": "麵處晴",
+        "en": "Mendokoro Haru"
+      }
+    },
+    {
+      "id": "tokyo-koenji-safari-koenji",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A well-known independent vintage clothing store, part of Koenji's extensive secondhand fashion scene, offering a carefully curated selection of unique items."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJFcATI33yGGARulg82B74bMo",
+      "trending_score": 88,
+      "is_active": true,
+      "lat": 35.703856,
+      "city_id": "tokyo",
+      "lng": 139.64826979999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.872Z",
+      "name": {
+        "zh-Hans": "Safari 高円寺",
+        "zh-Hant": "Safari 高圓寺",
+        "en": "Safari Koenji"
+      }
+    },
+    {
+      "id": "tokyo-koenji-tengoku-to-jigoku-burger",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "An independent burger joint known for its creative and generously-sized gourmet burgers, a local favorite for comfort food."
+      },
+      "type": "food",
+      "google_place_id": "ChIJcSK2fGvzGGAREaL9zpDGscY",
+      "trending_score": 77,
+      "is_active": true,
+      "lat": 35.7038575,
+      "city_id": "tokyo",
+      "lng": 139.6461728,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.485Z",
+      "name": {
+        "zh-Hans": "天堂与地狱汉堡",
+        "zh-Hant": "天堂與地獄漢堡",
+        "en": "Tengoku to Jigoku Burger"
+      }
+    },
+    {
+      "id": "tokyo-koenji-yonchome-cafe",
+      "neighborhood_id": "tokyo-koenji",
+      "description": {
+        "en": "A classic Koenji establishment with a distinct retro vibe, offering excellent coffee and a relaxed setting popular with locals."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJHdtx9ofyGGARuAXkGuvTM_w",
+      "trending_score": 75,
+      "is_active": true,
+      "lat": 35.7045794,
+      "city_id": "tokyo",
+      "lng": 139.6504417,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.313Z",
+      "name": {
+        "zh-Hans": "四丁目咖啡",
+        "zh-Hant": "四丁目咖啡",
+        "en": "Yonchome Cafe"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-bercae",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A cozy, independent coffee stand known for its meticulous pour-overs and carefully selected beans, a hidden gem for coffee connoisseurs."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJP3bEKAiPGGAReLTK-b4prpE",
+      "trending_score": 80,
+      "is_active": true,
+      "lat": 35.7021338,
+      "city_id": "tokyo",
+      "lng": 139.7903601,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.027Z",
+      "name": {
+        "zh-Hans": "Bercae咖啡",
+        "zh-Hant": "Bercae咖啡",
+        "en": "Bercae"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-bridge-table",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A casual, independent restaurant with great riverside views, focusing on seasonal ingredients to create modern Japanese and Western-inspired dishes."
+      },
+      "type": "food",
+      "google_place_id": "ChIJVVUJ8LCOGGARIwkWM-2bZlk",
+      "trending_score": 83,
+      "is_active": true,
+      "lat": 35.7015749,
+      "city_id": "tokyo",
+      "lng": 139.7862465,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.150Z",
+      "name": {
+        "zh-Hans": "桥桌餐厅",
+        "zh-Hant": "橋桌餐廳",
+        "en": "Bridge Table"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-kakimori",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A famous stationery shop where you can customize your own notebooks and mix unique ink colors, a paradise for writers and artists."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJYzGkb7eOGGARNSIHlHC_mbY",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.703171399999995,
+      "city_id": "tokyo",
+      "lng": 139.7857206,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.235Z",
+      "name": {
+        "zh-Hans": "文具店Kakimori",
+        "zh-Hant": "文具店Kakimori",
+        "en": "Kakimori"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-m-emu-plus-craft-beer",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A unique craft beer bottle shop and tasting room, offering a carefully curated selection of local and international independent brews."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJpaEV8U-NGGAR4M9euLVRX3c",
+      "trending_score": 84,
+      "is_active": true,
+      "lat": 35.704420999999996,
+      "city_id": "tokyo",
+      "lng": 139.7920609,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.392Z",
+      "name": {
+        "zh-Hans": "M+精酿啤酒",
+        "zh-Hant": "M+精釀啤酒",
+        "en": "M+ (Emu Plus) Craft Beer"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-sol-s-coffee",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A popular local coffee roaster and cafe, celebrated for its artisanal approach to coffee, serving fresh brews in a stylish industrial-chic setting."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJAQAN07aOGGARSmAqLtTUc28",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.7013958,
+      "city_id": "tokyo",
+      "lng": 139.7883723,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.086Z",
+      "name": {
+        "zh-Hans": "SOL'S COFFEE",
+        "zh-Hant": "SOL'S COFFEE",
+        "en": "SOL'S COFFEE"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-sumida-river-terrace",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A pleasant riverside promenade offering refreshing walks, jogging paths, and fantastic views of the Tokyo Skytree and passing boats."
+      },
+      "type": "viewpoint",
+      "google_place_id": "ChIJ2Q3dJ0eJGGARXP30ZzITOeY",
+      "trending_score": 88,
+      "is_active": true,
+      "lat": 35.6827464,
+      "city_id": "tokyo",
+      "lng": 139.7908913,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.273Z",
+      "name": {
+        "zh-Hans": "隅田川露台",
+        "zh-Hant": "隅田川露台",
+        "en": "Sumida River Terrace"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-tempura-kuramae",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A small, authentic tempura counter, a local favorite known for its perfectly crispy and fresh tempura, prepared right before your eyes."
+      },
+      "type": "food",
+      "google_place_id": "ChIJz3QQgbmOGGARc8M82ftWFFo",
+      "trending_score": 79,
+      "is_active": true,
+      "lat": 35.7062345,
+      "city_id": "tokyo",
+      "lng": 139.7884135,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.302Z",
+      "name": {
+        "zh-Hans": "蔵前天妇罗",
+        "zh-Hant": "藏前天婦羅",
+        "en": "Tempura Kuramae"
+      }
+    },
+    {
+      "id": "tokyo-kuramae-torigoe-shrine",
+      "neighborhood_id": "tokyo-kuramae",
+      "description": {
+        "en": "A historic shrine in the area, known for its grand summer festival featuring one of Tokyo's heaviest portable shrines (mikoshi)."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJj22YYbCOGGARKeCpknTJmTU",
+      "trending_score": 82,
+      "is_active": true,
+      "lat": 35.702008299999996,
+      "city_id": "tokyo",
+      "lng": 139.7858278,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:37.343Z",
+      "name": {
+        "zh-Hans": "鸟越神社",
+        "zh-Hant": "鳥越神社",
+        "en": "Torigoe Shrine"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-1ldk-apartments",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A sophisticated concept store offering a curated selection of fashion, lifestyle goods, and home decor, embodying Nakameguro's chic aesthetic."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJgSQlNU-LGGARuqE9sU-nHqY",
+      "trending_score": 89,
+      "is_active": true,
+      "lat": 35.6457507,
+      "city_id": "tokyo",
+      "lng": 139.70016909999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.545Z",
+      "name": {
+        "zh-Hans": "1LDK公寓 (生活概念店)",
+        "zh-Hant": "1LDK公寓 (生活概念店)",
+        "en": "1LDK apartments."
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-cow-books",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "An independent bookstore known for its curated selection of rare and interesting books, particularly in art, photography, and counter-culture, with a unique, minimalist aesthetic."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJB4Y74U2LGGARGLfQNgDZBa8",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.6477149,
+      "city_id": "tokyo",
+      "lng": 139.6959823,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.463Z",
+      "name": {
+        "zh-Hans": "Cow Books",
+        "zh-Hant": "Cow Books",
+        "en": "Cow Books"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-gallery-ohsaki",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A small, independent art gallery showcasing contemporary Japanese artists, adding a touch of cultural sophistication to the neighborhood."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJ_TE1izmLGGARsFNRuleJqVg",
+      "trending_score": 82,
+      "is_active": true,
+      "lat": 35.6378147,
+      "city_id": "tokyo",
+      "lng": 139.7026017,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.612Z",
+      "name": {
+        "zh-Hans": "大崎画廊",
+        "zh-Hant": "大崎畫廊",
+        "en": "Gallery Ohsaki"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-jiyugaoka-burger-nakameguro",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A gourmet burger joint that prides itself on using locally sourced, fresh ingredients to create delectable, handcrafted burgers."
+      },
+      "type": "food",
+      "google_place_id": "ChIJD6t_yUWLGGAR-7Wthpfoha4",
+      "trending_score": 86,
+      "is_active": true,
+      "lat": 35.6434354,
+      "city_id": "tokyo",
+      "lng": 139.6991945,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.309Z",
+      "name": {
+        "zh-Hans": "中目黑自由之丘汉堡",
+        "zh-Hant": "中目黑自由之丘漢堡",
+        "en": "Jiyugaoka Burger Nakameguro"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-meguro-river",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "The iconic canal that winds through Nakameguro, famous for its picturesque cherry blossoms in spring and trendy shops along its banks year-round."
+      },
+      "type": "nature",
+      "google_place_id": "ChIJAas2LziLGGAROimsxcM_Rqo",
+      "trending_score": 95,
+      "is_active": true,
+      "lat": 35.638716099999996,
+      "city_id": "tokyo",
+      "lng": 139.7026251,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.404Z",
+      "name": {
+        "zh-Hans": "目黑川",
+        "zh-Hant": "目黑川",
+        "en": "Meguro River"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-nakatana",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A sophisticated independent restaurant offering refined traditional Japanese cuisine, focusing on seasonal ingredients and exquisite presentation."
+      },
+      "type": "food",
+      "google_place_id": "ChIJU5hxeSuLGGARMXJGUQ9EeKc",
+      "trending_score": 86,
+      "is_active": true,
+      "lat": 35.646352,
+      "city_id": "tokyo",
+      "lng": 139.6971812,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.332Z",
+      "name": {
+        "zh-Hans": "中棚",
+        "zh-Hant": "中棚",
+        "en": "Nakatana"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-onibus-coffee-nakameguro",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A renowned local coffee roaster, housed in a charming, compact shop near the train tracks, known for its high-quality beans and artisan brews."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJvXUZEEmLGGARlC39ZdeJ06Q",
+      "trending_score": 91,
+      "is_active": true,
+      "lat": 35.6431767,
+      "city_id": "tokyo",
+      "lng": 139.6980318,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.311Z",
+      "name": {
+        "zh-Hans": "中目黑Onibus咖啡",
+        "zh-Hant": "中目黑Onibus咖啡",
+        "en": "Onibus Coffee Nakameguro"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-pizzeria-e-trattoria-da-isa",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "An award-winning pizzeria celebrated for its authentic Neapolitan pizzas, cooked in a traditional wood-fired oven."
+      },
+      "type": "food",
+      "google_place_id": "ChIJ5VX5wU2LGGARyll88CG5j6E",
+      "trending_score": 93,
+      "is_active": true,
+      "lat": 35.6480762,
+      "city_id": "tokyo",
+      "lng": 139.6954481,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.398Z",
+      "name": {
+        "zh-Hans": "ISA披萨餐厅",
+        "zh-Hant": "ISA披薩餐廳",
+        "en": "Pizzeria e Trattoria da ISA"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-saigoyama-park",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A beautiful hilltop park offering panoramic city views, especially stunning at sunset, and a tranquil escape with lush greenery."
+      },
+      "type": "viewpoint",
+      "google_place_id": "ChIJZ4dcAFOLGGARflIh1jzcgIo",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.650464299999996,
+      "city_id": "tokyo",
+      "lng": 139.6959053,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.462Z",
+      "name": {
+        "zh-Hans": "西郷山公园",
+        "zh-Hant": "西鄉山公園",
+        "en": "Saigoyama Park"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-side-walk-stand",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A popular independent coffee stand right by the Meguro River, perfect for grabbing a quality brew and soaking in the canalside atmosphere."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJAQBEfE6LGGAR6Q4nD3t69A8",
+      "trending_score": 93,
+      "is_active": true,
+      "lat": 35.64691,
+      "city_id": "tokyo",
+      "lng": 139.696679,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.252Z",
+      "name": {
+        "zh-Hans": "人行道咖啡",
+        "zh-Hant": "人行道咖啡",
+        "en": "Side Walk Stand"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-sidewalk-stand",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A popular canal-side cafe with a minimalist design, offering excellent coffee and a perfect spot for people-watching."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJAQBEfE6LGGAR6Q4nD3t69A8",
+      "trending_score": 88,
+      "is_active": true,
+      "lat": 35.64691,
+      "city_id": "tokyo",
+      "lng": 139.696679,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.323Z",
+      "name": {
+        "zh-Hans": "人行道咖啡",
+        "zh-Hant": "人行道咖啡",
+        "en": "Sidewalk Stand"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-the-workers-coffee-bar",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A stylish independent cafe and bar offering specialty coffee during the day and a relaxed bar atmosphere in the evening, a true local gem."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJ2VEnrPuLGGAR44dNpXUeFi4",
+      "trending_score": 89,
+      "is_active": true,
+      "lat": 35.6465546,
+      "city_id": "tokyo",
+      "lng": 139.6981135,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.239Z",
+      "name": {
+        "zh-Hans": "The Workers 咖啡/酒吧",
+        "zh-Hant": "The Workers 咖啡/酒吧",
+        "en": "The Workers coffee/bar"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-traveler-s-factory",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "A unique concept store dedicated to travel and stationery, offering an inspiring collection of notebooks, pens, and accessories for adventurers."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJAQABzE6LGGARgnqhPmipo_Q",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.6447453,
+      "city_id": "tokyo",
+      "lng": 139.6972329,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.434Z",
+      "name": {
+        "zh-Hans": "旅行者工厂",
+        "zh-Hant": "旅行者工廠",
+        "en": "TRAVELER'S FACTORY"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-traveler-s-factory-nakameguro",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "The flagship store for the popular Traveler's Notebook brand, a haven for stationery lovers offering customizable notebooks and unique travel-themed goods."
+      },
+      "type": "hidden_gem",
+      "google_place_id": "ChIJAQABzE6LGGARgnqhPmipo_Q",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.6447453,
+      "city_id": "tokyo",
+      "lng": 139.6972329,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.559Z",
+      "name": {
+        "zh-Hans": "中目黑旅行者工厂",
+        "zh-Hant": "中目黑旅行者工廠",
+        "en": "Traveler's Factory Nakameguro"
+      }
+    },
+    {
+      "id": "tokyo-nakameguro-yamawarau",
+      "neighborhood_id": "tokyo-nakameguro",
+      "description": {
+        "en": "An acclaimed independent restaurant specializing in authentic soba noodles, handcrafted with precision and served in a serene setting."
+      },
+      "type": "food",
+      "google_place_id": "ChIJq6p6jKOMGGARIJ6yS_z_LW8",
+      "trending_score": 91,
+      "is_active": true,
+      "lat": 35.6674844,
+      "city_id": "tokyo",
+      "lng": 139.71098229999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:37.193Z",
+      "name": {
+        "zh-Hans": "山笑う",
+        "zh-Hant": "山笑う",
+        "en": "Yamawarau"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A tiny, iconic espresso bar famous for its 'Dirty' coffee, a rich and unique espresso shot with a devoted local following."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJ_6-SI2vzGGARTwHyOGabtyI",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.6639833,
+      "city_id": "tokyo",
+      "lng": 139.6678986,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.020Z",
+      "name": {
+        "zh-Hans": "熊池咖啡",
+        "zh-Hant": "熊池咖啡",
+        "en": "Bear Pond Espresso"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-curry-coffee-hatte",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A quirky, independent cafe specializing in unique, homemade curry dishes paired with carefully selected coffee, embodying Shimokita's eclectic spirit."
+      },
+      "type": "food",
+      "google_place_id": "ChIJJ8koILHzGGARkVkZJb_5u7Q",
+      "trending_score": 82,
+      "is_active": true,
+      "lat": 35.662740400000004,
+      "city_id": "tokyo",
+      "lng": 139.6693925,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.289Z",
+      "name": {
+        "zh-Hans": "咖喱咖啡Hatte",
+        "zh-Hant": "咖哩咖啡Hatte",
+        "en": "Curry & Coffee Hatte"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-curry-spice-shisui",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A highly-rated independent curry house offering unique, flavorful Japanese-style curry dishes with a focus on fresh spices."
+      },
+      "type": "food",
+      "google_place_id": "ChIJsxcIURrzGGARBe_NZShwKvg",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.660908,
+      "city_id": "tokyo",
+      "lng": 139.6680917,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.050Z",
+      "name": {
+        "zh-Hans": "咖喱与香料志水",
+        "zh-Hant": "咖哩與香料志水",
+        "en": "Curry & Spice Shisui"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-honda-gekijo-theater",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "The main independent theater in Shimokitazawa, a vibrant cultural hub showcasing a diverse range of plays and performances."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJGSSSCDsxIRURPdSyCDOPb-s",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.661518799999996,
+      "city_id": "tokyo",
+      "lng": 139.6687093,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.341Z",
+      "name": {
+        "zh-Hans": "本多剧场",
+        "zh-Hant": "本多劇場",
+        "en": "Honda Gekijo Theater"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-honda-gekijo-theatre",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A prominent independent theater that has been a cultural cornerstone of Shimokitazawa for decades, showcasing a diverse range of plays and performances."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJGSSSCDsxIRURPdSyCDOPb-s",
+      "trending_score": 80,
+      "is_active": true,
+      "lat": 35.661518799999996,
+      "city_id": "tokyo",
+      "lng": 139.6687093,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.254Z",
+      "name": {
+        "zh-Hans": "本多剧场",
+        "zh-Hant": "本多劇場",
+        "en": "Honda Gekijo Theatre"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-new-york-joe-exchange",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A hugely popular vintage clothing store housed in a former public bathhouse, offering a vast selection of unique second-hand fashion."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJI_aZ32rzGGARhjQlOeV4oB0",
+      "trending_score": 92,
+      "is_active": true,
+      "lat": 35.6639104,
+      "city_id": "tokyo",
+      "lng": 139.66815019999999,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.074Z",
+      "name": {
+        "zh-Hans": "纽约乔交换",
+        "zh-Hant": "紐約喬交換",
+        "en": "New York Joe Exchange"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-re-gendo",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A charming cafe and gallery set in a beautifully renovated traditional Japanese house, offering a serene escape with delicious food and drinks."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJDR4OIBDuGGAR531yJvNzflE",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.7026369,
+      "city_id": "tokyo",
+      "lng": 139.599384,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.008Z",
+      "name": {
+        "zh-Hans": "Re:gendo",
+        "zh-Hant": "Re:gendo",
+        "en": "Re:gendo"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-shimokita-daigomi-alley",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A charming, narrow alleyway retaining much of old Shimokita's character, filled with small, independent shops, cafes, and bars."
+      },
+      "type": "hidden_gem",
+      "google_place_id": "ChIJMQiyEGPzGGAR5G2O2xhX5co",
+      "trending_score": 83,
+      "is_active": true,
+      "lat": 35.6629959,
+      "city_id": "tokyo",
+      "lng": 139.6694183,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.204Z",
+      "name": {
+        "zh-Hans": "下北沢醍醐味巷",
+        "zh-Hant": "下北澤醍醐味巷",
+        "en": "Shimokita Daigomi Alley"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-shimokita-garage-department",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A collection of small, independent shops and stalls offering vintage goods, unique crafts, and local fashion, reflecting the neighborhood's creative flair."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJQx3MyhTzGGARtxwgu2Zn6_4",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.6603,
+      "city_id": "tokyo",
+      "lng": 139.6661,
+      "business_status": "CLOSED_PERMANENTLY",
+      "last_validated": "2026-03-22T03:58:36.009Z",
+      "name": {
+        "zh-Hans": "下北泽车库百货",
+        "zh-Hant": "下北澤車庫百貨",
+        "en": "Shimokita Garage Department"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-shimokita-garden",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A tranquil urban garden and nursery offering a green escape, selling plants and unique garden items, reflecting Shimokita's community spirit."
+      },
+      "type": "nature",
+      "google_place_id": "ChIJV_IrWWrzGGARURrPBAk82Yo",
+      "trending_score": 78,
+      "is_active": true,
+      "lat": 35.6629711,
+      "city_id": "tokyo",
+      "lng": 139.6690995,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.243Z",
+      "name": {
+        "zh-Hans": "下北花园",
+        "zh-Hant": "下北花園",
+        "en": "Shimokita Garden"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-shimokitazawa-era",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "An iconic live music venue that has been a cornerstone of Tokyo's indie music scene for decades, hosting emerging and established bands."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJW0zC_GrzGGARhmEYBAIFvZk",
+      "trending_score": 88,
+      "is_active": true,
+      "lat": 35.6633251,
+      "city_id": "tokyo",
+      "lng": 139.6683483,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.052Z",
+      "name": {
+        "zh-Hans": "下北沢ERA",
+        "zh-Hant": "下北澤ERA",
+        "en": "Shimokitazawa ERA"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-sunday-brunch-shimokitazawa",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A charming and relaxed cafe known for its delicious homemade cakes, quiches, and a cozy, inviting atmosphere perfect for a leisurely afternoon."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJh8XEbGvzGGARqiMd26VuPTs",
+      "trending_score": 82,
+      "is_active": true,
+      "lat": 35.662986499999995,
+      "city_id": "tokyo",
+      "lng": 139.6667934,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:34.951Z",
+      "name": {
+        "zh-Hans": "下北沢周日早午餐",
+        "zh-Hant": "下北澤週日早午餐",
+        "en": "Sunday Brunch Shimokitazawa"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-tenkomori",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A popular local spot for authentic okonomiyaki and monjayaki, offering a lively, casual atmosphere perfect for experiencing Japanese comfort food."
+      },
+      "type": "food",
+      "google_place_id": "ChIJq6q2fGnzGGARM0RdQF8pfgE",
+      "trending_score": 88,
+      "is_active": true,
+      "lat": 35.6648005,
+      "city_id": "tokyo",
+      "lng": 139.66609449999999,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.121Z",
+      "name": {
+        "zh-Hans": "天粉盛",
+        "zh-Hant": "天粉盛",
+        "en": "Tenkomori"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-ushiwakamaru",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "description": {
+        "en": "A small, traditional izakaya tucked away in an alley, celebrated for its fresh seafood and carefully selected sake, offering an authentic local experience."
+      },
+      "type": "food",
+      "google_place_id": "ChIJl4ivcFJFGGARaumFhf7PCnk",
+      "trending_score": 79,
+      "is_active": true,
+      "lat": 35.3139867,
+      "city_id": "tokyo",
+      "lng": 139.54437249999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:34.855Z",
+      "name": {
+        "zh-Hans": "牛若丸",
+        "zh-Hant": "牛若丸",
+        "en": "Ushiwakamaru"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-asakura-choso-museum",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "The former residence and studio of renowned sculptor Fumio Asakura, now a museum showcasing his works and a beautiful traditional Japanese garden."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJeRYrbNSNGGAR0P33uymr9Ug",
+      "trending_score": 83,
+      "is_active": true,
+      "lat": 35.7268444,
+      "city_id": "tokyo",
+      "lng": 139.76852499999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.717Z",
+      "name": {
+        "zh-Hans": "朝仓雕塑馆",
+        "zh-Hant": "朝倉雕塑館",
+        "en": "Asakura Choso Museum"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-hagi-cafe-hagiso",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A charming cafe housed in a beautifully renovated old wooden apartment building, part of a vibrant community art and cultural space."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJh5-ixtONGGARbCbx1wYyK84",
+      "trending_score": 87,
+      "is_active": true,
+      "lat": 35.726383000000006,
+      "city_id": "tokyo",
+      "lng": 139.76610499999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.775Z",
+      "name": {
+        "zh-Hans": "萩咖啡 (HAGISO)",
+        "zh-Hant": "萩咖啡 (HAGISO)",
+        "en": "Hagi Cafe (HAGISO)"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-hagiso",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A former wooden apartment building transformed into a charming complex featuring a cafe, gallery, and creative spaces, embodying Yanaka's artistic community."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJh5-ixtONGGARbCbx1wYyK84",
+      "trending_score": 85,
+      "is_active": true,
+      "lat": 35.726383000000006,
+      "city_id": "tokyo",
+      "lng": 139.76610499999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.481Z",
+      "name": {
+        "zh-Hans": "Hagiso",
+        "zh-Hant": "Hagiso",
+        "en": "Hagiso"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-iseya-yanaka-ginza",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A famous local shop on Yanaka Ginza known for its delicious and affordably priced yakitori (grilled chicken skewers), a perfect street food snack."
+      },
+      "type": "food",
+      "google_place_id": "ChIJPYwFnNGNGGARYEeXwiYQPe8",
+      "trending_score": 86,
+      "is_active": true,
+      "lat": 35.7276934,
+      "city_id": "tokyo",
+      "lng": 139.7657232,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.143Z",
+      "name": {
+        "zh-Hans": "伊势屋谷中银座店",
+        "zh-Hant": "伊勢屋谷中銀座店",
+        "en": "Iseya Yanaka Ginza"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-kashiwaya",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A traditional, independent tempura restaurant offering expertly prepared dishes in a cozy, authentic setting, reflecting Yanaka's old-Tokyo charm."
+      },
+      "type": "food",
+      "google_place_id": "ChIJIcjlPS-MGGARSv2demXGxM0",
+      "trending_score": 78,
+      "is_active": true,
+      "lat": 35.7151239,
+      "city_id": "tokyo",
+      "lng": 139.766483,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.489Z",
+      "name": {
+        "zh-Hans": "柏屋",
+        "zh-Hant": "柏屋",
+        "en": "Kashiwaya"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-kayaba-coffee",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A historic coffee shop, originally opened in 1938 and lovingly restored, serving traditional Japanese breakfast and coffee in a nostalgic setting."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJrdgn_9KNGGAR51pQCSVxBbI",
+      "trending_score": 88,
+      "is_active": true,
+      "lat": 35.721157999999996,
+      "city_id": "tokyo",
+      "lng": 139.77072099999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.376Z",
+      "name": {
+        "zh-Hans": "茅场咖啡",
+        "zh-Hant": "茅場咖啡",
+        "en": "Kayaba Coffee"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-niku-no-suzuki",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A beloved local butcher shop famous for its delicious, freshly fried croquettes (menchi katsu), a must-try street food experience in Yanaka Ginza."
+      },
+      "type": "food",
+      "google_place_id": "ChIJo0fEb9GNGGARWwIAcLo4asg",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.7276205,
+      "city_id": "tokyo",
+      "lng": 139.7654241,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T03:58:36.478Z",
+      "name": {
+        "zh-Hans": "肉之铃木",
+        "zh-Hant": "肉之鈴木",
+        "en": "Niku no Suzuki"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-tennoji-temple",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "One of Yanaka's oldest temples, known for its large bronze Buddha statue and peaceful, well-maintained grounds."
+      },
+      "type": "culture",
+      "google_place_id": "ChIJ8fH0kNSNGGARRqPAgLpngyc",
+      "trending_score": 83,
+      "is_active": true,
+      "lat": 35.7267151,
+      "city_id": "tokyo",
+      "lng": 139.7713085,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.154Z",
+      "name": {
+        "zh-Hans": "天王寺",
+        "zh-Hant": "天王寺",
+        "en": "Tennoji Temple"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-yanaka-ajisai",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A small, traditional Japanese restaurant focusing on seasonal local ingredients, offering comforting and authentic home-style dishes."
+      },
+      "type": "food",
+      "google_place_id": "ChIJPYwFnNGNGGARYEeXwiYQPe8",
+      "trending_score": 82,
+      "is_active": true,
+      "lat": 35.7276934,
+      "city_id": "tokyo",
+      "lng": 139.7657232,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.056Z",
+      "name": {
+        "zh-Hans": "谷中绣球",
+        "zh-Hant": "谷中繡球",
+        "en": "Yanaka Ajisai"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-yanaka-cemetery",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A historic and sprawling cemetery, offering tranquil paths, beautiful cherry blossom views, and the graves of many famous Japanese figures."
+      },
+      "type": "landmark",
+      "google_place_id": "ChIJO8HByiqMGGARP9I5xBEXlCM",
+      "trending_score": 84,
+      "is_active": true,
+      "lat": 35.7240044,
+      "city_id": "tokyo",
+      "lng": 139.7702991,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.881Z",
+      "name": {
+        "zh-Hans": "谷中灵园",
+        "zh-Hant": "谷中靈園",
+        "en": "Yanaka Cemetery"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-yanaka-coffee",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A local coffee roaster and cafe with a strong neighborhood identity, offering expertly brewed coffee in a traditional setting."
+      },
+      "type": "drink",
+      "google_place_id": "ChIJEzLvhtGNGGAR143FxcbuhUA",
+      "trending_score": 80,
+      "is_active": true,
+      "lat": 35.7269027,
+      "city_id": "tokyo",
+      "lng": 139.76473099999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.816Z",
+      "name": {
+        "zh-Hans": "谷中咖啡",
+        "zh-Hant": "谷中咖啡",
+        "en": "Yanaka Coffee"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-yanaka-ginza-shopping-street",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "An iconic retro shopping street lined with small, independent shops selling traditional snacks, crafts, and local goods, full of old Tokyo charm."
+      },
+      "type": "shopping",
+      "google_place_id": "ChIJPYwFnNGNGGARYEeXwiYQPe8",
+      "trending_score": 90,
+      "is_active": true,
+      "lat": 35.7276934,
+      "city_id": "tokyo",
+      "lng": 139.7657232,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:35.999Z",
+      "name": {
+        "zh-Hans": "谷中银座商店街",
+        "zh-Hant": "谷中銀座商店街",
+        "en": "Yanaka Ginza Shopping Street"
+      }
+    },
+    {
+      "id": "tokyo-yanaka-yuyake-dandan-sunset-staircase",
+      "neighborhood_id": "tokyo-yanaka",
+      "description": {
+        "en": "A famous staircase offering a picturesque view over Yanaka Ginza, particularly stunning at sunset."
+      },
+      "type": "viewpoint",
+      "google_place_id": "ChIJrw6t4tONGGARm4SASOVzzLc",
+      "trending_score": 91,
+      "is_active": true,
+      "lat": 35.7276466,
+      "city_id": "tokyo",
+      "lng": 139.76708639999998,
+      "business_status": "OPERATIONAL",
+      "last_validated": "2026-03-22T04:08:36.056Z",
+      "name": {
+        "zh-Hans": "夕焼けだんだん (夕阳阶梯)",
+        "zh-Hant": "夕焼けだんだん (夕陽階梯)",
+        "en": "Yuyake Dandan (Sunset Staircase)"
+      }
+    },
+    {
+      "id": "tokyo-shimokitazawa-enr-gotokuji-temple",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "name": {
+        "en": "Gotokuji Temple"
+      },
+      "description": {
+        "en": "The legendary birthplace of the Japanese maneki-neko (beckoning cat), this temple is dotted with hundreds of lucky cat statues."
+      },
+      "type": "landmark",
+      "lat": 35.64651,
+      "lng": 139.64833,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-enr-ten-to-sen",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "name": {
+        "en": "Ten To Sen"
+      },
+      "description": {
+        "en": "This specialty shop makes some of the best vegan ramen in Tokyo, offering a unique take on the classic dish."
+      },
+      "type": "food",
+      "lat": 35.66205,
+      "lng": 139.66652,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-enr-udatsu-sushi",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-nakameguro",
+      "name": {
+        "en": "Udatsu Sushi"
+      },
+      "description": {
+        "en": "A high-priority omakase experience for visitors, serving exquisite and masterfully prepared sushi."
+      },
+      "type": "food",
+      "lat": 35.64551,
+      "lng": 139.69784,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-enr-rodeo-cafe",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-nakameguro",
+      "name": {
+        "en": "Rodeo & Cafe"
+      },
+      "description": {
+        "en": "A dark horse of an Italian restaurant, hiding in plain sight and offering a unique dining experience."
+      },
+      "type": "food",
+      "lat": 35.64433,
+      "lng": 139.70215,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-enr-chops",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-nakameguro",
+      "name": {
+        "en": "Chops"
+      },
+      "description": {
+        "en": "One of Tokyo’s best-kept barbecue secrets, this spot is a sleeper hit for smoked meats with serious flavour and great value."
+      },
+      "type": "food",
+      "lat": 35.64452,
+      "lng": 139.70281,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-enr-pelican-cafe",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-kuramae",
+      "name": {
+        "en": "Pelican Café"
+      },
+      "description": {
+        "en": "This cafe offers a special dine-in experience centered on shokupan (Japanese milk bread), allowing you to savor the fluffy superstar."
+      },
+      "type": "food",
+      "lat": 35.70994,
+      "lng": 139.78816,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-enr-ramen-break-beats",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-nakameguro",
+      "name": {
+        "en": "Ramen Break Beats"
+      },
+      "description": {
+        "en": "A hidden, eight-seat shop in Meguro that serves what some call the best ramen they've ever had."
+      },
+      "type": "food",
+      "lat": 35.63415,
+      "lng": 139.71542,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-enr-ramen-machikado",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-daikanyama",
+      "name": {
+        "en": "Ramen Machikado"
+      },
+      "description": {
+        "en": "Located in nearby Ebisu, this ramen shop demonstrates that there is boldness in subtlety, offering a lighter take on the classic dish."
+      },
+      "type": "food",
+      "lat": 35.6473,
+      "lng": 139.7115,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-enr-chibachan",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-daikanyama",
+      "name": {
+        "en": "Chibachan"
+      },
+      "description": {
+        "en": "A reliable and lively izakaya in nearby Shibuya, perfect for a last-minute dinner in a bustling area."
+      },
+      "type": "food",
+      "lat": 35.6595,
+      "lng": 139.7013,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-enr-chatei-hatou",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-daikanyama",
+      "name": {
+        "en": "Chatei Hatou"
+      },
+      "description": {
+        "en": "A classic kissaten (coffee house) in Shibuya that feels like a transport to a time before the internet, with soft jazz filling the air."
+      },
+      "type": "drink",
+      "lat": 35.6612,
+      "lng": 139.7038,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-enr-aidaya",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-yanaka",
+      "name": {
+        "en": "Aidaya"
+      },
+      "description": {
+        "en": "Located in neighboring Ueno, this spot specializes in tsukemen (dipping ramen) with a focus on variety."
+      },
+      "type": "food",
+      "lat": 35.7118,
+      "lng": 139.7751,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-enr-kagura-ya",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "name": {
+        "en": "Kagura-ya"
+      },
+      "description": {
+        "en": "This ramen shop near Suidobashi proves that the world of ramen is much bigger than just tonkotsu."
+      },
+      "type": "food",
+      "lat": 35.7025,
+      "lng": 139.7534,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-enr-starbucks-cafe-art-gallery-yanaka-gotenzaka",
+      "city_id": "tokyo",
+      "neighborhood_id": "tokyo-yanaka",
+      "name": {
+        "en": "Starbucks Cafe & Art Gallery Yanaka Gotenzaka"
+      },
+      "description": {
+        "en": "A unique Starbucks location in the trendy Yanaka neighborhood that combines coffee with a relaxing art gallery space."
+      },
+      "type": "culture",
+      "lat": 35.7235,
+      "lng": 139.7692,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-0",
+      "prompt": {
+        "zh-Hans": "在商店里找到一件真正独特的复古服装或配饰，并拍摄其独特细节的照片。",
+        "zh-Hant": "在商店裡找到一件真正獨特的復古服裝或配飾，並拍攝其獨特細節的照片。",
+        "en": "Find a truly unique vintage clothing item or accessory in a shop and take a photo of its unique details."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "复古时尚寻宝",
+        "zh-Hant": "復古時尚尋寶",
+        "en": "Vintage Fashion Find"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-1",
+      "prompt": {
+        "zh-Hans": "拍摄一幅充满活力的街头艺术或涂鸦作品，展现下北沢的艺术精神。",
+        "zh-Hant": "拍攝一幅充滿活力的街頭藝術或塗鴉作品，展現下北澤的藝術精神。",
+        "en": "Capture a vibrant piece of street art or graffiti that reflects Shimokita's artistic spirit."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "街头艺术探索",
+        "zh-Hant": "街頭藝術探索",
+        "en": "Street Art Safari"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-11",
+      "prompt": {
+        "zh-Hans": "在当地小市场摊位上找到并拍摄一件独特的物品或有趣的农产品。",
+        "zh-Hant": "在當地小市場攤位上找到並拍攝一件獨特的物品或有趣的農產品。",
+        "en": "Find and photograph a unique item or interesting produce at a small local market stall in the area."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "当地市场发现",
+        "zh-Hant": "當地市場發現",
+        "en": "Local Market Discovery"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-12",
+      "prompt": {
+        "zh-Hans": "找到并拍摄一张独立乐队或朋克乐队的手绘或独特的演出海报。",
+        "zh-Hant": "找到並拍攝一張獨立樂隊或朋克樂隊的手繪或獨特的演出海報。",
+        "en": "Find and photograph a hand-drawn or unique gig poster for an indie or punk band."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "朋克摇滚海报",
+        "zh-Hant": "朋克搖滾海報",
+        "en": "Punk Rock Poster"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-13",
+      "prompt": {
+        "zh-Hans": "拍摄高円寺复古商店里一件有趣或古怪的二手时尚物品。",
+        "zh-Hant": "拍攝高圓寺復古商店裡一件有趣或古怪的二手時尚物品。",
+        "en": "Photograph an interesting or quirky second-hand fashion item from a Koenji vintage shop."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "二手风尚",
+        "zh-Hant": "二手風尚",
+        "en": "Second-Hand Style"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-16",
+      "prompt": {
+        "zh-Hans": "拍摄标志性的“純情商店街”招牌。",
+        "zh-Hant": "拍攝標誌性的“純情商店街”招牌。",
+        "en": "Take a photo of the iconic '純情商店街' (Jyunjo Shopping Street) sign."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "纯情商店街招牌",
+        "zh-Hant": "純情商店街招牌",
+        "en": "Jyunjo Street Sign"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-18",
+      "prompt": {
+        "zh-Hans": "拍下中目黑精品店中精心布置且时尚的橱窗展示。",
+        "zh-Hant": "拍下中目黑精品店中精心佈置且時尚的櫥窗展示。",
+        "en": "Capture an artfully arranged and stylish window display from one of Nakameguro's boutiques."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "精品店橱窗魅力",
+        "zh-Hant": "精品店櫥窗魅力",
+        "en": "Boutique Window Glam"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-19",
+      "prompt": {
+        "zh-Hans": "找到并拍摄高円寺独特的街头艺术或涂鸦作品。",
+        "zh-Hant": "找到並拍攝高圓寺獨特的街頭藝術或塗鴉作品。",
+        "en": "Find and photograph a piece of Koenji's distinctive street art or graffiti."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "高円寺涂鸦",
+        "zh-Hant": "高圓寺塗鴉",
+        "en": "Koenji Graffiti"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-2",
+      "prompt": {
+        "zh-Hans": "发现并拍下一幅充满活力的街头艺术或涂鸦，捕捉下北泽的艺术活力。",
+        "zh-Hant": "發現並拍下一幅充滿活力的街頭藝術或塗鴉，捕捉下北澤的藝術活力。",
+        "en": "Discover and photograph a vibrant piece of street art or graffiti that captures Shimokita's artistic energy."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "街头艺术氛围",
+        "zh-Hant": "街頭藝術氛圍",
+        "en": "Street Art Vibes"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-20",
+      "prompt": {
+        "zh-Hans": "黄昏时分，拍摄高円寺传统居酒屋外点亮的红色灯笼。",
+        "zh-Hant": "黃昏時分，拍攝高圓寺傳統居酒屋外點亮的紅色燈籠。",
+        "en": "Capture a photo of illuminated red lanterns outside a traditional Koenji izakaya at dusk."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "居酒屋灯笼",
+        "zh-Hant": "居酒屋燈籠",
+        "en": "Izakaya Lanterns"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-21",
+      "prompt": {
+        "zh-Hans": "在当地游戏中心或商店找到并拍摄一台老式街机。",
+        "zh-Hant": "在當地遊戲中心或商店找到並拍攝一台老式街機。",
+        "en": "Find and photograph an old arcade machine in a local game center or shop."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "老式街机",
+        "zh-Hant": "老式街機",
+        "en": "Old School Arcade"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-23",
+      "prompt": {
+        "zh-Hans": "拍摄高円寺一条狭窄、有气氛的小巷，捕捉其独特的特色。",
+        "zh-Hant": "拍攝高圓寺一條狹窄、有氣氛的小巷，捕捉其獨特的特色。",
+        "en": "Photograph a narrow, atmospheric Koenji side alley, capturing its unique character."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "小巷发现",
+        "zh-Hant": "小巷發現",
+        "en": "Alleyway Discovery"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-24",
+      "prompt": {
+        "zh-Hans": "尊重地拍摄谷中著名的常驻猫之一（请勿打扰！）。",
+        "zh-Hant": "尊重地拍攝谷中著名的常駐貓之一（請勿打擾！）。",
+        "en": "Respectfully take a photo of one of Yanaka's famous resident cats (without disturbing it!)."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "谷中猫朋友",
+        "zh-Hant": "谷中貓朋友",
+        "en": "Yanaka Cat Friend"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-27",
+      "prompt": {
+        "zh-Hans": "拍下代官山一家高端精品店的精美橱窗展示。",
+        "zh-Hant": "拍下代官山一家高端精品店的精美櫥窗展示。",
+        "en": "Photograph an exquisitely arranged window display from one of Daikanyama's high-end boutiques."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "时尚橱窗展示",
+        "zh-Hant": "時尚櫥窗展示",
+        "en": "Chic Window Display"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-28",
+      "prompt": {
+        "zh-Hans": "在谷中当地手工艺品店找到并拍摄一件精美的手工制品。",
+        "zh-Hant": "在谷中當地手工藝品店找到並拍攝一件精美的手工製品。",
+        "en": "Find and photograph a beautifully displayed handmade item from a local Yanaka craft shop."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "匠人手工艺品展示",
+        "zh-Hant": "匠人手工藝品展示",
+        "en": "Artisan Craft Display"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-29",
+      "prompt": {
+        "zh-Hans": "拍摄一条迷人、狭窄的住宅小巷，唤起老东京的感觉。",
+        "zh-Hant": "拍攝一條迷人、狹窄的住宅小巷，喚起老東京的感覺。",
+        "en": "Capture a charming, narrow residential alleyway that evokes the feeling of old Tokyo."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "老东京小巷",
+        "zh-Hant": "老東京小巷",
+        "en": "Old Tokyo Alley"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-35",
+      "prompt": {
+        "zh-Hans": "在谷中当地商店找到并拍摄一份独特的传统日式甜点。",
+        "zh-Hant": "在谷中當地商店找到並拍攝一份獨特的傳統日式甜點。",
+        "en": "Find and photograph a unique traditional Japanese sweet from a local Yanaka shop."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "传统甜点",
+        "zh-Hant": "傳統甜點",
+        "en": "Traditional Sweet Treat"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-4",
+      "prompt": {
+        "zh-Hans": "拍下下北泽一个设计独特或魅力非凡的店招。",
+        "zh-Hant": "拍下下北澤一個設計獨特或魅力非凡的店招。",
+        "en": "Photograph an unusually designed or uniquely charming shop sign that stands out in Shimokita."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "奇特店招",
+        "zh-Hant": "奇特店招",
+        "en": "Quirky Shop Sign"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-42",
+      "prompt": {
+        "zh-Hans": "拍摄自由之丘汉堡的完美制作的美味汉堡。",
+        "zh-Hant": "拍攝自由之丘漢堡的完美製作的美味漢堡。",
+        "en": "Take a photo of a perfectly crafted gourmet burger from Jiyugaoka Burger."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "美食汉堡艺术",
+        "zh-Hant": "美食漢堡藝術",
+        "en": "Gourmet Burger Art"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-43",
+      "prompt": {
+        "zh-Hans": "在中目黑主要街道旁，找到并拍摄一条隐藏的、迷人的小巷，里面有小商店或咖啡馆。",
+        "zh-Hant": "在中目黑主要街道旁，找到並拍攝一條隱藏的、迷人的小巷，裡面有小商店或咖啡館。",
+        "en": "Find and photograph a hidden, charming alleyway with small shops or cafes off the main streets."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "隐藏巷道魅力 (中目黑)",
+        "zh-Hant": "隱藏巷道魅力 (中目黑)",
+        "en": "Hidden Alleyway Charm (Naka)"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-45",
+      "prompt": {
+        "zh-Hans": "在建筑物墙壁上找到并拍摄一个精致而时尚的艺术、建筑或设计作品。",
+        "zh-Hant": "在建築物牆壁上找到並拍攝一個精緻而時尚的藝術、建築或設計作品。",
+        "en": "Find and photograph a subtle yet stylish piece of art, architecture, or design on a building wall."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "中目黑设计元素",
+        "zh-Hant": "中目黑設計元素",
+        "en": "Nakameguro Design Element"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-5",
+      "prompt": {
+        "zh-Hans": "拍下谷中备受喜爱的猫咪之一，这是老城小巷中常见的景象。",
+        "zh-Hant": "拍下谷中備受喜愛的貓咪之一，這是老城小巷中常見的景象。",
+        "en": "Capture a photo of one of Yanaka's beloved cats, a common sight in the old town's alleys."
+      },
+      "points": 20,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "谷中猫踪",
+        "zh-Hant": "谷中貓蹤",
+        "en": "Yanaka Cat Sighting"
+      },
+      "duration_minutes": 15,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-51",
+      "prompt": {
+        "zh-Hans": "尊重地拍摄艺伎娱乐场所（料亭）的传统立面。",
+        "zh-Hant": "尊重地拍攝藝伎娛樂場所（料亭）的傳統立面。",
+        "en": "Respectfully capture the traditional facade of a ryotei (restaurant where geisha entertain)."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "艺伎屋一瞥",
+        "zh-Hant": "藝伎屋一瞥",
+        "en": "Geisha House Glimpse"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-54",
+      "prompt": {
+        "zh-Hans": "拍摄当地酒铺中独特的清酒瓶或精美的展示。",
+        "zh-Hant": "拍攝當地酒鋪中獨特的清酒瓶或精美的展示。",
+        "en": "Photograph a unique sake bottle or a beautifully arranged display in a local liquor shop."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "清酒瓶展示",
+        "zh-Hant": "清酒瓶展示",
+        "en": "Sake Bottle Display"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-55",
+      "prompt": {
+        "zh-Hans": "尊重地拍摄当地人穿着的和服或传统日式服装的细微细节。",
+        "zh-Hant": "尊重地拍攝當地人穿著的和服或傳統日式服裝的細微細節。",
+        "en": "Capture a subtle detail of a kimono or traditional Japanese attire worn by a local (respectfully)."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "和服线索",
+        "zh-Hant": "和服線索",
+        "en": "Kimono Clue"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-56",
+      "prompt": {
+        "zh-Hans": "沿着小巷找到并拍摄一个僻静的传统日式花园大门。",
+        "zh-Hant": "沿著小巷找到並拍攝一個僻靜的傳統日式花園大門。",
+        "en": "Find and photograph a secluded, traditional Japanese garden gate along an alleyway."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "隐藏花园大门",
+        "zh-Hant": "隱藏花園大門",
+        "en": "Hidden Garden Gate"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-57",
+      "prompt": {
+        "zh-Hans": "如果看到，请尊重地拍摄神乐坂传统背景下的猫。",
+        "zh-Hant": "如果看到，請尊重地拍攝神樂坂傳統背景下的貓。",
+        "en": "If seen, take a respectful photo of a cat in a traditional Kagurazaka setting."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "神乐坂巷猫",
+        "zh-Hant": "神樂坂巷貓",
+        "en": "Kagurazaka Alley Cat"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-59",
+      "prompt": {
+        "zh-Hans": "拍摄一个设计精美或手绘的商店招牌，展现神乐坂的优雅。",
+        "zh-Hant": "拍攝一個設計精美或手繪的商店招牌，展現神樂坂的優雅。",
+        "en": "Capture a beautifully designed or hand-painted shop sign that reflects Kagurazaka's elegance."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "艺术商店招牌",
+        "zh-Hant": "藝術商店招牌",
+        "en": "Artistic Shop Sign"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-62",
+      "prompt": {
+        "zh-Hans": "找到并拍摄一位工匠的展示或工作室窗户，展示他们的创作过程。",
+        "zh-Hant": "找到並拍攝一位工匠的展示或工作室窗戶，展示他們的創作過程。",
+        "en": "Find and photograph a craftsperson's display or workshop window, showing their creative process."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "匠人工作室一瞥",
+        "zh-Hant": "匠人工作室一瞥",
+        "en": "Artisan Workshop Glimpse"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-66",
+      "prompt": {
+        "zh-Hans": "拍摄一栋展现蔵前工业时尚设计或改造后仓库美学的建筑。",
+        "zh-Hant": "拍攝一棟展現藏前工業時尚設計或改造後倉庫美學的建築。",
+        "en": "Photograph a building showcasing Kuramae's industrial-chic design or renovated warehouse aesthetic."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "工业时尚建筑",
+        "zh-Hant": "工業時尚建築",
+        "en": "Industrial Chic Architecture"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-68",
+      "prompt": {
+        "zh-Hans": "在当地皮革店找到并拍摄一件独特的皮革制品或正在工作的工匠。",
+        "zh-Hant": "在當地皮革店找到並拍攝一件獨特的皮革製品或正在工作的工匠。",
+        "en": "Find and photograph a unique leather good or a craftsman at work in a local leather shop."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "皮革工艺细节",
+        "zh-Hant": "皮革工藝細節",
+        "en": "Leather Craft Detail"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-69",
+      "prompt": {
+        "zh-Hans": "拍摄隅田川上具有独特建筑设计的桥梁之一。",
+        "zh-Hant": "拍攝隅田川上具有獨特建築設計的橋樑之一。",
+        "en": "Photograph one of the bridges over Sumida River with an interesting architectural design."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "独特桥景",
+        "zh-Hant": "獨特橋景",
+        "en": "Distinctive Bridge View"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-7",
+      "prompt": {
+        "zh-Hans": "在当地唱片店找到并拍摄一张复古黑胶唱片封面或独特的展示。",
+        "zh-Hant": "在當地唱片店找到並拍攝一張復古黑膠唱片封面或獨特的展示。",
+        "en": "Find and photograph a vintage vinyl record cover or a unique display in a local record shop."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "唱片店遗迹",
+        "zh-Hant": "唱片店遺跡",
+        "en": "Record Store Relic"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-71",
+      "prompt": {
+        "zh-Hans": "找到并拍摄一个隐蔽或艺术化的工匠工作室或画廊入口。",
+        "zh-Hant": "找到並拍攝一個隱蔽或藝術化的工匠工作室或畫廊入口。",
+        "en": "Find and photograph a discreet or artistic entrance to an artisan's studio or gallery."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "隐藏工作室入口",
+        "zh-Hant": "隱藏工作室入口",
+        "en": "Hidden Studio Entrance"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-8",
+      "prompt": {
+        "zh-Hans": "尊重地拍摄一位拥有独特波西米亚时尚感的人（注重细节，而非面部）。",
+        "zh-Hant": "尊重地拍攝一位擁有獨特波希米亞時尚感的人（注重細節，而非面部）。",
+        "en": "Respectfully capture a photo of someone with an interesting, unique, bohemian fashion sense (focus on details, not faces)."
+      },
+      "points": 15,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "波西米亚街头风",
+        "zh-Hant": "波希米亞街頭風",
+        "en": "Bohemian Street Style"
+      },
+      "duration_minutes": 10,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-bear-pond-espresso-task-9",
+      "prompt": {
+        "zh-Hans": "拍摄一个特别古怪、艺术或装饰独特的商店外立面。",
+        "zh-Hant": "拍攝一個特別古怪、藝術或裝飾獨特的商店外立面。",
+        "en": "Photograph a particularly eccentric, artistic, or unusually decorated shop exterior."
+      },
+      "points": 10,
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "category": "photo",
+      "title": {
+        "zh-Hans": "奇特店面",
+        "zh-Hant": "奇特店面",
+        "en": "Quirky Shopfront"
+      },
+      "duration_minutes": 5,
+      "difficulty": "medium",
+      "order": 0,
+      "waypoint_id": "tokyo-shimokitazawa-bear-pond-espresso"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-1",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Vintage Threads"
+      },
+      "prompt": {
+        "en": "Find a piece of clothing in a vintage shop window that you would totally wear. Snap a pic!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-2",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Street Art Safari"
+      },
+      "prompt": {
+        "en": "Capture a photo of the most interesting piece of street art or graffiti you can find on a wall or shutter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-3",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Quirky Storefront"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a shop with a funny or bizarre name."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-4",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Record Hunter"
+      },
+      "prompt": {
+        "en": "Photograph a cool or rare vinyl record cover you spot in a record store."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-5",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Live Music Vibe"
+      },
+      "prompt": {
+        "en": "Find a 'live house' or music venue and take a photo of its poster-covered entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-6",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Narrow Alleyways"
+      },
+      "prompt": {
+        "en": "Find the narrowest, most interesting-looking alley and take a photo looking down it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-7",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Bohemian Style"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel perfectly captures the unique, bohemian fashion style of Shimokitazawa."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-8",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Curry Quest"
+      },
+      "prompt": {
+        "en": "Shimokitazawa is famous for curry. Find a curry shop and take an enticing photo of its menu or sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-9",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Sticker Shock"
+      },
+      "prompt": {
+        "en": "Find a lamp post or signpost covered in stickers and take a close-up shot of the most unique one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-10",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Theater Scene"
+      },
+      "prompt": {
+        "en": "This area is known for small theaters. Photograph the entrance of one, capturing the playbills and posters."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-11",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Secondhand Treasures"
+      },
+      "prompt": {
+        "en": "Photograph a strange or wonderful object you find for sale in a secondhand shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-12",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Coffee Break"
+      },
+      "prompt": {
+        "en": "Take a photo of a unique-looking independent coffee shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-13",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Rooftop View"
+      },
+      "prompt": {
+        "en": "Find a spot where you can get a view of the neighborhood's rooftops and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-14",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Creative Display"
+      },
+      "prompt": {
+        "en": "Photograph a creative or artistic window display in one of the local boutiques."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-shimokitazawa-task-15",
+      "neighborhood_id": "tokyo-shimokitazawa",
+      "title": {
+        "en": "Shimokita Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo that you think sums up the free-spirited, artistic vibe of Shimokitazawa."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-1",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Riverside Reflection"
+      },
+      "prompt": {
+        "en": "Take a photo of the Meguro River, trying to capture the reflection of the buildings or sky in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-2",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Find one of the many small bridges crossing the river and take a photo from a creative angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-3",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Designer Details"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully designed storefront or an interesting architectural detail on a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-4",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Coffee Culture"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a coffee from one of the neighborhood's many stylish cafes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-5",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Hidden Alley"
+      },
+      "prompt": {
+        "en": "Discover a quiet side street or hidden alley off the main path and capture its peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-6",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Lantern Light"
+      },
+      "prompt": {
+        "en": "Find a traditional Japanese lantern outside a shop or restaurant and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-7",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful plant, tree, or flower arrangement outside a shop or home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-8",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Artful Presentation"
+      },
+      "prompt": {
+        "en": "Find a cafe or bakery and take a photo of their artfully displayed pastries or cakes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-9",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Chic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the effortlessly cool and trendy vibe of Nakameguro."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-10",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Train Spotting"
+      },
+      "prompt": {
+        "en": "Capture a photo of a train passing over or under a bridge in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-11",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Minimalist Moment"
+      },
+      "prompt": {
+        "en": "Find an example of minimalist design, whether it's a storefront, a sign, or a piece of furniture, and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-12",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm glow of lights from a restaurant or bar along the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-13",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Boutique Window"
+      },
+      "prompt": {
+        "en": "Photograph an interesting or artistic window display at one of the local fashion boutiques."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-14",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Local Life"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a slice of daily life in the neighborhood, like someone walking their dog or riding a bicycle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-15",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Nakameguro Essence"
+      },
+      "prompt": {
+        "en": "Take one photo that you feel perfectly summarizes the stylish and relaxed atmosphere of Nakameguro."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-1",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Artisan's Door"
+      },
+      "prompt": {
+        "en": "Find a workshop or store dedicated to a specific craft (leather, paper, etc.) and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-2",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Skytree View"
+      },
+      "prompt": {
+        "en": "Capture a view of the Tokyo Skytree framed by the buildings of a Kuramae street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-3",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Coffee Roaster"
+      },
+      "prompt": {
+        "en": "Kuramae is full of great coffee. Find a coffee roastery and take a photo of its sign or exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-4",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Sumida River Scene"
+      },
+      "prompt": {
+        "en": "Take a photo of the Sumida River, including one of the bridges or a boat on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-5",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a contrast between an old, industrial building and a new, modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-6",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Craftsman's Tools"
+      },
+      "prompt": {
+        "en": "Look through a workshop window and try to get a photo of the tools of the trade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-7",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find an example of industrial-chic design in a cafe or shop and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-8",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Stationery Spot"
+      },
+      "prompt": {
+        "en": "The area is known for stationery. Find a shop selling beautiful paper or pens and photograph its window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-9",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Hidden Signage"
+      },
+      "prompt": {
+        "en": "Find a cool, minimalist, or vintage sign for a local business and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-10",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Riverside Stroll"
+      },
+      "prompt": {
+        "en": "Take a selfie on the walkway next to the Sumida River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-11",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Neighborhood Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting texture you find on a building wall - like old brick, rusted metal, or patterned tile."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-12",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet residential street and take a photo that captures the calm, local feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-13",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Handmade Goods"
+      },
+      "prompt": {
+        "en": "Photograph a display of beautiful handmade goods in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-14",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Bridge Structure"
+      },
+      "prompt": {
+        "en": "Get underneath or close to one of the bridges and take a photo of its interesting structural details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-kuramae-task-15",
+      "neighborhood_id": "tokyo-kuramae",
+      "title": {
+        "en": "Kuramae Character"
+      },
+      "prompt": {
+        "en": "Take a single photo that you believe captures the unique, crafty, and cool character of Kuramae."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-04T00:08:32.420099+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-1",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Architectural Elegance"
+      },
+      "prompt": {
+        "en": "Find the most interesting piece of modern architecture and take a photo emphasizing its lines and shapes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-2",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Chic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the effortlessly cool and stylish vibe of Daikanyama."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-3",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Hidden Gem Alley"
+      },
+      "prompt": {
+        "en": "Wander off the main street and capture a photo of a quiet, charming backstreet or alleyway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-4",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Café Culture"
+      },
+      "prompt": {
+        "en": "Take an artistic shot of your coffee or a pastry from a local café."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-5",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Boutique Window"
+      },
+      "prompt": {
+        "en": "Photograph the most creative and stylish window display you can find at one of the local boutiques."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-6",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Find a small pocket of nature—a potted plant, a small garden, or a tree-lined street—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-7",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Designer Details"
+      },
+      "prompt": {
+        "en": "Find an example of excellent design in an everyday object, like a sign, a bench, or a doorknob, and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-8",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of light and shadow on a building or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-9",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Local Fashion"
+      },
+      "prompt": {
+        "en": "Discreetly capture a detail of local street style that you find inspiring."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-10",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Stairway to Style"
+      },
+      "prompt": {
+        "en": "Find an interesting staircase, either indoor or outdoor, and take a creative photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-11",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Art in the Open"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-12",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Minimalist Moment"
+      },
+      "prompt": {
+        "en": "Create a minimalist photograph focusing on a single subject against a clean background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-13",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Reflections of Cool"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the neighborhood in a window or puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-14",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "The Color of Daikanyama"
+      },
+      "prompt": {
+        "en": "Find a pop of color in the mostly monochrome and earthy tones of the neighborhood and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-daikanyama-task-15",
+      "neighborhood_id": "tokyo-daikanyama",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or spot and take a photo from that perspective, capturing a moment of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-1",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Riverside View"
+      },
+      "prompt": {
+        "en": "Take a photo from one of the bridges crossing the Meguro River, capturing the view along the canal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-2",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Coffee Stand Selfie"
+      },
+      "prompt": {
+        "en": "Grab a coffee from a local stand and take a selfie enjoying the relaxed vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-3",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Boutique Discovery"
+      },
+      "prompt": {
+        "en": "Find a unique item in a boutique window and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-4",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Lantern Light"
+      },
+      "prompt": {
+        "en": "Photograph a lantern hanging outside a shop or restaurant, especially as evening approaches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-5",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Nature in the City"
+      },
+      "prompt": {
+        "en": "Capture a close-up of the leaves on the cherry trees (or any tree) lining the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-6",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Hidden Art"
+      },
+      "prompt": {
+        "en": "Look for a piece of street art or a cool mural in a side alley and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-7",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Reflective Mood"
+      },
+      "prompt": {
+        "en": "Take a picture of the reflection of the buildings and trees in the Meguro River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-8",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Train Spotting"
+      },
+      "prompt": {
+        "en": "Capture a photo of a train passing on the elevated tracks that run through the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-9",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Designer Doorway"
+      },
+      "prompt": {
+        "en": "Find a shop or restaurant with a particularly interesting or stylish entrance and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-10",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "A Moment of Calm"
+      },
+      "prompt": {
+        "en": "Find a quiet spot away from the main path and take a photo that conveys a sense of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-11",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Culinary Close-up"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering close-up shot of a local snack or dish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-12",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Texture Hunt"
+      },
+      "prompt": {
+        "en": "Find an interesting texture—like peeling paint, worn wood, or sleek metal—and take a detailed photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-13",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Bike Life"
+      },
+      "prompt": {
+        "en": "Bicycles are everywhere. Find a cool-looking bike and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-14",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "The Way We Live"
+      },
+      "prompt": {
+        "en": "Capture a small detail of one of the residential buildings that gives a glimpse into local life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-nakameguro-task-15",
+      "neighborhood_id": "tokyo-nakameguro",
+      "title": {
+        "en": "Nakameguro at Night"
+      },
+      "prompt": {
+        "en": "If you're here in the evening, capture the warm glow of the lights from shops and restaurants along the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-1",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Shitamachi Spirit"
+      },
+      "prompt": {
+        "en": "Capture a photo that you feel embodies the 'old Tokyo' atmosphere of Yanaka."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-2",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Cat Spotting"
+      },
+      "prompt": {
+        "en": "Find one of Yanaka's famous resident cats and take a respectful photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-3",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Temple Tranquility"
+      },
+      "prompt": {
+        "en": "Take a selfie outside one of the many temples, capturing a moment of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-4",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Shopping Street Scene"
+      },
+      "prompt": {
+        "en": "Take a vibrant photo of the bustling Yanaka Ginza shopping street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-5",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Traditional Treat"
+      },
+      "prompt": {
+        "en": "Buy a local snack like a senbei (rice cracker) or manju and take a photo before you eat it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-6",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Cemetery Calm"
+      },
+      "prompt": {
+        "en": "Capture the serene and beautiful atmosphere of the Yanaka Cemetery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-7",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Old-Fashioned Storefront"
+      },
+      "prompt": {
+        "en": "Find a shop with a traditional, old-style storefront and photograph its details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-8",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Craftsman's Hands"
+      },
+      "prompt": {
+        "en": "If you see a local artisan or shopkeeper at work, respectfully ask if you can take a photo of their craft."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-9",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Rooftop View"
+      },
+      "prompt": {
+        "en": "Find a vantage point (like the Yuyake Dandan stairs) and capture the view over the neighborhood's rooftops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-10",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Potted Plant Paradise"
+      },
+      "prompt": {
+        "en": "Many residents decorate their homes with potted plants. Capture a particularly charming arrangement."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-11",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Signs of the Past"
+      },
+      "prompt": {
+        "en": "Find an old, weathered sign and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-12",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Bicycle Still Life"
+      },
+      "prompt": {
+        "en": "Compose a still-life photo featuring one of the many bicycles parked along the narrow streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-13",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Power Lines"
+      },
+      "prompt": {
+        "en": "Capture the chaotic beauty of the overhead electrical wires against the sky, a classic Tokyo scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-14",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "Find a colorful noren (shop curtain) or banner and make it the focus of your photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-yanaka-task-15",
+      "neighborhood_id": "tokyo-yanaka",
+      "title": {
+        "en": "Sunset Stairs Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the Yuyake Dandan (sunset stairs) as the day comes to a close."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-1",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Cobblestone Charm"
+      },
+      "prompt": {
+        "en": "Find one of Kagurazaka's famous stone-paved alleys and take a photo looking down its length."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-2",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "French Connection"
+      },
+      "prompt": {
+        "en": "Capture a detail that shows the French influence in the neighborhood, like a bistro sign or a bakery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-3",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Ryotei Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a traditional Japanese restaurant (ryotei), known for their elegant and discreet entrances."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-4",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Red Lantern Glow"
+      },
+      "prompt": {
+        "en": "Find a red paper lantern (chochin) and take a picture of its warm glow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-5",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Stairway to Somewhere"
+      },
+      "prompt": {
+        "en": "The neighborhood is hilly. Find an interesting set of stairs and take a creative shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-6",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Hidden Shrine"
+      },
+      "prompt": {
+        "en": "Besides the main shrines, there are smaller ones tucked away. Find one and capture its quiet atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-7",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Kimono Watch"
+      },
+      "prompt": {
+        "en": "Kagurazaka is a popular spot to see people in kimonos. Respectfully capture this beautiful aspect of the culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-8",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "A Tale of Two Cultures"
+      },
+      "prompt": {
+        "en": "Take a single photo that includes both a Japanese and a French element."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-9",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Gourmet Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully presented dish or drink from one of the area's many acclaimed eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-10",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Alleyway Shadows"
+      },
+      "prompt": {
+        "en": "Capture the play of light and shadow in one of the narrow 'yokocho' alleys."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-11",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Modern Meets Traditional"
+      },
+      "prompt": {
+        "en": "Find an example of modern architecture right next to a traditional building and photograph the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-12",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Elegant Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the noren (curtain) or entrance of a restaurant that looks particularly inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-13",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find a shop window with traditional crafts or sweets and take an artistic photo of the display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-14",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "The Slope"
+      },
+      "prompt": {
+        "en": "Take a photo looking up or down the main slope of Kagurazaka-dori, capturing the flow of people and traffic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    },
+    {
+      "id": "tokyo-kagurazaka-task-15",
+      "neighborhood_id": "tokyo-kagurazaka",
+      "title": {
+        "en": "Kagurazaka Greenery"
+      },
+      "prompt": {
+        "en": "Find a well-cared-for plant or a small garden outside a home or shop and capture its beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T17:16:31.350685+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

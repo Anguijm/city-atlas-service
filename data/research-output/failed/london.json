@@ -1,0 +1,1817 @@
+{
+  "neighborhoods": [
+    {
+      "id": "marylebone",
+      "city_id": "london",
+      "name": {
+        "en": "Marylebone"
+      },
+      "summary": {
+        "en": "A sophisticated and serene village-like area known for its Georgian townhouses, specialist shops, and quiet garden squares, offering a refined escape from the city's chaos."
+      },
+      "lat": 51.5185,
+      "lng": -0.1555,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court",
+      "city_id": "london",
+      "name": {
+        "en": "The Inns of Court"
+      },
+      "summary": {
+        "en": "A peaceful, secret world hidden in plain sight, where ancient courtyards, manicured gardens, and stone chapels offer a profound sense of quiet history."
+      },
+      "lat": 51.5165,
+      "lng": -0.1125,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london",
+      "city_id": "london",
+      "name": {
+        "en": "The City of London"
+      },
+      "summary": {
+        "en": "The ancient financial heart of London, offering a dramatic contrast of hyper-modern skyscrapers and a medieval street plan, best explored on quiet weekends."
+      },
+      "lat": 51.513,
+      "lng": -0.088,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho",
+      "city_id": "london",
+      "name": {
+        "en": "Soho"
+      },
+      "summary": {
+        "en": "The loud, fast, and unapologetically vibrant heart of London's entertainment and culinary scenes, packed with world-class restaurants, theatres, and neon-lit bars."
+      },
+      "lat": 51.5132,
+      "lng": -0.1367,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington",
+      "city_id": "london",
+      "name": {
+        "en": "Islington"
+      },
+      "summary": {
+        "en": "A trendy, creative, and independent hub known for its fringe theatres, antique markets, and a sophisticated but relaxed social scene along Upper Street."
+      },
+      "lat": 51.5355,
+      "lng": -0.1038,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs",
+      "city_id": "london",
+      "name": {
+        "en": "A Tale of Two Pubs"
+      },
+      "summary": {
+        "en": "A thematic journey to authentic local pubs in the creative heartlands of East and South London, offering a taste of real London nightlife far from the tourist hubs."
+      },
+      "lat": 51.5074,
+      "lng": -0.1278,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "marylebone-enr-boxcar-cafe",
+      "city_id": "london",
+      "neighborhood_id": "marylebone",
+      "name": {
+        "en": "Boxcar Cafe"
+      },
+      "description": {
+        "en": "A bright and elegant baker and deli near Marylebone Station, known for delicious pastries and excellent breakfasts on a sunny square."
+      },
+      "type": "food",
+      "lat": 51.5218,
+      "lng": -0.1598,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-enr-h-j-aris-cafe-bistro",
+      "city_id": "london",
+      "neighborhood_id": "marylebone",
+      "name": {
+        "en": "H. J. Aris (Café-Bistro)"
+      },
+      "description": {
+        "en": "An eccentric hybrid of an antique emporium and a café, offering an unforgettable place to sip a cocktail or coffee surrounded by vintage curiosities."
+      },
+      "type": "drink",
+      "lat": 51.518,
+      "lng": -0.152,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-enr-sourdough-sophia",
+      "city_id": "london",
+      "neighborhood_id": "marylebone",
+      "name": {
+        "en": "Sourdough Sophia"
+      },
+      "description": {
+        "en": "An award-winning bakery adored by locals for its light, airy bread and crunchy, comforting buttery pastries."
+      },
+      "type": "food",
+      "lat": 51.5195,
+      "lng": -0.1545,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-enr-boating-lake-in-the-regent-s-park",
+      "city_id": "london",
+      "neighborhood_id": "marylebone",
+      "name": {
+        "en": "Boating Lake in The Regent's Park"
+      },
+      "description": {
+        "en": "A vast, beautiful green space where you can walk, admire the rose garden, or rent a paddleboat to escape the city bustle."
+      },
+      "type": "nature",
+      "lat": 51.529,
+      "lng": -0.156,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-enr-ibraaz",
+      "city_id": "london",
+      "neighborhood_id": "marylebone",
+      "name": {
+        "en": "Ibraaz"
+      },
+      "description": {
+        "en": "A cultural centre and cafe on Oxford Street offering a quiet, intellectual retreat with curated books, exhibitions, and a cinema."
+      },
+      "type": "culture",
+      "lat": 51.515,
+      "lng": -0.149,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-enr-garden-room",
+      "city_id": "london",
+      "neighborhood_id": "inns-of-court",
+      "name": {
+        "en": "Garden Room"
+      },
+      "description": {
+        "en": "The definition of a hidden gem, this charming cafe offers a peaceful escape surrounded by the historic, scholarly atmosphere of London's legal heartland."
+      },
+      "type": "drink",
+      "lat": 51.5175,
+      "lng": -0.113,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-enr-the-courtyards-and-gardens",
+      "city_id": "london",
+      "neighborhood_id": "inns-of-court",
+      "name": {
+        "en": "The Courtyards and Gardens"
+      },
+      "description": {
+        "en": "The main attraction of the area, these interconnected grounds of Lincoln's Inn and Gray's Inn are perfect for wandering and discovering hidden passages."
+      },
+      "type": "landmark",
+      "lat": 51.5165,
+      "lng": -0.1165,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-enr-abandoned-aldwych-tube",
+      "city_id": "london",
+      "neighborhood_id": "inns-of-court",
+      "name": {
+        "en": "Abandoned Aldwych Tube"
+      },
+      "description": {
+        "en": "A true 'ghost' station of the London Underground, used as a WWII shelter, which offers a rare glimpse into subterranean history via booked tours."
+      },
+      "type": "hidden_gem",
+      "lat": 51.5123,
+      "lng": -0.1152,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-enr-temple-church",
+      "city_id": "london",
+      "neighborhood_id": "inns-of-court",
+      "name": {
+        "en": "Temple Church"
+      },
+      "description": {
+        "en": "A historic round church built by the Knights Templar in the 12th century, featuring unique architecture and eerie effigies."
+      },
+      "type": "culture",
+      "lat": 51.5135,
+      "lng": -0.11,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-enr-the-ship",
+      "city_id": "london",
+      "neighborhood_id": "city-of-london",
+      "name": {
+        "en": "The Ship"
+      },
+      "description": {
+        "en": "A quintessential historic pub hidden in a narrow alley, serving a fantastic range of beers and very good food in a cozy, wood-paneled interior."
+      },
+      "type": "nightlife",
+      "lat": 51.5095,
+      "lng": -0.079,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-enr-the-alleyways-of-the-city",
+      "city_id": "london",
+      "neighborhood_id": "city-of-london",
+      "name": {
+        "en": "The Alleyways of the City"
+      },
+      "description": {
+        "en": "The true joy of this area is getting lost in the labyrinthine passages like Hart Street and Seething Lane, which lead to historic discoveries."
+      },
+      "type": "hidden_gem",
+      "lat": 51.511,
+      "lng": -0.08,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-enr-st-dunstan-in-the-east-church-garden",
+      "city_id": "london",
+      "neighborhood_id": "city-of-london",
+      "name": {
+        "en": "St Dunstan-in-the-East Church Garden"
+      },
+      "description": {
+        "en": "The stunning ruins of a Wren church, bombed in the Blitz, have been transformed into a magical and breathtakingly peaceful public garden."
+      },
+      "type": "nature",
+      "lat": 51.509,
+      "lng": -0.0815,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-enr-leadenhall-market",
+      "city_id": "london",
+      "neighborhood_id": "city-of-london",
+      "name": {
+        "en": "Leadenhall Market"
+      },
+      "description": {
+        "en": "A market with Victorian splendor, best visited on a quiet weekend to appreciate the ornate roof structure and quiet shopfronts without the crowds."
+      },
+      "type": "landmark",
+      "lat": 51.513,
+      "lng": -0.0835,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-enr-impala",
+      "city_id": "london",
+      "neighborhood_id": "soho",
+      "name": {
+        "en": "Impala"
+      },
+      "description": {
+        "en": "A modern Egyptian restaurant from an acclaimed chef, serving innovative and flavorful dishes in a cool, contemporary setting."
+      },
+      "type": "food",
+      "lat": 51.5135,
+      "lng": -0.134,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-enr-napoli-on-the-road-soho",
+      "city_id": "london",
+      "neighborhood_id": "soho",
+      "name": {
+        "en": "Napoli On The Road Soho"
+      },
+      "description": {
+        "en": "A branch of a world-famous pizzeria that is a must for pizza purists, where the focus is squarely on the quality of the pizza itself."
+      },
+      "type": "food",
+      "lat": 51.512,
+      "lng": -0.1355,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-enr-sushi-joy",
+      "city_id": "london",
+      "neighborhood_id": "soho",
+      "name": {
+        "en": "Sushi Joy"
+      },
+      "description": {
+        "en": "Described as the 'cutest nigiri spot,' this small storefront serves everything fresh to order and is a rewarding find."
+      },
+      "type": "food",
+      "lat": 51.5145,
+      "lng": -0.1325,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-enr-chinatown-gate-and-lanterns",
+      "city_id": "london",
+      "neighborhood_id": "soho",
+      "name": {
+        "en": "Chinatown Gate and Lanterns"
+      },
+      "description": {
+        "en": "This area offers a spectacular visual feast with its intricate main gate and rows of red lanterns that are iconic, especially at dusk."
+      },
+      "type": "landmark",
+      "lat": 51.5115,
+      "lng": -0.131,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-enr-hidden-passages",
+      "city_id": "london",
+      "neighborhood_id": "soho",
+      "name": {
+        "en": "Hidden Passages"
+      },
+      "description": {
+        "en": "Tiny, named alleyways like Walker's Court or St Anne's Court that cut between main streets, often hiding historical plaques and street art."
+      },
+      "type": "hidden_gem",
+      "lat": 51.513,
+      "lng": -0.133,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-enr-vintage-instrument-shops-on-denmark-street",
+      "city_id": "london",
+      "neighborhood_id": "soho",
+      "name": {
+        "en": "Vintage Instrument Shops on Denmark Street"
+      },
+      "description": {
+        "en": "Known as Britain's 'Tin Pan Alley,' this street is lined with legendary music shops that represent a piece of living music history."
+      },
+      "type": "shopping",
+      "lat": 51.5155,
+      "lng": -0.129,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-enr-one-eighty-one",
+      "city_id": "london",
+      "neighborhood_id": "islington",
+      "name": {
+        "en": "One Eighty One"
+      },
+      "description": {
+        "en": "A fantastic hybrid record shop and bar that transforms from a relaxed coffee spot by day to a buzzing destination by night."
+      },
+      "type": "nightlife",
+      "lat": 51.534,
+      "lng": -0.105,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-enr-camden-passage",
+      "city_id": "london",
+      "neighborhood_id": "islington",
+      "name": {
+        "en": "Camden Passage"
+      },
+      "description": {
+        "en": "A charming, cobbled backstreet famous for its antique stalls, quirky independent boutiques, and vintage shops, best explored on market days."
+      },
+      "type": "shopping",
+      "lat": 51.5345,
+      "lng": -0.1065,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-enr-the-almeida-theatre",
+      "city_id": "london",
+      "neighborhood_id": "islington",
+      "name": {
+        "en": "The Almeida Theatre"
+      },
+      "description": {
+        "en": "One of London's most respected and innovative theatres, known for world-class productions in an intimate setting that defines the area's cultural fabric."
+      },
+      "type": "culture",
+      "lat": 51.5365,
+      "lng": -0.103,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-enr-regent-s-canal-towpath",
+      "city_id": "london",
+      "neighborhood_id": "islington",
+      "name": {
+        "en": "Regent's Canal Towpath"
+      },
+      "description": {
+        "en": "A beautiful, peaceful walk along the canal near Angel station, offering a different perspective of the city while watching the narrowboats."
+      },
+      "type": "nature",
+      "lat": 51.5325,
+      "lng": -0.106,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-enr-star-of-bethnal-green",
+      "city_id": "london",
+      "neighborhood_id": "local-pubs",
+      "name": {
+        "en": "Star of Bethnal Green"
+      },
+      "description": {
+        "en": "A pub embodying the cool, unpretentious East London spirit, transforming from a chilled-out local into a full-on party spot with disco balls."
+      },
+      "type": "nightlife",
+      "lat": 51.5275,
+      "lng": -0.055,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-enr-the-cavendish-arms",
+      "city_id": "london",
+      "neighborhood_id": "local-pubs",
+      "name": {
+        "en": "The Cavendish Arms"
+      },
+      "description": {
+        "en": "Known as 'The Cav,' this ultimate hidden gem in Stockwell has a cozy, quirky vibe and hosts eclectic live events like comedy, cabaret, and music."
+      },
+      "type": "nightlife",
+      "lat": 51.472,
+      "lng": -0.122,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-enr-victoria-park",
+      "city_id": "london",
+      "neighborhood_id": "local-pubs",
+      "name": {
+        "en": "Victoria Park"
+      },
+      "description": {
+        "en": "A large park near Bethnal Green, perfect for exploring before an evening pint at a local pub."
+      },
+      "type": "nature",
+      "lat": 51.5375,
+      "lng": -0.039,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-enr-stockwell-s-garden-squares",
+      "city_id": "london",
+      "neighborhood_id": "local-pubs",
+      "name": {
+        "en": "Stockwell's Garden Squares"
+      },
+      "description": {
+        "en": "Quiet garden squares that showcase the diverse architecture around Stockwell, ideal for a peaceful stroll before visiting a neighborhood pub."
+      },
+      "type": "nature",
+      "lat": 51.474,
+      "lng": -0.119,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "marylebone-task-1",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Architectural Elegance"
+      },
+      "prompt": {
+        "en": "Find a classic Georgian townhouse and take a photo focusing on an elegant detail, like an ornate doorway, iron railing, or fanlight window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-2",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Garden Square Serenity"
+      },
+      "prompt": {
+        "en": "Capture a moment of peace in one of Marylebone's garden squares. Frame your shot to show the contrast between the green space and the surrounding buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-3",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Bakery Bliss"
+      },
+      "prompt": {
+        "en": "Take an artful photo of the most delicious-looking pastry or baked good you can find in a local bakery or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-4",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Literary Pursuits"
+      },
+      "prompt": {
+        "en": "Find a bookshop or a place with books and take a selfie looking thoughtful while browsing a title that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-5",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Refined Reflection"
+      },
+      "prompt": {
+        "en": "Find a polished shop window and capture a reflection of Marylebone's sophisticated street scene in the glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-6",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Specialist's Sign"
+      },
+      "prompt": {
+        "en": "Photograph the most interesting or beautifully designed sign for a specialist shop (e.g., a cheesemonger, a perfumery, an art gallery)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-7",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Quiet Corner Coffee"
+      },
+      "prompt": {
+        "en": "Find a quiet cafe and take a top-down photo of your coffee or tea, arranged neatly with a book or pastry."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-8",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Posh Pooch Portrait"
+      },
+      "prompt": {
+        "en": "Marylebone is full of stylish residents and their dogs. Take a respectful photo of a well-groomed dog enjoying a walk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-9",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Mews Mystery"
+      },
+      "prompt": {
+        "en": "Discover a quiet mews (a small side street) and take a photo looking down its length, capturing the charm of these hidden lanes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-10",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Art Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo from the street looking into an art gallery window, capturing a piece of art that intrigues you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-11",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "The Perfect Bench"
+      },
+      "prompt": {
+        "en": "Find an empty park bench that looks particularly inviting and take a photo of it, imagining the stories it could tell."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-12",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Chic Transport"
+      },
+      "prompt": {
+        "en": "Spot a classic or luxury car parked on a street and take a photo that frames it against the elegant architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-13",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Flower Box Beauty"
+      },
+      "prompt": {
+        "en": "Find a building with a particularly beautiful window box or floral display and capture its vibrant colors."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-14",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "Hidden History Plaque"
+      },
+      "prompt": {
+        "en": "Search for a blue plaque or other historical marker on a building and take a clear photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "marylebone-task-15",
+      "neighborhood_id": "marylebone",
+      "title": {
+        "en": "A Breath of Fresh Air"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the serene and calm feeling of this neighborhood, a true escape from the nearby chaos."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-1",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Portal to the Past"
+      },
+      "prompt": {
+        "en": "Find a stone archway and frame a photo looking through it into a courtyard or garden, creating a 'portal to the past' effect."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-2",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Whispers of History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or an old inscription carved in stone and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-3",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Secret Garden Selfie"
+      },
+      "prompt": {
+        "en": "Discover a hidden garden or quiet green corner and take a selfie enjoying the peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-4",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "The Weight of Law"
+      },
+      "prompt": {
+        "en": "Photograph an imposing stone building or doorway that looks like it holds centuries of legal secrets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-5",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "A Study in Silence"
+      },
+      "prompt": {
+        "en": "Capture an image that conveys the profound quiet of the area—an empty courtyard, a still pathway, or a secluded bench."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-6",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Manicured Nature"
+      },
+      "prompt": {
+        "en": "Find a perfectly manicured lawn, hedge, or flowerbed and take a photo that highlights its precise, orderly beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-7",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a worn stone step, a weathered brick wall, or a cobblestone path and take a photo that emphasizes its age and texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-8",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Legal Eagle Spotting"
+      },
+      "prompt": {
+        "en": "Respectfully capture a candid, distant photo of a barrister in their traditional wig and gown (if you're lucky enough to spot one!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-9",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Light Through the Cloisters"
+      },
+      "prompt": {
+        "en": "Find a covered walkway or cloister and photograph the way the light filters through, creating patterns of light and shadow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-10",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Hidden Passage Discovery"
+      },
+      "prompt": {
+        "en": "Find the narrowest, most intriguing-looking passage between two buildings and take a photo from its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-11",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Scholarly Stillness"
+      },
+      "prompt": {
+        "en": "Take a photo of a leaded glass window, suggesting the quiet, scholarly work that happens behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-12",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Ancient Rooftops"
+      },
+      "prompt": {
+        "en": "Look up and capture a photo of the interesting rooftops, chimneys, and spires of the historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-13",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Time Traveler's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie against a backdrop that looks so old it could be from another century. Look surprised, like you've just time-traveled."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-14",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "The Lone Bench"
+      },
+      "prompt": {
+        "en": "Find a solitary bench in a courtyard and photograph it, emphasizing its isolation and the peacefulness of the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "inns-of-court-task-15",
+      "neighborhood_id": "inns-of-court",
+      "title": {
+        "en": "Gothic Details"
+      },
+      "prompt": {
+        "en": "Search for a building with Gothic architectural details—like a pointed arch or a gargoyle—and get a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-1",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a single photo that shows the dramatic contrast between an ancient building or church and a hyper-modern glass skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-2",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "The Quiet Weekend"
+      },
+      "prompt": {
+        "en": "Take a photo of a normally busy street that is eerily empty, capturing the unique weekend quiet of the financial district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-3",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Alleyway Adventure"
+      },
+      "prompt": {
+        "en": "Find a narrow, cobbled alleyway and take a low-angle shot looking up, emphasizing the old brickwork and the slice of sky above."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-4",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Historic Pub Selfie"
+      },
+      "prompt": {
+        "en": "Find a historic pub and take a selfie by its traditional sign or classic facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-5",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Find a place where nature is growing on or through an old structure—vines on a wall, flowers in a ruin—and capture the image."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-6",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Ghost of Rome"
+      },
+      "prompt": {
+        "en": "Find a remnant of the old Roman wall or a sign mentioning Londinium and take a photo that feels ancient and mysterious."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-7",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Reflections of Power"
+      },
+      "prompt": {
+        "en": "Capture the reflection of an old church or historic building in the glass facade of a modern office tower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-8",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Medieval Street Plan"
+      },
+      "prompt": {
+        "en": "Photograph a street sign with a historic or unusual name that hints at the area's medieval past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-9",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Urban Explorer Pose"
+      },
+      "prompt": {
+        "en": "Take a selfie on an empty street corner, striking a confident 'urban explorer' pose."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-10",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Hidden Churchyard"
+      },
+      "prompt": {
+        "en": "Discover a small, hidden churchyard or garden and take a photo that captures its sense of being a secret oasis."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-11",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Pint of History"
+      },
+      "prompt": {
+        "en": "If you visit a pub, take a photo of your drink with the historic, wood-paneled interior in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-12",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Wren's Legacy"
+      },
+      "prompt": {
+        "en": "The City is full of churches designed by Sir Christopher Wren. Photograph the spire of a church against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-13",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Market Architecture"
+      },
+      "prompt": {
+        "en": "Find an old market building and take a photo focusing on its ornate ironwork or grand roof structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-14",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "The Banker's Shadow"
+      },
+      "prompt": {
+        "en": "On a sunny day, capture a long shadow cast by one of the giant skyscrapers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "city-of-london-task-15",
+      "neighborhood_id": "city-of-london",
+      "title": {
+        "en": "Cobblestone Close-up"
+      },
+      "prompt": {
+        "en": "Get down low and take a detailed photo of a cobbled street, focusing on the texture and history under your feet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-1",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Find a vibrant neon sign and take a photo of it, capturing its bright colors against the dark surroundings, especially at dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-2",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Foodie's Focus"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering close-up shot of a dish from one of Soho's many incredible eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-3",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Street Energy"
+      },
+      "prompt": {
+        "en": "Capture the fast-paced energy of a Soho street. Try using a slight motion blur to show the movement of the crowd."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-4",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Hidden Alley Discovery"
+      },
+      "prompt": {
+        "en": "Find a narrow, hidden alleyway or court and take a photo looking down it, capturing its secret character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-5",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Music History Hunt"
+      },
+      "prompt": {
+        "en": "Find a blue plaque dedicated to a musician or a famous music venue and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-6",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Theatreland Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the grand facade of a West End theatre in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-7",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Red Lantern Light"
+      },
+      "prompt": {
+        "en": "In Chinatown, take a photo looking up at the iconic red lanterns, especially as they begin to glow in the evening."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-8",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Record Store Rummage"
+      },
+      "prompt": {
+        "en": "Find a record store and take a photo of the colorful album covers on display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-9",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Tiny Restaurant, Big Flavor"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of the smallest, most interesting-looking restaurant you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-10",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Street Style Spotting"
+      },
+      "prompt": {
+        "en": "Capture a detail of Soho's unique street style—funky shoes, a cool jacket, or a colorful accessory (be respectful!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-11",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Counter-Culture Echoes"
+      },
+      "prompt": {
+        "en": "Find a piece of street art, a quirky sticker, or a poster that captures Soho's rebellious spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-12",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Take a photo of an unusual or eye-catching display in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-13",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Soho at Dusk"
+      },
+      "prompt": {
+        "en": "As the sun sets, take a photo that captures the transition from day to night, with lights starting to turn on."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-14",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Above the Crowds"
+      },
+      "prompt": {
+        "en": "Find a spot where you can look down on a busy street (like from a first-floor window or stairs) and capture the scene from above."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "soho-task-15",
+      "neighborhood_id": "soho",
+      "title": {
+        "en": "Lost in the Action"
+      },
+      "prompt": {
+        "en": "Take a selfie where you look happily overwhelmed by the vibrant, chaotic energy of a Soho street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-1",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Find an independent shop with a unique or creative storefront and take a photo that captures its character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-2",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Antique Treasure Hunt"
+      },
+      "prompt": {
+        "en": "In an antique shop or market stall, find the most unusual or quirky object for sale and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-3",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Canal Calm"
+      },
+      "prompt": {
+        "en": "Take a photo along the Regent's Canal towpath, capturing a narrowboat and its reflection in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-4",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Creative Hub Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows off the trendy, creative vibe of the neighborhood—maybe with a cool cafe or street art in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-5",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Theatreland North"
+      },
+      "prompt": {
+        "en": "Find a fringe theatre and photograph its poster board, showcasing the current or upcoming independent productions."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-6",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Village Charm"
+      },
+      "prompt": {
+        "en": "Find a quiet residential street with charming houses and take a photo that captures the area's village-like feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-7",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Record & Sip"
+      },
+      "prompt": {
+        "en": "Find a place that combines two things, like a cafe in a bookshop or a bar in a record store, and capture both elements in one photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-8",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Cobbled Corner"
+      },
+      "prompt": {
+        "en": "Find a cobbled street or alleyway and take a photo that emphasizes the texture and history of the stones."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-9",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Gastropub Delights"
+      },
+      "prompt": {
+        "en": "Islington is known for its great pubs. Take a photo of the inviting exterior of a classic pub."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-10",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Arty Details"
+      },
+      "prompt": {
+        "en": "Look for small artistic details in the neighborhood—a mosaic doorstep, a unique door knocker, or a small sculpture—and take a close-up."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-11",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Local's Life"
+      },
+      "prompt": {
+        "en": "Capture a scene that feels authentically local: people chatting outside a cafe, shopping at a market, or walking by the canal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-12",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Green Space"
+      },
+      "prompt": {
+        "en": "Find one of Islington's green squares and take a photo of people relaxing and enjoying the space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-13",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Upper Street Buzz"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the bustling, sophisticated energy of Upper Street, the neighborhood's main artery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-14",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Vintage Find"
+      },
+      "prompt": {
+        "en": "Photograph a cool piece of vintage clothing or furniture you spot in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "islington-task-15",
+      "neighborhood_id": "islington",
+      "title": {
+        "en": "Relaxed Vibe Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you're enjoying the relaxed but trendy atmosphere of Islington."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-1",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "The Perfect Pint"
+      },
+      "prompt": {
+        "en": "Inside a proper local's pub, take an artful photo of a pint of beer or your drink of choice, with the cozy pub atmosphere in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-2",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Neighborhood Anchor"
+      },
+      "prompt": {
+        "en": "Take a photo of the pub's exterior, framing it to show how it sits within its residential neighborhood, far from the city center."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-3",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Quirky Decor Hunt"
+      },
+      "prompt": {
+        "en": "Find the strangest, most wonderful piece of decor inside the pub—a weird painting, a taxidermy animal, a vintage lamp—and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-4",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Live and Local"
+      },
+      "prompt": {
+        "en": "If there's a live event happening (comedy, music, DJ), capture a photo of the stage or performance area, showing the intimate, local vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-5",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "The Journey There"
+      },
+      "prompt": {
+        "en": "On your way to the pub, take a photo of a street scene that feels authentically East or South London—street art, a unique shop, or interesting architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-6",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Cheers to the Locals!"
+      },
+      "prompt": {
+        "en": "Take a selfie raising your glass, with the lively crowd of the pub visible behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-7",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Disco Ball Sparkle"
+      },
+      "prompt": {
+        "en": "If you spot a disco ball, try to capture the light it casts on the room, creating patterns on the walls or crowd."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-8",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Pub Sign Portrait"
+      },
+      "prompt": {
+        "en": "Get a creative shot of the pub's sign. Try a low angle or frame it against the evening sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-9",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Cozy Corner"
+      },
+      "prompt": {
+        "en": "Find an inviting, empty booth or a cozy corner with armchairs and take a photo that makes you want to settle in for the night."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-10",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the pub as a community space—people laughing, playing a game, or chatting at the bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-11",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Pre-Pint Park Life"
+      },
+      "prompt": {
+        "en": "Before heading to the pub, take a photo in a nearby park or green square, capturing a moment of local relaxation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-12",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "The Welcoming Glow"
+      },
+      "prompt": {
+        "en": "At night, take a photo from across the street of the warm light spilling out of the pub's windows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-13",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Snack Attack"
+      },
+      "prompt": {
+        "en": "Photograph a classic pub snack—a packet of crisps, peanuts, or some hot chips—on a bar table."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-14",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "Hidden Gem Found"
+      },
+      "prompt": {
+        "en": "Take a triumphant selfie outside the pub, with a caption like 'Found it!' to celebrate discovering a true local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    },
+    {
+      "id": "local-pubs-task-15",
+      "neighborhood_id": "local-pubs",
+      "title": {
+        "en": "The Bar Staff"
+      },
+      "prompt": {
+        "en": "Respectfully capture a photo of the bar itself, showing the rows of taps, bottles, and the general organized chaos of a busy pub."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-08T14:35:19.098830+00:00"
+    }
+  ]
+}
