@@ -11,32 +11,33 @@ Batch data pipeline that builds the shared city atlas consumed by **Urban Explor
 
 ## Status
 
-🚧 Fresh spin-off from [urban-explorer](https://github.com/Anguijm/urban-explorer). Pipeline scripts are being ported in. See the plan at `docs/migration.md` (lives in the urban-explorer repo for now).
+Pipeline operational. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (merged via PR #2). The four Gemini phases (research → structure → validate → ingest) run end-to-end against the shared Firestore database. See `SESSION_HANDOFF.md` for the runbook, current known issues, and the roadmap.
 
 ## Governance
 
-All changes go through the **council** — a 7-persona Gemini review running as a GitHub Actions workflow on every PR (`.github/workflows/council.yml`). Lead Architect synthesis posts as a single PR comment. See `.harness/README.md` for the protocol and `.harness/council/*.md` for persona definitions.
+All changes go through the **council** — a 7-persona Gemini review running as a GitHub Actions workflow on every PR (`.github/workflows/council.yml`). Lead Architect synthesis posts as a single re-editable PR comment with 🟢 CLEAR / 🟡 CONDITIONAL / 🔴 BLOCK. Merge requires 🟢, an admin override with filed follow-ups, or `[skip council]` in the PR title (reserved for hotfixes).
 
-Local development should also call `mcp__gemini__ask-gemini` during iteration, but the PR-time council is the source-of-truth merge gate.
+See `.harness/README.md` for the protocol, `.harness/council/*.md` for persona definitions, and `CONTRIBUTING.md` for the full workflow.
 
-## Repo layout (target state — WIP)
+## Repo layout
 
 ```
 .github/workflows/       council.yml, pr-watch.yml, ci.yml
-.harness/                council personas + scripts + hooks + evidence
+.harness/                council personas + scripts + hooks + learnings
 configs/
   global_city_cache.json        # 185-city metadata source of truth
   seasonal-calendar.json
+  city-sources.json             # per-city URL sources for Gemini/NotebookLM
   urban-explorer/tasks.yaml     # UE photo-hunt prompt templates
   roadtripper/tasks.yaml        # RT road-trip prompt templates
 src/
   schemas/                      # published as @travel/city-atlas-types
-  scrapers/                     # 7 source-specific scrapers
-  pipeline/                     # Phase A/B/C/D orchestration
-  prompts/                      # research + structuring + validation templates
-  firestore/                    # Admin SDK + rules + indexes
-cli/                            # batch-research, scrape-{source}, ingest
+  scrapers/                     # 7 source-specific scrapers (TS)
+  pipeline/                     # Phase A/B/C/D orchestration (Python + TS)
+  firestore/                    # Admin SDK wrapper
+  __tests__/                    # vitest suites
 data/                           # scraped .md content (git-tracked)
+docs/                           # DATA_COVERAGE_REPORT and other standing docs
 ```
 
 ## Consumers

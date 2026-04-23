@@ -65,12 +65,42 @@ to Python (worse DX, slower) or porting the Gemini/Firestore flow to TS
   city loader, CLI, Firestore writes, generation, indexes, localization,
   validation. Scrapers (`wikipedia.ts`, `reddit.ts`) have dedicated test
   files. See `src/__tests__/`.
-- **Python layer:** tests-as-code are minimal today. The Python pipeline is
-  exercised end-to-end through live enrichment runs against Firestore, with
-  `batch-manifest.json` as the checkpoint ledger. The `phase-a-historical-guard`
-  vitest test pins the critical prompt guard by regex-matching the Python
-  source. Deeper Python unit testing (mocking Gemini, Firestore) is on the
-  roadmap but not required for the extraction to land.
+- **Python layer** (pytest): Phase C has 31 unit-level cases in
+  `test_phase_c_threshold.py` covering the proportional FAIL threshold,
+  the deterministic `find_hallucinated_names` matcher (word boundaries,
+  longest-first containment dedup, prompt-injection resistance), and
+  `HALLUCINATION_KEYWORDS` coverage. The `phase-a-historical-guard`
+  vitest test pins the critical Phase A prompt guard by regex-matching
+  the Python source. Integration tests that mock Gemini + Firestore
+  against the full `phase_c_validate` flow are still on the roadmap —
+  see `SESSION_HANDOFF.md`.
+
+## Phase C hardening (2026-04)
+
+`research_city.py` Phase C diverges from its urban-explorer ancestor
+(`ce44569`) with several in-repo defenses added through council review:
+
+- **Proportional FAIL threshold** (`phase_c_threshold.py`). FAIL is
+  preserved only when the hallucination ratio exceeds 25% of the audit
+  sample; otherwise demoted to WARNING so the sample-level cleanup path
+  can strip individual bad places and save the city.
+- **Deterministic name extraction** (`find_hallucinated_names`). A
+  whole-word regex matcher intersects sampled-waypoint candidate names
+  with the Gemini audit reason text. Replaces an initial LLM-based
+  extractor that introduced a prompt-injection chain and a silent-
+  demotion path. Longest-first ordering + containment dedup prevent
+  false-positive matches on shorter candidate names contained in
+  longer ones.
+- **Escalation guards**. FAIL with no matched names is preserved (can't
+  compute a reliable ratio); WARNING with no matched names but a
+  hallucination-mentioning reason is escalated to FAIL (can't clean
+  what we can't name).
+- **Mass-wipe cap + audit log**. `_remove_hallucinated_places` skips
+  deletion entirely when the flagged ratio exceeds 75% (catastrophic
+  rates should have stayed FAIL). Every deletion emits a structured
+  `AUDIT_DELETION {...}` JSON line tagged with city_id, deleted names,
+  counts, and the original Gemini reason — machine-parseable for Cloud
+  Logging alerts (see issue #5).
 
 ## Running locally
 

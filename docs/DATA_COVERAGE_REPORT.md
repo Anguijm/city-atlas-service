@@ -3,6 +3,10 @@
 **Generated:** 2026-04-22
 **Scope:** All 185 cities in `src/data/global_city_cache.json` + scraper outputs under `data/` + Firestore research manifest at `src/data/research-output/batch-manifest.json`.
 
+> **Status update 2026-04-24:** This document is a point-in-time snapshot from before `city-atlas-service` was extracted from urban-explorer. Paths referenced in the report (`scripts/research-city.py`, `src/data/global_city_cache.json`, etc.) are the urban-explorer-side paths. In this repo they map to `src/pipeline/research_city.py` and `configs/global_city_cache.json`.
+>
+> The **19 parked cities** described in §1 and §7 are now unblocked in code — the proportional Phase C threshold landed in PR #4 (`a733650`), which was the "blueprint item #26" the original report references as a prerequisite for retry. They remain parked in the manifest until a production batch runs from this repo (tracked in `SESSION_HANDOFF.md`).
+
 ---
 
 ## 1. Overview

@@ -1,8 +1,8 @@
 # .harness/
 
-Development framework for LLMwiki_StudyGroup. This directory is methodology-as-code: a Gemini-powered review council, durable session state, a git hook that captures every commit, and operational runbooks.
+Development framework for city-atlas-service. This directory is methodology-as-code: a Gemini-powered review council, durable session state, a git hook that captures every commit, and operational runbooks.
 
-Not application code. Safe to delete if you want the project without the harness; the Next.js app does not depend on it.
+Not application code. Safe to delete if you want the project without the harness; the pipeline does not depend on it.
 
 Inspired by:
 - **[harness-cli](https://github.com/anguijm/harness-cli)** — multi-persona council pattern.
@@ -35,13 +35,13 @@ python3 .harness/scripts/council.py -h    # → help text, no import errors
 ├── README.md                # this file
 ├── council/
 │   ├── README.md            # how to add/remove angles
-│   ├── security.md          # persona: RLS, auth, secrets, prompt injection
-│   ├── architecture.md      # persona: boundaries, migrations, idempotency, RAG
-│   ├── product.md           # persona: cohort value, scope, mobile, SRS/wiki
-│   ├── bugs.md              # persona: nulls, races, retries, edges
-│   ├── cost.md              # persona: Haiku/Opus routing, caching, budget
-│   ├── accessibility.md     # persona: WCAG AA, keyboard, screen reader
-│   └── lead-architect.md    # resolver: synthesizes the six into one plan
+│   ├── security.md          # persona: firestore.rules, Admin SDK scope, secrets, prompt injection
+│   ├── architecture.md      # persona: pipeline boundaries, schema contract, idempotency
+│   ├── product.md           # persona: UE vs Roadtripper impact, tier calibration, coverage gaps
+│   ├── bugs.md              # persona: hallucinations, phase-C audit coverage, manifest races
+│   ├── cost.md              # persona: Gemini call budget, caching, per-cycle vs per-request
+│   ├── accessibility.md     # persona: machine-parseable logs, operator ergonomics
+│   └── lead-architect.md    # resolver: synthesizes the six into one verdict
 ├── scripts/
 │   ├── council.py           # Gemini council runner (local and CI)
 │   ├── install_hooks.sh     # one-time: git config core.hooksPath
@@ -159,8 +159,8 @@ When you swap any model (Claude tier, Gemini version, embedding model, transcrip
 
 ## What's not here (yet)
 
-- **Quality gates** (`npm run lint` / `typecheck` / `test` wrappers for the council to consume). Deferred until the Next.js scaffolding exists. When they land, they'll live at `.harness/scripts/quality_gates.sh`.
-- **Tick/tock hourly cron.** That's a yolo-projects pattern for generating many small apps; this repo is one complex app, so it's the wrong mode.
+- **Quality gates** (`npm run test` / `npx tsc --noEmit` / `pytest` wrappers for the council to consume). The tests exist; a shell wrapper that aggregates pass/fail signals for council consumption hasn't been written. When it lands, it'll live at `.harness/scripts/quality_gates.sh`.
+- **Tick/tock hourly cron.** That's a yolo-projects pattern for generating many small apps; this repo is one complex pipeline, so it's the wrong mode.
 
 ## Council action (PR-time, GitHub Actions)
 

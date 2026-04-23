@@ -1,324 +1,156 @@
-# Contributing to LLMwiki_StudyGroup
+# Contributing to city-atlas-service
 
-Thank you for your interest in contributing! This document outlines how to contribute code, report issues, and propose features.
-
-## Code of Conduct
-
-Be respectful, inclusive, and constructive in all interactions. We're building a tool for learning—let's model good learning behavior.
+This repo is the shared data pipeline feeding Urban Explorer and Roadtripper. Most work lands through pull requests gated by a Gemini-powered review council.
 
 ---
 
-## Getting Started
+## Getting started
 
-1. **Fork the repository** on GitHub
-2. **Clone your fork:**
-   ```bash
-   git clone https://github.com/your-username/LLMwiki_StudyGroup.git
-   cd LLMwiki_StudyGroup
-   ```
-3. **Create a feature branch:**
-   ```bash
-   git checkout -b feat/your-feature-name
-   ```
-4. **Install dependencies:**
-   ```bash
-   npm install
-   ```
-5. **Set up environment variables:**
-   ```bash
-   cp .env.example .env.local
-   # Fill in your API keys
-   ```
-6. **Start the dev server:**
-   ```bash
-   npm run dev
-   ```
-
----
-
-## Development Workflow
-
-### Branching Strategy
-- `main` = production-ready, always deployable
-- Feature branches: `feat/description`, `fix/bug-name`, `docs/update-name`, `refactor/topic`
-- Keep branches focused on a single concern
-
-### Commit Messages
-Follow **conventional commits**:
-```
-feat: add spaced repetition calculator
-fix: resolve pgvector query timeout
-docs: update database schema
-refactor: consolidate embedding logic
-test: add E2E tests for ingestion pipeline
-chore: upgrade Next.js to v15
-```
-
-Use clear, present-tense descriptions. Reference issues when applicable: `fix: resolve #42`.
-
-### Code Style
-
-**Linting & Formatting:**
 ```bash
-npm run lint      # ESLint
-npm run format    # Prettier
+git clone https://github.com/Anguijm/city-atlas-service.git
+cd city-atlas-service
+cp .env.example .env.local
+
+# Fill in .env.local:
+#   GEMINI_API_KEY=<from firebase apphosting:secrets:access or Google AI Studio>
+#   GOOGLE_APPLICATION_CREDENTIALS=$HOME/.config/gcloud/application_default_credentials.json
+#   GOOGLE_CLOUD_PROJECT=urban-explorer-483600
+#   FIRESTORE_DATABASE=travel-cities
+
+npm install                                          # node deps (scrapers, TS ingest)
+pip install -r requirements.txt                      # python runtime deps
+pip install -r requirements-dev.txt                  # python dev deps (pytest)
+pip install -r .harness/scripts/requirements.txt     # council deps (local dev only)
+
+gcloud auth application-default login                # once, for Firestore Admin SDK
 ```
 
-We use:
-- **ESLint** for code quality
-- **Prettier** for consistent formatting
-- **TypeScript** for type safety (required)
+See `SESSION_HANDOFF.md` for the full runbook.
 
-Before pushing, run:
+---
+
+## Development workflow
+
+This is a **TDD cadence** with a council gate on every PR. Per `CLAUDE.md`:
+
+1. **Plan.** Describe the change and its risk surface in the PR description. Link affected files, schemas, and consumers.
+2. **Tests first.** vitest for TypeScript (`npm run test`), pytest for Python (`python3.12 -m pytest src/pipeline/`). Get them red on the new behavior before writing code.
+3. **Implement.** Smallest diff that makes tests green.
+4. **Push and let council review.** The 7-persona Gemini review runs automatically on every push. Address remediations as follow-up commits on the same branch; council auto-reruns.
+5. **Merge after 🟢.** Admin-override is available for cases where the council is drifting on pre-existing or out-of-scope concerns — use it judiciously and file follow-up issues for legitimate findings.
+
+### Branch and commit conventions
+
+- Branch names: `fix/*`, `feat/*`, `port/*`, `refactor/*`, `docs/*`.
+- Keep branches focused on one concern.
+- Write commit messages that explain the **why**, not just the what. Wrap at ~72 cols.
+- Every commit co-authored by Claude should carry the `Co-Authored-By: Claude...` trailer.
+
+### What counts as a breaking change
+
+- Any edit to `src/schemas/cityAtlas.ts` — that file is the cross-consumer contract published as `@travel/city-atlas-types`. Breaking changes require a semver major and coordinated deploys to both Urban Explorer and Roadtripper.
+- Any change to Firestore `cities/*`, `neighborhoods/*`, `waypoints/*` document shapes.
+- Rule changes in `firestore.rules` that tighten reads for existing consumer collections.
+
+---
+
+## The council gate
+
+Every PR triggers `.github/workflows/council.yml`. Seven personas (architecture, cost, bugs, security, product, accessibility, lead-architect-synthesis) review the diff via Gemini 2.5 Pro. Lead Architect synthesis posts as a single re-editable PR comment with:
+
+- 🟢 CLEAR — merge
+- 🟡 CONDITIONAL — address the remediations and push; council re-runs
+- 🔴 BLOCK — rethink the change (or admin-override if you judge the BLOCK to be synthesizer drift on pre-existing or out-of-scope concerns)
+
+Persona definitions live in `.harness/council/*.md`. See `.harness/README.md` for the full protocol, budget caps, and how the CI and local runners relate.
+
+### Skipping council
+
+`[skip council]` (case-insensitive) in the PR title bypasses the workflow. Reserved for emergency hotfixes; leaves a traceable audit gap.
+
+### The halt
+
+To pause the pipeline or the council globally, create `.harness_halt` at the repo root with a one-line reason. Both `council.yml` and `pr-watch.yml` silent-exit on next trigger. Remove the file to resume. See `.harness/halt_instructions.md`.
+
+---
+
+## Tests
+
+### TypeScript (vitest)
+
 ```bash
-npm run lint:fix
-npm run format
+npm run test                # one-shot
+npm run test -- --watch     # during iteration
 ```
 
-### Testing
+Test files live under `src/__tests__/*.test.ts`. Covers scrapers, Firestore writers, and the cross-consumer Zod schemas.
 
-Write tests for:
-- New API endpoints
-- Utility functions (embeddings, SRS calculations)
-- Component logic (especially forms, real-time sync)
+### Python (pytest)
 
-Run tests:
 ```bash
-npm run test
-npm run test:watch  # During development
+python3.12 -m pytest src/pipeline/ -v
 ```
 
-Test file naming: `__tests__/module.test.ts` or `module.test.tsx` co-located with source.
+Pipeline tests in `src/pipeline/test_*.py`. Today these cover the Phase C proportional threshold, deterministic hallucination-name matching, and keyword coverage. Deeper Python coverage (mocking Gemini + Firestore for integration tests over `phase_c_validate`) is on the roadmap — see `SESSION_HANDOFF.md`.
+
+### Linting / formatting
+
+- TypeScript: `npx tsc --noEmit` (runs in CI as the `validate` check).
+- Python: no linter wired yet; match existing style.
+- Secret scanning: `gitleaks` runs in CI via `.github/workflows/ci.yml`. Pre-commit hook at `.harness/hooks/pre-commit` runs it locally if you install the hooks (`bash .harness/scripts/install_hooks.sh`).
 
 ---
 
-## Database Migrations
+## Firestore discipline
 
-Changes to schema must be versioned:
+The pipeline has god-mode on Firestore via the Admin SDK. Guards in code (e.g., `enrich_ingest.ts`'s `source: "enrichment-*"` filter) are load-bearing. Rules of engagement:
 
-1. **Create a migration file:**
-   ```bash
-   supabase migration new add_discussion_prompts_table
-   ```
-2. **Write SQL in `/supabase/migrations/{timestamp}_description.sql`**
-3. **Test locally:**
-   ```bash
-   supabase migration up
-   ```
-4. **Commit the migration file** along with your code changes
-
-Migrations are applied automatically on deploy via GitHub CI/CD.
+- **Pipeline writes:** `cities/*`, `cities/*/neighborhoods/*`, `.../waypoints/*`, `tasks_ue/*`, `tasks_rt/*`, `seasonal_variants/*`, `vibe_*`, `pending_research/*`, `health_metrics/*`.
+- **Pipeline must NOT write:** `saved_hunts/*` (app-owned, client-writable via `firestore.rules`), `cache_locks/*` (read-side concurrency primitive).
+- Admin SDK bypasses `firestore.rules` by design. Don't rely on rules as the only line of defense when writing from this repo.
 
 ---
 
-## Working with Inngest Functions
+## Cost discipline
 
-New async jobs go in `/inngest/`:
-
-```typescript
-// inngest/your-feature.ts
-import { inngest } from "@/lib/inngest";
-
-export const yourFeatureJob = inngest.createFunction(
-  { id: "your-feature-job", retries: 3 },
-  { event: "your/event" },
-  async ({ event, step }) => {
-    // Your async work here
-  }
-);
-```
-
-Register in `/inngest/index.ts`:
-```typescript
-export const functions = [yourFeatureJob];
-```
-
-Test locally by triggering events manually via Inngest dashboard.
+- **Gemini 2.5 Pro**: 3–4 calls per city per full pipeline run. Budget is per-enrichment-cycle, not per-request. The Phase C hardening in PR #4 swapped a second LLM call for a deterministic matcher; don't re-add model-in-the-loop patterns without strong justification.
+- **Council**: capped at ~10 Gemini calls per PR via GitHub Actions cache; hard enforced via `.harness_halt` if budget exceeds.
+- **Scraper rate limits**: Wikipedia 1/sec, Reddit 1/2s, Playwright 1/30s per city. Rate-bans are data loss — respect the limits.
 
 ---
 
-## Creating Components
+## Reporting issues
 
-- Use **React Functional Components** with hooks
-- Prefer **TypeScript** for all `.tsx` files
-- Use **Tailwind CSS** for styling (no CSS-in-JS)
-- Keep components focused and reusable
+1. Check existing issues first.
+2. Open an issue with:
+   - **Summary** — one-liner.
+   - **Repro** — minimal steps. Include the city ID if applicable.
+   - **Expected vs actual** — what should have happened.
+   - **Logs** — include the `AUDIT_DELETION` line if Phase C cleanup is involved, or the full Gemini reason text for audit-failure issues.
+3. Label as `bug`, `enhancement`, `docs`, or `security`.
 
-Example:
-```typescript
-// components/ReviewCard.tsx
-import { FC } from "react";
-
-interface ReviewCardProps {
-  question: string;
-  onReview: (rating: 1 | 2 | 3 | 4) => void;
-}
-
-const ReviewCard: FC<ReviewCardProps> = ({ question, onReview }) => {
-  return (
-    <div className="rounded-lg border p-4">
-      <p className="text-lg font-semibold">{question}</p>
-      {/* Rating buttons */}
-    </div>
-  );
-};
-
-export default ReviewCard;
-```
+Security issues (prompt-injection vectors, Admin SDK scope creep, dependency compromise) — file as an issue with the `security` label or contact the maintainer directly for responsible disclosure of non-public vectors.
 
 ---
 
-## API Route Guidelines
+## Feature requests
 
-- Use Next.js 15 App Router with `app/api/` structure
-- Keep routes thin; delegate logic to `/lib/` utilities
-- Validate input with `zod` or similar
-- Return JSON; include error codes and messages
+Open an issue titled `feat: ...` with:
 
-Example:
-```typescript
-// app/api/notes/route.ts
-import { NextRequest, NextResponse } from "next/server";
-import { createNote } from "@/lib/db";
+- **Use case** — what are you trying to do, and for which consumer (UE, Roadtripper, both)?
+- **Proposed approach** — optional but helpful. If it crosses the schema boundary, flag that early.
+- **Alternatives considered** — also optional; shortens the review cycle.
 
-export async function POST(req: NextRequest) {
-  try {
-    const body = await req.json();
-    const note = await createNote(body);
-    return NextResponse.json(note, { status: 201 });
-  } catch (error) {
-    return NextResponse.json(
-      { error: error.message },
-      { status: 400 }
-    );
-  }
-}
-```
+For larger directions, the "What's next for this repo" section of `SESSION_HANDOFF.md` is where roadmap-shaped items live.
 
 ---
 
-## Documentation
+## Maintainer decisions and scope
 
-- **Update README.md** if you add new dependencies or major features
-- **Add JSDoc comments** to public functions/exports
-- **Document Inngest jobs** with event payloads
-- **Add migration descriptions** in commit messages
-
-Example JSDoc:
-```typescript
-/**
- * Compute FSRS stability and difficulty updates based on user review.
- * @param currentStability - Current card stability (0-indefinite)
- * @param currentDifficulty - Current difficulty (0-1)
- * @param rating - User rating (1-4: Again, Hard, Good, Easy)
- * @returns { stability, difficulty } updated values
- */
-export function updateFSRS(
-  currentStability: number,
-  currentDifficulty: number,
-  rating: 1 | 2 | 3 | 4
-): { stability: number; difficulty: number } {
-  // ...
-}
-```
+This is a pipeline-only repo. **Consumer-facing features (UI, session, account, onboarding) do NOT belong here** — they live in the Urban Explorer and Roadtripper repos. If an issue's fix requires a consumer-side change, link the consumer-repo issue and scope this side to the schema/ingest portion.
 
 ---
 
-## Submitting a Pull Request
+## License
 
-1. **Push your branch** to your fork
-2. **Open a PR** on GitHub with:
-   - Clear title (use conventional commit format)
-   - Description of changes and why
-   - Screenshots/video for UI changes
-   - Reference related issues (`Fixes #123`)
-3. **Respond to review feedback**
-4. **Ensure CI passes** (linting, tests, build)
-5. **Squash & merge** once approved
-
-PR Template:
-```markdown
-## What
-Brief description of the change.
-
-## Why
-Problem it solves or feature it enables.
-
-## How
-Technical approach or key decisions.
-
-## Testing
-How did you test this? Include steps to reproduce.
-
-## Screenshots/Videos (if UI)
-Paste media here.
-
-## Checklist
-- [ ] Tests added/updated
-- [ ] Docs updated
-- [ ] No breaking changes (or documented)
-- [ ] Conventional commit message
-```
-
----
-
-## Reporting Issues
-
-1. **Check existing issues** first to avoid duplicates
-2. **Use the issue template:**
-   - **Describe the bug** clearly with steps to reproduce
-   - **Expected vs. actual behavior**
-   - **Environment:** OS, Node version, browser
-   - **Logs/screenshots** if applicable
-   - **Minimal reproduction** (code snippet or repo link)
-
-3. **Labels help categorize:**
-   - `bug` — something broken
-   - `enhancement` — new feature idea
-   - `docs` — documentation improvement
-   - `good first issue` — beginner-friendly
-   - `help wanted` — need community input
-
----
-
-## Feature Requests
-
-1. **Open an issue** with title `feat: your feature idea`
-2. **Describe the use case** and why it matters
-3. **Propose an approach** (not required, but helpful)
-4. **Discuss with maintainers** before implementing
-
----
-
-## Performance & Cost Considerations
-
-As this is designed for tight budgets, be mindful:
-
-- **API calls:** Every API call has a cost (Claude, embeddings, transcription). Batch where possible.
-- **Vector queries:** Semantic search is powerful but expensive. Consider filtering/pagination.
-- **Token usage:** Haiku is ~75% cheaper than Opus; use it for bulk summarization.
-- **Database:** Row-level security (RLS) is essential for multi-cohort isolation; no shortcuts.
-
----
-
-## Merging & Deployment
-
-Maintainers merge PRs. Once merged to `main`:
-- **GitHub Actions** runs tests, linting, build checks
-- **Vercel** auto-deploys frontend on commit
-- **Supabase migrations** auto-apply
-- **Inngest** syncs function definitions
-
-No manual deployment needed.
-
----
-
-## Questions?
-
-- **GitHub Discussions:** For design questions or brainstorming
-- **Issues:** For bug reports and feature requests
-- **Discord:** (link TBD) for real-time chat
-
----
-
-**Thank you for contributing to LLMwiki_StudyGroup!** 🎓
+See `LICENSE`.
