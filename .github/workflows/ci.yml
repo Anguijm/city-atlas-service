@@ -12,7 +12,8 @@ concurrency:
 
 permissions:
   contents: read
-  security-events: write  # gitleaks SARIF upload
+  pull-requests: read      # gitleaks-action lists PR commits to scan
+  security-events: write   # gitleaks SARIF upload
 
 jobs:
   secret-scan:
