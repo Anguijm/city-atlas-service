@@ -237,12 +237,38 @@ Sorted by return vs risk, same priorities as UE's handoff:
   reading `pending_research` Firestore collection (demand-weighted).
   Hot cities re-enriched daily, cold monthly.
 
+### Bigger ~multi-day / new surface
+- **Operator web console (`city-atlas-ops`)** — a browser UI for running
+  and curating the pipeline. Pairs well with Cloud Run + the incremental
+  queue above (that's the backend; this is the UX). Minimum viable scope:
+  - **Run control:** start/stop a batch (resume from manifest, target
+    subset, toggle `--mode gemini|notebooklm|claude`, toggle `--enrich`),
+    live log tail, halt (touches `.harness_halt`), cost budget readout.
+  - **Backlog triage:** list failed/parked cities with the Phase C reason,
+    one-click direct retry (bypassing the batch subprocess for the known
+    non-determinism gap), manifest state view + edits.
+  - **Data editor:** browse/edit `cities/*`, `neighborhoods/*`, `waypoints/*`
+    docs for a city — fix neighborhood assignments, drop hallucinated
+    waypoints by hand, re-tier a city (metro/town/village). Writes must
+    flow through an allow-listed mutation layer, NOT raw Admin SDK, so the
+    `saved_hunts`/`cache_locks` carve-outs stay intact.
+  - **Quality readouts:** Phase C PASS/WARNING/FAIL rates per source, tier,
+    and batch; per-source accept/reject scoring (ties to the "per-source
+    quality scoring" experimental item below).
+  - **Access control:** Firebase Auth with an allow-listed admin email
+    list; every mutation tagged with operator + timestamp in an audit
+    collection (`ops_audit/*`).
+  - **Stack hint:** Next.js app colocated in a new `ops/` folder or a
+    sibling repo `city-atlas-ops`; reads via Firebase client SDK with
+    admin-scoped rules; mutations call Cloud Run endpoints in this repo
+    (keeps the Admin SDK server-side only). Start with the Run control
+    surface — highest utility, smallest blast radius.
+
 ### Experimental / exploratory
 - New scraper sources: Tripadvisor, Yelp Fusion API, Google Places reviews,
   TikTok food videos.
 - Per-source quality scoring (accept/reject rate per source).
 - GraphQL or REST gateway in front of Firestore for consumer apps.
-- Admin dashboard for failed-city backlog + manual retry.
 
 ## Recommended next-session order (in this repo)
 
