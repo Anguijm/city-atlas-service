@@ -1,0 +1,48 @@
+# Task-generation config for Urban Explorer (photo-hunt app)
+#
+# STATUS: scaffold only. The --app {ue|roadtripper} flag on
+# batch_research.py + research_city.py isn't wired yet (Stage 4 of the
+# extraction plan). Until it lands, this file is reference-only and
+# research_city.py generates tasks via the inline prompt in
+# build_structuring_prompt().
+#
+# When --app is wired, the structuring prompt will load this YAML and
+# render the `task_template` block into the Gemini prompt. Tasks
+# produced land in the Firestore `tasks_ue/*` collection.
+#
+# Lift verbatim from the current hunt-task prompt wording in
+# src/pipeline/research_city.py (build_structuring_prompt) when wiring
+# — do not rewrite the prompts during the port. Byte-identical output
+# is the acceptance criterion.
+
+app: urban-explorer
+firestore_collection: tasks_ue
+
+tier_task_counts:
+  metro:
+    tasks_per_neighborhood: "15-25"
+    total_min: 72
+  town:
+    tasks_per_district: "12-15"
+    total_min: 36
+  village:
+    tasks_per_district: "18-24"
+    total_min: 18
+
+task_template:
+  # Placeholder for the creative-photo-task prompt that currently lives
+  # inline in build_structuring_prompt. Populate when wiring --app.
+  #
+  # Target behavior (matches UE today):
+  # - Each task prompts the user to take a specific kind of photo at a
+  #   waypoint OR throughout a neighborhood
+  # - Prompts should be vivid and specific ("Capture the light through
+  #   the stained glass at St. Peter's at golden hour") not generic
+  # - Difficulty scales: easy/medium/hard
+  # - 1-2 tasks per waypoint is the current ratio
+  style: photo-challenge
+  tone: curious-traveler
+  difficulty_distribution:
+    easy: 0.4
+    medium: 0.4
+    hard: 0.2

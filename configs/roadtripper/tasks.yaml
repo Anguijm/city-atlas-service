@@ -1,0 +1,46 @@
+# Task-generation config for Roadtripper (road-trip recommender)
+#
+# STATUS: scaffold only. The --app {ue|roadtripper} flag isn't wired yet
+# (Stage 4 of the extraction plan). This file is reference-only until
+# Roadtripper is ready to integrate AND the flag lands.
+#
+# When --app roadtripper is wired, the structuring prompt will load this
+# YAML and render the `task_template` block into the Gemini prompt. Tasks
+# produced land in the Firestore `tasks_rt/*` collection.
+#
+# Per plan: Roadtripper uses POI data to recommend cities to visit and
+# things to do there on a long road trip. Task semantics differ from UE:
+# not photo challenges, but trip prompts (what to eat, where to stop,
+# which scenic drive, etc.).
+
+app: roadtripper
+firestore_collection: tasks_rt
+
+# Tier mapping mirrors UE for now. Roadtripper may want different counts
+# (e.g., "skip the village, I'm not detouring for a 3-POI town") — TBD
+# with the Roadtripper team during Stage 4 integration.
+tier_task_counts:
+  metro:
+    tasks_per_neighborhood: "10-15"
+    total_min: 48
+  town:
+    tasks_per_district: "8-12"
+    total_min: 24
+  village:
+    tasks_per_district: "6-10"
+    total_min: 12
+
+task_template:
+  # Placeholder — actual prompt wording comes from the Roadtripper team.
+  # Discussion notes for that conversation:
+  # - Tasks should read as "worth detouring for" prompts
+  # - Emphasis on iconic/recognizable vs UE's hidden-gem emphasis
+  # - Time budget matters: "30-min stop", "lunch detour", "overnight"
+  # - Driver-friendly (no "hike 2 hrs in" if the whole stop is 45 min)
+  # - Consider day-of-week / season awareness if the source data supports it
+  style: trip-prompt
+  tone: road-curator
+  detour_budget:
+    quick_stop_minutes: 30
+    lunch_detour_minutes: 90
+    overnight: false  # villages may become "worth an overnight" later
