@@ -239,3 +239,12 @@ class TestHallucinationKeywords:
         # flagged in round-4 council feedback.
         for term in ("fictional", "made up", "made-up", "imaginary", "invented"):
             assert term in HALLUCINATION_KEYWORDS, f"missing keyword {term!r}"
+
+    def test_covers_spurious_added_in_round_5(self):
+        # "spurious" is a narrow fabrication synonym. The broader round-5
+        # suggestions (invalid/erroneous/incorrect/mistaken) were rejected
+        # because they routinely appear in non-hallucination quality-issue
+        # reasons ("the coordinates are invalid for Alpha" would cause
+        # Alpha to be deleted for a legitimate-but-fuzzy-coordinate
+        # WARNING). "spurious" does not have this overlap.
+        assert "spurious" in HALLUCINATION_KEYWORDS

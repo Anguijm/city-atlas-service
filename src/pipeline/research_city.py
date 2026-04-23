@@ -47,6 +47,7 @@ HALLUCINATION_KEYWORDS = (
     "made-up",
     "imaginary",
     "invented",
+    "spurious",
 )
 
 
