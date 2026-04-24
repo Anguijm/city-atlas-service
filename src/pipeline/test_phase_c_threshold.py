@@ -13,7 +13,11 @@ the bad places without losing the whole city.
 """
 
 from phase_c_threshold import apply_proportional_fail_threshold
-from research_city import HALLUCINATION_KEYWORDS, find_hallucinated_names
+from research_city import (
+    HALLUCINATION_KEYWORDS,
+    find_hallucinated_names,
+    waypoint_display_name,
+)
 
 
 class TestPassThrough:
@@ -248,3 +252,80 @@ class TestHallucinationKeywords:
         # Alpha to be deleted for a legitimate-but-fuzzy-coordinate
         # WARNING). "spurious" does not have this overlap.
         assert "spurious" in HALLUCINATION_KEYWORDS
+
+
+class TestWaypointDisplayName:
+    """Regression guard for the localized-name shape mismatch caught on the
+    boston validation run (2026-04-24). Waypoint `name` is a
+    LocalizedTextSchema dict per `src/schemas/cityAtlas.ts` — `{"en": ...}`
+    at minimum, optionally with other locales. Earlier iterations of
+    find_hallucinated_names assumed `.name` was a string and called
+    `.strip().lower()` directly, raising AttributeError that got swallowed
+    by Phase C's catch-all and silently skipped the cleanup path.
+    """
+
+    def test_localized_dict_name_extracts_en(self):
+        assert waypoint_display_name({"name": {"en": "Boston Common"}}) == "boston common"
+
+    def test_localized_dict_with_multiple_locales_prefers_en(self):
+        assert waypoint_display_name(
+            {"name": {"en": "Tokyo Tower", "ja": "東京タワー"}}
+        ) == "tokyo tower"
+
+    def test_plain_string_name_still_works(self):
+        # Backward-compat for any legacy/mocked records that carry a
+        # plain string. Don't break on them.
+        assert waypoint_display_name({"name": "Joe's Diner"}) == "joe's diner"
+
+    def test_missing_name_returns_empty(self):
+        assert waypoint_display_name({}) == ""
+        assert waypoint_display_name({"name": None}) == ""
+        assert waypoint_display_name({"name": ""}) == ""
+
+    def test_empty_en_key_returns_empty(self):
+        assert waypoint_display_name({"name": {"en": ""}}) == ""
+        assert waypoint_display_name({"name": {"en": None}}) == ""
+
+    def test_dict_without_en_key_returns_empty(self):
+        # A waypoint localized only in another language is a degenerate
+        # case — we use English canonically for matching.
+        assert waypoint_display_name({"name": {"ja": "東京タワー"}}) == ""
+
+    def test_unexpected_name_shape_returns_empty(self):
+        # Defensive: if Phase B ever produces a number, list, or other
+        # unexpected shape, don't crash — just return empty so the caller
+        # skips this waypoint.
+        assert waypoint_display_name({"name": 123}) == ""
+        assert waypoint_display_name({"name": ["foo"]}) == ""
+
+
+class TestFindHallucinatedNamesWithLocalizedNames:
+    """Integration-lite check that find_hallucinated_names works against
+    the real waypoint shape (localized dicts), not just the string-name
+    shape the earlier tests used. This is the class of bug that escaped
+    five rounds of council review and surfaced on the boston validation.
+    """
+
+    def test_matches_localized_names(self):
+        reason = "Sip of Joy doesn't exist. Also Greystone Cafe is fabricated."
+        waypoints = [
+            {"name": {"en": "Sip of Joy"}},
+            {"name": {"en": "Greystone Cafe"}},
+            {"name": {"en": "SRV"}},
+        ]
+        assert find_hallucinated_names(reason, waypoints) == {
+            "sip of joy",
+            "greystone cafe",
+        }
+
+    def test_localized_names_with_non_ascii_still_match_when_en_present(self):
+        reason = "Tokyo Tower is fictional."
+        waypoints = [{"name": {"en": "Tokyo Tower", "ja": "東京タワー"}}]
+        assert find_hallucinated_names(reason, waypoints) == {"tokyo tower"}
+
+    def test_mixed_dict_and_string_waypoints(self):
+        # Mixed-shape input is not expected in production but should not
+        # crash if it happens (legacy migration, partial re-ingest, etc.).
+        reason = "Foo is fabricated and Bar doesn't exist."
+        waypoints = [{"name": {"en": "Foo"}}, {"name": "Bar"}]
+        assert find_hallucinated_names(reason, waypoints) == {"foo", "bar"}

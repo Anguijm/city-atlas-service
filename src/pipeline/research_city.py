@@ -51,6 +51,23 @@ HALLUCINATION_KEYWORDS = (
 )
 
 
+def waypoint_display_name(waypoint: dict) -> str:
+    """Return a waypoint's canonical English name as a lowercased, stripped string.
+
+    Waypoint `name` is a LocalizedTextSchema dict (`{"en": "...", ...}`)
+    per `src/schemas/cityAtlas.ts`. Legacy records or direct-string mocks
+    may carry a plain string instead — both shapes are handled. Returns
+    an empty string on any unexpected shape so callers can skip the
+    waypoint safely.
+    """
+    name = waypoint.get("name")
+    if isinstance(name, dict):
+        name = name.get("en") or ""
+    elif not isinstance(name, str):
+        name = ""
+    return name.strip().lower()
+
+
 def find_hallucinated_names(
     reason_text: str,
     candidate_waypoints: list[dict],
@@ -86,9 +103,9 @@ def find_hallucinated_names(
     lower = reason_text.lower()
     names = sorted(
         {
-            (w.get("name") or "").strip().lower()
-            for w in candidate_waypoints
-            if w.get("name")
+            name
+            for name in (waypoint_display_name(w) for w in candidate_waypoints)
+            if name
         },
         key=len,
         reverse=True,
@@ -1204,7 +1221,7 @@ Data sample:
         before_wp = len(data["waypoints"])
         removed_wp = [
             w for w in data["waypoints"]
-            if (w.get("name") or "").strip().lower() in bad_names
+            if waypoint_display_name(w) in bad_names
         ]
         removed_wp_ids = {w.get("id") for w in removed_wp}
         data["waypoints"] = [
@@ -1228,7 +1245,10 @@ Data sample:
             "city_id": city.get("id"),
             "deleted_waypoint_count": deleted_wp_count,
             "deleted_task_count": deleted_task_count,
-            "deleted_names": [w.get("name") for w in removed_wp],
+            "deleted_names": [
+                (w.get("name") or {}).get("en") if isinstance(w.get("name"), dict) else w.get("name")
+                for w in removed_wp
+            ],
             "original_gemini_reason": reason,
         }, ensure_ascii=False))
 
