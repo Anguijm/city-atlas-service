@@ -142,11 +142,12 @@ Filed at the end of the session; none are merge blockers, all are tracked:
    - `marfa` — village; 2K-person town, ~4 real POIs (real limit)
    - `little-rock` — town; 26% waypoint misplacement flagged by Phase C
    - `portland-me` — village; Gemini hallucinated 3 non-existent restaurants
-3. **19 parked cities in batch-manifest.json** (`status: "skipped"`,
-   `prev_status: "failed"`) from 2026-04-08 — **unblocked in code as of
-   PR #4** but not retried yet in production. List includes London, Tokyo,
-   Rome, Boston, Osaka, Nashville, Denver. The next batch run from this
-   repo is the validation gate.
+3. **19 parked cities — partially unparked but blocked by a scraper bug** (issue #10).
+   - PR #4's proportional Phase C threshold landed (`a733650`).
+   - 2026-04-24/25 baseline batch ran 18/19 (london absent from manifest entries despite being in the city cache — separate question to investigate). Result: 10 completed (all `quality_status: degraded`), 8 failed (boston, lisbon, denver, geneva, las-vegas, algiers, muscate, osaka).
+   - Phase C verdict trail wasn't captured at the parent log level (subprocess output not piped through). Direct boston + lisbon validation runs both showed >25% hallucination rates (40% and 33%) → FAIL preserved correctly.
+   - **Real blocker now**: every scraper returned empty for every parked metro during the batch — Wikipedia, Reddit, Atlas Obscura, Spotted by Locals, The Infatuation, TimeOut all logged `returned no data (non-fatal)`, zero new `.md` files written. Same scrapers work fine on the small-US cohort (akron/asheville/etc. have 10–40 KB of grounded content per city). The asymmetry is the diagnostic — Phase 1 of issue #10 (`npx tsx src/scrapers/wikipedia.ts --city boston` with verbose logging) will surface the failure mode in one run.
+   - Until issue #10 is fixed, re-running the batch reproduces the same shape — Gemini's Phase B fabricates over the source-coverage gap and Phase C correctly rejects the fabrications.
 4. **Council synthesis doesn't scope to diff.** `lead-architect.md` will
    surface findings from surrounding code and count them toward BLOCK,
    even when the diff is tiny and unrelated. Admin override is the escape
@@ -261,10 +262,8 @@ Council + pr-watch silently no-op until the file is removed.
 Sorted by return vs risk.
 
 ### Now (top of queue)
-- **First production batch run from this repo** on the 19 parked cities.
-  Validates PR #4 end-to-end against real Gemini output and unlocks the
-  rest of the Stage-3+ roadmap. Recommended start: single-city `boston`
-  retry, then full batch.
+- **Issue #10 — debug + fix the scraper malfunction on parked metros.** Baseline batch ran 2026-04-24/25 with 10/18 completing degraded and 8/18 failing; root cause is that all scrapers return empty for big cities while working on the small-US cohort. Without this, the rest of the Stage-3+ roadmap is gated. Phase-1 debug recipe in the issue body.
+- **After #10 lands**: re-run the 19-city batch. Expected — substantially more cities clear Phase C cleanly and at least one observable `DEMOTED:` line surfaces, evidencing the proportional-threshold rescue path against real Gemini output for the first time.
 
 ### Short (~30 min each)
 - **Close out follow-up issues** #5–#9 as priorities allow. None are
