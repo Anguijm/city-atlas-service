@@ -18,8 +18,10 @@
 import * as fs from "fs";
 import * as path from "path";
 
-const OUTPUT_DIR = path.join(__dirname, "..", "data", "wikipedia");
-const CITY_CACHE = path.join(__dirname, "..", "src", "data", "global_city_cache.json");
+// File is at src/scrapers/wikipedia.ts; repo root is two levels up. Output
+// data/ is at repo root (not src/data/); city cache moved to configs/.
+const OUTPUT_DIR = path.join(__dirname, "..", "..", "data", "wikipedia");
+const CITY_CACHE = path.join(__dirname, "..", "..", "configs", "global_city_cache.json");
 const DEFAULT_INTERVAL_MS = 1500;
 const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)";
 

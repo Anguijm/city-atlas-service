@@ -60,8 +60,9 @@ interface ScrapeResult {
 // Paths & constants
 // ---------------------------------------------------------------------------
 
-const PROJECT_ROOT = path.join(__dirname, "..");
-const CITY_CACHE = path.join(PROJECT_ROOT, "src", "data", "global_city_cache.json");
+// File is at src/scrapers/local-sources.ts; repo root is two levels up.
+const PROJECT_ROOT = path.join(__dirname, "..", "..");
+const CITY_CACHE = path.join(PROJECT_ROOT, "configs", "global_city_cache.json");
 const DATA_ROOT = path.join(PROJECT_ROOT, "data");
 const DEFAULT_INTERVAL_MS = 30_000;
 

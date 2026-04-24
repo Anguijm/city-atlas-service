@@ -190,7 +190,7 @@ async function main() {
   if (cityFilter) {
     cities = [cityFilter];
   } else {
-    const cacheRaw = await import("../configs/global_city_cache.json", { with: { type: "json" } });
+    const cacheRaw = await import("../../configs/global_city_cache.json", { with: { type: "json" } });
     const cache = (cacheRaw.default || cacheRaw) as Array<{ id: string }>;
     cities = cache.map((c) => c.id);
   }

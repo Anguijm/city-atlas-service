@@ -16,8 +16,10 @@ import { chromium, type Page } from "playwright";
 import * as fs from "fs";
 import * as path from "path";
 
-const OUTPUT_DIR = path.join(__dirname, "..", "data", "atlas-obscura");
-const CITY_CACHE = path.join(__dirname, "..", "src", "data", "global_city_cache.json");
+// File is at src/scrapers/atlas-obscura.ts; repo root is two levels up.
+// Output data/ is at repo root (not src/data/); city cache moved to configs/.
+const OUTPUT_DIR = path.join(__dirname, "..", "..", "data", "atlas-obscura");
+const CITY_CACHE = path.join(__dirname, "..", "..", "configs", "global_city_cache.json");
 const DEFAULT_INTERVAL_MS = 30_000; // 30s between requests
 
 interface City {
