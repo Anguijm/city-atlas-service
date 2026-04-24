@@ -32,10 +32,10 @@ sys.stdout.reconfigure(line_buffering=True)
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-# Paths
-PROJECT_ROOT = Path(__file__).parent.parent
-CITY_CACHE = PROJECT_ROOT / "src" / "data" / "global_city_cache.json"
-OUTPUT_DIR = PROJECT_ROOT / "src" / "data" / "research-output"
+# Paths — file is at src/pipeline/batch_research.py, repo root is two levels up
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+CITY_CACHE = PROJECT_ROOT / "configs" / "global_city_cache.json"
+OUTPUT_DIR = PROJECT_ROOT / "data" / "research-output"
 MANIFEST_PATH = OUTPUT_DIR / "batch-manifest.json"
 
 # Defaults

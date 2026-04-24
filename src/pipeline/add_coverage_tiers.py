@@ -10,7 +10,8 @@ Run once:
 import json
 from pathlib import Path
 
-PATH = Path("src/data/global_city_cache.json")
+# Resolve relative to the repo root so the script works regardless of cwd.
+PATH = Path(__file__).parent.parent.parent / "configs" / "global_city_cache.json"
 
 # Tier defaults
 METRO_RADIUS = 25

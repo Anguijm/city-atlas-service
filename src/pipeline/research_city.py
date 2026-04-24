@@ -109,11 +109,11 @@ def find_hallucinated_names(
     return result
 
 
-# Paths
-PROJECT_ROOT = Path(__file__).parent.parent
-CITY_CACHE = PROJECT_ROOT / "src" / "data" / "global_city_cache.json"
-CITY_SOURCES = PROJECT_ROOT / "scripts" / "city-sources.json"
-OUTPUT_DIR = PROJECT_ROOT / "src" / "data" / "research-output"
+# Paths — file is at src/pipeline/research_city.py, repo root is two levels up
+PROJECT_ROOT = Path(__file__).parent.parent.parent
+CITY_CACHE = PROJECT_ROOT / "configs" / "global_city_cache.json"
+CITY_SOURCES = PROJECT_ROOT / "configs" / "city-sources.json"
+OUTPUT_DIR = PROJECT_ROOT / "data" / "research-output"
 
 
 def load_city(city_id: str) -> dict | None:
