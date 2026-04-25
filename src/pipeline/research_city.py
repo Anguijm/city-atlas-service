@@ -217,10 +217,10 @@ focused on walking exploration and urban discovery.{scale_note}
 SOURCE PRIORITIZATION (use these to guide your recommendations):
 - For LANDMARKS & UNUSUAL SPOTS: Prioritize Atlas Obscura-style oddities, secret history, and places
   NOT on standard tourist maps (hidden tunnels, tiny museums, quirky monuments).
-- For CAFES, RESTAURANTS & SHOPS: Prioritize resident-written recommendations — places mentioned
-  in local subreddits or independent food blogs, not tourist review sites. Look for independent
-  specialty coffee shops, vibe-heavy cafes, and restaurants popular with locals but not yet
-  overrun by mainstream tourism.
+- For CAFES, RESTAURANTS & SHOPS: Prioritize resident-written content from the Reddit and The
+  Infatuation sources provided above — places real residents mention, not generic tourist review
+  sites. Look for independent specialty coffee shops, vibe-heavy cafes, and restaurants popular
+  with locals but not yet overrun by mainstream tourism.
 - For PHOTOGRAPHY SPOTS: Prioritize Locationscout-style specific angles, viewpoints, and best
   time-of-day recommendations. Include exact vantage points where possible (e.g., "the bridge at
   golden hour" or "rooftop view facing east at sunset").

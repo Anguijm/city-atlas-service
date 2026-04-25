@@ -217,10 +217,15 @@ async function tryUrls(
  *
  * Reference URL pattern (from the live site):
  *   /finder?query=...&geoBounds=45.650465%2C-64.939951%2C29.780292%2C-117.842916
+ *
+ * The radius is floored at 15 km — small "village"-tier cities have a
+ * walkable maxRadiusKm (UE-tuned) that excludes nearby gems Roadtripper
+ * cares about. 15 km is wide enough to catch on-the-outskirts attractions
+ * without polluting a metro's bounding box.
  */
 function geoBoundsFor(city: City): string | null {
   if (city.lat === undefined || city.lng === undefined) return null;
-  const radiusKm = city.maxRadiusKm ?? 25;
+  const radiusKm = Math.max(city.maxRadiusKm ?? 15, 15);
   const latDelta = radiusKm / 111;
   const lngDelta = radiusKm / (111 * Math.cos((city.lat * Math.PI) / 180));
   const north = (city.lat + latDelta).toFixed(6);
@@ -237,38 +242,72 @@ function geoBoundsFor(city: City): string | null {
  * The two URLs surface different content: the finder returns the full
  * cross-city catalog (guides + reviews) scoped to a bounding box, while the
  * /{slug} city page surfaces individual venue reviews ("LATEST … REVIEWS")
- * not exposed by the finder's default rendering. Combining both gives the
- * richest grounding for Phase A.
- *
- * Phase A reads .md only; we skip structured place extraction here because
- * the finder's result-tile selectors are unverified and the prose body is
- * sufficient for grounding Phase B.
+ * with verified review-card markup. Combining both gives the richest
+ * grounding for Phase A and preserves the structured `places[]` capture
+ * from the slug page.
  */
 async function scrapeTheInfatuation(page: Page, city: City): Promise<ScrapeResult> {
   const slug = slugify(city.name);
   const bounds = geoBoundsFor(city);
 
   const sections: string[] = [];
+  let places: ScrapedPlace[] = [];
 
-  // 1. Finder — broad catalog, geo-scoped
+  // 1. Finder — broad catalog, geo-scoped. Skip structured extraction here:
+  // result-tile selectors are unverified and the prose body suffices for
+  // Phase A grounding.
   if (bounds) {
     const query = encodeURIComponent(city.name.toLowerCase());
     const geo = encodeURIComponent(bounds);
     const finderUrl = `https://www.theinfatuation.com/finder?query=${query}&postType=POST_TYPE_UNSPECIFIED&geoBounds=${geo}&location=Infatuation`;
     const finderResult = await tryUrls(page, [finderUrl], city.name);
     if (finderResult) sections.push(`## Finder results (geo-scoped)\n\n${finderResult.text}`);
+  } else {
+    console.log(`  ⚠ ${city.name}: missing lat/lng in city cache — skipping geo-scoped finder URL (legacy /{slug} only)`);
   }
 
-  // 2. Legacy city page — individual venue reviews
+  // 2. Legacy city page — individual venue reviews. Verified selectors
+  // (h2/h3.chakra-heading, span.neighborhoodTag, span.cuisineTag on
+  // anchors matching /{slug}/reviews/) capture high-confidence structured
+  // place data; preserved so downstream consumers retain the .json
+  // sidecar even if Phase A only reads .md.
   const slugResult = await tryUrls(
     page,
     [`https://www.theinfatuation.com/${slug}`, `https://www.theinfatuation.com/${slug}/guides`],
     city.name,
   );
-  if (slugResult) sections.push(`## City page (venue reviews)\n\n${slugResult.text}`);
+  if (slugResult) {
+    sections.push(`## City page (venue reviews)\n\n${slugResult.text}`);
+    places = await page.evaluate((slugParam: string) => {
+      const items: { name: string; description: string; category: string; neighborhood: string; url: string }[] = [];
+      const cards = document.querySelectorAll(`a[href*="/${slugParam}/reviews/"]`);
+      cards.forEach((card) => {
+        const nameEl = card.querySelector("h2.chakra-heading, h3.chakra-heading");
+        const hoodEl = card.querySelector("span.neighborhoodTag");
+        const cuisineEl = card.querySelector("span.cuisineTag");
+        const name = nameEl?.textContent?.trim();
+        if (name && name.length > 2 && name.length < 100) {
+          items.push({
+            name,
+            description: `Review for ${name}`,
+            category: cuisineEl?.textContent?.trim() || "food-drink",
+            neighborhood: hoodEl?.textContent?.trim() || "",
+            url: (card as HTMLAnchorElement).href,
+          });
+        }
+      });
+      const seen = new Set<string>();
+      return items.filter((item) => {
+        const key = item.name.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    }, slug);
+  }
 
   if (sections.length === 0) return { places: [], fullText: "" };
-  return { places: [], fullText: sections.join("\n\n") };
+  return { places, fullText: sections.join("\n\n") };
 }
 
 /**
