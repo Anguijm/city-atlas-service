@@ -1,0 +1,2962 @@
+{
+  "neighborhoods": [
+    {
+      "id": "san-telmo",
+      "city_id": "buenos-aires",
+      "name": {
+        "en": "San Telmo"
+      },
+      "summary": {
+        "en": "The city's oldest barrio, defined by faded colonial grandeur, cobblestone streets, and a palpable sense of history that feels both romantic and a little rough around the edges."
+      },
+      "lat": -34.6177,
+      "lng": -58.3709,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro",
+      "city_id": "buenos-aires",
+      "name": {
+        "en": "Montserrat & San Nicolas (El Centro)"
+      },
+      "summary": {
+        "en": "The city's nerve center, with majestic Belle Époque architecture and wide avenues, hiding a world of architectural oddities and subterranean secrets."
+      },
+      "lat": -34.6083,
+      "lng": -58.379,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo",
+      "city_id": "buenos-aires",
+      "name": {
+        "en": "Villa Crespo"
+      },
+      "summary": {
+        "en": "A cool, unpretentious neighborhood where locals go out, featuring an incredible culinary scene amidst traditional apartment buildings and leather outlet shops."
+      },
+      "lat": -34.5975,
+      "lng": -58.4433,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita",
+      "city_id": "buenos-aires",
+      "name": {
+        "en": "Chacarita"
+      },
+      "summary": {
+        "en": "A relaxed, village-like hub for artists and designers with leafy streets, low-rise buildings, and a growing number of exceptional, design-forward restaurants."
+      },
+      "lat": -34.5869,
+      "lng": -58.4589,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales",
+      "city_id": "buenos-aires",
+      "name": {
+        "en": "Colegiales"
+      },
+      "summary": {
+        "en": "A peaceful, residential area defined by its cobblestone streets and mature trees, offering a quiet retreat with a handful of exceptional, locally-loved restaurants."
+      },
+      "lat": -34.5793,
+      "lng": -58.4523,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood",
+      "city_id": "buenos-aires",
+      "name": {
+        "en": "Palermo Hollywood"
+      },
+      "summary": {
+        "en": "A trendy, sophisticated, and design-conscious hub with top restaurants, chic cocktail bars, and independent design boutiques."
+      },
+      "lat": -34.5823,
+      "lng": -58.4346,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "san-telmo-enr-nilson",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "san-telmo",
+      "name": {
+        "en": "Nilson"
+      },
+      "description": {
+        "en": "A cozy and modern wine bar perfect for decompressing with a glass of Pinot Noir and a well-curated cheese plate after a day of walking."
+      },
+      "type": "drink",
+      "lat": -34.6208,
+      "lng": -58.3715,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-enr-el-zanjon-de-granados",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "san-telmo",
+      "name": {
+        "en": "El Zanjón de Granados"
+      },
+      "description": {
+        "en": "A spectacular museum built above excavated underground tunnels from the 17th and 18th centuries, offering a literal descent into the city's history."
+      },
+      "type": "culture",
+      "lat": -34.6214,
+      "lng": -58.3711,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-enr-los-galgos",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Los Galgos"
+      },
+      "description": {
+        "en": "A beautifully restored 'Bar Notable' that embodies classic porteño cafe culture, perfect for a coffee and medialuna or a late-afternoon vermouth."
+      },
+      "type": "drink",
+      "lat": -34.6053,
+      "lng": -58.3869,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-enr-centro-asturiano",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Centro Asturiano"
+      },
+      "description": {
+        "en": "A traditional tavern transported from northern Spain, offering an excellent, no-frills choice for a group lunch of authentic Spanish cuisine."
+      },
+      "type": "food",
+      "lat": -34.6139,
+      "lng": -58.3813,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-enr-palacio-barolo",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Palacio Barolo"
+      },
+      "description": {
+        "en": "An architectural marvel designed as an allegory for Dante's Divine Comedy, culminating in a lighthouse with 360-degree city views."
+      },
+      "type": "landmark",
+      "lat": -34.6089,
+      "lng": -58.3833,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-enr-la-manzana-de-las-luces",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "La Manzana de las Luces"
+      },
+      "description": {
+        "en": "A historic Jesuit complex that serves as a gateway to a mysterious network of 18th-century underground tunnels used for defense and smuggling."
+      },
+      "type": "hidden_gem",
+      "lat": -34.6115,
+      "lng": -58.3742,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-enr-sarkis",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "villa-crespo",
+      "name": {
+        "en": "Sarkis"
+      },
+      "description": {
+        "en": "A beloved institution for Armenian food, perpetually packed with locals for its outstanding quality and fair prices."
+      },
+      "type": "food",
+      "lat": -34.5962,
+      "lng": -58.4438,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-enr-calle-murillo-leather-shops",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "villa-crespo",
+      "name": {
+        "en": "Calle Murillo Leather Shops"
+      },
+      "description": {
+        "en": "The city's epicenter for leather goods, where you can see artisans at work and find high-quality jackets, bags, and shoes."
+      },
+      "type": "shopping",
+      "lat": -34.5991,
+      "lng": -58.4502,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-enr-naranjo-bar",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "chacarita",
+      "name": {
+        "en": "Naranjo Bar"
+      },
+      "description": {
+        "en": "A beautifully designed, laid-back wine bar with a focus on natural and low-intervention Argentine wines and warm, knowledgeable service."
+      },
+      "type": "drink",
+      "lat": -34.5888,
+      "lng": -58.4515,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-enr-lucrecia-vinos",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "chacarita",
+      "name": {
+        "en": "Lucrecia Vinos"
+      },
+      "description": {
+        "en": "A creative community space and wine bar that often hosts craft nights like ceramics or embroidery workshops paired with wine tastings."
+      },
+      "type": "drink",
+      "lat": -34.5875,
+      "lng": -58.4531,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-enr-chui",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "chacarita",
+      "name": {
+        "en": "Chuí"
+      },
+      "description": {
+        "en": "A stunning vegetarian restaurant in a sprawling, plant-filled garden that feels like a secret oasis, serving flavorful wood-fired dishes."
+      },
+      "type": "food",
+      "lat": -34.5899,
+      "lng": -58.4501,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-enr-chacarita-cemetery",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "chacarita",
+      "name": {
+        "en": "Chacarita Cemetery"
+      },
+      "description": {
+        "en": "A vast and architecturally diverse cemetery, the final resting place of tango icon Carlos Gardel and countless other cultural figures."
+      },
+      "type": "landmark",
+      "lat": -34.5895,
+      "lng": -58.4625,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-enr-helka-wine-bar",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "colegiales",
+      "name": {
+        "en": "Helka Wine Bar"
+      },
+      "description": {
+        "en": "A wonderfully eccentric wine bar in a beautiful old mansion where you can get a tarot card reading while sipping on a boutique Malbec."
+      },
+      "type": "hidden_gem",
+      "lat": -34.5771,
+      "lng": -58.4498,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-enr-anafe",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "colegiales",
+      "name": {
+        "en": "Anafe"
+      },
+      "description": {
+        "en": "A quietly excellent fixture on a picturesque cobblestone street, serving an inventive, ever-changing menu of Argentine-Asian fusion dishes."
+      },
+      "type": "food",
+      "lat": -34.5765,
+      "lng": -58.4505,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-enr-catalino",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "colegiales",
+      "name": {
+        "en": "Catalino"
+      },
+      "description": {
+        "en": "An 'experimental' Argentine restaurant with a strong focus on seasonal, organic ingredients, many from its own garden."
+      },
+      "type": "food",
+      "lat": -34.5811,
+      "lng": -58.4559,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-enr-plaza-mafalda",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "colegiales",
+      "name": {
+        "en": "Plaza Mafalda"
+      },
+      "description": {
+        "en": "A small, whimsical park dedicated entirely to the world of Mafalda, with themed playground equipment, benches, and murals."
+      },
+      "type": "landmark",
+      "lat": -34.5788,
+      "lng": -58.4448,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-ser-y-tiempo",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Ser y Tiempo"
+      },
+      "description": {
+        "en": "A romantic, artsy wine bar that feels like a secret library, with comfy sofas, live jazz, and a focus on boutique Argentine vineyards."
+      },
+      "type": "nightlife",
+      "lat": -34.5835,
+      "lng": -58.4361,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-fogon-asado",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Fogón Asado"
+      },
+      "description": {
+        "en": "An elegant reimagining of the traditional Argentine barbecue as a nine-course tasting menu served at a communal bar surrounding the grill."
+      },
+      "type": "food",
+      "lat": -34.5842,
+      "lng": -58.4329,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-xul-solar-museum",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Xul Solar Museum"
+      },
+      "description": {
+        "en": "A museum dedicated to a surrealist painter and esoteric thinker, designed by the artist himself to be a journey into a brilliantly eccentric mind."
+      },
+      "type": "culture",
+      "lat": -34.5879,
+      "lng": -58.4299,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-pasaje-russel",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Pasaje Russel"
+      },
+      "description": {
+        "en": "A short and impossibly charming cobblestone alley that feels like a secret European lane, offering a quiet escape from the bustle."
+      },
+      "type": "hidden_gem",
+      "lat": -34.5848,
+      "lng": -58.4355,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-enr-mafalda-monument",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "san-telmo",
+      "name": {
+        "en": "Mafalda Monument"
+      },
+      "description": {
+        "en": "A beloved statue of the famous comic strip character Mafalda, sitting on a bench in her creator's neighborhood of San Telmo."
+      },
+      "type": "landmark",
+      "lat": -34.6179,
+      "lng": -58.3722,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-enr-plaza-de-mayo",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Plaza de Mayo"
+      },
+      "description": {
+        "en": "The city's main square and a hub of political life in Argentina since the 1810 May Revolution that led to independence."
+      },
+      "type": "landmark",
+      "lat": -34.6084,
+      "lng": -58.3722,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-enr-casa-rosada",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Casa Rosada"
+      },
+      "description": {
+        "en": "The iconic 'Pink House' located on the east side of Plaza de Mayo, serving as the official seat of the executive branch of the Argentine government."
+      },
+      "type": "landmark",
+      "lat": -34.6081,
+      "lng": -58.3704,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-enr-catedral-metropolitana",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Catedral Metropolitana"
+      },
+      "description": {
+        "en": "The main Catholic church in Buenos Aires, which has stood on the north side of Plaza de Mayo since colonial times."
+      },
+      "type": "culture",
+      "lat": -34.6076,
+      "lng": -58.3732,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-enr-teatro-colon",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Teatro Colón"
+      },
+      "description": {
+        "en": "An internationally rated opera house with stunning architecture, considered one of the best in the world for its acoustics."
+      },
+      "type": "culture",
+      "lat": -34.601,
+      "lng": -58.3832,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-enr-galerias-pacifico",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Galerías Pacífico"
+      },
+      "description": {
+        "en": "A beautiful shopping center located at the intersection of Florida Street and Córdoba Avenue, known for its magnificent painted ceilings."
+      },
+      "type": "shopping",
+      "lat": -34.5988,
+      "lng": -58.3752,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-enr-heladeria-cadore",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Heladeria Cadore"
+      },
+      "description": {
+        "en": "A classic heladeria on the famous Avenida Corrientes, noted for its good pistachio gelato, though it's one of the more expensive options in the city."
+      },
+      "type": "food",
+      "lat": -34.605,
+      "lng": -58.39,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-enr-anchoita-cava",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "villa-crespo",
+      "name": {
+        "en": "Anchoita Cava"
+      },
+      "description": {
+        "en": "A wine bar with a strong list of by-the-glass options and an extensive charcuterie menu to pair with your drinks."
+      },
+      "type": "drink",
+      "lat": -34.5925,
+      "lng": -58.4485,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-enr-amores-tintos",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "villa-crespo",
+      "name": {
+        "en": "Amores Tintos"
+      },
+      "description": {
+        "en": "This spot looks like a craft beer bar from the outside, but its taps actually serve different varieties of wine."
+      },
+      "type": "drink",
+      "lat": -34.595,
+      "lng": -58.4468,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-enr-vico-wine-bar",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "villa-crespo",
+      "name": {
+        "en": "Vico Wine Bar"
+      },
+      "description": {
+        "en": "A fun wine bar with a self-service model using wine dispensers and friendly sommeliers available to help you choose."
+      },
+      "type": "drink",
+      "lat": -34.5944,
+      "lng": -58.4479,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-pain-et-vin",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Pain et Vin"
+      },
+      "description": {
+        "en": "A sunny and airy wine bar in Palermo Soho, perfect for a tasting flight and a cheese plate after a day of exploring."
+      },
+      "type": "drink",
+      "lat": -34.5882,
+      "lng": -58.432,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-parque-tres-de-febrero",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Parque Tres de Febrero"
+      },
+      "description": {
+        "en": "A massive urban park designed in the late 19th century, home to lakes, a famous rose garden (El Rosedal), and the planetarium."
+      },
+      "type": "nature",
+      "lat": -34.5721,
+      "lng": -58.4198,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-buenos-aires-japanese-gardens",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Buenos Aires Japanese Gardens"
+      },
+      "description": {
+        "en": "The largest Japanese garden of its type outside of Japan, offering a tranquil escape with traditional landscaping, a lake, and a tea house."
+      },
+      "type": "nature",
+      "lat": -34.575,
+      "lng": -58.4116,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-kuono",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Kuono"
+      },
+      "description": {
+        "en": "A high-quality artisanal heladeria praised for its excellent pistachio and creative flavors like mascarpone with figs."
+      },
+      "type": "food",
+      "lat": -34.5908,
+      "lng": -58.43,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-enr-rapanui",
+      "city_id": "buenos-aires",
+      "neighborhood_id": "palermo-hollywood",
+      "name": {
+        "en": "Rapanui"
+      },
+      "description": {
+        "en": "A famous chocolate shop and heladeria chain with one of the best pistachio flavors in the city and refreshing sorbets like Maracuyá y Kiwi."
+      },
+      "type": "food",
+      "lat": -34.5888,
+      "lng": -58.4264,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "san-telmo-task-1",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Cobblestone Perspective"
+      },
+      "prompt": {
+        "en": "Find a cobblestone street and take a low-angle photo that emphasizes its texture and history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-2",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Faded Grandeur"
+      },
+      "prompt": {
+        "en": "Capture an image of a colonial building's facade, focusing on details that show its age and faded beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-3",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Tango Echoes"
+      },
+      "prompt": {
+        "en": "Listen for the sound of tango music. Take a photo of the place it's coming from—a bar, a window, or street performers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-4",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Antique Window Shopping"
+      },
+      "prompt": {
+        "en": "Photograph a fascinating object you see through the window of an antique shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-5",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Peer through an open doorway and find a hidden patio or courtyard. Snap a photo of this secret space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-6",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Historic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where the background looks like it could be from a century ago."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-7",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Street Art & Old Walls"
+      },
+      "prompt": {
+        "en": "Find a piece of modern street art on a crumbling, historic wall and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-8",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Local's View"
+      },
+      "prompt": {
+        "en": "Photograph a scene that feels authentically local, like neighbors chatting on a balcony or a dog sleeping in a doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-9",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "The Color of San Telmo"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different colorful doors or windows you find in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-10",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by a wrought-iron balcony or lamp post on a cobblestone street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-11",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Cafe Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic cafe scene, focusing on the details like the cups, tables, or patrons."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-12",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Find a Fileteado Sign"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign painted in the traditional, colorful 'fileteado' style of Buenos Aires."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-13",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Melancholy Mood"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the romantic but slightly melancholic vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-14",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "A Drink with History"
+      },
+      "prompt": {
+        "en": "Order a classic Argentine drink (like wine or vermouth) and take a picture of it with a historic backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-15",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "The Perfect Souvenir"
+      },
+      "prompt": {
+        "en": "Find an antique or craft item in a shop that you think perfectly represents San Telmo and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-1",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Architectural Majesty"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo of the top of a grand Belle Époque building against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-2",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Power Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a government building that makes you look powerful and important."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-3",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Secretive Doorway"
+      },
+      "prompt": {
+        "en": "Find an imposing or mysterious-looking doorway and take a photo. What secrets could be behind it?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-4",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "The Classic Vermouth"
+      },
+      "prompt": {
+        "en": "Find a classic 'Bar Notable' and take a photo of a vermouth, a coffee, or a medialuna on a dark wood table."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-5",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Urban Canyon"
+      },
+      "prompt": {
+        "en": "Photograph one of the wide avenues from a perspective that makes it look like a canyon of grand buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-6",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Reflections of Grandeur"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a historic building in a modern glass window or a puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-7",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Subterranean Hint"
+      },
+      "prompt": {
+        "en": "Find a subway entrance ('Subte') and take a photo looking down into the darkness, hinting at the city's underground world."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-8",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Formal vs. Informal"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the contrast between the formal architecture and the bustling, everyday life of the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-9",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Architectural Oddity"
+      },
+      "prompt": {
+        "en": "Scan the buildings around you and find a strange or unique architectural detail. Take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-10",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "A Moment of Calm"
+      },
+      "prompt": {
+        "en": "Find a quiet plaza or bench amidst the hustle and bustle and take a photo that feels peaceful."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-11",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "The City's Pulse"
+      },
+      "prompt": {
+        "en": "Use a slow shutter speed to capture the motion blur of traffic or pedestrians against the static, grand buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-12",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Historic Statue"
+      },
+      "prompt": {
+        "en": "Find a statue of a historical figure and take a creative portrait of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-13",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Dome Spotting"
+      },
+      "prompt": {
+        "en": "Look up and photograph the most beautiful or interesting dome (cúpula) you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-14",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Old-School Bookstore"
+      },
+      "prompt": {
+        "en": "Find a bookstore with a classic, old-fashioned storefront and take a picture of its window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "el-centro-task-15",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Taste of Spain"
+      },
+      "prompt": {
+        "en": "Find a Spanish restaurant or cultural center and take a photo that captures its Iberian influence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-1",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Foodie Flat Lay"
+      },
+      "prompt": {
+        "en": "Order a meal or a collection of small plates and take a top-down 'flat lay' photo of the delicious spread."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-2",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Wine on Tap"
+      },
+      "prompt": {
+        "en": "Find a bar that serves wine and take a photo that highlights how it's served—from a tap, a bottle, or a carafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-3",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Leather & Art"
+      },
+      "prompt": {
+        "en": "Find a leather shop and take a photo that contrasts the texture of the leather goods with the gritty street art outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-4",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Unpretentious Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the cool, authentic, and non-touristy vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-5",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Neighborhood Corner"
+      },
+      "prompt": {
+        "en": "Photograph a typical residential street corner, capturing the mix of apartment buildings and local shops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-6",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Local's Hangout"
+      },
+      "prompt": {
+        "en": "Find a cafe or bar that looks packed with locals and take a discreet photo of the lively atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-7",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Artisan at Work"
+      },
+      "prompt": {
+        "en": "Look for a workshop or open kitchen where you can see an artisan or chef at work. Capture a photo of their hands in action."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-8",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Hidden Gem Restaurant"
+      },
+      "prompt": {
+        "en": "Find a restaurant that looks unassuming from the outside but has a menu that intrigues you. Photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-9",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "The Scent of Food"
+      },
+      "prompt": {
+        "en": "Try to capture a photo that evokes the smell of food—steam rising from a plate, a baker at an oven, or spices in a shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-10",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Gritty Beauty"
+      },
+      "prompt": {
+        "en": "Take a picture that finds beauty in the neighborhood's slightly gritty, authentic character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-11",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Middle Eastern Flavors"
+      },
+      "prompt": {
+        "en": "Find a sign, menu, or dish that points to the neighborhood's Armenian or Middle Eastern culinary influence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-12",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Cheers to the Barrio"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink held up with a cool, local street scene in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-13",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Outlet Discovery"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of an outlet shop (leather or otherwise) that looks like a great bargain."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-14",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Waiting for a Table"
+      },
+      "prompt": {
+        "en": "Many great spots here have a line. Capture the sense of anticipation by photographing people waiting for a table at a popular restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "villa-crespo-task-15",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "A Toast to a New Grape"
+      },
+      "prompt": {
+        "en": "Try a glass of an Argentine grape you've never had before (like Bonarda or Criolla) and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-1",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Creative Space"
+      },
+      "prompt": {
+        "en": "Find a building that looks like an artist's studio, a design shop, or a creative workshop and photograph its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-2",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Village Vibe Selfie"
+      },
+      "prompt": {
+        "en": "Take a relaxed selfie on a quiet, leafy street that captures the neighborhood's calm, village-like atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-3",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Art Deco Detail"
+      },
+      "prompt": {
+        "en": "Explore the streets (or the cemetery) and find a building with a striking Art Deco architectural detail. Take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-4",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Garden Oasis"
+      },
+      "prompt": {
+        "en": "Find a restaurant or cafe with a beautiful garden or patio. Capture the lush greenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-5",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Minimalist Design"
+      },
+      "prompt": {
+        "en": "Photograph a scene that embodies minimalist design—clean lines, natural light, and simple materials in a local bar or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-6",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Natural Wine"
+      },
+      "prompt": {
+        "en": "Find a bar specializing in natural or orange wines. Take a photo of the bottle or your glass, highlighting its unique color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-7",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "A Toast to Tango"
+      },
+      "prompt": {
+        "en": "Find a reference to Carlos Gardel (a street name, a plaque, a mural) and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-8",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Quiet Street"
+      },
+      "prompt": {
+        "en": "Capture the tranquility of Chacarita by taking a photo of an empty, tree-lined street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-9",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Artful Plate"
+      },
+      "prompt": {
+        "en": "Order a vegetarian dish and take a photo that showcases its creative and artful presentation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-10",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Cemetery Sculpture"
+      },
+      "prompt": {
+        "en": "Find a beautiful or unusual sculpture on a mausoleum in the Chacarita Cemetery and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-11",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Community Craft"
+      },
+      "prompt": {
+        "en": "Find a space that hosts workshops or community events. Take a photo of a sign or flyer advertising one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-12",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Low-Rise Living"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the neighborhood's characteristic low-rise buildings and spacious feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-13",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Dusk Delight"
+      },
+      "prompt": {
+        "en": "At dusk, capture the warm glow of string lights on a restaurant patio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-14",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Up-and-Coming"
+      },
+      "prompt": {
+        "en": "Find a sign of the neighborhood's growth—a new restaurant under construction, a freshly painted mural, or a trendy new shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "chacarita-task-15",
+      "neighborhood_id": "chacarita",
+      "title": {
+        "en": "Florist Find"
+      },
+      "prompt": {
+        "en": "The area near the cemetery has many flower shops (floristrias). Capture a photo of the most vibrant floral display you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-1",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Cobblestone Charm"
+      },
+      "prompt": {
+        "en": "Take a photo down a quiet, cobblestoned street, framed by the mature trees that line it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-2",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Live Like a Local"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes it look like you live here—relaxed, happy, and far from the tourist crowds."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-3",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Peaceful Plaza"
+      },
+      "prompt": {
+        "en": "Find a quiet neighborhood plaza and take a photo of people enjoying a peaceful moment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-4",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Whimsical Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of whimsical street art or a quirky detail on a house that reminds you of a comic strip."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-5",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Garden-to-Table"
+      },
+      "prompt": {
+        "en": "Find a restaurant with its own herb or vegetable garden. Take a photo of the fresh ingredients growing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-6",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Eccentric Interior"
+      },
+      "prompt": {
+        "en": "Peer into a bar or cafe and capture a photo of a unique or eccentric interior detail, like vintage decor or tarot cards."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-7",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Residential Beauty"
+      },
+      "prompt": {
+        "en": "Photograph a house or apartment building that you find particularly beautiful or charming."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-8",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Inventive Plating"
+      },
+      "prompt": {
+        "en": "Order a dish at a local restaurant and take a close-up photo that highlights its beautiful and inventive plating."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-9",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Canopy of Trees"
+      },
+      "prompt": {
+        "en": "Look up and take a photo of the canopy of leaves formed by the mature trees over a street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-10",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Locally-Loved"
+      },
+      "prompt": {
+        "en": "Find a small shop or cafe that clearly looks like a beloved local spot and photograph its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-11",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Mystical Sip"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink (wine, coffee, etc.) that has a mystical or magical feel to it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-12",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Comic Relief"
+      },
+      "prompt": {
+        "en": "Find a mural or piece of playground equipment inspired by the Mafalda comic strip and take a playful photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-13",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Fusion Flavors"
+      },
+      "prompt": {
+        "en": "Find a menu that combines Argentine ingredients with another cuisine (like Asian fusion) and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-14",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "The Perfect Perch"
+      },
+      "prompt": {
+        "en": "Find a picturesque bench in a park or on a sidewalk and take a photo from the perspective of someone sitting there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "colegiales-task-15",
+      "neighborhood_id": "colegiales",
+      "title": {
+        "en": "Old Mansion"
+      },
+      "prompt": {
+        "en": "Find a beautiful old mansion that has been converted into a business (like a bar or shop) and photograph its historic facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-1",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Design-Conscious"
+      },
+      "prompt": {
+        "en": "Find a storefront, cafe, or restaurant with impeccable interior or exterior design and capture its chic aesthetic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-2",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Chic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes you look trendy and sophisticated, as if you're about to be discovered by a film director."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-3",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Cocktail Hour"
+      },
+      "prompt": {
+        "en": "Take an artful photo of a sophisticated cocktail at a chic bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-4",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Surreal Street"
+      },
+      "prompt": {
+        "en": "Inspired by Xul Solar, find something strange or surreal on the street and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-5",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Secret Alleyway"
+      },
+      "prompt": {
+        "en": "Find a charming 'pasaje' (alley) and take a photo that captures its secret, European feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-6",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Fire and Food"
+      },
+      "prompt": {
+        "en": "Find a restaurant with an open grill ('parrilla') and capture a dramatic photo of the chefs, the fire, and the food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-7",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Boutique Window"
+      },
+      "prompt": {
+        "en": "Photograph the window display of an independent design boutique that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-8",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Jazzy Mood"
+      },
+      "prompt": {
+        "en": "Find a bar with live music and take a moody, low-light photo that captures the atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-9",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Hollywood Signage"
+      },
+      "prompt": {
+        "en": "Find a sign or mural related to film, television, or radio studios in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-10",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "See and Be Seen"
+      },
+      "prompt": {
+        "en": "Capture a candid photo of the stylish people at a popular outdoor cafe or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-11",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Artful Conversation"
+      },
+      "prompt": {
+        "en": "Find a cozy corner in a wine bar and take a photo that looks like the perfect spot for a long, intimate conversation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-12",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Invented Language"
+      },
+      "prompt": {
+        "en": "Find some interesting text or script (graffiti, a sign, a menu) and photograph it as if it were an invented language."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-13",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Culinary Experience"
+      },
+      "prompt": {
+        "en": "Take a photo of a tasting menu or a dish that is presented as a full culinary experience, not just a meal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-14",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Green Wall"
+      },
+      "prompt": {
+        "en": "Many trendy spots have vertical gardens or walls covered in ivy. Find one and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-15",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "A Toast to Female Winemakers"
+      },
+      "prompt": {
+        "en": "Find a wine list and take a photo of a wine made by a female winemaker or from a female-owned vineyard."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:24:56.395401+00:00"
+    },
+    {
+      "id": "san-telmo-task-1",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Cobblestone Close-Up"
+      },
+      "prompt": {
+        "en": "Take an artistic, low-angle shot of San Telmo's iconic cobblestone streets. Try to capture the texture and history in the stones."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-2",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Antique Find"
+      },
+      "prompt": {
+        "en": "Find the most interesting or unusual antique in a shop window or at the street market. Snap a photo of this piece of history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-3",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Tango in the Wild"
+      },
+      "prompt": {
+        "en": "Capture a moment of tango. It could be street performers, a mural, or even just a sign for a milonga. Feel the passion!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-4",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Colonial Colors"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully preserved colonial facade. Focus on the colors, the ironwork balconies, and the classic architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-5",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Street Art Story"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a mural that tells a story. Take a picture and imagine what the artist was trying to say."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-6",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Market Flavors"
+      },
+      "prompt": {
+        "en": "Take a photo of a delicious-looking food item from a stall in the San Telmo Market. What local flavor did you discover?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-7",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Reflections in Time"
+      },
+      "prompt": {
+        "en": "Capture a reflection of San Telmo's historic buildings in a puddle, a shop window, or a pair of sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-8",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Bohemian Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the bohemian, artistic vibe of San Telmo. Pose with some street art or in a quirky alleyway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-9",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Doorway to the Past"
+      },
+      "prompt": {
+        "en": "Find and photograph an old, ornate doorway. Imagine all the people who have passed through it over the centuries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-10",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Café Corner"
+      },
+      "prompt": {
+        "en": "Find a charming corner café and take a photo that makes you want to sit down for a coffee and watch the world go by."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-11",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Fileteado Art"
+      },
+      "prompt": {
+        "en": "Spot and photograph an example of 'fileteado,' the traditional colorful, stylized art form of Buenos Aires, often seen on signs or old buses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-12",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "The Sound of the Street"
+      },
+      "prompt": {
+        "en": "Take a photo of a street musician or performer adding to the lively atmosphere of San Telmo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-13",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Peer into an open doorway and capture a glimpse of a hidden colonial courtyard (a 'patio')."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-14",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the interesting shadows cast by the old buildings and iron balconies on the cobblestone streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-15",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Local Character"
+      },
+      "prompt": {
+        "en": "Respectfully capture a photo that represents the unique characters of San Telmo, whether it's a shopkeeper, an artist, or a long-time resident."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-16",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Fernet and Coke"
+      },
+      "prompt": {
+        "en": "Find a bar advertising Argentina's unofficial national drink, Fernet con Coca. Snap a pic of the sign or a bottle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-17",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Take a photo of an interesting display in one of the many antique shop windows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "san-telmo-task-18",
+      "neighborhood_id": "san-telmo",
+      "title": {
+        "en": "San Telmo Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a classic San Telmo backdrop: a cobblestone street, a colonial building, or the bustling market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-1",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Architectural Grandeur"
+      },
+      "prompt": {
+        "en": "Look up! Capture the magnificent facade of one of El Centro's grand, European-style buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-2",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "City in Motion"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the constant motion of El Centro—a blur of buses, a crowd of pedestrians, or the flow of traffic on a wide avenue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-3",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Historic Heart Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a significant historical landmark in the background, like the Obelisco, Casa Rosada, or the Cabildo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-4",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "A Porteño's Pause"
+      },
+      "prompt": {
+        "en": "Photograph a classic 'Café Notable' (historic cafe). Capture the timeless atmosphere of locals enjoying a coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-5",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Power and Politics"
+      },
+      "prompt": {
+        "en": "Find a government building and take a photo that conveys a sense of power or history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-6",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Theater District Lights"
+      },
+      "prompt": {
+        "en": "Capture the bright lights and posters of the theaters along Avenida Corrientes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-7",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Bookstore Haven"
+      },
+      "prompt": {
+        "en": "Avenida Corrientes is famous for its bookstores. Snap a photo of a window display or a stack of books that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-8",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Pizza Porteña"
+      },
+      "prompt": {
+        "en": "Find a classic pizzeria and take a mouth-watering photo of a slice of 'fugazzeta' or 'muzzarella'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-9",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Symmetry and Lines"
+      },
+      "prompt": {
+        "en": "Find a building or a street with strong symmetrical lines and take a perfectly balanced photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-10",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Flag of Argentina"
+      },
+      "prompt": {
+        "en": "Spot the light blue and white Argentine flag flying proudly and capture it against the city skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-11",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Street Performer"
+      },
+      "prompt": {
+        "en": "Capture a photo of a street performer on the pedestrian Florida Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-12",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Urban Contrast"
+      },
+      "prompt": {
+        "en": "Photograph a scene that shows a contrast between old and new architecture in El Centro."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-13",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "The Kiosk"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic Buenos Aires kiosk, packed with candy, drinks, and magazines. Capture the colorful chaos."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-14",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Avenida 9 de Julio"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the immense scale of Avenida 9 de Julio, one of the widest avenues in the world."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-15",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Financial District Energy"
+      },
+      "prompt": {
+        "en": "Capture the hustle and bustle of the 'Microcentro' (financial district) during a weekday."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-16",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Statue Story"
+      },
+      "prompt": {
+        "en": "Find an interesting statue or monument and take a photo from a creative angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-17",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Medialuna Moment"
+      },
+      "prompt": {
+        "en": "Capture a classic porteño breakfast: a coffee and a medialuna (croissant). Find a cafe and snap a pic before you indulge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "el-centro-task-18",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Reflecting the City"
+      },
+      "prompt": {
+        "en": "Find a modern glass building and capture the reflection of a historic building in its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-1",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Leather Goods"
+      },
+      "prompt": {
+        "en": "Villa Crespo is famous for its leather outlets. Take a photo of a display of leather jackets, bags, or shoes in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-2",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Outlet Adventure"
+      },
+      "prompt": {
+        "en": "Find a storefront with a big 'Oferta' or 'Liquidación' sign. Capture the spirit of bargain hunting in the outlet district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-3",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Neighborhood Bodegón"
+      },
+      "prompt": {
+        "en": "Find a classic, unassuming neighborhood restaurant (a 'bodegón') and take a photo of its facade. Capture the authentic, local feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-4",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Street Art Surprise"
+      },
+      "prompt": {
+        "en": "Wander the side streets and find a cool piece of street art. Villa Crespo has many hidden gems."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-5",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Wine Bar Vibe"
+      },
+      "prompt": {
+        "en": "The neighborhood is full of new wine bars. Take a photo of one that looks inviting, focusing on the bottles or the cozy interior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-6",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Take a picture of a typical residential street in Villa Crespo, showing the mix of houses and low-rise apartment buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-7",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "A Touch of Green"
+      },
+      "prompt": {
+        "en": "Find a tree-lined street or a small plaza and capture a moment of nature amidst the urban environment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-8",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Villa Crespo Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you're in a real, lived-in Buenos Aires neighborhood, away from the main tourist track."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-9",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Local Shopfront"
+      },
+      "prompt": {
+        "en": "Photograph the facade of a traditional local business, like a hardware store ('ferretería') or a bakery ('panadería')."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-10",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Jewish Heritage"
+      },
+      "prompt": {
+        "en": "Villa Crespo has a rich Jewish history. Find a sign, a building, or a shop that hints at this cultural heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-11",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Old and New"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between an old, traditional building and a new, modern development in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-12",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Neighborhood Colors"
+      },
+      "prompt": {
+        "en": "Find a colorful wall, door, or mural and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-13",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Corner Store Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of a typical corner grocery store ('almacén' or 'verduleria')."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-14",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "The Perfect Malbec"
+      },
+      "prompt": {
+        "en": "Find a wine shop ('vinoteca') and take a picture of a shelf full of Malbec, Argentina's signature wine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-15",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Sidewalk Scene"
+      },
+      "prompt": {
+        "en": "Capture a typical sidewalk scene in Villa Crespo - maybe people chatting, a dog being walked, or tables outside a cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-16",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Texture Hunt"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting texture you find in the neighborhood, like a peeling paint wall, a patterned tile, or a brick facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-17",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Quiet Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet, peaceful spot in the neighborhood and take a photo that captures the calm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "villa-crespo-task-18",
+      "neighborhood_id": "villa-crespo",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph a collection of interesting signs—shop signs, street signs, or advertisements."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-1",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Hollywood Street Art"
+      },
+      "prompt": {
+        "en": "Find a large, colorful mural—Palermo Hollywood is famous for them. Take a photo that captures its scale and creativity."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-2",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Trendy Cafe Culture"
+      },
+      "prompt": {
+        "en": "Photograph a stylish café. Focus on the design, the people, or the beautifully presented coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-3",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Media Hub"
+      },
+      "prompt": {
+        "en": "The neighborhood is named for its concentration of TV and film studios. Find a building related to media production and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-4",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Designer Details"
+      },
+      "prompt": {
+        "en": "Find a boutique design or clothing store and capture a unique detail in its window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-5",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Take a photo in one of the neighborhood's green spaces or along a particularly leafy, tree-lined street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-6",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Palermo Nightlife"
+      },
+      "prompt": {
+        "en": "Capture the buzzing atmosphere of a bar or restaurant in the evening. Focus on the lights and the energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-7",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Foodie Photo"
+      },
+      "prompt": {
+        "en": "Take a picture of a delicious-looking dish or drink from one of Palermo's many trendy eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-8",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Chic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie against a backdrop that screams 'Palermo'—a cool mural, a stylish cafe, or a beautiful street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-9",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Cobblestone Contrast"
+      },
+      "prompt": {
+        "en": "Find a cobblestone street and capture the contrast between the old-world charm and the modern, trendy businesses that line it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-10",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Architectural Mix"
+      },
+      "prompt": {
+        "en": "Photograph a scene that shows the mix of architecture, from old 'casas chorizo' to modern apartment blocks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-11",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Hidden Passageway"
+      },
+      "prompt": {
+        "en": "Look for a 'pasaje' (a small alley or passage) and take a photo looking down it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-12",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Craft Beer Craze"
+      },
+      "prompt": {
+        "en": "Find a 'cervecería artesanal' (craft brewery) and snap a photo of its sign or its taps."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-13",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Outdoor Seating Scene"
+      },
+      "prompt": {
+        "en": "Capture the lively scene of people enjoying food and drinks at the outdoor tables of a restaurant or bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-14",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Artistic Intervention"
+      },
+      "prompt": {
+        "en": "Find a small, quirky piece of art—a sticker, a small stencil, or a painted utility box—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-15",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "The Color Palette"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the color palette of a particular street or building facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-16",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Dog Walker's Paradise"
+      },
+      "prompt": {
+        "en": "Spot a 'paseador de perros' (dog walker) with their pack of dogs, a common sight in Palermo. Take a photo of the happy hounds."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-17",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Verdant Balcony"
+      },
+      "prompt": {
+        "en": "Find an apartment balcony overflowing with plants and flowers. Capture this small urban jungle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    },
+    {
+      "id": "palermo-hollywood-task-18",
+      "neighborhood_id": "palermo-hollywood",
+      "title": {
+        "en": "Helado Happiness"
+      },
+      "prompt": {
+        "en": "Get a scoop from one of the area's many artisanal ice cream shops and take a picture before it melts!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:08:14.971490+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

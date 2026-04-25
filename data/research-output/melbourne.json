@@ -1,0 +1,3117 @@
+{
+  "neighborhoods": [
+    {
+      "id": "fitzroy",
+      "city_id": "melbourne",
+      "name": {
+        "en": "Fitzroy"
+      },
+      "summary": {
+        "en": "Melbourne’s original bohemian suburb, its narrow, graffiti-adorned laneways are flanked by historic terrace houses and old pubs, buzzing with an eclectic, alternative energy."
+      },
+      "lat": -37.803,
+      "lng": 144.979,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood",
+      "city_id": "melbourne",
+      "name": {
+        "en": "Collingwood"
+      },
+      "summary": {
+        "en": "With a grittier, post-industrial edge, this is where creative studios and galleries inhabit converted warehouses. It feels both historic and relentlessly modern."
+      },
+      "lat": -37.806,
+      "lng": 144.985,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north",
+      "city_id": "melbourne",
+      "name": {
+        "en": "CBD - The Grand North"
+      },
+      "summary": {
+        "en": "The northern edge of the city grid combines Melbourne's civic and intellectual history with a treasure trove of hidden culinary gems, grand 19th-century buildings, and shops for the curious mind."
+      },
+      "lat": -37.81,
+      "lng": 144.963,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze",
+      "city_id": "melbourne",
+      "name": {
+        "en": "CBD - The Laneway Maze"
+      },
+      "summary": {
+        "en": "The quintessential Melbourne experience: a dense labyrinth of bluestone laneways and grand Victorian arcades that are now the city's pulse, home to street art, cafes, and restaurants."
+      },
+      "lat": -37.815,
+      "lng": 144.965,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square",
+      "city_id": "melbourne",
+      "name": {
+        "en": "Southbank & Federation Square"
+      },
+      "summary": {
+        "en": "Melbourne's cultural heart, defined by modern architecture, sprawling arts venues, and a riverside promenade offering some of the city's most iconic views."
+      },
+      "lat": -37.818,
+      "lng": 144.968,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra",
+      "city_id": "melbourne",
+      "name": {
+        "en": "Richmond & South Yarra"
+      },
+      "summary": {
+        "en": "A tale of two high streets, from Richmond's vibrant, down-to-earth pub culture to South Yarra's polished, upscale world of French bistros and designer boutiques."
+      },
+      "lat": -37.828,
+      "lng": 144.99,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "fitzroy-enr-napier-quarter",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "Napier Quarter"
+      },
+      "description": {
+        "en": "A charming cafe and wine bar tucked away on a residential corner, perfect for a morning coffee or an afternoon wine."
+      },
+      "type": "drink",
+      "lat": -37.8015,
+      "lng": 144.9803,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-enr-marquis-of-lorne",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "Marquis of Lorne"
+      },
+      "description": {
+        "en": "A quintessential Melbourne corner pub that has been serving locals for generations, featuring a sun-drenched rooftop."
+      },
+      "type": "drink",
+      "lat": -37.8045,
+      "lng": 144.9808,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-enr-lune-croissanterie",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "Lune Croissanterie"
+      },
+      "description": {
+        "en": "A world-renowned bakery in a sleek, warehouse-like space, famous for its technically perfect croissants and inventive pastries."
+      },
+      "type": "food",
+      "lat": -37.8005,
+      "lng": 144.9795,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-enr-victorian-terrace-houses",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "Victorian Terrace Houses"
+      },
+      "description": {
+        "en": "Wander Gore, George, or Napier Streets to admire well-preserved Victorian terrace houses with their intricate iron lacework."
+      },
+      "type": "landmark",
+      "lat": -37.804,
+      "lng": 144.981,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-enr-laneway-street-art",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "Laneway Street Art"
+      },
+      "description": {
+        "en": "An ever-changing outdoor gallery; duck into the alleys off Brunswick and Gertrude streets to find murals, stencils, and paste-ups."
+      },
+      "type": "culture",
+      "lat": -37.805,
+      "lng": 144.979,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-enr-brunswick-street",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "Brunswick Street"
+      },
+      "description": {
+        "en": "The main artery of Fitzroy, buzzing with an eclectic, alternative energy and lined with cafes, pubs, and shops."
+      },
+      "type": "landmark",
+      "lat": -37.803,
+      "lng": 144.979,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-enr-gertrude-street",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "Gertrude Street"
+      },
+      "description": {
+        "en": "A key street for exploring Fitzroy's laneway art and home to many independent boutiques and creative spaces."
+      },
+      "type": "landmark",
+      "lat": -37.807,
+      "lng": 144.979,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-enr-cibi",
+      "city_id": "melbourne",
+      "neighborhood_id": "collingwood",
+      "name": {
+        "en": "Cibi"
+      },
+      "description": {
+        "en": "A bright, family-run Japanese cafe and concept store, perfect for a delicate breakfast and browsing curated homewares."
+      },
+      "type": "drink",
+      "lat": -37.8068,
+      "lng": 144.9875,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-enr-hope-st-radio",
+      "city_id": "melbourne",
+      "neighborhood_id": "collingwood",
+      "name": {
+        "en": "Hope St Radio"
+      },
+      "description": {
+        "en": "A unique venue that is both a community radio station and a bustling Italian restaurant with infectious energy."
+      },
+      "type": "food",
+      "lat": -37.8085,
+      "lng": 144.987,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-enr-gertrude-street-boutiques",
+      "city_id": "melbourne",
+      "neighborhood_id": "collingwood",
+      "name": {
+        "en": "Gertrude Street Boutiques"
+      },
+      "description": {
+        "en": "A haven for independent Australian fashion and design. Take a slow walk and window-shop the thoughtfully curated stores."
+      },
+      "type": "shopping",
+      "lat": -37.8075,
+      "lng": 144.9835,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-enr-warehouse-architecture",
+      "city_id": "melbourne",
+      "neighborhood_id": "collingwood",
+      "name": {
+        "en": "Warehouse Architecture"
+      },
+      "description": {
+        "en": "Explore side streets off Wellington and Cambridge Streets to see stunning examples of industrial architecture and converted warehouses."
+      },
+      "type": "landmark",
+      "lat": -37.809,
+      "lng": 144.988,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-enr-keith-haring-mural",
+      "city_id": "melbourne",
+      "neighborhood_id": "collingwood",
+      "name": {
+        "en": "Keith Haring Mural"
+      },
+      "description": {
+        "en": "A heritage-listed public mural painted by the iconic artist during his visit in 1984, located on the wall of a former technical school."
+      },
+      "type": "culture",
+      "lat": -37.8045,
+      "lng": 144.9895,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-enr-johnston-street",
+      "city_id": "melbourne",
+      "neighborhood_id": "collingwood",
+      "name": {
+        "en": "Johnston Street"
+      },
+      "description": {
+        "en": "A major thoroughfare in the neighborhood, home to key spots like Bar Liberty and the Keith Haring Mural."
+      },
+      "type": "landmark",
+      "lat": -37.803,
+      "lng": 144.986,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-ling-nan",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Ling Nan"
+      },
+      "description": {
+        "en": "A buzzing, no-frills Cantonese institution that's a local favorite for late-night meals, with legendary lobster noodles."
+      },
+      "type": "food",
+      "lat": -37.8125,
+      "lng": 144.962,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-askal",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Askal"
+      },
+      "description": {
+        "en": "A key player in raising the profile of Filipino food in Melbourne, serving incredible and underrepresented dishes."
+      },
+      "type": "food",
+      "lat": -37.8155,
+      "lng": 144.9545,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-wunderkammer",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Wunderkammer"
+      },
+      "description": {
+        "en": "A genuine 'wonder-chamber' filled with scientific instruments, fossils, taxidermy, and other curiosities."
+      },
+      "type": "hidden_gem",
+      "lat": -37.812,
+      "lng": 144.961,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-state-library-victoria",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "State Library Victoria"
+      },
+      "description": {
+        "en": "An architectural masterpiece and a center of Melbourne's intellectual history. The domed reading room is an iconic sight."
+      },
+      "type": "culture",
+      "lat": -37.8099,
+      "lng": 144.9644,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-melbourne-medical-museum",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Melbourne Medical Museum"
+      },
+      "description": {
+        "en": "Australia's largest medical museum, featuring fascinating and sometimes macabre exhibits like a preserved 19th-century pharmacy."
+      },
+      "type": "culture",
+      "lat": -37.7995,
+      "lng": 144.959,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-little-bourke-street",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Little Bourke Street"
+      },
+      "description": {
+        "en": "The heart of Melbourne's Chinatown, home to legendary restaurants like Ling Nan and buzzing with energy."
+      },
+      "type": "landmark",
+      "lat": -37.813,
+      "lng": 144.963,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-embla",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Embla"
+      },
+      "description": {
+        "en": "A dimly lit, perpetually bustling wine bar with a phenomenal wine list and wood-fired cooking."
+      },
+      "type": "drink",
+      "lat": -37.8138,
+      "lng": 144.968,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-aru",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Aru"
+      },
+      "description": {
+        "en": "A stunning restaurant where cooking with fire is the main event, drawing influence from Chinese and Indonesian cuisines."
+      },
+      "type": "food",
+      "lat": -37.8145,
+      "lng": 144.9615,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-gimlet-at-cavendish-house",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Gimlet at Cavendish House"
+      },
+      "description": {
+        "en": "An opulent, sprawling restaurant that evokes the grand dining rooms of Chicago and London, perfect for a special occasion."
+      },
+      "type": "food",
+      "lat": -37.8155,
+      "lng": 144.9675,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-flinders-street-station-ballroom",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Flinders Street Station Ballroom"
+      },
+      "description": {
+        "en": "A hidden story on the top floor of the station: a magnificent, abandoned ballroom echoing with the ghosts of dances from a bygone era."
+      },
+      "type": "hidden_gem",
+      "lat": -37.8183,
+      "lng": 144.9671,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-centre-place",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Centre Place"
+      },
+      "description": {
+        "en": "A classic Melbourne laneway, less crowded than Hosier Lane, offering a gritty and authentic cross-section of the city's street art scene."
+      },
+      "type": "culture",
+      "lat": -37.8165,
+      "lng": 144.9655,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-ac-dc-lane",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "AC/DC Lane"
+      },
+      "description": {
+        "en": "A laneway dedicated to rock and roll, filled with street art and murals celebrating music legends."
+      },
+      "type": "culture",
+      "lat": -37.817,
+      "lng": 144.9695,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-block-arcade",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Block Arcade"
+      },
+      "description": {
+        "en": "A historic 19th-century shopping promenade with stunning mosaic floors, ornate plasterwork, and a beautiful glass ceiling."
+      },
+      "type": "landmark",
+      "lat": -37.816,
+      "lng": 144.9645,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-royal-arcade",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Royal Arcade"
+      },
+      "description": {
+        "en": "Another of Melbourne's grand Victorian arcades, known for its elegant architecture and historic charm."
+      },
+      "type": "landmark",
+      "lat": -37.8145,
+      "lng": 144.964,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-hosier-lane",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Hosier Lane"
+      },
+      "description": {
+        "en": "Melbourne's most famous street art laneway, a vibrant and constantly changing canvas of murals, stencils, and graffiti."
+      },
+      "type": "culture",
+      "lat": -37.8175,
+      "lng": 144.969,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-enr-lui-bar-at-vue-de-monde",
+      "city_id": "melbourne",
+      "neighborhood_id": "southbank-federation-square",
+      "name": {
+        "en": "Lui Bar (at Vue de Monde)"
+      },
+      "description": {
+        "en": "Located on the 55th floor of the Rialto, this bar offers incredible cocktails with a panoramic vista of the city."
+      },
+      "type": "drink",
+      "lat": -37.8185,
+      "lng": 144.959,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-enr-melbourne-view-point-hamer-hall",
+      "city_id": "melbourne",
+      "neighborhood_id": "southbank-federation-square",
+      "name": {
+        "en": "Melbourne View Point (Hamer Hall)"
+      },
+      "description": {
+        "en": "Stand on Princes Bridge near Hamer Hall for the best ground-level photo of the skyline, framing the river and Flinders Street Station."
+      },
+      "type": "viewpoint",
+      "lat": -37.819,
+      "lng": 144.968,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-enr-federation-square-architecture",
+      "city_id": "melbourne",
+      "neighborhood_id": "southbank-federation-square",
+      "name": {
+        "en": "Federation Square Architecture"
+      },
+      "description": {
+        "en": "A uniquely Melbourne design of deconstructed, geometric shapes. Explore its hidden plazas and intricate facades."
+      },
+      "type": "landmark",
+      "lat": -37.818,
+      "lng": 144.969,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-enr-yarra-river-promenade",
+      "city_id": "melbourne",
+      "neighborhood_id": "southbank-federation-square",
+      "name": {
+        "en": "Yarra River Promenade"
+      },
+      "description": {
+        "en": "A popular walking path along the river offering constantly changing perspectives of the city skyline."
+      },
+      "type": "nature",
+      "lat": -37.82,
+      "lng": 144.965,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-enr-hamer-hall",
+      "city_id": "melbourne",
+      "neighborhood_id": "southbank-federation-square",
+      "name": {
+        "en": "Hamer Hall"
+      },
+      "description": {
+        "en": "A key venue in Melbourne's arts precinct and the landmark for finding the best ground-level city viewpoint."
+      },
+      "type": "culture",
+      "lat": -37.82,
+      "lng": 144.9685,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-enr-france-soir",
+      "city_id": "melbourne",
+      "neighborhood_id": "richmond-south-yarra",
+      "name": {
+        "en": "France-Soir"
+      },
+      "description": {
+        "en": "A textbook French bistro and South Yarra institution that will make you feel like you've been transported to Paris."
+      },
+      "type": "food",
+      "lat": -37.8395,
+      "lng": 144.9925,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-enr-hectors-deli",
+      "city_id": "melbourne",
+      "neighborhood_id": "richmond-south-yarra",
+      "name": {
+        "en": "Hector’s Deli"
+      },
+      "description": {
+        "en": "A cult-favorite sandwich shop in Richmond that does not skimp on fillings, butter, or cheese. The HCT is a masterpiece."
+      },
+      "type": "food",
+      "lat": -37.8255,
+      "lng": 144.9965,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-enr-ca-com",
+      "city_id": "melbourne",
+      "neighborhood_id": "richmond-south-yarra",
+      "name": {
+        "en": "Cà Com"
+      },
+      "description": {
+        "en": "A 'bánh mì bar' in Richmond specializing in khao jee pate, a delicious Lao-style breakfast sandwich."
+      },
+      "type": "food",
+      "lat": -37.821,
+      "lng": 145.001,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-enr-bridge-road-richmond",
+      "city_id": "melbourne",
+      "neighborhood_id": "richmond-south-yarra",
+      "name": {
+        "en": "Bridge Road, Richmond"
+      },
+      "description": {
+        "en": "A long commercial street that retains a gritty, energetic character, perfect for a casual stroll."
+      },
+      "type": "landmark",
+      "lat": -37.822,
+      "lng": 145.0,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-enr-the-yarra-river-trail",
+      "city_id": "melbourne",
+      "neighborhood_id": "richmond-south-yarra",
+      "name": {
+        "en": "The Yarra River Trail"
+      },
+      "description": {
+        "en": "A green, peaceful walking and cycling path lining the river, offering a scenic break between Richmond and South Yarra."
+      },
+      "type": "nature",
+      "lat": -37.832,
+      "lng": 144.988,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-enr-toorak-road-south-yarra",
+      "city_id": "melbourne",
+      "neighborhood_id": "richmond-south-yarra",
+      "name": {
+        "en": "Toorak Road, South Yarra"
+      },
+      "description": {
+        "en": "Explore the 'Paris End' of this street to find high-end boutiques, art galleries, and opulent architecture."
+      },
+      "type": "landmark",
+      "lat": -37.84,
+      "lng": 144.993,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-enr-the-black-cat",
+      "city_id": "melbourne",
+      "neighborhood_id": "fitzroy",
+      "name": {
+        "en": "The Black Cat"
+      },
+      "description": {
+        "en": "An old-school bar on Brunswick Street, perfect for those who want to have a conversation over a drink."
+      },
+      "type": "nightlife",
+      "lat": -37.80401,
+      "lng": 144.97915,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-melbourne-museum",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Melbourne Museum"
+      },
+      "description": {
+        "en": "A major cultural institution located in Carlton Gardens, known for hosting interesting adults-only nights."
+      },
+      "type": "culture",
+      "lat": -37.803,
+      "lng": 144.9715,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-caretaker-s-cottage",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Caretaker's Cottage"
+      },
+      "description": {
+        "en": "A hidden gem of a bar located in the historic caretaker's cottage behind the Wesley Church on Lonsdale Street."
+      },
+      "type": "drink",
+      "lat": -37.8105,
+      "lng": 144.9625,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-enr-cafe-le-bajo",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-grand-north",
+      "name": {
+        "en": "Cafe Le Bajo"
+      },
+      "description": {
+        "en": "A popular Japanese-style cafe known for its unique food offerings and distinct atmosphere in the city."
+      },
+      "type": "food",
+      "lat": -37.8101,
+      "lng": 144.9631,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-melbourne-storm-tunnels",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Melbourne Storm Tunnels"
+      },
+      "description": {
+        "en": "A labyrinthine network of storm tunnels beneath the city, frequented by a dedicated community of urban explorers."
+      },
+      "type": "hidden_gem",
+      "lat": -37.815,
+      "lng": 144.964,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-maha",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Maha"
+      },
+      "description": {
+        "en": "A sophisticated Middle Eastern restaurant tucked away on Bond Street, offering a unique dining experience in the CBD."
+      },
+      "type": "food",
+      "lat": -37.8169,
+      "lng": 144.9682,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-melbourne-gpo-building",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Melbourne GPO Building"
+      },
+      "description": {
+        "en": "The city's former General Post Office, now a landmark retail hub with stunning heritage architecture on Bourke Street."
+      },
+      "type": "landmark",
+      "lat": -37.8146,
+      "lng": 144.9632,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-union-electric-bar",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Union Electric Bar"
+      },
+      "description": {
+        "en": "A popular bar hidden down Heffernan Lane, known for its great atmosphere and drinks."
+      },
+      "type": "nightlife",
+      "lat": -37.8118,
+      "lng": 144.9626,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-double-happiness",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Double Happiness"
+      },
+      "description": {
+        "en": "A character-filled bar with a communist propaganda theme, tucked away on Liverpool Street."
+      },
+      "type": "nightlife",
+      "lat": -37.8123,
+      "lng": 144.9682,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-state-of-grace",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "State of Grace"
+      },
+      "description": {
+        "en": "A European-style restaurant and rooftop bar known for its unique decor and hidden cellar bar, Fall from Grace."
+      },
+      "type": "nightlife",
+      "lat": -37.8188,
+      "lng": 144.9585,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-eau-de-vie",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Eau de Vie"
+      },
+      "description": {
+        "en": "A classic, dimly-lit speakeasy hidden down Malthouse Lane, celebrated for its extensive cocktail list and theatrical presentation."
+      },
+      "type": "drink",
+      "lat": -37.8164,
+      "lng": 144.9689,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-berlin-bar",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Berlin Bar"
+      },
+      "description": {
+        "en": "A themed cocktail bar in Corrs Lane, split into two distinct sections representing capitalist West and communist East Berlin."
+      },
+      "type": "nightlife",
+      "lat": -37.8122,
+      "lng": 144.9671,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-goldilocks-bar",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Goldilocks Bar"
+      },
+      "description": {
+        "en": "A fairytale-themed rooftop cocktail bar above a bustling noodle house on Swanston Street."
+      },
+      "type": "drink",
+      "lat": -37.8121,
+      "lng": 144.9644,
+      "trending_score": 77,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-roti-bar",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Roti Bar"
+      },
+      "description": {
+        "en": "A local favorite on Little Collins Street serving delicious Malaysian cuisine, especially praised for its rendang."
+      },
+      "type": "food",
+      "lat": -37.8164,
+      "lng": 144.9616,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-enr-waffle-on",
+      "city_id": "melbourne",
+      "neighborhood_id": "cbd-laneway-maze",
+      "name": {
+        "en": "Waffle On"
+      },
+      "description": {
+        "en": "A small, non-touristy shop in Degraves Lane that serves authentic French-style baguettes and delicious waffles."
+      },
+      "type": "food",
+      "lat": -37.8176,
+      "lng": 144.9664,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "fitzroy-task-1",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Bohemian Portrait"
+      },
+      "prompt": {
+        "en": "Find a laneway with vibrant graffiti and take a selfie that captures the alternative energy of Fitzroy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-2",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Terrace House Detail"
+      },
+      "prompt": {
+        "en": "Photograph the most intricate iron lacework you can find on a Victorian terrace house."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-3",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Pub Corner Classic"
+      },
+      "prompt": {
+        "en": "Frame a shot of a classic old pub on a street corner, capturing its historic character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-4",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Creative Fuel"
+      },
+      "prompt": {
+        "en": "Take a photo of your coffee or snack from an independent cafe. How does it represent the neighborhood's creative soul?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-5",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a plaque, old sign, or architectural detail that hints at a building's past life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-6",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Street Style Spotting"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents Fitzroy's unique and eclectic fashion sense (without being intrusive)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-7",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Artistic Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of street art that isn't a mural—look for a small stencil, sticker, or paste-up."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-8",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Quiet Backstreet Moment"
+      },
+      "prompt": {
+        "en": "Step off the main drag and capture a peaceful scene on a residential backstreet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-9",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Edible Art"
+      },
+      "prompt": {
+        "en": "Photograph a dish or pastry from a local spot that looks like a work of art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-10",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a historic building and try to imagine what it looked like 100 years ago. Capture it from a dramatic angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-11",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Create a photo collage of 4 different bold colors you find in Fitzroy's street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-12",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Photograph an interesting display in a quirky, independent shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-13",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Urban Nature"
+      },
+      "prompt": {
+        "en": "Find an example of nature reclaiming the urban environment, like a vine-covered wall or a plant growing in a crack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-14",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "The Sound of the Street"
+      },
+      "prompt": {
+        "en": "Record a short video capturing the ambient sounds of Brunswick Street – trams, music, chatter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-15",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Local's View"
+      },
+      "prompt": {
+        "en": "Find a spot that feels like a local hangout and take a photo from that perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-1",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Industrial Contrast"
+      },
+      "prompt": {
+        "en": "Capture a photo that contrasts Collingwood's red-brick industrial heritage with a piece of modern street art or a contemporary building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-2",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Warehouse Window"
+      },
+      "prompt": {
+        "en": "Find a converted warehouse and take a photo looking out from (or into) one of its large, industrial windows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-3",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Creative Space Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie outside a creative studio, gallery, or independent boutique that captures the neighborhood's modern spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-4",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Maker's Mark"
+      },
+      "prompt": {
+        "en": "Find evidence of local makers or artisans at work. This could be a sign for a studio, a unique handmade object, or a public art piece."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-5",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Gritty Textures"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of an interesting texture you find in the neighborhood: peeling paint, old bricks, rusted metal, or worn concrete."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-6",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Community Corner"
+      },
+      "prompt": {
+        "en": "Find a sign, poster, or space that shows off Collingwood's strong sense of community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-7",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Factory Ghost"
+      },
+      "prompt": {
+        "en": "Photograph an old factory building and try to capture a sense of its history and the industry that once thrived there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-8",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Fuel for Creatives"
+      },
+      "prompt": {
+        "en": "Take a photo of your coffee or meal from a local cafe, presented in a way that reflects the area's design-focused aesthetic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-9",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Modern Lines"
+      },
+      "prompt": {
+        "en": "Find a modern building or extension and take a photo focusing on its clean lines and geometric shapes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-10",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Hidden Greenery"
+      },
+      "prompt": {
+        "en": "In this industrial zone, find a surprising pocket of green space—a community garden, a balcony overflowing with plants, or a leafy courtyard."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-11",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Art in Plain Sight"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a mural that you find on a main street, not hidden in a laneway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-12",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Shop Independent"
+      },
+      "prompt": {
+        "en": "Take a photo of the storefront of an independent boutique that you find most interesting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-13",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the tall industrial buildings to your advantage and capture a dramatic photo of shadows on a wall or street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-14",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "The Perfect Plate"
+      },
+      "prompt": {
+        "en": "Collingwood has a world-class food scene. Capture an overhead shot of your meal from a local eatery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "collingwood-task-15",
+      "neighborhood_id": "collingwood",
+      "title": {
+        "en": "Residential Remix"
+      },
+      "prompt": {
+        "en": "Find a building that has been converted from industrial to residential use and photograph a detail that shows both its past and present."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-1",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Architectural Grandeur"
+      },
+      "prompt": {
+        "en": "Find a grand 19th-century building and take a photo from a low angle to emphasize its scale and historic importance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-2",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Intellectual Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie outside the State Library or another civic institution that makes you look thoughtful and scholarly."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-3",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Curious Find"
+      },
+      "prompt": {
+        "en": "Find the most curious or unusual object in a shop window and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-4",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Taste of History"
+      },
+      "prompt": {
+        "en": "Photograph a meal or a drink from an establishment that feels like it has been around for decades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-5",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or monument and photograph it in a way that connects it to the modern city around it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-6",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Symmetry in the City"
+      },
+      "prompt": {
+        "en": "Look for symmetry in the architecture of the grand old buildings and capture it in a perfectly balanced photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-7",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "A Quiet Read"
+      },
+      "prompt": {
+        "en": "Find a quiet corner, perhaps near the library or in a park, and take a photo that captures a moment of peace and contemplation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-8",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Market Buzz"
+      },
+      "prompt": {
+        "en": "Capture the energy of a bustling market-adjacent street. Focus on the movement of people and goods."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-9",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Ornate Details"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an ornate architectural detail on a historic building—a carving, a column, or a cornice."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-10",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Global Flavors"
+      },
+      "prompt": {
+        "en": "This area has diverse food. Take a photo of a dish that represents a culture you're excited to try."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-11",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Photograph a flag, crest, or sign on a government or civic building that represents the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-12",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Time Capsule"
+      },
+      "prompt": {
+        "en": "Find a shopfront or building that looks like it hasn't changed in 50 years and capture its vintage charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-13",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Stand at the base of a tall, historic building and take a photo looking straight up to the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-14",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Knowledge Seeker"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the pursuit of knowledge—it could be a bookstore, a university building, or people reading."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-15",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Old World Charm"
+      },
+      "prompt": {
+        "en": "Capture a scene that feels like it could be from an old European city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-1",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Laneway Labyrinth"
+      },
+      "prompt": {
+        "en": "Take a photo down a narrow laneway that emphasizes its depth and mystery, making it look like a maze."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-2",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Bluestone Beauty"
+      },
+      "prompt": {
+        "en": "Get down low and capture a close-up of the iconic bluestone cobblestones, especially if they are wet and reflective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-3",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Arcade Elegance"
+      },
+      "prompt": {
+        "en": "Photograph the ornate ceiling or mosaic floor of one of the historic Victorian arcades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-4",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Hidden Gem Selfie"
+      },
+      "prompt": {
+        "en": "Find the entrance to a hidden bar or a tiny hole-in-the-wall cafe and take a selfie as if you've just discovered a secret."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-5",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Street Art Story"
+      },
+      "prompt": {
+        "en": "Find a piece of street art that tells a story and capture it. What do you think the artist is trying to say?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-6",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "City Pulse"
+      },
+      "prompt": {
+        "en": "Capture the bustling energy of a crowded laneway. Use a slow shutter speed to create motion blur if you can."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-7",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Reflections of Melbourne"
+      },
+      "prompt": {
+        "en": "Find a puddle or a shop window and capture a reflection of the laneway architecture or street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-8",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Aroma Adventure"
+      },
+      "prompt": {
+        "en": "The laneways are full of smells from coffee roasters and kitchens. Take a photo of a place that smells amazing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-9",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Find a spot where the light cuts dramatically through a narrow laneway, creating strong highlights and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-10",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Up Close and Personal"
+      },
+      "prompt": {
+        "en": "Take a macro shot of a detail in a piece of street art—the texture of the spray paint, the edge of a stencil, or the layers of a paste-up."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-11",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Secret Seat"
+      },
+      "prompt": {
+        "en": "Find a small table or stool at an outdoor cafe in a laneway and take a photo from that point of view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-12",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Layers of the City"
+      },
+      "prompt": {
+        "en": "Find a wall where you can see layers of old posters, graffiti, and paint, showing the history of the space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-13",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "The Perfect Pour"
+      },
+      "prompt": {
+        "en": "Melbourne is famous for coffee. Capture a photo of your laneway coffee, focusing on the latte art or the rich color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-14",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Find a neon sign in a laneway and capture its glow, especially as evening approaches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-15",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Urban Canyon"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a laneway and look up, capturing the slice of sky between the tall buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-1",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Skyline Panorama"
+      },
+      "prompt": {
+        "en": "From the river promenade or a bridge, capture a panoramic photo of the Melbourne CBD skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-2",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Architectural Angles"
+      },
+      "prompt": {
+        "en": "Find the most interesting or unusual architectural angle within Federation Square's complex of buildings and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-3",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Arts & Culture Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of one of the major arts venues like Hamer Hall or the National Gallery of Victoria."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-4",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "River Reflections"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the city lights or buildings shimmering on the surface of the Yarra River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-5",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "People in Motion"
+      },
+      "prompt": {
+        "en": "Photograph the flow of people walking, jogging, or cycling along the Yarra River Promenade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-6",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Modern Textures"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of the unique materials used in Federation Square's design—the sandstone, zinc, or glass facades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-7",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "A Toast to the View"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink with the city skyline in the background from a riverside bar or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-8",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Bridge Framing"
+      },
+      "prompt": {
+        "en": "Use one of the bridges over the Yarra as a frame for a photograph of the city or the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-9",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public sculpture or art in the area and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-10",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture the warm light of sunrise or sunset hitting the glass buildings of the CBD from across the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-11",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Cultural Celebration"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the celebration of Indigenous culture in this precinct."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-12",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "City Lights"
+      },
+      "prompt": {
+        "en": "After dark, take a photo of the glowing city skyline and its reflection in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-13",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Iconic Landmark"
+      },
+      "prompt": {
+        "en": "Take a photo that includes the iconic Flinders Street Station as seen from the Southbank side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-14",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "A Moment of Leisure"
+      },
+      "prompt": {
+        "en": "Capture a photo of people relaxing and enjoying the public spaces along the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-15",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Geometric Shadows"
+      },
+      "prompt": {
+        "en": "Photograph the interesting shadow patterns cast by the geometric shapes of Federation Square's buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-1",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "A Tale of Two Streets"
+      },
+      "prompt": {
+        "en": "Take one photo that captures the gritty energy of Richmond's Bridge Road, and another that captures the polished elegance of South Yarra's Toorak Road."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-2",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Sandwich Superstar"
+      },
+      "prompt": {
+        "en": "Get a legendary sandwich from a Richmond deli and take the most epic, mouth-watering photo of it before you take a bite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-3",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Parisian Vibe"
+      },
+      "prompt": {
+        "en": "Find a scene in South Yarra that feels like it's been transported from Paris—a bistro, a boutique, or a stylish local."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-4",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Riverside Escape"
+      },
+      "prompt": {
+        "en": "Take a photo along the Yarra River Trail that captures the feeling of a peaceful, green escape from the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-5",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Pub Culture vs. Bistro Chic"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of a classic Richmond pub and a chic South Yarra bistro. What details define their different characters?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-6",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Designer Window"
+      },
+      "prompt": {
+        "en": "Find the most elegant or artistic window display in a South Yarra designer boutique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-7",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Down-to-Earth Detail"
+      },
+      "prompt": {
+        "en": "Find a detail in Richmond that represents its down-to-earth, unpretentious character—a hand-painted sign, a local sports team scarf, or a classic milk bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-8",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Aperitif Hour"
+      },
+      "prompt": {
+        "en": "Capture a photo of a pre-dinner drink, whether it's a beer at a Richmond pub or a glass of French wine in South Yarra."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-9",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Photograph a piece of opulent architecture in South Yarra and contrast it with the more functional, gritty buildings of Richmond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-10",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Local's Ride"
+      },
+      "prompt": {
+        "en": "Find a bicycle that perfectly sums up the vibe of the area it's in—is it a practical commuter in Richmond or a stylish cruiser in South Yarra?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-11",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Besides the river, find a small park, a leafy street, or a beautiful private garden that offers a moment of tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-12",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Typography Hunt"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign with beautiful, classic French typography in South Yarra."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-13",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Take a photo from one of the bridges connecting the two neighborhoods, capturing the river and the greenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-14",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Neighborhood Character Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows which of the two neighborhood vibes—Richmond's casualness or South Yarra's polish—you connect with more."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "richmond-south-yarra-task-15",
+      "neighborhood_id": "richmond-south-yarra",
+      "title": {
+        "en": "Art of the Meal"
+      },
+      "prompt": {
+        "en": "Photograph a meal that perfectly represents its neighborhood: a hearty, no-fuss dish in Richmond or an elegant, classic plate in South Yarra."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:59:51.262720+00:00"
+    },
+    {
+      "id": "fitzroy-task-1",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Vintage Vibes"
+      },
+      "prompt": {
+        "en": "Fitzroy is famous for its vintage and second-hand shops. Find the most unique item in a vintage store and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-2",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Pub Corner Classic"
+      },
+      "prompt": {
+        "en": "Capture the quintessential Fitzroy pub on a street corner. Bonus points for classic Victorian architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-3",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Street Art Selfie"
+      },
+      "prompt": {
+        "en": "Find a piece of street art that speaks to you and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-4",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Bohemian Style Watch"
+      },
+      "prompt": {
+        "en": "Photograph an example of Fitzroy's unique and eclectic fashion sense, as seen on a local resident."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-5",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Hidden Greenery"
+      },
+      "prompt": {
+        "en": "Discover a quiet backstreet or a hidden community garden and capture a moment of tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-6",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Cafe Culture"
+      },
+      "prompt": {
+        "en": "Take an artistic shot of your coffee or brunch from one of Fitzroy's many independent cafes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-7",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Frame a shot that captures the contrast between a historic Victorian terrace house and a modern addition or piece of graffiti."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-8",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Live Music Scene"
+      },
+      "prompt": {
+        "en": "Find a wall covered in posters for local bands and live gigs. Capture the vibrant energy of the music scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-9",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Quirky Signage"
+      },
+      "prompt": {
+        "en": "Find the most unusual or funny business sign in the neighborhood and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-10",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Secret Bar Entrance"
+      },
+      "prompt": {
+        "en": "Many of Fitzroy's best bars have unassuming entrances. Find one that looks like a secret and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-11",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Local's Ride"
+      },
+      "prompt": {
+        "en": "Find a bicycle that perfectly captures the Fitzroy vibe – maybe it's a vintage fixie or one covered in stickers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-12",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Capture your reflection in the window of an interesting boutique on Gertrude or Brunswick Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-13",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Paste-Up Art"
+      },
+      "prompt": {
+        "en": "Look closely for paper 'paste-up' art on walls and utility boxes. Get a detailed shot of your favourite one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-14",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Sounds of the Suburb"
+      },
+      "prompt": {
+        "en": "Record a 10-second video capturing the ambient sounds of Fitzroy – a tram bell, music from a bar, chatter from a cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "fitzroy-task-15",
+      "neighborhood_id": "fitzroy",
+      "title": {
+        "en": "Heritage Detail"
+      },
+      "prompt": {
+        "en": "Find an intricate detail on a heritage building that most people would walk past without noticing. It could be iron lacework, a gargoyle, or a tiled entryway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-1",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Library Grandeur"
+      },
+      "prompt": {
+        "en": "Capture the impressive facade of the State Library Victoria from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-2",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Chinatown Neon"
+      },
+      "prompt": {
+        "en": "Photograph the vibrant neon signs and lanterns of Chinatown on Little Bourke Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-3",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Academic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the scholarly, student-filled atmosphere of the area near the universities."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-4",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Architectural Layers"
+      },
+      "prompt": {
+        "en": "Find a spot where you can photograph a historic building with a modern skyscraper looming behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-5",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Global Flavors"
+      },
+      "prompt": {
+        "en": "This area is a melting pot of cuisines. Photograph a dish from a Greek, Filipino, or other international eatery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-6",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Hidden Bar Hunt"
+      },
+      "prompt": {
+        "en": "Seek out a hidden bar or cafe in a less-travelled laneway and capture its discreet entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-7",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a quiet street and take a photo looking straight up at the towering buildings around you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-8",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Literary Moment"
+      },
+      "prompt": {
+        "en": "Find a bookshop and take a photo of its most interesting window display or a shelf of books."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-9",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Museum Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the scale and modern architecture of the Melbourne Museum."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-10",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Street Perspective"
+      },
+      "prompt": {
+        "en": "Capture the view down a long, straight city street like Lonsdale or La Trobe, showing the vanishing point."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-11",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a small park, square, or green space and capture a moment of calm amidst the city buzz."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-12",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Tram Traffic"
+      },
+      "prompt": {
+        "en": "Take a dynamic photo of a tram navigating the busy streets of the northern CBD."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-13",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture and take a photo from a creative perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-14",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "People in Motion"
+      },
+      "prompt": {
+        "en": "Capture the diverse flow of people—students, shoppers, office workers—that defines this part of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-grand-north-task-15",
+      "neighborhood_id": "cbd-grand-north",
+      "title": {
+        "en": "Curiosity Shop"
+      },
+      "prompt": {
+        "en": "Find a unique, specialist shop (like Wunderkammer) and photograph its intriguing window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-1",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Laneway Lost"
+      },
+      "prompt": {
+        "en": "Get intentionally lost in a laneway and photograph the most unexpected thing you discover."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-2",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Arcade Elegance"
+      },
+      "prompt": {
+        "en": "Capture the stunning architectural details of the Block Arcade or Royal Arcade, like the mosaic floors or glass canopy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-3",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Coffee Art"
+      },
+      "prompt": {
+        "en": "Find a bustling laneway cafe and take a close-up shot of a barista at work or your perfectly made coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-4",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Street Art Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with your favorite piece of art in Hosier Lane or AC/DC Lane."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-5",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Reflections"
+      },
+      "prompt": {
+        "en": "After it rains, find a puddle in a laneway and capture the reflection of the city lights and buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-6",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Secret Entrance"
+      },
+      "prompt": {
+        "en": "Many of the best bars have unmarked doors. Find a mysterious-looking entrance and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-7",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Upwards View"
+      },
+      "prompt": {
+        "en": "Stand in a narrow laneway and take a photo looking straight up at the sliver of sky between the buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-8",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Laneway Feast"
+      },
+      "prompt": {
+        "en": "Photograph a delicious meal from a tiny hole-in-the-wall eatery that you can only find in a laneway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-9",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Station Rush"
+      },
+      "prompt": {
+        "en": "Capture the constant motion and energy of the crowd under the iconic clocks at Flinders Street Station."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-10",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Cobblestone Close-up"
+      },
+      "prompt": {
+        "en": "Get a low-angle shot that highlights the texture and pattern of the historic cobblestone laneways."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-11",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Rooftop Perspective"
+      },
+      "prompt": {
+        "en": "Find a rooftop bar and capture the view of the laneways and surrounding city from above."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-12",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Busker's Performance"
+      },
+      "prompt": {
+        "en": "Find a street performer or busker and capture a photo of them in action (ask for permission if you're close!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-13",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Play with the dramatic light in the laneways. Capture a shot that emphasizes the contrast between bright light and deep shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-14",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of the different textures you can find: peeling posters, brickwork, metal grates, and layers of graffiti."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "cbd-laneway-maze-task-15",
+      "neighborhood_id": "cbd-laneway-maze",
+      "title": {
+        "en": "GPO Grandeur"
+      },
+      "prompt": {
+        "en": "Take a selfie with the historic Melbourne GPO building as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-1",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Fed Square Angles"
+      },
+      "prompt": {
+        "en": "Capture the unique, deconstructed geometry of the buildings in Federation Square. Find the most interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-2",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Skyline Selfie"
+      },
+      "prompt": {
+        "en": "Stand on the Southbank promenade and take a selfie with the entire CBD skyline across the Yarra River behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-3",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "River Reflections"
+      },
+      "prompt": {
+        "en": "At dusk or night, photograph the colorful city lights reflecting on the surface of the Yarra River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-4",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Arts Spire"
+      },
+      "prompt": {
+        "en": "Frame a creative shot of the iconic Arts Centre Spire. Try shooting it from a low angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-5",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Promenade People"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of the Southbank promenade, showing the mix of locals, tourists, and street performers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-6",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Take a photo from the middle of one of the pedestrian bridges, capturing the view down the river in either direction."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-7",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Sculpture Pose"
+      },
+      "prompt": {
+        "en": "Find a piece of public art along the river and strike a pose that interacts with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-8",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Riverside Relaxation"
+      },
+      "prompt": {
+        "en": "Find a quiet spot on the grassy banks or steps by the river and take a photo that conveys a sense of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-9",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Drink with a View"
+      },
+      "prompt": {
+        "en": "Snap a photo of your drink at a riverside bar or restaurant, with the Yarra and the city in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-10",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Floating Bar"
+      },
+      "prompt": {
+        "en": "Get a shot of the unique Ponyfish Island bar, nestled under the pedestrian bridge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-11",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Modern Marvels"
+      },
+      "prompt": {
+        "en": "Capture the sleek, modern architecture of the buildings along the Southbank promenade, like the Eureka Tower or Hamer Hall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-12",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Station Backdrop"
+      },
+      "prompt": {
+        "en": "Use the iconic facade of Flinders Street Station as a backdrop for a photo taken from the south side of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-13",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "River Traffic"
+      },
+      "prompt": {
+        "en": "Photograph a tour boat, water taxi, or rowing crew making its way down the Yarra River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-14",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Big Screen Moment"
+      },
+      "prompt": {
+        "en": "Take a photo of the large public screen at Federation Square, capturing whatever is being broadcast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    },
+    {
+      "id": "southbank-federation-square-task-15",
+      "neighborhood_id": "southbank-federation-square",
+      "title": {
+        "en": "Hamer Hall Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the steps or balcony of Hamer Hall, capturing its distinctive round shape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:34:41.359684+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

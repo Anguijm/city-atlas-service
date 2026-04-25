@@ -1,0 +1,2397 @@
+{
+  "neighborhoods": [
+    {
+      "id": "hakata",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Hakata"
+      },
+      "summary": {
+        "en": "The hyper-modern heart of Fukuoka, a place of futuristic bustle centered around one of Japan's busiest transit hubs, with history tucked between its skyscrapers."
+      },
+      "lat": 33.59,
+      "lng": 130.4206,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Gion"
+      },
+      "summary": {
+        "en": "Fukuoka's ancient core, where serene temple gardens and foundational folklore offer a quiet refuge just blocks from the city's modern pulse."
+      },
+      "lat": 33.5935,
+      "lng": 130.415,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Daimyo"
+      },
+      "summary": {
+        "en": "The energetic and defiantly independent epicenter of Fukuoka's subculture, packed with vintage shops, record stores, and underground art."
+      },
+      "lat": 33.5875,
+      "lng": 130.395,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Shime"
+      },
+      "summary": {
+        "en": "A quiet suburb holding a colossal secret from Japan's industrial past, offering a dramatic shift in scale and atmosphere for urban explorers."
+      },
+      "lat": 33.6033,
+      "lng": 130.4786,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu",
+      "city_id": "fukuoka",
+      "name": {
+        "en": "Dazaifu"
+      },
+      "summary": {
+        "en": "A famous pilgrimage site where deep tradition and sacred grounds meet world-class contemporary design along its main approach."
+      },
+      "lat": 33.5215,
+      "lng": 130.5345,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "gion-enr-japans-first-tea-tree-at-shofukuji",
+      "city_id": "fukuoka",
+      "neighborhood_id": "gion",
+      "name": {
+        "en": "Japan’s First Tea Tree at Shofukuji"
+      },
+      "description": {
+        "en": "A living monument at Japan's oldest Zen temple, descended from the plant that introduced tea culture to the nation."
+      },
+      "type": "hidden_gem",
+      "lat": 33.5975,
+      "lng": 130.4147,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-enr-golden-frog-of-hakata-station",
+      "city_id": "fukuoka",
+      "neighborhood_id": "hakata",
+      "name": {
+        "en": "Golden Frog of Hakata Station"
+      },
+      "description": {
+        "en": "A tiny, polished gold frog statue hidden in plain sight. Spotting it without help is said to bring good luck on your travels."
+      },
+      "type": "hidden_gem",
+      "lat": 33.5898,
+      "lng": 130.4208,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-enr-tomb-of-the-wet-kimono",
+      "city_id": "fukuoka",
+      "neighborhood_id": "gion",
+      "name": {
+        "en": "Tomb of the Wet Kimono"
+      },
+      "description": {
+        "en": "The physical origin of a Japanese idiom for being falsely accused, this unassuming tomb is a tangible link to folklore."
+      },
+      "type": "culture",
+      "lat": 33.6001,
+      "lng": 130.412,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-enr-winding-tower-of-shime-coal-mine",
+      "city_id": "fukuoka",
+      "neighborhood_id": "shime",
+      "name": {
+        "en": "Winding Tower of Shime Coal Mine"
+      },
+      "description": {
+        "en": "A breathtaking, fortress-like piece of industrial architecture; Japan’s only surviving winding tower of its kind."
+      },
+      "type": "landmark",
+      "lat": 33.6033,
+      "lng": 130.4786,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-enr-starbucks-dazaifu-tenmangu-omote-sando",
+      "city_id": "fukuoka",
+      "neighborhood_id": "dazaifu",
+      "name": {
+        "en": "Starbucks Dazaifu Tenmangu Omote-Sando"
+      },
+      "description": {
+        "en": "An architectural landmark by Kengo Kuma, featuring a masterpiece of interlocking wooden beams that create a cave-like interior."
+      },
+      "type": "viewpoint",
+      "lat": 33.5218,
+      "lng": 130.5349,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-enr-site-of-ganso-nagahama-ya",
+      "city_id": "fukuoka",
+      "neighborhood_id": "hakata",
+      "name": {
+        "en": "Site of Ganso Nagahama-ya"
+      },
+      "description": {
+        "en": "The former location of a legendary ramen joint that now diligently guides customers to its new, 'original' spot."
+      },
+      "type": "food",
+      "lat": 33.5932,
+      "lng": 130.3881,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-enr-fukuoka-art-museum",
+      "city_id": "fukuoka",
+      "neighborhood_id": "daimyo",
+      "name": {
+        "en": "Fukuoka Art Museum"
+      },
+      "description": {
+        "en": "Located in Ōhori Park, this museum contains a wide selection of contemporary and other art from around the world."
+      },
+      "type": "culture",
+      "lat": 33.5851,
+      "lng": 130.3812,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-enr-fukuoka-asian-art-museum",
+      "city_id": "fukuoka",
+      "neighborhood_id": "hakata",
+      "name": {
+        "en": "Fukuoka Asian Art Museum"
+      },
+      "description": {
+        "en": "A museum dedicated to collecting and displaying a wide range of art from various countries across Asia."
+      },
+      "type": "culture",
+      "lat": 33.5951,
+      "lng": 130.4065,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-enr-genko-historical-museum",
+      "city_id": "fukuoka",
+      "neighborhood_id": "hakata",
+      "name": {
+        "en": "Genko Historical Museum"
+      },
+      "description": {
+        "en": "Located in East Park, this museum displays Japanese and Mongolian arms and armor from the 13th-century Mongol invasions."
+      },
+      "type": "culture",
+      "lat": 33.6011,
+      "lng": 130.4218,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-enr-hakata-machiya-folk-museum",
+      "city_id": "fukuoka",
+      "neighborhood_id": "gion",
+      "name": {
+        "en": "Hakata Machiya Folk Museum"
+      },
+      "description": {
+        "en": "A museum dedicated to displaying the traditional ways of life, speech, and culture of the Fukuoka and Hakata region."
+      },
+      "type": "culture",
+      "lat": 33.5962,
+      "lng": 130.4125,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-enr-fukuoka-castle-ruins",
+      "city_id": "fukuoka",
+      "neighborhood_id": "daimyo",
+      "name": {
+        "en": "Fukuoka Castle Ruins"
+      },
+      "description": {
+        "en": "The historic grounds of Fukuoka's former castle, now a popular park for walking and viewing cherry blossoms in spring."
+      },
+      "type": "landmark",
+      "lat": 33.5858,
+      "lng": 130.3833,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-enr-ohori-park",
+      "city_id": "fukuoka",
+      "neighborhood_id": "daimyo",
+      "name": {
+        "en": "Ōhori Park"
+      },
+      "description": {
+        "en": "A large, scenic city park centered around a large pond, registered as a Place of Scenic Beauty and popular for cherry blossom viewing."
+      },
+      "type": "nature",
+      "lat": 33.5865,
+      "lng": 130.3785,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-enr-kyushu-national-museum",
+      "city_id": "fukuoka",
+      "neighborhood_id": "dazaifu",
+      "name": {
+        "en": "Kyushu National Museum"
+      },
+      "description": {
+        "en": "A major museum whose collections cover the history of Kyushu from prehistory to the Meiji era, with an emphasis on cultural exchange."
+      },
+      "type": "culture",
+      "lat": 33.5195,
+      "lng": 130.5372,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-enr-maizuru-park",
+      "city_id": "fukuoka",
+      "neighborhood_id": "daimyo",
+      "name": {
+        "en": "Maizuru Park"
+      },
+      "description": {
+        "en": "Located on the grounds of Fukuoka Castle, this park is a prime spot for cherry blossom viewing and hosts food stalls during the season."
+      },
+      "type": "nature",
+      "lat": 33.5873,
+      "lng": 130.3841,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-enr-nakasu-yatai-stalls",
+      "city_id": "fukuoka",
+      "neighborhood_id": "hakata",
+      "name": {
+        "en": "Nakasu Yatai Stalls"
+      },
+      "description": {
+        "en": "Iconic open-air food stalls (yatai) where you can try ramen and other local specialties right by the river."
+      },
+      "type": "food",
+      "lat": 33.5925,
+      "lng": 130.4062,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "hakata-task-1",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Urban Contrast"
+      },
+      "prompt": {
+        "en": "Frame a shot that captures the contrast between a hyper-modern skyscraper and a small, older building or detail at its base."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-2",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Flow of the Station"
+      },
+      "prompt": {
+        "en": "Use a slow shutter speed or a time-lapse to capture the blur and motion of commuters moving through Hakata Station."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-3",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Find and photograph a tiny, interesting detail on a wall, floor, or sign that thousands of people probably miss every day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-4",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Skyward Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking straight up the side of a towering building to emphasize its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-5",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Sign Language"
+      },
+      "prompt": {
+        "en": "Find a beautifully designed or interestingly lit sign and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-6",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the bustling station or surrounding skyscrapers in a puddle, window, or polished surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-7",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Underground World"
+      },
+      "prompt": {
+        "en": "Photograph the unique atmosphere and architecture of the underground shopping arcades connected to the station."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-8",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Transportation Tapestry"
+      },
+      "prompt": {
+        "en": "Create a composition that includes at least three different forms of transportation (e.g., train, bus, taxi, bicycle)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-9",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Ramen Quest"
+      },
+      "prompt": {
+        "en": "This is the home of Hakata Ramen. Find a small, steamy ramen-ya that looks packed with locals and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-10",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Urban Geometry"
+      },
+      "prompt": {
+        "en": "Find a visually interesting pattern or set of lines in the architecture around you and take an abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-11",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the interesting shapes and long lines created by shadows from the tall buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-12",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "A Moment's Pause"
+      },
+      "prompt": {
+        "en": "Amidst the bustle, find someone sitting quietly and capture that moment of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-13",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Future is Now"
+      },
+      "prompt": {
+        "en": "Take a photo that you think perfectly captures the 'hyper-modern' vibe of the Hakata area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-14",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Local Kissaten"
+      },
+      "prompt": {
+        "en": "The report mentions discovering a local 'kissaten' (traditional coffee shop). Find one that looks like it's from the Showa-era and photograph its charming exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-15",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Nightscape Neon"
+      },
+      "prompt": {
+        "en": "After dark, capture the vibrant glow and reflections of the area's neon lights."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-1",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Temple Tranquility"
+      },
+      "prompt": {
+        "en": "Find a quiet corner in a temple garden and capture a moment of perfect stillness and serenity."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-2",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Whispers of Wood"
+      },
+      "prompt": {
+        "en": "Take a close-up, detailed photo of the intricate woodwork on a temple gate or building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-3",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Stone Stories"
+      },
+      "prompt": {
+        "en": "Photograph a weathered stone statue or mossy lantern, focusing on its ancient texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-4",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Rooftop Geometry"
+      },
+      "prompt": {
+        "en": "Frame a shot focusing on the elegant, clean lines and curves of a traditional temple roof against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-5",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Folklore Finder"
+      },
+      "prompt": {
+        "en": "Photograph an object, statue, or detail that looks like it could be the source of a local legend or piece of folklore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-6",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Residential Calm"
+      },
+      "prompt": {
+        "en": "Wander off the main path and capture the quiet beauty of a residential backstreet, with its potted plants and bicycles."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-7",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Photograph a part of a temple framed by the leaves of a gnarled tree or the branches of a maple."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-8",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Path to Peace"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a quiet temple path, stone walkway, or set of steps, inviting the viewer in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-9",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Guardian's Gaze"
+      },
+      "prompt": {
+        "en": "Take a powerful portrait of a temple guardian statue (komainu or Nio), focusing on its fierce expression."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-10",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "Find a single vibrant detail—like a red bib on a statue or a colorful paper charm—against the muted tones of wood and stone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-11",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Incense and Light"
+      },
+      "prompt": {
+        "en": "Capture the smoke from an incense burner as it curls through a beam of light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-12",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Sacred Symmetry"
+      },
+      "prompt": {
+        "en": "Find and capture a perfectly symmetrical view within a temple complex or down a quiet street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-13",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "The Art of the Garden"
+      },
+      "prompt": {
+        "en": "Photograph a detail that showcases the careful art of Japanese gardening, like a raked zen garden or a perfectly pruned tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-14",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "History in the Stones"
+      },
+      "prompt": {
+        "en": "Find a cemetery and create a moody, atmospheric shot of the weathered tombstones, capturing a sense of layered history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "gion-task-15",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Hidden Shrine"
+      },
+      "prompt": {
+        "en": "Search the backstreets and temple grounds for a tiny, tucked-away shrine and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-1",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Alleyway Art"
+      },
+      "prompt": {
+        "en": "Get deliberately lost in the backstreets and find a piece of street art, graffiti, or sticker bombing on a utility box or wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-2",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Vintage Vibes"
+      },
+      "prompt": {
+        "en": "Capture the carefully curated aesthetic of a vintage clothing store's window display or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-3",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph the unique, owner-operated storefront of a small boutique, bar, or cafe that expresses a strong personality."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-4",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Street Style Spotlight"
+      },
+      "prompt": {
+        "en": "Capture the fashion of Daimyo. Take a discreet photo focusing on a unique accessory, pair of shoes, or clothing item that defines the local style."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-5",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Vinyl Vision"
+      },
+      "prompt": {
+        "en": "Find a record store and take a colorful, graphic photo of the album art on display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-6",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Shutter Canvas"
+      },
+      "prompt": {
+        "en": "Find a shop's roll-down shutter that has been painted with art and photograph it as a complete canvas."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-7",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Texture Hunt"
+      },
+      "prompt": {
+        "en": "Create a close-up, abstract photo of an interesting texture you find in an alley—peeling paint, rusted metal, or worn concrete."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-8",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Hidden Hangout"
+      },
+      "prompt": {
+        "en": "Find a tiny standing bar or cafe tucked away in a spot that looks like a local secret and capture its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-9",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Urban Jungle"
+      },
+      "prompt": {
+        "en": "Frame a shot where potted plants or vines are growing in an unexpected urban space, like up a utility pole or in a narrow gap between buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-10",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Reflections of Subculture"
+      },
+      "prompt": {
+        "en": "Capture the reflection of Daimyo's energetic street scene in a shop window, a puddle, or a pair of sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-11",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "The Art of the Bizarre"
+      },
+      "prompt": {
+        "en": "Find a shop window or art piece that is wonderfully strange or avant-garde and capture its unique aesthetic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-12",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a narrow alleyway that looks interesting, inviting the viewer to explore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-13",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Night Lights, City Life"
+      },
+      "prompt": {
+        "en": "After dark, capture the glow of a single, interesting neon sign from a small bar or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-14",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Aroma-led Adventure"
+      },
+      "prompt": {
+        "en": "The report says to let intriguing aromas guide you. Follow your nose to a small eatery and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "daimyo-task-15",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Sticker Collage"
+      },
+      "prompt": {
+        "en": "Find a lamp post or utility box covered in stickers and create a close-up photo that looks like a collage of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-1",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Industrial Giant"
+      },
+      "prompt": {
+        "en": "Use a wide-angle view to capture the entire industrial tower against the sky, emphasizing its colossal scale and isolation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-2",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Concrete Poetry"
+      },
+      "prompt": {
+        "en": "Get close to a textured surface on an old industrial wall or foundation and take a dramatic, abstract photo of the weathered concrete."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-3",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Suburbia's Shadow"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the stark contrast between a quiet residential home and the monolithic industrial structure looming nearby."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-4",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Nature's Reclamation"
+      },
+      "prompt": {
+        "en": "Find and photograph a plant, vine, or patch of moss growing on or through a crack in the old industrial ruins."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-5",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Monolithic Mood"
+      },
+      "prompt": {
+        "en": "Create a dramatic, moody black and white photo of the winding tower, focusing on its brutalist shapes and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-6",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "The Beauty of Decay"
+      },
+      "prompt": {
+        "en": "Find a detail that showcases the beauty in urban decay—like peeling paint, rust stains, or crumbling brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-7",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Quiet Streets"
+      },
+      "prompt": {
+        "en": "Capture the peaceful, almost silent atmosphere of the residential streets that surround the industrial landmark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-8",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Vending Machine Moment"
+      },
+      "prompt": {
+        "en": "Take a classic Japanese exploration photo of a local vending machine, with the quiet suburban scenery in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-9",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Shadow of the Giant"
+      },
+      "prompt": {
+        "en": "Photograph the long, dramatic shadow cast by the winding tower across the surrounding town."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-10",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Minimalist Frame"
+      },
+      "prompt": {
+        "en": "Isolate a single, interesting geometric shape or section of the tower against a plain, empty sky for a minimalist composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-11",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Juxtaposition"
+      },
+      "prompt": {
+        "en": "Find a modern object, like a new car or a child's bicycle, and photograph it with the old industrial tower in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-12",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Fence Line View"
+      },
+      "prompt": {
+        "en": "Use the perimeter fence around the tower as a leading line in your photo to draw the eye towards the structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-13",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Echoes of Industry"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel best captures the feeling of a forgotten industrial past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-14",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Dystopian Sky"
+      },
+      "prompt": {
+        "en": "On a cloudy day, shoot upwards at the tower to create a dramatic, dystopian photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "shime-task-15",
+      "neighborhood_id": "shime",
+      "title": {
+        "en": "Perfect Vantage Point"
+      },
+      "prompt": {
+        "en": "Walk the perimeter and find the best, unobstructed view of the tower from a public street, then capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-1",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Sacred & Modern"
+      },
+      "prompt": {
+        "en": "Find a view that captures both traditional shrine architecture and a bold, contemporary design element in a single frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-2",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Mochi Moment"
+      },
+      "prompt": {
+        "en": "Take an artful close-up photo of the local specialty, *umegae mochi*, focusing on its texture and grill marks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-3",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Architectural Weave"
+      },
+      "prompt": {
+        "en": "Find a building with interlocking wooden beams or lattice work and take an abstract photo of its geometric pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-4",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "A Prayer in Color"
+      },
+      "prompt": {
+        "en": "Photograph the vibrant colors and handwritten wishes on the *ema* (wooden prayer plaques) hanging at the shrine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-5",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Pilgrim's Path"
+      },
+      "prompt": {
+        "en": "Capture the energy and flow of people along the bustling Omote-Sando (main approach street) to the shrine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-6",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Bridge to Another World"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the shrine's iconic arched bridges, focusing on its reflection in the pond below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-7",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Stone Lantern Story"
+      },
+      "prompt": {
+        "en": "Find an old, moss-covered stone lantern and take a detailed photo that captures its sense of age and history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-8",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Art of the Snack"
+      },
+      "prompt": {
+        "en": "Find a shop grilling *umegae mochi* and photograph the traditional molds and the process of the cakes being made."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-9",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Sacred Symbol"
+      },
+      "prompt": {
+        "en": "The plum blossom is the symbol of the shrine. Find this motif on a roof tile, a lantern, or a piece of fabric and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-10",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Step away from the crowded main path to find a less-visited part of the shrine grounds and capture its tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-11",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Ancient Camphor"
+      },
+      "prompt": {
+        "en": "Find one of the massive, ancient camphor trees on the shrine grounds and take a photo that conveys its age and scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-12",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "The Calligrapher's Art"
+      },
+      "prompt": {
+        "en": "Photograph a piece of beautiful Japanese calligraphy on a sign, a paper fortune (*omikuji*), or a temple charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-13",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Souvenir Still Life"
+      },
+      "prompt": {
+        "en": "Find a shop with an artistic display of traditional souvenirs and create a well-composed still life photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-14",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Use the surface of the shrine's pond to capture a painterly reflection of the traditional buildings and surrounding nature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "dazaifu-task-15",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Paper Fortunes"
+      },
+      "prompt": {
+        "en": "Photograph the white paper fortunes (*omikuji*) tied to tree branches or wires, creating a textured, meaningful image."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:36:05.004638+00:00"
+    },
+    {
+      "id": "hakata-task-1",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Urban Flow"
+      },
+      "prompt": {
+        "en": "Capture the motion of people and trains around Hakata Station with a long exposure or a creative blur."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-2",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Yatai Feast"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering photo of food being prepared at a yatai street stall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-3",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Business District Lines"
+      },
+      "prompt": {
+        "en": "Find and photograph interesting architectural lines or patterns on a modern office building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-4",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Commuter's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the bustling energy of Hakata's transportation hub."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-5",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a small, overlooked shrine or historical marker tucked away on a side street and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-6",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "River Reflections"
+      },
+      "prompt": {
+        "en": "Capture the city lights reflecting on the Naka River at night."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-7",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Photograph a local specialty, like mentaiko or motsunabe, on display in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-8",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Find a vibrant neon sign and use its light to create a colorful portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-9",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "A Moment of Calm"
+      },
+      "prompt": {
+        "en": "Find a quiet spot amidst the urban hustle, like a small park or temple entrance, and capture the peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-10",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Transportation Patterns"
+      },
+      "prompt": {
+        "en": "Create an interesting composition using the repeating patterns of buses, taxis, or train tracks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-11",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Office Lunch"
+      },
+      "prompt": {
+        "en": "Snap a picture of a typical lunch spot for local workers, capturing the midday rush."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-12",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Souvenir Hunt"
+      },
+      "prompt": {
+        "en": "Find the most unique or interesting Fukuoka souvenir and take a creative picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-13",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Concrete & Green"
+      },
+      "prompt": {
+        "en": "Photograph a place where modern architecture meets a surprising touch of nature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-14",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Gateway to Kyushu"
+      },
+      "prompt": {
+        "en": "Take a photo that represents Hakata as a major entry point to the island of Kyushu."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-15",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "After Dark"
+      },
+      "prompt": {
+        "en": "Capture the atmosphere of a Hakata street after the sun goes down, focusing on lights and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-16",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Local Commute"
+      },
+      "prompt": {
+        "en": "Take a photo of a bicycle parked in an interesting or quintessentially Japanese way."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-17",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Snack Attack"
+      },
+      "prompt": {
+        "en": "Find a vending machine with an unusual drink or snack and take a photo of your selection."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "hakata-task-18",
+      "neighborhood_id": "hakata",
+      "title": {
+        "en": "Hakata Weave"
+      },
+      "prompt": {
+        "en": "Find a textile or pattern in the neighborhood that reminds you of the famous Hakata-ori weaving."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-1",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Temple Tranquility"
+      },
+      "prompt": {
+        "en": "Capture the serene atmosphere inside a temple compound, focusing on the quiet and stillness."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-2",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Lantern Light"
+      },
+      "prompt": {
+        "en": "Take a photo of a traditional paper lantern, whether it's lit at dusk or hanging quietly in the day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-3",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find an old wooden building or wall and take a close-up shot of its weathered texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-4",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Sacred Stone"
+      },
+      "prompt": {
+        "en": "Photograph a stone statue or monument within a shrine's grounds, perhaps covered in moss."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-5",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "A Path Well Trodden"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a stone path or staircase, imagining the history it has seen."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-6",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Gion's Greenery"
+      },
+      "prompt": {
+        "en": "Find a perfectly manicured tree or a patch of vibrant moss and capture its beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-7",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on an intricate detail of a temple roof, gate, or wooden carving."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-8",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Quiet Contemplation Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a quiet, reflective spot within a temple or shrine garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-9",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Shadows and Light"
+      },
+      "prompt": {
+        "en": "Play with the strong shadows cast by old buildings or trees to create a dramatic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-10",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Offering of Peace"
+      },
+      "prompt": {
+        "en": "Photograph the details of an offering left at a shrine, like coins, sake, or food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-11",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Find a narrow, quiet street and capture its mysterious and timeless atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-12",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Timeless Tilework"
+      },
+      "prompt": {
+        "en": "Find and photograph a beautiful or interesting roof tile pattern on a traditional building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-13",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Water's Blessing"
+      },
+      "prompt": {
+        "en": "Photograph a chozuya, the water purification basin at a shrine, focusing on the flow of water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-14",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Neighborhood Guardian"
+      },
+      "prompt": {
+        "en": "Find a komainu (guardian dog) statue and take its portrait, capturing its character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-15",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Incense Smoke"
+      },
+      "prompt": {
+        "en": "Capture the ethereal look of incense smoke wafting through the air at a temple."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-16",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "A Glimpse of History"
+      },
+      "prompt": {
+        "en": "Frame a modern element (like a vending machine) with a traditional building to show contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-17",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Sounds of Silence"
+      },
+      "prompt": {
+        "en": "Take a photo that visually represents the quietness of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "gion-task-18",
+      "neighborhood_id": "gion",
+      "title": {
+        "en": "Traditional Craft"
+      },
+      "prompt": {
+        "en": "Find an example of traditional craftsmanship, like pottery, woodwork, or textiles, in a local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-1",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Street Style Spotlight"
+      },
+      "prompt": {
+        "en": "Capture a photo of a unique or fashionable outfit (from a respectful distance)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-2",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Café Culture"
+      },
+      "prompt": {
+        "en": "Take an artistic shot of your coffee or a cozy café interior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-3",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Urban Art Hunt"
+      },
+      "prompt": {
+        "en": "Find a piece of street art, graffiti, or a cool mural on a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-4",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Boutique Window Shopping"
+      },
+      "prompt": {
+        "en": "Photograph an interesting or artistic display in a small shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-5",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of relaxation or activity in Ōhori or Maizuru Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-6",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Modernist Angles"
+      },
+      "prompt": {
+        "en": "Find a building with sharp, modern architectural lines and create a dynamic composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-7",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Daimyo by Night"
+      },
+      "prompt": {
+        "en": "Photograph the glow of bars, restaurants, and shops after dark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-8",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Foodie Flatlay"
+      },
+      "prompt": {
+        "en": "Arrange your meal from a trendy eatery for a top-down photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-9",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Hidden Gem Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a cool, lesser-known shop or alleyway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-10",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Use a puddle or window to capture a reflection of the Daimyo streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-11",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Find a plant or tree thriving in an unexpected urban spot, like a crack in the pavement."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-12",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "Find a brightly colored door, wall, or sign and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-13",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a scene where a traditional element contrasts with Daimyo's modern vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-14",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Cycle Chic"
+      },
+      "prompt": {
+        "en": "Photograph a stylish bicycle parked on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-15",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Abstract Architecture"
+      },
+      "prompt": {
+        "en": "Get up close to a building and capture an abstract photo of its textures and patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-16",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "The Art of the Meal"
+      },
+      "prompt": {
+        "en": "Take a picture of a beautifully presented plate of food from a local restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-17",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "Stairway to Somewhere"
+      },
+      "prompt": {
+        "en": "Find an interesting staircase, either indoor or outdoor, and take a creative photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "daimyo-task-18",
+      "neighborhood_id": "daimyo",
+      "title": {
+        "en": "The Perfect Accessory"
+      },
+      "prompt": {
+        "en": "Spot and photograph a unique bag, hat, or pair of shoes in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-1",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Pilgrim's Path"
+      },
+      "prompt": {
+        "en": "Take a photo looking down the main sando (path) towards the shrine, capturing the sense of journey."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-2",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Sacred Geometry"
+      },
+      "prompt": {
+        "en": "Find and photograph a symmetrical pattern in the shrine's architecture or gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-3",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Whispers of History"
+      },
+      "prompt": {
+        "en": "Capture the texture of an ancient stone lantern or monument, showing its age."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-4",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use a tree branch or gate to frame a shot of a temple building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-5",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Take a photo of the reflection of the sky or buildings in the water of a pond or stream."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-6",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Scholar's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie near a symbol of knowledge or learning, like a statue of an ox or a calligraphy display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-7",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Umegae Mochi Moment"
+      },
+      "prompt": {
+        "en": "Get a close-up, delicious-looking shot of the famous local umegae mochi rice cake snack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-8",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Bridge to Serenity"
+      },
+      "prompt": {
+        "en": "Photograph one of the iconic arched bridges on the shrine grounds, focusing on its curve."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-9",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Ancient Camphor Tree"
+      },
+      "prompt": {
+        "en": "Capture the immense scale and gnarled texture of one of the ancient camphor trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-10",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Ema Wishes"
+      },
+      "prompt": {
+        "en": "Take a respectful photo of the wooden ema plaques where visitors have written their wishes and prayers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-11",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Museum Modernism"
+      },
+      "prompt": {
+        "en": "Contrast the modern architecture of the Kyushu National Museum with its natural surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-12",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "A Splash of Plum"
+      },
+      "prompt": {
+        "en": "Find a plum blossom (or any flower) and take a macro shot, focusing on its delicate details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-13",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "The Color of Luck"
+      },
+      "prompt": {
+        "en": "Find something bright vermilion red, a color often associated with shrines, and make it pop in your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-14",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Stone Guardians"
+      },
+      "prompt": {
+        "en": "Take a portrait of a komainu (guardian dog) or other stone statue, capturing its expression."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-15",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a less-crowded corner of the grounds and capture its peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-16",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Path to the Past"
+      },
+      "prompt": {
+        "en": "Photograph a stone pathway leading into a wooded area, creating a sense of mystery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-17",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Details of Devotion"
+      },
+      "prompt": {
+        "en": "Capture a close-up of a shimenawa rope, a bell, or other detail at the main shrine building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    },
+    {
+      "id": "dazaifu-task-18",
+      "neighborhood_id": "dazaifu",
+      "title": {
+        "en": "Souvenir Street"
+      },
+      "prompt": {
+        "en": "Take a vibrant photo of the shops and crowds lining the approach to the shrine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:16:39.486450+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

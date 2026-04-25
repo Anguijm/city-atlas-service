@@ -1,0 +1,1988 @@
+{
+  "neighborhoods": [
+    {
+      "id": "rino",
+      "city_id": "denver",
+      "name": {
+        "en": "RiNo (River North Art District)"
+      },
+      "summary": {
+        "en": "Denver's creative soul, an industrial-chic neighborhood where former warehouses and factories have been reborn as a canvas for the city's most dynamic art scene."
+      },
+      "lat": 39.7625,
+      "lng": -104.9878,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi",
+      "city_id": "denver",
+      "name": {
+        "en": "LoHi (Lower Highland)"
+      },
+      "summary": {
+        "en": "Perched on a hill across from downtown, LoHi is trendy and scenic, known for its unbeatable skyline views, excellent restaurants, and a lively, youthful energy."
+      },
+      "lat": 39.758,
+      "lng": -105.01,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway",
+      "city_id": "denver",
+      "name": {
+        "en": "South Broadway (SoBo) / Baker"
+      },
+      "summary": {
+        "en": "Eclectic, funky, and fiercely independent, this is where you go for treasure hunting in antique shops, browsing vintage clothing, and discovering authentic dive bars and music venues."
+      },
+      "lat": 39.71,
+      "lng": -104.9875,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill",
+      "city_id": "denver",
+      "name": {
+        "en": "Capitol Hill"
+      },
+      "summary": {
+        "en": "A historic, dense, and diverse neighborhood of contrasts, where stately 19th-century mansions stand alongside mid-century apartment buildings with a slightly bohemian, lived-in feel."
+      },
+      "lat": 39.735,
+      "lng": -104.98,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district",
+      "city_id": "denver",
+      "name": {
+        "en": "Art District on Santa Fe"
+      },
+      "summary": {
+        "en": "The vibrant heart of Denver's Hispanic culture and grassroots art scene, packed with the highest concentration of art galleries in the state and authentic Latin American food."
+      },
+      "lat": 39.728,
+      "lng": -104.999,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street",
+      "city_id": "denver",
+      "name": {
+        "en": "Tennyson Street Cultural District (Berkeley)"
+      },
+      "summary": {
+        "en": "A charming, walkable main street with a relaxed, local, and artsy atmosphere, lined with a quirky collection of independent boutiques, galleries, and one-of-a-kind restaurants."
+      },
+      "lat": 39.773,
+      "lng": -105.047,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "rino-enr-our-mutual-friend-brewing",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "Our Mutual Friend Brewing"
+      },
+      "description": {
+        "en": "An intimate, no-frills taproom focusing on high-quality, small-batch beers that fosters a strong sense of community."
+      },
+      "type": "drink",
+      "lat": 39.7634,
+      "lng": -104.9842,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-enr-death-co",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "Death & Co"
+      },
+      "description": {
+        "en": "A legendary New York cocktail institution offering sophisticated, world-class cocktails in a stylish, salon-inspired setting inside The Ramble Hotel."
+      },
+      "type": "nightlife",
+      "lat": 39.7616,
+      "lng": -104.986,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-enr-comal-heritage-food-incubator",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "Comal Heritage Food Incubator"
+      },
+      "description": {
+        "en": "A standout fast-casual Mexican spot serving authentic dishes while providing culinary and business training to immigrant and refugee women."
+      },
+      "type": "food",
+      "lat": 39.768,
+      "lng": -104.9855,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-enr-la-diabla-pozole-y-mezcal",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "La Diabla Pozole Y Mezcal"
+      },
+      "description": {
+        "en": "A vibrant restaurant dedicated to the rich traditions of Mexican pozole and mezcal, with a signature dish that is a must-try."
+      },
+      "type": "food",
+      "lat": 39.761,
+      "lng": -104.987,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-enr-denver-central-market",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "Denver Central Market"
+      },
+      "description": {
+        "en": "A bustling, upscale food hall housing nearly a dozen local vendors, ideal for groups with options from pizza to oysters."
+      },
+      "type": "food",
+      "lat": 39.7614,
+      "lng": -104.9865,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-enr-rino-art-alleys",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "RiNo Art Alleys"
+      },
+      "description": {
+        "en": "The heart of RiNo, this is an ever-changing outdoor gallery of world-class street art from local and international artists."
+      },
+      "type": "culture",
+      "lat": 39.764,
+      "lng": -104.985,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-enr-the-source-hotel-market-hall",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "The Source Hotel & Market Hall"
+      },
+      "description": {
+        "en": "A restored 1880s brick foundry housing a curated collection of artisans, restaurants, and shops."
+      },
+      "type": "shopping",
+      "lat": 39.7695,
+      "lng": -104.9845,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-enr-f1-arcade-denver",
+      "city_id": "denver",
+      "neighborhood_id": "rino",
+      "name": {
+        "en": "F1 Arcade Denver"
+      },
+      "description": {
+        "en": "A surprisingly chic spot featuring full-motion racing simulators paired with an impressive cocktail program for a unique social experience."
+      },
+      "type": "nightlife",
+      "lat": 39.7648,
+      "lng": -104.983,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-enr-avanti-food-beverage",
+      "city_id": "denver",
+      "neighborhood_id": "lohi",
+      "name": {
+        "en": "Avanti Food & Beverage"
+      },
+      "description": {
+        "en": "A modern food hall built from shipping containers, boasting seven culinary concepts and a spectacular rooftop bar with amazing skyline views."
+      },
+      "type": "viewpoint",
+      "lat": 39.758,
+      "lng": -105.008,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-enr-mezcaleria-alma",
+      "city_id": "denver",
+      "neighborhood_id": "lohi",
+      "name": {
+        "en": "Mezcaleria Alma"
+      },
+      "description": {
+        "en": "A cozy spot specializing in a wide array of mezcals and creative, high-quality Mexican cuisine."
+      },
+      "type": "food",
+      "lat": 39.761,
+      "lng": -105.011,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-enr-little-man-ice-cream",
+      "city_id": "denver",
+      "neighborhood_id": "lohi",
+      "name": {
+        "en": "Little Man Ice Cream"
+      },
+      "description": {
+        "en": "A Denver institution housed in a 28-foot-tall milk can, serving creative, homemade ice cream flavors that are worth the long line."
+      },
+      "type": "food",
+      "lat": 39.759,
+      "lng": -105.01,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-enr-highland-bridge",
+      "city_id": "denver",
+      "neighborhood_id": "lohi",
+      "name": {
+        "en": "Highland Bridge"
+      },
+      "description": {
+        "en": "This iconic pedestrian bridge connects LoHi to downtown and is the premier vantage point for the classic Denver skyline photograph."
+      },
+      "type": "viewpoint",
+      "lat": 39.756,
+      "lng": -105.006,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-enr-the-kirk-of-highland",
+      "city_id": "denver",
+      "neighborhood_id": "lohi",
+      "name": {
+        "en": "The Kirk of Highland"
+      },
+      "description": {
+        "en": "A beautiful, historic Gothic Revival church that has been repurposed as a unique event space, hosting markets and concerts."
+      },
+      "type": "landmark",
+      "lat": 39.762,
+      "lng": -105.018,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-enr-lohi-residential-streets",
+      "city_id": "denver",
+      "neighborhood_id": "lohi",
+      "name": {
+        "en": "LoHi Residential Streets"
+      },
+      "description": {
+        "en": "Wander the quieter side streets to discover the neighborhood's true character in the fascinating blend of historic brick homes and ultra-modern new builds."
+      },
+      "type": "hidden_gem",
+      "lat": 39.76,
+      "lng": -105.014,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-enr-fellow-traveler",
+      "city_id": "denver",
+      "neighborhood_id": "south-broadway",
+      "name": {
+        "en": "Fellow Traveler"
+      },
+      "description": {
+        "en": "A cozy, plant-filled vegan bar with a global vibe, offering creative cocktails and excellent vegan small plates."
+      },
+      "type": "drink",
+      "lat": 39.708,
+      "lng": -104.987,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-enr-somebody-people",
+      "city_id": "denver",
+      "neighborhood_id": "south-broadway",
+      "name": {
+        "en": "Somebody People"
+      },
+      "description": {
+        "en": "A vibrant, vegetable-focused restaurant with a lively atmosphere and delicious Mediterranean-inspired pastas."
+      },
+      "type": "food",
+      "lat": 39.705,
+      "lng": -104.987,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-enr-the-easy-vegan-pop-up",
+      "city_id": "denver",
+      "neighborhood_id": "south-broadway",
+      "name": {
+        "en": "The Easy Vegan (Pop-Up)"
+      },
+      "description": {
+        "en": "A beloved roving pop-up with a cult following for its hearty and flavorful vegan comfort food. Check social media for current location."
+      },
+      "type": "food",
+      "lat": 39.712,
+      "lng": -104.987,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-enr-antique-row",
+      "city_id": "denver",
+      "neighborhood_id": "south-broadway",
+      "name": {
+        "en": "Antique Row"
+      },
+      "description": {
+        "en": "A treasure hunter's paradise packed with dozens of independent dealers selling everything from mid-century modern furniture to quirky collectibles."
+      },
+      "type": "shopping",
+      "lat": 39.69,
+      "lng": -104.987,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-enr-goldmine-vintage",
+      "city_id": "denver",
+      "neighborhood_id": "south-broadway",
+      "name": {
+        "en": "Goldmine Vintage"
+      },
+      "description": {
+        "en": "A well-curated vintage clothing store packed with unique clothing, boots, and accessories from various decades."
+      },
+      "type": "shopping",
+      "lat": 39.721,
+      "lng": -104.987,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-enr-la-lovely-vintage",
+      "city_id": "denver",
+      "neighborhood_id": "south-broadway",
+      "name": {
+        "en": "La Lovely Vintage"
+      },
+      "description": {
+        "en": "A charming boutique specializing in high-quality, carefully selected vintage clothing and accessories for a more curated shopping experience."
+      },
+      "type": "shopping",
+      "lat": 39.715,
+      "lng": -104.987,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-enr-city-ocity",
+      "city_id": "denver",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "City, O’City"
+      },
+      "description": {
+        "en": "A legendary Denver institution, this bustling, artsy vegetarian cafe serves a massive menu from breakfast to late-night with a full bar."
+      },
+      "type": "food",
+      "lat": 39.737,
+      "lng": -104.984,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-enr-the-porchetta-house",
+      "city_id": "denver",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "The Porchetta House"
+      },
+      "description": {
+        "en": "A small, focused sandwich shop dedicated to perfecting one thing: incredible, slow-roasted Italian porchetta."
+      },
+      "type": "food",
+      "lat": 39.7371,
+      "lng": -104.9845,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-enr-onefold",
+      "city_id": "denver",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "Onefold"
+      },
+      "description": {
+        "en": "A tiny but mighty breakfast and lunch spot with a cult following for its Chinese and Southeast Asian-inspired menu, featuring bacon fried rice and congee."
+      },
+      "type": "food",
+      "lat": 39.744,
+      "lng": -104.975,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-enr-molly-brown-house-museum",
+      "city_id": "denver",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "Molly Brown House Museum"
+      },
+      "description": {
+        "en": "The beautifully preserved Victorian home of Titanic survivor Margaret 'Molly' Brown, offering a fascinating glimpse into the life of an iconic Denver resident."
+      },
+      "type": "culture",
+      "lat": 39.737,
+      "lng": -104.98,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-enr-cheesman-park",
+      "city_id": "denver",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "Cheesman Park"
+      },
+      "description": {
+        "en": "A beautiful, sprawling urban park with a grand neoclassical pavilion, formal gardens, and a slightly spooky local lore as it was built on a former cemetery."
+      },
+      "type": "nature",
+      "lat": 39.733,
+      "lng": -104.97,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-enr-byers-evans-house-museum",
+      "city_id": "denver",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "Byers-Evans House Museum"
+      },
+      "description": {
+        "en": "An elegant historic house museum that tells the story of two prominent early Denver families, providing insight into the city's development."
+      },
+      "type": "culture",
+      "lat": 39.738,
+      "lng": -104.99,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-enr-colorado-state-capitol",
+      "city_id": "denver",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "Colorado State Capitol"
+      },
+      "description": {
+        "en": "The iconic government building on the edge of the neighborhood, famous for its gold dome and the official 'One Mile Above Sea Level' marker on its steps."
+      },
+      "type": "landmark",
+      "lat": 39.739,
+      "lng": -104.985,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-enr-esp",
+      "city_id": "denver",
+      "neighborhood_id": "santa-fe-arts-district",
+      "name": {
+        "en": "ESP"
+      },
+      "description": {
+        "en": "A unique hybrid spot that is part hi-fi listening lounge, part record store, and part coffee shop and wine bar."
+      },
+      "type": "drink",
+      "lat": 39.729,
+      "lng": -105.0,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-enr-el-taco-de-mexico",
+      "city_id": "denver",
+      "neighborhood_id": "santa-fe-arts-district",
+      "name": {
+        "en": "El Taco De México"
+      },
+      "description": {
+        "en": "A no-frills, cash-only Denver icon serving some of the most authentic and beloved Mexican street food, including a legendary green chile-drenched breakfast burrito."
+      },
+      "type": "food",
+      "lat": 39.727,
+      "lng": -104.999,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-enr-gallery-hopping-on-santa-fe-drive",
+      "city_id": "denver",
+      "neighborhood_id": "santa-fe-arts-district",
+      "name": {
+        "en": "Gallery Hopping on Santa Fe Drive"
+      },
+      "description": {
+        "en": "The main street is lined with dozens of galleries; spend an afternoon wandering in and out to discover contemporary painting, sculpture, and traditional folk art."
+      },
+      "type": "culture",
+      "lat": 39.73,
+      "lng": -105.0,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-enr-cultural-murals",
+      "city_id": "denver",
+      "neighborhood_id": "santa-fe-arts-district",
+      "name": {
+        "en": "Cultural Murals"
+      },
+      "description": {
+        "en": "Look for large-scale murals on the sides of buildings that celebrate the neighborhood's deep Hispanic roots and cultural heritage."
+      },
+      "type": "culture",
+      "lat": 39.7285,
+      "lng": -104.9995,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-enr-first-friday-art-walks",
+      "city_id": "denver",
+      "neighborhood_id": "santa-fe-arts-district",
+      "name": {
+        "en": "First Friday Art Walks"
+      },
+      "description": {
+        "en": "On the first Friday of the month, the neighborhood transforms into a massive, lively street party where galleries stay open late and food trucks line the streets."
+      },
+      "type": "nightlife",
+      "lat": 39.731,
+      "lng": -105.001,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-enr-vital-root",
+      "city_id": "denver",
+      "neighborhood_id": "tennyson-street",
+      "name": {
+        "en": "Vital Root"
+      },
+      "description": {
+        "en": "A 'fast-slow food' spot with a beautiful patio, serving creative and healthy vegetable-forward dishes inspired by global cuisine."
+      },
+      "type": "food",
+      "lat": 39.77,
+      "lng": -105.047,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-enr-glo-noodle-house",
+      "city_id": "denver",
+      "neighborhood_id": "tennyson-street",
+      "name": {
+        "en": "Glo Noodle House"
+      },
+      "description": {
+        "en": "A cozy and perpetually popular spot for soul-warming bowls of ramen, fantastic kimchi dumplings, and other Japanese-inspired dishes."
+      },
+      "type": "food",
+      "lat": 39.769,
+      "lng": -105.035,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-enr-flouwer-co",
+      "city_id": "denver",
+      "neighborhood_id": "tennyson-street",
+      "name": {
+        "en": "Flouwer Co."
+      },
+      "description": {
+        "en": "Hailed as possibly the cutest boutique in Denver, this unique shop sells a range of artisanal, all-natural, floral-infused foods and gifts."
+      },
+      "type": "shopping",
+      "lat": 39.775,
+      "lng": -105.047,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-enr-tennyson-street-art-galleries",
+      "city_id": "denver",
+      "neighborhood_id": "tennyson-street",
+      "name": {
+        "en": "Tennyson Street Art Galleries"
+      },
+      "description": {
+        "en": "Stroll down Tennyson between 38th and 46th Avenues and pop into the various small, independent art galleries that showcase local and regional artists."
+      },
+      "type": "culture",
+      "lat": 39.774,
+      "lng": -105.047,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-enr-tennyson-street-boutiques",
+      "city_id": "denver",
+      "neighborhood_id": "tennyson-street",
+      "name": {
+        "en": "Tennyson Street Boutiques"
+      },
+      "description": {
+        "en": "The street is known for its collection of small, locally-owned shops where you'll find unique clothing, gifts, and home goods."
+      },
+      "type": "shopping",
+      "lat": 39.772,
+      "lng": -105.047,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "rino-task-1",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Find a wall with an interesting industrial texture—like corrugated metal, old brick, or peeling paint—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-2",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Mural Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you blend in or interact with a piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-3",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Color Explosion"
+      },
+      "prompt": {
+        "en": "Find the most colorful mural you can and take a photo that captures its vibrant energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-4",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Creative Spirit"
+      },
+      "prompt": {
+        "en": "Photograph something that you feel represents the innovative and artistic spirit of RiNo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-5",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Hidden Art"
+      },
+      "prompt": {
+        "en": "Look for a tiny or hidden piece of street art—a small stencil, sticker, or tag—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-6",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Brewery Vibe"
+      },
+      "prompt": {
+        "en": "Capture the atmosphere of a local brewery or taproom, focusing on the community feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-7",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between RiNo's industrial past (old warehouses) and its creative present (new art or businesses)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-8",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Artistic Reflection"
+      },
+      "prompt": {
+        "en": "Find a puddle, window, or shiny surface and capture a reflection of a nearby mural."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-9",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Food Art"
+      },
+      "prompt": {
+        "en": "Take an artfully arranged photo of a delicious dish or craft drink you're enjoying in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-10",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the shadows cast by buildings or fire escapes to create a dramatic, artistic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-11",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "The Rhino Hunt"
+      },
+      "prompt": {
+        "en": "Find a depiction of a rhino (the neighborhood's mascot) and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-12",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Alleyway Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo looking down one of the art-filled alleys, using perspective to create a sense of depth."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-13",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Urban Flora"
+      },
+      "prompt": {
+        "en": "Find a plant or flower growing in an unexpected industrial place and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-14",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "Message in the Art"
+      },
+      "prompt": {
+        "en": "Find a piece of street art with text or a message and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "rino-task-15",
+      "neighborhood_id": "rino",
+      "title": {
+        "en": "My Favorite Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on a tiny, interesting detail of a larger mural that others might miss."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-1",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Skyline View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the downtown skyline and capture the cityscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-2",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a historic Victorian home right next to a sharp, modern building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-3",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Trendy Treat"
+      },
+      "prompt": {
+        "en": "Photograph a cool-looking coffee, cocktail, or ice cream that captures the neighborhood's trendy vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-4",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from a pedestrian bridge, using its lines to frame the city or the river below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-5",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Modern Lines"
+      },
+      "prompt": {
+        "en": "Find an example of interesting modern architecture and take a photo focusing on its clean lines and angles."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-6",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Historic Detail"
+      },
+      "prompt": {
+        "en": "Find an old brick building and take a close-up of a unique architectural detail, like a window frame or cornice."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-7",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Rooftop Life"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows off the neighborhood's rooftop culture, whether it's a bar, a patio, or a garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-8",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Neighborhood Steps"
+      },
+      "prompt": {
+        "en": "Take a photo of an interesting staircase or front stoop on a residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-9",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Effortlessly Cool Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that embodies the 'effortlessly cool' vibe of LoHi."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-10",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "View from the Hill"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a hill towards the rest of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-11",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "City Lights"
+      },
+      "prompt": {
+        "en": "If you're here at dusk, capture the city lights as they begin to sparkle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-12",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Unique Front Door"
+      },
+      "prompt": {
+        "en": "Find and photograph the most unique or colorful front door you can find on a residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-13",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Patio Paradise"
+      },
+      "prompt": {
+        "en": "Capture the scene at a bustling outdoor patio or beer garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-14",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "Glass and Steel"
+      },
+      "prompt": {
+        "en": "Take an abstract photo of the reflections in a modern glass building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "lohi-task-15",
+      "neighborhood_id": "lohi",
+      "title": {
+        "en": "The Perfect Perch"
+      },
+      "prompt": {
+        "en": "Find a bench or spot that looks like the perfect place to sit and watch the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-1",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Vintage Find"
+      },
+      "prompt": {
+        "en": "Photograph the most interesting or bizarre item you find in a vintage or antique shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-2",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Funky Facade"
+      },
+      "prompt": {
+        "en": "Capture the storefront of an independent shop with a unique or eccentric design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-3",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Retro Signage"
+      },
+      "prompt": {
+        "en": "Find and photograph a cool old neon or retro-style sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-4",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "My SoBo Style"
+      },
+      "prompt": {
+        "en": "Take a selfie reflecting in a shop window, showing off your best treasure-hunting look."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-5",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "A Piece of the Past"
+      },
+      "prompt": {
+        "en": "Find an object that looks like it has a great story to tell and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-6",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Eclectic Collection"
+      },
+      "prompt": {
+        "en": "Photograph a collection of mismatched items in a shop window or on a shelf."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-7",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Dive Bar Details"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the gritty, authentic soul of a local dive bar (from the outside is fine!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-8",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Street Style"
+      },
+      "prompt": {
+        "en": "Discreetly capture a photo that showcases the unique and independent fashion sense of the neighborhood's locals."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-9",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Comfort Food"
+      },
+      "prompt": {
+        "en": "Take a picture of a delicious, unpretentious meal or snack from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-10",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Worn and Loved"
+      },
+      "prompt": {
+        "en": "Find something with a lot of texture from age—like worn leather, cracked paint, or faded fabric—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-11",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Band Poster Wall"
+      },
+      "prompt": {
+        "en": "Find a wall or telephone pole covered in flyers and posters for local bands and events and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-12",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph a sign or symbol that you feel represents the fiercely independent spirit of South Broadway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-13",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Take a creative photo of an interesting display in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-14",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "Hidden Treasure"
+      },
+      "prompt": {
+        "en": "Photograph something you'd consider a 'hidden treasure'—something awesome that others might overlook."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "south-broadway-task-15",
+      "neighborhood_id": "south-broadway",
+      "title": {
+        "en": "SoBo Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most unusual background you can find in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-1",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Mansion Grandeur"
+      },
+      "prompt": {
+        "en": "Find a stately old mansion and take a photo that captures its historic grandeur."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-2",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of an interesting architectural detail on a historic building, like a gargoyle, stained glass window, or ornate carving."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-3",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a peaceful moment in Cheesman Park, focusing on the nature or the grand pavilion."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-4",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Spooky Vibes"
+      },
+      "prompt": {
+        "en": "Take a photo of a place that looks like it could be haunted, playing up the neighborhood's spooky lore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-5",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "A Glimpse of History"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-6",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Capitol View"
+      },
+      "prompt": {
+        "en": "Frame a shot of the State Capitol's golden dome between trees or buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-7",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Bohemian Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the lived-in, slightly bohemian feel of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-8",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Contrasting Eras"
+      },
+      "prompt": {
+        "en": "Photograph a historic mansion and a mid-century apartment building in the same shot to show the neighborhood's architectural contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-9",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Wrought Iron Art"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern in a wrought iron fence or gate and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-10",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Urban Garden"
+      },
+      "prompt": {
+        "en": "Find a beautiful garden or collection of potted plants in front of a historic home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-11",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Pathways"
+      },
+      "prompt": {
+        "en": "Take a photo of a winding path in a park or a historic cobblestone walkway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-12",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Majestic Tree"
+      },
+      "prompt": {
+        "en": "Find an old, majestic tree in the neighborhood and take a photo looking up through its branches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-13",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Historic Hangout"
+      },
+      "prompt": {
+        "en": "Capture the atmosphere of a long-standing neighborhood cafe or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-14",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Use late afternoon light to capture long shadows cast by the historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "capitol-hill-task-15",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Mile High Marker"
+      },
+      "prompt": {
+        "en": "Take a photo of your feet at a spot you believe is exactly one mile high."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-1",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Vibrant Colors"
+      },
+      "prompt": {
+        "en": "Find a building or mural with bold, vibrant colors and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-2",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Cultural Heritage"
+      },
+      "prompt": {
+        "en": "Take a photo of a piece of art or a mural that you feel celebrates the neighborhood's Hispanic culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-3",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Art Everywhere"
+      },
+      "prompt": {
+        "en": "Photograph a piece of art in an unexpected place, like on a utility box or a garage door."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-4",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo looking into an art gallery from the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-5",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Artistic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a piece of sculpture or public art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-6",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Authentic Flavor"
+      },
+      "prompt": {
+        "en": "Capture a photo of some authentic Latin American food from a local eatery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-7",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "My Favorite Piece"
+      },
+      "prompt": {
+        "en": "Visit a gallery and (if photography is allowed) take a picture of the piece of art that speaks to you the most."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-8",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Street Scene"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the lively energy of Santa Fe Drive."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-9",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Signs of Culture"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign written in Spanish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-10",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Creative Expression"
+      },
+      "prompt": {
+        "en": "Photograph something that you think is a perfect example of creative expression in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-11",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Patterns and Shapes"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern in a mural, a tiled entryway, or a building facade and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-12",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Artist at Work"
+      },
+      "prompt": {
+        "en": "Look for an open artist studio and (from a respectful distance) capture a photo that hints at the creative process inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-13",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Community Heart"
+      },
+      "prompt": {
+        "en": "Take a photo of a place that feels like a community gathering spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-14",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Music and Art"
+      },
+      "prompt": {
+        "en": "Find a visual representation of music in the neighborhood—a mural of a musician, a record store, or a venue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "santa-fe-arts-district-task-15",
+      "neighborhood_id": "santa-fe-arts-district",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the dominant color palette of the Art District."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-1",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Charming Storefront"
+      },
+      "prompt": {
+        "en": "Find the most charming or quirky independent boutique and capture its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-2",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Local Treasure"
+      },
+      "prompt": {
+        "en": "Photograph a unique, locally-made product you find in one of the shops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-3",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Relaxed Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the relaxed, neighborhood-centric atmosphere of Tennyson Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-4",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Artsy Detail"
+      },
+      "prompt": {
+        "en": "Find a small piece of public art, like a sculpture or a small mural, and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-5",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Window Display"
+      },
+      "prompt": {
+        "en": "Capture a creative and beautifully arranged window display in one of the boutiques."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-6",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Neighborhood Nosh"
+      },
+      "prompt": {
+        "en": "Take an appetizing photo of a meal or snack from one of the local, one-of-a-kind restaurants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-7",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Main Street Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the bustling, walkable main street in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-8",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Flower Power"
+      },
+      "prompt": {
+        "en": "Find a beautiful floral arrangement, whether in a shop, a hanging basket, or a garden, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-9",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Cozy Corner"
+      },
+      "prompt": {
+        "en": "Find a cozy-looking corner in a cafe or on a patio that looks like the perfect place to relax."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-10",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Shop Local"
+      },
+      "prompt": {
+        "en": "Take a photo of a sign or detail that emphasizes the 'shop local' spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-11",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Gallery Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph a piece of art through the window of one of the street's many galleries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-12",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Welcoming Entrance"
+      },
+      "prompt": {
+        "en": "Capture an inviting doorway or entrance to a local shop or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-13",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Street Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo looking down Tennyson Street, capturing the line of shops and trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-14",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Handmade Quality"
+      },
+      "prompt": {
+        "en": "Find an item that is clearly handmade or artisanal and take a close-up shot that shows its quality."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    },
+    {
+      "id": "tennyson-street-task-15",
+      "neighborhood_id": "tennyson-street",
+      "title": {
+        "en": "Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Photograph a detail that you think perfectly sums up the unique character of the Tennyson Street district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:14:46.166019+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -7,13 +7,13 @@
         "en": "Belouizdad"
       },
       "summary": {
-        "en": "A dense, historically working-class neighborhood with an authentic energy, where stories of literary fugitives are hidden in plain sight."
+        "en": "Raw, residential, and rich with hidden history, this area offers a glimpse into an Algiers that exists for its residents, not for tourists."
       },
-      "lat": 36.7521,
-      "lng": 3.0745,
-      "trending_score": 75,
+      "lat": 36.7545,
+      "lng": 3.0668,
+      "trending_score": 70,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
       "id": "el-madania",
@@ -22,100 +22,81 @@
         "en": "El Madania"
       },
       "summary": {
-        "en": "Perched on the hills, this district is defined by grand scale, national memory, and breathtaking panoramic views of Algiers."
+        "en": "Dominating the city from its hilltop perch, this district is defined by national pride, solemn remembrance, and breathtaking panoramic views."
       },
-      "lat": 36.7475,
-      "lng": 3.0695,
-      "trending_score": 90,
+      "lat": 36.758,
+      "lng": 3.07,
+      "trending_score": 85,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
+    },
+    {
+      "id": "ouled-fayet",
+      "city_id": "algiers",
+      "name": {
+        "en": "Ouled Fayet"
+      },
+      "summary": {
+        "en": "Centered around its magnificent opera house, this area showcases the modern, ambitious, and international face of Algiers."
+      },
+      "lat": 36.715,
+      "lng": 2.943,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     }
   ],
   "waypoints": [
     {
-      "id": "belouizdad-enr-the-cave-of-cervantes",
+      "id": "belouizdad-enr-the-cave-of-cervantes-la-grotte-de-cervantes",
       "city_id": "algiers",
       "neighborhood_id": "belouizdad",
       "name": {
-        "en": "The Cave of Cervantes"
+        "en": "The Cave of Cervantes (La Grotte de Cervantes)"
       },
       "description": {
-        "en": "The actual cave where Miguel de Cervantes hid in 1577 during an escape attempt, a raw and powerful piece of literary history."
+        "en": "An unassuming cave where Miguel de Cervantes, author of Don Quixote, is said to have hidden during an escape attempt from captivity in the 1570s."
       },
       "type": "hidden_gem",
       "lat": 36.7553,
-      "lng": 3.0751,
-      "trending_score": 85,
+      "lng": 3.0691,
+      "trending_score": 80,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
-      "id": "belouizdad-enr-neighborhood-street-life",
+      "id": "el-madania-enr-martyrs-memorial-makam-eshahid",
       "city_id": "algiers",
-      "neighborhood_id": "belouizdad",
+      "neighborhood_id": "el-madania",
       "name": {
-        "en": "Neighborhood Street Life"
+        "en": "Martyrs' Memorial (Makam Eshahid)"
       },
       "description": {
-        "en": "The area offers a vibrant slice of daily Algerian life, valued for its unfiltered atmosphere, local commerce, and residential architecture."
+        "en": "A colossal concrete monument representing three stylized palm fronds sheltering an eternal flame, commemorating the Algerian War for Independence."
+      },
+      "type": "landmark",
+      "lat": 36.7583,
+      "lng": 3.0714,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
+    },
+    {
+      "id": "ouled-fayet-enr-opera-d-alger-algiers-opera-house",
+      "city_id": "algiers",
+      "neighborhood_id": "ouled-fayet",
+      "name": {
+        "en": "Opera d'Alger (Algiers Opera House)"
+      },
+      "description": {
+        "en": "A stunning piece of contemporary architecture and a landmark of cultural exchange, its fluid and grand design is a destination in itself."
       },
       "type": "culture",
-      "lat": 36.7525,
-      "lng": 3.0745,
-      "trending_score": 65,
+      "lat": 36.7152,
+      "lng": 2.9435,
+      "trending_score": 88,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-enr-jardin-d-essai-du-hamma",
-      "city_id": "algiers",
-      "neighborhood_id": "belouizdad",
-      "name": {
-        "en": "Jardin d'Essai du Hamma"
-      },
-      "description": {
-        "en": "A sprawling botanical garden offering a stunning contrast to the dense city with its lush bamboo forests, exotic trees, and tranquil fountains."
-      },
-      "type": "nature",
-      "lat": 36.747,
-      "lng": 3.073,
-      "trending_score": 90,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-enr-martyrs-memorial-maqam-echahid",
-      "city_id": "algiers",
-      "neighborhood_id": "el-madania",
-      "name": {
-        "en": "Martyrs' Memorial (Maqam Echahid)"
-      },
-      "description": {
-        "en": "An iconic monument of three massive concrete palm fronds sheltering an eternal flame, a powerful tribute to Algeria's war for independence."
-      },
-      "type": "landmark",
-      "lat": 36.7475,
-      "lng": 3.0695,
-      "trending_score": 98,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-enr-the-riadh-el-feth-complex",
-      "city_id": "algiers",
-      "neighborhood_id": "el-madania",
-      "name": {
-        "en": "The 'Riadh El Feth' Complex"
-      },
-      "description": {
-        "en": "A commercial and cultural complex revealing a vision of 1980s post-independence modernity through its multi-level concrete architecture."
-      },
-      "type": "landmark",
-      "lat": 36.7485,
-      "lng": 3.0705,
-      "trending_score": 60,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     }
   ],
   "tasks": [
@@ -123,421 +104,127 @@
       "id": "belouizdad-task-1",
       "neighborhood_id": "belouizdad",
       "title": {
-        "en": "Street Corner Story"
+        "en": "Frame the Present"
       },
       "prompt": {
-        "en": "Find a quiet street corner and take a photo that feels like a scene from a novel."
+        "en": "Find an old archway, window, or cave-like opening and use it as a natural frame to capture a photo of the modern city life beyond."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
       "id": "belouizdad-task-2",
       "neighborhood_id": "belouizdad",
       "title": {
-        "en": "Architectural Layers"
+        "en": "Local Navigator"
       },
       "prompt": {
-        "en": "Capture a photo showing old and new architecture side-by-side on the same building."
+        "en": "Instead of using a map, ask a local for directions to a nearby point of interest. Capture a photo of something interesting you see along the way."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
       "id": "belouizdad-task-3",
       "neighborhood_id": "belouizdad",
       "title": {
-        "en": "The Daily Rhythm"
-      },
-      "prompt": {
-        "en": "Take a picture that captures the energy of local commerce or a neighborhood shop."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-4",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "Hidden in Plain Sight"
-      },
-      "prompt": {
-        "en": "Find a detail on a building—a crack, a plant, a unique tile—and make it the subject of your photo."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-5",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "Belcourt Echoes"
-      },
-      "prompt": {
-        "en": "The neighborhood's old name was Belcourt. Take a photo that feels like it could be from a past era."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-6",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "A Writer's View"
-      },
-      "prompt": {
-        "en": "Find a window or doorway and frame a shot looking out, imagining what a writer like Cervantes might have seen."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-7",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "Unfiltered Selfie"
-      },
-      "prompt": {
-        "en": "Take a selfie that captures the authentic, lived-in background of a Belouizdad street."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-8",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "Colors of the Quarter"
-      },
-      "prompt": {
-        "en": "Create a photo collage of three different, vibrant colors you find on doors, shutters, or signs."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-9",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "The Art of the Everyday"
-      },
-      "prompt": {
-        "en": "Photograph a mundane object (like a chair on a sidewalk or laundry hanging) in a beautiful, artistic way."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-10",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "Shadow and Light"
-      },
-      "prompt": {
-        "en": "Play with the shadows cast by buildings. Capture an interesting pattern of light and dark on the pavement or a wall."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-11",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "Local Flavors Quest"
-      },
-      "prompt": {
-        "en": "Without buying anything, take a photo of a local food item you've never seen before at a market stall or shop window."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-12",
-      "neighborhood_id": "belouizdad",
-      "title": {
         "en": "Residential Rhythms"
       },
       "prompt": {
-        "en": "Take a photo focusing on the details of a residential building's facade or balcony."
+        "en": "Take a photo that captures the authentic, unpretentious energy of this residential neighborhood. Focus on a detail that tells a story of daily life."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-13",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "A Moment of Calm"
-      },
-      "prompt": {
-        "en": "Find a quiet spot amidst the neighborhood's pulse and take a photo that conveys a sense of peace."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-14",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "Signs of Life"
-      },
-      "prompt": {
-        "en": "Photograph a sign, either official or handmade, that tells a story about the community."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "belouizdad-task-15",
-      "neighborhood_id": "belouizdad",
-      "title": {
-        "en": "The Fugitive's Path"
-      },
-      "prompt": {
-        "en": "Take a photo of a narrow alley or passageway, imagining it as an escape route."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
       "id": "el-madania-task-1",
       "neighborhood_id": "el-madania",
       "title": {
-        "en": "City Panorama"
+        "en": "Monumental Silhouette"
       },
       "prompt": {
-        "en": "Find a high vantage point and capture the widest possible panoramic view of Algiers below."
+        "en": "Find a large structure or statue and position yourself to capture its stark silhouette against the sky. For a bonus, try it during the golden hour."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
       "id": "el-madania-task-2",
       "neighborhood_id": "el-madania",
       "title": {
-        "en": "Monumental Scale"
+        "en": "Converging Perspectives"
       },
       "prompt": {
-        "en": "Take a photo with a person in it to show the massive scale of the architecture around you."
+        "en": "Find a spot where the lines of buildings, paths, or structures visually converge into a single point and take a photo that emphasizes this perspective."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
       "id": "el-madania-task-3",
       "neighborhood_id": "el-madania",
       "title": {
-        "en": "A Skyward Selfie"
+        "en": "The City Below"
       },
       "prompt": {
-        "en": "Take a selfie from a low angle, looking up at a grand monument or building, with the sky as your backdrop."
+        "en": "From a high vantage point, capture a panoramic photo that shows the expansive scale of Algiers and its famous bay."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
-      "id": "el-madania-task-4",
-      "neighborhood_id": "el-madania",
+      "id": "ouled-fayet-task-1",
+      "neighborhood_id": "ouled-fayet",
       "title": {
-        "en": "Concrete Poetry"
+        "en": "Modern Angles"
       },
       "prompt": {
-        "en": "Find an interesting angle of a concrete structure and take an abstract photo focusing on its lines, curves, and texture."
+        "en": "Use a wide-angle or low-angle shot to exaggerate the dramatic curves and sleek facade of a modern building against the sky."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
-      "id": "el-madania-task-5",
-      "neighborhood_id": "el-madania",
+      "id": "ouled-fayet-task-2",
+      "neighborhood_id": "ouled-fayet",
       "title": {
-        "en": "Reflective Moment"
+        "en": "A Story in Stone"
       },
       "prompt": {
-        "en": "Take a photo of a reflective surface (a puddle, glass, or polished stone) that captures the sky or a nearby monument."
+        "en": "Examine the exterior of a contemporary building to find a plaque, inscription, or unique design detail that reveals something about its origin or purpose."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     },
     {
-      "id": "el-madania-task-6",
-      "neighborhood_id": "el-madania",
+      "id": "ouled-fayet-task-3",
+      "neighborhood_id": "ouled-fayet",
       "title": {
-        "en": "The Weight of History"
+        "en": "Nighttime Light Trails"
       },
       "prompt": {
-        "en": "Capture an image that feels solemn or conveys a sense of national memory."
+        "en": "After dark, attempt a long-exposure shot to capture the light trails from passing cars in front of an illuminated modern structure."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-7",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "Golden Hour Glow"
-      },
-      "prompt": {
-        "en": "Take a photo of a landmark or building bathed in the warm light of the late afternoon sun."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-8",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "Tracing the Horizon"
-      },
-      "prompt": {
-        "en": "Frame a shot that emphasizes the line where the city meets the sea in the distance."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-9",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "Symbol of Independence"
-      },
-      "prompt": {
-        "en": "Find a symbol (a flag, a plaque, an architectural detail) that represents Algeria's history and make it the focus of your photo."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-10",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "The View from Above"
-      },
-      "prompt": {
-        "en": "Take a photo looking straight down from a high place, capturing the patterns of the plaza or streets below."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-11",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "Modernist Vision"
-      },
-      "prompt": {
-        "en": "Photograph a building or structure that represents the post-independence architectural style of the 1980s."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-12",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "A Solemn Silhouette"
-      },
-      "prompt": {
-        "en": "Capture the silhouette of a monument or statue against the bright sky."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-13",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "Symbol of Remembrance"
-      },
-      "prompt": {
-        "en": "The Martyrs' Memorial has an eternal flame. Take a photo of any source of light (the sun, a lamp) that symbolizes remembrance."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-14",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "Public Space, Public Life"
-      },
-      "prompt": {
-        "en": "Photograph people interacting with the grand public spaces of the neighborhood."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
-    },
-    {
-      "id": "el-madania-task-15",
-      "neighborhood_id": "el-madania",
-      "title": {
-        "en": "Geography of Algiers"
-      },
-      "prompt": {
-        "en": "From a viewpoint, try to identify and photograph a specific distant landmark, like the port or the Casbah."
-      },
-      "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T11:48:12.990617+00:00"
+      "enriched_at": "2026-04-24T07:17:10.981940+00:00"
     }
   ]
 }

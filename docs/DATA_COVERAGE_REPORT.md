@@ -5,7 +5,14 @@
 
 > **Status update 2026-04-24:** This document is a point-in-time snapshot from before `city-atlas-service` was extracted from urban-explorer. Paths referenced in the report (`scripts/research-city.py`, `src/data/global_city_cache.json`, etc.) are the urban-explorer-side paths. In this repo they map to `src/pipeline/research_city.py` and `configs/global_city_cache.json`.
 >
-> The **19 parked cities** described in §1 and §7 are now unblocked in code — the proportional Phase C threshold landed in PR #4 (`a733650`), which was the "blueprint item #26" the original report references as a prerequisite for retry. They remain parked in the manifest until a production batch runs from this repo (tracked in `SESSION_HANDOFF.md`).
+> **Status update 2026-04-25 — the 19 parked cities arc closed:** All blockers identified in this report's §7 are resolved.
+> - PR #4 (`a733650`) landed the proportional `>25%` FAIL threshold (the original blueprint item #26 prereq).
+> - Three downstream porting-miss bugs surfaced and were fixed: Python path constants (`90b8c2a`), TypeScript scraper path constants (`f627d83`), and `--ingest-only` flag composition (`1f173b7`). None of the three would have been caught by the existing test suites; tracked as issue #12 for CI prevention.
+> - Wikipedia + Reddit re-scraped for all 19 parked metros once the scrapers actually worked (the previous "stale 2026-04-08 sources" framing was wrong — the scrapers had been crashing on every invocation since the extraction; the small-US-cohort .md files were migrated from urban-explorer, not freshly scraped here).
+> - **15/19 ingested cleanly to Firestore** (algiers, boston, buenos-aires, cincinnati, denver, fukuoka, houston, las-vegas, melbourne, muscate, nashville, osaka, rome, shanghai, tokyo). 4 of the 15 ship `quality_status: verified` (boston, houston, melbourne, tokyo) — first verified data ever produced from this repo.
+> - **Honolulu** is recoverable in one step (Gemini-variance casualty of the pre-fix `--ingest-only` bug; data intact in `data/research-output/failed/`). See `SESSION_HANDOFF.md` "Now" tier.
+> - **Geneva, Lisbon, London** are the unresolved tail. Geneva + Lisbon: legitimate English-source-coverage edge cases — Phase B fabricates over the gap and Phase C correctly rejects at >25%. London: present in `configs/global_city_cache.json` but absent from `manifest.cities`, mystery TBD.
+> - The **5 legitimate village-tier failures** described in §1 (`fairbanks`, `kahului`, `marfa`, `little-rock`, `portland-me`) are still legitimately limited by real POI density at small radii. Not affected by the parked-19 arc.
 
 ---
 

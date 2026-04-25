@@ -1,0 +1,2981 @@
+{
+  "neighborhoods": [
+    {
+      "id": "shinjuku",
+      "city_id": "tokyo",
+      "name": {
+        "en": "Shinjuku (West Side & Kabukicho Fringe)"
+      },
+      "summary": {
+        "en": "Explore Shinjuku's gritty, cinematic soul in a world of neon-drenched alleys, smoke-filled yakitori stalls, and retro hideouts that feel lifted from a cyberpunk film."
+      },
+      "lat": 35.6938,
+      "lng": 139.7034,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi",
+      "city_id": "tokyo",
+      "name": {
+        "en": "Ginza & Shimbashi"
+      },
+      "summary": {
+        "en": "An area of stark contrasts, from Ginza's daytime luxury and art galleries to the authentic after-work lives of salarymen under Shimbashi's rumbling train tracks."
+      },
+      "lat": 35.6714,
+      "lng": 139.7663,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya",
+      "city_id": "tokyo",
+      "name": {
+        "en": "Shibuya (Beyond the Scramble)"
+      },
+      "summary": {
+        "en": "Escape the chaos of the famous Scramble to discover the real soul of the neighborhood in its quiet backstreets, minimalist design shops, and quirky modern architecture."
+      },
+      "lat": 35.6595,
+      "lng": 139.7005,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa",
+      "city_id": "tokyo",
+      "name": {
+        "en": "Setagaya & Shimokitazawa"
+      },
+      "summary": {
+        "en": "A journey into Tokyo’s bohemian and tranquil side, from Shimokitazawa's maze of vintage fashion and vinyl record shops to Setagaya's serene temples."
+      },
+      "lat": 35.6627,
+      "lng": 139.6671,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro",
+      "city_id": "tokyo",
+      "name": {
+        "en": "Meguro & Nakameguro"
+      },
+      "summary": {
+        "en": "Effortlessly cool and sophisticated, this area is a hub for creatives and foodies, centered around the picturesque Meguro River and its riverside walks."
+      },
+      "lat": 35.6442,
+      "lng": 139.7002,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno",
+      "city_id": "tokyo",
+      "name": {
+        "en": "Asakusa & Ueno (The Local's Angle)"
+      },
+      "summary": {
+        "en": "Experience the living history of this area through its legacy food shops, traditional crafts, and the vast, culture-filled green space of Ueno Park."
+      },
+      "lat": 35.7119,
+      "lng": 139.7895,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "shinjuku-enr-8bit-cafe",
+      "city_id": "tokyo",
+      "neighborhood_id": "shinjuku",
+      "name": {
+        "en": "8bit Cafe"
+      },
+      "description": {
+        "en": "A nostalgic bar where you can sip game-themed cocktails while playing classics on original Famicom and Super Famicom consoles."
+      },
+      "type": "nightlife",
+      "lat": 35.6951,
+      "lng": 139.7054,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-enr-omoide-yokocho-bar-crawl",
+      "city_id": "tokyo",
+      "neighborhood_id": "shinjuku",
+      "name": {
+        "en": "Omoide Yokocho (Bar Crawl)"
+      },
+      "description": {
+        "en": "Hop between tiny, lantern-lit bars in this narrow lane, a living museum of post-war Tokyo, for a beer or sake."
+      },
+      "type": "drink",
+      "lat": 35.693,
+      "lng": 139.6996,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-enr-shinjuku-takano-fruits-parlor",
+      "city_id": "tokyo",
+      "neighborhood_id": "shinjuku",
+      "name": {
+        "en": "Shinjuku Takano Fruits Parlor"
+      },
+      "description": {
+        "en": "An institution dedicated to the Japanese art of the fruit parfait, transforming seasonal fruits into elaborate, edible sculptures."
+      },
+      "type": "food",
+      "lat": 35.691,
+      "lng": 139.7045,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-enr-godzilla-head",
+      "city_id": "tokyo",
+      "neighborhood_id": "shinjuku",
+      "name": {
+        "en": "Godzilla Head"
+      },
+      "description": {
+        "en": "Look up in Kabukicho to see the life-sized head of Japan's most famous monster roaring from the terrace of the Hotel Gracery Shinjuku."
+      },
+      "type": "landmark",
+      "lat": 35.6955,
+      "lng": 139.7018,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-enr-tokyo-metropolitan-government-building-view",
+      "city_id": "tokyo",
+      "neighborhood_id": "shinjuku",
+      "name": {
+        "en": "Tokyo Metropolitan Government Building View"
+      },
+      "description": {
+        "en": "A free observation deck offering a breathtaking, less-crowded alternative to the Skytree for spectacular city views."
+      },
+      "type": "viewpoint",
+      "lat": 35.6896,
+      "lng": 139.6917,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-yoshino-sushi-honten",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Yoshino Sushi Honten"
+      },
+      "description": {
+        "en": "A historic shop in nearby Nihonbashi where master chefs serve fatty tuna belly (toro) that truly melts like butter."
+      },
+      "type": "food",
+      "lat": 35.6845,
+      "lng": 139.7731,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-the-giant-ghibli-clock",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "The Giant Ghibli Clock"
+      },
+      "description": {
+        "en": "Designed by Hayao Miyazaki, this massive, steampunk-inspired clock on the Nittele Tower comes to life several times a day."
+      },
+      "type": "landmark",
+      "lat": 35.6665,
+      "lng": 139.7626,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-enr-chatei-hatou",
+      "city_id": "tokyo",
+      "neighborhood_id": "shibuya",
+      "name": {
+        "en": "Chatei Hatou"
+      },
+      "description": {
+        "en": "A traditional Japanese coffee house (kissaten) where master baristas prepare coffee with scientific precision using glass siphons."
+      },
+      "type": "drink",
+      "lat": 35.6605,
+      "lng": 139.7025,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-enr-chibachan",
+      "city_id": "tokyo",
+      "neighborhood_id": "shibuya",
+      "name": {
+        "en": "Chibachan"
+      },
+      "description": {
+        "en": "A reliable, no-fuss, and lively izakaya that is a popular local spot for classic Japanese bar food and drinks."
+      },
+      "type": "food",
+      "lat": 35.659,
+      "lng": 139.702,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-enr-transparent-restroom",
+      "city_id": "tokyo",
+      "neighborhood_id": "shibuya",
+      "name": {
+        "en": "Transparent Restroom"
+      },
+      "description": {
+        "en": "A public restroom with walls that are transparent when unoccupied and turn opaque when locked, playing with concepts of privacy."
+      },
+      "type": "hidden_gem",
+      "lat": 35.6638,
+      "lng": 139.6981,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-enr-tokyo-plaza-omotesando-harajuku-entrance",
+      "city_id": "tokyo",
+      "neighborhood_id": "shibuya",
+      "name": {
+        "en": "Tokyo Plaza Omotesando Harajuku Entrance"
+      },
+      "description": {
+        "en": "A shopping center featuring a stunning, kaleidoscopic mirrored entrance that creates a disorienting and photogenic experience."
+      },
+      "type": "landmark",
+      "lat": 35.6685,
+      "lng": 139.7054,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-enr-kosoan",
+      "city_id": "tokyo",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "name": {
+        "en": "Kosoan"
+      },
+      "description": {
+        "en": "A traditional teahouse in a 100-year-old home where you can enjoy matcha and sweets while overlooking a beautiful Japanese garden."
+      },
+      "type": "culture",
+      "lat": 35.6081,
+      "lng": 139.6691,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-enr-ten-to-sen",
+      "city_id": "tokyo",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "name": {
+        "en": "Ten To Sen"
+      },
+      "description": {
+        "en": "A standout ramen shop in Shimokitazawa that specializes in some of Tokyo's best vegan ramen with complex broths."
+      },
+      "type": "food",
+      "lat": 35.663,
+      "lng": 139.667,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-enr-gotokuji-temple",
+      "city_id": "tokyo",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "name": {
+        "en": "Gotokuji Temple"
+      },
+      "description": {
+        "en": "The legendary birthplace of the 'beckoning cat' (maneki-neko), where hundreds of lucky cat figurines are left as offerings."
+      },
+      "type": "culture",
+      "lat": 35.6475,
+      "lng": 139.6465,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-enr-shimokitazawa-s-vintage-shops",
+      "city_id": "tokyo",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "name": {
+        "en": "Shimokitazawa's Vintage Shops"
+      },
+      "description": {
+        "en": "The neighborhood itself is a destination for exploring a dense concentration of expertly curated second-hand clothing stores."
+      },
+      "type": "shopping",
+      "lat": 35.6625,
+      "lng": 139.6665,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-enr-ramen-break-beats",
+      "city_id": "tokyo",
+      "neighborhood_id": "meguro-nakameguro",
+      "name": {
+        "en": "Ramen Break Beats"
+      },
+      "description": {
+        "en": "A hidden, eight-seat ramen shop with immense local buzz, considered by many to serve some of the most inventive ramen in the city."
+      },
+      "type": "food",
+      "lat": 35.6333,
+      "lng": 139.7033,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-enr-udatsu-sushi",
+      "city_id": "tokyo",
+      "neighborhood_id": "meguro-nakameguro",
+      "name": {
+        "en": "Udatsu Sushi"
+      },
+      "description": {
+        "en": "A high-end omakase experience where the chef is known for creative and exquisitely prepared courses without the stuffiness of Ginza."
+      },
+      "type": "food",
+      "lat": 35.6445,
+      "lng": 139.6985,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-enr-the-meguro-river",
+      "city_id": "tokyo",
+      "neighborhood_id": "meguro-nakameguro",
+      "name": {
+        "en": "The Meguro River"
+      },
+      "description": {
+        "en": "The neighborhood's main artery, offering a beautiful, tranquil walk year-round, flanked by small shops and cafes."
+      },
+      "type": "nature",
+      "lat": 35.643,
+      "lng": 139.703,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-enr-meguro-sky-garden",
+      "city_id": "tokyo",
+      "neighborhood_id": "meguro-nakameguro",
+      "name": {
+        "en": "Meguro Sky Garden"
+      },
+      "description": {
+        "en": "A hidden rooftop park built on an expressway junction, this circular garden is a surprising oasis of green above city traffic."
+      },
+      "type": "hidden_gem",
+      "lat": 35.6465,
+      "lng": 139.6925,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-pelican-cafe",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Pelican Café"
+      },
+      "description": {
+        "en": "A cafe dedicated to celebrating shokupan (fluffy milk bread), offering a dine-in experience to savor thick, toasted slices."
+      },
+      "type": "food",
+      "lat": 35.7098,
+      "lng": 139.7885,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-aidaya",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Aidaya"
+      },
+      "description": {
+        "en": "This Ueno shop specializes in tsukemen, a dipping ramen style, and is known for its wide variety of customizable toppings."
+      },
+      "type": "food",
+      "lat": 35.708,
+      "lng": 139.775,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-ueno-park",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Ueno Park"
+      },
+      "description": {
+        "en": "The cultural heart of the area, this vast park is large enough to find quiet corners and leads to world-class museums."
+      },
+      "type": "culture",
+      "lat": 35.7149,
+      "lng": 139.7738,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-kappabashi-kitchen-town",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Kappabashi Kitchen Town"
+      },
+      "description": {
+        "en": "An entire street dedicated to restaurant supplies, famous for its hyper-realistic plastic food models (sampuru)."
+      },
+      "type": "shopping",
+      "lat": 35.7145,
+      "lng": 139.7875,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-enr-mode-gakuen-cocoon-tower",
+      "city_id": "tokyo",
+      "neighborhood_id": "shinjuku",
+      "name": {
+        "en": "Mode Gakuen Cocoon Tower"
+      },
+      "description": {
+        "en": "A distinctive, 204-meter educational facility whose cocoon-like shape has become a modern landmark on the Shinjuku skyline."
+      },
+      "type": "landmark",
+      "lat": 35.6899,
+      "lng": 139.6984,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-ginza-hisagi",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Ginza Hisagi"
+      },
+      "description": {
+        "en": "This Ginza spot serves a black curry that is rarer and distinct from the classic brown version typically found in Japan."
+      },
+      "type": "food",
+      "lat": 35.6715,
+      "lng": 139.7674,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-tsukishima-monja-street",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Tsukishima Monja Street"
+      },
+      "description": {
+        "en": "A street with over 80 restaurants dedicated to monjayaki, a savory pancake-like dish from the Kanto region."
+      },
+      "type": "food",
+      "lat": 35.6652,
+      "lng": 139.7841,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-tokyo-tower",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Tokyo Tower"
+      },
+      "description": {
+        "en": "An iconic communications and observation tower that is a symbol of Tokyo's post-war rebirth and offers panoramic views of the city."
+      },
+      "type": "viewpoint",
+      "lat": 35.6586,
+      "lng": 139.7454,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-national-art-center-tokyo",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "National Art Center, Tokyo"
+      },
+      "description": {
+        "en": "A major art museum designed by Kisho Kurokawa, known for its striking wavy glass facade and for hosting special exhibitions rather than a permanent collection."
+      },
+      "type": "culture",
+      "lat": 35.6653,
+      "lng": 139.7263,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-zojo-ji-temple",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Zojo-ji Temple"
+      },
+      "description": {
+        "en": "A grand Buddhist temple that houses the mausoleum of the Tokugawa family, with its impressive Sangedatsu gate dating back to the Edo period."
+      },
+      "type": "culture",
+      "lat": 35.6573,
+      "lng": 139.7486,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-tokyo-station",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Tokyo Station"
+      },
+      "description": {
+        "en": "A historic landmark built in 1914, this grand brick building serves as a major transportation hub and an architectural icon of the Meiji era."
+      },
+      "type": "landmark",
+      "lat": 35.6812,
+      "lng": 139.7671,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-tsukiji-hongan-ji",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Tsukiji Hongan-ji"
+      },
+      "description": {
+        "en": "A Jodo Shinshu Buddhist temple known for its unique ancient Indian-inspired architecture, designed by Chuta Ito in the 1930s."
+      },
+      "type": "culture",
+      "lat": 35.6695,
+      "lng": 139.7712,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-tokyo-international-forum",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Tokyo International Forum"
+      },
+      "description": {
+        "en": "A stunning multi-purpose exhibition center, famous for its massive glass and steel atrium shaped like an elongated boat."
+      },
+      "type": "landmark",
+      "lat": 35.677,
+      "lng": 139.764,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-toyosu-market",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Toyosu Market"
+      },
+      "description": {
+        "en": "The world's largest wholesale fish and seafood market, which replaced the famous Tsukiji Market, offering early morning tuna auctions and fresh seafood restaurants."
+      },
+      "type": "food",
+      "lat": 35.645,
+      "lng": 139.785,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-enr-kabuki-za-theatre",
+      "city_id": "tokyo",
+      "neighborhood_id": "ginza-shimbashi",
+      "name": {
+        "en": "Kabuki-za Theatre"
+      },
+      "description": {
+        "en": "The principal theater in Tokyo for traditional kabuki drama, where you can watch elaborate performances in a historic setting."
+      },
+      "type": "culture",
+      "lat": 35.6705,
+      "lng": 139.768,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-enr-prada-aoyama",
+      "city_id": "tokyo",
+      "neighborhood_id": "shibuya",
+      "name": {
+        "en": "Prada Aoyama"
+      },
+      "description": {
+        "en": "An architectural masterpiece by Herzog & de Meuron, this Prada flagship store features a striking crystalline facade of convex and concave glass panels."
+      },
+      "type": "shopping",
+      "lat": 35.6645,
+      "lng": 139.7135,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-enr-yoyogi-national-gymnasium",
+      "city_id": "tokyo",
+      "neighborhood_id": "shibuya",
+      "name": {
+        "en": "Yoyogi National Gymnasium"
+      },
+      "description": {
+        "en": "Designed by Kenzo Tange for the 1964 Olympics, this arena is renowned for its distinctive suspension roof design, a landmark of modern architecture."
+      },
+      "type": "landmark",
+      "lat": 35.6685,
+      "lng": 139.6985,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-enr-roppongi-hills",
+      "city_id": "tokyo",
+      "neighborhood_id": "shibuya",
+      "name": {
+        "en": "Roppongi Hills"
+      },
+      "description": {
+        "en": "A massive city-within-a-city complex featuring shops, restaurants, the Mori Art Museum, and the Tokyo City View observation deck."
+      },
+      "type": "landmark",
+      "lat": 35.6603,
+      "lng": 139.7291,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-tokyo-skytree",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Tokyo Skytree"
+      },
+      "description": {
+        "en": "The tallest structure in Japan, this broadcasting and observation tower offers breathtaking panoramic views of Tokyo from its two observation decks."
+      },
+      "type": "viewpoint",
+      "lat": 35.7101,
+      "lng": 139.8107,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-nezu-shrine",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Nezu Shrine"
+      },
+      "description": {
+        "en": "A beautiful and historic Shinto shrine, famous for its tunnel of vermilion torii gates and azalea festival in the spring."
+      },
+      "type": "culture",
+      "lat": 35.722,
+      "lng": 139.761,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-koishikawa-korakuen",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Koishikawa Korakuen"
+      },
+      "description": {
+        "en": "One of Tokyo's oldest and most beautiful Japanese landscape gardens, dating back to the Edo Period."
+      },
+      "type": "nature",
+      "lat": 35.7055,
+      "lng": 139.7495,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-rikugien-garden",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Rikugien Garden"
+      },
+      "description": {
+        "en": "Often considered Tokyo's most beautiful Japanese landscape garden, featuring a central pond, islands, and forested areas perfect for strolling."
+      },
+      "type": "nature",
+      "lat": 35.733,
+      "lng": 139.746,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-akamon-red-gate",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Akamon (Red Gate)"
+      },
+      "description": {
+        "en": "A historic and symbolic gate of the University of Tokyo, originally built for the Maeda clan's Edo residence."
+      },
+      "type": "landmark",
+      "lat": 35.7115,
+      "lng": 139.7625,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-tokyo-national-museum",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Tokyo National Museum"
+      },
+      "description": {
+        "en": "Located within Ueno Park, this is the oldest and largest museum in Japan, housing a comprehensive collection of art and archaeological objects from Asia."
+      },
+      "type": "culture",
+      "lat": 35.7188,
+      "lng": 139.7765,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-st-mary-s-cathedral",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "St. Mary's Cathedral"
+      },
+      "description": {
+        "en": "A stunning example of modernist architecture designed by Kenzo Tange, featuring a stainless steel exterior that forms a cross from above."
+      },
+      "type": "landmark",
+      "lat": 35.7145,
+      "lng": 139.7295,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-asahi-beer-hall",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Asahi Beer Hall"
+      },
+      "description": {
+        "en": "An unmistakable building designed by Philippe Starck, famous for the massive golden flame sculpture on its roof, known as the 'Flamme d'Or'."
+      },
+      "type": "landmark",
+      "lat": 35.7103,
+      "lng": 139.7995,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-enr-ryogoku-kokugikan",
+      "city_id": "tokyo",
+      "neighborhood_id": "asakusa-ueno",
+      "name": {
+        "en": "Ryogoku Kokugikan"
+      },
+      "description": {
+        "en": "Tokyo's premier sumo wrestling arena, where three of the six annual grand tournaments are held. A must-visit for sports and culture enthusiasts."
+      },
+      "type": "culture",
+      "lat": 35.697,
+      "lng": 139.793,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "shinjuku-task-1",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Neon Noir"
+      },
+      "prompt": {
+        "en": "Capture a photo of a street sign or storefront illuminated only by the glow of neon lights."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-2",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Cyberpunk Reflection"
+      },
+      "prompt": {
+        "en": "Find a puddle or a reflective window and take a picture of the neon-drenched cityscape within it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-3",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Showa-Era Echo"
+      },
+      "prompt": {
+        "en": "Photograph an old, weathered building or sign that looks like it's from a past era, standing next to a modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-4",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Alleyway Atmosphere"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a narrow, lantern-lit alley. Try to capture the sense of mystery and depth."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-5",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Gritty Textures"
+      },
+      "prompt": {
+        "en": "Find an interesting texture on a wall, street, or utility pole and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-6",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Stream of Light"
+      },
+      "prompt": {
+        "en": "Capture the light trails from passing cars at night. A long exposure shot works best!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-7",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Urban Canopy"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo of the chaotic web of power lines and cables against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-8",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Cinematic Moment"
+      },
+      "prompt": {
+        "en": "Frame a shot of a lone person walking under a streetlight or through a cloud of steam from a vent."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-9",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Vending Machine Glow"
+      },
+      "prompt": {
+        "en": "Take a selfie illuminated only by the light of a brightly lit vending machine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-10",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Food Stall Feast"
+      },
+      "prompt": {
+        "en": "Capture a close-up of delicious-looking street food being prepared at a stall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-11",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Crowd Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the chaotic energy of a crowded street. Use a slow shutter for motion blur if you can."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-12",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Hidden Doorway"
+      },
+      "prompt": {
+        "en": "Find and photograph a tiny, unassuming entrance to a bar or restaurant that looks like it holds secrets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-13",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Skyscraper Geometry"
+      },
+      "prompt": {
+        "en": "Look straight up the side of a skyscraper and capture the converging lines and geometric patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-14",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Red Lantern Warmth"
+      },
+      "prompt": {
+        "en": "Photograph a string of red paper lanterns hanging outside a shop or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-15",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Urban Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most chaotic and brightly lit street you can find as your background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-1",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Luxury & Lines"
+      },
+      "prompt": {
+        "en": "Photograph the clean, sharp architectural lines of a luxury brand's storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-2",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Under the Tracks"
+      },
+      "prompt": {
+        "en": "Capture the contrast between the dark, industrial structure of the train tracks and the warm light of a shop below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-3",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Salaryman's Respite"
+      },
+      "prompt": {
+        "en": "Find a small izakaya or bar and take a photo of its welcoming, brightly lit entrance from the outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-4",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Art in the City"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a sculpture on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-5",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Take a creative photo of an elaborate window display at one of the high-end department stores."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-6",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Contrasting Worlds"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a sleek, modern building and a tiny, old-fashioned shop or alleyway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-7",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Theatrical Shadows"
+      },
+      "prompt": {
+        "en": "At night, play with light and shadow. Capture your own long shadow cast by a streetlamp."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-8",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Gourmet Glimpse"
+      },
+      "prompt": {
+        "en": "Find a restaurant menu displayed outside and take an artistic photo of the most interesting dish description."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-9",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Manhole Art"
+      },
+      "prompt": {
+        "en": "Look down! Find and photograph one of Tokyo's ornate, artistic manhole covers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-10",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Taxi Trail"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic, polished Tokyo taxi waiting for a passenger."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-11",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Hidden Bar Sign"
+      },
+      "prompt": {
+        "en": "Find a subtle, stylish sign for a bar or club hidden on an upper floor of a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-12",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Elegant Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the grand entrance of a department store or art gallery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-13",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Rumbling Overhead"
+      },
+      "prompt": {
+        "en": "Take a photo looking up at a train passing on the tracks above you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-14",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "After Work Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the bustling after-work crowd in Shimbashi as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-15",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Reflection of Luxury"
+      },
+      "prompt": {
+        "en": "Capture the reflection of Ginza's bright lights in the window of a parked luxury car."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-1",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet backstreet away from the main crowds and take a photo that captures the sense of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-2",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Architectural Anomaly"
+      },
+      "prompt": {
+        "en": "Photograph a building with a strange or unusual shape that stands out from its surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-3",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Minimalist Design"
+      },
+      "prompt": {
+        "en": "Find a storefront or cafe with a clean, minimalist aesthetic and capture its simplicity."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-4",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Showa-Era Remnant"
+      },
+      "prompt": {
+        "en": "Discover and photograph a small, old-fashioned shop or house that feels like a relic from the Showa era."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-5",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Street Fashion Detail"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on a unique fashion accessory or detail you spot on a passerby (be respectful!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-6",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Sticker Art"
+      },
+      "prompt": {
+        "en": "Find a lamppost or utility box covered in stickers and take a close-up of the most interesting one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-7",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Calm Amidst Chaos"
+      },
+      "prompt": {
+        "en": "Take a photo from a backstreet that shows a quiet scene with the towering, busy buildings of Shibuya in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-8",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Urban Greenery"
+      },
+      "prompt": {
+        "en": "Photograph a potted plant or a small patch of green thriving in an unexpected urban space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-9",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Coffee Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of a stylish cafe's exterior or a beautifully prepared cup of coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-10",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Look Up, Look Down"
+      },
+      "prompt": {
+        "en": "Take two photos from the same spot: one looking straight up at the sky and buildings, one looking straight down at your feet and the pavement."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-11",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Mirror Selfie"
+      },
+      "prompt": {
+        "en": "Find a reflective surface (not a bathroom mirror!) on a building or art installation and take a creative selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-12",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Bicycle Scene"
+      },
+      "prompt": {
+        "en": "Photograph a bicycle parked in a way that feels uniquely Tokyo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-13",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Abstract Reflections"
+      },
+      "prompt": {
+        "en": "Find a glass building and capture the abstract patterns and colors reflected on its surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-14",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Stairway to Somewhere"
+      },
+      "prompt": {
+        "en": "Find an interesting outdoor staircase and take a photo looking up or down it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shibuya-task-15",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Photograph a small, interesting detail on a building or street that most people would probably walk right past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-1",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Vintage Find"
+      },
+      "prompt": {
+        "en": "Photograph a unique or quirky item you spot in the window of a vintage clothing store."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-2",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Bohemian Vibe"
+      },
+      "prompt": {
+        "en": "Capture a scene that you feel perfectly represents the bohemian, artistic spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-3",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Record Store Still Life"
+      },
+      "prompt": {
+        "en": "Take a photo of a stack of vinyl records or a cool album cover in a record shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-4",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Tranquil Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet residential street or a small shrine and take a photo that feels peaceful and serene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-5",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Street Style Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie showing off your own outfit against a cool, graffiti-covered wall or interesting storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-6",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Nature's Detail"
+      },
+      "prompt": {
+        "en": "Find a beautiful flower, leaf, or pattern in the moss growing on a temple wall and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-7",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Maze of Streets"
+      },
+      "prompt": {
+        "en": "Take a photo of a narrow, winding street that shows off the maze-like quality of Shimokitazawa."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-8",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph the handmade sign or unique exterior of a small, independent shop or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-9",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Cat Nap"
+      },
+      "prompt": {
+        "en": "Keep an eye out for local cats! If you spot one, respectfully take its picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-10",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Theater Poster Art"
+      },
+      "prompt": {
+        "en": "Find a poster for a local theater production and take a photo of its artistic design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-11",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Cozy Cafe Corner"
+      },
+      "prompt": {
+        "en": "Peer into a cafe and capture a photo of a cozy-looking corner with inviting chairs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-12",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Traditional Roof"
+      },
+      "prompt": {
+        "en": "Look for a traditional Japanese-style house or temple and photograph the elegant curves of its roof tiles."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-13",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Layers of Style"
+      },
+      "prompt": {
+        "en": "Find a vintage shop with clothes hanging outside and take a photo that shows the different textures and layers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-14",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting shadow cast by a tree, a bicycle, or a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "setagaya-shimokitazawa-task-15",
+      "neighborhood_id": "setagaya-shimokitazawa",
+      "title": {
+        "en": "Creative Expression"
+      },
+      "prompt": {
+        "en": "Find a piece of street art, graffiti, or a quirky decoration outside a shop and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-1",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Riverside Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a bridge or building in the water of the Meguro River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-2",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Effortless Cool"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that embodies the 'effortlessly cool and sophisticated' vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-3",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Designer's Detail"
+      },
+      "prompt": {
+        "en": "Find an independent boutique and photograph a small, well-designed detail of its exterior, like a door handle or sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-4",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Foodie Art"
+      },
+      "prompt": {
+        "en": "Take a photo of a beautifully presented dish or drink, focusing on the artistry of the food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-5",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Stand on one of the small bridges over the river and take a photo looking down the waterway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-6",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Urban Oasis Selfie"
+      },
+      "prompt": {
+        "en": "Find a spot with lots of greenery and take a selfie that looks like you're in a peaceful oasis."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-7",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Minimalist Moment"
+      },
+      "prompt": {
+        "en": "Capture a minimalist photo with lots of negative space, focusing on a single subject like a bench or a lamppost."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-8",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Creative Hub"
+      },
+      "prompt": {
+        "en": "Photograph the entrance to a design studio, art gallery, or creative-looking office space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-9",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Pathways"
+      },
+      "prompt": {
+        "en": "Take a photo of the walking path along the river, focusing on the lines leading your eye into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-10",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Light on Water"
+      },
+      "prompt": {
+        "en": "Capture the way the sunlight or evening lights sparkle on the surface of the Meguro River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-11",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Chic Canine"
+      },
+      "prompt": {
+        "en": "This is a popular area for dog walkers. See if you can snap a picture of a particularly stylish dog."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-12",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Hidden Gem Cafe"
+      },
+      "prompt": {
+        "en": "Find a small, charming cafe tucked away on a side street and photograph its inviting exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-13",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a place where modern concrete architecture meets natural elements like trees or water and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-14",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Evening Ambiance"
+      },
+      "prompt": {
+        "en": "As dusk falls, take a photo of the warm lights from restaurants and bars reflecting on the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "meguro-nakameguro-task-15",
+      "neighborhood_id": "meguro-nakameguro",
+      "title": {
+        "en": "Stylish Ride"
+      },
+      "prompt": {
+        "en": "Photograph a cool-looking bicycle or scooter parked outside a trendy shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-1",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Photograph a detail on an old building that speaks to the area's long history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-2",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Traditional Craft"
+      },
+      "prompt": {
+        "en": "Find a shop selling traditional Japanese crafts (fans, pottery, textiles) and take a photo of the items on display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-3",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Park Serenity"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or path in Ueno Park and take a photo that captures a moment of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-4",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Legacy Food"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of a food shop that looks like it has been there for generations."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-5",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Cultural Heartbeat Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the grand entrance of one of Ueno Park's museums in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-6",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Sampuru Surprise"
+      },
+      "prompt": {
+        "en": "Find a plastic food model (sampuru) in a restaurant window and take a close-up that makes it look as real as possible."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-7",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Temple Details"
+      },
+      "prompt": {
+        "en": "Find a temple or shrine and take a close-up photo of an interesting architectural detail, like a wood carving or a lantern."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-8",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Old & New"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes a traditional temple roof with a modern building or the Skytree visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-9",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Nature in the City"
+      },
+      "prompt": {
+        "en": "Photograph a large, old tree in Ueno Park, focusing on the texture of its bark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-10",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Marketplace Energy"
+      },
+      "prompt": {
+        "en": "Capture the bustling energy of a market street, focusing on the vendors or the variety of goods."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-11",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Red & Gold"
+      },
+      "prompt": {
+        "en": "Find an object or scene that prominently features the traditional colors of red and gold."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-12",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Quiet Water"
+      },
+      "prompt": {
+        "en": "Take a photo of the Shinobazu Pond in Ueno Park, capturing the reflections on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-13",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Kitchenware Kingdom"
+      },
+      "prompt": {
+        "en": "In Kappabashi, take a photo of a shop window stacked high with bowls, knives, or other kitchen supplies."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-14",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Street Snack"
+      },
+      "prompt": {
+        "en": "Buy a traditional Japanese snack from a street vendor and take a picture of it before you eat it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-15",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Paper Lantern Portrait"
+      },
+      "prompt": {
+        "en": "Find a large paper lantern and take a photo of it, trying to capture the intricate calligraphy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:19:24.637833+00:00"
+    },
+    {
+      "id": "shinjuku-task-1",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Skyscraper Reflection"
+      },
+      "prompt": {
+        "en": "Find a reflective surface on a modern building and take a creative selfie showing the Shinjuku skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-2",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Vending Machine Discovery"
+      },
+      "prompt": {
+        "en": "Find and photograph the most unusual or interesting item you can find in a vending machine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-3",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the vibrant glow of neon signs on a busy street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-4",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between a tiny, traditional izakaya and a giant modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-5",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a small patch of green or a hidden shrine tucked away between the concrete giants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-6",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Future Forward"
+      },
+      "prompt": {
+        "en": "Take a selfie looking up at a building that looks like it's from a science fiction movie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-7",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Alleyway Atmosphere"
+      },
+      "prompt": {
+        "en": "Capture the unique atmosphere of a narrow side street, like Omoide Yokocho or Golden Gai."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-8",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Food Art"
+      },
+      "prompt": {
+        "en": "Photograph a food display in a restaurant window that looks too perfect to be real."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-9",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "City in Motion"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the constant movement of people and traffic in Shinjuku."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-10",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Gachapon Hunt"
+      },
+      "prompt": {
+        "en": "Find a bank of gachapon (capsule toy) machines and photograph the most bizarre prize offering."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-11",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern or detail on the facade of a skyscraper and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-12",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Salaryman Snapshot"
+      },
+      "prompt": {
+        "en": "Capture the essence of Tokyo's business world with a candid photo of office workers on the move."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-13",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Sign Language"
+      },
+      "prompt": {
+        "en": "Photograph a stack of vertical signs that shows the density of businesses in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-14",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Moment of Calm"
+      },
+      "prompt": {
+        "en": "Find someone enjoying a quiet moment—reading a book, sipping coffee—amidst the city's hustle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shinjuku-task-15",
+      "neighborhood_id": "shinjuku",
+      "title": {
+        "en": "Underground World"
+      },
+      "prompt": {
+        "en": "Explore the vast underground network of Shinjuku Station and take a photo that captures its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-1",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Luxury Window Shopping"
+      },
+      "prompt": {
+        "en": "Take a photo of the most elegant and artistic window display you can find at a luxury brand store."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-2",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Under the Tracks"
+      },
+      "prompt": {
+        "en": "Find a tiny, atmospheric izakaya or restaurant tucked under the railway tracks in Shimbashi."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-3",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Architectural Elegance"
+      },
+      "prompt": {
+        "en": "Capture a detail of a historic building, like the Wako Building or Tokyo Station, that shows its classic design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-4",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Sophisticated Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes you look like you belong in the sophisticated world of Ginza."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-5",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Art in the City"
+      },
+      "prompt": {
+        "en": "Find and photograph a piece of public art or a sculpture on the streets of Ginza."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-6",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "After-Work Rush"
+      },
+      "prompt": {
+        "en": "Capture the energy of the salaryman crowd heading for drinks and dinner in Shimbashi."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-7",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Hidden Lantern"
+      },
+      "prompt": {
+        "en": "Find a traditional red paper lantern hanging outside an otherwise modern building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-8",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Gourmet Glimpse"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a beautifully presented plate of food or a delicate dessert."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-9",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Taxi Lights"
+      },
+      "prompt": {
+        "en": "Capture the reflection of Ginza's bright lights in the polished surface of a waiting taxi."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-10",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Quiet Side Street"
+      },
+      "prompt": {
+        "en": "Step off the main avenue and photograph a quiet, elegant side street that feels like a secret."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-11",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Kimono Spotting"
+      },
+      "prompt": {
+        "en": "Find and respectfully photograph someone wearing a beautiful, traditional kimono."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-12",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Calligraphy Quest"
+      },
+      "prompt": {
+        "en": "Find a shop sign or menu written in beautiful, artistic calligraphy and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-13",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Department Store Wonder"
+      },
+      "prompt": {
+        "en": "Capture the grandeur of one of Ginza's historic department stores, like Mitsukoshi or Wako."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-14",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Timeless Tradition"
+      },
+      "prompt": {
+        "en": "Find a shop that looks like it has been in business for over a century and capture its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "ginza-shimbashi-task-15",
+      "neighborhood_id": "ginza-shimbashi",
+      "title": {
+        "en": "Modern Marvel"
+      },
+      "prompt": {
+        "en": "Photograph a strikingly modern building, like the Tokyo International Forum, next to a more traditional one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-1",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Street Style Icon"
+      },
+      "prompt": {
+        "en": "Find someone with an amazing sense of style and (respectfully) take a photo that captures their unique look."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-2",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Intersection Immersion"
+      },
+      "prompt": {
+        "en": "Capture the organized chaos of a major pedestrian scramble from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-3",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Hidden Gem Cafe"
+      },
+      "prompt": {
+        "en": "Wander down a side street and find a quiet, cozy-looking cafe that offers a retreat from the crowds."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-4",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Urban Art Hunt"
+      },
+      "prompt": {
+        "en": "Find a cool piece of street art, a mural, or some artistic graffiti and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-5",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Crowd Camouflage"
+      },
+      "prompt": {
+        "en": "Take a selfie that subtly includes the massive Shibuya crowd in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-6",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Snack Attack"
+      },
+      "prompt": {
+        "en": "Find and photograph the most colorful, trendy, or unusual-looking snack or drink."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-7",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Music Scene"
+      },
+      "prompt": {
+        "en": "Photograph a poster for a live band, a record store, or the entrance to a music venue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-8",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Window Reflection Story"
+      },
+      "prompt": {
+        "en": "Use a shop window to capture a reflection that tells a story about the energy of Shibuya."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-9",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Niche Culture"
+      },
+      "prompt": {
+        "en": "Find a store dedicated to a very specific subculture or hobby (e.g., anime figures, vintage vinyl, etc.)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-10",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "View from Above"
+      },
+      "prompt": {
+        "en": "Get on a pedestrian overpass or the second floor of a building and take a photo looking down on the crowds."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-11",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Ad Break"
+      },
+      "prompt": {
+        "en": "Find a giant video screen or advertisement that feels quintessentially Tokyo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-12",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Architectural Anomaly"
+      },
+      "prompt": {
+        "en": "Photograph a building with a wild, unconventional, or futuristic design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-13",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Vertical City"
+      },
+      "prompt": {
+        "en": "Take a photo looking up that emphasizes the verticality of Shibuya, with layers of signs and buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-14",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Fashionable Pup"
+      },
+      "prompt": {
+        "en": "Spot a dog wearing a cute or fashionable outfit and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "shibuya-task-15",
+      "neighborhood_id": "shibuya",
+      "title": {
+        "en": "Sound of the City"
+      },
+      "prompt": {
+        "en": "Record a 10-second video capturing the unique soundscape of Shibuya's streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-1",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Rickshaw Ride"
+      },
+      "prompt": {
+        "en": "Take a photo of a traditional rickshaw, either waiting for passengers or carrying them through the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-2",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Temple Details"
+      },
+      "prompt": {
+        "en": "Find an intricate carving or detail on a temple roof or gate and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-3",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Street Food Star"
+      },
+      "prompt": {
+        "en": "Photograph a delicious-looking local snack from a street vendor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-4",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Skytree from the Past"
+      },
+      "prompt": {
+        "en": "Frame a shot of the modern Tokyo Skytree with a traditional temple or old building in the foreground."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-5",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Incense and Prayers"
+      },
+      "prompt": {
+        "en": "Capture the smoke swirling from a large incense burner at a temple."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-6",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Take a photo of people enjoying a relaxing day in Ueno Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-7",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Lantern Light"
+      },
+      "prompt": {
+        "en": "Find a beautiful paper lantern and take a photo, especially as it begins to get dark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-8",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Wishing Well"
+      },
+      "prompt": {
+        "en": "Find a collection of ema (wooden prayer plaques) at a shrine and photograph the most interesting drawing or wish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-9",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Traditional Crafts"
+      },
+      "prompt": {
+        "en": "Find a shop selling traditional Japanese crafts like fans, ceramics, or textiles and capture its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-10",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Pond Reflection"
+      },
+      "prompt": {
+        "en": "Find a pond in a park or temple garden and capture the reflection of the scenery on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-11",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Statue Pose"
+      },
+      "prompt": {
+        "en": "Find a statue in Ueno Park or at a temple and take a selfie mimicking its pose."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-12",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Fake Food, Real Art"
+      },
+      "prompt": {
+        "en": "Photograph a display of sampuru (fake food) that looks incredibly realistic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-13",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Take a photo from a bridge over the Sumida River, capturing the boats and the skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-14",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Local Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of local life in a quiet residential street away from the main tourist areas."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    },
+    {
+      "id": "asakusa-ueno-task-15",
+      "neighborhood_id": "asakusa-ueno",
+      "title": {
+        "en": "Golden Flame"
+      },
+      "prompt": {
+        "en": "Take a creative photo of the unique Asahi Beer Hall building and its famous 'Flamme d'Or' sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:49:12.595550+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

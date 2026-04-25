@@ -1,0 +1,3259 @@
+{
+  "neighborhoods": [
+    {
+      "id": "south-end",
+      "city_id": "boston",
+      "name": {
+        "en": "The South End"
+      },
+      "summary": {
+        "en": "An architectural dreamscape of preserved Victorian brownstones, the South End is Boston’s artistic and culinary heart, feeling more like a sprawling, leafy residential neighborhood than a city center."
+      },
+      "lat": 42.343,
+      "lng": -71.074,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end",
+      "city_id": "boston",
+      "name": {
+        "en": "The North End"
+      },
+      "summary": {
+        "en": "Boston's oldest residential neighborhood, the North End is a vibrant and tightly-packed \"Little Italy\" with narrow, winding streets filled with the aroma of espresso and garlic."
+      },
+      "lat": 42.365,
+      "lng": -71.054,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge",
+      "city_id": "boston",
+      "name": {
+        "en": "Cambridge (Harvard & Kendall Squares)"
+      },
+      "summary": {
+        "en": "A potent mix of intellectual energy, historic academia, and cutting-edge innovation, this is a neighborhood of bookstores, brainiacs, and globally-inspired food."
+      },
+      "lat": 42.37,
+      "lng": -71.1,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square",
+      "city_id": "boston",
+      "name": {
+        "en": "Somerville (Union Square)"
+      },
+      "summary": {
+        "en": "Gritty, creative, and constantly evolving, Union Square is the heart of Somerville's maker culture with a vibrant food scene, independent breweries, and a palpable creative energy."
+      },
+      "lat": 42.379,
+      "lng": -71.098,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district",
+      "city_id": "boston",
+      "name": {
+        "en": "Seaport District"
+      },
+      "summary": {
+        "en": "Boston’s newest neighborhood is a landscape of glass towers, waterfront parks, and modern architecture, offering stunning harbor views and innovative public spaces."
+      },
+      "lat": 42.352,
+      "lng": -71.043,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester",
+      "city_id": "boston",
+      "name": {
+        "en": "Dorchester"
+      },
+      "summary": {
+        "en": "Boston’s largest and most diverse neighborhood offers an unexpected escape into nature and a glimpse into a strong, local community defined by waterfront trails and neighborhood pride."
+      },
+      "lat": 42.318,
+      "lng": -71.058,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "south-end-enr-srv-serene-republic",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "SRV (Serene Republic)"
+      },
+      "description": {
+        "en": "An essential South End spot serving exceptional Venetian-style small plates and pasta made with locally-milled flour."
+      },
+      "type": "food",
+      "lat": 42.3424,
+      "lng": -71.0758,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-enr-black-lamb",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Black Lamb"
+      },
+      "description": {
+        "en": "A bustling American brasserie with French influences, known for its excellent burger, raw bar, and lively atmosphere."
+      },
+      "type": "food",
+      "lat": 42.3442,
+      "lng": -71.0733,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-enr-union-park",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Union Park"
+      },
+      "description": {
+        "en": "A tranquil, English-style residential square from the mid-19th century, offering a quiet moment away from the city buzz."
+      },
+      "type": "nature",
+      "lat": 42.3434,
+      "lng": -71.0721,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-enr-sowa-art-design-district",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "SoWa Art + Design District"
+      },
+      "description": {
+        "en": "Explore a cluster of artist studios, galleries, and design showrooms housed in former warehouses. The SoWa Open Market is a must-visit on Sundays."
+      },
+      "type": "culture",
+      "lat": 42.342,
+      "lng": -71.069,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-enr-caffe-vittoria",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Caffé Vittoria"
+      },
+      "description": {
+        "en": "Operating since 1929, this is Boston’s first Italian café. Step back in time in its charming, old-world setting for a rich espresso."
+      },
+      "type": "drink",
+      "lat": 42.3644,
+      "lng": -71.0548,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-enr-bricco-panetteria",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Bricco Panetteria"
+      },
+      "description": {
+        "en": "A true hidden gem found down a narrow alley, this subterranean bakery serves incredible artisan breads and classic Italian pastries."
+      },
+      "type": "hidden_gem",
+      "lat": 42.3637,
+      "lng": -71.0553,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-enr-neptune-oyster",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Neptune Oyster"
+      },
+      "description": {
+        "en": "A tiny, high-end oyster bar that locals and visitors alike queue up for. The warm, buttered lobster roll is legendary."
+      },
+      "type": "food",
+      "lat": 42.3637,
+      "lng": -71.0569,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-enr-tunnel-of-love",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Tunnel of Love"
+      },
+      "description": {
+        "en": "In February, the trellis at Christopher Columbus Waterfront Park is transformed into an illuminated tunnel with glowing red hearts."
+      },
+      "type": "landmark",
+      "lat": 42.3608,
+      "lng": -71.051,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-enr-old-north-church-christ-church",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Old North Church (Christ Church)"
+      },
+      "description": {
+        "en": "Boston's oldest standing church building (1723) is an essential landmark with a quiet interior away from the crowds."
+      },
+      "type": "landmark",
+      "lat": 42.3663,
+      "lng": -71.0539,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-enr-the-skinny-house",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "The Skinny House"
+      },
+      "description": {
+        "en": "A local oddity, this four-story house is famously narrow, measuring just 10 feet at its widest point."
+      },
+      "type": "landmark",
+      "lat": 42.3671,
+      "lng": -71.0556,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-enr-oleana",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Oleana"
+      },
+      "description": {
+        "en": "An outstanding Mediterranean restaurant with a magical, hidden garden patio and iconic baked Alaska dessert."
+      },
+      "type": "food",
+      "lat": 42.372,
+      "lng": -71.0994,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-enr-sumiao-hunan-kitchen",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Sumiao Hunan Kitchen"
+      },
+      "description": {
+        "en": "A favorite among the Kendall Square crowd, this spot serves fiery, authentic Hunan cuisine in a vibrant, modern space."
+      },
+      "type": "food",
+      "lat": 42.3628,
+      "lng": -71.0862,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-enr-mr-bartley-s-burger-cottage",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Mr. Bartley's Burger Cottage"
+      },
+      "description": {
+        "en": "An iconic, cash-only Harvard Square institution since 1960, featuring creatively named burgers in a delightfully cluttered room."
+      },
+      "type": "food",
+      "lat": 42.373,
+      "lng": -71.119,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-enr-schlesinger-library",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Schlesinger Library"
+      },
+      "description": {
+        "en": "A hidden gem on Harvard’s campus, this library is a major repository of archives on the history of women in America."
+      },
+      "type": "culture",
+      "lat": 42.379,
+      "lng": -71.121,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-enr-grolier-poetry-book-shop",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Grolier Poetry Book Shop"
+      },
+      "description": {
+        "en": "The oldest continuously operating poetry-only bookshop in the United States, it's a tiny, hallowed space for poets."
+      },
+      "type": "hidden_gem",
+      "lat": 42.3724,
+      "lng": -71.1182,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-enr-remnant-brewing",
+      "city_id": "boston",
+      "neighborhood_id": "somerville-union-square",
+      "name": {
+        "en": "Remnant Brewing"
+      },
+      "description": {
+        "en": "Tucked inside Bow Market, this brewery is a community hub with a great patio and a diverse tap list."
+      },
+      "type": "drink",
+      "lat": 42.3795,
+      "lng": -71.098,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-enr-aeronaut-brewing",
+      "city_id": "boston",
+      "neighborhood_id": "somerville-union-square",
+      "name": {
+        "en": "Aeronaut Brewing"
+      },
+      "description": {
+        "en": "A spacious brewery known for its experimental beers and lively events, from live music to pop-up markets."
+      },
+      "type": "drink",
+      "lat": 42.382,
+      "lng": -71.103,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-enr-tall-order",
+      "city_id": "boston",
+      "neighborhood_id": "somerville-union-square",
+      "name": {
+        "en": "Tall Order"
+      },
+      "description": {
+        "en": "A go-to spot for delicious breakfast sandwiches that transforms to offer a fantastic late-night menu from 10 PM until closing."
+      },
+      "type": "food",
+      "lat": 42.378,
+      "lng": -71.099,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-enr-union-square-murals",
+      "city_id": "boston",
+      "neighborhood_id": "somerville-union-square",
+      "name": {
+        "en": "Union Square Murals"
+      },
+      "description": {
+        "en": "The neighborhood is dotted with colorful street art. Wander the side streets to discover large-scale murals by local artists."
+      },
+      "type": "culture",
+      "lat": 42.379,
+      "lng": -71.0985,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-enr-harpoon-brewery",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Harpoon Brewery"
+      },
+      "description": {
+        "en": "The massive beer hall for one of New England's most famous beers is a fun, social spot to sample brews and eat soft pretzels."
+      },
+      "type": "drink",
+      "lat": 42.347,
+      "lng": -71.035,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-enr-woods-hill-pier-4",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Woods Hill Pier 4"
+      },
+      "description": {
+        "en": "A beautiful farm-to-table restaurant right on the water, committed to sustainable agriculture with unbeatable views."
+      },
+      "type": "food",
+      "lat": 42.354,
+      "lng": -71.041,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-enr-institute-of-contemporary-art-ica",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Institute of Contemporary Art (ICA)"
+      },
+      "description": {
+        "en": "A cultural anchor of the Seaport, famous for its dramatic building that cantilevers over the water."
+      },
+      "type": "culture",
+      "lat": 42.356,
+      "lng": -71.044,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-enr-snowport-curling",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Snowport Curling"
+      },
+      "description": {
+        "en": "A quirky and fun seasonal activity, these free, iceless curling lanes offer an unserious way to be active and social."
+      },
+      "type": "landmark",
+      "lat": 42.352,
+      "lng": -71.045,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-enr-frostival-ferris-wheel",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Frostival Ferris Wheel"
+      },
+      "description": {
+        "en": "This 75-foot seasonal Ferris wheel offers incredible skyline views of the waterfront and North End."
+      },
+      "type": "viewpoint",
+      "lat": 42.358,
+      "lng": -71.051,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-enr-dorchester-brewing-company",
+      "city_id": "boston",
+      "neighborhood_id": "dorchester",
+      "name": {
+        "en": "Dorchester Brewing Company"
+      },
+      "description": {
+        "en": "A massive, modern brewery that serves as a true neighborhood hangout, with a rooftop patio offering great views."
+      },
+      "type": "drink",
+      "lat": 42.321,
+      "lng": -71.061,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-enr-neponset-greenway-trail",
+      "city_id": "boston",
+      "neighborhood_id": "dorchester",
+      "name": {
+        "en": "Neponset Greenway Trail"
+      },
+      "description": {
+        "en": "An underrated gem, this walking and biking path runs along the Neponset River, offering beautiful, tranquil scenes."
+      },
+      "type": "nature",
+      "lat": 42.281,
+      "lng": -71.063,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-enr-columbia-point",
+      "city_id": "boston",
+      "neighborhood_id": "dorchester",
+      "name": {
+        "en": "Columbia Point"
+      },
+      "description": {
+        "en": "This peninsula offers one of Boston’s best hidden-gem viewpoints with a stunning, unobstructed panorama of the city skyline."
+      },
+      "type": "viewpoint",
+      "lat": 42.316,
+      "lng": -71.035,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-enr-tenean-beach",
+      "city_id": "boston",
+      "neighborhood_id": "dorchester",
+      "name": {
+        "en": "Tenean Beach"
+      },
+      "description": {
+        "en": "Connected to the Neponset Greenway, this local beach is a pleasant spot to relax and watch the planes from nearby Logan Airport."
+      },
+      "type": "nature",
+      "lat": 42.298,
+      "lng": -71.048,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-enr-greystone-cafe",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Greystone Cafe"
+      },
+      "description": {
+        "en": "A charming café in the South End with great coffee, fresh pastries, and a no-laptop vibe for a relaxed morning or lunch break."
+      },
+      "type": "food",
+      "lat": 42.3453,
+      "lng": -71.0725,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-enr-parkside-bookshop",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Parkside Bookshop"
+      },
+      "description": {
+        "en": "A cozy, pet-friendly bookstore in the South End with a thoughtfully curated selection, reading nooks, and community events."
+      },
+      "type": "shopping",
+      "lat": 42.3431,
+      "lng": -71.0701,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-enr-louis-corner",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Louis Corner"
+      },
+      "description": {
+        "en": "Located on Tremont Street, this spot brings lively energy and comforting American classic food to the neighborhood."
+      },
+      "type": "food",
+      "lat": 42.3421,
+      "lng": -71.0705,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-enr-cathedral-of-the-holy-cross",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Cathedral of the Holy Cross"
+      },
+      "description": {
+        "en": "The home of the Roman Catholic Archdiocese of Boston, this historic cathedral was built in 1875."
+      },
+      "type": "landmark",
+      "lat": 42.34,
+      "lng": -71.0689,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-enr-offsuit",
+      "city_id": "boston",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Offsuit"
+      },
+      "description": {
+        "en": "A hidden speakeasy in the Leather District hosting unique events like 90s-style elementary school book fairs with cocktails and pizza."
+      },
+      "type": "drink",
+      "lat": 42.3532,
+      "lng": -71.056,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-enr-reds-best-fish-market",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Red’s Best Fish Market"
+      },
+      "description": {
+        "en": "Located in the Boston Public Market, this is the place to go for fresh clam chowder, lobster rolls, and local seafood."
+      },
+      "type": "food",
+      "lat": 42.3619,
+      "lng": -71.0583,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-enr-bakey",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Bakey"
+      },
+      "description": {
+        "en": "A bakery offering fresh pastries perfect for a morning treat, known for its irresistible chocolate babka and burekas."
+      },
+      "type": "food",
+      "lat": 42.355,
+      "lng": -71.062,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-enr-little-sage",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "Little Sage"
+      },
+      "description": {
+        "en": "The reincarnation of a beloved Italian spot, this restaurant is known for its exceptional housemade pastas."
+      },
+      "type": "food",
+      "lat": 42.3649,
+      "lng": -71.0551,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-enr-jm-curley",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "JM Curley"
+      },
+      "description": {
+        "en": "A beacon in a sea of tourist traps, this Downtown Crossing tavern is a local favorite for bar food and burgers."
+      },
+      "type": "drink",
+      "lat": 42.3556,
+      "lng": -71.0623,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-enr-new-england-aquarium",
+      "city_id": "boston",
+      "neighborhood_id": "north-end",
+      "name": {
+        "en": "New England Aquarium"
+      },
+      "description": {
+        "en": "A major public aquarium located on the Central Wharf, home to thousands of aquatic animals."
+      },
+      "type": "culture",
+      "lat": 42.3592,
+      "lng": -71.0495,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-enr-darling",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Darling"
+      },
+      "description": {
+        "en": "A cocktail spot that embraces molecular mixology without being pretentious about it."
+      },
+      "type": "drink",
+      "lat": 42.3678,
+      "lng": -71.0743,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-enr-pagu",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Pagu"
+      },
+      "description": {
+        "en": "A versatile Spanish and Japanese restaurant in Kendall Square suitable for almost any situation."
+      },
+      "type": "food",
+      "lat": 42.3638,
+      "lng": -71.0955,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-enr-fallow-kin",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Fallow Kin"
+      },
+      "description": {
+        "en": "A vegetable-focused restaurant from the acclaimed team behind the restaurant Tallula."
+      },
+      "type": "food",
+      "lat": 42.3831,
+      "lng": -71.1306,
+      "trending_score": 76,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-enr-roxys-grilled-cheese-burgers",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Roxy’s Grilled Cheese & Burgers"
+      },
+      "description": {
+        "en": "A popular burger joint serving some of the best and most beloved smashburgers in Boston."
+      },
+      "type": "food",
+      "lat": 42.3631,
+      "lng": -71.0945,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-enr-el-jefes-taqueria",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "El Jefe’s Taqueria"
+      },
+      "description": {
+        "en": "A go-to spot in Harvard Square for late-night Mexican food, open until the early morning hours."
+      },
+      "type": "food",
+      "lat": 42.3722,
+      "lng": -71.12,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-enr-museum-of-science",
+      "city_id": "boston",
+      "neighborhood_id": "cambridge",
+      "name": {
+        "en": "Museum of Science"
+      },
+      "description": {
+        "en": "A landmark institution located at the Charles River Dam, featuring over 700 interactive exhibits."
+      },
+      "type": "culture",
+      "lat": 42.3678,
+      "lng": -71.0713,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-enr-the-block-at-woods-hill",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "The Block At Woods Hill"
+      },
+      "description": {
+        "en": "The slightly more unbuttoned sibling to Woods Hill Pier 4, offering a relaxed atmosphere and great bar food."
+      },
+      "type": "food",
+      "lat": 42.3537,
+      "lng": -71.0416,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-enr-fox-the-knife",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Fox & The Knife"
+      },
+      "description": {
+        "en": "A low-lit, vibey Italian restaurant in South Boston serving aperitivi and handmade pastas."
+      },
+      "type": "food",
+      "lat": 42.3429,
+      "lng": -71.0557,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-enr-grays-hall",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Gray’s Hall"
+      },
+      "description": {
+        "en": "A popular South Boston wine bar where a young, beautiful crowd gathers to drink cool-kid natural wine."
+      },
+      "type": "drink",
+      "lat": 42.3364,
+      "lng": -71.0413,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-enr-boston-children-s-museum",
+      "city_id": "boston",
+      "neighborhood_id": "seaport-district",
+      "name": {
+        "en": "Boston Children's Museum"
+      },
+      "description": {
+        "en": "Located on the Fort Point Channel, this museum offers a multitude of hands-on exhibits for kids and families."
+      },
+      "type": "culture",
+      "lat": 42.3516,
+      "lng": -71.05,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-enr-franklin-park-zoo",
+      "city_id": "boston",
+      "neighborhood_id": "dorchester",
+      "name": {
+        "en": "Franklin Park Zoo"
+      },
+      "description": {
+        "en": "A 72-acre zoo located within Boston's largest park, Franklin Park, featuring a wide variety of animals from around the world."
+      },
+      "type": "nature",
+      "lat": 42.3048,
+      "lng": -71.0908,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-enr-dorchester-park",
+      "city_id": "boston",
+      "neighborhood_id": "dorchester",
+      "name": {
+        "en": "Dorchester Park"
+      },
+      "description": {
+        "en": "A local hidden gem and historic park offering scenic nature spots and a peaceful escape within the city."
+      },
+      "type": "nature",
+      "lat": 42.2855,
+      "lng": -71.0645,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "south-end-task-1",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Brownstone Beauty"
+      },
+      "prompt": {
+        "en": "Find the most beautiful Victorian brownstone and take a photo focusing on its intricate architectural details, like an iron fence or ornate doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-2",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Leafy Lane"
+      },
+      "prompt": {
+        "en": "Capture a photo of a tree-lined street that shows off the neighborhood's leafy, residential vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-3",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Parklet Peace"
+      },
+      "prompt": {
+        "en": "Discover a small park or community garden and take a picture that captures its tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-4",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Artistic Expression"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, a gallery window, or a colorful mural and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-5",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Culinary Close-Up"
+      },
+      "prompt": {
+        "en": "Take an artful close-up shot of a coffee, pastry, or dish that looks too good to eat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-6",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Boutique Window"
+      },
+      "prompt": {
+        "en": "Photograph the most interesting window display you can find at an independent boutique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-7",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of shadows cast by the trees and buildings on a sidewalk or brick wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-8",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Stoop Stories"
+      },
+      "prompt": {
+        "en": "Find a classic brownstone stoop decorated with plants or pumpkins and take a welcoming photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-9",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Reflections of Style"
+      },
+      "prompt": {
+        "en": "Take a photo of the neighborhood's architecture reflected in a puddle or a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-10",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Neighborhood Pup"
+      },
+      "prompt": {
+        "en": "Spot a local dog out for a walk and (with the owner's permission) take a photo of the stylish city canine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-11",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Gaslamp Glow"
+      },
+      "prompt": {
+        "en": "Find an old-fashioned gaslamp-style street light and capture its charming character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-12",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Take a photo of a brightly colored door that stands out against the brick brownstones."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-13",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Cafe Culture"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of conversation and connection at an outdoor cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-14",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Secret Garden"
+      },
+      "prompt": {
+        "en": "Find a hidden courtyard or a small garden behind an iron gate and take a photo of this secret green space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-15",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "The Perfect Corner"
+      },
+      "prompt": {
+        "en": "Find a street corner that perfectly encapsulates the charm of the South End and take a wide shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-1",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Narrow Street Perspective"
+      },
+      "prompt": {
+        "en": "Find one of the North End's narrowest streets and take a photo looking down it to emphasize its tight quarters and historic feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-2",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "A Taste of Italy"
+      },
+      "prompt": {
+        "en": "Take a photo of something that screams 'Little Italy'—a flag, a sign in Italian, or a window full of pasta."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-3",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Espresso Moment"
+      },
+      "prompt": {
+        "en": "Capture the perfect shot of an espresso or cappuccino at a local cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-4",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find a historic plaque or marker on a building and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-5",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Bakery Window"
+      },
+      "prompt": {
+        "en": "Photograph a mouth-watering display of cannolis, pastries, or bread in a bakery window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-6",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Cobblestone Charm"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a cobblestone or brick-paved street or alleyway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-7",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Fire Escape Geometry"
+      },
+      "prompt": {
+        "en": "Capture the interesting lines and patterns of the fire escapes on the side of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-8",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Saints and Statues"
+      },
+      "prompt": {
+        "en": "Find a religious statue or icon in a public space or on a building and take a respectful photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-9",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Al Fresco Life"
+      },
+      "prompt": {
+        "en": "Take a picture that captures the lively atmosphere of people dining at outdoor restaurant patios."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-10",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a small, hidden alley and take a photo that makes it look mysterious and inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-11",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Old World Details"
+      },
+      "prompt": {
+        "en": "Find and photograph a detail that feels like it's from another time, like a vintage sign or an old door knocker."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-12",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Waterfront Glimpse"
+      },
+      "prompt": {
+        "en": "Capture a view of the harbor as seen from between two buildings on a side street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-13",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Layers of History"
+      },
+      "prompt": {
+        "en": "Take a photo that shows buildings from different eras standing side-by-side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-14",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "The Smell of Garlic"
+      },
+      "prompt": {
+        "en": "Take a selfie while trying to describe the amazing food smells in the air. What can you smell right now?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "north-end-task-15",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Neighborhood Gathering"
+      },
+      "prompt": {
+        "en": "Capture a scene of locals chatting on a street corner or stoop, showcasing the neighborhood's tight-knit community feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-1",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Intellectual Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the 'brainy' vibe of the neighborhood—a bookstore, a university gate, or students studying in a park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-2",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a spot where historic colonial-era architecture is right next to a modern glass-and-steel building and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-3",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Literary Haven"
+      },
+      "prompt": {
+        "en": "Take a photo of a stack of books at a bookstore or a 'little free library' on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-4",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Campus Life"
+      },
+      "prompt": {
+        "en": "Capture a classic campus scene: a grassy quad, an ivy-covered wall, or a university crest."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-5",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Innovation Hub"
+      },
+      "prompt": {
+        "en": "Photograph a building or sign related to a tech or biotech company in Kendall Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-6",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Global Flavors"
+      },
+      "prompt": {
+        "en": "Find a restaurant featuring cuisine from a country you've never visited and take a photo of its menu or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-7",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Bike Brains"
+      },
+      "prompt": {
+        "en": "Take a photo of a bike rack filled with bicycles, showcasing a primary mode of transport for students and thinkers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-8",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "A Moment of Thought"
+      },
+      "prompt": {
+        "en": "Take a selfie looking thoughtful or striking a 'thinker' pose near a library or statue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-9",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Public Art Puzzle"
+      },
+      "prompt": {
+        "en": "Find an abstract piece of public art and take a close-up shot that makes it hard to tell what it is."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-10",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the Charles River and take a scenic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-11",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Coffee & Contemplation"
+      },
+      "prompt": {
+        "en": "Capture a photo of your coffee cup next to a book or newspaper at a local cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-12",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Street Performer"
+      },
+      "prompt": {
+        "en": "If you spot a street performer or musician in Harvard Square, capture a photo of their performance (and be sure to tip!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-13",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Architectural Angles"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo of a modern building from a low angle to emphasize its unique geometric shapes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-14",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Historic House"
+      },
+      "prompt": {
+        "en": "Find a house with a plaque indicating it's on a historic register and take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "cambridge-task-15",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Smart Signage"
+      },
+      "prompt": {
+        "en": "Find a clever or witty sign outside a shop or restaurant and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-1",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Mural Masterpiece"
+      },
+      "prompt": {
+        "en": "Find a large, colorful mural on the side of a building and take a photo that captures its scale and energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-2",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Maker's Mark"
+      },
+      "prompt": {
+        "en": "Take a photo of a sign for a local maker, artist studio, or independent brewery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-3",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Gritty & Gorgeous"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the neighborhood's 'gritty' character in a beautiful way—think old brick, street art, and industrial details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-4",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a place where the community gathers, like a market, a brewery patio, or a public square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-5",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Craft Beer Colors"
+      },
+      "prompt": {
+        "en": "Take a colorful photo of a flight of beer or a brightly labeled can from a local brewery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-6",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Food Stall Feast"
+      },
+      "prompt": {
+        "en": "Capture the variety of options at a food market by taking a photo of multiple food stalls in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-7",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Evolving Cityscape"
+      },
+      "prompt": {
+        "en": "Find a construction site or a new building next to an old one to show how the neighborhood is changing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-8",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Creative Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie interacting with a piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-9",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Shop Small"
+      },
+      "prompt": {
+        "en": "Take a photo of the storefront of a tiny, independent shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-10",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find an old warehouse or factory that has been repurposed and photograph its industrial architectural details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-11",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Neighborhood Sign"
+      },
+      "prompt": {
+        "en": "Find a cool, hand-painted, or neon sign for a local business and get a great shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-12",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Late Night Bite"
+      },
+      "prompt": {
+        "en": "If you're out late, take a photo that captures the vibe of the late-night food scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-13",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Hidden Art"
+      },
+      "prompt": {
+        "en": "Look for small, unexpected art like a sticker, a small stencil, or a painted utility box."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-14",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Capture the fun and social atmosphere of an outdoor patio at a brewery or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "somerville-union-square-task-15",
+      "neighborhood_id": "somerville-union-square",
+      "title": {
+        "en": "The Perfect Pint"
+      },
+      "prompt": {
+        "en": "Take a picture of a freshly poured pint of local craft beer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-1",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Modern Reflections"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the sky, water, or other buildings in the glass facade of a modern tower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-2",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Harbor Views"
+      },
+      "prompt": {
+        "en": "Take a wide, panoramic photo of the Boston harbor from one of the waterfront parks or piers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-3",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Architectural Giant"
+      },
+      "prompt": {
+        "en": "Take a photo from the base of one of the tallest buildings, looking straight up to emphasize its height."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-4",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Waterfront Walk"
+      },
+      "prompt": {
+        "en": "Photograph a section of the Harborwalk, showing people enjoying the public space by the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-5",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Public Art"
+      },
+      "prompt": {
+        "en": "Find a unique sculpture or piece of public art and take a photo of it with the modern cityscape in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-6",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Seagull Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the water and a seagull (or a boat) in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-7",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Lines and Angles"
+      },
+      "prompt": {
+        "en": "Compose a photo that focuses on the strong geometric lines and angles of the modern architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-8",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here at the right time, capture the warm light of sunrise or sunset reflecting off the glass buildings and the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-9",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Food with a View"
+      },
+      "prompt": {
+        "en": "Take a photo of your food or drink with the harbor view visible from your table."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-10",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Bridge Beauty"
+      },
+      "prompt": {
+        "en": "Get a shot of one of the iconic bridges in the area, like the Evelyn Moakley Bridge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-11",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Rooftop Perspective"
+      },
+      "prompt": {
+        "en": "Find a rooftop bar or public space and capture the view of the neighborhood from above."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-12",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Seasonal Fun"
+      },
+      "prompt": {
+        "en": "Photograph people enjoying one of the seasonal activities, like curling in the winter or an outdoor market in the summer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-13",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Corporate vs. Culture"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between a corporate office building and a cultural institution like the ICA."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-14",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "After dark, capture the glittering lights of the Seaport buildings reflecting on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "seaport-district-task-15",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Innovative Space"
+      },
+      "prompt": {
+        "en": "Find a uniquely designed public bench, park, or plaza and take a photo that highlights its innovative design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-1",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Skyline Panorama"
+      },
+      "prompt": {
+        "en": "Find a viewpoint along the water and take a wide, panoramic shot of the Boston skyline from a distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-2",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Nature Escape"
+      },
+      "prompt": {
+        "en": "Take a photo along a waterfront trail that feels completely separate from the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-3",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Neighborhood Pride"
+      },
+      "prompt": {
+        "en": "Find something that shows local pride—a neighborhood banner, a community garden, or a local shop's sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-4",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "River Reflections"
+      },
+      "prompt": {
+        "en": "Capture the reflection of trees, bridges, or the sky on the calm surface of the Neponset River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-5",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Iconic Gas Tank"
+      },
+      "prompt": {
+        "en": "Get a photo that includes the famous rainbow-painted gas tank, an icon of the Dorchester skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-6",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Bridge Framing"
+      },
+      "prompt": {
+        "en": "Use a footbridge on one of the trails to frame a scenic view of the river or marshland."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-7",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Local Life"
+      },
+      "prompt": {
+        "en": "Take a photo that captures a slice of everyday life in the neighborhood—people walking their dogs, kids playing in a park, or neighbors chatting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-8",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Plane Spotting"
+      },
+      "prompt": {
+        "en": "From a beach or park, take a photo of an airplane on its approach to Logan Airport with the water or city in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-9",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Diverse Architecture"
+      },
+      "prompt": {
+        "en": "Photograph the different styles of homes in the neighborhood, from triple-deckers to single-family houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-10",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Community Hangout"
+      },
+      "prompt": {
+        "en": "Take a photo of a local brewery or restaurant that shows it as a central gathering place for the community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-11",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet walking path, showing off the neighborhood's natural side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-12",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Get a low-angle shot right at the edge of the water at a local beach or park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-13",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Sunset over the City"
+      },
+      "prompt": {
+        "en": "Capture the setting sun behind the Boston skyline as seen from a Dorchester viewpoint."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-14",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Urban Flora"
+      },
+      "prompt": {
+        "en": "Find and photograph wildflowers or interesting plants growing along one of the greenway trails."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "dorchester-task-15",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "A Different Boston"
+      },
+      "prompt": {
+        "en": "Take a photo that you think shows a side of Boston most tourists never get to see."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T22:56:38.121385+00:00"
+    },
+    {
+      "id": "south-end-task-1",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Brownstone Beauty"
+      },
+      "prompt": {
+        "en": "Find a classic South End brownstone and capture the intricate details of its ironwork or entryway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-2",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Victorian Vistas"
+      },
+      "prompt": {
+        "en": "Take a selfie on a picturesque, tree-lined street that showcases the neighborhood's Victorian architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-3",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Hidden Garden"
+      },
+      "prompt": {
+        "en": "Discover a hidden courtyard or a small community garden and photograph its quiet charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-4",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between historic buildings and modern city life in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-5",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a unique piece of public art or a colorful mural and take a creative shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-6",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Boutique Reflection"
+      },
+      "prompt": {
+        "en": "Take a photo of your reflection in the window of a stylish boutique shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-7",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Stoop Stories"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful doorway or stoop decorated for the season."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-8",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Gaslamp Glow"
+      },
+      "prompt": {
+        "en": "Capture the warm, atmospheric glow of a gas lamp at dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-9",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Paws of the South End"
+      },
+      "prompt": {
+        "en": "Find a dog enjoying a walk and capture its neighborhood swagger."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-10",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Foodie Frame"
+      },
+      "prompt": {
+        "en": "Take a photo through a restaurant window that captures the delicious food scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-11",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Parklet Peace"
+      },
+      "prompt": {
+        "en": "Capture a quiet moment in one of the neighborhood's many small parks or squares."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-12",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Secret History Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a building that looks like it has a fascinating, secret history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-13",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Pop of Color"
+      },
+      "prompt": {
+        "en": "Find a bright pop of color on an otherwise monochrome brick facade and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-14",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the interesting shadows cast by a row of Victorian houses in the afternoon light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "south-end-task-15",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Cozy Capture"
+      },
+      "prompt": {
+        "en": "Find a scene that perfectly represents the word 'cozy' and capture it in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-1",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Narrow Street Explorer"
+      },
+      "prompt": {
+        "en": "Find the narrowest, most charming street you can and capture its character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-2",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Pastry Box Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie with a pastry box from a local Italian bakery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-3",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Time Traveler"
+      },
+      "prompt": {
+        "en": "Photograph a scene that makes you feel like you've stepped back in time 100 years."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-4",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Tricolore Tribute"
+      },
+      "prompt": {
+        "en": "Find an Italian flag and incorporate it into a creative photo of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-5",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find a historic plaque or marker on a building and photograph its details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-6",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Window Box Wonder"
+      },
+      "prompt": {
+        "en": "Take a photo of a window box overflowing with colorful flowers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-7",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Al Fresco Moment"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of people enjoying a meal at an outdoor cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-8",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Hanover Street Hustle"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the vibrant energy of Hanover Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-9",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Secret Alleyway"
+      },
+      "prompt": {
+        "en": "Find a hidden alleyway that looks like it's full of stories and capture its mystique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-10",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Little Italy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that perfectly captures the 'I'm in Boston's Little Italy!' vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-11",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Brick & Cobblestone"
+      },
+      "prompt": {
+        "en": "Get up close and photograph the rich textures of old brick and cobblestone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-12",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Fire Escape Frame"
+      },
+      "prompt": {
+        "en": "Use a classic North End fire escape to frame a unique photo of the street below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-13",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Waterfront View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the harbor and capture the mix of old and new."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-14",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Italian Signage"
+      },
+      "prompt": {
+        "en": "Find a business sign or menu written in Italian and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "north-end-task-15",
+      "neighborhood_id": "north-end",
+      "title": {
+        "en": "Historic Church Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with one of the neighborhood's famous historic churches in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-1",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Intellectual Hub"
+      },
+      "prompt": {
+        "en": "Take a photo that perfectly captures the 'intellectual hub' vibe of Cambridge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-2",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Campus Contrast"
+      },
+      "prompt": {
+        "en": "Capture the architectural contrast between a historic university building and a modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-3",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Bookstore Facade"
+      },
+      "prompt": {
+        "en": "Find a quirky, independent bookstore and photograph its inviting storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-4",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Bicycle Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a bicycle, the preferred mode of Cambridge transportation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-5",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Student Life"
+      },
+      "prompt": {
+        "en": "Photograph a student engrossed in a book or on a laptop in a public space like a cafe or park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-6",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Charles River View"
+      },
+      "prompt": {
+        "en": "Take a photo from a bridge over the Charles River that includes the Boston skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-7",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Street Art Spotting"
+      },
+      "prompt": {
+        "en": "Find a cool piece of street art or a large mural and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-8",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Statue High-Five"
+      },
+      "prompt": {
+        "en": "Find a historic statue and pose for a selfie giving it a high-five."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-9",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Spirit of Innovation"
+      },
+      "prompt": {
+        "en": "Photograph a scene that represents Cambridge's innovative spirit, like a modern tech building in Kendall Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-10",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Square Energy"
+      },
+      "prompt": {
+        "en": "Capture the unique energy and flow of people in either Harvard Square or Kendall Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-11",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "University Gates"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the beautiful, historic university gates."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-12",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Leafy Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet, leafy corner on a university campus and capture the peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-13",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Older Than America"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a building that looks older than the country itself."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-14",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Rowers on the Charles"
+      },
+      "prompt": {
+        "en": "If you spot one, photograph a crew team rowing on the Charles River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "cambridge-task-15",
+      "neighborhood_id": "cambridge",
+      "title": {
+        "en": "Coffee Shop Vibe"
+      },
+      "prompt": {
+        "en": "Find a unique, non-chain coffee shop and capture its specific vibe in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-1",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Glass Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the skyline or the harbor in the glass facade of a modern building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-2",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Harbor Life"
+      },
+      "prompt": {
+        "en": "Take a photo of a boat, ferry, or ship in the harbor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-3",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Public Art Interaction"
+      },
+      "prompt": {
+        "en": "Find a piece of large-scale public art and interact with it for a creative selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-4",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Pier Pressure"
+      },
+      "prompt": {
+        "en": "Photograph the contrast between the old fishing piers and the new, modern developments."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-5",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Elevated View"
+      },
+      "prompt": {
+        "en": "Take a photo from a rooftop bar or an elevated viewpoint looking over the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-6",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Modern Lines"
+      },
+      "prompt": {
+        "en": "Capture the sleek, modern lines and angles of the Seaport's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-7",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Waterfront Hangout"
+      },
+      "prompt": {
+        "en": "Find a group of people enjoying the waterfront and capture the relaxed, social atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-8",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "After dark, photograph the city lights reflecting on the water of the harbor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-9",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Capture the industrial-chic aesthetic of a converted warehouse or factory building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-10",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Plane Spotting"
+      },
+      "prompt": {
+        "en": "Look up! Capture a photo of an airplane on its approach to Logan Airport over the Seaport."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-11",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Cocktail Hour"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a delicious-looking cocktail at a trendy Seaport bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-12",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Harborwalk View"
+      },
+      "prompt": {
+        "en": "Find a scenic spot along the Harborwalk and take a panoramic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-13",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Big Building Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows off the massive scale of the buildings in the Seaport."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-14",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Brewery Stop"
+      },
+      "prompt": {
+        "en": "Find one of the local breweries and capture its entrance or outdoor space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "seaport-district-task-15",
+      "neighborhood_id": "seaport-district",
+      "title": {
+        "en": "Pop-Up Fun"
+      },
+      "prompt": {
+        "en": "Keep an eye out for a pop-up installation or seasonal event (like Snowport) and document the fun."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-1",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Three-Decker Portrait"
+      },
+      "prompt": {
+        "en": "Photograph a classic Dorchester 'three-decker' house, a signature architectural style of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-2",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Waterfront View"
+      },
+      "prompt": {
+        "en": "Find a view of the water from a park, beach, or trail like the Neponset Greenway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-3",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Community Canvas"
+      },
+      "prompt": {
+        "en": "Find a mural or piece of public art that reflects the local Dorchester community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-4",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Red Line Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie at one of the Red Line T stations that serve the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-5",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Neighborhood Institution"
+      },
+      "prompt": {
+        "en": "Photograph a local business that looks like it has been a neighborhood institution for years."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-6",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Green Space Scene"
+      },
+      "prompt": {
+        "en": "Capture a scene from a local park or green space, like Dorchester Park or Franklin Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-7",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Distant Skyline"
+      },
+      "prompt": {
+        "en": "Find a spot where you can capture a view of the downtown Boston skyline from a distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-8",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Dot Ave Diversity"
+      },
+      "prompt": {
+        "en": "Take a photo on Dorchester Avenue that captures the diversity and energy of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-9",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Historic Landmark"
+      },
+      "prompt": {
+        "en": "Find a historic building or church and photograph its unique architectural details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-10",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Capture a quiet residential street scene that shows the neighborhood's character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-11",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of a local restaurant that serves cuisine from another part of the world."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-12",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Bridge Frame"
+      },
+      "prompt": {
+        "en": "Use a bridge or overpass, like the one on the Neponset Greenway, to frame a scenic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-13",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel represents the strong sense of community in Dorchester."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-14",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Tree Canopy"
+      },
+      "prompt": {
+        "en": "Find a street with a beautiful canopy of trees and take a picture looking down the road."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    },
+    {
+      "id": "dorchester-task-15",
+      "neighborhood_id": "dorchester",
+      "title": {
+        "en": "Dot Sign Selfie"
+      },
+      "prompt": {
+        "en": "Find a sign that says 'Dorchester' or 'Dot' and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:06:28.254540+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

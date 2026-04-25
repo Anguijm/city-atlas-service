@@ -1,0 +1,1920 @@
+{
+  "neighborhoods": [
+    {
+      "id": "namba-shinsaibashi",
+      "city_id": "osaka",
+      "name": {
+        "en": "Namba & Shinsaibashi"
+      },
+      "summary": {
+        "en": "The vibrant, chaotic epicenter of Osaka's pop culture, where neon-drenched streets hide serene temples and burgeoning indie scenes."
+      },
+      "lat": 34.6686,
+      "lng": 135.5015,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji",
+      "city_id": "osaka",
+      "name": {
+        "en": "Shinsekai & Tennoji"
+      },
+      "summary": {
+        "en": "A gritty, nostalgic time capsule of mid-20th-century Japan, offering a glimpse into an Osaka that tourism often overlooks."
+      },
+      "lat": 34.6525,
+      "lng": 135.506,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima",
+      "city_id": "osaka",
+      "name": {
+        "en": "Umeda & Fukushima"
+      },
+      "summary": {
+        "en": "The polished, corporate face of Osaka, hiding surreal architectural oddities within its gleaming skyscrapers and labyrinthine underground."
+      },
+      "lat": 34.7025,
+      "lng": 135.4959,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi",
+      "city_id": "osaka",
+      "name": {
+        "en": "Kyobashi"
+      },
+      "summary": {
+        "en": "A bustling, unpretentious hub for commuters that explodes with authentic after-work energy, known for its standing bars and street-side grilling."
+      },
+      "lat": 34.6958,
+      "lng": 135.5326,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama",
+      "city_id": "osaka",
+      "name": {
+        "en": "Semba & Kitahama"
+      },
+      "summary": {
+        "en": "The historic heart of Osaka's merchant past, a refined neighborhood of grand, European-inspired buildings perfect for an architectural walking tour."
+      },
+      "lat": 34.6875,
+      "lng": 135.504,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town",
+      "city_id": "osaka",
+      "name": {
+        "en": "Nipponbashi (Den Den Town)"
+      },
+      "summary": {
+        "en": "The vibrant, buzzing nerve center of Osaka's otaku culture, a sensory overload of electronics, anime, manga, and retro video games."
+      },
+      "lat": 34.6615,
+      "lng": 135.5063,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "namba-shinsaibashi-enr-dotonbori-street-food-stalls",
+      "city_id": "osaka",
+      "neighborhood_id": "namba-shinsaibashi",
+      "name": {
+        "en": "Dotonbori Street Food Stalls"
+      },
+      "description": {
+        "en": "The heart of Osakan 'kuidaore' culture; find the best takoyaki and okonomiyaki by following the longest lines of locals."
+      },
+      "type": "food",
+      "lat": 34.6687,
+      "lng": 135.501,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-enr-fudo-myo-o-statue",
+      "city_id": "osaka",
+      "neighborhood_id": "namba-shinsaibashi",
+      "name": {
+        "en": "Fudo Myo-o Statue"
+      },
+      "description": {
+        "en": "A Buddhist deity completely covered in a thick, green blanket of moss, splashed with water by worshippers for luck."
+      },
+      "type": "hidden_gem",
+      "lat": 34.6679,
+      "lng": 135.5028,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-enr-amerikamura-american-village",
+      "city_id": "osaka",
+      "neighborhood_id": "namba-shinsaibashi",
+      "name": {
+        "en": "Amerikamura (American Village)"
+      },
+      "description": {
+        "en": "A compact, energetic hub of youth fashion, vintage shops, and vibrant street art, perfect for people-watching."
+      },
+      "type": "shopping",
+      "lat": 34.6728,
+      "lng": 135.4995,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-enr-national-bunraku-theater",
+      "city_id": "osaka",
+      "neighborhood_id": "namba-shinsaibashi",
+      "name": {
+        "en": "National Bunraku Theater"
+      },
+      "description": {
+        "en": "The national home of traditional Japanese puppet theater, a highly respected and complex art form."
+      },
+      "type": "culture",
+      "lat": 34.6658,
+      "lng": 135.5102,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-enr-old-school-kissaten",
+      "city_id": "osaka",
+      "neighborhood_id": "shinsekai-tennoji",
+      "name": {
+        "en": "Old-School Kissaten"
+      },
+      "description": {
+        "en": "Discover a traditional coffee shop with time-capsule decor like velvet chairs and syphon coffee makers for a quiet break."
+      },
+      "type": "hidden_gem",
+      "lat": 34.653,
+      "lng": 135.5055,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-enr-taiyoshi-hyakuban",
+      "city_id": "osaka",
+      "neighborhood_id": "shinsekai-tennoji",
+      "name": {
+        "en": "Taiyoshi Hyakuban"
+      },
+      "description": {
+        "en": "A former brothel turned restaurant, featuring astonishingly preserved, extravagant Taisho-era architecture."
+      },
+      "type": "food",
+      "lat": 34.6583,
+      "lng": 135.5119,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-enr-tsutenkaku-tower",
+      "city_id": "osaka",
+      "neighborhood_id": "shinsekai-tennoji",
+      "name": {
+        "en": "Tsūtenkaku Tower"
+      },
+      "description": {
+        "en": "The iconic, Eiffel-inspired symbol of Shinsekai, best used as an orientation point and photographed from the streets below."
+      },
+      "type": "landmark",
+      "lat": 34.6525,
+      "lng": 135.5063,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-enr-janjan-yokocho-alley",
+      "city_id": "osaka",
+      "neighborhood_id": "shinsekai-tennoji",
+      "name": {
+        "en": "Janjan Yokocho Alley"
+      },
+      "description": {
+        "en": "A narrow arcade packed with cheap kushikatsu restaurants, smoky shogi clubs, and a palpable sense of local history."
+      },
+      "type": "landmark",
+      "lat": 34.6513,
+      "lng": 135.5068,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-enr-keitaku-garden",
+      "city_id": "osaka",
+      "neighborhood_id": "shinsekai-tennoji",
+      "name": {
+        "en": "Keitaku Garden"
+      },
+      "description": {
+        "en": "A stunningly peaceful traditional Japanese stroll garden offering a beautiful, natural frame for viewing the modern Abeno Harukas."
+      },
+      "type": "nature",
+      "lat": 34.6505,
+      "lng": 135.51,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-enr-tennoji-park",
+      "city_id": "osaka",
+      "neighborhood_id": "shinsekai-tennoji",
+      "name": {
+        "en": "Tennoji Park"
+      },
+      "description": {
+        "en": "A large urban park that contains the beautiful Keitaku Garden and offers a green respite from the city."
+      },
+      "type": "nature",
+      "lat": 34.651,
+      "lng": 135.5095,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-enr-umeda-underground-arcades",
+      "city_id": "osaka",
+      "neighborhood_id": "umeda-fukushima",
+      "name": {
+        "en": "Umeda Underground Arcades"
+      },
+      "description": {
+        "en": "A vast, confusing, and fascinating network of underground shopping arcades, perfect for finding tiny, authentic eateries."
+      },
+      "type": "shopping",
+      "lat": 34.7019,
+      "lng": 135.4996,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-enr-gate-tower-building",
+      "city_id": "osaka",
+      "neighborhood_id": "umeda-fukushima",
+      "name": {
+        "en": "Gate Tower Building"
+      },
+      "description": {
+        "en": "A mind-bending office building with the Hanshin Expressway passing directly through its 5th, 6th, and 7th floors."
+      },
+      "type": "hidden_gem",
+      "lat": 34.6958,
+      "lng": 135.4983,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-enr-umeda-sky-building",
+      "city_id": "osaka",
+      "neighborhood_id": "umeda-fukushima",
+      "name": {
+        "en": "Umeda Sky Building"
+      },
+      "description": {
+        "en": "An architectural marvel with a 'Floating Garden Observatory' suspended between two towers and a glass-enclosed escalator."
+      },
+      "type": "landmark",
+      "lat": 34.7053,
+      "lng": 135.4903,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-enr-nakanoshima-park",
+      "city_id": "osaka",
+      "neighborhood_id": "umeda-fukushima",
+      "name": {
+        "en": "Nakanoshima Park"
+      },
+      "description": {
+        "en": "A verdant island oasis between rivers, offering a perfect break with fantastic views of the city skyline."
+      },
+      "type": "nature",
+      "lat": 34.6923,
+      "lng": 135.5043,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-enr-osaka-central-public-hall",
+      "city_id": "osaka",
+      "neighborhood_id": "umeda-fukushima",
+      "name": {
+        "en": "Osaka Central Public Hall"
+      },
+      "description": {
+        "en": "A historic and architecturally significant building best viewed from the nearby Nakanoshima Park."
+      },
+      "type": "landmark",
+      "lat": 34.692,
+      "lng": 135.503,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-enr-izakaya-toyo",
+      "city_id": "osaka",
+      "neighborhood_id": "kyobashi",
+      "name": {
+        "en": "Izakaya Toyo"
+      },
+      "description": {
+        "en": "A legendary outdoor food stand where the charismatic owner sears fatty tuna with an industrial blowtorch."
+      },
+      "type": "food",
+      "lat": 34.6975,
+      "lng": 135.533,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-enr-kyobashi-tachinomi-bars",
+      "city_id": "osaka",
+      "neighborhood_id": "kyobashi",
+      "name": {
+        "en": "Kyobashi Tachinomi Bars"
+      },
+      "description": {
+        "en": "A warren of standing bars and small izakayas east of the station, offering an authentic and affordable local experience."
+      },
+      "type": "drink",
+      "lat": 34.696,
+      "lng": 135.5335,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-enr-osaka-castle-park",
+      "city_id": "osaka",
+      "neighborhood_id": "kyobashi",
+      "name": {
+        "en": "Osaka Castle Park"
+      },
+      "description": {
+        "en": "A massive park perfect for a stroll, offering impressive views of the castle's immense moats and stone walls."
+      },
+      "type": "nature",
+      "lat": 34.6873,
+      "lng": 135.5262,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-enr-osaka-castle-moats-and-walls",
+      "city_id": "osaka",
+      "neighborhood_id": "kyobashi",
+      "name": {
+        "en": "Osaka Castle Moats and Walls"
+      },
+      "description": {
+        "en": "The immense stone fortifications of the castle, often considered more impressive than the reconstructed keep itself."
+      },
+      "type": "landmark",
+      "lat": 34.685,
+      "lng": 135.527,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-enr-neyagawa-river-bridges",
+      "city_id": "osaka",
+      "neighborhood_id": "kyobashi",
+      "name": {
+        "en": "Neyagawa River Bridges"
+      },
+      "description": {
+        "en": "A great starting point to appreciate Osaka's history as a city of water by walking along the river."
+      },
+      "type": "landmark",
+      "lat": 34.698,
+      "lng": 135.53,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-enr-osaka-business-park-obp",
+      "city_id": "osaka",
+      "neighborhood_id": "kyobashi",
+      "name": {
+        "en": "Osaka Business Park (OBP)"
+      },
+      "description": {
+        "en": "An area of sleek, modern glass towers that provides a striking contrast to the gritty, old-school vibe of Kyobashi's bars."
+      },
+      "type": "landmark",
+      "lat": 34.6917,
+      "lng": 135.5316,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-enr-kitahama-retro-building",
+      "city_id": "osaka",
+      "neighborhood_id": "semba-kitahama",
+      "name": {
+        "en": "Kitahama Retro Building"
+      },
+      "description": {
+        "en": "A beautiful red-brick building from 1912, a registered cultural property that looks like it was plucked from London."
+      },
+      "type": "landmark",
+      "lat": 34.6913,
+      "lng": 135.5042,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-enr-osaka-gas-building",
+      "city_id": "osaka",
+      "neighborhood_id": "semba-kitahama",
+      "name": {
+        "en": "Osaka Gas Building"
+      },
+      "description": {
+        "en": "A striking 1933 modernist building with a distinctive curved corner, a landmark of pre-war Japanese design."
+      },
+      "type": "landmark",
+      "lat": 34.6833,
+      "lng": 135.5028,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-enr-tekijuku",
+      "city_id": "osaka",
+      "neighborhood_id": "semba-kitahama",
+      "name": {
+        "en": "Tekijuku"
+      },
+      "description": {
+        "en": "A preserved Edo-period school of Dutch studies, offering a rare glimpse into Japan's early interactions with Western science."
+      },
+      "type": "culture",
+      "lat": 34.6905,
+      "lng": 135.5025,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-enr-naniwa-church",
+      "city_id": "osaka",
+      "neighborhood_id": "semba-kitahama",
+      "name": {
+        "en": "Naniwa Church"
+      },
+      "description": {
+        "en": "A beautiful stone church that provides a surprising piece of Western architecture among the modern office buildings."
+      },
+      "type": "landmark",
+      "lat": 34.69,
+      "lng": 135.5035,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-enr-aoyama-building",
+      "city_id": "osaka",
+      "neighborhood_id": "semba-kitahama",
+      "name": {
+        "en": "Aoyama Building"
+      },
+      "description": {
+        "en": "A retro building where you can peek inside to discover unlisted, high-quality cafes that feel like a local secret."
+      },
+      "type": "hidden_gem",
+      "lat": 34.6845,
+      "lng": 135.503,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-enr-fushimi-building",
+      "city_id": "osaka",
+      "neighborhood_id": "semba-kitahama",
+      "name": {
+        "en": "Fushimi Building"
+      },
+      "description": {
+        "en": "A historic building that houses hidden coffee shops, perfect for an architectural discovery walk."
+      },
+      "type": "hidden_gem",
+      "lat": 34.6855,
+      "lng": 135.5032,
+      "trending_score": 71,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-enr-tavern-pachimon-wars",
+      "city_id": "osaka",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "name": {
+        "en": "Tavern Pachimon Wars"
+      },
+      "description": {
+        "en": "A tiny, dive-like bar crammed with unlicensed, knockoff 'pachimon' Star Wars merchandise from around the globe."
+      },
+      "type": "hidden_gem",
+      "lat": 34.663,
+      "lng": 135.506,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-enr-10-yen-vending-machines",
+      "city_id": "osaka",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "name": {
+        "en": "10-Yen Vending Machines"
+      },
+      "description": {
+        "en": "A quintessential Den Den Town experience is finding one of these machines selling drinks for an absurdly low price."
+      },
+      "type": "food",
+      "lat": 34.6625,
+      "lng": 135.5065,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-enr-den-den-town-side-street-shops",
+      "city_id": "osaka",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "name": {
+        "en": "Den Den Town Side-Street Shops"
+      },
+      "description": {
+        "en": "The real gems are found off the main drag, with specialists in everything from vintage synths to rare action figures."
+      },
+      "type": "shopping",
+      "lat": 34.662,
+      "lng": 135.5058,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-enr-retro-game-arcades",
+      "city_id": "osaka",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "name": {
+        "en": "Retro Game Arcades"
+      },
+      "description": {
+        "en": "Seek out smaller, older arcades specializing in classic fighting games and shoot-'em-ups from the 80s and 90s."
+      },
+      "type": "culture",
+      "lat": 34.6618,
+      "lng": 135.5068,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-enr-gakutensoku-automaton",
+      "city_id": "osaka",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "name": {
+        "en": "Gakutensoku Automaton"
+      },
+      "description": {
+        "en": "A modern replica of Japan's first robot from 1928, a piece of pre-war technological art."
+      },
+      "type": "culture",
+      "lat": 34.6891,
+      "lng": 135.5002,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-enr-osaka-science-museum",
+      "city_id": "osaka",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "name": {
+        "en": "Osaka Science Museum"
+      },
+      "description": {
+        "en": "Home to the Gakutensoku automaton, this museum is a short subway ride away and speaks to the city's innovative spirit."
+      },
+      "type": "culture",
+      "lat": 34.69,
+      "lng": 135.493,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "namba-shinsaibashi-task-1",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Neon Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a colorful neon sign in a puddle, a window, or a pair of sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-2",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Street Style Star"
+      },
+      "prompt": {
+        "en": "Photograph an example of bold and creative street fashion that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-3",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Quiet in the Chaos"
+      },
+      "prompt": {
+        "en": "Find a surprisingly peaceful spot—a tiny shrine, a mossy wall, a quiet alley—and capture the tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-4",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Food Sign Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with one of the giant, three-dimensional food signs the area is famous for."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-5",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Kuidaore Quest"
+      },
+      "prompt": {
+        "en": "Photograph three different kinds of street food being prepared or sold at stalls."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-6",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Alleyway Discovery"
+      },
+      "prompt": {
+        "en": "Find a narrow, interesting-looking alleyway and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-7",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "People Watching Post"
+      },
+      "prompt": {
+        "en": "Find a good spot for people-watching and take a photo that captures the energy of the crowd."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-8",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Indie Vibe"
+      },
+      "prompt": {
+        "en": "Photograph a poster or sign for a local band, indie film, or art event."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-9",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Vintage Find"
+      },
+      "prompt": {
+        "en": "Spot an interesting item in the window of a vintage clothing store and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-10",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Lantern Glow"
+      },
+      "prompt": {
+        "en": "Capture the warm, inviting light from a string of paper lanterns outside a restaurant or bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-11",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Urban Art Hunt"
+      },
+      "prompt": {
+        "en": "Find and photograph a piece of street art, whether it's a mural, a sticker, or a sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-12",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Canal View"
+      },
+      "prompt": {
+        "en": "Take a photo of the Dotonbori canal, focusing on the reflections of the buildings in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-13",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "Contrast Shot"
+      },
+      "prompt": {
+        "en": "Find a scene that shows a strong contrast between old traditions and new pop culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-14",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "My Favorite Shop"
+      },
+      "prompt": {
+        "en": "Take a photo of the storefront that you find most visually interesting or appealing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "namba-shinsaibashi-task-15",
+      "neighborhood_id": "namba-shinsaibashi",
+      "title": {
+        "en": "The Longest Line"
+      },
+      "prompt": {
+        "en": "Find the food stall with the longest line and take a photo. What are they selling?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-1",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Showa Era Signage"
+      },
+      "prompt": {
+        "en": "Find and photograph a faded, retro, or hand-painted sign that looks like it's from the mid-20th century."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-2",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that frames an old, gritty building with the hyper-modern Abeno Harukas tower in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-3",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Time Capsule Shop"
+      },
+      "prompt": {
+        "en": "Photograph a storefront that looks like it hasn't changed in at least 50 years."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-4",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Local Pastimes"
+      },
+      "prompt": {
+        "en": "Discreetly capture the atmosphere of a local shogi (Japanese chess) or mahjong club."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-5",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Kushikatsu Craze"
+      },
+      "prompt": {
+        "en": "Take a photo of a kushikatsu (deep-fried skewer) restaurant, focusing on the signs or the food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-6",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Tower Framing"
+      },
+      "prompt": {
+        "en": "Use the narrow streets and colorful signs to create an interesting frame for the Tsūtenkaku Tower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-7",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Nostalgic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a location that feels like you've stepped back in time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-8",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Garden View"
+      },
+      "prompt": {
+        "en": "From inside Tennoji Park, capture a view of nature with the city skyline in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-9",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Arcade Ambiance"
+      },
+      "prompt": {
+        "en": "Photograph the entrance to one of the covered shopping arcades, like Janjan Yokocho."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-10",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Kissaten Details"
+      },
+      "prompt": {
+        "en": "Find a traditional coffee shop (kissaten) and photograph an interesting detail, like its sign or a display in the window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-11",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Colorful Chaos"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the dense and colorful collection of signs and storefronts."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-12",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Gritty Texture"
+      },
+      "prompt": {
+        "en": "Find an interesting texture on a wall or pavement that shows the age and history of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-13",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Local Character"
+      },
+      "prompt": {
+        "en": "Photograph a quirky mascot or character statue that represents a local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-14",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "After dark, capture the unique glow of the neighborhood's old-fashioned lanterns and signs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "shinsekai-tennoji-task-15",
+      "neighborhood_id": "shinsekai-tennoji",
+      "title": {
+        "en": "Unapologetic Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel best represents the 'gritty, nostalgic, and completely unapologetic' vibe of Shinsekai."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-1",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Skyscraper Scale"
+      },
+      "prompt": {
+        "en": "Stand at the base of a skyscraper and take a photo looking straight up to capture its immense scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-2",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Glass Reflection"
+      },
+      "prompt": {
+        "en": "Find an interesting reflection of the city, the sky, or yourself in the glass facade of a modern building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-3",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Underground Life"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of the vast, labyrinthine underground shopping arcades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-4",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Architectural Anomaly"
+      },
+      "prompt": {
+        "en": "Find and photograph a building or structure that seems surreal or out of place."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-5",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a patch of nature—a park, a tree, a planter box—and photograph it against the concrete and glass backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-6",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Commuter Flow"
+      },
+      "prompt": {
+        "en": "Capture the motion and energy of hurried commuters moving through the station or underground."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-7",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Corporate Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the polished, corporate atmosphere of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-8",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Lines and Angles"
+      },
+      "prompt": {
+        "en": "Focus on the strong geometric lines and angles of the modern architecture in a photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-9",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Subterranean Snack"
+      },
+      "prompt": {
+        "en": "Find a tiny, standing-only noodle bar or food counter in the underground and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-10",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "View from the Bridge"
+      },
+      "prompt": {
+        "en": "From one of the bridges over the river, take a photo of the Nakanoshima Park area and the surrounding skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-11",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Blue Hour Beauty"
+      },
+      "prompt": {
+        "en": "Just after sunset, capture the deep blue sky behind the glowing lights of the skyscrapers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-12",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Escalator to the Sky"
+      },
+      "prompt": {
+        "en": "Photograph an escalator that looks particularly long, steep, or futuristic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-13",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Department Store Delights"
+      },
+      "prompt": {
+        "en": "Visit a department store food hall (depachika) and photograph the most beautiful-looking food display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-14",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Highway in the Sky"
+      },
+      "prompt": {
+        "en": "Take a photo of an elevated expressway, focusing on how it weaves through the city's buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "umeda-fukushima-task-15",
+      "neighborhood_id": "umeda-fukushima",
+      "title": {
+        "en": "Polished Playground"
+      },
+      "prompt": {
+        "en": "Take a photo that shows why this neighborhood is a 'playground for lovers of modern design'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-1",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "After-Work Energy"
+      },
+      "prompt": {
+        "en": "Capture the lively, boisterous atmosphere of a crowded standing bar (tachinomi) or izakaya just after 5 PM."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-2",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Street Food Sizzle"
+      },
+      "prompt": {
+        "en": "Photograph the steam or smoke rising from a street-side grill or food stall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-3",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Gritty vs. Gleaming"
+      },
+      "prompt": {
+        "en": "Find a spot where you can photograph an old, gritty izakaya with the sleek, modern towers of Osaka Business Park in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-4",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Lantern-Lit Welcome"
+      },
+      "prompt": {
+        "en": "Take a photo of a red paper lantern (chochin) hanging outside a bar or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-5",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Blue-Collar Gourmet Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the unpretentious, authentic vibe of the neighborhood's food scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-6",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Castle Walls"
+      },
+      "prompt": {
+        "en": "From the park, take a photo focusing on the immense and impressive stone walls of Osaka Castle's moat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-7",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Riverside Respite"
+      },
+      "prompt": {
+        "en": "Find a quiet spot along the Neyagawa River and take a photo of one of the many bridges."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-8",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Commuter Hub"
+      },
+      "prompt": {
+        "en": "Capture the constant flow of people around the bustling Kyobashi Station."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-9",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "A Toast to Osaka"
+      },
+      "prompt": {
+        "en": "Photograph a collection of beer crates, sake bottles, or drink menus that represent the area's drinking culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-10",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Hidden Gem Bar"
+      },
+      "prompt": {
+        "en": "Wander the narrow streets and photograph the entrance to a small bar that looks particularly inviting and local."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-11",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Raw and Real"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the 'raw and authentic' spirit of Kyobashi, free from tourist polish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-12",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "In Osaka Castle Park, photograph people enjoying the wide-open green space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-13",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Under the Tracks"
+      },
+      "prompt": {
+        "en": "Many bars are located under the train tracks. Capture a photo of this unique urban setting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-14",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "Menu of the Day"
+      },
+      "prompt": {
+        "en": "Find a hand-written or simple, non-touristy menu outside a small restaurant and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "kyobashi-task-15",
+      "neighborhood_id": "kyobashi",
+      "title": {
+        "en": "The Performance Artist"
+      },
+      "prompt": {
+        "en": "Find a street food chef and capture a photo of them in action, showcasing their skill and charisma."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-1",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Instead of the whole building, focus on a single, ornate detail: a window frame, a carving, or a piece of typography."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-2",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "European Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a building that looks like it could be in a European city like London or Paris."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-3",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "River Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of one of the historic buildings shimmering in the river water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-4",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Hidden Cafe"
+      },
+      "prompt": {
+        "en": "Peek into the ground floor of a retro building and photograph the entrance to a hidden coffee shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-5",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Merchant Past"
+      },
+      "prompt": {
+        "en": "Find a detail—a company name carved in stone, an old plaque—that hints at the area's history as a merchant quarter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-6",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Quiet Street Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on one of the quieter, more refined streets, capturing the peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-7",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Texture Study"
+      },
+      "prompt": {
+        "en": "Get up close and photograph the texture of an old brick or stone wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-8",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Modernist Curve"
+      },
+      "prompt": {
+        "en": "Find a building with a distinctive, modernist curve and capture its unique shape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-9",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Chic Boutique"
+      },
+      "prompt": {
+        "en": "Photograph the elegant window display of a chic boutique housed in one of the historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-10",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Capture a scene that represents a moment of quiet reflection, like the Naniwa Church or a peaceful side street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-11",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the late afternoon, capture the warm, golden light hitting the facade of a brick or stone building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-12",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Office Lunch"
+      },
+      "prompt": {
+        "en": "Find a small, family-run restaurant with a simple lunch menu in the window and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-13",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Edo Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a traditional Japanese architectural element that contrasts with the Western-style buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-14",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both a historic building and a modern office block in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "semba-kitahama-task-15",
+      "neighborhood_id": "semba-kitahama",
+      "title": {
+        "en": "Architectural Tour"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different architectural styles you find in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-1",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Sensory Overload"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the chaotic, buzzing, and vibrant energy of the main street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-2",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Gachapon Wall"
+      },
+      "prompt": {
+        "en": "Find a large bank of colorful capsule toy (gachapon) machines and photograph the variety."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-3",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Arcade Warrior"
+      },
+      "prompt": {
+        "en": "Capture the intense focus of someone playing a game in a retro video game arcade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-4",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Baffling Merchandise"
+      },
+      "prompt": {
+        "en": "Find and photograph the most bizarre, niche, or uniquely Japanese item you can find for sale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-5",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Otaku Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a giant anime or manga character on a billboard or in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-6",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Retro Tech"
+      },
+      "prompt": {
+        "en": "Find a piece of vintage technology for sale—an old video game console, a synthesizer, or an electronic component."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-7",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Maid Cafe Sign"
+      },
+      "prompt": {
+        "en": "Photograph the colorful and eye-catching sign for one of the area's famous maid cafes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-8",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Side-Street Specialist"
+      },
+      "prompt": {
+        "en": "Explore a side street and photograph a small, highly specialized shop that catches your interest."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-9",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Tower of Manga"
+      },
+      "prompt": {
+        "en": "Take a photo looking up at one of the towering buildings covered from top to bottom in anime and manga advertisements."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-10",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "The 10-Yen Challenge"
+      },
+      "prompt": {
+        "en": "Find a 10-yen vending machine. Photograph the machine, and if you're feeling lucky, the surprise drink you get!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-11",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Figure in a Box"
+      },
+      "prompt": {
+        "en": "Photograph an interesting or rare-looking action figure or model kit in its packaging."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-12",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Dueling Signs"
+      },
+      "prompt": {
+        "en": "Capture a photo showing the visual competition between multiple bright, loud, and colorful signs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-13",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Passion Project"
+      },
+      "prompt": {
+        "en": "Find a shop dedicated to a very specific hobby (e.g., military models, collectible cards, idol merchandise) and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-14",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Bootleg Wonder"
+      },
+      "prompt": {
+        "en": "Inspired by Pachimon Wars, find and photograph the funniest or weirdest-looking bootleg or knockoff item you can spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    },
+    {
+      "id": "nipponbashi-den-den-town-task-15",
+      "neighborhood_id": "nipponbashi-den-den-town",
+      "title": {
+        "en": "Nerve Center"
+      },
+      "prompt": {
+        "en": "Take a photo that you think best illustrates why this area is the 'nerve center of Osaka's otaku culture'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:43:20.819057+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}
