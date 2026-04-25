@@ -1410,14 +1410,20 @@ async def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     if args.ingest_only:
-        # Skip phases A+B, validate existing JSON then ingest
+        # Skip phases A+B+C; ingest existing JSON straight to Firestore.
+        # Phase C already ran when the JSON was originally produced. Re-
+        # running it here would burn a Gemini Pro call per city AND risk a
+        # non-deterministic FAIL verdict that would move the JSON to
+        # failed/ before Phase D could read it.
+        # Pass enrich=args.enrich so `--ingest-only --enrich` correctly
+        # routes through enrich_ingest.ts (additive, source-tagged) rather
+        # than build_cache.ts (baseline, strict-Zod which rejects the
+        # `source` and `enriched_at` keys produced by Phase A enrichment).
         json_path = OUTPUT_DIR / f"{city['id']}.json"
         if not json_path.exists():
             print(f"ERROR: No existing JSON at {json_path}")
             sys.exit(1)
-        data = json.loads(json_path.read_text())
-        phase_c_validate(city, data, json_path)
-        phase_d_ingest(city)
+        phase_d_ingest(city, enrich=args.enrich)
         print(f"\n{'='*60}")
         print(f"✓ Ingestion complete for {city['name']}")
         print(f"{'='*60}")
