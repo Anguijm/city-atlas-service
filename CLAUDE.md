@@ -57,6 +57,15 @@ Follow a TDD-style cadence for code changes. The council runs once per push to P
 
 ## Firestore discipline
 
+**Before any manual pipeline run that writes to production Firestore** (`research_city.py --ingest`, `enrich_ingest.ts`, `build_cache.ts`, etc.) verify that `.github/workflows/branch-guard.yml` is **green on the HEAD commit of `main`** that you're running from. This closes the manual-run loophole the auto-deploy guard doesn't cover: if someone direct-pushed an unreviewed change to `main` and the guard failed post-hoc, running the pipeline from that HEAD propagates the unreviewed code to production data. Quick check:
+
+```bash
+gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'
+# expect: "success"
+```
+
+If it returns anything else, sync to a known-good commit before running.
+
 - GCP project: `urban-explorer-483600`. Named database: `urbanexplorer` (the rename to `travel-cities` was planned but not executed; code in `enrich_ingest.ts:25`, `build_cache.ts:601,1073`, `qc_cleanup.ts:26`, `backfill_task_neighborhoods.ts:30`, `firestore/admin.ts:20` all point at `urbanexplorer`. Edit any `travel-cities` references out as found, or land the rename and the doctrine together.)
 - Pipeline writes (verified against code):
   - `cities/{cityId}` — top-level city metadata
