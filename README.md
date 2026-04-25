@@ -6,12 +6,12 @@ Batch data pipeline that builds the shared city atlas consumed by **Urban Explor
 
 1. **Scrapes** six public sources per city (Atlas Obscura, The Infatuation, TimeOut, Locationscout, Wikipedia, Reddit) into markdown.
 2. **Synthesizes** the scraped content through four Gemini-powered phases — research → structure → validate → ingest.
-3. **Writes** neighborhoods, waypoints, and per-app tasks to a shared Firestore database (`travel-cities`).
-4. **Serves** both consumer apps via the `@travel/city-atlas-types` npm package (Zod schemas + Firestore read helpers).
+3. **Writes** neighborhoods, waypoints, and tasks to a shared Firestore database (named database `urbanexplorer` in GCP project `urban-explorer-483600`).
+4. **Serves** both consumer apps; consumers import Zod schemas from `src/schemas/cityAtlas.ts` (copy or git-import — no published npm package).
 
 ## Status
 
-Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). End-to-end validated through real Gemini output on 2026-04-25 — 15 of the 19 originally-parked metro cities now ingested as `source: "enrichment-*"` documents in the `travel-cities` Firestore database; 4 of those 15 are `quality_status: verified` (the first verified data ever produced from this repo). Honolulu pending one-step recovery (16/16); geneva + lisbon are English-source edge cases. Per-source scraper refinement landed in PR #15 (Atlas Obscura overrides, Infatuation finder, Spotted by Locals retired). See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
+Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). End-to-end validated through real Gemini output on 2026-04-25 — 15 of the 19 originally-parked metro cities now ingested as `source: "enrichment-*"` documents in the `urbanexplorer` named database; 4 of those 15 are `quality_status: verified` (the first verified data ever produced from this repo). Honolulu pending one-step recovery (16/16); geneva + lisbon are English-source edge cases. Per-source scraper refinement landed in PR #15 (Atlas Obscura overrides, Infatuation finder, Spotted by Locals retired). See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
 
 ## Governance
 
@@ -32,7 +32,7 @@ configs/
   urban-explorer/tasks.yaml     # UE photo-hunt prompt templates
   roadtripper/tasks.yaml        # RT road-trip prompt templates
 src/
-  schemas/                      # published as @travel/city-atlas-types
+  schemas/                      # cross-consumer Zod schemas (cityAtlas.ts); copy or git-import, no npm package
   scrapers/                     # 4 scraper files covering 6 sources (TS)
   pipeline/                     # Phase A/B/C/D orchestration (Python + TS)
   firestore/                    # Admin SDK wrapper
@@ -43,8 +43,8 @@ docs/                           # DATA_COVERAGE_REPORT and other standing docs
 
 ## Consumers
 
-- [urban-explorer](https://github.com/Anguijm/urban-explorer) — Next.js photo-hunt app, reads cities + neighborhoods + waypoints + `tasks_ue/*`.
-- Roadtripper (separate repo) — reads cities + neighborhoods + waypoints + `tasks_rt/*`.
+- [urban-explorer](https://github.com/Anguijm/urban-explorer) — Next.js photo-hunt app, reads cities + neighborhoods + waypoints + tasks (nested under cities, or via `vibe_tasks` flat collection).
+- Roadtripper (separate repo) — reads the same shape; per-app filtering lives on individual task docs, not separate collections.
 
 ## Open work
 

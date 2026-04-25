@@ -51,7 +51,7 @@ This demoted scope came out of the Gemini council on 2026-04-17 — the prior ve
 
 **You MUST ask the human (`needs-human: <reason>` comment, no suggestion) for:**
 - Changes to `firestore.rules`, `firestore.indexes.json`, or the Firestore collection ownership boundary documented in `CLAUDE.md`.
-- Changes to `src/schemas/cityAtlas.ts` — the cross-consumer contract published as `@travel/city-atlas-types`.
+- Changes to `src/schemas/cityAtlas.ts` — the cross-consumer contract (consumers copy or git-import; no published npm package).
 - Changes to any Gemini prompt (Phase A, B, C, or council persona files) that could alter research output semantics.
 - Secret handling: new env vars, changes to `.env.example`, changes to CI secret scopes.
 - Adding, removing, or upgrading runtime dependencies (Python or Node).

@@ -52,8 +52,9 @@ subprocesses via `npx tsx` for Firestore writes.
 - **Python strengths used here:** `google.genai` SDK ergonomics, subprocess
   orchestration with timeouts/manifest checkpoints, textual log output.
 - **TypeScript strengths used here:** `firebase-admin` SDK + Zod schemas
-  (shared with consumer apps via `@travel/city-atlas-types`), Playwright
-  browser automation in scrapers.
+  (shared with consumer apps; consumers copy `src/schemas/cityAtlas.ts` or
+  git-import — no published npm package), Playwright browser automation
+  in scrapers.
 
 A single-language rewrite would require either porting Playwright scrapers
 to Python (worse DX, slower) or porting the Gemini/Firestore flow to TS

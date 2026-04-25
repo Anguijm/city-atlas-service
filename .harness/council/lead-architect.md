@@ -10,7 +10,7 @@ You do not rehash the critiques. You produce the verdict.
 - **If any reviewer scored ≤ 4 or flagged a required remediation that is a data-correctness or secret-leak risk, the verdict is BLOCK.** No synthesis gymnastics. Merge would harm the city atlas or consumers.
 - **If all reviewers scored ≥ 6 with no required remediations, verdict is CLEAR.** Merge proceeds.
 - **Otherwise CONDITIONAL**: list the required remediations (numbered, assignable, each scoped to a single file or concern). After remediations land in a follow-up commit, auto-rerun the council.
-- **Contract risk is special.** If Architecture flagged a cross-consumer breaking change (`@travel/city-atlas-types` schema break), the verdict must explicitly call out which consumer (UE, Roadtripper) needs a coordinated deploy, regardless of other scores.
+- **Contract risk is special.** If Architecture flagged a cross-consumer breaking change (a `src/schemas/cityAtlas.ts` schema break), the verdict must explicitly call out which consumer (UE, Roadtripper) needs a coordinated deploy, regardless of other scores.
 - **Pipeline non-determinism is known.** Gemini subprocess output varies between calls. Don't BLOCK on reviewer concerns about "output might differ on retry" unless the PR actively regresses the rescue-via-direct-retry pattern.
 - **Council cost itself matters.** If a PR plausibly bloats council runs (e.g., adds per-persona secondary fetches), flag under Cost even if reviewers missed it.
 

@@ -18,7 +18,7 @@ Before the checklist, the negatives. This repo uses **Firestore** (NoSQL documen
 
 ## Firestore surface (Admin SDK)
 
-- [ ] Pipeline writes only to owned collections: `cities/*`, `cities/*/neighborhoods/*`, `.../waypoints/*`, `tasks_ue/*`, `tasks_rt/*`, `seasonal_variants/*`, `vibe_*`, `pending_research/*`, `health_metrics/*`.
+- [ ] Pipeline writes only to owned collections: `cities/{cityId}` + nested `neighborhoods/`, `waypoints/`, `tasks/`; flat denormalized `vibe_neighborhoods/`, `vibe_waypoints/`, `vibe_tasks/`; `seasonal_variants/`, `pending_research/`, `health_metrics/`. (No `tasks_rt`/`tasks_ue` collections; per-consumer differentiation lives on individual task docs.)
 - [ ] Pipeline **does not** write to `saved_hunts/*` (app-owned, client-writable via `firestore.rules`) or `cache_locks/*` (read-side concurrency primitive).
 - [ ] The Admin SDK bypasses `firestore.rules` by design. Defensive filters in code (e.g., `enrich_ingest.ts`'s `source: "enrichment-*"` check) are load-bearing — don't remove them.
 - [ ] Destructive Firestore operations (`.delete()`, `.deleteCollection()`, bulk overwrite) require explicit confirmation, dry-run support, or an `AUDIT_*` structured log line on each destructive call.
@@ -55,7 +55,7 @@ Before the checklist, the negatives. This repo uses **Firestore** (NoSQL documen
 
 ## Cross-consumer schema contract
 
-- [ ] Changes to `src/schemas/cityAtlas.ts` are bilateral — both urban-explorer and Roadtripper depend on it via the `@travel/city-atlas-types` package. A breaking change requires semver major + coordinated deploys.
+- [ ] Changes to `src/schemas/cityAtlas.ts` are bilateral — both urban-explorer and Roadtripper depend on it (via copy or git-import; no npm package). A breaking change requires coordinated deploys to both consumer repos.
 - [ ] The published package does not accidentally re-export server-only bindings (Admin SDK, `firebase-admin` types) that would land in consumer client bundles.
 
 ## Logging and PII
