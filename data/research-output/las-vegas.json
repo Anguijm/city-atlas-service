@@ -1,0 +1,1937 @@
+{
+  "neighborhoods": [
+    {
+      "id": "arts-district",
+      "city_id": "las-vegas",
+      "name": {
+        "en": "The Arts District (18b)"
+      },
+      "summary": {
+        "en": "A gritty, creative hub and the city's cultural heart, this is a sprawling canvas of murals, independent galleries, and repurposed warehouses where locals come to drink and browse."
+      },
+      "lat": 36.1581,
+      "lng": -115.1525,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east",
+      "city_id": "las-vegas",
+      "name": {
+        "en": "Downtown & Fremont East"
+      },
+      "summary": {
+        "en": "This is Old Vegas, the city's original core, where historic bars, serious steakhouses, and innovative music venues thrive in the shadow of classic neon."
+      },
+      "lat": 36.1699,
+      "lng": -115.1412,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown",
+      "city_id": "las-vegas",
+      "name": {
+        "en": "Chinatown"
+      },
+      "summary": {
+        "en": "A sprawling, multi-mile corridor of strip malls on Spring Mountain Road packed with some of the best and most authentic Asian cuisine in the country."
+      },
+      "lat": 36.1258,
+      "lng": -115.2001,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside",
+      "city_id": "las-vegas",
+      "name": {
+        "en": "University District & The Eastside"
+      },
+      "summary": {
+        "en": "Centered around the UNLV campus, this area offers a glimpse into a more normal, lived-in Las Vegas, with a mix of student life, old-school businesses, and hidden gems."
+      },
+      "lat": 36.1085,
+      "lng": -115.1385,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley",
+      "city_id": "las-vegas",
+      "name": {
+        "en": "Westside & Spring Valley"
+      },
+      "summary": {
+        "en": "Largely residential, this area hides some of the city's most acclaimed culinary institutions, offering sophisticated food and drink without the resort price tags."
+      },
+      "lat": 36.1435,
+      "lng": -115.2154,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip",
+      "city_id": "las-vegas",
+      "name": {
+        "en": "The \"Hidden\" Strip"
+      },
+      "summary": {
+        "en": "Navigate the mega-resorts not as a tourist, but as a discoverer, seeking out the speakeasies, high-quality restaurants, and unique vantage points hidden in plain sight."
+      },
+      "lat": 36.1147,
+      "lng": -115.1728,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "arts-district-enr-velveteen-rabbit",
+      "city_id": "las-vegas",
+      "neighborhood_id": "arts-district",
+      "name": {
+        "en": "Velveteen Rabbit"
+      },
+      "description": {
+        "en": "A whimsical, dimly lit cocktail bar with a vintage-heavy interior known for its unusual and creative seasonal cocktails."
+      },
+      "type": "nightlife",
+      "lat": 36.1591,
+      "lng": -115.1521,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-enr-able-baker-brewing",
+      "city_id": "las-vegas",
+      "neighborhood_id": "arts-district",
+      "name": {
+        "en": "Able Baker Brewing"
+      },
+      "description": {
+        "en": "Considered by many to be the best brewpub in the city, this spacious spot is dedicated to craft beer and atomic-age theming."
+      },
+      "type": "drink",
+      "lat": 36.1561,
+      "lng": -115.1522,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-enr-dino-s-lounge",
+      "city_id": "las-vegas",
+      "neighborhood_id": "arts-district",
+      "name": {
+        "en": "Dino's Lounge"
+      },
+      "description": {
+        "en": "A legendary, no-frills dive bar famous for its loud music, karaoke nights, and an unapologetically old-school Vegas atmosphere."
+      },
+      "type": "nightlife",
+      "lat": 36.1558,
+      "lng": -115.1488,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-enr-esther-s-kitchen",
+      "city_id": "las-vegas",
+      "neighborhood_id": "arts-district",
+      "name": {
+        "en": "Esther's Kitchen"
+      },
+      "description": {
+        "en": "The undisputed heart of the Arts District dining scene, serving seasonal Italian fare with house-made pasta in a bustling, chic-industrial space."
+      },
+      "type": "food",
+      "lat": 36.1601,
+      "lng": -115.1501,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-enr-first-friday-art-walk",
+      "city_id": "las-vegas",
+      "neighborhood_id": "arts-district",
+      "name": {
+        "en": "First Friday Art Walk"
+      },
+      "description": {
+        "en": "On the first Friday of the month, the neighborhood transforms into a massive block party with open galleries, street performers, and food trucks."
+      },
+      "type": "culture",
+      "lat": 36.1595,
+      "lng": -115.1515,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-enr-atomic-liquors",
+      "city_id": "las-vegas",
+      "neighborhood_id": "downtown-fremont-east",
+      "name": {
+        "en": "Atomic Liquors"
+      },
+      "description": {
+        "en": "The oldest freestanding bar in Las Vegas, where locals once gathered on the roof to watch atomic bomb tests in the desert."
+      },
+      "type": "nightlife",
+      "lat": 36.1679,
+      "lng": -115.1369,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-enr-the-laundry-room",
+      "city_id": "las-vegas",
+      "neighborhood_id": "downtown-fremont-east",
+      "name": {
+        "en": "The Laundry Room"
+      },
+      "description": {
+        "en": "A true speakeasy hidden inside Commonwealth bar, offering an intimate experience with meticulously crafted cocktails and a strict set of rules."
+      },
+      "type": "hidden_gem",
+      "lat": 36.1691,
+      "lng": -115.141,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-enr-barrys-downtown-prime",
+      "city_id": "las-vegas",
+      "neighborhood_id": "downtown-fremont-east",
+      "name": {
+        "en": "Barry’s Downtown Prime"
+      },
+      "description": {
+        "en": "A modern throwback to the glamorous steakhouses of vintage Vegas, located in the basement of the Circa resort."
+      },
+      "type": "food",
+      "lat": 36.1716,
+      "lng": -115.1458,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-enr-oscars-steakhouse",
+      "city_id": "las-vegas",
+      "neighborhood_id": "downtown-fremont-east",
+      "name": {
+        "en": "Oscar’s Steakhouse"
+      },
+      "description": {
+        "en": "Housed in the iconic glass dome of the Plaza Hotel, this steakhouse is a quintessential Old Vegas setting for a classic dinner."
+      },
+      "type": "food",
+      "lat": 36.172,
+      "lng": -115.147,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-enr-the-mob-museum",
+      "city_id": "las-vegas",
+      "neighborhood_id": "downtown-fremont-east",
+      "name": {
+        "en": "The Mob Museum"
+      },
+      "description": {
+        "en": "Housed in a former federal courthouse, this immersive museum offers a fascinating look at the history of organized crime in America."
+      },
+      "type": "culture",
+      "lat": 36.1731,
+      "lng": -115.141,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-enr-neon-museum",
+      "city_id": "las-vegas",
+      "neighborhood_id": "downtown-fremont-east",
+      "name": {
+        "en": "Neon Museum"
+      },
+      "description": {
+        "en": "An outdoor 'boneyard' where retired neon signs from Las Vegas's past go to rest, offering a magical journey through the city's design history."
+      },
+      "type": "culture",
+      "lat": 36.1795,
+      "lng": -115.1357,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-enr-downtown-container-park",
+      "city_id": "las-vegas",
+      "neighborhood_id": "downtown-fremont-east",
+      "name": {
+        "en": "Downtown Container Park"
+      },
+      "description": {
+        "en": "An open-air shopping and dining complex built from repurposed shipping containers, featuring a giant, fire-breathing praying mantis sculpture."
+      },
+      "type": "shopping",
+      "lat": 36.1681,
+      "lng": -115.139,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-enr-mas-por-favor-taqueria-y-tequila",
+      "city_id": "las-vegas",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Màs Por Favor Taqueria Y Tequila"
+      },
+      "description": {
+        "en": "A vibrant taco shop that acts as a brilliant front for a hidden, cavelike, candlelit tequila and mezcal speakeasy."
+      },
+      "type": "hidden_gem",
+      "lat": 36.1259,
+      "lng": -115.2085,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-enr-the-golden-tiki",
+      "city_id": "las-vegas",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "The Golden Tiki"
+      },
+      "description": {
+        "en": "A transportive tiki bar that commits fully to the theme, with waterfalls, talking skeletons, and a star-studded ceiling."
+      },
+      "type": "nightlife",
+      "lat": 36.1259,
+      "lng": -115.21,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-enr-sparrow-wolf",
+      "city_id": "las-vegas",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Sparrow + Wolf"
+      },
+      "description": {
+        "en": "One of the most celebrated off-Strip restaurants, serving a creative, hearth-cooked menu that blends American influences with global flavors."
+      },
+      "type": "food",
+      "lat": 36.1167,
+      "lng": -115.2215,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-enr-shang-artisan-noodle",
+      "city_id": "las-vegas",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Shang Artisan Noodle"
+      },
+      "description": {
+        "en": "A perpetually busy spot famous for its hand-pulled noodles and rich, savory broths in a casual, no-frills setting."
+      },
+      "type": "food",
+      "lat": 36.1146,
+      "lng": -115.238,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-enr-888-japanese-bbq",
+      "city_id": "las-vegas",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "888 Japanese BBQ"
+      },
+      "description": {
+        "en": "An energetic and popular spot for Japanese barbecue (yakiniku), where you grill your own high-quality meats at your table."
+      },
+      "type": "food",
+      "lat": 36.1259,
+      "lng": -115.2155,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-enr-culinary-strip-mall-exploration",
+      "city_id": "las-vegas",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Culinary Strip Mall Exploration"
+      },
+      "description": {
+        "en": "The main attraction here is the act of discovery; park and walk a section of Spring Mountain Road to find specialty markets, dessert shops, and hidden restaurants."
+      },
+      "type": "culture",
+      "lat": 36.1259,
+      "lng": -115.212,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-enr-the-red-dwarf",
+      "city_id": "las-vegas",
+      "neighborhood_id": "university-district-eastside",
+      "name": {
+        "en": "The Red Dwarf"
+      },
+      "description": {
+        "en": "A beloved local dive that combines the ethos of a no-nonsense bar with fantastic, Detroit-style pizza."
+      },
+      "type": "food",
+      "lat": 36.11,
+      "lng": -115.1378,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-enr-huntridge-tavern",
+      "city_id": "las-vegas",
+      "neighborhood_id": "university-district-eastside",
+      "name": {
+        "en": "Huntridge Tavern"
+      },
+      "description": {
+        "en": "A true dive in every sense of the word, this is a place for cheap drinks and colorful characters—a genuine slice of old Vegas life."
+      },
+      "type": "nightlife",
+      "lat": 36.1593,
+      "lng": -115.1331,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-enr-casa-di-amore",
+      "city_id": "las-vegas",
+      "neighborhood_id": "university-district-eastside",
+      "name": {
+        "en": "Casa Di Amore"
+      },
+      "description": {
+        "en": "A classic, old-school Italian-American joint complete with red-checkered tablecloths, live music, and a free limo service from the Strip."
+      },
+      "type": "food",
+      "lat": 36.0995,
+      "lng": -115.1184,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-enr-pinball-hall-of-fame",
+      "city_id": "las-vegas",
+      "neighborhood_id": "university-district-eastside",
+      "name": {
+        "en": "Pinball Hall of Fame"
+      },
+      "description": {
+        "en": "A massive museum dedicated to the history of pinball where you can play hundreds of beautifully restored machines."
+      },
+      "type": "culture",
+      "lat": 36.0998,
+      "lng": -115.172,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-enr-the-huntridge-theater",
+      "city_id": "las-vegas",
+      "neighborhood_id": "university-district-eastside",
+      "name": {
+        "en": "The Huntridge Theater"
+      },
+      "description": {
+        "en": "This Streamline Moderne movie palace is one of the most significant historic buildings in Las Vegas, a landmark of the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 36.1588,
+      "lng": -115.1331,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-enr-maryland-parkway-crawl",
+      "city_id": "las-vegas",
+      "neighborhood_id": "university-district-eastside",
+      "name": {
+        "en": "Maryland Parkway Crawl"
+      },
+      "description": {
+        "en": "This street is a destination in itself, a main artery connecting Downtown to the University lined with dive bars, record shops, and eateries."
+      },
+      "type": "culture",
+      "lat": 36.125,
+      "lng": -115.1378,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-enr-herb-rye",
+      "city_id": "las-vegas",
+      "neighborhood_id": "westside-spring-valley",
+      "name": {
+        "en": "Herb & Rye"
+      },
+      "description": {
+        "en": "An unassuming building with an unmarked door that hides a temple to classic cocktails, with a menu organized by era."
+      },
+      "type": "nightlife",
+      "lat": 36.1435,
+      "lng": -115.2075,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-enr-capo-s-restaurant-and-speakeasy",
+      "city_id": "las-vegas",
+      "neighborhood_id": "westside-spring-valley",
+      "name": {
+        "en": "Capo's Restaurant and Speakeasy"
+      },
+      "description": {
+        "en": "A full-on mob-themed Italian restaurant where you enter through a secret door for a fun, theatrical experience with hearty food."
+      },
+      "type": "food",
+      "lat": 36.1435,
+      "lng": -115.245,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-enr-pieros-italian-cuisine",
+      "city_id": "las-vegas",
+      "neighborhood_id": "westside-spring-valley",
+      "name": {
+        "en": "Piero’s Italian Cuisine"
+      },
+      "description": {
+        "en": "An independent institution that has been serving classic Italian food to celebrities and locals for over 40 years."
+      },
+      "type": "food",
+      "lat": 36.1288,
+      "lng": -115.158,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-enr-the-off-strip-culinary-pilgrimage",
+      "city_id": "las-vegas",
+      "neighborhood_id": "westside-spring-valley",
+      "name": {
+        "en": "The Off-Strip Culinary Pilgrimage"
+      },
+      "description": {
+        "en": "The experience is about making the journey to acclaimed restaurants and seeing the quiet, residential side of Las Vegas most tourists never encounter."
+      },
+      "type": "culture",
+      "lat": 36.1435,
+      "lng": -115.225,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-enr-easys-cocktail-lounge",
+      "city_id": "las-vegas",
+      "neighborhood_id": "hidden-strip",
+      "name": {
+        "en": "Easy’s Cocktail Lounge"
+      },
+      "description": {
+        "en": "Tucked away behind a donut shop in the Aria, this speakeasy offers a sophisticated, music-filled escape from the casino floor."
+      },
+      "type": "hidden_gem",
+      "lat": 36.1075,
+      "lng": -115.1765,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-enr-bazaar-meat-by-jose-andres",
+      "city_id": "las-vegas",
+      "neighborhood_id": "hidden-strip",
+      "name": {
+        "en": "Bazaar Meat by José Andrés"
+      },
+      "description": {
+        "en": "Considered the best steakhouse in the city by many local foodies, this is a carnivorous celebration of quality and creativity."
+      },
+      "type": "food",
+      "lat": 36.143,
+      "lng": -115.159,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-enr-wing-lei",
+      "city_id": "las-vegas",
+      "neighborhood_id": "hidden-strip",
+      "name": {
+        "en": "Wing Lei"
+      },
+      "description": {
+        "en": "A truly high-end Chinese restaurant with an opulent, jewel-box-like room and legendary Peking duck."
+      },
+      "type": "food",
+      "lat": 36.1265,
+      "lng": -115.1658,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-enr-the-sphere",
+      "city_id": "las-vegas",
+      "neighborhood_id": "hidden-strip",
+      "name": {
+        "en": "The Sphere"
+      },
+      "description": {
+        "en": "A colossal, world-changing piece of architecture whose ever-changing exosphere offers incredible, futuristic photo opportunities."
+      },
+      "type": "landmark",
+      "lat": 36.1255,
+      "lng": -115.16,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-enr-las-vegas-grand-prix-circuit-walk",
+      "city_id": "las-vegas",
+      "neighborhood_id": "hidden-strip",
+      "name": {
+        "en": "Las Vegas Grand Prix Circuit Walk"
+      },
+      "description": {
+        "en": "On a non-race day, trace the Formula 1 circuit on foot to understand the massive scale of this urban race course."
+      },
+      "type": "culture",
+      "lat": 36.11,
+      "lng": -115.168,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-enr-gateway-arches",
+      "city_id": "las-vegas",
+      "neighborhood_id": "hidden-strip",
+      "name": {
+        "en": "Gateway Arches"
+      },
+      "description": {
+        "en": "Marking the official entrance to the City of Las Vegas, these 80-foot-tall steel arches offer a modern bookend to the classic 'Welcome' sign."
+      },
+      "type": "landmark",
+      "lat": 36.138,
+      "lng": -115.1615,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "arts-district-task-1",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Mural Marvel"
+      },
+      "prompt": {
+        "en": "Find a piece of street art that tells a story and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-2",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Creative Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a sculpture or public art installation that inspires you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-3",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Gritty Textures"
+      },
+      "prompt": {
+        "en": "Find an interesting texture on a wall—peeling paint, old bricks, or graffiti—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-4",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Bohemian Brew"
+      },
+      "prompt": {
+        "en": "Photograph your coffee or cocktail against a backdrop that screams 'Arts District'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-5",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Gallery Glimpse"
+      },
+      "prompt": {
+        "en": "Take a photo looking into an art gallery from the street, capturing the art within."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-6",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Repurposed Beauty"
+      },
+      "prompt": {
+        "en": "Find a building that is clearly a repurposed warehouse or old garage and photograph its most interesting feature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-7",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Local Fashion"
+      },
+      "prompt": {
+        "en": "Discreetly capture a photo that showcases the unique, independent fashion style of a local."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-8",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the bright Vegas sun to create a photo of interesting shadows cast by a building or sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-9",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Hidden Message"
+      },
+      "prompt": {
+        "en": "Find a word or phrase in a piece of graffiti and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-10",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by one single, vibrant color you find in a mural."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-11",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Artistic Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of a mural in a puddle, a car window, or a shopfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-12",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "The Thinker"
+      },
+      "prompt": {
+        "en": "Pose thoughtfully in front of a large-scale mural and have a friend take your picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-13",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Indie Signage"
+      },
+      "prompt": {
+        "en": "Photograph a unique, non-corporate, handmade, or vintage sign for a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-14",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Capture the vibe of a bustling outdoor patio at a local bar or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "arts-district-task-15",
+      "neighborhood_id": "arts-district",
+      "title": {
+        "en": "Treasure Hunt"
+      },
+      "prompt": {
+        "en": "Find an antique or vintage shop and photograph the most unusual object you can see through the window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-1",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic neon sign, focusing on its vibrant colors and unique design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-2",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Old Vegas Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a vintage casino or historic building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-3",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic, old building next to a modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-4",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Fremont Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the bustling, chaotic energy of Fremont Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-5",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find and photograph a historical plaque or sign that tells a story about the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-6",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Dive Bar Details"
+      },
+      "prompt": {
+        "en": "Photograph the entrance to a bar that looks like it has been there for decades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-7",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Street Performer Portrait"
+      },
+      "prompt": {
+        "en": "Respectfully take a photo of a street performer or artist in action (and be sure to tip!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-8",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Cocktail Hour"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a classic cocktail at a vintage-style bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-9",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at the Fremont Street Experience canopy or a tall historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-10",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Neon Reflection"
+      },
+      "prompt": {
+        "en": "After dark, capture the reflection of neon lights in a puddle or a window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-11",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Secret Entrance"
+      },
+      "prompt": {
+        "en": "Find a doorway that looks mysterious or like it leads to a hidden place and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-12",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Local Character"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a statue that represents the spirit of Downtown and pose with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-13",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on one of the older buildings and get a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-14",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Steakhouse Style"
+      },
+      "prompt": {
+        "en": "Photograph the classic, elegant sign or entrance of a downtown steakhouse."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "downtown-fremont-east-task-15",
+      "neighborhood_id": "downtown-fremont-east",
+      "title": {
+        "en": "Light Trails"
+      },
+      "prompt": {
+        "en": "At dusk, take a long exposure shot of traffic moving down Fremont or Las Vegas Boulevard."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-1",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Food Adventure"
+      },
+      "prompt": {
+        "en": "Take a photo of a dish you've never tried before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-2",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Strip Mall Safari"
+      },
+      "prompt": {
+        "en": "Photograph the most interesting or colorful storefront you can find in a strip mall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-3",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Noodle Pull"
+      },
+      "prompt": {
+        "en": "If you're eating noodles, get a dramatic shot of them being pulled from the bowl."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-4",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Market Discovery"
+      },
+      "prompt": {
+        "en": "Go into an Asian market and take a photo of the most unusual snack or product you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-5",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Sign Language"
+      },
+      "prompt": {
+        "en": "Find a sign with beautiful calligraphy or characters you don't recognize and capture its design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-6",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Tiki Time Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with an elaborate tiki drink or in front of tropical-themed decor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-7",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Kitchen Action"
+      },
+      "prompt": {
+        "en": "Find a restaurant with an open kitchen or window and capture the chefs at work."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-8",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Architectural Flair"
+      },
+      "prompt": {
+        "en": "Photograph a building that has traditional Asian architectural elements."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-9",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Find a bakery or dessert shop and photograph their most colorful creation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-10",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Unassuming Gem"
+      },
+      "prompt": {
+        "en": "Take a picture of a restaurant that looks very plain on the outside but is packed with people inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-11",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Sizzling Shot"
+      },
+      "prompt": {
+        "en": "If you're at a BBQ spot, capture a dynamic photo of food sizzling on a grill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-12",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Menu Mysteries"
+      },
+      "prompt": {
+        "en": "Take a photo of a menu item with a name that sounds intriguing or mysterious."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-13",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Plaza Panorama"
+      },
+      "prompt": {
+        "en": "Take a wide shot of one of the bustling shopping plazas, capturing multiple storefronts."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-14",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Secret Speakeasy"
+      },
+      "prompt": {
+        "en": "Find a business that looks like it might be hiding something else inside and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "chinatown-task-15",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Guardian Lions"
+      },
+      "prompt": {
+        "en": "Find and photograph a pair of guardian lion (or 'foo dog') statues."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-1",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Local Dive"
+      },
+      "prompt": {
+        "en": "Capture the exterior of a classic, no-frills dive bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-2",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Old School Eats"
+      },
+      "prompt": {
+        "en": "Photograph a restaurant that looks like it hasn't changed its decor in 30 years."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-3",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Campus Life"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the student vibe near the UNLV campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-4",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Historic Architecture"
+      },
+      "prompt": {
+        "en": "Find a building with mid-century or Streamline Moderne architectural style and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-5",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Pinball Wizard Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie reflected in the glass of a pinball machine or arcade game."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-6",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel represents the 'lived-in', non-touristy feel of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-7",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Record Store Find"
+      },
+      "prompt": {
+        "en": "Find a record store or indie shop and photograph its cool storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-8",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Pizza Perfection"
+      },
+      "prompt": {
+        "en": "Get a mouth-watering shot of a slice of pizza from a local joint."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-9",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of a main street like Maryland Parkway or Charleston Blvd, showing the mix of businesses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-10",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Vintage Signage"
+      },
+      "prompt": {
+        "en": "Find a business sign that looks like it's from the 70s or 80s and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-11",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Local Hangout"
+      },
+      "prompt": {
+        "en": "Photograph a place that is clearly a favorite hangout for locals."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-12",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Red-Sauce Classic"
+      },
+      "prompt": {
+        "en": "Find an Italian restaurant with red-checkered tablecloths and capture the classic ambiance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-13",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Game On"
+      },
+      "prompt": {
+        "en": "Take an action shot of a classic arcade game being played."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-14",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "Neighborhood Watch"
+      },
+      "prompt": {
+        "en": "Find a quiet residential street and take a photo that shows what normal life in Vegas looks like."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "university-district-eastside-task-15",
+      "neighborhood_id": "university-district-eastside",
+      "title": {
+        "en": "The Unpretentious"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a place that is refreshingly free of tourist gloss."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-1",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Photograph a restaurant or bar with a very unassuming or unmarked entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-2",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Suburban Speakeasy"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast of a cool, destination restaurant located in a normal, suburban-style neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-3",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Classic Cocktail"
+      },
+      "prompt": {
+        "en": "Capture a photo of a beautifully crafted classic cocktail in a dark, moody bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-4",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Power Dining"
+      },
+      "prompt": {
+        "en": "Find a restaurant that has a timeless, 'old-world' or 'power-broker' feel and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-5",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Theatrical Foodie Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a restaurant with a strong theme, like a mob speakeasy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-6",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Worth the Drive"
+      },
+      "prompt": {
+        "en": "Take a photo from your car or rideshare that shows you're on a journey to a specific culinary destination."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-7",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Local's Choice"
+      },
+      "prompt": {
+        "en": "Capture an image that conveys why a local would choose this spot over a Strip restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-8",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Red Light Ambiance"
+      },
+      "prompt": {
+        "en": "Find a place with dramatic, red-lit interiors and capture the clandestine atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-9",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "The Best Deal in Town"
+      },
+      "prompt": {
+        "en": "Photograph a menu that advertises a happy hour or special that seems too good to be true."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-10",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "A Toast to the Classics"
+      },
+      "prompt": {
+        "en": "Take a photo of your group clinking glasses at a timeless, classic restaurant or bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-11",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Secret Door"
+      },
+      "prompt": {
+        "en": "Find an entrance that requires you to know a secret or pass a test and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-12",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Photograph a place that has been a local institution for decades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-13",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "The Perfect Steak"
+      },
+      "prompt": {
+        "en": "Get a dramatic, close-up shot of a perfectly cooked steak or other signature dish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-14",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "Discerning Local"
+      },
+      "prompt": {
+        "en": "Take a selfie where you look like a discerning local who knows all the best spots."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "westside-spring-valley-task-15",
+      "neighborhood_id": "westside-spring-valley",
+      "title": {
+        "en": "No Pretense"
+      },
+      "prompt": {
+        "en": "Capture an image that highlights the lack of pretense at a high-quality, off-strip spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-1",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Secret Entrance"
+      },
+      "prompt": {
+        "en": "Find a speakeasy or hidden lounge and photograph its unassuming public-facing entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-2",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Architectural Wonder"
+      },
+      "prompt": {
+        "en": "Take a photo of a modern architectural marvel like the Sphere or the Gateway Arches from a unique angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-3",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet, secluded spot within a bustling casino (like a garden or lounge) and capture the tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-4",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Opulent Interior"
+      },
+      "prompt": {
+        "en": "Photograph a stunningly opulent or luxurious dining room or hotel lobby."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-5",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "High Roller Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a location that makes you look like a high-end connoisseur."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-6",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "View from Above"
+      },
+      "prompt": {
+        "en": "From a pedestrian bridge or upper floor, take a photo looking down on the Strip."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-7",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Culinary Art"
+      },
+      "prompt": {
+        "en": "Capture a beautifully plated dish at a high-end restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-8",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Futuristic Photo"
+      },
+      "prompt": {
+        "en": "Take a photo at night that looks like it could be from a science fiction movie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-9",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Race Day Dreamer"
+      },
+      "prompt": {
+        "en": "Stand on a part of the Grand Prix circuit and take a photo from a race car driver's point of view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-10",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Beyond the Casino"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on a detail that has nothing to do with gambling—art, nature, or design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-11",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Abstract Architecture"
+      },
+      "prompt": {
+        "en": "Shoot straight up at a tall, modern building to create an abstract architectural photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-12",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Hidden Garden"
+      },
+      "prompt": {
+        "en": "Find a pocket of nature or a garden inside a resort and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-13",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "The Art of the Meal"
+      },
+      "prompt": {
+        "en": "Photograph a dramatic open kitchen or a unique food presentation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-14",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Reflecting on Vegas"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the Strip's lights on a modern, glass-covered building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    },
+    {
+      "id": "hidden-strip-task-15",
+      "neighborhood_id": "hidden-strip",
+      "title": {
+        "en": "Escape the Crowds"
+      },
+      "prompt": {
+        "en": "Take a selfie in a spot on the Strip where you are surprisingly, peacefully alone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:28:27.182817+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

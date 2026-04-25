@@ -1,8 +1,11 @@
 # Session Handoff — city-atlas-service
 
-> Living document. Last refreshed 2026-04-24 at end-of-session. Edit in place
+> Living document. Last refreshed 2026-04-25 at end-of-session. Edit in place
 > rather than appending date-stamped blocks — this is the "what would you want
 > to know on day one" index, not a changelog.
+>
+> **For session-by-session learnings, see `.harness/learnings.md`** (append-
+> only; KEEP / IMPROVE / INSIGHT / COUNCIL blocks per task).
 
 ## What this repo is
 
@@ -70,7 +73,7 @@ src/
     enrich_ingest.ts       # Phase D enrichment (additive, safe)
     qc_cleanup.ts          # duplicate neighborhood dedup
     add_coverage_tiers.py  # tier-assignment helper
-    test_phase_c_threshold.py  # 31 pytest cases (PR #4)
+    test_phase_c_threshold.py  # 41 pytest cases (PR #4 + localized-name regressions)
   schemas/
     cityAtlas.ts           # Zod schemas — CROSS-CONSUMER CONTRACT
   firestore/
@@ -101,16 +104,38 @@ Two PRs landed via admin override after multi-round council review:
   (replaces an LLM-based extractor that had prompt-injection and silent-
   demotion bugs), preserve-FAIL / escalate-WARNING guards, a `>75%` mass-
   wipe cap, structured `AUDIT_DELETION` JSON logs, expanded
-  `HALLUCINATION_KEYWORDS`, and 31 pytest cases.
+  `HALLUCINATION_KEYWORDS`, and 41 pytest cases (was 31; localized-name
+  regression cases were added when boston validation surfaced the
+  `dict`-vs-`str` shape bug).
+- **Three porting-miss bug-fix commits** discovered by running entry-
+  point scripts directly during validation, all dormant since the
+  2026-04-23 extraction:
+  - `90b8c2a` — Python path constants (`research_city.py` /
+    `batch_research.py` / `add_coverage_tiers.py`).
+  - `f627d83` — TypeScript scraper path constants
+    (`wikipedia.ts` / `reddit.ts` / `atlas-obscura.ts` /
+    `local-sources.ts` / `qc_cleanup.ts`).
+  - `1f173b7` — `--ingest-only` flag composition: the `args.ingest_only`
+    branch in `research_city.py` dropped `enrich=args.enrich` when
+    routing to `phase_d_ingest`, hardcoding the `build_cache.ts`
+    baseline path instead of `enrich_ingest.ts`. Same branch now
+    skips Phase C re-run entirely (matches the docstring promise).
+- **End-to-end production validation** — re-scraped Wikipedia + Reddit
+  for all 19 parked cities (bug fixed by `f627d83`), re-ran the batch:
+  16/18 cities completed (4 verified, 12 degraded), 2 failed. Then
+  ingested the 16 successes into `travel-cities` Firestore as
+  `source: "enrichment-*"` documents. **15 landed cleanly**; honolulu
+  is a Gemini-variance casualty of the pre-`1f173b7` `--ingest-only`
+  bug, recoverable in one step.
 
-Net effect: the 19 parked cities from the 2026-04-08 batch are **unblocked
-in code** — the proportional threshold they were waiting on is live. They
-remain parked in the manifest until someone runs a production batch from
-this repo.
+Net effect: 15 of 19 parked metros are now live in `travel-cities`
+Firestore. 4 ship `quality_status: verified` (boston, houston,
+melbourne, tokyo) — the first verified data ever produced from this
+repo. UE and Roadtripper can begin consuming the new dataset.
 
 ## Open follow-up issues
 
-Filed at the end of the session; none are merge blockers, all are tracked:
+Filed during the 2026-04-23/25 session; none are merge blockers, all are tracked:
 
 - **#5** — SRE alert pipe on aggregate `AUDIT_DELETION` waypoint counts
   (Cloud Logging sink → BigQuery/Log Analytics → Alert Policy). Code hook
@@ -128,6 +153,20 @@ Filed at the end of the session; none are merge blockers, all are tracked:
   and ops-console roadmap items.
 - **#9** — Replace personal email in scraper User-Agents with a role-based
   address. Information-disclosure hygiene, not a security vuln.
+- **#11** — Scraper refinement: Atlas Obscura URL pattern (live site has
+  `/things-to-do/<city>-<state>` slugs that our scraper doesn't try),
+  The Infatuation finder endpoint (search-driven, not city-path), retire
+  Spotted by Locals (per user review, source has yielded little to nothing).
+- **#12** — CI smoke-test on entry-point scripts. Three porting-miss
+  bugs this session — Python paths (`90b8c2a`), TS scraper paths
+  (`f627d83`), `--ingest-only` flag composition (`1f173b7`) — all caught
+  by manual entry-point invocation, none by existing tests. CI step
+  that runs `--help` / `--smoke` on each entry point would catch the
+  next instance in <60 sec of the offending push.
+
+Closed during the session: **#10** (scraper malfunction on parked
+metros — root cause was the TS path-constants bug; fix landed in
+`f627d83`; closed once the post-fix batch validated 16/18 success).
 
 ## Known issues / gotchas
 
@@ -288,8 +327,9 @@ Sorted by return vs risk.
   Firestore; council has asked for these on PR #4 and future Phase C
   changes. The unit-level helpers (`phase_c_threshold`,
   `find_hallucinated_names`, `HALLUCINATION_KEYWORDS`) have 31 pytest
-  cases; the integration surface (full flow + mocked external I/O) is
-  the next step.
+  cases (now 41 after the localized-name regression suite landed); the
+  integration surface (full flow + mocked external I/O) is the next
+  step.
 
 ### Longer (~half day each)
 - **Cloud Run + Cloud Scheduler host** — replace tmux with a scheduled
@@ -353,18 +393,40 @@ Sorted by return vs risk.
 
 ## When you come back to this repo
 
-1. Read this file.
-2. Read `CLAUDE.md` for protocol (council workflow, Firestore/cost
-   discipline).
-3. Read `src/pipeline/README.md` for how the Python + TypeScript layers
-   fit together and the Phase C hardening story.
-4. `git log --oneline -10` for recent commits.
-5. `gh pr list --repo Anguijm/city-atlas-service` for any open PRs.
-6. `gh issue list --repo Anguijm/city-atlas-service` for the follow-up
-   backlog (#5–#9 at time of writing).
-7. If the "first production batch run" is still pending, that's the top
-   priority — see the RUNBOOK's "Unparking the 19 cities" block.
-8. If running locally: follow the RUNBOOK above.
-9. If debugging council: `gh pr view <N> --comments` surfaces the latest
-   Lead Architect synthesis; `.harness/last_council.md` has the most
-   recent local-runner output.
+Cold-start checklist (in order):
+
+1. Read this file end-to-end.
+2. Read `.harness/learnings.md` — append-only KB; the 2026-04-25 (cont.)
+   block is the most recent entry. KEEP / IMPROVE / INSIGHT / COUNCIL
+   sections give you the operating wisdom that hasn't crystallized into
+   protocol yet.
+3. Read `CLAUDE.md` for protocol (council workflow, Firestore /
+   cost / halt discipline). Authoritative; everything else defers.
+4. Read `src/pipeline/README.md` for how the Python + TypeScript layers
+   fit together + the Phase C hardening story (find_hallucinated_names,
+   AUDIT_DELETION, escalation guards).
+5. `git log --oneline -10` for recent commits. Last activity 2026-04-25.
+6. `gh pr list --repo Anguijm/city-atlas-service` for any open PRs.
+7. `gh issue list --repo Anguijm/city-atlas-service` for the follow-up
+   backlog (currently #5–#9, #11, #12 — see "Open follow-up issues"
+   block above for the canonical list).
+8. **Top of queue right now**: see the "Now (top of queue)" block under
+   "Roadmap" below. As of 2026-04-25 close, the priority items are
+   honolulu recovery (one `mv` + single-city re-ingest), then issue #11
+   (scraper refinement) or issue #12 (CI smoke-test) depending on what
+   you want to attack next.
+9. If running locally: follow the RUNBOOK above. Note the `--ingest-only`
+   semantics changed in `1f173b7` (now skips Phase C re-run + routes
+   correctly through `enrich_ingest.ts` when paired with `--enrich`).
+10. If debugging council: `gh pr view <N> --comments` surfaces the
+    latest Lead Architect synthesis. The `.harness/last_council.md`
+    artifact (local-runner output) doesn't exist in this repo —
+    council has only ever run via PR-time GitHub Actions, not locally.
+
+### What "production-ready" means right now
+
+The pipeline produces live data. 15 metros are in `travel-cities`
+Firestore as `enrichment-*` documents (4 verified, 11 degraded). The
+remaining work is **refinement** (more scraper sources, source-quality
+scoring, Cloud Run scheduling, ops console, types-package extraction)
+not **bring-up**.

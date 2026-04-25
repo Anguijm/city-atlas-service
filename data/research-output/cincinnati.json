@@ -1,0 +1,2123 @@
+{
+  "neighborhoods": [
+    {
+      "id": "otr",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Over-the-Rhine (OTR)"
+      },
+      "summary": {
+        "en": "Cincinnati's most dynamic and architecturally stunning neighborhood, a historic district where 19th-century Italianate buildings meet modern energy, food, and art."
+      },
+      "lat": 39.1125,
+      "lng": -84.5167,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "camp-washington",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Camp Washington"
+      },
+      "summary": {
+        "en": "An authentic and unpolished industrial-heritage neighborhood where the history of American commerce is brilliantly preserved, especially in its celebration of advertising art."
+      },
+      "lat": 39.1288,
+      "lng": -84.5395,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Northside"
+      },
+      "summary": {
+        "en": "A serene and contemplative area dominated by a vast, artfully designed historic garden cemetery that feels more like a grand public park for quiet, reflective walks."
+      },
+      "lat": 39.168,
+      "lng": -84.524,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "pendleton",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Pendleton"
+      },
+      "summary": {
+        "en": "An unassuming arts district of working artist studios where creativity is tucked away behind industrial facades, known for its hidden, offbeat charm."
+      },
+      "lat": 39.112,
+      "lng": -84.505,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "hyde-park",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "Hyde Park"
+      },
+      "summary": {
+        "en": "A quiet, upscale residential neighborhood of stately homes and tree-lined streets that hides one of the city's most bizarre and wonderful architectural secrets."
+      },
+      "lat": 39.145,
+      "lng": -84.424,
+      "trending_score": 60,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks",
+      "city_id": "cincinnati",
+      "name": {
+        "en": "The Banks / Downtown Riverfront"
+      },
+      "summary": {
+        "en": "Cincinnati’s scenic front porch on the Ohio River, offering grand, sweeping views of the skyline, historic bridges, and the powerful current of the Ohio."
+      },
+      "lat": 39.097,
+      "lng": -84.513,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "otr-enr-findlay-market",
+      "city_id": "cincinnati",
+      "neighborhood_id": "otr",
+      "name": {
+        "en": "Findlay Market"
+      },
+      "description": {
+        "en": "The city’s oldest continuously operating public market, a bustling indoor/outdoor space filled with local farmers, butchers, and artisans."
+      },
+      "type": "shopping",
+      "lat": 39.1128,
+      "lng": -84.5183,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-enr-italianate-architecture",
+      "city_id": "cincinnati",
+      "neighborhood_id": "otr",
+      "name": {
+        "en": "Italianate Architecture"
+      },
+      "description": {
+        "en": "The streets surrounding the market feature one of the largest collections of intact 19th-century Italianate architecture in the United States."
+      },
+      "type": "landmark",
+      "lat": 39.1115,
+      "lng": -84.5158,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-enr-historic-brewery-buildings",
+      "city_id": "cincinnati",
+      "neighborhood_id": "otr",
+      "name": {
+        "en": "Historic Brewery Buildings"
+      },
+      "description": {
+        "en": "Large, historic brewery buildings dot the neighborhood, remnants of its rich German brewing heritage."
+      },
+      "type": "landmark",
+      "lat": 39.115,
+      "lng": -84.517,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "camp-washington-enr-american-sign-museum",
+      "city_id": "cincinnati",
+      "neighborhood_id": "camp-washington",
+      "name": {
+        "en": "American Sign Museum"
+      },
+      "description": {
+        "en": "A unique museum dedicated to over 100 years of American signage, from early hand-painted signs to iconic, buzzing neon masterpieces."
+      },
+      "type": "culture",
+      "lat": 39.1288,
+      "lng": -84.5395,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-enr-spring-grove-cemetery-arboretum",
+      "city_id": "cincinnati",
+      "neighborhood_id": "northside",
+      "name": {
+        "en": "Spring Grove Cemetery & Arboretum"
+      },
+      "description": {
+        "en": "A U.S. National Historic Landmark, its 400 landscaped acres are a masterpiece of garden design and the third-largest cemetery in the country."
+      },
+      "type": "nature",
+      "lat": 39.168,
+      "lng": -84.524,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-enr-gothic-revival-architecture",
+      "city_id": "cincinnati",
+      "neighborhood_id": "northside",
+      "name": {
+        "en": "Gothic Revival Architecture"
+      },
+      "description": {
+        "en": "The grounds of Spring Grove are an open-air museum of magnificent mausoleums, chapels, and monuments in the Gothic Revival style."
+      },
+      "type": "landmark",
+      "lat": 39.167,
+      "lng": -84.523,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-enr-the-12-ponds",
+      "city_id": "cincinnati",
+      "neighborhood_id": "northside",
+      "name": {
+        "en": "The 12 Ponds"
+      },
+      "description": {
+        "en": "A series of tranquil ponds scattered throughout the arboretum, creating peaceful spots for rest and beautiful reflections."
+      },
+      "type": "nature",
+      "lat": 39.17,
+      "lng": -84.525,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-enr-civil-war-memorials",
+      "city_id": "cincinnati",
+      "neighborhood_id": "northside",
+      "name": {
+        "en": "Civil War Memorials"
+      },
+      "description": {
+        "en": "The cemetery is the final resting place of many Civil War generals, whose ornate memorials offer a tangible connection to the past."
+      },
+      "type": "landmark",
+      "lat": 39.169,
+      "lng": -84.521,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "pendleton-enr-lucky-cat-museum",
+      "city_id": "cincinnati",
+      "neighborhood_id": "pendleton",
+      "name": {
+        "en": "Lucky Cat Museum"
+      },
+      "description": {
+        "en": "A delightful and quirky tribute featuring over 700 \"maneki neko\" (Japanese beckoning cat) statues, from vintage trinkets to modern art."
+      },
+      "type": "hidden_gem",
+      "lat": 39.1121,
+      "lng": -84.5053,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "hyde-park-enr-cincinnati-mushroom-house",
+      "city_id": "cincinnati",
+      "neighborhood_id": "hyde-park",
+      "name": {
+        "en": "Cincinnati Mushroom House"
+      },
+      "description": {
+        "en": "A whimsical, fungus-inspired home that appears to be growing out of the ground, this is a beloved local oddity and a fantastic photo op."
+      },
+      "type": "hidden_gem",
+      "lat": 39.1455,
+      "lng": -84.4242,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks-enr-roebling-suspension-bridge",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "Roebling Suspension Bridge"
+      },
+      "description": {
+        "en": "An iconic architectural landmark and forerunner to the Brooklyn Bridge, offering fantastic views of the Cincinnati and Kentucky skylines."
+      },
+      "type": "landmark",
+      "lat": 39.0975,
+      "lng": -84.513,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks-enr-ohio-river-overlook",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "Ohio River Overlook"
+      },
+      "description": {
+        "en": "The series of parks along the riverfront provide a place to sit and watch river traffic, contemplating its historical significance."
+      },
+      "type": "viewpoint",
+      "lat": 39.096,
+      "lng": -84.511,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks-enr-bb-riverboats-dock",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "BB Riverboats Dock"
+      },
+      "description": {
+        "en": "See historic paddle-wheel riverboats up close, a direct link to the city's long history of travel and commerce on the water."
+      },
+      "type": "landmark",
+      "lat": 39.0965,
+      "lng": -84.505,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-enr-cincinnati-music-hall",
+      "city_id": "cincinnati",
+      "neighborhood_id": "otr",
+      "name": {
+        "en": "Cincinnati Music Hall"
+      },
+      "description": {
+        "en": "Cincinnati's principal concert hall, located in Over-the-Rhine, which was built to house the historic May Festival."
+      },
+      "type": "culture",
+      "lat": 39.1095,
+      "lng": -84.5172,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-enr-arnold-s-bar-and-grill",
+      "city_id": "cincinnati",
+      "neighborhood_id": "otr",
+      "name": {
+        "en": "Arnold's Bar and Grill"
+      },
+      "description": {
+        "en": "One of the oldest and most celebrated bars in the United States, recognized by Esquire as one of the \"Best Bars in America\"."
+      },
+      "type": "drink",
+      "lat": 39.1041,
+      "lng": -84.5095,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-enr-tql-stadium",
+      "city_id": "cincinnati",
+      "neighborhood_id": "otr",
+      "name": {
+        "en": "TQL Stadium"
+      },
+      "description": {
+        "en": "The home stadium for FC Cincinnati of Major League Soccer, located in the West End neighborhood adjacent to Over-the-Rhine."
+      },
+      "type": "landmark",
+      "lat": 39.1082,
+      "lng": -84.5235,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-enr-camp-washington-chili",
+      "city_id": "cincinnati",
+      "neighborhood_id": "camp-washington",
+      "name": {
+        "en": "Camp Washington Chili"
+      },
+      "description": {
+        "en": "A famous independent chili parlor serving Cincinnati chili, the area's best-known regional food."
+      },
+      "type": "food",
+      "lat": 39.1345,
+      "lng": -84.5358,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-enr-cincinnati-zoo-botanical-garden",
+      "city_id": "cincinnati",
+      "neighborhood_id": "northside",
+      "name": {
+        "en": "Cincinnati Zoo & Botanical Garden"
+      },
+      "description": {
+        "en": "The second-oldest zoo in the United States, home to the world-famous hippo Fiona and over 1,800 other animals."
+      },
+      "type": "nature",
+      "lat": 39.144,
+      "lng": -84.509,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-enr-krohn-conservatory",
+      "city_id": "cincinnati",
+      "neighborhood_id": "pendleton",
+      "name": {
+        "en": "Krohn Conservatory"
+      },
+      "description": {
+        "en": "A beautiful conservatory located in Eden Park, featuring 3,500 plant species from around the world, including rare orchids and a butterfly show."
+      },
+      "type": "nature",
+      "lat": 39.1185,
+      "lng": -84.4942,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-enr-graeters-ice-cream",
+      "city_id": "cincinnati",
+      "neighborhood_id": "hyde-park",
+      "name": {
+        "en": "Graeter’s Ice Cream"
+      },
+      "description": {
+        "en": "An iconic Cincinnati chain serving handcrafted French pot ice cream for over 145 years, famous for its black raspberry chip flavor."
+      },
+      "type": "food",
+      "lat": 39.1415,
+      "lng": -84.4291,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-enr-taft-museum-of-art",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "Taft Museum of Art"
+      },
+      "description": {
+        "en": "Housed in a private residence from 1820, this museum displays European and American artwork from the Middle Ages through the 19th century."
+      },
+      "type": "culture",
+      "lat": 39.0988,
+      "lng": -84.5055,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-enr-national-underground-railroad-freedom-center",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "National Underground Railroad Freedom Center"
+      },
+      "description": {
+        "en": "A museum on the banks of the Ohio River with interactive exhibits focusing on the history of slavery and the global fight for freedom."
+      },
+      "type": "culture",
+      "lat": 39.0968,
+      "lng": -84.5142,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-enr-newport-aquarium",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "Newport Aquarium"
+      },
+      "description": {
+        "en": "Located across the river in Newport, this aquarium features thousands of aquatic animals and the thrilling Shark Bridge you can walk across."
+      },
+      "type": "nature",
+      "lat": 39.0945,
+      "lng": -84.4965,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-enr-great-american-ball-park",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "Great American Ball Park"
+      },
+      "description": {
+        "en": "The home field of the Cincinnati Reds, America's first professional baseball team, located on the downtown riverfront."
+      },
+      "type": "landmark",
+      "lat": 39.0975,
+      "lng": -84.507,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-enr-paycor-stadium",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "Paycor Stadium"
+      },
+      "description": {
+        "en": "Home of the NFL's Cincinnati Bengals, this stadium is a major landmark on the city's riverfront."
+      },
+      "type": "landmark",
+      "lat": 39.0955,
+      "lng": -84.5165,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-enr-fountain-square",
+      "city_id": "cincinnati",
+      "neighborhood_id": "the-banks",
+      "name": {
+        "en": "Fountain Square"
+      },
+      "description": {
+        "en": "A central public square and popular event location in the heart of downtown Cincinnati, serving as a gathering place for the city."
+      },
+      "type": "landmark",
+      "lat": 39.1015,
+      "lng": -84.5125,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "otr-task-1",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an ornate window or doorway on one of the 19th-century Italianate buildings and capture its intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-task-2",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Market Colors"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the vibrant colors of fresh produce or flowers at an outdoor market stall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-task-3",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic building next to a modern shopfront or piece of street art, highlighting the neighborhood's dynamic energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-task-4",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Taste of OTR"
+      },
+      "prompt": {
+        "en": "Get a photo of a unique local food item you're about to try, from a pastry to a piece of cheese."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-task-5",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Brewing History"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it was once a brewery and take a photo emphasizing its grand, historic scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "camp-washington-task-1",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Find a weathered brick wall, a rusty metal door, or another surface that shows the neighborhood's industrial past and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "camp-washington-task-2",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Sign of the Times"
+      },
+      "prompt": {
+        "en": "Photograph an old, faded advertisement painted on the side of a building or a classic-looking business sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "camp-washington-task-3",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Retro Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a backdrop that feels like a time capsule of mid-century American commerce."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "camp-washington-task-4",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Bold & Bright"
+      },
+      "prompt": {
+        "en": "Capture an image dominated by a single, bold color you find in the neighborhood, whether it's on a sign, a building, or a vehicle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-task-1",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Gothic Shadows"
+      },
+      "prompt": {
+        "en": "Play with light and shadow. Capture the long shadows cast by a historic monument or a large, old tree in the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-task-2",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Nature's Reflection"
+      },
+      "prompt": {
+        "en": "Find a body of water and take a photo of the reflection of the sky, trees, or a nearby structure on its surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-task-3",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or a peaceful spot and take a photo from that perspective, capturing the serene feeling of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "northside-task-4",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Stone & Moss"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of the texture of an old stone structure, focusing on the details of the carving or the moss growing on it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "pendleton-task-1",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of unexpected art—a mural, a sculpture, a colorful door—against an industrial brick or concrete backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "pendleton-task-2",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Industrial Facade"
+      },
+      "prompt": {
+        "en": "Take a photo of a large industrial building, focusing on the patterns made by its windows, bricks, or fire escapes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "pendleton-task-3",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Creative Energy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie outside a building that looks like it's full of working artists. Try to capture the creative vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "hyde-park-task-1",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Stately Home Portrait"
+      },
+      "prompt": {
+        "en": "Find a grand, stately home and take a photo that captures its character and the beauty of its landscaping."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "hyde-park-task-2",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Weird in the Wild"
+      },
+      "prompt": {
+        "en": "Photograph an unusual or quirky architectural detail you spot on an otherwise conventional-looking house."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "hyde-park-task-3",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Tree-Lined Perspective"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a sidewalk on a quiet, tree-lined street and take a photo looking down the street, using the trees to frame your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks-task-1",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Bridge Geometry"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the lines, cables, and geometric patterns of one of the riverfront bridges."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks-task-2",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "River Panorama"
+      },
+      "prompt": {
+        "en": "Capture a wide, panoramic shot of the Ohio River that includes the water, the opposite shore, and a bridge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks-task-3",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Skyline Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Cincinnati skyline in the background from a spot along the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "the-banks-task-4",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Waterfront Reflection"
+      },
+      "prompt": {
+        "en": "After sunset, capture the reflection of the city lights or a bridge on the surface of the Ohio River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:27:39.319510+00:00"
+    },
+    {
+      "id": "otr-task-1",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Capture the intricate details and textures of a historic brick building in Over-the-Rhine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-2",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "German Echoes"
+      },
+      "prompt": {
+        "en": "Find a sign, symbol, or piece of architecture that hints at the neighborhood's German immigrant heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-3",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Mural Magic"
+      },
+      "prompt": {
+        "en": "Take a photo of your favorite piece of street art or a large-scale mural in OTR."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-4",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "OTR Vibe Check"
+      },
+      "prompt": {
+        "en": "Snap a selfie that captures the trendy, bustling energy of an OTR street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-5",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Brewery Bound"
+      },
+      "prompt": {
+        "en": "Photograph the entrance or sign of a local brewery or taproom."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-6",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Shopfront Stories"
+      },
+      "prompt": {
+        "en": "Find the most interesting or artistic shop window display and capture its charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-7",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Urban Canvas"
+      },
+      "prompt": {
+        "en": "Frame a shot that uses a mural as a backdrop for a street scene or portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-8",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Zoom in on a unique architectural feature, like an ornate cornice, ironwork, or window arch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-9",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Street Style Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a building that looks like it's straight out of the 19th century."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-10",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Taste of the Rhine"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic Cincinnati dish or a craft beer you find in OTR."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-11",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Hidden Alleyways"
+      },
+      "prompt": {
+        "en": "Discover and photograph a charming hidden alley, courtyard, or narrow street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-12",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Architectural Angles"
+      },
+      "prompt": {
+        "en": "Find a unique, low or high angle to photograph the neighborhood's famous Italianate architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-13",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Neon Nights"
+      },
+      "prompt": {
+        "en": "Capture the colorful glow of a neon sign from a local bar or restaurant after dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-14",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Cobblestone Chronicles"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the texture of the old streets, sidewalks, or cobblestones."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "otr-task-15",
+      "neighborhood_id": "otr",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Photograph a dish or drink that feels uniquely OTR from a local eatery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-1",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Industrial Grit"
+      },
+      "prompt": {
+        "en": "Photograph a scene that shows the neighborhood's industrial character and history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-2",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Chili Capital"
+      },
+      "prompt": {
+        "en": "Find a local diner or chili parlor and capture its classic, no-frills vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-3",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Sign of the Times"
+      },
+      "prompt": {
+        "en": "Take a picture of a vintage, retro-looking, or hand-painted sign on a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-4",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Camp Washington Character"
+      },
+      "prompt": {
+        "en": "Snap a photo that you think sums up the unique, unpretentious character of Camp Washington."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-5",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Blue-Collar Beauty"
+      },
+      "prompt": {
+        "en": "Find beauty in a weathered or rustic texture on an old brick or metal building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-6",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Urban Relics"
+      },
+      "prompt": {
+        "en": "Capture an object or building that looks like a relic from a past industrial era."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-7",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Factory Facades"
+      },
+      "prompt": {
+        "en": "Photograph the strong lines, repeating windows, and shapes of an old factory or warehouse."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-8",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Gritty Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie against a backdrop of brick, steel, or a weathered industrial wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-9",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Flavor of the Camp"
+      },
+      "prompt": {
+        "en": "Capture a photo of the quintessential Camp Washington meal: a cheese coney or a 3-way."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-10",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Under the Overpass"
+      },
+      "prompt": {
+        "en": "Frame a shot that incorporates a bridge, railway, or overpass into the composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-11",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Rust Belt Charm"
+      },
+      "prompt": {
+        "en": "Find an example of classic Rust Belt architecture and capture its enduring presence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-12",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Working Class Art"
+      },
+      "prompt": {
+        "en": "Photograph an unexpected piece of art, graffiti, or decoration on an industrial building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-13",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Neighborhood Pride"
+      },
+      "prompt": {
+        "en": "Find a symbol of neighborhood pride, like a local banner, sign, or community garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-14",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Echoes of Industry"
+      },
+      "prompt": {
+        "en": "Capture the contrast between old industrial buildings and the modern city around them."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "camp-washington-task-15",
+      "neighborhood_id": "camp-washington",
+      "title": {
+        "en": "Local Legends"
+      },
+      "prompt": {
+        "en": "Find a mural or sign that celebrates a local institution or historical figure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-1",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Northside Funk"
+      },
+      "prompt": {
+        "en": "Capture something that perfectly represents Northside's funky, eclectic, and artistic vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-2",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Victorian Views"
+      },
+      "prompt": {
+        "en": "Photograph the ornate details, colorful paint, or 'gingerbread' trim of a Victorian-era house."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-3",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Bohemian Spirit"
+      },
+      "prompt": {
+        "en": "Find a scene that shows the neighborhood's independent, bohemian spirit, like a quirky shop or a community garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-4",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Take a photo of a peaceful moment in one of Northside's parks or green spaces."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-5",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Indie Vibe"
+      },
+      "prompt": {
+        "en": "Capture the essence of a unique, locally-owned shop, record store, or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-6",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Community Color"
+      },
+      "prompt": {
+        "en": "Photograph something that shows the strong, colorful sense of community here."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-7",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Quirky Finds"
+      },
+      "prompt": {
+        "en": "Find the most unusual or quirky decoration in someone's yard, window, or on a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-8",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Eclectic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows off your best artistic, Northside-inspired pose against a colorful backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-9",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Taste of the Northside"
+      },
+      "prompt": {
+        "en": "Capture a photo of a coffee, craft beer, or vegetarian dish from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-10",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Photograph a classic and inviting Northside front porch, a staple of the neighborhood's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-11",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Cemetery Serenity"
+      },
+      "prompt": {
+        "en": "Find a beautiful, serene view within the landscaped grounds of Spring Grove Cemetery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-12",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Local Art Scene"
+      },
+      "prompt": {
+        "en": "Capture a glimpse of the local art scene, from gallery windows to street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-13",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Hipster Haven"
+      },
+      "prompt": {
+        "en": "Find a scene that you'd describe as 'peak hipster'—bicycles, beards, and craft beer are fair game."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-14",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Architectural Gems"
+      },
+      "prompt": {
+        "en": "Take a picture of your favorite architectural detail on a residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "northside-task-15",
+      "neighborhood_id": "northside",
+      "title": {
+        "en": "Artsy Angles"
+      },
+      "prompt": {
+        "en": "Find an interesting piece of public art or a colorful mural and photograph it from a creative angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-1",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Pendleton's Palette"
+      },
+      "prompt": {
+        "en": "Photograph your favorite large-scale mural in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-2",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Mural Mile"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes at least three different pieces of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-3",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Art District Rising"
+      },
+      "prompt": {
+        "en": "Capture the vibe of this emerging arts district, showing its blend of old and new."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-4",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Urban Gallery"
+      },
+      "prompt": {
+        "en": "Treat the neighborhood like an outdoor art gallery and capture your favorite 'exhibit'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-5",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Colorful Corners"
+      },
+      "prompt": {
+        "en": "Discover a pop of unexpected color on a street corner, doorway, or window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-6",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Creative Energy"
+      },
+      "prompt": {
+        "en": "Photograph a scene that buzzes with creative energy, like an artist at work or a gallery opening."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-7",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Brick Canvas"
+      },
+      "prompt": {
+        "en": "Use an old brick building as a textured canvas in your photo's composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-8",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Artful Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where a piece of street art is your expressive backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-9",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Taste of Pendleton"
+      },
+      "prompt": {
+        "en": "Capture a photo of a drink or snack from a local Pendleton spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-10",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find a scene that blends the neighborhood's industrial past with its artistic present."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-11",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Hidden Murals"
+      },
+      "prompt": {
+        "en": "Go on a hunt for a small or hidden piece of street art that most people might miss."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-12",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Studio Vibes"
+      },
+      "prompt": {
+        "en": "Capture the exterior of an artist's studio or gallery space, hinting at the creativity inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-13",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "The New Wave"
+      },
+      "prompt": {
+        "en": "Photograph something that feels new and exciting in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-14",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Capture the contrast between historic buildings and modern art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "pendleton-task-15",
+      "neighborhood_id": "pendleton",
+      "title": {
+        "en": "Pendleton Perspectives"
+      },
+      "prompt": {
+        "en": "Find a unique perspective or angle on a well-known mural or landmark in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-1",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Hyde Park Elegance"
+      },
+      "prompt": {
+        "en": "Capture a photo that conveys the elegant, upscale atmosphere of Hyde Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-2",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Square Life"
+      },
+      "prompt": {
+        "en": "Photograph the central fountain or a bustling scene at Hyde Park Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-3",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Mansion Views"
+      },
+      "prompt": {
+        "en": "Find and photograph a grand, impressive-looking home or mansion on a residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-4",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Leafy Streets"
+      },
+      "prompt": {
+        "en": "Take a picture of a beautiful, tree-lined residential street, especially in fall or spring."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-5",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Boutique Charm"
+      },
+      "prompt": {
+        "en": "Capture the inviting window display of a local boutique or specialty shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-6",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Architectural Wonders"
+      },
+      "prompt": {
+        "en": "Find an example of unique or interesting architecture on one of the neighborhood's homes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-7",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Posh Perspectives"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows off the neighborhood's well-manicured lawns and gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-8",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Classy Selfie"
+      },
+      "prompt": {
+        "en": "Take a sophisticated selfie in front of a classic Hyde Park landmark or elegant storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-9",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "A Taste of the Park"
+      },
+      "prompt": {
+        "en": "Capture a photo of a gourmet treat, ice cream, or coffee from a cafe on the square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-10",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph a particularly beautiful private garden or floral display you can see from the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-11",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Suburban Serenity"
+      },
+      "prompt": {
+        "en": "Find a scene that captures the quiet, serene side of the neighborhood away from the square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-12",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Take a photo of the most interesting or luxurious item you see while window shopping."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-13",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Historic Homes"
+      },
+      "prompt": {
+        "en": "Focus on the architectural details of one of the area's beautiful historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-14",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Parkside Peace"
+      },
+      "prompt": {
+        "en": "Capture a moment of peace and quiet in a local park or green space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "hyde-park-task-15",
+      "neighborhood_id": "hyde-park",
+      "title": {
+        "en": "Neighborhood Oasis"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot that feels like an oasis in the city and capture the tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-1",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Riverfront Views"
+      },
+      "prompt": {
+        "en": "Capture a stunning view of the Ohio River from the riverwalk or a nearby park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-2",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Bridge City"
+      },
+      "prompt": {
+        "en": "Frame a photo that features one of the iconic bridges connecting Cincinnati to Kentucky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-3",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Stadium Sights"
+      },
+      "prompt": {
+        "en": "Take a picture of one of the major sports stadiums from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-4",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Downtown Energy"
+      },
+      "prompt": {
+        "en": "Capture the bustling energy of a downtown street scene near the riverfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-5",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Heart of the City"
+      },
+      "prompt": {
+        "en": "Find a spot that feels like the absolute heart of Cincinnati and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-6",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Skyline Shot"
+      },
+      "prompt": {
+        "en": "Find the best vantage point for a Cincinnati skyline photo from the riverfront area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-7",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Public Art Hunt"
+      },
+      "prompt": {
+        "en": "Discover and photograph a piece of public art or a sculpture in the downtown area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-8",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Game Day Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie showing your team spirit near one of the stadiums."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-9",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Taste of Downtown"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic downtown lunch or happy hour drink."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-10",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Waterfront Walk"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of a walk along the riverfront parks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-11",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Architectural Giants"
+      },
+      "prompt": {
+        "en": "Photograph the contrast between a modern skyscraper and a historic downtown building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-12",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "City Lights"
+      },
+      "prompt": {
+        "en": "Capture the city lights reflecting on the Ohio River after sunset."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-13",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Freedom's View"
+      },
+      "prompt": {
+        "en": "Take a photo near the National Underground Railroad Freedom Center that inspires a feeling of hope or reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-14",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Fountain Fun"
+      },
+      "prompt": {
+        "en": "Get a creative shot of the Tyler Davidson Fountain in Fountain Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    },
+    {
+      "id": "the-banks-task-15",
+      "neighborhood_id": "the-banks",
+      "title": {
+        "en": "Ohio River Scenes"
+      },
+      "prompt": {
+        "en": "Photograph a boat, barge, or riverboat on the Ohio River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:11:18.859232+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

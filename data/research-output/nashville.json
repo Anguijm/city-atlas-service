@@ -1,0 +1,2811 @@
+{
+  "neighborhoods": [
+    {
+      "id": "east-nashville",
+      "city_id": "nashville",
+      "name": {
+        "en": "East Nashville"
+      },
+      "summary": {
+        "en": "Fiercely independent, creative, and eclectic, this is Nashville’s sprawling, beating heart, a patchwork of residential streets and vibrant commercial strips with a high concentration of standout food and drink."
+      },
+      "lat": 36.1783,
+      "lng": -86.7505,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston",
+      "city_id": "nashville",
+      "name": {
+        "en": "Wedgewood-Houston (WeHo)"
+      },
+      "summary": {
+        "en": "An industrial-chic and avant-garde former industrial district defined by its repurposed warehouses, active train tracks, and a palpable creative energy."
+      },
+      "lat": 36.1398,
+      "lng": -86.7759,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown",
+      "city_id": "nashville",
+      "name": {
+        "en": "Germantown"
+      },
+      "summary": {
+        "en": "One of Nashville’s first suburbs, Germantown is defined by its beautifully preserved Victorian architecture, brick-paved sidewalks, and a canopy of mature trees, offering a peaceful stroll through history."
+      },
+      "lat": 36.175,
+      "lng": -86.788,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch",
+      "city_id": "nashville",
+      "name": {
+        "en": "The Gulch"
+      },
+      "summary": {
+        "en": "A marvel of urban renewal, this former industrial railyard is now a sleek, modern, and energetic neighborhood characterized by gleaming high-rises, boutique hotels, and a high-end dining scene."
+      },
+      "lat": 36.1539,
+      "lng": -86.7848,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south",
+      "city_id": "nashville",
+      "name": {
+        "en": "12 South"
+      },
+      "summary": {
+        "en": "A vibrant, walkable artery of commerce and cuisine, this neighborhood is centered on a bustling stretch of 12th Avenue South lined with trendy boutiques, national brands, and exceptional restaurants."
+      },
+      "lat": 36.125,
+      "lng": -86.793,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park",
+      "city_id": "nashville",
+      "name": {
+        "en": "Sylvan Park"
+      },
+      "summary": {
+        "en": "A peaceful, established neighborhood with a village-like feel, Sylvan Park offers a glimpse into a more relaxed, residential side of Nashville with quiet streets and beloved, tucked-away restaurants."
+      },
+      "lat": 36.141,
+      "lng": -86.837,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "east-nashville-enr-cafe-roze",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Cafe Roze"
+      },
+      "description": {
+        "en": "An airy, all-day café with a stunning marble bar, it's a neighborhood staple for everything from morning coffee to a cheeky lunchtime cocktail."
+      },
+      "type": "drink",
+      "lat": 36.1824,
+      "lng": -86.7369,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-enr-upstairs-at-audrey",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Upstairs At Audrey"
+      },
+      "description": {
+        "en": "The bar above the acclaimed restaurant Audrey, offering a unique high-low experience where nearly everything on the food menu is just $5."
+      },
+      "type": "hidden_gem",
+      "lat": 36.1776,
+      "lng": -86.7642,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-enr-kisser",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Kisser"
+      },
+      "description": {
+        "en": "A casual, walk-in-only Japanese lunch spot that earned a James Beard nomination, serving impeccable comfort food like katsu sandwiches and onigiri."
+      },
+      "type": "food",
+      "lat": 36.1895,
+      "lng": -86.7511,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-enr-mas-tacos-por-favor",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Mas Tacos Por Favor"
+      },
+      "description": {
+        "en": "A legendary, no-frills (and cash-only) taqueria famous for its cast-iron chicken tacos, tortilla soup, and a potent mezcal margarita machine."
+      },
+      "type": "food",
+      "lat": 36.1834,
+      "lng": -86.7538,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-enr-peninsula",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Peninsula"
+      },
+      "description": {
+        "en": "An intimate, cozy restaurant specializing in Iberian cuisine, ideal for a lingering, romantic dinner with its flickering tea lights and weekly-changing small plates."
+      },
+      "type": "food",
+      "lat": 36.186,
+      "lng": -86.7423,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-enr-five-points-murals",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Five Points Murals"
+      },
+      "description": {
+        "en": "Wander the streets radiating from the Five Points intersection to find a central hub of vibrant, large-scale street art pieces."
+      },
+      "type": "landmark",
+      "lat": 36.177,
+      "lng": -86.751,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-enr-bastion-the-bar",
+      "city_id": "nashville",
+      "neighborhood_id": "wedgewood-houston",
+      "name": {
+        "en": "Bastion (The Bar)"
+      },
+      "description": {
+        "en": "A casual cocktail bar adjacent to the main restaurant, offering a laid-back atmosphere to enjoy inventive cocktails without a reservation."
+      },
+      "type": "drink",
+      "lat": 36.1408,
+      "lng": -86.7745,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-enr-iggys",
+      "city_id": "nashville",
+      "neighborhood_id": "wedgewood-houston",
+      "name": {
+        "en": "Iggy’s"
+      },
+      "description": {
+        "en": "A paradise for fresh, handmade pasta from a chef with a fine-dining pedigree, known for dishes like truffle-shaved agnolotti and tiramisu soft serve."
+      },
+      "type": "food",
+      "lat": 36.1384,
+      "lng": -86.7761,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-enr-fort-negley-park-visitors-center",
+      "city_id": "nashville",
+      "neighborhood_id": "wedgewood-houston",
+      "name": {
+        "en": "Fort Negley Park & Visitors Center"
+      },
+      "description": {
+        "en": "Walk the preserved grounds of the largest inland stone fort built during the Civil War and catch a unique, elevated view of the city skyline."
+      },
+      "type": "viewpoint",
+      "lat": 36.144,
+      "lng": -86.775,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-enr-henrietta-red-the-bar",
+      "city_id": "nashville",
+      "neighborhood_id": "germantown",
+      "name": {
+        "en": "Henrietta Red (The Bar)"
+      },
+      "description": {
+        "en": "The bar at this celebrated restaurant is a destination in its own right, especially for the daily happy hour with deals on fresh oysters and wine."
+      },
+      "type": "drink",
+      "lat": 36.1758,
+      "lng": -86.7865,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-enr-big-al-s-deli-catering",
+      "city_id": "nashville",
+      "neighborhood_id": "germantown",
+      "name": {
+        "en": "Big Al's Deli & Catering"
+      },
+      "description": {
+        "en": "A true hidden gem in an unassuming house where Al serves classic Southern breakfast and lunch with legendary hospitality and a must-try jerk chicken on Thursdays."
+      },
+      "type": "hidden_gem",
+      "lat": 36.1843,
+      "lng": -86.7876,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-enr-o-ku",
+      "city_id": "nashville",
+      "neighborhood_id": "germantown",
+      "name": {
+        "en": "O-Ku"
+      },
+      "description": {
+        "en": "A reliable and stylish choice for high-quality sushi and Japanese cuisine, located in the heart of the neighborhood's historic district."
+      },
+      "type": "food",
+      "lat": 36.174,
+      "lng": -86.788,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-enr-bicentennial-capitol-mall-state-park",
+      "city_id": "nashville",
+      "neighborhood_id": "germantown",
+      "name": {
+        "en": "Bicentennial Capitol Mall State Park"
+      },
+      "description": {
+        "en": "This expansive park offers a unique walk through Tennessee's history, with monuments, a 200-foot granite state map, and dramatic views of the State Capitol."
+      },
+      "type": "nature",
+      "lat": 36.171,
+      "lng": -86.788,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-enr-zaytinya-bar",
+      "city_id": "nashville",
+      "neighborhood_id": "the-gulch",
+      "name": {
+        "en": "Zaytinya Bar"
+      },
+      "description": {
+        "en": "Located within chef José Andrés's restaurant at the W Hotel, this sophisticated bar is a prime vantage point for people-watching."
+      },
+      "type": "drink",
+      "lat": 36.155,
+      "lng": -86.784,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-enr-peg-leg-porker-the-bar",
+      "city_id": "nashville",
+      "neighborhood_id": "the-gulch",
+      "name": {
+        "en": "Peg Leg Porker (The Bar)"
+      },
+      "description": {
+        "en": "A no-frills spot within the legendary BBQ joint to sip on a local beer or Tennessee whiskey and soak in the authentic atmosphere."
+      },
+      "type": "drink",
+      "lat": 36.151,
+      "lng": -86.786,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-enr-maiz-de-la-vida-restaurant",
+      "city_id": "nashville",
+      "neighborhood_id": "the-gulch",
+      "name": {
+        "en": "Maiz De La Vida Restaurant"
+      },
+      "description": {
+        "en": "The brick-and-mortar evolution of a beloved food truck, this spot serves elevated and authentic Mexican cuisine with creative ceviches and complex moles."
+      },
+      "type": "food",
+      "lat": 36.1539,
+      "lng": -86.7848,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-enr-the-catbird-seat",
+      "city_id": "nashville",
+      "neighborhood_id": "the-gulch",
+      "name": {
+        "en": "The Catbird Seat"
+      },
+      "description": {
+        "en": "One of the city's most exclusive and innovative dining experiences, this tasting-menu-only restaurant is a bucket-list destination for serious food lovers."
+      },
+      "type": "food",
+      "lat": 36.149,
+      "lng": -86.793,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-enr-the-gulch-greenway",
+      "city_id": "nashville",
+      "neighborhood_id": "the-gulch",
+      "name": {
+        "en": "The Gulch Greenway"
+      },
+      "description": {
+        "en": "This short but pleasant urban trail runs alongside the historic railroad tracks that gave the neighborhood its name, offering a different perspective on the area."
+      },
+      "type": "nature",
+      "lat": 36.152,
+      "lng": -86.783,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-enr-the-bar-at-locust",
+      "city_id": "nashville",
+      "neighborhood_id": "12-south",
+      "name": {
+        "en": "The Bar at Locust"
+      },
+      "description": {
+        "en": "The heart of the action at a famously difficult-to-book restaurant, offering a front-row seat to the 'rambunctious club' atmosphere and meticulous cocktails."
+      },
+      "type": "drink",
+      "lat": 36.1255,
+      "lng": -86.7933,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-enr-sevier-park",
+      "city_id": "nashville",
+      "neighborhood_id": "12-south",
+      "name": {
+        "en": "Sevier Park"
+      },
+      "description": {
+        "en": "At the southern end of the main strip, this beautiful park offers a welcome green oasis with rolling hills and a historic schoolhouse."
+      },
+      "type": "nature",
+      "lat": 36.1205,
+      "lng": -86.7943,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-enr-otto-s",
+      "city_id": "nashville",
+      "neighborhood_id": "sylvan-park",
+      "name": {
+        "en": "Otto's"
+      },
+      "description": {
+        "en": "A fun, casual Tex-Mex spot perfect for a happy hour visit, known for its 'teeny 'tinis' and crunchy tacos."
+      },
+      "type": "food",
+      "lat": 36.149,
+      "lng": -86.835,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-enr-kardes",
+      "city_id": "nashville",
+      "neighborhood_id": "sylvan-park",
+      "name": {
+        "en": "Kardes"
+      },
+      "description": {
+        "en": "Hailed as one of the best new Turkish restaurants in the city, this destination-worthy spot serves authentic, flavorful dishes in a welcoming, family-run environment."
+      },
+      "type": "food",
+      "lat": 36.149,
+      "lng": -86.843,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-enr-park-cafe",
+      "city_id": "nashville",
+      "neighborhood_id": "sylvan-park",
+      "name": {
+        "en": "Park Cafe"
+      },
+      "description": {
+        "en": "A true neighborhood institution serving well-executed American classics, with locals raving about the fried green tomato BLT."
+      },
+      "type": "food",
+      "lat": 36.142,
+      "lng": -86.838,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-enr-richland-creek-greenway",
+      "city_id": "nashville",
+      "neighborhood_id": "sylvan-park",
+      "name": {
+        "en": "Richland Creek Greenway"
+      },
+      "description": {
+        "en": "This beautiful, paved trail is the neighborhood's natural artery, perfect for a long, peaceful walk or bike ride along the creek."
+      },
+      "type": "nature",
+      "lat": 36.145,
+      "lng": -86.84,
+      "trending_score": 76,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-enr-noko",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Noko"
+      },
+      "description": {
+        "en": "A Japanese-minimalist Izakaya in East Nashville that's perfect for date night, from the same team as Kase x Noko."
+      },
+      "type": "food",
+      "lat": 36.1804,
+      "lng": -86.7428,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-enr-folk",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Folk"
+      },
+      "description": {
+        "en": "An acclaimed Italian spot in East Nashville where you should order the clam pizza and a glass of sherry."
+      },
+      "type": "food",
+      "lat": 36.182,
+      "lng": -86.7643,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-enr-butcher-bee",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Butcher & Bee"
+      },
+      "description": {
+        "en": "A Mediterranean-inspired restaurant offering seasonal dishes made of local ingredients, known for its whipped feta and avocado crispy rice."
+      },
+      "type": "food",
+      "lat": 36.1773,
+      "lng": -86.7571,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-enr-lyra",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Lyra"
+      },
+      "description": {
+        "en": "A modern Middle Eastern restaurant with a great happy hour, a vegetable-centric menu, and creative interpretations of traditional spices."
+      },
+      "type": "food",
+      "lat": 36.1848,
+      "lng": -86.741,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-enr-shelby-park",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Shelby Park"
+      },
+      "description": {
+        "en": "A large urban park on the Cumberland River that offers green space, sports facilities, and access to the Shelby Bottoms Greenway."
+      },
+      "type": "nature",
+      "lat": 36.1681,
+      "lng": -86.7355,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-enr-shelby-bottoms-greenway",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "Shelby Bottoms Greenway"
+      },
+      "description": {
+        "en": "A scenic trail system along the Cumberland River, perfect for walking, biking, and enjoying nature away from the city bustle."
+      },
+      "type": "nature",
+      "lat": 36.1755,
+      "lng": -86.7252,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-enr-sushi-row",
+      "city_id": "nashville",
+      "neighborhood_id": "wedgewood-houston",
+      "name": {
+        "en": "Sushi Row"
+      },
+      "description": {
+        "en": "A new raw fish spot from the Dos Santos team, bringing fresh sushi to the Wedgewood-Houston neighborhood."
+      },
+      "type": "food",
+      "lat": 36.1435,
+      "lng": -86.7725,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-enr-charmers",
+      "city_id": "nashville",
+      "neighborhood_id": "germantown",
+      "name": {
+        "en": "Charmers"
+      },
+      "description": {
+        "en": "A funky, come-as-you-are riverfront bar with one of the best burgers in town."
+      },
+      "type": "drink",
+      "lat": 36.1905,
+      "lng": -86.7728,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-enr-redheaded-stranger",
+      "city_id": "nashville",
+      "neighborhood_id": "germantown",
+      "name": {
+        "en": "Redheaded Stranger"
+      },
+      "description": {
+        "en": "A taco spot from Butcher & Bee’s Bryan Lee Weaver that pays homage to his Texas roots with breakfast tacos, Frito pies, and burgers."
+      },
+      "type": "food",
+      "lat": 36.1802,
+      "lng": -86.7705,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-enr-tennessee-state-museum",
+      "city_id": "nashville",
+      "neighborhood_id": "germantown",
+      "name": {
+        "en": "Tennessee State Museum"
+      },
+      "description": {
+        "en": "A major city museum located at the Bicentennial Capitol Mall State Park, showcasing the history and culture of the state."
+      },
+      "type": "culture",
+      "lat": 36.1725,
+      "lng": -86.7905,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-enr-vanderbilt-blair-school-of-music",
+      "city_id": "nashville",
+      "neighborhood_id": "12-south",
+      "name": {
+        "en": "Vanderbilt Blair School of Music"
+      },
+      "description": {
+        "en": "A hidden gem for quality music, offering frequent student and professional performances, from classical symphonies to jazz."
+      },
+      "type": "culture",
+      "lat": 36.1375,
+      "lng": -86.8045,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-enr-the-turnip-truck",
+      "city_id": "nashville",
+      "neighborhood_id": "east-nashville",
+      "name": {
+        "en": "The Turnip Truck"
+      },
+      "description": {
+        "en": "A local grocery store with a surprisingly excellent rotisserie chicken and other fresh, local products."
+      },
+      "type": "shopping",
+      "lat": 36.1756,
+      "lng": -86.7598,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "east-nashville-task-1",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Indie Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Find a storefront or sign that screams 'independent.' Take a selfie that captures its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-2",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Creative Canvas"
+      },
+      "prompt": {
+        "en": "Photograph a piece of street art or a mural that you think best represents the neighborhood's creative soul."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-3",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "A Musician's Muse"
+      },
+      "prompt": {
+        "en": "Find a quiet corner or a lively patio that looks like the perfect spot for a songwriter to find inspiration. Capture the mood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-4",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Eclectic Plate"
+      },
+      "prompt": {
+        "en": "Take an artful photo of your next meal or drink, focusing on the colors and textures that make it unique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-5",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Neighborhood Watch"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of local life – people chatting at a cafe, walking their dogs, or working in a garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-6",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Architectural Patchwork"
+      },
+      "prompt": {
+        "en": "Find two houses side-by-side with completely different architectural styles. Frame a shot that highlights their contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-7",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Found Object Art"
+      },
+      "prompt": {
+        "en": "Create your own mini art installation using found natural objects (leaves, stones, twigs) on a sidewalk and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-8",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "The Color of East Nashville"
+      },
+      "prompt": {
+        "en": "Pick one vibrant color and spend five minutes trying to photograph as many instances of it as you can."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-9",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Hidden Harmony"
+      },
+      "prompt": {
+        "en": "Look for an unexpected moment of beauty in an alleyway or behind a building. Capture the hidden harmony."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-10",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Local Threads"
+      },
+      "prompt": {
+        "en": "Photograph a detail of someone's style (with permission!) or a fashion item in a shop window that feels uniquely 'East Nashville.'"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-11",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Morning Ritual"
+      },
+      "prompt": {
+        "en": "Capture the essence of a neighborhood morning. It could be steam rising from a coffee cup or light hitting a quiet street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-12",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Sound of the Street"
+      },
+      "prompt": {
+        "en": "Take a photo that visually represents a sound you hear, like the rustle of leaves, distant music, or laughter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-13",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Many homes here have inviting porches. Photograph one that tells a story about the people who live there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-14",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "A Sign of the Times"
+      },
+      "prompt": {
+        "en": "Find a cool, vintage, or handmade sign for a local business and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-15",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Community Corner"
+      },
+      "prompt": {
+        "en": "Photograph a public space, like a community garden or a small park, that shows the neighborhood's collaborative spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-1",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Industrial Echoes"
+      },
+      "prompt": {
+        "en": "Find a piece of old industrial architecture—a ghost sign, a rusted beam, an old brick wall—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-2",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Art from Ashes"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between the neighborhood's industrial past and its artistic present."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-3",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "The Grid"
+      },
+      "prompt": {
+        "en": "Look for repeating patterns in the architecture: windows, bricks, fences. Create a compelling abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-4",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Train Track Tales"
+      },
+      "prompt": {
+        "en": "Safely photograph the train tracks that run through the area. Try to create a sense of journey or history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-5",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Avant-Garde Angle"
+      },
+      "prompt": {
+        "en": "Find a modern sculpture or a piece of bold architecture and photograph it from an unusual, dramatic angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-6",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the sharp lines of the warehouses and buildings to create a photo focused on interesting shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-7",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Repurposed Reality"
+      },
+      "prompt": {
+        "en": "Find an object or building that has clearly been given a new life. Capture its past and present in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-8",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Creative Energy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a gallery, studio, or workshop that you feel captures the area's innovative spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-9",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Hunt for a faded advertisement painted on the side of an old brick building. Capture its ghostly presence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-10",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Texture Study"
+      },
+      "prompt": {
+        "en": "Create a close-up photograph that focuses on the textures of WeHo: peeling paint, rough brick, smooth steel, or cracked concrete."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-11",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "The New Wave"
+      },
+      "prompt": {
+        "en": "Photograph a new, modern building next to an old warehouse to highlight the neighborhood's evolution."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-12",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "A Toast to Transformation"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink with a backdrop that reflects the industrial-chic vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-13",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Find a small detail—a unique door handle, a small plaque, a tiny plant growing in a crack—and make it the hero of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-14",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "The Worker's View"
+      },
+      "prompt": {
+        "en": "Imagine you were a factory worker here 100 years ago. Take a photo of a view they might have seen."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-15",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Light in the Warehouse"
+      },
+      "prompt": {
+        "en": "Find a window on an old industrial building and capture the way the light comes through it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-1",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Victorian Vignette"
+      },
+      "prompt": {
+        "en": "Find an ornate architectural detail—like gingerbread trim, an iron fence, or a stained-glass window—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-2",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Brick & Branch"
+      },
+      "prompt": {
+        "en": "Compose a photo that features the neighborhood's historic brick sidewalks and the canopy of mature trees above."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-3",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Historic Charm Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a beautifully preserved Victorian home in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-4",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "A Refined Palate"
+      },
+      "prompt": {
+        "en": "Artfully arrange your meal or drink from a local spot to look like a culinary magazine cover."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-5",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a peaceful residential street or a quiet stoop and capture the serene atmosphere of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-6",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Shadow on the Bricks"
+      },
+      "prompt": {
+        "en": "As you walk the brick sidewalks, capture an interesting photo of your own shadow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-7",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Gaslight Glow"
+      },
+      "prompt": {
+        "en": "Find a historic-style streetlamp and take a photo that evokes a sense of a bygone era."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-8",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful detail from one of the neighborhood's well-tended gardens or window boxes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-9",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "The Perfect Perch"
+      },
+      "prompt": {
+        "en": "Find a classic front porch swing or rocking chair and photograph it as the perfect symbol of Southern hospitality."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-10",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes a historic building and a modern element (like a car or a person on a phone) to show the passage of time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-11",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "A Welcoming Door"
+      },
+      "prompt": {
+        "en": "Find the most interesting or colorful front door in the neighborhood and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-12",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Under the Canopy"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo of the sky as seen through the dense leaves of the neighborhood's old trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-13",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Polished Perspective"
+      },
+      "prompt": {
+        "en": "Look for reflections in the windows of historic buildings. Capture the neighborhood from a new perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-14",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "History Underfoot"
+      },
+      "prompt": {
+        "en": "Take a photo looking down at your feet on the uneven, historic brick sidewalks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "germantown-task-15",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "A Story in Stone"
+      },
+      "prompt": {
+        "en": "Find a historic marker or a cornerstone with a date on it. Photograph this small piece of history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-1",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Skyline Selfie"
+      },
+      "prompt": {
+        "en": "Find a spot with a clear view of the modern high-rises and take a selfie against the sleek skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-2",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Glass & Steel"
+      },
+      "prompt": {
+        "en": "Create an abstract photo focusing on the reflections, lines, and shapes of a modern glass building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-3",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Urban Canyon"
+      },
+      "prompt": {
+        "en": "Stand at the base of a tall building and shoot straight up to capture the feeling of being in an urban canyon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-4",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the hour before sunset, capture the warm light reflecting off the neighborhood's contemporary architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-5",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Old vs. New"
+      },
+      "prompt": {
+        "en": "Find a view that captures a piece of the area's industrial past (like the railroad tracks) against the modern skyscrapers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-6",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Motion Blur"
+      },
+      "prompt": {
+        "en": "As evening approaches, find a safe spot and use a slow shutter speed to capture the light trails of moving traffic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-7",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "A Taste of Contrast"
+      },
+      "prompt": {
+        "en": "Photograph a simple, classic dish (like BBQ) with the backdrop of the neighborhood's upscale, modern environment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-8",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "People in the City"
+      },
+      "prompt": {
+        "en": "Capture a candid photo of people interacting with the modern urban environment of The Gulch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-9",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Green in the Concrete"
+      },
+      "prompt": {
+        "en": "Find a small park, a green roof, or a collection of planters. Photograph this pocket of nature amidst the steel and glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-10",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "The High Life"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the luxury and energy of the neighborhood—a fancy car, a boutique hotel entrance, or a chic patio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-11",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Leading Lines"
+      },
+      "prompt": {
+        "en": "Use sidewalks, bridges, or the lines on buildings to create a photo with strong leading lines that draw the viewer in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-12",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Blue Hour Beauty"
+      },
+      "prompt": {
+        "en": "Just after the sun sets, capture the deep blue of the sky contrasting with the warm lights of the buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-13",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "A Look Up"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of someone looking up in awe at the scale of the architecture around them."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-14",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "Urban Reflection"
+      },
+      "prompt": {
+        "en": "After a rain, or using a puddle, capture the reflection of the skyline on the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "the-gulch-task-15",
+      "neighborhood_id": "the-gulch",
+      "title": {
+        "en": "The Energy of Now"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel encapsulates the vibrant, energetic, and trendy pulse of The Gulch today."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-1",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Street Style Spotting"
+      },
+      "prompt": {
+        "en": "Discreetly capture a photo that showcases the trendy and fashionable style of the people in 12 South."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-2",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Boutique Beauty"
+      },
+      "prompt": {
+        "en": "Photograph an interesting window display or a beautifully designed storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-3",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "The Unseen Mural"
+      },
+      "prompt": {
+        "en": "Go on a hunt for a piece of street art that isn't the main, famous mural. Capture this hidden gem."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-4",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "People-Watching Perspective"
+      },
+      "prompt": {
+        "en": "Find a spot at a cafe or on a bench and take a candid photo that tells a story about the passersby."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-5",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Bungalow Charm"
+      },
+      "prompt": {
+        "en": "Step off the main drag and photograph the architectural details of one of the charming craftsman bungalows on a side street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-6",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Escape the bustle and take a photo in a quiet park or green space that feels like an oasis."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-7",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Foodie Flatlay"
+      },
+      "prompt": {
+        "en": "Take a top-down 'flatlay' photo of your coffee, snack, or meal, arranging it artfully."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-8",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "The Shopper's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie reflecting in the window of one of the neighborhood's many boutiques."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-9",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "The Perfect Patio"
+      },
+      "prompt": {
+        "en": "Find the most inviting-looking restaurant or cafe patio and capture what makes it so appealing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-10",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a brightly colored wall, door, or mural and use it as a vibrant backdrop for a portrait or selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-11",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Walk the Line"
+      },
+      "prompt": {
+        "en": "Take a low-angle photo of the bustling sidewalk, capturing the motion and energy of the crowd."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-12",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "The neighborhood has many spots for treats. Get an ice cream or donut and take a fun, colorful photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-13",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Create a collage of photos of the unique and creative signs for the shops and restaurants along the avenue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-14",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "From the Alley"
+      },
+      "prompt": {
+        "en": "Explore an alleyway and find an interesting composition that shows a different side of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "12-south-task-15",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "The Waiting Game"
+      },
+      "prompt": {
+        "en": "Lines are common here. Take a photo that captures the anticipation and social energy of people waiting to get into a popular spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-1",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Greenway Serenity"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot along the greenway—a bridge, a bench, a view of the creek—and capture the tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-2",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Bungalow Portrait"
+      },
+      "prompt": {
+        "en": "Find a classic craftsman bungalow and take a photo that highlights its charming and unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-3",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Neighborhood Heart"
+      },
+      "prompt": {
+        "en": "Take a photo of a local shop or cafe on Murphy Road that looks like the central hub of the community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-4",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "A Slower Pace"
+      },
+      "prompt": {
+        "en": "Capture a moment that represents the relaxed, residential feel of Sylvan Park—someone reading on a porch, a lazy dog, or a quiet street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-5",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Nature's Details"
+      },
+      "prompt": {
+        "en": "On the greenway or in a local garden, take a close-up photo of a flower, a textured leaf, or a pattern in tree bark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-6",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Golden Hour Stroll"
+      },
+      "prompt": {
+        "en": "Take a photo of a tree-lined residential street during the late afternoon when the light is warm and soft."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-7",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Local's View Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes you look like a resident enjoying a normal, peaceful day in their neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-8",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "The Welcome Mat"
+      },
+      "prompt": {
+        "en": "Photograph a charming front porch or entryway that feels particularly welcoming."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-9",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "A Taste of the Town"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic, comforting dish from a neighborhood restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-10",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Shadow Dance"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by the trees across a lawn or sidewalk in the afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-11",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "The Bike Path"
+      },
+      "prompt": {
+        "en": "Take a photo that features a bicycle—either parked or being ridden—as a symbol of the neighborhood's leisurely pace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-12",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Community Character"
+      },
+      "prompt": {
+        "en": "Find a Little Free Library, a quirky lawn ornament, or a community notice board and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-13",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "A Study in Green"
+      },
+      "prompt": {
+        "en": "Create a photo that is dominated by different shades of green from the neighborhood's lawns, trees, and gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-14",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "The Village Vibe"
+      },
+      "prompt": {
+        "en": "Frame a shot of the main commercial strip that captures its compact, village-like atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "sylvan-park-task-15",
+      "neighborhood_id": "sylvan-park",
+      "title": {
+        "en": "Timeless Tradition"
+      },
+      "prompt": {
+        "en": "Take a photo that feels like it could have been taken 20 years ago, emphasizing the neighborhood's established, timeless quality."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:05:52.187756+00:00"
+    },
+    {
+      "id": "east-nashville-task-1",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Mural Selfie"
+      },
+      "prompt": {
+        "en": "East Nashville is famous for its street art. Find a colorful mural that speaks to you and take a creative selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-2",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture the architectural contrast of the neighborhood by photographing an old bungalow next to a new, modern home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-3",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "East Side Eats"
+      },
+      "prompt": {
+        "en": "Photograph a dish that perfectly represents East Nashville's eclectic and delicious foodie scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-4",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Quirky Yard Art"
+      },
+      "prompt": {
+        "en": "Spot a quirky or unique yard decoration and snap a picture. The weirder, the better!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-5",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Sounds of the Neighborhood"
+      },
+      "prompt": {
+        "en": "Find a local musician performing on a patio or in a bar and capture the moment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-6",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "The front porch is an institution here. Find a classic porch swing and take a photo that captures its relaxing vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-7",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Vintage Vibes"
+      },
+      "prompt": {
+        "en": "Document a unique storefront or sign from one of the many vintage shops in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-8",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Park Peace"
+      },
+      "prompt": {
+        "en": "Photograph a quiet, peaceful moment in one of the neighborhood's beautiful parks, like Shelby or East Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-9",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Craft Brew Cheers"
+      },
+      "prompt": {
+        "en": "Take a selfie with a craft beer from a local brewery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-10",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Caffeine Capture"
+      },
+      "prompt": {
+        "en": "Find the most interesting-looking coffee shop and capture its unique vibe in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-11",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Street Art Story"
+      },
+      "prompt": {
+        "en": "Find a piece of street art that tells a story or makes you think, and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-12",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Neighborhood Greens"
+      },
+      "prompt": {
+        "en": "Find a community garden and photograph the local flora growing there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-13",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening sets in, capture the glow of a cool neon sign on a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-14",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Capture the architectural details of a historic church or home in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "east-nashville-task-15",
+      "neighborhood_id": "east-nashville",
+      "title": {
+        "en": "Local Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the independent, creative spirit of East Nashville."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-1",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Industrial Aesthetic"
+      },
+      "prompt": {
+        "en": "Capture the industrial vibe of a converted warehouse or factory building in WeHo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-2",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Art in the Open"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, a mural, or interesting graffiti and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-3",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Hidden Studio"
+      },
+      "prompt": {
+        "en": "Photograph the entrance to a hidden gallery, artist's studio, or creative workspace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-4",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Creative Cocktail Selfie"
+      },
+      "prompt": {
+        "en": "Treat yourself to a creative cocktail from a local bar and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-5",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Bold Typography"
+      },
+      "prompt": {
+        "en": "Find a sign or logo that uses a bold, industrial-style font and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-6",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Brick Textures"
+      },
+      "prompt": {
+        "en": "Get up close and capture the interesting texture of old brickwork on a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-7",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Local Brews"
+      },
+      "prompt": {
+        "en": "Photograph a group of people enjoying a local brewery or distillery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-8",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Skyline View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the nearby downtown Nashville skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-9",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Art Installation"
+      },
+      "prompt": {
+        "en": "Discover a unique art installation, big or small, and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-10",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "WeHo Energy"
+      },
+      "prompt": {
+        "en": "Capture the energy of a live music performance or a busy venue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-11",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Food Truck Find"
+      },
+      "prompt": {
+        "en": "Find a food truck and photograph its most popular or colorful dish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-12",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Past and Present"
+      },
+      "prompt": {
+        "en": "Take a photo that contrasts the neighborhood's old industrial past with its new artistic present."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-13",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Capture a quiet side street or alleyway away from the main hustle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-14",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Repurposed Design"
+      },
+      "prompt": {
+        "en": "Find a cool, repurposed object used as furniture or decoration and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "wedgewood-houston-task-15",
+      "neighborhood_id": "wedgewood-houston",
+      "title": {
+        "en": "Maker's Mark"
+      },
+      "prompt": {
+        "en": "Spot a sign for a local maker, artisan, or craftsman and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-1",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Victorian Details"
+      },
+      "prompt": {
+        "en": "Photograph the charming architectural details of a Victorian-era house in Germantown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-2",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Brick Pathways"
+      },
+      "prompt": {
+        "en": "Capture the historic feel of the cobblestone or brick sidewalks that define the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-3",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Garden Selfie"
+      },
+      "prompt": {
+        "en": "Find a beautifully manicured garden or planter box and take a selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-4",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Patio Ambiance"
+      },
+      "prompt": {
+        "en": "Find a restaurant with a great patio and capture its inviting ambiance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-5",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Capitol View"
+      },
+      "prompt": {
+        "en": "Find a view of the Tennessee State Capitol from within the neighborhood and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-6",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find and photograph a historic plaque or marker that tells a story about the neighborhood's past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-7",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Gourmet Glimpse"
+      },
+      "prompt": {
+        "en": "Capture a photo of a beautifully plated dish from one of Germantown's acclaimed restaurants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-8",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Tree-Lined Streets"
+      },
+      "prompt": {
+        "en": "Take a photo that showcases the neighborhood's leafy, tree-lined streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-9",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Ironwork Art"
+      },
+      "prompt": {
+        "en": "Document a unique or ornate iron fence or gate, a common feature of the area's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-10",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Cozy Cafe Corner"
+      },
+      "prompt": {
+        "en": "Find a cozy corner in a local coffee shop and capture its warm, inviting atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-11",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Farmers' Market Moment"
+      },
+      "prompt": {
+        "en": "Take a selfie with a backdrop of the bustling Nashville Farmers' Market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-12",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Streetscape Blend"
+      },
+      "prompt": {
+        "en": "Capture the blend of historic residential and modern commercial buildings on a single street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-13",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Neighborhood Pride"
+      },
+      "prompt": {
+        "en": "Find a neighborhood flag or a sign that says 'Germantown' and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-14",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Find a quiet alleyway with interesting textures and light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "germantown-task-15",
+      "neighborhood_id": "germantown",
+      "title": {
+        "en": "Elegant Entrance"
+      },
+      "prompt": {
+        "en": "Photograph a particularly elegant or charming front door or entryway of a home or business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-1",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Iconic Mural Selfie"
+      },
+      "prompt": {
+        "en": "It's a 12 South rite of passage. Find one of the famous neighborhood murals and take a selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-2",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Street Style Spotting"
+      },
+      "prompt": {
+        "en": "Capture the perfect shot of a stylishly dressed local or tourist showing off their fashion sense."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-3",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Picture-Perfect Pastry"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully presented coffee or pastry from a local cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-4",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Boutique Find"
+      },
+      "prompt": {
+        "en": "Find a unique or eye-catching product in the window of one of the many boutique shops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-5",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Take a photo of a family or group of friends enjoying Sevier Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-6",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Craftsman Charm"
+      },
+      "prompt": {
+        "en": "Capture the architecture of a beautifully renovated craftsman bungalow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-7",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "The Waiting Game"
+      },
+      "prompt": {
+        "en": "Find a line of people waiting for a popular restaurant or shop and capture the anticipation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-8",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Colorful Doorways"
+      },
+      "prompt": {
+        "en": "Take a photo of a front door painted in a bright, cheerful color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-9",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Street Scene"
+      },
+      "prompt": {
+        "en": "Document the vibrant street life and energy along the main 12th Avenue South strip."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-10",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find a designer item or a beautifully styled display in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-11",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Sweet Treat Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with an ice cream cone or sweet treat from a local favorite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-12",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Restaurant Ready"
+      },
+      "prompt": {
+        "en": "Capture the details of a high-end restaurant's exterior, from the signage to the decor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-13",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Puppy Parade"
+      },
+      "prompt": {
+        "en": "This neighborhood is very dog-friendly. Photograph a cute dog enjoying a walk with its owner."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-14",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Public Art"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a uniquely designed bench and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    },
+    {
+      "id": "12-south-task-15",
+      "neighborhood_id": "12-south",
+      "title": {
+        "en": "Trendy Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel encapsulates the trendy, bustling, and fashionable vibe of 12 South."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:39:43.747430+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

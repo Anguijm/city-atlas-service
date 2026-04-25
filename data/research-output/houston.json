@@ -1,0 +1,3194 @@
+{
+  "neighborhoods": [
+    {
+      "id": "montrose",
+      "city_id": "houston",
+      "name": {
+        "en": "Montrose"
+      },
+      "summary": {
+        "en": "Houston's eclectic and free-spirited core, where 1920s bungalows, world-class art galleries, and vintage stores create a creative, progressive, and fiercely independent vibe."
+      },
+      "lat": 29.7428,
+      "lng": -95.3981,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown",
+      "city_id": "houston",
+      "name": {
+        "en": "Chinatown (Asiatown)"
+      },
+      "summary": {
+        "en": "A vast, sprawling suburban district that is a paradise for culinary exploration, where strip malls hold countless authentic restaurants, massive supermarkets, and serene temples."
+      },
+      "lat": 29.7015,
+      "lng": -95.5579,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district",
+      "city_id": "houston",
+      "name": {
+        "en": "Museum District"
+      },
+      "summary": {
+        "en": "Houston's elegant cultural epicenter, a beautiful, tree-lined neighborhood designed for pedestrians, with grand architecture, peaceful parks, and art at every turn."
+      },
+      "lat": 29.7227,
+      "lng": -95.3899,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown",
+      "city_id": "houston",
+      "name": {
+        "en": "Downtown"
+      },
+      "summary": {
+        "en": "A district of thrilling contrasts where historic 19th-century buildings stand in the shadow of gleaming modern skyscrapers, revealing hidden history and a new wave of creative energy."
+      },
+      "lat": 29.7589,
+      "lng": -95.3677,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park",
+      "city_id": "houston",
+      "name": {
+        "en": "Buffalo Bayou Park"
+      },
+      "summary": {
+        "en": "A magnificent 160-acre green artery, this linear oasis offers active recreation, quiet contemplation, and surprising encounters with nature and art, all with stunning skyline views."
+      },
+      "lat": 29.7633,
+      "lng": -95.3833,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby",
+      "city_id": "houston",
+      "name": {
+        "en": "Upper Kirby & The Waterwall"
+      },
+      "summary": {
+        "en": "This area represents Houston's more polished and luxurious side, a sophisticated district for high-end dining, grand-scale architecture, and surprising pockets of beauty."
+      },
+      "lat": 29.7395,
+      "lng": -95.4212,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "montrose-enr-mi-luna",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Mi Luna"
+      },
+      "description": {
+        "en": "A classic Montrose spot for tapas and sangria with a lively atmosphere, ideal for starting an evening or taking a midday break."
+      },
+      "type": "food",
+      "lat": 29.7435,
+      "lng": -95.3995,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-enr-bar-no-3",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Bar No. 3"
+      },
+      "description": {
+        "en": "Located inside the La Colombe d’Or hotel, this bar is an art experience where you can sip cocktails surrounded by a private fine art collection."
+      },
+      "type": "drink",
+      "lat": 29.7445,
+      "lng": -95.3945,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-enr-da-marco",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Da Marco"
+      },
+      "description": {
+        "en": "An intimate and elegant Italian restaurant beloved by locals for its exquisite pasta and refined Northern Italian cuisine."
+      },
+      "type": "food",
+      "lat": 29.7455,
+      "lng": -95.4055,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-enr-trill-burgers",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Trill Burgers"
+      },
+      "description": {
+        "en": "A wildly popular, high-energy spot serving one of the city's most talked-about smashburgers."
+      },
+      "type": "food",
+      "lat": 29.7355,
+      "lng": -95.4155,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-enr-the-menil-collection",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "The Menil Collection"
+      },
+      "description": {
+        "en": "A world-renowned museum with free admission, housing a breathtaking collection of art from ancient artifacts to Surrealist masterpieces on a tranquil campus."
+      },
+      "type": "culture",
+      "lat": 29.7375,
+      "lng": -95.398,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-enr-westheimer-curve-shopping",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Westheimer Curve Shopping"
+      },
+      "description": {
+        "en": "The neighborhood's main artery, packed with quirky antique shops, independent boutiques, and vintage stores that capture the area's unique style."
+      },
+      "type": "shopping",
+      "lat": 29.744,
+      "lng": -95.4,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-hk-dim-sum",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "HK Dim Sum"
+      },
+      "description": {
+        "en": "A classic Chinese diner perfect for a quick, casual stop for tea and freshly made dim sum any time of day."
+      },
+      "type": "food",
+      "lat": 29.6865,
+      "lng": -95.5585,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-dim-sum-king-express",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Dim Sum King Express"
+      },
+      "description": {
+        "en": "A small, coffee-shop-style eatery serving fast, affordable, and delicious dim sum, offering a glimpse into daily neighborhood life."
+      },
+      "type": "food",
+      "lat": 29.7005,
+      "lng": -95.5655,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-nam-giao",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Nam Giao"
+      },
+      "description": {
+        "en": "A Michelin Bib Gourmand recipient specializing in the delicate and flavorful cuisine of Hue, a city in central Vietnam."
+      },
+      "type": "food",
+      "lat": 29.6855,
+      "lng": -95.5575,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-ocean-palace",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Ocean Palace"
+      },
+      "description": {
+        "en": "A massive, bustling Cantonese restaurant famous for its classic cart-style dim sum service and the literal moat that surrounds the building."
+      },
+      "type": "food",
+      "lat": 29.6875,
+      "lng": -95.5605,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-arco-seafood",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Arco Seafood"
+      },
+      "description": {
+        "en": "A favorite for large, multi-generational families, this is the place to go for an old-school dim sum experience with classic dishes done traditionally."
+      },
+      "type": "food",
+      "lat": 29.685,
+      "lng": -95.559,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-jade-buddha-temple",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Jade Buddha Temple"
+      },
+      "description": {
+        "en": "A peaceful and beautiful Buddhist complex that offers a serene escape with lotus ponds, bonsai trees, and impressive statues."
+      },
+      "type": "culture",
+      "lat": 29.6555,
+      "lng": -95.5055,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-hong-kong-food-market",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Hong Kong Food Market"
+      },
+      "description": {
+        "en": "An enormous supermarket that is a feast for the senses, offering everything from live seafood and exotic produce to an endless variety of Asian snacks."
+      },
+      "type": "shopping",
+      "lat": 29.687,
+      "lng": -95.561,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-enr-bellaire-boulevard",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Bellaire Boulevard"
+      },
+      "description": {
+        "en": "The main artery of Chinatown, where a walk reveals an incredible density of herbal medicine shops, bakeries, bookstores, and bubble tea cafes."
+      },
+      "type": "landmark",
+      "lat": 29.705,
+      "lng": -95.55,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-enr-le-jardinier-bar",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Le Jardinier Bar"
+      },
+      "description": {
+        "en": "Located within the Museum of Fine Arts, this bar is a destination for a sophisticated cocktail in a beautifully designed, light-filled space."
+      },
+      "type": "drink",
+      "lat": 29.7245,
+      "lng": -95.3905,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-enr-miller-outdoor-theatre-lawn",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Miller Outdoor Theatre Lawn"
+      },
+      "description": {
+        "en": "Houston's ultimate BYOB spot. Pack a cooler and a picnic to enjoy a world-class performance for free under the stars on the grassy hill."
+      },
+      "type": "culture",
+      "lat": 29.7175,
+      "lng": -95.3895,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-enr-houston-museum-of-natural-science",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Houston Museum of Natural Science"
+      },
+      "description": {
+        "en": "A must-visit for its spectacular Morian Hall of Paleontology, where dinosaur skeletons are posed in dramatic, life-like scenes."
+      },
+      "type": "culture",
+      "lat": 29.722,
+      "lng": -95.389,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-enr-museum-of-fine-arts-houston-mfah",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Museum of Fine Arts, Houston (MFAH)"
+      },
+      "description": {
+        "en": "One of the largest museums in the country, with a vast collection and unmissable underground light tunnels connecting its buildings."
+      },
+      "type": "culture",
+      "lat": 29.725,
+      "lng": -95.39,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-enr-bayou-bend-collection-and-gardens",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Bayou Bend Collection and Gardens"
+      },
+      "description": {
+        "en": "A historic mansion on 14 acres of stunningly manicured gardens housing a premier collection of American decorative arts and paintings."
+      },
+      "type": "culture",
+      "lat": 29.765,
+      "lng": -95.428,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-enr-post-houston-food-market-bars",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "POST Houston Food Market Bars"
+      },
+      "description": {
+        "en": "The sprawling food hall at POST features several independent bar concepts for grabbing a local craft beer or a creative cocktail."
+      },
+      "type": "drink",
+      "lat": 29.768,
+      "lng": -95.368,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-enr-market-square-park-patios",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Market Square Park Patios"
+      },
+      "description": {
+        "en": "The quintessential local experience is to grab a drink at a patio bar facing the historic heart of Houston and watch the city go by."
+      },
+      "type": "drink",
+      "lat": 29.763,
+      "lng": -95.361,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-enr-houston-is-inspired-mural",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "\"Houston is Inspired\" Mural"
+      },
+      "description": {
+        "en": "Located at 520 Travis Street, this vibrant, colorful mural has become an iconic photo-op and a symbol of local pride."
+      },
+      "type": "landmark",
+      "lat": 29.7615,
+      "lng": -95.363,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-enr-allen-s-landing",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Allen's Landing"
+      },
+      "description": {
+        "en": "Considered the birthplace of Houston, this historic spot on Buffalo Bayou is where the city's founders first stepped ashore in 1836."
+      },
+      "type": "landmark",
+      "lat": 29.764,
+      "lng": -95.358,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-enr-waugh-drive-bridge-bat-colony",
+      "city_id": "houston",
+      "neighborhood_id": "buffalo-bayou-park",
+      "name": {
+        "en": "Waugh Drive Bridge Bat Colony"
+      },
+      "description": {
+        "en": "Witness an unforgettable natural spectacle at sunset as 250,000 Mexican free-tailed bats emerge from under the bridge."
+      },
+      "type": "nature",
+      "lat": 29.7625,
+      "lng": -95.393,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-enr-the-buffalo-bayou-park-cistern",
+      "city_id": "houston",
+      "neighborhood_id": "buffalo-bayou-park",
+      "name": {
+        "en": "The Buffalo Bayou Park Cistern"
+      },
+      "description": {
+        "en": "A vast, former underground reservoir from 1926 that now hosts rotating, immersive art and light installations with a haunting 17-second echo."
+      },
+      "type": "hidden_gem",
+      "lat": 29.7645,
+      "lng": -95.381,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-enr-johnny-steele-dog-park",
+      "city_id": "houston",
+      "neighborhood_id": "buffalo-bayou-park",
+      "name": {
+        "en": "Johnny Steele Dog Park"
+      },
+      "description": {
+        "en": "A beloved spot to see Houston's happiest pups splash in a dedicated dog pond, with the downtown skyline as a backdrop."
+      },
+      "type": "nature",
+      "lat": 29.764,
+      "lng": -95.375,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-enr-the-water-works",
+      "city_id": "houston",
+      "neighborhood_id": "buffalo-bayou-park",
+      "name": {
+        "en": "The Water Works"
+      },
+      "description": {
+        "en": "A grassy hill area in the park that is a perfect spot for a DIY picnic or drink, offering a million-dollar view of the downtown skyline."
+      },
+      "type": "viewpoint",
+      "lat": 29.765,
+      "lng": -95.379,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-enr-kiran-s-afternoon-tea",
+      "city_id": "houston",
+      "neighborhood_id": "upper-kirby",
+      "name": {
+        "en": "Kiran's Afternoon Tea"
+      },
+      "description": {
+        "en": "A unique and celebrated Houston experience featuring Chef Kiran Verma's signature chai blend alongside Indian-inspired savories and sweets."
+      },
+      "type": "drink",
+      "lat": 29.739,
+      "lng": -95.421,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-enr-yiayias-greek-kitchen",
+      "city_id": "houston",
+      "neighborhood_id": "upper-kirby",
+      "name": {
+        "en": "Yiayia’s Greek Kitchen"
+      },
+      "description": {
+        "en": "From the renowned Pappas family, this is a beautifully designed and upscale Greek taverna serving classic dishes with a refined touch."
+      },
+      "type": "food",
+      "lat": 29.7385,
+      "lng": -95.4205,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-enr-gerald-d-hines-waterwall-park",
+      "city_id": "houston",
+      "neighborhood_id": "upper-kirby",
+      "name": {
+        "en": "Gerald D. Hines Waterwall Park"
+      },
+      "description": {
+        "en": "A dramatic, 64-foot semi-circular fountain where standing in the mist at its base is a powerful and refreshing experience."
+      },
+      "type": "landmark",
+      "lat": 29.737,
+      "lng": -95.462,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-enr-the-galleria-ice-rink",
+      "city_id": "houston",
+      "neighborhood_id": "upper-kirby",
+      "name": {
+        "en": "The Galleria Ice Rink"
+      },
+      "description": {
+        "en": "An iconic, full-size ice rink at the center of the mall's food court that offers a nostalgic and slightly surreal sight."
+      },
+      "type": "culture",
+      "lat": 29.738,
+      "lng": -95.463,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-enr-ritual-one",
+      "city_id": "houston",
+      "neighborhood_id": "upper-kirby",
+      "name": {
+        "en": "Ritual One"
+      },
+      "description": {
+        "en": "A state-of-the-art studio offering a different kind of urban retreat with hot pilates or power vinyasa in an infrared-heated room."
+      },
+      "type": "hidden_gem",
+      "lat": 29.74,
+      "lng": -95.422,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-enr-march",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "March"
+      },
+      "description": {
+        "en": "A highly-rated Mediterranean tasting menu restaurant that is considered pitch-perfect."
+      },
+      "type": "food",
+      "lat": 29.7438,
+      "lng": -95.4011,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-enr-chardon",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Chardon"
+      },
+      "description": {
+        "en": "Located in the Thompson Houston Hotel, this restaurant serves French classics with a Texan flair."
+      },
+      "type": "food",
+      "lat": 29.7595,
+      "lng": -95.3932,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-enr-alora",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Alora"
+      },
+      "description": {
+        "en": "A unique restaurant serving a fusion of Peruvian and Vietnamese food in Montrose."
+      },
+      "type": "food",
+      "lat": 29.7462,
+      "lng": -95.4081,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-enr-koi",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Koi"
+      },
+      "description": {
+        "en": "A Japanese restaurant and one of the many sushi spots located along Westheimer."
+      },
+      "type": "food",
+      "lat": 29.7442,
+      "lng": -95.4035,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-enr-rothko-chapel",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Rothko Chapel"
+      },
+      "description": {
+        "en": "A serene, non-denominational chapel and a good place to 'zen out', located on the Menil Museum grounds."
+      },
+      "type": "culture",
+      "lat": 29.7365,
+      "lng": -95.3975,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-enr-citizens-of-montrose",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Citizens Of Montrose"
+      },
+      "description": {
+        "en": "A breakfast restaurant and cafe described as a fun place to hang out, though parking can be a challenge."
+      },
+      "type": "food",
+      "lat": 29.7488,
+      "lng": -95.3951,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-enr-blacksmith",
+      "city_id": "houston",
+      "neighborhood_id": "montrose",
+      "name": {
+        "en": "Blacksmith"
+      },
+      "description": {
+        "en": "A coffee shop known for its particularly strong and high-caffeine coffee."
+      },
+      "type": "drink",
+      "lat": 29.745,
+      "lng": -95.396,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-enr-fine-river-dim-sum-restaurant",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Fine River Dim Sum Restaurant"
+      },
+      "description": {
+        "en": "A low-key strip mall spot just off Bellaire that serves freshly made dim sum all day."
+      },
+      "type": "food",
+      "lat": 29.6845,
+      "lng": -95.5595,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-enr-crown-seafood",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Crown Seafood"
+      },
+      "description": {
+        "en": "A large-format Cantonese seafood restaurant that serves dim sum daily until 3pm."
+      },
+      "type": "food",
+      "lat": 29.683,
+      "lng": -95.558,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-enr-golden-dim-sum",
+      "city_id": "houston",
+      "neighborhood_id": "chinatown",
+      "name": {
+        "en": "Golden Dim Sum"
+      },
+      "description": {
+        "en": "A dim sum restaurant in Chinatown featuring an extensive menu of options."
+      },
+      "type": "food",
+      "lat": 29.689,
+      "lng": -95.563,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-enr-contemporary-arts-museum-houston",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Contemporary Arts Museum Houston"
+      },
+      "description": {
+        "en": "One of the notable cultural institutions that contribute to the Museum District's millions of annual visitors."
+      },
+      "type": "culture",
+      "lat": 29.7265,
+      "lng": -95.3915,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-enr-holocaust-museum-houston",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Holocaust Museum Houston"
+      },
+      "description": {
+        "en": "A significant cultural institution within Houston's Museum District."
+      },
+      "type": "culture",
+      "lat": 29.7205,
+      "lng": -95.3875,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-enr-children-s-museum-of-houston",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Children's Museum of Houston"
+      },
+      "description": {
+        "en": "A popular family-friendly museum located in the heart of the Museum District."
+      },
+      "type": "culture",
+      "lat": 29.721,
+      "lng": -95.386,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-enr-houston-zoo",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Houston Zoo"
+      },
+      "description": {
+        "en": "Located within Hermann Park, this zoo is a major attraction in the Museum District area."
+      },
+      "type": "nature",
+      "lat": 29.715,
+      "lng": -95.392,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-enr-cockrell-butterfly-center",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Cockrell Butterfly Center"
+      },
+      "description": {
+        "en": "A serene, rainforest-like space at the Museum of Natural Science where you can walk among live butterflies."
+      },
+      "type": "nature",
+      "lat": 29.7225,
+      "lng": -95.39,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-enr-japanese-garden",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Japanese Garden"
+      },
+      "description": {
+        "en": "A beautiful and serene garden within Hermann Park, with plenty of places to sit and rest."
+      },
+      "type": "nature",
+      "lat": 29.716,
+      "lng": -95.388,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-enr-miller-outdoor-theatre",
+      "city_id": "houston",
+      "neighborhood_id": "museum-district",
+      "name": {
+        "en": "Miller Outdoor Theatre"
+      },
+      "description": {
+        "en": "A cultural gem in Hermann Park that has staged free outdoor performances, from drama to the symphony, since 1923."
+      },
+      "type": "culture",
+      "lat": 29.718,
+      "lng": -95.389,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-chopnblok-at-post-houston",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "ChopnBlok at POST Houston"
+      },
+      "description": {
+        "en": "A food stall in the POST Houston market where chef Ope Amosu serves West African cuisine like smoky jollof jambalaya."
+      },
+      "type": "food",
+      "lat": 29.7675,
+      "lng": -95.3675,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-sky-lawn-at-post-houston",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Sky Lawn at POST Houston"
+      },
+      "description": {
+        "en": "A five-acre rooftop urban park and sustainable organic farm offering a peaceful retreat and city views."
+      },
+      "type": "viewpoint",
+      "lat": 29.7685,
+      "lng": -95.3685,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-marriott-marquis-altitude-rooftop-and-pool",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Marriott Marquis Altitude Rooftop and Pool"
+      },
+      "description": {
+        "en": "A rooftop pool complex featuring a 550-foot lazy river in the shape of Texas and an infinity pool with skyline views."
+      },
+      "type": "landmark",
+      "lat": 29.757,
+      "lng": -95.362,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-the-hobby-center-for-the-performing-arts",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "The Hobby Center for the Performing Arts"
+      },
+      "description": {
+        "en": "Houston's own Broadway, this venue showcases the city's performing arts scene with touring hits, drag shows, and more."
+      },
+      "type": "culture",
+      "lat": 29.761,
+      "lng": -95.372,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-jpmorgan-chase-tower",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "JPMorgan Chase Tower"
+      },
+      "description": {
+        "en": "The tallest building in Texas and a 75-floor skyscraper that defines the Houston skyline."
+      },
+      "type": "landmark",
+      "lat": 29.761,
+      "lng": -95.366,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-wells-fargo-plaza",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Wells Fargo Plaza"
+      },
+      "description": {
+        "en": "The second-tallest building in Houston, this 71-floor skyscraper is a major feature of the downtown landscape."
+      },
+      "type": "landmark",
+      "lat": 29.758,
+      "lng": -95.369,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-bank-of-america-center",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Bank of America Center"
+      },
+      "description": {
+        "en": "A notable example of postmodern architecture in Downtown, designed by the famed Philip Johnson."
+      },
+      "type": "landmark",
+      "lat": 29.762,
+      "lng": -95.365,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-downtown-aquarium",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Downtown Aquarium"
+      },
+      "description": {
+        "en": "A popular tourist attraction featuring aquatic exhibits, restaurants, and entertainment."
+      },
+      "type": "culture",
+      "lat": 29.765,
+      "lng": -95.369,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-the-alley-theatre",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "The Alley Theatre"
+      },
+      "description": {
+        "en": "A major resident theater company and one of the key performing arts organizations in the Downtown Theater District."
+      },
+      "type": "culture",
+      "lat": 29.763,
+      "lng": -95.368,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-day-6-coffee-co",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Day 6 Coffee Co."
+      },
+      "description": {
+        "en": "A comfortable spot to work downtown with kind staff, unique muffins, and a banger Texas latte."
+      },
+      "type": "drink",
+      "lat": 29.755,
+      "lng": -95.36,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-enr-koffeteria",
+      "city_id": "houston",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Koffeteria"
+      },
+      "description": {
+        "en": "A bakery and coffee shop known for its interesting and unique pastries, like a guava and cream creation."
+      },
+      "type": "food",
+      "lat": 29.753,
+      "lng": -95.354,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-enr-williams-tower",
+      "city_id": "houston",
+      "neighborhood_id": "upper-kirby",
+      "name": {
+        "en": "Williams Tower"
+      },
+      "description": {
+        "en": "A 64-floor landmark skyscraper, once believed to be the world's tallest outside a central business district, located next to the Waterwall."
+      },
+      "type": "landmark",
+      "lat": 29.737,
+      "lng": -95.461,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "montrose-task-1",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Artistic Soul"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a gallery poster and take a selfie imitating the pose or expression in the artwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-2",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Vintage Vibes"
+      },
+      "prompt": {
+        "en": "Capture a photo of a storefront or item that looks like it's from another decade. Use a filter to enhance the vintage feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-3",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Bungalow Beauty"
+      },
+      "prompt": {
+        "en": "Photograph the architectural details of one of the neighborhood's charming 1920s bungalows. Focus on a unique window, porch, or door."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-4",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Canopy of Oaks"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up into the canopy of one of Montrose's ancient live oak trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-5",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Find a sign for a locally-owned, independent business and capture its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-6",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Eclectic Finds"
+      },
+      "prompt": {
+        "en": "Photograph the most unusual or quirky object you can find displayed in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-7",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Creative Sips"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of your coffee or cocktail, using the neighborhood's vibrant background to create a compelling scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-8",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Colors of Pride"
+      },
+      "prompt": {
+        "en": "Find and photograph a rainbow flag or other symbol of LGBTQ+ pride displayed in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-9",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Secret Garden"
+      },
+      "prompt": {
+        "en": "Discover a hidden patio, courtyard, or small garden and capture its quiet charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-10",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the shadows cast by the large oak trees to create an interesting pattern on a sidewalk or building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-11",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Tattoo Inspiration"
+      },
+      "prompt": {
+        "en": "Photograph a design or pattern in the neighborhood that you think would make a great tattoo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-12",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Progressive Message"
+      },
+      "prompt": {
+        "en": "Find a sticker, poster, or sign with a progressive or political message and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-1",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Culinary Universe"
+      },
+      "prompt": {
+        "en": "Take a photo of a dish you've never tried before. Bonus points for capturing the steam rising from it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-2",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Strip Mall Treasures"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the incredible variety of businesses packed into a single strip mall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-3",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Market Wonders"
+      },
+      "prompt": {
+        "en": "Find the most colorful fruit or vegetable in a grocery store and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-4",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Language of Food"
+      },
+      "prompt": {
+        "en": "Photograph a menu or sign written in a language you don't understand. Focus on the beauty of the characters."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-5",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Serene Escape"
+      },
+      "prompt": {
+        "en": "Find a moment of peace. Photograph a statue, a plant, or a quiet corner that feels tranquil amidst the bustle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-6",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Snack Attack"
+      },
+      "prompt": {
+        "en": "Take a picture of the most interesting-looking packaged snack you can find in a market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-7",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Dim Sum Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a steamer basket of dim sum or a cup of bubble tea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-8",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph a traditional architectural element, like a curved roof tile or decorative carving, on a modern building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-9",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Noodle Nirvana"
+      },
+      "prompt": {
+        "en": "Capture a photo of the sheer variety on an aisle dedicated to noodles or sauces in a supermarket."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-10",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Herbal Wisdom"
+      },
+      "prompt": {
+        "en": "Photograph the mysterious jars and drawers inside an herbal medicine shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-11",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Bakery Bliss"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering photo of a beautiful pastry or bun in a bakery window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "chinatown-task-12",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Reflections of Asia"
+      },
+      "prompt": {
+        "en": "Capture a reflection of a vibrant storefront or sign in a car window or puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-1",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Grand Design"
+      },
+      "prompt": {
+        "en": "Take a photo of a museum's facade, focusing on a powerful line or curve in the architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-2",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a sculpture located outside and photograph it from a low angle to make it look monumental."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-3",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Intellectual Curiosity"
+      },
+      "prompt": {
+        "en": "Take a selfie looking thoughtful or inspired in front of a museum entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-4",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Frame a shot of a grand building through the leaves and branches of the district's beautiful trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-5",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Shadows and Light"
+      },
+      "prompt": {
+        "en": "Capture an abstract photo of the way sunlight and shadows play across a building's textured wall or a sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-6",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "A Moment of Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or lawn and take a photo that captures the peaceful atmosphere of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-7",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Artful Refreshment"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink or snack, making it look like a piece of modern art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-8",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Symmetry Search"
+      },
+      "prompt": {
+        "en": "Find a perfectly symmetrical view of a path, garden, or architectural feature and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-9",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a single, bright color in a flower, sign, or piece of art and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-10",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Reflecting on Art"
+      },
+      "prompt": {
+        "en": "Capture a reflection of a museum or a tree in a puddle, a glass window, or a reflecting pool."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-11",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Font Finder"
+      },
+      "prompt": {
+        "en": "Photograph the elegant or interesting typography on a museum's sign or banner."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "museum-district-task-12",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Pathway to Discovery"
+      },
+      "prompt": {
+        "en": "Take a photo down a tree-lined walkway or path that creates a sense of leading toward an adventure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-1",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Frame a shot that captures a historic 19th-century building and a modern skyscraper in the same photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-2",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Skyline Selfie"
+      },
+      "prompt": {
+        "en": "Find a great vantage point and take a selfie with the gleaming downtown skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-3",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a mural (besides the famous one!) and capture its energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-4",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Reflections in Glass"
+      },
+      "prompt": {
+        "en": "Photograph the reflection of an old building or the sky in the glass facade of a modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-5",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Historic Heart"
+      },
+      "prompt": {
+        "en": "Capture a detail on one of the old commercial buildings in the Market Square Park area—look for faded signs or intricate brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-6",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a green space, like a park or rooftop garden, contrasting with the concrete and steel around it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-7",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Street Food Story"
+      },
+      "prompt": {
+        "en": "Photograph your food from a food hall or vendor in a way that tells a story about downtown's diverse flavors."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-8",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Looking Up"
+      },
+      "prompt": {
+        "en": "Stand at the base of a tall building and take a photo looking straight up to the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-9",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Bayou View"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see the bayou and capture the unique view of the water against the downtown backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-10",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "City in Motion"
+      },
+      "prompt": {
+        "en": "Try to capture the motion of the city—a moving train, traffic, or people walking—using a blur effect."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-11",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find and photograph a historical marker or plaque that tells a story about the city's past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "downtown-task-12",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Tunnel Vision"
+      },
+      "prompt": {
+        "en": "If you find an entrance to the pedestrian tunnels, capture the unique perspective of looking into the underground network."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-1",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Urban Wilderness"
+      },
+      "prompt": {
+        "en": "Take a photo that perfectly blends the park's nature (trees, water, grass) with the downtown skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-2",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Trailblazer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on one of the winding trails with the path stretching out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-3",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Bayou Reflections"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the skyline, a bridge, or the clouds in the calm water of the bayou."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-4",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Art in the Park"
+      },
+      "prompt": {
+        "en": "Discover one of the many art installations or sculptures in the park and photograph it in its natural setting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-5",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "A Breath of Fresh Air"
+      },
+      "prompt": {
+        "en": "Find a wide-open grassy space and take a photo that conveys a sense of freedom and relaxation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-6",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Photograph one of the park's many bridges from an interesting angle—from below, or focusing on its lines and structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-7",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Picnic Paradise"
+      },
+      "prompt": {
+        "en": "Stage a photo of your picnic blanket and snacks with a beautiful park view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-8",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Flora Focus"
+      },
+      "prompt": {
+        "en": "Get low and take a close-up photo of a native Texas plant, wildflower, or blade of grass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-9",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Canine Candids"
+      },
+      "prompt": {
+        "en": "Capture a joyful photo of a dog playing in the park (ask permission if the owner is nearby!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-10",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Sunset Seeker"
+      },
+      "prompt": {
+        "en": "If you're here at dusk, capture the colors of the sunset reflecting on the bayou or behind the skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-11",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo from the very edge of the bayou, showing the unique perspective of where the city's green artery meets the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "buffalo-bayou-park-task-12",
+      "neighborhood_id": "buffalo-bayou-park",
+      "title": {
+        "en": "Shadow Patterns"
+      },
+      "prompt": {
+        "en": "Find where the shadow of a bridge or tall tree creates an interesting pattern on the ground and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-1",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Polished Perfection"
+      },
+      "prompt": {
+        "en": "Find a beautifully designed storefront, restaurant facade, or building entrance and capture its sophisticated details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-2",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Luxury Details"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a high-end material you find—marble, polished brass, fine woodwork, or lush fabric."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-3",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "An Artful Meal"
+      },
+      "prompt": {
+        "en": "Photograph your food or drink presented in an elegant, artful way that matches the neighborhood's vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-4",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Chic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie reflecting your most stylish, sophisticated self, using a sleek background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-5",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Manicured Nature"
+      },
+      "prompt": {
+        "en": "Find a perfectly manicured garden, hedge, or potted plant and capture its deliberate beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-6",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Architectural Power"
+      },
+      "prompt": {
+        "en": "Photograph a building in a way that emphasizes its grand scale and modern design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-7",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Capture an artistic shot of a high-fashion display in a boutique window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-8",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "A Moment of Zen"
+      },
+      "prompt": {
+        "en": "Find a quiet courtyard or water feature and take a photo that feels like a peaceful urban retreat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-9",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Designer Reflections"
+      },
+      "prompt": {
+        "en": "Use the polished surfaces of buildings or luxury cars to capture an interesting reflection of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-10",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Elegant Entryway"
+      },
+      "prompt": {
+        "en": "Photograph a grand or beautifully designed doorway to a restaurant, hotel, or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-11",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "The Finer Things"
+      },
+      "prompt": {
+        "en": "Take a photo of a luxury car, a piece of fine jewelry, or another symbol of the area's upscale character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "upper-kirby-task-12",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture the way the late afternoon sun glints off a glass building or illuminates a polished surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T07:46:13.242029+00:00"
+    },
+    {
+      "id": "montrose-task-1",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Mural Masterpiece"
+      },
+      "prompt": {
+        "en": "Montrose is famous for its street art. Find a colorful mural and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-2",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Bungalow Charm"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic, charming Montrose bungalow. Bonus points for a unique porch or garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-3",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Artistic Vibe"
+      },
+      "prompt": {
+        "en": "Take a picture that you think perfectly captures the eclectic and artistic spirit of Montrose."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-4",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Coffee Culture"
+      },
+      "prompt": {
+        "en": "Find a local coffee shop and take an aesthetic photo of your drink or the cafe's interior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-5",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Quirky Discovery"
+      },
+      "prompt": {
+        "en": "Find a quirky shop, sign, or piece of yard art and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-6",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Patio Paradise"
+      },
+      "prompt": {
+        "en": "Montrose has great patios. Find one with a great vibe and capture the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-7",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Neon Nights"
+      },
+      "prompt": {
+        "en": "As evening falls, find a cool neon sign and take a picture of its glow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-8",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo of the entrance to one of the many art galleries in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-9",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Foodie Find"
+      },
+      "prompt": {
+        "en": "Snap a picture of the most interesting-looking dish you can find on a menu or a plate."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-10",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Oak Tree Majesty"
+      },
+      "prompt": {
+        "en": "The neighborhood is full of beautiful, old oak trees. Find the most majestic one and capture its grandeur."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-11",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Vintage Threads"
+      },
+      "prompt": {
+        "en": "Find a vintage or thrift store and take a picture of a unique item in the window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-12",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Peaceful Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet corner, park bench, or serene space and take a photo that feels peaceful."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-13",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Montrose Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a Montrose street scene in a window, puddle, or sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-14",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Walkway Wander"
+      },
+      "prompt": {
+        "en": "Take a photo looking down an interesting sidewalk or tree-lined street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "montrose-task-15",
+      "neighborhood_id": "montrose",
+      "title": {
+        "en": "Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows off your best 'cool and artsy' Montrose attitude."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-1",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Dim Sum Spread"
+      },
+      "prompt": {
+        "en": "Capture an overhead shot of a delicious dim sum meal, showing off all the different plates and steamers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-2",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Market Marvels"
+      },
+      "prompt": {
+        "en": "Visit a grocery store like Hong Kong Food Market and take a photo of a fruit, vegetable, or snack you've never seen before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-3",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Architectural Accent"
+      },
+      "prompt": {
+        "en": "Find a building with traditional Asian architectural elements, like a curved roof or guardian statues, and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-4",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Find a bakery and take a colorful photo of the most interesting-looking pastry or dessert."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-5",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Vibrant Signage"
+      },
+      "prompt": {
+        "en": "Take a photo of a storefront with beautiful or interesting characters in its sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-6",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Noodle Pull"
+      },
+      "prompt": {
+        "en": "If you're eating noodles, get a dramatic shot of you or a friend pulling the noodles up with chopsticks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-7",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Bustling Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that conveys the bustling, vibrant energy of a Chinatown shopping center or street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-8",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Boba Pose"
+      },
+      "prompt": {
+        "en": "Get a bubble tea and take a fun selfie with your colorful drink."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-9",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Temple Tranquility"
+      },
+      "prompt": {
+        "en": "Find a quiet, serene spot near a temple or in a garden and take a photo that feels peaceful."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-10",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Seafood Spectacle"
+      },
+      "prompt": {
+        "en": "Find a restaurant or market with live seafood tanks and capture the underwater scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-11",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Hidden Gem"
+      },
+      "prompt": {
+        "en": "Look for a small, unassuming shop or restaurant that seems like a local secret and snap a photo of its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-12",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Street Style"
+      },
+      "prompt": {
+        "en": "Take a picture that captures the unique fashion or style of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-13",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Red & Gold"
+      },
+      "prompt": {
+        "en": "Take a photo that prominently features the colors red and gold, which are significant in Chinese culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-14",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Produce Aisle Art"
+      },
+      "prompt": {
+        "en": "Find a beautifully arranged display of produce in a market and take an artistic shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "chinatown-task-15",
+      "neighborhood_id": "chinatown",
+      "title": {
+        "en": "Food Adventure Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie right before you try a food you've never had before. Capture your anticipation!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-1",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Sculpture Selfie"
+      },
+      "prompt": {
+        "en": "Find an outdoor sculpture and strike a pose that mimics or interacts with the art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-2",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Grand Entrance"
+      },
+      "prompt": {
+        "en": "Capture the impressive architecture of a museum's main entrance. Try a low-angle shot to make it look even bigger."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-3",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Hermann Park Oaks"
+      },
+      "prompt": {
+        "en": "The live oak trees in Hermann Park are magnificent. Take a photo that shows off their sprawling branches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-4",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Artful Reflection"
+      },
+      "prompt": {
+        "en": "Find a reflective surface—like a window, a sculpture, or a pond—and capture a creative reflection of the museum surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-5",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Fountain Fun"
+      },
+      "prompt": {
+        "en": "There are many beautiful fountains in the district. Take a picture of one, playing with motion blur for the water if you can."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-6",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Thinker Pose"
+      },
+      "prompt": {
+        "en": "Sit on a bench and have someone take a photo of you in a thoughtful 'art critic' pose, looking towards a museum."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-7",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Nature's Art"
+      },
+      "prompt": {
+        "en": "In the Japanese Garden or elsewhere in the park, find a flower or plant and take a close-up photo, treating it like a piece of art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-8",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Find an interesting shadow cast by a building, tree, or sculpture and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-9",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Picnic Prep"
+      },
+      "prompt": {
+        "en": "Take a photo of the sloping lawn in front of the Miller Outdoor Theatre, imagining it full of picnic blankets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-10",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Cultural Crossroads"
+      },
+      "prompt": {
+        "en": "Take a photo that shows two or more different museums or cultural institutions in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-11",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Butterfly Wings"
+      },
+      "prompt": {
+        "en": "Take a selfie outside the Cockrell Butterfly Center and pretend you have butterfly wings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-12",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Zoo Sounds"
+      },
+      "prompt": {
+        "en": "Take a picture of the entrance to the Houston Zoo. Can you hear any animals from the street?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-13",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Find an inviting path or walkway and take a photo looking down it, creating a sense of journey."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-14",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Food Truck Feast"
+      },
+      "prompt": {
+        "en": "Find one of the food trucks often parked in the area and snap a photo of its colorful design or menu."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "museum-district-task-15",
+      "neighborhood_id": "museum-district",
+      "title": {
+        "en": "Art Appreciator"
+      },
+      "prompt": {
+        "en": "Take a selfie with a look of profound appreciation on your face, with a museum in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-1",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Skyscraper Stretch"
+      },
+      "prompt": {
+        "en": "Stand at the base of a tall skyscraper like the JPMorgan Chase Tower and take a photo looking straight up."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-2",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Tunnel Vision"
+      },
+      "prompt": {
+        "en": "Find an entrance to the Downtown tunnel system and take a picture leading into the underground world."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-3",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "METRORail Motion"
+      },
+      "prompt": {
+        "en": "Capture a photo of the METRORail light rail train as it passes by. Try to get a little motion blur!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-4",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Historic Heart"
+      },
+      "prompt": {
+        "en": "In the Market Square Park area, find a historic building and take a photo that contrasts it with the modern skyscrapers around it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-5",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a park or green space like Discovery Green and take a picture that shows nature thriving in the middle of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-6",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Theater District Drama"
+      },
+      "prompt": {
+        "en": "Take a photo of the grand facade of one of the performance halls like the Hobby Center or Jones Hall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-7",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "City Lights"
+      },
+      "prompt": {
+        "en": "After sunset, capture the vibrant city lights. Focus on reflections in windows or on wet pavement for an artistic touch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-8",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Look closely at the buildings around you. Find an interesting architectural detail—a pattern, a carving, a unique window—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-9",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Go Sports!"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the Toyota Center or Daikin Park, showing your team spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-10",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Skyline View"
+      },
+      "prompt": {
+        "en": "Find a spot with a great view of the skyline (like from POST Houston's roof) and take a panoramic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-11",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Public Art"
+      },
+      "prompt": {
+        "en": "Downtown has many public art installations. Find one and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-12",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Busy Intersection"
+      },
+      "prompt": {
+        "en": "Safely capture the energy of a busy downtown intersection, with cars, pedestrians, and traffic lights."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-13",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Find a lively restaurant patio and take a picture that captures the fun atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-14",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Bayou Place Buzz"
+      },
+      "prompt": {
+        "en": "Snap a photo of the Bayou Place entertainment complex, capturing its lively and colorful entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "downtown-task-15",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Downtown Explorer"
+      },
+      "prompt": {
+        "en": "Take a selfie that says 'I'm conquering the concrete jungle!' with the impressive skyline behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-1",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Towering Perspective"
+      },
+      "prompt": {
+        "en": "Get a shot of the Williams Tower from an interesting angle. Try framing it with trees or another building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-2",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Luxury Window Shopping"
+      },
+      "prompt": {
+        "en": "Find a high-end boutique or shop and take an artistic photo of its window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-3",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Fine Dining Facade"
+      },
+      "prompt": {
+        "en": "Capture the elegant exterior of one of the neighborhood's upscale restaurants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-4",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Posh Pose"
+      },
+      "prompt": {
+        "en": "Take a selfie showing off your most sophisticated, 'Upper Kirby' look."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-5",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Manicured Greens"
+      },
+      "prompt": {
+        "en": "Find a perfectly manicured lawn, hedge, or garden and take a photo that highlights its neatness."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-6",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Modern Art Moment"
+      },
+      "prompt": {
+        "en": "Look for a modern sculpture or public art piece and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-7",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Sleek Reflections"
+      },
+      "prompt": {
+        "en": "Use the glass facade of a modern office building to capture a cool reflection of the sky or street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-8",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Designer Details"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a high-end car you spot parked in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-9",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "The Good Life"
+      },
+      "prompt": {
+        "en": "Find a scene that you think perfectly encapsulates the upscale, luxurious vibe of Upper Kirby."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-10",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Coffee & Class"
+      },
+      "prompt": {
+        "en": "Get a coffee from a chic cafe and take a picture of it against a stylish background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-11",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Architectural Lines"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the strong lines and geometric shapes of the modern architecture in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-12",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Shady Spot"
+      },
+      "prompt": {
+        "en": "Find an elegant, tree-lined street and take a photo down the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-13",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Alfresco Elegance"
+      },
+      "prompt": {
+        "en": "Capture a photo of a beautifully set table at an outdoor cafe or restaurant patio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-14",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Waterwall Wonder"
+      },
+      "prompt": {
+        "en": "From a distance, capture the Williams Tower and the Waterwall in the same shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    },
+    {
+      "id": "upper-kirby-task-15",
+      "neighborhood_id": "upper-kirby",
+      "title": {
+        "en": "Urban Professional"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the business-centric, professional energy of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:24:51.526524+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

@@ -65,15 +65,27 @@ to Python (worse DX, slower) or porting the Gemini/Firestore flow to TS
   city loader, CLI, Firestore writes, generation, indexes, localization,
   validation. Scrapers (`wikipedia.ts`, `reddit.ts`) have dedicated test
   files. See `src/__tests__/`.
-- **Python layer** (pytest): Phase C has 31 unit-level cases in
+- **Python layer** (pytest): Phase C has 41 unit-level cases in
   `test_phase_c_threshold.py` covering the proportional FAIL threshold,
   the deterministic `find_hallucinated_names` matcher (word boundaries,
-  longest-first containment dedup, prompt-injection resistance), and
-  `HALLUCINATION_KEYWORDS` coverage. The `phase-a-historical-guard`
-  vitest test pins the critical Phase A prompt guard by regex-matching
-  the Python source. Integration tests that mock Gemini + Firestore
-  against the full `phase_c_validate` flow are still on the roadmap —
-  see `SESSION_HANDOFF.md`.
+  longest-first containment dedup, prompt-injection resistance),
+  `HALLUCINATION_KEYWORDS` coverage, and the localized-name shape
+  (`{"en": "..."}` dict per `src/schemas/cityAtlas.ts`) that the matcher
+  must extract correctly. The `phase-a-historical-guard` vitest test
+  pins the critical Phase A prompt guard by regex-matching the Python
+  source. Integration tests that mock Gemini + Firestore against the
+  full `phase_c_validate` flow are still on the roadmap — see
+  `SESSION_HANDOFF.md`.
+
+- **Entry-point smoke**: NOT YET in CI. Three porting-miss bugs landed
+  this April that all crashed entry-point scripts on first run from
+  this repo: `90b8c2a` (Python path constants), `f627d83` (TS scraper
+  path constants), `1f173b7` (`--ingest-only` flag composition). None
+  surfaced via the unit-test suites above — only by running
+  `python3.12 src/pipeline/research_city.py` or `npx tsx src/scrapers/
+  wikipedia.ts` directly. Issue #12 tracks adding a CI smoke-test step
+  that exercises each entry point's path-constant resolution + arg
+  composition. Worth landing before any non-trivial pipeline edit.
 
 ## Phase C hardening (2026-04)
 

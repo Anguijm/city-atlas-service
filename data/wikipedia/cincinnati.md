@@ -1,0 +1,62 @@
+# Wikipedia: Cincinnati, United States
+
+## Neighborhoods
+
+Main article: List of Cincinnati neighborhoods
+Neighborhoods of Cincinnati
+Cincinnati consists of fifty-two neighborhoods. Many of these neighborhoods were once villages that have been annexed by the city, with many retaining their former names, such as Walnut Hills and Mount Auburn. Westwood is the city's most populous neighborhood, with other significant neighborhoods including CUF (home to the University of Cincinnati) and Price Hill.
+Downtown Cincinnati is the city's central business district and contains a number of neighborhoods in the flat land between the Ohio River and uptown. These neighborhoods include Over-the-Rhine, Pendleton, Queensgate, and West End. Over-the-Rhine is among the largest, most intact urban historic districts in the United States. Most of Over-the-Rhine's ornate brick buildings were built by German immigrants from 1865 to the 1880s. The neighborhood has been intensely redeveloped in the 21st century, with a focus on fostering small businesses.
+
+## Music
+
+Music-related events include the Cincinnati May Festival, Bunbury Music Festival, and Cincinnati Bell/WEBN Riverfest. Cincinnati hosted the World Choir Games in 2012 with the mantra "Cincinnati, the City that Sings!"
+Cincinnati has given rise or been home to popular musicians and singers, including Lonnie Mack, Doris Day, Odd Nosdam, Dinah Shore, Fats Waller, Rosemary Clooney, Bootsy Collins, The Isley Brothers, Merle Travis, Hank Ballard, Otis Williams, Mood, Midnight Star, Calloway, The Afghan Whigs, Over the Rhine, Blessid Union of Souls, Freddie Meyer, 98 Degrees, The Greenhornes, The Deele, Enduser, Heartless Bastards, The Dopamines, Adrian Belew, The National, Foxy Shazam, Why?, Wussy, H-Bomb Ferguson, Sudan Archives and Walk the Moon, and alternative hip hop producer Hi-Tek calls the Metro Cincinnati region home. Andy Biersack, the lead vocalist for the rock band Black Veil Brides, was born in Cincinnati.
+
+Cincinnati Music Hall in Over-the-Rhine is the city's principal concert hall.
+The Cincinnati May Festival Chorus is a professional choir that has been in existence since 1880. The city is home to the Cincinnati Symphony Orchestra, Cincinnati Opera, Cincinnati Boychoir, and Cincinnati Ballet. Metro Cincinnati is also home to several regional orchestras and youth orchestras, including the Starling Chamber Orchestra and the Cincinnati Symphony Youth Orchestra. Music Director James Conlon and Chorus Director Robert Porco lead the Chorus through an extensive repertoire of classical music. The May Festival Chorus is the mainstay of the oldest continuous choral festival in the Western Hemisphere. Cincinnati Music Hall was built to house the May Festival.
+Cincinnati is the subject of a Connie Smith song written by Bill Anderson, called Cincinnati, Ohio. Cincinnati is the main scenario for the international music production of Italian artist and songwriter Veronica Vitale called "Inside the Outsider". She embedded the sounds of the trains at Baltimore and Ohio Railroad Downtown Cincinnati, filmed her music single "Mi Sono innamorato di Te" at the American Sign Museum and recorded her heartbeat sound at Cincinnati Children's Hospital replacing it to the drums for her song "The Pulse of Light" during the broadcasting at Ryan Seacrest's studio. Furthermore, she released the music single "Nobody is Perfect" featuring legendary Cincinnati's bass player Bootsy Collins.
+Cincinnati was a major early music recording center and was home to King Records, which helped launch the career of James Brown, who often recorded there, as well as Jewel Records, which helped launch Lonnie Mack's career, and Fraternity Records. Cincinnati had a vibrant jazz scene from the 1920s to today. Louis Armstrong's first recordings were done in the Cincinnati area, at Gennett Records, as were Jelly Roll Morton's, Hoagy Carmichael's, and Bix Beiderbecke, who took up residency in Cincinnati for a time. Fats Waller was on staff at WLW in the 1930s.
+
+## Cuisine
+
+Approximately 1 million attend Taste of Cincinnati yearly, making it one of the largest street festivals in the United States.
+Along with American cuisine, Cincinnati is host to numerous flavors infused from around the culinary world. Frisch's Big Boy, Graeter's ice cream, Kroger, LaRosa's Pizzeria, Montgomery Inn, Skyline Chili, Gold Star Chili, Aglamesis Bro's and United Dairy Farmers are Cincinnati eateries that sell their brand commodities in grocery markets and gas stations. Glier's goetta is produced in the Cincinnati area and is a popular local food. The Maisonette in Cincinnati was Mobil Travel Guide's longest-running five-star restaurant in the United States, holding that distinction for 41 consecutive years until it closed in 2005. Its former head chef, Jean-Robert de Cavel, has opened four new restaurants in the area since 2001.
+One of the United States's oldest and most celebrated bars, Arnold's Bar and Grill in downtown Cincinnati has won awards from Esquire magazine's "Best Bars in America", Thrillist's "Most Iconic Bar in Ohio", The Daily Meal's "150 Best bars in America" and Seriouseats.com's "The Cincinnati 10". "If Arnold's were in New York, San Francisco, Chicago, or Boston—somewhere, in short, that people actually visit—it would be world-famous," wrote David Wondrich.
+The Filet-O-Fish was created in 1962 by Lou Groen, the owner of the first McDonald's franchise in the Cincinnati area, to cater to Catholic patrons who abstained from meat on Fridays.
+Traditional local delicacies include opera creams and nectar soda, both served at Graeter's and Aglamesis Bro's ice cream parlors. Grippo's and Pringles potato chips also have their origins in the area, the latter produced by local company Procter & Gamble. Other foodstuffs of local origin include Frank's RedHot sauce and Slush Puppies.
+
+Cincinnati chiliedit]
+Main article: Cincinnati chili
+Cheese coneys containing Cincinnati chili, developed in the 1920s by Macedonian immigrants in Cincinnati
+Cincinnati chili, a spiced sauce served over noodles, usually topped with cheese and often with diced onions or beans, is the area's "best-known regional food". A variety of recipes are served by respective parlors, including Skyline Chili, Gold Star Chili, and Dixie Chili and Deli, plus independent chili parlors including Camp Washington Chili, Empress Chili and Moonlight Chili. It was first developed by Macedonian immigrant restaurateurs in the 1920s. Cincinnati has been called the "Chili Capital of America" and "of the World" because it has more chili restaurants per capita than any other city in the United States or in the world.
+
+Goettaedit]
+Main article: Goetta
+Goetta is a meat-and-grain sausage or mush of German inspiration. It is primarily composed of ground meat (pork, or pork and beef), pin-head oats and spices.
+
+Mock turtle soupedit]
+Main article: Mock turtle soup
+Similarly to goetta's origins, mock turtle soup was a dish popularized by the influx of German immigrants in the late 19th century. Originally made with offal, today Cincinnati-style mock turtle soup is characterized by ground beef, hard-boiled eggs, and ketchup. The only remaining commercial canner of the soup, Worthmore, has produced it in Cincinnati since 1918.
+
+## Sports
+
+Main article: Sports in Cincinnati
+Great American Ball Park, home to the Cincinnati RedsPaycor Stadium, home to the Cincinnati BengalsTQL Stadium, home to FC Cincinnati
+Cincinnati has three major league teams, five minor league teams, five college institutions with sports teams, and seven major sports venues. Cincinnati's three major league teams are Major League Baseball's Reds, who were named for America's first professional baseball team, the Cincinnati Red Stockings; the Bengals of the National Football League; and FC Cincinnati, which became a Major League Soccer franchise in 2019.
+On Major League Baseball Opening Day, Cincinnati has the distinction of holding the "traditional opener" in baseball each year, due to its baseball history. Children have been known to skip school on Opening Day, and it is commonly thought of as a holiday. The Cincinnati Reds have won five World Series titles, in 1919, 1940, 1975, 1976, and 1990. The Reds had one of the most successful baseball clubs of all time in the mid-1970s, known as The Big Red Machine.
+The Bengals have made three Super Bowl appearances since the franchise was founded, in 1982, 1989, and 2022, but have yet to win a championship. The Bengals enjoy strong rivalries with the Cleveland Browns and Pittsburgh Steelers, both of whom are also members of the AFC North division. Whenever the Bengals and Carolina Panthers play against each other in an inter-conference matchup that occurs every four years, their games are dubbed the "Queen City Bowl", as Charlotte, North Carolina, the home city of the Panthers, is also known as the Queen City.
+FC Cincinnati is a soccer team that plays in Major League Soccer. FC Cincinnati made its home debut in the USL on April 9, 2016, before a crowd of more than 14,000 fans. On their next home game against Louisville City FC, FC Cincinnati broke the all-time USL attendance record with a crowd of 20,497; on May 14, 2016, it broke its own record, bringing in an audience of 23,375 on its 1–0 victory against the Pittsburgh Riverhounds. After breaking the USL attendance record on several additional occasions, the club moved to Major League Soccer (MLS) for the 2019 season. FC Cincinnati was awarded an MLS bid on May 29, 2018, and moved to TQL Stadium in the West End neighborhood just northwest of downtown in 2021.
+Cincinnati is also home to two men's college basketball teams: the Cincinnati Bearcats and Xavier Musketeers. These two teams face off as one of college basketball's rivalries known as the Crosstown Shootout. In 2011, the rivalry game erupted in an on-court brawl at the end of the game that saw multiple suspensions follow. The Musketeers have made 10 of the last 11 NCAA tournaments while the Bearcats have won two Division I National Championships. Previously, the Cincinnati Royals competed in the National Basketball Association from 1957 to 1972; they are now known as the Sacramento Kings.
+The Flying Pig Marathon is a yearly event attracting many runners and acts as a qualifier to the Boston Marathon.
+The Cincinnati Open, a historic international men's and women's tennis tournament that is part of the ATP Tour Masters 1000 Series and the WTA 1000 Series, was established in the city in 1899 and has been held at the Lindner Family Tennis Center in suburban Mason since 1979.
+The Cincinnati Cyclones are a minor league AA-level professional hockey team playing in the ECHL. Founded in 1990, the team plays at the Heritage Bank Center. They won the 2010 Kelly Cup Finals, their 2nd championship in three seasons.
+The Kroger Queen City Championship is played annually on the LPGA Tour at TPC River's Bend. Its 2022 debut marked the first time since 1963 that women's professional golf returned to Cincinnati.
+The table below shows sports teams in the Cincinnati area that average more than 5,000 fans per game:
+
+## Parks and recreation
+
+See also: List of parks in Cincinnati
+The Spring House Gazebo at Eden Park in Walnut Hills
+The Cincinnati Park Board maintains and operates all city parks in Cincinnati. Established in 1911 with the purchase of 168 acres (0.68 km2), today the board services more than 5,000 acres (20 km2) of city park space. Notable historic public parks and landscapes include the 19th-century Spring Grove Cemetery and Arboretum, Eden Park, and Mount Storm Park, all designed by Prussian émigré landscape architect Adolph Strauch. The city also has several public golf courses, including the historic Avon Fields Golf Course.
+Downtown Cincinnati towers about Fountain Square, the public square and event locale. Fountain Square was renovated in 2006. Cincinnati rests along 22 miles (35 km) of riverfront about northern banks of the Ohio, stretching from California to Sayler Park, giving the Ohio a prominent place in the life of the city.
+The Cincinnati Zoo & Botanical Garden in Avondale is the second-oldest zoo in the United States. It was appointed as a National Historic Landmark in 1987. The zoo houses over 500 species, 1,800 animals and 3,000 plant species. In addition, the zoo also has conducted several breeding programs in its history. The zoo is frequently cited among the best in the country.

@@ -1,0 +1,2945 @@
+{
+  "neighborhoods": [
+    {
+      "id": "testaccio",
+      "city_id": "rome",
+      "name": {
+        "en": "Testaccio"
+      },
+      "summary": {
+        "en": "An unpretentious, gritty, and deeply Roman former working-class district that is now the city's culinary epicenter."
+      },
+      "lat": 41.878,
+      "lng": 12.4765,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere",
+      "city_id": "rome",
+      "name": {
+        "en": "Trastevere"
+      },
+      "summary": {
+        "en": "Rome’s postcard-perfect bohemian quarter, a quiet maze of ochre-toned buildings and ivy by day that transforms into a lively hub by night."
+      },
+      "lat": 41.8885,
+      "lng": 12.469,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico",
+      "city_id": "rome",
+      "name": {
+        "en": "Centro Storico"
+      },
+      "summary": {
+        "en": "A web of Renaissance-era streets filled with artisan workshops, quiet courtyards, and architectural secrets hidden beyond the main tourist sites."
+      },
+      "lat": 41.8955,
+      "lng": 12.47,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto",
+      "city_id": "rome",
+      "name": {
+        "en": "Jewish Ghetto"
+      },
+      "summary": {
+        "en": "One of Rome's most atmospheric and historically significant neighborhoods, where ancient ruins serve as a backdrop for a vibrant community."
+      },
+      "lat": 41.8928,
+      "lng": 12.4775,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill",
+      "city_id": "rome",
+      "name": {
+        "en": "Aventine Hill"
+      },
+      "summary": {
+        "en": "A calm, elegant oasis of stately villas, hidden gardens, and ancient churches that offers a serene escape from the city's hustle."
+      },
+      "lat": 41.8833,
+      "lng": 12.4805,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede",
+      "city_id": "rome",
+      "name": {
+        "en": "Quartiere Coppedè"
+      },
+      "summary": {
+        "en": "A tiny, fantastical district that feels like an architectural fever dream, mixing Art Nouveau, Baroque, and Gothic styles."
+      },
+      "lat": 41.9185,
+      "lng": 12.502,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "testaccio-enr-salumeria-volpetti",
+      "city_id": "rome",
+      "neighborhood_id": "testaccio",
+      "name": {
+        "en": "Salumeria Volpetti"
+      },
+      "description": {
+        "en": "A legendary delicatessen and temple to Italian gastronomy, perfect for assembling a picnic."
+      },
+      "type": "food",
+      "lat": 41.8795,
+      "lng": 12.4758,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-enr-trapizzino-testaccio",
+      "city_id": "rome",
+      "neighborhood_id": "testaccio",
+      "name": {
+        "en": "Trapizzino Testaccio"
+      },
+      "description": {
+        "en": "The original home of the revolutionary street food combining a pizza pocket with classic Roman stews."
+      },
+      "type": "food",
+      "lat": 41.8765,
+      "lng": 12.4781,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-enr-pizzeria-remo",
+      "city_id": "rome",
+      "neighborhood_id": "testaccio",
+      "name": {
+        "en": "Pizzeria Remo"
+      },
+      "description": {
+        "en": "A classic, no-frills Roman pizzeria where locals go for thin, crispy, and delicious pies."
+      },
+      "type": "food",
+      "lat": 41.8777,
+      "lng": 12.4744,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-enr-monte-testaccio",
+      "city_id": "rome",
+      "neighborhood_id": "testaccio",
+      "name": {
+        "en": "Monte Testaccio"
+      },
+      "description": {
+        "en": "An artificial hill made from millions of discarded ancient Roman amphorae, a tangible reminder of history."
+      },
+      "type": "landmark",
+      "lat": 41.8769,
+      "lng": 12.4755,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-enr-latteria-trastevere",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "Latteria Trastevere"
+      },
+      "description": {
+        "en": "A charming wine bar and eatery with a wonderfully leafy outdoor patio, ideal for a rest away from the crowds."
+      },
+      "type": "drink",
+      "lat": 41.8892,
+      "lng": 12.4685,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-enr-trattoria-da-enzo-al-29",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "Trattoria Da Enzo Al 29"
+      },
+      "description": {
+        "en": "A tiny, perpetually busy trattoria serving impeccable Roman classics like carbonara and cacio e pepe."
+      },
+      "type": "food",
+      "lat": 41.887,
+      "lng": 12.474,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-enr-la-norcineria-di-iacozzilli",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "La Norcineria di Iacozzilli"
+      },
+      "description": {
+        "en": "A historic butcher shop serving incredible sandwiches filled with slow-roasted, herb-stuffed porchetta."
+      },
+      "type": "food",
+      "lat": 41.8865,
+      "lng": 12.4678,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-enr-otaleg",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "Otaleg"
+      },
+      "description": {
+        "en": "An innovative gelateria known for its creative, intense flavors and high-quality ingredients."
+      },
+      "type": "food",
+      "lat": 41.8848,
+      "lng": 12.4682,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-enr-caffe-ai-banchi-vecchi",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Caffe ai Banchi Vecchi"
+      },
+      "description": {
+        "en": "A perfect all-day spot for a morning cappuccino, an afternoon shakerato, or an evening spritz."
+      },
+      "type": "drink",
+      "lat": 41.8975,
+      "lng": 12.4678,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-enr-caffe-peru",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Caffe Peru"
+      },
+      "description": {
+        "en": "A shabby-chic cafe with eclectic decor and a prime position for people-watching near Campo de' Fiori."
+      },
+      "type": "drink",
+      "lat": 41.895,
+      "lng": 12.4715,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-enr-baguetteria-del-fico",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Baguetteria del Fico"
+      },
+      "description": {
+        "en": "A gourmet sandwich shop that elevates the simple baguette with high-quality, creative ingredients."
+      },
+      "type": "food",
+      "lat": 41.899,
+      "lng": 12.471,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-enr-galleria-sciarra",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Galleria Sciarra"
+      },
+      "description": {
+        "en": "An extraordinary and easily missed Art Nouveau courtyard with a stunning glass-and-iron roof and vibrant frescoes."
+      },
+      "type": "hidden_gem",
+      "lat": 41.8995,
+      "lng": 12.48,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-enr-the-dome-illusion-church-of-st-ignatius-of-loyola",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "The Dome Illusion (Church of St. Ignatius of Loyola)"
+      },
+      "description": {
+        "en": "A Jesuit church where a masterpiece of perspective makes a completely flat ceiling painting appear to be a magnificent dome."
+      },
+      "type": "culture",
+      "lat": 41.8983,
+      "lng": 12.4795,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-enr-booktique",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Booktique"
+      },
+      "description": {
+        "en": "A fun, modern book and gift shop with a curated selection of photography books, pop-art prints, and unique souvenirs."
+      },
+      "type": "shopping",
+      "lat": 41.8978,
+      "lng": 12.476,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-enr-pasticceria-boccione",
+      "city_id": "rome",
+      "neighborhood_id": "jewish-ghetto",
+      "name": {
+        "en": "Pasticceria Boccione"
+      },
+      "description": {
+        "en": "A legendary 200-year-old bakery famous for its ricotta and sour cherry tart and other unique treats."
+      },
+      "type": "food",
+      "lat": 41.8935,
+      "lng": 12.477,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-enr-torre-argentina-roman-cat-sanctuary",
+      "city_id": "rome",
+      "neighborhood_id": "jewish-ghetto",
+      "name": {
+        "en": "Torre Argentina Roman Cat Sanctuary"
+      },
+      "description": {
+        "en": "A sunken square of ancient temple ruins, site of Caesar's assassination, now home to hundreds of rescued cats."
+      },
+      "type": "landmark",
+      "lat": 41.8956,
+      "lng": 12.4765,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-enr-the-mouth-of-truth-bocca-della-verita",
+      "city_id": "rome",
+      "neighborhood_id": "jewish-ghetto",
+      "name": {
+        "en": "The Mouth of Truth (Bocca della Verità)"
+      },
+      "description": {
+        "en": "An iconic marble visage, a short walk from the Ghetto, that is said to bite off the hands of liars."
+      },
+      "type": "landmark",
+      "lat": 41.888,
+      "lng": 12.4815,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-enr-portico-d-ottavia",
+      "city_id": "rome",
+      "neighborhood_id": "jewish-ghetto",
+      "name": {
+        "en": "Portico d'Ottavia"
+      },
+      "description": {
+        "en": "The majestic ancient gateway to the Ghetto, with its columns integrated into surrounding buildings."
+      },
+      "type": "landmark",
+      "lat": 41.893,
+      "lng": 12.4778,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-enr-the-aventine-keyhole",
+      "city_id": "rome",
+      "neighborhood_id": "aventine-hill",
+      "name": {
+        "en": "The Aventine Keyhole"
+      },
+      "description": {
+        "en": "A famous secret view through a keyhole that perfectly frames St. Peter's Basilica through a tunnel of hedges."
+      },
+      "type": "hidden_gem",
+      "lat": 41.8845,
+      "lng": 12.4788,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-enr-giardino-degli-aranci-the-orange-garden",
+      "city_id": "rome",
+      "neighborhood_id": "aventine-hill",
+      "name": {
+        "en": "Giardino degli Aranci (The Orange Garden)"
+      },
+      "description": {
+        "en": "A beautiful and serene public park offering one of the most stunning panoramic views of Rome, perfect for sunset."
+      },
+      "type": "viewpoint",
+      "lat": 41.8855,
+      "lng": 12.4795,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-enr-the-grand-chandelier-arch",
+      "city_id": "rome",
+      "neighborhood_id": "quartiere-coppede",
+      "name": {
+        "en": "The Grand Chandelier Arch"
+      },
+      "description": {
+        "en": "The dramatic entrance to the quarter, a massive, ornate wrought-iron chandelier that makes you feel like you're entering another world."
+      },
+      "type": "landmark",
+      "lat": 41.9175,
+      "lng": 12.5025,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-enr-piazza-mincio",
+      "city_id": "rome",
+      "neighborhood_id": "quartiere-coppede",
+      "name": {
+        "en": "Piazza Mincio"
+      },
+      "description": {
+        "en": "The heart of the district, centered around the delightful Fountain of the Frogs and surrounded by architectural creativity."
+      },
+      "type": "landmark",
+      "lat": 41.9186,
+      "lng": 12.5018,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-enr-panificio-passi",
+      "city_id": "rome",
+      "neighborhood_id": "testaccio",
+      "name": {
+        "en": "Panificio Passi"
+      },
+      "description": {
+        "en": "A popular local bakery in Testaccio that draws huge crowds, especially on Saturdays."
+      },
+      "type": "food",
+      "lat": 41.8778,
+      "lng": 12.4782,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-enr-perilli",
+      "city_id": "rome",
+      "neighborhood_id": "testaccio",
+      "name": {
+        "en": "Perilli"
+      },
+      "description": {
+        "en": "A traditional Roman restaurant in Testaccio, perfect for a meal with a large group of friends or family."
+      },
+      "type": "food",
+      "lat": 41.8791,
+      "lng": 12.4746,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-enr-la-torricella",
+      "city_id": "rome",
+      "neighborhood_id": "testaccio",
+      "name": {
+        "en": "La Torricella"
+      },
+      "description": {
+        "en": "A restaurant known for consistently serving some of the best seafood in the Testaccio neighborhood."
+      },
+      "type": "food",
+      "lat": 41.8785,
+      "lng": 12.4742,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-enr-fiordiluna",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "Fiordiluna"
+      },
+      "description": {
+        "en": "A gelateria in Trastevere that also sells a selection of homemade jams."
+      },
+      "type": "food",
+      "lat": 41.8885,
+      "lng": 12.4715,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-enr-pizzeria-l-elementare",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "Pizzeria L'Elementare"
+      },
+      "description": {
+        "en": "This pizzeria in Trastevere sets the benchmark for classic, crispy Roman-style pizza."
+      },
+      "type": "food",
+      "lat": 41.8863,
+      "lng": 12.4695,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-enr-orto-botanico-botanical-garden",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "Orto Botanico (Botanical Garden)"
+      },
+      "description": {
+        "en": "A cool and shady green space in Trastevere, perfect for a peaceful escape from the city bustle."
+      },
+      "type": "nature",
+      "lat": 41.8915,
+      "lng": 12.4645,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-enr-porta-portese-market",
+      "city_id": "rome",
+      "neighborhood_id": "trastevere",
+      "name": {
+        "en": "Porta Portese Market"
+      },
+      "description": {
+        "en": "An amazing and sprawling flea market held on Sundays on the edge of Trastevere, offering everything from vintage clothes to antiques."
+      },
+      "type": "shopping",
+      "lat": 41.8825,
+      "lng": 12.4725,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-enr-santa-maria-della-concezione-crypts",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Santa Maria della Concezione Crypts"
+      },
+      "description": {
+        "en": "A series of small chapels located beneath a church, decorated with the bones of over 4,000 Capuchin friars."
+      },
+      "type": "hidden_gem",
+      "lat": 41.9044,
+      "lng": 12.4885,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-enr-armando-al-pantheon",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Armando Al Pantheon"
+      },
+      "description": {
+        "en": "A legendary restaurant near the Pantheon that has been serving simple pastas and Roman classics for over 50 years."
+      },
+      "type": "food",
+      "lat": 41.8988,
+      "lng": 12.4768,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-enr-pasquino",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Pasquino"
+      },
+      "description": {
+        "en": "The most famous of Rome's 'talking statues,' an ancient sculpture that has served as a soapbox for political and social commentary for centuries."
+      },
+      "type": "landmark",
+      "lat": 41.8977,
+      "lng": 12.4722,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-enr-garum-biblioteca-e-museo-della-cucina",
+      "city_id": "rome",
+      "neighborhood_id": "centro-storico",
+      "name": {
+        "en": "Garum Biblioteca e Museo Della Cucina"
+      },
+      "description": {
+        "en": "A stunning food museum and library dedicated to the history of Italian cuisine."
+      },
+      "type": "culture",
+      "lat": 41.8968,
+      "lng": 12.4682,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-enr-saba-cafe-e-cucina",
+      "city_id": "rome",
+      "neighborhood_id": "jewish-ghetto",
+      "name": {
+        "en": "Saba Cafe e Cucina"
+      },
+      "description": {
+        "en": "A peaceful cafe with a garden, offering a break from the busy city with seasonal pastries and a full menu from antipasti to pasta."
+      },
+      "type": "food",
+      "lat": 41.8925,
+      "lng": 12.4765,
+      "trending_score": 76,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "testaccio-task-1",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Culinary Close-Up"
+      },
+      "prompt": {
+        "en": "Find a food stall or shop and take a detailed photo of a single ingredient that looks incredibly fresh."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-2",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Grit and Beauty"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between the neighborhood's gritty, industrial past and its vibrant, modern present."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-3",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "The Color of Food"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by the color of a classic Italian ingredient, like tomato red, basil green, or pasta yellow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-4",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Street Art Hunt"
+      },
+      "prompt": {
+        "en": "Find a piece of street art and take a selfie with it, mimicking the pose or emotion of the artwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-5",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Echoes of Amphorae"
+      },
+      "prompt": {
+        "en": "Photograph a curved shape or terracotta texture that reminds you of the ancient amphorae that form Monte Testaccio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-6",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Local Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of daily life in the neighborhood, like locals shopping at the market or chatting outside a cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-7",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Roman Feast"
+      },
+      "prompt": {
+        "en": "Arrange a snack or meal you've bought here and take a flat-lay photo of your authentic Roman feast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-8",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Butcher's Art"
+      },
+      "prompt": {
+        "en": "Find a salumeria or macelleria and photograph the artful display of cured meats or cheeses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-9",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Neighborhood Signage"
+      },
+      "prompt": {
+        "en": "Find a cool, old, or interesting sign for a local business and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-10",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "The Perfect Bite"
+      },
+      "prompt": {
+        "en": "Take a photo of your favorite street food from the neighborhood right before you take the first bite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-11",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the shadows cast by the market stalls or buildings to create a dramatic, high-contrast photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-12",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Modern Meets Ancient"
+      },
+      "prompt": {
+        "en": "Find a spot where a modern building or business is built directly into or against an ancient structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-13",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Worker's Hands"
+      },
+      "prompt": {
+        "en": "Respectfully capture a photo of a vendor's or chef's hands at work, showing their craft and skill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-14",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "A Toast to Rome"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink, using a distinctly Testaccio backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-15",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Unpretentious Details"
+      },
+      "prompt": {
+        "en": "Photograph a small detail that captures the unpretentious, authentic vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-1",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Ivy League"
+      },
+      "prompt": {
+        "en": "Find the most beautiful cascade of ivy on a wall and capture its texture and color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-2",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Cobblestone Perspective"
+      },
+      "prompt": {
+        "en": "Get low to the ground and take a photo that emphasizes the texture and pattern of the cobblestone streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-3",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Laundry Line Art"
+      },
+      "prompt": {
+        "en": "Find a laundry line strung between buildings and photograph it as a piece of everyday art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-4",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Peek through a doorway and capture the secret, quiet world of a hidden courtyard."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-5",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Ochre Palette"
+      },
+      "prompt": {
+        "en": "Take a photo that showcases the warm color palette of Trastevere's buildings: ochre, terracotta, and faded yellow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-6",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Bohemian Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a narrow alleyway that captures the bohemian, artistic spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-7",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Doorway to the Past"
+      },
+      "prompt": {
+        "en": "Find a beautiful, old wooden door and photograph it. Focus on the details like the handle, knocker, or weathered texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-8",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Day to Night"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the neighborhood's dual personality - either the quiet of the day or the buzz of the evening."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-9",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Reflections in the Glass"
+      },
+      "prompt": {
+        "en": "Use the window of a shop or trattoria to capture a reflection of the charming street scene behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-10",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "The Perfect Perch"
+      },
+      "prompt": {
+        "en": "Find a classic Roman scooter (Vespa) and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-11",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Fontanella Moment"
+      },
+      "prompt": {
+        "en": "Find one of Rome's small public drinking fountains (nasoni) and capture it in action."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-12",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Photograph a potted plant, window box, or small garden that adds a splash of green to the urban landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-13",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Alleyway Light"
+      },
+      "prompt": {
+        "en": "Capture the way sunlight filters down into a narrow alley, creating dramatic light and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-14",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Table for Two"
+      },
+      "prompt": {
+        "en": "Find an empty outdoor cafe table and photograph it in a way that feels inviting and tells a story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "trastevere-task-15",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Street Shrine"
+      },
+      "prompt": {
+        "en": "Look for a small religious shrine (madonnella) embedded in the wall of a building and capture this piece of local faith."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-1",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Artisan's Hands"
+      },
+      "prompt": {
+        "en": "Find an artisan workshop (leatherworker, bookbinder, etc.) and, with permission, photograph the tools of their trade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-2",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Renaissance Secret"
+      },
+      "prompt": {
+        "en": "Photograph an architectural detail—a carved face, a coat of arms, an unusual window—that feels like a hidden secret from the past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-3",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Illusion of Depth"
+      },
+      "prompt": {
+        "en": "Find a long, narrow street and take a photo that creates a strong sense of perspective and depth."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-4",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Courtyard Calm"
+      },
+      "prompt": {
+        "en": "Step away from a busy street into a quiet courtyard and capture the peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-5",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Barista in Motion"
+      },
+      "prompt": {
+        "en": "Capture the energy of a classic Italian coffee bar, focusing on the motion of the barista at work."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-6",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Pop Art Rome"
+      },
+      "prompt": {
+        "en": "Find a modern object or piece of art and photograph it with an ancient or Renaissance backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-7",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "The Perfect Pasta"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering close-up of a plate of pasta you're about to eat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-8",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Stand in a small piazza or at a street corner and take a photo looking straight up at the sky, framed by the surrounding buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-9",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Shabby Chic"
+      },
+      "prompt": {
+        "en": "Find a detail that is beautifully worn and aged, like peeling paint on a shutter or a weathered stone step."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-10",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "People Watching"
+      },
+      "prompt": {
+        "en": "Find a good spot for people-watching and discreetly capture a photo that tells a story about the people of Rome."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-11",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Fountain Details"
+      },
+      "prompt": {
+        "en": "Find a small, lesser-known fountain and take a close-up shot of the water or a sculptural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-12",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Cobblestone Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where the historic cobblestones and ancient walls are the main backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-13",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Layers of Time"
+      },
+      "prompt": {
+        "en": "Photograph a building where you can see different historical eras layered on top of each other."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-14",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Spritz O'Clock"
+      },
+      "prompt": {
+        "en": "Capture the vibrant orange or red of an Aperol or Campari Spritz during aperitivo hour."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "centro-storico-task-15",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Literary Rome"
+      },
+      "prompt": {
+        "en": "Find a bookshop or a quiet corner that looks like the perfect place to read a book."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-1",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Layers of History"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes an ancient Roman ruin in the same frame as a medieval or Renaissance building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-2",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Culinary Heritage"
+      },
+      "prompt": {
+        "en": "Photograph a dish or pastry that is unique to the Roman-Jewish culinary tradition (cucina ebraico-romanesca)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-3",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "The Regal Cat"
+      },
+      "prompt": {
+        "en": "Find one of the neighborhood's many cats and capture it looking majestic, preferably near some ancient ruins."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-4",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Atmospheric Lane"
+      },
+      "prompt": {
+        "en": "Capture the unique atmosphere of a narrow cobblestone lane, focusing on the light and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-5",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Ancient and Modern"
+      },
+      "prompt": {
+        "en": "Take a photo that juxtaposes an ancient column or archway with a modern element like a bicycle, a cafe table, or a person on their phone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-6",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "A Sweet Moment"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a treat from one of the local bakeries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-7",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Signs of Community"
+      },
+      "prompt": {
+        "en": "Photograph a detail that speaks to the vibrant community here, such as a sign in Hebrew or a local gathering spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-8",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Texture of Time"
+      },
+      "prompt": {
+        "en": "Find a wall or stone surface that shows centuries of wear and capture its texture in a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-9",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "The Survivor"
+      },
+      "prompt": {
+        "en": "Photograph a plant or tree growing out of an ancient wall, symbolizing resilience."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-10",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Through the Arch"
+      },
+      "prompt": {
+        "en": "Use an ancient archway to frame a view of a street or building beyond it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-11",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "The Liar's Pose"
+      },
+      "prompt": {
+        "en": "Take a photo of a friend (or a willing stranger) looking nervous or telling a tall tale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-12",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture how the warm, late-afternoon light illuminates the ancient stones of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-13",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "A Bite of History"
+      },
+      "prompt": {
+        "en": "Find a food that has ancient roots, like an artichoke or a fig, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-14",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Reflections of the Past"
+      },
+      "prompt": {
+        "en": "Use a puddle or a shop window to create a reflection of the historic surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-15",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Stolpersteine"
+      },
+      "prompt": {
+        "en": "Look down for the 'stumbling stones' (small brass plaques) in the cobblestones and respectfully photograph one, reflecting on its meaning."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-1",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Panoramic Peace"
+      },
+      "prompt": {
+        "en": "From a viewpoint, take a wide panoramic shot of the Rome skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-2",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Secret Garden Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet, leafy spot and take a selfie that captures the serene, garden-like atmosphere of the hill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-3",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "The Stone Pine Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the iconic silhouette of a Roman stone pine tree against the sky or the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-4",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "A Contemplative Moment"
+      },
+      "prompt": {
+        "en": "Photograph a bench, a path, or a view that looks like the perfect place for quiet contemplation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-5",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use leaves, branches, or flowers to frame a distant view of a Roman dome or landmark."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-6",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Elegant Details"
+      },
+      "prompt": {
+        "en": "Find and photograph an elegant architectural detail on one of the stately villas or ancient churches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-7",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the late afternoon, capture the warm, golden light filtering through the trees in one of the gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-8",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Picnic Paradise"
+      },
+      "prompt": {
+        "en": "If you've brought a picnic, take an artful photo of your spread with the view of Rome in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-9",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "The Sound of Silence"
+      },
+      "prompt": {
+        "en": "Take a photo that visually represents the peace and quiet of this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-10",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "A Secret Revealed"
+      },
+      "prompt": {
+        "en": "Capture the expression on someone's face the moment they look through the famous keyhole for the first time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-11",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Orange Hues"
+      },
+      "prompt": {
+        "en": "In the Orange Garden, take a photo that focuses on the color orange, whether it's the fruit, the sunset, or the warm stone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-12",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Photograph a winding path or staircase that invites exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-13",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "View from Above"
+      },
+      "prompt": {
+        "en": "Take a photo looking down from the hill, capturing the rooftops and streets below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-14",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "Shadow Patterns"
+      },
+      "prompt": {
+        "en": "Find interesting patterns created by the shadows of leaves or gates on the ground or a wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "aventine-hill-task-15",
+      "neighborhood_id": "aventine-hill",
+      "title": {
+        "en": "A World Away"
+      },
+      "prompt": {
+        "en": "Take a photo that shows how this neighborhood feels like a peaceful escape, completely separate from the bustling city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-1",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Architectural Mash-Up"
+      },
+      "prompt": {
+        "en": "Find two completely different architectural styles (like Gothic and Art Nouveau) on the same building and capture them in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-2",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Fairy Tale Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the most whimsical, fairy-tale-like building you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-3",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Symmetry Shot"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a street or piazza and take a perfectly symmetrical photo of a building facade or archway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-4",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Fantastical Creatures"
+      },
+      "prompt": {
+        "en": "Look closely at the buildings for carved animals, faces, or mythical creatures and take a close-up photo of one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-5",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "The Frog Prince"
+      },
+      "prompt": {
+        "en": "At the Fountain of the Frogs, take a creative photo focusing on one of the frog sculptures."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-6",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Wrought-Iron Art"
+      },
+      "prompt": {
+        "en": "Find an ornate piece of wrought-iron, like a gate, a lamp, or the grand chandelier, and photograph its intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-7",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Through the Arch"
+      },
+      "prompt": {
+        "en": "Use the grand entrance arch to frame a view of the fantastical neighborhood within."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-8",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Unexpected Detail"
+      },
+      "prompt": {
+        "en": "Find a small, bizarre, or beautiful detail that you think most people would miss and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-9",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Tower Power"
+      },
+      "prompt": {
+        "en": "Photograph one of the neighborhood's many turrets or towers from a low angle to make it look even more dramatic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-10",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Color and Texture"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the rich combination of colors and textures used on a single building facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-11",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Dream-Like Reflection"
+      },
+      "prompt": {
+        "en": "Use a car window or a puddle to capture a distorted, dream-like reflection of the surreal architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-12",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Asymmetrical Beauty"
+      },
+      "prompt": {
+        "en": "Photograph the Villino delle Fate in a way that highlights its wild and beautiful asymmetry."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-13",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Portal to Another World"
+      },
+      "prompt": {
+        "en": "Find a doorway or gate that looks like it could be a portal to a magical world and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-14",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Shadows of Fantasy"
+      },
+      "prompt": {
+        "en": "Capture the strange and interesting shadows cast by the ornate buildings in the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "quartiere-coppede-task-15",
+      "neighborhood_id": "quartiere-coppede",
+      "title": {
+        "en": "Look Up, Way Up"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at a building, emphasizing its height and the bizarre details near the roofline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T08:13:02.512471+00:00"
+    },
+    {
+      "id": "testaccio-task-1",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Testaccio Taste Test"
+      },
+      "prompt": {
+        "en": "Find a local deli or market stall and capture a photo of their most impressive cured meat or cheese display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-2",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Street Art Scholar"
+      },
+      "prompt": {
+        "en": "Testaccio is full of modern street art. Find a mural that speaks to you and strike a pose with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-3",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Echoes of Amphorae"
+      },
+      "prompt": {
+        "en": "Take a creative photo that represents Monte Testaccio, the ancient hill made of discarded pottery shards."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-4",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Butcher's Legacy"
+      },
+      "prompt": {
+        "en": "Capture a sign or menu featuring 'quinto quarto' (offal), a cornerstone of Testaccio's traditional cuisine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-5",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Market Hustle"
+      },
+      "prompt": {
+        "en": "Photograph the vibrant colors and energy of a fruit and vegetable stall inside the Testaccio Market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-6",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "The Perfect Pyramid"
+      },
+      "prompt": {
+        "en": "Find a unique angle to photograph the Pyramid of Cestius, which borders the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-7",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Architectural Angles"
+      },
+      "prompt": {
+        "en": "Capture the interesting lines and rationalist architecture of the buildings around Piazza Testaccio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-8",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Aperitivo Hour"
+      },
+      "prompt": {
+        "en": "Take a picture of your afternoon drink, whether it's a spritz, a coffee, or just a glass of water, at an outdoor table."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-9",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Neighborhood Fountain"
+      },
+      "prompt": {
+        "en": "Find the Fontana delle Anfore in Piazza Testaccio and take a photo that includes the surrounding local life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-10",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Local Life Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet residential street that shows the authentic, non-touristy side of Testaccio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-11",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Scooter Scene"
+      },
+      "prompt": {
+        "en": "Find a classic Italian scooter parked on a Testaccio street and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-12",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Slaughterhouse Story"
+      },
+      "prompt": {
+        "en": "Take a photo of the former slaughterhouse (Mattatoio), now a cultural center, focusing on its industrial architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-13",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Pasta Portrait"
+      },
+      "prompt": {
+        "en": "Get a plate of classic Roman pasta and take a delicious-looking photo before you dig in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-14",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Testaccio Typography"
+      },
+      "prompt": {
+        "en": "Find an old, interesting sign on a shop or trattoria and take a close-up shot of the lettering."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-15",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting patterns made by shadows on the streets and buildings during golden hour."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-16",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Doorway to the Past"
+      },
+      "prompt": {
+        "en": "Find a beautiful, old wooden door and take a photo that makes you wonder what's behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-17",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "The Local's View"
+      },
+      "prompt": {
+        "en": "Take a photo that you think a resident of Testaccio would see every day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "testaccio-task-18",
+      "neighborhood_id": "testaccio",
+      "title": {
+        "en": "Green Corner"
+      },
+      "prompt": {
+        "en": "Find a balcony or window box overflowing with plants and flowers and capture its charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-1",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Ivy League"
+      },
+      "prompt": {
+        "en": "Find the most picturesque ivy-covered wall and take a photo. Bonus points for a colorful door."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-2",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Piazza People-Watcher"
+      },
+      "prompt": {
+        "en": "Settle into a piazza and take a candid shot that captures the lively, bohemian atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-3",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Cobblestone Chronicles"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot focusing on the iconic 'sanpietrini' cobblestones that pave the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-4",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Peek through an open doorway and snap a picture of a secret, plant-filled courtyard."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-5",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Trattoria Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm, inviting light spilling out of a traditional trattoria."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-6",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Street Musician Serenade"
+      },
+      "prompt": {
+        "en": "Find a street performer and take a photo that captures the sound and soul of their music."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-7",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Laundry Day"
+      },
+      "prompt": {
+        "en": "Photograph a classic Roman scene: laundry hanging from a window, fluttering in the breeze above a narrow alley."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-8",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Fontana Pose"
+      },
+      "prompt": {
+        "en": "Find a small, charming fountain (not a grand Bernini one!) and strike a thoughtful pose next to it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-9",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Ochre Hues"
+      },
+      "prompt": {
+        "en": "Capture the beautiful, warm colors of Trastevere's buildings—the ochres, terracottas, and faded pinks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-10",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Artsy Selfie"
+      },
+      "prompt": {
+        "en": "Find a small art gallery or artisan's workshop and take a selfie with a piece of art in the window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-11",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Steps to Somewhere"
+      },
+      "prompt": {
+        "en": "Trastevere is full of staircases and steps. Find an interesting set and take a creative photo looking up or down."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-12",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Gelato Moment"
+      },
+      "prompt": {
+        "en": "Get a scoop of gelato and take a picture of it with a classic Trastevere backdrop before it melts!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-13",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Vespa View"
+      },
+      "prompt": {
+        "en": "Find a vintage Vespa or Fiat 500 parked in a picturesque spot and capture the quintessential Italian vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-14",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Medieval Tower"
+      },
+      "prompt": {
+        "en": "Look up! Find one of the old medieval towers integrated into the buildings and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-15",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Reflections in the Cobbles"
+      },
+      "prompt": {
+        "en": "After a brief rain shower (or with a water bottle!), capture the reflection of the colorful buildings in a puddle on the cobblestones."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-16",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "A Quiet Read"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or step and take a photo that looks like the perfect spot to read a book."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-17",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Church Facade Detail"
+      },
+      "prompt": {
+        "en": "Focus on a small, interesting detail of a church facade, like a carving or a mosaic, instead of the whole building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "trastevere-task-18",
+      "neighborhood_id": "trastevere",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture the magical light of late afternoon as it filters through the narrow streets of Trastevere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-1",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Fountain Finder"
+      },
+      "prompt": {
+        "en": "Rome's historic center is filled with fountains. Find one that isn't the Trevi and capture its unique details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-2",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Ancient Meets Modern"
+      },
+      "prompt": {
+        "en": "Take a photo showing an ancient ruin or column right next to a modern shop, cafe, or bus stop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-3",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Baroque Beauty"
+      },
+      "prompt": {
+        "en": "Find a church facade with dramatic Baroque curves and statues and capture its grandeur from a low angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-4",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Piazza Panorama"
+      },
+      "prompt": {
+        "en": "Take a wide shot of a famous piazza, like Navona or Campo de' Fiori, trying to capture its entire scale and energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-5",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Secret Alleyway"
+      },
+      "prompt": {
+        "en": "Step off the main street and take a picture down a narrow, quiet alley. What hidden stories does it hold?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-6",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Obelisk Perspective"
+      },
+      "prompt": {
+        "en": "Find one of the many ancient obelisks in the Centro Storico and take a photo looking straight up from its base."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-7",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Espresso Shot"
+      },
+      "prompt": {
+        "en": "Order an espresso at a historic 'bar' and take a classic photo of the small cup on the counter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-8",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find a high-fashion boutique or an old artisan shop and take a photo of its creative window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-9",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "The Color of Rome"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by the characteristic terracotta or ochre color of Roman buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-10",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Statue Selfie"
+      },
+      "prompt": {
+        "en": "Find a lesser-known statue in a piazza and take a selfie mimicking its pose or expression."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-11",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Roman Door Knocker"
+      },
+      "prompt": {
+        "en": "Look for an ornate, old, or unusual door knocker on one of the grand 'palazzi' and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-12",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Reflecting on History"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a famous monument or beautiful building in a puddle, a shop window, or someone's sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-13",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Street Sign Style"
+      },
+      "prompt": {
+        "en": "Find a classic marble street sign carved into the corner of a building and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-14",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "The Nasoni"
+      },
+      "prompt": {
+        "en": "Find one of Rome's public drinking fountains, known as 'nasoni' (big noses), and take a photo while getting a drink."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-15",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Ceiling Surprise"
+      },
+      "prompt": {
+        "en": "Step inside an open church and take a picture looking straight up at the ornate, painted, or coffered ceiling."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-16",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Market Bounty"
+      },
+      "prompt": {
+        "en": "Visit a market like Campo de' Fiori and capture the vibrant colors of the fresh produce or flowers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-17",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Shadows on Cobblestones"
+      },
+      "prompt": {
+        "en": "Find a moment where the sun creates long, interesting shadows across a cobblestone street or piazza."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "centro-storico-task-18",
+      "neighborhood_id": "centro-storico",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Take a photo of people interacting with the historic environment—sitting on ancient steps, leaning against a centuries-old wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-1",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Layers of History"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the layers of time in the Ghetto, like ancient Roman ruins beneath a Renaissance building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-2",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Culinary Traditions"
+      },
+      "prompt": {
+        "en": "Find a bakery or restaurant window displaying 'carciofi alla giudia' (Jewish-style artichokes) or other traditional sweets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-3",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "The Ghetto has bustling main streets and quiet side alleys. Find a peaceful corner and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-4",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Portico d'Ottavia Perspective"
+      },
+      "prompt": {
+        "en": "Take a creative shot looking through the arches of the Portico of Octavia."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-5",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Turtle Fountain Fun"
+      },
+      "prompt": {
+        "en": "Take a photo of the charming Fontana delle Tartarughe (Turtle Fountain) in Piazza Mattei."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-6",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Stumbling Stones"
+      },
+      "prompt": {
+        "en": "Look down for the 'stolpersteine,' small brass plaques in the cobblestones memorializing victims of the Holocaust. Photograph one respectfully."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-7",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Synagogue Splendor"
+      },
+      "prompt": {
+        "en": "Capture the unique square dome of the Great Synagogue of Rome from across the river or a nearby street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-8",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "A Bite of History"
+      },
+      "prompt": {
+        "en": "Photograph a piece of 'pizza ebraica' (Jewish pizza), a sweet, dense cake with nuts and candied fruit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-9",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Teatro di Marcello View"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see the ancient arches of the Theatre of Marcellus, which looks like a mini-Colosseum."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-10",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Street Scene Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the main street, Via del Portico d'Ottavia, with the lively restaurant scene in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-11",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a place where you can see the contrast between the ancient Roman, medieval, and Renaissance architecture all in one frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-12",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph a detail that shows this is a living neighborhood, not just a historical site—a bicycle, a potted plant, a cat in a window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-13",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Kosher Shopfront"
+      },
+      "prompt": {
+        "en": "Take a photo of the storefront of a kosher butcher or bakery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-14",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Passageway Perspective"
+      },
+      "prompt": {
+        "en": "Find one of the narrow, covered passageways and take a photo looking through it towards the light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-15",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Shadow and Light"
+      },
+      "prompt": {
+        "en": "Capture the dramatic play of shadow and light in the narrow streets of the Ghetto."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-16",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "Faded Colors"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the textures and faded colors of the old building facades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-17",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "The Tiber's Edge"
+      },
+      "prompt": {
+        "en": "Walk to the edge of the neighborhood and take a photo looking across the Tiber River towards Tiber Island."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    },
+    {
+      "id": "jewish-ghetto-task-18",
+      "neighborhood_id": "jewish-ghetto",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a bench or a quiet spot and take a photo that conveys a sense of peace amidst the history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:45:08.876348+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

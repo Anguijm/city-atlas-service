@@ -4,16 +4,16 @@
       "id": "vieille-ville",
       "city_id": "geneva",
       "name": {
-        "en": "Vieille Ville"
+        "en": "Vieille Ville (The Old Town)"
       },
       "summary": {
-        "en": "A beautifully preserved labyrinth of cobblestone streets, hidden courtyards, and antique fountains, this is Geneva at its most atmospheric and historic."
+        "en": "A transportive labyrinth of cobblestone streets, hidden courtyards, and antique shops, where centuries of history feel alive."
       },
-      "lat": 46.2015,
-      "lng": 6.1481,
+      "lat": 46.2018,
+      "lng": 6.148,
       "trending_score": 95,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "plainpalais",
@@ -22,13 +22,13 @@
         "en": "Plainpalais"
       },
       "summary": {
-        "en": "Youthful, eclectic, and unapologetically alternative, this university-adjacent neighborhood is Geneva’s hub for counter-culture and literary ghosts."
+        "en": "The city's sprawling, bohemian heart, defined by its massive central square that hosts a famous flea market and buzzes with a raw, creative energy."
       },
       "lat": 46.1975,
-      "lng": 6.1425,
+      "lng": 6.1418,
       "trending_score": 90,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives",
@@ -37,28 +37,43 @@
         "en": "Eaux-Vives"
       },
       "summary": {
-        "en": "A chic and airy neighborhood that perfectly balances urban creativity with the tranquility of the nearby lake, ideal for design lovers and brunch enthusiasts."
+        "en": "A fashionable and lively neighborhood bordering the lake, blending grand architecture with trendy boutiques and a relaxed, sun-drenched atmosphere."
       },
-      "lat": 46.2048,
-      "lng": 6.1583,
-      "trending_score": 85,
+      "lat": 46.2055,
+      "lng": 6.1585,
+      "trending_score": 88,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin",
+      "id": "quartier-des-bains",
       "city_id": "geneva",
       "name": {
-        "en": "Pâquis & Cornavin"
+        "en": "Quartier des Bains"
       },
       "summary": {
-        "en": "Diverse, energetic, and a little rough around the edges, this is Geneva’s most multicultural neighborhood, a vibrant collision of languages and cuisines."
+        "en": "Geneva's contemporary art nucleus, a compact grid of streets with a post-industrial, gallery-chic feel."
       },
-      "lat": 46.2101,
-      "lng": 6.1453,
-      "trending_score": 80,
+      "lat": 46.1993,
+      "lng": 6.1382,
+      "trending_score": 85,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes",
+      "city_id": "geneva",
+      "name": {
+        "en": "Pâquis & Les Grottes"
+      },
+      "summary": {
+        "en": "A bustling, multicultural hub known for authentic international restaurants, joined with a quirky, village-like area famous for its whimsical architecture."
+      },
+      "lat": 46.2108,
+      "lng": 6.1445,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction",
@@ -67,31 +82,33 @@
         "en": "La Jonction"
       },
       "summary": {
-        "en": "A place of pilgrimage to witness a stunning natural phenomenon: the dramatic meeting of the Rhône and Arve rivers. The vibe is raw, industrial, and elemental."
+        "en": "An edgy, post-industrial neighborhood defined by the stunning natural confluence of the Rhône and Arve rivers."
       },
       "lat": 46.1982,
-      "lng": 6.1295,
-      "trending_score": 88,
+      "lng": 6.1321,
+      "trending_score": 78,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "nations-architectural-icons",
-      "city_id": "geneva",
-      "name": {
-        "en": "Nations & Architectural Icons"
-      },
-      "summary": {
-        "en": "A thematic tour of monumental, diplomatic, and architecturally ambitious landmarks that define Geneva's global identity and 20th-century ideals."
-      },
-      "lat": 46.2267,
-      "lng": 6.1381,
-      "trending_score": 92,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     }
   ],
   "waypoints": [
+    {
+      "id": "vieille-ville-enr-le-frigo",
+      "city_id": "geneva",
+      "neighborhood_id": "vieille-ville",
+      "name": {
+        "en": "Le Frigo"
+      },
+      "description": {
+        "en": "A true speakeasy hidden behind a refrigerator door in an unassuming restaurant, perfect for a clandestine cocktail."
+      },
+      "type": "nightlife",
+      "lat": 46.2015,
+      "lng": 6.1483,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
     {
       "id": "vieille-ville-enr-martel-tearoom",
       "city_id": "geneva",
@@ -100,31 +117,14 @@
         "en": "Martel tearoom"
       },
       "description": {
-        "en": "A Genevan institution since 1818, famous for classic pastries and rich homemade hot chocolate. A perfect cozy refuge."
+        "en": "A Geneva institution since 1818, this is where locals go for classic hot chocolate, exquisite pastries, or a light lunch."
       },
-      "type": "drink",
-      "lat": 46.2026,
-      "lng": 6.1488,
-      "trending_score": 85,
+      "type": "food",
+      "lat": 46.2028,
+      "lng": 6.1495,
+      "trending_score": 88,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "vieille-ville-enr-tschin-ta-ni-teas",
-      "city_id": "geneva",
-      "neighborhood_id": "vieille-ville",
-      "name": {
-        "en": "Tschin-Ta-Ni teas"
-      },
-      "description": {
-        "en": "An essential specialty shop for tea lovers, offering expert guidance through a vast selection of loose-leaf teas and Chinese ceramics."
-      },
-      "type": "shopping",
-      "lat": 46.2041,
-      "lng": 6.1465,
-      "trending_score": 70,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "vieille-ville-enr-treille-promenade",
@@ -134,150 +134,48 @@
         "en": "Treille Promenade"
       },
       "description": {
-        "en": "A charming spot home to what is claimed to be the world's longest wooden bench, offering a lovely view over the Parc des Bastions."
+        "en": "A peaceful spot home to what is claimed to be the world's longest wooden bench, offering a lovely view over the Parc des Bastions."
       },
       "type": "landmark",
-      "lat": 46.2006,
-      "lng": 6.1461,
-      "trending_score": 90,
+      "lat": 46.2005,
+      "lng": 6.1465,
+      "trending_score": 85,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "vieille-ville-enr-secret-passages-traboules",
+      "id": "vieille-ville-enr-tschin-ta-ni-teas",
       "city_id": "geneva",
       "neighborhood_id": "vieille-ville",
       "name": {
-        "en": "Secret Passages (Traboules)"
+        "en": "Tschin-Ta-Ni teas"
       },
       "description": {
-        "en": "Semi-hidden passages, like the Passage de Monetier, that connect streets and courtyards, offering shortcuts and a tangible link to the past."
-      },
-      "type": "hidden_gem",
-      "lat": 46.2011,
-      "lng": 6.1478,
-      "trending_score": 95,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "vieille-ville-enr-st-pierre-cathedral-towers",
-      "city_id": "geneva",
-      "neighborhood_id": "vieille-ville",
-      "name": {
-        "en": "St. Pierre Cathedral Towers"
-      },
-      "description": {
-        "en": "The real prize of the cathedral is the 157-step climb up the towers for a breathtaking panoramic view of the city, lake, and Jet d'Eau."
-      },
-      "type": "viewpoint",
-      "lat": 46.201,
-      "lng": 6.1483,
-      "trending_score": 98,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "plainpalais-enr-oh-martine",
-      "city_id": "geneva",
-      "neighborhood_id": "plainpalais",
-      "name": {
-        "en": "Oh Martine!"
-      },
-      "description": {
-        "en": "A bright and friendly spot famous for its delicious tartines (open-faced sandwiches) and rumored to have the best cannelés in the city."
-      },
-      "type": "food",
-      "lat": 46.1998,
-      "lng": 6.1531,
-      "trending_score": 80,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "plainpalais-enr-pinsa",
-      "city_id": "geneva",
-      "neighborhood_id": "plainpalais",
-      "name": {
-        "en": "Pinsa!"
-      },
-      "description": {
-        "en": "A modern comfort food spot serving 'pinsa,' a Roman-style flatbread that's crispier and airier than pizza, with creative, creamy toppings."
-      },
-      "type": "food",
-      "lat": 46.1985,
-      "lng": 6.1432,
-      "trending_score": 78,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "plainpalais-enr-restaurant-medusa",
-      "city_id": "geneva",
-      "neighborhood_id": "plainpalais",
-      "name": {
-        "en": "Restaurant Medusa"
-      },
-      "description": {
-        "en": "A laid-back Mediterranean restaurant with a relaxed vibe, perfect for sharing Greek-inspired food with a group."
-      },
-      "type": "food",
-      "lat": 46.2012,
-      "lng": 6.1545,
-      "trending_score": 75,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "plainpalais-enr-statue-of-frankenstein-s-monster",
-      "city_id": "geneva",
-      "neighborhood_id": "plainpalais",
-      "name": {
-        "en": "Statue of Frankenstein's Monster"
-      },
-      "description": {
-        "en": "Tucked away in Parc des Bastions, this subtle, life-sized statue is a wonderfully moody tribute to the monster 'born' in Geneva."
-      },
-      "type": "hidden_gem",
-      "lat": 46.1995,
-      "lng": 6.1455,
-      "trending_score": 92,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "plainpalais-enr-gravestone-of-jorge-luis-borges",
-      "city_id": "geneva",
-      "neighborhood_id": "plainpalais",
-      "name": {
-        "en": "Gravestone of Jorge Luis Borges"
-      },
-      "description": {
-        "en": "A pilgrimage site for literature lovers, this rough-hewn headstone is covered in carvings that reflect the writer's literary obsessions."
-      },
-      "type": "culture",
-      "lat": 46.196,
-      "lng": 6.1408,
-      "trending_score": 88,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "plainpalais-enr-plaine-de-plainpalais-flea-market",
-      "city_id": "geneva",
-      "neighborhood_id": "plainpalais",
-      "name": {
-        "en": "Plaine de Plainpalais Flea Market"
-      },
-      "description": {
-        "en": "On Wednesdays and Saturdays, this plaza transforms into a sprawling market of antiques, vintage clothes, and forgotten treasures."
+        "en": "A serene and specialist shop for tea lovers, with walls lined with rare loose-leaf teas and beautiful Chinese ceramics."
       },
       "type": "shopping",
-      "lat": 46.1978,
-      "lng": 6.1418,
-      "trending_score": 95,
+      "lat": 46.2038,
+      "lng": 6.1455,
+      "trending_score": 75,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-enr-passage-de-monetier",
+      "city_id": "geneva",
+      "neighborhood_id": "vieille-ville",
+      "name": {
+        "en": "Passage de Monetier"
+      },
+      "description": {
+        "en": "One of several semi-secret covered passages that riddle the Old Town, making you feel like you've uncovered a piece of the city's medieval past."
+      },
+      "type": "hidden_gem",
+      "lat": 46.201,
+      "lng": 6.1478,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "plainpalais-enr-les-petites-artisanes",
@@ -287,14 +185,116 @@
         "en": "Les Petites Artisanes"
       },
       "description": {
-        "en": "A cozy, laptop-free spot serving excellent coffee and heavenly 'cruffins' (a croissant-muffin hybrid)."
+        "en": "A cozy, laptop-free coffee spot famous for its heavenly 'cruffins' (a croissant-muffin hybrid)."
+      },
+      "type": "drink",
+      "lat": 46.1965,
+      "lng": 6.1442,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-enr-oh-martine",
+      "city_id": "geneva",
+      "neighborhood_id": "plainpalais",
+      "name": {
+        "en": "Oh Martine!"
+      },
+      "description": {
+        "en": "A bright and friendly spot known for its delicious tartines (open-faced sandwiches) and what some locals whisper are the best cannelés in Geneva."
       },
       "type": "food",
-      "lat": 46.1965,
-      "lng": 6.1385,
+      "lat": 46.1995,
+      "lng": 6.1415,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-enr-celine-et-sebastien",
+      "city_id": "geneva",
+      "neighborhood_id": "plainpalais",
+      "name": {
+        "en": "Céline et Sébastien"
+      },
+      "description": {
+        "en": "A dreamland for pastry lovers, this patisserie offers beautiful and delicious treats that keep locals coming back."
+      },
+      "type": "food",
+      "lat": 46.1958,
+      "lng": 6.1448,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-enr-pinsa",
+      "city_id": "geneva",
+      "neighborhood_id": "plainpalais",
+      "name": {
+        "en": "Pinsa!"
+      },
+      "description": {
+        "en": "Serving crispy, fluffy, and airy 'pinsa'—a Roman-style flatbread that's a lighter cousin of pizza."
+      },
+      "type": "food",
+      "lat": 46.1988,
+      "lng": 6.1395,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-enr-gravestone-of-jorge-luis-borges",
+      "city_id": "geneva",
+      "neighborhood_id": "plainpalais",
+      "name": {
+        "en": "Gravestone of Jorge Luis Borges"
+      },
+      "description": {
+        "en": "A literary pilgrimage site in the 'Cemetery of Kings,' with a stone carved with enigmatic Anglo-Saxon and Old Norse imagery."
+      },
+      "type": "culture",
+      "lat": 46.198,
+      "lng": 6.142,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-enr-statue-of-frankenstein-s-monster",
+      "city_id": "geneva",
+      "neighborhood_id": "plainpalais",
+      "name": {
+        "en": "Statue of Frankenstein's Monster"
+      },
+      "description": {
+        "en": "Tucked away near the Reformation Wall, this statue depicts the monster in a contemplative stroll, a nod to Mary Shelley writing the novel in Geneva."
+      },
+      "type": "landmark",
+      "lat": 46.2,
+      "lng": 6.145,
       "trending_score": 82,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-enr-plainpalais-flea-market",
+      "city_id": "geneva",
+      "neighborhood_id": "plainpalais",
+      "name": {
+        "en": "Plainpalais Flea Market"
+      },
+      "description": {
+        "en": "A massive market where you can find everything from antique furniture to vintage clothes, but the real treasure is the people-watching."
+      },
+      "type": "shopping",
+      "lat": 46.1975,
+      "lng": 6.141,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-enr-la-paire",
@@ -304,14 +304,14 @@
         "en": "La Paire"
       },
       "description": {
-        "en": "A brilliant concept store that is part vintage shop, part cozy café. Sip coffee while browsing upcycled clothing, vinyl, and homewares."
+        "en": "A unique concept store and café where you can sip coffee while browsing upcycled clothing, vintage homewares, and vinyl records."
       },
       "type": "shopping",
-      "lat": 46.2031,
-      "lng": 6.1568,
+      "lat": 46.2045,
+      "lng": 6.1575,
       "trending_score": 88,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-enr-noon-cafe-ceramique",
@@ -321,31 +321,31 @@
         "en": "Noon Café Céramique"
       },
       "description": {
-        "en": "A bright, minimalist space where you can spend a screen-free afternoon painting your own ceramics."
+        "en": "A bright, airy studio-café where you can spend a screen-free afternoon painting your own ceramics for a memorable souvenir."
       },
       "type": "culture",
-      "lat": 46.2039,
-      "lng": 6.1575,
-      "trending_score": 80,
+      "lat": 46.2048,
+      "lng": 6.158,
+      "trending_score": 84,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "eaux-vives-enr-immeuble-clarte",
+      "id": "eaux-vives-enr-restaurant-medusa",
       "city_id": "geneva",
       "neighborhood_id": "eaux-vives",
       "name": {
-        "en": "Immeuble Clarté"
+        "en": "Restaurant Medusa"
       },
       "description": {
-        "en": "A UNESCO World Heritage site by architect Le Corbusier, this 'House of Glass' is a masterpiece of Modernist architecture."
+        "en": "A stylish spot serving modern Greek and Mediterranean food with a twist, with vibrant dishes perfect for sharing."
       },
-      "type": "landmark",
-      "lat": 46.2008,
-      "lng": 6.1591,
-      "trending_score": 94,
+      "type": "food",
+      "lat": 46.2062,
+      "lng": 6.1565,
+      "trending_score": 86,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-enr-parc-la-grange",
@@ -355,82 +355,201 @@
         "en": "Parc La Grange"
       },
       "description": {
-        "en": "Locals cherish this park for its magnificent rose garden and quiet, tree-lined paths that offer a peaceful escape."
+        "en": "A magnificent public park with sloping lawns, ancient trees, and a stunning 18th-century villa. Its historic rose garden is a beautiful sight in summer."
       },
       "type": "nature",
-      "lat": 46.2065,
-      "lng": 6.1612,
+      "lat": 46.207,
+      "lng": 6.16,
       "trending_score": 90,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-enr-luma-cafe-more",
+      "id": "eaux-vives-enr-jet-d-eau-viewpoint",
       "city_id": "geneva",
-      "neighborhood_id": "paquis-cornavin",
+      "neighborhood_id": "eaux-vives",
+      "name": {
+        "en": "Jet d'Eau Viewpoint"
+      },
+      "description": {
+        "en": "The best local-style view of the famous fountain is from this side of the lake at sunset, away from the main crowds."
+      },
+      "type": "viewpoint",
+      "lat": 46.208,
+      "lng": 6.157,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "eaux-vives-enr-immeuble-clarte",
+      "city_id": "geneva",
+      "neighborhood_id": "eaux-vives",
+      "name": {
+        "en": "Immeuble Clarté"
+      },
+      "description": {
+        "en": "A pioneering modernist apartment building designed by Le Corbusier, a must-see for architecture buffs."
+      },
+      "type": "landmark",
+      "lat": 46.2025,
+      "lng": 6.1595,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-enr-mamco",
+      "city_id": "geneva",
+      "neighborhood_id": "quartier-des-bains",
+      "name": {
+        "en": "MAMCO"
+      },
+      "description": {
+        "en": "Geneva's premier contemporary art museum, housed in a former factory with constantly changing, provocative exhibitions."
+      },
+      "type": "culture",
+      "lat": 46.1992,
+      "lng": 6.1385,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-enr-centre-d-art-contemporain-geneve",
+      "city_id": "geneva",
+      "neighborhood_id": "quartier-des-bains",
+      "name": {
+        "en": "Centre d'Art Contemporain Genève"
+      },
+      "description": {
+        "en": "A key institution offering a dynamic program of exhibitions, screenings, and performances that push the boundaries of contemporary art."
+      },
+      "type": "culture",
+      "lat": 46.1998,
+      "lng": 6.139,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-enr-gallery-hopping-on-rue-des-bains",
+      "city_id": "geneva",
+      "neighborhood_id": "quartier-des-bains",
+      "name": {
+        "en": "Gallery Hopping on Rue des Bains"
+      },
+      "description": {
+        "en": "Wander in and out of several high-caliber galleries showcasing Swiss and international artists on the district's main artery."
+      },
+      "type": "culture",
+      "lat": 46.1995,
+      "lng": 6.138,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-enr-luma-cafe-more",
+      "city_id": "geneva",
+      "neighborhood_id": "paquis-les-grottes",
       "name": {
         "en": "Luma café & more"
       },
       "description": {
-        "en": "A warm and welcoming cafe-studio near the station with large windows, perfect for watching the city go by."
+        "en": "A warm and welcoming cafe-studio near the station with big windows perfect for people-watching on a rainy day."
       },
       "type": "drink",
       "lat": 46.2095,
-      "lng": 6.1462,
-      "trending_score": 75,
+      "lng": 6.1475,
+      "trending_score": 80,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-enr-le-frigo",
+      "id": "paquis-les-grottes-enr-nagomi",
       "city_id": "geneva",
-      "neighborhood_id": "paquis-cornavin",
+      "neighborhood_id": "paquis-les-grottes",
       "name": {
-        "en": "Le Frigo"
+        "en": "Nagomi"
       },
       "description": {
-        "en": "A true hidden gem; enter this tiny, intimate speakeasy-style bar by walking through a refrigerator door in a neighboring restaurant."
+        "en": "Considered by many locals to be the best ramen in Geneva, with a broth that has incredible depth. Be prepared to wait in line."
       },
-      "type": "nightlife",
+      "type": "food",
       "lat": 46.2115,
-      "lng": 6.1478,
-      "trending_score": 96,
+      "lng": 6.148,
+      "trending_score": 94,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-enr-spoon-food-hall",
+      "id": "paquis-les-grottes-enr-yukiguni",
       "city_id": "geneva",
-      "neighborhood_id": "paquis-cornavin",
+      "neighborhood_id": "paquis-les-grottes",
+      "name": {
+        "en": "Yukiguni"
+      },
+      "description": {
+        "en": "Geneva's oldest ramen shop, offering a wider, more experimental menu including tsukemen (dipping noodles) and curry ramen."
+      },
+      "type": "food",
+      "lat": 46.2105,
+      "lng": 6.1465,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-enr-spoon-food-hall",
+      "city_id": "geneva",
+      "neighborhood_id": "paquis-les-grottes",
       "name": {
         "en": "Spoon Food Hall"
       },
       "description": {
-        "en": "A modern food hall gathering several vendors under one roof, offering a variety of global dishes in a lively, communal setting."
+        "en": "A modern food hall for when you can't decide what to eat, offering a variety of global dishes in one lively space."
       },
       "type": "food",
-      "lat": 46.2145,
-      "lng": 6.1485,
-      "trending_score": 85,
+      "lat": 46.214,
+      "lng": 6.142,
+      "trending_score": 82,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-enr-the-bains-des-paquis",
+      "id": "paquis-les-grottes-enr-les-schtroumpfs-the-smurf-buildings",
       "city_id": "geneva",
-      "neighborhood_id": "paquis-cornavin",
+      "neighborhood_id": "paquis-les-grottes",
       "name": {
-        "en": "The Bains des Pâquis"
+        "en": "Les Schtroumpfs (The Smurf Buildings)"
       },
       "description": {
-        "en": "A local institution, this public bathhouse on a pier is the social heart of Geneva for swimming in summer and saunas in winter."
+        "en": "A unique housing complex with colorful, undulating facades, no straight lines, and imaginative architecture—a true hidden gem."
+      },
+      "type": "hidden_gem",
+      "lat": 46.212,
+      "lng": 6.139,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-enr-bains-des-paquis",
+      "city_id": "geneva",
+      "neighborhood_id": "paquis-les-grottes",
+      "name": {
+        "en": "Bains des Pâquis"
+      },
+      "description": {
+        "en": "A beloved public bath and sauna on a pier. In summer it's a beach, in winter a sauna, and it serves an excellent, affordable plat du jour."
       },
       "type": "culture",
-      "lat": 46.2091,
-      "lng": 6.1532,
-      "trending_score": 100,
+      "lat": 46.209,
+      "lng": 6.153,
+      "trending_score": 95,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction-enr-pointe-de-la-jonction",
@@ -440,14 +559,14 @@
         "en": "Pointe de la Jonction"
       },
       "description": {
-        "en": "A sharp spit of land where the clear blue Rhône collides with the chalky grey-green Arve, flowing side-by-side without mixing."
+        "en": "The exact spit of land where the green Rhône collides with the grey Arve, creating a dramatic, clear line between the two rivers."
       },
       "type": "nature",
-      "lat": 46.1988,
-      "lng": 6.128,
-      "trending_score": 98,
+      "lat": 46.1985,
+      "lng": 6.1305,
+      "trending_score": 92,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction-enr-sentier-des-saules",
@@ -457,99 +576,48 @@
         "en": "Sentier des Saules"
       },
       "description": {
-        "en": "A rustic, tree-lined walking path that follows the Rhône, making the approach to the Pointe a peaceful, scenic journey."
+        "en": "A beautiful, wild-feeling footpath that follows the riverbank, offering a surprisingly natural escape right in the city."
       },
       "type": "nature",
-      "lat": 46.2001,
-      "lng": 6.1315,
+      "lat": 46.197,
+      "lng": 6.131,
       "trending_score": 80,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "la-jonction-enr-viaduc-de-la-jonction",
+      "id": "la-jonction-enr-la-tulipe",
       "city_id": "geneva",
       "neighborhood_id": "la-jonction",
-      "name": {
-        "en": "Viaduc de la Jonction"
-      },
-      "description": {
-        "en": "This towering railway bridge offers a spectacular, high-angle view of the confluence and the stark color contrast of the two rivers."
-      },
-      "type": "viewpoint",
-      "lat": 46.1969,
-      "lng": 6.1275,
-      "trending_score": 90,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "nations-architectural-icons-enr-united-nations-ceiling-room-xx",
-      "city_id": "geneva",
-      "neighborhood_id": "nations-architectural-icons",
-      "name": {
-        "en": "United Nations Ceiling (Room XX)"
-      },
-      "description": {
-        "en": "A radical, multi-colored ceiling by Miquel Barceló with paint stalactites, likened to a 21st-century Sistine Chapel. Requires a guided tour."
-      },
-      "type": "culture",
-      "lat": 46.2267,
-      "lng": 6.1403,
-      "trending_score": 95,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "nations-architectural-icons-enr-la-tulipe",
-      "city_id": "geneva",
-      "neighborhood_id": "nations-architectural-icons",
       "name": {
         "en": "La Tulipe"
       },
       "description": {
-        "en": "A prime example of rare Swiss Brutalism, this striking, flower-shaped concrete former power plant is a unique piece of architecture."
+        "en": "A short walk from the Jonction, this is a rare and striking example of Brutalist architecture in Switzerland, shaped like a flower."
       },
       "type": "landmark",
-      "lat": 46.2055,
-      "lng": 6.0942,
-      "trending_score": 88,
+      "lat": 46.2,
+      "lng": 6.125,
+      "trending_score": 75,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "nations-architectural-icons-enr-cern",
+      "id": "la-jonction-enr-l-usine",
       "city_id": "geneva",
-      "neighborhood_id": "nations-architectural-icons",
+      "neighborhood_id": "la-jonction",
       "name": {
-        "en": "CERN"
+        "en": "L'Usine"
       },
       "description": {
-        "en": "The birthplace of the World Wide Web and home to the Large Hadron Collider, offering a fascinating look into particle physics."
+        "en": "A legendary alternative cultural center in a former factory, hosting concerts and events that embody the neighborhood's counter-cultural spirit."
       },
-      "type": "culture",
-      "lat": 46.2331,
-      "lng": 6.0556,
-      "trending_score": 97,
+      "type": "nightlife",
+      "lat": 46.199,
+      "lng": 6.136,
+      "trending_score": 85,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
-    },
-    {
-      "id": "nations-architectural-icons-enr-globe-of-science-and-innovation",
-      "city_id": "geneva",
-      "neighborhood_id": "nations-architectural-icons",
-      "name": {
-        "en": "Globe of Science and Innovation"
-      },
-      "description": {
-        "en": "The public exhibition at CERN, this futuristic globe offers a fascinating look into the world of particle physics."
-      },
-      "type": "culture",
-      "lat": 46.2339,
-      "lng": 6.0546,
-      "trending_score": 92,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     }
   ],
   "tasks": [
@@ -557,421 +625,1093 @@
       "id": "vieille-ville-task-1",
       "neighborhood_id": "vieille-ville",
       "title": {
-        "en": "Cobblestone Story"
+        "en": "Cobblestone Perspective"
       },
       "prompt": {
-        "en": "Find a particularly worn or interesting pattern in the cobblestones and take a photo from a low angle, imagining the history it has seen."
+        "en": "Take a low-angle photo that makes the cobblestone streets look like a rolling sea of history."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "vieille-ville-task-2",
       "neighborhood_id": "vieille-ville",
       "title": {
-        "en": "Fountain's Secret"
+        "en": "Secret Passage Hunter"
       },
       "prompt": {
-        "en": "Take a selfie as if you're whispering a secret to one of the Old Town's many antique fountains."
+        "en": "Find an unmarked alley or covered passage and take a mysterious photo looking from darkness into light."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "vieille-ville-task-3",
       "neighborhood_id": "vieille-ville",
       "title": {
-        "en": "Shadow Play"
+        "en": "Antique Window Shopping"
       },
       "prompt": {
-        "en": "Capture a photo of a dramatic shadow cast by a historic building on a narrow, sloping lane."
+        "en": "Photograph the most curious or ancient-looking object you can find in an antique shop window."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "vieille-ville-task-4",
       "neighborhood_id": "vieille-ville",
       "title": {
-        "en": "Hidden Courtyard View"
+        "en": "Fountain Serenity"
       },
       "prompt": {
-        "en": "Peer into a hidden courtyard and take a photo that captures its quiet, secret atmosphere."
+        "en": "Capture a moment of peace at one of the Old Town's many historic fountains."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "vieille-ville-task-5",
       "neighborhood_id": "vieille-ville",
       "title": {
-        "en": "Past & Present"
+        "en": "Historic Doorway"
       },
       "prompt": {
-        "en": "Take a photo that includes both a very old, weathered facade and a modern element (like a person on a phone or a new sign)."
+        "en": "Find the most ornate or weathered doorway and take a photo of its details, like the knocker or handle."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-6",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "Time Traveler Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you look like you've just stepped out of a time machine into old Geneva."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-7",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "Courtyard Calm"
+      },
+      "prompt": {
+        "en": "Peer into a hidden courtyard and capture the quiet world within."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-8",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "Pastry Portrait"
+      },
+      "prompt": {
+        "en": "Buy a classic Swiss pastry from a local bakery and take an artistic photo of it against a historic backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-9",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Play with the light and shadows in a narrow street to create a dramatic, high-contrast photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-10",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "Roofline Rhapsody"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo focusing on the interesting patterns and textures of the Old Town's rooftops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-11",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or sign and take a photo that includes its modern surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-12",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "The Quiet Square"
+      },
+      "prompt": {
+        "en": "Discover a small, quiet square away from the main crowds and capture its peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "vieille-ville-task-13",
+      "neighborhood_id": "vieille-ville",
+      "title": {
+        "en": "Local's View"
+      },
+      "prompt": {
+        "en": "Photograph a scene that you think a local resident would see every day, like a cat on a windowsill or laundry hanging out to dry."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "plainpalais-task-1",
       "neighborhood_id": "plainpalais",
       "title": {
-        "en": "Literary Ghost"
+        "en": "Bohemian Energy"
       },
       "prompt": {
-        "en": "Find a quiet corner or bench and take a photo of a book you're reading (or wish you were reading) in this literary neighborhood."
+        "en": "Capture a photo that you feel perfectly represents the 'bohemian heart' of Plainpalais."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "plainpalais-task-2",
       "neighborhood_id": "plainpalais",
       "title": {
-        "en": "Bohemian Pose"
+        "en": "Flea Market Find"
       },
       "prompt": {
-        "en": "Strike your most thoughtful, intellectual, or artistic pose for a selfie that captures the alternative vibe of the area."
+        "en": "If the flea market is on, photograph the most bizarre or wonderful treasure you can find. If not, photograph the empty expanse of the Plaine."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "plainpalais-task-3",
       "neighborhood_id": "plainpalais",
       "title": {
-        "en": "Flea Market Find"
+        "en": "Student Life"
       },
       "prompt": {
-        "en": "Find the most unusual or interesting object you can spot (even if it's not market day, look in shop windows!) and take a close-up photo of it."
+        "en": "Take a photo that captures the student vibe of the area - maybe a busy cafe, a university building, or someone reading in the park."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "plainpalais-task-4",
       "neighborhood_id": "plainpalais",
       "title": {
-        "en": "Counter-Culture Color"
+        "en": "Skater's World"
       },
       "prompt": {
-        "en": "Find a piece of street art or a colorful outfit that expresses the youthful, eclectic energy of Plainpalais and snap a picture."
+        "en": "Find the local skate park or a skater on the street and take an action shot (from a respectful distance)."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "plainpalais-task-5",
       "neighborhood_id": "plainpalais",
       "title": {
-        "en": "Best Bite"
+        "en": "Creative Fuel"
       },
       "prompt": {
-        "en": "Take a delicious-looking photo of a local snack, like a tartine or pinsa, that represents the neighborhood's foodie scene."
+        "en": "Take a flat-lay photo of your coffee and pastry from a local spot."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-6",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "Literary Ghost"
+      },
+      "prompt": {
+        "en": "Take a black and white photo of a quiet corner of the Cimetière de Plainpalais that feels poetic or mysterious."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-7",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "Urban Canvas"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or graffiti and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-8",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "People Watching"
+      },
+      "prompt": {
+        "en": "Find a bench and take a candid photo that captures the diverse mix of people in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-9",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "Tartine Art"
+      },
+      "prompt": {
+        "en": "Find a cafe selling tartines and photograph the most colorful or delicious-looking one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-10",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "Park Respite"
+      },
+      "prompt": {
+        "en": "Take a photo through the trees of Parc des Bastions looking towards the city streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-11",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "Contrasting Textures"
+      },
+      "prompt": {
+        "en": "Find a spot where old architecture meets new and capture the contrast in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-12",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "The Thinker's Pose"
+      },
+      "prompt": {
+        "en": "Find a statue in the area and mimic its pose for a fun selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "plainpalais-task-13",
+      "neighborhood_id": "plainpalais",
+      "title": {
+        "en": "Market Colors"
+      },
+      "prompt": {
+        "en": "If a food market is on, capture the vibrant colors of the fresh produce stalls. If not, find a colorful shopfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-task-1",
       "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Designer's Eye"
+        "en": "Lakeside Leisure"
       },
       "prompt": {
-        "en": "Capture a photo that focuses on the clean lines, interesting textures, or geometric shapes of a modern building or shopfront."
+        "en": "Take a photo that captures the relaxed, sun-drenched atmosphere near the lake."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-task-2",
       "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Lakeside Serenity"
+        "en": "Grand Architecture"
       },
       "prompt": {
-        "en": "Frame a shot that includes a hint of the lake in the background, capturing the neighborhood's balance of urban and natural."
+        "en": "Photograph the facade of a 19th-century building, focusing on its elegant details."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-task-3",
       "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Chic Reflection"
+        "en": "Trendy Reflection"
       },
       "prompt": {
-        "en": "Take a creative selfie in the reflection of a stylish boutique or cafe window."
+        "en": "Take a photo of your reflection in the window of a trendy boutique or cafe."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-task-4",
       "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Brunch Envy"
+        "en": "Park Life"
       },
       "prompt": {
-        "en": "Photograph a coffee or a pastry in a way that makes it look like the most delicious brunch item in all of Geneva."
+        "en": "Capture a scene of people enjoying Parc La Grange - reading, picnicking, or just relaxing on the grass."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "eaux-vives-task-5",
       "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Creative Corner"
+        "en": "Brunch Goals"
       },
       "prompt": {
-        "en": "Find a display of art, ceramics, or unique clothing and take a photo that highlights its creativity."
+        "en": "Find a brunch spot and take a mouth-watering photo of someone's meal (with their permission!)."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-task-1",
-      "neighborhood_id": "paquis-cornavin",
+      "id": "eaux-vives-task-6",
+      "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Global Language Puzzle"
+        "en": "Jet d'Eau Silhouette"
       },
       "prompt": {
-        "en": "Take a single photo that includes text or signs in at least three different languages."
+        "en": "Frame a shot of the Jet d'Eau with something in the foreground, like a tree branch, a boat, or a person."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-task-2",
-      "neighborhood_id": "paquis-cornavin",
+      "id": "eaux-vives-task-7",
+      "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Crossroads Energy"
+        "en": "Flower Power"
       },
       "prompt": {
-        "en": "Capture the motion and energy of this diverse neighborhood. Try using a slow shutter speed to blur the movement of people or traffic."
+        "en": "Find a beautiful flower in the rose garden (in season) or a local flower shop and take a close-up macro shot."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-task-3",
-      "neighborhood_id": "paquis-cornavin",
+      "id": "eaux-vives-task-8",
+      "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "World of Flavors"
+        "en": "Modernist Lines"
       },
       "prompt": {
-        "en": "Find an ethnic grocery store and take a picture of a colorful display of fruits, vegetables, or spices you don't recognize."
+        "en": "Find a modern building and take an architectural photo focusing on its clean lines and geometric shapes."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-task-4",
-      "neighborhood_id": "paquis-cornavin",
+      "id": "eaux-vives-task-9",
+      "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Unfiltered Selfie"
+        "en": "Sunset Magic"
       },
       "prompt": {
-        "en": "Take a selfie that captures the real, 'rough around the edges' character of the neighborhood in the background."
+        "en": "Capture the colors of the sky and water during the golden hour or sunset."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "paquis-cornavin-task-5",
-      "neighborhood_id": "paquis-cornavin",
+      "id": "eaux-vives-task-10",
+      "neighborhood_id": "eaux-vives",
       "title": {
-        "en": "Hidden Doorway"
+        "en": "Creative Sip"
       },
       "prompt": {
-        "en": "Find an interesting or unassuming doorway and take a photo, imagining the stories that have passed through it."
+        "en": "Take a photo of your drink at a local cafe, using the trendy interior as your background."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "eaux-vives-task-11",
+      "neighborhood_id": "eaux-vives",
+      "title": {
+        "en": "Chic Canine"
+      },
+      "prompt": {
+        "en": "This is a fashionable neighborhood. Take a picture of the most stylish dog you see out for a walk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "eaux-vives-task-12",
+      "neighborhood_id": "eaux-vives",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Get down to the edge of the lake and take a photo from the water's perspective, looking up at the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "eaux-vives-task-13",
+      "neighborhood_id": "eaux-vives",
+      "title": {
+        "en": "Alfresco Dining"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of an outdoor cafe or restaurant terrace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-1",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Art Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo of someone looking at art through a gallery window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-2",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find an element that shows the neighborhood's industrial past (like an old sign, a metal door, or brickwork) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-3",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Abstract Street"
+      },
+      "prompt": {
+        "en": "Create your own piece of abstract art by photographing a reflection, a shadow, or a texture on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-4",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Gallery Hopper Selfie"
+      },
+      "prompt": {
+        "en": "Take a sophisticated selfie in front of a gallery, looking like you're about to attend a private viewing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-5",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Hidden Canvas"
+      },
+      "prompt": {
+        "en": "Search the alleys for the most interesting piece of street art or graffiti and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-6",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Artful Coffee"
+      },
+      "prompt": {
+        "en": "Get a coffee from a nearby cafe and take a picture of it against a backdrop of a gallery or an industrial wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-7",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Monochrome Mood"
+      },
+      "prompt": {
+        "en": "Take a black and white photo that emphasizes the shapes and shadows of the neighborhood's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-8",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "The Curator"
+      },
+      "prompt": {
+        "en": "Photograph a gallery's name or logo in a creative way."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-9",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a splash of bright color in the mostly industrial landscape—a painted door, a poster, a piece of art—and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-10",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Waiting for the Show"
+      },
+      "prompt": {
+        "en": "Take a photo of the entrance to MAMCO or another art center that makes it look like a big event is about to start."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-11",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Stylish Local"
+      },
+      "prompt": {
+        "en": "Capture the 'gallery-chic' style by discreetly photographing a local's fashionable outfit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-12",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Lines and Grids"
+      },
+      "prompt": {
+        "en": "The neighborhood is a grid of streets. Take a photo looking down a street that emphasizes this sense of order and repetition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "quartier-des-bains-task-13",
+      "neighborhood_id": "quartier-des-bains",
+      "title": {
+        "en": "Art is Everywhere"
+      },
+      "prompt": {
+        "en": "Find something not intended as art (a cracked pavement, peeling paint) and photograph it as if it were a masterpiece."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-1",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "World on a Plate"
+      },
+      "prompt": {
+        "en": "Take a photo of a dish from one of the many international restaurants that looks incredibly authentic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-2",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Architectural Whimsy"
+      },
+      "prompt": {
+        "en": "Find a building in Les Grottes and take a photo that highlights its quirky, non-linear design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-3",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Multicultural Moment"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the multicultural energy of Pâquis, like a shop sign in multiple languages or a diverse group of people."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-4",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Urban Village"
+      },
+      "prompt": {
+        "en": "Take a photo in Les Grottes that makes it feel like a small, quirky village hidden within the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-5",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Ramen Ritual"
+      },
+      "prompt": {
+        "en": "If you see a line for a ramen shop, capture the anticipation. If you're eating ramen, take a picture of the steam rising from your bowl."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-6",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "No Straight Lines"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the 'Schtroumpf' buildings, trying to make your pose as curvy and whimsical as the architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-7",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "People-Watching Perch"
+      },
+      "prompt": {
+        "en": "Find a cafe with a big window and take a photo from inside looking out at the bustling street life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-8",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Lakeside Dip"
+      },
+      "prompt": {
+        "en": "Take a photo of the Bains des Pâquis pier, capturing its unique position jutting into the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-9",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Global Grocer"
+      },
+      "prompt": {
+        "en": "Find an international food market and photograph an interesting fruit, vegetable, or spice you've never seen before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-10",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Near the Tracks"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the proximity of the neighborhood to the train station or tracks, capturing the urban energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-11",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Colorful Facade"
+      },
+      "prompt": {
+        "en": "Find the most colorful building facade in the neighborhood and make it the star of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-12",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Food Hall Frenzy"
+      },
+      "prompt": {
+        "en": "Capture the busy, delicious chaos of a food hall, showing multiple vendors or diners in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "paquis-les-grottes-task-13",
+      "neighborhood_id": "paquis-les-grottes",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a small park, a balcony with many plants, or a community garden and photograph this spot of green in the urban landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction-task-1",
       "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Nature vs. Industry"
+        "en": "Where Rivers Meet"
       },
       "prompt": {
-        "en": "Frame a photo that shows the contrast between the raw nature of the rivers and a man-made industrial element like a bridge or building."
+        "en": "Capture the contrast between the two different colored rivers, the Rhône and the Arve, in a single photo."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction-task-2",
       "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Two-Tone Water"
+        "en": "Urban Nature"
       },
       "prompt": {
-        "en": "Take a photo that focuses only on the water, highlighting the texture and the meeting of the two different colors."
+        "en": "Take a photo that shows the contrast between the wild riverbank and the industrial city behind it."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction-task-3",
       "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Elemental Power Pose"
+        "en": "Brutalist Beauty"
       },
       "prompt": {
-        "en": "Take a selfie on the riverbank where you look as powerful and elemental as the forces of nature around you."
+        "en": "Find a piece of concrete architecture and take a photo that makes it look powerful and artistic."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction-task-4",
       "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Path to Discovery"
+        "en": "Contemplative Walk"
       },
       "prompt": {
-        "en": "Capture a shot looking down one of the walking paths, creating a sense of journey and peaceful exploration."
+        "en": "Take a photo of a footpath along the river, capturing a sense of peaceful, urban escape."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
       "id": "la-jonction-task-5",
       "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Bridge Perspective"
+        "en": "Post-Industrial Selfie"
       },
       "prompt": {
-        "en": "Take a photo from a low angle looking up at a bridge, making it seem huge and monumental against the sky."
+        "en": "Take a selfie with a gritty, industrial background like an old factory or a bridge."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "nations-architectural-icons-task-1",
-      "neighborhood_id": "nations-architectural-icons",
+      "id": "la-jonction-task-6",
+      "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Monumental Scale"
+        "en": "The Flow"
       },
       "prompt": {
-        "en": "Take a photo of a large building with a person in the frame to show its massive, ambitious scale."
+        "en": "Take a photo of the moving water of the rivers, trying to capture its motion and power."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "nations-architectural-icons-task-2",
-      "neighborhood_id": "nations-architectural-icons",
+      "id": "la-jonction-task-7",
+      "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Diplomat for a Day"
+        "en": "Counter-Culture Spirit"
       },
       "prompt": {
-        "en": "Take a serious, important-looking selfie in front of a grand, diplomatic building."
+        "en": "Find a poster for a concert, a piece of graffiti, or a sticker that represents the alternative culture of the neighborhood."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "nations-architectural-icons-task-3",
-      "neighborhood_id": "nations-architectural-icons",
+      "id": "la-jonction-task-8",
+      "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Flag Finder"
+        "en": "View from Above"
       },
       "prompt": {
-        "en": "Find and photograph the flag of a country you find interesting. Try to frame it in a creative way."
+        "en": "Get on a bridge and take a photo looking straight down at the water or the riverbank."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "nations-architectural-icons-task-4",
-      "neighborhood_id": "nations-architectural-icons",
+      "id": "la-jonction-task-9",
+      "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Architectural Detail"
+        "en": "Edgy Textures"
       },
       "prompt": {
-        "en": "Find an interesting architectural detail—a concrete curve, a steel joint, a pattern of windows—and take a close-up, abstract photo."
+        "en": "Find and photograph an interesting texture: peeling paint, rusted metal, rough concrete, or tangled tree roots."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     },
     {
-      "id": "nations-architectural-icons-task-5",
-      "neighborhood_id": "nations-architectural-icons",
+      "id": "la-jonction-task-10",
+      "neighborhood_id": "la-jonction",
       "title": {
-        "en": "Symbol of Peace"
+        "en": "A Place of Contrasts"
       },
       "prompt": {
-        "en": "Find something that you feel represents peace or global cooperation and capture it in a photo."
+        "en": "Take a single photo that captures two contrasting elements: nature/city, old/new, calm/motion."
       },
       "points": 10,
       "duration_minutes": 5,
       "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-08T13:20:21.119370+00:00"
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "la-jonction-task-11",
+      "neighborhood_id": "la-jonction",
+      "title": {
+        "en": "Wild Path"
+      },
+      "prompt": {
+        "en": "Photograph the Sentier des Saules or another path to make it look like a trail deep in the wilderness, not in a city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "la-jonction-task-12",
+      "neighborhood_id": "la-jonction",
+      "title": {
+        "en": "Concrete Flower"
+      },
+      "prompt": {
+        "en": "Take a photo of a Brutalist building, focusing on a detail that looks unexpectedly delicate or organic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
+    },
+    {
+      "id": "la-jonction-task-13",
+      "neighborhood_id": "la-jonction",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Take a photo of something that suggests sound: the rushing river, a passing train, the entrance to a music venue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-24T23:20:23.642934+00:00"
     }
   ]
 }
