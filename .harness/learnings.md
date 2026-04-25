@@ -539,9 +539,38 @@ Open issues: #5 (SRE alert pipe), #6 (tier-aware deletion floor), #7 (scraper pr
 Carryover for next session:
 1. Close issue #10 with the f627d83 commit reference now that the rescue path is end-to-end validated.
 2. File issue #12 (CI entry-point smoke test).
-3. Consider --ingest the 16 successful cities to Firestore (boston/houston/melbourne/tokyo verified, 12 degraded). Production-ready dataset.
+3. ~~Consider --ingest the 16 successful cities to Firestore~~ — done in the same session, see continuation block below.
 4. Investigate geneva + lisbon's remaining failures — likely scope for a language-aware Phase A prompt or non-English source addition (#11 + extension, or new issue).
 5. Issues #5–#9 + #11 remain on the bench.
+
+## 2026-04-25 (cont.) — third porting-miss class; 15/16 parked metros land in Firestore
+
+Immediately after the validation block above closed, kicked off `--ingest-only --enrich` against all 16 successful cities. First six cities all hit `ERROR: Ingestion failed (exit code 1)` with no Firestore writes. Third porting-miss bug surfaced; fixed in `1f173b7`. Re-ran the loop. **15/16 cities landed cleanly in `travel-cities` Firestore** (15 success lines, 0 errors, 0 build_cache invocations, 0 Phase C re-runs — all the right signals). The 16th (honolulu) was a Gemini-variance casualty of the original bug, exactly matching the failure mode the fix-commit message warned about; data is intact, recovery is one `mv` + single-city re-run.
+
+### KEEP
+- **Third instance of the porting-miss class confirms the pattern.** Path constants in Python (`90b8c2a`), path constants in TypeScript (`f627d83`), and now flag-composition in Python (`1f173b7`). All three discovered by running entry-point scripts directly; none would have surfaced via existing unit tests. Issue #12 (CI smoke-test on entry points) has now earned three data points — should be filed before next session, not "whenever convenient."
+- **Direct-to-main lane held for all three porting-miss fixes.** Each was a clear-blame, mechanical-diff, broken-since-extraction bug with zero behavior risk on the happy path. None deserved a council round; each commit message documented the diagnosis + reproduction + reasoning. The lane is well-calibrated for this class.
+- **Phase D + enrich_ingest works exactly as designed once routing is correct.** Tokyo's run logs `Committed batch 1 (405 ops)` for 6 nh / 46 wp / 150 tasks — the dual-collection writes (`vibe_neighborhoods` + `cities/X/neighborhoods`, etc.) fan out cleanly. Source-tagged with `enrichment-*` per the load-bearing filter. Production dataset is live for UE + Roadtripper to consume.
+
+### IMPROVE
+- **The fix's cleanup commit warned about exactly the failure mode that hit honolulu.** "Re-running Phase C ... risk a non-deterministic FAIL verdict that would move the JSON to `failed/` before Phase D could ingest." Honolulu passed Phase C in the batch (`8 nh / 19 wp / 100 tasks`, quality=degraded), then re-failed Phase C on the buggy `--ingest-only` re-run (Gemini variance), got moved to `data/research-output/failed/honolulu.json`. The fix prevents future occurrences of this; honolulu is recoverable but the data was at risk for 30 minutes. Practical lesson: when surfacing a known-risk failure mode in a fix-commit message, also surface the cleanup steps for any prior occurrences. Single-line addition would have saved the user a step.
+- **The first ingest attempt produced the per-city Phase C verdict trail we'd previously called missing.** Each city in the buggy `--ingest-only` run printed full Phase C output (PASS/REMOVED/AUDIT_DELETION lines) because Phase C was re-running. We'd previously filed this as a follow-up: "have research_city.py emit a single one-line `PHASE_C_SUMMARY` to stdout for batch capture." If we want this trail in production batches, that emit is still missing — but the buggy attempt did show what the trail content looks like at scale. Useful precedent if we build the structured-summary line later.
+
+### INSIGHT
+- **`enrich_ingest.ts` bypasses Zod entirely** (no `schema.parse` calls; writes directly via `batch.set` to Firestore). That's why it tolerates the `source`/`enriched_at` keys on neighborhoods that `build_cache.ts`'s strict Zod schema rejects. The schema in `cityAtlas.ts:107-108` lists these keys as `.optional()` on the Waypoint shape but NOT on Neighborhood — design asymmetry that's load-bearing for both ingesters working as intended.
+- **Argparse prefix matching is NOT what tripped `--ingest-only` here.** It's a real registered flag (line 1395). The bug was downstream — the `if args.ingest_only:` branch passed `phase_d_ingest(city)` without `enrich=args.enrich`, hardcoding the baseline path. **Lesson: when a flag exists but its branch routes to the wrong downstream call, the bug is invisible to argparse-aware grep.** Manual code-path trace from flag-set to side-effect is the only way to surface this class.
+- **A buggy `--ingest-only` is worse than a missing one.** If `--ingest-only` weren't registered at all, argparse would reject the user's command at parse time, no Gemini calls would burn, no JSONs would move. Because the flag was registered but mis-routed, six cities ran wasteful Phase C audits before the user noticed. **Generalization: a registered-but-broken flag has a higher cost than an unregistered one.** Worth a sweep of the other flag combinations on `research_city.py` for similar "routing diverges from docstring" gaps.
+
+### COUNCIL
+- No council. Direct commit `1f173b7` under the same lane that landed the prior two porting-miss fixes (`90b8c2a` Python paths, `f627d83` TypeScript paths). Same calibration: clear-blame, mechanical-diff, broken-since-extraction, zero happy-path risk.
+
+### Production state at session close
+- `main`: `1f173b7` plus this learnings update.
+- 15 parked metros now in `travel-cities` Firestore as `source: "enrichment-*"` documents: algiers, boston, buenos-aires, cincinnati, denver, fukuoka, houston, las-vegas, melbourne, muscate, nashville, osaka, rome, shanghai, tokyo.
+- 4 of the 15 are `quality_status: verified` (boston, houston, melbourne, tokyo). First verified data from this repo.
+- Honolulu pending one-step recovery (`mv data/research-output/failed/honolulu.json data/research-output/honolulu.json`, then re-ingest).
+- Geneva + lisbon remain in the parked-failed bucket — legit English-source edge cases, follow-up scope.
+- London continues to be absent from `manifest.cities` despite presence in `configs/global_city_cache.json` — unsolved mystery, low priority.
 
 ### KEEP (additional, post-batch)
 

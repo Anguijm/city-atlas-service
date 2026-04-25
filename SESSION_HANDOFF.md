@@ -263,10 +263,11 @@ Council + pr-watch silently no-op until the file is removed.
 Sorted by return vs risk.
 
 ### Now (top of queue)
-- **Close issue #10** — fix landed in `f627d83`. Validate with the post-fix batch evidence (16/18 completed, 4 verified) and close the issue.
-- **Decide on `--ingest` for the 16 successful cities.** boston/houston/melbourne/tokyo verified + 12 degraded are production-ready data. Single command flips them into `travel-cities` Firestore: `python3.12 src/pipeline/research_city.py --city <id> --enrich --ingest-only` per city, or batch with `--ingest`. Risk: low (enrich-mode is additive-only, gated by `source: "enrichment-*"` filter). Decision: defer or commit.
-- **Investigate London absence from manifest** — london is in `configs/global_city_cache.json` but missing from `manifest.cities`, so the 18-vs-19 batch ran 18. Quick cause-finder: did batch_research's load_cities filter london out, or is the manifest simply out of date with the cache?
-- **Investigate geneva + lisbon failures.** Both are limit-cases on English-only source coverage. Worth a manual Phase A run with a language-aware variant of the prompt to confirm the diagnosis, then file as scoped follow-up to #11.
+- **15/16 parked metros are now in Firestore** as enrichment-tagged documents (algiers, boston, buenos-aires, cincinnati, denver, fukuoka, houston, las-vegas, melbourne, muscate, nashville, osaka, rome, shanghai, tokyo). 4 verified (boston, houston, melbourne, tokyo) — first verified data ever produced from this repo.
+- **Recover honolulu** — one-step: `mv data/research-output/failed/honolulu.json data/research-output/honolulu.json && python3.12 src/pipeline/research_city.py --city honolulu --enrich --ingest-only`. Honolulu was a Gemini-variance casualty of the `--ingest-only` bug fixed in `1f173b7`; data is intact in `failed/`.
+- **Close issues #10 + file #12** — issue #10's fix landed in `f627d83` and is end-to-end validated. Issue #12 (CI smoke-test on entry points) earned a third data point (Python paths in `90b8c2a`, TS paths in `f627d83`, flag composition in `1f173b7`) — should be filed.
+- **Investigate London absence from manifest** — london is in `configs/global_city_cache.json` but missing from `manifest.cities`. Quick cause-finder: did batch_research's `load_cities` filter london out, or is the manifest simply out of date?
+- **Investigate geneva + lisbon failures.** Both are limit-cases on English-only source coverage. Worth a manual Phase A run with a language-aware variant of the prompt to confirm, then file as scoped follow-up to #11.
 
 ### Short (~30 min each)
 - **Close out follow-up issues** #5–#9 as priorities allow. None are
