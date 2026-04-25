@@ -15,6 +15,12 @@ on:
   push:
     branches: [main]
 
+# SECURITY NOTE: This workflow uses ZERO third-party actions — no actions/checkout,
+# no uses: lines anywhere. The only step is an inline `run:` block invoking the
+# `gh` CLI (preinstalled on GitHub-hosted runners) against the GitHub REST API.
+# `pull-requests: read` is the minimum scope required by the
+# /repos/{owner}/{repo}/commits/{sha}/pulls endpoint we call. There is no
+# third-party-action attack surface to pin to a SHA.
 permissions:
   contents: read
   pull-requests: read
