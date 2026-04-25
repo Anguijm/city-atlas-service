@@ -6,7 +6,7 @@ This is the pipeline repo. It produces the shared city atlas that Urban Explorer
 
 Every change to `main` goes through a PR. `.github/workflows/council.yml` runs a 7-persona Gemini review (architecture, cost, bugs, security, product, accessibility, lead-architect-synthesis) on every PR open + push. The Lead Architect synthesis posts a single re-editable PR comment with a verdict: 🟢 CLEAR | 🟡 CONDITIONAL | 🔴 BLOCK.
 
-**Direct pushes to `main` are blocked by GitHub branch protection** (configured 2026-04-26 alongside this doctrine). The workflow itself only fires on `pull_request` events, so without protection a direct push would silently bypass the gate. The protection closes that gap; without it, the doctrine is aspirational.
+**Direct pushes to `main` are flagged by `.github/workflows/branch-guard.yml`** — a post-hoc detector that fails on any push to `main` whose head commit is not associated with a merged PR. The push has already landed by the time the workflow runs; this is doctrine reinforcement plus an Actions-tab paper trail, not a hard gate. (GitHub's hard-block branch protection requires Pro for private repos; revisit if the repo goes public or the team upgrades.) Squash-merges, merge commits, and rebase-merges via `gh pr merge` or the GitHub UI all pass — they attach their PR via the GitHub API. Direct `git push` from a workstation fails the check.
 
 **Default: you cannot merge without a 🟢.** CONDITIONAL = address the remediations in a follow-up commit; council auto-reruns. BLOCK = rethink the change.
 
