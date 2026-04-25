@@ -142,12 +142,13 @@ Filed at the end of the session; none are merge blockers, all are tracked:
    - `marfa` — village; 2K-person town, ~4 real POIs (real limit)
    - `little-rock` — town; 26% waypoint misplacement flagged by Phase C
    - `portland-me` — village; Gemini hallucinated 3 non-existent restaurants
-3. **19 parked cities — partially unparked but blocked by a scraper bug** (issue #10).
-   - PR #4's proportional Phase C threshold landed (`a733650`).
-   - 2026-04-24/25 baseline batch ran 18/19 (london absent from manifest entries despite being in the city cache — separate question to investigate). Result: 10 completed (all `quality_status: degraded`), 8 failed (boston, lisbon, denver, geneva, las-vegas, algiers, muscate, osaka).
-   - Phase C verdict trail wasn't captured at the parent log level (subprocess output not piped through). Direct boston + lisbon validation runs both showed >25% hallucination rates (40% and 33%) → FAIL preserved correctly.
-   - **Real blocker now**: every scraper returned empty for every parked metro during the batch — Wikipedia, Reddit, Atlas Obscura, Spotted by Locals, The Infatuation, TimeOut all logged `returned no data (non-fatal)`, zero new `.md` files written. Same scrapers work fine on the small-US cohort (akron/asheville/etc. have 10–40 KB of grounded content per city). The asymmetry is the diagnostic — Phase 1 of issue #10 (`npx tsx src/scrapers/wikipedia.ts --city boston` with verbose logging) will surface the failure mode in one run.
-   - Until issue #10 is fixed, re-running the batch reproduces the same shape — Gemini's Phase B fabricates over the source-coverage gap and Phase C correctly rejects the fabrications.
+3. **19 parked cities — 16 unparked, 2 still failing as legit edge cases.**
+   - PR #4's proportional Phase C threshold landed (`a733650`); issue #10 surfaced and was fixed (`f627d83`) during validation; final re-run with fresh Wikipedia + Reddit landed **16/18 cities completed (4 verified, 12 degraded), 2 failed**.
+   - Verified (`quality_status: verified`): boston, houston, melbourne, tokyo. First verified outputs ever produced from this repo.
+   - Degraded but shipped: algiers, buenos-aires, cincinnati, denver, fukuoka, honolulu, las-vegas, muscate, nashville, osaka, rome, shanghai.
+   - Still failing: **geneva** (English Wikipedia only 3.4 KB; minor English-language Reddit presence) and **lisbon** (Portuguese subreddits dominate over r/lisbon). Both are at the structural limit of English-only source coverage — Phase B fabricates over the gap and Phase C correctly rejects. Likely candidates for a language-aware Phase A prompt extension or non-English source addition (see issues #11, future).
+   - **London** absent from the manifest's `cities` list despite being in `configs/global_city_cache.json` — the 18-of-19 mismatch hasn't been investigated yet. Carryover for next session.
+   - Boston's individual re-research (foreground, before the batch) showed the rescue path firing observably: `REMOVED: 2 hallucinated waypoints` + the `AUDIT_DELETION {...}` JSON line. PR #4's full design — deterministic matcher, cleanup, audit log — all worked exactly as specified on real Gemini output. **First end-to-end production validation of the hardening.**
 4. **Council synthesis doesn't scope to diff.** `lead-architect.md` will
    surface findings from surrounding code and count them toward BLOCK,
    even when the diff is tiny and unrelated. Admin override is the escape
@@ -262,8 +263,10 @@ Council + pr-watch silently no-op until the file is removed.
 Sorted by return vs risk.
 
 ### Now (top of queue)
-- **Issue #10 — debug + fix the scraper malfunction on parked metros.** Baseline batch ran 2026-04-24/25 with 10/18 completing degraded and 8/18 failing; root cause is that all scrapers return empty for big cities while working on the small-US cohort. Without this, the rest of the Stage-3+ roadmap is gated. Phase-1 debug recipe in the issue body.
-- **After #10 lands**: re-run the 19-city batch. Expected — substantially more cities clear Phase C cleanly and at least one observable `DEMOTED:` line surfaces, evidencing the proportional-threshold rescue path against real Gemini output for the first time.
+- **Close issue #10** — fix landed in `f627d83`. Validate with the post-fix batch evidence (16/18 completed, 4 verified) and close the issue.
+- **Decide on `--ingest` for the 16 successful cities.** boston/houston/melbourne/tokyo verified + 12 degraded are production-ready data. Single command flips them into `travel-cities` Firestore: `python3.12 src/pipeline/research_city.py --city <id> --enrich --ingest-only` per city, or batch with `--ingest`. Risk: low (enrich-mode is additive-only, gated by `source: "enrichment-*"` filter). Decision: defer or commit.
+- **Investigate London absence from manifest** — london is in `configs/global_city_cache.json` but missing from `manifest.cities`, so the 18-vs-19 batch ran 18. Quick cause-finder: did batch_research's load_cities filter london out, or is the manifest simply out of date with the cache?
+- **Investigate geneva + lisbon failures.** Both are limit-cases on English-only source coverage. Worth a manual Phase A run with a language-aware variant of the prompt to confirm the diagnosis, then file as scoped follow-up to #11.
 
 ### Short (~30 min each)
 - **Close out follow-up issues** #5–#9 as priorities allow. None are
