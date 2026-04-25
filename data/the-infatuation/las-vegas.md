@@ -1,10 +1,262 @@
 # The Infatuation: Las Vegas, United States
 
+## Finder results (geo-scoped)
+
+What are you looking for?
+
+FILTERS
+
+ALL
+
+SPOTS
+
+GUIDES
+
+SORT
+
+MOST RELEVANT
+
+ACCEPTS ONLINE RESERVATIONS
+
+Showing results 1-50 of 678
+
+in  
+
+Infatuation
+The Best Restaurants In Las Vegas
+
+MARCH 24, 2026
+
+The Hit List: New Las Vegas Restaurants To Try Right Now
+
+APRIL 1, 2026
+
+Where To Eat & Drink On The Las Vegas Strip
+
+AUGUST 9, 2025
+
+The Best Breakfast Spots In Las Vegas
+
+APRIL 25, 2025
+
+The Best Brunch Spots In Las Vegas
+
+MAY 23, 2025
+
+The Best Steakhouses In Las Vegas
+
+APRIL 9, 2025
+
+The Best Italian Restaurants In Las Vegas
+
+APRIL 2, 2026
+
+The Best Restaurants & Bars In Downtown Las Vegas
+
+FEBRUARY 25, 2026
+
+The Old Las Vegas Guide
+
+JUNE 17, 2025
+
+The Best Speakeasies & Hidden Bars In Las Vegas
+
+DECEMBER 5, 2025
+
+The Best Buffets In Las Vegas
+
+FEBRUARY 10, 2026
+
+Where To Have An Affordable Meal In Las Vegas
+
+NOVEMBER 11, 2023
+
+The Best Restaurants For A Big Group Dinner In Las Vegas
+
+JULY 23, 2025
+
+15 Fancy Restaurants In Las Vegas For Your Next Big Night Out
+
+SEPTEMBER 15, 2023
+
+Where To Get Great Late-Night Food In Las Vegas
+
+NOVEMBER 16, 2023
+
+Earn Up To $300 In Statement Credits At Las Vegas’ Hottest Restaurants
+
+FEBRUARY 27, 2026
+
+The Best Pizza In Las Vegas
+
+SEPTEMBER 23, 2025
+
+The Best Bars In Las Vegas
+
+JUNE 5, 2019
+
+Where To Have Dinner With Clients In Las Vegas
+
+SEPTEMBER 11, 2019
+
+The Spots Of The Summer, Las Vegas Edition
+
+JUNE 6, 2025
+
+Where To Eat Dinner Before A Show In Las Vegas
+
+SEPTEMBER 12, 2019
+
+The Buffet At Wynn Las Vegas
+AMERICAN
+THE STRIP
+$
+$
+$
+$
+Mr. BBQ Las Vegas
+KOREAN
+CHINATOWN
+$
+$
+$
+$
+Vic's Las Vegas
+ITALIAN
+SYMPHONY PARK
+$
+$
+$
+$
+Nobu at Paris Las Vegas
+JAPANESE
+SUSHI
+THE STRIP
+$
+$
+$
+$
+Where To Stop On Your Road Trip From LA To Vegas
+
+SEPTEMBER 18, 2015
+
+The Best Restaurants On Las Olas
+
+JUNE 24, 2025
+
+Cote Vegas
+KOREAN
+THE STRIP
+$
+$
+$
+$
+Viva Las Arepas
+VENEZUELAN
+THE STRIP
+$
+$
+$
+$
+The LA Chocolate Chip Cookie Power Ranking
+
+APRIL 1, 2026
+
+The Hit List: New LA Restaurants To Try Right Now
+
+APRIL 24, 2026
+
+The Best Donuts In LA
+
+MARCH 28, 2026
+
+LA’s New Restaurant Openings
+
+APRIL 24, 2026
+
+Top 25: The Best Restaurants In LA
+
+JANUARY 27, 2026
+
+The Best Vegan Restaurants In LA
+
+AUGUST 14, 2025
+
+The Best Brunch Spots In Los Angeles
+
+MARCH 24, 2026
+
+The Rebranding Of Froyo, LA Comes To NYC, & More Trends On Our Radar
+
+MARCH 31, 2026
+
+The Toughest Reservations In LA Right Now (And How To Get Them)
+
+APRIL 17, 2026
+
+The Best Coffee Shops In LA For Getting Work Done
+
+DECEMBER 3, 2025
+
+The Best Happy Hours In LA
+
+APRIL 10, 2026
+
+The Most Fun Dinner Spots In LA
+
+APRIL 4, 2026
+
+Where To Get Great Matcha In LA
+
+MARCH 21, 2026
+
+The Best Restaurants In Downtown LA
+
+JULY 11, 2025
+
+The Best Burgers In LA
+
+FEBRUARY 26, 2026
+
+The Best Korean BBQ In LA
+
+MAY 28, 2025
+
+The Best Sushi In Los Angeles
+
+MAY 8, 2025
+
+The Best Pizza In LA
+
+APRIL 21, 2026
+
+The Best Croissants In LA, Ranked
+
+NOVEMBER 1, 2025
+
+The Best Bagels In LA
+
+APRIL 8, 2026
+
+The Best Sandwich Shops In Los Angeles
+
+FEBRUARY 19, 2026
+
+Show saved results
+
+## City page (venue reviews)
+
 The Best Restaurants & Bars In Downtown Las Vegas
 Where To Eat & Drink On The Las Vegas Strip
 The Hit List: New Las Vegas Restaurants To Try Right Now
 The Best Restaurants In Las Vegas
 LATEST LAS VEGAS REVIEWS
+Amata Modern Thai
+THAI
+SPRING VALLEY
+
+Amata Modern Thai is a comforting, consistent Thai place with some luxurious touches.
+
 Sparrow + Wolf
 AMERICAN
 FUSION
@@ -31,12 +283,6 @@ SEAFOOD
 THE STRIP
 
 Carbone Riviera at The Bellagio is a wonderfully over-the-top Italian restaurant with a focus on seafood.
-
-Cote Vegas
-KOREAN
-THE STRIP
-
-Cote Vegas is a clubby version of the New York Korean BBQ staple at The Venetian.
 
 DOWNTOWN LAS VEGAS
 Doberman Drawing Room
@@ -137,6 +383,16 @@ The First Timer’s Guide To Eating In Paris
 Unlock Exclusive Content Just For Chase Customers.
 CONNECT YOUR ACCOUNT
 ALL POSTS
+Amata Modern Thai
+THAI
+SPRING VALLEY
+
+Amata Modern Thai is a comforting, consistent Thai place with some luxurious touches.
+
+RYAN SLATTERY
+
+APRIL 15, 2026
+
 The Best Italian Restaurants In Las Vegas
 
 The best pasta, pizza, and hat-shaped desserts on and off The Strip.
@@ -150,36 +406,6 @@ ITALIAN
 ANGEL PARK
 
 Al Solito Posto is the sister spot to excellent Italian restaurant Esther's Kitchen.
-
-JANNA KAREL
-
-APRIL 1, 2026
-
-Balla Italian Soul
-ITALIAN
-THE STRIP
-
-If you want Italian food in Las Vegas that won’t leave you feeling like you swallowed a bowling ball of mozzarella, Balla Italian Soul is the move.
-
-JANNA KAREL
-
-APRIL 1, 2026
-
-Ai Pazzi
-ITALIAN
-SUMMERLIN
-
-Ai Pazzi is a great neighborhood Italian joint for the “just because” Tuesday night out.
-
-JANNA KAREL
-
-APRIL 1, 2026
-
-Casa Di Amore
-ITALIAN
-SOUTHEAST
-
-Casa Di Amore is a rock solid Italian joint with a tiki bar attached.
 
 JANNA KAREL
 
@@ -200,6 +426,36 @@ ITALIAN
 WESTSIDE
 
 Capo's on the Westside is where you go to eat spaghetti and listen to live jazz.
+
+JANNA KAREL
+
+APRIL 1, 2026
+
+Casa Di Amore
+ITALIAN
+SOUTHEAST
+
+Casa Di Amore is a rock solid Italian joint with a tiki bar attached.
+
+JANNA KAREL
+
+APRIL 1, 2026
+
+Balla Italian Soul
+ITALIAN
+THE STRIP
+
+If you want Italian food in Las Vegas that won’t leave you feeling like you swallowed a bowling ball of mozzarella, Balla Italian Soul is the move.
+
+JANNA KAREL
+
+APRIL 1, 2026
+
+Ai Pazzi
+ITALIAN
+SUMMERLIN
+
+Ai Pazzi is a great neighborhood Italian joint for the “just because” Tuesday night out.
 
 JANNA KAREL
 
@@ -289,57 +545,6 @@ RYAN SLATTERY
 
 FEBRUARY 24, 2026
 
-Able Baker Brewing
-BREWERY
-ARTS DISTRICT
-
-Able Baker is the best brewpub in Las Vegas, and the food is pretty good, too.
-
-RYAN SLATTERY
-
-FEBRUARY 24, 2026
-
-Liquid Diet
-BAR
-ARTS DISTRICT
-
-Liquid Diet in Downtown Las Vegas makes unusual cocktails out of kitchen ingredients.
-
-RYAN SLATTERY
-
-FEBRUARY 24, 2026
-
-Park On Fremont
-AMERICAN
-BAR
-DOWNTOWN
-
-Park On Fremont is a solid Downtown bar with a great weekend brunch.
-
-RYAN SLATTERY
-
-FEBRUARY 24, 2026
-
-Nocturno
-BAR
-ARTS DISTRICT
-
-Nocturno is a low-lit bar that you slip into when you want a strong cocktail tailored exactly to your taste.
-
-RYAN SLATTERY
-
-FEBRUARY 24, 2026
-
-Stray Pirate
-BAR
-ARTS DISTRICT
-
-Stray Pirate is a quirky tiki bar in the Arts District designed to feel like a sunken ship.
-
-RYAN SLATTERY
-
-FEBRUARY 24, 2026
-
 Echo - Taste & Sound
 BAR
 ARTS DISTRICT
@@ -360,6 +565,57 @@ RYAN SLATTERY
 
 FEBRUARY 24, 2026
 
+Stray Pirate
+BAR
+ARTS DISTRICT
+
+Stray Pirate is a quirky tiki bar in the Arts District designed to feel like a sunken ship.
+
+RYAN SLATTERY
+
+FEBRUARY 24, 2026
+
+Park On Fremont
+AMERICAN
+BAR
+DOWNTOWN
+
+Park On Fremont is a solid Downtown bar with a great weekend brunch.
+
+RYAN SLATTERY
+
+FEBRUARY 24, 2026
+
+Liquid Diet
+BAR
+ARTS DISTRICT
+
+Liquid Diet in Downtown Las Vegas makes unusual cocktails out of kitchen ingredients.
+
+RYAN SLATTERY
+
+FEBRUARY 24, 2026
+
+Able Baker Brewing
+BREWERY
+ARTS DISTRICT
+
+Able Baker is the best brewpub in Las Vegas, and the food is pretty good, too.
+
+RYAN SLATTERY
+
+FEBRUARY 24, 2026
+
+Nocturno
+BAR
+ARTS DISTRICT
+
+Nocturno is a low-lit bar that you slip into when you want a strong cocktail tailored exactly to your taste.
+
+RYAN SLATTERY
+
+FEBRUARY 24, 2026
+
 Rebar
 BAR FOOD
 VEGETARIAN
@@ -370,16 +626,5 @@ Rebar in Downtown Las Vegas has cheap drinks, decent food, and furniture and art
 RYAN SLATTERY
 
 FEBRUARY 24, 2026
-
-Bazaar Meat by José Andrés
-STEAKS
-SPANISH
-THE STRIP
-
-Bazaar Meat by José Andrés is the best steakhouse in Las Vegas.
-
-EMMY KASTEN
-
-FEBRUARY 17, 2026
 
 LOAD MORE

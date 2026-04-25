@@ -1,0 +1,20 @@
+{
+  "_comment": "Override map: city-id -> Atlas Obscura URL slug. Atlas Obscura uses {city}-{state} for US cities and inconsistent patterns internationally. The scraper consults this file before falling back to the generic URL chain. Add an entry whenever a city's auto-derived URL fails. The slug is the path segment after /things-to-do/.",
+  "las-vegas": "las-vegas-nevada",
+  "boston": "boston-massachusetts",
+  "cincinnati": "cincinnati-ohio",
+  "denver": "denver-colorado",
+  "honolulu": "honolulu-hawaii",
+  "houston": "houston-texas",
+  "nashville": "nashville-tennessee",
+  "los-angeles": "los-angeles-california",
+  "chicago": "chicago-illinois",
+  "san-francisco": "san-francisco-california",
+  "new-york-city": "new-york-city-new-york",
+  "philadelphia": "philadelphia-pennsylvania",
+  "austin": "austin-texas",
+  "atlanta": "atlanta-georgia",
+  "miami": "miami-florida",
+  "seattle": "seattle-washington",
+  "washington-dc": "washington-d-c"
+}

@@ -20,7 +20,15 @@ import * as path from "path";
 // Output data/ is at repo root (not src/data/); city cache moved to configs/.
 const OUTPUT_DIR = path.join(__dirname, "..", "..", "data", "atlas-obscura");
 const CITY_CACHE = path.join(__dirname, "..", "..", "configs", "global_city_cache.json");
+const SLUG_OVERRIDES = path.join(__dirname, "..", "..", "configs", "atlas-obscura-slugs.json");
 const DEFAULT_INTERVAL_MS = 30_000; // 30s between requests
+
+function loadSlugOverrides(): Record<string, string> {
+  if (!fs.existsSync(SLUG_OVERRIDES)) return {};
+  const raw = JSON.parse(fs.readFileSync(SLUG_OVERRIDES, "utf-8")) as Record<string, string>;
+  // Strip metadata keys (anything starting with `_`).
+  return Object.fromEntries(Object.entries(raw).filter(([k]) => !k.startsWith("_")));
+}
 
 interface City {
   id: string;
@@ -57,7 +65,11 @@ function buildAtlasUrl(city: City): string {
   return `https://www.atlasobscura.com/things-to-do/${slug}`;
 }
 
-async function scrapeCityPage(page: Page, city: City): Promise<{ places: ScrapedPlace[]; fullText: string }> {
+async function scrapeCityPage(
+  page: Page,
+  city: City,
+  overrides: Record<string, string>,
+): Promise<{ places: ScrapedPlace[]; fullText: string }> {
   // Try multiple URL patterns — Atlas Obscura is inconsistent with slugs
   const slug = city.name.toLowerCase().replace(/\s+/g, "-");
   const countrySlug = city.country.toLowerCase().replace(/\s+/g, "-");
@@ -66,7 +78,9 @@ async function scrapeCityPage(page: Page, city: City): Promise<{ places: Scraped
     .replace("-city", "")
     .replace("ho-chi-minh", "saigon")
     .replace("mexico-city", "mexico-city"); // keep as-is
+  const overrideSlug = overrides[city.id];
   const urls = [
+    ...(overrideSlug ? [`https://www.atlasobscura.com/things-to-do/${overrideSlug}`] : []),
     `https://www.atlasobscura.com/things-to-do/${slug}-${countrySlug}`,
     `https://www.atlasobscura.com/things-to-do/${slug}`,
     ...(altSlug !== slug ? [`https://www.atlasobscura.com/things-to-do/${altSlug}`] : []),
@@ -221,6 +235,7 @@ async function main() {
   const withDetails = args.includes("--details"); // scrape individual place pages too
 
   let cities = loadCities();
+  const overrides = loadSlugOverrides();
 
   if (cityFilter) {
     cities = cities.filter((c) => c.id === cityFilter);
@@ -265,7 +280,7 @@ async function main() {
     const page = await context.newPage();
 
     try {
-      const { places, fullText } = await scrapeCityPage(page, city);
+      const { places, fullText } = await scrapeCityPage(page, city, overrides);
 
       if (places.length === 0 && fullText.length < 500) {
         failed++;

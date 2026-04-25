@@ -137,7 +137,7 @@ def scrape_atlas_if_needed(city_id: str) -> None:
         print(f"  ⚠ Atlas scrape failed (non-fatal): {e}")
 
 
-LOCAL_SOURCES = ["spotted-by-locals", "the-infatuation", "timeout", "locationscout"]
+LOCAL_SOURCES = ["the-infatuation", "timeout", "locationscout"]
 
 
 def scrape_local_source_if_needed(city_id: str, source: str) -> None:
