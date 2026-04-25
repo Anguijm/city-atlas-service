@@ -1,19 +1,32 @@
 # Session Handoff — city-atlas-service
 
-> Living document. Last refreshed 2026-04-25 at end-of-session. Edit in place
+> Living document. Last refreshed 2026-04-26 at end-of-session. Edit in place
 > rather than appending date-stamped blocks — this is the "what would you want
 > to know on day one" index, not a changelog.
 >
 > **For session-by-session learnings, see `.harness/learnings.md`** (append-
 > only; KEEP / IMPROVE / INSIGHT / COUNCIL blocks per task).
+>
+> **For active work tracking, see `BACKLOG.md`** at repo root.
+
+## Start here next session
+
+- **`main` HEAD:** `4522361` (PR #18 — CLAUDE.md round-N drift doctrine)
+- **Last substantive merge:** `1f04365` (PR #15 — scraper refinement: Atlas Obscura overrides, Infatuation finder, Spotted by Locals retired)
+- **Open PRs:** none. Working tree clean.
+- **Top-priority next actions, in order:**
+  1. **Issue #16 — extend `.harness/scripts/council.py` to fetch prior council comment + submitter response and prepend to round-N persona prompts.** ~50–80 lines. Highest leverage on the bench because every substantive PR currently pays the override-paperwork tax for synthesizer drift. CLAUDE.md doctrine (PR #18) makes the burden predictable; this fix removes the burden.
+  2. **Honolulu recovery — single command + re-ingest.** `mv data/research-output/failed/honolulu.json data/research-output/honolulu.json` then `python src/pipeline/research_city.py --city honolulu --ingest-only --enrich`. Closes the production-ingest gap from the prior session (15/16 → 16/16).
+  3. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs landed in prior sessions; pattern is well-established. File and design before the next porting cycle introduces a fourth.
+- **Blockers:** none. CI failures on `validate` and `watch` are pre-existing tech debt unrelated to recent diffs (typecheck errors in test files, OIDC token config in pr-watch); not introduced by any of this session's PRs.
 
 ## What this repo is
 
 `city-atlas-service` is the shared data pipeline that scrapes public sources
-(Wikipedia, Reddit, Atlas Obscura, Spotted by Locals, The Infatuation,
-TimeOut, Locationscout), runs four Gemini phases (research → structure →
-validate → ingest), and writes neighborhoods + waypoints + tasks to the
-`travel-cities` Firestore database consumed by:
+(Wikipedia, Reddit, Atlas Obscura, The Infatuation, TimeOut, Locationscout),
+runs four Gemini phases (research → structure → validate → ingest), and
+writes neighborhoods + waypoints + tasks to the `travel-cities` Firestore
+database consumed by:
 
 - **[urban-explorer](https://github.com/Anguijm/urban-explorer)** — Next.js
   photo-hunt scavenger app (read-side only).
@@ -28,15 +41,15 @@ needed from this repo until then.
 
 ## What's in main right now
 
-`main` = `951b34d` at the end of the 2026-04-23/24 session. Recent history:
+`main` = `4522361` at the end of the 2026-04-26 session. Recent history:
 
 ```
-951b34d Tune bugs/security/product personas with explicit Firestore guardrails (#3)
-a733650 Port Phase C proportional >25% FAIL threshold with hardening (#4)
-1d28464 Add operator web-console TODO to session handoff
-481d5df Add SESSION_HANDOFF.md + per-app tasks.yaml scaffolds for next-session pickup
-06ecf50 Port pipeline from urban-explorer (scrapers + Phase A-D + schemas + configs + rules) (#2)
-f4e9d7c Scaffold city-atlas-service with council review infrastructure
+4522361 CLAUDE.md: codify round-N drift doctrine + submitter response format (#18)
+1f04365 Refine scrapers per issue #11: Atlas Obscura overrides, Infatuation finder, retire SBL (#15)
+9e116d9 Session-close handoff: docs refresh + final batch + ingest data (#13)
+b6baf39 Capture production-ingest results: 15/16 cities live in Firestore
+1f173b7 Fix --ingest-only: route through enrich_ingest when --enrich passed; skip Phase C re-run
+dc60a3c Capture post-rerun validation results: 16/18 unparked, 4 verified
 ```
 
 Layout:
@@ -56,12 +69,13 @@ configs/
   global_city_cache.json   # 185-city metadata (source of truth)
   seasonal-calendar.json   # 6 seasonal events keyed by city
   city-sources.json        # per-city URL sources for NotebookLM/Gemini
+  atlas-obscura-slugs.json # city-id → URL slug suffix override (PR #15)
   urban-explorer/tasks.yaml # per-app task-prompt scaffolds (stub)
   roadtripper/tasks.yaml    # per-app task-prompt scaffolds (stub)
 src/
   scrapers/
-    atlas-obscura.ts       # Playwright
-    local-sources.ts       # Playwright (handles 4 source sites)
+    atlas-obscura.ts       # Playwright (consults configs/atlas-obscura-slugs.json)
+    local-sources.ts       # Playwright (handles 3 sources: the-infatuation, timeout, locationscout)
     wikipedia.ts           # fetch + MediaWiki REST API
     reddit.ts              # fetch + unauthenticated Reddit JSON
   pipeline/

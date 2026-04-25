@@ -5,6 +5,8 @@
 
 > **Status update 2026-04-24:** This document is a point-in-time snapshot from before `city-atlas-service` was extracted from urban-explorer. Paths referenced in the report (`scripts/research-city.py`, `src/data/global_city_cache.json`, etc.) are the urban-explorer-side paths. In this repo they map to `src/pipeline/research_city.py` and `configs/global_city_cache.json`.
 >
+> **Status update 2026-04-26 — issue #11 closed by PR #15:** Spotted by Locals is **retired**. Remove §3.2 entries when the report is next regenerated; the source list below is now 6, not 7. Atlas Obscura URL pattern fixed via `configs/atlas-obscura-slugs.json` (17 US-state overrides seeded). The Infatuation now uses the geo-scoped finder endpoint concatenated with the legacy slug page (~10 KB MD per city, up from ~7 KB). The pipeline file references throughout this report (`scripts/research-city.py`, `scripts/scrape-atlas.ts`, etc.) remain at their **urban-explorer-side paths** — in this repo they map to `src/pipeline/research_city.py` and `src/scrapers/atlas-obscura.ts`, etc. (see top-of-file note from 2026-04-24).
+>
 > **Status update 2026-04-25 — the 19 parked cities arc closed:** All blockers identified in this report's §7 are resolved.
 > - PR #4 (`a733650`) landed the proportional `>25%` FAIL threshold (the original blueprint item #26 prereq).
 > - Three downstream porting-miss bugs surfaced and were fixed: Python path constants (`90b8c2a`), TypeScript scraper path constants (`f627d83`), and `--ingest-only` flag composition (`1f173b7`). None of the three would have been caught by the existing test suites; tracked as issue #12 for CI prevention.
