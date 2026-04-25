@@ -13,9 +13,22 @@ Every merge to `main` is gated by `.github/workflows/council.yml` — a 7-person
 - File follow-up issues for every legitimate concern the council raised. The override is escape-hatch-from-this-PR, not dismissal of the feedback.
 - Document the rationale in the merge commit message.
 - Reserved for non-emergencies. `[skip council]` in the PR title is the *emergency* lever (skips the workflow entirely); admin override is the *judgment* lever (council ran, you considered the verdict, you chose to merge anyway with paperwork).
-- Two examples from this session: PR #3 (admin-override on a markdown-only diff because security 3/10 was driven by three pre-existing scraper concerns outside the diff scope; filed as #7/#8/#9), PR #4 (admin-override after five rounds when the remaining BLOCK remediation was an SRE alert-pipe configuration outside this code repo; filed as #5).
+- Three examples: PR #3 (admin-override on a markdown-only diff because security 3/10 was driven by three pre-existing scraper concerns outside the diff scope; filed as #7/#8/#9), PR #4 (admin-override after five rounds when the remaining BLOCK remediation was an SRE alert-pipe configuration outside this code repo; filed as #5), PR #15 (admin-override after two rounds when the synthesizer flipped on three surfaces between rounds — log→throw, +15km radius approve→reject, reinstate→remove `places[]`; filed as #14/#16/#17).
 
 This replaces the ad-hoc `mcp__gemini__ask-gemini` audit protocol used in the urban-explorer repo. MCP-based audits remain available as a local dev-time sanity check but are not the merge gate.
+
+### Round-N drift doctrine
+
+The council has no cross-round memory (each round reads the diff fresh; tracked as #16). Until that lands, the submitter carries the burden of preventing whipsaw. Two rules:
+
+**1. Round 2 = unblock or escalate.** If round 2 introduces NEW remediations on the *same surface* as a round-1 prescription you already implemented as specified, you do not owe a round 3. The synthesizer is contradicting itself on a surface you already addressed; admin-override is the right tool. Document the contradiction in the merge commit (round-1 prescription vs round-2 ask, your implementation, why the flip is drift not new evidence). File follow-up issues for any net-new remediations that *aren't* contradictions. Score deltas across rounds are useful evidence in the override paperwork — if N of 6 axes improved meaningfully and the residual blocks are all surface-flips, the override is well-calibrated.
+
+**2. Submitter response comments use a fixed format.** When responding to a council round, post one PR comment with these sections in order:
+- **A table** mapping each remediation to status (✅ addressed in code with commit SHA / 🟡 partial with rationale / 🚫 argued out-of-scope).
+- **A `## Argued out-of-scope` section** for any rejected remediations, with a one-paragraph reason per item. Reference the issue number that already covers the scope (e.g. #7 for prompt-injection markers across all scrapers, not just the new endpoint).
+- **A `## CI failures` section** explicitly noting which check failures are pre-existing vs introduced by the diff, with line numbers / commit SHAs as evidence.
+
+Until #16 lands and round-N reviewers can see this comment, the format still helps: it forces you to be explicit, makes the override paperwork obvious to reviewers reading the PR later, and gives the lead architect re-running the council a clear handoff.
 
 ## Write / Plan / Implement workflow
 
