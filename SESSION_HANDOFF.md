@@ -25,8 +25,8 @@
 `city-atlas-service` is the shared data pipeline that scrapes public sources
 (Wikipedia, Reddit, Atlas Obscura, The Infatuation, TimeOut, Locationscout),
 runs four Gemini phases (research → structure → validate → ingest), and
-writes neighborhoods + waypoints + tasks to the `travel-cities` Firestore
-database consumed by:
+writes neighborhoods + waypoints + tasks to the `urbanexplorer` named
+Firestore database (in GCP project `urban-explorer-483600`) consumed by:
 
 - **[urban-explorer](https://github.com/Anguijm/urban-explorer)** — Next.js
   photo-hunt scavenger app (read-side only).
@@ -137,13 +137,13 @@ Two PRs landed via admin override after multi-round council review:
 - **End-to-end production validation** — re-scraped Wikipedia + Reddit
   for all 19 parked cities (bug fixed by `f627d83`), re-ran the batch:
   16/18 cities completed (4 verified, 12 degraded), 2 failed. Then
-  ingested the 16 successes into `travel-cities` Firestore as
+  ingested the 16 successes into the `urbanexplorer` named database as
   `source: "enrichment-*"` documents. **15 landed cleanly**; honolulu
   is a Gemini-variance casualty of the pre-`1f173b7` `--ingest-only`
   bug, recoverable in one step.
 
-Net effect: 15 of 19 parked metros are now live in `travel-cities`
-Firestore. 4 ship `quality_status: verified` (boston, houston,
+Net effect: 15 of 19 parked metros are now live in the `urbanexplorer`
+named database. 4 ship `quality_status: verified` (boston, houston,
 melbourne, tokyo) — the first verified data ever produced from this
 repo. UE and Roadtripper can begin consuming the new dataset.
 
@@ -226,7 +226,7 @@ cp .env.example .env.local
 #   GEMINI_API_KEY=<from firebase apphosting:secrets:access or Google AI Studio>
 #   GOOGLE_APPLICATION_CREDENTIALS=$HOME/.config/gcloud/application_default_credentials.json
 #   GOOGLE_CLOUD_PROJECT=urban-explorer-483600
-#   FIRESTORE_DATABASE=travel-cities
+#   FIRESTORE_DATABASE=urbanexplorer       # named database; the rename to travel-cities was planned but never executed
 
 npm install                                          # node deps
 pip install -r requirements.txt                      # python runtime deps
@@ -328,15 +328,18 @@ Sorted by return vs risk.
   the incremental-queue and ops-console items below.
 
 ### Medium (~2 hrs each)
-- **Stage 1: publish `@travel/city-atlas-types`** — extract
-  `src/schemas/cityAtlas.ts` + the readers/transformers still living in
-  urban-explorer's `src/lib/`. Publish to GitHub Packages. Both consumer
-  apps depend on it.
+- **Stage 1: stand up cross-consumer schema sharing** — `src/schemas/cityAtlas.ts`
+  is currently consumed by copy or git-import; no published npm package. If
+  this trips a versioning need, the lift is "publish to GitHub Packages" plus
+  consumer-side dependency adoption. Not blocking; consumers work today by
+  copying the file.
 - **Wire `--app {ue|roadtripper}` flag** — the per-consumer task-template
   split. The `configs/urban-explorer/tasks.yaml` + `configs/roadtripper/
   tasks.yaml` scaffolds exist already; the flag wiring in `research_city.py`
-  + `batch_research.py` selects the config and routes writes to `tasks_ue/*`
-  or `tasks_rt/*`. Council will likely BLOCK first round — normal.
+  + `batch_research.py` selects the config. Per-consumer task differentiation
+  lives on individual task docs (the `app` field), not in separate
+  `tasks_rt`/`tasks_ue` collections. Council will likely BLOCK first round
+  — normal.
 - **Python integration tests for `phase_c_validate`** — mock Gemini +
   Firestore; council has asked for these on PR #4 and future Phase C
   changes. The unit-level helpers (`phase_c_threshold`,
@@ -439,8 +442,8 @@ Cold-start checklist (in order):
 
 ### What "production-ready" means right now
 
-The pipeline produces live data. 15 metros are in `travel-cities`
-Firestore as `enrichment-*` documents (4 verified, 11 degraded). The
+The pipeline produces live data. 15 metros are in the `urbanexplorer`
+named database as `enrichment-*` documents (4 verified, 11 degraded). The
 remaining work is **refinement** (more scraper sources, source-quality
 scoring, Cloud Run scheduling, ops console, types-package extraction)
 not **bring-up**.

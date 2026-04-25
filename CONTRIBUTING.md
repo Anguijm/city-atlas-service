@@ -15,7 +15,7 @@ cp .env.example .env.local
 #   GEMINI_API_KEY=<from firebase apphosting:secrets:access or Google AI Studio>
 #   GOOGLE_APPLICATION_CREDENTIALS=$HOME/.config/gcloud/application_default_credentials.json
 #   GOOGLE_CLOUD_PROJECT=urban-explorer-483600
-#   FIRESTORE_DATABASE=travel-cities
+#   FIRESTORE_DATABASE=urbanexplorer       # named database; rename to travel-cities was planned but never executed
 
 npm install                                          # node deps (scrapers, TS ingest)
 pip install -r requirements.txt                      # python runtime deps
@@ -48,7 +48,7 @@ This is a **TDD cadence** with a council gate on every PR. Per `CLAUDE.md`:
 
 ### What counts as a breaking change
 
-- Any edit to `src/schemas/cityAtlas.ts` — that file is the cross-consumer contract published as `@travel/city-atlas-types`. Breaking changes require a semver major and coordinated deploys to both Urban Explorer and Roadtripper.
+- Any edit to `src/schemas/cityAtlas.ts` — that file is the cross-consumer contract. Consumers (UE, Roadtripper) copy or git-import; no published npm package. Breaking changes require coordinated deploys to both consumer repos.
 - Any change to Firestore `cities/*`, `neighborhoods/*`, `waypoints/*` document shapes.
 - Rule changes in `firestore.rules` that tighten reads for existing consumer collections.
 
@@ -105,7 +105,7 @@ Pipeline tests in `src/pipeline/test_*.py`. Today these cover the Phase C propor
 
 The pipeline has god-mode on Firestore via the Admin SDK. Guards in code (e.g., `enrich_ingest.ts`'s `source: "enrichment-*"` filter) are load-bearing. Rules of engagement:
 
-- **Pipeline writes:** `cities/*`, `cities/*/neighborhoods/*`, `.../waypoints/*`, `tasks_ue/*`, `tasks_rt/*`, `seasonal_variants/*`, `vibe_*`, `pending_research/*`, `health_metrics/*`.
+- **Pipeline writes:** `cities/{cityId}` + nested `neighborhoods/`, `waypoints/`, `tasks/` subcollections; flat denormalized `vibe_neighborhoods/`, `vibe_waypoints/`, `vibe_tasks/`; `seasonal_variants/`, `pending_research/`, `health_metrics/`. (No `tasks_rt`/`tasks_ue` — per-consumer task differentiation is a field on individual task docs, not separate collections.)
 - **Pipeline must NOT write:** `saved_hunts/*` (app-owned, client-writable via `firestore.rules`), `cache_locks/*` (read-side concurrency primitive).
 - Admin SDK bypasses `firestore.rules` by design. Don't rely on rules as the only line of defense when writing from this repo.
 

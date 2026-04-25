@@ -36,7 +36,7 @@ Do NOT flag missing RLS policies, missing SQL-escape helpers, missing JWT valida
 6. If the change touches `.github/workflows/`: are action versions pinned to commit SHAs (not floating tags)?
 7. Does this change expand the set of Gemini prompts with user-sourced or scraped content where prompt-injection risk is new?
 8. If adding a dependency: is it pinned (`==`, not `>=`)? Is the publisher reputable? Maintenance recent?
-9. For the published `@travel/city-atlas-types` package: does it accidentally export any server-only code (Admin SDK bindings) that would leak into consumer client bundles?
+9. For `src/schemas/cityAtlas.ts` (the file consumers import or copy): does it accidentally export any server-only code (Admin SDK bindings) that would leak into consumer client bundles?
 10. Are repo secrets (`GEMINI_API_KEY`, `FIREBASE_SERVICE_ACCOUNT_KEY`) scoped to the workflows that need them, or broadly readable?
 
 ## Output format
