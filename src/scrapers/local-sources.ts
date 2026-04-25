@@ -6,13 +6,12 @@
  * for NotebookLM text sources in the research pipeline.
  *
  * Supported sources:
- *   - spotted-by-locals    (spottedbylocals.com)
  *   - the-infatuation      (theinfatuation.com)
  *   - timeout              (timeout.com)
  *   - locationscout        (locationscout.net)
  *
  * Usage:
- *   npx tsx src/scrapers/local-sources.ts --source spotted-by-locals
+ *   npx tsx src/scrapers/local-sources.ts --source the-infatuation --city tokyo
  *   npx tsx src/scrapers/local-sources.ts --source timeout --city tokyo
  *   npx tsx src/scrapers/local-sources.ts --source locationscout --interval 60
  *   npx tsx src/scrapers/local-sources.ts --source the-infatuation --dry-run
@@ -27,7 +26,6 @@ import * as path from "path";
 // ---------------------------------------------------------------------------
 
 const VALID_SOURCES = [
-  "spotted-by-locals",
   "the-infatuation",
   "timeout",
   "locationscout",
@@ -40,6 +38,9 @@ interface City {
   name: string;
   country: string;
   clinicalName?: string;
+  lat?: number;
+  lng?: number;
+  maxRadiusKm?: number;
 }
 
 interface ScrapedPlace {
@@ -211,107 +212,102 @@ async function tryUrls(
 // ---------------------------------------------------------------------------
 
 /**
- * Spotted by Locals — local-written blog-style recommendations.
- * URL: https://www.spottedbylocals.com/{slug}/
+ * Convert (lat, lng, radiusKm) to a NE/SW bounding box, formatted for The
+ * Infatuation's finder endpoint as `north_lat,east_lng,south_lat,west_lng`.
+ *
+ * Reference URL pattern (from the live site):
+ *   /finder?query=...&geoBounds=45.650465%2C-64.939951%2C29.780292%2C-117.842916
+ *
+ * The radius is floored at 15 km — small "village"-tier cities have a
+ * walkable maxRadiusKm (UE-tuned) that excludes nearby gems Roadtripper
+ * cares about. 15 km is wide enough to catch on-the-outskirts attractions
+ * without polluting a metro's bounding box.
  */
-async function scrapeSpottedByLocals(page: Page, city: City): Promise<ScrapeResult> {
-  const slug = slugify(city.name);
-  const countrySlug = slugify(city.country);
-
-  const urls = [
-    `https://www.spottedbylocals.com/${slug}/`,
-    `https://www.spottedbylocals.com/${slug}-${countrySlug}/`,
-    `https://www.spottedbylocals.com/${slug.replace("-city", "")}/`,
-  ];
-
-  const result = await tryUrls(page, urls, city.name);
-  if (!result) return { places: [], fullText: "" };
-
-  // Extract structured places from blog post patterns
-  const places = await page.evaluate((cityName: string) => {
-    const items: { name: string; description: string; category: string }[] = [];
-
-    // Spotted by Locals uses article/post cards with place names
-    const articles = document.querySelectorAll(
-      'article, .post, [class*="spot"], [class*="blog-post"], [class*="entry"], .card'
-    );
-
-    for (const article of articles) {
-      const heading = article.querySelector("h2, h3, h4, .title, [class*='title']");
-      const desc = article.querySelector("p, .excerpt, .description, [class*='excerpt']");
-      const cat = article.querySelector("[class*='category'], [class*='tag'], .label");
-
-      if (heading?.textContent?.trim() && heading.textContent.trim().length > 3) {
-        items.push({
-          name: heading.textContent.trim().slice(0, 200),
-          description: (desc?.textContent?.trim() || "").slice(0, 500),
-          category: cat?.textContent?.trim() || "local-recommendation",
-        });
-      }
-    }
-
-    // Deduplicate by name
-    const seen = new Set<string>();
-    return items.filter((item) => {
-      const key = item.name.toLowerCase();
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-  }, city.name);
-
-  return { places, fullText: result.text };
+function geoBoundsFor(city: City): string | null {
+  if (city.lat === undefined || city.lng === undefined) return null;
+  const radiusKm = Math.max(city.maxRadiusKm ?? 15, 15);
+  const latDelta = radiusKm / 111;
+  const lngDelta = radiusKm / (111 * Math.cos((city.lat * Math.PI) / 180));
+  const north = (city.lat + latDelta).toFixed(6);
+  const south = (city.lat - latDelta).toFixed(6);
+  const east = (city.lng + lngDelta).toFixed(6);
+  const west = (city.lng - lngDelta).toFixed(6);
+  return `${north},${east},${south},${west}`;
 }
 
 /**
- * The Infatuation — food & drink recommendations.
- * URL: https://www.theinfatuation.com/{slug}
+ * The Infatuation — finder endpoint with per-city geoBounds, concatenated
+ * with the legacy /{slug} city page when available.
+ *
+ * The two URLs surface different content: the finder returns the full
+ * cross-city catalog (guides + reviews) scoped to a bounding box, while the
+ * /{slug} city page surfaces individual venue reviews ("LATEST … REVIEWS")
+ * with verified review-card markup. Combining both gives the richest
+ * grounding for Phase A and preserves the structured `places[]` capture
+ * from the slug page.
  */
 async function scrapeTheInfatuation(page: Page, city: City): Promise<ScrapeResult> {
   const slug = slugify(city.name);
+  const bounds = geoBoundsFor(city);
 
-  const urls = [
-    `https://www.theinfatuation.com/${slug}`,
-    `https://www.theinfatuation.com/${slug}/guides`,
-  ];
+  const sections: string[] = [];
+  let places: ScrapedPlace[] = [];
 
-  const result = await tryUrls(page, urls, city.name);
-  if (!result) return { places: [], fullText: "" };
+  // 1. Finder — broad catalog, geo-scoped. Skip structured extraction here:
+  // result-tile selectors are unverified and the prose body suffices for
+  // Phase A grounding.
+  if (bounds) {
+    const query = encodeURIComponent(city.name.toLowerCase());
+    const geo = encodeURIComponent(bounds);
+    const finderUrl = `https://www.theinfatuation.com/finder?query=${query}&postType=POST_TYPE_UNSPECIFIED&geoBounds=${geo}&location=Infatuation`;
+    const finderResult = await tryUrls(page, [finderUrl], city.name);
+    if (finderResult) sections.push(`## Finder results (geo-scoped)\n\n${finderResult.text}`);
+  } else {
+    console.log(`  ⚠ ${city.name}: missing lat/lng in city cache — skipping geo-scoped finder URL (legacy /{slug} only)`);
+  }
 
-  // Verified selectors via live inspection 2026-04-08:
-  // Review cards are <a href="/{slug}/reviews/{venue}"> containing
-  // h2/h3.chakra-heading (name), span.neighborhoodTag, span.cuisineTag
-  const places = await page.evaluate((slugParam: string) => {
-    const items: { name: string; description: string; category: string; neighborhood: string; url: string }[] = [];
-    const cards = document.querySelectorAll(`a[href*="/${slugParam}/reviews/"]`);
+  // 2. Legacy city page — individual venue reviews. Verified selectors
+  // (h2/h3.chakra-heading, span.neighborhoodTag, span.cuisineTag on
+  // anchors matching /{slug}/reviews/) capture high-confidence structured
+  // place data; preserved so downstream consumers retain the .json
+  // sidecar even if Phase A only reads .md.
+  const slugResult = await tryUrls(
+    page,
+    [`https://www.theinfatuation.com/${slug}`, `https://www.theinfatuation.com/${slug}/guides`],
+    city.name,
+  );
+  if (slugResult) {
+    sections.push(`## City page (venue reviews)\n\n${slugResult.text}`);
+    places = await page.evaluate((slugParam: string) => {
+      const items: { name: string; description: string; category: string; neighborhood: string; url: string }[] = [];
+      const cards = document.querySelectorAll(`a[href*="/${slugParam}/reviews/"]`);
+      cards.forEach((card) => {
+        const nameEl = card.querySelector("h2.chakra-heading, h3.chakra-heading");
+        const hoodEl = card.querySelector("span.neighborhoodTag");
+        const cuisineEl = card.querySelector("span.cuisineTag");
+        const name = nameEl?.textContent?.trim();
+        if (name && name.length > 2 && name.length < 100) {
+          items.push({
+            name,
+            description: `Review for ${name}`,
+            category: cuisineEl?.textContent?.trim() || "food-drink",
+            neighborhood: hoodEl?.textContent?.trim() || "",
+            url: (card as HTMLAnchorElement).href,
+          });
+        }
+      });
+      const seen = new Set<string>();
+      return items.filter((item) => {
+        const key = item.name.toLowerCase();
+        if (seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      });
+    }, slug);
+  }
 
-    for (const card of cards) {
-      const nameEl = card.querySelector("h2.chakra-heading, h3.chakra-heading");
-      const hoodEl = card.querySelector("span.neighborhoodTag");
-      const cuisineEl = card.querySelector("span.cuisineTag");
-
-      const name = nameEl?.textContent?.trim();
-      if (name && name.length > 2 && name.length < 100) {
-        items.push({
-          name,
-          description: `Review for ${name}`,
-          category: cuisineEl?.textContent?.trim() || "food-drink",
-          neighborhood: hoodEl?.textContent?.trim() || "",
-          url: (card as HTMLAnchorElement).href,
-        });
-      }
-    }
-
-    const seen = new Set<string>();
-    return items.filter((item) => {
-      const key = item.name.toLowerCase();
-      if (seen.has(key)) return false;
-      seen.add(key);
-      return true;
-    });
-  }, slug);
-
-  return { places, fullText: result.text };
+  if (sections.length === 0) return { places: [], fullText: "" };
+  return { places, fullText: sections.join("\n\n") };
 }
 
 /**
@@ -426,8 +422,6 @@ function applyQualityGate(places: ScrapedPlace[]): ScrapedPlace[] {
 
 function getScrapeFn(source: SourceName): (page: Page, city: City) => Promise<ScrapeResult> {
   switch (source) {
-    case "spotted-by-locals":
-      return scrapeSpottedByLocals;
     case "the-infatuation":
       return scrapeTheInfatuation;
     case "timeout":
@@ -439,8 +433,6 @@ function getScrapeFn(source: SourceName): (page: Page, city: City) => Promise<Sc
 
 function getSourceLabel(source: SourceName): string {
   switch (source) {
-    case "spotted-by-locals":
-      return "Spotted by Locals";
     case "the-infatuation":
       return "The Infatuation";
     case "timeout":

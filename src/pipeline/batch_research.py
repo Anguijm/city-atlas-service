@@ -137,7 +137,12 @@ def scrape_atlas_if_needed(city_id: str) -> None:
         print(f"  ⚠ Atlas scrape failed (non-fatal): {e}")
 
 
-LOCAL_SOURCES = ["spotted-by-locals", "the-infatuation", "timeout", "locationscout"]
+# Spotted by Locals was retired 2026-04-26 (PR #15, closes issue #11). Manual
+# audit across all ~215 scraped cities found uniform ~9–10 KB .md files
+# dominated by template/menu chrome, not the resident-written recommendations
+# the source advertises. The signal-to-noise ratio was effectively zero;
+# Reddit + The Infatuation now cover the resident-recommendation slot.
+LOCAL_SOURCES = ["the-infatuation", "timeout", "locationscout"]
 
 
 def scrape_local_source_if_needed(city_id: str, source: str) -> None:
