@@ -11,14 +11,18 @@
 
 ## Start here next session
 
-- **`main` HEAD:** `4522361` (PR #18 — CLAUDE.md round-N drift doctrine)
-- **Last substantive merge:** `1f04365` (PR #15 — scraper refinement: Atlas Obscura overrides, Infatuation finder, Spotted by Locals retired)
-- **Open PRs:** none. Working tree clean.
+- **`main` HEAD:** `942dc50` (PR #22 — branch-guard permissions one-line fix)
+- **Last substantive merge:** `f3a9f5e` (PR #20 — `.github/workflows/branch-guard.yml`, post-hoc detector for direct pushes to main)
+- **Open PRs:** session-close PR likely #24 if the assistant left it open; otherwise none. Working tree expected clean.
 - **Top-priority next actions, in order:**
-  1. **Issue #16 — extend `.harness/scripts/council.py` to fetch prior council comment + submitter response and prepend to round-N persona prompts.** ~50–80 lines. Highest leverage on the bench because every substantive PR currently pays the override-paperwork tax for synthesizer drift. CLAUDE.md doctrine (PR #18) makes the burden predictable; this fix removes the burden.
-  2. **Honolulu recovery — single command + re-ingest.** `mv data/research-output/failed/honolulu.json data/research-output/honolulu.json` then `python src/pipeline/research_city.py --city honolulu --ingest-only --enrich`. Closes the production-ingest gap from the prior session (15/16 → 16/16).
-  3. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs landed in prior sessions; pattern is well-established. File and design before the next porting cycle introduces a fourth.
-- **Blockers:** none. CI failures on `validate` and `watch` are pre-existing tech debt unrelated to recent diffs (typecheck errors in test files, OIDC token config in pr-watch); not introduced by any of this session's PRs.
+  1. **Council-tightening sprint: #16 + #23 together.** #16 extends `.harness/scripts/council.py` to fetch prior council comment + submitter response and prepend to round-N persona prompts (~50–80 lines). #23 tightens the lead-architect rule so `score ≤4` requires a non-empty concern body before triggering BLOCK (one-line edit to `.harness/council/lead-architect.md` plus possibly persona-prompt recalibration). Both are load-bearing — every substantive PR this session burned 1–3 wasted council rounds for non-substantive reasons that these two fixes specifically address.
+  2. **Honolulu recovery** — single command + re-ingest. `mv data/research-output/failed/honolulu.json data/research-output/honolulu.json` then `python src/pipeline/research_city.py --city honolulu --ingest-only --enrich`. Closes 15/16 → 16/16.
+  3. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** Round-3 council ask on PR #20, deferred. Defense-in-depth on production writes.
+  4. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs landed across prior sessions; pattern is well-established.
+- **Blockers:** none. CI failures on `validate` and `watch` are pre-existing tech debt unrelated to any session diff. The new `branch-guard` check passes on every legitimate PR merge (verified end-to-end on `942dc50`).
+- **Doctrine reminders for next session:**
+  - **All changes to main MUST go through PRs.** Direct push will fail the `branch-guard` workflow post-hoc and leave a paper trail in the Actions tab. The session-close prompt does NOT specify the merge mechanism — the doctrine + workflow do.
+  - Database name is `urbanexplorer`, NOT `travel-cities`. Schemas are at `src/schemas/cityAtlas.ts`, NOT a published npm package. Tasks live nested under cities + flat in `vibe_tasks`, NOT in `tasks_rt`/`tasks_ue`. (CLAUDE.md "Firestore discipline" section has the full rundown.)
 
 ## What this repo is
 
