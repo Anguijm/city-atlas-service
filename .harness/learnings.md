@@ -698,3 +698,59 @@ Two issues filed: **#21**, **#23**.
 3. **Honolulu recovery** — still one-step. `mv data/research-output/failed/honolulu.json data/research-output/honolulu.json && python src/pipeline/research_city.py --city honolulu --ingest-only --enrich`. Closes 15/16 → 16/16.
 4. **#12 — CI smoke-test on entry-point scripts.** Three-data-points porting-miss bug class, still relevant.
 5. **#17 — unit tests for `geoBoundsFor` + Infatuation HTML fixtures.** Cheap follow-up from PR #15 R2.
+
+---
+
+## 2026-04-26 (continued, pt3) — branch-guard eventual-consistency fix + Honolulu recovery
+
+`main` HEAD: `95c29ce` (PR #27 squash-merge). Started this continuation at `058d123` (PR #24 docs refresh).
+One PR landed: **#27 (`95c29ce`)**. One issue closed: **#25** (closed by PR footer).
+Production data: **honolulu ingested** — parked-metros backlog now **16/16**.
+
+### KEEP
+
+- **The "fix #25 → run Honolulu" two-step ordering was correct.** Branch-guard was RED on `058d123` for the very reason #25 was filed (API eventual consistency). CLAUDE.md's Firestore-discipline preflight check is *"branch-guard must be green on HEAD before any pipeline write."* If we'd run Honolulu first, we'd have either (a) waited for the false-positive to resolve manually and then run, leaving the doctrine broken for next time, or (b) bypassed doctrine. Fixing the trip-wire before pulling the trigger kept the discipline honest and produced an empirical test of the fix on the very next merge commit.
+
+- **One-fetch + local-jq is strictly better than three sequential `gh api` calls.** Original branch-guard made three `gh api /commits/{sha}/pulls` calls — one for length, one for merged-length, one for PR number. Even before the retry loop went in, collapsing to one fetch + three `jq` filters removed a TOCTOU window between calls and cut runner-second cost. Reusable shape for any workflow that derives multiple values from one API response.
+
+- **Empirical validation on the merge commit IS the test plan.** Issue #25's acceptance criterion #2 was literally *"branch-guard runs on PR #27's merge commit and passes."* No separate test fixtures, no PR review back-and-forth on hypotheticals — the workflow runs against real GitHub eventual-consistency behavior on the very change that ships. Pattern reusable for any branch-guard-adjacent fix.
+
+### IMPROVE
+
+- **Honolulu's `--ingest-only --enrich` recipe ingested the existing degraded JSON additively but did NOT re-run Phase B "find new places."** The waypoint count stayed 19 (low for a metro). Reading `research_city.py --help` on the entry point: `--ingest-only` literally says *"Skip research + structuring, just ingest existing JSON."* When combined with `--enrich`, it routes through `enrich_ingest.ts` (additive Firestore write) but does not re-invoke Gemini Phase B. So the BACKLOG.md recipe was correct for "land the parked file in Firestore" but NOT for "fill out the gaps." If the user wants the count bumped, the right command is `python src/pipeline/research_city.py --city honolulu --enrich` (no `--ingest-only`) — which DOES rerun the find-new-places pass. **Generalization: when a recipe-style command lives in BACKLOG.md, document what it does AND what it doesn't, especially when flag composition is non-obvious.** Updating that BACKLOG.md entry as part of this docs refresh.
+
+- **The "validate" CI check has been red for the entire branch-guard saga and is still red on PR #27.** It's been called out in three session-handoff docs as "pre-existing tech debt" but it's now also a load-bearing source of CI noise on every PR. Until #12 (CI smoke-test on entry points) lands and the typecheck is brought green, every council-passed PR ships with a misleading red `validate` next to its green `council`. Worth thinking about whether `validate` should be split into "blocking-introduced-by-diff" vs "tech-debt-baseline" categories to reduce noise on substantive merges.
+
+### INSIGHT
+
+- **GitHub's `/repos/{owner}/{repo}/commits/{sha}/pulls` is eventually consistent on the order of seconds.** PR #24's merge happened at `T+0s`, the API returned `[]` at `T+7s`, and re-checking moments later returned the merged PR with `merged_at` populated. Worst case observed: 7s. A 4-attempt retry with 5s/10s/15s backoff (~30s total budget) absorbs this comfortably. **The same pattern applies to any commit→PR association lookup, including the future #21 preflight helper that runs from the developer's workstation.**
+
+- **Council scoring on `branch-guard.yml` (PR #27): 10/10/10/10/6/10 — verdict 🟢 CLEAR on round 1 with `product: 6`.** This is the FIRST PR this session where the lead-architect didn't trip BLOCK on a `product ≤6 with empty body` shape — it correctly read "neutral consumer impact, this is CI/CD" and synthesized CLEAR. **Worth noting: it's a single data point, not evidence #23 is fixed.** Two prior PRs (#22 and #18) had similar shapes — #18 went 🟢, #22 went 🔴. Both #16 and #23 still need to land. But this also means the synthesizer is occasionally calibrated correctly already on this exact pattern, which suggests the fix may be less about "rewrite the rule entirely" and more about "make the rule explicit in `lead-architect.md` instead of letting the synthesizer infer."
+
+- **Branch-guard on a new merge commit ran for 9s end-to-end this round.** The retry budget would have only kicked in if the API stayed stale across attempts. **The fix has zero observable cost when the API responds fast (which is the normal case).** Total wall-clock added in the worst case is bounded at ~30s — shorter than most council reviews and well under any reasonable user-attention threshold.
+
+- **The branch-guard work has now produced three distinct false-positive failure modes**, all fixed:
+  - PR #20 (`f3a9f5e`) — token-scope bug (`pull-requests: read` missing) → fixed in PR #22.
+  - PR #24 (`058d123`) — API eventual consistency → fixed in PR #27.
+  - PR #20 (`f3a9f5e`) again — same eventual-consistency issue masked by the token-scope 403 in the prior failure mode.
+  
+  The sequence is informative: each shipped fix exposed the next layer of the problem. **A workflow that runs against real-world API behavior catches these one at a time; testing in isolation would have missed at least the eventual-consistency one.** The trip-wire is now battle-tested on three of its own merge commits.
+
+### COUNCIL
+
+- **PR #27 (branch-guard retry): R1 🟢 CLEAR** unanimously. Scores: accessibility 10, architecture 10, bugs 10, cost 10, product 6, security 10. All persona bodies on round 1 said "None" for required remediations. Lead architect synthesis correctly classified product=6 as "no impact" rather than "concern requiring BLOCK." Squash-merged on first round. **Net council burn: 1 round, 7 Gemini calls.** Compare to: PR #20's 3 rounds + 21 calls, PR #22's 2 rounds + 14 calls. Tight scoped diff + zero pre-existing-tech-debt drag = clean council pass.
+
+### Production state at session close (continued, pt3)
+- `main`: `95c29ce` (PR #27).
+- Open PRs: **session-close PR pending** (this very commit).
+- Open issues: **9 total** — #5, #6, #7, #8, #9, #12, #14, #16, #17, #21, #23. Issue #25 closed by PR #27 footer.
+- Production Firestore: **honolulu now in `urbanexplorer`** — 5 neighborhoods, 19 waypoints, 100 tasks, `coverageTier: metro`, `quality_status: degraded`. Closes 15/16 → 16/16 on the parked-metros backlog. Geneva + lisbon still parked (English-source edge cases), london still missing from manifest.
+- Branch-guard workflow now self-healing for API eventual consistency — 4-attempt retry with 5s/10s/15s backoff.
+
+### Carryover for next session (re-prioritized)
+
+1. **#16 + #23 — council-tightening sprint.** Still highest-leverage. #16 closes cross-round memory; #23 codifies the `score ≤4 + empty body = no BLOCK` rule that the synthesizer happened to apply correctly on PR #27 R1 but didn't on PR #22. Making the rule explicit removes the variance.
+2. **#21 — automate branch-guard preflight inside pipeline entry points.** PR #27's retry pattern (4-attempt loop with 5s/10s/15s backoff over `gh api /commits/{sha}/pulls`) is the copy-pasteable template. Helper called from each `--ingest`/`--ingest-only` entry point that refuses to run if branch-guard isn't green on HEAD.
+3. **Honolulu count bump (optional)** — if filling out the 19→typical-metro-count gap matters, run `python src/pipeline/research_city.py --city honolulu --enrich` (no `--ingest-only`) to invoke Phase B's find-new-places pass + re-ingest. Pure additive write under `source: "enrichment-*"`.
+4. **#12 — CI smoke-test on entry-point scripts.** Three-data-points porting-miss bug class. Now compounded by the documented `--ingest-only --enrich` flag-composition gotcha from this turn.
+5. **#17 — unit tests for `geoBoundsFor` + Infatuation HTML fixtures.** Cheap follow-up from PR #15 R2.
