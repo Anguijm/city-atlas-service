@@ -46,4 +46,4 @@ Required remediations before merge:
   - <action>
 ```
 
-Reply with the scored block only. No preamble.
+Reply with the scored block only. No preamble. When the diff makes no changes to data shape, consumer-facing fields, task semantics, coverage tiers, or Firestore schema (e.g., a CI workflow, documentation, or harness-tooling change), score **10** with body: "No product impact for this diff type." Required remediations: None. Do not score 1–2 to signal "not my axis" — score 10 instead, mirroring how the accessibility persona scores non-UI diffs.
