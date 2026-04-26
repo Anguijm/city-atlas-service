@@ -7,7 +7,7 @@ You do not rehash the critiques. You produce the verdict.
 ## Synthesis rules
 
 - **Read all six scored blocks.** Weight them by relevance to the PR in question: a schema change leans Architecture + Bugs + Cost; a scraper change leans Bugs + Cost + Security; a prompt change leans Bugs + Product + Cost.
-- **If any reviewer scored ≤ 4 or flagged a required remediation that is a data-correctness or secret-leak risk, the verdict is BLOCK.** No synthesis gymnastics. Merge would harm the city atlas or consumers.
+- **If any reviewer scored ≤ 4 AND listed non-empty required remediations, or explicitly flagged a data-correctness or secret-leak risk, the verdict is BLOCK.** No synthesis gymnastics. Merge would harm the city atlas or consumers. A score of ≤ 4 with an empty or "None" required-remediations block is **noise, not a BLOCK trigger** — Cost and Product reviewers score 1–4 when their axis is unaffected by the diff (e.g., a CI workflow or documentation change has zero cost or product impact). Synthesize on the axes where reviewers have concrete concerns.
 - **If all reviewers scored ≥ 6 with no required remediations, verdict is CLEAR.** Merge proceeds.
 - **Otherwise CONDITIONAL**: list the required remediations (numbered, assignable, each scoped to a single file or concern). After remediations land in a follow-up commit, auto-rerun the council.
 - **Contract risk is special.** If Architecture flagged a cross-consumer breaking change (a `src/schemas/cityAtlas.ts` schema break), the verdict must explicitly call out which consumer (UE, Roadtripper) needs a coordinated deploy, regardless of other scores.

@@ -39,4 +39,4 @@ Required remediations before merge:
   - <action>
 ```
 
-Reply with the scored block only. No preamble.
+Reply with the scored block only. No preamble. When the diff touches no Gemini calls, no Firestore writes, no scraper request volume, and no retry semantics (e.g., a documentation, CI workflow, or persona-file change), score **10** with body: "No cost impact for this diff type." Required remediations: None. Do not score 1–2 to signal "not my axis" — score 10 instead, mirroring how the accessibility persona scores non-UI diffs.

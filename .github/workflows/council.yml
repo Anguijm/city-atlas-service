@@ -169,6 +169,8 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           BASE_REF: origin/${{ github.event.pull_request.base.ref }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         # No || fallbacks. If council.py fails, the job fails — loud and
         # visible. The post-comment step still runs (always()) so the human
         # sees what happened.
@@ -179,7 +181,10 @@ jobs:
         # plan that's not in git history. The whole point of the tracked-
         # plan gate (see CLAUDE.md "What counts as approval") is to make
         # approvals auditable. Never add --allow-untracked here.
-        run: python3 .harness/scripts/council.py --diff --base "$BASE_REF"
+        run: |
+          PR_ARG=""
+          if [ -n "${PR_NUMBER:-}" ]; then PR_ARG="--pr-number ${PR_NUMBER}"; fi
+          python3 .harness/scripts/council.py --diff --base "$BASE_REF" $PR_ARG
 
       - name: Post or update council comment
         if: always() && steps.skip.outputs.skip != 'true' && steps.halt.outputs.halted != 'true' && steps.budget.outputs.over_budget != 'true'
