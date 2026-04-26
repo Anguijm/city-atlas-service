@@ -4,7 +4,7 @@
 > For long-form session learnings see `.harness/learnings.md`.
 > For start-here-next-session block see `SESSION_HANDOFF.md`.
 >
-> Last refreshed: 2026-04-26 (pt3).
+> Last refreshed: 2026-04-26 (pt4).
 
 ## Now (this week)
 
@@ -49,11 +49,12 @@
 
 ## In flight (branches not yet merged)
 
-- **`docs/session-close-2026-04-26-pt3`** — this very session's close docs (this BACKLOG.md update, learnings.md append, SESSION_HANDOFF.md refresh).
+- **`docs/session-close-2026-04-26-pt4`** — pt4 session-close docs (this BACKLOG.md update, learnings.md pt4 append, SESSION_HANDOFF.md HEAD bump, MEMORY.md refresh).
 
 ## Recently closed
 
-- **#25** — Branch-guard eventual-consistency false-positive. Closed by PR #27 (`95c29ce`) — 4-attempt retry with 5s/10s/15s backoff over the `gh api /commits/{sha}/pulls` lookup. Empirically validated: branch-guard ✓ on PR #27's own merge commit (the very class of bug the PR fixes).
+- **PR #28** — pt3 session-close docs (branch-guard retry fix + Honolulu recovery docs). Admin-merged `9d21015` after R1 🔴 → R2 🔴. Score deltas R1→R2: cost +9, security +2, bugs +1, product −4. R1 cost=1 with empty body → R2 cost=10 with substantive body on the same diff = canonical #23 score-noise evidence. Architecture reviewer 10/10 with "improves operational safety, no remediations" both rounds. Override paperwork in the merge commit + R1/R2 PR comments.
+- **#25** — Branch-guard eventual-consistency false-positive. Closed by PR #27 (`95c29ce`) — 4-attempt retry with 5s/10s/15s backoff over the `gh api /commits/{sha}/pulls` lookup. Empirically validated: branch-guard ✓ on PR #27's own merge commit (the very class of bug the PR fixes), and again on PR #28's merge commit (`9d21015`).
 - **Honolulu (no issue)** — Parked-metros backlog now **16/16**. Ingested via `enrich_ingest.ts` additive path: 5 neighborhoods / 19 waypoints / 100 tasks / `coverageTier: metro` / `quality_status: degraded` written to `urbanexplorer`.
   - **⚠ DANGER — this is a one-off recovery for a TRANSIENT WRITE ERROR, not a general recipe for any failed city.** Honolulu's Phase A/B/C ran *successfully* and produced a `quality_status: degraded` JSON. The original failure was a **transient write error** at the Firestore-ingest step — specifically the pre-`1f173b7` `--ingest-only` flag-routing bug (which dropped `--enrich` and routed through the strict baseline path that rejects degraded JSONs). That bug has been fixed; ingesting the existing JSON additively was therefore safe and equivalent to having ingested it correctly the first time.
   - **DO NOT use `--ingest-only --enrich` for any city that landed in `data/research-output/failed/` because Phase C rejected its content** (coordinate drift, hallucinated POIs, semantic-audit failure, etc.). Phase C is the load-bearing semantic gate and `--ingest-only` skips it; running this recipe on a Phase-C-rejected JSON would push known-bad data to production Firestore. The correct procedure for those cases is `python src/pipeline/research_city.py --city <X> --enrich` (no `--ingest-only`), which re-runs Phase B (find new places) and Phase C (semantic audit) before any Firestore write. If Phase C rejects again, the city stays parked and the recipe is NOT a way around that.

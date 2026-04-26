@@ -11,7 +11,7 @@ Batch data pipeline that builds the shared city atlas consumed by **Urban Explor
 
 ## Status
 
-Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). End-to-end validated through real Gemini output on 2026-04-25 — 15 of the 19 originally-parked metro cities now ingested as `source: "enrichment-*"` documents in the `urbanexplorer` named database; 4 of those 15 are `quality_status: verified` (the first verified data ever produced from this repo). Honolulu pending one-step recovery (16/16); geneva + lisbon are English-source edge cases. Per-source scraper refinement landed in PR #15 (Atlas Obscura overrides, Infatuation finder, Spotted by Locals retired). See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
+Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). End-to-end validated through real Gemini output on 2026-04-25 — **16 of the 19 originally-parked metro cities now ingested** (honolulu landed 2026-04-26 pt3 via additive `enrich_ingest.ts` path) as `source: "enrichment-*"` documents in the `urbanexplorer` named database; 4 of those 16 are `quality_status: verified` (the first verified data ever produced from this repo); geneva + lisbon remain English-source edge cases; london is mysteriously absent from the manifest. Per-source scraper refinement landed in PR #15 (Atlas Obscura overrides, Infatuation finder, Spotted by Locals retired). Branch-guard (PR #20) detects direct pushes to `main` post-hoc; PR #27 added retry-with-backoff for GitHub API eventual consistency. See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
 
 ## Governance
 
@@ -59,8 +59,10 @@ Tracked as GitHub issues:
 - **#14** — Admin web interface for POI find/add/edit (paste URL or info directly)
 - **#16** — Council infrastructure: pass prior remediations + submitter response into round-N prompt to prevent synthesizer drift
 - **#17** — Unit tests for `geoBoundsFor` + Infatuation HTML fixtures
+- **#21** — Automate branch-guard preflight inside pipeline entry points (defense-in-depth for production writes)
+- **#23** — Lead-architect rule: `score ≤4` should require non-empty body before triggering BLOCK (eliminates score-noise false-blocks)
 
-(#11 closed by PR #15. #10 closed in prior session via `f627d83`.)
+(#11 closed by PR #15. #10 closed in prior session via `f627d83`. #25 closed by PR #27.)
 
 The pipeline is currently producing data despite all of these — they're improvements, not blockers. Priority guidance lives in `BACKLOG.md` (active) and `SESSION_HANDOFF.md` (start-here block).
 

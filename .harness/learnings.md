@@ -756,3 +756,56 @@ Production data: **honolulu ingested** — parked-metros backlog now **16/16**.
 3. **Honolulu count bump (optional)** — if filling out the 19→typical-metro-count gap matters, run `python src/pipeline/research_city.py --city honolulu --enrich` (no `--ingest-only`) to invoke Phase B's find-new-places pass + re-ingest. Pure additive write under `source: "enrichment-*"`.
 4. **#12 — CI smoke-test on entry-point scripts.** Three-data-points porting-miss bug class. Now compounded by the documented `--ingest-only --enrich` flag-composition gotcha from this turn.
 5. **#17 — unit tests for `geoBoundsFor` + Infatuation HTML fixtures.** Cheap follow-up from PR #15 R2.
+
+---
+
+## 2026-04-26 (pt4) — pt3 docs landed, council drift dataset extended
+
+`main` HEAD: `9d21015` (PR #28 admin-merge). Started this continuation at `95c29ce` (post-PR #27).
+One PR landed: **#28 (`9d21015`)**. No issues filed (no new structural problems uncovered).
+Two PRs total this turn: #27 (✅ R1 🟢) and #28 (🔴 R1 → 🔴 R2 → admin-merge with paperwork).
+
+### KEEP
+
+- **PR #28's "apply legit ask + push + admin-merge with response comment" pattern is the right shape for mixed-verdict councils.** Council R1 BLOCKed with one legit ask (#2: doc warning) + three OOS (#1 pipeline code, #3 prompt-injection #7, #4 UA email #9). Pattern: address #2 in code, argue OOS on the rest in the response comment. R2 came back with same-surface flip on R1 #1 (still asking for pipeline code change in a docs PR) + a partial-credit ask on the doc framing (#4) + a hallucinated UE constraint (#3). Pattern again: address the partial credit, argue OOS on the rest, admin-merge with full paperwork. Total burn: 2 council rounds for a docs PR — high but converged.
+
+- **The submitter-response comment format keeps paying dividends.** Used twice on PR #28 (R1 + R2). Each comment was structured: score-deltas table → status-by-remediation table → "## Argued out-of-scope" section → "## CI failures" section → forward-looking note about the next round expectation. The format made the admin-override paperwork in the merge commit a near-direct restatement of the comment — no fresh writing needed.
+
+- **Cross-checking reviewer claims against the codebase prevents capitulating to hallucinated constraints.** PR #28 R2 product reviewer asserted "UE has a 12-waypoint-per-neighborhood minimum" and downgraded product=9→5 on that basis. Searched CLAUDE.md, schemas, and prior session notes — no such constraint anywhere. Likely reviewer fabrication. Response comment named the uncertainty explicitly ("not documented in CLAUDE.md, schemas, or any artifact I have access to — likely reviewer-hallucinated") rather than auto-promoting honolulu-count-bump to P1 on a fact that may not exist. **Generalization: when a reviewer's BLOCK rests on a consumer-side constraint, verify against the schema contract first; the schema is the contract, not the reviewer's claim.**
+
+### IMPROVE
+
+- **PR #28 R1 cost=1 → R2 cost=10 score-flip on the same diff is the cleanest before/after evidence for #23 yet seen.** R1 cost=1 with body literally saying "Required remediations: None" + "intended, one-time, operator-driven cost, not an automated or recurring one" — pure score noise. R2 cost=10 with similar body content — substantive read. Same diff (R2 added only an unrelated doc-warning commit `af8d797`), same cost reviewer, opposite scores. The cost reviewer changed its own mind by 9 points in the absence of any cost-relevant change. That's not signal — that's noise. This data point should be cited verbatim when implementing #23's `score ≤4 + empty body = no BLOCK` rule. **The R1 → R2 progression on PR #28 is now the canonical "this is what synthesizer drift looks like" exhibit.**
+
+### INSIGHT
+
+- **The "validate" CI check is now a chronic source of false-RED alongside green council.** PR #27, PR #28 both shipped with red `validate` from pre-existing TS typecheck errors in `src/__tests__/build-vibe-cache-*.test.ts`, `src/scrapers/local-sources.ts`, `src/pipeline/qc_cleanup.ts`. None of those files have been touched in any session diff for at least the last six PRs. **Until #12 brings `validate` green, the check has signal-to-noise approaching zero.** Issue #12's design should consider splitting it into "pre-existing baseline" (must remain green) vs "introduced-by-diff" (blocks merge) sub-jobs so the producer-side signal matches the actual delta of each PR.
+
+- **Honolulu's BACKLOG.md DANGER block is now the canonical "decision rule for `--ingest-only` on `failed/` files."** Wrote the operator decision rule in three layers: (1) when it's safe (transient write error, Phase A/B/C succeeded, ingest itself failed), (2) when it's unsafe (Phase C rejected the city), (3) what to do instead (`--enrich` without `--ingest-only` reruns Phase B/C). The reviewer's R2 #4 ask drove this clarification — and the reviewer was correct that R1's warning was insufficient. **Generalization: when a council reviewer says "the warning is not strong enough," that's often a real ask even from a synthesizer that's also producing OOS noise; differentiate "strengthen the legit thing" from "concede the OOS thing."**
+
+- **`gh pr merge --admin --squash` accepts `--subject` and `--body` and uses them verbatim — they're not concatenated with the PR description.** Verified on PR #28: the merge commit message is exactly the multi-paragraph rationale passed via `--body`, with the `--subject` as the squash subject. This is the right tool when admin-merge paperwork needs to land in the commit log (vs only in PR comments). Useful for any future override.
+
+### COUNCIL
+
+- **PR #27 (branch-guard retry-with-backoff): R1 🟢 CLEAR.** Scores 10/10/10/10/6/10. Synthesizer correctly read product=6 with neutral-impact body as "no concern." Squash-merge round 1. **Net burn: 1 round, ~7 Gemini calls.**
+
+- **PR #28 (pt3 session-close docs): R1 🔴 BLOCK → R2 🔴 BLOCK → admin-merge.**
+  - R1 scores: 10/10/3/1/9/4. Three OOS asks (#7-prompt-inj, #9-UA-email, pipeline code in docs PR) + one legit (doc warning). Cost=1 with empty body = #23 noise pattern.
+  - R2 scores: 10/10/4/10/5/6. Score deltas: cost +9, security +2, bugs +1, product −4. NEW remediations: same-surface flip on pipeline code (R2 #1 ↔ R1 #1), out-of-band UE coordination (R2 #2), hallucinated UE constraint (R2 #3), legit partial-credit on doc framing (R2 #4).
+  - **Admin-merged with paperwork** per round-N drift doctrine. Architecture reviewer 10/10 with "improves operational safety, no remediations" is the closest read of "is this PR shippable as-is." Lead-architect overweighted bugs=4 + product=5 against architecture=10 + cost=10.
+  - **Net burn: 2 rounds, ~14 Gemini calls** for a 4-file markdown diff. Without #16 + #23 the next docs PR will pay the same tax.
+
+### Production state at session close (pt4)
+- `main`: `9d21015` (PR #28).
+- Open PRs: **session-close PR pending** (this very commit).
+- Open issues: **9 total** — #5, #6, #7, #8, #9, #12, #14, #16, #17, #21, #23. Unchanged from pt3.
+- Production Firestore unchanged from pt3: 16/16 parked metros live (4 verified, 12 degraded). Geneva + lisbon still parked, london still missing from manifest.
+- Branch-guard ✓ on `9d21015` (the merge commit of pt3 docs). Second consecutive merge to validate the retry-with-backoff fix; no false-RED observed since PR #27 landed.
+
+### Carryover for next session (re-prioritized)
+
+1. **#23 — lead-architect score-rule fix.** Now has the cleanest evidence yet: PR #28 R1 cost=1 → R2 cost=10 with same diff. One-line edit to `.harness/council/lead-architect.md` to require non-empty body before `score ≤4` triggers BLOCK. Pair with #16.
+2. **#16 — cross-round memory in council prompts.** PR #28 R2 surfaced same-surface flips on R1 #1 (pipeline code change). Without round-N reading R1's response comment, this drift will keep happening. ~50–80 lines in `.harness/scripts/council.py`.
+3. **#21 — branch-guard preflight automation in pipeline entry points.** PR #27's retry pattern is the copy-pasteable template. Helper called from each `--ingest`/`--ingest-only` entry point. Bonus: the same helper is the natural place to add a Phase-C-bypass guard for `--ingest-only` against `data/research-output/failed/` files (per PR #28 R2 #1 deferred ask).
+4. **#12 — CI smoke-test on entry-point scripts.** Compounded by the `--ingest-only` flag-composition gotcha (which doesn't trip any existing CI check). Could also fold in the "split `validate` into baseline-vs-diff" idea documented in pt4 INSIGHT.
+5. **#17 — unit tests for `geoBoundsFor` + Infatuation HTML fixtures.** Cheap follow-up from PR #15 R2.
