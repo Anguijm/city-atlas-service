@@ -38,7 +38,28 @@ jobs:
           REPO="${{ github.repository }}"
           echo "Checking commit $SHA on $REPO ..."
 
-          PR_COUNT=$(gh api "/repos/$REPO/commits/$SHA/pulls" --jq 'length')
+          # GitHub's commit→PR association endpoint is eventually consistent.
+          # On a freshly-merged PR the lookup can return [] for several seconds
+          # before the index catches up. Retry with bounded backoff (~30s total).
+          # A genuine direct push stays empty across all retries and still fails.
+          PR_JSON=""
+          PR_COUNT=0
+          for ATTEMPT in 1 2 3 4; do
+            PR_JSON=$(gh api "/repos/$REPO/commits/$SHA/pulls")
+            PR_COUNT=$(echo "$PR_JSON" | jq 'length')
+            if [ "$PR_COUNT" -gt 0 ]; then
+              if [ "$ATTEMPT" -gt 1 ]; then
+                echo "PR association resolved on attempt $ATTEMPT."
+              fi
+              break
+            fi
+            if [ "$ATTEMPT" -lt 4 ]; then
+              SLEEP=$((ATTEMPT * 5))
+              echo "Attempt $ATTEMPT: no PR association yet, sleeping ${SLEEP}s..."
+              sleep "$SLEEP"
+            fi
+          done
+
           if [ "$PR_COUNT" -eq 0 ]; then
             echo "::error::Direct push to main detected (commit $SHA has no associated PR)."
             echo "::error::All changes to main must go through a PR per CLAUDE.md doctrine."
@@ -46,12 +67,12 @@ jobs:
             exit 1
           fi
 
-          MERGED_COUNT=$(gh api "/repos/$REPO/commits/$SHA/pulls" --jq '[.[] | select(.merged_at != null)] | length')
+          MERGED_COUNT=$(echo "$PR_JSON" | jq '[.[] | select(.merged_at != null)] | length')
           if [ "$MERGED_COUNT" -eq 0 ]; then
             echo "::error::Commit $SHA is referenced by PR(s) but none are marked merged."
             echo "::error::This is unexpected on main; investigate manually."
             exit 1
           fi
 
-          PR_NUM=$(gh api "/repos/$REPO/commits/$SHA/pulls" --jq '[.[] | select(.merged_at != null)][0].number')
+          PR_NUM=$(echo "$PR_JSON" | jq '[.[] | select(.merged_at != null)][0].number')
           echo "✓ Commit $SHA is the merge of PR #$PR_NUM — branch guard passes."
