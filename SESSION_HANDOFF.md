@@ -1,8 +1,8 @@
 # Session Handoff — city-atlas-service
 
-> Living document. Last refreshed 2026-04-26 at end-of-session. Edit in place
-> rather than appending date-stamped blocks — this is the "what would you want
-> to know on day one" index, not a changelog.
+> Living document. Last refreshed 2026-04-26 (pt3) at end-of-session. Edit in
+> place rather than appending date-stamped blocks — this is the "what would
+> you want to know on day one" index, not a changelog.
 >
 > **For session-by-session learnings, see `.harness/learnings.md`** (append-
 > only; KEEP / IMPROVE / INSIGHT / COUNCIL blocks per task).
@@ -11,17 +11,18 @@
 
 ## Start here next session
 
-- **`main` HEAD:** `942dc50` (PR #22 — branch-guard permissions one-line fix)
-- **Last substantive merge:** `f3a9f5e` (PR #20 — `.github/workflows/branch-guard.yml`, post-hoc detector for direct pushes to main)
-- **Open PRs:** session-close PR likely #24 if the assistant left it open; otherwise none. Working tree expected clean.
+- **`main` HEAD:** `95c29ce` (PR #27 — branch-guard retry-with-backoff for API eventual consistency)
+- **Last substantive merge:** same — `95c29ce`. Production data also moved this session: **honolulu ingested**, parked-metros backlog now **16/16** in the `urbanexplorer` named database.
+- **Open PRs:** session-close PR pending if the assistant left it open. Working tree expected clean otherwise.
 - **Top-priority next actions, in order:**
-  1. **Council-tightening sprint: #16 + #23 together.** #16 extends `.harness/scripts/council.py` to fetch prior council comment + submitter response and prepend to round-N persona prompts (~50–80 lines). #23 tightens the lead-architect rule so `score ≤4` requires a non-empty concern body before triggering BLOCK (one-line edit to `.harness/council/lead-architect.md` plus possibly persona-prompt recalibration). Both are load-bearing — every substantive PR this session burned 1–3 wasted council rounds for non-substantive reasons that these two fixes specifically address.
-  2. **Honolulu recovery** — single command + re-ingest. `mv data/research-output/failed/honolulu.json data/research-output/honolulu.json` then `python src/pipeline/research_city.py --city honolulu --ingest-only --enrich`. Closes 15/16 → 16/16.
-  3. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** Round-3 council ask on PR #20, deferred. Defense-in-depth on production writes.
-  4. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs landed across prior sessions; pattern is well-established.
-- **Blockers:** none. CI failures on `validate` and `watch` are pre-existing tech debt unrelated to any session diff. The new `branch-guard` check passes on every legitimate PR merge (verified end-to-end on `942dc50`).
+  1. **Council-tightening sprint: #16 + #23 together.** #16 extends `.harness/scripts/council.py` to fetch prior council comment + submitter response and prepend to round-N persona prompts (~50–80 lines). #23 tightens the lead-architect rule so `score ≤4` requires a non-empty concern body before triggering BLOCK (one-line edit to `.harness/council/lead-architect.md` plus possibly persona-prompt recalibration). PR #27's R1 🟢 CLEAR with `product: 6` shows the synthesizer can read this case correctly — but PR #22 didn't, so the rule needs to be explicit, not implicit.
+  2. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** Round-3 council ask on PR #20, deferred. Defense-in-depth on production writes. **PR #27's retry pattern (4-attempt loop, 5s/10s/15s backoff over `gh api /commits/{sha}/pulls`) is the copy-pasteable template** for the eventual-consistency handling this helper needs.
+  3. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs across prior sessions; pattern is well-established. Now compounded by the `--ingest-only --enrich` flag-composition gotcha documented in pt3 learnings (additive ingest, no Phase B re-run).
+  4. **Issue #17 — unit tests for `geoBoundsFor` + Infatuation HTML fixtures.** Cheap follow-up from PR #15 R2.
+- **Blockers:** none. CI failures on `validate` and `watch` remain pre-existing tech debt unrelated to any session diff. The `branch-guard` check now passes reliably on every legitimate PR merge (validated end-to-end on `95c29ce`'s own merge commit, which is the very class of bug PR #27 fixes).
 - **Doctrine reminders for next session:**
-  - **All changes to main MUST go through PRs.** Direct push will fail the `branch-guard` workflow post-hoc and leave a paper trail in the Actions tab. The session-close prompt does NOT specify the merge mechanism — the doctrine + workflow do.
+  - **All changes to main MUST go through PRs.** Direct push fails the `branch-guard` workflow post-hoc and leaves a paper trail in the Actions tab. As of PR #27 the workflow self-heals over GitHub API eventual consistency — false-positive failures on freshly-merged commits are gone.
+  - **Branch-guard preflight before pipeline writes.** Run `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` and confirm `success` before any `--ingest`/`--ingest-only` invocation. The retry-with-backoff fix means false RED is no longer expected; if you see RED on HEAD, treat it as real and investigate.
   - Database name is `urbanexplorer`, NOT `travel-cities`. Schemas are at `src/schemas/cityAtlas.ts`, NOT a published npm package. Tasks live nested under cities + flat in `vibe_tasks`, NOT in `tasks_rt`/`tasks_ue`. (CLAUDE.md "Firestore discipline" section has the full rundown.)
 
 ## What this repo is
@@ -45,15 +46,16 @@ needed from this repo until then.
 
 ## What's in main right now
 
-`main` = `4522361` at the end of the 2026-04-26 session. Recent history:
+`main` = `95c29ce` at the end of the 2026-04-26 (pt3) session. Recent history:
 
 ```
+95c29ce branch-guard: retry commit→PR lookup to absorb GitHub API eventual consistency (#27)
+058d123 Session close 2026-04-26 (continued): docs refresh after PR #19/#20/#22 (#24)
+942dc50 Fix branch-guard: add pull-requests: read permission (#22)
+f3a9f5e Branch Guard workflow: post-hoc detect direct pushes to main (#20)
+c9f8985 CLAUDE.md: honest doctrine + reconcile docs with code reality (#19)
 4522361 CLAUDE.md: codify round-N drift doctrine + submitter response format (#18)
 1f04365 Refine scrapers per issue #11: Atlas Obscura overrides, Infatuation finder, retire SBL (#15)
-9e116d9 Session-close handoff: docs refresh + final batch + ingest data (#13)
-b6baf39 Capture production-ingest results: 15/16 cities live in Firestore
-1f173b7 Fix --ingest-only: route through enrich_ingest when --enrich passed; skip Phase C re-run
-dc60a3c Capture post-rerun validation results: 16/18 unparked, 4 verified
 ```
 
 Layout:
@@ -320,11 +322,11 @@ Council + pr-watch silently no-op until the file is removed.
 Sorted by return vs risk.
 
 ### Now (top of queue)
-- **15/16 parked metros are now in Firestore** as enrichment-tagged documents (algiers, boston, buenos-aires, cincinnati, denver, fukuoka, houston, las-vegas, melbourne, muscate, nashville, osaka, rome, shanghai, tokyo). 4 verified (boston, houston, melbourne, tokyo) — first verified data ever produced from this repo.
-- **Recover honolulu** — one-step: `mv data/research-output/failed/honolulu.json data/research-output/honolulu.json && python3.12 src/pipeline/research_city.py --city honolulu --enrich --ingest-only`. Honolulu was a Gemini-variance casualty of the `--ingest-only` bug fixed in `1f173b7`; data is intact in `failed/`.
-- **Close issues #10 + file #12** — issue #10's fix landed in `f627d83` and is end-to-end validated. Issue #12 (CI smoke-test on entry points) earned a third data point (Python paths in `90b8c2a`, TS paths in `f627d83`, flag composition in `1f173b7`) — should be filed.
+- **16/16 parked metros are in Firestore** as enrichment-tagged documents (algiers, boston, buenos-aires, cincinnati, denver, fukuoka, honolulu, houston, las-vegas, melbourne, muscate, nashville, osaka, rome, shanghai, tokyo). 4 verified (boston, houston, melbourne, tokyo); 12 degraded. **Honolulu landed in pt3** via `enrich_ingest.ts` additive path with `--ingest-only --enrich`: 5 nbhd / 19 wp / 100 tasks / `coverageTier: metro`. Waypoint count is on the low end for a metro — rerun `python src/pipeline/research_city.py --city honolulu --enrich` (no `--ingest-only`) if a count bump is needed.
+- **Council-tightening sprint #16 + #23** — highest-leverage open work. See "Top-priority next actions" above.
+- **Pipeline preflight automation #21** — copy PR #27's retry pattern into a helper called from each ingest entry point.
 - **Investigate London absence from manifest** — london is in `configs/global_city_cache.json` but missing from `manifest.cities`. Quick cause-finder: did batch_research's `load_cities` filter london out, or is the manifest simply out of date?
-- **Investigate geneva + lisbon failures.** Both are limit-cases on English-only source coverage. Worth a manual Phase A run with a language-aware variant of the prompt to confirm, then file as scoped follow-up to #11.
+- **Investigate geneva + lisbon failures.** Both are limit-cases on English-only source coverage. Worth a manual Phase A run with a language-aware variant of the prompt to confirm, then file as scoped follow-up.
 
 ### Short (~30 min each)
 - **Close out follow-up issues** #5–#9 as priorities allow. None are
@@ -431,11 +433,10 @@ Cold-start checklist (in order):
 7. `gh issue list --repo Anguijm/city-atlas-service` for the follow-up
    backlog (currently #5–#9, #11, #12 — see "Open follow-up issues"
    block above for the canonical list).
-8. **Top of queue right now**: see the "Now (top of queue)" block under
-   "Roadmap" below. As of 2026-04-25 close, the priority items are
-   honolulu recovery (one `mv` + single-city re-ingest), then issue #11
-   (scraper refinement) or issue #12 (CI smoke-test) depending on what
-   you want to attack next.
+8. **Top of queue right now**: see the "Top-priority next actions" block
+   above and "Roadmap > Now (top of queue)" below. As of 2026-04-26 (pt3)
+   close, the priority items are the council-tightening sprint
+   (#16 + #23) and the branch-guard preflight automation (#21).
 9. If running locally: follow the RUNBOOK above. Note the `--ingest-only`
    semantics changed in `1f173b7` (now skips Phase C re-run + routes
    correctly through `enrich_ingest.ts` when paired with `--enrich`).
@@ -446,8 +447,8 @@ Cold-start checklist (in order):
 
 ### What "production-ready" means right now
 
-The pipeline produces live data. 15 metros are in the `urbanexplorer`
-named database as `enrichment-*` documents (4 verified, 11 degraded). The
+The pipeline produces live data. 16 metros are in the `urbanexplorer`
+named database as `enrichment-*` documents (4 verified, 12 degraded). The
 remaining work is **refinement** (more scraper sources, source-quality
 scoring, Cloud Run scheduling, ops console, types-package extraction)
 not **bring-up**.
