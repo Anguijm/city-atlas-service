@@ -19,13 +19,13 @@ GitHub's hard-block branch protection (the preventative equivalent) requires Pro
 - File follow-up issues for every legitimate concern the council raised. The override is escape-hatch-from-this-PR, not dismissal of the feedback.
 - Document the rationale in the merge commit message.
 - Reserved for non-emergencies. `[skip council]` in the PR title is the *emergency* lever (skips the workflow entirely); admin override is the *judgment* lever (council ran, you considered the verdict, you chose to merge anyway with paperwork).
-- Three examples: PR #3 (admin-override on a markdown-only diff because security 3/10 was driven by three pre-existing scraper concerns outside the diff scope; filed as #7/#8/#9), PR #4 (admin-override after five rounds when the remaining BLOCK remediation was an SRE alert-pipe configuration outside this code repo; filed as #5), PR #15 (admin-override after two rounds when the synthesizer flipped on three surfaces between rounds — log→throw, +15km radius approve→reject, reinstate→remove `places[]`; filed as #14/#16/#17).
+- Four examples: PR #3 (admin-override on a markdown-only diff because security 3/10 was driven by three pre-existing scraper concerns outside the diff scope; filed as #7/#8/#9), PR #4 (admin-override after five rounds when the remaining BLOCK remediation was an SRE alert-pipe configuration outside this code repo; filed as #5), PR #15 (admin-override after two rounds when the synthesizer flipped on three surfaces between rounds — log→throw, +15km radius approve→reject, reinstate→remove `places[]`; filed as #14/#16/#17), PR #30 (admin-override after two rounds — security went 3→9 confirming the fix worked; residual BLOCKs were R1 "at-minimum" path contradicted by R2 "must fail CI," and re-raise of a previously-argued-OOS unit-test ask; filed into #17).
 
 This replaces the ad-hoc `mcp__gemini__ask-gemini` audit protocol used in the urban-explorer repo. MCP-based audits remain available as a local dev-time sanity check but are not the merge gate.
 
 ### Round-N drift doctrine
 
-The council has no cross-round memory (each round reads the diff fresh; tracked as #16). Until that lands, the submitter carries the burden of preventing whipsaw. Two rules:
+**Cross-round memory landed in PR #30 (`18f150e`, 2026-04-27).** `council.py` now fetches the prior council report + submitter response via `gh api` and injects a `=== PRIOR ROUND CONTEXT ===` block into every round-N persona prompt. The submitter still carries the burden of posting the fixed-format response comment (rule 2 below) so the injected context is complete and structured. Two rules:
 
 **1. Round 2 = unblock or escalate.** If round 2 introduces NEW remediations on the *same surface* as a round-1 prescription you already implemented as specified, you do not owe a round 3. The synthesizer is contradicting itself on a surface you already addressed; admin-override is the right tool. Document the contradiction in the merge commit (round-1 prescription vs round-2 ask, your implementation, why the flip is drift not new evidence). File follow-up issues for any net-new remediations that *aren't* contradictions. Score deltas across rounds are useful evidence in the override paperwork — if N of 6 axes improved meaningfully and the residual blocks are all surface-flips, the override is well-calibrated.
 
@@ -34,7 +34,7 @@ The council has no cross-round memory (each round reads the diff fresh; tracked 
 - **A `## Argued out-of-scope` section** for any rejected remediations, with a one-paragraph reason per item. Reference the issue number that already covers the scope (e.g. #7 for prompt-injection markers across all scrapers, not just the new endpoint).
 - **A `## CI failures` section** explicitly noting which check failures are pre-existing vs introduced by the diff, with line numbers / commit SHAs as evidence.
 
-Until #16 lands and round-N reviewers can see this comment, the format still helps: it forces you to be explicit, makes the override paperwork obvious to reviewers reading the PR later, and gives the lead architect re-running the council a clear handoff.
+The format matters even with cross-round memory active: it provides the structured signal `council.py` looks for when identifying the submitter response (scanned for `## Argued out-of-scope` or `## CI failures` headers), makes override paperwork obvious to future readers, and gives the lead architect a clear handoff.
 
 ## Write / Plan / Implement workflow
 

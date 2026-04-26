@@ -1,6 +1,6 @@
 # Session Handoff — city-atlas-service
 
-> Living document. Last refreshed 2026-04-26 (pt4) at end-of-session. Edit in
+> Living document. Last refreshed 2026-04-27 at end-of-session. Edit in
 > place rather than appending date-stamped blocks — this is the "what would
 > you want to know on day one" index, not a changelog.
 >
@@ -11,21 +11,22 @@
 
 ## Start here next session
 
-- **`main` HEAD:** `9d21015` (PR #28 — pt3 session-close docs, admin-merged after 2-round council drift)
-- **Last substantive code merge:** `95c29ce` (PR #27 — branch-guard retry-with-backoff, 🟢 R1)
-- **Production state:** **16/16 parked metros live** in the `urbanexplorer` named Firestore database (4 verified, 12 degraded). Honolulu landed pt3 via additive `enrich_ingest.ts` path. No outstanding pipeline runs.
-- **Open PRs:** session-close PR pending if the assistant left it open. Working tree expected clean otherwise.
+- **`main` HEAD:** `18f150e` (PR #30 — council cross-round memory + score-rule tightening, admin-merge after 2-round drift)
+- **Last substantive code merge:** `18f150e` (PR #30 — `council.py` cross-round memory + `lead-architect.md` / `cost.md` / `product.md` score-rule fixes)
+- **Production state:** **16/16 parked metros live** in the `urbanexplorer` named Firestore database (4 verified, 12 degraded). No outstanding pipeline runs.
+- **Open PRs:** **#26 (schema alignment)** — 🔴 BLOCK at R1 with 4 real remediations. First action next session.
 - **Top-priority next actions, in order:**
-  1. **Council-tightening sprint: #23 + #16 together.** PR #28 produced the cleanest before/after evidence yet for #23: R1 cost=1 (body literally "Required remediations: None") → R2 cost=10 (substantive body) on the same diff — pure score noise. One-line edit to `.harness/council/lead-architect.md` to require non-empty body before `score ≤4` triggers BLOCK. #16 extends `.harness/scripts/council.py` to fetch prior council comment + submitter response and prepend to round-N persona prompts (~50–80 lines), closing the cross-round memory gap that produced PR #28 R2's same-surface flip on R1 #1.
-  2. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** Round-3 council ask on PR #20, deferred. **PR #27's retry pattern (4-attempt loop, 5s/10s/15s backoff over `gh api /commits/{sha}/pulls`) is the copy-pasteable template.** The same helper is the natural place to add a Phase-C-bypass guard for `--ingest-only` against `data/research-output/failed/` files (per PR #28 R2 #1 deferred ask).
-  3. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs across prior sessions, plus the `--ingest-only --enrich` flag-composition gotcha (additive ingest, no Phase B re-run). Worth folding in a "split `validate` into baseline-vs-diff" sub-design — the chronic red-validate-next-to-green-council noise is hurting PR signal-to-noise.
-  4. **Issue #17 — unit tests for `geoBoundsFor` + Infatuation HTML fixtures.** Cheap follow-up from PR #15 R2.
-- **Blockers:** none. CI failures on `validate` and `watch` remain pre-existing tech debt unrelated to any session diff. The `branch-guard` check passes on every legitimate PR merge (validated on `95c29ce` and `9d21015` consecutively after PR #27).
+  1. **PR #26 — schema: align `cityAtlas.ts` with pipeline-emitted fields.** Council R1 BLOCK has 4 real remediations: (a) fix `enriched_at` to accept both `Z` and `+00:00` offset forms (backward-compat), (b) add composite indexes to `firestore.indexes.json` for `is_active` and `business_status`, (c) update `firestore.rules` to allow client reads on new fields, (d) coordinate with consumer teams (UE, Roadtripper) on null handling for new nullable fields. Address in code, push, let council re-run.
+  2. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** PR #27's retry pattern (4-attempt loop, 5s/10s/15s backoff over `gh api /commits/{sha}/pulls`) is the copy-pasteable template. Also the right place for a Phase-C-bypass guard on `--ingest-only` against `data/research-output/failed/` files.
+  3. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs across prior sessions. Fold in `validate` split (baseline-vs-diff categories) to restore CI signal — currently red `validate` on every PR regardless of diff content.
+  4. **Issue #17 — unit tests (extended).** Original scope: `geoBoundsFor` + Infatuation HTML fixtures. Extended: `fetch_prior_round_context` edge cases (first round, normal round 2, `gh api` failure) per PR #30 council R1 #3 / R2 #2 OOS argument.
+- **Blockers:** none. `validate` CI failures are pre-existing tech debt. `watch` failures are pre-existing flakiness. `branch-guard` passes on every legitimate PR merge.
 - **Doctrine reminders for next session:**
   - **All changes to main MUST go through PRs.** Direct push fails the `branch-guard` workflow post-hoc and leaves a paper trail in the Actions tab. As of PR #27 the workflow self-heals over GitHub API eventual consistency — false-positive failures on freshly-merged commits are gone.
-  - **Branch-guard preflight before pipeline writes.** Run `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` and confirm `success` before any `--ingest`/`--ingest-only` invocation. The retry-with-backoff fix means false RED is no longer expected; if you see RED on HEAD, treat it as real and investigate.
-  - **`--ingest-only` skips Phase C; do NOT run it on Phase-C-rejected JSON in `data/research-output/failed/`.** Honolulu's pt3 recovery was safe ONLY because its Phase A/B/C succeeded and the failure was at the Firestore-write step (pre-`1f173b7` flag-routing bug). Cities parked in `failed/` for Phase C reasons must use `python src/pipeline/research_city.py --city <X> --enrich` (no `--ingest-only`) so Phase B/C run. See BACKLOG.md "Recently closed > Honolulu" for the full operator decision rule.
-  - Database name is `urbanexplorer`, NOT `travel-cities`. Schemas are at `src/schemas/cityAtlas.ts`, NOT a published npm package. Tasks live nested under cities + flat in `vibe_tasks`, NOT in `tasks_rt`/`tasks_ue`. (CLAUDE.md "Firestore discipline" section has the full rundown.)
+  - **Branch-guard preflight before pipeline writes.** Run `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` and confirm `success` before any `--ingest`/`--ingest-only` invocation. If RED, treat it as real and investigate.
+  - **`--ingest-only` skips Phase C; do NOT run it on Phase-C-rejected JSON in `data/research-output/failed/`.** Cities parked in `failed/` for Phase C reasons must use `python src/pipeline/research_city.py --city <X> --enrich` (no `--ingest-only`) so Phase B/C run. See BACKLOG.md "Recently closed > Honolulu" for the full operator decision rule.
+  - Database name is `urbanexplorer`, NOT `travel-cities`. Schemas at `src/schemas/cityAtlas.ts`, NOT a published npm package. Tasks nested under cities + flat in `vibe_tasks`, NOT in `tasks_rt`/`tasks_ue`.
+  - **Cross-round memory is now live** (PR #30). `council.py` injects prior round verdict + submitter response into round-N prompts automatically when `--pr-number` is passed (which `council.yml` does in CI). Still post the fixed-format submitter response comment after each round — it's the structured signal the injector parses.
 
 ## What this repo is
 
@@ -48,16 +49,16 @@ needed from this repo until then.
 
 ## What's in main right now
 
-`main` = `9d21015` at the end of the 2026-04-26 (pt4) session. Recent history:
+`main` = `18f150e` at the end of the 2026-04-27 session. Recent history:
 
 ```
+18f150e council: cross-round memory (#16) + score-rule tightening (#23) (#30)
+cb419fd Session close 2026-04-26 (pt4): post-PR-#28 doc refresh (#29)
 9d21015 Session close 2026-04-26 (pt3): branch-guard retry fix + Honolulu recovery docs (#28)
 95c29ce branch-guard: retry commit→PR lookup to absorb GitHub API eventual consistency (#27)
 058d123 Session close 2026-04-26 (continued): docs refresh after PR #19/#20/#22 (#24)
 942dc50 Fix branch-guard: add pull-requests: read permission (#22)
 f3a9f5e Branch Guard workflow: post-hoc detect direct pushes to main (#20)
-c9f8985 CLAUDE.md: honest doctrine + reconcile docs with code reality (#19)
-4522361 CLAUDE.md: codify round-N drift doctrine + submitter response format (#18)
 ```
 
 Layout:

@@ -809,3 +809,60 @@ Two PRs total this turn: #27 (✅ R1 🟢) and #28 (🔴 R1 → 🔴 R2 → admi
 3. **#21 — branch-guard preflight automation in pipeline entry points.** PR #27's retry pattern is the copy-pasteable template. Helper called from each `--ingest`/`--ingest-only` entry point. Bonus: the same helper is the natural place to add a Phase-C-bypass guard for `--ingest-only` against `data/research-output/failed/` files (per PR #28 R2 #1 deferred ask).
 4. **#12 — CI smoke-test on entry-point scripts.** Compounded by the `--ingest-only` flag-composition gotcha (which doesn't trip any existing CI check). Could also fold in the "split `validate` into baseline-vs-diff" idea documented in pt4 INSIGHT.
 5. **#17 — unit tests for `geoBoundsFor` + Infatuation HTML fixtures.** Cheap follow-up from PR #15 R2.
+
+---
+
+## 2026-04-27 — council-tightening sprint: cross-round memory (#16) + score-rule fix (#23)
+
+`main` HEAD: `18f150e` (PR #30 admin-merge). Started this session at `cb419fd` (PR #29 docs).
+One PR landed: **#30 (`18f150e`)**. Two issues closed: **#16**, **#23** (auto-closed by PR footer).
+Two rounds: R1 🔴 → R2 🔴 → admin-merge.
+
+### KEEP
+
+- **#23's three-file fix is minimal and precise.** One rule edit in `lead-architect.md` ("score ≤4 AND non-empty remediations = BLOCK, not just ≤4"), one trailing sentence in `cost.md` and `product.md` ("score 10 when axis is unaffected, not 1–2"). Three files, ~3 lines total. The accessibility persona was already the reference model ("don't invent concerns to hit a quota"); mirroring its pattern to cost + product is the right shape.
+
+- **#16's `fetch_prior_round_context` — `gh api --paginate` returns a single merged JSON array.** No line-splitting or multi-page stitching needed. `json.loads(result.stdout)` is the whole parse. Similarly, `<!-- council-report -->` as a startswith check on the comment body is a reliable discriminator — it's a machine-generated marker under our control, not a freetext heuristic. The submitter-response discriminator (`## Argued out-of-scope` or `## CI failures`) is slightly more fragile but anchored to the CLAUDE.md fixed-format requirement, which itself now explains WHY the format matters (it's the machine-readable hook for cross-round context).
+
+- **Prompt-injection defense is cheap and principled.** Wrapping `submitter_response` in `<untrusted_submitter_comment>` tags + a SECURITY NOTE instruction in the PRIOR ROUND CONTEXT block addresses the security concern without adding per-persona files, framework dependencies, or separate sanitization passes. The council report sections (scores + synthesis) are our own system output and don't need the untrusted wrapper. Principle: tag only the genuinely user-controlled content.
+
+- **Round-2 live-run IS the integration test for `fetch_prior_round_context`.** The function parses real GitHub API output, uses `gh api` auth that's validated by the CI environment, and produces context that's immediately tested by the council's behavior. No mock-based unit test can replicate this end-to-end path. The decision to argue #3 (unit tests) OOS and file into #17 was correct: the prior context WAS injected in round 2 (security went 3→9 confirming it; architecture + product both 10 confirming no regressions).
+
+- **`(context, fetch_error)` tuple return makes the "first round" vs "fetch failed" distinction explicit without a class or enum.** `fetch_error=False` on first round (normal, no warning), `fetch_error=True` on API failure (inject ⚠️ blockquote into posted comment). The blockquote lands in `last_council.md` which is then read and posted by the `post-comment` workflow step — no separate notification path needed.
+
+### IMPROVE
+
+- **R1 security persona went 3→9 in R2 confirming the fix, but R2 bugs went 4→3 on same-surface re-raises.** The score movement pattern is now well-established: when security/architecture improve but bugs decreases on a diff that added only hardening, the bugs delta is usually drift, not regression. Worth codifying in `lead-architect.md` as an explicit synthesis note: "if the only scorer getting worse is bugs, and that reviewer's new asks are the same surfaces addressed in the prior round, weigh against BLOCK."
+
+- **The "at minimum" phrasing in R1 bugs created ambiguity that R2 exploited.** R1 said "Either fail CI OR, at a minimum, inject a warning block." I chose the "at minimum" path; R2 said only fail-CI is acceptable. The lesson: when a council reviewer offers two options, document in the response comment WHICH option you chose and WHY — don't just implement one and assume the reviewer will see it as compliant. Had I written "Implementing option B (warning block) rather than option A (fail CI) because graceful degradation is better for a quality-of-life feature when GitHub's API is temporarily unavailable" in the R1 response, R2 would have had that context via the cross-round memory.
+
+### INSIGHT
+
+- **Cross-round memory is now self-reinforcing.** The PR that shipped cross-round memory (#30) was the first to use it: R2 received R1's council report + the R1 response comment as prior context. Security went 3→9 (the fix was seen and validated); architecture held 10/10 (no regressions seen). This is the expected behavior — the feature working on its own first real PR. The remaining BLOCK was bugs=3 with two same-surface re-raises, which the prior context didn't prevent (the reviewers still re-raised them). This is expected too: prior context makes flips visible and asks for justification; it doesn't prevent a reviewer from re-raising if they believe the prior implementation was defective.
+
+- **PR #26 (schema alignment) is blocked by the council with 4 real remediations.** Not drift — `enriched_at` backward-compat, composite indexes, security rules, null-handling consumer coordination are all genuine asks. This is the schema PR the user asked about at session start. It predates this session and has been in flight.
+
+- **The `validate` CI check noise is now chronic on every PR.** Pre-existing TS typecheck failures in `src/__tests__/build-vibe-cache-*.test.ts`, `src/scrapers/local-sources.ts`, `src/pipeline/qc_cleanup.ts` generate a red `validate` badge on every merged PR regardless of diff content. Issue #12 (CI smoke-test) is the right vehicle to also split `validate` into "pre-existing baseline" vs "introduced-by-diff" categories so the check has signal again.
+
+### COUNCIL
+
+- **PR #30: R1 🔴 BLOCK.** Scores: accessibility 10, architecture 10, bugs 4, cost 9, product 10, security 3. Three remediations: #1 prompt-injection (real — fixed in `16ed2df` with `<untrusted_submitter_comment>` tags + SECURITY NOTE), #2 fetch-failure warning (real — fixed in `16ed2df` with `(context, fetch_error)` tuple + ⚠️ blockquote in posted report), #3 unit tests (argued OOS — no other `council.py` function has unit tests; filed into #17).
+
+- **PR #30: R2 🔴 BLOCK.** Scores: accessibility 10, architecture 10, bugs 3, cost 9, product 10, security **9** (+6 — prompt-injection fix confirmed). Two remediations: #1 "reinstate fail-loudly" (direct contradiction of R1's "at minimum" option I chose), #2 unit tests (re-raise of R1 #3 already argued OOS). **Admin-override** per round-N drift doctrine: both are same-surface flips. Score deltas confirm the diff was net-improving (security +6, all other axes ≥9). Override paperwork in merge commit `18f150e`.
+
+- **Net council burn: 2 rounds, ~14 calls.** Without the cross-round memory that this very PR shipped, future substantive PRs would have paid the same 2-3 round tax for same-surface drift. First round 2 with prior context injected showed security-persona improvement; the drift resistance will build as the council has real prior-round history to work with.
+
+### Production state at session close
+
+- `main`: `18f150e` (PR #30).
+- Open PRs: **#26 (schema alignment)** — blocked at 🔴 R1 with 4 real remediations: `enriched_at` backward-compat, composite indexes, security rules, null-handling coordination. Not worked this session; starts next session.
+- Open issues (9): #5, #6, #7, #8, #9, #12, #14, #17, #21. (#16 and #23 auto-closed by PR #30.)
+- Production Firestore unchanged: 16/16 parked metros live, geneva + lisbon parked (English-source edge cases), london missing from manifest.
+- Branch-guard ✓ on `18f150e`.
+
+### Carryover for next session (re-prioritized)
+
+1. **PR #26 — schema alignment.** 🔴 BLOCK with 4 real remediations. Address in code, push, council re-run. Expected to be 🟢 or 🟡 CONDITIONAL after fixes.
+2. **#21 — branch-guard preflight inside pipeline entry points.** PR #27's retry pattern is the template. Also the right place for a Phase-C-bypass guard on `--ingest-only` against `failed/` files.
+3. **#12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs across prior sessions. Fold in `validate` split (baseline-vs-diff) to restore CI signal.
+4. **#17 — unit tests extended.** `geoBoundsFor` + Infatuation fixtures (original scope) + `fetch_prior_round_context` edge cases (added this session per council R1 #3 / R2 #2).
