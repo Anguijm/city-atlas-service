@@ -15,6 +15,8 @@
 > - **Honolulu** is recoverable in one step (Gemini-variance casualty of the pre-fix `--ingest-only` bug; data intact in `data/research-output/failed/`). See `SESSION_HANDOFF.md` "Now" tier.
 > - **Geneva, Lisbon, London** are the unresolved tail. Geneva + Lisbon: legitimate English-source-coverage edge cases — Phase B fabricates over the gap and Phase C correctly rejects at >25%. London: present in `configs/global_city_cache.json` but absent from `manifest.cities`, mystery TBD.
 > - The **5 legitimate village-tier failures** described in §1 (`fairbanks`, `kahului`, `marfa`, `little-rock`, `portland-me`) are still legitimately limited by real POI density at small radii. Not affected by the parked-19 arc.
+>
+> **Status update 2026-04-26 (pt3) — Honolulu ingested, parked-metros backlog now 16/16:** The recoverable honolulu file moved from `data/research-output/failed/honolulu.json` to `data/research-output/honolulu.json` and was ingested via the additive `enrich_ingest.ts` path with `--ingest-only --enrich`: 5 neighborhoods / 19 waypoints / 100 tasks / `coverageTier: metro` / `quality_status: degraded` written to `urbanexplorer`. **This recipe is a one-off for transient write errors — do NOT generalize it to cities parked in `failed/` for Phase C reasons** (see `BACKLOG.md` "Recently closed > Honolulu" for the operator decision rule). Geneva + Lisbon still parked as English-source edge cases; London still missing from manifest.
 
 ---
 
