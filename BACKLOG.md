@@ -55,6 +55,7 @@
 
 - **#25** — Branch-guard eventual-consistency false-positive. Closed by PR #27 (`95c29ce`) — 4-attempt retry with 5s/10s/15s backoff over the `gh api /commits/{sha}/pulls` lookup. Empirically validated: branch-guard ✓ on PR #27's own merge commit (the very class of bug the PR fixes).
 - **Honolulu (no issue)** — Parked-metros backlog now **16/16**. Ingested via `enrich_ingest.ts` additive path: 5 neighborhoods / 19 waypoints / 100 tasks / `coverageTier: metro` / `quality_status: degraded` written to `urbanexplorer`.
+  - **⚠ Do NOT generalize this `--ingest-only --enrich` recipe to other cities in `data/research-output/failed/`.** Honolulu's Phase A/B/C ran *successfully* and produced a `quality_status: degraded` JSON; the failure was at the Firestore-write step (pre-`1f173b7` `--ingest-only` flag-routing bug, since fixed). Cities parked in `failed/` because Phase C *rejected* their content (e.g. coordinate drift, hallucinated POIs) must NOT be ingested via `--ingest-only` — Phase C is the semantic gate and `--ingest-only` skips it. Use the full `python src/pipeline/research_city.py --city <X> --enrich` (no `--ingest-only`) so Phase B/C run before any Firestore write.
 - **#11** — Scraper refinement (Atlas Obscura URL pattern, Infatuation finder, retire SBL). Closed by PR #15 (`1f04365`) on 2026-04-26.
 - **#10** — Scraper malfunction on parked metros. Closed in prior session via `f627d83`.
 - **PR #18** — CLAUDE.md round-N drift doctrine + submitter-response format. Merged `4522361`.
