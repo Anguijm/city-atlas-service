@@ -109,6 +109,10 @@ jobs:
                   errors.append(f"{cid}: lng must be numeric")
               if not isinstance(city.get("maxRadiusKm"), (int, float)):
                   errors.append(f"{cid}: maxRadiusKm must be numeric")
+              if not isinstance(city.get("noiseBaseline"), (int, float)):
+                  errors.append(f"{cid}: noiseBaseline must be numeric")
+              if not isinstance(city.get("isArchived"), bool):
+                  errors.append(f"{cid}: isArchived must be boolean")
 
           if errors:
               for e in errors:

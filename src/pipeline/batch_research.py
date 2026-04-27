@@ -361,6 +361,7 @@ Examples:
     parser.add_argument("--tier", action="append", choices=["tier1", "tier2", "tier3"], help="Filter by tier (repeatable: --tier tier2 --tier tier3)")
     parser.add_argument("--cities", type=str, help="Comma-separated city IDs")
     parser.add_argument("--batch-size", type=int, default=0, help="Max cities per run (default: all)")
+    parser.add_argument("--no-limit", action="store_true", help="Bypass the 25-city safety ceiling for large batch runs")
     parser.add_argument("--interval", type=int, default=DEFAULT_INTERVAL_SECONDS, help=f"Seconds between city starts (default: {DEFAULT_INTERVAL_SECONDS}). Use 3600 for 1/hour.")
     parser.add_argument("--dry-run", action="store_true", help="Print plan without executing")
     parser.add_argument("--resume", action="store_true", help="Resume from batch-manifest.json")
@@ -427,6 +428,18 @@ Examples:
     print("→ Checking demand ordering from discovery queue...")
     demand = get_demand_ordering()
     cities = sort_by_demand(cities, demand)
+
+    # Circuit breaker: prevent accidental large runs that blow the cost budget.
+    # Dry runs are exempt (no API calls). Pass --no-limit to override for intentional large batches.
+    BATCH_SAFETY_LIMIT = 25
+    if not args.dry_run and not args.no_limit and len(cities) > BATCH_SAFETY_LIMIT:
+        print(
+            f"ERROR: batch would process {len(cities)} cities (safety limit: {BATCH_SAFETY_LIMIT}).\n"
+            f"  Pass --no-limit to run a batch of this size intentionally, or use --batch-size to cap it.\n"
+            f"  Tip: --dry-run first to preview the full list without triggering this check.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
 
     # Apply batch size (0 = all)
     if args.batch_size > 0:
