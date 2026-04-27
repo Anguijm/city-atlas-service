@@ -335,7 +335,8 @@ describe("scrape-reddit logic", () => {
   describe("buildStubJson", () => {
     it("matches the safe schema from audit Task 3", async () => {
       const { buildStubJson } = await import("../scrapers/reddit");
-      const stub = buildStubJson({ id: "bend" }, "reddit", 0) as Record<string, unknown>;
+      const city: RedditCity = { id: "bend", name: "Bend", country: "United States" };
+      const stub = buildStubJson(city, "reddit", 0) as Record<string, unknown>;
       expect(stub.source).toBe("reddit");
       expect(stub.cityId).toBe("bend");
       expect(typeof stub.retrievedAt).toBe("string");
