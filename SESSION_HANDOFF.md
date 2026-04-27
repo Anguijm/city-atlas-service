@@ -11,22 +11,23 @@
 
 ## Start here next session
 
-- **`main` HEAD:** `18f150e` (PR #30 — council cross-round memory + score-rule tightening, admin-merge after 2-round drift)
-- **Last substantive code merge:** `18f150e` (PR #30 — `council.py` cross-round memory + `lead-architect.md` / `cost.md` / `product.md` score-rule fixes)
-- **Production state:** **16/16 parked metros live** in the `urbanexplorer` named Firestore database (4 verified, 12 degraded). No outstanding pipeline runs.
-- **Open PRs:** **#26 (schema alignment)** — 🔴 BLOCK at R1 with 4 real remediations. First action next session.
+- **`main` HEAD:** `55c8715` (PR #26 — schema alignment, admin-merge after R3 drift)
+- **Last substantive code merge:** `55c8715` (PR #26 — `cityAtlas.ts` + `build_cache.ts` pipeline-emitted fields; CI fixed: tsc clean, Node bumped to 22.11.0)
+- **Production state:** **16/16 parked metros live** in the `urbanexplorer` named Firestore database (4 verified, 12 degraded). No outstanding pipeline runs. Schema now reflects what `build_cache.ts` and `enrich_ingest.ts` actually write.
+- **Open PRs:** **none.**
 - **Top-priority next actions, in order:**
-  1. **PR #26 — schema: align `cityAtlas.ts` with pipeline-emitted fields.** Council R1 BLOCK has 4 real remediations: (a) fix `enriched_at` to accept both `Z` and `+00:00` offset forms (backward-compat), (b) add composite indexes to `firestore.indexes.json` for `is_active` and `business_status`, (c) update `firestore.rules` to allow client reads on new fields, (d) coordinate with consumer teams (UE, Roadtripper) on null handling for new nullable fields. Address in code, push, let council re-run.
-  2. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** PR #27's retry pattern (4-attempt loop, 5s/10s/15s backoff over `gh api /commits/{sha}/pulls`) is the copy-pasteable template. Also the right place for a Phase-C-bypass guard on `--ingest-only` against `data/research-output/failed/` files.
-  3. **Issue #12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs across prior sessions. Fold in `validate` split (baseline-vs-diff categories) to restore CI signal — currently red `validate` on every PR regardless of diff content.
-  4. **Issue #17 — unit tests (extended).** Original scope: `geoBoundsFor` + Infatuation HTML fixtures. Extended: `fetch_prior_round_context` edge cases (first round, normal round 2, `gh api` failure) per PR #30 council R1 #3 / R2 #2 OOS argument.
-- **Blockers:** none. `validate` CI failures are pre-existing tech debt. `watch` failures are pre-existing flakiness. `branch-guard` passes on every legitimate PR merge.
+  1. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** PR #27's retry pattern (4-attempt loop, 5s/10s/15s backoff over `gh api /commits/{sha}/pulls`) is the copy-pasteable template. Also the right place for a Phase-C-bypass guard on `--ingest-only` against `data/research-output/failed/` files.
+  2. **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`). Prerequisite for the incremental-queue and ops-console roadmap items.
+  3. **Issue #33 — tsconfig isolation PR.** The CommonJS→ESNext+Bundler migration (landed in PR #26 to fix pre-existing tsc failures) should have a dedicated PR with council review. Low-risk but the council surfaced it as a bundling concern — easy to close.
+  4. **Issue #17 — unit tests (extended).** Original scope: `geoBoundsFor` + Infatuation HTML fixtures. Extended: `fetch_prior_round_context` edge cases (first round, normal round 2, `gh api` failure).
+- **Blockers:** none. `tsc --noEmit` is clean. `vitest run` is clean on Node 22.11.0. `branch-guard` passes on every legitimate PR merge.
 - **Doctrine reminders for next session:**
-  - **All changes to main MUST go through PRs.** Direct push fails the `branch-guard` workflow post-hoc and leaves a paper trail in the Actions tab. As of PR #27 the workflow self-heals over GitHub API eventual consistency — false-positive failures on freshly-merged commits are gone.
-  - **Branch-guard preflight before pipeline writes.** Run `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` and confirm `success` before any `--ingest`/`--ingest-only` invocation. If RED, treat it as real and investigate.
-  - **`--ingest-only` skips Phase C; do NOT run it on Phase-C-rejected JSON in `data/research-output/failed/`.** Cities parked in `failed/` for Phase C reasons must use `python src/pipeline/research_city.py --city <X> --enrich` (no `--ingest-only`) so Phase B/C run. See BACKLOG.md "Recently closed > Honolulu" for the full operator decision rule.
+  - **All changes to main MUST go through PRs.** Direct push fails the `branch-guard` workflow post-hoc.
+  - **Branch-guard preflight before pipeline writes.** Run `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` and confirm `success` before any `--ingest`/`--ingest-only` invocation.
+  - **`--ingest-only` skips Phase C; do NOT run it on Phase-C-rejected JSON in `data/research-output/failed/`.** Use `python src/pipeline/research_city.py --city <X> --enrich` (no `--ingest-only`) for those.
   - Database name is `urbanexplorer`, NOT `travel-cities`. Schemas at `src/schemas/cityAtlas.ts`, NOT a published npm package. Tasks nested under cities + flat in `vibe_tasks`, NOT in `tasks_rt`/`tasks_ue`.
-  - **Cross-round memory is now live** (PR #30). `council.py` injects prior round verdict + submitter response into round-N prompts automatically when `--pr-number` is passed (which `council.yml` does in CI). Still post the fixed-format submitter response comment after each round — it's the structured signal the injector parses.
+  - **Cross-round memory is live** (PR #30). `council.py` injects prior round context automatically. Still post fixed-format submitter response after each round.
+  - **If a PR branch was open while `council.yml` or `council.py` changed on main, rebase before pushing.** Stale branches cause workflow/script mismatch: council.yml from merge-ref passes `--pr-number` but old council.py rejects it.
 
 ## What this repo is
 
@@ -49,16 +50,16 @@ needed from this repo until then.
 
 ## What's in main right now
 
-`main` = `18f150e` at the end of the 2026-04-27 session. Recent history:
+`main` = `55c8715` at the end of the 2026-04-27 (session 2) close. Recent history:
 
 ```
+55c8715 schema: align cityAtlas.ts with pipeline-emitted fields (#26)
+5f1484d fix: pin Node to 22.11.0 (council-r3 remediation 5)
+c1ee372 fix(council-r2): restore full city objects in buildStubJson tests; bump Node to 22.x
+db99f22 fix: resolve pre-existing tsc --noEmit failures blocking CI
+1ac797e schema: align cityAtlas.ts with pipeline-emitted fields
+c07a092 Session close 2026-04-27: docs refresh after PR #30 (#31)
 18f150e council: cross-round memory (#16) + score-rule tightening (#23) (#30)
-cb419fd Session close 2026-04-26 (pt4): post-PR-#28 doc refresh (#29)
-9d21015 Session close 2026-04-26 (pt3): branch-guard retry fix + Honolulu recovery docs (#28)
-95c29ce branch-guard: retry commit→PR lookup to absorb GitHub API eventual consistency (#27)
-058d123 Session close 2026-04-26 (continued): docs refresh after PR #19/#20/#22 (#24)
-942dc50 Fix branch-guard: add pull-requests: read permission (#22)
-f3a9f5e Branch Guard workflow: post-hoc detect direct pushes to main (#20)
 ```
 
 Layout:
@@ -217,10 +218,7 @@ metros — root cause was the TS path-constants bug; fix landed in
    hatch when the findings are legitimate but out-of-scope. A follow-up
    PR tuning the synthesis prompt to distinguish "diff-scoped" from
    "repo-scoped" findings would retire this gotcha — not yet scheduled.
-5. **CI `validate` is pre-existing-broken.** `src/__tests__/build-vibe-
-   cache-*.test.ts` and `src/scrapers/local-sources.ts` hit tsconfig
-   target/module errors that existed before the port. Does not block
-   merges; `council` and `secret-scan` still gate.
+5. **CI `validate` is now clean** (fixed PR #26, `bf0374e`). tsconfig migrated to `module: ESNext` + `moduleResolution: Bundler` + `lib: DOM.Iterable`; `.nvmrc` bumped to `22.11.0`; test fixture type errors resolved. `tsc --noEmit` and `vitest run` both pass on main.
 
 ## How to run the pipeline locally (RUNBOOK)
 

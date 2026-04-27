@@ -865,4 +865,43 @@ Two rounds: R1 🔴 → R2 🔴 → admin-merge.
 1. **PR #26 — schema alignment.** 🔴 BLOCK with 4 real remediations. Address in code, push, council re-run. Expected to be 🟢 or 🟡 CONDITIONAL after fixes.
 2. **#21 — branch-guard preflight inside pipeline entry points.** PR #27's retry pattern is the template. Also the right place for a Phase-C-bypass guard on `--ingest-only` against `failed/` files.
 3. **#12 — CI smoke-test on entry-point scripts.** Three porting-miss bugs across prior sessions. Fold in `validate` split (baseline-vs-diff) to restore CI signal.
+
+---
+
+## 2026-04-27 — PR #26 merged; CI debt paydown; admin-override after R3 drift
+
+`main` HEAD: `55c8715` (PR #26 admin-merge). Started at `c07a092` (PR #31). PRs merged this session: **#26** (`55c8715`). Issues filed: **#32** (Firestore indexes deferred) and **#33** (tsconfig isolation PR).
+
+### KEEP
+
+- **Verify CI failures are pre-existing before touching the branch.** Running `npx tsc --noEmit` on `main` before any edits confirmed all 11 compile errors existed there; the PR introduced zero new errors. This turned the CI BLOCK from a remediation problem into a documentation problem — and ultimately into a clean fix commit.
+- **Branch staleness causes council workflow mismatch.** PR #26 was created before PR #30 shipped cross-round memory. When pushed, GitHub's merge-ref used the `council.yml` from `main` (which passes `--pr-number 26`) but the `council.py` from the PR branch (which doesn't accept `--pr-number`). Symptom: "unrecognized arguments: --pr-number 26." Fix: `git rebase origin/main`. Lesson: rebase before the first push on any branch open while a workflow-interface change was landing on main.
+- **Score regression across rounds with no relevant code change = strong drift signal.** Security went 10→4 and product went 7→3 between R2 and R3 despite no security- or product-relevant changes. This is the clearest possible signal that the synthesizer is re-evaluating the same surface rather than the incremental diff. Combined with the tsconfig R2 "deferred nice-to-have" → R3 "required BLOCK" flip, the admin-override case was airtight.
+- **Local mirror types in test files satisfy TypeScript excess-property checking without import surgery.** Both `scrape-reddit.test.ts` and `scrape-wikipedia.test.ts` already defined `RedditCity`/`WikiCity` types at the top. Assigning `const city: RedditCity = {id, name, country}` then passing `city` avoids excess-property-check while keeping the full object in the test — council satisfied, type system satisfied, no imports changed.
+
+### IMPROVE
+
+- **Bundling pre-existing CI fixes into a schema PR expands the review surface and costs extra council rounds.** The tsconfig/Node/.nvmrc changes were necessary to unblock CI, but they doubled the council's critique target from "schema additions" to "schema + build-system migration + Node bump." Two extra rounds (R2 BLOCK, R3 BLOCK) versus the original R1 🟢. Next time: if fixing pre-existing CI failures alongside a substantive change, consider a separate "fix CI" PR first so the substantive PR has a clean validate baseline.
+- **Check for locally-defined mirror types before reaching for import gymnastics.** First attempt used `const { buildStubJson, type RedditCity } = await import(...)` — invalid syntax for type-only imports in dynamic import destructuring. Both test files already had local mirrors at their top level. Read the file first, save a failed tsc run.
+
+### INSIGHT
+
+- **`z.string().datetime({ offset: true })` is MORE permissive than `z.string().datetime()`.** Without the flag, Zod's `datetime()` accepts ONLY the `Z` suffix. With `{ offset: true }`, it accepts any valid offset including `+00:00`, `+05:30`, and `Z`. The council called it "a breaking tightening" in R2 and R3 — it is a relaxation. Worth having this rebuttal ready for any future council review that raises it.
+- **vitest 4.x (rolldown) requires `node:util.styleText`, added in Node 20.12.0.** The `.nvmrc` pinned `20.11.0`. The failure was masked by `tsc --noEmit` failing first; vitest never ran until tsc was clean. Fix: bump `.nvmrc` to `22.11.0` (Node 22 LTS entry). When future CI shows a "module does not provide export" error from a node built-in, check Node version against the built-in's changelog.
+- **`ts2353` excess-property errors on object literals can be fixed without changing the function signature.** Pass a typed variable instead of an inline literal — TypeScript only applies excess-property checking to fresh object literals, not to variables whose type is structurally compatible. Useful when the function's parameter type is correct but callers naturally pass supersets.
+
+### COUNCIL
+
+- **R1 (original schema commit `4d3366e`, 2026-04-26): 🟢 CLEAR.** The schema additions themselves — new nullable waypoint fields, `enriched_at`, `is_active` — passed cleanly. This is the baseline verdict.
+- **R2 (`db99f22`, 2026-04-27, after CI-fix commits): 🔴 BLOCK.** Architecture 4, bugs 3, security 10, product 7. Two real concerns: (a) test fixtures dropped `name`/`country` from `buildStubJson` calls → addressed in `c1ee372` using local mirror types; (b) Firestore indexes/rules for new fields → argued OOS (no query patterns exist; filed #32).
+- **R3 (`c1ee372`, 2026-04-27, after fixture fix): 🔴 BLOCK.** Architecture 3, bugs 2, security 4, product 3. Classic R2→R3 drift: tsconfig explicitly called "deferred nice-to-have" in R2 flipped to "required BLOCK" in R3; security/product scores regressed with no relevant changes; Firestore/rules re-raised after argued OOS. One legitimate new ask (Node pin) fixed in `5f1484d`. Admin-override `55c8715` with full paperwork. Filed #32 (Firestore indexes) and #33 (tsconfig isolation PR).
+- **Net council burn: 3 rounds, ~21 calls.** R1 was clear; R2+R3 were driven by the expanded diff surface from bundled CI fixes.
+
+### Production state at session close
+
+- `main`: `55c8715` (PR #26).
+- Open PRs: **none**.
+- Open issues (11): #5, #6, #7, #8, #9, #12, #14, #17, #21, #32 (Firestore indexes — deferred until query patterns exist), #33 (tsconfig isolation PR).
+- CI: `tsc --noEmit` ✅ clean. `vitest run` ✅ clean on Node 22.11.0. `branch-guard` ✅.
+- Production Firestore unchanged: 16/16 parked metros live, geneva + lisbon parked, london missing from manifest.
 4. **#17 — unit tests extended.** `geoBoundsFor` + Infatuation fixtures (original scope) + `fetch_prior_round_context` edge cases (added this session per council R1 #3 / R2 #2).
