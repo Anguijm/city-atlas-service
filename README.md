@@ -11,7 +11,7 @@ Batch data pipeline that builds the shared city atlas consumed by **Urban Explor
 
 ## Status
 
-Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). End-to-end validated through real Gemini output on 2026-04-25 — **16 of the 19 originally-parked metro cities now ingested** (honolulu landed 2026-04-26 pt3 via additive `enrich_ingest.ts` path) as `source: "enrichment-*"` documents in the `urbanexplorer` named database; 4 of those 16 are `quality_status: verified` (the first verified data ever produced from this repo); geneva + lisbon remain English-source edge cases; london is mysteriously absent from the manifest. Per-source scraper refinement landed in PR #15 (Atlas Obscura overrides, Infatuation finder, Spotted by Locals retired). Branch-guard (PR #20) detects direct pushes to `main` post-hoc; PR #27 added retry-with-backoff for GitHub API eventual consistency. Schema aligned with pipeline-emitted fields in PR #26 (`cityAtlas.ts` now reflects `google_place_id`, `business_status`, `last_validated`, `is_active`, `source`, `enriched_at`); CI is clean (tsc + vitest pass on Node 22.11.0). See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
+Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). **285-city global registry** as of PR #34 (2026-04-28) — expanded from 100 to 200 US cities; CI `city-cache-validate` job added to enforce schema on every PR; `batch_research.py` circuit breaker (25-city safety limit, `--no-limit` override) landed in the same PR. Scrape data for the 100 new cities is in-flight (branch `scrape/100-new-cities`). End-to-end validated through real Gemini output on 2026-04-25 — 16 metro cities live in the `urbanexplorer` named database (4 `quality_status: verified`); geneva + lisbon remain English-source edge cases. Per-source scraper refinement landed in PR #15; branch-guard in PR #20; schema aligned in PR #26; CI clean on Node 22.11.0. See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
 
 ## Governance
 
@@ -25,7 +25,7 @@ See `.harness/README.md` for the protocol, `.harness/council/*.md` for persona d
 .github/workflows/       council.yml, pr-watch.yml, ci.yml
 .harness/                council personas + scripts + hooks + learnings
 configs/
-  global_city_cache.json        # 185-city metadata source of truth
+  global_city_cache.json        # 285-city metadata source of truth
   seasonal-calendar.json
   city-sources.json             # per-city URL sources for Gemini/NotebookLM
   atlas-obscura-slugs.json      # city-id → URL slug suffix override (PR #15)
@@ -57,12 +57,14 @@ Tracked as GitHub issues:
 - **#9** — Replace personal email with role-based address in scraper User-Agents
 - **#12** — CI smoke-test on entry-point scripts (catches the porting-miss class of bugs at port time)
 - **#14** — Admin web interface for POI find/add/edit (paste URL or info directly)
-- **#16** — Council infrastructure: pass prior remediations + submitter response into round-N prompt to prevent synthesizer drift
 - **#17** — Unit tests for `geoBoundsFor` + Infatuation HTML fixtures
 - **#21** — Automate branch-guard preflight inside pipeline entry points (defense-in-depth for production writes)
-- **#23** — Lead-architect rule: `score ≤4` should require non-empty body before triggering BLOCK (eliminates score-noise false-blocks)
+- **#32** — Add Firestore composite indexes when query patterns are implemented
+- **#33** — tsconfig: move ESNext+Bundler migration to a dedicated PR
+- **#35** — Circuit breaker in `batch_research.py` (25-city safety limit) — implemented in PR #34; issue open as tracking ref
+- **#37** — Tiered quality gates by `coverageTier` (village/town/metro) — scraper thresholds, research prompts, QC floor
 
-(#11 closed by PR #15. #10 closed in prior session via `f627d83`. #25 closed by PR #27.)
+(#11 closed by PR #15. #10 closed in prior session. #16 + #23 closed by PR #30. #25 closed by PR #27. #36 closed 2026-04-28 after disambiguation audit PASS.)
 
 The pipeline is currently producing data despite all of these — they're improvements, not blockers. Priority guidance lives in `BACKLOG.md` (active) and `SESSION_HANDOFF.md` (start-here block).
 

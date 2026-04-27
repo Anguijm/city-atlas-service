@@ -51,7 +51,7 @@ Follow a TDD-style cadence for code changes. The council runs once per push to P
 - **`src/schemas/cityAtlas.ts`** — Zod schemas. **Cross-consumer contract.** Consumers (UE, Roadtripper) copy this file or import via git URL (`github:Anguijm/city-atlas-service#main`). No published npm package — earlier `@travel/city-atlas-types` references in this repo were aspirational and should be edited out as found. Breaking changes require coordinated deploys to both consumer repos.
 - **`src/scrapers/`** — six sources across four TS files (`atlas-obscura.ts`, `local-sources.ts` covering the-infatuation/timeout/locationscout, `wikipedia.ts`, `reddit.ts`). Each writes `.md` files to `data/{source}/{city}.md`. `.json` sidecar files are optional metadata; Phase A reads only `.md`. Atlas Obscura URL slugs come from `configs/atlas-obscura-slugs.json` overrides + a fallback chain. Spotted by Locals was retired 2026-04-26 (PR #15).
 - **`src/pipeline/`** — `research_city.py`, `batch_research.py`, `phase_c_threshold.py` (proportional-FAIL helper), `build_cache.ts` (baseline ingest, strict Zod), `enrich_ingest.ts` (additive enrichment, no Zod, gated by `source: "enrichment-*"`), `qc_cleanup.ts`. Phase A/B/C/D orchestration. Pytest tests at `test_phase_c_threshold.py`.
-- **`configs/`** — `global_city_cache.json` (185-city metadata), `seasonal-calendar.json`, `{app}/tasks.yaml` per-consumer task-prompt templates.
+- **`configs/`** — `global_city_cache.json` (285-city metadata), `seasonal-calendar.json`, `{app}/tasks.yaml` per-consumer task-prompt templates.
 - **`data/{source}/`** — scraped markdown. Git-tracked so the pipeline is deterministic.
 - **`.harness/`** — council personas, scripts, hooks, evidence cache. See `.harness/README.md` for local protocol.
 
@@ -74,7 +74,7 @@ If it returns anything else, sync to a known-good commit before running.
   - `cities/{cityId}/neighborhoods/{nhId}/tasks/{taskId}` — nested tasks
   - `vibe_neighborhoods/{id}`, `vibe_waypoints/{id}`, `vibe_tasks/{id}` — flat denormalized copies of the above (same data, faster query)
   - `seasonal_variants/{id}`, `pending_research/{id}`, `health_metrics/{id}` — pipeline observability + scheduling
-  - `global_city_cache/{cityId}` — 185-city metadata mirror
+  - `global_city_cache/{cityId}` — 285-city metadata mirror
 - Pipeline must NOT write: `saved_hunts/{huntId}` (app-owned), `cache_locks/{cityId}` (read-side concurrency primitive). Both have rules-level write protection in `firestore.rules`.
 - No `tasks_rt/*` or `tasks_ue/*` collections exist. Per-consumer task differentiation happens via the `app` field on individual task docs, not separate collections (verify if this changes).
 - Admin SDK bypasses rules; `enrich_ingest.ts`'s `source: "enrichment-*"` filter is load-bearing — don't regress it.

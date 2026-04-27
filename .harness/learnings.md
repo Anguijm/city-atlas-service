@@ -905,3 +905,42 @@ Two rounds: R1 🔴 → R2 🔴 → admin-merge.
 - CI: `tsc --noEmit` ✅ clean. `vitest run` ✅ clean on Node 22.11.0. `branch-guard` ✅.
 - Production Firestore unchanged: 16/16 parked metros live, geneva + lisbon parked, london missing from manifest.
 4. **#17 — unit tests extended.** `geoBoundsFor` + Infatuation fixtures (original scope) + `fetch_prior_round_context` edge cases (added this session per council R1 #3 / R2 #2).
+
+## 2026-04-28 — Expand US city coverage to 200; disambiguation audit; tiered quality gates design
+
+### KEEP
+
+- **CI `city-cache-validate` job is a strong forcing function.** Adding schema validation to CI caught field-level gaps (missing `tier`, missing `vernacularName`) that would have silently shipped. Any JSON config that acts as a cross-consumer contract should have a validator in CI.
+- **`ensure_ascii=False` is mandatory when serializing JSON that contains non-ASCII content.** Python's default `json.dump` emits `\uXXXX` escape sequences for every non-ASCII character — turning existing city names (東京, Tōkyō, São Paulo, etc.) into 123 spurious "deletion" diffs. Always pass `ensure_ascii=False` when the target file has human-readable non-ASCII content.
+- **Wikipedia scraper's state-qualified disambiguation is robust at scale.** 89/92 new US cities resolved correctly via the `stateFromId()` → "City, State" candidate chain. The 3 failures (moab-ut, crested-butte-co, rapid-city-sd) were content-thin Wikipedia articles, not disambiguation errors.
+- **Litterbox (litterbox.catbox.moe) works as a catbox fallback when catbox.moe pauses uploads.** Use `-F "fileToUpload=@<path>;type=audio/wav"` with explicit content-type; plain catbox upload fields do not work on litterbox.
+- **The "explain it" audio command pattern (Gemini-speak + catbox) is a useful pattern for ear-friendly session review.** Voice Charon, ~450-600 words, ear-script style, litterbox upload.
+
+### IMPROVE
+
+- **Duplicate background Reddit scrapers waste rate-limit budget.** Two scraper instances were accidentally launched in the same session and competed on the same city list. Check for running background tasks before launching a scraper.
+- **Action SHAs must be pinned immediately, not in a remediation round.** The council blocked on floating `@v4`/`@v5` tags in R2. Adding the pinned SHAs in the initial commit would have saved a round.
+- **Don't bundle more than one logical change in a PR even when they're all "fixes."** PR #34 bundled: (1) 100-city data additions, (2) CI validator job, (3) batch_research.py circuit breaker. Each got council critique. Three separate PRs would have been cleaner.
+
+### INSIGHT
+
+- **Small towns fail Reddit quality gate almost universally.** In the 8-city pilot and the 92-city scrape, only Portsmouth, NH passed Reddit quality gates. The gate is calibrated for cities with active subreddits (metros and college towns). Adjusting the gate threshold by `coverageTier` is the right fix — filed as issue #37.
+- **`coverageTier` is already in the schema and is the right axis for tiered quality gates.** No schema changes needed to implement tiered scraper thresholds / tiered research prompts / tiered QC floors. The data model was already designed for this.
+- **maxRadiusKm conventions (metro ≤ 25km, town ≤ 10km, village ≤ 3km) are load-bearing for Phase C's geoBoundsFor.** Council caught several entries exceeding these in R2 and R3. Always validate against these bounds before committing new city entries.
+
+### COUNCIL
+
+- **R1 (`c135b25`, city additions only): 🟢 CLEAR.** Schema additions clean. CI job + circuit breaker not yet in the diff.
+- **R2 (after CI job + circuit breaker commits): 🔴 BLOCK.** Validator missing `tier` field + `vernacularName` required check. Floating action SHAs. Town radii >10km. Fixed in `cc25493`.
+- **R3 (`cc25493`): 🔴 BLOCK.** Village radii >3km. Validator type-checks for numeric fields. Fixed in `a841329`.
+- **R4 (`a841329`): 🟡 CONDITIONAL → admin override.** R4 introduced brand-new surface never raised in R1/R2/R3: Wikipedia disambiguation for US cities. 5/6 personas had zero required remediations. Disambiguation audit (issue #36) confirmed PASS: 8/8 pilot cities resolved correctly, Wikipedia `stateFromId()` is robust. Admin-override `df1a69b` with paperwork. Filed #36 (audit passed, closed same session).
+- **Net council burn: 4 rounds, ~28 calls.** R1 on the clean city-data commit would have been 🟢; bundled commits added 3 rounds.
+
+### Production state at session close
+
+- `main`: `df1a69b` (PR #34).
+- In-flight: branch `scrape/100-new-cities` — scraped Wikipedia (89/92) + Reddit data for the 100 new cities. PR pending.
+- `batch_research.py --no-limit --ingest` for 100 new cities: **not yet run.** Prerequisite: scrape PR merged to main; branch-guard green.
+- Open issues (13): #5, #6, #7, #8, #9, #12, #14, #17, #21, #32, #33, #35, #37.
+- CI: tsc ✅ vitest ✅ branch-guard ✅ city-cache-validate ✅.
+- Production Firestore: unchanged (16 parked metros, no new cities ingested yet).
