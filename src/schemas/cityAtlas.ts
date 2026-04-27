@@ -78,6 +78,9 @@ export const NeighborhoodSchema = z
     lng: z.number().min(-180).max(180),
     trending_score: z.number().min(0).max(100),
     is_active: z.boolean().optional(),
+    // Pipeline-emitted enrichment metadata.
+    source: z.string().optional(),
+    enriched_at: z.string().datetime({ offset: true }).optional(),
   })
   .strict();
 
@@ -105,7 +108,17 @@ export const WaypointSchema = z
     lng: z.number().min(-180).max(180),
     trending_score: z.number().min(0).max(100),
     source: z.string().optional(),
-    enriched_at: z.string().datetime().optional(),
+    // Pipeline writes ISO datetimes with explicit offset ("...+00:00"),
+    // not "Z"; accept both.
+    enriched_at: z.string().datetime({ offset: true }).optional(),
+    is_active: z.boolean().optional(),
+    // Google Places enrichment fields. Pipeline writes them as null when
+    // the waypoint hasn't been enriched yet (see enrichWaypointsWithPlaces
+    // in src/pipeline/build_cache.ts), so they are nullable, not just
+    // optional.
+    google_place_id: z.string().nullable().optional(),
+    business_status: z.string().nullable().optional(),
+    last_validated: z.string().datetime({ offset: true }).nullable().optional(),
   })
   .strict();
 

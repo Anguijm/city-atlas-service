@@ -448,10 +448,12 @@ async function callGeminiWithRetry(
 export type ValidationStatus = 'VALIDATED' | 'NOT_FOUND' | 'CLOSED';
 
 export type ValidatedWaypoint = Waypoint & {
-  google_place_id?: string;
-  business_status?: string;
+  // Nullable to align with WaypointSchema: pipeline writes null when a
+  // waypoint hasn't been Places-validated yet (see build_cache.ts:691).
+  google_place_id?: string | null;
+  business_status?: string | null;
   validation_status: ValidationStatus;
-  last_validated?: string;
+  last_validated?: string | null;
 };
 
 export type ValidationReport = {

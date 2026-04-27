@@ -36,7 +36,7 @@ const mockGetFirestore = vi.fn(() => ({
 }));
 
 vi.mock('firebase-admin/firestore', () => ({
-  getFirestore: (...args: unknown[]) => mockGetFirestore(...args),
+  getFirestore: () => mockGetFirestore(),
   FieldValue: {
     serverTimestamp: vi.fn(() => 'SERVER_TIMESTAMP'),
   },
