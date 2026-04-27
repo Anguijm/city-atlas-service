@@ -186,7 +186,7 @@ describe("scrape-wikipedia logic", () => {
   describe("buildStubJson (safe schema per audit Task 3)", () => {
     it("contains source, cityId, retrievedAt, placeCount — and NO empty places[] array", async () => {
       const { buildStubJson } = await import("../scrapers/wikipedia");
-      const stub = buildStubJson({ id: "akron", name: "Akron", country: "United States" }, "wikipedia", 0);
+      const stub = buildStubJson({ id: "akron" }, "wikipedia", 0);
       expect(stub).toHaveProperty("source", "wikipedia");
       expect(stub).toHaveProperty("cityId", "akron");
       expect(stub).toHaveProperty("retrievedAt");
@@ -196,7 +196,7 @@ describe("scrape-wikipedia logic", () => {
 
     it("retrievedAt is an ISO-8601 string", async () => {
       const { buildStubJson } = await import("../scrapers/wikipedia");
-      const stub = buildStubJson({ id: "x", name: "X", country: "Y" }, "wikipedia", 3) as Record<string, unknown>;
+      const stub = buildStubJson({ id: "x" }, "wikipedia", 3) as Record<string, unknown>;
       expect(typeof stub.retrievedAt).toBe("string");
       expect(Number.isFinite(Date.parse(stub.retrievedAt as string))).toBe(true);
     });
