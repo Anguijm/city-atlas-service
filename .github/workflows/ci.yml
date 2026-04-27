@@ -66,8 +66,8 @@ jobs:
     runs-on: ubuntu-latest
     needs: [secret-scan]
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5  # actions/checkout@v4
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065  # actions/setup-python@v5
         with:
           python-version: '3.12'
       - name: Validate global_city_cache.json schema
@@ -75,13 +75,14 @@ jobs:
           python3 - <<'EOF'
           import json, sys
 
-          REQUIRED = ["id", "name", "clinicalName", "country", "region",
-                      "lat", "lng", "vibeClass", "noiseBaseline",
+          REQUIRED = ["id", "name", "clinicalName", "vernacularName", "country", "region",
+                      "lat", "lng", "tier", "vibeClass", "noiseBaseline",
                       "isArchived", "loreAnchor", "qualityStatus",
                       "coverageTier", "maxRadiusKm"]
-          VIBE_CLASSES  = {"BRUTAL_GRIT", "DECAY_CHIC", "FLUID_TROPIC", "NEON_GRID"}
-          COVERAGE_TIERS = {"metro", "town", "village"}
+          VIBE_CLASSES    = {"BRUTAL_GRIT", "DECAY_CHIC", "FLUID_TROPIC", "NEON_GRID"}
+          COVERAGE_TIERS  = {"metro", "town", "village"}
           QUALITY_STATUSES = {"pending_review", "approved", "archived"}
+          TIERS           = {"tier1", "tier2", "tier3"}
 
           data = json.load(open("configs/global_city_cache.json", encoding="utf-8"))
           errors = []
@@ -100,6 +101,8 @@ jobs:
                   errors.append(f"{cid}: invalid coverageTier '{city.get('coverageTier')}'")
               if city.get("qualityStatus") not in QUALITY_STATUSES:
                   errors.append(f"{cid}: invalid qualityStatus '{city.get('qualityStatus')}'")
+              if city.get("tier") not in TIERS:
+                  errors.append(f"{cid}: invalid tier '{city.get('tier')}'")
               if not isinstance(city.get("lat"), (int, float)):
                   errors.append(f"{cid}: lat must be numeric")
               if not isinstance(city.get("lng"), (int, float)):
