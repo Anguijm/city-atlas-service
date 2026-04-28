@@ -46,6 +46,21 @@ Follow a TDD-style cadence for code changes. The council runs once per push to P
 4. **Push and let council review.** Address remediations as follow-up commits on the same branch.
 5. **Merge after 🟢.** Squash or merge commit — both fine. `[skip council]` in the PR title is reserved for emergency hotfixes only and leaves a traceable audit gap.
 
+## Code commenting standard
+
+This repo's pipeline is complex — threshold values interact across files, tier logic has non-obvious math, and cross-system constraints (e.g., Phase A's 200-char intake gate) are invisible unless documented. Code must be **human-readable, human-editable, and human-maintainable** by a developer who did not write it and has no access to the PR discussion or council comments.
+
+**Default: comment every non-trivial decision.** This overrides the general Claude Code default of "write no comments unless the WHY is non-obvious." In this repo, almost everything is non-obvious.
+
+What requires a comment:
+- **Every numeric constant or threshold** — what it controls, why that specific value, what breaks if it changes, what downstream constraint it must respect (name the file and line number).
+- **Every tier-branching decision** — explain what is structurally different about that tier and why the behavior differs, not just that it does.
+- **Every accepted tradeoff** — when the code accepts a known risk or chooses between imperfect options, document the reasoning inline. PR descriptions and council comments are not visible to future maintainers editing the file directly.
+- **Every cross-system dependency** — if a value is constrained by another file, name that file and line. "Must exceed 200" → "must exceed Phase A's 200-char intake gate in research_city.py lines 338/459/597."
+- **Safe modification guidance** — for any constant a developer might want to tune, tell them what to verify before changing it.
+
+The council's `maintainability` persona evaluates comment quality as a scored axis. Undocumented thresholds and branches can trigger BLOCK.
+
 ## What lives where
 
 - **`src/schemas/cityAtlas.ts`** — Zod schemas. **Cross-consumer contract.** Consumers (UE, Roadtripper) copy this file or import via git URL (`github:Anguijm/city-atlas-service#main`). No published npm package — earlier `@travel/city-atlas-types` references in this repo were aspirational and should be edited out as found. Breaking changes require coordinated deploys to both consumer repos.

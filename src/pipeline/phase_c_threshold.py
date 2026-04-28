@@ -19,18 +19,41 @@ from __future__ import annotations
 
 
 def _threshold_for_tier(coverage_tier: str | None) -> float:
-    """Return the FAIL threshold ratio for a given coverageTier.
+    """Return the proportional FAIL threshold for a given coverageTier.
 
-    Villages have small audit samples (e.g. 4 waypoints) where a single
-    hallucinated place is 25% — enough to FAIL under the metro rule even
-    though the city data is otherwise good. Raise the village floor to 40%
-    so one bad waypoint out of four demotes to WARNING instead of FAIL.
+    WHY tiered thresholds instead of a single 25% rule:
+    The hallucinated_count / sample_size ratio is sensitive to sample size.
+    With metro cities (audit sample ~15 waypoints), 1 hallucination = 6.7%,
+    which is comfortably below 25%. But village audit samples are typically
+    4–6 waypoints — a single hallucinated place hits 20–25%, triggering FAIL
+    even though one bad waypoint out of four is within reasonable tolerance
+    for a walking app that already strips hallucinations via the cleanup path.
+
+    WHY 0.40 for villages:
+      Worst realistic case: 4-waypoint audit, 1 hallucinated = 25%.
+      We want 1/4 to be WARNING (cleanable), not FAIL (city discarded).
+      2/4 = 50% > 40% → stays FAIL. So the 40% threshold accepts 1 bad
+      waypoint in 4 but still rejects 2+ bad waypoints in 4.
+
+    WHY 0.30 for towns:
+      Town audit samples are typically 8–12 waypoints. 2/8 = 25% is the
+      boundary case. Raising the town threshold to 30% means 2/8 demotes
+      to WARNING while 3/8 = 37.5% > 30% stays FAIL. This mirrors the
+      village logic but at the size scale of town enrichment runs.
+
+    WHY 0.25 for metro (unchanged from the original single-threshold rule):
+      Metro audit samples of ~15 waypoints have enough data points that 25%
+      is a meaningful signal. 4/15 = 26.7% → FAIL; 3/15 = 20% → WARNING.
+      This is the same rule that previously applied to all tiers.
+
+    Changing these: update test_phase_c_threshold.py::TestTierAwareThreshold
+    and verify the math examples in this docstring still hold.
     """
     if coverage_tier == "village":
-        return 0.40
+        return 0.40  # 1/4 waypoints hallucinated → WARNING; 2/4 → FAIL
     if coverage_tier == "town":
-        return 0.30
-    return 0.25  # metro + unknown
+        return 0.30  # 2/8 waypoints hallucinated → WARNING; 3/8 → FAIL
+    return 0.25      # metro + unknown: original rule, unchanged
 
 
 def apply_proportional_fail_threshold(
