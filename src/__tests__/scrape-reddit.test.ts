@@ -284,7 +284,7 @@ describe("scrape-reddit logic", () => {
       expect(passesQualityGate([], "Marfa")).toBe(false);
     });
 
-    it("village: passes on selftext-only mention with NO upvoted comment (corroboration waived)", async () => {
+    it("village: passes on selftext-only mention with score >= 1 comment (lowered from 5)", async () => {
       const { passesQualityGate } = await import("../scrapers/reddit");
       const posts = [
         {
@@ -296,7 +296,19 @@ describe("scrape-reddit logic", () => {
       expect(passesQualityGate(posts, "Marfa", "village")).toBe(true);
     });
 
-    it("non-village: still requires upvoted comment for selftext-only mention", async () => {
+    it("village: FAILS on selftext-only mention with NO net-positive comments (score 0)", async () => {
+      const { passesQualityGate } = await import("../scrapers/reddit");
+      const posts = [
+        {
+          title: "tiny towns of west texas",
+          selftext: "Marfa is worth a detour.",
+          comments: [{ body: "cool", score: 0 }],
+        },
+      ];
+      expect(passesQualityGate(posts, "Marfa", "village")).toBe(false);
+    });
+
+    it("non-village: still requires score >= 5 comment for selftext-only mention", async () => {
       const { passesQualityGate } = await import("../scrapers/reddit");
       const posts = [
         {
@@ -322,9 +334,9 @@ describe("scrape-reddit logic", () => {
       expect(minMarkdownLength("town")).toBe(300);
     });
 
-    it("returns 150 for village", async () => {
+    it("returns 250 for village (above Phase A 200-char gate)", async () => {
       const { minMarkdownLength } = await import("../scrapers/reddit");
-      expect(minMarkdownLength("village")).toBe(150);
+      expect(minMarkdownLength("village")).toBe(250);
     });
 
     it("returns 500 (metro default) when coverageTier is undefined", async () => {

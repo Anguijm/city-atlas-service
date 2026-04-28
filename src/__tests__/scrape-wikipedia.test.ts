@@ -193,9 +193,9 @@ describe("scrape-wikipedia logic", () => {
       expect(minMarkdownLength("town")).toBe(300);
     });
 
-    it("returns 150 for village", async () => {
+    it("returns 250 for village (above Phase A 200-char gate)", async () => {
       const { minMarkdownLength } = await import("../scrapers/wikipedia");
-      expect(minMarkdownLength("village")).toBe(150);
+      expect(minMarkdownLength("village")).toBe(250);
     });
 
     it("returns 500 (metro default) when coverageTier is undefined", async () => {

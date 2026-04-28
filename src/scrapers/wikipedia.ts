@@ -28,9 +28,10 @@ const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atl
 // Minimum .md length by coverageTier. Metro keeps the historical 500-char floor.
 // Town and village floors are lower because thin Wikipedia articles are expected
 // and still carry useful content for Gemini synthesis.
-// All floors stay above Phase A's 200-char gate (research_city.py:350).
+// All floors must exceed Phase A's 200-char gate (research_city.py lines 338/459/597)
+// or the content is silently dropped before Gemini sees it.
 export function minMarkdownLength(coverageTier?: string): number {
-  if (coverageTier === "village") return 150;
+  if (coverageTier === "village") return 250; // > 200-char Phase A gate
   if (coverageTier === "town") return 300;
   return 500; // metro + unknown
 }

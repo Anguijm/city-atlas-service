@@ -27,16 +27,19 @@ const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atl
 
 // Tiered markdown floor matching wikipedia.ts — same floors, same rationale.
 export function minMarkdownLength(coverageTier?: string): number {
-  if (coverageTier === "village") return 150;
+  if (coverageTier === "village") return 250; // > 200-char Phase A gate
   if (coverageTier === "town") return 300;
   return 500; // metro + unknown
 }
 
 // Gate threshold: when the city name only appears in selftext (not title),
 // require at least one comment with score >= this value to count as a real
-// discussion rather than a passing mention. Waived for villages where any
-// selftext mention is sufficient signal.
+// discussion rather than a passing mention.
+// Metro/town: score >= 5 (established discussion).
+// Village: score >= 1 (any net-positive engagement) — small communities rarely
+// generate metro-level comment scores even on substantive local threads.
 const MIN_CORROBORATING_COMMENT_SCORE = 5;
+const MIN_CORROBORATING_COMMENT_SCORE_VILLAGE = 1;
 
 // Reddit's search endpoint returns {t=year} well for our use-case; we pull
 // top-sorted posts and discard stickies / NSFW / deleted.
@@ -176,10 +179,11 @@ export function passesQualityGate(
     const selftext = (p.selftext ?? "").toLowerCase();
     if (title.includes(needle)) return true;
     if (!selftext.includes(needle)) return false;
-    // Villages: any selftext mention is enough — corroborating comment not required.
-    if (isVillage) return true;
+    const minScore = isVillage
+      ? MIN_CORROBORATING_COMMENT_SCORE_VILLAGE
+      : MIN_CORROBORATING_COMMENT_SCORE;
     const hasUpvotedComment = (p.comments ?? []).some(
-      (c) => typeof c.score === "number" && c.score >= MIN_CORROBORATING_COMMENT_SCORE,
+      (c) => typeof c.score === "number" && c.score >= minScore,
     );
     return hasUpvotedComment;
   });
