@@ -1319,6 +1319,13 @@ Data sample:
                     status = "FAIL"
 
             if status == "WARNING":
+                # WARNING contract: hallucinations ARE removed even on a WARNING
+                # verdict. The city is kept (not discarded), but every identified
+                # bad waypoint and its orphan tasks are stripped from the JSON
+                # before the file is written and before Phase D ingest. Consumers
+                # never see the hallucinated data — they see a smaller but clean
+                # waypoint list. quality_status is set to "degraded" downstream
+                # if the post-removal count falls below the coverage minimum.
                 _remove_hallucinated_places(bad_names)
 
         if status == "FAIL":
