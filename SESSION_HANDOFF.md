@@ -16,11 +16,11 @@
 - **Production state:** 16 metro cities live in `urbanexplorer` Firestore (4 verified, 12 degraded). **100 new cities added to config but NOT yet ingested** — scrape data is in-flight (branch `scrape/100-new-cities`).
 - **Open PRs:** `scrape/100-new-cities` — Wikipedia (89/92 scraped) + Reddit data for the 100 new cities. Merge this first, confirm branch-guard green, then run batch_research.py.
 - **Top-priority next actions, in order:**
-  1. **Merge `scrape/100-new-cities` PR** (data-only, no code). Confirm branch-guard green. Then run: `python3.12 src/pipeline/batch_research.py --cities "<100 city IDs below>" --no-limit --ingest --interval 60 2>&1 | tee research-100-new.log`
-  2. **Issue #37 — tiered quality gates by `coverageTier`.** Three-part change: (a) lower Wikipedia/Reddit char floor by coverageTier in `src/scrapers/`, (b) add coverageTier-aware prompt variant in `configs/{app}/tasks.yaml`, (c) scale QC threshold in `phase_c_threshold.py`. `coverageTier` is already in the schema — no schema changes needed.
+  1. **Issue #37 — tiered quality gates by `coverageTier`.** Implement BEFORE running the 100-city research batch. Three-part change: (a) lower Wikipedia/Reddit char floor by coverageTier in `src/scrapers/`, (b) add coverageTier-aware prompt variant in `configs/{app}/tasks.yaml`, (c) scale QC threshold in `phase_c_threshold.py`. `coverageTier` is already in the schema — no schema changes needed.
+  2. **Merge `scrape/100-new-cities` PR then run research** (after #37 lands). Pre-flight before the ingest run: (a) `gcloud firestore export gs://urban-explorer-483600.appspot.com/backups/$(date +%Y%m%d)` for rollback, (b) dry run on a 10-city sample without `--ingest` and spot-check the JSON output, (c) confirm branch-guard green. Then: `python3.12 src/pipeline/batch_research.py --cities "<97 city IDs below>" --no-limit --ingest --interval 60 2>&1 | tee research-100-new.log`
   3. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** PR #27's 4-attempt retry pattern is the copy-pasteable template.
   4. **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`).
-- **Blockers:** none. CI is clean. Branch-guard is green on main.
+- **Blockers:** none. CI validate pre-existing failure on main (npm audit high-severity vuln + rolldown binding) — not introduced by this branch.
 - **Doctrine reminders:**
   - **All changes to main MUST go through PRs.** Direct push fails branch-guard post-hoc.
   - **Branch-guard preflight before any `--ingest` run:** `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` → expect `"success"`.
@@ -28,10 +28,12 @@
   - Cross-round memory is live (PR #30). Post fixed-format submitter response after each council round.
   - `batch_research.py` has a 25-city circuit breaker — use `--no-limit` for the 100-city research run.
 
-## The 100 new city IDs (for batch_research.py)
+## The 97 city IDs for batch_research.py
+
+Three cities excluded due to content-thin Wikipedia articles (moab-ut: 325 chars, crested-butte-co: 453 chars, rapid-city-sd: 39 chars). Re-add after issue #37 lowers the quality floor for `coverageTier: village`.
 
 ```
-ann-arbor-mi,annapolis-md,arcata-ca,asbury-park-nj,ashland-or,astoria-or,bar-harbor-me,beacon-ny,beaufort-sc,bellingham-wa,bethlehem-pa,bisbee-az,black-mountain-nc,boone-nc,bozeman-mt,brattleboro-vt,brevard-nc,camden-me,cannon-beach-or,cape-may-nj,carmel-by-the-sea-ca,charlottesville-va,clarksdale-ms,columbia-sc,cooperstown-ny,crested-butte-co,deadwood-sd,decatur-ga,durango-co,eau-claire-wi,el-paso-tx,eureka-ca,eureka-springs-ar,fargo-nd,fernandina-beach-fl,florence-al,frederick-md,fredericksburg-tx,galena-il,galveston-tx,gettysburg-pa,gloucester-ma,green-bay-wi,greenville-sc,healdsburg-ca,holland-mi,hood-river-or,hot-springs-ar,hudson-ny,huntsville-al,iowa-city-ia,jerome-az,juneau-ak,kalamazoo-mi,lambertville-nj,lancaster-pa,lawrence-ks,lenox-ma,livingston-mt,lubbock-tx,marquette-mi,moab-ut,monterey-ca,natchez-ms,newport-ri,northampton-ma,ojai-ca,olympia-wa,ouray-co,oxford-ms,pensacola-fl,petaluma-ca,port-townsend-wa,portsmouth-nh,prescott-az,princeton-nj,provincetown-ma,rapid-city-sd,roanoke-va,salem-ma,san-luis-obispo-ca,santa-cruz-ca,saratoga-springs-ny,scottsdale-az,scranton-pa,selma-al,sitka-ak,st-augustine-fl,staunton-va,steamboat-springs-co,stowe-vt,telluride-co,terlingua-tx,truth-or-consequences-nm,waco-tx,whitefish-mt,williamsburg-va,wilmington-nc,winslow-az,woodstock-ny
+ann-arbor-mi,annapolis-md,arcata-ca,asbury-park-nj,ashland-or,astoria-or,bar-harbor-me,beacon-ny,beaufort-sc,bellingham-wa,bethlehem-pa,bisbee-az,black-mountain-nc,boone-nc,bozeman-mt,brattleboro-vt,brevard-nc,camden-me,cannon-beach-or,cape-may-nj,carmel-by-the-sea-ca,charlottesville-va,clarksdale-ms,columbia-sc,cooperstown-ny,deadwood-sd,decatur-ga,durango-co,eau-claire-wi,el-paso-tx,eureka-ca,eureka-springs-ar,fargo-nd,fernandina-beach-fl,florence-al,frederick-md,fredericksburg-tx,galena-il,galveston-tx,gettysburg-pa,gloucester-ma,green-bay-wi,greenville-sc,healdsburg-ca,holland-mi,hood-river-or,hot-springs-ar,hudson-ny,huntsville-al,iowa-city-ia,jerome-az,juneau-ak,kalamazoo-mi,lambertville-nj,lancaster-pa,lawrence-ks,lenox-ma,livingston-mt,lubbock-tx,marquette-mi,monterey-ca,natchez-ms,newport-ri,northampton-ma,ojai-ca,olympia-wa,ouray-co,oxford-ms,pensacola-fl,petaluma-ca,port-townsend-wa,portsmouth-nh,prescott-az,princeton-nj,provincetown-ma,roanoke-va,salem-ma,san-luis-obispo-ca,santa-cruz-ca,saratoga-springs-ny,scottsdale-az,scranton-pa,selma-al,sitka-ak,st-augustine-fl,staunton-va,steamboat-springs-co,stowe-vt,telluride-co,terlingua-tx,truth-or-consequences-nm,waco-tx,whitefish-mt,williamsburg-va,wilmington-nc,winslow-az,woodstock-ny
 ```
 
 ## What this repo is

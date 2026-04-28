@@ -8,8 +8,8 @@
 
 ## Now (this week)
 
-- **Merge `scrape/100-new-cities` PR** — data-only; Wikipedia (89/92) + Reddit for the 100 new cities. Then run `batch_research.py --no-limit --ingest` for all 100.
-- **Issue #37 — tiered quality gates by `coverageTier`** — scraper char thresholds, research prompt variants, QC floor scaling. `coverageTier` already in schema; no schema changes needed. ([#37](https://github.com/Anguijm/city-atlas-service/issues/37))
+- **Issue #37 — tiered quality gates by `coverageTier`** — implement BEFORE running the 97-city research batch. Scraper char thresholds, coverageTier-aware prompt variant, QC floor scaling. `coverageTier` already in schema; no schema changes needed. ([#37](https://github.com/Anguijm/city-atlas-service/issues/37))
+- **Merge `scrape/100-new-cities` PR + run research (after #37 lands)** — pre-flight: Firestore export backup + 10-city dry run + branch-guard green. Then `batch_research.py --no-limit --ingest` for 97 cities (moab-ut/crested-butte-co/rapid-city-sd deferred until #37 lowers village floor).
 - **Issue #21 — automate branch-guard preflight inside pipeline entry points.** PR #27's 4-attempt retry pattern is the template. ([#21](https://github.com/Anguijm/city-atlas-service/issues/21))
 - **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`). ([#8](https://github.com/Anguijm/city-atlas-service/issues/8))
 
