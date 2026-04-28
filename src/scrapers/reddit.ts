@@ -25,13 +25,17 @@ const CITY_CACHE = path.join(__dirname, "..", "..", "configs", "global_city_cach
 const DEFAULT_INTERVAL_MS = 2000;
 const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)";
 
-// Mirror of scrape-wikipedia.ts's floor. Keeps both sources at the same quality
-// bar so Phase A sees consistent grounding.
-export const MIN_MARKDOWN_LENGTH = 500;
+// Tiered markdown floor matching wikipedia.ts — same floors, same rationale.
+export function minMarkdownLength(coverageTier?: string): number {
+  if (coverageTier === "village") return 150;
+  if (coverageTier === "town") return 300;
+  return 500; // metro + unknown
+}
 
 // Gate threshold: when the city name only appears in selftext (not title),
 // require at least one comment with score >= this value to count as a real
-// discussion rather than a passing mention.
+// discussion rather than a passing mention. Waived for villages where any
+// selftext mention is sufficient signal.
 const MIN_CORROBORATING_COMMENT_SCORE = 5;
 
 // Reddit's search endpoint returns {t=year} well for our use-case; we pull
@@ -55,6 +59,7 @@ export type RedditCity = {
   name: string;
   country: string;
   region?: string;
+  coverageTier?: string;
 };
 
 export type RedditComment = {
@@ -158,14 +163,21 @@ type GatePost = {
   comments: Array<{ body?: string; score?: number }>;
 };
 
-export function passesQualityGate(posts: GatePost[], cityName: string): boolean {
+export function passesQualityGate(
+  posts: GatePost[],
+  cityName: string,
+  coverageTier?: string,
+): boolean {
   if (!Array.isArray(posts) || !posts.length) return false;
   const needle = cityName.toLowerCase();
+  const isVillage = coverageTier === "village";
   return posts.some((p) => {
     const title = (p.title ?? "").toLowerCase();
     const selftext = (p.selftext ?? "").toLowerCase();
     if (title.includes(needle)) return true;
     if (!selftext.includes(needle)) return false;
+    // Villages: any selftext mention is enough — corroborating comment not required.
+    if (isVillage) return true;
     const hasUpvotedComment = (p.comments ?? []).some(
       (c) => typeof c.score === "number" && c.score >= MIN_CORROBORATING_COMMENT_SCORE,
     );
@@ -335,9 +347,9 @@ async function scrapeCity(city: CachedCity, interval: number): Promise<ScrapeOut
     for (const p of top) {
       p.comments = await fetchThreadComments(p.permalink, interval);
     }
-    if (!passesQualityGate(top, city.name)) continue;
+    if (!passesQualityGate(top, city.name, city.coverageTier)) continue;
     const md = buildMarkdown(city, sub, top);
-    if (md.length < MIN_MARKDOWN_LENGTH) continue;
+    if (md.length < minMarkdownLength(city.coverageTier)) continue;
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     fs.writeFileSync(path.join(OUTPUT_DIR, `${city.id}.md`), md);
     fs.writeFileSync(

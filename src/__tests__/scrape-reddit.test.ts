@@ -5,11 +5,11 @@ type RedditCity = {
   name: string;
   country: string;
   region?: string;
+  coverageTier?: string;
 };
 
-// Mirror of the constant in scrape-wikipedia.test.ts — kept in lockstep so
-// both sources hit the same floor. ~500 chars = header + one meaningful block.
-const MIN_MARKDOWN_LENGTH = 500;
+// Metro floor — unchanged from historical default, used in assertions below.
+const METRO_FLOOR = 500;
 
 describe("scrape-reddit logic", () => {
   describe("buildSubredditCandidates", () => {
@@ -283,6 +283,59 @@ describe("scrape-reddit logic", () => {
       const { passesQualityGate } = await import("../scrapers/reddit");
       expect(passesQualityGate([], "Marfa")).toBe(false);
     });
+
+    it("village: passes on selftext-only mention with NO upvoted comment (corroboration waived)", async () => {
+      const { passesQualityGate } = await import("../scrapers/reddit");
+      const posts = [
+        {
+          title: "tiny towns of west texas",
+          selftext: "Marfa is worth a detour.",
+          comments: [{ body: "cool", score: 1 }],
+        },
+      ];
+      expect(passesQualityGate(posts, "Marfa", "village")).toBe(true);
+    });
+
+    it("non-village: still requires upvoted comment for selftext-only mention", async () => {
+      const { passesQualityGate } = await import("../scrapers/reddit");
+      const posts = [
+        {
+          title: "road trip ideas",
+          selftext: "Marfa is on my list.",
+          comments: [{ body: "meh", score: 2 }],
+        },
+      ];
+      expect(passesQualityGate(posts, "Marfa", "town")).toBe(false);
+      expect(passesQualityGate(posts, "Marfa", "metro")).toBe(false);
+      expect(passesQualityGate(posts, "Marfa")).toBe(false);
+    });
+  });
+
+  describe("minMarkdownLength (tiered quality gate)", () => {
+    it("returns 500 for metro", async () => {
+      const { minMarkdownLength } = await import("../scrapers/reddit");
+      expect(minMarkdownLength("metro")).toBe(500);
+    });
+
+    it("returns 300 for town", async () => {
+      const { minMarkdownLength } = await import("../scrapers/reddit");
+      expect(minMarkdownLength("town")).toBe(300);
+    });
+
+    it("returns 150 for village", async () => {
+      const { minMarkdownLength } = await import("../scrapers/reddit");
+      expect(minMarkdownLength("village")).toBe(150);
+    });
+
+    it("returns 500 (metro default) when coverageTier is undefined", async () => {
+      const { minMarkdownLength } = await import("../scrapers/reddit");
+      expect(minMarkdownLength(undefined)).toBe(500);
+    });
+
+    it("returns 500 for unknown tier (safe fallback)", async () => {
+      const { minMarkdownLength } = await import("../scrapers/reddit");
+      expect(minMarkdownLength("unknown-tier")).toBe(500);
+    });
   });
 
   describe("buildMarkdown", () => {
@@ -312,7 +365,7 @@ describe("scrape-reddit logic", () => {
       expect(md).toMatch(/u\/local1/);
     });
 
-    it(`output is > MIN_MARKDOWN_LENGTH (${MIN_MARKDOWN_LENGTH}) for typical multi-comment post`, async () => {
+    it(`output is > METRO_FLOOR (${METRO_FLOOR}) for typical multi-comment post`, async () => {
       const { buildMarkdown } = await import("../scrapers/reddit");
       const city: RedditCity = { id: "bend", name: "Bend", country: "United States" };
       const md = buildMarkdown(city, "bend", [
@@ -328,7 +381,7 @@ describe("scrape-reddit logic", () => {
           comments: [{ author: "b", body: "y".repeat(200), score: 10 }],
         },
       ]);
-      expect(md.length).toBeGreaterThan(MIN_MARKDOWN_LENGTH);
+      expect(md.length).toBeGreaterThan(METRO_FLOOR);
     });
   });
 

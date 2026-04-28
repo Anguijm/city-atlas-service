@@ -18,11 +18,27 @@ preserve the city's enrichment data.
 from __future__ import annotations
 
 
+def _threshold_for_tier(coverage_tier: str | None) -> float:
+    """Return the FAIL threshold ratio for a given coverageTier.
+
+    Villages have small audit samples (e.g. 4 waypoints) where a single
+    hallucinated place is 25% — enough to FAIL under the metro rule even
+    though the city data is otherwise good. Raise the village floor to 40%
+    so one bad waypoint out of four demotes to WARNING instead of FAIL.
+    """
+    if coverage_tier == "village":
+        return 0.40
+    if coverage_tier == "town":
+        return 0.30
+    return 0.25  # metro + unknown
+
+
 def apply_proportional_fail_threshold(
     status: str,
     hallucinated_count: int,
     sample_size: int,
-    threshold_ratio: float = 0.25,
+    threshold_ratio: float | None = None,
+    coverage_tier: str | None = None,
 ) -> tuple[str, str | None]:
     """Apply the proportional FAIL threshold.
 
@@ -33,9 +49,10 @@ def apply_proportional_fail_threshold(
             were successfully extracted as hallucinated (matched against
             the sampled waypoints).
         sample_size: Number of waypoints in the audit sample.
-        threshold_ratio: Proportional FAIL threshold. FAIL is preserved
-            only when hallucinated_count / sample_size is strictly greater
-            than this value. Defaults to 0.25 (25%).
+        threshold_ratio: Explicit proportional FAIL threshold. If omitted,
+            derived from coverage_tier via _threshold_for_tier().
+        coverage_tier: City coverageTier ("metro" | "town" | "village").
+            Used to select the default threshold when threshold_ratio is None.
 
     Returns:
         (final_status, demotion_reason). demotion_reason is None unless
@@ -45,11 +62,11 @@ def apply_proportional_fail_threshold(
         return status, None
 
     # Defensive: malformed / empty sample — preserve FAIL for safety.
-    # A zero-size sample is itself a signal that something is wrong
-    # with the sampler, and we'd rather surface that than silently
-    # downgrade.
     if sample_size <= 0:
         return "FAIL", None
+
+    if threshold_ratio is None:
+        threshold_ratio = _threshold_for_tier(coverage_tier)
 
     ratio = hallucinated_count / sample_size
     if ratio > threshold_ratio:

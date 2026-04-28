@@ -25,9 +25,15 @@ const CITY_CACHE = path.join(__dirname, "..", "..", "configs", "global_city_cach
 const DEFAULT_INTERVAL_MS = 1500;
 const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)";
 
-// Shared floor for per-city .md output. Higher than Phase A's 200-char gate
-// (src/pipeline/research_city.py:350) so we never produce output Phase A rejects.
-export const MIN_MARKDOWN_LENGTH = 500;
+// Minimum .md length by coverageTier. Metro keeps the historical 500-char floor.
+// Town and village floors are lower because thin Wikipedia articles are expected
+// and still carry useful content for Gemini synthesis.
+// All floors stay above Phase A's 200-char gate (research_city.py:350).
+export function minMarkdownLength(coverageTier?: string): number {
+  if (coverageTier === "village") return 150;
+  if (coverageTier === "town") return 300;
+  return 500; // metro + unknown
+}
 
 // Per-section minimum prose size — discards stub subsections.
 const MIN_SECTION_CHARS = 80;
@@ -62,6 +68,7 @@ export type WikiCity = {
   country: string;
   clinicalName?: string;
   region?: string;
+  coverageTier?: string;
 };
 
 // City ids like `portland-me`, `jackson-wy`, `rochester-ny` encode the US
@@ -438,14 +445,15 @@ async function scrapeCity(city: CachedCity): Promise<ScrapeOutcome> {
   const rawSections = extractSectionsFromHtml(resolved.html);
   const keep = selectRelevantSections(rawSections);
   const md = buildMarkdown(city, keep);
-  if (md.length < MIN_MARKDOWN_LENGTH) {
+  const floor = minMarkdownLength(city.coverageTier);
+  if (md.length < floor) {
     return {
       id: city.id,
       resolvedTitle: resolved.title,
       sections: keep.length,
       mdChars: md.length,
       ok: false,
-      reason: `markdown too short (${md.length} < ${MIN_MARKDOWN_LENGTH})`,
+      reason: `markdown too short (${md.length} < ${floor} for ${city.coverageTier ?? "metro"})`,
     };
   }
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });
