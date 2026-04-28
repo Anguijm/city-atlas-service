@@ -133,6 +133,16 @@ class TestTierAwareThreshold:
         assert status == "WARNING"
         assert reason is not None
 
+    def test_village_2_of_4_is_preserved_as_fail(self):
+        # 2/4 = 50% > 40% → keep FAIL.
+        # This is the canonical case documented in _threshold_for_tier's docstring:
+        # one bad waypoint out of four demotes to WARNING, two out of four stays FAIL.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 2, 4, coverage_tier="village"
+        )
+        assert status == "FAIL"
+        assert reason is None
+
     def test_village_40_percent_threshold_preserves_3_of_5(self):
         # 3/5 = 60% > 40% → keep FAIL.
         status, reason = apply_proportional_fail_threshold(
