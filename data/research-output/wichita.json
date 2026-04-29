@@ -1,0 +1,600 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-town-downtown",
+      "city_id": "wichita",
+      "name": {
+        "en": "Old Town & The Downtown Core"
+      },
+      "summary": {
+        "en": "Wichita’s historic heart, where civic life meets a revitalized entertainment district, filled with architectural history and hidden public art."
+      },
+      "lat": 37.6865,
+      "lng": -97.3341,
+      "trending_score": 85
+    },
+    {
+      "id": "riverwalk-museum-district",
+      "city_id": "wichita",
+      "name": {
+        "en": "The Riverwalk & Museum District"
+      },
+      "summary": {
+        "en": "A sprawling, park-like cultural corridor along the Arkansas River celebrating Wichita's Native American, pioneer, and scientific roots."
+      },
+      "lat": 37.6915,
+      "lng": -97.3572,
+      "trending_score": 95
+    },
+    {
+      "id": "riverside",
+      "city_id": "wichita",
+      "name": {
+        "en": "Riverside"
+      },
+      "summary": {
+        "en": "A tranquil, historic residential neighborhood defined by grand old homes, a canopy of mature trees, and the 120-acre Riverside Park."
+      },
+      "lat": 37.7012,
+      "lng": -97.3495,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-town-downtown-historical-museum",
+      "city_id": "wichita",
+      "neighborhood_id": "old-town-downtown",
+      "name": {
+        "en": "Wichita-Sedgwick County Historical Museum"
+      },
+      "description": {
+        "en": "Housed in the 1892 original City Hall, this museum offers a comprehensive journey through Wichita's story from cowtown to industrial hub."
+      },
+      "type": "culture",
+      "lat": 37.68501,
+      "lng": -97.33745,
+      "trending_score": 88
+    },
+    {
+      "id": "old-town-downtown-new-deal-murals",
+      "city_id": "wichita",
+      "neighborhood_id": "old-town-downtown",
+      "name": {
+        "en": "The New Deal Murals at the Federal Courthouse"
+      },
+      "description": {
+        "en": "A hidden gem inside the 1936 U.S. Post Office, featuring two massive oil-on-canvas murals commissioned during the Great Depression."
+      },
+      "type": "hidden_gem",
+      "lat": 37.69048,
+      "lng": -97.33612,
+      "trending_score": 75
+    },
+    {
+      "id": "old-town-downtown-memorial-hall",
+      "city_id": "wichita",
+      "neighborhood_id": "old-town-downtown",
+      "name": {
+        "en": "Sedgwick County Memorial Hall and Soldiers & Sailors Monument"
+      },
+      "description": {
+        "en": "A solemn 1913 classical-style monument and hall offering a quiet and dignified tribute to local veterans."
+      },
+      "type": "landmark",
+      "lat": 37.6859,
+      "lng": -97.3385,
+      "trending_score": 70
+    },
+    {
+      "id": "riverwalk-museum-district-keeper-of-the-plains",
+      "city_id": "wichita",
+      "neighborhood_id": "riverwalk-museum-district",
+      "name": {
+        "en": "The Keeper of the Plains"
+      },
+      "description": {
+        "en": "A magnificent 44-foot steel sculpture by Kiowa artist Blackbear Bosin, standing on sacred ground at the confluence of two rivers."
+      },
+      "type": "landmark",
+      "lat": 37.6941,
+      "lng": -97.3493,
+      "trending_score": 100
+    },
+    {
+      "id": "riverwalk-museum-district-indian-center",
+      "city_id": "wichita",
+      "neighborhood_id": "riverwalk-museum-district",
+      "name": {
+        "en": "Mid-America All-Indian Center"
+      },
+      "description": {
+        "en": "A vital institution dedicated to preserving and sharing the diverse cultures of Native American peoples, located at the base of the Keeper of the Plains."
+      },
+      "type": "culture",
+      "lat": 37.6938,
+      "lng": -97.3488,
+      "trending_score": 85
+    },
+    {
+      "id": "riverwalk-museum-district-cowtown-museum",
+      "city_id": "wichita",
+      "neighborhood_id": "riverwalk-museum-district",
+      "name": {
+        "en": "Old Cowtown Museum"
+      },
+      "description": {
+        "en": "An immersive 1865-1880 living history museum where you can walk down dirt streets and interact with costumed interpreters."
+      },
+      "type": "culture",
+      "lat": 37.6882,
+      "lng": -97.3651,
+      "trending_score": 90
+    },
+    {
+      "id": "riverside-architectural-stroll",
+      "city_id": "wichita",
+      "neighborhood_id": "riverside",
+      "name": {
+        "en": "Riverside Architectural Stroll"
+      },
+      "description": {
+        "en": "The streets bordering the park are a living museum of beautifully preserved homes in styles from Queen Anne to Craftsman."
+      },
+      "type": "landmark",
+      "lat": 37.7025,
+      "lng": -97.3518,
+      "trending_score": 75
+    },
+    {
+      "id": "riverside-wildlife-spotting",
+      "city_id": "wichita",
+      "neighborhood_id": "riverside",
+      "name": {
+        "en": "Urban Wildlife Spotting"
+      },
+      "description": {
+        "en": "The mature trees of Riverside Park offer a prime location for urban wildlife observation, especially for the area's thriving owl population."
+      },
+      "type": "nature",
+      "lat": 37.7005,
+      "lng": -97.3501,
+      "trending_score": 68
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-town-downtown-task-1",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Find an old, historic building and capture it in a photo with a modern building or car reflected in its windows."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-2",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Explore the brick-lined streets and alleys to find a faded 'ghost sign'—a painted advertisement from a bygone era—and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-3",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo that frames the ornate details of an early 20th-century building against the clean lines of a modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-4",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a monument you haven't noticed before and capture it from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-5",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Beat Generation Echoes"
+      },
+      "prompt": {
+        "en": "Take a black and white photo of a street corner that looks like it could be a scene from a 1960s counter-culture film."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-6",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Warehouse Reimagined"
+      },
+      "prompt": {
+        "en": "Photograph a repurposed warehouse, focusing on how its new function (like a shop or restaurant) interacts with the old industrial architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-7",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Street-Level Story"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at the historic building facades to emphasize their height and grandeur."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-8",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Create a close-up shot of an interesting texture you find, like weathered brick, a rusty fire escape, or a granite cornerstone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-9",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "City of Contrasts Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures both a historic brick building and a modern glass structure in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-10",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker on a building and take a photo of it. What's the oldest date you can find?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-11",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Government Grandeur"
+      },
+      "prompt": {
+        "en": "Photograph the entrance of a government building, focusing on the details that make it look imposing and official."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-downtown-task-12",
+      "neighborhood_id": "old-town-downtown",
+      "title": {
+        "en": "Alleyway Art"
+      },
+      "prompt": {
+        "en": "Find an interesting piece of street art, graffiti, or an intriguing architectural detail hidden in an alley."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-1",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Sunset Over the River"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the sunset on the surface of the Arkansas River. Bonus points if you include a bridge or sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-2",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Spirit of the Plains"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the spirit of the Great Plains, whether it's a wide-open sky, a piece of native art, or a historical artifact."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-3",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Frontier Flashback"
+      },
+      "prompt": {
+        "en": "Find a scene that looks like it could be from the 1880s and take a photo using a sepia or black-and-white filter."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-4",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Riverwalk Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on one of the pedestrian bridges with the Arkansas River and the downtown skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-5",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Confluence View"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see the Big and Little Arkansas Rivers meeting and take a panoramic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-6",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Cultural Connection"
+      },
+      "prompt": {
+        "en": "Photograph an object or symbol that represents the Native American heritage of this area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-7",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Leisurely Pace"
+      },
+      "prompt": {
+        "en": "Capture a moment of leisure in the park-like setting: people walking, sitting on a bench, or enjoying the view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-8",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Sky as a Canvas"
+      },
+      "prompt": {
+        "en": "Use a low angle to photograph a large sculpture or monument against the vast Kansas sky, making the sky a major part of the composition."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-9",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Pathways and Trails"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the walking paths, using it as a leading line to draw the viewer's eye towards the river or a landmark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-10",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Pioneer Craft"
+      },
+      "prompt": {
+        "en": "Find an example of old-fashioned craftsmanship, like a blacksmith's tool, a wooden wagon wheel, or a hand-carved sign, and take a detailed photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-11",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Frame a shot of a museum or statue using trees or foliage as a natural border."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverwalk-museum-district-task-12",
+      "neighborhood_id": "riverwalk-museum-district",
+      "title": {
+        "en": "Twilight's Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, take a photo of the artificial lights (streetlights, building lights) beginning to glow against the twilight sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-1",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Architectural Detail Hunt"
+      },
+      "prompt": {
+        "en": "Find a unique architectural detail on one of the historic homes—like a stained-glass window, a porch column, or an ornate gable—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-2",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Tree Canopy"
+      },
+      "prompt": {
+        "en": "Stand under a large, mature tree and take a photo looking straight up through its branches at the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-3",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Stone Bridge Serenity"
+      },
+      "prompt": {
+        "en": "Find one of the charming stone bridges in the park and take a photo that captures its texture and the peaceful flow of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-4",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Dream Home Selfie"
+      },
+      "prompt": {
+        "en": "Find a historic house you'd love to live in and take a selfie with it in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-5",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Urban Wildlife Watch"
+      },
+      "prompt": {
+        "en": "Quietly observe your surroundings and try to photograph a piece of urban wildlife—a squirrel, a unique bird, or if you're lucky, a hawk or owl."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-6",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Park Bench Perspective"
+      },
+      "prompt": {
+        "en": "Sit on a park bench and take a photo of the view from your seated perspective, capturing the tranquil atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-7",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "On a sunny day, find an interesting shadow cast by a tree, a house, or a park structure and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-8",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "A Living Museum"
+      },
+      "prompt": {
+        "en": "Take a photo of a street lined with historic homes, trying to capture the variety of architectural styles in a single shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-9",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Nature's Palette"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different natural colors you find in the park: the green of the grass, the brown of a tree trunk, the blue of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-10",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Historic Marker Quest"
+      },
+      "prompt": {
+        "en": "Find a house with a historical marker and take a photo. Try to learn something about its original owners."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-11",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Meandering Path"
+      },
+      "prompt": {
+        "en": "Photograph a winding path through the park, emphasizing its curves as it disappears into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverside-task-12",
+      "neighborhood_id": "riverside",
+      "title": {
+        "en": "Community's Backyard"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows how locals use the park, whether it's for a picnic, a walk, or playing with their kids."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

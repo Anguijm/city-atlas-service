@@ -1,0 +1,855 @@
+{
+  "neighborhoods": [
+    {
+      "id": "soma-quapaw",
+      "city_id": "little-rock",
+      "name": {
+        "en": "SoMa & The Quapaw Quarter"
+      },
+      "summary": {
+        "en": "Historic, creative, and fiercely local, this is where Little Rock’s past and present have a lively conversation amidst preserved Victorian architecture and vibrant independent businesses."
+      },
+      "lat": 34.738,
+      "lng": -92.275,
+      "trending_score": 90
+    },
+    {
+      "id": "heights-hillcrest",
+      "city_id": "little-rock",
+      "name": {
+        "en": "The Heights & Hillcrest"
+      },
+      "summary": {
+        "en": "A charming, self-contained village within the city, known for its tree-canopied streets, beautiful historic homes, and a walkable strip of boutiques and cafes."
+      },
+      "lat": 34.765,
+      "lng": -92.325,
+      "trending_score": 80
+    },
+    {
+      "id": "river-market-argenta",
+      "city_id": "little-rock",
+      "name": {
+        "en": "River Market & Argenta"
+      },
+      "summary": {
+        "en": "The city’s dynamic riverfront core, best explored through its bustling food market, extensive public art, and stunning views from pedestrian bridges connecting to North Little Rock."
+      },
+      "lat": 34.751,
+      "lng": -92.27,
+      "trending_score": 95
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "soma-quapaw-stones-throw",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "Stone’s Throw Brewing"
+      },
+      "description": {
+        "en": "A beloved nano-brewery often called \"Little Rock's living room,\" featuring a relaxed, dog-friendly beer garden and a rotating tap list."
+      },
+      "type": "drink",
+      "lat": 34.7395,
+      "lng": -92.2705,
+      "trending_score": 90
+    },
+    {
+      "id": "soma-quapaw-rock-town",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "Rock Town Distillery"
+      },
+      "description": {
+        "en": "The first legal distillery in Arkansas since Prohibition, this pioneer offers tours and tastings of award-winning, locally sourced \"grain-to-glass\" spirits."
+      },
+      "type": "drink",
+      "lat": 34.741,
+      "lng": -92.275,
+      "trending_score": 88
+    },
+    {
+      "id": "soma-quapaw-the-root",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "The Root Café"
+      },
+      "description": {
+        "en": "The heart of SoMa’s local food scene, this casual farm-to-table restaurant is dedicated to sourcing ingredients from Arkansas farmers."
+      },
+      "type": "food",
+      "lat": 34.7375,
+      "lng": -92.2753,
+      "trending_score": 95
+    },
+    {
+      "id": "soma-quapaw-south-on-main",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "South on Main"
+      },
+      "description": {
+        "en": "A cultural hub offering sophisticated regional cuisine alongside a steady calendar of live music and literary events."
+      },
+      "type": "food",
+      "lat": 34.7396,
+      "lng": -92.2751,
+      "trending_score": 85
+    },
+    {
+      "id": "soma-quapaw-esse-museum",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "Esse Purse Museum"
+      },
+      "description": {
+        "en": "A fascinating and beautifully curated museum that tells the story of 20th-century American women through the contents of their handbags."
+      },
+      "type": "hidden_gem",
+      "lat": 34.7372,
+      "lng": -92.2753,
+      "trending_score": 92
+    },
+    {
+      "id": "soma-quapaw-scott-street-homes",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "Quapaw Quarter Historic Homes (Scott St)"
+      },
+      "description": {
+        "en": "Wander this street to admire the intricate details of the stunning Victorian and Antebellum homes that form an outdoor architectural museum."
+      },
+      "type": "landmark",
+      "lat": 34.7335,
+      "lng": -92.2735,
+      "trending_score": 80
+    },
+    {
+      "id": "soma-quapaw-cumberland-street-homes",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "Quapaw Quarter Historic Homes (Cumberland St)"
+      },
+      "description": {
+        "en": "Explore this key street in the historic district, showcasing some of the city's most well-preserved and architecturally significant homes."
+      },
+      "type": "landmark",
+      "lat": 34.7335,
+      "lng": -92.2765,
+      "trending_score": 80
+    },
+    {
+      "id": "soma-quapaw-heifer-village",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "Heifer Village"
+      },
+      "description": {
+        "en": "An engaging stop with interactive exhibits focusing on sustainable solutions to world hunger, part of Heifer International's headquarters."
+      },
+      "type": "culture",
+      "lat": 34.7495,
+      "lng": -92.2645,
+      "trending_score": 78
+    },
+    {
+      "id": "soma-quapaw-heifer-farm",
+      "city_id": "little-rock",
+      "neighborhood_id": "soma-quapaw",
+      "name": {
+        "en": "Heifer Urban Farm"
+      },
+      "description": {
+        "en": "Adjacent to Heifer Village, this urban farm lets you meet the goats, alpacas, and pigs that are part of the organization's global mission."
+      },
+      "type": "nature",
+      "lat": 34.749,
+      "lng": -92.264,
+      "trending_score": 75
+    },
+    {
+      "id": "heights-hillcrest-boulevard-bread",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "Boulevard Bread Company"
+      },
+      "description": {
+        "en": "A long-standing local institution that serves as a bakery, cafe, and gourmet market, beloved for its coffee, artisan bread, and sandwiches."
+      },
+      "type": "food",
+      "lat": 34.7645,
+      "lng": -92.3205,
+      "trending_score": 90
+    },
+    {
+      "id": "heights-hillcrest-croissanterie",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "Croissanterie"
+      },
+      "description": {
+        "en": "Praised by locals as a top-tier bakery, this spot creates small-batch, traditional, and exquisitely crafted pastries worth the slight detour."
+      },
+      "type": "food",
+      "lat": 34.8055,
+      "lng": -92.4465,
+      "trending_score": 88
+    },
+    {
+      "id": "heights-hillcrest-box-turtle",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "Box Turtle"
+      },
+      "description": {
+        "en": "The quintessential neighborhood boutique, located in a historic home and focusing on products from independent artists and local designers."
+      },
+      "type": "shopping",
+      "lat": 34.7655,
+      "lng": -92.3165,
+      "trending_score": 85
+    },
+    {
+      "id": "heights-hillcrest-kavanaugh-stroll",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "Kavanaugh Boulevard Stroll"
+      },
+      "description": {
+        "en": "The main artery of the neighborhoods, perfect for a walk to enjoy window shopping, admire historic homes, and appreciate the canopy of old-growth trees."
+      },
+      "type": "landmark",
+      "lat": 34.765,
+      "lng": -92.314,
+      "trending_score": 82
+    },
+    {
+      "id": "heights-hillcrest-allsopp-park",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "Allsopp Park"
+      },
+      "description": {
+        "en": "A large urban park offering a network of trails through a wooded ravine, providing a refreshing dose of nature."
+      },
+      "type": "nature",
+      "lat": 34.7685,
+      "lng": -92.3285,
+      "trending_score": 75
+    },
+    {
+      "id": "heights-hillcrest-hillcrest-homes",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "Hillcrest Historic Homes"
+      },
+      "description": {
+        "en": "Wander the residential streets of Hillcrest to admire the historic Craftsman and Colonial Revival homes just off the main boulevard."
+      },
+      "type": "landmark",
+      "lat": 34.763,
+      "lng": -92.312,
+      "trending_score": 78
+    },
+    {
+      "id": "heights-hillcrest-heights-homes",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "The Heights Historic Homes"
+      },
+      "description": {
+        "en": "Explore the beautiful, tree-canopied residential streets of The Heights, known for its affluent and well-preserved early 20th-century homes."
+      },
+      "type": "landmark",
+      "lat": 34.768,
+      "lng": -92.322,
+      "trending_score": 78
+    },
+    {
+      "id": "heights-hillcrest-heights-shopping",
+      "city_id": "little-rock",
+      "neighborhood_id": "heights-hillcrest",
+      "name": {
+        "en": "The Heights Shopping Strip"
+      },
+      "description": {
+        "en": "The highly walkable commercial section of Kavanaugh Boulevard, perfect for an afternoon of leisurely boutique shopping."
+      },
+      "type": "shopping",
+      "lat": 34.766,
+      "lng": -92.32,
+      "trending_score": 80
+    },
+    {
+      "id": "river-market-argenta-market-hall",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "River Market Hall"
+      },
+      "description": {
+        "en": "A bustling indoor market where locals line up for a diverse array of street-food-style stalls serving international cuisine."
+      },
+      "type": "food",
+      "lat": 34.751,
+      "lng": -92.27,
+      "trending_score": 95
+    },
+    {
+      "id": "river-market-argenta-flake-baby",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "Flake Baby"
+      },
+      "description": {
+        "en": "A cult-favorite bakery in Argenta specializing in unbelievably flaky laminated dough pastries, just a scenic walk across the bridge."
+      },
+      "type": "food",
+      "lat": 34.7555,
+      "lng": -92.268,
+      "trending_score": 92
+    },
+    {
+      "id": "river-market-argenta-big-dam-bridge",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "Big Dam Bridge"
+      },
+      "description": {
+        "en": "An icon of Little Rock's outdoor life, this is the longest pedestrian and bicycle bridge in North America built exclusively for that purpose."
+      },
+      "type": "landmark",
+      "lat": 34.815,
+      "lng": -92.36,
+      "trending_score": 90
+    },
+    {
+      "id": "river-market-argenta-sculpture-walk",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "Sculpture at the River Market"
+      },
+      "description": {
+        "en": "A sprawling outdoor gallery of over 90 works of public art dotted along the riverfront parks and trails."
+      },
+      "type": "culture",
+      "lat": 34.752,
+      "lng": -92.267,
+      "trending_score": 85
+    },
+    {
+      "id": "river-market-argenta-junction-bridge",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "Junction Bridge"
+      },
+      "description": {
+        "en": "A former railroad bridge converted into a pedestrian walkway that offers one of the best sunset views of the Little Rock skyline."
+      },
+      "type": "viewpoint",
+      "lat": 34.7525,
+      "lng": -92.269,
+      "trending_score": 93
+    },
+    {
+      "id": "river-market-argenta-argenta-district",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "Argenta Arts District"
+      },
+      "description": {
+        "en": "A burgeoning district in North Little Rock, easily accessible by a scenic walk and home to cult-favorite bakeries and local shops."
+      },
+      "type": "culture",
+      "lat": 34.755,
+      "lng": -92.2685,
+      "trending_score": 88
+    },
+    {
+      "id": "river-market-argenta-arkansas-river-trail",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "Arkansas River Trail"
+      },
+      "description": {
+        "en": "The scenic trail that connects the riverfront parks, pedestrian bridges, and public art, offering panoramic views of the river."
+      },
+      "type": "nature",
+      "lat": 34.753,
+      "lng": -92.275,
+      "trending_score": 82
+    },
+    {
+      "id": "river-market-argenta-main-street-bridge",
+      "city_id": "little-rock",
+      "neighborhood_id": "river-market-argenta",
+      "name": {
+        "en": "Main Street Bridge"
+      },
+      "description": {
+        "en": "A scenic bridge providing pedestrian access between Little Rock's River Market and North Little Rock's Argenta district."
+      },
+      "type": "landmark",
+      "lat": 34.752,
+      "lng": -92.268,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "soma-quapaw-task-1",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Find the most interesting architectural detail on a Victorian home and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-2",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Photograph a dish or drink that was made with locally sourced Arkansas ingredients."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-3",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows how a local business acts as a community gathering place."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-4",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find an old building and take a photo that contrasts its historic features with modern life around it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-5",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Maker's Mark"
+      },
+      "prompt": {
+        "en": "Find a product made by a local artisan or maker and photograph it in a creative way."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-6",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "SoMa Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on South Main Street that captures the unique, creative vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-7",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque and take a photo of it. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-8",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Garden State"
+      },
+      "prompt": {
+        "en": "Find a surprisingly beautiful garden or green space tucked away behind a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-9",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "The Color of SoMa"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different, vibrant colors you find on buildings or signs in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-10",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "A Spirited Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the essence of a local brewery or distillery's atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-11",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Farm to Table"
+      },
+      "prompt": {
+        "en": "Find a menu or sign that proudly lists its local farm partners. Snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "soma-quapaw-task-12",
+      "neighborhood_id": "soma-quapaw",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Photograph a welcoming front porch on one of the Quapaw Quarter's historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-1",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Canopy Avenue"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a street where the trees form a natural tunnel over the road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-2",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Boutique Beauty"
+      },
+      "prompt": {
+        "en": "Find an item in a local boutique window that perfectly represents the neighborhood's style."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-3",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Pastry Perfection"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a delicious-looking pastry from a local bakery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-4",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Neighborhood Stroll"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of local life along Kavanaugh Boulevard."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-5",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Park Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot in a neighborhood park and take a photo that feels peaceful and secluded."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-6",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Dream Home"
+      },
+      "prompt": {
+        "en": "Find your favorite house in the neighborhood and take a picture of it. What do you love about it?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-7",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Heights Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a charming, historic home in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-8",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Local Luxuries"
+      },
+      "prompt": {
+        "en": "Photograph a gourmet or locally-made product for sale in a neighborhood market."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-9",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Shady Sidewalks"
+      },
+      "prompt": {
+        "en": "Take a photo that plays with the light and shadows created by the large, old trees lining the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-10",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Architectural Charm"
+      },
+      "prompt": {
+        "en": "Find a home with a unique architectural style (like Craftsman or Colonial Revival) and capture its defining features."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-11",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "A Sign of the Times"
+      },
+      "prompt": {
+        "en": "Find a classic, old-fashioned business sign and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "heights-hillcrest-task-12",
+      "neighborhood_id": "heights-hillcrest",
+      "title": {
+        "en": "Alfresco Moment"
+      },
+      "prompt": {
+        "en": "Capture a scene of people enjoying a coffee or a meal at an outdoor cafe table."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-1",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Take a photo of the Arkansas River from one of the pedestrian bridges."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-2",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Skyline Sunset"
+      },
+      "prompt": {
+        "en": "Capture the Little Rock skyline as the sun begins to set."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-3",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Public Art Portrait"
+      },
+      "prompt": {
+        "en": "Find a piece of public sculpture and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-4",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Bridge Geometry"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the interesting lines, shapes, and patterns of one of the river bridges."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-5",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Market Flavors"
+      },
+      "prompt": {
+        "en": "Take a colorful photo of the food from one of the stalls inside the River Market Hall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-6",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Across the River"
+      },
+      "prompt": {
+        "en": "Take a photo of the North Little Rock side from Little Rock, or vice versa."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-7",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Riverfront Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the Arkansas River Trail with a bridge in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-8",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Urban Nature"
+      },
+      "prompt": {
+        "en": "Capture a moment where the natural beauty of the riverfront parks contrasts with the city buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-9",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Motion on the River"
+      },
+      "prompt": {
+        "en": "Use a creative angle to capture the movement of cyclists, runners, or boats along the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-10",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "A Tale of Two Cities"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both the Little Rock and North Little Rock riverfronts in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-11",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Food Stall Feast"
+      },
+      "prompt": {
+        "en": "Create a photo that shows the diversity of food options available in the Market Hall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-market-argenta-task-12",
+      "neighborhood_id": "river-market-argenta",
+      "title": {
+        "en": "Engineering Marvel"
+      },
+      "prompt": {
+        "en": "Take a wide-angle shot that captures the scale and engineering of the Big Dam Bridge or Junction Bridge."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

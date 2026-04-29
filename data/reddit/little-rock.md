@@ -14,27 +14,13 @@ I just wanna say to the people of Little Rock, stay lovely… keep the city beau
 
 ### Top comments
 
-- u/More_chickens (33): Little Rock gets such a bad rap but I think it's a lovely small city. I'm glad you like it here.
-- u/superdupermensch (27): So glad you like it.  I've lived here, in North Little Rock, most of my life.  The whole state is fantastic.
+- u/More_chickens (31): Little Rock gets such a bad rap but I think it's a lovely small city. I'm glad you like it here.
+- u/superdupermensch (25): So glad you like it.  I've lived here, in North Little Rock, most of my life.  The whole state is fantastic.
 
 Don't tell anyone out there how great it is here; they'll come here and ruin it.
-- u/Illustrious-Lead-960 (24): Hey! Why can’t *every* thread on this site have this much positivity going??!
-- u/beachboi365 (17): It takes an outsider to see the beauty of the city. I’m also an immigrant. Grew up in three different countries, but Little Rock is home now
-- u/millerlauraann (16): We spent a few days in Little Rock and criss crossed Arkansas. I loved it there.
-
-## Officer Tommy Norman arrested for domestic battery, obvs innocent until proven guilty but makes me wonder if his whole good guy persona is an act
-
-Anyone have any gossip or previous interactions with him? I don’t follow him but from time to time he shows up in the news doing good things
-
-### Top comments
-
-- u/ty_nnon (52): He’s a cop. It’s statistically less surprising.
-- u/jinxlover13 (46): The community has been talking about his predatory behaviors for years. I have a close friend who was a teen girl when he made sexual advances towards her, and there’s been multiple other girls who have come forward over the years. It gets buried because he’s good PR for the force. He has definitely overstepped and used his role as community savior for his own gains. Mamas and grandmamas who’ve been around know to keep their kids and teens away from him. My friend’s mom will literally holler at the kids “don’t take no candy from that man and stay away from him” because everything comes with strings attached. To be fair, when my friend rebuked his advances, he stopped, but she was a high school girl being raised by a single mom with two jobs and no father around; she was vulnerable and just his type to take advantage of. No grown man should be sniffing around girls and no police officer should be asking for sex from  vulnerable members of the community he is so heavily involved in. There’s reasons he targets the people he does, and they’re not all good ones.
-- u/Strange-Style-7808 (40): I just want to share, given the circumstances, if you are in an abusive relationship you can call 1.800.799.7233 or text "START" to 88788 to get help confidentially.
-- u/77peters (37): Hmmmm I’ve heard he’s not who the media makes him out to be.  This tracks.
-- u/buttermilkchunk (32): When I first learned of his Norman’s neighborhood program I immediately knew this guy was a narcissist. I told my friend I’ll bet you anything down the road something will come out that this guy is actually a shitbag. 
-
-If you need recognition and record the good things you’re doing it’s usually just for show.
+- u/Illustrious-Lead-960 (25): Hey! Why can’t *every* thread on this site have this much positivity going??!
+- u/beachboi365 (18): It takes an outsider to see the beauty of the city. I’m also an immigrant. Grew up in three different countries, but Little Rock is home now
+- u/millerlauraann (17): We spent a few days in Little Rock and criss crossed Arkansas. I loved it there.
 
 ## AMC Chenal Movie Theater
 
@@ -50,7 +36,7 @@ If you stop by the theater I would love to speak with you, get some feedback in 
 
 ### Top comments
 
-- u/Cordycepsus (25): Pledge to immediately throw out anybody talking above a whisper or using a cell phone during a screening and Chenal 9 will be my go to for life.   
+- u/Cordycepsus (24): Pledge to immediately throw out anybody talking above a whisper or using a cell phone during a screening and Chenal 9 will be my go to for life.   
   
 I love going to the movies, and I really like Chenal 9 (it's clean, has IMAX and a bar!). But phone-addicted morons have made movie theaters not worth the price no matter how nice they are. If somebody uses their phone without stepping out of the theater or comes to a screening to have a heart-to-heart with a friend, toss their ass out.   
   
@@ -62,33 +48,21 @@ I was at Chenal 9 in December to see Fire and Ash in IMAX, as you guys are one o
 We did have some early audio issues during our showing (specifically spatial audio seeming off and the audio not being loud enough to hear dialogue at times), but I think it was reported, as it seemed to be resolved after about 20-30 minutes, so kudos to the staff for getting that taken care of! 
 
 The only other thing I might mention was the slow lines at the concession stand, despite there being employees stationed all over the lobby. There was just one girl behind the counter and no-one jumped in to help her with a line of 5-6 people. Don't remember her name but she handled it well, and was kind, so it wasn't a dealbreaker, but I know I'd be frustrated as an employee to see co-workers standing around not doing anything actively with a line like that in front of me.
-- u/burritosuitcase (17): Better seats in the IMAX theater would be nice, I can't imagine those closer packed in seats get filled up anymore
+- u/burritosuitcase (16): Better seats in the IMAX theater would be nice, I can't imagine those closer packed in seats get filled up anymore
 - u/Rman99 (16): The seats sir, I have personally chosen to go to the Cinemark or Movie Tavern  SPECIFICALLY because of the seats and I live down the street. They’re just so uncomfortable.
-- u/HogGunner1983 (14): I think it was a smart move to leverage the collective experience of LR Redditors on the way in to give you a leg up in getting off the ground. Hope you are successful and it leads to increased growth and success for the Promenade center.
+- u/HogGunner1983 (15): I think it was a smart move to leverage the collective experience of LR Redditors on the way in to give you a leg up in getting off the ground. Hope you are successful and it leads to increased growth and success for the Promenade center.
 
-## Hi neighbors!
+## Officer Tommy Norman arrested for domestic battery, obvs innocent until proven guilty but makes me wonder if his whole good guy persona is an act
 
-Hey neighbors—I’m a UALR biology student doing undergrad research right here in Little Rock, and I wanted to share something cool I’ve been working on!
-
-My project looks at how spent mushroom substrate (from blue oyster mushrooms) can help regenerate soil—specifically how it impacts microbial activity, carbon cycling, and soil health. I ran tests using a CO₂ meter in sealed containers to measure microbial respiration, comparing SMS-amended soil to untreated soil.
-
-The SMS-treated soil showed higher microbial activity, even as things like pH and nitrate levels started to shift. It’s got me thinking about local applications—urban gardens, compost hubs, regenerative landscaping, etc.
-
-If you’re a local grower, home gardener, farmer’s market vendor, soil nerd, or just mushroom-curious, I’d love to connect. I’ve attached the visual poster I shared at a student expo, and I’d be thrilled to talk about practical uses, data, or just nerd out with fellow myco-minded folks. lol
-
-Let’s reclaim some dirt together.
-
-–Sydney
+Anyone have any gossip or previous interactions with him? I don’t follow him but from time to time he shows up in the news doing good things
 
 ### Top comments
 
-- u/Effective-Bag-2724 (14): Thanks for sharing your research!  I'm at a National conference for high school student research right now, PM me if you'd ever like to mentor or judge for one of these competitions.  Go science!
-- u/btwnblackandwhite (12): OMG, you're a local! Saw your post on some other subs this week. Well done 👏👏👏
-- u/bblll75 (10): We need more people like you in the world. This is how the world gets better, even if it doesnt end up yielding the results you want or expect.  
-
-Absolutely love curious people who put that curiosity to use!
-- u/colew344 (8): Great poster presentation! I always thought crop rotation and the dangers of poor soil management over time are interesting topics. Thanks for your contribution.
-- u/SwiftShotShadow (8): That's crazy, I saw your post on /r/mycology the other day, completely missed the UALR in the bottom corner! Really awesome.
+- u/ty_nnon (50): He’s a cop. It’s statistically less surprising.
+- u/jinxlover13 (48): The community has been talking about his predatory behaviors for years. I have a close friend who was a teen girl when he made sexual advances towards her, and there’s been multiple other girls who have come forward over the years. It gets buried because he’s good PR for the force. He has definitely overstepped and used his role as community savior for his own gains. Mamas and grandmamas who’ve been around know to keep their kids and teens away from him. My friend’s mom will literally holler at the kids “don’t take no candy from that man and stay away from him” because everything comes with strings attached. To be fair, when my friend rebuked his advances, he stopped, but she was a high school girl being raised by a single mom with two jobs and no father around; she was vulnerable and just his type to take advantage of. No grown man should be sniffing around girls and no police officer should be asking for sex from  vulnerable members of the community he is so heavily involved in. There’s reasons he targets the people he does, and they’re not all good ones.
+- u/Strange-Style-7808 (38): I just want to share, given the circumstances, if you are in an abusive relationship you can call 1.800.799.7233 or text "START" to 88788 to get help confidentially.
+- u/77peters (36): Hmmmm I’ve heard he’s not who the media makes him out to be.  This tracks.
+- u/TheJekka (31): LRHN did this whole thing about how he was possibly manipulative young girls he helps in exchange for favors. Im not 100% if it's true but I havent seen him the same since.
 
 ## I’m a Cajun living in Little Rock ranking king cakes - part 7
 
@@ -124,8 +98,36 @@ Croissanterie - $45 - cinnamon - cream cheese icing - 8.5/10
 
 ### Top comments
 
-- u/heytheophania (11): I’ve been waiting for a Flake Baby king cake drop like it’s my job. I hope I can get one.
+- u/heytheophania (10): I’ve been waiting for a Flake Baby king cake drop like it’s my job. I hope I can get one.
 - u/gugaallday (7): I've had Dong Phuong last year for the first time. It made me a believer in King Cake.
 - u/edmonkry (7): Love this!!  Thanks for doing this ... Been following your journey and wondering if Croissanterie would do one.  Your rec on the Boulevard one was spot on so I can't wait to escape snowmaggeddon and get myself to Croissanterie
 - u/JulieThinx (6): This series is life!
 - u/RustyAsAShackleford (5): These prices kill me 😫. I love your rankings (even if they do make me homesick!), but the prices have convinced me that making my own is still the way to go. Plus, they're damn tasty. Just sayin' ☺️👑
+
+## r/LittleRock turns 14 today! 🍰
+
+Tonight (Friday, May 30th) at 10:26 PM CDT, r/LittleRock will officially have been a subreddit for 14 years! :D
+
+I never imagined back in 2011 that my tenure as a mod here would end up far surpassing my longest relationships or time spent at a single job xD. I also never anticipated the consistent and steady growth we've seen over the years. I remember when we had subscribers in the single digits... well, sorta, I'm gettin old and the memory isn't what it used to be :P
+
+Speaking of growth, lemme share some statistics: Over the past year, we received roughly five million pageviews (up 372k from last year) from 60 thousand unique visitors. We also gained 5.1k subscribers bringing us--just a week or so back--to over 37,000 users who made a total of about 3,800 post and over 65,000 comments (up about 500 and 2300 from the previous year respectively). We average around 375-400k pageviews each month and quite a bit more behind big events, like severe weather.
+
+There have also been a couple of significant changes in the past year: First, to prevent bots and bad actors, we began screening all users who are new to this sub before approving their posts. Though labor intensive, this has been a resounding, tremendous success. 
+
+We also tightened up *significantly* on the no politics rule. It was necessary. I know some of you disagree with this choice (and I am in no way trying to invite *any* discussion on it). I just wanted to thank everyone for abiding by the rule and respecting the policy. I know it was a bit of an adjustment for some. Lord knows one thing that is undeniable about r/LittleRock is that most of us have strong opinions ;)
+
+Another thing I am pleased about is that after probably two+ years of trying, the [Events &amp; Classified Ads](https://www.reddit.com/r/LittleRock/s/BtZ4f2LT9G) sticky post is finally being used, and this in spite of Reddit's goofy choice to remove the comment and vote counts from the Community Highlight tiles for mobile users. If you find it potentially useful as I do, I suggest subscribing to the post so you are notified when there is new content.
+
+We've also welcomed three new mods, u/MurphyPandorasLawBox, u/Five-oh-one, and u/ChicTurker whose help I couldn't be more grateful to have. 
+
+In the past 12 months there have been just over 10,000 human performed mod actions--but that includes when we make posts or comments, so it's a bit inflated--the lion's share of which were approving content from new users, assigning post flairs, and communicating via modmail. I sent just over 1000 modmails just by myself this past year, but prolly half of those were just to let users know their posts had been approved.
+
+Automod took 1539 actions, mostly just moving new user's posts to the modqueue for approval, but also alerting us to potential issues based on problematic language. It's taken a lot of trial and error but I've finally got it functioning mostly how I'd envisioned.
+
+I am also proud to report that our team has maintained a standard set years ago: that we don't let our opinions shade our modding and that we communicate when submissions are removed. Furthermore, we rarely permaban folks for anything aside from racism and biggotry (we don't want those folks here anyway). We honestly hate banning anyone, even temporarily, and the overwhelming majority of bans are just that: temporary. We believe that no one should be permabanned from their home city's sub because maybe they woke up cranky or hungover and said the wrong thing. We all have bad days. 
+
+Most of all, I am grateful for everyone who has participated in the countless coversations and discussions here through the years, especially the regulars and long time contributors. You all are the reason people actually find value in spending time here. Thank you all so very much! c:
+
+### Top comments
+
+- u/behold_the_j (9): The often lampooned Reddit Mod is one of the more thankless jobs you could ever have, so thanks for rolling with the punches. Especially with a relatively localized user-base (visitors and frequent fliers from other parts of the state notwithstanding) I'm sure there are tons of challenges in ensuring the content remains relevant and ~~friendly~~ civil, as we all have our own ideas of the good, the bad, and the ugly when it comes to our humble city

@@ -1,0 +1,555 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-amarillo",
+      "city_id": "amarillo",
+      "name": {
+        "en": "Downtown Amarillo"
+      },
+      "summary": {
+        "en": "Amarillo's historic and civic heart, a landscape of classic early 20th-century architecture, modern cultural institutions, and the ever-present, impossibly wide Texas sky."
+      },
+      "lat": 35.2065,
+      "lng": -101.8328,
+      "trending_score": 75
+    },
+    {
+      "id": "sopo-district",
+      "city_id": "amarillo",
+      "name": {
+        "en": "The SOPO District (South of Polk)"
+      },
+      "summary": {
+        "en": "A district in transition focused on large-scale entertainment and public art, this area serves as the city's central gathering place."
+      },
+      "lat": 35.2031,
+      "lng": -101.8345,
+      "trending_score": 80
+    },
+    {
+      "id": "georgia-street-corridor",
+      "city_id": "amarillo",
+      "name": {
+        "en": "The Georgia Street International Corridor"
+      },
+      "summary": {
+        "en": "An unassuming culinary haven where a vibrant cluster of family-run Asian markets offers authentic flavors from around the world."
+      },
+      "lat": 35.1782,
+      "lng": -101.8731,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-amarillo-globe-news",
+      "city_id": "amarillo",
+      "neighborhood_id": "downtown-amarillo",
+      "name": {
+        "en": "Globe-News Center for the Performing Arts"
+      },
+      "description": {
+        "en": "A state-of-the-art venue with a sleek, modern design that hosts the Amarillo Symphony and Opera, symbolizing the city's commitment to the arts."
+      },
+      "type": "culture",
+      "lat": 35.2053,
+      "lng": -101.8325,
+      "trending_score": 78
+    },
+    {
+      "id": "sopo-district-hodgetown",
+      "city_id": "amarillo",
+      "neighborhood_id": "sopo-district",
+      "name": {
+        "en": "Hodgetown"
+      },
+      "description": {
+        "en": "This modern ballpark, home to the Amarillo Sod Poodles baseball team, is the epicenter of local fun and a symbol of downtown revitalization."
+      },
+      "type": "culture",
+      "lat": 35.2033,
+      "lng": -101.8322,
+      "trending_score": 90
+    },
+    {
+      "id": "sopo-district-dynamite-museum",
+      "city_id": "amarillo",
+      "neighborhood_id": "sopo-district",
+      "name": {
+        "en": "The Dynamite Museum"
+      },
+      "description": {
+        "en": "A city-wide public art project of bizarre and poetic street signs. Downtown and SOPO are the perfect places to start the ultimate urban scavenger hunt to find them."
+      },
+      "type": "hidden_gem",
+      "lat": 35.2041,
+      "lng": -101.8351,
+      "trending_score": 95
+    },
+    {
+      "id": "georgia-street-corridor-sea-market-hot-food",
+      "city_id": "amarillo",
+      "neighborhood_id": "georgia-street-corridor",
+      "name": {
+        "en": "Sea Market (Saturday Hot Food)"
+      },
+      "description": {
+        "en": "The real draw for a day-tripper is the authentic, home-style hot food served here on Saturdays, offering dishes not found on typical restaurant menus."
+      },
+      "type": "food",
+      "lat": 35.1783,
+      "lng": -101.8732,
+      "trending_score": 92
+    },
+    {
+      "id": "georgia-street-corridor-sea-market-flower-bar",
+      "city_id": "amarillo",
+      "neighborhood_id": "georgia-street-corridor",
+      "name": {
+        "en": "Sea Market's Flower Bar & Ambiance"
+      },
+      "description": {
+        "en": "An unexpected splash of color and beauty inside the market, this flower bar contributes to the store's calming and peaceful atmosphere."
+      },
+      "type": "hidden_gem",
+      "lat": 35.1781,
+      "lng": -101.873,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-amarillo-task-1",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic, early 20th-century building stands next to a modern one. Capture both in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-2",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Panhandle Sky"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up the facade of a tall building, capturing as much of the impossibly wide Texas sky as possible."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-3",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Civic Symbol"
+      },
+      "prompt": {
+        "en": "Find a symbol of civic pride—like a city flag, a public monument, or an official seal on a building—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-4",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Historic Texture"
+      },
+      "prompt": {
+        "en": "Get close to an old brick or stone building and take a photo that focuses on the texture and craftsmanship of the past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-5",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Reflections of Old and New"
+      },
+      "prompt": {
+        "en": "Find a modern glass window and capture the reflection of a historic building in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-6",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Street-Level Story"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle that tells a story about the downtown streets. Focus on details like street signs, manhole covers, or storefronts."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-7",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "The Quiet Moment"
+      },
+      "prompt": {
+        "en": "This area is more about civic institutions than bustling retail. Find a quiet corner or empty plaza and capture the sense of space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-8",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern made by the shadows of downtown buildings on the sidewalk or on another building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-9",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Urban Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with what you think is the most impressive piece of architecture in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-10",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a vintage-looking sign on a building, whether it's neon, painted, or carved in stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-11",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "The Arts Hub"
+      },
+      "prompt": {
+        "en": "Find a poster or advertisement for a local arts event (symphony, opera, theatre) and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-amarillo-task-12",
+      "neighborhood_id": "downtown-amarillo",
+      "title": {
+        "en": "Downtown Color Palette"
+      },
+      "prompt": {
+        "en": "Create a mini photo collage (3 pictures) of the dominant colors you see in the neighborhood: brick red, sky blue, and something unexpected."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-1",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Art Where You Least Expect It"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, whether it's a sculpture, a mural, or one of the famous Dynamite Museum signs. Frame it with its urban surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-2",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Game Day Energy"
+      },
+      "prompt": {
+        "en": "Capture the feeling of entertainment and local fun. Photograph something that represents sports or performance culture in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-3",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Transitional Space"
+      },
+      "prompt": {
+        "en": "This neighborhood is 'in transition.' Take a photo that shows this mix of old and new, like a modern structure next to an empty lot or an older building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-4",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Local Mascot Hunt"
+      },
+      "prompt": {
+        "en": "The Sod Poodle (a prairie dog) is the local mascot. Find any depiction of a prairie dog or another local animal and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-5",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Pre-Game Ritual"
+      },
+      "prompt": {
+        "en": "Imagine you're heading to a game. Find a local bar or eatery that looks like a great pre-game watering hole and photograph its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-6",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Surreal Signage"
+      },
+      "prompt": {
+        "en": "Channeling the Dynamite Museum, find the most unusual or poetic-sounding street sign or business name and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-7",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Gathering Place Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a spot that looks like a central gathering place for the city, like a plaza or the entrance to a major venue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-8",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "The Perfect Frame"
+      },
+      "prompt": {
+        "en": "Use an architectural feature, like an archway or a window, to frame a shot of a landmark in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-9",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here in the late afternoon, capture a building facade lit up by the warm light of the 'golden hour' just before sunset."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-10",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Urban Grid"
+      },
+      "prompt": {
+        "en": "Take a photo down a long, straight street that emphasizes the wide-open grid layout of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-11",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Take a 10-second video of the ambient sounds of the neighborhood. Is it traffic, distant cheers, or quiet?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sopo-district-task-12",
+      "neighborhood_id": "sopo-district",
+      "title": {
+        "en": "Brick and Steel"
+      },
+      "prompt": {
+        "en": "Find an example of modern construction that uses brick and steel and take a photo that highlights the interplay between these two materials."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-1",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "A World of Flavor"
+      },
+      "prompt": {
+        "en": "Find a product in a market with packaging in a language you don't recognize. Take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-2",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Culinary Color"
+      },
+      "prompt": {
+        "en": "Photograph the most colorful display of fresh produce or packaged goods you can find in one of the international markets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-3",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "The Sweet Reward"
+      },
+      "prompt": {
+        "en": "Find an interesting-looking candy, snack, or ice cream. Take a picture of your sweet discovery before you try it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-4",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Hidden Gem Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie outside the most unassuming storefront that you think hides the most interesting things inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-5",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Aisle Explorer"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a long market aisle, capturing the sheer variety of products available."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-6",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Mystery Ingredient"
+      },
+      "prompt": {
+        "en": "Find a fruit, vegetable, or sauce you've never seen before. Take a close-up shot and try to guess what it tastes like."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-7",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Suburban Surprise"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between the typical American suburban landscape and the vibrant international culture found here."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-8",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "The Scent of Discovery"
+      },
+      "prompt": {
+        "en": "Find the spice aisle or fresh herbs section in a market. Take a photo and describe the most interesting smell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-9",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Peaceful Shopping"
+      },
+      "prompt": {
+        "en": "Some markets here are praised for their calm atmosphere. Find a quiet corner or a beautifully organized shelf and capture that sense of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-10",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Family-Run Feel"
+      },
+      "prompt": {
+        "en": "Look for signs of a family-run business—a handwritten sign, a unique display, or a friendly interaction. Capture the essence of it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-11",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Beverage Quest"
+      },
+      "prompt": {
+        "en": "Find the beverage cooler in a market and take a photo of the most interesting-looking drink you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "georgia-street-corridor-task-12",
+      "neighborhood_id": "georgia-street-corridor",
+      "title": {
+        "en": "Market Crawl Map"
+      },
+      "prompt": {
+        "en": "Take a screenshot of your map app showing the pins of at least two different international markets you've visited or located in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
