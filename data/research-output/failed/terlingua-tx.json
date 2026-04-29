@@ -1,0 +1,297 @@
+{
+  "neighborhoods": [
+    {
+      "id": "terlingua-ghost-town",
+      "city_id": "terlingua-tx",
+      "name": {
+        "en": "Terlingua Ghost Town"
+      },
+      "summary": {
+        "en": "Experience a singular blend of living history, rugged independence, and artistic grit in this sprawling, dusty landscape of adobe ruins. The vibe is slow, sun-baked, and deeply authentic, with panoramic views of the Chisos Mountains."
+      },
+      "lat": 29.3215,
+      "lng": -103.6175,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "terlingua-ghost-town-general-store",
+      "city_id": "terlingua-tx",
+      "neighborhood_id": "terlingua-ghost-town",
+      "name": {
+        "en": "The General Store"
+      },
+      "description": {
+        "en": "The undisputed social and commercial heart of the Ghost Town, its legendary porch is the perfect spot to grab a cold drink, get supplies, and watch the desert world go by."
+      },
+      "type": "drink",
+      "lat": 29.3218,
+      "lng": -103.6155,
+      "trending_score": 95
+    },
+    {
+      "id": "terlingua-ghost-town-cemetery",
+      "city_id": "terlingua-tx",
+      "neighborhood_id": "terlingua-ghost-town",
+      "name": {
+        "en": "Terlingua Cemetery"
+      },
+      "description": {
+        "en": "An active, living cemetery dating to 1903 that tells the story of the town's mining origins through handmade crosses and gravesites overlooking the vast landscape."
+      },
+      "type": "landmark",
+      "lat": 29.3205,
+      "lng": -103.618,
+      "trending_score": 90
+    },
+    {
+      "id": "terlingua-ghost-town-chili-cook-off-grounds",
+      "city_id": "terlingua-tx",
+      "neighborhood_id": "terlingua-ghost-town",
+      "name": {
+        "en": "Chili Cook-Off Grounds"
+      },
+      "description": {
+        "en": "A quiet, expansive space that explodes with life each November for the world-famous chili championships, embodying the anarchic spirit of the community."
+      },
+      "type": "culture",
+      "lat": 29.323,
+      "lng": -103.62,
+      "trending_score": 75
+    },
+    {
+      "id": "terlingua-ghost-town-cinnabar-ruins",
+      "city_id": "terlingua-tx",
+      "neighborhood_id": "terlingua-ghost-town",
+      "name": {
+        "en": "Cinnabar Mining Ruins"
+      },
+      "description": {
+        "en": "Explore the ghostly adobe ruins and crumbling stone structures scattered throughout the hillsides, a tangible connection to the mercury mining that gave birth to Terlingua."
+      },
+      "type": "landmark",
+      "lat": 29.321,
+      "lng": -103.6195,
+      "trending_score": 88
+    }
+  ],
+  "tasks": [
+    {
+      "id": "terlingua-ghost-town-task-1",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Desert Still Life"
+      },
+      "prompt": {
+        "en": "Arrange some items you've found or brought with you (a cool rock, a drink, your sunglasses) and take an artistic photo of them against the dusty ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-2",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Ghost Town Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie with a crumbling adobe ruin in the background, capturing the spirit of resilience and the passage of time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-3",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture a photo of the long, dramatic shadows cast by a building, cactus, or person in the late afternoon sun."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-4",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Mountain Majesty"
+      },
+      "prompt": {
+        "en": "Find a clear view of the Chisos Mountains and take a panoramic photo that showcases their immense scale against the desert foreground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-5",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Relic of the Past"
+      },
+      "prompt": {
+        "en": "Find and photograph a piece of rusted, forgotten metal—a ghost of the town's mining history. Do not remove any artifacts."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-6",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Framed by History"
+      },
+      "prompt": {
+        "en": "Frame a shot of the desert landscape by looking through a crumbling window or doorway of a ruin."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-7",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Artistic Grit"
+      },
+      "prompt": {
+        "en": "Find an example of modern art, a quirky sign, or a unique handmade decoration that shows off Terlingua's creative soul."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-8",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Porch Life Perspective"
+      },
+      "prompt": {
+        "en": "Find a porch and take a photo from a seated perspective that captures the relaxed, slow-paced vibe of the town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-9",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Sky So Big"
+      },
+      "prompt": {
+        "en": "Take a low-angle photo that emphasizes the vast, open West Texas sky above you, making the landscape feel even bigger."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-10",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Survivor"
+      },
+      "prompt": {
+        "en": "Find a desert plant growing in an unlikely place, like out of a crack in a ruin or a rock, and photograph its resilience."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-11",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Sun-Baked Texture"
+      },
+      "prompt": {
+        "en": "Get up close to a cracked adobe wall, a weathered piece of wood, or the dry desert floor and capture its intricate texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-12",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "The Dusty Road"
+      },
+      "prompt": {
+        "en": "Take a photo looking down one of the dusty roads, conveying a sense of endless adventure and beautiful isolation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-13",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture a photo of the Ghost Town during sunrise or sunset, when the golden light makes the landscape and ruins glow."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-14",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Off-Grid Ingenuity"
+      },
+      "prompt": {
+        "en": "Photograph an example of the off-grid, self-sufficient lifestyle, such as a solar panel, a rainwater collector, or a unique handmade structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-15",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Footsteps in Time"
+      },
+      "prompt": {
+        "en": "Take a photo of your own footprints in the dusty ground, marking your path through this historic place."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-16",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "A Study in Contrast"
+      },
+      "prompt": {
+        "en": "Find a scene that shows a strong contrast, like the bright blue sky against a brown ruin, or a new object next to an ancient one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-17",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Desert Dwelling"
+      },
+      "prompt": {
+        "en": "Photograph a home, new or old, that looks perfectly suited to the desert environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-18",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Spirit of the Place"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the unique, independent, and resilient spirit of Terlingua."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

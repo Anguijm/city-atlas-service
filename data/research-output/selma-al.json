@@ -1,0 +1,615 @@
+{
+  "neighborhoods": [
+    {
+      "id": "riverfront-downtown",
+      "city_id": "selma-al",
+      "name": {
+        "en": "The Riverfront & Historic Downtown"
+      },
+      "summary": {
+        "en": "The historic and emotional heart of Selma, this district is centered around the Alabama River and the structures that witnessed the Civil Rights Movement. The atmosphere is one of reverence and raw, powerful history."
+      },
+      "lat": 32.4071,
+      "lng": -87.0185,
+      "trending_score": 95
+    },
+    {
+      "id": "old-town",
+      "city_id": "selma-al",
+      "name": {
+        "en": "Old Town & The Antebellum Core"
+      },
+      "summary": {
+        "en": "Alabama's largest contiguous historic district, these quiet, tree-canopied streets are lined with magnificent 19th-century architecture, feeling like a preserved pocket of time."
+      },
+      "lat": 32.412,
+      "lng": -87.023,
+      "trending_score": 85
+    },
+    {
+      "id": "living-memorials",
+      "city_id": "selma-al",
+      "name": {
+        "en": "The Living Memorials"
+      },
+      "summary": {
+        "en": "A thematic exploration of how Selma remembers and commemorates its past, from the solemn beauty of its oldest cemetery to modern artistic expressions that prove Selma's story is still being written."
+      },
+      "lat": 32.4165,
+      "lng": -87.0155,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "riverfront-downtown-edmund-pettus-bridge",
+      "city_id": "selma-al",
+      "neighborhood_id": "riverfront-downtown",
+      "name": {
+        "en": "Edmund Pettus Bridge"
+      },
+      "description": {
+        "en": "A National Historic Landmark and sacred symbol of the fight for voting rights. To walk across its arch is to trace the footsteps of the 1965 marchers on 'Bloody Sunday.'"
+      },
+      "type": "landmark",
+      "lat": 32.4055,
+      "lng": -87.018,
+      "trending_score": 100
+    },
+    {
+      "id": "riverfront-downtown-voting-rights-museum",
+      "city_id": "selma-al",
+      "neighborhood_id": "riverfront-downtown",
+      "name": {
+        "en": "National Voting Rights Museum"
+      },
+      "description": {
+        "en": "Located at the foot of the bridge, this museum provides crucial human context with powerful, personal testimonies and artifacts of the 'foot soldiers' of the movement."
+      },
+      "type": "culture",
+      "lat": 32.407,
+      "lng": -87.0182,
+      "trending_score": 90
+    },
+    {
+      "id": "riverfront-downtown-old-depot-museum",
+      "city_id": "selma-al",
+      "neighborhood_id": "riverfront-downtown",
+      "name": {
+        "en": "Historic Water Avenue & Old Depot Museum"
+      },
+      "description": {
+        "en": "Walk this atmospheric street of 19th-century warehouses and visit the museum in the former railroad station for a broad look at Selma's long history."
+      },
+      "type": "culture",
+      "lat": 32.408,
+      "lng": -87.0195,
+      "trending_score": 80
+    },
+    {
+      "id": "old-town-sturdivant-hall",
+      "city_id": "selma-al",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Sturdivant Hall"
+      },
+      "description": {
+        "en": "An immaculate 1856 example of Greek Revival architecture, this historic house museum offers a fascinating glimpse into the opulent world of the pre-war South."
+      },
+      "type": "landmark",
+      "lat": 32.4105,
+      "lng": -87.0251,
+      "trending_score": 88
+    },
+    {
+      "id": "old-town-historic-district-wander",
+      "city_id": "selma-al",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "The Old Town Historic District (A General Wander)"
+      },
+      "description": {
+        "en": "An entire environment to be explored, with over 1,250 historic structures. The joy is in wandering the streets and observing the stunning variety of architectural styles."
+      },
+      "type": "landmark",
+      "lat": 32.4122,
+      "lng": -87.0235,
+      "trending_score": 85
+    },
+    {
+      "id": "old-town-vaughan-smitherman-museum",
+      "city_id": "selma-al",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Vaughan-Smitherman Museum"
+      },
+      "description": {
+        "en": "Housed in a building that has been a Civil War hospital, courthouse, and military school, this quirky museum covers the political and social history of Dallas County."
+      },
+      "type": "culture",
+      "lat": 32.409,
+      "lng": -87.021,
+      "trending_score": 75
+    },
+    {
+      "id": "living-memorials-old-live-oak-cemetery",
+      "city_id": "selma-al",
+      "neighborhood_id": "living-memorials",
+      "name": {
+        "en": "Old Live Oak Cemetery"
+      },
+      "description": {
+        "en": "One of the most beautiful cemeteries in the South, defined by a canopy of ancient, moss-draped live oaks creating a natural cathedral over historic graves."
+      },
+      "type": "landmark",
+      "lat": 32.419,
+      "lng": -87.014,
+      "trending_score": 92
+    },
+    {
+      "id": "living-memorials-mlk-walking-tour",
+      "city_id": "selma-al",
+      "neighborhood_id": "living-memorials",
+      "name": {
+        "en": "Martin Luther King Jr. Street Historic Walking Tour"
+      },
+      "description": {
+        "en": "This self-guided tour provides a crucial ground-level perspective on the Civil Rights Movement, connecting the churches, homes, and spaces that powered the movement."
+      },
+      "type": "culture",
+      "lat": 32.4115,
+      "lng": -87.018,
+      "trending_score": 85
+    },
+    {
+      "id": "old-town-selma-art-guild",
+      "city_id": "selma-al",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Selma Art Guild Gallery"
+      },
+      "description": {
+        "en": "A vibrant showcase of contemporary local and regional artists, reminding visitors that Selma is a living community with a thriving creative pulse."
+      },
+      "type": "culture",
+      "lat": 32.4102,
+      "lng": -87.0221,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "riverfront-downtown-task-1",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Echoes in Brick"
+      },
+      "prompt": {
+        "en": "Photograph a weathered brick wall on an old building. Try to capture the texture and history in the details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-2",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Symbol of Struggle"
+      },
+      "prompt": {
+        "en": "Take a photo of the Edmund Pettus Bridge from an interesting angle that makes it look powerful and significant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-3",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a selfie that conveys a feeling of contemplation or reverence for the history around you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-4",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Find and photograph a historical marker or plaque. Frame it so the text is readable."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-5",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Play with light and shadow. Take a photo of a long shadow cast by a historic structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-6",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "The Path Forward"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a street or across the bridge, creating a sense of a journey or path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-7",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Contrasting Eras"
+      },
+      "prompt": {
+        "en": "Find an element of modern life (like a car or a modern sign) next to a piece of 19th-century architecture and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-8",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Riverfront Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Alabama River and the historic downtown skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-9",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "The Weight of History"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the 'thick with significance' atmosphere described in the guide."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-10",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Historic Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of a street in this district that shows the mix of historic buildings and modern life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-11",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "Architectural Ghost"
+      },
+      "prompt": {
+        "en": "Look for a faded advertisement painted on a brick wall or other remnants of a building's past life and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-downtown-task-12",
+      "neighborhood_id": "riverfront-downtown",
+      "title": {
+        "en": "River's View"
+      },
+      "prompt": {
+        "en": "Find a spot with a clear view of the Alabama River and take a photo that captures its calm power."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-1",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Antebellum Grandeur"
+      },
+      "prompt": {
+        "en": "Photograph the most impressive mansion or historic home you can find. Focus on its grand scale and architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-2",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Mossy Oak Canopy"
+      },
+      "prompt": {
+        "en": "Find a street canopied by ancient, moss-draped oak trees and take a photo looking up through the branches."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-3",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Ironwork Art"
+      },
+      "prompt": {
+        "en": "Find a piece of ornate ironwork on a fence, gate, or balcony and take a detailed close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-4",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Southern Porch Scene"
+      },
+      "prompt": {
+        "en": "Capture the inviting look of a classic Southern front porch. Bonus points for rocking chairs or a porch swing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-5",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet, tree-lined street that captures the peaceful, contemplative vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-6",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on a unique architectural feature—a detailed column, an interesting window, or ornate trim—on one of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-7",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Preserved in Time"
+      },
+      "prompt": {
+        "en": "Take a photo that makes the neighborhood look like a perfectly preserved scene from the 19th century."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-8",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Find a beautiful garden or yard in front of a historic home and photograph the flowers and foliage."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-9",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Historic Marker Discovery"
+      },
+      "prompt": {
+        "en": "Find a home with an official historical marker and take a photo of the marker with the house in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-10",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Shadow Play on a Facade"
+      },
+      "prompt": {
+        "en": "Capture the way sunlight and shadows fall across the front of an old house, highlighting its textures and shapes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-11",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "The Welcoming Door"
+      },
+      "prompt": {
+        "en": "Photograph an interesting or colorful front door in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-task-12",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Wandering Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while walking down one of the district's most beautiful streets, showing the scenery behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-1",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Story in Stone"
+      },
+      "prompt": {
+        "en": "Find an old, interesting headstone in a cemetery and take a photo that captures its age and character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-2",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Past and Present"
+      },
+      "prompt": {
+        "en": "Photograph a historic site or marker with elements of modern Selma life (people, cars, new buildings) in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-3",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "A Community's Memory"
+      },
+      "prompt": {
+        "en": "Find a monument, mural, or public art piece dedicated to a historical event or person and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-4",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Light Through the Trees"
+      },
+      "prompt": {
+        "en": "In a park or cemetery, take a photo of sunlight filtering through the leaves or moss of a large tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-5",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Solemn Selfie"
+      },
+      "prompt": {
+        "en": "Take a respectful selfie in a memorial space that captures a mood of remembrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-6",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "The Living City"
+      },
+      "prompt": {
+        "en": "Find a place where the city's history is actively being discussed or displayed today (like a gallery or tour sign) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-7",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Path of History"
+      },
+      "prompt": {
+        "en": "Photograph a street or path that is part of a historic walking tour, conveying a sense of walking through history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-8",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Sacred Spaces"
+      },
+      "prompt": {
+        "en": "Take a respectful exterior photo of one of the historic churches that played a role in the city's history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-9",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Shadows of Remembrance"
+      },
+      "prompt": {
+        "en": "Use long shadows from monuments or old trees to create a dramatic, atmospheric photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-10",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Hopeful Horizon"
+      },
+      "prompt": {
+        "en": "Take a photo looking towards the sky or a distant horizon from a place of historical significance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-11",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Modern Voice"
+      },
+      "prompt": {
+        "en": "Find a sign of Selma's contemporary culture—a gallery, a modern sign, a community event poster—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "living-memorials-task-12",
+      "neighborhood_id": "living-memorials",
+      "title": {
+        "en": "Epitaph Reading"
+      },
+      "prompt": {
+        "en": "Find a historic grave with a readable epitaph and take a photo that captures the name, dates, and message."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

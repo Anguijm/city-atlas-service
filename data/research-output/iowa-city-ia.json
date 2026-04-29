@@ -1,0 +1,660 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-pentacrest",
+      "city_id": "iowa-city-ia",
+      "name": {
+        "en": "Downtown & The Pentacrest"
+      },
+      "summary": {
+        "en": "The energetic core of Iowa City, where the University of Iowa's iconic campus seamlessly merges with the city's historic downtown, creating a blend of academic ambition and literary prestige."
+      },
+      "lat": 41.6615,
+      "lng": -91.5348,
+      "trending_score": 95
+    },
+    {
+      "id": "northside-eastside",
+      "city_id": "iowa-city-ia",
+      "name": {
+        "en": "The Northside & East Side"
+      },
+      "summary": {
+        "en": "A peaceful area defined by its well-preserved historic homes, tree-lined streets, and a collection of unique architectural oddities that feels like a journey back in time."
+      },
+      "lat": 41.6671,
+      "lng": -91.5212,
+      "trending_score": 75
+    },
+    {
+      "id": "river-cemetery",
+      "city_id": "iowa-city-ia",
+      "name": {
+        "en": "The River & Cemetery District"
+      },
+      "summary": {
+        "en": "This district follows the gentle curve of the Iowa River, offering a journey that connects recreation, history, and solemn beauty, perfect for longer, more contemplative walks."
+      },
+      "lat": 41.6625,
+      "lng": -91.5395,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-pentacrest-hamburg-inn",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "downtown-pentacrest",
+      "name": {
+        "en": "Hamburg Inn No. 2"
+      },
+      "description": {
+        "en": "An Iowa City institution and required stop on the political campaign trail, this no-frills diner is famous for its \"pie shakes\" and is a living piece of history."
+      },
+      "type": "food",
+      "lat": 41.66351,
+      "lng": -91.52955,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-pentacrest-old-capitol",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "downtown-pentacrest",
+      "name": {
+        "en": "Old Capitol Museum"
+      },
+      "description": {
+        "en": "The beautifully restored first capitol building of Iowa, whose golden dome is the city's most recognizable landmark and the anchor of the University of Iowa campus."
+      },
+      "type": "landmark",
+      "lat": 41.6611,
+      "lng": -91.5361,
+      "trending_score": 100
+    },
+    {
+      "id": "downtown-pentacrest-literary-walk",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "downtown-pentacrest",
+      "name": {
+        "en": "Iowa Avenue Literary Walk"
+      },
+      "description": {
+        "en": "A series of bronze relief panels embedded in the sidewalk, each displaying a quote from a writer with Iowa connections, turning a simple stroll into a journey through literary history."
+      },
+      "type": "hidden_gem",
+      "lat": 41.6608,
+      "lng": -91.533,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-pentacrest-hancher-auditorium",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "downtown-pentacrest",
+      "name": {
+        "en": "Hancher Auditorium"
+      },
+      "description": {
+        "en": "A stunning modern performance hall rebuilt after the 2008 flood, its architecture is as impressive as the world-class performances it hosts, with beautiful views of the Iowa River."
+      },
+      "type": "culture",
+      "lat": 41.6695,
+      "lng": -91.5395,
+      "trending_score": 90
+    },
+    {
+      "id": "northside-eastside-moffitt-cottages",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "northside-eastside",
+      "name": {
+        "en": "Moffitt Cottages"
+      },
+      "description": {
+        "en": "Iowa City's most unique architectural treasure, these storybook houses are known for their whimsical, asymmetrical designs and unconventional charm."
+      },
+      "type": "landmark",
+      "lat": 41.6651,
+      "lng": -91.5155,
+      "trending_score": 85
+    },
+    {
+      "id": "northside-eastside-plum-grove",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "northside-eastside",
+      "name": {
+        "en": "Plum Grove Historic House"
+      },
+      "description": {
+        "en": "The preserved home of Robert Lucas, the first governor of the Territory of Iowa, offering a tangible connection to the state's frontier beginnings."
+      },
+      "type": "landmark",
+      "lat": 41.6565,
+      "lng": -91.5165,
+      "trending_score": 70
+    },
+    {
+      "id": "northside-eastside-prospect-hill",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "northside-eastside",
+      "name": {
+        "en": "Prospect Hill"
+      },
+      "description": {
+        "en": "A historic residential area situated on a rise, offering pleasant views of the city and a wonderful place for a quiet walk to admire a variety of historic architectural styles."
+      },
+      "type": "viewpoint",
+      "lat": 41.668,
+      "lng": -91.528,
+      "trending_score": 65
+    },
+    {
+      "id": "northside-eastside-hickory-hill-park",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "northside-eastside",
+      "name": {
+        "en": "Hickory Hill Park"
+      },
+      "description": {
+        "en": "A large, semi-wild park that provides a true escape into nature with trails winding through dense woods, open prairies, and quiet creeks."
+      },
+      "type": "nature",
+      "lat": 41.666,
+      "lng": -91.506,
+      "trending_score": 80
+    },
+    {
+      "id": "river-cemetery-black-angel",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "river-cemetery",
+      "name": {
+        "en": "The Black Angel at Oakland Cemetery"
+      },
+      "description": {
+        "en": "An imposing, oxidized bronze statue surrounded by local legends and ghost stories, its dark, sorrowful presence is both eerie and beautiful."
+      },
+      "type": "landmark",
+      "lat": 41.6525,
+      "lng": -91.5255,
+      "trending_score": 92
+    },
+    {
+      "id": "river-cemetery-ned-ashton-house",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "river-cemetery",
+      "name": {
+        "en": "Ned Ashton House"
+      },
+      "description": {
+        "en": "A mid-century masterpiece of structural elegance designed by a prominent bridge engineer, harmonizing architecture with its natural setting on the Iowa River."
+      },
+      "type": "landmark",
+      "lat": 41.6645,
+      "lng": -91.5435,
+      "trending_score": 78
+    },
+    {
+      "id": "river-cemetery-city-park",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "river-cemetery",
+      "name": {
+        "en": "City Park"
+      },
+      "description": {
+        "en": "A classic American city park and hub of community life, offering riverside picnic spots, playgrounds, an outdoor pool, and a festival stage."
+      },
+      "type": "nature",
+      "lat": 41.667,
+      "lng": -91.54,
+      "trending_score": 85
+    },
+    {
+      "id": "river-cemetery-waterworks-park",
+      "city_id": "iowa-city-ia",
+      "neighborhood_id": "river-cemetery",
+      "name": {
+        "en": "Waterworks Prairie Park"
+      },
+      "description": {
+        "en": "The city's largest park, this reclaimed natural area offers a wilder experience with trails circling a lake and winding through restored prairie grasses."
+      },
+      "type": "nature",
+      "lat": 41.69,
+      "lng": -91.535,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-pentacrest-task-1",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Literary Echoes"
+      },
+      "prompt": {
+        "en": "Find a piece of public text—a plaque, a sign, or a quote—and take a photo that makes it look profound."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-2",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Campus Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the blend of historic university architecture and modern student life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-3",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Civic Pride Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a grand, historic government or university building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-4",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Art in the Open"
+      },
+      "prompt": {
+        "en": "Find a piece of public art and take a creative photo interacting with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-5",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Bookworm's View"
+      },
+      "prompt": {
+        "en": "Photograph a scene that looks like it could be the cover of a novel set in a university town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-6",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Find a building more than 100 years old and take a close-up photo of an interesting architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-7",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Take a photo of a unique local shop or cafe that captures the character of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-8",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Academic Atmosphere"
+      },
+      "prompt": {
+        "en": "Capture an image that conveys a sense of learning and intellectual curiosity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-9",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "City of Literature"
+      },
+      "prompt": {
+        "en": "Find someone reading a book in public and take a respectful photo of the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-10",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Photograph a historic building bathed in the warm light of late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-11",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Urban Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the bustling energy of a downtown street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-pentacrest-task-12",
+      "neighborhood_id": "downtown-pentacrest",
+      "title": {
+        "en": "Sidewalk Stories"
+      },
+      "prompt": {
+        "en": "Take a photo looking down at the sidewalk, focusing on interesting textures, patterns, or objects."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-1",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Storybook Home"
+      },
+      "prompt": {
+        "en": "Find a house with whimsical or charming details and photograph it like a scene from a fairy tale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-2",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Shady Lane Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a beautiful tree-lined street, capturing the peaceful, leafy canopy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-3",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural feature on a historic home—a porch, a window, a door—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-4",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Neighborhood Green"
+      },
+      "prompt": {
+        "en": "Capture a quiet moment in a small neighborhood park or green space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-5",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Time Capsule"
+      },
+      "prompt": {
+        "en": "Photograph a building or scene that looks like it hasn't changed in 50 years."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-6",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Find a beautiful front yard garden and take a photo of the most colorful flowers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-7",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Quirky Character"
+      },
+      "prompt": {
+        "en": "Find a house with a unique or quirky feature (odd color, strange decoration) and capture its personality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-8",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Peaceful Walker"
+      },
+      "prompt": {
+        "en": "Take a photo of your own shadow stretching out on a quiet residential sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-9",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Photograph an inviting-looking porch or stoop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-10",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Nature's Reclaim"
+      },
+      "prompt": {
+        "en": "Find a spot where nature (vines, moss, large trees) is interacting with a man-made structure and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-11",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Historic Hue"
+      },
+      "prompt": {
+        "en": "Find a historic house with a distinctive color palette and take a photo that highlights its colors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northside-eastside-task-12",
+      "neighborhood_id": "northside-eastside",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Find a charming alley or narrow path between houses and capture a mysterious photo looking down it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-1",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "River Reflection"
+      },
+      "prompt": {
+        "en": "Take a photo of the Iowa River, focusing on the reflections of the sky, trees, or buildings on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-2",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Contemplative Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet bench with a view and take a photo from its perspective, capturing a sense of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-3",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Frame a shot of a man-made object (a bridge, a path) using natural elements like tree branches or tall grass."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-4",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "In a park or natural area, capture a photo of local wildlife, from a bird to a squirrel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-5",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Photograph an interesting trail or pathway that invites exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-6",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Historic Silence"
+      },
+      "prompt": {
+        "en": "In a cemetery or historic area, take a photo that conveys a sense of history and solemnity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-7",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Recreation Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a scene of outdoor recreation in the background (a sports field, a trail, a playground)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-8",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Take a low-angle photo right at the edge of the river or a lake, focusing on the texture of the water and the bank."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-9",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Prairie Vista"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of an open, grassy area that emphasizes the vastness of the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-10",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Bridge Portrait"
+      },
+      "prompt": {
+        "en": "Find a bridge over the river and take a photo that highlights its structure and design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-11",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "In a wooded area, find a spot where sunlight filters through the canopy and capture the patterns on the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "river-cemetery-task-12",
+      "neighborhood_id": "river-cemetery",
+      "title": {
+        "en": "Community Gathering"
+      },
+      "prompt": {
+        "en": "Photograph a scene that shows people enjoying a public park or recreational space together."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

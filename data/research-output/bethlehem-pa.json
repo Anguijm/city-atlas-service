@@ -1,0 +1,750 @@
+{
+  "neighborhoods": [
+    {
+      "id": "south-side-arts-district",
+      "city_id": "bethlehem-pa",
+      "name": {
+        "en": "The South Side Arts District"
+      },
+      "summary": {
+        "en": "Gritty, creative, and resilient, this district is defined by the monumental ruins of the Bethlehem Steel plant, now reborn as a sprawling campus for arts, music, and culture."
+      },
+      "lat": 40.614,
+      "lng": -75.3715,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-moravian-district",
+      "city_id": "bethlehem-pa",
+      "name": {
+        "en": "The Historic Moravian District"
+      },
+      "summary": {
+        "en": "Quiet, preserved, and profoundly historic, walking into this designated National Historic Landmark District feels like stepping back into the 18th century."
+      },
+      "lat": 40.6211,
+      "lng": -75.3822,
+      "trending_score": 78
+    },
+    {
+      "id": "main-street-north-side",
+      "city_id": "bethlehem-pa",
+      "name": {
+        "en": "Main Street & the North Side Core"
+      },
+      "summary": {
+        "en": "This area has a classic small-town charm with a boutique-chic twist, serving as the commercial and social heart of the North Side with independent shops, galleries, and bustling restaurants."
+      },
+      "lat": 40.6228,
+      "lng": -75.3811,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "south-side-arts-district-bonn-place-brewing",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "south-side-arts-district",
+      "name": {
+        "en": "Bonn Place Brewing Company"
+      },
+      "description": {
+        "en": "A small-batch brewery with a cozy, unpretentious taproom focusing on traditional British and German styles like cask ales and lagers."
+      },
+      "type": "drink",
+      "lat": 40.61252,
+      "lng": -75.37551,
+      "trending_score": 82
+    },
+    {
+      "id": "south-side-arts-district-peoples-kitchen",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "south-side-arts-district",
+      "name": {
+        "en": "The People's Kitchen"
+      },
+      "description": {
+        "en": "A bustling, casual spot known for its inventive sandwiches and seasonal, farm-to-table comfort food, perfect for a hearty, high-quality lunch."
+      },
+      "type": "food",
+      "lat": 40.61443,
+      "lng": -75.37408,
+      "trending_score": 90
+    },
+    {
+      "id": "south-side-arts-district-social-still",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "south-side-arts-district",
+      "name": {
+        "en": "Social Still"
+      },
+      "description": {
+        "en": "Housed in a restored 1920s bank, this distillery and restaurant offers a sophisticated menu of modern American cuisine and craft cocktails."
+      },
+      "type": "food",
+      "lat": 40.61425,
+      "lng": -75.37516,
+      "trending_score": 94
+    },
+    {
+      "id": "south-side-arts-district-hoover-mason-trestle",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "south-side-arts-district",
+      "name": {
+        "en": "Hoover-Mason Trestle"
+      },
+      "description": {
+        "en": "An elevated walkway offering unparalleled, eye-level views of the iconic blast furnaces of the former Bethlehem Steel plant, showcasing the city's industrial history."
+      },
+      "type": "landmark",
+      "lat": 40.61482,
+      "lng": -75.36801,
+      "trending_score": 98
+    },
+    {
+      "id": "south-side-arts-district-banana-factory",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "south-side-arts-district",
+      "name": {
+        "en": "The Banana Factory Arts Center"
+      },
+      "description": {
+        "en": "A former banana warehouse now home to 30 resident artist studios, galleries, and classrooms where you can see artists at work."
+      },
+      "type": "culture",
+      "lat": 40.61559,
+      "lng": -75.37953,
+      "trending_score": 89
+    },
+    {
+      "id": "south-side-arts-district-lehigh-staircases",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "south-side-arts-district",
+      "name": {
+        "en": "Lehigh University's Hidden Staircases"
+      },
+      "description": {
+        "en": "A network of old stone staircases connecting the steep hillside campus, leading to hidden quads, gothic architecture, and panoramic city views."
+      },
+      "type": "hidden_gem",
+      "lat": 40.60755,
+      "lng": -75.37802,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-moravian-district-moravian-book-shop",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "historic-moravian-district",
+      "name": {
+        "en": "The Moravian Book Shop"
+      },
+      "description": {
+        "en": "The oldest continuously operating bookstore in the United States, featuring a cozy in-house coffee bar perfect for a quiet break."
+      },
+      "type": "shopping",
+      "lat": 40.62201,
+      "lng": -75.38152,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-moravian-district-mccarthys-pub",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "historic-moravian-district",
+      "name": {
+        "en": "McCarthy's Red Stag Pub and Whiskey Bar"
+      },
+      "description": {
+        "en": "An authentic Celtic pub with a massive whiskey list and a warm, wood-paneled interior, offering a snug refuge from the street."
+      },
+      "type": "drink",
+      "lat": 40.62255,
+      "lng": -75.38133,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-moravian-district-sun-inn",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "historic-moravian-district",
+      "name": {
+        "en": "The Sun Inn"
+      },
+      "description": {
+        "en": "A historic inn that once hosted George Washington, now serving hearty, colonial-inspired fare in a genuinely historic tavern setting."
+      },
+      "type": "food",
+      "lat": 40.62156,
+      "lng": -75.38184,
+      "trending_score": 86
+    },
+    {
+      "id": "historic-moravian-district-gods-acre",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "historic-moravian-district",
+      "name": {
+        "en": "God's Acre Cemetery"
+      },
+      "description": {
+        "en": "A unique and serene Moravian cemetery where all gravestones are simple, flat white squares, symbolizing the equality of all people in death."
+      },
+      "type": "landmark",
+      "lat": 40.62053,
+      "lng": -75.38307,
+      "trending_score": 84
+    },
+    {
+      "id": "historic-moravian-district-1741-waterworks",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "historic-moravian-district",
+      "name": {
+        "en": "1741 Waterworks"
+      },
+      "description": {
+        "en": "A National Historic Landmark, this unassuming stone structure housed the first pumped municipal water system in the American colonies."
+      },
+      "type": "hidden_gem",
+      "lat": 40.61988,
+      "lng": -75.38355,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-moravian-district-the-tannery",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "historic-moravian-district",
+      "name": {
+        "en": "The Tannery"
+      },
+      "description": {
+        "en": "The picturesque ruins of a 1761 stone tannery, whose arches and walls stand along the creek, offering a quiet spot for reflection."
+      },
+      "type": "hidden_gem",
+      "lat": 40.62001,
+      "lng": -75.38452,
+      "trending_score": 70
+    },
+    {
+      "id": "main-street-north-side-bookstore-speakeasy",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "main-street-north-side",
+      "name": {
+        "en": "The Bookstore Speakeasy"
+      },
+      "description": {
+        "en": "A true hidden gem, this Prohibition-era-themed speakeasy offers expertly crafted classic cocktails and live jazz in an intimate, book-lined setting."
+      },
+      "type": "nightlife",
+      "lat": 40.62403,
+      "lng": -75.37901,
+      "trending_score": 92
+    },
+    {
+      "id": "main-street-north-side-bolete",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "main-street-north-side",
+      "name": {
+        "en": "Bolete Restaurant and Inn"
+      },
+      "description": {
+        "en": "A destination restaurant in a historic inn that defines the region's fine dining with an exquisite, nationally recognized farm-to-table menu."
+      },
+      "type": "food",
+      "lat": 40.59455,
+      "lng": -75.38604,
+      "trending_score": 99
+    },
+    {
+      "id": "main-street-north-side-tapas-on-main",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "main-street-north-side",
+      "name": {
+        "en": "Tapas on Main"
+      },
+      "description": {
+        "en": "A vibrant and consistently popular spot serving authentic Spanish tapas and wine, with a lively atmosphere perfect for a social dinner."
+      },
+      "type": "food",
+      "lat": 40.62299,
+      "lng": -75.38108,
+      "trending_score": 93
+    },
+    {
+      "id": "main-street-north-side-hotel-bethlehem-mural-room",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "main-street-north-side",
+      "name": {
+        "en": "Hotel Bethlehem's Mural Room"
+      },
+      "description": {
+        "en": "A free, publicly accessible art gallery hidden in plain sight inside a grand, historic hotel, with large-scale murals depicting the history of Bethlehem."
+      },
+      "type": "hidden_gem",
+      "lat": 40.62182,
+      "lng": -75.38165,
+      "trending_score": 87
+    },
+    {
+      "id": "main-street-north-side-donegal-square",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "main-street-north-side",
+      "name": {
+        "en": "Donegal Square"
+      },
+      "description": {
+        "en": "More than just a shop, this is a portal to the Celtic Isles, specializing in authentic goods from Ireland, Scotland, and Wales."
+      },
+      "type": "shopping",
+      "lat": 40.62263,
+      "lng": -75.38121,
+      "trending_score": 81
+    },
+    {
+      "id": "main-street-north-side-payrow-plaza",
+      "city_id": "bethlehem-pa",
+      "neighborhood_id": "main-street-north-side",
+      "name": {
+        "en": "Payrow Plaza's Sculpture Garden"
+      },
+      "description": {
+        "en": "A quiet, open space connecting City Hall and the library that features a rotating collection of contemporary outdoor sculptures."
+      },
+      "type": "culture",
+      "lat": 40.62058,
+      "lng": -75.38059,
+      "trending_score": 72
+    }
+  ],
+  "tasks": [
+    {
+      "id": "south-side-arts-district-task-1",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Industrial Echoes"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between nature and the neighborhood's industrial architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-2",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Creative Grit"
+      },
+      "prompt": {
+        "en": "Find a texture that feels both old and new—like rusted steel next to fresh paint—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-3",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Steel City Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the colossal blast furnaces or another piece of massive industrial heritage in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-4",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Repurposed Beauty"
+      },
+      "prompt": {
+        "en": "Find a building that has clearly been repurposed from its original industrial function and photograph its new life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-5",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Campus Meets Culture"
+      },
+      "prompt": {
+        "en": "Photograph a detail that shows the blend of Lehigh University student life and the local arts scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-6",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Discover a piece of street art, a mural, or an outdoor sculpture and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-7",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Industrial Sips"
+      },
+      "prompt": {
+        "en": "Take a photo of your coffee or beer against a backdrop of exposed brick, steel beams, or other industrial-chic decor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-8",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Shadows of Steel"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of shadows cast by one of the large industrial structures in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-9",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Resilient Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the 'resilient' vibe of the South Side."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-10",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Pop of Color"
+      },
+      "prompt": {
+        "en": "Find a surprising pop of bright color against a backdrop of brick, concrete, or rusted metal."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-11",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "The Story in a Sign"
+      },
+      "prompt": {
+        "en": "Find and photograph an old sign or historical plaque that tells a story about the neighborhood's past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-side-arts-district-task-12",
+      "neighborhood_id": "south-side-arts-district",
+      "title": {
+        "en": "Live Scene"
+      },
+      "prompt": {
+        "en": "Find evidence of the local music or arts scene—like a poster for a show or a venue marquee—and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-1",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Colonial Calm"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the quiet, tranquil feeling of this historic neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-2",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Echoes of 1741"
+      },
+      "prompt": {
+        "en": "Find the oldest date you can spot carved into a building, cornerstone, or gravestone and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-3",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Sacred Stones"
+      },
+      "prompt": {
+        "en": "Capture the unique texture of the centuries-old stonework on one of the historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-4",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Cobblestone Paths"
+      },
+      "prompt": {
+        "en": "Find a cobblestone or brick path and take a low-angle shot looking down its length."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-5",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "A Step Back in Time"
+      },
+      "prompt": {
+        "en": "Take a selfie on a historic street, trying to capture a timeless, 18th-century feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-6",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Doorway to the Past"
+      },
+      "prompt": {
+        "en": "Photograph a doorway that looks like it has centuries of stories to tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-7",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Symbol of Simplicity"
+      },
+      "prompt": {
+        "en": "Find a detail—in architecture, a garden, or an object—that speaks to the simplicity of early Moravian life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-8",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Historic Sustenance"
+      },
+      "prompt": {
+        "en": "Photograph your food or drink in a way that makes it look like it could belong in a colonial-era painting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-9",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Ancient Trees"
+      },
+      "prompt": {
+        "en": "Capture the way light filters through the leaves of one of the district's ancient trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-10",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Colonial Craftsmanship"
+      },
+      "prompt": {
+        "en": "Find and photograph an example of historic craftsmanship, like hand-forged ironwork or detailed carpentry."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-11",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Frame a shot looking through an old, wavy glass window pane if you can find one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-moravian-district-task-12",
+      "neighborhood_id": "historic-moravian-district",
+      "title": {
+        "en": "Marker of History"
+      },
+      "prompt": {
+        "en": "Find any historical marker or plaque and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-1",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Main Street Style"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the charming streetscape in a boutique shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-2",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Boutique Finds"
+      },
+      "prompt": {
+        "en": "Photograph a unique, locally made, or beautifully crafted item you see in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-3",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Victorian Vibes"
+      },
+      "prompt": {
+        "en": "Find a building with beautiful Victorian architectural details and take a photo focusing on them."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-4",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Polished Charm Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the lively, polished, and social energy of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-5",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Artful Plate"
+      },
+      "prompt": {
+        "en": "Take a picture of a beautifully presented dish or a fancy craft cocktail from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-6",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Find a beautifully designed or interesting sign for a local, independent business."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-7",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Sweet Treat Moment"
+      },
+      "prompt": {
+        "en": "Capture a photo of a delicious-looking pastry or coffee from a local bakeshop or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-8",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Public Art Interaction"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture and take a creative photo interacting with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-9",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Discover a business or detail tucked away on a side street or in an alley just off the main drag."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-10",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the inviting glow of a restaurant, bar, or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-11",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Historic Meets Modern"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the mix of historic architecture and modern life (people, cars, modern signs)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-north-side-task-12",
+      "neighborhood_id": "main-street-north-side",
+      "title": {
+        "en": "Local Buzz"
+      },
+      "prompt": {
+        "en": "Find a poster, banner, or sign advertising a local community event and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -1,0 +1,822 @@
+{
+  "neighborhoods": [
+    {
+      "id": "depot-entertainment-district",
+      "city_id": "lubbock-tx",
+      "name": {
+        "en": "The Depot Entertainment District"
+      },
+      "summary": {
+        "en": "Gritty, historic, and pulsing with the sound of West Texas music, this is the revitalized heart of Lubbock's nightlife and musical legacy."
+      },
+      "lat": 33.5815,
+      "lng": -101.8398,
+      "trending_score": 95
+    },
+    {
+      "id": "texas-tech-university-corridor",
+      "city_id": "lubbock-tx",
+      "name": {
+        "en": "Texas Tech University & The University Corridor"
+      },
+      "summary": {
+        "en": "A sprawling campus defined by impressive Spanish Renaissance architecture, academic energy, and public art, where the Old West meets higher learning."
+      },
+      "lat": 33.5843,
+      "lng": -101.8746,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-arts-district",
+      "city_id": "lubbock-tx",
+      "name": {
+        "en": "Historic Downtown & The Arts District"
+      },
+      "summary": {
+        "en": "A district in evolution, where stately early 20th-century civic architecture stands alongside bold modern landmarks for a contemplative urban walk."
+      },
+      "lat": 33.5801,
+      "lng": -101.8452,
+      "trending_score": 85
+    },
+    {
+      "id": "south-overton-historic-district",
+      "city_id": "lubbock-tx",
+      "name": {
+        "en": "South Overton Residential Historic District"
+      },
+      "summary": {
+        "en": "A peaceful, preserved slice of early 20th-century Lubbock life, perfect for a slow walk to appreciate diverse architecture on tree-lined streets."
+      },
+      "lat": 33.5735,
+      "lng": -101.8711,
+      "trending_score": 75
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon",
+      "city_id": "lubbock-tx",
+      "name": {
+        "en": "Mackenzie Park & Yellow House Canyon"
+      },
+      "summary": {
+        "en": "A sprawling greenbelt where Lubbock's natural landscape meets its peculiar cultural history, offering recreation, quirky landmarks, and local legends."
+      },
+      "lat": 33.5952,
+      "lng": -101.8195,
+      "trending_score": 80
+    },
+    {
+      "id": "north-lubbock-discovery-trail",
+      "city_id": "lubbock-tx",
+      "name": {
+        "en": "The North Lubbock Discovery Trail"
+      },
+      "summary": {
+        "en": "A thematic trail connecting unusual and significant cultural sites that explore the military, archaeological, and industrial histories of the High Plains."
+      },
+      "lat": 33.615,
+      "lng": -101.833,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "depot-entertainment-district-buddy-holly-center",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "depot-entertainment-district",
+      "name": {
+        "en": "Buddy Holly Center"
+      },
+      "description": {
+        "en": "A pilgrimage site for rock-and-roll fans, this museum offers an intimate look at the life and career of Lubbock's most famous son."
+      },
+      "type": "culture",
+      "lat": 33.5808,
+      "lng": -101.8405,
+      "trending_score": 98
+    },
+    {
+      "id": "depot-entertainment-district-west-texas-walk-of-fame",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "depot-entertainment-district",
+      "name": {
+        "en": "West Texas Walk of Fame"
+      },
+      "description": {
+        "en": "Located in the Buddy and Maria Elena Holly Plaza, this collection of bronze plaques honors the incredible density of musical talent from the region."
+      },
+      "type": "landmark",
+      "lat": 33.5812,
+      "lng": -101.8402,
+      "trending_score": 85
+    },
+    {
+      "id": "depot-entertainment-district-the-blue-light-live",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "depot-entertainment-district",
+      "name": {
+        "en": "The Blue Light Live"
+      },
+      "description": {
+        "en": "An essential, no-frills music venue that serves as a proving ground for Red Dirt and Americana artists, offering an authentic taste of the current West Texas sound."
+      },
+      "type": "nightlife",
+      "lat": 33.5818,
+      "lng": -101.8395,
+      "trending_score": 92
+    },
+    {
+      "id": "depot-entertainment-district-cactus-theater",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "depot-entertainment-district",
+      "name": {
+        "en": "Cactus Theater"
+      },
+      "description": {
+        "en": "A beautifully restored 1930s movie palace, its glowing marquee is a beacon of the district's historic character and a landmark of downtown Lubbock."
+      },
+      "type": "culture",
+      "lat": 33.5821,
+      "lng": -101.8411,
+      "trending_score": 88
+    },
+    {
+      "id": "texas-tech-university-corridor-national-ranching-heritage-center",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "name": {
+        "en": "National Ranching Heritage Center"
+      },
+      "description": {
+        "en": "A remarkable outdoor museum featuring over 50 authentic ranch buildings relocated from across the state, making you feel like you've stepped back in time."
+      },
+      "type": "culture",
+      "lat": 33.5915,
+      "lng": -101.8801,
+      "trending_score": 97
+    },
+    {
+      "id": "texas-tech-university-corridor-museum-of-texas-tech",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "name": {
+        "en": "Museum of Texas Tech University"
+      },
+      "description": {
+        "en": "A surprisingly diverse collection that includes everything from Southwestern art and natural science exhibits to the Moody Planetarium."
+      },
+      "type": "culture",
+      "lat": 33.5905,
+      "lng": -101.8785,
+      "trending_score": 85
+    },
+    {
+      "id": "texas-tech-university-corridor-historic-district",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "name": {
+        "en": "Texas Technological College Historic District"
+      },
+      "description": {
+        "en": "The architectural heart of the campus, featuring ornate brickwork and grand archways of buildings like the iconic Administration Building."
+      },
+      "type": "landmark",
+      "lat": 33.5845,
+      "lng": -101.8755,
+      "trending_score": 82
+    },
+    {
+      "id": "texas-tech-university-corridor-dairy-barn",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "name": {
+        "en": "Texas Technological College Dairy Barn"
+      },
+      "description": {
+        "en": "A charming, rustic holdover from the university's agricultural beginnings, this historic barn is a quirky and photogenic piece of campus history."
+      },
+      "type": "hidden_gem",
+      "lat": 33.5888,
+      "lng": -101.8822,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-downtown-arts-district-buddy-holly-hall",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "name": {
+        "en": "Buddy Holly Hall of Performing Arts and Sciences"
+      },
+      "description": {
+        "en": "A stunning architectural masterpiece with a dramatic, sculptural design and a grand, spiraling staircase in the lobby."
+      },
+      "type": "culture",
+      "lat": 33.5795,
+      "lng": -101.8485,
+      "trending_score": 96
+    },
+    {
+      "id": "historic-downtown-arts-district-bistro-at-buddy-holly-hall",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "name": {
+        "en": "Bistro at Buddy Holly Hall"
+      },
+      "description": {
+        "en": "Located within the performing arts center, this bistro offers indoor and outdoor dining options."
+      },
+      "type": "food",
+      "lat": 33.5796,
+      "lng": -101.8483,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-downtown-arts-district-post-office",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "name": {
+        "en": "Lubbock Post Office and Federal Building"
+      },
+      "description": {
+        "en": "A handsome 1932 building that showcases classic federal architecture with a solid, imposing presence."
+      },
+      "type": "landmark",
+      "lat": 33.5811,
+      "lng": -101.8445,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-downtown-arts-district-kress-building",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "name": {
+        "en": "Kress Building"
+      },
+      "description": {
+        "en": "A historic downtown landmark with signature ornate lettering and architectural details from its time as a five-and-dime store."
+      },
+      "type": "landmark",
+      "lat": 33.5815,
+      "lng": -101.8438,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-downtown-arts-district-carlock-building",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "name": {
+        "en": "Carlock Building"
+      },
+      "description": {
+        "en": "A key piece of downtown's historic fabric that helps form a walkable corridor of Lubbock's early commercial and civic history."
+      },
+      "type": "landmark",
+      "lat": 33.5813,
+      "lng": -101.8441,
+      "trending_score": 72
+    },
+    {
+      "id": "south-overton-historic-district-streetscape",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "south-overton-historic-district",
+      "name": {
+        "en": "The Streetscape Itself"
+      },
+      "description": {
+        "en": "The main attraction is the cohesive feel of the neighborhood, with a variety of architectural styles from Tudor Revival to Craftsman bungalows."
+      },
+      "type": "landmark",
+      "lat": 33.573,
+      "lng": -101.8705,
+      "trending_score": 70
+    },
+    {
+      "id": "south-overton-historic-district-snyder-house",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "south-overton-historic-district",
+      "name": {
+        "en": "Fred and Annie Snyder House"
+      },
+      "description": {
+        "en": "A specific home listed on the National Register of Historic Places, representing the architectural character that makes this district special."
+      },
+      "type": "landmark",
+      "lat": 33.5738,
+      "lng": -101.8715,
+      "trending_score": 65
+    },
+    {
+      "id": "south-overton-historic-district-tubbs-carlisle-house",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "south-overton-historic-district",
+      "name": {
+        "en": "Tubbs-Carlisle House"
+      },
+      "description": {
+        "en": "Another registered historic home that contributes to the neighborhood's unique identity and story."
+      },
+      "type": "landmark",
+      "lat": 33.5725,
+      "lng": -101.87,
+      "trending_score": 65
+    },
+    {
+      "id": "south-overton-historic-district-bacon-house",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "south-overton-historic-district",
+      "name": {
+        "en": "Warren and Myrta Bacon House"
+      },
+      "description": {
+        "en": "A third example of the area's preserved residential architecture, perfect for those training their eye to spot historic details."
+      },
+      "type": "landmark",
+      "lat": 33.5741,
+      "lng": -101.8695,
+      "trending_score": 65
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-prairie-dog-town",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "name": {
+        "en": "Prairie Dog Town"
+      },
+      "description": {
+        "en": "Established in 1935, this was one of the first protected prairie dog colonies in the world and offers a uniquely Lubbock experience."
+      },
+      "type": "nature",
+      "lat": 33.5933,
+      "lng": -101.8188,
+      "trending_score": 90
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-hells-gate",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "name": {
+        "en": "Crosbyton-Southplains Railroad Trestle (\"Hell's Gate\")"
+      },
+      "description": {
+        "en": "A historic and slightly spooky railroad bridge that is a favorite spot for local legend-trippers and photographers."
+      },
+      "type": "hidden_gem",
+      "lat": 33.6015,
+      "lng": -101.8155,
+      "trending_score": 85
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-battle-site",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "name": {
+        "en": "Battle of Yellow House Canyon Site"
+      },
+      "description": {
+        "en": "The park itself was the site of an 1877 battle during the Buffalo Hunters' War, making a walk on its trails a journey through history."
+      },
+      "type": "landmark",
+      "lat": 33.596,
+      "lng": -101.821,
+      "trending_score": 70
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-moonlight-musicals",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "name": {
+        "en": "Moonlight Musicals Amphitheater"
+      },
+      "description": {
+        "en": "An open-air venue nestled in the park that hosts concerts and stage shows, adding a touch of the arts to this natural and historic landscape."
+      },
+      "type": "culture",
+      "lat": 33.5941,
+      "lng": -101.8235,
+      "trending_score": 75
+    },
+    {
+      "id": "north-lubbock-discovery-trail-wind-power-center",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "name": {
+        "en": "American Wind Power Center"
+      },
+      "description": {
+        "en": "A unique museum featuring a 'forest' of over 100 historic windmills, offering a stunningly visual look at the technology that made life on the plains possible."
+      },
+      "type": "culture",
+      "lat": 33.6145,
+      "lng": -101.8325,
+      "trending_score": 94
+    },
+    {
+      "id": "north-lubbock-discovery-trail-silent-wings-museum",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "name": {
+        "en": "Silent Wings Museum"
+      },
+      "description": {
+        "en": "This museum tells the incredible story of the American military's WWII glider program, which trained pilots in West Texas."
+      },
+      "type": "culture",
+      "lat": 33.658,
+      "lng": -101.822,
+      "trending_score": 88
+    },
+    {
+      "id": "north-lubbock-discovery-trail-lubbock-lake-landmark",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "name": {
+        "en": "Lubbock Lake Landmark"
+      },
+      "description": {
+        "en": "A National Historic Landmark and one of North America's most important archaeological sites, with an unbroken 12,000-year record of life."
+      },
+      "type": "nature",
+      "lat": 33.6265,
+      "lng": -101.8955,
+      "trending_score": 90
+    },
+    {
+      "id": "north-lubbock-discovery-trail-science-spectrum",
+      "city_id": "lubbock-tx",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "name": {
+        "en": "Science Spectrum"
+      },
+      "description": {
+        "en": "An interactive, hands-on museum and OMNI theater that provides a different kind of discovery, focused on science and technology."
+      },
+      "type": "culture",
+      "lat": 33.5488,
+      "lng": -101.8892,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "depot-entertainment-district-task-1",
+      "neighborhood_id": "depot-entertainment-district",
+      "title": {
+        "en": "Historic Brickwork"
+      },
+      "prompt": {
+        "en": "Find a wall of old, weathered brick and take a close-up photo that highlights its texture and history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-entertainment-district-task-2",
+      "neighborhood_id": "depot-entertainment-district",
+      "title": {
+        "en": "Sounds of the District"
+      },
+      "prompt": {
+        "en": "Pause for a moment and listen. Can you hear live music or the sound of a train? Capture a photo of what you think is making the sound."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-entertainment-district-task-3",
+      "neighborhood_id": "depot-entertainment-district",
+      "title": {
+        "en": "Musical Legacy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a sign, poster, or building related to music. Strike a rock-and-roll pose!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-entertainment-district-task-4",
+      "neighborhood_id": "depot-entertainment-district",
+      "title": {
+        "en": "Warehouse Reimagined"
+      },
+      "prompt": {
+        "en": "Find an old warehouse that has been converted into a new business. Photograph the contrast between its industrial past and its current use."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-entertainment-district-task-5",
+      "neighborhood_id": "depot-entertainment-district",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture a photo of a glowing neon sign that adds to the district's nightlife vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "texas-tech-university-corridor-task-1",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "title": {
+        "en": "Architectural Archway"
+      },
+      "prompt": {
+        "en": "The campus is known for its Spanish Renaissance architecture. Find an impressive archway and frame a photo looking through it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "texas-tech-university-corridor-task-2",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture on campus and take a photo of it from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "texas-tech-university-corridor-task-3",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "title": {
+        "en": "Academic Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents the 'academic energy' of the university—students studying, a grand library, or a lecture hall entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "texas-tech-university-corridor-task-4",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "title": {
+        "en": "Red Raider Spirit"
+      },
+      "prompt": {
+        "en": "Find the Texas Tech 'Double T' logo or the school colors (scarlet and black) and take a spirited selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "texas-tech-university-corridor-task-5",
+      "neighborhood_id": "texas-tech-university-corridor",
+      "title": {
+        "en": "Old West Meets Higher Learning"
+      },
+      "prompt": {
+        "en": "Photograph an element that feels like the 'Old West' (like rustic stone or a wide-open space) next to an element of 'higher learning' (a modern building or sign)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-arts-district-task-1",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "title": {
+        "en": "Century of Contrast"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see a historic, early 20th-century building and a modern one in the same frame. Capture the architectural contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-arts-district-task-2",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Photograph a detail on a government or civic building that evokes a sense of history and importance, like an inscription, a cornerstone, or a grand entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-arts-district-task-3",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "title": {
+        "en": "Artful Reflection"
+      },
+      "prompt": {
+        "en": "Use the glass of a modern building to capture a reflection of the sky or a historic building across the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-arts-district-task-4",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "title": {
+        "en": "Downtown Quiet"
+      },
+      "prompt": {
+        "en": "This area is described as more 'contemplative'. Capture a photo that conveys a sense of quiet or stillness in the urban environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-arts-district-task-5",
+      "neighborhood_id": "historic-downtown-arts-district",
+      "title": {
+        "en": "Ghost Sign Quest"
+      },
+      "prompt": {
+        "en": "Look closely at the brick walls of older buildings. Can you find a faded, painted advertisement from a bygone era? Photograph this 'ghost sign'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-overton-historic-district-task-1",
+      "neighborhood_id": "south-overton-historic-district",
+      "title": {
+        "en": "Porch Personality"
+      },
+      "prompt": {
+        "en": "Find a historic home with a welcoming or unique front porch. Take a photo that captures its character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-overton-historic-district-task-2",
+      "neighborhood_id": "south-overton-historic-district",
+      "title": {
+        "en": "Tree-Lined Perspective"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a sidewalk and take a photo looking down the street, using the mature trees to create a natural frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-overton-historic-district-task-3",
+      "neighborhood_id": "south-overton-historic-district",
+      "title": {
+        "en": "Bungalow Details"
+      },
+      "prompt": {
+        "en": "Many homes here are Craftsman bungalows. Find one and take a close-up shot of a characteristic detail, like tapered columns, exposed rafters, or unique window panes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-overton-historic-district-task-4",
+      "neighborhood_id": "south-overton-historic-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of shadows cast by leaves or architectural elements on the side of a historic house."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-overton-historic-district-task-5",
+      "neighborhood_id": "south-overton-historic-district",
+      "title": {
+        "en": "Peaceful Neighborhood Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the quiet, residential feel of the neighborhood behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-task-1",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "title": {
+        "en": "Vast Texas Sky"
+      },
+      "prompt": {
+        "en": "Find an open area in the park and take a photo where the big, open sky takes up at least two-thirds of the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-task-2",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Get close to a natural element—tree bark, a dusty path, wild grasses—and capture its texture in a detailed photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-task-3",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "title": {
+        "en": "Recreation in Action"
+      },
+      "prompt": {
+        "en": "Photograph a sign of public recreation in the park: a trail marker, a disc golf basket, a playground, or people enjoying the space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-task-4",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "title": {
+        "en": "Spooky Legend Selfie"
+      },
+      "prompt": {
+        "en": "Find a spot that feels a little spooky or mysterious, like a dense grove of trees or an old structure, and take a legend-tripper selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mackenzie-park-yellow-house-canyon-task-5",
+      "neighborhood_id": "mackenzie-park-yellow-house-canyon",
+      "title": {
+        "en": "Water in the Canyon"
+      },
+      "prompt": {
+        "en": "Find a view of the Brazos River tributary that carved this canyon and capture a photo of the water in the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-lubbock-discovery-trail-task-1",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "title": {
+        "en": "Power of the Plains"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the power of the High Plains, whether it's the wind, the sun, or the vast, flat horizon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-lubbock-discovery-trail-task-2",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "title": {
+        "en": "Deep Time"
+      },
+      "prompt": {
+        "en": "Find a natural landscape and take a photo, imagining the 12,000 years of history that have unfolded on that very spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-lubbock-discovery-trail-task-3",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "title": {
+        "en": "Industrial Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the silhouette of an industrial or technological object (like a windmill or antenna) against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-lubbock-discovery-trail-task-4",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "title": {
+        "en": "Trailblazer Selfie"
+      },
+      "prompt": {
+        "en": "This area is a 'discovery trail'. Take a selfie that makes you look like an intrepid explorer on a new frontier."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-lubbock-discovery-trail-task-5",
+      "neighborhood_id": "north-lubbock-discovery-trail",
+      "title": {
+        "en": "Skyward Shot"
+      },
+      "prompt": {
+        "en": "Point your camera straight up and capture a photo of the sky, framed by whatever is around you—be it windmill blades, tree branches, or the roof of a museum."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

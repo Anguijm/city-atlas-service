@@ -1,0 +1,129 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-borough-grounds",
+      "city_id": "gettysburg-pa",
+      "name": {
+        "en": "The Historic Borough & Commemorative Grounds"
+      },
+      "summary": {
+        "en": "Experience the quiet duality of a functioning small town and a landscape of profound national significance. This area prioritizes the civilian experience and architectural legacy in the shadow of grand monuments."
+      },
+      "lat": 39.8309,
+      "lng": -77.2311,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-borough-grounds-evergreen-cemetery",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-borough-grounds",
+      "name": {
+        "en": "Evergreen Cemetery"
+      },
+      "description": {
+        "en": "Often overlooked for its famous neighbor, this is the town's civilian burial ground, highlighting the immense burden placed on ordinary citizens like caretaker Elizabeth Thorn."
+      },
+      "type": "hidden_gem",
+      "lat": 39.8183,
+      "lng": -77.232,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-borough-grounds-adams-county-library",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-borough-grounds",
+      "name": {
+        "en": "Federal Building (Adams County Library)"
+      },
+      "description": {
+        "en": "This stately 1912 building, now a peaceful library, was once the headquarters of the Gettysburg National Military Park, shaping the battlefield's historical narrative for fifty years."
+      },
+      "type": "culture",
+      "lat": 39.8286,
+      "lng": -77.231,
+      "trending_score": 60
+    },
+    {
+      "id": "historic-borough-grounds-adams-county-courthouse",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-borough-grounds",
+      "name": {
+        "en": "Adams County Courthouse"
+      },
+      "description": {
+        "en": "An imposing landmark of civic life, this building represents the law, order, and continuity of the local community that persisted long after the battle."
+      },
+      "type": "landmark",
+      "lat": 39.8292,
+      "lng": -77.2309,
+      "trending_score": 65
+    },
+    {
+      "id": "historic-borough-grounds-soldiers-national-cemetery",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-borough-grounds",
+      "name": {
+        "en": "Soldiers' National Cemetery (A Quieter View)"
+      },
+      "description": {
+        "en": "The final resting place for thousands of Union soldiers and the site of the Gettysburg Address, best experienced by contemplating the sheer, silent repetition of the headstones."
+      },
+      "type": "landmark",
+      "lat": 39.8217,
+      "lng": -77.2315,
+      "trending_score": 95
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-borough-grounds-task-1",
+      "neighborhood_id": "historic-borough-grounds",
+      "title": {
+        "en": "History's Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of modern life—a car, a pedestrian, a contemporary sign—in the glass of a historic building's window or door."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-borough-grounds-task-2",
+      "neighborhood_id": "historic-borough-grounds",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Find a detail on a building that speaks to the town's non-battle history, such as a cornerstone, a plaque, or an architectural flourish, and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-borough-grounds-task-3",
+      "neighborhood_id": "historic-borough-grounds",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Visit near dawn or dusk and take a photo where the long shadow cast by a monument, statue, or old tree is the most prominent feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-borough-grounds-task-4",
+      "neighborhood_id": "historic-borough-grounds",
+      "title": {
+        "en": "The Unseen Story"
+      },
+      "prompt": {
+        "en": "Photograph a quiet, seemingly ordinary detail that hints at a deeper story of civilian life or local resilience, away from the main monuments."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

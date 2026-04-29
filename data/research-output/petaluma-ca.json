@@ -1,0 +1,870 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-core",
+      "city_id": "petaluma-ca",
+      "name": {
+        "en": "The Historic Downtown Core"
+      },
+      "summary": {
+        "en": "The heart of Petaluma, this district is defined by its remarkable 19th-century Iron Front buildings, the winding river, and a dense concentration of independent shops and restaurants."
+      },
+      "lat": 38.2341,
+      "lng": -122.6412,
+      "trending_score": 95
+    },
+    {
+      "id": "warehouse-brewery-district",
+      "city_id": "petaluma-ca",
+      "name": {
+        "en": "The Warehouse & Brewery District"
+      },
+      "summary": {
+        "en": "East of the river, this industrial area has been reborn as Petaluma’s craft beverage hub, with a casual, creative, and slightly gritty vibe."
+      },
+      "lat": 38.2465,
+      "lng": -122.6255,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-west-side-putnam-hills",
+      "city_id": "petaluma-ca",
+      "name": {
+        "en": "The Historic West Side & Putnam Hills"
+      },
+      "summary": {
+        "en": "A quieter, residential side of Petaluma featuring stunning Victorian homes and culminating in a regional park with panoramic city views."
+      },
+      "lat": 38.2285,
+      "lng": -122.659,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-core-acre-coffee",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Acre Coffee"
+      },
+      "description": {
+        "en": "A beloved local roaster and the go-to spot for serious specialty coffee, with a modern and focused vibe."
+      },
+      "type": "drink",
+      "lat": 38.2335,
+      "lng": -122.6401,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-core-aqus-cafe",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Aqus Cafe"
+      },
+      "description": {
+        "en": "More than a cafe, this bustling, unpretentious spot is a community hub where locals gather for coffee, beer, or wine."
+      },
+      "type": "drink",
+      "lat": 38.2388,
+      "lng": -122.6415,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-core-barber-cellars",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Barber Cellars"
+      },
+      "description": {
+        "en": "An urban winery tasting room offering a relaxed and accessible way to sample local Sonoma wines in the heart of downtown."
+      },
+      "type": "drink",
+      "lat": 38.2336,
+      "lng": -122.6409,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-downtown-core-della-fattoria",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Della Fattoria"
+      },
+      "description": {
+        "en": "An iconic Petaluma institution famous for its artisan bread, serving incredible breakfasts and lunches in a charming setting."
+      },
+      "type": "food",
+      "lat": 38.2343,
+      "lng": -122.641,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-downtown-core-the-shuckery",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "The Shuckery"
+      },
+      "description": {
+        "en": "Located in the historic Hotel Petaluma, this oyster bar offers fresh seafood and is great for a celebratory meal or happy hour."
+      },
+      "type": "food",
+      "lat": 38.2329,
+      "lng": -122.64,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-core-stockhome",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Stockhome"
+      },
+      "description": {
+        "en": "A unique and casual local favorite serving a surprising fusion of Swedish and Middle Eastern street food."
+      },
+      "type": "food",
+      "lat": 38.2351,
+      "lng": -122.6427,
+      "trending_score": 82
+    },
+    {
+      "id": "historic-downtown-core-iron-front-buildings",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Iron Front Buildings"
+      },
+      "description": {
+        "en": "One of the best-preserved collections of cast-iron architecture in the country, representing the prosperity of the 1880s."
+      },
+      "type": "landmark",
+      "lat": 38.2345,
+      "lng": -122.6416,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-core-phoenix-theater",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Phoenix Theater"
+      },
+      "description": {
+        "en": "A legendary all-ages music venue with a gritty punk rock history and an iconic marquee that is a piece of cultural history."
+      },
+      "type": "culture",
+      "lat": 38.2341,
+      "lng": -122.6391,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-core-petaluma-river-turning-basin",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Petaluma River Turning Basin"
+      },
+      "description": {
+        "en": "The heart of the riverfront, where boats moor and historic bridges create a scenic, peaceful backdrop."
+      },
+      "type": "landmark",
+      "lat": 38.2355,
+      "lng": -122.6395,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-core-military-antiques-museum",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Military Antiques & Museum"
+      },
+      "description": {
+        "en": "A small, densely packed hidden gem run by volunteers, filled with fascinating historical artifacts."
+      },
+      "type": "hidden_gem",
+      "lat": 38.2339,
+      "lng": -122.6409,
+      "trending_score": 70
+    },
+    {
+      "id": "warehouse-brewery-district-lagunitas-brewing",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "Lagunitas Brewing Company"
+      },
+      "description": {
+        "en": "The iconic brewery that put Petaluma on the global beer map, featuring a sprawling beer garden and a counter-culture vibe."
+      },
+      "type": "drink",
+      "lat": 38.2525,
+      "lng": -122.6225,
+      "trending_score": 99
+    },
+    {
+      "id": "warehouse-brewery-district-henhouse-brewing",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "HenHouse Brewing Company"
+      },
+      "description": {
+        "en": "A local craft beer darling known for its fresh IPAs and creative brews in a no-frills, friendly taproom."
+      },
+      "type": "drink",
+      "lat": 38.2535,
+      "lng": -122.622,
+      "trending_score": 90
+    },
+    {
+      "id": "warehouse-brewery-district-adobe-creek-brewing",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "Adobe Creek Brewing"
+      },
+      "description": {
+        "en": "A smaller, highly-regarded brewery that's a favorite among local beer aficionados and a rewarding discovery."
+      },
+      "type": "drink",
+      "lat": 38.256,
+      "lng": -122.619,
+      "trending_score": 80
+    },
+    {
+      "id": "warehouse-brewery-district-the-block",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "The Block Petaluma"
+      },
+      "description": {
+        "en": "A permanent food truck park and beer garden that perfectly captures the district's vibe with rotating cuisines and communal seating."
+      },
+      "type": "food",
+      "lat": 38.2428,
+      "lng": -122.629,
+      "trending_score": 88
+    },
+    {
+      "id": "warehouse-brewery-district-el-roys",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "El Roy's Mexican Grill"
+      },
+      "description": {
+        "en": "An unassuming local staple serving fantastic, authentic Mexican food, perfect for a casual and satisfying meal."
+      },
+      "type": "food",
+      "lat": 38.2405,
+      "lng": -122.6265,
+      "trending_score": 75
+    },
+    {
+      "id": "warehouse-brewery-district-smart-train-path",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "SMART Train Path"
+      },
+      "description": {
+        "en": "This paved pedestrian and bike path is the district's main artery, connecting breweries and offering unique views of industrial architecture."
+      },
+      "type": "landmark",
+      "lat": 38.248,
+      "lng": -122.624,
+      "trending_score": 70
+    },
+    {
+      "id": "warehouse-brewery-district-petaluma-arts-center",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "Petaluma Arts Center"
+      },
+      "description": {
+        "en": "Housed in a former railroad freight building, this center is the hub of the local arts scene, featuring rotating exhibits."
+      },
+      "type": "culture",
+      "lat": 38.236,
+      "lng": -122.635,
+      "trending_score": 72
+    },
+    {
+      "id": "warehouse-brewery-district-industrial-silos",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "warehouse-brewery-district",
+      "name": {
+        "en": "Industrial Architecture & Silos"
+      },
+      "description": {
+        "en": "The area is dotted with old grain silos and warehouses, remnants of Petaluma's agricultural past that give the neighborhood its character."
+      },
+      "type": "landmark",
+      "lat": 38.2465,
+      "lng": -122.6255,
+      "trending_score": 68
+    },
+    {
+      "id": "historic-west-side-putnam-hills-brewsters-beer-garden",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "Brewsters Beer Garden"
+      },
+      "description": {
+        "en": "A massive, open-air beer garden with a lively, family-friendly atmosphere and a huge selection of craft beers."
+      },
+      "type": "drink",
+      "lat": 38.235,
+      "lng": -122.6435,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-west-side-putnam-hills-wild-goat-bistro",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "Wild Goat Bistro"
+      },
+      "description": {
+        "en": "A local favorite known for its farm-fresh pizzas and salads, located in the historic Great Petaluma Mill building."
+      },
+      "type": "food",
+      "lat": 38.2325,
+      "lng": -122.6415,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-west-side-putnam-hills-ayawaska-peruvian",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "Ayawaska Peruvian Restaurant"
+      },
+      "description": {
+        "en": "A vibrant and colorful restaurant serving authentic Peruvian cuisine with unique flavors and a lively atmosphere."
+      },
+      "type": "food",
+      "lat": 38.232,
+      "lng": -122.644,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-west-side-putnam-hills-helen-putnam-park",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "Helen Putnam Regional Park"
+      },
+      "description": {
+        "en": "A 216-acre park with trails winding through grassy, oak-dotted hills, offering breathtaking panoramic views of Petaluma."
+      },
+      "type": "nature",
+      "lat": 38.223,
+      "lng": -122.663,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-west-side-putnam-hills-mcnear-mansion",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "McNear Mansion"
+      },
+      "description": {
+        "en": "A striking, somewhat spooky Second Empire Victorian mansion with an imposing and ornate exterior that is a must-see."
+      },
+      "type": "landmark",
+      "lat": 38.2325,
+      "lng": -122.6465,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-west-side-putnam-hills-victorian-homes",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "Historic Victorian Homes"
+      },
+      "description": {
+        "en": "The residential streets west of downtown are a living museum of Victorian architecture with intricate details and vibrant paint jobs."
+      },
+      "type": "landmark",
+      "lat": 38.234,
+      "lng": -122.648,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-west-side-putnam-hills-putnam-ridge-trail",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "Putnam Park Ridge-Top Trail"
+      },
+      "description": {
+        "en": "The main trail in Helen Putnam Park that rewards hikers with a sweeping panorama of the city and surrounding countryside."
+      },
+      "type": "viewpoint",
+      "lat": 38.2265,
+      "lng": -122.661,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-west-side-putnam-hills-putnam-hidden-pond",
+      "city_id": "petaluma-ca",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "name": {
+        "en": "Putnam Park Hidden Pond"
+      },
+      "description": {
+        "en": "A small, quiet pond hidden in the northern part of the park, offering a moment of peaceful discovery."
+      },
+      "type": "hidden_gem",
+      "lat": 38.2285,
+      "lng": -122.6645,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-core-task-1",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Iron & Ivy"
+      },
+      "prompt": {
+        "en": "Find an old brick or iron-front building and take a photo contrasting its historic texture with a touch of modern life or nature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-2",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "River Reflection"
+      },
+      "prompt": {
+        "en": "Capture a photo of a historic building's reflection in the Petaluma River or a puddle on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-3",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Shopkeeper's Story"
+      },
+      "prompt": {
+        "en": "Take a picture of a unique independent shop window display that you think tells a story about Petaluma."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-4",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Architectural Alphabet"
+      },
+      "prompt": {
+        "en": "Find the first letter of your name hidden in the architectural details of a building—a carving, a sign, or a pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-5",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Bakery Bliss"
+      },
+      "prompt": {
+        "en": "Take an artful photo of a pastry, coffee, or loaf of bread from a local bakery or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-6",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a vintage or historic-looking sign. It could be a business sign, a street sign, or a historical plaque."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-7",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Downtown Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with one of the iconic iron-front buildings in the background, showing off the historic streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-8",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Explore a small alley or side street and capture an interesting scene that most people might miss."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-9",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Stand on one of the downtown bridges and take a photo looking down the river, capturing the water and the waterfront buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-10",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Find a menu board outside a restaurant and take a photo of the most interesting-sounding dish."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-11",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting shadows cast by the historic architecture on the sidewalk in the afternoon light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-core-task-12",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Film Set Feeling"
+      },
+      "prompt": {
+        "en": "Take a photo of a street scene that looks like it could be a still from a classic movie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-1",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Get up close and take a photo of an interesting industrial texture: corrugated metal, old brick, or peeling paint."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-2",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Craft Creation"
+      },
+      "prompt": {
+        "en": "Take a photo of a glass of local craft beer or a dish from a food truck, making it look like a work of art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-3",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Mural Hunter"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a mural and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-4",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Urban Trail View"
+      },
+      "prompt": {
+        "en": "Use the SMART train path to create a 'leading lines' photo that draws the eye toward an interesting industrial feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-5",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Silo Selfie"
+      },
+      "prompt": {
+        "en": "Take a low-angle selfie with a massive grain silo in the background to show its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-6",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Search for a faded, hand-painted advertisement on the side of an old brick building and capture its ghostly image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-7",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Reclaimed & Reused"
+      },
+      "prompt": {
+        "en": "Photograph an example of an old industrial building being used for a new purpose—a brewery, art studio, or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-8",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "The Art of the Pour"
+      },
+      "prompt": {
+        "en": "If you're at a brewery, take a photo focusing on the tap handles or the action of a beer being poured."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-9",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Food Truck Feast"
+      },
+      "prompt": {
+        "en": "Capture the vibrant atmosphere of a food truck or outdoor eatery in this district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-10",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Industrial Sky"
+      },
+      "prompt": {
+        "en": "Frame a shot that contrasts the hard lines of a warehouse roof or silo against the soft clouds in the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-11",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Creative Community"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the creative or communal spirit of the district, like people gathering or a piece of public art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warehouse-brewery-district-task-12",
+      "neighborhood_id": "warehouse-brewery-district",
+      "title": {
+        "en": "Pathways & Passages"
+      },
+      "prompt": {
+        "en": "Photograph a doorway, gate, or path that looks like it leads to a secret or interesting place."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-1",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Victorian Detail"
+      },
+      "prompt": {
+        "en": "Find an ornate detail on a Victorian home—like gingerbread trim, a stained-glass window, or a unique door knocker—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-2",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful flower, plant, or garden in front of one of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-3",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Hilltop Hero"
+      },
+      "prompt": {
+        "en": "Take a triumphant selfie from a high point in Helen Putnam Park with the city of Petaluma visible behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-4",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use the branches of an oak tree in the park to frame a photo of the rolling hills or the city below."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-5",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Quiet Street Portrait"
+      },
+      "prompt": {
+        "en": "Take a photo of a friend (or a self-timer portrait) on one of the quiet, tree-lined residential streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-6",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Find a Victorian home with a particularly vibrant or interesting color scheme and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-7",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Panoramic Dreams"
+      },
+      "prompt": {
+        "en": "From a viewpoint in the park, take a wide panoramic shot of the entire Petaluma valley."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-8",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Photograph an inviting-looking porch on one of the historic homes. Focus on details like rocking chairs or hanging plants."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-9",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Trail Texture"
+      },
+      "prompt": {
+        "en": "Get a low-angle shot of one of the hiking trails, focusing on the texture of the path and the surrounding grasses."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-10",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Gothic Shadows"
+      },
+      "prompt": {
+        "en": "Find a home with dramatic architecture and capture the interesting shadows it creates in the afternoon light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-11",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Landmark Discovery"
+      },
+      "prompt": {
+        "en": "Find a house with a historical landmark plaque and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-west-side-putnam-hills-task-12",
+      "neighborhood_id": "historic-west-side-putnam-hills",
+      "title": {
+        "en": "Sky & Rooftops"
+      },
+      "prompt": {
+        "en": "Take a photo looking up at the interesting roofline of a Victorian house against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

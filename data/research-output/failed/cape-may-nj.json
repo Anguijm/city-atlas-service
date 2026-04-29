@@ -1,0 +1,869 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-core",
+      "city_id": "cape-may-nj",
+      "name": {
+        "en": "The Historic Core"
+      },
+      "summary": {
+        "en": "This is the heart of Cape May's postcard image, a living museum of 19th-century architecture with gas lamps, intricate \"gingerbread\" trim, and horse-drawn carriages."
+      },
+      "lat": 38.9345,
+      "lng": -74.9228,
+      "trending_score": 95
+    },
+    {
+      "id": "the-point-and-harbor",
+      "city_id": "cape-may-nj",
+      "name": {
+        "en": "The Point & The Harbor"
+      },
+      "summary": {
+        "en": "This area is where manicured charm gives way to wilder nature and maritime industry, featuring windswept dunes, military history, and a major commercial fishing port."
+      },
+      "lat": 38.933,
+      "lng": -74.955,
+      "trending_score": 88
+    },
+    {
+      "id": "west-cape-may",
+      "city_id": "cape-may-nj",
+      "name": {
+        "en": "West Cape May"
+      },
+      "summary": {
+        "en": "Just beyond the historic district, this separate borough has a distinctly bohemian and agricultural soul with a slower pace, sprawling farms, and quirky independent shops."
+      },
+      "lat": 38.9405,
+      "lng": -74.935,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-core-chez-michel",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Chez Michel"
+      },
+      "description": {
+        "en": "A charming, authentic French bakery perfect for a morning espresso and a flaky croissant before a day of architectural admiration."
+      },
+      "type": "food",
+      "lat": 38.93481,
+      "lng": -74.92315,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-core-c-view-inn",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "C-View Inn"
+      },
+      "description": {
+        "en": "A no-frills, old-school local's haunt where the beer is cold and the conversation is genuine, offering a feel for the town's year-round pulse."
+      },
+      "type": "hidden_gem",
+      "lat": 38.9319,
+      "lng": -74.9201,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-core-mad-batter",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "The Mad Batter Restaurant & Bar"
+      },
+      "description": {
+        "en": "A Cape May institution famous for its brunch, served on the sun-dappled veranda of the Carroll Villa Hotel."
+      },
+      "type": "food",
+      "lat": 38.9318,
+      "lng": -74.921,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-core-el-pueblo-taqueria",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "El Pueblo Taqueria"
+      },
+      "description": {
+        "en": "A fantastic, casual spot for authentic tacos and burritos, providing a delicious and speedy break from the dominant American and seafood scene."
+      },
+      "type": "food",
+      "lat": 38.9355,
+      "lng": -74.9245,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-core-tishas",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Tisha's"
+      },
+      "description": {
+        "en": "Located on the Washington Street Mall, Tisha's offers an elegant but comfortable fine-dining experience known for its classic American cuisine."
+      },
+      "type": "food",
+      "lat": 38.9335,
+      "lng": -74.9222,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-core-harriet-tubman-museum",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Harriet Tubman Museum"
+      },
+      "description": {
+        "en": "This powerful museum explores the life of the famed abolitionist and her deep connections to Cape May, where she worked to fund her Underground Railroad missions."
+      },
+      "type": "culture",
+      "lat": 38.9365,
+      "lng": -74.9248,
+      "trending_score": 82
+    },
+    {
+      "id": "historic-core-emlen-physick-estate",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Emlen Physick Estate"
+      },
+      "description": {
+        "en": "A stunning 1879 Stick Style mansion that offers a fantastic look into Victorian life, with eccentric architecture best admired from its grounds."
+      },
+      "type": "landmark",
+      "lat": 38.9383,
+      "lng": -74.921,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-core-gingerbread-hunt",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Victorian 'Gingerbread' Homes"
+      },
+      "description": {
+        "en": "Wander Hughes, Gurney, and Columbia Avenues to see an open-air museum of Victorian homes with intricate, whimsical, and colorful wooden trim."
+      },
+      "type": "landmark",
+      "lat": 38.931,
+      "lng": -74.919,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-core-cape-may-stage",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Cape May Stage"
+      },
+      "description": {
+        "en": "An acclaimed professional theater housed in a stunningly preserved 1853 church, a landmark worth admiring even without seeing a show."
+      },
+      "type": "culture",
+      "lat": 38.9358,
+      "lng": -74.9255,
+      "trending_score": 84
+    },
+    {
+      "id": "the-point-and-harbor-mayers-tavern",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "Mayer’s Tavern"
+      },
+      "description": {
+        "en": "A beloved, no-nonsense dockside tavern surrounded by commercial fishing boats, this is the spot for a cold beer and a dozen fresh oysters."
+      },
+      "type": "drink",
+      "lat": 38.943,
+      "lng": -74.915,
+      "trending_score": 78
+    },
+    {
+      "id": "the-point-and-harbor-rusty-nail",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "The Rusty Nail"
+      },
+      "description": {
+        "en": "A legendary outdoor beach bar with sand floors, fire pits, and live music, it is the undisputed champion of sunset drinks."
+      },
+      "type": "nightlife",
+      "lat": 38.927,
+      "lng": -74.939,
+      "trending_score": 91
+    },
+    {
+      "id": "the-point-and-harbor-lobster-house",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "The Lobster House"
+      },
+      "description": {
+        "en": "A sprawling Cape May institution right on the harbor, famous for its multiple dining rooms and dockside Raw Bar."
+      },
+      "type": "food",
+      "lat": 38.944,
+      "lng": -74.914,
+      "trending_score": 94
+    },
+    {
+      "id": "the-point-and-harbor-hh-seafood",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "H&H Seafood Market"
+      },
+      "description": {
+        "en": "A small, family-run market where you can get the freshest local catch, like steamed shrimp and cocktail sauce for an unmatched beach picnic."
+      },
+      "type": "food",
+      "lat": 38.9435,
+      "lng": -74.9145,
+      "trending_score": 80
+    },
+    {
+      "id": "the-point-and-harbor-wwii-tower",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "World War II Lookout Tower"
+      },
+      "description": {
+        "en": "The last of its kind in New Jersey, this 7-story concrete tower offers a breathtaking 360-degree view of the peninsula."
+      },
+      "type": "viewpoint",
+      "lat": 38.933,
+      "lng": -74.96,
+      "trending_score": 87
+    },
+    {
+      "id": "the-point-and-harbor-sunset-beach",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "Sunset Beach"
+      },
+      "description": {
+        "en": "Famous for its spectacular sunsets over the Delaware Bay and the 'Cape May diamonds'—naturally polished quartz pebbles that wash ashore."
+      },
+      "type": "nature",
+      "lat": 38.941,
+      "lng": -74.97,
+      "trending_score": 93
+    },
+    {
+      "id": "the-point-and-harbor-concrete-ship",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "The Concrete Ship (S.S. Atlantus)"
+      },
+      "description": {
+        "en": "A bizarre, skeletal wreck of an experimental WWI-era vessel, visible just off the coast of Sunset Beach since a storm in 1926."
+      },
+      "type": "landmark",
+      "lat": 38.942,
+      "lng": -74.972,
+      "trending_score": 85
+    },
+    {
+      "id": "the-point-and-harbor-state-park",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "Cape May Point State Park"
+      },
+      "description": {
+        "en": "A world-renowned birding destination with trails through marsh and dunes, offering a wilder side of the Jersey Shore."
+      },
+      "type": "nature",
+      "lat": 38.933,
+      "lng": -74.958,
+      "trending_score": 89
+    },
+    {
+      "id": "the-point-and-harbor-lighthouse",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "the-point-and-harbor",
+      "name": {
+        "en": "Cape May Lighthouse"
+      },
+      "description": {
+        "en": "An iconic 1859 lighthouse located within Cape May Point State Park, offering stunning views for those who climb to the top."
+      },
+      "type": "landmark",
+      "lat": 38.933,
+      "lng": -74.96,
+      "trending_score": 92
+    },
+    {
+      "id": "west-cape-may-westside-market",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "Westside Market"
+      },
+      "description": {
+        "en": "A beloved local deli, gourmet market, and community hub, perfect for grabbing a fantastic made-to-order sandwich and a coffee."
+      },
+      "type": "food",
+      "lat": 38.942,
+      "lng": -74.93,
+      "trending_score": 82
+    },
+    {
+      "id": "west-cape-may-red-store",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "The Red Store"
+      },
+      "description": {
+        "en": "A culinary destination disguised as a country market, known for inventive, high-end cuisine in a completely unpretentious setting."
+      },
+      "type": "hidden_gem",
+      "lat": 38.93,
+      "lng": -74.945,
+      "trending_score": 88
+    },
+    {
+      "id": "west-cape-may-beach-plum-farm-kitchen",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "Beach Plum Farm Kitchen"
+      },
+      "description": {
+        "en": "Enjoy a phenomenal farm-to-table breakfast or lunch from the kitchen of this 62-acre working farm, offering a true taste of the Garden State."
+      },
+      "type": "food",
+      "lat": 38.948,
+      "lng": -74.93,
+      "trending_score": 90
+    },
+    {
+      "id": "west-cape-may-beach-plum-farm-grounds",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "Beach Plum Farm Grounds"
+      },
+      "description": {
+        "en": "Wander the grounds of this stunning 62-acre working farm, visit with the chickens and pigs, and see where produce for Cape May's best restaurants is grown."
+      },
+      "type": "nature",
+      "lat": 38.9485,
+      "lng": -74.9305,
+      "trending_score": 85
+    },
+    {
+      "id": "west-cape-may-meadows-preserve",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "South Cape May Meadows Preserve"
+      },
+      "description": {
+        "en": "A coastal birding habitat with peaceful walking trails through dunes and wetlands, offering a sanctuary for birds and people alike."
+      },
+      "type": "nature",
+      "lat": 38.928,
+      "lng": -74.93,
+      "trending_score": 86
+    },
+    {
+      "id": "west-cape-may-lima-bean-motifs",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "Lima Bean Capital Motifs"
+      },
+      "description": {
+        "en": "Keep an eye out for lima bean motifs on signs and in shops, celebrating West Cape May's proud, quirky claim as the 'Lima Bean Capital of the World'."
+      },
+      "type": "hidden_gem",
+      "lat": 38.941,
+      "lng": -74.934,
+      "trending_score": 65
+    },
+    {
+      "id": "west-cape-may-farm-to-town-walk",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "Farm-to-Town Walk"
+      },
+      "description": {
+        "en": "Experience the area by walking or biking the quiet back roads connecting the main village to surrounding farms, enjoying a unique landscape of open fields."
+      },
+      "type": "nature",
+      "lat": 38.945,
+      "lng": -74.932,
+      "trending_score": 72
+    },
+    {
+      "id": "west-cape-may-farm-stands",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "west-cape-may",
+      "name": {
+        "en": "West Cape May Farm Stands"
+      },
+      "description": {
+        "en": "Explore the various farm stands that dot the landscape, offering fresh, local produce and a taste of the area's agricultural soul."
+      },
+      "type": "shopping",
+      "lat": 38.946,
+      "lng": -74.935,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-core-task-1",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Gingerbread Details"
+      },
+      "prompt": {
+        "en": "Find the most intricate piece of 'gingerbread' trim on a Victorian home and take a close-up photo of its details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-2",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Gas Lamp Glow"
+      },
+      "prompt": {
+        "en": "As dusk settles, capture a photo of a street scene illuminated by the warm, historic glow of a gas lamp."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-3",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Painted Lady Palette"
+      },
+      "prompt": {
+        "en": "Find a 'painted lady' house with at least five distinct colors and take a photo that showcases its vibrant color scheme."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-4",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Take a photo of an inviting porch on one of the historic inns or homes. Extra points for a rocking chair or a swing!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-5",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Carriage Perspective"
+      },
+      "prompt": {
+        "en": "Capture a photo of a street scene from a low angle, imagining the view from a horse-drawn carriage."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-6",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Historic Treat Selfie"
+      },
+      "prompt": {
+        "en": "Get a classic seaside treat like ice cream or fudge and take a selfie with a beautiful Victorian building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-7",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a modern object (like a car, a sign, or a bicycle) and photograph it contrasting sharply with the 19th-century architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-8",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Secret Garden"
+      },
+      "prompt": {
+        "en": "Peer past a gate or down an alley to find and photograph a hidden garden or charming courtyard."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-9",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Story Plaque"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque on a building and take a photo of it. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-10",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Brunch Vibes"
+      },
+      "prompt": {
+        "en": "Capture the essence of a Cape May brunch. Photograph your meal on a sun-dappled porch or patio."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-11",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Photograph an interesting window display on the Washington Street Mall that feels like a glimpse into another time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-12",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Local's Corner"
+      },
+      "prompt": {
+        "en": "Step off the main mall onto a quiet side street and capture a scene that feels authentic and lived-in."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-1",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Sunset Over the Bay"
+      },
+      "prompt": {
+        "en": "Capture the classic, spectacular sunset over the Delaware Bay. Try to include the silhouette of the concrete ship or a person."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-2",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Maritime Grit"
+      },
+      "prompt": {
+        "en": "Find a detail that tells the story of the working harbor. Take a close-up photo of fishing nets, thick ropes, or a weathered boat hull."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-3",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Beachcomber's Treasure"
+      },
+      "prompt": {
+        "en": "Find your best 'Cape May diamond' or a unique seashell and take an artistic photo of it in the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-4",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a windswept selfie on the beach or a jetty, with the ocean or bay stretching out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-5",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Historic Sentinel"
+      },
+      "prompt": {
+        "en": "Photograph the World War II Lookout Tower from a low angle to emphasize its height and solitary watch over the coast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-6",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Nature's Textures"
+      },
+      "prompt": {
+        "en": "Take a close-up, abstract photo of a natural texture: the pattern of dune grass, the ripples in the sand, or the surface of a weathered piece of driftwood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-7",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Seafood Feast"
+      },
+      "prompt": {
+        "en": "Capture a delicious-looking photo of your fresh seafood meal, whether it's oysters at a tavern or steamed shrimp on the beach."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-8",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Harbor Reflections"
+      },
+      "prompt": {
+        "en": "Find a spot where the fishing boats are reflected in the harbor water and capture the colorful, distorted image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-9",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Birdwatcher's View"
+      },
+      "prompt": {
+        "en": "Without disturbing them, try to photograph a shorebird along the water's edge or in the state park's marshes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-10",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Lighthouse Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up the side of the Cape May Lighthouse from its base."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-11",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Fire Pit Ambiance"
+      },
+      "prompt": {
+        "en": "If you're near a beach bar at night, capture the cozy, warm glow of a fire pit with friends."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-and-harbor-task-12",
+      "neighborhood_id": "the-point-and-harbor",
+      "title": {
+        "en": "Two Waters"
+      },
+      "prompt": {
+        "en": "From a high vantage point like the tower, try to capture the line where the Atlantic Ocean meets the Delaware Bay."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-1",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Farm Fresh"
+      },
+      "prompt": {
+        "en": "Take a vibrant, colorful photo of fresh produce at a farm stand or market. Focus on the colors and textures."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-2",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Country Road Explorer"
+      },
+      "prompt": {
+        "en": "Find a quiet back road and take a photo looking down its length, capturing the peaceful, rural atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-3",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Bohemian Spirit"
+      },
+      "prompt": {
+        "en": "Find something that captures the quirky, bohemian vibe of the borough—a funky sign, a unique mailbox, or a colorful shop front."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-4",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Bike Break Selfie"
+      },
+      "prompt": {
+        "en": "If you're exploring by bike, take a selfie during a break with a farm or open field in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-5",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Lima Bean Hunt"
+      },
+      "prompt": {
+        "en": "Find any reference to a lima bean—on a sign, a menu, or in a shop—and snap a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-6",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Golden Hour Fields"
+      },
+      "prompt": {
+        "en": "In the late afternoon, capture the warm, golden light filtering across one of the open farm fields."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-7",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Farm-to-Table Fare"
+      },
+      "prompt": {
+        "en": "Photograph your farm-fresh meal or gourmet sandwich from one of the local markets or eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-8",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Rustic Structure"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic farm building, like a white barn or a rustic shed, against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-9",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Meadow Serenity"
+      },
+      "prompt": {
+        "en": "Capture a peaceful, quiet moment within the South Cape May Meadows Preserve. Focus on the reeds, the water, or the trail ahead."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-10",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Farm Animal Friend"
+      },
+      "prompt": {
+        "en": "Respectfully photograph one of the farm animals, like the chickens or pigs, in their environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-11",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Wildflower Detail"
+      },
+      "prompt": {
+        "en": "Find a wildflower growing on the side of a country lane or trail and take a macro shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cape-may-task-12",
+      "neighborhood_id": "west-cape-may",
+      "title": {
+        "en": "Open Sky"
+      },
+      "prompt": {
+        "en": "Take a wide landscape photo that emphasizes the vast, open sky over the flat farm fields."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

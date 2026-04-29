@@ -1,0 +1,629 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-boone",
+      "city_id": "boone-nc",
+      "name": {
+        "en": "Downtown's Historic & Cultural Core"
+      },
+      "summary": {
+        "en": "The artistic, historic, and community-focused heart of Boone, buzzing with students and locals along the classic American mountain town artery of King Street."
+      },
+      "lat": 36.2168,
+      "lng": -81.6759,
+      "trending_score": 95
+    },
+    {
+      "id": "app-state-campus",
+      "city_id": "boone-nc",
+      "name": {
+        "en": "The Appalachian State University Campus"
+      },
+      "summary": {
+        "en": "A collegiate, spirited, and expansive city-within-a-city, defined by academic ambition, a powerhouse sports culture, and vast green spaces."
+      },
+      "lat": 36.2135,
+      "lng": -81.6815,
+      "trending_score": 85
+    },
+    {
+      "id": "high-country-vistas",
+      "city_id": "boone-nc",
+      "name": {
+        "en": "High Country Gardens & Vistas"
+      },
+      "summary": {
+        "en": "A serene, natural, and scenic escape into the quiet biodiversity and panoramic views of the Blue Ridge Mountains that cradle the town."
+      },
+      "lat": 36.2285,
+      "lng": -81.6885,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-boone-doc-watson",
+      "city_id": "boone-nc",
+      "neighborhood_id": "downtown-boone",
+      "name": {
+        "en": "Doc Watson Sculpture"
+      },
+      "description": {
+        "en": "A life-sized bronze statue honoring the legendary bluegrass musician Doc Watson, paying tribute to the region's deep musical roots."
+      },
+      "type": "culture",
+      "lat": 36.21731,
+      "lng": -81.67785,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-boone-hellbender-mural",
+      "city_id": "boone-nc",
+      "neighborhood_id": "downtown-boone",
+      "name": {
+        "en": "The Hellbender Mural"
+      },
+      "description": {
+        "en": "A massive, vibrant 2024 mural celebrating the Eastern Hellbender salamander, a cultural symbol and example of community art raising ecological awareness."
+      },
+      "type": "landmark",
+      "lat": 36.2156,
+      "lng": -81.6735,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-boone-jones-house",
+      "city_id": "boone-nc",
+      "neighborhood_id": "downtown-boone",
+      "name": {
+        "en": "The Jones House"
+      },
+      "description": {
+        "en": "A preserved 1908 home on the National Register of Historic Places, now serving as the town's living cultural and community center."
+      },
+      "type": "culture",
+      "lat": 36.2169,
+      "lng": -81.6766,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-boone-ned-austin-star",
+      "city_id": "boone-nc",
+      "neighborhood_id": "downtown-boone",
+      "name": {
+        "en": "Ned Austin's \"Hollywood Star\""
+      },
+      "description": {
+        "en": "A true local oddity, this pedestal-mounted star honors the first actor to portray Daniel Boone in the long-running \"Horn in the West\" drama."
+      },
+      "type": "hidden_gem",
+      "lat": 36.2167,
+      "lng": -81.6755,
+      "trending_score": 75
+    },
+    {
+      "id": "app-state-campus-the-rock",
+      "city_id": "boone-nc",
+      "neighborhood_id": "app-state-campus",
+      "name": {
+        "en": "Kidd-Brewer Stadium (\"The Rock\")"
+      },
+      "description": {
+        "en": "Home to the legendary Appalachian State Mountaineers football team, this impressive stadium holds the history of three national championships."
+      },
+      "type": "landmark",
+      "lat": 36.2109,
+      "lng": -81.6869,
+      "trending_score": 92
+    },
+    {
+      "id": "app-state-campus-horn-in-the-west",
+      "city_id": "boone-nc",
+      "neighborhood_id": "app-state-campus",
+      "name": {
+        "en": "\"Horn in the West\" Amphitheater"
+      },
+      "description": {
+        "en": "A piece of living history, this outdoor amphitheater has staged a drama about Daniel Boone and local settlers since 1952."
+      },
+      "type": "culture",
+      "lat": 36.2198,
+      "lng": -81.6886,
+      "trending_score": 80
+    },
+    {
+      "id": "app-state-campus-sanford-mall",
+      "city_id": "boone-nc",
+      "neighborhood_id": "app-state-campus",
+      "name": {
+        "en": "The Campus Core & Sanford Mall"
+      },
+      "description": {
+        "en": "The central quad of the university, this vast, open green space is the heart of student life and the best place to absorb the campus's energetic vibe."
+      },
+      "type": "nature",
+      "lat": 36.214,
+      "lng": -81.6795,
+      "trending_score": 85
+    },
+    {
+      "id": "high-country-vistas-native-gardens",
+      "city_id": "boone-nc",
+      "neighborhood_id": "high-country-vistas",
+      "name": {
+        "en": "Daniel Boone Native Gardens"
+      },
+      "description": {
+        "en": "A rustic and peaceful sanctuary dedicated to the native plants of the Appalachian region, offering a quiet place for reflection."
+      },
+      "type": "nature",
+      "lat": 36.2205,
+      "lng": -81.688,
+      "trending_score": 82
+    },
+    {
+      "id": "high-country-vistas-howard-knob",
+      "city_id": "boone-nc",
+      "neighborhood_id": "high-country-vistas",
+      "name": {
+        "en": "Howard Knob"
+      },
+      "description": {
+        "en": "This mountain peak provides one of the most accessible and rewarding panoramic views of Boone, the campus, and surrounding ranges."
+      },
+      "type": "viewpoint",
+      "lat": 36.2367,
+      "lng": -81.6889,
+      "trending_score": 95
+    },
+    {
+      "id": "high-country-vistas-watauga-river",
+      "city_id": "boone-nc",
+      "neighborhood_id": "high-country-vistas",
+      "name": {
+        "en": "Watauga River Access Point"
+      },
+      "description": {
+        "en": "A public greenway or access point to the river that is the lifeblood of the valley, perfect for connecting with the natural landscape."
+      },
+      "type": "nature",
+      "lat": 36.225,
+      "lng": -81.665,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-boone-task-1",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Mountain Town Texture"
+      },
+      "prompt": {
+        "en": "Find an interesting texture on a historic brick building—worn paint, old mortar, or a weathered sign—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-2",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Spirit of Appalachia"
+      },
+      "prompt": {
+        "en": "Capture a photo of something that you feel represents the unique artistic or musical spirit of Boone's downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-3",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "King Street Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo looking down King Street from a low angle to emphasize the classic American main street feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-4",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Local Pride"
+      },
+      "prompt": {
+        "en": "Find a sign, sticker, or piece of public art that shows off local Boone or Appalachian pride and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-5",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Peer down an alley or side street off the main drag and capture the most interesting view you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-6",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Photograph the most unique or creative window display you see in a local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-7",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Find a building with interesting architectural details like a unique cornice, window frame, or doorway and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-8",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Take a selfie on a public bench or in a small square where locals and students gather."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-9",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Street Art Surprise"
+      },
+      "prompt": {
+        "en": "Find a piece of unexpected public art—a small sculpture, a painted utility box, or a mural—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-10",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Reflection of the Mountains"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the sky or surrounding mountains in a storefront window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-11",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Signs of History"
+      },
+      "prompt": {
+        "en": "Find and photograph a historical marker or a plaque on a building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-boone-task-12",
+      "neighborhood_id": "downtown-boone",
+      "title": {
+        "en": "Upstairs, Downstairs"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between the ground-floor shops and the upper stories of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-1",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Mountaineer Spirit"
+      },
+      "prompt": {
+        "en": "Find the Appalachian State University logo or mascot (Yosef) somewhere on campus and take a spirited selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-2",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Campus Green"
+      },
+      "prompt": {
+        "en": "Capture a wide-angle photo of one of the campus's expansive green spaces, like Sanford Mall, showing students relaxing or walking."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-3",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a modern campus building next to a more traditional, older one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-4",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Pathways to Learning"
+      },
+      "prompt": {
+        "en": "Find an interesting walkway or set of stairs on campus and take a photo using it as a leading line."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-5",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Collegiate Calm"
+      },
+      "prompt": {
+        "en": "Find a quiet spot on campus—a secluded bench, a small garden, or a library window—and capture the peaceful side of university life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-6",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Black and Gold"
+      },
+      "prompt": {
+        "en": "Take a photo that prominently features the university's colors, black and gold, found on a sign, banner, or building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-7",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Student Life in Motion"
+      },
+      "prompt": {
+        "en": "Capture an action shot of student life: someone on a skateboard, throwing a frisbee, or rushing to class."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-8",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Campus Art"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture on campus and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-9",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Shadows of Academia"
+      },
+      "prompt": {
+        "en": "Play with light and shadow. Take a photo of the interesting shadows cast by a campus building or a large tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-10",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "View from the Hill"
+      },
+      "prompt": {
+        "en": "Find a high point on campus and take a photo looking down over a central area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-11",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Bike Rack City"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a row of bicycles, a common sight on any university campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "app-state-campus-task-12",
+      "neighborhood_id": "app-state-campus",
+      "title": {
+        "en": "Imposing Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the main entrance to an impressive-looking academic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-1",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Panoramic Peace"
+      },
+      "prompt": {
+        "en": "Find a spot with a view and take a wide panoramic photo of the Blue Ridge Mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-2",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Nature's Details"
+      },
+      "prompt": {
+        "en": "Take a macro or close-up photo of a native plant's leaf, flower, or bark texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-3",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Serene Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet, natural spot and take a selfie that captures the serene vibe of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-4",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Photograph a rustic stone path, wooden bridge, or dirt trail leading into the woods or a garden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-5",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Sky Above, Town Below"
+      },
+      "prompt": {
+        "en": "From an elevated position, capture a photo that includes both the vast sky and a glimpse of the town of Boone in the valley."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-6",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Sound of Water"
+      },
+      "prompt": {
+        "en": "Find a river or stream and take a photo that conveys the movement of the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-7",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Shades of Green"
+      },
+      "prompt": {
+        "en": "Take a photo that captures at least three different shades of green from the surrounding foliage."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-8",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Mountain Wildflower"
+      },
+      "prompt": {
+        "en": "Search for a small, wild-growing flower and take a picture of it in its natural setting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-9",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Contemplative Moment"
+      },
+      "prompt": {
+        "en": "Photograph an empty bench or rock that looks like the perfect place to sit and enjoy the view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-10",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Tree Line"
+      },
+      "prompt": {
+        "en": "Capture the silhouette of the tree line against the sky on a distant mountain ridge."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-11",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Rustic Construction"
+      },
+      "prompt": {
+        "en": "Find and photograph an example of rustic construction, like a split-rail fence, a log cabin, or a stone wall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "high-country-vistas-task-12",
+      "neighborhood_id": "high-country-vistas",
+      "title": {
+        "en": "Sunlight Through Leaves"
+      },
+      "prompt": {
+        "en": "Take a photo looking up through the canopy of trees, capturing the way the sunlight filters through the leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

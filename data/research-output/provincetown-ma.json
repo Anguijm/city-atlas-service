@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-waterfront",
+      "city_id": "provincetown-ma",
+      "name": {
+        "en": "The Historic Waterfront & Commercial Street Core"
+      },
+      "summary": {
+        "en": "The energetic heart of Provincetown, this area pulses with a unique blend of maritime grit and bohemian flair, where the town’s history as a fishing village is layered with its present as an LGBTQ+ haven."
+      },
+      "lat": 42.0515,
+      "lng": -70.1845,
+      "trending_score": 95
+    },
+    {
+      "id": "east-end-gallery-district",
+      "city_id": "provincetown-ma",
+      "name": {
+        "en": "The East End Gallery District"
+      },
+      "summary": {
+        "en": "A quieter, more residential neighborhood where the vibe shifts from commercial to creative. This is the historic arts colony, perfect for slow strolling and gallery hopping."
+      },
+      "lat": 42.053,
+      "lng": -70.178,
+      "trending_score": 85
+    },
+    {
+      "id": "west-end-and-moors",
+      "city_id": "provincetown-ma",
+      "name": {
+        "en": "The West End & The Moors"
+      },
+      "summary": {
+        "en": "This is where Provincetown exhales into a quiet, contemplative landscape of historic homes, salt marshes, and the raw, poetic beauty of the moors that inspired the poet Mary Oliver."
+      },
+      "lat": 42.048,
+      "lng": -70.195,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-waterfront-atlantic-house",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "historic-waterfront",
+      "name": {
+        "en": "Atlantic House (A-House)"
+      },
+      "description": {
+        "en": "A cornerstone of the cultural landscape, identified as the oldest gay bar in the United States. A visit is a step into living American LGBTQ+ history."
+      },
+      "type": "nightlife",
+      "lat": 42.0508,
+      "lng": -70.1865,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-waterfront-macmillan-pier",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "historic-waterfront",
+      "name": {
+        "en": "MacMillan Pier"
+      },
+      "description": {
+        "en": "The historic nexus of Provincetown, where the old railroad once terminated. It's a dynamic intersection of tourism and the fishing industry."
+      },
+      "type": "landmark",
+      "lat": 42.0514,
+      "lng": -70.1839,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-waterfront-town-rode-path",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "historic-waterfront",
+      "name": {
+        "en": "The \"Town Rode\" Path"
+      },
+      "description": {
+        "en": "Walk Commercial Street and imagine it as a 19th-century footpath. Look for older homes with their grander facades still facing the harbor, the real main street of the past."
+      },
+      "type": "hidden_gem",
+      "lat": 42.051,
+      "lng": -70.1855,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-waterfront-ghost-of-east-harbor",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "historic-waterfront",
+      "name": {
+        "en": "The Ghost of East Harbor"
+      },
+      "description": {
+        "en": "An 'invisible landmark' on the Route 6A causeway where a 1,000-foot-wide channel once cut Provincetown off from the mainland, making it an island."
+      },
+      "type": "landmark",
+      "lat": 42.0575,
+      "lng": -70.175,
+      "trending_score": 80
+    },
+    {
+      "id": "east-end-gallery-district-paam",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "east-end-gallery-district",
+      "name": {
+        "en": "Provincetown Art Association and Museum (PAAM)"
+      },
+      "description": {
+        "en": "The cultural anchor of the East End, this nationally recognized institution's collection is a stunning visual history of the town’s role in American art."
+      },
+      "type": "culture",
+      "lat": 42.0531,
+      "lng": -70.1782,
+      "trending_score": 88
+    },
+    {
+      "id": "east-end-gallery-district-fine-arts-work-center",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "east-end-gallery-district",
+      "name": {
+        "en": "Fine Arts Work Center"
+      },
+      "description": {
+        "en": "A living incubator for creativity that provides residencies for emerging artists and writers, ensuring the town's artistic legacy continues."
+      },
+      "type": "culture",
+      "lat": 42.0539,
+      "lng": -70.1795,
+      "trending_score": 78
+    },
+    {
+      "id": "east-end-gallery-district-playhouse-on-the-wharf",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "east-end-gallery-district",
+      "name": {
+        "en": "Provincetown Playhouse on the Wharf"
+      },
+      "description": {
+        "en": "A site of major theatrical history that was a cradle for American drama, famously premiering works by Eugene O'Neill."
+      },
+      "type": "culture",
+      "lat": 42.0512,
+      "lng": -70.1848,
+      "trending_score": 82
+    },
+    {
+      "id": "west-end-and-moors-backshore-route",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "west-end-and-moors",
+      "name": {
+        "en": "The \"Backshore\" Route"
+      },
+      "description": {
+        "en": "Experience the profound seclusion that once defined Provincetown by walking the bay beach at low tide, a path that was once the only way into town by land."
+      },
+      "type": "nature",
+      "lat": 42.0465,
+      "lng": -70.1985,
+      "trending_score": 75
+    },
+    {
+      "id": "west-end-and-moors-mary-olivers-landscape",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "west-end-and-moors",
+      "name": {
+        "en": "Mary Oliver's Landscape"
+      },
+      "description": {
+        "en": "This is not a single monument, but the entire landscape of trails and marshes from which the poet Mary Oliver drew her life's inspiration."
+      },
+      "type": "nature",
+      "lat": 42.045,
+      "lng": -70.201,
+      "trending_score": 85
+    },
+    {
+      "id": "west-end-and-moors-lady-of-the-dunes",
+      "city_id": "provincetown-ma",
+      "neighborhood_id": "west-end-and-moors",
+      "name": {
+        "en": "The Lady of the Dunes Discovery Site"
+      },
+      "description": {
+        "en": "A somber point of interest in the Race Point Dunes where the body of an unidentified woman was discovered in 1974, sparking a decades-long mystery."
+      },
+      "type": "hidden_gem",
+      "lat": 42.0625,
+      "lng": -70.198,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-waterfront-task-1",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Maritime Relic"
+      },
+      "prompt": {
+        "en": "Find a piece of old maritime equipment—an anchor, a buoy, a coil of thick rope—and take a photo that highlights its weathered texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-2",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Rainbow Flag Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a rainbow flag in the background, celebrating the town's history as an LGBTQ+ haven."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-3",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Street Performer Spotlight"
+      },
+      "prompt": {
+        "en": "Capture a photo of a street performer or artist in action on Commercial Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-4",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Architectural Time Travel"
+      },
+      "prompt": {
+        "en": "Photograph a detail on an old building that looks like it's from the 19th century."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-5",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Harbor Panorama"
+      },
+      "prompt": {
+        "en": "Take a wide shot of the harbor, trying to capture the mix of fishing boats and tourist ferries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-6",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Sweet Treat Discovery"
+      },
+      "prompt": {
+        "en": "Find a shop selling a classic seaside treat like saltwater taffy or fudge and photograph its colorful display."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-7",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "The Narrowest Street"
+      },
+      "prompt": {
+        "en": "Take a photo down a narrow lane or alley off Commercial Street, emphasizing its tight quarters."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-8",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Bohemian Flair"
+      },
+      "prompt": {
+        "en": "Find an example of 'bohemian flair' - a brightly painted storefront, a quirky sign, or an eccentric outfit - and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-9",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Joyful Chaos"
+      },
+      "prompt": {
+        "en": "Capture a photo that embodies the 'joyful chaos' of Commercial Street's bustling crowd."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-10",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Seagull's View"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at the sky, as if you were a seagull on the pier."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-11",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "A Toast to History"
+      },
+      "prompt": {
+        "en": "Find a historic bar or restaurant and take a photo of its sign, imagining the stories it could tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-waterfront-task-12",
+      "neighborhood_id": "historic-waterfront",
+      "title": {
+        "en": "Fisherman's Portrait"
+      },
+      "prompt": {
+        "en": "From a respectful distance, take a candid photo of a fisherman at work on the pier."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-1",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Gallery Window Shopping"
+      },
+      "prompt": {
+        "en": "Find a gallery window with an interesting piece of art and take a photo of its reflection mixed with the street scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-2",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Artist's Garden"
+      },
+      "prompt": {
+        "en": "Many homes in the East End have beautiful gardens. Photograph a particularly creative or colorful one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-3",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Sea Captain's House"
+      },
+      "prompt": {
+        "en": "Find a grand, old house that looks like it belonged to a sea captain and take a photo of its most impressive feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-4",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of shadows cast by a tree or a building on a quiet side street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-5",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "The Color Palette"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the unique color palette of a single building—the shingles, the trim, the door."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-6",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Quiet Contemplation Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or stoop and take a selfie that looks thoughtful and inspired by the artistic atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-7",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a sculpture or piece of public art and photograph it from an unusual angle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-8",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "A Writer's Nook"
+      },
+      "prompt": {
+        "en": "Photograph a cozy-looking window or porch that seems like the perfect place for a writer to work."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-9",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Modernism Echo"
+      },
+      "prompt": {
+        "en": "Find a building or an object with clean, modern lines that echoes the legacy of American modernism and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-10",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "The Sound of Silence"
+      },
+      "prompt": {
+        "en": "Take a photo down an empty street that captures the quiet, residential feeling of the East End."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-11",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Creative Mailbox"
+      },
+      "prompt": {
+        "en": "Artists live here. Find and photograph a unique, handmade, or creatively decorated mailbox."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-end-gallery-district-task-12",
+      "neighborhood_id": "east-end-gallery-district",
+      "title": {
+        "en": "Inspired by Nature"
+      },
+      "prompt": {
+        "en": "Find a natural element, like a flower or a vine, growing on a man-made structure and capture the artistic contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-1",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Poet's Perspective"
+      },
+      "prompt": {
+        "en": "Find a view of the moors or the water and take a photo that feels like it could be on the cover of a Mary Oliver poetry book."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-2",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Footprints in the Sand"
+      },
+      "prompt": {
+        "en": "Take a photo of your own footprints on the beach, leading towards the water or the horizon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-3",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Minimalist Landscape"
+      },
+      "prompt": {
+        "en": "Capture a minimalist photo of the landscape, focusing on just two or three elements, like the sky, a blade of grass, and the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-4",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a natural texture: the bark of a weathered tree, the pattern on a seashell, or the ripples in the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-5",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Contemplative Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie looking out over the moors or the bay, capturing a sense of peace and contemplation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-6",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "The Edge of Town"
+      },
+      "prompt": {
+        "en": "Photograph a scene where the last houses of the West End meet the wildness of the moors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-7",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Bird in Flight"
+      },
+      "prompt": {
+        "en": "Try to capture a photo of a bird in flight against the backdrop of the sky or the marsh."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-8",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "The Color of the Moors"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the subtle, earthy colors of the marsh grasses and sand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-9",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Wind's Evidence"
+      },
+      "prompt": {
+        "en": "Photograph something that shows the effect of the wind—a bent tree, waving grasses, or patterns in the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-10",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "A Found Treasure"
+      },
+      "prompt": {
+        "en": "Find a beautiful piece of driftwood, a unique stone, or a perfect seashell and photograph it where you found it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-11",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Light on the Water"
+      },
+      "prompt": {
+        "en": "Capture the way the sunlight reflects and sparkles on the surface of the bay or a tidal creek."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-and-moors-task-12",
+      "neighborhood_id": "west-end-and-moors",
+      "title": {
+        "en": "Solitude"
+      },
+      "prompt": {
+        "en": "Take a photo of a single, lone object against the vast landscape—a single boat, a distant post, or a solitary tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

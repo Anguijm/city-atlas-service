@@ -1,0 +1,753 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "el-paso-tx",
+      "name": {
+        "en": "Downtown Core"
+      },
+      "summary": {
+        "en": "The city's historic and cultural heart, a compact grid of architectural treasures and revitalized public spaces where history and modern art collide."
+      },
+      "lat": 31.7587,
+      "lng": -106.4869,
+      "trending_score": 95
+    },
+    {
+      "id": "university-district",
+      "city_id": "el-paso-tx",
+      "name": {
+        "en": "University District"
+      },
+      "summary": {
+        "en": "Centered around UTEP, this area offers a unique blend of academic energy and startling Bhutanese architecture set against the rugged Franklin Mountains."
+      },
+      "lat": 31.7715,
+      "lng": -106.5052,
+      "trending_score": 85
+    },
+    {
+      "id": "chamizal-borderland",
+      "city_id": "el-paso-tx",
+      "name": {
+        "en": "The Chamizal Borderland"
+      },
+      "summary": {
+        "en": "A unique park born from a resolved border dispute, this area is a testament to diplomacy and a hub for binational culture on the edge of the Rio Grande."
+      },
+      "lat": 31.7634,
+      "lng": -106.4556,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-ode-brewing",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Ode Brewing Company"
+      },
+      "description": {
+        "en": "A charming craft brewery and restaurant serving 'homegrown border beer' and locally-inspired food like flavorful chilaquiles verdes."
+      },
+      "type": "food",
+      "lat": 31.7601,
+      "lng": -106.4795,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-core-plaza-theatre",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Plaza Theatre"
+      },
+      "description": {
+        "en": "A 1930 masterpiece of Spanish Colonial Revival architecture with intricate mosaic tile floors and an atmospheric 'starry' ceiling."
+      },
+      "type": "landmark",
+      "lat": 31.7582,
+      "lng": -106.4888,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-core-san-jacinto-plaza",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "San Jacinto Plaza"
+      },
+      "description": {
+        "en": "The historic heart of downtown, this renovated park is famous for its past as an alligator pond, now commemorated with striking statues."
+      },
+      "type": "landmark",
+      "lat": 31.7586,
+      "lng": -106.4883,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-core-el-paso-museum-of-art",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "El Paso Museum of Art"
+      },
+      "description": {
+        "en": "A comprehensive collection with a strong focus on Mexican, American, and European art, including works by celebrated El Paso native Tom Lea."
+      },
+      "type": "culture",
+      "lat": 31.7595,
+      "lng": -106.4898,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-core-holocaust-museum",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "El Paso Holocaust Museum and Study Center"
+      },
+      "description": {
+        "en": "The only fully bilingual Holocaust museum in the U.S., this poignant space features a unique gallery dedicated to El Paso-area survivors."
+      },
+      "type": "culture",
+      "lat": 31.7651,
+      "lng": -106.4905,
+      "trending_score": 80
+    },
+    {
+      "id": "university-district-bhutanese-architecture",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "UTEP's Bhutanese Architecture"
+      },
+      "description": {
+        "en": "The university's defining feature, with buildings modeled on the Dzong architecture of Bhutan, featuring massive sloping walls and intricate mandalas."
+      },
+      "type": "landmark",
+      "lat": 31.7701,
+      "lng": -106.505,
+      "trending_score": 96
+    },
+    {
+      "id": "university-district-centennial-museum",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "Centennial Museum and Chihuahuan Desert Gardens"
+      },
+      "description": {
+        "en": "El Paso's oldest museum paired with beautiful gardens featuring over 600 species of native plants from the Chihuahuan Desert."
+      },
+      "type": "culture",
+      "lat": 31.7725,
+      "lng": -106.5069,
+      "trending_score": 89
+    },
+    {
+      "id": "university-district-sun-bowl-stadium",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "Sun Bowl Stadium"
+      },
+      "description": {
+        "en": "An iconic college sports stadium built directly into the side of the Franklin Mountains, cradled by a raw, rocky landscape."
+      },
+      "type": "landmark",
+      "lat": 31.7745,
+      "lng": -106.51,
+      "trending_score": 91
+    },
+    {
+      "id": "chamizal-borderland-memorial-museum",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "chamizal-borderland",
+      "name": {
+        "en": "Chamizal National Memorial Museum"
+      },
+      "description": {
+        "en": "A small museum detailing the history of the border, the shifting Rio Grande, and the diplomatic efforts that led to the park's creation."
+      },
+      "type": "culture",
+      "lat": 31.7628,
+      "lng": -106.4561,
+      "trending_score": 82
+    },
+    {
+      "id": "chamizal-borderland-cordova-mural",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "chamizal-borderland",
+      "name": {
+        "en": "The Cordova Island Mural"
+      },
+      "description": {
+        "en": "A large, vibrant mural on the side of the main building that depicts the shared history and culture of the U.S. and Mexico."
+      },
+      "type": "hidden_gem",
+      "lat": 31.7629,
+      "lng": -106.4559,
+      "trending_score": 85
+    },
+    {
+      "id": "chamizal-borderland-bridge-view",
+      "city_id": "el-paso-tx",
+      "neighborhood_id": "chamizal-borderland",
+      "name": {
+        "en": "View of the Bridge of the Americas"
+      },
+      "description": {
+        "en": "A powerful vantage point to watch the constant flow of traffic and feel the tangible connection to Ciudad Juárez, just a stone's throw away."
+      },
+      "type": "viewpoint",
+      "lat": 31.765,
+      "lng": -106.452,
+      "trending_score": 88
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Time Capsule"
+      },
+      "prompt": {
+        "en": "Find a building that looks over 100 years old. Take a photo that highlights its most unique historical feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a historic building's reflection in the glass of a modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Plaza Perspectives"
+      },
+      "prompt": {
+        "en": "Take a photo of a public plaza from a low angle to make the statues or fountains seem monumental."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a mural on the street. Take a selfie with it, mimicking the art's mood or pose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The Alligator's Legacy"
+      },
+      "prompt": {
+        "en": "Find a symbol or image of an alligator somewhere in the neighborhood. Snap a picture of this tribute to the area's quirky history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Border Brews"
+      },
+      "prompt": {
+        "en": "Find a local cafe or brewery. Take a photo of a drink that feels unique to El Paso's border culture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "As the sun gets lower, capture an interesting shadow cast by one of the downtown buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Tile Treasure Hunt"
+      },
+      "prompt": {
+        "en": "Many older buildings here have beautiful tilework. Find an interesting pattern on a floor or wall and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "City Rhythm"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the movement and energy of downtown life, whether it's traffic, pedestrians, or a public event."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Governmental Grandeur"
+      },
+      "prompt": {
+        "en": "Find a government building (like a courthouse or city hall) and take a photo that makes it look powerful and imposing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Find a vintage or neon sign and capture it in a creative way."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Cultural Corner"
+      },
+      "prompt": {
+        "en": "Take a photo outside a museum or theater that makes you want to go inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-13",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker. Take a photo of it and the place it describes in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-14",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Southwest Flavors"
+      },
+      "prompt": {
+        "en": "Photograph a meal or snack from a local eatery that you think best represents the taste of El Paso."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-15",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a small park, fountain, or green space tucked between the buildings. Capture a photo that feels like a peaceful escape from the city bustle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-1",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Himalayas in the Desert"
+      },
+      "prompt": {
+        "en": "Frame a photo that contrasts the unique Bhutanese-style architecture with the native Chihuahuan Desert plants."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-2",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Mandala Meditation"
+      },
+      "prompt": {
+        "en": "Find an intricate mosaic or mandala pattern on one of the UTEP buildings. Take a close-up, symmetrical photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-3",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Mountain Backdrop"
+      },
+      "prompt": {
+        "en": "Take a picture of any campus building where the Franklin Mountains create a dramatic background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-4",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Desert Flora Focus"
+      },
+      "prompt": {
+        "en": "Find a cactus, yucca, or ocotillo plant. Use your camera's portrait or macro mode to take a detailed photo of it, blurring the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-5",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Academic Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents 'learning' or 'student life' without showing faces, like a stack of books near a window or a path worn between buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-6",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Sloping Walls"
+      },
+      "prompt": {
+        "en": "The Dzong architecture features massive, sloping walls. Find a good example and take a photo from a low angle to emphasize its scale and shape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-7",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Miner Pride"
+      },
+      "prompt": {
+        "en": "Find the UTEP 'Miner' mascot or logo somewhere on campus. Take a spirited selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-8",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Stadium in the Rocks"
+      },
+      "prompt": {
+        "en": "Find a viewpoint where you can see how the Sun Bowl Stadium is built into the mountain. Capture the harmony between the structure and nature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-9",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Campus Explorer"
+      },
+      "prompt": {
+        "en": "Take a photo down a campus walkway or path that makes you feel like you're on a journey of discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-10",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Look for the small details. Photograph an interesting roofline, window frame, or doorway that showcases the unique Bhutanese style."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-11",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Cactus Portrait"
+      },
+      "prompt": {
+        "en": "Find the most interesting-looking cactus in the Chihuahuan Desert Gardens and take a 'portrait' of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-12",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the late afternoon, capture a photo of the campus buildings glowing in the warm light of the setting sun."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-13",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Study Break Spot"
+      },
+      "prompt": {
+        "en": "Find a bench or quiet spot that looks like the perfect place to study or relax. Take a photo from the perspective of someone sitting there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-14",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Nature's Resilience"
+      },
+      "prompt": {
+        "en": "Photograph a desert plant growing in a surprising place, like out of a rock or next to a concrete wall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-15",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Campus Vista"
+      },
+      "prompt": {
+        "en": "Find a high point and take a panoramic shot of the campus spread out below you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-1",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Two Nations, One Sky"
+      },
+      "prompt": {
+        "en": "Take a photo that includes elements from both the U.S. (the park) and Mexico (the city of Juárez in the distance) under the same sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-2",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Symbol of Diplomacy"
+      },
+      "prompt": {
+        "en": "Find a flag, plaque, or statue that represents the peaceful settlement of the border dispute. Capture it in a respectful photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-3",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "The River's Path"
+      },
+      "prompt": {
+        "en": "Take a photo of the Rio Grande. Try to compose the shot to make the river look like a dividing line and a connection at the same time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-4",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Bridge of Connection"
+      },
+      "prompt": {
+        "en": "Frame a shot of the Bridge of the Americas, focusing on the constant flow of cars and people that connect the two cities."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-5",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Mural Message"
+      },
+      "prompt": {
+        "en": "Find a mural or piece of public art in the park. Take a photo of a detail that you think best tells the story of U.S.-Mexico friendship."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-6",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Contemplative Space"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or path in the park. Take a photo that captures the peaceful and commemorative feeling of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-7",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Borderland Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the border fence or the Bridge of the Americas visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-8",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph something that shows the park is a living space, like families having a picnic, kids playing, or a cultural event."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-9",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Juárez on the Horizon"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the cityscape of Ciudad Juárez as seen from the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-10",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "A Walk for Peace"
+      },
+      "prompt": {
+        "en": "Take a photo looking down one of the park's long walking paths, inviting the viewer to walk and reflect."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-11",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Shared Sunset"
+      },
+      "prompt": {
+        "en": "If you're here at dusk, capture the sunset over the border, showing how both cities share the same beautiful sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-12",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Nature on the Border"
+      },
+      "prompt": {
+        "en": "Find a plant, tree, or bird within the park and take a photo that contrasts this natural life with the nearby urban border infrastructure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-13",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "History Lesson"
+      },
+      "prompt": {
+        "en": "Find an informational sign or display in the park. Take a photo of one fact you found surprising or interesting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-14",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "Flags of Friendship"
+      },
+      "prompt": {
+        "en": "Find the flags of the United States and Mexico flying near each other. Capture them together in one photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "chamizal-borderland-task-15",
+      "neighborhood_id": "chamizal-borderland",
+      "title": {
+        "en": "The Border's Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up, abstract photo of a texture you find in the park—the rust on a fence, the paint on a mural, the bark of a tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

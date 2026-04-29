@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-town-waterfront",
+      "city_id": "eureka-ca",
+      "name": {
+        "en": "Old Town & The Waterfront"
+      },
+      "summary": {
+        "en": "A living museum of Victorian seaport life where maritime history meets a vibrant arts scene, with the air smelling of salt and old wood."
+      },
+      "lat": 40.8031,
+      "lng": -124.1655,
+      "trending_score": 95
+    },
+    {
+      "id": "victorian-village",
+      "city_id": "eureka-ca",
+      "name": {
+        "en": "The Victorian Village"
+      },
+      "summary": {
+        "en": "A quiet, residential dreamscape of architectural fantasy, featuring streets lined with an astonishing collection of preserved Victorian homes."
+      },
+      "lat": 40.8005,
+      "lng": -124.168,
+      "trending_score": 90
+    },
+    {
+      "id": "sequoia-park",
+      "city_id": "eureka-ca",
+      "name": {
+        "en": "Sequoia Park & The Redwood Sky Walk"
+      },
+      "summary": {
+        "en": "An immersive blend of urban park and ancient forest, offering an immediate escape into the natural world of towering second-growth redwoods."
+      },
+      "lat": 40.7833,
+      "lng": -124.1535,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-town-waterfront-murals",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "old-town-waterfront",
+      "name": {
+        "en": "The Murals of Old Town"
+      },
+      "description": {
+        "en": "An outdoor gallery where the district's brick walls serve as a public canvas, telling stories of the city's logging, fishing, and native heritage."
+      },
+      "type": "culture",
+      "lat": 40.8025,
+      "lng": -124.1648,
+      "trending_score": 85
+    },
+    {
+      "id": "old-town-waterfront-hikshari-trail",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "old-town-waterfront",
+      "name": {
+        "en": "Hikshari' Trail (Eureka Waterfront Trail)"
+      },
+      "description": {
+        "en": "A paved, multi-use trail along Humboldt Bay combining industrial waterfront views with protected marshlands and striking public art installations."
+      },
+      "type": "nature",
+      "lat": 40.7855,
+      "lng": -124.1801,
+      "trending_score": 88
+    },
+    {
+      "id": "old-town-waterfront-halvorsen-park",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "old-town-waterfront",
+      "name": {
+        "en": "Halvorsen Park"
+      },
+      "description": {
+        "en": "A quiet waterfront park just north of Old Town, featuring a long, accessible walkway perfect for watching boats in the harbor."
+      },
+      "type": "nature",
+      "lat": 40.8052,
+      "lng": -124.1683,
+      "trending_score": 75
+    },
+    {
+      "id": "old-town-waterfront-arts-alive",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "old-town-waterfront",
+      "name": {
+        "en": "First Saturday Arts' Alive!"
+      },
+      "description": {
+        "en": "A monthly evening art walk where over 80 galleries and businesses open their doors, filling the streets with live music and performances."
+      },
+      "type": "culture",
+      "lat": 40.8029,
+      "lng": -124.165,
+      "trending_score": 92
+    },
+    {
+      "id": "victorian-village-carson-mansion",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "victorian-village",
+      "name": {
+        "en": "Carson Mansion (Exterior View)"
+      },
+      "description": {
+        "en": "The crown jewel of Eureka's architecture, this private club is a breathtaking pinnacle of American Queen Anne style, admired from the street."
+      },
+      "type": "landmark",
+      "lat": 40.8015,
+      "lng": -124.1695,
+      "trending_score": 100
+    },
+    {
+      "id": "victorian-village-pink-lady",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "victorian-village",
+      "name": {
+        "en": "Milton Carson Home ('The Pink Lady')"
+      },
+      "description": {
+        "en": "An iconic pink Queen Anne Victorian with an intricate design, built as a wedding present for William Carson's son."
+      },
+      "type": "landmark",
+      "lat": 40.8018,
+      "lng": -124.1693,
+      "trending_score": 98
+    },
+    {
+      "id": "sequoia-park-redwood-sky-walk",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "sequoia-park",
+      "name": {
+        "en": "Redwood Sky Walk"
+      },
+      "description": {
+        "en": "A series of suspended bridges and platforms taking you over 100 feet up into the redwood canopy for a bird's-eye view of the forest."
+      },
+      "type": "viewpoint",
+      "lat": 40.7835,
+      "lng": -124.153,
+      "trending_score": 99
+    },
+    {
+      "id": "sequoia-park-zoo",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "sequoia-park",
+      "name": {
+        "en": "Sequoia Park Zoo"
+      },
+      "description": {
+        "en": "Home to the Redwood Sky Walk, this zoo is nestled within a redwood grove, blending animal habitats with the stunning natural forest."
+      },
+      "type": "culture",
+      "lat": 40.7838,
+      "lng": -124.1538,
+      "trending_score": 90
+    },
+    {
+      "id": "sequoia-park-forest-trails",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "sequoia-park",
+      "name": {
+        "en": "Sequoia Park Forest Trails"
+      },
+      "description": {
+        "en": "Less crowded walking paths that crisscross the 67-acre park, winding through redwood groves for a serene forest bathing experience."
+      },
+      "type": "nature",
+      "lat": 40.7825,
+      "lng": -124.1525,
+      "trending_score": 82
+    },
+    {
+      "id": "sequoia-park-garden-pond",
+      "city_id": "eureka-ca",
+      "neighborhood_id": "sequoia-park",
+      "name": {
+        "en": "Sequoia Park Garden and Duck Pond"
+      },
+      "description": {
+        "en": "A manicured section of the park with beautiful gardens known for rhododendrons, a classic duck pond, and a large playground."
+      },
+      "type": "nature",
+      "lat": 40.7845,
+      "lng": -124.1545,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-town-waterfront-task-1",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Maritime Mood"
+      },
+      "prompt": {
+        "en": "Capture a photo that embodies the 'smell of salt and old wood.' Focus on textures like weathered piers, boat ropes, or old building facades."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-2",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Brick & Character"
+      },
+      "prompt": {
+        "en": "Find the most interesting 19th-century brick building and take a photo that highlights its unique architectural details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-3",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Alleyway Art Hunter"
+      },
+      "prompt": {
+        "en": "Explore a hidden alley or side street and photograph a piece of public art that most tourists probably miss."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-4",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Working Waterfront"
+      },
+      "prompt": {
+        "en": "Take a picture of a working fishing boat or a detail of the docks that captures the industrial spirit of the harbor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-5",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Take a creative photo of your reflection in a gallery window, blending your image with the art inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-6",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Historic Contrast"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic building alongside a modern element, like a new car, a contemporary sign, or a person on a smartphone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-7",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Bay Vistas"
+      },
+      "prompt": {
+        "en": "Find a view of Humboldt Bay and take a wide shot that captures its vast, open expanse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-8",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Courtyard Discovery"
+      },
+      "prompt": {
+        "en": "Many buildings hide small courtyards. Find one and take a photo that captures its secret, quiet atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-9",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Search the brick walls for a 'ghost sign'—a faded, hand-painted advertisement from a bygone era—and document it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-10",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Artistic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a mural that you feel represents the spirit of Eureka."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-11",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "As the sun gets lower, capture the long shadows cast by the ornate Victorian commercial buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-waterfront-task-12",
+      "neighborhood_id": "old-town-waterfront",
+      "title": {
+        "en": "Through the Frame"
+      },
+      "prompt": {
+        "en": "Use an architectural element, like an archway or a window frame, to create a natural frame for a street scene or harbor view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-1",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Gingerbread Hunter"
+      },
+      "prompt": {
+        "en": "Find the most elaborate and intricate piece of 'gingerbread' trim on a house and take a detailed close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-2",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Colorful Homes Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most colorful and whimsical Victorian house you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-3",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Turret Perspective"
+      },
+      "prompt": {
+        "en": "Photograph a house with a prominent turret or tower from a low angle to make it look even more grand and imposing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-4",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Stained-Glass Spotlight"
+      },
+      "prompt": {
+        "en": "Find a home with a beautiful stained-glass window and capture the way the light shines through its colors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-5",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Vanishing Point"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a street (safely!) and take a 'vanishing point' photo, using the lines of the historic homes to draw the eye into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-6",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Lumber Baron's Life"
+      },
+      "prompt": {
+        "en": "Find a house that you think a wealthy lumber baron or sea captain would have built and take a photo that captures its opulence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-7",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Porch Portrait"
+      },
+      "prompt": {
+        "en": "The porches on these homes are incredible. Find the most inviting one and take a photo focusing on its details, like the columns, railings, or swing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-8",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Architectural Shadows"
+      },
+      "prompt": {
+        "en": "Capture the interesting shadow cast by a unique architectural feature, like a gable, finial, or ornate bracket, on the side of a house."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-9",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Garden View"
+      },
+      "prompt": {
+        "en": "Photograph a well-kept garden that perfectly complements the style of the Victorian home behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-10",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Roofline Silhouettes"
+      },
+      "prompt": {
+        "en": "Find a spot where you can photograph the complex and varied rooflines of several houses against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-11",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Style Comparison"
+      },
+      "prompt": {
+        "en": "Take a photo of a detail on one house (like flowing Queen Anne trim) and another detail on a different house (like geometric Eastlake trim) that shows their contrasting styles."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "victorian-village-task-12",
+      "neighborhood_id": "victorian-village",
+      "title": {
+        "en": "Fairytale Facade"
+      },
+      "prompt": {
+        "en": "Find a house that looks like it came straight out of a fairytale and take a photo that captures its magical quality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-1",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Cathedral of Giants"
+      },
+      "prompt": {
+        "en": "Stand at the base of a large redwood, look straight up, and take a photo of the canopy converging high above you like a cathedral ceiling."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-2",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Forest Floor Life"
+      },
+      "prompt": {
+        "en": "Find a fallen log and take a close-up shot of the new life—ferns, fungi, or saplings—growing on or around it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-3",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Redwood Reflection"
+      },
+      "prompt": {
+        "en": "On a calm day, capture the reflection of the towering redwood trees on the surface of the duck pond or a puddle on the trail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-4",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Human for Scale"
+      },
+      "prompt": {
+        "en": "Take a selfie or a photo of a friend standing next to a massive redwood trunk to show the incredible scale of the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-5",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Bark Texture"
+      },
+      "prompt": {
+        "en": "Get very close to a redwood tree and take a macro shot that captures the deep grooves and fibrous texture of its bark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-6",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Filtered Light"
+      },
+      "prompt": {
+        "en": "Capture the beautiful rays of sunlight filtering down through the high branches of the redwood canopy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-7",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Fern Gully"
+      },
+      "prompt": {
+        "en": "Find a lush patch of ferns on the forest floor and take a photo that emphasizes their vibrant green color and delicate patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-8",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Path to Serenity"
+      },
+      "prompt": {
+        "en": "Take a photo looking down one of the winding forest trails, inviting the viewer to step into the peaceful scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-9",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Manicured vs. Wild"
+      },
+      "prompt": {
+        "en": "Find a spot where the manicured gardens meet the wild redwood forest and capture the contrast in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-10",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Ancient Roots"
+      },
+      "prompt": {
+        "en": "Find the gnarliest, most exposed root system of a redwood and photograph its powerful, ancient-looking structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-11",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "A Quiet Bench"
+      },
+      "prompt": {
+        "en": "Find an empty park bench and take a photo from its perspective, capturing the tranquil view it offers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sequoia-park-task-12",
+      "neighborhood_id": "sequoia-park",
+      "title": {
+        "en": "Bird's-Eye View"
+      },
+      "prompt": {
+        "en": "From an elevated position (like a small hill or the start of the Sky Walk), take a photo looking down on the forest floor or garden below."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

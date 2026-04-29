@@ -1,0 +1,855 @@
+{
+  "neighborhoods": [
+    {
+      "id": "plaza-core",
+      "city_id": "healdsburg-ca",
+      "name": {
+        "en": "The Plaza Core"
+      },
+      "summary": {
+        "en": "The polished heart of Healdsburg, centered around a historic plaza. This area buzzes with sophisticated boutiques, world-class eateries, and a relaxed, communal atmosphere."
+      },
+      "lat": 38.6105,
+      "lng": -122.8694,
+      "trending_score": 95
+    },
+    {
+      "id": "south-end-river-gateway",
+      "city_id": "healdsburg-ca",
+      "name": {
+        "en": "The South End & River Gateway"
+      },
+      "summary": {
+        "en": "An eclectic and unfiltered neighborhood just south of the plaza, where industrial-chic design meets down-to-earth local institutions. This area serves as the flavorful gateway to the Russian River."
+      },
+      "lat": 38.6065,
+      "lng": -122.868,
+      "trending_score": 85
+    },
+    {
+      "id": "matheson-historic-district",
+      "city_id": "healdsburg-ca",
+      "name": {
+        "en": "The Matheson Historic District"
+      },
+      "summary": {
+        "en": "A tranquil, residential district west of the plaza, defined by stunningly preserved Victorian and Queen Anne homes. It's a peaceful area for admiring architecture and stepping into Healdsburg's past."
+      },
+      "lat": 38.6112,
+      "lng": -122.8735,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "plaza-core-black-oak-coffee",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Black Oak Coffee Roasters"
+      },
+      "description": {
+        "en": "Widely considered the best coffee in town by locals, this is the perfect place to start your day with a meticulously crafted espresso drink."
+      },
+      "type": "drink",
+      "lat": 38.6115,
+      "lng": -122.8688,
+      "trending_score": 92
+    },
+    {
+      "id": "plaza-core-the-matheson",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "The Matheson Rooftop Bar"
+      },
+      "description": {
+        "en": "While known for fine dining, the secret is the casual rooftop bar offering craft cocktails and an unparalleled view over the plaza for a golden-hour drink."
+      },
+      "type": "drink",
+      "lat": 38.6108,
+      "lng": -122.8704,
+      "trending_score": 90
+    },
+    {
+      "id": "plaza-core-bravas-tapas",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Bravas Bar De Tapas"
+      },
+      "description": {
+        "en": "A buzzy, energetic tapas bar that feels like a slice of Spain. The back patio is a local favorite for sharing a variety of small plates."
+      },
+      "type": "food",
+      "lat": 38.6125,
+      "lng": -122.8685,
+      "trending_score": 94
+    },
+    {
+      "id": "plaza-core-guiso-latin-fusion",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Guiso Latin Fusion"
+      },
+      "description": {
+        "en": "A casual, family-run gem just off the plaza serving vibrant, soulful Latin American and Caribbean flavors that feel both authentic and deeply personal."
+      },
+      "type": "food",
+      "lat": 38.612,
+      "lng": -122.8705,
+      "trending_score": 88
+    },
+    {
+      "id": "plaza-core-journeyman-meat",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Journeyman Meat Co."
+      },
+      "description": {
+        "en": "Part butcher shop, part salumeria, this is the ideal stop to assemble a gourmet picnic with exceptional charcuterie and sandwiches."
+      },
+      "type": "food",
+      "lat": 38.6122,
+      "lng": -122.8686,
+      "trending_score": 85
+    },
+    {
+      "id": "plaza-core-healdsburg-plaza",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Healdsburg Plaza"
+      },
+      "description": {
+        "en": "The town's central nervous system and living room, this beautifully maintained public square features a classic gazebo and redwood trees."
+      },
+      "type": "landmark",
+      "lat": 38.6105,
+      "lng": -122.8694,
+      "trending_score": 98
+    },
+    {
+      "id": "plaza-core-little-saint",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Little Saint"
+      },
+      "description": {
+        "en": "More than a vegan restaurant, this is a multi-purpose community hub with a cafe, local goods market, and a live music venue under one stylish roof."
+      },
+      "type": "culture",
+      "lat": 38.6113,
+      "lng": -122.8709,
+      "trending_score": 89
+    },
+    {
+      "id": "plaza-core-barndiva",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Barndiva"
+      },
+      "description": {
+        "en": "A stunning garden and rustic barn-inspired setting that is a destination in itself, blending agricultural heritage with modern elegance."
+      },
+      "type": "food",
+      "lat": 38.6106,
+      "lng": -122.8688,
+      "trending_score": 91
+    },
+    {
+      "id": "plaza-core-barndiva-gardens",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "plaza-core",
+      "name": {
+        "en": "Barndiva Gardens"
+      },
+      "description": {
+        "en": "The stunning garden setting of Barndiva is a destination in itself, offering a unique ambiance that blends agricultural heritage with modern elegance."
+      },
+      "type": "hidden_gem",
+      "lat": 38.6107,
+      "lng": -122.8689,
+      "trending_score": 86
+    },
+    {
+      "id": "south-end-lo-behold",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "Lo & Behold"
+      },
+      "description": {
+        "en": "A lively spot with a fantastic back patio, known for inventive cocktails and shareable small plates. A go-to for a fun, casual group hangout."
+      },
+      "type": "drink",
+      "lat": 38.6079,
+      "lng": -122.8683,
+      "trending_score": 87
+    },
+    {
+      "id": "south-end-tisza-bistro",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "Tisza Bistro"
+      },
+      "description": {
+        "en": "A warm, German-leaning restaurant with a fantastic and often-overlooked beer garden, perfect for enjoying a cold pilsner away from the main tourist track."
+      },
+      "type": "food",
+      "lat": 38.607,
+      "lng": -122.8681,
+      "trending_score": 79
+    },
+    {
+      "id": "south-end-the-parish-cafe",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "The Parish Café"
+      },
+      "description": {
+        "en": "A beloved local institution serving authentic New Orleans-style comfort food. From po'boys to beignets, this is a taste of the Big Easy in wine country."
+      },
+      "type": "food",
+      "lat": 38.606,
+      "lng": -122.8675,
+      "trending_score": 90
+    },
+    {
+      "id": "south-end-troubadour-bread",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "Troubadour Bread & Bistro"
+      },
+      "description": {
+        "en": "An artisan bakery that makes some of the best bread and sandwiches in the region, ideal for a picnic by the nearby river."
+      },
+      "type": "food",
+      "lat": 38.6045,
+      "lng": -122.8675,
+      "trending_score": 86
+    },
+    {
+      "id": "south-end-willis-seafood",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "Willi’s Seafood & Raw Bar"
+      },
+      "description": {
+        "en": "A perennial favorite that’s always buzzing. Oysters are the main event, but the entire menu of fresh, shareable seafood plates is an essential experience."
+      },
+      "type": "food",
+      "lat": 38.6041,
+      "lng": -122.8674,
+      "trending_score": 92
+    },
+    {
+      "id": "south-end-memorial-bridge",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "Healdsburg Memorial Bridge"
+      },
+      "description": {
+        "en": "This historic steel truss bridge is a landmark on the National Register of Historic Places, connecting the town to its natural surroundings."
+      },
+      "type": "landmark",
+      "lat": 38.6055,
+      "lng": -122.8655,
+      "trending_score": 84
+    },
+    {
+      "id": "south-end-fitch-mountain-views",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "Fitch Mountain Views"
+      },
+      "description": {
+        "en": "Walking onto the Memorial Bridge offers a completely different perspective of the town, framed by the Russian River and the Fitch Mountain backdrop."
+      },
+      "type": "viewpoint",
+      "lat": 38.6054,
+      "lng": -122.8652,
+      "trending_score": 80
+    },
+    {
+      "id": "south-end-russian-river-overlook",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "south-end-river-gateway",
+      "name": {
+        "en": "Russian River Overlook"
+      },
+      "description": {
+        "en": "From the Memorial Bridge, enjoy fantastic views of the Russian River, the natural artery that defines this gateway neighborhood."
+      },
+      "type": "nature",
+      "lat": 38.6056,
+      "lng": -122.8658,
+      "trending_score": 78
+    },
+    {
+      "id": "matheson-el-farolito",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "El Farolito"
+      },
+      "description": {
+        "en": "A local favorite for over 40 years, this gateway to the historic district serves authentic, no-frills food from Oaxaca and Jalisco."
+      },
+      "type": "food",
+      "lat": 38.6102,
+      "lng": -122.8711,
+      "trending_score": 85
+    },
+    {
+      "id": "matheson-healdsburg-museum",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "Healdsburg Museum"
+      },
+      "description": {
+        "en": "Housed in the former Carnegie Library, this museum is a treasure trove of local history, providing context for the beautiful homes in the district."
+      },
+      "type": "culture",
+      "lat": 38.6112,
+      "lng": -122.8724,
+      "trending_score": 80
+    },
+    {
+      "id": "matheson-carnegie-library-building",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "Carnegie Library Building"
+      },
+      "description": {
+        "en": "A historic landmark in its own right, this former library building features a classic, symmetrical facade and now houses the Healdsburg Museum."
+      },
+      "type": "landmark",
+      "lat": 38.6112,
+      "lng": -122.8725,
+      "trending_score": 78
+    },
+    {
+      "id": "matheson-victorian-homes-matheson",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "Victorian Homes on Matheson Street"
+      },
+      "description": {
+        "en": "Stroll down this tranquil, tree-lined street to admire an incredible collection of preserved 19th-century homes with turrets and intricate trim."
+      },
+      "type": "landmark",
+      "lat": 38.6115,
+      "lng": -122.874,
+      "trending_score": 82
+    },
+    {
+      "id": "matheson-victorian-homes-johnson",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "Victorian Homes on Johnson Street"
+      },
+      "description": {
+        "en": "Adjacent to Matheson, this street is part of another historic district and features a stunning collection of preserved Victorian architecture."
+      },
+      "type": "landmark",
+      "lat": 38.6125,
+      "lng": -122.8745,
+      "trending_score": 79
+    },
+    {
+      "id": "matheson-the-madrona-bar",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "The Madrona Bar"
+      },
+      "description": {
+        "en": "Set within a magnificent 1881 Victorian manor, having a classic cocktail here feels like stepping back in time in a sophisticated, atmospheric setting."
+      },
+      "type": "drink",
+      "lat": 38.6095,
+      "lng": -122.8845,
+      "trending_score": 88
+    },
+    {
+      "id": "matheson-the-madrona-restaurant",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "The Madrona Restaurant"
+      },
+      "description": {
+        "en": "The grand dame of the neighborhood, this restaurant offers a high-end dining experience in the unforgettable historic setting of an 1881 manor."
+      },
+      "type": "food",
+      "lat": 38.6096,
+      "lng": -122.8846,
+      "trending_score": 89
+    },
+    {
+      "id": "matheson-grandest-victorian",
+      "city_id": "healdsburg-ca",
+      "neighborhood_id": "matheson-historic-district",
+      "name": {
+        "en": "Matheson Street's Grandest Home"
+      },
+      "description": {
+        "en": "Seek out the most imposing and grand Victorian home on the street, a centerpiece that evokes the neighborhood's Gilded Age prosperity."
+      },
+      "type": "landmark",
+      "lat": 38.6114,
+      "lng": -122.8752,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "plaza-core-task-1",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Historic Facade"
+      },
+      "prompt": {
+        "en": "Find a building from the late 19th century and capture its most interesting architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-2",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Boutique Window Shopping"
+      },
+      "prompt": {
+        "en": "Photograph a creative or elegant window display from one of the local shops that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-3",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Plaza People Watching"
+      },
+      "prompt": {
+        "en": "Take a seat on a bench and capture a candid moment that shows the town's community spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-4",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture the warm light of late afternoon hitting the leaves of the trees in the plaza."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-5",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Find a menu board outside a restaurant and photograph the most tempting dish listed."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-6",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Artful Encounter"
+      },
+      "prompt": {
+        "en": "Take a photo of a piece of public art or a sculpture you discover in a gallery window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-7",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Morning Ritual"
+      },
+      "prompt": {
+        "en": "Capture the essence of a Healdsburg morning, like a steaming cup of coffee or a fresh pastry from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-8",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the interesting patterns created by shadows from trees or buildings on the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-9",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Reflections of Healdsburg"
+      },
+      "prompt": {
+        "en": "Find a reflective surface (a window, a puddle) and capture the plaza's buzz in its reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-10",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Town's Living Room"
+      },
+      "prompt": {
+        "en": "Take a photo that illustrates how this area serves as the town's communal gathering space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-11",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "Elegant Entryway"
+      },
+      "prompt": {
+        "en": "Find an inviting doorway to a shop or restaurant and frame a photo that makes you want to go inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-core-task-12",
+      "neighborhood_id": "plaza-core",
+      "title": {
+        "en": "A Toast to the Town"
+      },
+      "prompt": {
+        "en": "Take a selfie raising a glass (of coffee, wine, or water!) to the heart of Healdsburg."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-1",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find an example of industrial design (exposed brick, metal beams, rustic wood) and capture its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-2",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Gateway to Nature"
+      },
+      "prompt": {
+        "en": "Frame a shot looking towards the river or Fitch Mountain, capturing the transition from town to nature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-3",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Local Hangout Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo of a casual back patio or beer garden that feels like a true local's spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-4",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Comfort Food Close-Up"
+      },
+      "prompt": {
+        "en": "Photograph a hearty, soulful dish from a local eatery that looks like pure comfort food."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-5",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Bridge Geometry"
+      },
+      "prompt": {
+        "en": "Capture the repeating lines and shapes of the historic Memorial Bridge's steel trusses."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-6",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "River's Rhythm"
+      },
+      "prompt": {
+        "en": "Take a photo of the Russian River, focusing on the movement of the water or the light reflecting on its surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-7",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Unfiltered Character"
+      },
+      "prompt": {
+        "en": "Find a sign, mural, or detail that gives this neighborhood its eclectic, down-to-earth character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-8",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph a handmade sign or a quirky detail that shows the personality of a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-9",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Fuel for Adventure"
+      },
+      "prompt": {
+        "en": "Take a picture of the perfect picnic item or takeaway meal, ready for an adventure by the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-10",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "A Different Perspective"
+      },
+      "prompt": {
+        "en": "Get a low-angle shot of a building or street scene to give it a more dramatic, unfiltered feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-11",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Shadows on the Water"
+      },
+      "prompt": {
+        "en": "If you're near the river in the morning or evening, capture the long shadows stretching across the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-river-gateway-task-12",
+      "neighborhood_id": "south-end-river-gateway",
+      "title": {
+        "en": "Eclectic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a backdrop that perfectly blends the area's industrial and natural elements."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-1",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Victorian Elegance"
+      },
+      "prompt": {
+        "en": "Find a beautifully preserved Victorian home and take a photo of its most impressive feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-2",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Gingerbread Details"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of the intricate 'gingerbread' trim on a historic house's porch or gables."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-3",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "A Stroll Through Time"
+      },
+      "prompt": {
+        "en": "Take a photo down a tree-lined street that makes it feel like you've stepped back into the 19th century."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-4",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Capture an image of an inviting wraparound porch that makes you want to sit and relax."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-5",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Historic Hues"
+      },
+      "prompt": {
+        "en": "Create a photo focusing on the unique color palette of a painted Victorian home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-6",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by the historic homes and mature trees in the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-7",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Window to History"
+      },
+      "prompt": {
+        "en": "Find an interesting window—stained glass, a bay window, or one with lace curtains—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-8",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a peaceful, quiet spot in the neighborhood and capture the feeling of tranquility in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-9",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Architectural Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the turret or tower of a Queen Anne-style home behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-10",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "Nature Meets History"
+      },
+      "prompt": {
+        "en": "Frame a shot where a beautiful garden or an old tree complements the historic architecture of a home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-11",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "The Grand Dame"
+      },
+      "prompt": {
+        "en": "Find the house that looks the most grand and imposing and photograph it from a respectful distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "matheson-historic-district-task-12",
+      "neighborhood_id": "matheson-historic-district",
+      "title": {
+        "en": "History in the Details"
+      },
+      "prompt": {
+        "en": "Find a historical plaque, a vintage house number, or an old iron fence and capture this small piece of the past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

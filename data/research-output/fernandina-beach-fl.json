@@ -1,0 +1,615 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-town-fernandina",
+      "city_id": "fernandina-beach-fl",
+      "name": {
+        "en": "Old Town Fernandina"
+      },
+      "summary": {
+        "en": "The original site of Fernandina, this quiet, grid-planned neighborhood under a canopy of live oaks feels preserved in time, retaining the atmosphere of the old Spanish settlement it once was."
+      },
+      "lat": 30.6781,
+      "lng": -81.4685,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-historic-core",
+      "city_id": "fernandina-beach-fl",
+      "name": {
+        "en": "Downtown Historic Core"
+      },
+      "summary": {
+        "en": "The town's Victorian-era commercial and civic heart, where grander, ornate architecture reflects the prosperity of the late 19th and early 20th centuries."
+      },
+      "lat": 30.6715,
+      "lng": -81.4633,
+      "trending_score": 85
+    },
+    {
+      "id": "fort-clinch-state-park",
+      "city_id": "fernandina-beach-fl",
+      "name": {
+        "en": "Fort Clinch State Park"
+      },
+      "summary": {
+        "en": "Located on the northern tip of Amelia Island, this area is where preserved military history meets the wild, natural beauty of coastal Florida, from the formidable brick fort to windswept dunes."
+      },
+      "lat": 30.7052,
+      "lng": -81.4551,
+      "trending_score": 90
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-town-fernandina-pippi-longstocking-house",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "old-town-fernandina",
+      "name": {
+        "en": "Captain Bell's House (Pippi Longstocking's Villa Villekulla)"
+      },
+      "description": {
+        "en": "A piece of pop culture history, this private residence on Estrada Street served as the exterior for Pippi's chaotic home in the 1988 film."
+      },
+      "type": "hidden_gem",
+      "lat": 30.6788,
+      "lng": -81.4691,
+      "trending_score": 95
+    },
+    {
+      "id": "old-town-fernandina-plaza",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "old-town-fernandina",
+      "name": {
+        "en": "Fernandina Plaza"
+      },
+      "description": {
+        "en": "One of the last remaining Spanish plazas in Florida, this green space was the original parade ground for the Spanish fort that once protected the settlement."
+      },
+      "type": "landmark",
+      "lat": 30.6791,
+      "lng": -81.4694,
+      "trending_score": 70
+    },
+    {
+      "id": "old-town-fernandina-historic-site",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "old-town-fernandina",
+      "name": {
+        "en": "Original Town of Fernandina Historic Site"
+      },
+      "description": {
+        "en": "This designated site encompasses the neighborhood's Spanish-platted grid, one of the last of its kind, making a walk here a stroll through a living blueprint of colonial town planning."
+      },
+      "type": "landmark",
+      "lat": 30.678,
+      "lng": -81.468,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-historic-core-post-office",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "United States Post Office, Custom House, and Courthouse (1912)"
+      },
+      "description": {
+        "en": "A superb example of early 20th-century federal architecture, this stately building speaks to Fernandina's historic importance as a port and center of commerce."
+      },
+      "type": "landmark",
+      "lat": 30.6718,
+      "lng": -81.463,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-historic-core-courthouse",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Historic Nassau County Courthouse"
+      },
+      "description": {
+        "en": "An architectural gem with a prominent clock tower, this active courthouse has been a symbol of justice and community for generations."
+      },
+      "type": "landmark",
+      "lat": 30.6717,
+      "lng": -81.4636,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-historic-core-fairbanks-house",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Fairbanks House"
+      },
+      "description": {
+        "en": "A striking example of Italianate architecture with a distinctive tower, this home represents the wealth and ambition of Fernandina's Gilded Age."
+      },
+      "type": "landmark",
+      "lat": 30.6695,
+      "lng": -81.4624,
+      "trending_score": 88
+    },
+    {
+      "id": "fort-clinch-state-park-fort",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "fort-clinch-state-park",
+      "name": {
+        "en": "Fort Clinch"
+      },
+      "description": {
+        "en": "One of the most well-preserved 19th-century forts in the U.S., this massive brick structure offers a tangible connection to the Civil War era."
+      },
+      "type": "landmark",
+      "lat": 30.705,
+      "lng": -81.458,
+      "trending_score": 92
+    },
+    {
+      "id": "fort-clinch-state-park-hammock",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "fort-clinch-state-park",
+      "name": {
+        "en": "The Park's Maritime Hammock"
+      },
+      "description": {
+        "en": "A dense, shaded canopy of ancient, moss-draped live oaks creates a peaceful, atmospheric escape with an almost magical environment."
+      },
+      "type": "nature",
+      "lat": 30.698,
+      "lng": -81.45,
+      "trending_score": 85
+    },
+    {
+      "id": "fort-clinch-state-park-jetty",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "fort-clinch-state-park",
+      "name": {
+        "en": "The Jetty and Beachfront"
+      },
+      "description": {
+        "en": "A wild and untouched shoreline featuring a long jetty that offers panoramic views and chances to spot dolphins and sea turtles."
+      },
+      "type": "nature",
+      "lat": 30.711,
+      "lng": -81.445,
+      "trending_score": 88
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-town-fernandina-task-1",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Spanish Grid Geometry"
+      },
+      "prompt": {
+        "en": "Capture the straight lines and right angles of the historic Spanish street grid in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-2",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Live Oak Canopy"
+      },
+      "prompt": {
+        "en": "Find the most impressive live oak tree and take a photo looking up through its sprawling, ancient branches."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-3",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "River Glimpse"
+      },
+      "prompt": {
+        "en": "Frame a shot that captures a view of the Amelia River between two historic houses or through a gap in the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-4",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Time Capsule Detail"
+      },
+      "prompt": {
+        "en": "Find a small, weathered detail on a historic home—like a rusty hinge, faded paint, or unique address number—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-5",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Quiet Contemplation Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet street, capturing the peaceful, preserved-in-time atmosphere of Old Town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-6",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Architectural Styles"
+      },
+      "prompt": {
+        "en": "Find two houses with distinctly different historical architectural styles and photograph them side-by-side if possible."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-7",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the long shadows cast by the live oaks across a quiet residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-8",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Photograph an inviting-looking porch that captures the slow-paced, residential feel of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-9",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Colonial Echoes"
+      },
+      "prompt": {
+        "en": "Find a feature that reminds you of the area's Spanish colonial past and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-10",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Hidden Garden"
+      },
+      "prompt": {
+        "en": "Peer over a historic fence (respectfully!) and capture a photo of a hidden garden or yard."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-11",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "Street Sign Story"
+      },
+      "prompt": {
+        "en": "Take a photo of a street sign. Do the names (like Estrada) hint at the area's history?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-fernandina-task-12",
+      "neighborhood_id": "old-town-fernandina",
+      "title": {
+        "en": "The Sound of Silence"
+      },
+      "prompt": {
+        "en": "Record a 10-second video capturing the quiet, ambient sounds of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-1",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Victorian Flourish"
+      },
+      "prompt": {
+        "en": "Find an example of ornate Victorian architecture and take a close-up of its most interesting detail, like gingerbread trim or a fancy bracket."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-2",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Create a photo that highlights the texture and color of the historic brickwork on a grand downtown building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-3",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Take a photo of a grand civic building (like a courthouse or post office) that embodies the town's historic importance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-4",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Then & Now"
+      },
+      "prompt": {
+        "en": "Find a modern element (like a car, a new sign, or a reflection in a window) contrasting with a historic building facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-5",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Main Street Energy"
+      },
+      "prompt": {
+        "en": "Capture a moment that shows the bustling energy of the commercial historic core."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-6",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo of the skyline created by the varied rooflines of the historic downtown buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-7",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Gilded Age Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the most ornate and impressive building you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-8",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Window Shopping Through Time"
+      },
+      "prompt": {
+        "en": "Photograph an interesting display in a storefront window along the main street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-9",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Cornerstone Quest"
+      },
+      "prompt": {
+        "en": "Search for a cornerstone or plaque on a historic building and take a photo of the date it was built."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-10",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Symmetry Study"
+      },
+      "prompt": {
+        "en": "Find a building with a perfectly symmetrical facade and capture it in a head-on shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-11",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Commercial History"
+      },
+      "prompt": {
+        "en": "Find an old, painted sign on the side of a brick building or a classic-looking business sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-12",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Contrasting Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the difference in feeling between the bustling downtown and the quiet Old Town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-1",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Nature's Reclamation"
+      },
+      "prompt": {
+        "en": "Find a spot where wild nature is growing on or near a man-made structure (like the fort or a fence) and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-2",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Mossy Mood"
+      },
+      "prompt": {
+        "en": "Take an atmospheric photo focusing on the Spanish moss hanging from the ancient live oaks in the maritime hammock."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-3",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Coastal Textures"
+      },
+      "prompt": {
+        "en": "Create a photo focusing on three different natural textures found on the beach: sand, a shell, and driftwood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-4",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Fortress Frame"
+      },
+      "prompt": {
+        "en": "Use a part of the fort's structure, like a window, cannon embrasure, or archway, to frame a view of the surrounding landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-5",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Windswept Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the beach or jetty, letting the coastal wind add some drama to the shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-6",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Panoramic Seascape"
+      },
+      "prompt": {
+        "en": "Take a wide, panoramic photo from the jetty or a high point on the dunes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-7",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Capture the way sunlight filters through the dense canopy of the maritime hammock, creating patterns of light and shadow on the trail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-8",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Resilience in Nature"
+      },
+      "prompt": {
+        "en": "Find a gnarled, twisted oak branch or a piece of weathered driftwood that shows the resilience of nature in this coastal environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-9",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Military Might"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the massive scale and formidable brickwork of Fort Clinch."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-10",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Shell Seeker"
+      },
+      "prompt": {
+        "en": "Find the most interesting or unique seashell on the beach and take a close-up photo of it in the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-11",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Trailblazer"
+      },
+      "prompt": {
+        "en": "Take a photo from your perspective looking down one of the hiking or biking trails through the forest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-clinch-state-park-task-12",
+      "neighborhood_id": "fort-clinch-state-park",
+      "title": {
+        "en": "Sounds of the Shore"
+      },
+      "prompt": {
+        "en": "Record a 15-second video capturing the sound of the waves crashing against the shore or the jetty rocks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

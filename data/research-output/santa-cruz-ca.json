@@ -1,0 +1,645 @@
+{
+  "neighborhoods": [
+    {
+      "id": "west-cliff",
+      "city_id": "santa-cruz-ca",
+      "name": {
+        "en": "West Cliff"
+      },
+      "summary": {
+        "en": "This is Santa Cruz's grand promenade, a three-mile coastal path with non-stop, breathtaking views of Monterey Bay, famous surf breaks, and dramatic sea-carved cliffs."
+      },
+      "lat": 36.9513,
+      "lng": -122.0261,
+      "trending_score": 95
+    },
+    {
+      "id": "westside",
+      "city_id": "santa-cruz-ca",
+      "name": {
+        "en": "The Westside"
+      },
+      "summary": {
+        "en": "The soul of Santa Cruz’s surf scene, this laid-back and active neighborhood is home to unassuming spots that serve up some of the best food in town."
+      },
+      "lat": 36.964,
+      "lng": -122.045,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-core",
+      "city_id": "santa-cruz-ca",
+      "name": {
+        "en": "The Downtown Core"
+      },
+      "summary": {
+        "en": "An urban and artsy hub of independent shops, street musicians, and cultural activity, centered around the bustling Abbott Square Market, the city's public living room."
+      },
+      "lat": 36.971,
+      "lng": -122.025,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "west-cliff-steamer-lane-supply",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "west-cliff",
+      "name": {
+        "en": "Steamer Lane Supply"
+      },
+      "description": {
+        "en": "A takeaway window that fuels the surfers and spectators at the iconic Steamer Lane, offering excellent coffee, poke bowls, and fish tacos just steps from the bluff."
+      },
+      "type": "food",
+      "lat": 36.953,
+      "lng": -122.027,
+      "trending_score": 85
+    },
+    {
+      "id": "west-cliff-west-cliff-drive-path",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "west-cliff",
+      "name": {
+        "en": "West Cliff Drive Path"
+      },
+      "description": {
+        "en": "A three-mile paved path hugging the coastline from the Wharf to Natural Bridges State Beach, offering breathtaking views of Monterey Bay and famous surf breaks."
+      },
+      "type": "viewpoint",
+      "lat": 36.9513,
+      "lng": -122.0261,
+      "trending_score": 98
+    },
+    {
+      "id": "west-cliff-surfing-museum",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "west-cliff",
+      "name": {
+        "en": "Santa Cruz Surfing Museum"
+      },
+      "description": {
+        "en": "Housed inside the Mark Abbott Memorial Lighthouse, this tiny museum is a treasure trove of surf history, including a surfboard bitten by a great white shark."
+      },
+      "type": "culture",
+      "lat": 36.9513,
+      "lng": -122.0261,
+      "trending_score": 82
+    },
+    {
+      "id": "west-cliff-natural-bridges-state-beach",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "west-cliff",
+      "name": {
+        "en": "Natural Bridges State Beach"
+      },
+      "description": {
+        "en": "Famous for its dramatic, sea-carved rock arch, this protected beach is also home to a monarch butterfly grove where thousands cluster in the winter."
+      },
+      "type": "nature",
+      "lat": 36.9518,
+      "lng": -122.0571,
+      "trending_score": 96
+    },
+    {
+      "id": "westside-cafe-brasil",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Cafe Brasil"
+      },
+      "description": {
+        "en": "A vibrant, beloved institution serving authentic Brazilian cuisine, especially famous for its incredible breakfast and brunch açai bowls."
+      },
+      "type": "food",
+      "lat": 36.9688,
+      "lng": -122.0393,
+      "trending_score": 90
+    },
+    {
+      "id": "westside-sawyer-land-sea-supply",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Sawyer Land & Sea Supply"
+      },
+      "description": {
+        "en": "Part surf shop, part high-end outdoor outfitter, this store perfectly captures the modern Santa Cruz aesthetic with locally shaped boards and stylish apparel."
+      },
+      "type": "shopping",
+      "lat": 36.9587,
+      "lng": -122.0645,
+      "trending_score": 78
+    },
+    {
+      "id": "downtown-core-front-cooper",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Front & Cooper"
+      },
+      "description": {
+        "en": "Widely considered the best cocktail bar in town, its bartenders are true artists, crafting inventive and classic cocktails that anchor the market's evening scene."
+      },
+      "type": "nightlife",
+      "lat": 36.9715,
+      "lng": -122.025,
+      "trending_score": 89
+    },
+    {
+      "id": "downtown-core-pizzeria-la-bufala",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Pizzeria La Bufala"
+      },
+      "description": {
+        "en": "A food stall in Abbott Square serving authentic Neapolitan-style pizzas with high-quality ingredients. A reliable and delicious option that pleases everyone."
+      },
+      "type": "food",
+      "lat": 36.9715,
+      "lng": -122.025,
+      "trending_score": 86
+    },
+    {
+      "id": "downtown-core-veg-on-the-edge",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Veg on the Edge"
+      },
+      "description": {
+        "en": "This unique stall in Abbott Square offers West African-inspired vegan and vegetarian dishes with bold, healthy, and completely satisfying flavors."
+      },
+      "type": "food",
+      "lat": 36.9715,
+      "lng": -122.025,
+      "trending_score": 81
+    },
+    {
+      "id": "downtown-core-the-octagon-building",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Octagon Building"
+      },
+      "description": {
+        "en": "A quirky and beautiful piece of Santa Cruz history, this red-brick, eight-sided building from 1882 is a registered historic landmark and unique architectural gem."
+      },
+      "type": "culture",
+      "lat": 36.9719,
+      "lng": -122.0254,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-core-pacific-avenue",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Pacific Avenue"
+      },
+      "description": {
+        "en": "The main artery of downtown, this walkable, tree-lined thoroughfare is the best place for people-watching, discovering independent boutiques, and catching street musicians."
+      },
+      "type": "landmark",
+      "lat": 36.973,
+      "lng": -122.025,
+      "trending_score": 87
+    }
+  ],
+  "tasks": [
+    {
+      "id": "west-cliff-task-1",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the wind in your hair and the Monterey Bay in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-2",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Surfer Silhouette"
+      },
+      "prompt": {
+        "en": "Capture a photo of a surfer's silhouette against the water or sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-3",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Coastal Flora"
+      },
+      "prompt": {
+        "en": "Find and photograph an interesting plant or flower growing along the coastal path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-4",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Bench with a View"
+      },
+      "prompt": {
+        "en": "Find a memorial bench and take a photo from its perspective, capturing the view it overlooks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-5",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Take a photo during the golden hour (near sunset) that captures the warm light on the cliffs."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-6",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Tide Pool Treasures"
+      },
+      "prompt": {
+        "en": "If the tide is low, find a tide pool and take a photo of the life within it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-7",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Pathways and Promenades"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the winding nature of the West Cliff path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-8",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Shades of Blue"
+      },
+      "prompt": {
+        "en": "Take a photo that captures at least three different shades of blue in the sea and sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-9",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Lighthouse Landmark"
+      },
+      "prompt": {
+        "en": "Frame a photo with the Mark Abbott Memorial Lighthouse as the central subject."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-10",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Active Lifestyle"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of someone running, biking, or skating along the path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-11",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Ocean's Roar"
+      },
+      "prompt": {
+        "en": "Record a short video of the waves crashing against the cliffs or rocks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-cliff-task-12",
+      "neighborhood_id": "west-cliff",
+      "title": {
+        "en": "Cove Discovery"
+      },
+      "prompt": {
+        "en": "Find a small, hidden beach cove along the path and take a photo of it from above."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-1",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Neighborhood Color"
+      },
+      "prompt": {
+        "en": "Find a house or building with a unique and vibrant color scheme and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-2",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Local's Ride"
+      },
+      "prompt": {
+        "en": "Find a classic VW bus, a vintage truck, or a bike with a surfboard rack and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-3",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Garden Discovery"
+      },
+      "prompt": {
+        "en": "Photograph a unique plant or a beautifully kept garden in front of a local home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-4",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "The Perfect Brew"
+      },
+      "prompt": {
+        "en": "Find a local cafe and take an artistic photo of your coffee or tea."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-5",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo of the storefront of a small, independent business that isn't a big chain."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-6",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Surf Shop Style"
+      },
+      "prompt": {
+        "en": "Capture a detail that represents local surf style, like a rack of boards or a cool t-shirt design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-7",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Hidden Eats"
+      },
+      "prompt": {
+        "en": "Find an unassuming food spot that looks like a local favorite and photograph its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-8",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Take a photo that uses the afternoon sun to create interesting shadows from trees or buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-9",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "A Nod to Nature"
+      },
+      "prompt": {
+        "en": "Find a redwood tree or a large eucalyptus in a residential area and take a photo looking up at it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-10",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Craftsman Charm"
+      },
+      "prompt": {
+        "en": "Photograph an architectural detail on a classic California bungalow or craftsman-style house."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-11",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Get a local snack or dish and take a photo of it in a neighborhood setting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-12",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Laid-Back Living"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the 'laid-back' vibe of the Westside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Street Musician's Melody"
+      },
+      "prompt": {
+        "en": "Take a photo of a street performer in action, capturing the energy of their performance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Public Art"
+      },
+      "prompt": {
+        "en": "Find a mural, sculpture, or other piece of public art and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "Find a plaque or a building that references Santa Cruz history (like the 1989 earthquake) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Alleyway Aesthetics"
+      },
+      "prompt": {
+        "en": "Discover a hidden alley or side street and capture its unique character in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shop Local"
+      },
+      "prompt": {
+        "en": "Take a photo of an interesting window display at an independent downtown boutique."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Capture an image that shows a historic building next to a more modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The People's Plaza"
+      },
+      "prompt": {
+        "en": "Take a wide shot of a public square or plaza, capturing the mix of people enjoying the space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Reflections of Downtown"
+      },
+      "prompt": {
+        "en": "Use a puddle or a shop window to capture a reflection of the downtown streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Foodie Flat Lay"
+      },
+      "prompt": {
+        "en": "Arrange your food and drink from a downtown spot into an artistic flat lay photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Greenery"
+      },
+      "prompt": {
+        "en": "Find an example of nature thriving in the city center, like a large tree or a planter box, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, take a photo of the glowing neon signs or string lights downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo of the top floors of a downtown building, focusing on interesting architectural details you might otherwise miss."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

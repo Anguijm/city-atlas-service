@@ -1,0 +1,660 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "bellingham-wa",
+      "name": {
+        "en": "Downtown Core: Arts & Invention"
+      },
+      "summary": {
+        "en": "The historic and cultural heart of Bellingham, where red-brick buildings house museums and galleries, mixing civic history with forward-thinking curiosity."
+      },
+      "lat": 48.751,
+      "lng": -122.478,
+      "trending_score": 85
+    },
+    {
+      "id": "the-waterfront",
+      "city_id": "bellingham-wa",
+      "name": {
+        "en": "The Waterfront: Bay Views & Boardwalks"
+      },
+      "summary": {
+        "en": "A relaxed and contemplative area defined by expansive views of Bellingham Bay, salty air, and the city's deep connection to the Salish Sea."
+      },
+      "lat": 48.737,
+      "lng": -122.496,
+      "trending_score": 90
+    },
+    {
+      "id": "whatcom-creek-gorge",
+      "city_id": "bellingham-wa",
+      "name": {
+        "en": "Whatcom Creek Gorge: A Wild Heart"
+      },
+      "summary": {
+        "en": "A stunningly wild and natural corridor that cuts through the city, offering a cool, green sanctuary with the constant sound of rushing water."
+      },
+      "lat": 48.7505,
+      "lng": -122.461,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-whatcom-museum",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Whatcom Museum of History and Art"
+      },
+      "description": {
+        "en": "The cultural anchor of downtown, offering a deep dive into the region's art and history, from Indigenous heritage to contemporary local painters."
+      },
+      "type": "culture",
+      "lat": 48.7519,
+      "lng": -122.4798,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-core-old-city-hall",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Old City Hall"
+      },
+      "description": {
+        "en": "An iconic 1892 building with a unique clock tower that houses part of the Whatcom Museum, showcasing the city's historic architecture."
+      },
+      "type": "landmark",
+      "lat": 48.7516,
+      "lng": -122.4803,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-core-spark-museum",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "SPARK Museum of Electrical Invention"
+      },
+      "description": {
+        "en": "A treasure trove of rare scientific artifacts charting the history of electricity and radio, famous for its live demonstrations."
+      },
+      "type": "culture",
+      "lat": 48.7503,
+      "lng": -122.4788,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-core-megazapper",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "MegaZapper Tesla Coil"
+      },
+      "description": {
+        "en": "One of the largest Tesla coils in the country, this star exhibit at the SPARK Museum provides a mind-boggling live demonstration of electricity."
+      },
+      "type": "hidden_gem",
+      "lat": 48.7504,
+      "lng": -122.4787,
+      "trending_score": 92
+    },
+    {
+      "id": "the-waterfront-boulevard-park",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "Boulevard Park"
+      },
+      "description": {
+        "en": "The quintessential Bellingham waterfront experience, this wide, grassy park slopes down to a shoreline path and is a favorite local spot for watching the sunset."
+      },
+      "type": "nature",
+      "lat": 48.7375,
+      "lng": -122.497,
+      "trending_score": 94
+    },
+    {
+      "id": "the-waterfront-boardwalk",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "The Boardwalk"
+      },
+      "description": {
+        "en": "A wooden boardwalk built directly over the water, offering an unparalleled feeling of walking on the bay with unobstructed views."
+      },
+      "type": "viewpoint",
+      "lat": 48.736,
+      "lng": -122.4985,
+      "trending_score": 96
+    },
+    {
+      "id": "the-waterfront-cruise-terminal",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "Bellingham Cruise Terminal"
+      },
+      "description": {
+        "en": "A key maritime landmark and the southern terminus for the Alaska Marine Highway System, offering a sense of connection to the wider Pacific Northwest."
+      },
+      "type": "landmark",
+      "lat": 48.7265,
+      "lng": -122.5011,
+      "trending_score": 75
+    },
+    {
+      "id": "the-waterfront-secret-beach",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "The \"Secret\" Beach at Boulevard Park"
+      },
+      "description": {
+        "en": "A series of quieter, rockier beaches south of the main park area, perfect for hunting for sea glass and enjoying a more personal view of the bay."
+      },
+      "type": "hidden_gem",
+      "lat": 48.7348,
+      "lng": -122.4995,
+      "trending_score": 82
+    },
+    {
+      "id": "whatcom-creek-gorge-four-waterfalls",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "name": {
+        "en": "The Four Waterfalls"
+      },
+      "description": {
+        "en": "An impressive series of waterfalls that cascade through the creek gorge, a rare and accessible natural feature within city limits."
+      },
+      "type": "nature",
+      "lat": 48.7508,
+      "lng": -122.4595,
+      "trending_score": 90
+    },
+    {
+      "id": "whatcom-creek-gorge-stone-bridge",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "name": {
+        "en": "The Stone Bridge"
+      },
+      "description": {
+        "en": "A classic, beautifully constructed stone arch bridge that spans the creek, serving as a perfect vantage point for viewing the gorge."
+      },
+      "type": "landmark",
+      "lat": 48.75,
+      "lng": -122.4642,
+      "trending_score": 88
+    },
+    {
+      "id": "whatcom-creek-gorge-pipeline-memorial",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "name": {
+        "en": "Olympic Pipeline Explosion Memorial Site"
+      },
+      "description": {
+        "en": "A place of quiet remembrance near the confluence of the creeks, acknowledging a 1999 tragedy and the community's resilience."
+      },
+      "type": "landmark",
+      "lat": 48.7495,
+      "lng": -122.468,
+      "trending_score": 70
+    },
+    {
+      "id": "whatcom-creek-gorge-upper-falls",
+      "city_id": "bellingham-wa",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "name": {
+        "en": "Upper Falls"
+      },
+      "description": {
+        "en": "One of the most scenic and dramatic of the waterfalls in Whatcom Creek Gorge, popular with photographers."
+      },
+      "type": "viewpoint",
+      "lat": 48.7515,
+      "lng": -122.4551,
+      "trending_score": 85
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Reflections"
+      },
+      "prompt": {
+        "en": "Capture a reflection of a historic brick building in a modern storefront window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Find a faded, hand-painted 'ghost sign' on the side of a brick building and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Heights"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot looking up at the intricate architectural details of a building from the late 19th or early 20th century."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a public art installation (mural, sculpture) and take a photo that interacts with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Old Meets New Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the contrast between old brick architecture and a modern element."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Mark of Time"
+      },
+      "prompt": {
+        "en": "Find a building with the year it was constructed carved into its facade and document it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Soundscape"
+      },
+      "prompt": {
+        "en": "Stand on a street corner for 60 seconds with your eyes closed. What are the three most distinct sounds you hear?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Streetscape"
+      },
+      "prompt": {
+        "en": "Frame a shot down a street that shows off the historic character and architecture of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by an old fire escape, cornice, or other architectural feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Curious Observer"
+      },
+      "prompt": {
+        "en": "Take a picture of yourself looking thoughtfully into a museum or gallery window from the outside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Brick and Color"
+      },
+      "prompt": {
+        "en": "Find a pop of unexpected, vibrant color against the red brick background of a building and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historical Plaque Quest"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on a building and take a photo of it. What's one interesting fact you learned?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-1",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Driftwood Details"
+      },
+      "prompt": {
+        "en": "Capture the unique texture of a piece of water-worn driftwood on the shore, with the bay blurred in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-2",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Voyager's View"
+      },
+      "prompt": {
+        "en": "Take a photo of a ferry or boat on the bay, trying to capture a sense of its journey and motion."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-3",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Windswept Selfie"
+      },
+      "prompt": {
+        "en": "Take a windswept selfie on the boardwalk or by the shore with the expansive bay behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-4",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Seabird Spotting"
+      },
+      "prompt": {
+        "en": "Find and photograph three different types of seabirds near the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-5",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Sunset Palette"
+      },
+      "prompt": {
+        "en": "If it's near sunset, capture a photo of the sky. What are the three most prominent colors you can see?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-6",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Framing the Bay"
+      },
+      "prompt": {
+        "en": "Use a piece of park furniture (a bench, a railing) to create a frame in your photo, leading the viewer's eye towards the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-7",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Rhythm of the Waves"
+      },
+      "prompt": {
+        "en": "Find a spot to sit and watch the rhythm of the waves for two minutes. Take a photo that captures the feeling of this moment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-8",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Boardwalk Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the silhouette of another person (a walker, a cyclist) against the bright sky over the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-9",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Scent of the Sea"
+      },
+      "prompt": {
+        "en": "Take a deep breath of the salty air. What three distinct scents can you identify? Take a photo that represents one of them."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-10",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Patterns in Nature"
+      },
+      "prompt": {
+        "en": "Find a natural pattern, like ripples in the sand, the grain of a wooden piling, or the arrangement of stones on the beach, and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-11",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Walking on Water"
+      },
+      "prompt": {
+        "en": "Take a picture of your feet on the boardwalk, with the water visible between the planks, to give the illusion of walking on water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-12",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Find the Dedication"
+      },
+      "prompt": {
+        "en": "Search for a plaque or dedication marker within the park area and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-1",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Silky Water"
+      },
+      "prompt": {
+        "en": "Use a slow shutter speed (by bracing your camera on a railing or rock) to capture the smooth, 'silky' motion of the creek's water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-2",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Canopy View"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up through the dense canopy of trees towards the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-3",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Bridge Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the Stone Bridge with the creek or gorge visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-4",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Fern Finder"
+      },
+      "prompt": {
+        "en": "Find and photograph three different types of ferns growing along the trail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-5",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Sound of the Falls"
+      },
+      "prompt": {
+        "en": "Close your eyes and listen to the sound of a waterfall. Take a photo that you feel represents that sound."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-6",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Natural Frame"
+      },
+      "prompt": {
+        "en": "Frame a photo looking through the arch of the Stone Bridge to the creek and trees beyond, creating a 'frame within a frame'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-7",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a photo that captures the feeling of the park's peaceful-yet-poignant atmosphere of recovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-8",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Rock and Water"
+      },
+      "prompt": {
+        "en": "Capture the visual contrast between the dark, wet rocks and the bright white of the rushing water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-9",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Mossy Textures"
+      },
+      "prompt": {
+        "en": "Find a patch of moss growing on a rock or tree trunk and take a detailed, close-up photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-10",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Notice the signs of forest regeneration. Find a young tree or plant growing near an old stump and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-11",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Leaf Portrait"
+      },
+      "prompt": {
+        "en": "Find a single leaf with an interesting shape or color and take a 'portrait' of it against the backdrop of the creek or forest floor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whatcom-creek-gorge-task-12",
+      "neighborhood_id": "whatcom-creek-gorge",
+      "title": {
+        "en": "Trailblazer"
+      },
+      "prompt": {
+        "en": "Find a trail marker or park sign and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

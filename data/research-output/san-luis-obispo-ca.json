@@ -1,0 +1,855 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-chinatown",
+      "city_id": "san-luis-obispo-ca",
+      "name": {
+        "en": "Historic Downtown & Chinatown"
+      },
+      "summary": {
+        "en": "The energetic heart of SLO, where mission-era history and modern creative energy converge, from a serene 18th-century mission to a bizarre alleyway coated in chewing gum."
+      },
+      "lat": 35.2808,
+      "lng": -120.6635,
+      "trending_score": 95
+    },
+    {
+      "id": "old-town-mill-street",
+      "city_id": "san-luis-obispo-ca",
+      "name": {
+        "en": "Old Town & Mill Street Historic District"
+      },
+      "summary": {
+        "en": "A peaceful, residential enclave that serves as a living museum of domestic architecture, featuring homes from the 1880s through the early 20th century."
+      },
+      "lat": 35.2865,
+      "lng": -120.6681,
+      "trending_score": 75
+    },
+    {
+      "id": "madonna-inn-greenbelt",
+      "city_id": "san-luis-obispo-ca",
+      "name": {
+        "en": "The Madonna Inn & Southern Greenbelt"
+      },
+      "summary": {
+        "en": "A delightful dose of surrealism, this area is defined by the world-famous landmark of pure kitsch and fantasy, paired with the natural beauty of adjacent green spaces."
+      },
+      "lat": 35.2675,
+      "lng": -120.6695,
+      "trending_score": 90
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-chinatown-scout-coffee",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Scout Coffee"
+      },
+      "description": {
+        "en": "A beloved local coffeehouse known for meticulous espresso drinks and a bright, welcoming aesthetic, often called the city's living room."
+      },
+      "type": "drink",
+      "lat": 35.282,
+      "lng": -120.6618,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-chinatown-sidecar",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Sidecar"
+      },
+      "description": {
+        "en": "A craft cocktail bar with a speakeasy feel, focusing on artisanal spirits and house-made ingredients in a cozy, sophisticated setting."
+      },
+      "type": "nightlife",
+      "lat": 35.2818,
+      "lng": -120.6626,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-chinatown-foremost-wine-co",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Foremost Wine Co."
+      },
+      "description": {
+        "en": "A relaxed yet refined wine shop, bar, and restaurant that showcases Central Coast wines alongside international selections."
+      },
+      "type": "drink",
+      "lat": 35.2786,
+      "lng": -120.6644,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-chinatown-old-san-luis-bbq",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Old San Luis BBQ"
+      },
+      "description": {
+        "en": "A no-frills institution serving Santa Maria-style barbecue, famous for its tri-tip cooked over a red oak fire."
+      },
+      "type": "food",
+      "lat": 35.2794,
+      "lng": -120.664,
+      "trending_score": 94
+    },
+    {
+      "id": "historic-downtown-chinatown-mee-heng-low",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Mee Heng Low"
+      },
+      "description": {
+        "en": "One of the last remaining buildings from SLO's historic Chinatown, this chop suey house has been serving the community for generations."
+      },
+      "type": "food",
+      "lat": 35.2815,
+      "lng": -120.6648,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-chinatown-bubblegum-alley",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Bubblegum Alley"
+      },
+      "description": {
+        "en": "A bizarre and fascinating local landmark where the walls of a 70-foot-long alleyway are completely covered in chewed gum."
+      },
+      "type": "landmark",
+      "lat": 35.2805,
+      "lng": -120.6632,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-downtown-chinatown-fremont-theatre",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Fremont Theatre"
+      },
+      "description": {
+        "en": "A stunning 1942 Art Deco movie palace with a towering neon sign, vintage palm-tree carpet, and hand-painted murals."
+      },
+      "type": "culture",
+      "lat": 35.2838,
+      "lng": -120.6613,
+      "trending_score": 91
+    },
+    {
+      "id": "historic-downtown-chinatown-ah-louis-store",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "Ah Louis Store"
+      },
+      "description": {
+        "en": "The cornerstone of historic Chinatown, this beautifully preserved 19th-century building was once a general store, bank, and post office for the Chinese community."
+      },
+      "type": "landmark",
+      "lat": 35.2813,
+      "lng": -120.6649,
+      "trending_score": 87
+    },
+    {
+      "id": "historic-downtown-chinatown-underground-city",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "name": {
+        "en": "The \"Underground City\" Legend"
+      },
+      "description": {
+        "en": "A local legend about a series of old, inaccessible tunnels beneath the downtown streets that adds a layer of mystery to your walk."
+      },
+      "type": "hidden_gem",
+      "lat": 35.2801,
+      "lng": -120.6638,
+      "trending_score": 70
+    },
+    {
+      "id": "old-town-mill-street-high-st-deli",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "High St. Deli"
+      },
+      "description": {
+        "en": "A legendary local sandwich shop with a laid-back, surf-inflected vibe, perfect for grabbing provisions for a walk through the historic district."
+      },
+      "type": "food",
+      "lat": 35.2869,
+      "lng": -120.6625,
+      "trending_score": 90
+    },
+    {
+      "id": "old-town-mill-street-mill-street-district",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "Mill Street Historic District"
+      },
+      "description": {
+        "en": "The main destination for an architectural stroll, where you can wander and admire diverse and well-preserved homes from the late 19th and early 20th centuries."
+      },
+      "type": "landmark",
+      "lat": 35.2875,
+      "lng": -120.669,
+      "trending_score": 80
+    },
+    {
+      "id": "old-town-mill-street-dallidet-adobe",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "Dallidet Adobe"
+      },
+      "description": {
+        "en": "One of the oldest residences in San Luis Obispo, this 1856 California Historic Landmark offers a tangible connection to the city's pre-statehood past."
+      },
+      "type": "culture",
+      "lat": 35.2855,
+      "lng": -120.6698,
+      "trending_score": 78
+    },
+    {
+      "id": "old-town-mill-street-robert-jack-house",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "Robert Jack House"
+      },
+      "description": {
+        "en": "A stunning example of Victorian Italianate architecture, this meticulously preserved home showcases the wealth that shaped late 19th-century SLO."
+      },
+      "type": "landmark",
+      "lat": 35.2791,
+      "lng": -120.6669,
+      "trending_score": 82
+    },
+    {
+      "id": "old-town-mill-street-victorian-architecture",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "Victorian Architecture Spotting"
+      },
+      "description": {
+        "en": "Wander the streets to find and appreciate the tidy and ornate Victorian homes that characterize much of this historic residential area."
+      },
+      "type": "culture",
+      "lat": 35.2868,
+      "lng": -120.6685,
+      "trending_score": 72
+    },
+    {
+      "id": "old-town-mill-street-craftsman-bungalows",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "Craftsman Bungalow Walk"
+      },
+      "description": {
+        "en": "Keep an eye out for the sprawling Craftsman bungalows, a key architectural style that defines the early 20th-century character of the neighborhood."
+      },
+      "type": "culture",
+      "lat": 35.2871,
+      "lng": -120.6675,
+      "trending_score": 71
+    },
+    {
+      "id": "old-town-mill-street-mission-revival-homes",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "Mission Revival Homes"
+      },
+      "description": {
+        "en": "Discover homes built in the Mission Revival style, reflecting California's architectural heritage amidst the district's diverse collection of houses."
+      },
+      "type": "culture",
+      "lat": 35.2862,
+      "lng": -120.6692,
+      "trending_score": 70
+    },
+    {
+      "id": "old-town-mill-street-hitching-posts",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "old-town-mill-street",
+      "name": {
+        "en": "Historic Hitching Posts"
+      },
+      "description": {
+        "en": "A true hidden gem discovery: search for original, unaltered horse-hitching posts in front of the historic homes, a direct link to a bygone era."
+      },
+      "type": "hidden_gem",
+      "lat": 35.2878,
+      "lng": -120.6688,
+      "trending_score": 68
+    },
+    {
+      "id": "madonna-inn-greenbelt-copper-cafe",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "Copper Café"
+      },
+      "description": {
+        "en": "A classic diner filtered through the Inn's unique lens, featuring carved wooden booths, copper-topped tables, and famously decadent cakes."
+      },
+      "type": "food",
+      "lat": 35.2678,
+      "lng": -120.6692,
+      "trending_score": 88
+    },
+    {
+      "id": "madonna-inn-greenbelt-silver-bar",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "Silver Bar"
+      },
+      "description": {
+        "en": "An over-the-top, retro-glam circular bar enveloped in shades of rose and pink, perfect for soaking in the full Madonna Inn experience with a cocktail."
+      },
+      "type": "nightlife",
+      "lat": 35.2677,
+      "lng": -120.6693,
+      "trending_score": 85
+    },
+    {
+      "id": "madonna-inn-greenbelt-gold-rush-steak-house",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "Alex Madonna's Gold Rush Steak House"
+      },
+      "description": {
+        "en": "The pinnacle of the Inn's dining, this is an opulent, all-pink steakhouse with massive circular booths and gold accents everywhere."
+      },
+      "type": "food",
+      "lat": 35.2679,
+      "lng": -120.6691,
+      "trending_score": 90
+    },
+    {
+      "id": "madonna-inn-greenbelt-themed-rooms",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "The Themed Rooms"
+      },
+      "description": {
+        "en": "The heart of the Inn's legend, with over 100 rooms each boasting a unique, fantastical theme like 'Jungle Rock' or 'Old Mexico'."
+      },
+      "type": "landmark",
+      "lat": 35.2681,
+      "lng": -120.6694,
+      "trending_score": 95
+    },
+    {
+      "id": "madonna-inn-greenbelt-waterfall-urinal",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "Lobby Waterfall Urinal"
+      },
+      "description": {
+        "en": "One of the most photographed and bizarre spots on the property, the men's restroom in the lobby features a famous rock waterfall urinal."
+      },
+      "type": "hidden_gem",
+      "lat": 35.2678,
+      "lng": -120.669,
+      "trending_score": 89
+    },
+    {
+      "id": "madonna-inn-greenbelt-pink-tennis-courts",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "Hot-Pink Tennis Courts"
+      },
+      "description": {
+        "en": "A striking and surreal sight, these vibrant pink tennis courts stand out against the green hills of the property."
+      },
+      "type": "landmark",
+      "lat": 35.2688,
+      "lng": -120.6705,
+      "trending_score": 84
+    },
+    {
+      "id": "madonna-inn-greenbelt-trail-rides",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "Madonna Inn Trail Rides"
+      },
+      "description": {
+        "en": "Book a horseback ride on the massive property's rolling hills for incredible views of the landscape and a unique perspective on this quirky corner of SLO."
+      },
+      "type": "nature",
+      "lat": 35.2665,
+      "lng": -120.6715,
+      "trending_score": 80
+    },
+    {
+      "id": "madonna-inn-greenbelt-property-viewpoint",
+      "city_id": "san-luis-obispo-ca",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "name": {
+        "en": "Madonna Inn Property Viewpoint"
+      },
+      "description": {
+        "en": "Hike to a high point on the property's trails to get a panoramic view of the hotel, the surrounding green hills, and the city of San Luis Obispo."
+      },
+      "type": "viewpoint",
+      "lat": 35.265,
+      "lng": -120.673,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-chinatown-task-1",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows both historic, mission-era architecture and a modern storefront or element in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-2",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Hidden Paseo"
+      },
+      "prompt": {
+        "en": "Find a hidden alleyway or a quiet courtyard just off the main street and take a picture of your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-3",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Street Art Spotter"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, a sculpture, or a colorful mural and snap a creative photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-4",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Photograph the most interesting or vintage-looking neon sign you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-5",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "The 'SLO' Life"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the relaxed, 'SLO' pace of life in the city's bustling core."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-6",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find a Gold Rush-era brick building and take a close-up shot of an interesting detail, like a window arch or cornice."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-7",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most creative or beautiful storefront window display and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-8",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Historic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a historic landmark, like the Mission or the Ah Louis Store, in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-9",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Chinatown Character"
+      },
+      "prompt": {
+        "en": "On Palm Street, take a photo that captures the unique historical character of SLO's Chinatown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-10",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Cafe Culture"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of local life at an outdoor cafe or coffee shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-11",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Look for a faded, hand-painted advertisement on the side of an old brick building and photograph this 'ghost sign'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-chinatown-task-12",
+      "neighborhood_id": "historic-downtown-chinatown",
+      "title": {
+        "en": "Plaque Finder"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque on a building and take a photo that includes both the plaque and the building it describes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-1",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Porch Portrait"
+      },
+      "prompt": {
+        "en": "Find the most charming or impressive front porch in the neighborhood and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-2",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Architectural Close-Up"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a unique architectural detail: a stained-glass window, an ornate door knocker, or a unique porch column."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-3",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Garden Envy"
+      },
+      "prompt": {
+        "en": "Find a home with a beautiful, well-maintained garden and capture its beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-4",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Tree-Lined Perspective"
+      },
+      "prompt": {
+        "en": "Frame a shot looking down one of the neighborhood's quiet, tree-lined streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-5",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Storybook Home"
+      },
+      "prompt": {
+        "en": "Find a house that looks like it belongs in a fairytale or a storybook and take its picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-6",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Peaceful Stroll Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet residential sidewalk, capturing the peaceful vibe of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-7",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Roofline Study"
+      },
+      "prompt": {
+        "en": "Photograph three different styles of rooflines you can see from one spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-8",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Find a home with a unique or bold color scheme and take a photo that highlights its colors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-9",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting play of light and shadow on the facade of a historic home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-10",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Picket Fence Dreams"
+      },
+      "prompt": {
+        "en": "Take a classic photo of a white picket fence, perhaps with flowers peeking through."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-11",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Oldest Tree"
+      },
+      "prompt": {
+        "en": "Find what you think is the oldest, most majestic tree on the block and take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-town-mill-street-task-12",
+      "neighborhood_id": "old-town-mill-street",
+      "title": {
+        "en": "Texture Hunter"
+      },
+      "prompt": {
+        "en": "Find an interesting texture on a walkway or wall—like old bricks, stones, or peeling paint—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-1",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Think Pink"
+      },
+      "prompt": {
+        "en": "Find the most outrageously pink object, wall, or decoration and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-2",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "All That Glitters"
+      },
+      "prompt": {
+        "en": "Capture a photo of something covered in gold, glitter, or sequins."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-3",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Whimsical Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures your genuine reaction (amusement, awe, confusion) to the fantastical decor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-4",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Kitsch vs. Nature"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a strong contrast between the kitschy, man-made hotel and the natural beauty of the surrounding green hills."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-5",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Cherub Spotting"
+      },
+      "prompt": {
+        "en": "Find a cherub, cupid, or other mythical figure hidden in the decor and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-6",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "California Oak"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic, sprawling California oak tree on the property."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-7",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Pattern Overload"
+      },
+      "prompt": {
+        "en": "Find the busiest, most over-the-top pattern on a carpet, wallpaper, or piece of furniture and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-8",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Fantasy Photo"
+      },
+      "prompt": {
+        "en": "Take a photo that you think best embodies the word 'fantasy' at the Madonna Inn."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-9",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Heart Seeker"
+      },
+      "prompt": {
+        "en": "Find a heart shape incorporated into the architecture, decor, or landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-10",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Unusual Illumination"
+      },
+      "prompt": {
+        "en": "Find and photograph the most unusual or ornate lamp, chandelier, or light fixture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-11",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Golden Reflection"
+      },
+      "prompt": {
+        "en": "Capture your reflection in a golden or mirrored surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "madonna-inn-greenbelt-task-12",
+      "neighborhood_id": "madonna-inn-greenbelt",
+      "title": {
+        "en": "Greenbelt Vista"
+      },
+      "prompt": {
+        "en": "Walk along the edge of the property and take a scenic photo of the surrounding green hills and creek area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

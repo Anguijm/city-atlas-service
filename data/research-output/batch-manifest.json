@@ -1,70 +1,34 @@
 {
-  "started": "2026-04-25T05:31:09.509266+00:00",
+  "started": "2026-04-29T20:28:14.283634+00:00",
   "tiers": null,
-  "interval_s": 30,
+  "interval_s": 60,
   "cities": [
     {
-      "id": "algiers",
-      "status": "pending"
+      "id": "ouray-co",
+      "status": "failed",
+      "started_at": "2026-04-29T20:30:35.886197+00:00",
+      "error": "Exit code 1",
+      "duration_s": 56
     },
     {
-      "id": "boston",
-      "status": "pending"
+      "id": "scottsdale-az",
+      "status": "completed",
+      "started_at": "2026-04-29T20:33:29.197787+00:00",
+      "duration_s": 198,
+      "neighborhoods": 6,
+      "waypoints": 37,
+      "tasks": 90
     },
     {
-      "id": "buenos-aires",
-      "status": "pending"
-    },
-    {
-      "id": "cincinnati",
-      "status": "pending"
-    },
-    {
-      "id": "denver",
-      "status": "pending"
-    },
-    {
-      "id": "fukuoka",
-      "status": "pending"
-    },
-    {
-      "id": "honolulu",
-      "status": "pending"
-    },
-    {
-      "id": "houston",
-      "status": "pending"
-    },
-    {
-      "id": "las-vegas",
-      "status": "pending"
-    },
-    {
-      "id": "melbourne",
-      "status": "pending"
-    },
-    {
-      "id": "nashville",
-      "status": "pending"
-    },
-    {
-      "id": "osaka",
-      "status": "pending"
-    },
-    {
-      "id": "rome",
-      "status": "pending"
-    },
-    {
-      "id": "shanghai",
-      "status": "pending"
-    },
-    {
-      "id": "tokyo",
-      "status": "pending"
+      "id": "truth-or-consequences-nm",
+      "status": "failed",
+      "started_at": "2026-04-29T20:38:59.119156+00:00",
+      "error": "Exit code 1",
+      "duration_s": 85
     }
   ],
-  "completed": 0,
-  "failed": 0,
-  "pending": 15
+  "completed": 1,
+  "failed": 2,
+  "pending": 0,
+  "skipped": 0
 }

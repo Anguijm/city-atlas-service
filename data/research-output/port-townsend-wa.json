@@ -1,0 +1,840 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-waterfront",
+      "city_id": "port-townsend-wa",
+      "name": {
+        "en": "Historic Downtown & Waterfront"
+      },
+      "summary": {
+        "en": "The commercial and artistic heart of Port Townsend, where the city’s maritime past collides with its creative present in a bustling atmosphere of galleries, shops, and historic brick buildings."
+      },
+      "lat": 48.1165,
+      "lng": -122.7598,
+      "trending_score": 95
+    },
+    {
+      "id": "uptown-the-bluff",
+      "city_id": "port-townsend-wa",
+      "name": {
+        "en": "Uptown & The Bluff"
+      },
+      "summary": {
+        "en": "Elevated both geographically and atmospherically, this is the town’s historic civic and residential core, defined by grand Victorian homes, quiet tree-lined streets, and commanding views of the water."
+      },
+      "lat": 48.1142,
+      "lng": -122.7645,
+      "trending_score": 80
+    },
+    {
+      "id": "fort-worden-state-park",
+      "city_id": "port-townsend-wa",
+      "name": {
+        "en": "Fort Worden State Park"
+      },
+      "summary": {
+        "en": "A fascinating blend of military history, a vibrant arts campus, and a wild coastal park, where preserved barracks and bunkers now house cultural organizations."
+      },
+      "lat": 48.1381,
+      "lng": -122.7672,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-waterfront-silverwater-cafe",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Silverwater Cafe"
+      },
+      "description": {
+        "en": "A local institution located in the grand old Elks Lodge building, offering a classic Port Townsend dining experience within a significant historical setting."
+      },
+      "type": "food",
+      "lat": 48.1169,
+      "lng": -122.7601,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-waterfront-rose-theatre",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Rose Theatre"
+      },
+      "description": {
+        "en": "An operating historic cinema that feels like a step back in time, with a vintage marquee that serves as a downtown landmark."
+      },
+      "type": "culture",
+      "lat": 48.1162,
+      "lng": -122.7605,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-waterfront-northwind-art",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Northwind Art"
+      },
+      "description": {
+        "en": "A nonprofit arts hub in the historic 1885 Waterman & Katz Building, showcasing regional artists and connecting visitors to the town's creative pulse."
+      },
+      "type": "culture",
+      "lat": 48.1178,
+      "lng": -122.7595,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-waterfront-northwest-maritime-center",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Northwest Maritime Center"
+      },
+      "description": {
+        "en": "A modern architectural gem dedicated to preserving maritime traditions, where you can often see wooden boats being built or restored."
+      },
+      "type": "culture",
+      "lat": 48.1185,
+      "lng": -122.7589,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-waterfront-water-street-architecture",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Water Street Historic Architecture"
+      },
+      "description": {
+        "en": "The entire downtown is a National Historic Landmark; walk along Water Street looking up at ornate cornices, dated cornerstones, and ghost signs."
+      },
+      "type": "landmark",
+      "lat": 48.1172,
+      "lng": -122.7599,
+      "trending_score": 94
+    },
+    {
+      "id": "historic-downtown-waterfront-waterman-katz-building",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Waterman & Katz Building"
+      },
+      "description": {
+        "en": "A historic 1885 building, home to Northwind Art, featuring a cornerstone that marks its construction and exemplifies the area's preserved architecture."
+      },
+      "type": "landmark",
+      "lat": 48.1177,
+      "lng": -122.7594,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-downtown-waterfront-ghost-signs",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Downtown Ghost Signs"
+      },
+      "description": {
+        "en": "Look up on the brick facades of buildings along Water Street and its side streets to spot faded, hand-painted advertisements from a bygone era."
+      },
+      "type": "hidden_gem",
+      "lat": 48.1168,
+      "lng": -122.7603,
+      "trending_score": 82
+    },
+    {
+      "id": "historic-downtown-waterfront-local-galleries",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "name": {
+        "en": "Street-Level Art Galleries"
+      },
+      "description": {
+        "en": "The downtown core is filled with independent art galleries tucked into historic storefronts, showcasing the work of the town's vibrant arts community."
+      },
+      "type": "shopping",
+      "lat": 48.1164,
+      "lng": -122.76,
+      "trending_score": 80
+    },
+    {
+      "id": "uptown-the-bluff-bell-tower",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "The Bell Tower"
+      },
+      "description": {
+        "en": "A local oddity from 1890, this stark wooden tower is one of only two known fire bell towers of its kind in the US, once used to summon volunteer firefighters."
+      },
+      "type": "hidden_gem",
+      "lat": 48.1135,
+      "lng": -122.7621,
+      "trending_score": 89
+    },
+    {
+      "id": "uptown-the-bluff-jefferson-county-courthouse",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "Jefferson County Courthouse"
+      },
+      "description": {
+        "en": "A magnificent Romanesque Revival building that dominates the skyline with its 125-foot clock tower, feeling more like a European castle than a courthouse."
+      },
+      "type": "landmark",
+      "lat": 48.1131,
+      "lng": -122.7656,
+      "trending_score": 95
+    },
+    {
+      "id": "uptown-the-bluff-bartlett-house",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "Bartlett House"
+      },
+      "description": {
+        "en": "An iconic 1883 private residence that exemplifies the opulent \"painted lady\" Victorian style found throughout the Uptown neighborhood."
+      },
+      "type": "landmark",
+      "lat": 48.1151,
+      "lng": -122.7668,
+      "trending_score": 85
+    },
+    {
+      "id": "uptown-the-bluff-public-library",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "Port Townsend Public Library"
+      },
+      "description": {
+        "en": "A beautiful 1913 Carnegie Library that serves as a cultural anchor for the community and a fine piece of public architecture still serving its original purpose."
+      },
+      "type": "culture",
+      "lat": 48.1145,
+      "lng": -122.7651,
+      "trending_score": 80
+    },
+    {
+      "id": "uptown-the-bluff-historic-stairs",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "Uptown-Downtown Historic Stairs"
+      },
+      "description": {
+        "en": "A key pedestrian link between the two districts, these historic stairs offer a direct and scenic connection from the civic core of Uptown to the commercial heart of Downtown."
+      },
+      "type": "hidden_gem",
+      "lat": 48.1141,
+      "lng": -122.7628,
+      "trending_score": 75
+    },
+    {
+      "id": "uptown-the-bluff-courthouse-gargoyles",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "Courthouse Gargoyles"
+      },
+      "description": {
+        "en": "The exterior of the Jefferson County Courthouse is adorned with unusual and interesting stone carvings, rewarding those who look closely at its details."
+      },
+      "type": "hidden_gem",
+      "lat": 48.1132,
+      "lng": -122.7658,
+      "trending_score": 78
+    },
+    {
+      "id": "uptown-the-bluff-victorian-homes",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "Grand Victorian Homes"
+      },
+      "description": {
+        "en": "The quiet, tree-lined streets of Uptown are famous for their stunningly preserved, grand Victorian homes, showcasing the ambition of the city's founders."
+      },
+      "type": "landmark",
+      "lat": 48.1148,
+      "lng": -122.7662,
+      "trending_score": 90
+    },
+    {
+      "id": "uptown-the-bluff-bluff-views",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "uptown-the-bluff",
+      "name": {
+        "en": "Commanding Views from the Bluff"
+      },
+      "description": {
+        "en": "From its elevated position, the Uptown district offers commanding views of the Puget Sound, the Cascade Mountains, and the downtown waterfront below."
+      },
+      "type": "viewpoint",
+      "lat": 48.1138,
+      "lng": -122.7615,
+      "trending_score": 88
+    },
+    {
+      "id": "fort-worden-state-park-military-bunkers",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "Historic Military Bunkers"
+      },
+      "description": {
+        "en": "Explore sprawling, semi-subterranean concrete gun batteries that dot the bluffs, offering an eerie and photogenic connection to the past."
+      },
+      "type": "landmark",
+      "lat": 48.1425,
+      "lng": -122.7591,
+      "trending_score": 95
+    },
+    {
+      "id": "fort-worden-state-park-centrum",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "Centrum"
+      },
+      "description": {
+        "en": "The cultural heart of Fort Worden, this arts organization hosts workshops and performances like the \"Fiddle Tunes\" festival, with music often drifting from historic buildings."
+      },
+      "type": "culture",
+      "lat": 48.1365,
+      "lng": -122.7655,
+      "trending_score": 88
+    },
+    {
+      "id": "fort-worden-state-park-copper-canyon-press",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "Copper Canyon Press"
+      },
+      "description": {
+        "en": "A nationally acclaimed independent poetry publisher located in one of the old fort buildings, a quiet thrill for any lover of literature."
+      },
+      "type": "hidden_gem",
+      "lat": 48.1359,
+      "lng": -122.7648,
+      "trending_score": 82
+    },
+    {
+      "id": "fort-worden-state-park-marine-science-center",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "Port Townsend Marine Science Center"
+      },
+      "description": {
+        "en": "Located on the beach, this center offers hands-on exhibits about the local marine ecosystem of the Salish Sea."
+      },
+      "type": "culture",
+      "lat": 48.1411,
+      "lng": -122.7538,
+      "trending_score": 85
+    },
+    {
+      "id": "fort-worden-state-park-officer-and-gentleman-locations",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "\"An Officer and a Gentleman\" Filming Locations"
+      },
+      "description": {
+        "en": "The fort was a primary filming location for the 1982 film, and visitors can explore the iconic settings used in the movie."
+      },
+      "type": "culture",
+      "lat": 48.1372,
+      "lng": -122.7661,
+      "trending_score": 80
+    },
+    {
+      "id": "fort-worden-state-park-officers-row",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "Officers' Row"
+      },
+      "description": {
+        "en": "A line of impressive, preserved homes that once housed the fort's military officers, showcasing the hierarchy and history of the former coastal defense post."
+      },
+      "type": "landmark",
+      "lat": 48.1389,
+      "lng": -122.7695,
+      "trending_score": 84
+    },
+    {
+      "id": "fort-worden-state-park-coastal-bluffs",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "Coastal Bluffs and Trails"
+      },
+      "description": {
+        "en": "Wander the wild coastal park area of the fort, where trails wind along bluffs offering views of the water and access to the historic gun batteries."
+      },
+      "type": "nature",
+      "lat": 48.1435,
+      "lng": -122.7612,
+      "trending_score": 86
+    },
+    {
+      "id": "fort-worden-state-park-repurposed-theater",
+      "city_id": "port-townsend-wa",
+      "neighborhood_id": "fort-worden-state-park",
+      "name": {
+        "en": "Former Military Theater"
+      },
+      "description": {
+        "en": "An example of creative reuse, the fort's historic theater building is now used for artistic performances by the park's cultural organizations."
+      },
+      "type": "culture",
+      "lat": 48.1361,
+      "lng": -122.7669,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-waterfront-task-1",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Seaport Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a boat in the harbor and a historic brick building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-2",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Find a faded, painted advertisement on the side of an old building and capture a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-3",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Architectural Details"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo focusing on the ornate cornice or decorative top of a 19th-century building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-4",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Creative Reflections"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a historic facade in a shop window or a puddle on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-5",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Maritime Mood"
+      },
+      "prompt": {
+        "en": "Take a photo that you think best captures the 'salty smell of the sea' and the seaport energy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-6",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Art Walk"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or an interesting gallery window display and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-7",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Cornerstone Quest"
+      },
+      "prompt": {
+        "en": "Find a cornerstone on a building with a date carved into it and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-8",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Photograph your coffee, snack, or drink from a local spot against a classic downtown backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-9",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture a modern element (like a car or a person on a phone) contrasting with the historic architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-10",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Hidden Alleyways"
+      },
+      "prompt": {
+        "en": "Discover a narrow side street or alley and take a photo that captures its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-11",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most unique or interesting item in a shop window and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-waterfront-task-12",
+      "neighborhood_id": "historic-downtown-waterfront",
+      "title": {
+        "en": "Sailor's Pose"
+      },
+      "prompt": {
+        "en": "Head to the waterfront and take a selfie striking your best sailor's pose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-1",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Victorian Grandeur"
+      },
+      "prompt": {
+        "en": "Find the most beautiful 'painted lady' Victorian home and take a photo of its intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-2",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "View from the Top"
+      },
+      "prompt": {
+        "en": "Capture a photo of the water and mountains from a high vantage point in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-3",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Porch Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie on the steps of or with the grandest Victorian porch you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-4",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Castle on the Hill"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of the Jefferson County Courthouse to make it look like an imposing fortress."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-5",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Quiet Streets"
+      },
+      "prompt": {
+        "en": "Take a photo down a long, quiet, tree-lined street that captures the peaceful atmosphere of Uptown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-6",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Garden Discovery"
+      },
+      "prompt": {
+        "en": "Find a beautiful residential garden and take a close-up photo of the most interesting flower or plant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-7",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "History Marker"
+      },
+      "prompt": {
+        "en": "Find and photograph a historical plaque on a house or public building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-8",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Stairway to Downtown"
+      },
+      "prompt": {
+        "en": "Locate a public staircase connecting different elevations and take an artistic shot looking up or down."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-9",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the long shadow of a historic building, tower, or large tree in the morning or afternoon light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-10",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Architectural Awe"
+      },
+      "prompt": {
+        "en": "Take a selfie where you're looking up in awe at the incredible architecture of a building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-11",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Wrought Iron Art"
+      },
+      "prompt": {
+        "en": "Find an interesting piece of old ironwork, like a fence or gate, and take a close-up photo of its design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "uptown-the-bluff-task-12",
+      "neighborhood_id": "uptown-the-bluff",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Take a photo of a civic building (like the library or courthouse) that shows its importance to the community."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-1",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Find a spot where nature is growing over a concrete bunker or old military structure and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-2",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Bunker Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a dramatic selfie inside one of the dark, echoing historic bunkers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-3",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Art from History"
+      },
+      "prompt": {
+        "en": "Find a former military building now used for the arts and take a photo that shows its new purpose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-4",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Coastal Textures"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of something on the beach: a unique rock, a piece of driftwood, or shells."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-5",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Surreal Scenery"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the fascinating and slightly surreal blend of military history and nature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-6",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Framed by the Fort"
+      },
+      "prompt": {
+        "en": "Frame a shot of the water or landscape through a window or opening of an old fort structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-7",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Sounds of Art"
+      },
+      "prompt": {
+        "en": "Listen for music or creative sounds. Try to capture the source in a photo or short video."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-8",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Officer and a Gentleman Pose"
+      },
+      "prompt": {
+        "en": "Find an iconic-looking spot and strike a pose inspired by the movie 'An Officer and a Gentleman'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-9",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Find a trail leading into the woods or along the bluff and take a photo looking down its path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-10",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Marine Life Discovery"
+      },
+      "prompt": {
+        "en": "Head to the beach near the Marine Science Center and photograph any signs of marine life you find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-11",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Historic Relic"
+      },
+      "prompt": {
+        "en": "Find a piece of old military hardware or a remnant of the fort's past and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "fort-worden-state-park-task-12",
+      "neighborhood_id": "fort-worden-state-park",
+      "title": {
+        "en": "Bluff-Top View"
+      },
+      "prompt": {
+        "en": "Take a panoramic photo from the top of the bluffs, capturing the sweep of the coastline and water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

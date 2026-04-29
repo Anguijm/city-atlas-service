@@ -1,0 +1,675 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "olympia-wa",
+      "name": {
+        "en": "Historic Downtown & The Brewery District"
+      },
+      "summary": {
+        "en": "The raw, beating heart of Olympia, this district is a living museum of 20th-century architecture, home to a fiercely independent scene that birthed the riot grrrl movement."
+      },
+      "lat": 47.0435,
+      "lng": -122.899,
+      "trending_score": 95
+    },
+    {
+      "id": "the-waterfront",
+      "city_id": "olympia-wa",
+      "name": {
+        "en": "The Waterfront"
+      },
+      "summary": {
+        "en": "This district combines the maritime energy of a working waterfront with scenic parks and fresh sea air, offering sweeping views of Budd Inlet and the distant mountains."
+      },
+      "lat": 47.048,
+      "lng": -122.904,
+      "trending_score": 88
+    },
+    {
+      "id": "capitol-hill",
+      "city_id": "olympia-wa",
+      "name": {
+        "en": "Capitol Hill"
+      },
+      "summary": {
+        "en": "Home to the manicured, monumental grounds of the Washington State Capitol, this area is defined by grand architecture, public art, and serene lakeside trails."
+      },
+      "lat": 47.036,
+      "lng": -122.905,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-fish-tale-brewpub",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Fish Tale Brewpub"
+      },
+      "description": {
+        "en": "Olympia’s oldest brewpub (est. 1993), this is a foundational local institution and a lively, unpretentious hub for craft beverages."
+      },
+      "type": "drink",
+      "lat": 47.0425,
+      "lng": -122.9005,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-batdorf-bronson",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Batdorf & Bronson Coffeehouse"
+      },
+      "description": {
+        "en": "A local roaster's flagship cafe that often doubles as an art gallery, it’s a prime spot for expertly crafted espresso."
+      },
+      "type": "drink",
+      "lat": 47.0425,
+      "lng": -122.9018,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-downtown-king-solomons-reef",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "King Solomon’s Reef"
+      },
+      "description": {
+        "en": "A quintessential retro diner that feels frozen in time, serving all-day breakfast and late-night comfort food."
+      },
+      "type": "food",
+      "lat": 47.0448,
+      "lng": -122.898,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-old-school-pizzeria",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Old School Pizzeria"
+      },
+      "description": {
+        "en": "A funky, '80s-poster-adorned joint serving New York-style pizza on paper plates, accompanied by vintage pinball machines."
+      },
+      "type": "food",
+      "lat": 47.0465,
+      "lng": -122.896,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-tacos-california",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Tacos California"
+      },
+      "description": {
+        "en": "Located in the downtown food truck park, this is the spot for authentic, no-frills Mexican street food, including the legendary Cubana Torta."
+      },
+      "type": "food",
+      "lat": 47.0445,
+      "lng": -122.8925,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-capitol-theater",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Capitol Theater"
+      },
+      "description": {
+        "en": "A stunning art-deco theater and cultural landmark that is home to the Olympia Film Society, screening independent and classic films."
+      },
+      "type": "culture",
+      "lat": 47.0435,
+      "lng": -122.8985,
+      "trending_score": 94
+    },
+    {
+      "id": "historic-downtown-sylvester-park",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Sylvester Park"
+      },
+      "description": {
+        "en": "A historic, block-sized park facing the Old Capitol Building, serving as the city's central green space for reflection and people-watching."
+      },
+      "type": "nature",
+      "lat": 47.0418,
+      "lng": -122.9015,
+      "trending_score": 80
+    },
+    {
+      "id": "the-waterfront-budd-bay-cafe",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "Budd Bay Café"
+      },
+      "description": {
+        "en": "A local landmark since 1988, this eatery sits right on the water, offering panoramic views and classic Northwest seafood."
+      },
+      "type": "food",
+      "lat": 47.0485,
+      "lng": -122.9045,
+      "trending_score": 91
+    },
+    {
+      "id": "the-waterfront-olympia-farmers-market",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "Olympia Farmers' Market"
+      },
+      "description": {
+        "en": "A vibrant, bustling hub of local life with food stalls offering everything from fresh produce to ready-to-eat meals."
+      },
+      "type": "food",
+      "lat": 47.051,
+      "lng": -122.902,
+      "trending_score": 95
+    },
+    {
+      "id": "the-waterfront-percival-landing-park",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "Percival Landing Park"
+      },
+      "description": {
+        "en": "The city's premier waterfront park, featuring a 0.9-mile boardwalk along the Budd Inlet for watching boats and spotting marine life."
+      },
+      "type": "nature",
+      "lat": 47.047,
+      "lng": -122.9035,
+      "trending_score": 93
+    },
+    {
+      "id": "the-waterfront-viewing-tower",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "the-waterfront",
+      "name": {
+        "en": "Waterfront Viewing Tower"
+      },
+      "description": {
+        "en": "A simple, open-air tower offering an elevated perspective of the entire inlet, the Port, and the downtown skyline."
+      },
+      "type": "viewpoint",
+      "lat": 47.0505,
+      "lng": -122.905,
+      "trending_score": 82
+    },
+    {
+      "id": "capitol-hill-state-capitol-campus",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "Washington State Capitol Campus"
+      },
+      "description": {
+        "en": "Explore the stunning architecture of the Legislative Building, wander through gardens, and discover numerous public art installations and memorials."
+      },
+      "type": "landmark",
+      "lat": 47.035,
+      "lng": -122.904,
+      "trending_score": 98
+    },
+    {
+      "id": "capitol-hill-capitol-lake-trail",
+      "city_id": "olympia-wa",
+      "neighborhood_id": "capitol-hill",
+      "name": {
+        "en": "Capitol Lake Trail"
+      },
+      "description": {
+        "en": "A paved path looping around the lake, offering iconic, postcard-perfect views of the Capitol dome reflected in the water."
+      },
+      "type": "nature",
+      "lat": 47.038,
+      "lng": -122.908,
+      "trending_score": 89
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Punk Rock Echoes"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a band flyer that captures the neighborhood's riot grrrl spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Capture a photo of a cool, vintage-style neon sign lighting up the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Diner Dreams"
+      },
+      "prompt": {
+        "en": "Take a selfie in a classic diner booth or sitting at a well-worn lunch counter."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Indie Spirit"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of an independent business that looks like it has a great story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Architectural Time Capsule"
+      },
+      "prompt": {
+        "en": "Find a building with interesting 20th-century architectural details and capture its character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Pinball Wizard"
+      },
+      "prompt": {
+        "en": "Find a pinball machine or classic arcade game and take a photo of the action."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Local Libations"
+      },
+      "prompt": {
+        "en": "Take a photo of a locally brewed beer or a craft coffee. Cheers to Olympia!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Gritty Textures"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting texture in the neighborhood, like worn brick, peeling paint, or a metal grate."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a cool alleyway or side street and take an artistic photo of what you find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Record Store Riff"
+      },
+      "prompt": {
+        "en": "Find a record store window and take a photo of an album cover that speaks to you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "The Perfect Pour"
+      },
+      "prompt": {
+        "en": "Take an action shot of a barista or bartender crafting a delicious-looking drink."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Old School Olympia"
+      },
+      "prompt": {
+        "en": "Find something that looks like it hasn't changed since the 1990s and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-1",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Maritime Mood"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the working energy of the port, focusing on boats, cranes, or gear."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-2",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Seagull's View"
+      },
+      "prompt": {
+        "en": "Find a seagull and take a photo of it with the water in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-3",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Boardwalk Lines"
+      },
+      "prompt": {
+        "en": "Use the lines of the boardwalk to create a compelling photo leading towards the water or the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-4",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Market Bounty"
+      },
+      "prompt": {
+        "en": "Take a colorful photo of fresh produce or a delicious-looking treat from a market stall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-5",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Waterfront Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the sky, a boat, or a building in the water of the inlet."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-6",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the wind in your hair and the Puget Sound behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-7",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture the waterfront as the sun begins to set, focusing on the warm light on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-8",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Taste of the Sound"
+      },
+      "prompt": {
+        "en": "Photograph a classic Pacific Northwest seafood dish you're about to enjoy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-9",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Knot Just a Photo"
+      },
+      "prompt": {
+        "en": "Find an interesting nautical detail, like a rope, cleat, or anchor, and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-10",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Mountain Majesty"
+      },
+      "prompt": {
+        "en": "On a clear day, frame a shot that includes both the water and the distant mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-11",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Sounds of the Sea"
+      },
+      "prompt": {
+        "en": "Take a short video capturing the sounds of the waterfront: lapping waves, crying gulls, and distant boat horns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-waterfront-task-12",
+      "neighborhood_id": "the-waterfront",
+      "title": {
+        "en": "Port Panorama"
+      },
+      "prompt": {
+        "en": "Find a high point and take a panoramic photo of the entire Budd Inlet."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-1",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Monumental Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the grand dome of the Legislative Building looming behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-2",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Architectural Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on a powerful architectural detail of a government building—a column, an archway, or a carving."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-3",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Garden Geometry"
+      },
+      "prompt": {
+        "en": "Find a manicured garden or hedge and capture its perfect symmetry and design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-4",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Reflecting on Power"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the Capitol dome in a puddle, a window, or the water of Capitol Lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-5",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "History in Stone"
+      },
+      "prompt": {
+        "en": "Find a memorial or statue on the campus grounds and take a photo that conveys its story or mood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-6",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Nature Meets Stature"
+      },
+      "prompt": {
+        "en": "Frame a shot that contrasts the formal architecture with the natural beauty of the surrounding trees and grounds."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-7",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Fountain Fun"
+      },
+      "prompt": {
+        "en": "Take a creative photo of a public fountain, playing with motion blur or reflections."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-8",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "A Path to Power"
+      },
+      "prompt": {
+        "en": "Use a walkway or set of stairs as a leading line pointing towards the Legislative Building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-9",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet bench with a view and take a photo from that perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-10",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "The State's Seal"
+      },
+      "prompt": {
+        "en": "Find an official seal or emblem on a building or monument and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-11",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Postcard Perfect"
+      },
+      "prompt": {
+        "en": "Recreate the classic postcard view of the Capitol dome from across the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-hill-task-12",
+      "neighborhood_id": "capitol-hill",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the long shadows cast by the monumental buildings or statues late in the afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

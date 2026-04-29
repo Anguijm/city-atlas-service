@@ -1,0 +1,855 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "livingston-mt",
+      "name": {
+        "en": "The Historic Downtown Core"
+      },
+      "summary": {
+        "en": "Livingston’s beating heart, a compact grid of late 19th-century buildings where seasoned ranchers browse alongside artists and fly-fishing guides."
+      },
+      "lat": 45.6625,
+      "lng": -110.5615,
+      "trending_score": 95
+    },
+    {
+      "id": "depot-district",
+      "city_id": "livingston-mt",
+      "name": {
+        "en": "The Yellowstone Gateway & Depot District"
+      },
+      "summary": {
+        "en": "Defined by movement and history, this district flanks the railroad and river, anchored by the magnificent depot that was the original gateway to Yellowstone."
+      },
+      "lat": 45.6632,
+      "lng": -110.557,
+      "trending_score": 85
+    },
+    {
+      "id": "west-side",
+      "city_id": "livingston-mt",
+      "name": {
+        "en": "The Literary & Residential West Side"
+      },
+      "summary": {
+        "en": "The quiet, contemplative side of Livingston, with historic homes and stunning mountain views that have long inspired renowned writers and artists."
+      },
+      "lat": 45.661,
+      "lng": -110.567,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-office-lounge-drink",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Office Lounge & Grill (Bar)"
+      },
+      "description": {
+        "en": "An unpretentious, classic town bar recommended by locals as the go-to spot to watch a game and grab a beer with a genuine local crowd."
+      },
+      "type": "drink",
+      "lat": 45.6615,
+      "lng": -110.5608,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-49er-bar-drink",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The 49er Bar & Grill (Bar)"
+      },
+      "description": {
+        "en": "A pillar of Livingston's local bar scene with a salt-of-the-earth vibe, perfect for a cold drink and overhearing authentic fishing stories."
+      },
+      "type": "drink",
+      "lat": 45.6635,
+      "lng": -110.5608,
+      "trending_score": 87
+    },
+    {
+      "id": "historic-downtown-office-lounge-food",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Office Lounge & Grill (Food)"
+      },
+      "description": {
+        "en": "Praised by residents for its solid, hearty, and no-fuss meals. This is the place for a great burger and fries in a lively atmosphere."
+      },
+      "type": "food",
+      "lat": 45.6615,
+      "lng": -110.5608,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-49er-bar-food",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The 49er Bar & Grill (Food)"
+      },
+      "description": {
+        "en": "Serves a classic bar and grill menu with well-executed pub fare that satisfies locals and serves as perfect fuel for exploring."
+      },
+      "type": "food",
+      "lat": 45.6635,
+      "lng": -110.5608,
+      "trending_score": 82
+    },
+    {
+      "id": "historic-downtown-dan-baileys",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Dan Bailey's Fly Shop"
+      },
+      "description": {
+        "en": "An institution since 1938, this shop is a living museum of fly-fishing, filled with vintage gear and the palpable history of the sport."
+      },
+      "type": "culture",
+      "lat": 45.6627,
+      "lng": -110.5633,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-murray-hotel",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Murray Hotel"
+      },
+      "description": {
+        "en": "A historic 1904 hotel and cornerstone of Livingston, famous for housing artists and eccentrics like director Sam Peckinpah."
+      },
+      "type": "landmark",
+      "lat": 45.6627,
+      "lng": -110.563,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-fire-station",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Reimagined Fire Station"
+      },
+      "description": {
+        "en": "A fantastic example of adaptive reuse, this historic brick fire station with its tall tower now serves as a fitness center."
+      },
+      "type": "landmark",
+      "lat": 45.6615,
+      "lng": -110.563,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-downtown-alleys-ghost-signs",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Downtown Alleys & Ghost Signs"
+      },
+      "description": {
+        "en": "The side streets and alleys off Main and Park Street reveal the town's true texture, with fading 'ghost signs' painted on historic brick walls."
+      },
+      "type": "hidden_gem",
+      "lat": 45.6625,
+      "lng": -110.5612,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-downtown-neon-signs",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Vintage Neon Signs"
+      },
+      "description": {
+        "en": "After dusk, wander the downtown streets to find the warm, nostalgic glow of vintage neon signs that add to the town's cinematic feel."
+      },
+      "type": "viewpoint",
+      "lat": 45.6628,
+      "lng": -110.562,
+      "trending_score": 75
+    },
+    {
+      "id": "depot-district-livingston-depot",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "Livingston Depot"
+      },
+      "description": {
+        "en": "The town's architectural crown jewel, this stunning mission-style depot from 1902 was the original grand entrance for travelers heading to Yellowstone."
+      },
+      "type": "landmark",
+      "lat": 45.663,
+      "lng": -110.5585,
+      "trending_score": 98
+    },
+    {
+      "id": "depot-district-depot-museum",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "Livingston Depot Center Museum"
+      },
+      "description": {
+        "en": "Housed within the historic depot building, this museum showcases the history of the railroad and its role in shaping the region."
+      },
+      "type": "culture",
+      "lat": 45.663,
+      "lng": -110.5585,
+      "trending_score": 80
+    },
+    {
+      "id": "depot-district-yellowstone-riverfront",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "The Yellowstone Riverfront"
+      },
+      "description": {
+        "en": "Find a path along the banks of the wild Yellowstone River to watch the water rush by, with the town and mountains as a backdrop."
+      },
+      "type": "nature",
+      "lat": 45.663,
+      "lng": -110.555,
+      "trending_score": 85
+    },
+    {
+      "id": "depot-district-railroad-bridges",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "Historic Railroad Bridges"
+      },
+      "description": {
+        "en": "These monuments of industrial engineering span the Yellowstone River, offering incredible, photogenic vantage points of the water and landscape."
+      },
+      "type": "viewpoint",
+      "lat": 45.665,
+      "lng": -110.554,
+      "trending_score": 78
+    },
+    {
+      "id": "depot-district-gateway-museum",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "Yellowstone Gateway Museum"
+      },
+      "description": {
+        "en": "Located in a former schoolhouse, this museum delves deep into regional history, from Indigenous artifacts to the wild tales of early pioneers."
+      },
+      "type": "culture",
+      "lat": 45.6645,
+      "lng": -110.5615,
+      "trending_score": 75
+    },
+    {
+      "id": "depot-district-northern-pacific-rail",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "Northern Pacific Rail Corridor"
+      },
+      "description": {
+        "en": "The active and historic railroad tracks are the reason Livingston exists, carving a path through the district and defining its industrial character."
+      },
+      "type": "landmark",
+      "lat": 45.6635,
+      "lng": -110.557,
+      "trending_score": 65
+    },
+    {
+      "id": "depot-district-absaroka-viewpoint",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "Absaroka Mountain Viewpoint"
+      },
+      "description": {
+        "en": "From the riverfront, the view of the distant Absaroka Mountains provides the essential Livingston vista, juxtaposing the wild river and the rugged peaks."
+      },
+      "type": "viewpoint",
+      "lat": 45.6625,
+      "lng": -110.5545,
+      "trending_score": 88
+    },
+    {
+      "id": "depot-district-south-rail-bridge",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "depot-district",
+      "name": {
+        "en": "South Yellowstone Rail Bridge"
+      },
+      "description": {
+        "en": "One of several historic railroad bridges offering a raw, photogenic perspective of the powerful Yellowstone River and surrounding landscape."
+      },
+      "type": "viewpoint",
+      "lat": 45.66,
+      "lng": -110.556,
+      "trending_score": 72
+    },
+    {
+      "id": "west-side-writers-row",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "Conceptual \"Writer's Row\" Walk"
+      },
+      "description": {
+        "en": "Wander the quiet residential streets west of Main to absorb the sense of place that inspired literary legends like Jim Harrison and Thomas McGuane."
+      },
+      "type": "hidden_gem",
+      "lat": 45.661,
+      "lng": -110.567,
+      "trending_score": 80
+    },
+    {
+      "id": "west-side-historic-homes",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "National Register Historic Homes"
+      },
+      "description": {
+        "en": "This area is an architectural scavenger hunt, dotted with well-preserved Queen Anne, Craftsman, and Victorian homes that give it a timeless character."
+      },
+      "type": "landmark",
+      "lat": 45.66,
+      "lng": -110.566,
+      "trending_score": 75
+    },
+    {
+      "id": "west-side-calamity-jane",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "Calamity Jane's Footsteps"
+      },
+      "description": {
+        "en": "Walk through the oldest residential parts of town and imagine famed frontierswoman Calamity Jane navigating these same streets in the late 19th century."
+      },
+      "type": "hidden_gem",
+      "lat": 45.6605,
+      "lng": -110.565,
+      "trending_score": 70
+    },
+    {
+      "id": "west-side-fly-fishing-center",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "Fly Fishing Discovery Center"
+      },
+      "description": {
+        "en": "Explore the science, art, and conservation behind the sport that defines Livingston, with exhibits on intricate flies and custom rods."
+      },
+      "type": "culture",
+      "lat": 45.6595,
+      "lng": -110.5575,
+      "trending_score": 68
+    },
+    {
+      "id": "west-side-little-free-library",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "West Side Little Free Library"
+      },
+      "description": {
+        "en": "A perfect symbol of the neighborhood's literary spirit, these small book boxes in residents' front yards encourage a shared love of reading."
+      },
+      "type": "culture",
+      "lat": 45.6612,
+      "lng": -110.568,
+      "trending_score": 65
+    },
+    {
+      "id": "west-side-mountain-vistas",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "West Side Mountain Vistas"
+      },
+      "description": {
+        "en": "At the end of each residential street, the landscape opens up to reveal stunning, inspiring views of the surrounding mountains."
+      },
+      "type": "viewpoint",
+      "lat": 45.662,
+      "lng": -110.57,
+      "trending_score": 85
+    },
+    {
+      "id": "west-side-queen-anne-spotting",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "Queen Anne Architecture Spotting"
+      },
+      "description": {
+        "en": "Keep an eye out for the distinctive features of Queen Anne style homes, such as turrets, ornate porches, and elaborate trim."
+      },
+      "type": "landmark",
+      "lat": 45.6608,
+      "lng": -110.5665,
+      "trending_score": 60
+    },
+    {
+      "id": "west-side-craftsman-spotting",
+      "city_id": "livingston-mt",
+      "neighborhood_id": "west-side",
+      "name": {
+        "en": "Craftsman Architecture Spotting"
+      },
+      "description": {
+        "en": "Look for the classic low-slung roofs, wide front porches, and sturdy construction of the Craftsman-style homes in the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 45.6602,
+      "lng": -110.5675,
+      "trending_score": 60
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Old West Selfie"
+      },
+      "prompt": {
+        "en": "Find a historic brick wall that looks like a movie set and take a selfie worthy of a Western film."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Capture the warm, colorful light of a vintage neon sign, especially as dusk begins to fall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Find a faded 'ghost sign' advertisement painted on the side of a building and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "A Local's Lunch"
+      },
+      "prompt": {
+        "en": "Find a spot that looks like a local favorite and photograph your hearty, no-fuss meal."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Photograph an interesting architectural detail from a late 19th-century building, like a cornice, window frame, or entryway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Alleyway Texture"
+      },
+      "prompt": {
+        "en": "Explore a downtown alley and take a photo that focuses on the interesting textures you find—old bricks, fire escapes, or worn pavement."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Fly-Fishing Spirit"
+      },
+      "prompt": {
+        "en": "Find a visual reference to fly-fishing (a sign, a decal on a truck, someone carrying a rod) and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Cinematic Corner"
+      },
+      "prompt": {
+        "en": "Find a street corner that feels like it could be from a movie and take a dramatic, low-angle shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of a unique, independent shop that embodies the town's strong, self-reliant spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Rancher Meets Artist"
+      },
+      "prompt": {
+        "en": "Respectfully capture a photo that shows the mix of people in downtown—the blend of old-school rancher style and modern artist flair."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Historic Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of an old building in a modern shop window, merging past and present."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Main Street Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the bustling, historic energy of Main Street or Park Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-1",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Iron and Water"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both the industrial element of the railroad and the natural power of the Yellowstone River."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-2",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Gateway to Nature"
+      },
+      "prompt": {
+        "en": "Take a photo looking towards the mountains that makes the town feel like the true gateway to the wild."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-3",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Railroad Geometry"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern or leading line in the railroad tracks and capture it in a photo. Be safe and stay off active tracks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-4",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "River's Rush"
+      },
+      "prompt": {
+        "en": "Take a photo or short video that captures the powerful movement of the Yellowstone River."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-5",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Industrial Relic"
+      },
+      "prompt": {
+        "en": "Find a piece of old, weathered industrial architecture (like a steel girder or part of a bridge) and take a close-up photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-6",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Big Sky Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the vast Montana sky and the river or tracks in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-7",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Echoes of Travelers"
+      },
+      "prompt": {
+        "en": "Find a spot near the depot and take a photo that evokes the feeling of the thousands of travelers who passed through on their way to Yellowstone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-8",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Photograph a place where nature (plants, water, rust) is interacting with the man-made industrial structures."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-9",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "The Grand Scale"
+      },
+      "prompt": {
+        "en": "Take a wide-angle shot that captures the grand, open scale of this district, with its big buildings and wide river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-10",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot by the river and take a photo that feels calm and contemplative, contrasting with the district's history of movement."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-11",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Transportation Story"
+      },
+      "prompt": {
+        "en": "Create a photo that tells a story about transportation, past or present, in this district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-district-task-12",
+      "neighborhood_id": "depot-district",
+      "title": {
+        "en": "Sunset on the Tracks"
+      },
+      "prompt": {
+        "en": "If you're here at the golden hour, capture the warm light hitting the depot or the railroad tracks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-1",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "A Novel's Cover"
+      },
+      "prompt": {
+        "en": "Find a scene—a house, a street, a view—that looks like it could be the cover of a great American novel and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-2",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Writer's View"
+      },
+      "prompt": {
+        "en": "Frame a shot from a quiet street corner that includes a historic home and a view of the mountains in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-3",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find a unique detail on a historic home—like a porch swing, a stained-glass window, or ornate trim—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-4",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Literary Selfie"
+      },
+      "prompt": {
+        "en": "Find a Little Free Library or a quiet, inspiring porch and take a thoughtful selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-5",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "The Quiet Street"
+      },
+      "prompt": {
+        "en": "Capture the peaceful, contemplative atmosphere of a residential street in this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-6",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "A Story in a Window"
+      },
+      "prompt": {
+        "en": "Take a photo of a window on a historic house. What story does its reflection or the view from inside tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-7",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Calamity Jane's Ghost"
+      },
+      "prompt": {
+        "en": "Photograph a house or a street that looks old and rugged enough to have been here in Calamity Jane's time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-8",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "The Color of Home"
+      },
+      "prompt": {
+        "en": "Find a house with a unique or beautiful color scheme and take a photo that highlights it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-9",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Find something that shows the character of the people who live here—a quirky garden decoration, a welcoming sign, a well-loved bicycle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-10",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Sky Over Livingston"
+      },
+      "prompt": {
+        "en": "At the end of a long residential street, capture the vastness of the sky above the town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-11",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Three Eras of Homes"
+      },
+      "prompt": {
+        "en": "See if you can frame a shot that includes houses from three different architectural styles or eras."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-task-12",
+      "neighborhood_id": "west-side",
+      "title": {
+        "en": "Inspired by Nature"
+      },
+      "prompt": {
+        "en": "Take a photo that shows how the natural landscape (mountains, sky, trees) is an integral part of the residential scenery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

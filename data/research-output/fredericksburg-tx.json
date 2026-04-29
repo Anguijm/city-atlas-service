@@ -1,0 +1,810 @@
+{
+  "neighborhoods": [
+    {
+      "id": "markt-platz-east-main",
+      "city_id": "fredericksburg-tx",
+      "name": {
+        "en": "The Historic Markt-Platz & East Main"
+      },
+      "summary": {
+        "en": "The quintessential heart of Fredericksburg, where the town's German DNA is most visible. The vibe is historic but not stuffy, with a palpable sense of community pride."
+      },
+      "lat": 30.27401,
+      "lng": -98.87152,
+      "trending_score": 95
+    },
+    {
+      "id": "west-end-brewery-scene",
+      "city_id": "fredericksburg-tx",
+      "name": {
+        "en": "The West End & Brewery Scene"
+      },
+      "summary": {
+        "en": "A laid-back, crafty district where the crowds thin and specialized shops and breweries take over. This area offers a quieter, more reflective look at Fredericksburg's pioneer past."
+      },
+      "lat": 30.27455,
+      "lng": -98.87651,
+      "trending_score": 80
+    },
+    {
+      "id": "southern-edge-tex-mex-soul",
+      "city_id": "fredericksburg-tx",
+      "name": {
+        "en": "The Southern Edge & Tex-Mex Soul"
+      },
+      "summary": {
+        "en": "Where German heritage mingles with classic Texan culture. This area reveals the everyday rhythm of Fredericksburg life through its residential streets and local Tex-Mex spots."
+      },
+      "lat": 30.2705,
+      "lng": -98.8721,
+      "trending_score": 70
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "markt-platz-east-main-sunday-supply",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "Sunday Supply"
+      },
+      "description": {
+        "en": "A bright, modern oasis for specialty coffee and pastries, offering a clean, contemporary contrast to the surrounding historic architecture."
+      },
+      "type": "drink",
+      "lat": 30.27458,
+      "lng": -98.86881,
+      "trending_score": 85
+    },
+    {
+      "id": "markt-platz-east-main-cuvee-wine-bar",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "Cuvée Wine And Piano Bar"
+      },
+      "description": {
+        "en": "An intimate and upscale spot perfect for an evening drink, often with live piano music, making it feel like a cherished local secret."
+      },
+      "type": "nightlife",
+      "lat": 30.27442,
+      "lng": -98.86995,
+      "trending_score": 80
+    },
+    {
+      "id": "markt-platz-east-main-ottos-german-bistro",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "Otto’s German Bistro"
+      },
+      "description": {
+        "en": "A refined, contemporary take on German cuisine with a focus on locally sourced ingredients, frequented by locals for special dinners."
+      },
+      "type": "food",
+      "lat": 30.27271,
+      "lng": -98.86926,
+      "trending_score": 92
+    },
+    {
+      "id": "markt-platz-east-main-piccolina",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "Piccolina"
+      },
+      "description": {
+        "en": "A delightful spot for artisanal gelato using high-quality ingredients, offering a perfect treat after a long walk."
+      },
+      "type": "food",
+      "lat": 30.27425,
+      "lng": -98.87041,
+      "trending_score": 78
+    },
+    {
+      "id": "markt-platz-east-main-vereins-kirche",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "Vereins Kirche (The Kaffeemühle)"
+      },
+      "description": {
+        "en": "An iconic octagonal building in the center of the Marktplatz, a replica of the town's first public structure that served as a church, school, and fort."
+      },
+      "type": "landmark",
+      "lat": 30.27405,
+      "lng": -98.87145,
+      "trending_score": 98
+    },
+    {
+      "id": "markt-platz-east-main-biergarten",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "The Biergarten on Main Street"
+      },
+      "description": {
+        "en": "An essential part of the town's social fabric, this is a place to observe the flow of the town, listen to music, and understand Fredericksburg's public life."
+      },
+      "type": "drink",
+      "lat": 30.2742,
+      "lng": -98.8719,
+      "trending_score": 90
+    },
+    {
+      "id": "markt-platz-east-main-conan-birthplace",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "Conan the Barbarian's Birthplace (of the Mind)"
+      },
+      "description": {
+        "en": "A viewpoint on the east side of the Marktplatz where author Robert E. Howard was inspired by the hills to create Cimmeria, Conan's homeland."
+      },
+      "type": "hidden_gem",
+      "lat": 30.2741,
+      "lng": -98.8709,
+      "trending_score": 65
+    },
+    {
+      "id": "markt-platz-east-main-marktplatz",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "markt-platz-east-main",
+      "name": {
+        "en": "Marktplatz"
+      },
+      "description": {
+        "en": "The central town square and community hub of Fredericksburg, home to the iconic Vereins Kirche and a gathering place for locals and visitors alike."
+      },
+      "type": "landmark",
+      "lat": 30.2741,
+      "lng": -98.8715,
+      "trending_score": 96
+    },
+    {
+      "id": "west-end-brewery-scene-fredericksburg-brewing",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "west-end-brewery-scene",
+      "name": {
+        "en": "Fredericksburg Brewing Company"
+      },
+      "description": {
+        "en": "One of Texas's oldest brewpubs, this foundational local institution offers German-inspired beers in a restored 1890s building."
+      },
+      "type": "drink",
+      "lat": 30.27465,
+      "lng": -98.87421,
+      "trending_score": 90
+    },
+    {
+      "id": "west-end-brewery-scene-woerner-cafe",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "west-end-brewery-scene",
+      "name": {
+        "en": "Woerner Cafe"
+      },
+      "description": {
+        "en": "A beloved local lunch spot tucked inside the old Woerner Feed Store, known for delicious sandwiches and a rustic, airy interior."
+      },
+      "type": "food",
+      "lat": 30.2731,
+      "lng": -98.8751,
+      "trending_score": 88
+    },
+    {
+      "id": "west-end-brewery-scene-vaudeville-bistro",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "west-end-brewery-scene",
+      "name": {
+        "en": "Vaudeville"
+      },
+      "description": {
+        "en": "A unique, multi-level establishment with a stylish, subterranean bistro in the basement that offers fantastic pizza and seafood."
+      },
+      "type": "food",
+      "lat": 30.2745,
+      "lng": -98.8735,
+      "trending_score": 85
+    },
+    {
+      "id": "west-end-brewery-scene-pioneer-museum",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "west-end-brewery-scene",
+      "name": {
+        "en": "Pioneer Museum Complex"
+      },
+      "description": {
+        "en": "A collection of authentic 19th-century German pioneer homesteads and buildings that give a tangible sense of early life in Fredericksburg."
+      },
+      "type": "culture",
+      "lat": 30.2745,
+      "lng": -98.8775,
+      "trending_score": 82
+    },
+    {
+      "id": "west-end-brewery-scene-old-feed-store-signage",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "west-end-brewery-scene",
+      "name": {
+        "en": "The Old Feed Store Signage"
+      },
+      "description": {
+        "en": "At the building housing Woerner Cafe, look for faded paint, original stonework, and architectural remnants that hint at its agricultural roots."
+      },
+      "type": "hidden_gem",
+      "lat": 30.27315,
+      "lng": -98.87515,
+      "trending_score": 60
+    },
+    {
+      "id": "west-end-brewery-scene-pioneer-memorial-library",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "west-end-brewery-scene",
+      "name": {
+        "en": "Pioneer Memorial Library"
+      },
+      "description": {
+        "en": "A quiet, beautiful stone building that offers a peaceful escape and a great example of the town's enduring civic architecture."
+      },
+      "type": "culture",
+      "lat": 30.2761,
+      "lng": -98.8758,
+      "trending_score": 70
+    },
+    {
+      "id": "west-end-brewery-scene-vaudeville-gallery",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "west-end-brewery-scene",
+      "name": {
+        "en": "Vaudeville Gallery & Store"
+      },
+      "description": {
+        "en": "The upper levels of the Vaudeville building feature a curated gallery and home-goods store, making it a unique discovery for shoppers."
+      },
+      "type": "shopping",
+      "lat": 30.27455,
+      "lng": -98.87355,
+      "trending_score": 75
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-hill-and-vine",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "name": {
+        "en": "Hill & Vine"
+      },
+      "description": {
+        "en": "A fantastic wine bar with a spacious patio that captures the spirit of the modern Hill Country, blending wine culture with a relaxed atmosphere."
+      },
+      "type": "drink",
+      "lat": 30.2718,
+      "lng": -98.8725,
+      "trending_score": 85
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-velvet-lounge",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "name": {
+        "en": "Velvet Lounge Karaoke Bar"
+      },
+      "description": {
+        "en": "A truly local, unpretentious, dive-y karaoke bar where you can meet characters and see the town let its hair down late at night."
+      },
+      "type": "nightlife",
+      "lat": 30.2715,
+      "lng": -98.8701,
+      "trending_score": 70
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-nurys-breakfast",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "name": {
+        "en": "Nury’s Breakfast & Lunch"
+      },
+      "description": {
+        "en": "A quintessential local diner serving American and Tex-Mex comfort food, completely off the tourist radar and utterly authentic."
+      },
+      "type": "food",
+      "lat": 30.2665,
+      "lng": -98.8719,
+      "trending_score": 80
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-mamacitas",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "name": {
+        "en": "Mamacita’s Mexican Restaurant"
+      },
+      "description": {
+        "en": "A vibrant, family-friendly spot known for its classic Tex-Mex fare, sizzling fajitas, and margaritas, making it a beloved local choice."
+      },
+      "type": "food",
+      "lat": 30.2709,
+      "lng": -98.8688,
+      "trending_score": 82
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-peach-stands",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "name": {
+        "en": "The Peach Stands (Seasonal)"
+      },
+      "description": {
+        "en": "During peach season (May-August), a walk along the southern edge of town will take you past roadside stands and markets selling fresh local fruit."
+      },
+      "type": "shopping",
+      "lat": 30.2685,
+      "lng": -98.873,
+      "trending_score": 75
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-hill-country-views",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "name": {
+        "en": "Hill Country Views"
+      },
+      "description": {
+        "en": "As you walk south, the terrain opens up, offering clear views of the rolling hills that surround the town and define the Hill Country landscape."
+      },
+      "type": "viewpoint",
+      "lat": 30.267,
+      "lng": -98.8725,
+      "trending_score": 70
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-sunday-houses",
+      "city_id": "fredericksburg-tx",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "name": {
+        "en": "Residential 'Sunday Houses'"
+      },
+      "description": {
+        "en": "Wander residential streets like S. Adams or S. Lincoln to spot these small, simple houses built by early farmers for weekend trips to town."
+      },
+      "type": "hidden_gem",
+      "lat": 30.271,
+      "lng": -98.8745,
+      "trending_score": 68
+    }
+  ],
+  "tasks": [
+    {
+      "id": "markt-platz-east-main-task-1",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "German Heritage Detail"
+      },
+      "prompt": {
+        "en": "Find a piece of German-style architecture, like half-timbering or intricate stonework, and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-2",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Sweet Treat Selfie"
+      },
+      "prompt": {
+        "en": "Grab a pastry, coffee, or gelato from a local shop and take a selfie enjoying your treat with a historic building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-3",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Historic Signage"
+      },
+      "prompt": {
+        "en": "Find a business sign that looks like it has been here for decades. Capture its classic design and lettering."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-4",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Oak and Stone"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between a sturdy Texas live oak tree and the stone of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-5",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Take a photo of a public bench, a biergarten table, or a courtyard that looks like a welcoming place for the community to gather."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-6",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find an interesting shop window display and take a creative photo of its reflection, capturing the street scene in the glass."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-7",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "A Taste of Germany"
+      },
+      "prompt": {
+        "en": "Photograph a German dish or a sign with a German word on it (like 'Willkommen' or 'Biergarten')."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-8",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm light from a shop or restaurant spilling onto the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-9",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Many buildings have hidden courtyards or gardens. Peek down an alley or through a gate and snap a photo of a secret green space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-10",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Sounds of the Street"
+      },
+      "prompt": {
+        "en": "Take a photo of something that is making a sound unique to this area: a street musician, chatter from a patio, or a historic church bell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-11",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Symmetrical Shot"
+      },
+      "prompt": {
+        "en": "Find a building facade, doorway, or window with perfect symmetry and take a head-on photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "markt-platz-east-main-task-12",
+      "neighborhood_id": "markt-platz-east-main",
+      "title": {
+        "en": "Modern Meets Historic"
+      },
+      "prompt": {
+        "en": "Capture a photo that includes both a modern element (like a new car or a contemporary sign) and a historic architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-1",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Pioneer Texture"
+      },
+      "prompt": {
+        "en": "Find a wall made of old, rough-hewn stone or weathered wood and take a close-up photo focusing on its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-2",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Craft Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of a sign, logo, or piece of equipment related to craft brewing or another local craft."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-3",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a photo through an old window or doorway to capture a modern scene, creating a past-meets-present contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-4",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Relaxed Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a selfie that captures the laid-back, less-crowded vibe of the West End."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-5",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Historic Hardware"
+      },
+      "prompt": {
+        "en": "Look for a piece of old, functional hardware on a building, like an iron hinge, a door handle, or a pulley, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-6",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot—a library garden, a quiet porch, an empty alley—and capture the sense of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-7",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Feed Store Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a building that has clearly been repurposed, showing how its new use coexists with its historic structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-8",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Artful Brew"
+      },
+      "prompt": {
+        "en": "Take a photo of a craft beer, focusing on its color and head, with a rustic background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-9",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "In the late afternoon, find an interesting shadow cast by a historic building or tree and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-10",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Specialty Shop"
+      },
+      "prompt": {
+        "en": "This area has more specialized shops. Find one that looks unique and capture its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-11",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "The Color of History"
+      },
+      "prompt": {
+        "en": "Find a pop of color on an otherwise neutral historic building—a brightly painted door, a flower box, or a colorful sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-brewery-scene-task-12",
+      "neighborhood_id": "west-end-brewery-scene",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Take a photo of a public building, like the library or museum, that shows its importance to the community."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-1",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Tex-Mex Taste"
+      },
+      "prompt": {
+        "en": "Capture a photo of a classic Tex-Mex dish like breakfast tacos or sizzling fajitas, or find a restaurant with a vibrant, colorful sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-2",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Hill Country Horizon"
+      },
+      "prompt": {
+        "en": "Find a spot where the town gives way to the landscape and take a photo of the rolling Hill Country in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-3",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Sunday House Seeker"
+      },
+      "prompt": {
+        "en": "Walk down a residential street and photograph a small, simple house that you think might be a historic 'Sunday House'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-4",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Local Life"
+      },
+      "prompt": {
+        "en": "Take a candid photo that captures the everyday rhythm of this neighborhood—someone walking their dog, neighbors chatting, or a local diner scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-5",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Peach Capital"
+      },
+      "prompt": {
+        "en": "Find something related to peaches—a roadside stand, a sign, a mural, or even a peach-flavored item on a menu—and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-6",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Patio Views"
+      },
+      "prompt": {
+        "en": "Find a welcoming patio at a restaurant or bar and take a photo that makes you want to sit down and relax."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-7",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Texas Symbol"
+      },
+      "prompt": {
+        "en": "Find a symbol of Texas culture—a pickup truck, a cowboy hat, a Texas flag, or a prickly pear cactus—and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-8",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "At sunset, capture the warm, golden light hitting the landscape or a residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-9",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Photograph a house or yard that has a unique, personal touch—like a quirky mailbox, a beautiful garden, or holiday decorations."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-10",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Off the Beaten Path"
+      },
+      "prompt": {
+        "en": "Take a photo of a business or scene that feels completely authentic and off the main tourist trail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-11",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Where Town Meets Country"
+      },
+      "prompt": {
+        "en": "Find a street that seems to end right where the countryside begins. Capture this transition in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southern-edge-tex-mex-soul-task-12",
+      "neighborhood_id": "southern-edge-tex-mex-soul",
+      "title": {
+        "en": "Local Hangout Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie outside a place that looks like a genuine local hangout, whether it's a diner, a dive bar, or a corner store."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

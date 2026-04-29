@@ -1,0 +1,358 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-carmel-village",
+      "city_id": "carmel-by-the-sea-ca",
+      "name": {
+        "en": "Downtown Carmel Village"
+      },
+      "summary": {
+        "en": "Experience a village of relaxed, artistic sophistication, designed for pedestrians. Its one-square-mile downtown is a labyrinth of secret courtyards, whimsical architecture, and independent shops, all within earshot of the Pacific."
+      },
+      "lat": 36.5552,
+      "lng": -121.9232,
+      "trending_score": 95
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-carmel-village-carmel-belle",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "Carmel Belle"
+      },
+      "description": {
+        "en": "Tucked away in the Doud Craft Studios, this bright, farm-chic cafe is a local’s secret for wholesome, seasonal fare and a relaxed mid-day coffee."
+      },
+      "type": "drink",
+      "lat": 36.5555,
+      "lng": -121.9228,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-carmel-village-terrys-lounge",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "Terry's Restaurant + Lounge"
+      },
+      "description": {
+        "en": "Located in the historic Cypress Inn, this spot is steeped in old Carmel charm, with a magical garden courtyard perfect for a classic cocktail."
+      },
+      "type": "drink",
+      "lat": 36.5547,
+      "lng": -121.9238,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-carmel-village-il-tegamino",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "Il Tegamino"
+      },
+      "description": {
+        "en": "This tiny Italian restaurant, tucked in a hidden courtyard, embodies the spirit of Carmel discovery with its authentic pasta and romantic al fresco seating."
+      },
+      "type": "food",
+      "lat": 36.5552,
+      "lng": -121.9242,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-carmel-village-cultura",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "Cultura Comida y Bebida"
+      },
+      "description": {
+        "en": "An intimate spot offering an elevated take on Oaxacan cuisine, featuring complex flavors, a rare mezcal collection, and a warm atmosphere with outdoor fire pits."
+      },
+      "type": "food",
+      "lat": 36.5568,
+      "lng": -121.9211,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-carmel-village-hidden-courtyards",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "The Hidden Courtyards & Passageways"
+      },
+      "description": {
+        "en": "Explore the village's web of over 40 secret alleys and courtyards, which reveal hidden fountains, gardens, and shops. Getting lost here is the main attraction."
+      },
+      "type": "hidden_gem",
+      "lat": 36.555,
+      "lng": -121.9235,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-carmel-village-golden-bough-playhouse",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "Golden Bough Playhouse"
+      },
+      "description": {
+        "en": "A landmark with a fiery past, this theater stands as a testament to the artistic resilience of the community, rebuilt twice after fires."
+      },
+      "type": "culture",
+      "lat": 36.5532,
+      "lng": -121.9255,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-carmel-village-forest-theater",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "Forest Theater"
+      },
+      "description": {
+        "en": "Visit one of the oldest outdoor amphitheaters west of the Rockies, a magical and peaceful community treasure set among Monterey Pines."
+      },
+      "type": "culture",
+      "lat": 36.5525,
+      "lng": -121.9185,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-carmel-village-cypress-inn",
+      "city_id": "carmel-by-the-sea-ca",
+      "neighborhood_id": "downtown-carmel-village",
+      "name": {
+        "en": "Cypress Inn"
+      },
+      "description": {
+        "en": "A historic, dog-friendly inn once co-owned by screen legend Doris Day, embodying the classic charm and animal-loving spirit of old Carmel."
+      },
+      "type": "landmark",
+      "lat": 36.5547,
+      "lng": -121.9238,
+      "trending_score": 82
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-carmel-village-task-1",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Fairytale Architecture"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it's straight out of a storybook and capture its most charming detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-2",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Secret Garden Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a hidden courtyard or a small garden tucked away from the main street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-3",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Artistic Soul"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art, a gallery window, or another detail that reflects Carmel's history as an arts colony."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-4",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Alleyway Explorer"
+      },
+      "prompt": {
+        "en": "Find a narrow, lantern-lit passageway and take a photo looking through it to the other side."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-5",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Canine Celebrity"
+      },
+      "prompt": {
+        "en": "Carmel is famously dog-friendly. Find a pampered pooch and, with the owner's permission, snap a picture of a four-legged resident."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-6",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "No Chains Allowed"
+      },
+      "prompt": {
+        "en": "Take a photo of an independent shop or restaurant sign that has a unique, non-corporate design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-7",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Window Shopping Wonder"
+      },
+      "prompt": {
+        "en": "Find a boutique with an artfully arranged window display and capture its creativity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-8",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Sweet Treat Temptation"
+      },
+      "prompt": {
+        "en": "Photograph a mouth-watering pastry, candy, or ice cream through a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-9",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Cobblestone & Color"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot that highlights the texture of a stone-paved alley, with a splash of floral color in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-10",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Name That Cottage"
+      },
+      "prompt": {
+        "en": "Many houses in Carmel have names instead of numbers. Find a house with a name plaque and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-11",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Fountain Finder"
+      },
+      "prompt": {
+        "en": "Many courtyards have hidden fountains. Find one and take a creative photo of the water feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-12",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Architectural Whimsy"
+      },
+      "prompt": {
+        "en": "Find a building with a uniquely shaped roof, a turret, or an unusual window and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-13",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Without using flash, take a photo of an interesting piece of art through the window of one of Carmel's many galleries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-14",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Shadows and Light"
+      },
+      "prompt": {
+        "en": "Play with the natural light and shadows in a narrow alleyway or under a large tree to create a dramatic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-15",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Floral Frame"
+      },
+      "prompt": {
+        "en": "Use the abundant flowers and vines found throughout the village to frame a shot of a charming building or street scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-16",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Cozy Corner"
+      },
+      "prompt": {
+        "en": "Find a restaurant or cafe with an inviting outdoor fireplace or heat lamp and capture its warm glow."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-17",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "A Walker's Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo of your shoes on a particularly interesting cobblestone or tiled pathway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-carmel-village-task-18",
+      "neighborhood_id": "downtown-carmel-village",
+      "title": {
+        "en": "Sign Language"
+      },
+      "prompt": {
+        "en": "Find a beautifully crafted, hand-carved, or painted sign for a shop or inn and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -51,8 +51,7 @@ docs/                           # DATA_COVERAGE_REPORT and other standing docs
 Tracked as GitHub issues:
 
 - **#5** — SRE: alert pipe on aggregate `AUDIT_DELETION` waypoint counts (Cloud Logging → BigQuery → Alert Policy)
-- **#6** — Tier-aware deletion floor for small Phase C audit samples (being addressed in PR #39)
-- **#7** — Phase A scraper prompt-injection defense (boundary markers + ignore-instructions guard)
+- **#7** — Phase A scraper prompt-injection defense (Phase B fix in PR #42 pending merge; Phase A scraper wrapping remains)
 - **#8** — Sanitize city-ID arguments in `batch_research.py` subprocess calls
 - **#9** — Replace personal email with role-based address in scraper User-Agents
 - **#12** — CI smoke-test on entry-point scripts (catches the porting-miss class of bugs at port time)

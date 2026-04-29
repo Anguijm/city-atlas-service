@@ -1,0 +1,735 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-mcintire",
+      "city_id": "salem-ma",
+      "name": {
+        "en": "Downtown & The McIntire Historic District"
+      },
+      "summary": {
+        "en": "Salem’s historic and commercial heart, a neighborhood of contrasts where magnificent Federal-style mansions stand blocks away from kitschy statues and modern decay."
+      },
+      "lat": 42.5215,
+      "lng": -70.895,
+      "trending_score": 95
+    },
+    {
+      "id": "waterfront",
+      "city_id": "salem-ma",
+      "name": {
+        "en": "The Waterfront: Pickering Wharf & Derby Street"
+      },
+      "summary": {
+        "en": "This is where Salem's maritime soul resides, with the smell of salt in the air and the sound of rigging clinking against masts. It's a blend of a working waterfront and a polished tourist destination."
+      },
+      "lat": 42.5205,
+      "lng": -70.887,
+      "trending_score": 90
+    },
+    {
+      "id": "salem-willows-winter-island",
+      "city_id": "salem-ma",
+      "name": {
+        "en": "Salem Willows & Winter Island"
+      },
+      "summary": {
+        "en": "The city’s nostalgic, communal backyard, this area offers an old-fashioned amusement park feel, coastal views, and a more rugged park experience away from the downtown crowds."
+      },
+      "lat": 42.527,
+      "lng": -70.867,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-mcintire-goodnight-fatty",
+      "city_id": "salem-ma",
+      "neighborhood_id": "downtown-mcintire",
+      "name": {
+        "en": "Goodnight Fatty"
+      },
+      "description": {
+        "en": "A beloved local institution with a cult-like following, serving warm, gooey cookies and soft-serve ice cream on weekends with a secret, rotating menu."
+      },
+      "type": "food",
+      "lat": 42.5221,
+      "lng": -70.8935,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-mcintire-hamilton-hall",
+      "city_id": "salem-ma",
+      "neighborhood_id": "downtown-mcintire",
+      "name": {
+        "en": "Hamilton Hall"
+      },
+      "description": {
+        "en": "A masterwork by renowned architect Samuel McIntire, this hall is a testament to the immense wealth generated during Salem's 'Age of Sail'."
+      },
+      "type": "landmark",
+      "lat": 42.5194,
+      "lng": -70.8962,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-mcintire-bewitched-statue",
+      "city_id": "salem-ma",
+      "neighborhood_id": "downtown-mcintire",
+      "name": {
+        "en": "The \"Bewitched\" Statue"
+      },
+      "description": {
+        "en": "A controversial bronze statue of Elizabeth Montgomery that embodies Salem’s ongoing identity crisis between its real history and pop culture fame."
+      },
+      "type": "landmark",
+      "lat": 42.5206,
+      "lng": -70.8939,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-mcintire-witch-city-mall",
+      "city_id": "salem-ma",
+      "neighborhood_id": "downtown-mcintire",
+      "name": {
+        "en": "Witch City Mall"
+      },
+      "description": {
+        "en": "A case study in urban decay and perseverance, where small businesses operate within a privately-owned mall showing significant signs of neglect."
+      },
+      "type": "hidden_gem",
+      "lat": 42.5224,
+      "lng": -70.893,
+      "trending_score": 65
+    },
+    {
+      "id": "downtown-mcintire-chestnut-street",
+      "city_id": "salem-ma",
+      "neighborhood_id": "downtown-mcintire",
+      "name": {
+        "en": "Chestnut Street"
+      },
+      "description": {
+        "en": "A stunningly preserved avenue of grand, Federal-style mansions that feels a world away from the witch tourism just blocks away."
+      },
+      "type": "landmark",
+      "lat": 42.519,
+      "lng": -70.897,
+      "trending_score": 88
+    },
+    {
+      "id": "waterfront-jaho-coffee",
+      "city_id": "salem-ma",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Jaho Coffee & Tea"
+      },
+      "description": {
+        "en": "A reliable spot for excellent coffee and tea with a harbor view, consistently pointed to by locals as the real deal among more tourist-focused businesses."
+      },
+      "type": "drink",
+      "lat": 42.5205,
+      "lng": -70.8865,
+      "trending_score": 90
+    },
+    {
+      "id": "waterfront-friendship-of-salem",
+      "city_id": "salem-ma",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Friendship of Salem"
+      },
+      "description": {
+        "en": "A full-scale replica of a 1797 East Indiaman merchant ship that serves as a powerful visual reminder of the global trade that built the city."
+      },
+      "type": "landmark",
+      "lat": 42.5195,
+      "lng": -70.8875,
+      "trending_score": 95
+    },
+    {
+      "id": "waterfront-fame-of-salem",
+      "city_id": "salem-ma",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "The Fame of Salem"
+      },
+      "description": {
+        "en": "A living piece of history, this replica of a famously fast War of 1812 privateer takes customers for cruises around the harbor."
+      },
+      "type": "culture",
+      "lat": 42.521,
+      "lng": -70.885,
+      "trending_score": 85
+    },
+    {
+      "id": "waterfront-maritime-historic-site",
+      "city_id": "salem-ma",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Salem Maritime National Historic Site"
+      },
+      "description": {
+        "en": "The nation's first National Historic Site, preserving the wharves, warehouses, and Custom House from Salem's 'Age of Sail'."
+      },
+      "type": "landmark",
+      "lat": 42.5198,
+      "lng": -70.888,
+      "trending_score": 92
+    },
+    {
+      "id": "waterfront-custom-house",
+      "city_id": "salem-ma",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "The Custom House"
+      },
+      "description": {
+        "en": "The grand building where Nathaniel Hawthorne worked and was inspired to write 'The Scarlet Letter', a centerpiece of the historic waterfront."
+      },
+      "type": "landmark",
+      "lat": 42.5199,
+      "lng": -70.8888,
+      "trending_score": 89
+    },
+    {
+      "id": "waterfront-pickering-wharf",
+      "city_id": "salem-ma",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Pickering Wharf"
+      },
+      "description": {
+        "en": "A lively wharf area that blends tourist shops and restaurants with the authentic atmosphere of a working marina and harbor."
+      },
+      "type": "landmark",
+      "lat": 42.521,
+      "lng": -70.886,
+      "trending_score": 88
+    },
+    {
+      "id": "salem-willows-hobbs-popcorn",
+      "city_id": "salem-ma",
+      "neighborhood_id": "salem-willows-winter-island",
+      "name": {
+        "en": "Hobbs' Popcorn"
+      },
+      "description": {
+        "en": "A multi-generational North Shore legend whose signature scent of fresh popcorn defines the atmosphere of Salem Willows."
+      },
+      "type": "food",
+      "lat": 42.5275,
+      "lng": -70.8685,
+      "trending_score": 96
+    },
+    {
+      "id": "salem-willows-arcade",
+      "city_id": "salem-ma",
+      "neighborhood_id": "salem-willows-winter-island",
+      "name": {
+        "en": "The Willows Arcade"
+      },
+      "description": {
+        "en": "A time warp of Skee-Ball, vintage pinball, and classic ticket-redemption games offering a dose of pure, uncomplicated fun."
+      },
+      "type": "culture",
+      "lat": 42.5277,
+      "lng": -70.8688,
+      "trending_score": 85
+    },
+    {
+      "id": "salem-willows-beachfront-viewpoint",
+      "city_id": "salem-ma",
+      "neighborhood_id": "salem-willows-winter-island",
+      "name": {
+        "en": "The Beachfront Viewpoint"
+      },
+      "description": {
+        "en": "A peaceful spot offering a unique vantage point with panoramic views of the coastline from Beverly to Marblehead."
+      },
+      "type": "viewpoint",
+      "lat": 42.528,
+      "lng": -70.867,
+      "trending_score": 82
+    },
+    {
+      "id": "salem-willows-winter-island-park",
+      "city_id": "salem-ma",
+      "neighborhood_id": "salem-willows-winter-island",
+      "name": {
+        "en": "Winter Island Park"
+      },
+      "description": {
+        "en": "A former Coast Guard station offering a rugged coastal experience with old fortifications, a historic lighthouse, and sweeping views of Salem Sound."
+      },
+      "type": "nature",
+      "lat": 42.525,
+      "lng": -70.862,
+      "trending_score": 80
+    },
+    {
+      "id": "salem-willows-fort-pickering-lighthouse",
+      "city_id": "salem-ma",
+      "neighborhood_id": "salem-willows-winter-island",
+      "name": {
+        "en": "Fort Pickering Lighthouse"
+      },
+      "description": {
+        "en": "A historic lighthouse situated on a rocky shoreline within Winter Island Park, offering a dramatic coastal scene."
+      },
+      "type": "landmark",
+      "lat": 42.523,
+      "lng": -70.86,
+      "trending_score": 84
+    },
+    {
+      "id": "salem-willows-salem-willows-park",
+      "city_id": "salem-ma",
+      "neighborhood_id": "salem-willows-winter-island",
+      "name": {
+        "en": "Salem Willows Park"
+      },
+      "description": {
+        "en": "Named for the graceful white willow trees planted in 1801, this public park is the city's charming, old-fashioned communal backyard."
+      },
+      "type": "nature",
+      "lat": 42.527,
+      "lng": -70.869,
+      "trending_score": 90
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-mcintire-task-1",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic building stands next to a modern one. Take a photo that captures the contrast between the two eras."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-2",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Federal Details"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of an architectural detail on a Federal-style mansion, like an ornate doorway, a fanlight window, or an iron fence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-3",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Kitsch and Cobblestones"
+      },
+      "prompt": {
+        "en": "Photograph a witch-themed object or sign that feels amusingly out of place against the backdrop of serious colonial history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-4",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Historic Marker Selfie"
+      },
+      "prompt": {
+        "en": "Find any historical marker or plaque on a building or sidewalk and take a selfie with it, looking studious."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-5",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "The Un-Witched Business"
+      },
+      "prompt": {
+        "en": "Discover and photograph the storefront of a local, independent business that has nothing to do with witches or tourism."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-6",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Urban Decay Story"
+      },
+      "prompt": {
+        "en": "Find a detail that tells a story of urban decay—a cracked brick, a faded sign, a neglected corner—and capture it in a poignant photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-7",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Reflections of History"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic building's reflection in a modern window or a puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-8",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Local Cafe Moment"
+      },
+      "prompt": {
+        "en": "Grab a coffee or snack from a local spot and take an artistic photo of it with the street scene in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-9",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Play with light and shadow. Capture a photo where the long shadows of historic buildings create interesting patterns on the street or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-10",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Find a narrow alley or backstreet and take a photo looking down it, capturing its unique texture and atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-11",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Puritan Pose"
+      },
+      "prompt": {
+        "en": "Against a brick or colonial-style backdrop, take a selfie with a very stern, serious, 17th-century Puritan expression."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-mcintire-task-12",
+      "neighborhood_id": "downtown-mcintire",
+      "title": {
+        "en": "Find the Date"
+      },
+      "prompt": {
+        "en": "Search for a building with its construction date carved or mounted on it. Take a photo of the date."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-1",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Nautical Knots"
+      },
+      "prompt": {
+        "en": "Find a thick rope used to tie up a boat and take a detailed, close-up photo of the rope, the cleat, or the knot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-2",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Sailor's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the masts of the tall ships in the background. Bonus points for a windswept look!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-3",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Harbor Reflections"
+      },
+      "prompt": {
+        "en": "Capture a photo of a boat, building, or the sky reflected in the harbor water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-4",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "The Sea Breeze"
+      },
+      "prompt": {
+        "en": "Photograph a flag (any flag!) flying in the wind against the sky or water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-5",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Weathered Wood"
+      },
+      "prompt": {
+        "en": "Find a pier, piling, or bench with weathered, textured wood and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-6",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "A Gull's Life"
+      },
+      "prompt": {
+        "en": "Take a picture of a seagull. Try to capture it in a unique pose—in flight, perched on a piling, or watching the world go by."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-7",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "What's in a Name?"
+      },
+      "prompt": {
+        "en": "Find a boat in the marina and take a photo of its name painted on the hull."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-8",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Lines Against the Sky"
+      },
+      "prompt": {
+        "en": "Look up! Frame a photo of the rigging and masts of a ship, creating a complex pattern of lines against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-9",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Drink with a View"
+      },
+      "prompt": {
+        "en": "Get a drink from a local cafe and photograph it on a table with the harbor blurred in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-10",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Maritime Industry"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows this is a 'working' waterfront—a lobster trap, a fishing boat, or someone working on their vessel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-11",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Land Ahoy!"
+      },
+      "prompt": {
+        "en": "Pose for a selfie while shielding your eyes with your hand, as if you're a sailor spotting land for the first time in months."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-12",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Brick and Brine"
+      },
+      "prompt": {
+        "en": "Take a photo that features both the historic red brick of a waterfront warehouse and a view of the water in the same shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-1",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Arcade Light Show"
+      },
+      "prompt": {
+        "en": "Capture the energy of the arcade by taking a photo of the flashing lights and vibrant colors of the games."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-2",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Willow's Embrace"
+      },
+      "prompt": {
+        "en": "Take a photo looking up through the branches of one of the park's namesake willow trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-3",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Summer Treat Portrait"
+      },
+      "prompt": {
+        "en": "Get a classic summer treat like popcorn or ice cream and take a 'food portrait' of it with the park or arcade blurred in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-4",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Coastal Panorama"
+      },
+      "prompt": {
+        "en": "From the beach or a viewpoint, take a panoramic photo that captures the sweep of the coastline and the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-5",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Winner's Circle Selfie"
+      },
+      "prompt": {
+        "en": "In front of an arcade game, take a selfie with your most triumphant 'I just won the jackpot!' expression."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-6",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Rugged Shoreline"
+      },
+      "prompt": {
+        "en": "On Winter Island, take a dramatic photo of the rocky shore meeting the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-7",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Military Remnant"
+      },
+      "prompt": {
+        "en": "Find a piece of the island's military past—like a concrete bunker or fortification—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-8",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Nostalgic Moment"
+      },
+      "prompt": {
+        "en": "Capture a scene that feels timeless and nostalgic—kids playing, a family on a picnic blanket, or an old-fashioned park bench."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-9",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Beach Treasure"
+      },
+      "prompt": {
+        "en": "Find an interesting object on the beach—a unique rock, a piece of sea glass, or a shell—and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-10",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "View to a Neighbor"
+      },
+      "prompt": {
+        "en": "Look across the water and take a photo of a landmark in a neighboring town, like a lighthouse or church steeple."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-11",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Sunset Silhouette"
+      },
+      "prompt": {
+        "en": "If you're here at the end of the day, capture a silhouette of a person, a tree, or a building against the sunset over the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "salem-willows-winter-island-task-12",
+      "neighborhood_id": "salem-willows-winter-island",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Find a walking path or trail in one of the parks and take a photo from a low angle, making it look like an invitation to an adventure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

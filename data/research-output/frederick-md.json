@@ -1,0 +1,585 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-core-frederick",
+      "city_id": "frederick-md",
+      "name": {
+        "en": "The Historic Core"
+      },
+      "summary": {
+        "en": "The cultural and creative engine of Frederick, where historic brick buildings house theaters, shops, and grand hotels."
+      },
+      "lat": 39.4148,
+      "lng": -77.4115,
+      "trending_score": 85
+    },
+    {
+      "id": "east-arts-frederick",
+      "city_id": "frederick-md",
+      "name": {
+        "en": "East Side Arts District"
+      },
+      "summary": {
+        "en": "The real character of downtown is found on the side streets, with hidden culinary gems, artist-run spaces, and ambitious public art."
+      },
+      "lat": 39.4155,
+      "lng": -77.4075,
+      "trending_score": 90
+    },
+    {
+      "id": "baker-park-west-side",
+      "city_id": "frederick-md",
+      "name": {
+        "en": "Baker Park & The West Side"
+      },
+      "summary": {
+        "en": "A serene and surprising area for meandering, centered around a green expanse, quiet residential streets, and hidden statues."
+      },
+      "lat": 39.415,
+      "lng": -77.421,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-core-frederick-the-dreaming",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core-frederick",
+      "name": {
+        "en": "The Dreaming (Glass Art Installation)"
+      },
+      "description": {
+        "en": "A massive, multi-layered glass art installation by artist William Cochran that creates a dreamlike, distorted reflection of the historic streetscape."
+      },
+      "type": "landmark",
+      "lat": 39.4146,
+      "lng": -77.412,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-core-frederick-met",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core-frederick",
+      "name": {
+        "en": "Maryland Ensemble Theatre (MET)"
+      },
+      "description": {
+        "en": "A professional theatre company in an intimate venue on the lower level of a historic hotel, known for new plays and its improv troupe."
+      },
+      "type": "culture",
+      "lat": 39.416,
+      "lng": -77.4108,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-core-frederick-weinberg-center",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core-frederick",
+      "name": {
+        "en": "Weinberg Center for the Arts"
+      },
+      "description": {
+        "en": "A historic theater that serves as a key landmark in the city's cultural district, reflected in the nearby 'The Dreaming' art installation."
+      },
+      "type": "culture",
+      "lat": 39.4147,
+      "lng": -77.4122,
+      "trending_score": 85
+    },
+    {
+      "id": "east-arts-frederick-rockwell-brewery",
+      "city_id": "frederick-md",
+      "neighborhood_id": "east-arts-frederick",
+      "name": {
+        "en": "Rockwell Brewery"
+      },
+      "description": {
+        "en": "A no-frills local brewery deeply embedded in the community, often hosting concerts and events for local bands."
+      },
+      "type": "drink",
+      "lat": 39.4168,
+      "lng": -77.4058,
+      "trending_score": 90
+    },
+    {
+      "id": "baker-park-west-side-carillon",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-west-side",
+      "name": {
+        "en": "Joseph Dill Baker Carillon"
+      },
+      "description": {
+        "en": "A beautiful, historic 49-bell tower in Baker Park where the city carillonneur performs a live recital every Sunday."
+      },
+      "type": "landmark",
+      "lat": 39.4158,
+      "lng": -77.4195,
+      "trending_score": 89
+    },
+    {
+      "id": "baker-park-west-side-bull-calf-statues",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-west-side",
+      "name": {
+        "en": "The Bull & Calf Statues"
+      },
+      "description": {
+        "en": "A piece of local lore and a fantastic scavenger hunt to find a life-size bull statue hidden in an alley near its calf."
+      },
+      "type": "hidden_gem",
+      "lat": 39.417,
+      "lng": -77.423,
+      "trending_score": 85
+    },
+    {
+      "id": "baker-park-west-side-amphitheater",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-west-side",
+      "name": {
+        "en": "Baker Park Amphitheater"
+      },
+      "description": {
+        "en": "A large outdoor venue that is the center of gravity for community events and music, especially during the summer."
+      },
+      "type": "culture",
+      "lat": 39.414,
+      "lng": -77.424,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-core-frederick-task-1",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Find the most interesting brick pattern you can and take a close-up, artistic shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-2",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Historic Reflection"
+      },
+      "prompt": {
+        "en": "Take a selfie in the reflection of a historic building's window. Try to capture both your face and the streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-3",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Then & Now"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it has a modern business inside a very old structure. Capture this contrast in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-4",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Secret Signage"
+      },
+      "prompt": {
+        "en": "Look up! Find a 'ghost sign' (an old, faded hand-painted advertisement) on the side of a brick building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-5",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Main Street Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the bustling energy of the main commercial street in this district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-6",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail—like a gargoyle, a unique window, or ornate ironwork—and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-7",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Theater District Drama"
+      },
+      "prompt": {
+        "en": "Find a theater marquee or a poster for a play and take a dramatic, low-angle shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-8",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Taste of History"
+      },
+      "prompt": {
+        "en": "Find a cafe or restaurant that looks like it's been here for decades. Take a photo of its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-9",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "City Colors"
+      },
+      "prompt": {
+        "en": "Create a photo that features three distinct colors you see on the historic buildings around you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-10",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Look Down"
+      },
+      "prompt": {
+        "en": "Find an interesting manhole cover, brick sidewalk pattern, or historical plaque on the ground and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-11",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Take a photo of the most creative or beautiful window display you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-frederick-task-12",
+      "neighborhood_id": "historic-core-frederick",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by one of the historic buildings or streetlights."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-1",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Alley Art"
+      },
+      "prompt": {
+        "en": "Explore a side street or alley and find a piece of unofficial street art—a sticker, a small stencil, or a mural. Photograph your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-2",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Creative Entrance"
+      },
+      "prompt": {
+        "en": "Find the most unique or colorful doorway you can and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-3",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Take a photo of a locally-owned business that seems to capture the creative spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-4",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Hidden Gem Selfie"
+      },
+      "prompt": {
+        "en": "Find a spot that feels like a secret—a tiny courtyard, a quiet corner, a hidden shop—and take a selfie there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-5",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Industrial vs. Artistic"
+      },
+      "prompt": {
+        "en": "Capture an image that shows a contrast between the industrial past (like old pipes or brickwork) and the creative present (like a mural or sculpture)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-6",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Sounds of the Side Street"
+      },
+      "prompt": {
+        "en": "Find a poster for a local band or event. Take a photo of it and look up the artist/event online."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-7",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Culinary Close-Up"
+      },
+      "prompt": {
+        "en": "Find a small, independent food spot and take an artful photo of their menu or a dish through the window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-8",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "The Unseen Angle"
+      },
+      "prompt": {
+        "en": "Take a photo of a well-known street from an unusual perspective, like from down low or through a narrow gap between buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-9",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Texture Hunt"
+      },
+      "prompt": {
+        "en": "Find and photograph three different textures in one frame: something smooth, something rough, and something metallic."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-10",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Artist's Mark"
+      },
+      "prompt": {
+        "en": "Find an artist's signature or tag on a piece of public art and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-11",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a place where it looks like locals gather—a brewery patio, a coffee shop, or a community board."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-arts-frederick-task-12",
+      "neighborhood_id": "east-arts-frederick",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo near Carroll Creek that incorporates water, brick, and a piece of public art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-1",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Park Panorama"
+      },
+      "prompt": {
+        "en": "Find a high point or open space and take a panoramic photo of the green expanse of the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-2",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Frame a shot of a park landmark (like a bridge or statue) using tree branches or leaves as a natural frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-3",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Peaceful Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or spot on the grass. Take a photo from your point of view that captures the feeling of tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-4",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Walk down a quiet residential street and photograph a house or garden that has unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-5",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Skyward Shot"
+      },
+      "prompt": {
+        "en": "Lie down on the grass (if you can!) and take a photo looking straight up at the sky through the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-6",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Listen Closely"
+      },
+      "prompt": {
+        "en": "Take a photo of the Carillon bell tower. If you can hear bells, mention what you hear in the caption!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-7",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Hidden Statue Hunt"
+      },
+      "prompt": {
+        "en": "Explore an alley or side path and find a quirky statue or piece of yard art. Take a photo of your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-8",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Find an interesting footpath or trail in the park and take a photo looking down its length, creating a sense of invitation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-9",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Water Feature"
+      },
+      "prompt": {
+        "en": "Find a creek, pond, or fountain and take a photo that focuses on the reflection on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-10",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Community Stage"
+      },
+      "prompt": {
+        "en": "Take a photo of the empty amphitheater stage from the perspective of a performer looking out at the audience."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-11",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Pocket Park Selfie"
+      },
+      "prompt": {
+        "en": "Find the smallest, most secluded green space you can and take a selfie enjoying the peace and quiet."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "baker-park-west-side-task-12",
+      "neighborhood_id": "baker-park-west-side",
+      "title": {
+        "en": "Seasonal Color"
+      },
+      "prompt": {
+        "en": "Find the most vibrant flower, colorful leaf, or other sign of the season in the park and take a macro shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

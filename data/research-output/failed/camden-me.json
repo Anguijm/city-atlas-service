@@ -1,0 +1,210 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-harborfront",
+      "city_id": "camden-me",
+      "name": {
+        "en": "Historic Downtown & Harborfront"
+      },
+      "summary": {
+        "en": "A compact and picturesque area where the classic New England main street meets the sea, with a cinematic and quietly artistic vibe."
+      },
+      "lat": 44.2098,
+      "lng": -69.065,
+      "trending_score": 95
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-harborfront-camden-harbor-park",
+      "city_id": "camden-me",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "name": {
+        "en": "Camden Harbor Park and Amphitheatre"
+      },
+      "description": {
+        "en": "A beautiful public space and living piece of film history, featured in the movie *In the Bedroom*, with stunning views of the harbor."
+      },
+      "type": "landmark",
+      "lat": 44.2085,
+      "lng": -69.0621,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-harborfront-mount-battie-summit",
+      "city_id": "camden-me",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "name": {
+        "en": "The Summit of Mount Battie"
+      },
+      "description": {
+        "en": "Offers a breathtaking panoramic vista of the town and harbor, famously used for the haunting final shots of the film *In the Bedroom*."
+      },
+      "type": "viewpoint",
+      "lat": 44.2242,
+      "lng": -69.0735,
+      "trending_score": 100
+    },
+    {
+      "id": "historic-downtown-harborfront-historic-welcome-arch",
+      "city_id": "camden-me",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "name": {
+        "en": "The Historic Welcome Arch (Location Scouting)"
+      },
+      "description": {
+        "en": "A cinematic landmark from *In the Bedroom* hiding in plain sight, representing the threshold into the historic town."
+      },
+      "type": "hidden_gem",
+      "lat": 44.2115,
+      "lng": -69.0648,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-harborfront-task-1",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Cinematic Scene"
+      },
+      "prompt": {
+        "en": "Find a view that looks like a movie still. Frame your shot carefully and capture the cinematic quality of the downtown harborfront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-2",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Maritime Details"
+      },
+      "prompt": {
+        "en": "Zoom in on a detail that screams 'New England harbor.' It could be a coiled rope, a colorful buoy, or the weathered wood of a pier."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-3",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Poet's Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet spot with a view and take a thoughtful selfie. In your caption, write a short, two-line poem inspired by the scenery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-4",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Main Street Story"
+      },
+      "prompt": {
+        "en": "Capture a photo of a historic building on the main street. Try to frame it in a way that tells a story about the town's past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-5",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Schooner Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with one of the classic schooners in the harbor as your backdrop. Try to capture the scale and elegance of the vessel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-6",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Look for a historical plaque or marker on a building. Take a photo of it and share the most interesting fact you learned."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-7",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Reflections in the Harbor"
+      },
+      "prompt": {
+        "en": "Photograph the reflection of the town or the boats in the harbor water. Play with the light and ripples to create an artistic, abstract image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-8",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "The Director's Chair"
+      },
+      "prompt": {
+        "en": "Find a bench with a great view and take a photo from that perspective, as if you're a film director scouting the perfect location."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-9",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "The report doesn't name specific spots, so find a local eatery that looks inviting. Snap a photo of your meal or drink and tell us what you discovered."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-10",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Artistic Vibe"
+      },
+      "prompt": {
+        "en": "Camden has an artistic spirit. Find a piece of public art, a gallery window, or a colorful detail that captures this creative energy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-11",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Mountain Meets Sea"
+      },
+      "prompt": {
+        "en": "Take a photo that captures both the harbor and the dramatic rise of Mount Battie in the background. This is the iconic Camden view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-harborfront-task-12",
+      "neighborhood_id": "historic-downtown-harborfront",
+      "title": {
+        "en": "Character Arrival"
+      },
+      "prompt": {
+        "en": "Take a photo of a doorway or entrance that looks like the perfect place for a character to enter a scene in a movie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

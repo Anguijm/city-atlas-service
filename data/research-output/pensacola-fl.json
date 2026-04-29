@@ -1,0 +1,924 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "pensacola-fl",
+      "name": {
+        "en": "Downtown Core / Palafox Place"
+      },
+      "summary": {
+        "en": "The energetic heart of Pensacola, where historic brick facades house a modern, bustling district of restaurants, bars, and cultural venues. This is where you’ll feel the city’s primary pulse."
+      },
+      "lat": 30.4101,
+      "lng": -87.2135,
+      "trending_score": 95
+    },
+    {
+      "id": "historic-village",
+      "city_id": "pensacola-fl",
+      "name": {
+        "en": "Historic Pensacola Village / Seville Square"
+      },
+      "summary": {
+        "en": "Step back in time in this meticulously preserved collection of Pensacola’s oldest homes and buildings, shaded by ancient, moss-draped live oaks. It’s quiet, contemplative, and rich with colonial history."
+      },
+      "lat": 30.4082,
+      "lng": -87.2105,
+      "trending_score": 88
+    },
+    {
+      "id": "waterfront",
+      "city_id": "pensacola-fl",
+      "name": {
+        "en": "The Waterfront / Port of Pensacola"
+      },
+      "summary": {
+        "en": "A dynamic mix of working port grit and recreational leisure, where shrimp boats and fishing charters are docked just steps from open-air restaurants. This area is about the authentic, bustling life of a Gulf Coast harbor."
+      },
+      "lat": 30.4065,
+      "lng": -87.2128,
+      "trending_score": 90
+    },
+    {
+      "id": "wisteria-quarter",
+      "city_id": "pensacola-fl",
+      "name": {
+        "en": "The Wisteria Quarter"
+      },
+      "summary": {
+        "en": "A quiet, deeply local residential pocket defined by a stunning canopy of mature oak trees that form a tunnel over the streets. It's the perfect place for a slow, aimless wander."
+      },
+      "lat": 30.4185,
+      "lng": -87.2001,
+      "trending_score": 75
+    },
+    {
+      "id": "perdido-key",
+      "city_id": "pensacola-fl",
+      "name": {
+        "en": "Perdido Key"
+      },
+      "summary": {
+        "en": "A classic Gulf Coast barrier island with a laid-back, sun-bleached personality. This is where the city gives way to white sand dunes, sea oats, and the turquoise Gulf."
+      },
+      "lat": 30.2795,
+      "lng": -87.5652,
+      "trending_score": 85
+    },
+    {
+      "id": "nas-periphery",
+      "city_id": "pensacola-fl",
+      "name": {
+        "en": "NAS Periphery"
+      },
+      "summary": {
+        "en": "Dominated by the sprawling Naval Air Station, this area is a destination for exploring monumental military history and accessing one of the most commanding coastal viewpoints in the region."
+      },
+      "lat": 30.3481,
+      "lng": -87.3064,
+      "trending_score": 82
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-the-fish-house",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Fish House"
+      },
+      "description": {
+        "en": "A Pensacola institution famous for its inventive Southern cuisine, especially its signature dish, 'Grits à Ya Ya'. Its dockside bar is a destination in itself."
+      },
+      "type": "food",
+      "lat": 30.4068,
+      "lng": -87.2125,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-core-atlas-oyster-house",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Atlas Oyster House"
+      },
+      "description": {
+        "en": "A casual, deck-focused spot right on the water, perfect for grabbing a cold beer or cocktail and watching the sun set over Seville Harbor."
+      },
+      "type": "drink",
+      "lat": 30.4071,
+      "lng": -87.2123,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-core-five-sisters-blues-cafe",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Five Sisters Blues Café"
+      },
+      "description": {
+        "en": "A soul food restaurant celebrated by locals for its authentic Southern cooking and live blues music, offering a grounded, soulful experience."
+      },
+      "type": "food",
+      "lat": 30.4095,
+      "lng": -87.2101,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-core-saenger-theatre",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Saenger Theatre"
+      },
+      "description": {
+        "en": "An opulent, Spanish Baroque-style theater from the 1920s. Its magnificent architecture and glowing marquee are a landmark of Palafox Place."
+      },
+      "type": "culture",
+      "lat": 30.4109,
+      "lng": -87.2136,
+      "trending_score": 94
+    },
+    {
+      "id": "downtown-core-vinyl-music-hall",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Vinyl Music Hall"
+      },
+      "description": {
+        "en": "A premier live music venue that hosts an eclectic mix of national touring acts and local bands."
+      },
+      "type": "nightlife",
+      "lat": 30.4125,
+      "lng": -87.2138,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-core-plaza-ferdinand-vii",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Plaza Ferdinand VII"
+      },
+      "description": {
+        "en": "A historic public park where Andrew Jackson accepted the transfer of Florida from Spain to the U.S. in 1821. A quiet, shady spot for a break."
+      },
+      "type": "landmark",
+      "lat": 30.4088,
+      "lng": -87.2125,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-core-vietnam-veterans-wall-south",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Vietnam Veterans' Wall South"
+      },
+      "description": {
+        "en": "A half-scale replica of the Vietnam Veterans Memorial in Washington, D.C., located in Veterans Memorial Park. A powerful and somber place for reflection."
+      },
+      "type": "landmark",
+      "lat": 30.4059,
+      "lng": -87.2158,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-village-historic-pensacola-village",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "historic-village",
+      "name": {
+        "en": "Historic Pensacola Village"
+      },
+      "description": {
+        "en": "An 8.5-acre complex of museums and historic homes where costumed interpreters bring the city's colonial past to life."
+      },
+      "type": "culture",
+      "lat": 30.4089,
+      "lng": -87.2111,
+      "trending_score": 95
+    },
+    {
+      "id": "historic-village-pensacola-museum-of-industry",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "historic-village",
+      "name": {
+        "en": "Pensacola Museum of Industry"
+      },
+      "description": {
+        "en": "A hidden gem offering a fascinating look at the industries that built the city, from lumber and fishing to the railroad."
+      },
+      "type": "culture",
+      "lat": 30.4092,
+      "lng": -87.2114,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-village-seville-square",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "historic-village",
+      "name": {
+        "en": "Seville Square"
+      },
+      "description": {
+        "en": "A beautiful, oak-canopied park that hosts numerous events and serves as one of the most peaceful and picturesque spots in the city."
+      },
+      "type": "nature",
+      "lat": 30.4078,
+      "lng": -87.2108,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-village-julee-cottage",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "historic-village",
+      "name": {
+        "en": "Julee Cottage"
+      },
+      "description": {
+        "en": "One of the oldest surviving buildings in Pensacola, notable for its unique 'to-the-sidewalk' construction style."
+      },
+      "type": "landmark",
+      "lat": 30.4093,
+      "lng": -87.2102,
+      "trending_score": 82
+    },
+    {
+      "id": "waterfront-joe-pattis-seafood",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Joe Patti's Seafood"
+      },
+      "description": {
+        "en": "A legendary, sprawling, and chaotic dockside seafood market. Grab fresh-made sushi or a prepared sandwich for a perfect, no-frills waterfront picnic."
+      },
+      "type": "food",
+      "lat": 30.4055,
+      "lng": -87.2201,
+      "trending_score": 100
+    },
+    {
+      "id": "waterfront-pensacola-bayfront-stadium",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Pensacola Bayfront Stadium"
+      },
+      "description": {
+        "en": "A multi-use park and stadium right on the water, offering a great public space for a walk with unobstructed views of the bay."
+      },
+      "type": "landmark",
+      "lat": 30.4075,
+      "lng": -87.2175,
+      "trending_score": 80
+    },
+    {
+      "id": "waterfront-seville-harbor-marina",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Seville Harbor Marina"
+      },
+      "description": {
+        "en": "Take a slow stroll along the docks to admire the variety of vessels, from sleek sailboats to rugged fishing trawlers."
+      },
+      "type": "landmark",
+      "lat": 30.4063,
+      "lng": -87.2115,
+      "trending_score": 85
+    },
+    {
+      "id": "wisteria-quarter-wisteria-tavern",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "wisteria-quarter",
+      "name": {
+        "en": "Wisteria Tavern"
+      },
+      "description": {
+        "en": "A true Pensacola dive bar and local institution. This tiny, beer-only tavern offers over 100 hand-picked craft and domestic beers."
+      },
+      "type": "hidden_gem",
+      "lat": 30.4189,
+      "lng": -87.2004,
+      "trending_score": 88
+    },
+    {
+      "id": "wisteria-quarter-miraflores-park",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "wisteria-quarter",
+      "name": {
+        "en": "Miraflores Park"
+      },
+      "description": {
+        "en": "A public green space that offers a quiet spot to relax under the trees, reflecting the tranquil character of the surrounding neighborhood."
+      },
+      "type": "nature",
+      "lat": 30.4177,
+      "lng": -87.2011,
+      "trending_score": 65
+    },
+    {
+      "id": "perdido-key-flora-bama-yacht-club",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "perdido-key",
+      "name": {
+        "en": "Flora-Bama Yacht Club"
+      },
+      "description": {
+        "en": "An iconic, open-air beach bar and seafood shack famous for live music and for inventing the 'Bushwacker' cocktail. Eat with your feet in the sand."
+      },
+      "type": "drink",
+      "lat": 30.2798,
+      "lng": -87.5655,
+      "trending_score": 100
+    },
+    {
+      "id": "perdido-key-the-florida-alabama-state-line",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "perdido-key",
+      "name": {
+        "en": "The Florida-Alabama State Line"
+      },
+      "description": {
+        "en": "A quirky geographical landmark where the Flora-Bama famously sits, site of the annual 'Interstate Mullet Toss'."
+      },
+      "type": "landmark",
+      "lat": 30.2801,
+      "lng": -87.5649,
+      "trending_score": 90
+    },
+    {
+      "id": "perdido-key-perdido-key-state-park",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "perdido-key",
+      "name": {
+        "en": "Perdido Key State Park"
+      },
+      "description": {
+        "en": "A protected park for a natural and peaceful beach experience, featuring pristine white-sand beaches and rolling dunes."
+      },
+      "type": "nature",
+      "lat": 30.2845,
+      "lng": -87.5241,
+      "trending_score": 85
+    },
+    {
+      "id": "perdido-key-innerlight-surf-shop",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "perdido-key",
+      "name": {
+        "en": "Innerlight Surf Shop"
+      },
+      "description": {
+        "en": "The area's go-to surf and skate shop for over 50 years. Rent a surfboard or paddleboard to embrace the coastal lifestyle."
+      },
+      "type": "shopping",
+      "lat": 30.2889,
+      "lng": -87.4582,
+      "trending_score": 75
+    },
+    {
+      "id": "nas-periphery-pensacola-lighthouse-and-museum",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "nas-periphery",
+      "name": {
+        "en": "Pensacola Lighthouse and Museum"
+      },
+      "description": {
+        "en": "Climb the 177 steps of this historic 1859 lighthouse for an unparalleled 360-degree view of the bay, Gulf, and NAS runways."
+      },
+      "type": "viewpoint",
+      "lat": 30.3481,
+      "lng": -87.3064,
+      "trending_score": 95
+    },
+    {
+      "id": "nas-periphery-fort-barrancas",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "nas-periphery",
+      "name": {
+        "en": "Fort Barrancas"
+      },
+      "description": {
+        "en": "A remarkable historic fort with layers of history. Explore the brick tunnels and ramparts that overlook the entrance to the bay."
+      },
+      "type": "landmark",
+      "lat": 30.3472,
+      "lng": -87.3033,
+      "trending_score": 90
+    },
+    {
+      "id": "nas-periphery-national-naval-aviation-museum",
+      "city_id": "pensacola-fl",
+      "neighborhood_id": "nas-periphery",
+      "name": {
+        "en": "National Naval Aviation Museum"
+      },
+      "description": {
+        "en": "A world-class museum home to hundreds of restored aircraft representing Navy, Marine Corps, and Coast Guard aviation."
+      },
+      "type": "culture",
+      "lat": 30.3488,
+      "lng": -87.3038,
+      "trending_score": 98
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Brick, Modern Vibe"
+      },
+      "prompt": {
+        "en": "Find a building with classic brick architecture and capture a photo that highlights a modern element, like a new sign, street art, or contemporary window display."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Palafox Pulse"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energetic pulse of the downtown streets. Focus on the movement of people, cars, or the buzz of an outdoor cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Southern Flavor"
+      },
+      "prompt": {
+        "en": "Photograph a dish or drink that feels quintessentially Southern. It could be seafood, a classic cocktail, or a soulful plate of food."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on a historic building—like an ornate cornice, a unique window, or ironwork—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "After dark, capture the glow of a neon sign or a beautifully lit storefront that adds to the neighborhood's vibrant nightlife."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "City Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a bustling street scene in the background that shows you're in the heart of the action."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shady Respite"
+      },
+      "prompt": {
+        "en": "Find a quiet, shady spot in a park or plaza and take a photo looking out towards the busy city streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Take a photo of something that represents the sound of downtown, whether it's a live music venue, a busy restaurant, or a historic marker telling a story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-1",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Oak & Moss"
+      },
+      "prompt": {
+        "en": "Capture the beauty of a majestic live oak tree draped in Spanish moss. Try to frame your shot to show its age and character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-2",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Whispers of the Past"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker on a building or in a park and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-3",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Colonial Colors"
+      },
+      "prompt": {
+        "en": "Photograph a historic home, focusing on the unique colors of its shutters, doors, or siding."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-4",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the quiet, contemplative vibe of this neighborhood. Look for an empty bench, a peaceful garden, or a silent street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-5",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Time Traveler Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a building that looks like it's from another century. Try to make your expression match the historical mood!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-6",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting patterns of light and shadow created by the large oak trees on the sidewalks and historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-7",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Architectural Story"
+      },
+      "prompt": {
+        "en": "Find a unique architectural style (like a Creole cottage or Greek Revival home) and photograph a detail that defines it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-village-task-8",
+      "neighborhood_id": "historic-village",
+      "title": {
+        "en": "Through the Branches"
+      },
+      "prompt": {
+        "en": "Frame a shot of a historic building or gazebo through the draping branches of a nearby tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-1",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Maritime Life"
+      },
+      "prompt": {
+        "en": "Take a photo of a boat—it could be a fishing trawler, a sailboat, or a shrimp boat—that you think has the most character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-2",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "The Working Port"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the 'working' part of the waterfront: ropes, nets, industrial equipment, or people at work."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-3",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Taste of the Gulf"
+      },
+      "prompt": {
+        "en": "Photograph some fresh seafood. It could be at a market, on a plate at a restaurant, or even being unloaded from a boat."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-4",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Harbor Reflections"
+      },
+      "prompt": {
+        "en": "Find a reflection of the boats, sky, or buildings in the harbor water and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-5",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Seaside Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the open water of Pensacola Bay and the docks in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-6",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Gull's Eye View"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at the sky, a boat mast, or a waterfront building, as if you were a seagull on the dock."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-task-7",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Salt & Diesel"
+      },
+      "prompt": {
+        "en": "Capture an image that evokes the smells of the harbor—the mix of salt water and diesel fuel. Think of rusty chains, fishing nets, or the side of a working boat."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wisteria-quarter-task-1",
+      "neighborhood_id": "wisteria-quarter",
+      "title": {
+        "en": "Tunnel of Trees"
+      },
+      "prompt": {
+        "en": "Find a street where the oak trees form a canopy overhead and take a photo looking down the 'tunnel'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wisteria-quarter-task-2",
+      "neighborhood_id": "wisteria-quarter",
+      "title": {
+        "en": "Secret Garden"
+      },
+      "prompt": {
+        "en": "Find a charming detail in someone's yard or garden (from the sidewalk, of course!) that makes the neighborhood feel special and hidden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wisteria-quarter-task-3",
+      "neighborhood_id": "wisteria-quarter",
+      "title": {
+        "en": "Local's Life"
+      },
+      "prompt": {
+        "en": "Take a photo of a charming, historic home that looks well-loved and lived-in. Focus on details like a porch swing, a welcome mat, or potted plants."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wisteria-quarter-task-4",
+      "neighborhood_id": "wisteria-quarter",
+      "title": {
+        "en": "Quiet Wanderer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet, tree-lined street that shows you've discovered this peaceful, residential pocket of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wisteria-quarter-task-5",
+      "neighborhood_id": "wisteria-quarter",
+      "title": {
+        "en": "Dappled Light"
+      },
+      "prompt": {
+        "en": "Capture the way the sunlight filters through the dense oak canopy, creating patterns of light and shadow on the street or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wisteria-quarter-task-6",
+      "neighborhood_id": "wisteria-quarter",
+      "title": {
+        "en": "Hidden Gem"
+      },
+      "prompt": {
+        "en": "Photograph a building or spot that looks unassuming from the outside but feels like it holds a secret, local history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "perdido-key-task-1",
+      "neighborhood_id": "perdido-key",
+      "title": {
+        "en": "Toes in the Sand"
+      },
+      "prompt": {
+        "en": "Take a photo from your point of view looking down at your feet in the white sand, with the turquoise Gulf water in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "perdido-key-task-2",
+      "neighborhood_id": "perdido-key",
+      "title": {
+        "en": "Beach Life"
+      },
+      "prompt": {
+        "en": "Capture a photo that sums up 'beach life'—it could be a colorful beach chair, a surfboard, a sandcastle, or someone relaxing by the waves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "perdido-key-task-3",
+      "neighborhood_id": "perdido-key",
+      "title": {
+        "en": "Sun-Bleached Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the sun, sand, and sea behind you. Bonus points for sunglasses and a laid-back expression!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "perdido-key-task-4",
+      "neighborhood_id": "perdido-key",
+      "title": {
+        "en": "Dunes & Sea Oats"
+      },
+      "prompt": {
+        "en": "Photograph the rolling white sand dunes and the sea oats that grow on them, showing the wild, natural side of the barrier island."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "perdido-key-task-5",
+      "neighborhood_id": "perdido-key",
+      "title": {
+        "en": "Coastal Cocktail"
+      },
+      "prompt": {
+        "en": "Find a beachside bar and take a picture of a colorful, tropical drink with the beach or water in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "perdido-key-task-6",
+      "neighborhood_id": "perdido-key",
+      "title": {
+        "en": "Wave Motion"
+      },
+      "prompt": {
+        "en": "Try to capture the motion of a wave as it crashes onto the shore. You can use a fast shutter speed to freeze the spray or a slow one to make it look misty."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "nas-periphery-task-1",
+      "neighborhood_id": "nas-periphery",
+      "title": {
+        "en": "Aviation Giant"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic aircraft, focusing on a detail that shows its scale and power, like a propeller, wing, or cockpit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "nas-periphery-task-2",
+      "neighborhood_id": "nas-periphery",
+      "title": {
+        "en": "Patriotic Colors"
+      },
+      "prompt": {
+        "en": "Find and photograph the American flag or other patriotic symbols that represent the military history of this area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "nas-periphery-task-3",
+      "neighborhood_id": "nas-periphery",
+      "title": {
+        "en": "Commanding View"
+      },
+      "prompt": {
+        "en": "From a high vantage point, capture a wide, panoramic photo of the coastline, bay, or the air station itself."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "nas-periphery-task-4",
+      "neighborhood_id": "nas-periphery",
+      "title": {
+        "en": "Historic Fortress"
+      },
+      "prompt": {
+        "en": "Photograph the weathered bricks or stone of a historic fort, capturing the texture and age of the structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "nas-periphery-task-5",
+      "neighborhood_id": "nas-periphery",
+      "title": {
+        "en": "Historian Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a major historical landmark, like the lighthouse or a fort, in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "nas-periphery-task-6",
+      "neighborhood_id": "nas-periphery",
+      "title": {
+        "en": "Sense of Scale"
+      },
+      "prompt": {
+        "en": "Take a photo that demonstrates the immense scale of this area. You can include a person next to a large aircraft or fort wall to show the size difference."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
