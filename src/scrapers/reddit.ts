@@ -25,14 +25,51 @@ const CITY_CACHE = path.join(__dirname, "..", "..", "configs", "global_city_cach
 const DEFAULT_INTERVAL_MS = 2000;
 const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)";
 
-// Mirror of scrape-wikipedia.ts's floor. Keeps both sources at the same quality
-// bar so Phase A sees consistent grounding.
-export const MIN_MARKDOWN_LENGTH = 500;
+// Minimum generated .md length — same tier values as wikipedia.ts, same rationale.
+// WHY these specific values:
+//   metro (500): A metro subreddit with real local content should produce a full
+//     section per post. If it doesn't, we likely hit r/travel with one passing mention.
+//   town (300): Town subreddits are smaller; 300 chars is one meaningful post + comments.
+//   village (250): Village communities are tiny. 250 chars can come from a single
+//     well-commented post. Floor cannot go below 201 — research_city.py's Phase A
+//     intake gate (lines 338, 459, 597) silently skips any source <= 200 chars,
+//     so a floor of 200 or below means the file gets written but Gemini never reads it.
+// Changing this: verify village floor stays > 200, run scrape-reddit vitest suite.
+export function minMarkdownLength(coverageTier?: string): number {
+  if (coverageTier === "village") return 250; // must stay > 200 (Phase A gate)
+  if (coverageTier === "town") return 300;    // smaller communities, thinner posts
+  return 500; // metro + unknown: requires substantive local discussion
+}
 
-// Gate threshold: when the city name only appears in selftext (not title),
-// require at least one comment with score >= this value to count as a real
-// discussion rather than a passing mention.
-const MIN_CORROBORATING_COMMENT_SCORE = 5;
+// Corroborating comment threshold for selftext-only city mentions.
+//
+// WHY this gate exists: title mentions are strong relevance signals on their own
+// (a post titled "Hidden gems in Marfa?" is clearly about Marfa). Selftext mentions
+// are weaker — r/travel round-ups name dozens of cities in a single post body. We
+// require at least one upvoted comment to confirm the post sparked real engagement
+// about that city rather than being a passing mention in a listicle.
+//
+// WHY score >= 5 for metro/town: Large-city subreddits (r/akron, r/bend) generate
+// dozens of comments on popular posts; a score of 5 is a low bar that filters out
+// only truly unengaged posts. For r/travel round-ups mentioning a city in passing,
+// comments about that specific city rarely accumulate even 5 upvotes.
+//
+// WHY score >= 1 for village: Village communities of 500–5,000 people don't generate
+// the comment volume that metros do. A post in r/marfa or a r/travel mention of Marfa
+// might have 2–3 total comments; requiring score >= 5 would reject substantive local
+// content. Score >= 1 means at least one net upvote — the post wasn't flagged as spam
+// or downvoted as noise. This is the minimum signal that differentiates a real comment
+// from automated or bot noise.
+//
+// Tradeoff accepted (PR #39): score >= 1 is more permissive than score >= 5 and will
+// let some lower-signal posts through for villages. The counterfactual is no Reddit
+// data at all for village-tier cities, which is worse for Gemini synthesis quality.
+// Phase C's hallucination audit is the downstream safety net for bad Gemini output.
+//
+// Changing these: re-run `npx vitest run src/__tests__/scrape-reddit.test.ts` and
+// verify the village passesQualityGate tests still reflect the intended behavior.
+const MIN_CORROBORATING_COMMENT_SCORE = 5;         // metro + town
+const MIN_CORROBORATING_COMMENT_SCORE_VILLAGE = 1; // village: any net-positive engagement
 
 // Reddit's search endpoint returns {t=year} well for our use-case; we pull
 // top-sorted posts and discard stickies / NSFW / deleted.
@@ -55,6 +92,7 @@ export type RedditCity = {
   name: string;
   country: string;
   region?: string;
+  coverageTier?: string;
 };
 
 export type RedditComment = {
@@ -158,16 +196,40 @@ type GatePost = {
   comments: Array<{ body?: string; score?: number }>;
 };
 
-export function passesQualityGate(posts: GatePost[], cityName: string): boolean {
+// Returns true if at least one post in `posts` is sufficiently relevant to
+// justify using this subreddit's content as Gemini source material.
+//
+// Two-path relevance check per post:
+//   Path A (title match): If the city name appears in the post title, the post
+//     is explicitly about that city — no further evidence needed.
+//   Path B (selftext match + comment corroboration): If the city name only appears
+//     in the post body (not title), we require at least one upvoted comment. This
+//     filters r/travel listicles that mention 20 cities in one post body — those
+//     rarely generate engaged local discussion about any single city.
+//
+// WHY the corroboration score differs by tier — see MIN_CORROBORATING_COMMENT_SCORE
+// and MIN_CORROBORATING_COMMENT_SCORE_VILLAGE constants above for full rationale.
+export function passesQualityGate(
+  posts: GatePost[],
+  cityName: string,
+  coverageTier?: string,
+): boolean {
   if (!Array.isArray(posts) || !posts.length) return false;
   const needle = cityName.toLowerCase();
+  // Villages use a lower comment score threshold — see constant comment above.
+  const isVillage = coverageTier === "village";
   return posts.some((p) => {
     const title = (p.title ?? "").toLowerCase();
     const selftext = (p.selftext ?? "").toLowerCase();
+    // Path A: title mention is strong relevance on its own.
     if (title.includes(needle)) return true;
+    // Path B: selftext-only mention requires comment corroboration.
     if (!selftext.includes(needle)) return false;
+    const minScore = isVillage
+      ? MIN_CORROBORATING_COMMENT_SCORE_VILLAGE
+      : MIN_CORROBORATING_COMMENT_SCORE;
     const hasUpvotedComment = (p.comments ?? []).some(
-      (c) => typeof c.score === "number" && c.score >= MIN_CORROBORATING_COMMENT_SCORE,
+      (c) => typeof c.score === "number" && c.score >= minScore,
     );
     return hasUpvotedComment;
   });
@@ -335,9 +397,9 @@ async function scrapeCity(city: CachedCity, interval: number): Promise<ScrapeOut
     for (const p of top) {
       p.comments = await fetchThreadComments(p.permalink, interval);
     }
-    if (!passesQualityGate(top, city.name)) continue;
+    if (!passesQualityGate(top, city.name, city.coverageTier)) continue;
     const md = buildMarkdown(city, sub, top);
-    if (md.length < MIN_MARKDOWN_LENGTH) continue;
+    if (md.length < minMarkdownLength(city.coverageTier)) continue;
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
     fs.writeFileSync(path.join(OUTPUT_DIR, `${city.id}.md`), md);
     fs.writeFileSync(

@@ -25,9 +25,32 @@ const CITY_CACHE = path.join(__dirname, "..", "..", "configs", "global_city_cach
 const DEFAULT_INTERVAL_MS = 1500;
 const USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)";
 
-// Shared floor for per-city .md output. Higher than Phase A's 200-char gate
-// (src/pipeline/research_city.py:350) so we never produce output Phase A rejects.
-export const MIN_MARKDOWN_LENGTH = 500;
+// Minimum generated .md length before we write the file and count a city as scraped.
+//
+// WHY these values:
+//   metro (500): Historical default. A metro Wikipedia article should produce at least a
+//     heading + one substantial section (Culture, Tourism, etc.). If it doesn't, the article
+//     was a redirect, disambiguation page, or pure stub — not worth feeding Gemini.
+//
+//   town (300): Town articles are structurally thinner than metro articles on Wikipedia.
+//     A 300-char floor still requires at least one real prose section. Towns below this
+//     produce output too sparse for Phase B to generate useful waypoints from.
+//
+//   village (250): Village articles are often a single paragraph. 250 chars is roughly
+//     two solid sentences of local-color prose — enough for Gemini to extract one or two
+//     waypoints. The floor cannot go below 201 because research_city.py's Phase A intake
+//     gate silently skips any source whose text is <= 200 chars (lines 338, 459, 597).
+//     If this floor ever drops to 200 or below, village content will be scraped
+//     successfully but silently discarded before Gemini ever sees it.
+//
+// Changing these values: run `npx vitest run src/__tests__/scrape-wikipedia.test.ts`
+// to confirm the minMarkdownLength tests still pass, and verify the village floor
+// stays above 200 (the Phase A gate in research_city.py).
+export function minMarkdownLength(coverageTier?: string): number {
+  if (coverageTier === "village") return 250; // must stay > 200 (Phase A gate)
+  if (coverageTier === "town") return 300;    // town articles are thinner than metro
+  return 500; // metro + unknown: historical default, requires a real article
+}
 
 // Per-section minimum prose size — discards stub subsections.
 const MIN_SECTION_CHARS = 80;
@@ -62,6 +85,7 @@ export type WikiCity = {
   country: string;
   clinicalName?: string;
   region?: string;
+  coverageTier?: string;
 };
 
 // City ids like `portland-me`, `jackson-wy`, `rochester-ny` encode the US
@@ -438,14 +462,20 @@ async function scrapeCity(city: CachedCity): Promise<ScrapeOutcome> {
   const rawSections = extractSectionsFromHtml(resolved.html);
   const keep = selectRelevantSections(rawSections);
   const md = buildMarkdown(city, keep);
-  if (md.length < MIN_MARKDOWN_LENGTH) {
+  // Apply the tier-aware quality floor. Content below the floor is a stub —
+  // thin enough that Gemini will likely hallucinate waypoints to fill the gap.
+  // The floor also guarantees we stay above Phase A's 200-char intake gate
+  // (research_city.py lines 338/459/597); content at or below 200 chars is
+  // silently skipped by the pipeline even if we write the file here.
+  const floor = minMarkdownLength(city.coverageTier);
+  if (md.length < floor) {
     return {
       id: city.id,
       resolvedTitle: resolved.title,
       sections: keep.length,
       mdChars: md.length,
       ok: false,
-      reason: `markdown too short (${md.length} < ${MIN_MARKDOWN_LENGTH})`,
+      reason: `markdown too short (${md.length} < ${floor} for ${city.coverageTier ?? "metro"})`,
     };
   }
   fs.mkdirSync(OUTPUT_DIR, { recursive: true });

@@ -6,14 +6,13 @@ type WikiCity = {
   country: string;
   clinicalName?: string;
   region?: string;
+  coverageTier?: string;
 };
 
 type WikiSection = { title: string; plaintext: string };
 
-// Shared with scrape-reddit. Floor prevents trivial markdown (~500 chars covers
-// a header + one section). Higher than the Phase A gate of 200 chars
-// (src/pipeline/research_city.py:350) so we never produce output that Phase A rejects.
-const MIN_MARKDOWN_LENGTH = 500;
+// Metro floor — unchanged from historical default, used in assertions below.
+const METRO_FLOOR = 500;
 
 describe("scrape-wikipedia logic", () => {
   describe("buildTitleCandidates", () => {
@@ -165,13 +164,13 @@ describe("scrape-wikipedia logic", () => {
       expect(md).toMatch(/## Neighborhoods/);
     });
 
-    it(`produces output > MIN_MARKDOWN_LENGTH (${MIN_MARKDOWN_LENGTH}) for typical content`, async () => {
+    it(`produces output > ${METRO_FLOOR} chars (metro floor) for typical content`, async () => {
       const { buildMarkdown } = await import("../scrapers/wikipedia");
       const city: WikiCity = { id: "bend", name: "Bend", country: "United States" };
       const md = buildMarkdown(city, [
         { title: "Tourism", plaintext: "y".repeat(600) },
       ]);
-      expect(md.length).toBeGreaterThan(MIN_MARKDOWN_LENGTH);
+      expect(md.length).toBeGreaterThan(METRO_FLOOR);
     });
 
     it("emits only the header when given no sections, without throwing", async () => {
@@ -180,6 +179,33 @@ describe("scrape-wikipedia logic", () => {
       const md = buildMarkdown(city, []);
       expect(md).toMatch(/^# Wikipedia: X, Y/);
       expect(md).not.toMatch(/^## /m);
+    });
+  });
+
+  describe("minMarkdownLength (tiered quality gate)", () => {
+    it("returns 500 for metro", async () => {
+      const { minMarkdownLength } = await import("../scrapers/wikipedia");
+      expect(minMarkdownLength("metro")).toBe(500);
+    });
+
+    it("returns 300 for town", async () => {
+      const { minMarkdownLength } = await import("../scrapers/wikipedia");
+      expect(minMarkdownLength("town")).toBe(300);
+    });
+
+    it("returns 250 for village (above Phase A 200-char gate)", async () => {
+      const { minMarkdownLength } = await import("../scrapers/wikipedia");
+      expect(minMarkdownLength("village")).toBe(250);
+    });
+
+    it("returns 500 (metro default) when coverageTier is undefined", async () => {
+      const { minMarkdownLength } = await import("../scrapers/wikipedia");
+      expect(minMarkdownLength(undefined)).toBe(500);
+    });
+
+    it("returns 500 for unknown tier (safe fallback)", async () => {
+      const { minMarkdownLength } = await import("../scrapers/wikipedia");
+      expect(minMarkdownLength("unknown-tier")).toBe(500);
     });
   });
 

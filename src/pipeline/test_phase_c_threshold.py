@@ -121,6 +121,95 @@ class TestEdgeCases:
         assert reason is None
 
 
+class TestTierAwareThreshold:
+    """coverage_tier param drives village/town/metro-specific FAIL thresholds."""
+
+    def test_village_40_percent_threshold_demotes_2_of_4(self):
+        # 2/4 = 50%? No — 2/5 = 40%, which is NOT strictly > 40% → demote.
+        # Actually 2/5 = 40% exactly, so NOT strictly greater → WARNING.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 2, 5, coverage_tier="village"
+        )
+        assert status == "WARNING"
+        assert reason is not None
+
+    def test_village_2_of_4_is_preserved_as_fail(self):
+        # 2/4 = 50% > 40% → keep FAIL.
+        # This is the canonical case documented in _threshold_for_tier's docstring:
+        # one bad waypoint out of four demotes to WARNING, two out of four stays FAIL.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 2, 4, coverage_tier="village"
+        )
+        assert status == "FAIL"
+        assert reason is None
+
+    def test_village_40_percent_threshold_preserves_3_of_5(self):
+        # 3/5 = 60% > 40% → keep FAIL.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 3, 5, coverage_tier="village"
+        )
+        assert status == "FAIL"
+        assert reason is None
+
+    def test_village_1_of_4_is_demoted(self):
+        # 1/4 = 25% <= 40% village floor → demote.
+        # (This same case would also demote on metro 25% threshold, but the
+        # assertion is about the village path specifically.)
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 1, 4, coverage_tier="village"
+        )
+        assert status == "WARNING"
+        assert reason is not None
+
+    def test_town_30_percent_threshold_demotes_3_of_15(self):
+        # 3/15 = 20% <= 30% town floor → demote.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 3, 15, coverage_tier="town"
+        )
+        assert status == "WARNING"
+        assert reason is not None
+
+    def test_town_30_percent_threshold_preserves_5_of_15(self):
+        # 5/15 = 33.3% > 30% → keep FAIL.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 5, 15, coverage_tier="town"
+        )
+        assert status == "FAIL"
+        assert reason is None
+
+    def test_metro_uses_25_percent_threshold(self):
+        # 4/15 = 26.6% > 25% → keep FAIL on metro.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 4, 15, coverage_tier="metro"
+        )
+        assert status == "FAIL"
+        assert reason is None
+
+    def test_unknown_tier_uses_metro_default(self):
+        # Unknown tier falls through to 25% metro default.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 4, 15, coverage_tier="unknown-tier"
+        )
+        assert status == "FAIL"
+        assert reason is None
+
+    def test_explicit_threshold_ratio_overrides_tier(self):
+        # Caller-supplied ratio takes precedence over coverage_tier derivation.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 1, 5, threshold_ratio=0.10, coverage_tier="village"
+        )
+        # 1/5 = 20% > 10% → FAIL (village 40% threshold not used).
+        assert status == "FAIL"
+        assert reason is None
+
+    def test_none_tier_uses_metro_default(self):
+        # None is the default; behavior identical to omitting coverage_tier.
+        status, reason = apply_proportional_fail_threshold(
+            "FAIL", 3, 15, coverage_tier=None
+        )
+        assert status == "WARNING"
+
+
 class TestReasonMessageFormat:
     def test_demotion_reason_includes_counts(self):
         _, reason = apply_proportional_fail_threshold("FAIL", 3, 15)
