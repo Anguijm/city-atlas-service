@@ -34,6 +34,11 @@ describe("stripUndefined", () => {
     });
   });
 
+  it("strips undefined from nested arrays", () => {
+    const input = { matrix: [[undefined, "a"], ["b", undefined]] };
+    expect(stripUndefined(input)).toEqual({ matrix: [["a"], ["b"]] });
+  });
+
   it("handles fully undefined nested object", () => {
     const input = { score: undefined, meta: { x: undefined, y: undefined } };
     expect(stripUndefined(input)).toEqual({ meta: {} });

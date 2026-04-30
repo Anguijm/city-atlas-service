@@ -16,14 +16,8 @@ export function stripUndefined(obj: Record<string, unknown>): Record<string, unk
 
 function stripValue(v: unknown): unknown {
   if (Array.isArray(v)) {
-    // Remove undefined elements and recurse into any nested objects.
-    return v
-      .filter((el) => el !== undefined)
-      .map((el) =>
-        el !== null && typeof el === "object" && !Array.isArray(el)
-          ? stripUndefined(el as Record<string, unknown>)
-          : el
-      );
+    // Remove undefined elements; recurse into nested arrays and objects.
+    return v.filter((el) => el !== undefined).map(stripValue);
   }
   if (v !== null && typeof v === "object") {
     return stripUndefined(v as Record<string, unknown>);
