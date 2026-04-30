@@ -170,8 +170,9 @@ async function main() {
   // Build write operations (dual-write: flat + hierarchical).
   // schema is the Zod guard applied after stripUndefined — only set for
   // document types where missing required fields (lat/lng, name, etc.)
-  // would silently corrupt consumer data. City metadata and task ops
-  // without structural geometry don't need it.
+  // would silently corrupt consumer data. City metadata merge ops (coverageTier/
+  // maxRadiusKm only) don't carry a schema; all neighborhood, waypoint, and task
+  // ops do.
   type WriteOp = {
     ref: FirebaseFirestore.DocumentReference;
     data: Record<string, unknown>;
