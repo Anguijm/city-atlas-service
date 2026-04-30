@@ -12,8 +12,10 @@
 
 import { readFileSync } from "fs";
 import { resolve } from "path";
+import { z } from "zod";
 import { initializeApp, applicationDefault, getApps } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
+import { stripUndefined } from "./strip-undefined.js";
 
 // Initialize Firebase Admin with application default credentials
 const app = getApps().length
@@ -24,25 +26,35 @@ const app = getApps().length
     });
 const db = getFirestore(app, "urbanexplorer");
 
-/**
- * Recursively removes keys whose value is `undefined` from a plain object.
- * Firestore rejects undefined values at write time; Gemini research output
- * occasionally emits undefined for optional numeric fields (e.g. trending_score).
- * Explicit removal here keeps the behavior auditable: required fields that
- * are unexpectedly undefined will still surface as missing-field errors
- * downstream rather than being silently dropped by a global SDK flag.
- */
-function stripUndefined(obj: Record<string, unknown>): Record<string, unknown> {
-  return Object.fromEntries(
-    Object.entries(obj)
-      .filter(([, v]) => v !== undefined)
-      .map(([k, v]) =>
-        v !== null && typeof v === "object" && !Array.isArray(v)
-          ? [k, stripUndefined(v as Record<string, unknown>)]
-          : [k, v]
-      )
-  );
-}
+// Minimal required-field schemas used to guard each document before write.
+// These cover only the fields that, if absent, would produce a corrupt
+// Firestore document — consumer apps would render broken UI or crash on
+// a waypoint with no lat/lng or a neighborhood with no name.
+const LocalizedTextSchema = z.object({ en: z.string() }).passthrough();
+
+// id is stored as the Firestore document path, not in the payload —
+// do not include it here.
+const NeighborhoodWriteSchema = z.object({
+  city_id: z.string(),
+  name: LocalizedTextSchema,
+  lat: z.number(),
+  lng: z.number(),
+});
+
+const WaypointWriteSchema = z.object({
+  city_id: z.string(),
+  neighborhood_id: z.string(),
+  name: LocalizedTextSchema,
+  lat: z.number(),
+  lng: z.number(),
+  type: z.string(),
+});
+
+const TaskWriteSchema = z.object({
+  title: LocalizedTextSchema,
+  prompt: LocalizedTextSchema,
+  points: z.number(),
+});
 
 interface LocalizedText {
   en: string;
@@ -155,8 +167,17 @@ async function main() {
     return;
   }
 
-  // Build write operations (dual-write: flat + hierarchical)
-  type WriteOp = { ref: FirebaseFirestore.DocumentReference; data: Record<string, unknown>; merge?: boolean };
+  // Build write operations (dual-write: flat + hierarchical).
+  // schema is the Zod guard applied after stripUndefined — only set for
+  // document types where missing required fields (lat/lng, name, etc.)
+  // would silently corrupt consumer data. City metadata and task ops
+  // without structural geometry don't need it.
+  type WriteOp = {
+    ref: FirebaseFirestore.DocumentReference;
+    data: Record<string, unknown>;
+    merge?: boolean;
+    schema?: z.ZodTypeAny;
+  };
   const ops: WriteOp[] = [];
 
   // City-level metadata merge: persist coverageTier + maxRadiusKm from the
@@ -200,10 +221,11 @@ async function main() {
       source: n.source,
       enriched_at: n.enriched_at,
     };
-    ops.push({ ref: db.collection("vibe_neighborhoods").doc(n.id), data: payload });
+    ops.push({ ref: db.collection("vibe_neighborhoods").doc(n.id), data: payload, schema: NeighborhoodWriteSchema });
     ops.push({
       ref: db.collection("cities").doc(cityId).collection("neighborhoods").doc(n.id),
       data: payload,
+      schema: NeighborhoodWriteSchema,
     });
   }
 
@@ -222,7 +244,7 @@ async function main() {
       source: w.source,
       enriched_at: w.enriched_at,
     };
-    ops.push({ ref: db.collection("vibe_waypoints").doc(w.id), data: payload });
+    ops.push({ ref: db.collection("vibe_waypoints").doc(w.id), data: payload, schema: WaypointWriteSchema });
     ops.push({
       ref: db
         .collection("cities")
@@ -232,6 +254,7 @@ async function main() {
         .collection("waypoints")
         .doc(w.id),
       data: payload,
+      schema: WaypointWriteSchema,
     });
   }
 
@@ -273,6 +296,17 @@ async function main() {
     const batch = db.batch();
     for (const op of chunk) {
       const data = stripUndefined(op.data as Record<string, unknown>);
+      // Guard required fields after strip: a Gemini regression that emits
+      // undefined for lat/lng/name would produce a corrupt document without
+      // this check. Throws loudly rather than writing invalid data.
+      if (op.schema) {
+        const result = op.schema.safeParse(data);
+        if (!result.success) {
+          throw new Error(
+            `Required field validation failed for ${op.ref.path}: ${result.error.message}`
+          );
+        }
+      }
       if (op.merge) {
         batch.set(op.ref, data, { merge: true });
       } else {
