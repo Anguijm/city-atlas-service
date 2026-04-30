@@ -12,8 +12,10 @@
 
 import { readFileSync } from "fs";
 import { resolve } from "path";
+import { z } from "zod";
 import { initializeApp, applicationDefault, getApps } from "firebase-admin/app";
 import { getFirestore } from "firebase-admin/firestore";
+import { stripUndefined } from "./strip-undefined.js";
 
 // Initialize Firebase Admin with application default credentials
 const app = getApps().length
@@ -23,6 +25,36 @@ const app = getApps().length
       projectId: process.env.GOOGLE_CLOUD_PROJECT || "urban-explorer-483600",
     });
 const db = getFirestore(app, "urbanexplorer");
+
+// Minimal required-field schemas used to guard each document before write.
+// These cover only the fields that, if absent, would produce a corrupt
+// Firestore document — consumer apps would render broken UI or crash on
+// a waypoint with no lat/lng or a neighborhood with no name.
+const LocalizedTextSchema = z.object({ en: z.string() }).passthrough();
+
+// id is stored as the Firestore document path, not in the payload —
+// do not include it here.
+const NeighborhoodWriteSchema = z.object({
+  city_id: z.string(),
+  name: LocalizedTextSchema,
+  lat: z.number(),
+  lng: z.number(),
+});
+
+const WaypointWriteSchema = z.object({
+  city_id: z.string(),
+  neighborhood_id: z.string(),
+  name: LocalizedTextSchema,
+  lat: z.number(),
+  lng: z.number(),
+  type: z.string(),
+});
+
+const TaskWriteSchema = z.object({
+  title: LocalizedTextSchema,
+  prompt: LocalizedTextSchema,
+  points: z.number(),
+});
 
 interface LocalizedText {
   en: string;
@@ -135,8 +167,18 @@ async function main() {
     return;
   }
 
-  // Build write operations (dual-write: flat + hierarchical)
-  type WriteOp = { ref: FirebaseFirestore.DocumentReference; data: Record<string, unknown>; merge?: boolean };
+  // Build write operations (dual-write: flat + hierarchical).
+  // schema is the Zod guard applied after stripUndefined — only set for
+  // document types where missing required fields (lat/lng, name, etc.)
+  // would silently corrupt consumer data. City metadata merge ops (coverageTier/
+  // maxRadiusKm only) don't carry a schema; all neighborhood, waypoint, and task
+  // ops do.
+  type WriteOp = {
+    ref: FirebaseFirestore.DocumentReference;
+    data: Record<string, unknown>;
+    merge?: boolean;
+    schema?: z.ZodTypeAny;
+  };
   const ops: WriteOp[] = [];
 
   // City-level metadata merge: persist coverageTier + maxRadiusKm from the
@@ -180,10 +222,11 @@ async function main() {
       source: n.source,
       enriched_at: n.enriched_at,
     };
-    ops.push({ ref: db.collection("vibe_neighborhoods").doc(n.id), data: payload });
+    ops.push({ ref: db.collection("vibe_neighborhoods").doc(n.id), data: payload, schema: NeighborhoodWriteSchema });
     ops.push({
       ref: db.collection("cities").doc(cityId).collection("neighborhoods").doc(n.id),
       data: payload,
+      schema: NeighborhoodWriteSchema,
     });
   }
 
@@ -202,7 +245,7 @@ async function main() {
       source: w.source,
       enriched_at: w.enriched_at,
     };
-    ops.push({ ref: db.collection("vibe_waypoints").doc(w.id), data: payload });
+    ops.push({ ref: db.collection("vibe_waypoints").doc(w.id), data: payload, schema: WaypointWriteSchema });
     ops.push({
       ref: db
         .collection("cities")
@@ -212,6 +255,7 @@ async function main() {
         .collection("waypoints")
         .doc(w.id),
       data: payload,
+      schema: WaypointWriteSchema,
     });
   }
 
@@ -230,7 +274,7 @@ async function main() {
     // Include waypoint_id if present (legacy compat)
     if (t.waypoint_id) payload.waypoint_id = t.waypoint_id;
 
-    ops.push({ ref: db.collection("vibe_tasks").doc(t.id), data: payload });
+    ops.push({ ref: db.collection("vibe_tasks").doc(t.id), data: payload, schema: TaskWriteSchema });
     if (nhId) {
       ops.push({
         ref: db
@@ -241,6 +285,7 @@ async function main() {
           .collection("tasks")
           .doc(t.id),
         data: payload,
+        schema: TaskWriteSchema,
       });
     }
   }
@@ -252,10 +297,22 @@ async function main() {
     const chunk = ops.slice(i, i + BATCH_SIZE);
     const batch = db.batch();
     for (const op of chunk) {
+      const data = stripUndefined(op.data as Record<string, unknown>);
+      // Guard required fields after strip: a Gemini regression that emits
+      // undefined for lat/lng/name would produce a corrupt document without
+      // this check. Throws loudly rather than writing invalid data.
+      if (op.schema) {
+        const result = op.schema.safeParse(data);
+        if (!result.success) {
+          throw new Error(
+            `Required field validation failed for ${op.ref.path}: ${result.error.message}`
+          );
+        }
+      }
       if (op.merge) {
-        batch.set(op.ref, op.data, { merge: true });
+        batch.set(op.ref, data, { merge: true });
       } else {
-        batch.set(op.ref, op.data);
+        batch.set(op.ref, data);
       }
     }
     await batch.commit();
