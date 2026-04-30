@@ -11,7 +11,7 @@ Batch data pipeline that builds the shared city atlas consumed by **Urban Explor
 
 ## Status
 
-Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). **285-city global registry** as of PR #34 (2026-04-28) — expanded from 100 to 200 US cities; CI `city-cache-validate` job added to enforce schema on every PR; `batch_research.py` circuit breaker (25-city safety limit, `--no-limit` override) landed in the same PR. Scrape data for the 100 new cities is in-flight (branch `scrape/100-new-cities`). End-to-end validated through real Gemini output on 2026-04-25 — 16 metro cities live in the `urbanexplorer` named database (4 `quality_status: verified`); geneva + lisbon remain English-source edge cases. Per-source scraper refinement landed in PR #15; branch-guard in PR #20; schema aligned in PR #26; CI clean on Node 22.11.0. See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
+Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). **285-city global registry** as of PR #34 (2026-04-28) — 200 US + 85 global cities. **~258 cities live in `urbanexplorer` Firestore** as of 2026-05-01 after a full enrichment sweep (101/119 thin/low cities enriched, ~1800 new waypoints + ~4600 tasks added). Tiered quality gates by `coverageTier` landed in PR #39; `enrich_ingest.ts` now strips undefined fields + Zod-validates required fields before every Firestore write (PR #44). Open PRs: #42 (Phase B prompt injection, CONDITIONAL), #43 (4 corridor cities). See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
 
 ## Governance
 
