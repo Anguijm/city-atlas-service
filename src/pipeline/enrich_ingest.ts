@@ -273,7 +273,7 @@ async function main() {
     // Include waypoint_id if present (legacy compat)
     if (t.waypoint_id) payload.waypoint_id = t.waypoint_id;
 
-    ops.push({ ref: db.collection("vibe_tasks").doc(t.id), data: payload });
+    ops.push({ ref: db.collection("vibe_tasks").doc(t.id), data: payload, schema: TaskWriteSchema });
     if (nhId) {
       ops.push({
         ref: db
@@ -284,6 +284,7 @@ async function main() {
           .collection("tasks")
           .doc(t.id),
         data: payload,
+        schema: TaskWriteSchema,
       });
     }
   }
