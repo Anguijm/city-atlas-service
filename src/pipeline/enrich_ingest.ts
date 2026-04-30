@@ -23,9 +23,26 @@ const app = getApps().length
       projectId: process.env.GOOGLE_CLOUD_PROJECT || "urban-explorer-483600",
     });
 const db = getFirestore(app, "urbanexplorer");
-// Gemini research output sometimes emits undefined for optional numeric fields
-// (e.g. trending_score). Firestore rejects undefined; silently drop such fields.
-db.settings({ ignoreUndefinedProperties: true });
+
+/**
+ * Recursively removes keys whose value is `undefined` from a plain object.
+ * Firestore rejects undefined values at write time; Gemini research output
+ * occasionally emits undefined for optional numeric fields (e.g. trending_score).
+ * Explicit removal here keeps the behavior auditable: required fields that
+ * are unexpectedly undefined will still surface as missing-field errors
+ * downstream rather than being silently dropped by a global SDK flag.
+ */
+function stripUndefined(obj: Record<string, unknown>): Record<string, unknown> {
+  return Object.fromEntries(
+    Object.entries(obj)
+      .filter(([, v]) => v !== undefined)
+      .map(([k, v]) =>
+        v !== null && typeof v === "object" && !Array.isArray(v)
+          ? [k, stripUndefined(v as Record<string, unknown>)]
+          : [k, v]
+      )
+  );
+}
 
 interface LocalizedText {
   en: string;
@@ -255,10 +272,11 @@ async function main() {
     const chunk = ops.slice(i, i + BATCH_SIZE);
     const batch = db.batch();
     for (const op of chunk) {
+      const data = stripUndefined(op.data as Record<string, unknown>);
       if (op.merge) {
-        batch.set(op.ref, op.data, { merge: true });
+        batch.set(op.ref, data, { merge: true });
       } else {
-        batch.set(op.ref, op.data);
+        batch.set(op.ref, data);
       }
     }
     await batch.commit();
