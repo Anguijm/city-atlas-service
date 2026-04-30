@@ -32,6 +32,17 @@ The Los Cerritos Wetlands Study Group, state government agencies, and grassroots
 The Municipal Fly Casting Pool at Recreation Park in East Long Beach is a 260-by-135-foot clear water, fishless pond built and operated since 1925 by the Long Beach Casting Club as only one of two Southern California city operated casting ponds (the other being in Pasadena). Described recently as a serene pond "surrounded by a seemingly endless stretch of green grass against a backdrop of mountains and palm trees", several movie stars from the 1940s were taught to fly cast at the pond, including Robert Taylor, Clark Gable, Jimmy Durante, and Barbara Stanwyck. In 1932, the fly fishing clubhouse adjacent to the fly fishing pond was used for the Summer Olympic Games and housed military personnel during World War II.
 Rosie's Dog Beach in Belmont Shore is the only legal off-leash beach area for dogs in Los Angeles County. This 3-acre (12,000 m2) area is situated between Roycroft and Argonne Avenues.
 
+## College sports
+
+Long Beach State's team mascot are the Beach. The school has participated in national championships in women's volleyball (5), men's volleyball (1), track and field (1), men's tennis (1; Division II), swimming (1; Division II), women's badminton (2), and women's field hockey (1). The school also has regularly appeared in NCAA tournaments in men's baseball, men's softball, men's basketball, women's basketball, men's golf, women's tennis, men's water polo, and women's water polo. Their cheer team were national champions in 2003, 2004 and 2006. The D1 roller hockey team were the 2011 national champions after defeating Lindenwood University.
+
+Veterans Memorial Stadium, home to the Long Beach City College football team
+The other collegiate sports team in the city is that of Long Beach City College. The school has appeared in national championships in men's gymnastics (6), football (5), women's soccer (3), and men's doubles and singles tennis (1 each). They have also had state championships in numerous sports, including 2006–7 championships in men's and women's water polo.
+
+Archeryedit]
+The archery field in El Dorado Regional Park was the site for the 1984 Los Angeles Olympics archery competition.
+CSU Long Beach has one of the few remaining university varsity archery teams in California.
+
 ## In popular culture
 
 See also: Los Cerritos in movies and television, The Pike in film and television, and Polytechnic High School as a filming location

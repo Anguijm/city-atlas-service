@@ -1,0 +1,847 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-coney-corridor",
+      "city_id": "flint",
+      "name": {
+        "en": "Downtown & The Coney Corridor"
+      },
+      "summary": {
+        "en": "The historic and commercial heart of Flint, this area mixes stately 20th-century architecture with a resilient, unpretentious energy. It's the epicenter of the city's culinary identity and foundational character."
+      },
+      "lat": 43.0145,
+      "lng": -83.6888,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center",
+      "city_id": "flint",
+      "name": {
+        "en": "The College & Cultural Center"
+      },
+      "summary": {
+        "en": "Flint's intellectual and artistic hub, this district feels like a sprawling, well-manicured campus. It features large, impressive institutions dedicated to science, art, and education clustered together."
+      },
+      "lat": 43.0165,
+      "lng": -83.6752,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town",
+      "city_id": "flint",
+      "name": {
+        "en": "Carriage Town"
+      },
+      "summary": {
+        "en": "A quiet, residential area steeped in pre-automotive history, defined by its stunning, well-preserved Victorian homes from the 19th-century carriage-making industry. Perfect for a contemplative architectural walk."
+      },
+      "lat": 43.0181,
+      "lng": -83.6985,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-coney-corridor-enr-the-torch-bar-grill",
+      "city_id": "flint",
+      "neighborhood_id": "downtown-coney-corridor",
+      "name": {
+        "en": "The Torch Bar & Grill"
+      },
+      "description": {
+        "en": "A classic, no-frills local institution known for its welcoming, dimly lit atmosphere and a burger that is a beloved city staple."
+      },
+      "type": "drink",
+      "lat": 43.0152,
+      "lng": -83.6891,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-enr-the-white-horse-tavern",
+      "city_id": "flint",
+      "neighborhood_id": "downtown-coney-corridor",
+      "name": {
+        "en": "The White Horse Tavern"
+      },
+      "description": {
+        "en": "A cornerstone of the downtown scene, this comfortable, historic tavern is highly recommended by residents for its excellent pizza."
+      },
+      "type": "food",
+      "lat": 43.0166,
+      "lng": -83.6899,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-enr-saginaw-street-historic-facades",
+      "city_id": "flint",
+      "neighborhood_id": "downtown-coney-corridor",
+      "name": {
+        "en": "Saginaw Street Historic Facades"
+      },
+      "description": {
+        "en": "Look up past the modern storefronts to see the detailed facades of buildings from the 1920s automotive boom, revealing the city's former wealth."
+      },
+      "type": "landmark",
+      "lat": 43.0138,
+      "lng": -83.6885,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-enr-mott-foundation-building",
+      "city_id": "flint",
+      "neighborhood_id": "downtown-coney-corridor",
+      "name": {
+        "en": "Mott Foundation Building"
+      },
+      "description": {
+        "en": "A prominent example of the grand architecture along Saginaw Street, representing the influence of the automotive industry on the city."
+      },
+      "type": "landmark",
+      "lat": 43.0131,
+      "lng": -83.6882,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-enr-flint-river-downtown-overlook",
+      "city_id": "flint",
+      "neighborhood_id": "downtown-coney-corridor",
+      "name": {
+        "en": "Flint River Downtown Overlook"
+      },
+      "description": {
+        "en": "A scenic vantage point along the Flint River, offering views of the water reflecting the sky and downtown landmarks like the GFRR bridge."
+      },
+      "type": "viewpoint",
+      "lat": 43.0198,
+      "lng": -83.6939,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-enr-flint-farmers-market",
+      "city_id": "flint",
+      "neighborhood_id": "college-cultural-center",
+      "name": {
+        "en": "Flint Farmers' Market"
+      },
+      "description": {
+        "en": "A bustling hub of local life and the best place in the area to find a variety of independent food vendors, coffee, and local produce under one roof."
+      },
+      "type": "food",
+      "lat": 43.0158,
+      "lng": -83.6831,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-enr-flint-institute-of-arts-fia",
+      "city_id": "flint",
+      "neighborhood_id": "college-cultural-center",
+      "name": {
+        "en": "Flint Institute of Arts (FIA)"
+      },
+      "description": {
+        "en": "A cultural gem and Michigan's second-largest art museum, offering an extensive collection and unique live demonstrations."
+      },
+      "type": "culture",
+      "lat": 43.0162,
+      "lng": -83.6765,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-enr-sloan-museum-of-discovery",
+      "city_id": "flint",
+      "neighborhood_id": "college-cultural-center",
+      "name": {
+        "en": "Sloan Museum of Discovery"
+      },
+      "description": {
+        "en": "A hands-on museum focused on local history, science, and technology, praised for its engaging and interactive activities."
+      },
+      "type": "culture",
+      "lat": 43.017,
+      "lng": -83.6748,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-enr-longway-planetarium",
+      "city_id": "flint",
+      "neighborhood_id": "college-cultural-center",
+      "name": {
+        "en": "Longway Planetarium"
+      },
+      "description": {
+        "en": "As Michigan's second-largest planetarium, it offers a truly immersive escape to watch a star show in its impressive dome."
+      },
+      "type": "culture",
+      "lat": 43.0175,
+      "lng": -83.6739,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-enr-kearsley-street-campus-walk",
+      "city_id": "flint",
+      "neighborhood_id": "college-cultural-center",
+      "name": {
+        "en": "Kearsley Street Campus Walk"
+      },
+      "description": {
+        "en": "A pleasant walk along the main thoroughfare of the cultural district, surrounded by clean, inspiring, and well-manicured campus grounds."
+      },
+      "type": "landmark",
+      "lat": 43.0168,
+      "lng": -83.6755,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-enr-victorian-homes-of-carriage-town",
+      "city_id": "flint",
+      "neighborhood_id": "carriage-town",
+      "name": {
+        "en": "Victorian Homes of Carriage Town"
+      },
+      "description": {
+        "en": "An open-air museum of architecture where you can stroll the streets and admire intricate woodwork, turrets, and grand porches from a bygone era."
+      },
+      "type": "landmark",
+      "lat": 43.0185,
+      "lng": -83.6992,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-enr-atwood-stadium",
+      "city_id": "flint",
+      "neighborhood_id": "carriage-town",
+      "name": {
+        "en": "Atwood Stadium"
+      },
+      "description": {
+        "en": "A historic 11,000-seat stadium with a classic brick facade that has been a community landmark for sports and civic events since 1929."
+      },
+      "type": "landmark",
+      "lat": 43.0205,
+      "lng": -83.6971,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-enr-university-avenue-frat-row",
+      "city_id": "flint",
+      "neighborhood_id": "carriage-town",
+      "name": {
+        "en": "University Avenue 'Frat Row'"
+      },
+      "description": {
+        "en": "An architectural tour where grand old homes, now adorned with Greek letters, showcase a unique blend of historic preservation and student life."
+      },
+      "type": "landmark",
+      "lat": 43.0211,
+      "lng": -83.7005,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-enr-kettering-university-architectural-juxtaposition",
+      "city_id": "flint",
+      "neighborhood_id": "carriage-town",
+      "name": {
+        "en": "Kettering University Architectural Juxtaposition"
+      },
+      "description": {
+        "en": "Observe the unique visual contrast between the historic Victorian architecture of the neighborhood and the symbols of modern student life."
+      },
+      "type": "viewpoint",
+      "lat": 43.0215,
+      "lng": -83.7015,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-enr-university-of-michigan-flint-campus-edge",
+      "city_id": "flint",
+      "neighborhood_id": "carriage-town",
+      "name": {
+        "en": "University of Michigan-Flint Campus Edge"
+      },
+      "description": {
+        "en": "Explore the border where the historic residential neighborhood meets the grounds of the University of Michigan-Flint."
+      },
+      "type": "landmark",
+      "lat": 43.0178,
+      "lng": -83.6955,
+      "trending_score": 68,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-enr-carriage-town-s-historic-turrets",
+      "city_id": "flint",
+      "neighborhood_id": "carriage-town",
+      "name": {
+        "en": "Carriage Town's Historic Turrets"
+      },
+      "description": {
+        "en": "Look up to spot the unique and beautiful turrets and towers that give the 19th-century houses in this neighborhood their distinct character."
+      },
+      "type": "viewpoint",
+      "lat": 43.0182,
+      "lng": -83.7001,
+      "trending_score": 69,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-enr-flint-river-west-bank-trail",
+      "city_id": "flint",
+      "neighborhood_id": "carriage-town",
+      "name": {
+        "en": "Flint River West Bank Trail"
+      },
+      "description": {
+        "en": "Enjoy a peaceful walk along the Flint River, which forms the eastern border of this quiet, historic district."
+      },
+      "type": "nature",
+      "lat": 43.0177,
+      "lng": -83.6941,
+      "trending_score": 66,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-coney-corridor-task-1",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Architectural Ghost"
+      },
+      "prompt": {
+        "en": "Capture a black-and-white photo of the upper-floor details of a historic Saginaw Street building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-2",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Coney Close-Up"
+      },
+      "prompt": {
+        "en": "Take an artful photo of a classic Flint-style coney dog, focusing on the unique sauce."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-3",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Find and photograph a vintage-style neon sign after dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-4",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Resilient Reflection"
+      },
+      "prompt": {
+        "en": "Take a photo of a modern scene reflected in the window of an old building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-5",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Automotive Echoes"
+      },
+      "prompt": {
+        "en": "Find a symbol, sign, or architectural detail that hints at Flint's automotive past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-6",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Local's Lunch"
+      },
+      "prompt": {
+        "en": "Ask someone for a lunch recommendation and photograph what you order."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-7",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Street-Level Grit"
+      },
+      "prompt": {
+        "en": "Capture a photo that embodies the 'grit' of downtown Flint, focusing on textures like brick, pavement, or metal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-8",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a historic landmark and a modern vehicle or person."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-9",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "City Heartbeat"
+      },
+      "prompt": {
+        "en": "Take a short video capturing the sounds and movement at a busy downtown intersection."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-10",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Foundation of Flint"
+      },
+      "prompt": {
+        "en": "Take a selfie with a grand, historic building on Saginaw Street in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-11",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Find a spot to photograph a downtown bridge from an unusual angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "downtown-coney-corridor-task-12",
+      "neighborhood_id": "downtown-coney-corridor",
+      "title": {
+        "en": "Unsung Landmark"
+      },
+      "prompt": {
+        "en": "Find a building that looks historic but isn't famous and photograph its most interesting feature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-1",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Campus Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or lawn and take a photo that conveys a sense of peace and learning."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-2",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find and photograph a piece of outdoor public sculpture on the cultural campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-3",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Lines of Knowledge"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the interesting architectural lines of one of the museums or the planetarium."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-4",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Nature Meets Nurture"
+      },
+      "prompt": {
+        "en": "Capture an image where the well-manicured campus landscaping interacts with the impressive architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-5",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Scholar's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the entrance to the cultural institution that inspires you the most."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-6",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Market Colors"
+      },
+      "prompt": {
+        "en": "Create a photo showcasing the vibrant colors of fresh produce or flowers at the Farmers' Market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-7",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Light and Glass"
+      },
+      "prompt": {
+        "en": "Photograph the way sunlight reflects off or passes through the glass of a modern building in the district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-8",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a long walkway or path that leads towards one of the cultural buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-9",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Hub of Activity"
+      },
+      "prompt": {
+        "en": "Capture the bustling energy inside the Flint Farmers' Market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-10",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "A Moment of Science"
+      },
+      "prompt": {
+        "en": "Take a photo that represents science or discovery to you within the cultural center."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-11",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Artistic Abstraction"
+      },
+      "prompt": {
+        "en": "Find a detail on a building or sculpture and take a close-up, abstract photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "college-cultural-center-task-12",
+      "neighborhood_id": "college-cultural-center",
+      "title": {
+        "en": "Day of Discovery"
+      },
+      "prompt": {
+        "en": "Take a photo of your ticket or guide map from one of the institutions, held up against the building itself."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-1",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Victorian Portrait"
+      },
+      "prompt": {
+        "en": "Find the most interesting Victorian house and take a photo of it as if it were a portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-2",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "Find the most brightly or uniquely painted house and make its color the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-3",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Details, Details"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of a single, ornate architectural detail: a piece of gingerbread trim, a door knocker, or a stained-glass window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-4",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "History and Higher Ed"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between a historic home and a symbol of modern student life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-5",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Photograph a particularly grand or inviting front porch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-6",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Quiet Streets"
+      },
+      "prompt": {
+        "en": "Take a photo down a long, quiet, tree-lined street in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-7",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Texture Test"
+      },
+      "prompt": {
+        "en": "Find a surface with interesting texture—old brick, peeling paint, or stone—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-8",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Historical Marker"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on a house or building and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-9",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting shadows cast by a turret, porch railing, or large tree onto the side of a house."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-10",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Frat Row Symbolism"
+      },
+      "prompt": {
+        "en": "Photograph a set of Greek letters on a grand old house."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-11",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Time Traveler's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you look like you've just stepped into the 19th century, with a Victorian home as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    },
+    {
+      "id": "carriage-town-task-12",
+      "neighborhood_id": "carriage-town",
+      "title": {
+        "en": "Stadium Story"
+      },
+      "prompt": {
+        "en": "Take a black-and-white photo of the brickwork on Atwood Stadium to emphasize its historic character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:36:05.210038+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

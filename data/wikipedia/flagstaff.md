@@ -30,6 +30,11 @@ A variety of weekend festivals occur throughout the year. The annual Northern Ar
 Main article: List of historic properties in Flagstaff, Arizona
 Flagstaff is home to seven National Register of Historic Places historic districts: Southside, Townsite, Fort Tuthill, North End, Northern Arizona Normal School, the Railroad Addition, and USFS Fort Valley Experimental Forest Station, as well as a variety of many other structures and areas. The Lowell Observatory is a National Historic Landmark.
 
+## Sports
+
+Northern Arizona University's Walkup Skydome and central campus
+Flagstaff has no professional sports of its own, but is home to the college sports teams of Northern Arizona University. It is a popular training destination for a variety of sports, largely due to its altitude and climate.
+
 ## Parks and recreation
 
 Flagstaff has acquired a reputation as a magnet for outdoor enthusiasts, and the region's varied terrain, high elevation, and amenable weather attract campers, backpackers, climbers, recreation and elite runners, and mountain bikers from throughout the southwestern United States. There are 679.2 acres (274.9 ha) of city parks in Flagstaff, the largest of which are Thorpe Park and Buffalo Park. Wheeler Park, next to city hall, is the location of summer concerts and other events. The city maintains an extensive network of trails, the Flagstaff Urban Trails System, or "FUTS" includes more than 50 miles of paved and unpaved trails for hiking, running, and cycling. The trail network extends throughout the city and is widely used for both recreation and transportation. There are over 56 miles (90 km) of urban trails in Flagstaff.

@@ -32,7 +32,7 @@ At this point I feel that Corwin Toyota of Boulder, and the manager Greg Heinz c
 
 ### Top comments
 
-- u/P4TY (639): Fuck Corwin.
+- u/P4TY (632): Fuck Corwin.
 
 Greg Heinz lied to my wife and myself and said they could not replace the warped glass on our brand new RAV4 because their representative in the Toyota Denver Region said the glass was “normal.”
 
@@ -41,24 +41,24 @@ Their head of service, Rudy Wagner, told us in person that it was not normal. Th
 Mountain States Toyota replaced it immediately, no questions asked. When I told them about our experience at Corwin they were utterly confused. 
 
 Again, fuck Corwin. Greg Heinz is a slime ball.
-- u/kgoodz (274): They snuck in $3k worth of useless 3rd party extra warranty bs on my purchase and it took me 8 months to get them to cancel it. Finance dude was joking about cutting lines of coke with my metal credit card. Absolute trash place, will never let anyone I know go there.
-- u/Bright_Earth_8282 (186): I don’t know if this would help, but there seems to be an agency that handles consumer complaints: 
+- u/kgoodz (271): They snuck in $3k worth of useless 3rd party extra warranty bs on my purchase and it took me 8 months to get them to cancel it. Finance dude was joking about cutting lines of coke with my metal credit card. Absolute trash place, will never let anyone I know go there.
+- u/Bright_Earth_8282 (180): I don’t know if this would help, but there seems to be an agency that handles consumer complaints: 
 
 https://sbg.colorado.gov/filing-a-complaint-auto-industry-division
 
 Sorry you are dealing with this. Buying a new car should be a pleasant, or at least, not adversarial experience.
-- u/ColoBouldo (122): Exactly what are they offering YOU for this NDA? Outrageous.
-- u/slanginp4ncakes (104): i love a good ole fuck corwin thread. fuck em
+- u/ColoBouldo (126): Exactly what are they offering YOU for this NDA? Outrageous.
+- u/slanginp4ncakes (109): i love a good ole fuck corwin thread. fuck em
 
 ## Erie water directive issued this morning.
 
 ### Top comments
 
-- u/phan2001 (288): So all of the golf courses will be made to dry out and die first……… right??????
-- u/phan2001 (231): Wow, turning it off vs fining. They’re serious.
-- u/jrysavy (145): Around 85-90% of all water in Colorado is used for agriculture. If we’re ever going to have an adult conversation around water we need to take a serious look at our food supply and specifically animal ag.
-- u/BalsamA1298c (43): But hey copious water use for fracking and data centers … all good. /s
-- u/hand___banana (28): I used to live near Erie, and the amount of people bitching about a $350 water bill was unreal. They're using 30-40,000 gallons per month. Our family of 3 uses literally 1/10th of that. We don't have any grass, but plenty of plants and landscaping.
+- u/phan2001 (286): So all of the golf courses will be made to dry out and die first……… right??????
+- u/phan2001 (232): Wow, turning it off vs fining. They’re serious.
+- u/jrysavy (140): Around 85-90% of all water in Colorado is used for agriculture. If we’re ever going to have an adult conversation around water we need to take a serious look at our food supply and specifically animal ag.
+- u/BalsamA1298c (44): But hey copious water use for fracking and data centers … all good. /s
+- u/hand___banana (27): I used to live near Erie, and the amount of people bitching about a $350 water bill was unreal. They're using 30-40,000 gallons per month. Our family of 3 uses literally 1/10th of that. We don't have any grass, but plenty of plants and landscaping.
 
 ## So are we all ok with kids riding motorcyles now?
 
@@ -70,11 +70,11 @@ Edit: To anyone claiming E-Bikes can't top 30 - can someone explain to me how a 
 
 ### Top comments
 
-- u/Complete-Rock-1426 (367): The parents buying them are the problem.
-- u/czmax (89): Yup, you are right: it’s fucking insane.
-- u/OrderAdditional1791 (83): After a teen fatality then it will become a priority. This has always been the way.
-- u/soyTegucigalpa (55): Where do you think good organs come from?
-- u/skimaskmj (43): What is crazy is they can and should be registered and insured with also needing motorcycle license endorcement in Colorado as this fine gentleman in this sub did, I ride motorcycles everyday and these kids stress me out 
+- u/Complete-Rock-1426 (370): The parents buying them are the problem.
+- u/czmax (88): Yup, you are right: it’s fucking insane.
+- u/OrderAdditional1791 (85): After a teen fatality then it will become a priority. This has always been the way.
+- u/soyTegucigalpa (54): Where do you think good organs come from?
+- u/skimaskmj (41): What is crazy is they can and should be registered and insured with also needing motorcycle license endorcement in Colorado as this fine gentleman in this sub did, I ride motorcycles everyday and these kids stress me out 
 
 https://www.reddit.com/r/boulder/s/hGJd5mZhOd
 
@@ -104,15 +104,15 @@ Anyway, good riddance to 2025.
 
 ### Top comments
 
-- u/Pomdog17 (111): I’m just happy that one of four years is done. If you know, you know.
-- u/braddamit (89): "Looking forward to a cathartic bonfire where you burn stuff from 2025?"
+- u/Pomdog17 (110): I’m just happy that one of four years is done. If you know, you know.
+- u/braddamit (87): "Looking forward to a cathartic bonfire where you burn stuff from 2025?"
 
 One of Colorado's largest forest fires, the Hayman Fire, was started by a US Forest Service technician who was burning a letter.   Yeah, let's not do that again.
 - u/BringOnTheButterbeer (38): Another reminder that yesterday was the 4 year anniversary of the Marshall fire, the most destructive fire in our state’s history, and a chilling reminder that December remains wildfire season.
-- u/rorowe8 (22): Where I grew up, we just ran outside and banged pots and pans and cheered in the New Year. Fireworks were left to professionals and only for July 4th. 
+- u/rorowe8 (23): Where I grew up, we just ran outside and banged pots and pans and cheered in the New Year. Fireworks were left to professionals and only for July 4th. 
 
 I miss that energy.
-- u/moonmommav (13): I never knew it would be embarrassing to live in Boulder County. This sub definitely brings out the worst in way too many people.
+- u/moonmommav (14): I never knew it would be embarrassing to live in Boulder County. This sub definitely brings out the worst in way too many people.
 
 ## Ya'll need to pay more attention to who you're talking to, since the mods don't.
 
@@ -129,7 +129,7 @@ Block them and move on.  The more you engage with them, the more of them that wi
 
 ### Top comments
 
-- u/SimilarLee (340): &gt;since the mods won't do anything about it
+- u/SimilarLee (337): &gt;since the mods won't do anything about it
 
 Flag on the play. 
 
@@ -140,7 +140,7 @@ If you find a clear sockpuppet or agitator, report via the existing report funct
 That said, as *unpaid volunteers whose time is a grant to a community we care about*, we are never going to purity test every poster here for any aspect of their identity, behavior, viewpoint, or other - not only because of time, but also because we're deliberately not trying to create yet another bubble. 
 
 Furthermore, we will never replace everyone's discretion to discern what is or is not a valid opinion or viewpoint to engage, agree with, refute, or simply ignore.
-- u/BldrStigs (22): Also, this sub has a very high proportion of posters that don't actually live here in Boulder County. Yes, anyone can post here, but often there are people with strong opinions about local issues that are not local.
-- u/arsenal11385 (20): I’m left as most of yall but I don’t think we should just ban people with different viewpoints than us. I read through some of their comments and I don’t agree. But I think you should state your case in a debate and move on.
-- u/Good_Discipline_3639 (12): Also report them to the mods.
+- u/BldrStigs (25): Also, this sub has a very high proportion of posters that don't actually live here in Boulder County. Yes, anyone can post here, but often there are people with strong opinions about local issues that are not local.
+- u/arsenal11385 (21): I’m left as most of yall but I don’t think we should just ban people with different viewpoints than us. I read through some of their comments and I don’t agree. But I think you should state your case in a debate and move on.
+- u/Good_Discipline_3639 (13): Also report them to the mods.
 - u/Buhda_Dev (9): Meh, I generally don't notice or care. It literally doesn't affect my daily life or mental health at all.

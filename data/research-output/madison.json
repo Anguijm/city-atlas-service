@@ -1,0 +1,966 @@
+{
+  "neighborhoods": [
+    {
+      "id": "marquette",
+      "city_id": "madison",
+      "name": {
+        "en": "Marquette (Willy Street)"
+      },
+      "summary": {
+        "en": "Madison’s bohemian heart, a hub of counter-culture, community activism, and artistic expression, evident in its colorfully painted houses and fiercely independent businesses."
+      },
+      "lat": 43.0805,
+      "lng": -89.3658,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square",
+      "city_id": "madison",
+      "name": {
+        "en": "Capitol Square & State Street"
+      },
+      "summary": {
+        "en": "The energetic urban core where the grandeur of the Wisconsin State Capitol meets the youthful energy of the University of Wisconsin."
+      },
+      "lat": 43.0747,
+      "lng": -89.3842,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy",
+      "city_id": "madison",
+      "name": {
+        "en": "Schenk-Atwood-Starkweather-Yahara (SASY)"
+      },
+      "summary": {
+        "en": "A relaxed, creative neighborhood defined by adaptive reuse, innovative food, and beautiful green spaces that feel both historic and forward-thinking."
+      },
+      "lat": 43.0901,
+      "lng": -89.3455,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "marquette-enr-the-weary-traveller-freehouse",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "The Weary Traveller Freehouse"
+      },
+      "description": {
+        "en": "A quintessential 'home-bar' with local art and board games, perfect for grabbing a Wisconsin craft beer and feeling like a regular."
+      },
+      "type": "drink",
+      "lat": 43.0807,
+      "lng": -89.3663,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-lazy-janes-cafe-and-bakery",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "Lazy Jane’s Cafe and Bakery"
+      },
+      "description": {
+        "en": "A beloved, cash-only institution famous for its morning buns, with a line of locals out the door that moves quickly."
+      },
+      "type": "food",
+      "lat": 43.0825,
+      "lng": -89.3615,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-ahan",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "Ahan"
+      },
+      "description": {
+        "en": "A pan-Asian restaurant using locally sourced Wisconsin ingredients, offering a fresh, modern take on Asian cuisine."
+      },
+      "type": "food",
+      "lat": 43.0921,
+      "lng": -89.3492,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-a-pig-in-a-fur-coat",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "A Pig in a Fur Coat"
+      },
+      "description": {
+        "en": "An adventurous and celebratory spot for carnivores with communal seating and a menu featuring rich, decadent dishes."
+      },
+      "type": "food",
+      "lat": 43.0786,
+      "lng": -89.3721,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-willy-street-murals",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "Willy Street Murals"
+      },
+      "description": {
+        "en": "The entire neighborhood serves as an outdoor art gallery; wander the side streets to discover large-scale murals expressing the area's identity."
+      },
+      "type": "culture",
+      "lat": 43.0795,
+      "lng": -89.3688,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-orton-park",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "Orton Park"
+      },
+      "description": {
+        "en": "A historic park and peaceful green space that serves as the neighborhood's communal backyard and hosts a long-running free music festival."
+      },
+      "type": "nature",
+      "lat": 43.0782,
+      "lng": -89.3665,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-willy-street-co-op",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "Willy Street Co-op"
+      },
+      "description": {
+        "en": "More than a grocery store, this member-owned cooperative is a cultural institution and the anchor of the neighborhood."
+      },
+      "type": "shopping",
+      "lat": 43.0809,
+      "lng": -89.3657,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-colorfully-painted-victorian-houses",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "Colorfully Painted Victorian Houses"
+      },
+      "description": {
+        "en": "A key feature of the neighborhood's vibe, these vibrant, multi-colored homes express the area's artistic and independent spirit."
+      },
+      "type": "landmark",
+      "lat": 43.0775,
+      "lng": -89.3675,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-enr-marquette-bungalows-historic-district",
+      "city_id": "madison",
+      "neighborhood_id": "marquette",
+      "name": {
+        "en": "Marquette Bungalows Historic District"
+      },
+      "description": {
+        "en": "A historic district surrounding Orton Park, known for its distinctive style of early 20th-century homes."
+      },
+      "type": "landmark",
+      "lat": 43.0778,
+      "lng": -89.3659,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-the-old-fashioned",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "The Old Fashioned"
+      },
+      "description": {
+        "en": "A tavern dedicated to Wisconsin's culinary traditions, featuring over 150 Wisconsin beers in a living museum of the state’s brewing heritage."
+      },
+      "type": "drink",
+      "lat": 43.0754,
+      "lng": -89.3835,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-little-palace",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "Little Palace"
+      },
+      "description": {
+        "en": "A fun, retro spot serving American Chinese food and classic tiki drinks, offering a quirky and unpretentious escape."
+      },
+      "type": "drink",
+      "lat": 43.0718,
+      "lng": -89.3811,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-paul-s-pel-meni",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "Paul's Pel'meni"
+      },
+      "description": {
+        "en": "A beloved, no-frills institution serving one thing: pillowy Russian dumplings. A cheap, delicious, and deeply satisfying local favorite."
+      },
+      "type": "food",
+      "lat": 43.0763,
+      "lng": -89.3934,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-dotty-dumplings-dowry",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "Dotty Dumpling’s Dowry"
+      },
+      "description": {
+        "en": "Widely considered to have the best burgers in Madison, this pub has an eclectic history and a loyal following."
+      },
+      "type": "food",
+      "lat": 43.0736,
+      "lng": -89.3965,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-dane-county-farmers-market",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "Dane County Farmers' Market"
+      },
+      "description": {
+        "en": "On Saturdays, the Capitol is encircled by the largest producer-only farmers' market in the country, a massive spectacle of local life."
+      },
+      "type": "culture",
+      "lat": 43.0747,
+      "lng": -89.3842,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-monona-terrace",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "Monona Terrace"
+      },
+      "description": {
+        "en": "A lakefront convention center designed by Frank Lloyd Wright, with sweeping curves best viewed from the bike path on the shore of Lake Monona."
+      },
+      "type": "landmark",
+      "lat": 43.0723,
+      "lng": -89.3792,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-orpheum-theater",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "Orpheum Theater"
+      },
+      "description": {
+        "en": "A beautifully restored 1920s movie palace whose towering vertical sign is a State Street landmark and a stunning piece of art deco architecture."
+      },
+      "type": "landmark",
+      "lat": 43.075,
+      "lng": -89.3888,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-enr-monona-terrace-rooftop-garden",
+      "city_id": "madison",
+      "neighborhood_id": "capitol-square",
+      "name": {
+        "en": "Monona Terrace Rooftop Garden"
+      },
+      "description": {
+        "en": "This free-to-access viewpoint on the roof of the convention center offers a stunning perspective of Lake Monona and the city skyline."
+      },
+      "type": "viewpoint",
+      "lat": 43.0728,
+      "lng": -89.3795,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-enr-mint-mark",
+      "city_id": "madison",
+      "neighborhood_id": "sasy",
+      "name": {
+        "en": "Mint Mark"
+      },
+      "description": {
+        "en": "A relaxed and stylish 'low-pressure spot' offering inventive cocktails and small plates, perfect for winding down after a day of exploring."
+      },
+      "type": "drink",
+      "lat": 43.089,
+      "lng": -89.3541,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-enr-lao-laan-xang",
+      "city_id": "madison",
+      "neighborhood_id": "sasy",
+      "name": {
+        "en": "Lao Laan Xang"
+      },
+      "description": {
+        "en": "A renowned, family-owned Laotian restaurant that has been a Madison treasure for nearly 30 years, once declared the 'best meal' by a NYT reviewer."
+      },
+      "type": "food",
+      "lat": 43.0858,
+      "lng": -89.3557,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-enr-montys-blue-plate-diner",
+      "city_id": "madison",
+      "neighborhood_id": "sasy",
+      "name": {
+        "en": "Monty’s Blue Plate Diner"
+      },
+      "description": {
+        "en": "Housed in a renovated gas station, this classic diner with 50s-style decor is a bustling, cheerful cornerstone of the neighborhood."
+      },
+      "type": "food",
+      "lat": 43.0903,
+      "lng": -89.3461,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-enr-garver-feed-mill",
+      "city_id": "madison",
+      "neighborhood_id": "sasy",
+      "name": {
+        "en": "Garver Feed Mill"
+      },
+      "description": {
+        "en": "A stunning example of industrial architecture repurposed into a modern artisan food and event space with various local vendors."
+      },
+      "type": "landmark",
+      "lat": 43.0965,
+      "lng": -89.3335,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-enr-olbrich-botanical-gardens",
+      "city_id": "madison",
+      "neighborhood_id": "sasy",
+      "name": {
+        "en": "Olbrich Botanical Gardens"
+      },
+      "description": {
+        "en": "A 16-acre oasis of outdoor gardens that provides a peaceful and beautifully maintained escape from the city streets."
+      },
+      "type": "nature",
+      "lat": 43.0975,
+      "lng": -89.3325,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-enr-thai-sala-at-olbrich-gardens",
+      "city_id": "madison",
+      "neighborhood_id": "sasy",
+      "name": {
+        "en": "Thai Sala at Olbrich Gardens"
+      },
+      "description": {
+        "en": "An ornate, golden pavilion gifted from Thailand, this authentic and unexpected piece of craftsmanship feels like a secret discovery."
+      },
+      "type": "hidden_gem",
+      "lat": 43.097,
+      "lng": -89.3318,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-enr-olbrich-bolz-conservatory",
+      "city_id": "madison",
+      "neighborhood_id": "sasy",
+      "name": {
+        "en": "Olbrich Bolz Conservatory"
+      },
+      "description": {
+        "en": "A 10,000-square-foot tropical conservatory within the botanical gardens, offering a lush, warm escape year-round."
+      },
+      "type": "nature",
+      "lat": 43.0978,
+      "lng": -89.332,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "marquette-task-1",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Bohemian Colors"
+      },
+      "prompt": {
+        "en": "Find a house painted in at least three bold, contrasting colors and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-2",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Community Message"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a sign that expresses a political or community-focused message."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-3",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "The Local's Ride"
+      },
+      "prompt": {
+        "en": "Capture a photo of a unique or decorated bicycle, a common sight in this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-4",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Take a picture of an inviting-looking porch, decorated with plants, furniture, or art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-5",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Indie Spirit"
+      },
+      "prompt": {
+        "en": "Find a storefront with a quirky or handmade sign and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-6",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Garden Guardian"
+      },
+      "prompt": {
+        "en": "Photograph a unique lawn ornament or garden sculpture you spot in a front yard."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-7",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Cooperative Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of community, like people chatting outside a cafe or shopping at a local store."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-8",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Artistic Expression"
+      },
+      "prompt": {
+        "en": "Find a small, hidden piece of street art, like a sticker or a small stencil, and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-9",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Flavor of the Neighborhood"
+      },
+      "prompt": {
+        "en": "Take a photo of a local food item from a cafe or bakery that looks homemade and delicious."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-10",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Historic Detail"
+      },
+      "prompt": {
+        "en": "Find a Victorian-era house and take a close-up photo of an interesting architectural detail like gingerbread trim or a stained-glass window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-11",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Green Respite"
+      },
+      "prompt": {
+        "en": "Capture a peaceful moment in a neighborhood park or green space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "marquette-task-12",
+      "neighborhood_id": "marquette",
+      "title": {
+        "en": "Counter-Culture Echo"
+      },
+      "prompt": {
+        "en": "Find an object or sign that feels like a throwback to the neighborhood's counter-culture roots."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-1",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Dome in the Distance"
+      },
+      "prompt": {
+        "en": "Frame a photo of the Capitol dome from an unexpected angle, looking down a side street or through a window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-2",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "City on the Lake"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both an urban element (a building, a street) and a view of one of the lakes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-3",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Motion of the City"
+      },
+      "prompt": {
+        "en": "Use a slow shutter speed or a panning motion to capture the blur of city traffic or pedestrians."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-4",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a spot where historic architecture stands right next to a modern building and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-5",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Student Scene"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the youthful energy of State Street, like students with backpacks or a busy cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-6",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "A Taste of Wisconsin"
+      },
+      "prompt": {
+        "en": "Photograph a food or drink item that feels quintessentially Wisconsin (think cheese, beer, or a brat)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-7",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Architectural Grandeur"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a grand, official-looking building to emphasize its height and importance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-8",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Hidden in Plain Sight"
+      },
+      "prompt": {
+        "en": "Find a small, local, no-frills shop or restaurant tucked away on a side street and take its picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-9",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Public Space, Public Life"
+      },
+      "prompt": {
+        "en": "Capture a photo of people enjoying a public space, like sitting on the Capitol lawn or at an outdoor cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-10",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Neon Landmark"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic neon sign, day or night."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-11",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "Wright's Curves"
+      },
+      "prompt": {
+        "en": "Find a curved line in the architecture around the downtown area, inspired by Frank Lloyd Wright's design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "capitol-square-task-12",
+      "neighborhood_id": "capitol-square",
+      "title": {
+        "en": "The Unseen View"
+      },
+      "prompt": {
+        "en": "Thanks to the building height law, the Capitol is always visible. Take a photo that shows how the city's skyline is shaped around it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-1",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a building that has clearly been repurposed (like a factory to lofts or a gas station to a diner) and photograph its new life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-2",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Nature's Reclaim"
+      },
+      "prompt": {
+        "en": "Take a photo of plants, vines, or a garden growing on or around an old industrial or brick building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-3",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Neighborhood Corner"
+      },
+      "prompt": {
+        "en": "Capture a quiet, charming street corner that feels representative of the neighborhood's relaxed vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-4",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Artisan Craft"
+      },
+      "prompt": {
+        "en": "Photograph a locally made product, whether it's food, drink, or art, that you find in a local shop or market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-5",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Take a photo inside a park or garden that makes you forget you're in a city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-6",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Historic Marquee"
+      },
+      "prompt": {
+        "en": "Find a classic theater or business marquee and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-7",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Diner Details"
+      },
+      "prompt": {
+        "en": "Capture a retro detail, like a chrome stool, a checkered floor, or a neon sign, that evokes a classic diner feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-8",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Industrial Echoes"
+      },
+      "prompt": {
+        "en": "Find and photograph an architectural detail that hints at a building's industrial past, like a smokestack or old brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-9",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Forward-Thinking Food"
+      },
+      "prompt": {
+        "en": "Take a picture of a dish or menu that highlights local, sustainable, or innovative ingredients."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-10",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "The Local's Haunt"
+      },
+      "prompt": {
+        "en": "Capture the exterior of a cozy-looking bar or restaurant that seems like a favorite spot for residents."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-11",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Unexpected Art"
+      },
+      "prompt": {
+        "en": "Find a sculpture or piece of art in an unexpected place, like a garden or outside a business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    },
+    {
+      "id": "sasy-task-12",
+      "neighborhood_id": "sasy",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo near the Yahara River, capturing the blend of nature and the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:54:24.720836+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

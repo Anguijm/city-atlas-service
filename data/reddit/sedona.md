@@ -35,8 +35,23 @@ In Page, a border town, the slot canyons are on Dineh land and the tours are Din
 
 I think there is a Hopi-owned hotel in Sedona or maybe it's Cottonwood—any locals remember the name? (I'm always racking up Best Western points toward future travel where possible, so I don't know it.)
 - u/BEEEEEZ101 (7): The staff at the visitor center recommend Crane Petroglyph Heritage Site. It's not too far. It was a fantastic stop! We sat through the entire demonstration amazed by the story. I wish I had the gentleman's name. And while you're at it hit Montezuma's well and Castle. It was an unexpected stop. It ended.up being one of the  highlights of the trip.
-- u/ax57ax57 (6): There are some vendors in Oak Creek Canyon that you could patronize.
-- u/theunrefinedspinster (5): Interact and support? In what way?
+- u/ax57ax57 (5): There are some vendors in Oak Creek Canyon that you could patronize.
+
+## 2.5 days in town
+
+Hi y’all - I’ll be visiting Sedona in a few weeks. Staying in Oak Creek Village. I was hoping to see the 4 vortex spots, but everything I read about the Airport Mesa makes it seem crowded and rather stressful. Is it a must see before sundown or can I give it a miss? 
+
+I plan to check out Oak Creek Canyon on my way into town. 
+
+My idea was to spend one day around OCV area. Do y’all recommend the trip to Montezuma’s Well and Castle? Also what about the drive down Verde Valley School road? It seems there is a nice view of Cathedral rock there and it’s possible to swim. Would you recommend swimming there?
+
+I do want to get to Boynton Canyon and see some of the ‘in town’ things on my second full day but I am not interested in shopping much. I just want to hit the trails and be outside. 
+
+I would love to hear any thoughts or recommendations y’all have. This sub is a real treasure. I’ve gotten so much good intel here already.
+
+### Top comments
+
+- u/DogMamaLA (6): I did airport Mesa but not at sunset b/c it is too crowded then. I went mid-morning and later afternoon and you can still take in the great view with some good lighting. There are other spots to see sunsets.
 
 ## Honeymoon trip to Sedona &amp; Grand Canyon – what’s actually worth it?
 
@@ -70,22 +85,6 @@ The pink jeep tour was fun too.
 On your way to the Grand Canyon stop at the Oak Valley lookout. It’s beautiful but also a good spot to shop for Native American jewelry and pottery. Near Flagstaff there is Volcanoes National Park and it is definitely worth a stop! Flagstaff is a quirky, fun town to just wander around and get some lunch. A few breweries too. There is a very observatory there in case you spend a night before heading up to the GC.
 I would also recommend going to Antelope Canyon near Page. It is a guided tour on Navajo land and it’s amazing. You could also stop at Horseshoe Bend lookout and/or take a rafting trip that goes around the bend. Like the jeep tour, be prepared for bumps and dust to get there. You can only go on a guided tour, not on your own. 
 Enjoy it all!
-
-## 2.5 days in town
-
-Hi y’all - I’ll be visiting Sedona in a few weeks. Staying in Oak Creek Village. I was hoping to see the 4 vortex spots, but everything I read about the Airport Mesa makes it seem crowded and rather stressful. Is it a must see before sundown or can I give it a miss? 
-
-I plan to check out Oak Creek Canyon on my way into town. 
-
-My idea was to spend one day around OCV area. Do y’all recommend the trip to Montezuma’s Well and Castle? Also what about the drive down Verde Valley School road? It seems there is a nice view of Cathedral rock there and it’s possible to swim. Would you recommend swimming there?
-
-I do want to get to Boynton Canyon and see some of the ‘in town’ things on my second full day but I am not interested in shopping much. I just want to hit the trails and be outside. 
-
-I would love to hear any thoughts or recommendations y’all have. This sub is a real treasure. I’ve gotten so much good intel here already.
-
-### Top comments
-
-- u/DogMamaLA (6): I did airport Mesa but not at sunset b/c it is too crowded then. I went mid-morning and later afternoon and you can still take in the great view with some good lighting. There are other spots to see sunsets.
 
 ## Best sunrise hike?
 

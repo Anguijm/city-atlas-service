@@ -15,13 +15,6 @@ Situated between soaring mountains and the Cook Inlet, Anchorage is completely s
 
 Ready to find out more? Check out our list of the coolest places to explore, where to find delicious food with an Alaskan twist and even where you can see the northern lights in the middle of the summer. The best things to do in Anchorage, Alaska will surprise you. While this list is curated, as always, it isn’t ranked—we just couldn’t choose favorites.
 
-Time Out Japan
-Flow
-Read More
-00:00
-/
-07:12
-
 Done something on this list and loved it? Share it with the hashtag #TimeOutDoList and tag @TimeOutEverywhere.
 
 Find out more about how Time Out selects the very best things to do all over the world.

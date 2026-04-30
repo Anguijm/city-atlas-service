@@ -1,76 +1,85 @@
 # Reddit: Portsmouth, United States
 
-Sources: /r/PortsmouthNh
+Sources: /r/portsmouthnh
 
-## Our film is showing at New Hampshire Film Festival!
+## Thinking About Transferring to Portsmouth Naval Shipyard — Looking for Honest Input
 
-I directed a feature film called *The Only Way Out Is Through* which will play at the New Hampshire Film Festival in Portsmouth on 10/18 and 10/19!
+Hey y’all,
 
-This film was inspired by my journey to reconnect with my childhood best friend after nearly losing him in a tragic accident. It’s about friendship, masculinity, vulnerability, and the kind of inner struggles we rarely speak openly about, especially among men.
+I currently work at Norfolk Naval Shipyard as a crane rigger and I’m seriously considering transferring to Portsmouth Naval Shipyard (Kittery, ME area). I’m doing my research, but figured I’d come here for some real insight from locals or folks who’ve made the move.
 
-To bring it to life, our cast and crew camped in the Rocky Mountains of southern Colorado. One of our toughest days was a seven-mile trek on foot, climbing 2,746 feet with gear on our backs to film a pivotal scene at the top of Culebra Peak, 14,047 feet up.
+I’m a 36-year-old Black man, and while I’m not looking for any drama, I’m not blind to how things can feel when you’re one of the few in the room. I’m more than capable of handling myself, but I like to be informed.
 
-Our film plays on Saturday 10/18 at 5:50pm and Sunday 10/19 at 6:20pm. A solid group of our cast and crew will be attending for post screening Q&amp;As. We'd love to see you there!
+So here’s what I’d love some feedback on:
 
-More information can be found at [https://nhfilmfestival.com/films/the-only-way-out-is-through/](https://nhfilmfestival.com/films/the-only-way-out-is-through/)
+What’s the overall vibe like in the Portsmouth/Kittery area?
+
+How’s the workplace culture at the shipyard, especially for someone coming from Norfolk?
+
+Are there any decent Black-owned businesses, barbershops, or community spaces nearby?
+
+Anything I should know about cost of living, winters (lol), or day-to-day life up there?
 
 
-## UK here. Is there any sort of connection between Portsmouth (NH) to the namesake in the UK? What's your City like?
+Appreciate any honest input—trying to make a move that sets me up long term, not just job-wise but quality of life too.
 
-Only stumbled across this sub while trying to find the UK one!
-
-  
-UK Portsmouth is the home of the UK Navy and also my original home with a population of 240k. Technically it's an island due to a narrow waterway that surrounds it. It's got an amazing history due to the Naval history.
-
-https://preview.redd.it/sziltysr2lnf1.png?width=933&amp;format=png&amp;auto=webp&amp;s=52192c81c643c2040e330134c62f6e227bfa8c58
-
-  
-Also home to Portsmouth Football Club which I've supported my entire life. We have a reputation for having some of the best fans in the country despite our modest size more than likely born out of the fact we're still a pretty working class city with a victim complex! Fun facts we held the FA Cup for the longest time out of any team because we won it just before the outbreak of World War 2! We almost went out of business about 15 years ago but the fans put together their money to save the club and we became the biggest fan own club in the UK which eclipses anything else we've achieved imo. Now owned by Michael Eisner of Disney fame so we're the very definition of a Mickey Mouse club :)
-
-  
-If you like Football (Soccer) we're playing our heated rivals Southampton next Saturday at 12:30 (UK time) so if you want to see some real passion and what English football can mean to fans from a small city like Portsmouth give it a watch!
-
-So what's the NH version like? What are the best and worst things about it? Any sporting teams to be aware of? I've had a quick google and looks like a pretty chill place to live so I'd love to know more!
+Thanks in advance ✊🏾
 
 ### Top comments
 
-- u/alrightshaggers (30): Portsmouth also has a great maritime history! It was a major port early on, and is home to the oldest continuously active navy yard in the entire country. In WWII we built over half of the entire us submarine fleet. Best things about it are the beautiful homes preserved from the 16-17 hundreds. Worst thing is the unaffordable real estate
-- u/matt12222 (25): From [Wiki](https://en.m.wikipedia.org/wiki/Portsmouth,_New_Hampshire):
+- u/Intru (35): Portsmouth I great but it's a predominantly white upper class community, NH and ME are some of the whitest states. All to say our BIPOC communities are small. It's pretty inclusive and open community most of the Seacoast is, as a BIPOC myself its surprising diverse area its proximity to Boston, Portland and Manchester help in that regard.
 
-&gt; At the town's incorporation in 1653, it was named "Portsmouth" in honor of the colony's founder, John Mason. He had been captain of the English port of Portsmouth, Hampshire, after which New Hampshire is named.
+All that said, as a Navy Yard worker you will not live there, it's just not financially possible unless you're ok with shared living, you will be in one of the nearby communities. Kittery, Eliot, the Berwicks in ME or in Dover, Somersworth, Rochester in NH. I mentioned the communities that will probably have the most diversity you can also find affordable places in other municipalities but its get rural fast and those communities might not have a lot of minority own businesses but they are pretty welcoming, this is New England after all.
 
-We're located in the state of New Hampshire, in the region of New England, so we're definitely named after your Portsmouth!
-- u/No-Stress-7034 (14): Portsmouth, NH has a really cute and walkable downtown area. I fell in love with it the first time I visited. Lots of nice little shops and restaurants. Some really nice parks as well. I moved to NH from Massachusetts, and anytime I mentioned Portsmouth, the response was always, "Oh I LOVE Portsmouth." It's really quite charming. 
+A lot of the BIPOC own businesses will be up the RT 16 corridor in Dover, Rochester, Somersworth. There are some black focus community groups but not that many NH Panthers and the African American Cultural Center come to mind.
 
-My least favorite part is how expensive real estate is. (I though moving to NH would decrease my rent after living in the Boston area - lol, not so much.)
-- u/kindaevilgenius13 (13): Crotchety old man checking in.  25 years ago, it was an economically mixed community with an extraordinary arts and music scene.   It is now primarily affluent with shops and businesses that cater to that crowd.  It is extraordinarily safe, friendly, beautiful, and has an overwhelming number of public resources.   
-The cost of rent has caused a dramatic change in the personality of the town.  We are close to the University of New Hampshire, and many students following graduation would spend a few years in town, tending bar, playing in a local band, starting a business, and having fun.  It's too expensive for most to do that now.
-If you come for a visit, I can promise you an amazing time.  There is still great live music, restaurants, scenery,  and people who would love to chat you up about Portsmouth UK.
-Go Pompey!
-- u/Hour-Birthday5992 (11): Graduated from Portsmouth High School in 1979, and back then it was a New England town with an Air Force base and a Naval shipyard, fishing and tourism with some manufacturing. Now it is a mix of new construction and quaint brick buildings in a small city of overpriced condos and pricey restaurants. There is the original colony settlement called Strawberry Bank with restored homes, a museum of yesteryear. No sports teams, just a lot of luxury SUVs clogging the streets and constant construction of more million dollar apartments in this coastal town.
+This area is much slower and calm living than a Norfolk. The whole seacoast barely has as much people as the city of Norfolk itself.
+- u/ControlSlowBurn (16): Portsmouth is a great, safe, vibrant community to be a part of.  Proximity to beaches, mountains, lakes &amp; smaller/larger cities like Portland, ME &amp; Boston make it an exceptional location.  It's predominantly liberal - so if that's not your speed and all that comes with it - it may not be your ideal fit.  It's also an expensive place to live, eat &amp; socialize.
+- u/khulumkhulu (12): 40 yr old black guy here that moved here about 5 years ago and grew up near DC. You will be one of the very few black people in any room you enter. I've lived like that since college though, so I'm used to it now.
 
-## Any crafters or fiber artists that want to make a political crafting group?
+To add to the list of businesses, there are black owned barbershops (Salon St. Pierre). Our vice mayor is a black lady that owns Cup of Joe in downtown. There's a website listing more black owned businesses.
 
-Some context:
-I  was a part of a spinning and fiber arts group but the mere mention of the "melt the ice" hats or anything remotely "political" made for a hostile environment for some, as it was deemed too political and hurting the safe space. This point I do agree with to some extent, but knitting, crocheting, spinning, and any form of crafts have historically always been political and I think it's very important to not forget that and use these moments to spread awareness and connect with others.
+Culturally, almost everyone is laid back, friendly, and will help you out in a pinch. Raisins may be in the potluck potato salads.
 
-With the rise of the melt the ice hats and just other methods of protest I was wondering if anyone would want to start a group, where we knit/crochet/spin/craft pieces are shared with the community. I have made a few melt the ice hats and will be sending them to Minnesota or sharing them with the local community as an example! I also have been making patches to hand out as well. 
+Politically, assumptions will be made about you, but aside from some very few recently emboldened assholes, left and right can still hold a conversation. Direct democracy is a much bigger thing here, so show up to the town meetings and issue sessions you care about, and meet your neighbors.
 
-I don't have a place that would host anyone but I was wondering if anyone would be even interested in this group? I haven't seen or heard of a group that already exists so please let me know if it does!
-I'm from Madbury so this would be for Madbury, Portsmouth, Kittery, Dover, Durham, and anyone else! 
-Even if it is just a few people sitting at a library or at a coffee shop, I believe it would make just that much of a difference!
+Winters, really aren't that bad anymore. Maybe 2-3 big snow storms a year with everything melting in between. Have a snowblower of any kind and you'll be fine.
+- u/Wraith-723 (7): I used to work there and did some trips to Norfolk.
 
-**UPDATE**
-I honestly didn't expect much from this because I felt this was a fairly niche interest but I am so excited! I've had several people reach out for more info so I currently have a Google Interest form for anyone to fill out if they would like!
+1) The race thing is really a non issue but you will likely be one of the few black people in the room. I didn't ever see any racial stuff there.
 
-https://forms.gle/meNsUTFq8LbbqRe7A
+2) You need to understand that the work load is different. Norfolk was insanely slow at getting things done while I was down there. Guys milked jobs and it was crazy to me. That didn't happen at Portsmouth when I was there.
 
-I am also working with a friend to get posters to put around the area as well as figuring out a location! 
-I set up an email too to send out info and updates to anyone who fills out the form and messages me. Please let me know if anyone has recommendations, ideas, or any comments!
+3) Housing is nutty expensive in New England so keep that in mind.
+
+4) Make sure you don't mind cold weather because winter on that river is nuts.
+- u/AssociateMoney8509 (5): Historically the Portsmouth area has been a little more racially diverse than much of New England thanks to having the naval installation AND an air base for decades and a large population of tourists. That being said, it is still mostly white. But people here are generally open and accepting, but also people can be assholes no matter where they are. 
+
+Good luck and I hope you are happy whatever choice you make.
+
+## Guy in car screams at you when you don’t talk to him about Christ
+
+Me and my boyfriend stopped in Portsmouth for a bit on our way to Maine. We were paying for parking at Prescott park when a guy pulled up and said something along the lines of “excuse me do you follow the words of Christ”. We were tired and not in the mood so we went back to the whole parking meter thing. Suddenly he screams what sounds like an angry  “Boom, just like that” and speeds off. 
+
+As far as description go he looked like…an unhinged born again Christian who started out as a husky limp biscuit fan(I feel like this is the most accurate I can describe him). There was also an elderly gentleman in the passenger seat who was either uncomfortable that he was in this situation or that we were not in fact Christians. 
+
+This really freaked me out and I’m just wondering is this a feature of the town or did we just get extra lucky?
 
 ### Top comments
 
-- u/Avelera (6): I am not a fiber artist but I have a friend who is and who has compatible politics so I’m sending them this post!
+- u/SnooPeripherals5969 (26): It’s never happened to me or anyone I know and I haven’t seen it discussed on any of the local fb pages or groups either, think you just won the Jesus lottery for the day or something. 
+
+There are a couple old  lame-ass guys that spend all their time standing right downtown with their pro trump/ anti-women signs.  There used to be more of them but the number has slowly dwindled to two, I’m unsure if the others slunk away in embarrassment or passed from easily preventable diseases they refused to get vaccines for. Who knows or cares, Nobody engages with them. 
+
+I’m sorry you had a crappy experience, I would say it won’t happen again but we are in the worst timeline so there’s are no guarantees.
+- u/DJBudGreen (9): Blue vehicle with a bunch of ladders on the roof? There's a person who lives in Eliot someplace that did nearly the same thing to me one Easter morning. 
+
+I go out walking every weekend and I wave to every car that passes. It's my way of trying to put a little light and positivity in everyone's day if possible.
+I was on my walk that Easter morning, and he pulled up in the car and asked if I wanted to pray with him for a moment about Christ our Lord who has risen. I said no and he lit up about me being a heathen and screamed at me. 
+
+I think he's harmless though because, ironically, when I see his vehicle pass me on my walks now, he waves back at me like we had a positive encounter with each other. 
+
+ Be well. 👋
 
 ## Events in Portsmouth to make friends
 
@@ -79,12 +88,12 @@ Hi everyone. Boy do I love this town. And boy do I love all my friends. But unfo
 ### Top comments
 
 - u/hopscratch (11): There’s a group on FB “nh ladies making friends”
-- u/Electronic_Oven5005 (9): Very much in the same boat.  From Portsmouth originally and moved back here recently after NYC and some stints around the country.
+- u/Electronic_Oven5005 (8): Very much in the same boat.  From Portsmouth originally and moved back here recently after NYC and some stints around the country.
 
 I absolutely love it here - Portsmouth is the best place but it’s sucks having to hop on a plane to see friends and trying to re-establish a social scene in mid 20s here has been brutal. 
 
 It tough because I think there’s a lot of people in the area who love being here with the same struggles.  Don’t have a great answer but definitely something I want to try to help solve for.
-- u/Livvyinthehouse99 (8): check out Seacoast Stories on YouTube. They put together dinners for people to meet each other. Troy Farkas, the creator, just won the “30 under 30 Award.” Looks like fun!
+- u/Livvyinthehouse99 (7): check out Seacoast Stories on YouTube. They put together dinners for people to meet each other. Troy Farkas, the creator, just won the “30 under 30 Award.” Looks like fun!
 
 ## Portsmouth Zoning November 2025-2026 To Watch For!
 
@@ -98,4 +107,5 @@ Staying on top of market stats is one part of being a real estate expert – ano
 * **Bottom line:** Expect to see more Portsmouth homeowners taking advantage of ADUs (for rental income or family use) in the coming years, now that state law has made it easier. If you have a big yard or an under-utilized garage, this could be a game changer – adding housing units *and* boosting your property value.
 * **Co-Living Developments in Portsmouth:** The city has embraced an innovative housing model called **“co-living.”** In May 2025, the Portsmouth City Council unanimously approved a new **co-living zoning ordinance** to help address the housing affordability crisis ([nhpr.org](https://www.nhpr.org/nh-news/2025-05-08/portsmouth-approves-co-living-to-address-housing-crisis#:~:text=The%20Portsmouth%20City%20Council%20voted,the%20city%E2%80%99s%20affordable%20housing%20crisis)). **Co-living housing** is defined as private bedrooms (each like a studio room) paired with **shared common areas** (kitchens, living spaces) in the same building ([nhpr.org](https://www.nhpr.org/nh-news/2025-05-08/portsmouth-approves-co-living-to-address-housing-crisis#:~:text=Co,according%20to%20the%20new%20zoning)). It’s sort of like upscale dorm-style living for professionals. Since the ordinance passed, **two major co-living projects downtown have been moving forward**. Developer **Mark McNabb** led the charge – his **125-resident co-living project** at the former Newberry’s department store on Congress Street was approved by a narrow Planning Board vote, and shortly after he proposed another **55-unit co-living project at 134 Pleasant Street** (the old Citizens Bank site). Together, these two developments will create nearly **180 new co-living units** in the heart of Portsmouth. Supporters say co-living will provide more affordable downtown rental options (expected rents of $1,200- $1,500 per bedroom, lower than most full apartments here) ([jbartlett.org](https://jbartlett.org/2025/09/the-i-do-not-care-about-your-economics-approach-to-housing/#:~:text=The%20%27I%20do%20not%20care,area%20rents)). Critics worry about density and parking.
 * **What it means for real estate:** Co-living could bring a wave of new residents without needing sprawling land – potentially easing some rental demand pressure. If you own property nearby, these projects could **increase foot traffic and area amenities**. And for investors, co-living represents a new asset class in Portsmouth – something to watch as these buildings come online.
-* **Historic District Boundary Changes:** On the local Planning Board front, Portsmouth is also considering changes to its **Historic District boundaries**. In a November 2025 work session, the Planning Board reviewed a proposal from the Historic District Commission to **adjust the Historic District map** ([files.portsmouthnh.gov](https://files.portsmouthnh.gov/agendas/2025/Planning+Board+/11-10-2025+WS/Zoning_Amendments_PBMemo_Nov_10_premerge.pdf#:~:text=I,recommended%20by%20the%20Historic%20District)). The issue is that the district’s boundary (especially along streets like Middle Street and New Castle Ave) is currently drawn as a fixed offset (150 feet from the road), which *splits* some lots and even bisects buildings ([files.portsmouthnh.gov](https://files.portsmouthnh.gov/agendas/2025/Planning+Board+/11-10-2025+WS/Zoning_Amendments_PBMemo_Nov_10_premerge.pdf#:~:text=Historic%20District%20Commission%E2%80%99s%20work%20on,on%20either%20side%2C%20which%20bisects)). The proposed change would instead include entire parcels that front those streets, and remove portions that shouldn’t have been included. If approved, **some properties will be fully added to the Historic District, and others will be removed** or clarified ([files.portsmouthnh.gov](https://files.portsmouthnh.gov/agendas/2025/Planning+Board+/11-10-2025+WS/Zoning_Amendments_PBMemo_Nov_10_premerge.pdf#:~:text=on%20Middle%20Street,street%20or%20corner%20and%20removes)). **Implications:** Homes brought into the Historic District would henceforth need approval for exterior changes (which can preserve c
+* **Historic District Boundary Changes:** On the local Planning Board front, Portsmouth is also considering changes to its **Historic District boundaries**. In a November 2025 work session, the Planning Board reviewed a proposal from the Historic District Commission to **adjust the Historic District map** ([files.portsmouthnh.gov](https://files.portsmouthnh.gov/agendas/2025/Planning+Board+/11-10-2025+WS/Zoning_Amendments_PBMemo_Nov_10_premerge.pdf#:~:text=I,recommended%20by%20the%20Historic%20District)). The issue is that the district’s boundary (especially along streets like Middle Street and New Castle Ave) is currently drawn as a fixed offset (150 feet from the road), which *splits* some lots and even bisects buildings ([files.portsmouthnh.gov](https://files.portsmouthnh.gov/agendas/2025/Planning+Board+/11-10-2025+WS/Zoning_Amendments_PBMemo_Nov_10_premerge.pdf#:~:text=Historic%20District%20Commission%E2%80%99s%20work%20on,on%20either%20side%2C%20which%20bisects)). The proposed change would instead include entire parcels that front those streets, and remove portions that shouldn’t have been included. If approved, **some properties will be fully added to the Historic District, and others will be removed** or clarified ([files.portsmouthnh.gov](https://files.portsmouthnh.gov/agendas/2025/Planning+Board+/11-10-2025+WS/Zoning_Amendments_PBMemo_Nov_10_premerge.pdf#:~:text=on%20Middle%20Street,street%20or%20corner%20and%20removes)). **Implications:** Homes brought into the Historic District would henceforth need approval for exterior changes (which can preserve character but add design restrictions), potentially affecting property values (often historic designation is seen as value-positive, but it can limit development potential). Those removed from the district might face fewer hurdles for renovations. If you own property near these areas, keep an ear out – the Planning Board’s recommendation will go to City Council for a final decision.
+* **Statewid

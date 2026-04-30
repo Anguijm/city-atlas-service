@@ -1,0 +1,301 @@
+{
+  "neighborhoods": [
+    {
+      "id": "gushan",
+      "city_id": "kaohsiung",
+      "name": {
+        "en": "Gushan District"
+      },
+      "summary": {
+        "en": "A district of compelling contrasts where the urban grid gives way to the sea and mountains, Gushan is the bustling gateway to Cijin Island and the lush trails of Shoushan."
+      },
+      "lat": 22.6281,
+      "lng": 120.2675,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "gushan-enr-sizihwan-tunnel",
+      "city_id": "kaohsiung",
+      "neighborhood_id": "gushan",
+      "name": {
+        "en": "Sizihwan Tunnel"
+      },
+      "description": {
+        "en": "An atmospheric pedestrian and bike tunnel cutting through Shoushan, originally built during the Japanese colonial era as an air-raid shelter."
+      },
+      "type": "hidden_gem",
+      "lat": 22.6255,
+      "lng": 120.2651,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-enr-the-british-consulate-at-takow",
+      "city_id": "kaohsiung",
+      "neighborhood_id": "gushan",
+      "name": {
+        "en": "The British Consulate at Takow"
+      },
+      "description": {
+        "en": "A historic landmark with a trail connecting the hilltop residence to the waterfront. It offers one of the city's most iconic sunset views over the harbor entrance."
+      },
+      "type": "landmark",
+      "lat": 22.6213,
+      "lng": 120.2682,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-enr-shoushan-monkey-trail-viewpoint",
+      "city_id": "kaohsiung",
+      "neighborhood_id": "gushan",
+      "name": {
+        "en": "Shoushan \"Monkey Trail\" Viewpoint"
+      },
+      "description": {
+        "en": "A lookout point on Shoushan (Monkey Mountain) offering a sweeping panorama of the Port of Kaohsiung, Cijin Island, and the 85 Sky Tower."
+      },
+      "type": "viewpoint",
+      "lat": 22.6358,
+      "lng": 120.2694,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-enr-gushan-fish-market",
+      "city_id": "kaohsiung",
+      "neighborhood_id": "gushan",
+      "name": {
+        "en": "Gushan Fish Market"
+      },
+      "description": {
+        "en": "A recently renovated, modern architectural space with food stalls and waterfront seating, perfect for observing harbor activity away from the ferry crowds."
+      },
+      "type": "food",
+      "lat": 22.6241,
+      "lng": 120.2725,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "gushan-task-1",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Harbor Life"
+      },
+      "prompt": {
+        "en": "Capture a photo of a ferry, fishing boat, or container ship that shows the neighborhood's connection to the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-2",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Mountain and City"
+      },
+      "prompt": {
+        "en": "Find a spot where you can photograph the green slopes of Shoushan and the urban streets in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-3",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Port-side Snack"
+      },
+      "prompt": {
+        "en": "Find a street vendor selling a local snack, like grilled squid or shaved ice, and take a delicious-looking photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-4",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Student Vibe Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the youthful, student energy from the nearby university."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-5",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Historic Traces"
+      },
+      "prompt": {
+        "en": "Photograph an architectural detail—like an old wall, a colonial-era building, or a traditional temple roof—that hints at the area's history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-6",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Monkey Mountain Clue"
+      },
+      "prompt": {
+        "en": "Find and photograph something that references the famous monkeys of Shoushan (a sign, a statue, or even the real thing from a safe distance!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-7",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Sea Breeze Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that visually represents the feeling of a sea breeze, like a flag waving, palm trees swaying, or your hair blowing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-8",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Tunnel Vision"
+      },
+      "prompt": {
+        "en": "Find a tunnel, alleyway, or covered walkway and take a creative photo looking through it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-9",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "As the sun begins to set, capture a photo of the warm, golden light on the water or a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-10",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Two-Wheeled Life"
+      },
+      "prompt": {
+        "en": "Scooters are everywhere. Find a parked scooter and compose an artistic shot of it against a scenic Gushan backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-11",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Vegetarian Quest"
+      },
+      "prompt": {
+        "en": "The sources mentioned a search for vegetarian food (素食). Find a sign or menu with these characters and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-12",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Island Gateway"
+      },
+      "prompt": {
+        "en": "Take a photo looking across the water towards Cijin Island, capturing the sense of a nearby destination."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-13",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Step off the main street and find a quiet residential alley. Capture a slice of local daily life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-14",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Up the Hill"
+      },
+      "prompt": {
+        "en": "Photograph a steep street, staircase, or path that leads up the hillside, showing the neighborhood's verticality."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    },
+    {
+      "id": "gushan-task-15",
+      "neighborhood_id": "gushan",
+      "title": {
+        "en": "Contrasting Textures"
+      },
+      "prompt": {
+        "en": "Find a scene that contrasts natural and man-made textures, like tree roots against concrete or rusty metal against green leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:14:05.008251+00:00"
+    }
+  ]
+}

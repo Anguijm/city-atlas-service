@@ -19,3 +19,21 @@ Yellowstone National Park: Mostly in Wyoming, Yellowstone also extends into Idah
 Movies shot in Jackson include The Big Trail (1930), The Big Sky (1952), Shane (1953), Any Which Way You Can (1980), Rocky IV (1985), Ghosts Can't Do It (1990), and Django Unchained (2012).
 It is also a major location in the action-adventure video game The Last of Us (2013) and its sequel (2020), in which it is home to a large community of survivors in a post-apocalyptic world; however, scenes set in Jackson in the game's television adaptation (2023) were instead shot in the Canadian town of Canmore, Alberta, which doubled for Jackson.
 Jackson has gained notability since a livestream of its town square went viral on YouTube in 2016, leading to much fascination with the town's elk antler arches and unusually high prevalence of red pickup trucks. It first went viral when a sheriff stopped at a red light in the early hours of the morning, got out of his patrol car, and dabbed towards the camera before leaving.
+
+## Notable people
+
+Sandra Bullock (born 1964), actress
+Jimmy Chin (born 1973), professional climber, photographer, and Academy Award-winning film director; directed, alongside his wife, E. Chai Vasarhelyi, Free Solo
+Tom Chrystie (1933–2013), banker who served as the first Chief Financial Officer of Merrill Lynch & Company and industry pioneer who created the Cash Management Account
+Affie Ellis (born c. 1980), politician who served in the Wyoming Senate from the 8th district as a member of the Republican Party
+Harrison Ford (born 1942), actor
+Clifford Hansen (1912–2009), 26th Governor of Wyoming
+Aaron Linsdau (born 1973), adventurer living in Jackson, Wyoming; known for the longest solo expedition from Hercules Inlet to the South Pole
+John Franklyn Mars (born 1935), businessman and heir to the Mars candy company fortune
+Mary Mead (1935–1996), rancher, businesswoman, politician
+Matt Mead (born 1962), attorney, businessman, politician
+Travis Rice (born 1982), professional snowboarder
+Milward Simpson (1897–1993), 23rd Governor of Wyoming
+Carol Tomé (born 1957), businesswoman
+Lyle Waggoner (1935–2020), actor, sculptor, presenter, travel trailer salesman, model; known for his work on The Carol Burnett Show
+Christy Walton (born 1949), widow of John T. Walton who was one of the sons of Sam Walton, the founder of Walmart'

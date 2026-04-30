@@ -1,0 +1,1597 @@
+{
+  "neighborhoods": [
+    {
+      "id": "kannai",
+      "city_id": "yokohama",
+      "name": {
+        "en": "Kannai"
+      },
+      "summary": {
+        "en": "The historic heart of Meiji-era Yokohama, mixing stately architecture with the modern energy of the nearby baseball stadium and government buildings."
+      },
+      "lat": 35.4437,
+      "lng": 139.6361,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront",
+      "city_id": "yokohama",
+      "name": {
+        "en": "The Historic Waterfront"
+      },
+      "summary": {
+        "en": "A breezy, scenic area defined by waterfront parks, iconic promenades, preserved ships, and stunning views of the modern skyline."
+      },
+      "lat": 35.4475,
+      "lng": 139.6475,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate",
+      "city_id": "yokohama",
+      "name": {
+        "en": "Yamate & The Foreign Bluff"
+      },
+      "summary": {
+        "en": "A serene and atmospheric escape filled with preserved Western-style mansions, a historic cemetery, hidden gardens, and panoramic port views."
+      },
+      "lat": 35.437,
+      "lng": 139.653,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown",
+      "city_id": "yokohama",
+      "name": {
+        "en": "Motomachi & Chinatown"
+      },
+      "summary": {
+        "en": "A bustling area combining a famous shopping street with the vibrant, sensory-rich experience of one of the world's largest Chinatowns."
+      },
+      "lat": 35.441,
+      "lng": 139.65,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial",
+      "city_id": "yokohama",
+      "name": {
+        "en": "The Industrial Edge"
+      },
+      "summary": {
+        "en": "An adventurous trail through Yokohama's gritty, uncurated history, featuring surreal transit anomalies and atmospheric, un-renovated relics."
+      },
+      "lat": 35.508,
+      "lng": 139.678,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts",
+      "city_id": "yokohama",
+      "name": {
+        "en": "Southern Outskirts"
+      },
+      "summary": {
+        "en": "An off-the-beaten-path exploration into the region's mystical side, home to sacred subterranean tunnels far from the city center."
+      },
+      "lat": 35.352,
+      "lng": 139.532,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "kannai-enr-yokohama-stadium",
+      "city_id": "yokohama",
+      "neighborhood_id": "kannai",
+      "name": {
+        "en": "Yokohama Stadium"
+      },
+      "description": {
+        "en": "The area around the stadium is packed with good pre- and post-game drinking and eating spots, especially on a game night."
+      },
+      "type": "landmark",
+      "lat": 35.4435,
+      "lng": 139.6401,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-enr-yokohama-three-towers",
+      "city_id": "yokohama",
+      "neighborhood_id": "kannai",
+      "name": {
+        "en": "Yokohama Three Towers"
+      },
+      "description": {
+        "en": "A local legend says your wish will be granted if you can see The King, Queen, and Jack towers from a single spot."
+      },
+      "type": "viewpoint",
+      "lat": 35.4468,
+      "lng": 139.6425,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-enr-the-king-kanagawa-prefectural-government-building",
+      "city_id": "yokohama",
+      "neighborhood_id": "kannai",
+      "name": {
+        "en": "The King (Kanagawa Prefectural Government Building)"
+      },
+      "description": {
+        "en": "One of the three historic towers, a beautiful example of early 20th-century architecture."
+      },
+      "type": "landmark",
+      "lat": 35.4457,
+      "lng": 139.641,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-enr-the-queen-yokohama-customs",
+      "city_id": "yokohama",
+      "neighborhood_id": "kannai",
+      "name": {
+        "en": "The Queen (Yokohama Customs)"
+      },
+      "description": {
+        "en": "One of the three historic towers, a beautiful example of early 20th-century architecture."
+      },
+      "type": "landmark",
+      "lat": 35.4485,
+      "lng": 139.643,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-enr-the-jack-yokohama-port-opening-memorial-hall",
+      "city_id": "yokohama",
+      "neighborhood_id": "kannai",
+      "name": {
+        "en": "The Jack (Yokohama Port Opening Memorial Hall)"
+      },
+      "description": {
+        "en": "One of the three historic towers, a beautiful example of early 20th-century architecture."
+      },
+      "type": "landmark",
+      "lat": 35.4497,
+      "lng": 139.6403,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-enr-hikawa-maru",
+      "city_id": "yokohama",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "name": {
+        "en": "Hikawa Maru"
+      },
+      "description": {
+        "en": "A magnificent 1930s ocean liner permanently docked in Yamashita Park, now a museum of sea travel's golden age."
+      },
+      "type": "culture",
+      "lat": 35.4461,
+      "lng": 139.6508,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-enr-kishamichi-promenade",
+      "city_id": "yokohama",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "name": {
+        "en": "Kishamichi Promenade"
+      },
+      "description": {
+        "en": "An elevated walkway on defunct railway tracks, offering iconic, photogenic strolls with the skyline as a backdrop."
+      },
+      "type": "viewpoint",
+      "lat": 35.4545,
+      "lng": 139.6353,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-enr-zo-no-hana-terrace-elephant-s-nose-park",
+      "city_id": "yokohama",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "name": {
+        "en": "Zō-no-Hana Terrace (Elephant's Nose Park)"
+      },
+      "description": {
+        "en": "An art-focused park on the pier where Commodore Perry arrived, offering perfect ground-level views of Minato Mirai."
+      },
+      "type": "viewpoint",
+      "lat": 35.4504,
+      "lng": 139.6442,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-enr-tin-toy-museum-kitahara-collection",
+      "city_id": "yokohama",
+      "neighborhood_id": "yamate",
+      "name": {
+        "en": "Tin Toy Museum Kitahara Collection"
+      },
+      "description": {
+        "en": "A private museum overflowing with thousands of vintage tin toys, showcasing incredible Japanese craftsmanship."
+      },
+      "type": "culture",
+      "lat": 35.4385,
+      "lng": 139.6535,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-enr-yokohama-foreign-cemetery",
+      "city_id": "yokohama",
+      "neighborhood_id": "yamate",
+      "name": {
+        "en": "Yokohama Foreign Cemetery"
+      },
+      "description": {
+        "en": "A beautiful and peaceful hillside cemetery, the final resting place for many foreigners who shaped modern Yokohama."
+      },
+      "type": "landmark",
+      "lat": 35.439,
+      "lng": 139.655,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-enr-cayhane",
+      "city_id": "yokohama",
+      "neighborhood_id": "motomachi-chinatown",
+      "name": {
+        "en": "Cayhane"
+      },
+      "description": {
+        "en": "A local gem of an 'ethnic shop' in Chinatown, praised for its unique sensory souvenirs like incredible sandalwood incense."
+      },
+      "type": "shopping",
+      "lat": 35.443,
+      "lng": 139.646,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-enr-kokudo-station",
+      "city_id": "yokohama",
+      "neighborhood_id": "tsurumi-industrial",
+      "name": {
+        "en": "Kokudō Station"
+      },
+      "description": {
+        "en": "A raw, un-renovated relic where WWII-era bullet holes and ghost signs haunt the desolate underpass."
+      },
+      "type": "hidden_gem",
+      "lat": 35.5133,
+      "lng": 139.674,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-enr-umi-shibaura-station",
+      "city_id": "yokohama",
+      "neighborhood_id": "tsurumi-industrial",
+      "name": {
+        "en": "Umi-Shibaura Station"
+      },
+      "description": {
+        "en": "A true urban oddity where you can't leave the station, offering private, spectacular views of the industrial waterfront."
+      },
+      "type": "hidden_gem",
+      "lat": 35.501,
+      "lng": 139.701,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-enr-taya-caves",
+      "city_id": "yokohama",
+      "neighborhood_id": "southern-outskirts",
+      "name": {
+        "en": "Taya Caves"
+      },
+      "description": {
+        "en": "An incredible, man-made subterranean complex where monks carved tunnels and hundreds of mystical Buddhist reliefs."
+      },
+      "type": "hidden_gem",
+      "lat": 35.361,
+      "lng": 139.508,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "kannai-task-1",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Architectural Time Travel"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it's from the Meiji era and photograph it next to a modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-2",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "The Roar of the Crowd"
+      },
+      "prompt": {
+        "en": "Capture the energy around the baseball stadium, whether it's game day or not."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-3",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Kissaten Discovery"
+      },
+      "prompt": {
+        "en": "Find a classic-looking coffee house (kissaten) and take a photo of its charming entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-4",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Government Grandeur"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of one of the historic government towers to make it look imposing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-5",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Backstreet Izakaya"
+      },
+      "prompt": {
+        "en": "Find a hidden izakaya (Japanese pub) and capture its inviting glow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-6",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Photograph a plaque, statue, or monument that tells a piece of the area's history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-7",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Urban Symmetry"
+      },
+      "prompt": {
+        "en": "Find a symmetrical architectural feature and capture it head-on."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-8",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "A Stroll Through Time"
+      },
+      "prompt": {
+        "en": "Take a selfie on a wide, pleasant promenade that feels historic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-9",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Game Day Snack"
+      },
+      "prompt": {
+        "en": "Find a local spot and photograph a snack that would be perfect before or after a baseball game."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-10",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Use the shadows cast by the grand old buildings to create a dramatic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-11",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "City Official"
+      },
+      "prompt": {
+        "en": "Take a photo of an official-looking building, like a courthouse or city hall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-12",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "The Unseen Detail"
+      },
+      "prompt": {
+        "en": "Find a small, interesting detail on a historic building that most people would walk right past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-13",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Street Corner Story"
+      },
+      "prompt": {
+        "en": "Capture a scene on a street corner that tells a story about life in this district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-14",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Modern Intrusion"
+      },
+      "prompt": {
+        "en": "Photograph a modern element (like a vending machine or a new car) against a historic backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "kannai-task-15",
+      "neighborhood_id": "kannai",
+      "title": {
+        "en": "Enthusiastic Crowd"
+      },
+      "prompt": {
+        "en": "Find a restaurant or bar with an enthusiastic-looking crowd and capture the atmosphere from outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-1",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Skyline Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the Minato Mirai skyline against the sky. Bonus points for sunset or sunrise!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-2",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Ship Spotting"
+      },
+      "prompt": {
+        "en": "Take a photo of a boat or ship on the water, from a small ferry to a large tanker."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-3",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Promenade Perspective"
+      },
+      "prompt": {
+        "en": "Use the lines of a walkway or bridge to create a compelling perspective shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-4",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Waterfront Reflection"
+      },
+      "prompt": {
+        "en": "Find a reflection of the city lights or buildings in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-5",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Take a photo that captures a moment of relaxation or fun in one of the waterfront parks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-6",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture a photo during the golden hour just before sunset, with the light hitting the buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-7",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Ferris Wheel Frame"
+      },
+      "prompt": {
+        "en": "Frame a photo with the Cosmo Clock 21 ferris wheel visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-8",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Breezy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the wind in your hair and the water behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-9",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Art in the Park"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-10",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "The Bay Bridge"
+      },
+      "prompt": {
+        "en": "Capture a view of the iconic Yokohama Bay Bridge."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-11",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Minimalist Seascape"
+      },
+      "prompt": {
+        "en": "Take a minimalist photo focusing on the shapes and lines where the city meets the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-12",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "City Lights"
+      },
+      "prompt": {
+        "en": "After dark, take a long-exposure shot of the city lights twinkling across the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-13",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Dockside Details"
+      },
+      "prompt": {
+        "en": "Photograph a detail of the port: a thick rope, a rusty anchor, or the side of a docked ship."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-14",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "A Seat with a View"
+      },
+      "prompt": {
+        "en": "Find an empty bench with a great view and take a photo from its perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "minato-mirai-waterfront-task-15",
+      "neighborhood_id": "minato-mirai-waterfront",
+      "title": {
+        "en": "Old Tracks, New Path"
+      },
+      "prompt": {
+        "en": "Take a photo that shows how the old freight railway lines have been transformed into a modern walkway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-1",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Ghibli Moment"
+      },
+      "prompt": {
+        "en": "Find a scene that reminds you of a Studio Ghibli film and capture its atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-2",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Mansion Details"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting architectural detail on one of the Western-style houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-3",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "A View from the Hill"
+      },
+      "prompt": {
+        "en": "Capture the panoramic view of the port from a high vantage point on the bluff."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-4",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Secret Garden"
+      },
+      "prompt": {
+        "en": "Find a hidden patch of flowers or a quiet, well-kept garden and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-5",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Leafy Lane"
+      },
+      "prompt": {
+        "en": "Take a photo down a quiet, tree-lined street that feels worlds away from the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-6",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Past & Present"
+      },
+      "prompt": {
+        "en": "Frame a photo of an old, historic element with a modern part of the city visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-7",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Serene Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a quiet, peaceful spot that captures the serene atmosphere of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-8",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Wrought Iron Art"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern in a wrought iron fence or gate and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-9",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "A Story in Stone"
+      },
+      "prompt": {
+        "en": "In the cemetery, find a tombstone that tells a story through its inscription or design (be respectful)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-10",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Foreign Influence"
+      },
+      "prompt": {
+        "en": "Photograph a building or detail that clearly shows a Western architectural influence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-11",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Up on the Hill"
+      },
+      "prompt": {
+        "en": "Take a photo looking up one of the steep hills or staircases that connect Yamate to the city below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-12",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Quirky Discovery"
+      },
+      "prompt": {
+        "en": "Find something unexpected and quirky, like a unique shop sign or a strange garden ornament."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-13",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Nostalgic Toy"
+      },
+      "prompt": {
+        "en": "Find a toy shop or museum and photograph a toy that reminds you of your childhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-14",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "Fragrant Find"
+      },
+      "prompt": {
+        "en": "Find a shop selling something fragrant, like herbs, teas, or incense, and capture its essence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "yamate-task-15",
+      "neighborhood_id": "yamate",
+      "title": {
+        "en": "The Perfect Porch"
+      },
+      "prompt": {
+        "en": "Find a Western-style house with an inviting porch or veranda and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-1",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "A Splash of Red"
+      },
+      "prompt": {
+        "en": "Take a photo where the color red is the dominant subject."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-2",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Food Adventure"
+      },
+      "prompt": {
+        "en": "Photograph a delicious-looking street food snack you're about to try."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-3",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Lantern Light"
+      },
+      "prompt": {
+        "en": "Capture the warm glow of the paper lanterns that decorate the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-4",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Sensory Overload"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the bustling energy and vibrant chaos of a busy street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-5",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Shopfront Story"
+      },
+      "prompt": {
+        "en": "Find a shop with a unique or interesting storefront and capture its character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-6",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Dragon Spotting"
+      },
+      "prompt": {
+        "en": "Find a depiction of a dragon, whether it's a statue, a carving, or a painting, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-7",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Market Treasures"
+      },
+      "prompt": {
+        "en": "Photograph a colorful display of produce, spices, or goods at a local market stall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-8",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Gateway Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the ornate gates (paifang) that mark the entrances to Chinatown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-9",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Steamy Snack Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a hot, steaming bun (nikuman) or other street food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-10",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Venture down a narrow side street or alley and capture the hidden side of the district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-11",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "A Unique Souvenir"
+      },
+      "prompt": {
+        "en": "Find a shop selling unique souvenirs and photograph the most interesting item you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-12",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Temple Tranquility"
+      },
+      "prompt": {
+        "en": "Find a temple and capture a moment of peace amidst the chaos, focusing on incense smoke or quiet worshippers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-13",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Fashion Forward"
+      },
+      "prompt": {
+        "en": "On the Motomachi side, capture the stylish window display of a fashion boutique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-14",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Contrasting Cultures"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between the Motomachi shopping street and the vibrant Chinatown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "motomachi-chinatown-task-15",
+      "neighborhood_id": "motomachi-chinatown",
+      "title": {
+        "en": "Night Market Glow"
+      },
+      "prompt": {
+        "en": "After dark, capture the neon signs and bright lights that bring the neighborhood to life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-1",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a rusty, weathered, or textured industrial surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-2",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Train's Coming"
+      },
+      "prompt": {
+        "en": "Capture a photo of a train arriving at or leaving a station platform."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-3",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Concrete Jungle"
+      },
+      "prompt": {
+        "en": "Frame a shot that emphasizes the stark, geometric beauty of concrete structures like underpasses or bridges."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-4",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Find a faded sign or old advertisement on a wall and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-5",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Liminal Space"
+      },
+      "prompt": {
+        "en": "Take a photo of an empty platform, tunnel, or underpass that feels strangely transitional."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-6",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Black & White Grit"
+      },
+      "prompt": {
+        "en": "Take a photo of the industrial landscape and convert it to black and white to enhance the gritty atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-7",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Forbidden View"
+      },
+      "prompt": {
+        "en": "Capture a view of a place you can see but can't access, like a factory yard or a private port."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-8",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Relic of the Past"
+      },
+      "prompt": {
+        "en": "Find an object or structure that looks like a relic from a bygone industrial era."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-9",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Transit Fan Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a train platform with the tracks stretching out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-10",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "The Edge of the World"
+      },
+      "prompt": {
+        "en": "Find a spot at the edge of the water and take a photo that conveys a feeling of being at the city's absolute limit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-11",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Scars of Time"
+      },
+      "prompt": {
+        "en": "Photograph cracks, holes, or damage on a concrete wall that hint at a hidden history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-12",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Pipes and Wires"
+      },
+      "prompt": {
+        "en": "Create an abstract photo focusing on the chaotic patterns of industrial pipes, wires, and conduits."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-13",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Dusk at the Factory"
+      },
+      "prompt": {
+        "en": "As the sun sets, capture the silhouette of a factory or industrial building against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-14",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "Uncurated History"
+      },
+      "prompt": {
+        "en": "Photograph something that feels raw and un-renovated, a genuine piece of the past that hasn't been polished for tourists."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "tsurumi-industrial-task-15",
+      "neighborhood_id": "tsurumi-industrial",
+      "title": {
+        "en": "The Lonely Platform"
+      },
+      "prompt": {
+        "en": "Find a desolate, empty train station platform and capture its sense of isolation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-1",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Photograph a quiet path, staircase, or trail leading somewhere mysterious."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-2",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Spiritual Stillness"
+      },
+      "prompt": {
+        "en": "Find a quiet, contemplative spot near a temple or shrine and take a photo that conveys a sense of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-3",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Nature's Reclamation"
+      },
+      "prompt": {
+        "en": "Find an example of nature (vines, moss, trees) growing on or around a man-made structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-4",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Subterranean Shot"
+      },
+      "prompt": {
+        "en": "Take a photo looking into a dark entrance, tunnel, or cave."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-5",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Candlelight and Shadow"
+      },
+      "prompt": {
+        "en": "Use a single light source (or imagine one) to create a photo with deep shadows and a mystical feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-6",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Mystical Relief"
+      },
+      "prompt": {
+        "en": "Find a carving or statue with a mystical or spiritual feel and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-7",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Far From the City"
+      },
+      "prompt": {
+        "en": "Take a photo that shows how far you are from the urban center, focusing on nature or rural elements."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-8",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Ascetic's Selfie"
+      },
+      "prompt": {
+        "en": "Take a contemplative selfie in a quiet, natural, or spiritual place."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-9",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Ancient Tunnels"
+      },
+      "prompt": {
+        "en": "Capture the atmosphere of a tunnel or cave, focusing on the texture of the carved walls."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-10",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "A Hidden World"
+      },
+      "prompt": {
+        "en": "Find a place that feels like a hidden world, separate from everyday life, and capture its essence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-11",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Light in the Darkness"
+      },
+      "prompt": {
+        "en": "Take a photo that contrasts a dark, shadowy area with a single, bright source of light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-12",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "The Sound of Silence"
+      },
+      "prompt": {
+        "en": "Try to capture the feeling of silence and peace in a photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-13",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Sacred Space"
+      },
+      "prompt": {
+        "en": "Photograph an object or detail that signifies a place is sacred, like an offering, a rope, or a statue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-14",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Explorer's Provisions"
+      },
+      "prompt": {
+        "en": "This area is remote. Take a photo of the water and snacks you brought for your journey."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    },
+    {
+      "id": "southern-outskirts-task-15",
+      "neighborhood_id": "southern-outskirts",
+      "title": {
+        "en": "Centuries of Work"
+      },
+      "prompt": {
+        "en": "Find a man-made object that looks incredibly old and photograph it in a way that shows its age."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:16:56.533965+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

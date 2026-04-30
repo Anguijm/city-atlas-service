@@ -1,0 +1,965 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "sitka-ak",
+      "name": {
+        "en": "Historic Downtown & The Russian Legacy"
+      },
+      "summary": {
+        "en": "This is the heart of Sitka, a dense grid of streets where 19th-century Russian colonial architecture stands alongside modern fishing supply stores and Tlingit art galleries."
+      },
+      "lat": 57.0525,
+      "lng": -135.3335,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park",
+      "city_id": "sitka-ak",
+      "name": {
+        "en": "The National Park & Tlingit Heritage"
+      },
+      "summary": {
+        "en": "A short walk from downtown, this area is a serene, moss-draped corner of the Tongass National Forest where Tlingit and Haida culture is actively celebrated."
+      },
+      "lat": 57.046,
+      "lng": -135.325,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge",
+      "city_id": "sitka-ak",
+      "name": {
+        "en": "The Wildlife Edge & Working Waterfront"
+      },
+      "summary": {
+        "en": "This area showcases the powerful intersection of human industry and untamed nature, from the working harbor to organizations dedicated to the region's iconic wildlife."
+      },
+      "lat": 57.06,
+      "lng": -135.35,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-enr-st-michael-s-cathedral",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "St. Michael's Cathedral"
+      },
+      "description": {
+        "en": "An unmistakable landmark, this Russian Orthodox cathedral is a testament to Sitka's history as the capital of Russian America, housing original icons saved from a 1966 fire."
+      },
+      "type": "landmark",
+      "lat": 57.0525,
+      "lng": -135.3335,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-enr-russian-bishop-s-house",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Russian Bishop's House"
+      },
+      "description": {
+        "en": "One of the last surviving examples of Russian colonial architecture in North America, this hand-hewn log building offers a tangible glimpse into the 1840s."
+      },
+      "type": "landmark",
+      "lat": 57.0515,
+      "lng": -135.3315,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-enr-baranof-castle-hill",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Baranof Castle Hill"
+      },
+      "description": {
+        "en": "Arguably the most historically significant ground in Alaska, this is where the territory was officially transferred to the United States in 1867, offering breathtaking 360-degree views."
+      },
+      "type": "viewpoint",
+      "lat": 57.0535,
+      "lng": -135.3385,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-enr-sitka-pioneer-home",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Sitka Pioneer Home"
+      },
+      "description": {
+        "en": "A prominent 1934 landmark overlooking the water, this state-run retirement home represents a deep-seated Alaskan value of community care."
+      },
+      "type": "landmark",
+      "lat": 57.0505,
+      "lng": -135.3295,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-enr-tlingit-art-gallery",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Tlingit Art Gallery"
+      },
+      "description": {
+        "en": "The downtown area is home to galleries showcasing the powerful and intricate art of the Tlingit people, blending modern and traditional forms."
+      },
+      "type": "culture",
+      "lat": 57.052,
+      "lng": -135.332,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-enr-local-coffee-shop",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Local Coffee Shop"
+      },
+      "description": {
+        "en": "Wander the streets of Lincoln and Harbor Drive to find a cozy, independent spot to refuel, a key part of the Sitka discovery adventure."
+      },
+      "type": "drink",
+      "lat": 57.053,
+      "lng": -135.335,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-enr-independent-eatery",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Independent Eatery"
+      },
+      "description": {
+        "en": "The downtown area is your best bet for finding hearty Alaskan fare. Seek out the smaller eateries that look popular with locals."
+      },
+      "type": "food",
+      "lat": 57.0528,
+      "lng": -135.3345,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-enr-downtown-pub",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Downtown Pub"
+      },
+      "description": {
+        "en": "Along with coffee shops, the commercial hub of Sitka is home to local pubs where you can soak in the town's atmosphere."
+      },
+      "type": "drink",
+      "lat": 57.0532,
+      "lng": -135.336,
+      "trending_score": 68,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-sitka-national-historical-park-totem-trail",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Sitka National Historical Park (Totem Trail)"
+      },
+      "description": {
+        "en": "A tranquil path winds through a temperate rainforest, lined with magnificent Tlingit and Haida totem poles telling stories of clans, legends, and ancestors."
+      },
+      "type": "nature",
+      "lat": 57.0465,
+      "lng": -135.3255,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-sheldon-jackson-museum",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Sheldon Jackson Museum"
+      },
+      "description": {
+        "en": "Housed in a unique 1897 octagonal building, this museum holds one of Alaska's oldest and most impressive collections of Native artifacts."
+      },
+      "type": "culture",
+      "lat": 57.0475,
+      "lng": -135.3275,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-sheet-ka-kwaan-naa-kahidi-community-house",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Sheet'ká Kwáan Naa Kahídi (Community House)"
+      },
+      "description": {
+        "en": "This is not a museum but a living cultural center designed in the traditional Tlingit clan house style, serving as a vital gathering place for the community."
+      },
+      "type": "culture",
+      "lat": 57.046,
+      "lng": -135.326,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-park-picnic-area",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Park Picnic Area"
+      },
+      "description": {
+        "en": "For a truly immersive experience, pack a lunch to enjoy at one of the park's picnic areas surrounded by the sounds of the forest."
+      },
+      "type": "food",
+      "lat": 57.045,
+      "lng": -135.323,
+      "trending_score": 60,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-tongass-national-forest-trailhead",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Tongass National Forest Trailhead"
+      },
+      "description": {
+        "en": "The historical park is a gateway to the vast Tongass National Forest. Find a trailhead and step into the serene, moss-draped quiet of the wilderness."
+      },
+      "type": "nature",
+      "lat": 57.047,
+      "lng": -135.325,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-indian-river",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Indian River"
+      },
+      "description": {
+        "en": "Many of the park's trails follow the scenic Indian River as it flows through the temperate rainforest towards the sea."
+      },
+      "type": "nature",
+      "lat": 57.044,
+      "lng": -135.321,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-rainforest-canopy-view",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Rainforest Canopy View"
+      },
+      "description": {
+        "en": "Find a clearing along the trail and look up to appreciate the stunning scale of the temperate rainforest's moss-draped canopy."
+      },
+      "type": "viewpoint",
+      "lat": 57.0458,
+      "lng": -135.3225,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-enr-outdoor-art-gallery",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "national-park",
+      "name": {
+        "en": "Outdoor Art Gallery"
+      },
+      "description": {
+        "en": "The collection of Tlingit and Haida totem poles along the trail transforms the entire park into a magnificent outdoor art gallery."
+      },
+      "type": "culture",
+      "lat": 57.0462,
+      "lng": -135.3248,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-eliason-harbor",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Eliason Harbor"
+      },
+      "description": {
+        "en": "Part of the series of boat harbors that are the lifeblood of the town, this is a great place to see the impressive variety of fishing vessels."
+      },
+      "type": "landmark",
+      "lat": 57.057,
+      "lng": -135.345,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-thomsen-harbor",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Thomsen Harbor"
+      },
+      "description": {
+        "en": "Walk the docks of this working harbor to see the real Sitka, a place of constant activity and deep connection to the sea."
+      },
+      "type": "landmark",
+      "lat": 57.055,
+      "lng": -135.341,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-alaska-raptor-center",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Alaska Raptor Center"
+      },
+      "description": {
+        "en": "This rehabilitation center for injured birds of prey allows you to get remarkably close to resident bald eagles, owls, and hawks."
+      },
+      "type": "nature",
+      "lat": 57.07,
+      "lng": -135.358,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-fortress-of-the-bear",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Fortress of the Bear"
+      },
+      "description": {
+        "en": "This sanctuary provides a home for orphaned brown bear cubs in a large, naturalistic habitat, offering a unique chance to observe these magnificent animals."
+      },
+      "type": "nature",
+      "lat": 57.078,
+      "lng": -135.25,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-harbor-food-truck",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Harbor Food Truck"
+      },
+      "description": {
+        "en": "Look for food trucks near the harbor areas that sometimes sell fresh seafood directly to the public, offering a true taste of Sitka."
+      },
+      "type": "food",
+      "lat": 57.0575,
+      "lng": -135.346,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-local-seafood-processor",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Local Seafood Processor"
+      },
+      "description": {
+        "en": "Some small processors near the harbor sell fresh or smoked fish, a perfect opportunity to sample the local catch."
+      },
+      "type": "shopping",
+      "lat": 57.056,
+      "lng": -135.343,
+      "trending_score": 68,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-commercial-fishing-trollers",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Commercial Fishing Trollers"
+      },
+      "description": {
+        "en": "Spot the massive commercial trollers and seiners that form the backbone of Sitka's fishing industry along the harbor docks."
+      },
+      "type": "hidden_gem",
+      "lat": 57.0572,
+      "lng": -135.3455,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-enr-gillnetter-dock",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-edge",
+      "name": {
+        "en": "Gillnetter Dock"
+      },
+      "description": {
+        "en": "Find the docks where the smaller, personal gillnetters are moored, showcasing a different scale of the local fishing life."
+      },
+      "type": "hidden_gem",
+      "lat": 57.0555,
+      "lng": -135.3415,
+      "trending_score": 73,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Russian Echoes"
+      },
+      "prompt": {
+        "en": "Find a piece of architecture that reminds you of Sitka's Russian past and capture its most interesting detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Historic & Modern Mashup"
+      },
+      "prompt": {
+        "en": "Take a photo that captures a 19th-century building and a modern element (like a car or a new sign) in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Tlingit Art Finder"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public or gallery art that showcases Tlingit heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Fisherman's Friend Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie near a fishing supply store or with the harbor in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Coffee Break Moment"
+      },
+      "prompt": {
+        "en": "Find a local cafe and take a photo of your drink with the Sitka streetscape visible through the window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Find an independent eatery that looks popular with locals and snap a photo of its inviting storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Peak Perspective"
+      },
+      "prompt": {
+        "en": "Frame a shot of a downtown building with the dramatic forested peaks rising behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Street Sign Story"
+      },
+      "prompt": {
+        "en": "Find a street sign with a Russian or Tlingit name and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting window on one of the historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Community Care"
+      },
+      "prompt": {
+        "en": "Capture an image that you feel represents the town's community spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "The American Flag"
+      },
+      "prompt": {
+        "en": "Find an American flag flying and photograph it against the unique Alaskan backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Onion Dome View"
+      },
+      "prompt": {
+        "en": "Find a unique angle to photograph the onion dome of St. Michael's Cathedral from an unexpected spot in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-1",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Whispers of the Woods"
+      },
+      "prompt": {
+        "en": "Capture a photo that conveys the serene, moss-draped quiet of the Tongass National Forest."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-2",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Totem Storyteller"
+      },
+      "prompt": {
+        "en": "Find a totem pole and take a close-up shot of a single carved figure. What story do you think it tells?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-3",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Mossy Macro"
+      },
+      "prompt": {
+        "en": "Get close to a tree trunk or a rock and take a macro photo of the intricate world of moss growing there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-4",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Rainforest Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the dense, green rainforest as your natural backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-5",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Photograph a walking path as it disappears into the forest, inviting exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-6",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Forest Floor Finds"
+      },
+      "prompt": {
+        "en": "Look down! Take a picture of an interesting mushroom, leaf, or pattern you find on the forest floor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-7",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Reverent Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet spot to sit for a moment. Take a photo of the view that you find most peaceful."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-8",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Cultural Connection"
+      },
+      "prompt": {
+        "en": "Photograph an element that represents the living Tlingit culture in this area, whether it's a building, a carving, or a sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-9",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Picnic with a View"
+      },
+      "prompt": {
+        "en": "Find a scenic spot for a snack. Take a photo of your provisions against the natural backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-10",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Water & Wood"
+      },
+      "prompt": {
+        "en": "Capture an image where the forest meets the water, like the edge of the Indian River or the coastline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-11",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Canopy Light"
+      },
+      "prompt": {
+        "en": "Look up and photograph the way the sunlight filters through the high branches of the rainforest canopy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "national-park-task-12",
+      "neighborhood_id": "national-park",
+      "title": {
+        "en": "Art of the Ancestors"
+      },
+      "prompt": {
+        "en": "Frame a photo of a totem pole with the living forest surrounding it, connecting the art to its natural origins."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-1",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Working Waterfront"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energy and activity of the working harbor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-2",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Boat Name Bonanza"
+      },
+      "prompt": {
+        "en": "Find a boat with a name that makes you laugh or tells a story, and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-3",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Eagle Eye View"
+      },
+      "prompt": {
+        "en": "Scan the skies, treetops, and lamp posts for a bald eagle. Try to capture a photo of one from a respectful distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-4",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Mountain Reflection"
+      },
+      "prompt": {
+        "en": "On a calm day, find a spot to photograph the reflection of the mountains and boats in the harbor water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-5",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the fleet of fishing boats as your background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-6",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Taste of the Sea"
+      },
+      "prompt": {
+        "en": "Find a place selling fresh seafood—be it a food truck or processor—and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-7",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Industry Meets Nature"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the intersection of human industry (boats, buildings) and the wild Alaskan nature surrounding it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-8",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Ropes and Rigging"
+      },
+      "prompt": {
+        "en": "Take an abstract, close-up photo of the colorful ropes, nets, and rigging on a fishing boat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-9",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Call of the Wild"
+      },
+      "prompt": {
+        "en": "Listen for the sounds of wildlife—a soaring eagle, a sea lion's bark. Take a photo of the place where you heard it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-10",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "The Long Road"
+      },
+      "prompt": {
+        "en": "Photograph the road as it stretches out towards the wild edge of the island, with forest on one side and water on the other."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-11",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Harbor Lifeblood"
+      },
+      "prompt": {
+        "en": "Take a wide shot of one of the harbors, trying to capture its scale and importance to the town."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    },
+    {
+      "id": "wildlife-edge-task-12",
+      "neighborhood_id": "wildlife-edge",
+      "title": {
+        "en": "Signs of the Sea"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign related to the sea or fishing life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:32:47.881512+00:00"
+    }
+  ]
+}

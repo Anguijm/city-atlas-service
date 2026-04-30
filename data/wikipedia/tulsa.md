@@ -48,6 +48,26 @@ Tulsa restaurants and food trucks offer a number of cuisines, but several cuisin
 
 By and large, Tulsa's traditional cuisine reflects the influence of Southern foodways, particularly "upland South and... Texas where many of Oklahoma's nineteenth-century population originated." The prominence of certain foods reflects the agricultural heritage of the surrounding regions. For instance, at the suggestion of experts at what is now Oklahoma State University, peanuts became a major crop in now eastern Oklahoma as a means for lessening the reliance on cotton cultivation. Chicken-fried steak is part of the state meal of Oklahoma and is the signature dish at a number of Tulsa restaurants.
 
+## Sports
+
+The centerpiece of the Vision 2025 projects, the BOK Center, opened in August 2008.
+Tulsa supports a wide array of sports at the professional and collegiate levels. The city hosts two NCAA Division I colleges and multiple professional minor league sports teams in baseball, football, hockey, and soccer. From 2010 to 2015, Tulsa had a WNBA team called the Tulsa Shock.
+
+## Professional sports
+
+Tulsa's Class AA Texas League baseball team is called the Tulsa Drillers; famous former Drillers include Sammy Sosa, Matt Holliday, and Iván Rodríguez.
+In 2008, Tulsa funded $39.2 million to build a new ballpark in the Greenwood District near downtown for the Drillers. The ground breaking was held on December 19, 2008. ONEOK bought the naming rights for $10 million for the next 25 years. The first game at ONEOK Field was held on April 8, 2010. Country music star Tim McGraw threw out the first pitch.
+The 19,199-seat BOK Center is the centerpiece of the Vision 2025 projects and was completed in August 2008; the BOK Center was in the top ten among indoor arenas worldwide in ticket sales for the first quarter of 2009 when it was the home for the city's Tulsa Shock WNBA, Tulsa Talons arena football, and Tulsa Oilers ice hockey teams; as of 2022, the Oilers are the sole remaining tenant.
+
+## College sports
+
+Two Tulsa universities compete at the NCAA Division I level: the University of Tulsa Golden Hurricane, and the Oral Roberts University Golden Eagles. The University of Tulsa's men's basketball program has reached the Sweet Sixteen three times, made an appearance in the Elite Eight in 2000, won the NIT championship in 1981 and 2001, and won the inaugural College Basketball Invitational in 2008. The Tulsa football team has played in 16 bowl games, including the Sugar Bowl (twice) and the Orange Bowl. Oral Roberts University's men's basketball team reached the Elite Eight in 1974, the Sweet Sixteen in 2021, and won the Mid-Continent Conference title three straight years, from 2005 to 2007.
+The University of Tulsa also boasts one of the nation's top tennis facilities, the Michael D. Case Tennis Center, which hosted the 2004 and 2008 NCAA tennis championships. The Golden Hurricane Tennis program has a string of success, including men's Missouri Valley championships in 1995 and 1996, men's Conference USA championships in 2006, 2007, 2008, 2009, and 2011 and women's Conference USA championships in 2007, 2008, 2010, and 2011. In 2007, Tulsa's top-ranked player Arnau Brugués-Davi ranked as high as #1 in the nation and a four time All-American, advanced to the quarterfinals of the singles competition at the NCAA Men's Tennis Championship, improving on his 2006 round of sixteen appearances.
+
+## Motorsports
+
+In motorsports, Tulsa annually hosts the Chili Bowl indoor race at the Tulsa Expo Center. The race was initially sponsored by the Chili Bowl food company of Bob Berryhill. The race has since accommodated "over two hundred race rigs, bleachers for thousands of people and an ever-growing trade show".
+
 ## Parks and recreation
 
 Main article: Tulsa parks and recreation

@@ -1,0 +1,474 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-missoula",
+      "city_id": "missoula",
+      "name": {
+        "en": "Downtown Missoula"
+      },
+      "summary": {
+        "en": "This is Missoula's living room, an authentic blend of historic brick buildings, a thriving arts scene, and a deep connection to the wilderness. The atmosphere is relaxed and community-focused, valuing local businesses and a creative spirit."
+      },
+      "lat": 46.8725,
+      "lng": -113.994,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-missoula-enr-kettle-house-brewing-co",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Kettle House Brewing Co."
+      },
+      "description": {
+        "en": "A pioneering Missoula craft brewery founded in 1995, this beloved local institution offers a no-frills, community-centric taproom experience."
+      },
+      "type": "drink",
+      "lat": 46.878,
+      "lng": -113.9915,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-draught-works-brewery",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Draught Works Brewery"
+      },
+      "description": {
+        "en": "Known for its spacious, sunny patio and wide selection of meticulously crafted beers, this is a go-to gathering spot that embodies the friendly, laid-back Missoula vibe."
+      },
+      "type": "drink",
+      "lat": 46.8805,
+      "lng": -114.0015,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-the-lodge-dining-at-the-university",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "The Lodge Dining at the University"
+      },
+      "description": {
+        "en": "A true hidden gem recommended by locals for its surprisingly delicious chocolate milk, offering a slice of student life without needing an ID."
+      },
+      "type": "hidden_gem",
+      "lat": 46.86,
+      "lng": -113.984,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-tagliare-delicatessen",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Tagliare Delicatessen"
+      },
+      "description": {
+        "en": "Praised by locals, this rock-and-roll themed deli serves up massive, inventive sandwiches with a huge personality and even bigger portions."
+      },
+      "type": "food",
+      "lat": 46.871,
+      "lng": -113.99,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-vietnam-noodle",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Vietnam Noodle"
+      },
+      "description": {
+        "en": "A local favorite for authentic Vietnamese cuisine, consistently named as an underrated gem for its comforting and delicious noodle soups."
+      },
+      "type": "food",
+      "lat": 46.8715,
+      "lng": -114.013,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-kamoon",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Kamoon"
+      },
+      "description": {
+        "en": "A small, independent restaurant on the \"Hip Strip\" that locals champion for its quality, flavor, and delicious Middle Eastern food."
+      },
+      "type": "food",
+      "lat": 46.8745,
+      "lng": -113.9935,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-brennan-s-wave",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Brennan's Wave"
+      },
+      "description": {
+        "en": "A unique, man-made whitewater wave on the Clark Fork River right downtown, offering a fascinating spectacle of urban kayaking and river surfing."
+      },
+      "type": "landmark",
+      "lat": 46.87,
+      "lng": -113.9945,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-the-roxy-theater",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "The Roxy Theater"
+      },
+      "description": {
+        "en": "This historic theater is Missoula's cultural heart for film, a community hub for independent cinema with a glowing vintage marquee."
+      },
+      "type": "culture",
+      "lat": 46.863,
+      "lng": -113.994,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-missoula-county-courthouse",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Missoula County Courthouse"
+      },
+      "description": {
+        "en": "More than a government building, the Courthouse is the city's civic stage, where its lawn hosts protests, celebrations, and community gatherings."
+      },
+      "type": "landmark",
+      "lat": 46.8725,
+      "lng": -113.994,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-enr-missoula-art-museum-mam",
+      "city_id": "missoula",
+      "neighborhood_id": "downtown-missoula",
+      "name": {
+        "en": "Missoula Art Museum (MAM)"
+      },
+      "description": {
+        "en": "Housed in a former Carnegie Library, this free museum is dedicated to contemporary art, perfectly encapsulating Missoula's spirit of old and new."
+      },
+      "type": "culture",
+      "lat": 46.8745,
+      "lng": -113.9965,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-missoula-task-1",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Historic Brick & Modern Life"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows one of Missoula's historic brick buildings next to a clear sign of modern life, like an electric scooter or a new cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-2",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "River City Reflection"
+      },
+      "prompt": {
+        "en": "Find a reflection of the city in a puddle, a shop window, or the Clark Fork River itself and take an artistic shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-3",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Downtown is full of public art. Find a mural, sculpture, or decorated utility box and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-4",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "My Missoula Vibe"
+      },
+      "prompt": {
+        "en": "Take a selfie that you feel captures the relaxed, independent, and outdoor-loving spirit of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-5",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Many old brick buildings have faded advertisements painted on their sides. Find one of these 'ghost signs' and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-6",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "The Outdoor Enthusiast"
+      },
+      "prompt": {
+        "en": "Spot someone who clearly embodies the outdoor spirit of Missoula (e.g., carrying a kayak, wearing hiking gear, walking a dog with a bandana) and capture the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-7",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Local Brew Cheers"
+      },
+      "prompt": {
+        "en": "Take a selfie raising a glass of a local Missoula beverage—whether it's a craft beer, a coffee, or even some famed chocolate milk!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-8",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Nature in the City"
+      },
+      "prompt": {
+        "en": "Find an example of nature reclaiming a small part of the urban landscape—a plant growing in a crack, ivy on a wall, or a bird's nest in a traffic light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-9",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Find a storefront for a business that is clearly locally owned and independent. Capture its unique character in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-10",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "A Taste of Local"
+      },
+      "prompt": {
+        "en": "Photograph a food or drink item that is sourced from local Montana ingredients. Look for signs or ask at a cafe or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-11",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the afternoon sun to capture an interesting photo of long shadows cast by buildings, people, or trees on the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-12",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Community Gathering Spot"
+      },
+      "prompt": {
+        "en": "Find a place where people are gathering—a park bench, a brewery patio, a plaza—and capture the sense of community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-13",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Listen to the City"
+      },
+      "prompt": {
+        "en": "Stop for one minute on a street corner. What are the three most distinct sounds you hear? Maybe it's the river, a train, or local music."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-14",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Local's Ride"
+      },
+      "prompt": {
+        "en": "Bikes are a big part of Missoula life. Find a bicycle that looks like it has a great story to tell and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-15",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Caffeine Kickstart"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of your coffee or tea from a local cafe, using the cafe's atmosphere as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-16",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Menu Explorer"
+      },
+      "prompt": {
+        "en": "Look at the menu posted outside a local restaurant. Find the most interesting or unusual item on it and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-17",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Downtown Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with your favorite historic building, bridge, or downtown landmark in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-18",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Local Colors"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on a vibrant color palette you find on a storefront, in a local shop's window display, or at a market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-19",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on one of the historic buildings—like a unique window, cornice, or entryway—and capture it up close."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    },
+    {
+      "id": "downtown-missoula-task-20",
+      "neighborhood_id": "downtown-missoula",
+      "title": {
+        "en": "Sweet Treat Discovery"
+      },
+      "prompt": {
+        "en": "Find a local bakery, candy store, or ice cream shop and photograph their most tempting-looking treat through the window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:34:15.031755+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

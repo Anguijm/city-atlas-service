@@ -14,16 +14,16 @@ Everyone deserves credit for their work! This is wrong!
 
 ### Top comments
 
-- u/SayethWeAll (635): You need to contact the Office of Research Integrity: https://www.research.uky.edu/office-research-integrity
-- u/vagabondheat (239): If they are publishing it, contact the journal they have submitted it to. You may also consider cross posting to r/AskAcademia. They may have more information on how to proceed.
-- u/WyntersVix (118): Did they publish it, or did they do a presentation at a conference on it? Both are wrong, but likely they will be viewed differently by UK (because poster sessions are held to different standards, and students often present about experiences they’ve had rather than their own research). Yes, you should still 100% be cited, but this changes your approach. If this is an actual publication, the journal is the best place to contact. Was this for a class - if so, approaching the faculty member would be my advice.
-- u/rilessey (70): Things OP failed to mention in this post 
+- u/SayethWeAll (636): You need to contact the Office of Research Integrity: https://www.research.uky.edu/office-research-integrity
+- u/vagabondheat (233): If they are publishing it, contact the journal they have submitted it to. You may also consider cross posting to r/AskAcademia. They may have more information on how to proceed.
+- u/WyntersVix (113): Did they publish it, or did they do a presentation at a conference on it? Both are wrong, but likely they will be viewed differently by UK (because poster sessions are held to different standards, and students often present about experiences they’ve had rather than their own research). Yes, you should still 100% be cited, but this changes your approach. If this is an actual publication, the journal is the best place to contact. Was this for a class - if so, approaching the faculty member would be my advice.
+- u/rilessey (69): Things OP failed to mention in this post 
 1. OP was never a member of the University of Kentucky. If anything, you and your husband inappropriately used UK resources to let you, someone not associated with the university, be involved in a STUDENT organization. 
 2. Your husband is no longer a student or researcher at the University of Kentucky. Therefore, all research done by him while at UK is the property of the university unless specifically stated otherwise. 
 3. This poster was presented by the student at a research conference at the University of Kentucky. Had you and your husband not made this an issue on social media, probably less than 200 people would have ever even seen this work. This work is not being published in international, peer-reviewed research journals. If I had to guess, UK legal has more important things to worry about than “stolen intellectual property” that was presented on a poster in Gatton Ballroom on a Tuesday afternoon. 
 
 Please stop making posts that imply the university and the student pictured above are wronging you while only ever telling limited details. If you would like to share your story, share all of the facts so the public can have all the information before they slander the university or this student.
-- u/barbershopsinglet (37): I used to work at UKY, though not in the med school. I agree this looks like a poster session for students and is likely not going to be as big of a deal to them. I would contact the students and professor by email and let them know of you're concern regarding this 'oversight'. Also let them know that if they are planning any future presentations or manuscripts based you your work, that you are available to co-author. This will put them in notice that you're paying attention and are aware of your rights over your intellectual property.
+- u/barbershopsinglet (38): I used to work at UKY, though not in the med school. I agree this looks like a poster session for students and is likely not going to be as big of a deal to them. I would contact the students and professor by email and let them know of you're concern regarding this 'oversight'. Also let them know that if they are planning any future presentations or manuscripts based you your work, that you are available to co-author. This will put them in notice that you're paying attention and are aware of your rights over your intellectual property.
 
 ## To the guy whose Goldendoodle bit my two year old at KY Native Cafe around 3:30PM on 8/31 - HELP!
 
@@ -76,10 +76,10 @@ Cheers – and have a great week.
 
 ### Top comments
 
-- u/Bless-this-mess- (190): Regardless of what they say they vaccination status is— get your daughter the shots- I know they are painful, but rabies is 100% lethal if contracted— and if this were an honest person, they would not have fled before finding out if your daughter was okay. They intentionally fled knowing they were liable for injury caused to a toddler.
-- u/KYresearcher42 (178): See is any business around there have cameras, ask for footage for a license plate, and call the police.
-- u/strawberry_saturn (116): Post this on Facebook too, in any Lexington group you’re in.
-- u/Seeking_Wholeness (73): We asked if we could pet the dog, and he said yes the dog was nice. Also said dog had never done this before. 
+- u/Bless-this-mess- (187): Regardless of what they say they vaccination status is— get your daughter the shots- I know they are painful, but rabies is 100% lethal if contracted— and if this were an honest person, they would not have fled before finding out if your daughter was okay. They intentionally fled knowing they were liable for injury caused to a toddler.
+- u/KYresearcher42 (175): See is any business around there have cameras, ask for footage for a license plate, and call the police.
+- u/strawberry_saturn (115): Post this on Facebook too, in any Lexington group you’re in.
+- u/Seeking_Wholeness (72): We asked if we could pet the dog, and he said yes the dog was nice. Also said dog had never done this before. 
 
 I feel terrible for what happened, I would hope you could give a fellow human grace. No one in this situation wanted this to happen.
 
@@ -104,14 +104,14 @@ ETA: I assume all y’all who are downvoting this post must live on Linda’s st
 
 ### Top comments
 
-- u/PsychologySpirited59 (120): I, apparently, live in the magic fairytale land of Danville where we are all clear and well. She should perhaps reach out to their city officials.
+- u/PsychologySpirited59 (121): I, apparently, live in the magic fairytale land of Danville where we are all clear and well. She should perhaps reach out to their city officials.
 - u/Apprehensive_Run6642 (91): I agree that the response to this was absolutely terrible. School’s been out for almost 2 weeks. It’s really hindering people’s ability to continue doing what they need to do to pay their bills go to work. Take care of their business. That said I don’t think it’s fair to expect leaders to always know what to do all the time but I do think it’s fair to expect them to have problem-solving skills, basic abilities to track progress and track work and to hold themselves accountable.
 
 Just this week, we’ve heard that they didn’t track where they have plowed. They didn’t track where they had salted. They had no effective plan to attack the snow and ice in an organized fashion. Just tracking where their plows were and where their salt trucks were would have saved a ton of time and money and spread the effectiveness around.
 
 I think it’s unacceptable to give up mid problem. And that’s what it feels like leadership did with this storm. It’s OK to fail at it. It’s not OK to stop trying before you have success.
-- u/ChocoBricks (87): This situation got me wanting to get my own truck and plow.
-- u/krabat- (56): The administration's smug response to all this is much worse than the actual issue.
-- u/UnderwaterKahn (50): At this point I don’t care what she has to say. My road is so bad at this point that I literally can’t get in or out of my driveway. It’s worse now than it was last week. If they aren’t going to actually do something about this in residential they need to just stop talking. I don’t care about their justifications. I don’t care if the main roads are fine if I can’t get to them.
+- u/ChocoBricks (85): This situation got me wanting to get my own truck and plow.
+- u/krabat- (60): The administration's smug response to all this is much worse than the actual issue.
+- u/UnderwaterKahn (52): At this point I don’t care what she has to say. My road is so bad at this point that I literally can’t get in or out of my driveway. It’s worse now than it was last week. If they aren’t going to actually do something about this in residential they need to just stop talking. I don’t care about their justifications. I don’t care if the main roads are fine if I can’t get to them.
 
 ## Trump’s “Big, Beautiful Bill”

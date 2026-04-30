@@ -1,0 +1,395 @@
+{
+  "neighborhoods": [
+    {
+      "id": "central-district",
+      "city_id": "traverse-city",
+      "name": {
+        "en": "Central District"
+      },
+      "summary": {
+        "en": "The historic heart of Traverse City, this active waterfront district features 19th-century brick buildings housing independent boutiques, cozy taverns, and a thriving arts scene along the Boardman River."
+      },
+      "lat": 44.7638,
+      "lng": -85.6215,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "central-district-enr-north-peak-brewing-company",
+      "city_id": "traverse-city",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "North Peak Brewing Company"
+      },
+      "description": {
+        "en": "Housed in a striking 1899 brick building, this multi-level brewpub is a cornerstone of the local social scene, known for its award-winning craft beer and tangible connection to the city's industrial past."
+      },
+      "type": "drink",
+      "lat": 44.7639,
+      "lng": -85.6261,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-enr-espresso-bay",
+      "city_id": "traverse-city",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Espresso Bay"
+      },
+      "description": {
+        "en": "A true local coffee shop on Front Street, this bustling spot is known for its unique 'golden espresso' and offers a genuine taste of Traverse City's cafe culture."
+      },
+      "type": "drink",
+      "lat": 44.7643,
+      "lng": -85.6183,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-enr-little-bohemia",
+      "city_id": "traverse-city",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Little Bohemia"
+      },
+      "description": {
+        "en": "A living piece of Traverse City history, this cozy tavern dating back to 1932 is a beloved local institution for its unpretentious atmosphere and Bohemian-Midwestern comfort food."
+      },
+      "type": "food",
+      "lat": 44.7634,
+      "lng": -85.6282,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-enr-the-village-at-grand-traverse-commons",
+      "city_id": "traverse-city",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "The Village at Grand Traverse Commons"
+      },
+      "description": {
+        "en": "Formerly a 19th-century asylum, this stunningly repurposed complex of Victorian-Italianate buildings now houses shops and eateries, with historic brick steam tunnels to explore."
+      },
+      "type": "hidden_gem",
+      "lat": 44.7565,
+      "lng": -85.6495,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-enr-state-theatre",
+      "city_id": "traverse-city",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "State Theatre"
+      },
+      "description": {
+        "en": "A beautifully restored movie palace and cultural institution, its stunning marquee and star-dusted ceiling make seeing a film here a special event."
+      },
+      "type": "culture",
+      "lat": 44.7644,
+      "lng": -85.6177,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-enr-city-opera-house",
+      "city_id": "traverse-city",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "City Opera House"
+      },
+      "description": {
+        "en": "This elegant 1891 Victorian opera house is a cultural and architectural anchor of downtown, hosting plays, concerts, and community events."
+      },
+      "type": "culture",
+      "lat": 44.7642,
+      "lng": -85.6196,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-enr-michigan-artists-gallery",
+      "city_id": "traverse-city",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Michigan Artists Gallery"
+      },
+      "description": {
+        "en": "This contemporary gallery offers a concentrated look at the region's creative spirit, showcasing diverse work exclusively from Michigan artists."
+      },
+      "type": "culture",
+      "lat": 44.7645,
+      "lng": -85.6163,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "central-district-task-1",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it has a hundred years of stories to tell and capture its most interesting architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-2",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Window to the City"
+      },
+      "prompt": {
+        "en": "Take a creative photo of the downtown scene reflected in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-3",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Get a close-up shot that highlights the unique texture and color of the historic 19th-century brickwork found throughout the district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-4",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Local Flavor Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while enjoying a treat that's quintessentially Northern Michigan, like cherry pie, a local coffee, or a craft brew."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-5",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Frame a photo where the calm waters of the Boardman River lead the eye towards the bustling city streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-6",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Discover a piece of public art—a sculpture, a mural, or a unique gallery display—and capture it from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-7",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Vintage Signage"
+      },
+      "prompt": {
+        "en": "Hunt for a business sign with classic, retro, or elegant typography and make it the star of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-8",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Find a menu board and take a picture of the most tempting item made with local ingredients."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-9",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a single image that shows a contrast between Traverse City's historic past and its modern, vibrant present."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-10",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "Photograph a scene that you feel captures the friendly, local vibe of the downtown community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-11",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Cherry Quest"
+      },
+      "prompt": {
+        "en": "Find a product, dish, or drink that features the famous local cherries and take a delicious-looking photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-12",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Waterfront Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of the fresh lake air from Grand Traverse Bay mixing with the city atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-13",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Tavern Tales"
+      },
+      "prompt": {
+        "en": "Capture the warm, inviting glow of a local tavern or pub from the outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-14",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Boutique Beauty"
+      },
+      "prompt": {
+        "en": "Find an independent shop with a charming storefront and capture what makes it unique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-15",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "My Traverse City"
+      },
+      "prompt": {
+        "en": "Take a selfie with the landmark or view that you find most beautiful in the Central District."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-16",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Past is Present"
+      },
+      "prompt": {
+        "en": "Locate a historical marker or plaque and take a photo that includes both the plaque and the building or place it describes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-17",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Cultural Hub"
+      },
+      "prompt": {
+        "en": "Photograph the entrance to a theater, gallery, or performance venue, capturing the excitement of the arts scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    },
+    {
+      "id": "central-district-task-18",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "Find an unexpected splash of bright color against a historic brick wall—like a colorful door, flower box, or sign—and make it the focus of your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:04:56.487856+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

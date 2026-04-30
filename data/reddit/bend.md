@@ -21,7 +21,7 @@ Finally to the Bend community at large one of the survivors is a local. While I 
 
 ### Top comments
 
-- u/DustyRaccoonRanger (340): My heart is shattered for you, OP. I was there. And, today, I was running up the river and ended up crossing with the diver, sheriff, and search and rescue dogs and team members. I got tearful thanking them. 
+- u/DustyRaccoonRanger (341): My heart is shattered for you, OP. I was there. And, today, I was running up the river and ended up crossing with the diver, sheriff, and search and rescue dogs and team members. I got tearful thanking them. 
 
 They are all incredibly dedicated and as we hugged They so sincerely said how focused and continued the search effort is. Like you said, I felt in my bones the goodness and sincerity of these wonderful humans. And, that’s exactly as it should be. Your brother is deep in our hearts. Your brother could have been any of us on the water Saturday. I am devastated for you and your family. 
 
@@ -68,16 +68,16 @@ To the young man from Bend, the five friends from back East and all of the peopl
 My heart is broken for you.
 
 To the survivors; This was not your fault.
-- u/Melanie_Kebler (261): I am so very sorry for your loss. I can't imagine what your family is going through. How devastating for the survivors as well. I know the rescue workers will keep going until they bring your brother home. I hope all of you get the love, support, and care that you need in the coming months. I am happy to connect any of you to resources if I can.
-- u/EquivalentLumpy467 (69): I’m so sorry. There’s no preparing for a loss like this—sudden, tragic, and devastating. What should’ve been a carefree day on the river turned into something none of you will ever forget. And it’s heartbreaking.
+- u/Melanie_Kebler (263): I am so very sorry for your loss. I can't imagine what your family is going through. How devastating for the survivors as well. I know the rescue workers will keep going until they bring your brother home. I hope all of you get the love, support, and care that you need in the coming months. I am happy to connect any of you to resources if I can.
+- u/EquivalentLumpy467 (71): I’m so sorry. There’s no preparing for a loss like this—sudden, tragic, and devastating. What should’ve been a carefree day on the river turned into something none of you will ever forget. And it’s heartbreaking.
 
 To the survivors: you don’t have to carry the weight of this alone. The grief, the guilt, the what-ifs—they’re too heavy for any one person. The community is here to hold space for you. To help carry what you can’t. To remind you that you’re still here, and that your healing matters too.
 
 We can’t change what happened. But we can stand with you in the aftermath. We can honor the life lost and surround the lives forever changed with love, support, and grace.
 
 Sending strength, love, and my deepest condolences.
-- u/Dirtdancefire (56): I’ve been occasionally tearing up since I first listened to the scanner to the rescue.  My heart goes out to you, your family and all affected.  To the local who is suffering right now, you will recover, but it will take time.  Some level of PTSD is a given.  I suggest seeing a psychiatrist ASAP to help limit your suffering and pain.  (Me: retired firefighter paramedic with chronic PTSD).  You’ve had a truly brutal experience.  We as a community, have got your back!  You’re not alone.  Hang tough.
-- u/cuddle_puddles (43): I'm so very sorry for your loss and everything you are going through right now. I haven't been able to stop thinking of you, your brother, his friends, and all of your families since I saw your first comment on the other Reddit post. We've all spent time on the river here, and I'm just so sorry to hear about this terrible accident. To the survivors and families, I wish you all peace and healing as you navigate grief. 
+- u/Dirtdancefire (57): I’ve been occasionally tearing up since I first listened to the scanner to the rescue.  My heart goes out to you, your family and all affected.  To the local who is suffering right now, you will recover, but it will take time.  Some level of PTSD is a given.  I suggest seeing a psychiatrist ASAP to help limit your suffering and pain.  (Me: retired firefighter paramedic with chronic PTSD).  You’ve had a truly brutal experience.  We as a community, have got your back!  You’re not alone.  Hang tough.
+- u/cuddle_puddles (41): I'm so very sorry for your loss and everything you are going through right now. I haven't been able to stop thinking of you, your brother, his friends, and all of your families since I saw your first comment on the other Reddit post. We've all spent time on the river here, and I'm just so sorry to hear about this terrible accident. To the survivors and families, I wish you all peace and healing as you navigate grief. 
 
 u/DustyRaccoonRanger said it better than I can articulate, and I hope it's okay to quote them here: "To all the family members and loved ones and the young people who went over the falls: please know forever this was not their fault. To the young man from Bend, the five friends from back East and all of the people who love you... My heart is broken for you. To the survivors; This was not your fault."
 
@@ -89,15 +89,13 @@ If you’re that angry at the world, Bend has a handful of therapy resources to 
 
 ### Top comments
 
-- u/TedW (71): I wonder how seriously they take video evidence for stuff like this.  I assume not very.
+- u/Quiet_Bend_ (72): Trucks roll coal right through the middle of downtown every day and Bend PD does nothing. It’s disgusting and embarrassing for Bend and makes you wonder why we are spending $40M on a police department that can’t enforce basic public order.
+- u/sbsb27 (71): It's performative domestic terrorism. They call themselves patriots, but then forget the whole, "with liberty and justice for ALL." Arrested development - perpetually adolescents.
+- u/TedW (70): I wonder how seriously they take video evidence for stuff like this.  I assume not very.
 
 One time I caught someone dumping a whole trailer of trash off China Hat.  I had video of them doing it.  I called Bend PD while they were doing it.  They said they wouldn't come out, but to send them the video.  By mail. Yep, they wanted me to burn a dvd and mail it to them.
-- u/sbsb27 (67): It's performative domestic terrorism. They call themselves patriots, but then forget the whole, "with liberty and justice for ALL." Arrested development - perpetually adolescents.
-- u/7slotgrilles4life (63): Was it one of these 2 🤡?  These guys were having a coalroal-athon down Greenwood for miles. Literally trying to see who could pollute our city more. Unreal.
-
-https://preview.redd.it/mks0vct7d2wg1.jpeg?width=1079&amp;format=pjpg&amp;auto=webp&amp;s=9dcf386f32256cab91d1d52ac0c48a91b2c49465
-- u/Quiet_Bend_ (60): Trucks roll coal right through the middle of downtown every day and Bend PD does nothing. It’s disgusting and embarrassing for Bend and makes you wonder why we are spending $40M on a police department that can’t enforce basic public order.
-- u/Apost8Joe (47): There’s a psychology behind it - Walking or cycling is a subconscious threat to their very manhood, their vehicle is the only place in this rapidly changing world where they command respect or project power. Bonus points for incel bumper stickers. 
+- u/Wolverdon (49): Incels. I repeat. Incels.
+- u/Apost8Joe (45): There’s a psychology behind it - Walking or cycling is a subconscious threat to their very manhood, their vehicle is the only place in this rapidly changing world where they command respect or project power. Bonus points for incel bumper stickers. 
 Why would someone voluntarily reject their big powerful vehicle and instead ride a sissy bicycle, in tight flashy clothes their cheap carb fed ass wouldn’t fit or be caught dead in. 
 Look at meee - no like for real see me and acknowledge my mullet! Thats how they are.
 
@@ -144,7 +142,10 @@ Full disclosure - I’m being sued by James and Jean Verheyden for $75,000.00 ov
 ### Top comments
 
 - u/lawndartdesign (202): Thank you for doing the lords work on this. Also it’s a scientific fact that if Verheyden were an icecream flavor he’d be pralines and diiiiiiick.
-- u/PonderosaAndJuniper (98): Blocking access to public land is the lowest of the low. Fuck James Verheyden, fuck [Matthew Callahan](https://www.reddit.com/r/Bend/comments/1ma1l0k/comment/n5ifx31/?context=3), and fuck everyone else who fences, gates, or otherwise restricts our public land.
-- u/oregone1 (66): I’ve been following this closely and thank you for keeping us all informed.   
+- u/PonderosaAndJuniper (96): Blocking access to public land is the lowest of the low. Fuck James Verheyden, fuck [Matthew Callahan](https://www.reddit.com/r/Bend/comments/1ma1l0k/comment/n5ifx31/?context=3), and fuck everyone else who fences, gates, or otherwise restricts our public land.
+- u/oregone1 (67): I’ve been following this closely and thank you for keeping us all informed.   
 
-Part of what it means to be an Oregonian is having access to public land.  When grasping wastrels use their privilege to deny access, well, that i
+Part of what it means to be an Oregonian is having access to public land.  When grasping wastrels use their privilege to deny access, well, that is something I cannot abide, dude.  
+
+And yes, I referenced Tom McCall and Jeff Lebowski in the same sentence.
+- u/xxkap0wxx (59): Instead of trying to contact Verheyden, could we contact someone in an authority position and ask why they aren’t enforcing something here? Or

@@ -1,0 +1,84 @@
+# The Infatuation: Taipei, Taiwan
+
+## Finder results (geo-scoped)
+
+What are you looking for?
+
+SUGGESTED SEARCHES
+SEARCH ON MAP
+
+Taipei Cafe
+
+820 W BELMONT AVE, CHICAGO, IL
+
+Taipei Cafe
+
+2609 S HALSTED ST, CHICAGO, IL
+
+Taipei Hong
+
+136-55 ROOSEVELT AVE UNIT D, FLUSHING, NY
+
+Taipei Cuisine
+
+68 BILLINGS RD, QUINCY, MA
+
+Un Po Tipsy Pizzeria
+
+100 S KING ST, SEATTLE, WASHINGTON
+
+Tripea
+
+VALLEHERMOSO 36, MADRID, MADRID
+
+Tipsy Alchemist
+
+70 RAINEY ST SUITE 200, AUSTIN, TX
+
+Tipsy Scoop
+
+512 LEA AVE, NASHVILLE, TENNESSEE
+
+Paipái
+
+PLAZA DEL PERÚ 4, MADRID, MADRID
+
+Tipsy Thaiger
+
+605 ATLANTA ST. , ROSWELL , GEORGIA
+
+Tipsy Scoop
+
+WASHINGTON, DC, WASHINGTON, DISTRICT OF COLUMBIA
+
+Tipsy Canyon
+
+270 UPPER JOE CREEK RD, MANSON, WASHINGTON
+
+Tipsy Parson
+
+156 9TH AVE., NEW YORK, NY
+
+Tipsy Cow Burger Bar
+
+16345 CLEVELAND ST, REDMOND, WA
+
+FILTERS
+
+ALL
+
+SPOTS
+
+GUIDES
+
+SORT
+
+MOST RELEVANT
+
+ACCEPTS ONLINE RESERVATIONS
+
+No results found.
+
+Please try searching for something else.
+
+Show saved results

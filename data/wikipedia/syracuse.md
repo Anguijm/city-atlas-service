@@ -94,3 +94,9 @@ Right outside the city proper, along the east side and north end of Onondaga Lak
  
  
  Onondaga Lake Park
+
+## Sports
+
+Main article: Sports in Syracuse
+NBT Bank Stadium is home to the Syracuse Mets baseball team.
+Syracuse University's football team plays its games in the JMA Dome.

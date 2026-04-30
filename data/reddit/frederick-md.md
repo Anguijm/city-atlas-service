@@ -10,7 +10,7 @@ Tempo di Pasta on E Church is SO DELICIOUS.  Like, crazy good.  I took my discer
 
 ### Top comments
 
-- u/deenzz (28): Shhhhhhhhhhhhh don’t tell everyone!!!! They only have like 3 tables
+- u/deenzz (29): Shhhhhhhhhhhhh don’t tell everyone!!!! They only have like 3 tables
 - u/gmoney223122333 (25): yes this is so true! the owner is also so so nice
 - u/uncle-brucie (10): Very very good food there. 
 The pasta he sold me for the rabbit I roasted was perfect.
@@ -26,6 +26,7 @@ Anyone know this little hidden gem?
 - u/CommonBonus4401 (13): Bonita mass park, Always wondered what that building was tho
 - u/TheBackburner (9): Bonita Maas Park?
 - u/YellowSharkMT (6): Love this park, such a cool spot right in the middle of downtown. Always quiet and peaceful.
+- u/Mr_Zootsuit (5): Yea. Bonita Mass Park
 
 ## Frederick News Post
 
@@ -40,8 +41,8 @@ Quite possibly the oldest structure around Frederick, predating the colonial era
 
 ### Top comments
 
-- u/AcromoniousYam (11): Wait what where is it
-- u/bigspring (10): [https://www.reddit.com/r/brunswickmaryland/comments/q292cb/indian\_fish\_weir\_trap\_in\_the\_potomac\_river\_at/](https://www.reddit.com/r/brunswickmaryland/comments/q292cb/indian_fish_weir_trap_in_the_potomac_river_at/)
+- u/AcromoniousYam (10): Wait what where is it
+- u/bigspring (9): [https://www.reddit.com/r/brunswickmaryland/comments/q292cb/indian\_fish\_weir\_trap\_in\_the\_potomac\_river\_at/](https://www.reddit.com/r/brunswickmaryland/comments/q292cb/indian_fish_weir_trap_in_the_potomac_river_at/)
 - u/Sarcassom1 (5): How could these structures survive centuries of river currents? Doesn’t seem possible knowing what water erosion does.
 
 ## Frederick Hidden Gems
@@ -54,4 +55,4 @@ A mural where the edge of water meets that for which you pay a high price:
 
 ### Top comments
 
-- u/CommonBonus4401 (19): A life size bull that Stands east of its calf hidden in a alley near baker park
+- u/CommonBonus4401 (18): A life size bull that Stands east of its calf hidden in a alley near baker park

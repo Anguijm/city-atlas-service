@@ -51,3 +51,8 @@ Barrio De Analco Historic District
 Don Gaspar Historic District
 Santa Fe Historic District
 Santa Fe Railyard arts district
+
+## Sports
+
+The New Mexico Style were an American Basketball Association franchise founded in 2005, but reformed in Texas for the 2007–08 season as the El Paso S'ol (which folded without playing an ABA game in their new city). The Santa Fe Roadrunners were a North American Hockey League team, but moved to Kansas to become the Topeka Roadrunners. Santa Fe's rodeo, the Rodeo De Santa Fe, is held annually during the last week of June.
+In May 2012, Santa Fe became the home of the Santa Fe Fuego of the Pecos League of Professional Baseball Clubs. They play their home games at Fort Marcy Ballfield. Horse racing events were held at The Downs at Santa Fe from 1971 until 1997.

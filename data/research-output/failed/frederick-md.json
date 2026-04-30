@@ -1,0 +1,914 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-core",
+      "city_id": "frederick-md",
+      "name": {
+        "en": "The Historic Core & Carroll Creek Park"
+      },
+      "summary": {
+        "en": "This is Frederick’s postcard-perfect heart, but with a hidden, creative pulse. The district pairs 18th-century architecture and Carroll Creek Park with public art, secret gardens, and underground culture."
+      },
+      "lat": 39.4135,
+      "lng": -77.4112,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside",
+      "city_id": "frederick-md",
+      "name": {
+        "en": "Baker Park & The Westside"
+      },
+      "summary": {
+        "en": "This is Frederick's green lung and historic backyard. The area blends recreation, music, and local folklore with quiet, tree-lined residential streets."
+      },
+      "lat": 39.4165,
+      "lng": -77.4188,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary",
+      "city_id": "frederick-md",
+      "name": {
+        "en": "The Eastside Arts & Culinary Corridor"
+      },
+      "summary": {
+        "en": "Creative, a bit gritty, and full of flavor. This district is where historic mills and warehouses are being repurposed into galleries, theaters, and Frederick’s most talked-about new restaurants."
+      },
+      "lat": 39.415,
+      "lng": -77.4055,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-core-enr-carroll-creek-park",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Carroll Creek Park"
+      },
+      "description": {
+        "en": "A beautifully engineered park that forms the heart of the historic district, known for its bridges, water features, and public art."
+      },
+      "type": "nature",
+      "lat": 39.4128,
+      "lng": -77.4095,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-enr-bonita-maas-park",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Bonita Maas Park"
+      },
+      "description": {
+        "en": "A true local’s secret, this tiny, tranquil pocket park is tucked away from the downtown bustle, perfect for a quiet moment."
+      },
+      "type": "hidden_gem",
+      "lat": 39.4148,
+      "lng": -77.4131,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-enr-the-dreaming-mural",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "The Dreaming Mural"
+      },
+      "description": {
+        "en": "A stunning, large-scale public art installation by artist William Cochran made entirely of layered glass, with figures that shift with the light."
+      },
+      "type": "landmark",
+      "lat": 39.4145,
+      "lng": -77.4118,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-enr-maryland-ensemble-theatre-met",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Maryland Ensemble Theatre (MET)"
+      },
+      "description": {
+        "en": "An intimate, artist-driven professional theater company housed in the atmospheric lower level of a historic hotel, known for innovative plays."
+      },
+      "type": "culture",
+      "lat": 39.4146,
+      "lng": -77.4126,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-enr-the-carroll-creek-mural-riddle",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "The Carroll Creek Mural Riddle"
+      },
+      "description": {
+        "en": "A scavenger hunt to find a specific piece of street art along the creek, based on a riddle from a local's tip."
+      },
+      "type": "hidden_gem",
+      "lat": 39.413,
+      "lng": -77.408,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-enr-18th-century-architecture",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "18th-Century Architecture"
+      },
+      "description": {
+        "en": "The district is defined by its beautifully preserved 18th-century buildings, offering a glimpse into the city's past on every street."
+      },
+      "type": "landmark",
+      "lat": 39.4152,
+      "lng": -77.412,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-enr-downtown-secret-gardens",
+      "city_id": "frederick-md",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Downtown Secret Gardens"
+      },
+      "description": {
+        "en": "A key feature of the district's hidden pulse are the secret gardens and pocket parks tucked away between historic brick buildings."
+      },
+      "type": "hidden_gem",
+      "lat": 39.4142,
+      "lng": -77.4135,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-enr-baker-park",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-westside",
+      "name": {
+        "en": "Baker Park"
+      },
+      "description": {
+        "en": "The sprawling green lung of Frederick, this park is a center for recreation, music, and community gatherings."
+      },
+      "type": "nature",
+      "lat": 39.4168,
+      "lng": -77.4195,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-enr-joseph-dill-baker-carillon",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-westside",
+      "name": {
+        "en": "Joseph Dill Baker Carillon"
+      },
+      "description": {
+        "en": "An iconic 70-foot granite bell tower that is a fully functional musical instrument, with live recitals filling the park on Sundays."
+      },
+      "type": "landmark",
+      "lat": 39.4175,
+      "lng": -77.4175,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-enr-culler-lake",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-westside",
+      "name": {
+        "en": "Culler Lake"
+      },
+      "description": {
+        "en": "A scenic lake within Baker Park that offers beautiful views and reflections, especially of the nearby weeping willows and carillon tower."
+      },
+      "type": "viewpoint",
+      "lat": 39.4169,
+      "lng": -77.4178,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-enr-the-bull-sculpture",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-westside",
+      "name": {
+        "en": "The Bull Sculpture"
+      },
+      "description": {
+        "en": "A true hidden gem known only through local chatter; a life-size bull sculpture hidden in an alley east of Baker Park."
+      },
+      "type": "hidden_gem",
+      "lat": 39.4172,
+      "lng": -77.4155,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-enr-barbara-fritchie-house",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-westside",
+      "name": {
+        "en": "Barbara Fritchie House"
+      },
+      "description": {
+        "en": "A quirky museum in a reconstructed home dedicated to the Civil War-era heroine immortalized in a famous poem."
+      },
+      "type": "culture",
+      "lat": 39.4148,
+      "lng": -77.4185,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-enr-baker-park-amphitheater",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-westside",
+      "name": {
+        "en": "Baker Park Amphitheater"
+      },
+      "description": {
+        "en": "The cultural heart of the park, this open-air stage hosts everything from the symphony orchestra to local indie bands."
+      },
+      "type": "culture",
+      "lat": 39.416,
+      "lng": -77.4201,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-enr-westside-residential-streets",
+      "city_id": "frederick-md",
+      "neighborhood_id": "baker-park-westside",
+      "name": {
+        "en": "Westside Residential Streets"
+      },
+      "description": {
+        "en": "Wander the quiet, tree-lined streets of this historic neighborhood to see charming homes and experience where locals live."
+      },
+      "type": "landmark",
+      "lat": 39.4185,
+      "lng": -77.421,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-enr-rockwell-brewery",
+      "city_id": "frederick-md",
+      "neighborhood_id": "eastside-arts-culinary",
+      "name": {
+        "en": "Rockwell Brewery"
+      },
+      "description": {
+        "en": "A local brewery that serves as a community hub and music venue, praised for its solid craft beer and Frederick-based bands."
+      },
+      "type": "drink",
+      "lat": 39.4225,
+      "lng": -77.4028,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-enr-tempo-di-pasta",
+      "city_id": "frederick-md",
+      "neighborhood_id": "eastside-arts-culinary",
+      "name": {
+        "en": "Tempo di Pasta"
+      },
+      "description": {
+        "en": "A tiny, beloved Italian spot that locals try to keep secret, serving exceptionally fresh, homemade pasta with a personal touch."
+      },
+      "type": "food",
+      "lat": 39.4149,
+      "lng": -77.4085,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-enr-the-delaplaine-visual-arts-education-center",
+      "city_id": "frederick-md",
+      "neighborhood_id": "eastside-arts-culinary",
+      "name": {
+        "en": "The Delaplaine Visual Arts Education Center"
+      },
+      "description": {
+        "en": "A major non-profit arts center housed in a century-old mill, featuring multiple galleries with rotating exhibits by regional artists."
+      },
+      "type": "culture",
+      "lat": 39.4121,
+      "lng": -77.4088,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-enr-eastside-gallery-hopping",
+      "city_id": "frederick-md",
+      "neighborhood_id": "eastside-arts-culinary",
+      "name": {
+        "en": "Eastside Gallery Hopping"
+      },
+      "description": {
+        "en": "This district is concentrated with over ten independent art galleries; the best activity is to wander and discover them for yourself."
+      },
+      "type": "culture",
+      "lat": 39.415,
+      "lng": -77.41,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-enr-repurposed-industrial-buildings",
+      "city_id": "frederick-md",
+      "neighborhood_id": "eastside-arts-culinary",
+      "name": {
+        "en": "Repurposed Industrial Buildings"
+      },
+      "description": {
+        "en": "A defining feature of the Eastside, where historic mills and warehouses are being transformed into galleries, restaurants, and breweries."
+      },
+      "type": "landmark",
+      "lat": 39.4125,
+      "lng": -77.4075,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-enr-east-church-street-eats",
+      "city_id": "frederick-md",
+      "neighborhood_id": "eastside-arts-culinary",
+      "name": {
+        "en": "East Church Street Eats"
+      },
+      "description": {
+        "en": "This street is a hub for some of the city's most talked-about food, including hidden gems serving authentic and creative cuisine."
+      },
+      "type": "food",
+      "lat": 39.4149,
+      "lng": -77.409,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-enr-east-patrick-street-arts-scene",
+      "city_id": "frederick-md",
+      "neighborhood_id": "eastside-arts-culinary",
+      "name": {
+        "en": "East Patrick Street Arts Scene"
+      },
+      "description": {
+        "en": "Along with Market and Church Streets, East Patrick is a central artery for gallery hopping and discovering the work of local artists."
+      },
+      "type": "culture",
+      "lat": 39.4144,
+      "lng": -77.4098,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-core-task-1",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Historic Reflections"
+      },
+      "prompt": {
+        "en": "Find a modern reflection (in a window, puddle, or phone screen) of an 18th-century building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-2",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "The Creek's Pulse"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the movement of water in Carroll Creek Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-3",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Hidden Greenery"
+      },
+      "prompt": {
+        "en": "Find a small, unexpected patch of nature thriving in a crack or alleyway and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-4",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Capture a close-up shot of historic brickwork that shows its age and character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-5",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Public Art Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you mimic the pose or emotion of a figure in a piece of public art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-6",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Alleyway Explorer"
+      },
+      "prompt": {
+        "en": "Find an interesting back alley and take a photo looking down its length."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-7",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Layers of the City"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes at least three 'layers': something in the foreground, midground, and background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-8",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Discover a quiet bench or nook and take a photo from its perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-9",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Taste of the Core"
+      },
+      "prompt": {
+        "en": "Grab a casual bite or drink and take an artful photo of it against a historic backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-10",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph an interesting architectural detail: a unique doorknob, window frame, or ironwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-11",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a historic building next to a modern one, highlighting the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "historic-core-task-12",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Secret Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Find a gate or doorway that offers a peek into a hidden garden or courtyard and capture the view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-1",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of recreation or relaxation in Baker Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-2",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Frame a photo of a man-made object (like a bench or statue) using trees or leaves as a natural frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-3",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Folklore Heroine"
+      },
+      "prompt": {
+        "en": "Take a photo of an American flag you spot in the neighborhood, in honor of Barbara Fritchie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-4",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Canine Companion"
+      },
+      "prompt": {
+        "en": "Find a friendly dog (with owner's permission!) and take a picture of one of Frederick's four-legged residents."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-5",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "The Sound of Bells"
+      },
+      "prompt": {
+        "en": "If you hear the carillon, take a photo of whatever you're looking at in that moment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-6",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "A Westside Home"
+      },
+      "prompt": {
+        "en": "Photograph a charming house or front porch that catches your eye on a quiet residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-7",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Lake Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the sky or trees in the water of Culler Lake."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-8",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Secret Sculpture Hunt"
+      },
+      "prompt": {
+        "en": "Take a photo of any interesting lawn ornament or hidden sculpture you find that is NOT the bull or calf."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-9",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Picnic Perfect"
+      },
+      "prompt": {
+        "en": "Find the perfect spot for a picnic and take a photo of the view from your imaginary blanket."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-10",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Take a photo of interesting shadows cast by the trees or park structures."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-11",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot away from any paths and take a selfie enjoying the tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "baker-park-westside-task-12",
+      "neighborhood_id": "baker-park-westside",
+      "title": {
+        "en": "The Stage is Set"
+      },
+      "prompt": {
+        "en": "Take a photo of the empty amphitheater stage and imagine what performance could happen there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-1",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find a texture from an old industrial building—like rusted metal, rough brick, or old wood—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-2",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Art Everywhere"
+      },
+      "prompt": {
+        "en": "Photograph a piece of art that isn't in a gallery, like graffiti, a mural, or a window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-3",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "The Perfect Pint"
+      },
+      "prompt": {
+        "en": "If you grab a local brew, take a photo of it with the brewery's atmosphere in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-4",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Gallery Glimpse"
+      },
+      "prompt": {
+        "en": "Take a photo through the window of an art gallery, capturing the art inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-5",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Culinary Close-Up"
+      },
+      "prompt": {
+        "en": "Take an artistic, close-up photo of a delicious-looking dish you see or eat in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-6",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Repurposed Past"
+      },
+      "prompt": {
+        "en": "Find a building that is clearly old but being used for a new purpose and capture that contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-7",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Creative Energy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that you feel captures the creative, gritty vibe of the Eastside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-8",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Marquee Message"
+      },
+      "prompt": {
+        "en": "Find a sign or marquee (like the Weinberg's) and take a photo of its message."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-9",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Flavor Seeker"
+      },
+      "prompt": {
+        "en": "Take a photo of the entrance to a restaurant that looks like a hidden gem."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-10",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "The Artist's View"
+      },
+      "prompt": {
+        "en": "Stand in front of a gallery and take a photo of the street from what might be the artist's point of view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-11",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Gritty & Green"
+      },
+      "prompt": {
+        "en": "Find a spot where nature is reclaiming an industrial or urban space and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    },
+    {
+      "id": "eastside-arts-culinary-task-12",
+      "neighborhood_id": "eastside-arts-culinary",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "Capture the glow of a restaurant, bar, or gallery sign after dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:31:09.512057+00:00"
+    }
+  ]
+}

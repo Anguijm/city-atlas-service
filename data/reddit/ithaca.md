@@ -12,16 +12,16 @@ These ivies act like the most important thing is for them to keep on doing busin
 
 ### Top comments
 
-- u/No-Weakness-2035 (183): I feel like “trump steals another 100m from US taxpayer via university kickback extortion scheme” would also be an accurate title.
-- u/worldwideworm1 (124): It's definitely a lot more complex than you have presented it here. 
+- u/No-Weakness-2035 (184): I feel like “trump steals another 100m from US taxpayer via university kickback extortion scheme” would also be an accurate title.
+- u/worldwideworm1 (123): It's definitely a lot more complex than you have presented it here. 
 
 They would get back over a billion a year in grants, which are used to pay many people who work at Cornell and live in Ithaca, therefore directly contributing to Ithaca and the surrounding economy. 
 Cornell refusing this would mean hundreds of staff losing their jobs, which would have obvious terrible knock on impacts. 
 
 I do hate that our president has decided to do something so stupid and extort our academic institutions, however it is not as plain as "Cornell evil".
 - u/areaman246 (20): This is a high dollar mugging. You don’t blame the victim for getting mugged.
-- u/FitUse5901 (11): This will happen every year if it is allowed to happen once.
 - u/madmike5280 (10): Is he a want to be dictator or has he pretty much become a dictator ? The extortion and the stalin-esque purges of the government pretty much say he's a dictator.
+- u/FitUse5901 (9): This will happen every year if it is allowed to happen once.
 
 ## Caught In A Lie: Terawulf Itself Says It Will Take Water From Cayuga Lake Into Data Center
 
@@ -45,9 +45,9 @@ Given Terawulf's history of instability and dishonesty, the responsible thing to
 
 ### Top comments
 
-- u/6FeetBeneathTheMoon (74): They are a very shady company. Lying about water intake, lying about New York’s power grid sources, lying about a hypothetical solar farm having anything to do with their data center…it’s all so transparent.
-- u/jules823 (66): Thanks for highlighting this. How did the town hall go? I wasn’t able to attend but submitted a comment for the official record.
-- u/edmund57 (55): Do other municipalities / counties have a say in this? The lake is a shared resource.
+- u/6FeetBeneathTheMoon (73): They are a very shady company. Lying about water intake, lying about New York’s power grid sources, lying about a hypothetical solar farm having anything to do with their data center…it’s all so transparent.
+- u/jules823 (60): Thanks for highlighting this. How did the town hall go? I wasn’t able to attend but submitted a comment for the official record.
+- u/edmund57 (53): Do other municipalities / counties have a say in this? The lake is a shared resource.
 - u/TimeSynx (29): Subject: Halt Terawulf’s Cayuga Lake Water-Use Plan Until Full Environmental Review
 
 To the Town Board, NYS DEC, and Regional Decision-Makers,
@@ -124,4 +124,4 @@ As for the locals, everyone’s habits changed. Fewer people drink alcohol these
 
 For those reasons and others, I instituted the 20% Bartender Commission on sales in 2021 to keep us a certifiably living wage employer. With the Bartender Commission, I wanted to address more explicitly the vulnerabilities that the pandemic laid bare for all of us in the service industry, as well as to remember out loud the racist and exploitative history of tipping – “gratuitous” compensation – in the United States. Many of the people coming in around that time were tourists or white-collar salaried folk with a per diem who were less interested in the particular magic of Ithaca or the Watershed than in getting exactly what they wanted and paying next to nothing for their time- and energy-consuming service.
 
-As the cost of living skyrockets and wages stagnate or decline along with revenue, the service of luxury commodities exacerbates a two-tier system with laborers below the line supporting the consumers up top. I joke sometimes that bartenders and servers wear black because we’re like stagehands, we make it all happen but we’re not supposed to be seen or heard. That lack of care for service industry workers and the folks who are most vulnerable in these industries has been 
+As the cost of living skyrockets and wages stagnate or decline along with revenue, the service of luxury commodities exacerbates a two-tier system with laborers below the line supporting the consumers up top. I joke sometimes that bartenders and servers wear black because we’re like stagehands, we make it all happen but we’re not supposed to be seen or heard. That lack of care for service industry workers and the folks who are most vulnerable in these industries has been h

@@ -1,0 +1,1937 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown",
+      "city_id": "salt-lake-city",
+      "name": {
+        "en": "Downtown"
+      },
+      "summary": {
+        "en": "The polished core of the city, blending historic theaters and modern buildings with acclaimed restaurants, secret bars, and strange public art."
+      },
+      "lat": 40.765,
+      "lng": -111.895,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues",
+      "city_id": "salt-lake-city",
+      "name": {
+        "en": "Capitol Hill & The Avenues"
+      },
+      "summary": {
+        "en": "Defined by its elevation and history, this area features stately Victorian homes, the monumental State Capitol, and panoramic canyon views."
+      },
+      "lat": 40.778,
+      "lng": -111.885,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house",
+      "city_id": "salt-lake-city",
+      "name": {
+        "en": "Sugar House"
+      },
+      "summary": {
+        "en": "A vibrant and walkable \"second downtown\" with a fierce independent streak, bohemian energy, and unique local parks and businesses."
+      },
+      "lat": 40.725,
+      "lng": -111.855,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th",
+      "city_id": "salt-lake-city",
+      "name": {
+        "en": "9th and 9th"
+      },
+      "summary": {
+        "en": "A compact, effortlessly cool, and trendy intersection that serves as a concentrated hub of Salt Lake's modern local scene."
+      },
+      "lat": 40.748,
+      "lng": -111.865,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells",
+      "city_id": "salt-lake-city",
+      "name": {
+        "en": "Liberty Park & Liberty Wells"
+      },
+      "summary": {
+        "en": "A relaxed, residential area defined by one of the city's oldest and grandest public parks, with a down-to-earth, family-friendly feel."
+      },
+      "lat": 40.748,
+      "lng": -111.873,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside",
+      "city_id": "salt-lake-city",
+      "name": {
+        "en": "Westside (Glendale/Fairpark)"
+      },
+      "summary": {
+        "en": "A diverse and authentic cultural hub with a rich multicultural fabric, offering some of the city's most authentic global cuisine."
+      },
+      "lat": 40.76,
+      "lng": -111.92,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-enr-bodega-and-the-rest",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Bodega and The Rest"
+      },
+      "description": {
+        "en": "A true hidden gem where an unassuming storefront facade hides a speakeasy-style underground bar with a no-phones policy."
+      },
+      "type": "hidden_gem",
+      "lat": 40.7628,
+      "lng": -111.8911,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-enr-takashi",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Takashi"
+      },
+      "description": {
+        "en": "Widely considered to serve the best Japanese food and sushi in the city, famous for innovative rolls and pristine sashimi."
+      },
+      "type": "food",
+      "lat": 40.7641,
+      "lng": -111.8925,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-enr-the-copper-onion",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "The Copper Onion"
+      },
+      "description": {
+        "en": "A beloved brasserie-style restaurant with a consistently excellent menu, where the ricotta dumplings are a must-order local legend."
+      },
+      "type": "food",
+      "lat": 40.763,
+      "lng": -111.888,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-enr-oquirrh",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Oquirrh"
+      },
+      "description": {
+        "en": "A seasonal, upscale American restaurant perfect for a special occasion, with a menu reflecting a deep connection to local ingredients."
+      },
+      "type": "food",
+      "lat": 40.7626,
+      "lng": -111.8853,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-enr-gilgal-sculpture-garden",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Gilgal Sculpture Garden"
+      },
+      "description": {
+        "en": "A bizarre and fascinating small park filled with Mormon-themed sculptures, including a sphinx with the head of Joseph Smith."
+      },
+      "type": "hidden_gem",
+      "lat": 40.7587,
+      "lng": -111.8693,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-enr-abravanel-hall",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Abravanel Hall"
+      },
+      "description": {
+        "en": "Home to the Utah Symphony, this architectural landmark features a breathtaking four-story lobby with a grand glass sculpture."
+      },
+      "type": "culture",
+      "lat": 40.7676,
+      "lng": -111.8943,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-enr-denver-and-rio-grande-western-depot",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Denver and Rio Grande Western Depot"
+      },
+      "description": {
+        "en": "A beautiful, historic train station with grand architecture that no longer serves trains but houses the Utah Department of Heritage and Arts."
+      },
+      "type": "landmark",
+      "lat": 40.7629,
+      "lng": -111.902,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-enr-main-street-walk",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Main Street Walk"
+      },
+      "description": {
+        "en": "A walk down Main Street from South Temple is the best way to see the city's architectural evolution, from historic to modern buildings."
+      },
+      "type": "landmark",
+      "lat": 40.766,
+      "lng": -111.891,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-enr-arlo",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "name": {
+        "en": "Arlo"
+      },
+      "description": {
+        "en": "Located in the adjacent Marmalade district, this restaurant embodies a farm-to-table ethos with creative, beautifully plated American cuisine."
+      },
+      "type": "food",
+      "lat": 40.7754,
+      "lng": -111.8953,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-enr-utah-state-capitol-building",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "name": {
+        "en": "Utah State Capitol Building"
+      },
+      "description": {
+        "en": "A monumental building with a breathtaking interior rotunda and grounds that offer some of the best views of the Salt Lake Valley."
+      },
+      "type": "viewpoint",
+      "lat": 40.7774,
+      "lng": -111.8881,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-enr-memory-grove-park",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "name": {
+        "en": "Memory Grove Park"
+      },
+      "description": {
+        "en": "A serene park dedicated to Utah's veterans, tucked at the mouth of City Creek Canyon, offering a peaceful escape."
+      },
+      "type": "nature",
+      "lat": 40.776,
+      "lng": -111.883,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-enr-city-creek-canyon",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "name": {
+        "en": "City Creek Canyon"
+      },
+      "description": {
+        "en": "A walker's paradise where a path continues from Memory Grove, feeling like a true mountain hike just steps from downtown."
+      },
+      "type": "nature",
+      "lat": 40.781,
+      "lng": -111.881,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-enr-pioneer-memorial-museum",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "name": {
+        "en": "Pioneer Memorial Museum"
+      },
+      "description": {
+        "en": "An astonishingly dense four-story collection of pioneer artifacts, packed to the rafters with a fascinating glimpse into 19th-century life."
+      },
+      "type": "culture",
+      "lat": 40.7759,
+      "lng": -111.891,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-enr-kahve-cafe",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "sugar-house",
+      "name": {
+        "en": "Kahve Cafe"
+      },
+      "description": {
+        "en": "A beloved local hidden gem serving authentic Turkish coffee and pastries, known for its hospitable owner and must-try baklava."
+      },
+      "type": "hidden_gem",
+      "lat": 40.723,
+      "lng": -111.854,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-enr-hog-wallow-pub",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "sugar-house",
+      "name": {
+        "en": "Hog Wallow Pub"
+      },
+      "description": {
+        "en": "Famous for having one of the best and most expansive patios in the valley, this pub is nestled against the mountains."
+      },
+      "type": "nightlife",
+      "lat": 40.697,
+      "lng": -111.79,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-enr-afghan-kitchen",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "sugar-house",
+      "name": {
+        "en": "Afghan Kitchen"
+      },
+      "description": {
+        "en": "A local favorite that consistently earns rave reviews for its authentic, flavorful Afghan dishes in a cozy, welcoming environment."
+      },
+      "type": "food",
+      "lat": 40.703,
+      "lng": -111.891,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-enr-sumac-cafe",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "sugar-house",
+      "name": {
+        "en": "Sumac Cafe"
+      },
+      "description": {
+        "en": "Praised by residents for its incredible Middle Eastern flavors, particularly its lemon chicken."
+      },
+      "type": "food",
+      "lat": 40.712,
+      "lng": -111.83,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-enr-allen-park",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "sugar-house",
+      "name": {
+        "en": "Allen Park"
+      },
+      "description": {
+        "en": "Known locally as \"Hobbitville,\" this whimsical and slightly eerie park features peculiar cottages and sculptures along Emigration Creek."
+      },
+      "type": "hidden_gem",
+      "lat": 40.7407,
+      "lng": -111.8649,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-enr-sugar-house-park",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "sugar-house",
+      "name": {
+        "en": "Sugar House Park"
+      },
+      "description": {
+        "en": "A massive 110-acre park with rolling green hills, a large pond, and paved walking loops, serving as the neighborhood's communal backyard."
+      },
+      "type": "nature",
+      "lat": 40.724,
+      "lng": -111.848,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-enr-s-line-streetcar",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "sugar-house",
+      "name": {
+        "en": "S-Line Streetcar"
+      },
+      "description": {
+        "en": "This modern streetcar connects the Sugar House business district with the rest of the city's transit system, offering a unique perspective."
+      },
+      "type": "landmark",
+      "lat": 40.722,
+      "lng": -111.86,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-enr-cosmica",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "9th-and-9th",
+      "name": {
+        "en": "Cosmica"
+      },
+      "description": {
+        "en": "Called the \"crown jewel\" of the area, this relative newcomer serves outstanding Italian food in a lively, stylish setting."
+      },
+      "type": "food",
+      "lat": 40.7485,
+      "lng": -111.865,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-enr-nona-bistro",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "9th-and-9th",
+      "name": {
+        "en": "Nona Bistro"
+      },
+      "description": {
+        "en": "A short walk from the main intersection, this cozy spot serves rustic Italian and American dishes in a relaxed neighborhood setting."
+      },
+      "type": "food",
+      "lat": 40.7484,
+      "lng": -111.848,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-enr-tower-theatre",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "9th-and-9th",
+      "name": {
+        "en": "Tower Theatre"
+      },
+      "description": {
+        "en": "The cultural anchor of the neighborhood, this historic single-screen cinema shows independent, foreign, and documentary films."
+      },
+      "type": "culture",
+      "lat": 40.7485,
+      "lng": -111.8658,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-enr-beirut-cafe",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "name": {
+        "en": "Beirut Cafe"
+      },
+      "description": {
+        "en": "A true local's spot recommended for its authentic Lebanese food and unpretentious, welcoming atmosphere."
+      },
+      "type": "food",
+      "lat": 40.741,
+      "lng": -111.89,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-enr-pretty-bird",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "name": {
+        "en": "Pretty Bird"
+      },
+      "description": {
+        "en": "Home to an excellent and famously spicy Nashville-style hot chicken sandwich in a casual, high-energy spot."
+      },
+      "type": "food",
+      "lat": 40.7483,
+      "lng": -111.888,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-enr-kafe-mamai",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "name": {
+        "en": "Kafe Mamai"
+      },
+      "description": {
+        "en": "A hidden gem serving delicious West African cuisine, offering a fantastic opportunity to try something new."
+      },
+      "type": "hidden_gem",
+      "lat": 40.75,
+      "lng": -111.868,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-enr-liberty-park",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "name": {
+        "en": "Liberty Park"
+      },
+      "description": {
+        "en": "A 100-acre oasis established in 1881, featuring walking paths, a central lake, and the historic Isaac Chase Mill."
+      },
+      "type": "nature",
+      "lat": 40.745,
+      "lng": -111.873,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-enr-tracy-aviary",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "name": {
+        "en": "Tracy Aviary"
+      },
+      "description": {
+        "en": "Located entirely within Liberty Park, this is a world-class aviary with hundreds of birds from across the globe."
+      },
+      "type": "culture",
+      "lat": 40.7415,
+      "lng": -111.874,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-enr-red-iguana",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Red Iguana"
+      },
+      "description": {
+        "en": "A Salt Lake City institution famous for its extensive and incredible menu of mole sauces; an essential SLC dining experience."
+      },
+      "type": "food",
+      "lat": 40.7709,
+      "lng": -111.9149,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-enr-arempa-s",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Arempa's"
+      },
+      "description": {
+        "en": "A local-approved hidden gem serving delicious and authentic Venezuelan arepas and other specialties."
+      },
+      "type": "hidden_gem",
+      "lat": 40.764,
+      "lng": -111.895,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-enr-curry-fried-chicken",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Curry Fried Chicken"
+      },
+      "description": {
+        "en": "A must-try hidden gem mentioned by locals, offering a unique and flavorful fusion of cuisines."
+      },
+      "type": "hidden_gem",
+      "lat": 40.741,
+      "lng": -111.895,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-enr-international-peace-gardens",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "International Peace Gardens"
+      },
+      "description": {
+        "en": "One of the city's most special and under-the-radar places, featuring gardens designed to represent different nations."
+      },
+      "type": "nature",
+      "lat": 40.7456,
+      "lng": -111.9192,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-enr-jordan-park",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Jordan Park"
+      },
+      "description": {
+        "en": "This large park is home to the Peace Gardens and offers plenty of green space, a river walk, and a different perspective on the city."
+      },
+      "type": "nature",
+      "lat": 40.746,
+      "lng": -111.92,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-enr-redwood-drive-in-theatre",
+      "city_id": "salt-lake-city",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Redwood Drive-In Theatre"
+      },
+      "description": {
+        "en": "A classic drive-in operating since 1948, showing double features under the stars for a nostalgic slice of Americana."
+      },
+      "type": "culture",
+      "lat": 40.69,
+      "lng": -111.95,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-task-1",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Urban Canyon"
+      },
+      "prompt": {
+        "en": "Find a street where tall buildings create a canyon-like effect and take a photo looking up at the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-2",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Historic Meets Modern"
+      },
+      "prompt": {
+        "en": "Capture a single photo that shows a historic building right next to a modern one, highlighting the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-3",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Secretive Entrance"
+      },
+      "prompt": {
+        "en": "Find a doorway or entrance that looks mysterious or like it leads to a secret place. Snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-4",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Mountain Backdrop"
+      },
+      "prompt": {
+        "en": "Frame a shot of a downtown street scene with the Wasatch Mountains visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-5",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art—a sculpture, mural, or installation—and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-6",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Take a picture of the city's reflection in a puddle, a window, or a shiny surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-7",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "The Perfect Bite"
+      },
+      "prompt": {
+        "en": "Take an artful photo of a delicious-looking dish or drink you've ordered from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-8",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Theater Grandeur"
+      },
+      "prompt": {
+        "en": "Capture the marquee or grand entrance of one of downtown's historic theaters."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-9",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Find and photograph an interesting or vintage-looking sign on a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-10",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "City Motion"
+      },
+      "prompt": {
+        "en": "Use a slow shutter speed or motion blur effect to capture the movement of city traffic or pedestrians."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-11",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Explore and photograph a cool-looking alleyway you discover off the main streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-12",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Capture the atmosphere of a bustling outdoor patio at a cafe or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-13",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on a building—like a gargoyle, a pattern, or a unique window—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-14",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Local Flavors Quest"
+      },
+      "prompt": {
+        "en": "Ask a local for their favorite downtown lunch spot and take a photo of the storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "downtown-task-15",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As dusk falls, capture the warm glow of streetlights and neon signs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-1",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Panoramic Valley View"
+      },
+      "prompt": {
+        "en": "Find a high point and take a panoramic photo of the Salt Lake Valley spread out below you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-2",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Victorian Charm"
+      },
+      "prompt": {
+        "en": "Photograph the most beautiful or interesting Victorian-era home you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-3",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Steep Street"
+      },
+      "prompt": {
+        "en": "Capture the steep incline of one of the neighborhood's streets, showing how it climbs the hill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-4",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Nature's Detail"
+      },
+      "prompt": {
+        "en": "In a park or along the canyon path, take a close-up photo of a natural detail: a leaf, a stone in the creek, or a wildflower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-5",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Monumental Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a grand, monumental building or statue in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-6",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find and photograph a historical plaque or marker that tells a story about the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-7",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Peaceful Path"
+      },
+      "prompt": {
+        "en": "Take a photo of a quiet, tree-lined walking path that looks inviting and peaceful."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-8",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Grand Staircase"
+      },
+      "prompt": {
+        "en": "Find an impressive outdoor staircase and take a photo from the bottom looking up."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-9",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Architectural Symmetry"
+      },
+      "prompt": {
+        "en": "Find a building with perfect symmetry and capture it in a head-on shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-10",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Sunset Over the City"
+      },
+      "prompt": {
+        "en": "From a high vantage point, capture the colors of the sunset over the city or the Great Salt Lake."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-11",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Garden Discovery"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully maintained private or public garden you come across on your walk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-12",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Echoes of the Pioneers"
+      },
+      "prompt": {
+        "en": "Find something that looks like it could be from the 19th century—an old fence, a style of brickwork, a historic sign—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-13",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of shadows cast by trees or buildings on a sidewalk or wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-14",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "The Best Porch"
+      },
+      "prompt": {
+        "en": "Find a house with an inviting front porch and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "capitol-hill-and-the-avenues-task-15",
+      "neighborhood_id": "capitol-hill-and-the-avenues",
+      "title": {
+        "en": "City from the Canyon"
+      },
+      "prompt": {
+        "en": "From the mouth of City Creek Canyon, take a photo looking back towards the city skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-1",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo of the storefront of a unique, locally-owned business that captures the neighborhood's independent vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-2",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Charming Bungalow"
+      },
+      "prompt": {
+        "en": "Find a classic Sugar House bungalow with lots of character and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-3",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a scene of people enjoying one of the neighborhood's parks—playing, picnicking, or relaxing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-4",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Bohemian Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph something that feels bohemian or artistic—a colorful mural, a quirky garden decoration, or a unique shop display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-5",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Hidden Gem Selfie"
+      },
+      "prompt": {
+        "en": "Discover a small cafe or shop that looks like a hidden gem and take a selfie out front."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-6",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Leafy Street"
+      },
+      "prompt": {
+        "en": "Take a photo down a long, residential street lined with mature trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-7",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Local Coffee Culture"
+      },
+      "prompt": {
+        "en": "Take an artistic shot of your coffee or pastry from a local cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-8",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Whimsical Find"
+      },
+      "prompt": {
+        "en": "Photograph the most whimsical or peculiar thing you can find, like a strange sculpture or a tiny hidden door."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-9",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Neighborhood Hub"
+      },
+      "prompt": {
+        "en": "Capture the energy of a bustling street corner or intersection in the main business district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-10",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Ride the S-Line"
+      },
+      "prompt": {
+        "en": "Take a photo of the S-Line streetcar as it passes by or from inside as you ride it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-11",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Creek Crossing"
+      },
+      "prompt": {
+        "en": "Find a bridge or path crossing over Emigration Creek and take a scenic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-12",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Patio Paradise"
+      },
+      "prompt": {
+        "en": "Find the most inviting-looking outdoor patio at a pub or restaurant and capture its atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-13",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Rolling Hills"
+      },
+      "prompt": {
+        "en": "In a large park, capture the rolling green hills against the sky or mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-14",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Local's Recommendation"
+      },
+      "prompt": {
+        "en": "Ask a shopkeeper for their favorite thing about Sugar House and try to capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "sugar-house-task-15",
+      "neighborhood_id": "sugar-house",
+      "title": {
+        "en": "Street Art Surprise"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a mural and take a photo that incorporates the surrounding environment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-1",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "The Perfect Corner"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energy of the main 9th and 9th intersection."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-2",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Indie Vibe"
+      },
+      "prompt": {
+        "en": "Photograph something that represents the neighborhood's independent cinema culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-3",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Boutique Window"
+      },
+      "prompt": {
+        "en": "Find the most creatively dressed window display at a local boutique and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-4",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Trendy Tastes"
+      },
+      "prompt": {
+        "en": "Take a stylish, top-down photo of your food or drink from a neighborhood bistro or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-5",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Art in the Streets"
+      },
+      "prompt": {
+        "en": "Take a selfie with one of the whimsical 'Muse' sculptures at the intersection."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-6",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Effortlessly Cool"
+      },
+      "prompt": {
+        "en": "Capture a candid photo of the local street style that embodies the neighborhood's cool vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-7",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Neighborhood Icon"
+      },
+      "prompt": {
+        "en": "Take a photo of a landmark that you think defines the 9th and 9th area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-8",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Foot-Traffic Friendly"
+      },
+      "prompt": {
+        "en": "Take a photo that shows how walkable and pedestrian-focused the neighborhood is."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-9",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Cozy Bistro"
+      },
+      "prompt": {
+        "en": "Find a restaurant that looks especially cozy and inviting and capture its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-10",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Local Hangout"
+      },
+      "prompt": {
+        "en": "Photograph a spot where locals seem to be gathering and hanging out."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-11",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Art Gallery Glimpse"
+      },
+      "prompt": {
+        "en": "Take a photo through the window of a local art gallery, capturing a piece that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-12",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Capture the glow of a neon sign in the neighborhood as evening approaches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-13",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Curated Collection"
+      },
+      "prompt": {
+        "en": "Find a shop with a beautifully curated collection of items and photograph the display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-14",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Film Buff"
+      },
+      "prompt": {
+        "en": "Take a photo of the movie posters or showtimes listed outside the local cinema."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "9th-and-9th-task-15",
+      "neighborhood_id": "9th-and-9th",
+      "title": {
+        "en": "Stylish Setting"
+      },
+      "prompt": {
+        "en": "Capture the interior design of a particularly stylish restaurant or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-1",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Take a wide shot that captures the vast green space of Liberty Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-2",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Water Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of trees or the sky in the park's central lake or pond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-3",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Down-to-Earth Vibe"
+      },
+      "prompt": {
+        "en": "Photograph a scene that represents the relaxed, family-friendly feel of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-4",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Historic Home"
+      },
+      "prompt": {
+        "en": "Find a charming historic home on one of the tree-lined streets and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-5",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Aviary Adventure Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a colorful bird or interesting aviary structure in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-6",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Unpretentious Eats"
+      },
+      "prompt": {
+        "en": "Capture the storefront of a casual, unpretentious restaurant that looks like a local favorite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-7",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Path to Relaxation"
+      },
+      "prompt": {
+        "en": "Take a photo of an inviting walking path in the park, leading the viewer into the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-8",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Sounds of Nature"
+      },
+      "prompt": {
+        "en": "Take a photo of a bird you spot in the park—on a branch, in the water, or in the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-9",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Spicy Challenge"
+      },
+      "prompt": {
+        "en": "Find a spot known for spicy food and take a picture of the menu or the fiery dish itself."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-10",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet bench with a nice view and take a photo from that perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-11",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Playground Fun"
+      },
+      "prompt": {
+        "en": "Capture the color and energy of a playground in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-12",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Photograph a historic structure or monument within the park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-13",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Neighborhood Gathering"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the park as a community gathering space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-14",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Hidden Food Gem"
+      },
+      "prompt": {
+        "en": "Find a small, unassuming restaurant and take a photo, hinting at the delicious food inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "liberty-park-and-liberty-wells-task-15",
+      "neighborhood_id": "liberty-park-and-liberty-wells",
+      "title": {
+        "en": "Tree Canopy"
+      },
+      "prompt": {
+        "en": "Stand under a large tree and take a photo looking straight up through the branches and leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-1",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "A Taste of the World"
+      },
+      "prompt": {
+        "en": "Take a photo of a restaurant sign or menu that represents a specific global cuisine (e.g., Venezuelan, Mexican, etc.)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-2",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Cultural Fabric"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the multicultural diversity of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-3",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Garden of Nations"
+      },
+      "prompt": {
+        "en": "In a park, find a garden or structure that represents a specific country and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-4",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Authentic Flavors"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering photo of an authentic dish from a local Westside eatery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-5",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Legendary Spot Selfie"
+      },
+      "prompt": {
+        "en": "Find a restaurant that is a local institution and take a selfie with its iconic sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-6",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Working-Class Heart"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the authentic, working-class character of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-7",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot in a park and take a photo that conveys a sense of tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-8",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "River Walk"
+      },
+      "prompt": {
+        "en": "Photograph a path or view along the Jordan River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-9",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Hidden Gem Discovery"
+      },
+      "prompt": {
+        "en": "Find a small, unassuming shop or restaurant that looks like a local secret and photograph its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-10",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Nostalgic Americana"
+      },
+      "prompt": {
+        "en": "Capture something that feels nostalgic or like a slice of classic Americana."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-11",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Colorful Facade"
+      },
+      "prompt": {
+        "en": "Find a brightly colored building or mural and take a vibrant photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-12",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a place where the local community gathers, like a park, market, or community center."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-13",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Global Architecture"
+      },
+      "prompt": {
+        "en": "Find a building or structure with an architectural style inspired by another part of the world."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-14",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Under the Stars"
+      },
+      "prompt": {
+        "en": "As evening falls, take a photo of a place that looks magical under the night sky, like a drive-in theater or a lit-up park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    },
+    {
+      "id": "westside-task-15",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "The Mole Quest"
+      },
+      "prompt": {
+        "en": "Find a restaurant famous for its mole and take a photo that hints at the rich, complex sauces inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:38:04.913953+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

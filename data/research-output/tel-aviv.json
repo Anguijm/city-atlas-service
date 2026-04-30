@@ -1,0 +1,1617 @@
+{
+  "neighborhoods": [
+    {
+      "id": "florentin",
+      "city_id": "tel-aviv",
+      "name": {
+        "en": "Florentin"
+      },
+      "summary": {
+        "en": "Known as the \"Soho of Tel Aviv,\" Florentin is a dynamic, gritty, and creative hub for artists and makers, where industrial facades serve as canvases for vibrant street art."
+      },
+      "lat": 32.0565,
+      "lng": 34.7688,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek",
+      "city_id": "tel-aviv",
+      "name": {
+        "en": "Neve Tzedek"
+      },
+      "summary": {
+        "en": "The first Jewish neighborhood outside of Jaffa, Neve Tzedek is a tranquil, upscale village within the city, known for its charming narrow streets and restored Eclectic Orientalist architecture."
+      },
+      "lat": 32.0603,
+      "lng": 34.7645,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa",
+      "city_id": "tel-aviv",
+      "name": {
+        "en": "Old Jaffa & The Flea Market"
+      },
+      "summary": {
+        "en": "The ancient port city from which Tel Aviv grew, Jaffa's history is palpable in its limestone alleys, bustling flea market, and artists' quarter, with air thick with the smell of sea and spices."
+      },
+      "lat": 32.0542,
+      "lng": 34.7531,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city",
+      "city_id": "tel-aviv",
+      "name": {
+        "en": "The White City"
+      },
+      "summary": {
+        "en": "A UNESCO World Heritage site centered around Rothschild Boulevard, this area is a living museum of 1930s Bauhaus architecture, with a sophisticated and clean vibe."
+      },
+      "lat": 32.0655,
+      "lng": 34.773,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel",
+      "city_id": "tel-aviv",
+      "name": {
+        "en": "Shuk HaCarmel & Kerem HaTeimanim"
+      },
+      "summary": {
+        "en": "The loud, chaotic, and delicious heart of Tel Aviv, this area combines the city's largest outdoor market with the adjacent, historic, village-like neighborhood of Kerem HaTeimanim."
+      },
+      "lat": 32.0701,
+      "lng": 34.7672,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan",
+      "city_id": "tel-aviv",
+      "name": {
+        "en": "Neve Sha'anan & The Central Bus Station"
+      },
+      "summary": {
+        "en": "Tel Aviv at its most raw and diverse, this neighborhood is a vibrant melting pot of cultures centered around the massive, labyrinthine Brutalist Central Bus Station."
+      },
+      "lat": 32.058,
+      "lng": 34.7785,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "florentin-enr-florentin-s-independent-coffeehouses",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "florentin",
+      "name": {
+        "en": "Florentin's Independent Coffeehouses"
+      },
+      "description": {
+        "en": "The neighborhood is defined by its many independent coffeehouses. Wander down streets like Frenkel or Vital and pick a spot overflowing with locals."
+      },
+      "type": "drink",
+      "lat": 32.057,
+      "lng": 34.769,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-enr-florentin-s-neighborhood-bars",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "florentin",
+      "name": {
+        "en": "Florentin's Neighborhood Bars"
+      },
+      "description": {
+        "en": "Known for its unpretentious, hole-in-the-wall bars with sidewalk seating, perfect for soaking in the neighborhood's evening energy."
+      },
+      "type": "nightlife",
+      "lat": 32.056,
+      "lng": 34.768,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-enr-street-art-alleys",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "florentin",
+      "name": {
+        "en": "Street Art Alleys"
+      },
+      "description": {
+        "en": "A living gallery where industrial facades serve as canvases. Wander the side streets off Abarbanel St. to find large-scale murals and hidden graffiti."
+      },
+      "type": "culture",
+      "lat": 32.0555,
+      "lng": 34.7675,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-enr-hidden-courtyards-green-spaces",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "florentin",
+      "name": {
+        "en": "Hidden Courtyards & Green Spaces"
+      },
+      "description": {
+        "en": "As part of its revitalization, small green areas and pedestrian zones were integrated into the old industrial grid, providing a peaceful contrast to the bustling streets."
+      },
+      "type": "hidden_gem",
+      "lat": 32.0572,
+      "lng": 34.7695,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-enr-independent-galleries",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "florentin",
+      "name": {
+        "en": "Independent Galleries"
+      },
+      "description": {
+        "en": "The neighborhood is dotted with small, artist-run galleries showcasing contemporary Israeli art. Keep an eye out for open doors and art-filled windows."
+      },
+      "type": "culture",
+      "lat": 32.0568,
+      "lng": 34.7682,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-enr-shabazi-street-cafes",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-tzedek",
+      "name": {
+        "en": "Shabazi Street Cafes"
+      },
+      "description": {
+        "en": "The main thoroughfare of Shabazi Street is lined with charming cafes. Find one with a quiet back garden to escape the city buzz."
+      },
+      "type": "drink",
+      "lat": 32.0608,
+      "lng": 34.765,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-enr-manta-ray",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-tzedek",
+      "name": {
+        "en": "Manta Ray"
+      },
+      "description": {
+        "en": "Located on the beach near Neve Tzedek, this spot is recommended by locals for its classic Israeli breakfast of stellar house-made meze with sea views."
+      },
+      "type": "food",
+      "lat": 32.059,
+      "lng": 34.7605,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-enr-suzanne-dellal-center",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-tzedek",
+      "name": {
+        "en": "Suzanne Dellal Center"
+      },
+      "description": {
+        "en": "The heart of Israel's contemporary dance scene. Its beautiful courtyards are a public space worth visiting for their serene atmosphere and architecture."
+      },
+      "type": "culture",
+      "lat": 32.0615,
+      "lng": 34.7638,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-enr-neve-tzedek-tower-viewpoint",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-tzedek",
+      "name": {
+        "en": "Neve Tzedek Tower Viewpoint"
+      },
+      "description": {
+        "en": "Find a vantage point on a western street to see the historic, low-rise homes framed against the sleek, modern Neve Tzedek Tower skyscraper."
+      },
+      "type": "viewpoint",
+      "lat": 32.062,
+      "lng": 34.763,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-enr-flea-market-cafes",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "old-jaffa",
+      "name": {
+        "en": "Flea Market Cafes"
+      },
+      "description": {
+        "en": "The aromatic chaos of the Jaffa Flea Market is fueled by numerous cafes tucked between antique shops, perfect for people-watching."
+      },
+      "type": "drink",
+      "lat": 32.0525,
+      "lng": 34.7555,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-enr-arab-israeli-cuisine-hub",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "old-jaffa",
+      "name": {
+        "en": "Arab-Israeli Cuisine Hub"
+      },
+      "description": {
+        "en": "The area around the flea market is renowned for its authentic Arab-Israeli cuisine, with dozens of spots serving fresh seafood, hummus, and knafeh."
+      },
+      "type": "food",
+      "lat": 32.053,
+      "lng": 34.756,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-enr-jaffa-flea-market-shuk-hapishpeshim",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "old-jaffa",
+      "name": {
+        "en": "Jaffa Flea Market (Shuk Hapishpeshim)"
+      },
+      "description": {
+        "en": "A treasure trove of antiques, vintage clothing, handmade jewelry, and assorted curiosities where the real fun is in the hunt and friendly bargaining."
+      },
+      "type": "shopping",
+      "lat": 32.0528,
+      "lng": 34.755,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-enr-the-old-jaffa-port",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "old-jaffa",
+      "name": {
+        "en": "The Old Jaffa Port"
+      },
+      "description": {
+        "en": "Walk along the restored ancient port where fishing boats still dock, offering stunning views back towards the Tel Aviv skyline."
+      },
+      "type": "landmark",
+      "lat": 32.055,
+      "lng": 34.75,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-enr-the-artists-quarter",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "old-jaffa",
+      "name": {
+        "en": "The Artists' Quarter"
+      },
+      "description": {
+        "en": "Wander the maze-like, zodiac-named alleys of the upper old city to find numerous galleries and studios in beautifully preserved historic buildings."
+      },
+      "type": "culture",
+      "lat": 32.054,
+      "lng": 34.752,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-enr-irgun-museum",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "old-jaffa",
+      "name": {
+        "en": "Irgun Museum"
+      },
+      "description": {
+        "en": "Located near Charles Clore Park, this small museum offers a specific, non-mainstream look into the history of the pre-state underground militia."
+      },
+      "type": "culture",
+      "lat": 32.0575,
+      "lng": 34.7585,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-enr-hapisga-garden",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "old-jaffa",
+      "name": {
+        "en": "HaPisga Garden"
+      },
+      "description": {
+        "en": "An elevated vantage point in Old Jaffa that offers stunning views of the Tel Aviv skyline, especially during the 'golden hour' before sunset."
+      },
+      "type": "viewpoint",
+      "lat": 32.0545,
+      "lng": 34.7525,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-enr-rothschild-boulevard-kiosks",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "white-city",
+      "name": {
+        "en": "Rothschild Boulevard Kiosks"
+      },
+      "description": {
+        "en": "The central strip of Rothschild is famous for its historic kiosks converted into modern coffee and juice bars, an essential Tel Aviv experience."
+      },
+      "type": "drink",
+      "lat": 32.064,
+      "lng": 34.771,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-enr-bauhaus-museum",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "white-city",
+      "name": {
+        "en": "Bauhaus Museum"
+      },
+      "description": {
+        "en": "A small, private museum on Bialik Street that provides a fantastic introduction to the movement, displaying furniture and objects that add context to the architecture."
+      },
+      "type": "culture",
+      "lat": 32.071,
+      "lng": 34.77,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-enr-pagoda-house-beit-hapagoda",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "white-city",
+      "name": {
+        "en": "Pagoda House (Beit HaPagoda)"
+      },
+      "description": {
+        "en": "Located at King Albert Square, this stunning example of 1920s Eclectic style offers a fascinating counterpoint to the surrounding Modernist buildings."
+      },
+      "type": "landmark",
+      "lat": 32.067,
+      "lng": 34.775,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-enr-shalom-meir-tower-observation-deck",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "white-city",
+      "name": {
+        "en": "Shalom Meir Tower Observation Deck"
+      },
+      "description": {
+        "en": "From the observation deck of Israel's first skyscraper, get a bird's-eye view of the low-rise White City it once towered over."
+      },
+      "type": "viewpoint",
+      "lat": 32.063,
+      "lng": 34.768,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-enr-rothschild-boulevard-pedestrian-strip",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "white-city",
+      "name": {
+        "en": "Rothschild Boulevard Pedestrian Strip"
+      },
+      "description": {
+        "en": "The wide, park-like median of the boulevard is an attraction in itself, perfect for a leisurely stroll to appreciate architecture and vibrant street life."
+      },
+      "type": "landmark",
+      "lat": 32.065,
+      "lng": 34.772,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-enr-fresh-juice-stands",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "shuk-hacarmel",
+      "name": {
+        "en": "Fresh Juice Stands"
+      },
+      "description": {
+        "en": "Dotted throughout the market are vendors pressing fresh pomegranate, orange, and carrot juice—the perfect fuel for navigating the crowded lanes."
+      },
+      "type": "drink",
+      "lat": 32.0705,
+      "lng": 34.767,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-enr-shuk-hacarmel-food-stalls",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "shuk-hacarmel",
+      "name": {
+        "en": "Shuk HaCarmel Food Stalls"
+      },
+      "description": {
+        "en": "The market itself is the restaurant. Graze your way through by seeking out the best local specialties from the countless stalls."
+      },
+      "type": "food",
+      "lat": 32.07,
+      "lng": 34.7675,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-enr-pita-pocket-vendors",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "shuk-hacarmel",
+      "name": {
+        "en": "Pita Pocket Vendors"
+      },
+      "description": {
+        "en": "This is the epicenter for finding world-class falafel and sabich. Follow the longest lines of locals to find the best vendors."
+      },
+      "type": "food",
+      "lat": 32.071,
+      "lng": 34.7668,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-enr-shakshuka-eateries",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "shuk-hacarmel",
+      "name": {
+        "en": "Shakshuka Eateries"
+      },
+      "description": {
+        "en": "The market and its surroundings are famous for shakshuka. Many small, family-run spots serve their unique versions in a sizzling pan."
+      },
+      "type": "food",
+      "lat": 32.0695,
+      "lng": 34.7678,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-enr-kerem-hateimanim-alleys",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "shuk-hacarmel",
+      "name": {
+        "en": "Kerem HaTeimanim Alleys"
+      },
+      "description": {
+        "en": "Get lost in the labyrinthine streets of the 'Yemenite Vineyard.' The quiet, residential atmosphere is a world away from the market's chaos."
+      },
+      "type": "hidden_gem",
+      "lat": 32.068,
+      "lng": 34.766,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-enr-tel-aviv-central-bus-station",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-shaanan",
+      "name": {
+        "en": "Tel Aviv Central Bus Station"
+      },
+      "description": {
+        "en": "A massive, labyrinthine Brutalist structure that is a city within a city. Exploring its confusing, multi-layered corridors is a true urban adventure."
+      },
+      "type": "landmark",
+      "lat": 32.055,
+      "lng": 34.78,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-enr-the-wrong-corridor-exploration",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-shaanan",
+      "name": {
+        "en": "The 'Wrong Corridor' Exploration"
+      },
+      "description": {
+        "en": "Embrace the local joke that a wrong turn in the bus station can lead anywhere by intentionally exploring its lesser-traveled floors and corridors."
+      },
+      "type": "hidden_gem",
+      "lat": 32.0555,
+      "lng": 34.7805,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-enr-neve-sha-anan-street-market",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-shaanan",
+      "name": {
+        "en": "Neve Sha'anan Street Market"
+      },
+      "description": {
+        "en": "The streets surrounding the bus station function as a lively market offering everything from electronics to clothing to international groceries."
+      },
+      "type": "shopping",
+      "lat": 32.0585,
+      "lng": 34.777,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-enr-international-food-hub",
+      "city_id": "tel-aviv",
+      "neighborhood_id": "neve-shaanan",
+      "name": {
+        "en": "International Food Hub"
+      },
+      "description": {
+        "en": "Reflecting its diverse immigrant communities, this is the place to find some of the city's best and most authentic Filipino, Eritrean, and Sudanese food."
+      },
+      "type": "food",
+      "lat": 32.059,
+      "lng": 34.778,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "florentin-task-1",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Industrial Canvas"
+      },
+      "prompt": {
+        "en": "Capture a piece of street art that cleverly interacts with its industrial environment, like a mural on a metal shutter or graffiti on a concrete wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-2",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Maker's Hands"
+      },
+      "prompt": {
+        "en": "Find a workshop or studio and, from the street, take a photo that captures the essence of creation—tools, materials, or a work in progress."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-3",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Football Colors"
+      },
+      "prompt": {
+        "en": "The neighborhood is passionate about football. Find and photograph something red (Hapoel) or yellow (Maccabi) that isn't an official team logo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-4",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Gritty Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up, abstract photo of a textured surface that feels uniquely Florentin: peeling paint, rusted metal, or layered stickers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-5",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Coffee Culture Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie outside a coffee shop that looks packed with locals, capturing the neighborhood's buzzing energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-6",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Hidden Green"
+      },
+      "prompt": {
+        "en": "Find a small, unexpected patch of green—a plant growing through concrete or a hidden courtyard—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-7",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Art in Motion"
+      },
+      "prompt": {
+        "en": "Take a photo of a person on a bike or scooter passing by a large mural, capturing the dynamic energy of the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-8",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm light from a neighborhood bar spilling out onto the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-9",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Found Object Art"
+      },
+      "prompt": {
+        "en": "Find an object on the street (a discarded chair, a lone shoe) and frame a photo that makes it look like an intentional art installation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-10",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "The Scent of Coffee"
+      },
+      "prompt": {
+        "en": "You can't photograph a smell, so take a picture that represents the aroma of fresh coffee—steam rising from a cup, a sign for a cafe, or beans in a window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-11",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "Layered History"
+      },
+      "prompt": {
+        "en": "Find a wall where new graffiti has been painted over old layers and take a photo that shows the history of the spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "florentin-task-12",
+      "neighborhood_id": "florentin",
+      "title": {
+        "en": "My Florentin Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo of your shoes against a backdrop that you feel best summarizes the gritty, creative vibe of Florentin."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-1",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Old & New"
+      },
+      "prompt": {
+        "en": "Capture the architectural contrast between a historic sandstone house and a modern glass skyscraper in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-2",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Ornamental Detail"
+      },
+      "prompt": {
+        "en": "Find a building with original, colorful ornamental tiles and take a close-up shot of the pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-3",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Secret Garden"
+      },
+      "prompt": {
+        "en": "Peer into a courtyard or back garden and take a photo of the tranquil, hidden greenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-4",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Chic Reflection"
+      },
+      "prompt": {
+        "en": "Take a selfie in the reflection of a chic boutique window on Shabazi Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-5",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Architectural Arch"
+      },
+      "prompt": {
+        "en": "The neighborhood features Middle Eastern-style arches. Find a beautiful arched window or doorway and frame a photo through it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-6",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Winding Lane"
+      },
+      "prompt": {
+        "en": "Capture the charm of a narrow, winding street, emphasizing the perspective as it disappears around a corner."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-7",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Ironwork Art"
+      },
+      "prompt": {
+        "en": "Find a building with intricate ironwork on a balcony or gate and take a photo focusing on the delicate details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-8",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Photograph a quiet, empty bench in a courtyard or along a peaceful street, capturing the neighborhood's tranquil atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-9",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Colorful Door"
+      },
+      "prompt": {
+        "en": "The houses here often have unique, colorful doors. Find the most interesting one and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-10",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Village Life"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the 'village within a city' feel—perhaps a cat sleeping on a windowsill or laundry hanging between buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-11",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the way sunlight creates interesting shadows along the narrow streets and textured sandstone walls."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-tzedek-task-12",
+      "neighborhood_id": "neve-tzedek",
+      "title": {
+        "en": "My Elegant Escape"
+      },
+      "prompt": {
+        "en": "Find a spot that feels like a perfect escape from the city bustle and take a photo of your drink or a book against that serene backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-1",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Golden Hour Skyline"
+      },
+      "prompt": {
+        "en": "From an elevated spot in Old Jaffa, capture the modern Tel Aviv skyline as the sun begins to set."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-2",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Flea Market Find"
+      },
+      "prompt": {
+        "en": "Photograph the most unusual or ancient-looking object you can find for sale in the flea market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-3",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Zodiac Alley"
+      },
+      "prompt": {
+        "en": "The alleys in the Artists' Quarter are named after zodiac signs. Find your sign (or any sign) and take a photo of the street sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-4",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Ancient Stones"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of the old limestone walls, focusing on the texture and history embedded in the stone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-5",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Port View Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the fishing boats and the old port in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-6",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "The Scent of Spices"
+      },
+      "prompt": {
+        "en": "Find a shop or stall selling spices or food and take a photo that visually captures the 'aromatic chaos' of Jaffa."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-7",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Jaffa Cat"
+      },
+      "prompt": {
+        "en": "Jaffa is famous for its many street cats. Find one and (respectfully) take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-8",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Haggling in Action"
+      },
+      "prompt": {
+        "en": "From a respectful distance, capture the energy of bargaining between a vendor and a customer in the flea market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-9",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Sea Through an Archway"
+      },
+      "prompt": {
+        "en": "Frame a photo of the Mediterranean Sea through one of the ancient stone archways or narrow alleys."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-10",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Artist at Work"
+      },
+      "prompt": {
+        "en": "Peer into an artist's studio in the Artists' Quarter and photograph a piece of art or a creative workspace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-11",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Taste of Jaffa"
+      },
+      "prompt": {
+        "en": "Buy a local snack like knafeh or fresh juice and take a delicious-looking photo of it with a Jaffa backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "old-jaffa-task-12",
+      "neighborhood_id": "old-jaffa",
+      "title": {
+        "en": "Call to Prayer"
+      },
+      "prompt": {
+        "en": "You can hear the call to prayer from the mosque. Take a photo of the minaret or a scene that captures the feeling of that moment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-1",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Bauhaus Curves"
+      },
+      "prompt": {
+        "en": "Create an abstract architectural photo focusing on the signature curved balconies of a Bauhaus building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-2",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Shadows and Light"
+      },
+      "prompt": {
+        "en": "Capture the strong play of shadow and light on a stark white facade, a key element of Modernist design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-3",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Kiosk Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of one of Rothschild Boulevard's iconic kiosks, capturing the people enjoying a coffee or juice."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-4",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Boulevard Life"
+      },
+      "prompt": {
+        "en": "Photograph the mix of people using the central pedestrian strip—cyclists, people walking dogs, families, and business people."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-5",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Thermometer Window"
+      },
+      "prompt": {
+        "en": "Find and photograph a classic Bauhaus 'thermometer' window—a long vertical window designed to light a stairwell."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-6",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "My Rothschild Moment"
+      },
+      "prompt": {
+        "en": "Take a selfie relaxing on a bench on the Rothschild pedestrian strip, with the tree-lined boulevard behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-7",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Floating on Pilotis"
+      },
+      "prompt": {
+        "en": "Find a building raised on pilotis (ground-floor support columns) and take a photo that emphasizes the way the building seems to float."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-8",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Symmetry and Style"
+      },
+      "prompt": {
+        "en": "Find a Bauhaus facade with perfect symmetry and take a photo that highlights its clean, balanced design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-9",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Eclectic Contrast"
+      },
+      "prompt": {
+        "en": "Photograph a non-Bauhaus, Eclectic-style building to show the architectural diversity that exists within the White City."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-10",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Rooftop Details"
+      },
+      "prompt": {
+        "en": "Look up! Photograph an interesting rooftop detail, like a pergola or a flat roof garden, common in Bauhaus design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-11",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Green Canopy"
+      },
+      "prompt": {
+        "en": "Take a photo looking up through the canopy of trees that line Rothschild Boulevard, with glimpses of white buildings beyond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "white-city-task-12",
+      "neighborhood_id": "white-city",
+      "title": {
+        "en": "Modernist Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a Bauhaus building in the window of a modern shop or a parked car."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-1",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "A Mountain of Spices"
+      },
+      "prompt": {
+        "en": "Find a spice stall and take a vibrant, colorful photo of the mountains of different spices."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-2",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Vendor's Hands"
+      },
+      "prompt": {
+        "en": "With permission, take a close-up portrait of a market vendor's hands as they work—weighing olives, stuffing a pita, or arranging pastries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-3",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Sensory Overload"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the chaotic, crowded, and vibrant energy of a busy market lane."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-4",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Exotic Discovery"
+      },
+      "prompt": {
+        "en": "Find, purchase, and photograph a fruit, vegetable, or pastry you have never seen or heard of before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-5",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Juice Break Selfie"
+      },
+      "prompt": {
+        "en": "Get a freshly squeezed juice and take a selfie while enjoying your colorful, healthy drink."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-6",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "The Longest Line"
+      },
+      "prompt": {
+        "en": "Locals know best. Find the food stall with the longest line and take a photo of what they're selling."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-7",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Kerem Quiet"
+      },
+      "prompt": {
+        "en": "Step into the alleys of Kerem HaTeimanim and capture a photo that shows the quiet, village-like contrast to the market's chaos."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-8",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "The Sound of the Shuk"
+      },
+      "prompt": {
+        "en": "Take a photo of a vendor calling out to customers, trying to visually capture the loud, bustling sounds of the market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-9",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Perfect Pita"
+      },
+      "prompt": {
+        "en": "Get a falafel or sabich and take a mouth-watering close-up before you take the first bite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-10",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful display of baklava, halva, or other Middle Eastern sweets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-11",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Produce Portrait"
+      },
+      "prompt": {
+        "en": "Create an artistic still life photo of a pile of vibrant produce, like pomegranates, peppers, or figs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "shuk-hacarmel-task-12",
+      "neighborhood_id": "shuk-hacarmel",
+      "title": {
+        "en": "Sizzling Shakshuka"
+      },
+      "prompt": {
+        "en": "Find a place serving shakshuka and capture a photo of the dish being served in its sizzling pan."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-1",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Brutalist Beauty"
+      },
+      "prompt": {
+        "en": "Find an interesting angle of the Central Bus Station and take a photo that highlights the geometry and raw concrete of its Brutalist architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-2",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "View from the Maze"
+      },
+      "prompt": {
+        "en": "From an upper floor of the bus station, take a photo through a window looking out over the dense urban landscape of South Tel Aviv."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-3",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Melting Pot"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the neighborhood's cultural diversity—a storefront with a foreign language, an international grocery item, or a street fashion."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-4",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Urban Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that says 'I'm exploring the real, unpolished Tel Aviv.' Find a backdrop that feels authentic and raw."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-5",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Street Market Deal"
+      },
+      "prompt": {
+        "en": "Photograph an item for sale in the street market that you think is a 'great shopping deal,' capturing the spirit of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-6",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Lost in the Station"
+      },
+      "prompt": {
+        "en": "Take a photo of a confusing sign, an empty corridor, or a strange corner inside the Central Bus Station that captures the feeling of being in a maze."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-7",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "A Taste of the World"
+      },
+      "prompt": {
+        "en": "Find a small eatery serving international food (like Filipino, Eritrean, or Sudanese) and photograph its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-8",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Find a wall or surface with layers of posters, grime, and graffiti and take a close-up, abstract photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-9",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "City Engine"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the constant motion of the neighborhood—buses arriving, people rushing, goods being sold."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-10",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Hidden Art"
+      },
+      "prompt": {
+        "en": "Even in the bus station, there are hidden gems like art galleries. Find an unexpected piece of art or a colorful mural and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-11",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Light in the Labyrinth"
+      },
+      "prompt": {
+        "en": "Inside the bus station or a dense alley, capture a shot where a single beam of light cuts through the darkness."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    },
+    {
+      "id": "neve-shaanan-task-12",
+      "neighborhood_id": "neve-shaanan",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph a detail that shows the human element in this massive urban environment—a child's drawing, a community notice, or a well-tended plant on a balcony."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:02:30.570300+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

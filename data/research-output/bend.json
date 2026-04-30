@@ -1,0 +1,762 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-bend",
+      "city_id": "bend",
+      "name": {
+        "en": "Old Bend & The Downtown Core"
+      },
+      "summary": {
+        "en": "The historic and cultural heart of Bend, where turn-of-the-century brick buildings meet a modern, artsy-outdoorsy culture along the Deschutes River."
+      },
+      "lat": 44.0585,
+      "lng": -121.3165,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west",
+      "city_id": "bend",
+      "name": {
+        "en": "River West & The Drake Park Historic District"
+      },
+      "summary": {
+        "en": "A tranquil, leafy neighborhood defined by its historic Craftsman bungalows and quiet, tree-lined streets where Bend's history feels most lived-in."
+      },
+      "lat": 44.0592,
+      "lng": -121.3225,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side",
+      "city_id": "bend",
+      "name": {
+        "en": "The East Side & The Blockbuster Museum"
+      },
+      "summary": {
+        "en": "A neighborhood of contrasts, featuring 20th-century nostalgia, the shadow of an extinct volcano, and sprawling, sun-drenched views of the city."
+      },
+      "lat": 44.0575,
+      "lng": -121.2901,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-bend-enr-old-st-francis-school",
+      "city_id": "bend",
+      "neighborhood_id": "old-bend",
+      "name": {
+        "en": "Old St. Francis School"
+      },
+      "description": {
+        "en": "A 1936 Catholic schoolhouse transformed into a beloved hotel and entertainment complex with multiple bars, a brewery, a movie theater, and a soaking pool."
+      },
+      "type": "culture",
+      "lat": 44.061,
+      "lng": -121.3145,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-enr-pine-tavern",
+      "city_id": "bend",
+      "neighborhood_id": "old-bend",
+      "name": {
+        "en": "Pine Tavern"
+      },
+      "description": {
+        "en": "An enduring Bend classic famous for its riverside patio and the massive ponderosa pine tree growing directly through its dining room."
+      },
+      "type": "food",
+      "lat": 44.0595,
+      "lng": -121.3175,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-enr-drake-park-mirror-pond",
+      "city_id": "bend",
+      "neighborhood_id": "old-bend",
+      "name": {
+        "en": "Drake Park & Mirror Pond"
+      },
+      "description": {
+        "en": "The city's front yard and community hub, where the calm Deschutes River offers iconic reflections of charming homes and bridges."
+      },
+      "type": "nature",
+      "lat": 44.0585,
+      "lng": -121.3195,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-enr-tower-theatre",
+      "city_id": "bend",
+      "neighborhood_id": "old-bend",
+      "name": {
+        "en": "Tower Theatre"
+      },
+      "description": {
+        "en": "A beautifully restored 1940 Art Deco theater that serves as Bend's cultural anchor, with a glowing neon marquee that is a downtown landmark."
+      },
+      "type": "culture",
+      "lat": 44.0595,
+      "lng": -121.3145,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-enr-roundabout-art-route",
+      "city_id": "bend",
+      "neighborhood_id": "old-bend",
+      "name": {
+        "en": "Roundabout Art Route"
+      },
+      "description": {
+        "en": "An open-air gallery where traffic roundabouts have been turned into pedestals for public sculptures, best discovered by chance."
+      },
+      "type": "hidden_gem",
+      "lat": 44.0588,
+      "lng": -121.315,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-enr-o-kane-building",
+      "city_id": "bend",
+      "neighborhood_id": "old-bend",
+      "name": {
+        "en": "O'Kane Building"
+      },
+      "description": {
+        "en": "A prime example of Bend's early-20th-century boom, this 1916 building's distinctive clock and elegant architecture is a historical anchor."
+      },
+      "type": "landmark",
+      "lat": 44.058,
+      "lng": -121.314,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-enr-drake-park-neighborhood-historic-district",
+      "city_id": "bend",
+      "neighborhood_id": "river-west",
+      "name": {
+        "en": "Drake Park Neighborhood Historic District"
+      },
+      "description": {
+        "en": "A living museum of early Bend architecture, featuring a stunning collection of beautifully preserved Craftsman, Tudor, and Colonial Revival homes."
+      },
+      "type": "landmark",
+      "lat": 44.059,
+      "lng": -121.322,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-enr-george-p-putnam-house",
+      "city_id": "bend",
+      "neighborhood_id": "river-west",
+      "name": {
+        "en": "George P. Putnam House"
+      },
+      "description": {
+        "en": "The former home of publisher and mayor George P. Putnam, who later married Amelia Earhart, a frequent visitor to this house."
+      },
+      "type": "hidden_gem",
+      "lat": 44.0592,
+      "lng": -121.3215,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-enr-farewell-bend-park",
+      "city_id": "bend",
+      "neighborhood_id": "river-west",
+      "name": {
+        "en": "Farewell Bend Park"
+      },
+      "description": {
+        "en": "Named for the spot where pioneers last saw the river, this park offers a more rugged, natural riverfront experience with footbridges and dirt paths."
+      },
+      "type": "nature",
+      "lat": 44.047,
+      "lng": -121.321,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-enr-the-last-blockbuster",
+      "city_id": "bend",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "The Last Blockbuster"
+      },
+      "description": {
+        "en": "A living museum to a bygone era, this is the last operating Blockbuster video store on Earth, transporting visitors back to the 1990s."
+      },
+      "type": "hidden_gem",
+      "lat": 44.068,
+      "lng": -121.3,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-enr-pilot-butte-state-park",
+      "city_id": "bend",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "Pilot Butte State Park"
+      },
+      "description": {
+        "en": "A 500-foot-tall extinct volcano in the middle of the city, offering the single best panoramic view of Bend and the Cascade Range from its summit."
+      },
+      "type": "viewpoint",
+      "lat": 44.057,
+      "lng": -121.288,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-enr-bend-amateur-athletic-club-gymnasium",
+      "city_id": "bend",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "Bend Amateur Athletic Club Gymnasium"
+      },
+      "description": {
+        "en": "A piece of living history on the National Register of Historic Places, this unassuming brick gym tells a story of the town's early community spirit."
+      },
+      "type": "landmark",
+      "lat": 44.061,
+      "lng": -121.299,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-bend-task-1",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Historic Brick Selfie"
+      },
+      "prompt": {
+        "en": "Find a turn-of-the-century brick building and take a selfie that captures its historic texture and character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-2",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "River Reflection"
+      },
+      "prompt": {
+        "en": "Capture a photo of the downtown skyline or a historic bridge reflected in the waters of the Deschutes River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-3",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art (like a sculpture or mural) and take a creative photo interacting with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-4",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Mountain Town Moment"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the contrast between the bustling town and the distant Cascade mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-5",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Local Brew"
+      },
+      "prompt": {
+        "en": "Find a local cafe or brewery and take a photo of your drink with the unique atmosphere in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-6",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As dusk falls, capture the vibrant color of a neon sign reflecting on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-7",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Ponderosa Pine Scent"
+      },
+      "prompt": {
+        "en": "Find one of the iconic Ponderosa Pines in or around the neighborhood. Take a photo looking up its trunk into the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-8",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of community life happening in one of the neighborhood's public parks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-9",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Take a photo that juxtaposes a historic architectural detail with a modern element of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-10",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most interesting or quirky independent shop window display and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-11",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Explore a back street or alley and capture a photo of an interesting detail you wouldn't see from the main road."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "old-bend-task-12",
+      "neighborhood_id": "old-bend",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Take a 10-second video capturing the ambient sound of the downtown core - the river, people chatting, or distant music."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-1",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Craftsman Charm"
+      },
+      "prompt": {
+        "en": "Find a classic Craftsman-style bungalow and take a photo focusing on its most charming feature, like the porch pillars or unique windows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-2",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Leafy Canopy"
+      },
+      "prompt": {
+        "en": "Stand in the middle of a quiet, tree-lined street and take a photo looking up at the canopy of leaves overhead."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-3",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Historic Home Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a home that looks like it has a hundred years of stories to tell."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-4",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "A Moment of Tranquility"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the peaceful, quiet vibe of this residential neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-5",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Garden Discovery"
+      },
+      "prompt": {
+        "en": "Find a beautifully maintained front yard garden and take a close-up photo of the most interesting plant or flower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-6",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by the mature trees across a sidewalk or the side of a historic house."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-7",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on a unique architectural detail: an old doorknob, a stained-glass window, or intricate woodwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-8",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Wild Riverbank"
+      },
+      "prompt": {
+        "en": "Find a path along the 'wilder' side of the Deschutes and capture the contrast between the natural riverbank and the manicured lawns opposite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-9",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Footbridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from one of the small footbridges, looking either up or down the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-10",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "The Perfect Porch"
+      },
+      "prompt": {
+        "en": "Find a porch that looks like the perfect place to spend a lazy afternoon and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-11",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Neighborhood Watcher"
+      },
+      "prompt": {
+        "en": "Take a photo of a friendly cat, dog, or squirrel you encounter on your quiet stroll."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "river-west-task-12",
+      "neighborhood_id": "river-west",
+      "title": {
+        "en": "Lived-In History"
+      },
+      "prompt": {
+        "en": "Capture a detail that shows these historic houses are still lived-in and loved today, like a modern wind chime on an old porch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-1",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "90s Nostalgia"
+      },
+      "prompt": {
+        "en": "Find something that reminds you of the 1990s and take a photo of it. Be kind, rewind!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-2",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Volcano in the City"
+      },
+      "prompt": {
+        "en": "Frame a photo that shows the surprising sight of Pilot Butte, an extinct volcano, rising above the urban landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-3",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Panoramic Selfie"
+      },
+      "prompt": {
+        "en": "Find a high point and take a selfie with the vast high desert landscape or the Cascade Range stretching out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-4",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "High Desert Light"
+      },
+      "prompt": {
+        "en": "Capture the unique quality of the light on the East Side, known for being more sun-drenched and open."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-5",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Urban Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a contrast, like an old building next to a new one, or nature pushing through a commercial area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-6",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Wide Open Sky"
+      },
+      "prompt": {
+        "en": "Take a photo where the big, open sky takes up at least two-thirds of the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-7",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Quirky Landmark"
+      },
+      "prompt": {
+        "en": "Find a quirky or unusual sign, building, or landmark and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-8",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Shadows of the Butte"
+      },
+      "prompt": {
+        "en": "In the late afternoon, capture the long shadow of Pilot Butte stretching across the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-9",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "A Trip Back in Time"
+      },
+      "prompt": {
+        "en": "Photograph a car, building, or object that looks like it's from a different decade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-10",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Commercial Relic"
+      },
+      "prompt": {
+        "en": "This area is more commercial. Find an old, faded business sign or an interesting piece of commercial architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-11",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "The Sprawling City"
+      },
+      "prompt": {
+        "en": "From a distance, take a photo that captures the sprawling, spread-out nature of this side of town."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    },
+    {
+      "id": "east-side-task-12",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Taste of the East Side"
+      },
+      "prompt": {
+        "en": "Find a local eatery (diner, food truck, etc.) and photograph your food in a way that captures the neighborhood's less-polished, authentic vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:36:58.469443+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

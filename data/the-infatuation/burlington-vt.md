@@ -1,5 +1,19 @@
 # The Infatuation: Burlington, United States
 
+## City page (venue reviews)
+
+The Best Restaurants In & Around Burlington
+The Café Hot
+AMERICAN
+COFFEE
+DOWNTOWN
+May Day
+AMERICAN
+OLD NORTH END
+Taco Gordo
+MEXICAN
+OLD NORTH END
+
 EXCLUSIVE
 
 The First Timer’s Guide To Eating In Paris

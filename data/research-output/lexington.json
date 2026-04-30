@@ -1,0 +1,476 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-core",
+      "city_id": "lexington",
+      "name": {
+        "en": "Historic Downtown Core"
+      },
+      "summary": {
+        "en": "This is the stately heart of Lexington, where the city's foundational history is etched into the architecture. Walking here feels like moving through the pages of a history book, with grand 19th-century homes and manicured parks."
+      },
+      "lat": 38.0485,
+      "lng": -84.5012,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub",
+      "city_id": "lexington",
+      "name": {
+        "en": "Northside Industrial & Rec Hub"
+      },
+      "summary": {
+        "en": "Gritty, eclectic, and unapologetically authentic, the Northside is a fascinating mix of repurposed industrial spaces and legendary community sports venues. This is where you go to find the city’s weird streak and its deep-rooted local traditions."
+      },
+      "lat": 38.0565,
+      "lng": -84.507,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent",
+      "city_id": "lexington",
+      "name": {
+        "en": "Southside & Campus-Adjacent"
+      },
+      "summary": {
+        "en": "Leafy, relaxed, and creative, this district is heavily influenced by the nearby University of Kentucky. The energy is intellectual but laid-back, perfect for a slower-paced day of discovery."
+      },
+      "lat": 38.0375,
+      "lng": -84.5075,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-core-enr-hunt-morgan-house",
+      "city_id": "lexington",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Hunt-Morgan House"
+      },
+      "description": {
+        "en": "This 1814 mansion offers a stunning look into the lives of Lexington's elite, including the first millionaire west of the Appalachians and a Nobel Prize winner."
+      },
+      "type": "landmark",
+      "lat": 38.0505,
+      "lng": -84.5003,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-enr-mary-todd-lincoln-house",
+      "city_id": "lexington",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Mary Todd Lincoln House"
+      },
+      "description": {
+        "en": "The actual childhood home of the future First Lady, offering an intimate and personal connection to one of American history's most compelling figures."
+      },
+      "type": "landmark",
+      "lat": 38.0494,
+      "lng": -84.5083,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-enr-lexington-opera-house",
+      "city_id": "lexington",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Lexington Opera House"
+      },
+      "description": {
+        "en": "A beautifully restored Gilded Age theater whose ornate facade is a landmark of Lexington's cultural history, still hosting performances today."
+      },
+      "type": "culture",
+      "lat": 38.0493,
+      "lng": -84.5022,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-enr-triangle-park",
+      "city_id": "lexington",
+      "neighborhood_id": "historic-downtown-core",
+      "name": {
+        "en": "Triangle Park"
+      },
+      "description": {
+        "en": "Downtown's modern oasis, a triangular patch of green with cascading water features that serves as a central gathering spot to watch the city flow by."
+      },
+      "type": "nature",
+      "lat": 38.0482,
+      "lng": -84.5015,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-enr-kentucky-for-kentucky-fun-mall-home-of-pablo-eskobear",
+      "city_id": "lexington",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "name": {
+        "en": "Kentucky for Kentucky Fun Mall (Home of Pablo Eskobear)"
+      },
+      "description": {
+        "en": "The crown jewel of Lexington oddities, home to the taxidermied remains of the legendary 'Cocaine Bear,' a truly unique pilgrimage."
+      },
+      "type": "hidden_gem",
+      "lat": 38.0592,
+      "lng": -84.4965,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-enr-douglass-park",
+      "city_id": "lexington",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "name": {
+        "en": "Douglass Park"
+      },
+      "description": {
+        "en": "Home to the 'Dirt Bowl,' a legendary summer basketball tournament with deep community roots that was once covered by Sports Illustrated."
+      },
+      "type": "landmark",
+      "lat": 38.057,
+      "lng": -84.5095,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-enr-lexington-cemetery",
+      "city_id": "lexington",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "name": {
+        "en": "Lexington Cemetery"
+      },
+      "description": {
+        "en": "More than a cemetery, this is a beautifully landscaped arboretum and garden known for its stunning tulip displays in the spring among historic headstones."
+      },
+      "type": "nature",
+      "lat": 38.0538,
+      "lng": -84.5143,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-enr-coolavin-park",
+      "city_id": "lexington",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "name": {
+        "en": "Coolavin Park"
+      },
+      "description": {
+        "en": "An unassuming park that is a global hub for hardcourt bike polo, having hosted both North American and World Championships on its courts."
+      },
+      "type": "hidden_gem",
+      "lat": 38.0575,
+      "lng": -84.5065,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-enr-university-of-kentucky-art-museum",
+      "city_id": "lexington",
+      "neighborhood_id": "southside-campus-adjacent",
+      "name": {
+        "en": "University of Kentucky Art Museum"
+      },
+      "description": {
+        "en": "The premier art museum for the region, it boasts an impressive collection of over 4,000 objects, from Old Masters to contemporary works."
+      },
+      "type": "culture",
+      "lat": 38.0368,
+      "lng": -84.5098,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-enr-woodland-park-skate-park",
+      "city_id": "lexington",
+      "neighborhood_id": "southside-campus-adjacent",
+      "name": {
+        "en": "Woodland Park Skate Park"
+      },
+      "description": {
+        "en": "A 12,000-square-foot concrete landscape that is a hub of kinetic energy and youth culture, perfect for watching incredible displays of skill."
+      },
+      "type": "landmark",
+      "lat": 38.0408,
+      "lng": -84.496,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-core-task-1",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Architectural Time Capsule"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking building on the block and capture a detail that speaks to its history, like a worn brick, a fancy cornice, or a unique window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-task-2",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Take a photo that captures a historic building and a modern element (like a scooter, a new car, or a glass building) in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-task-3",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Civic Pride Symbol"
+      },
+      "prompt": {
+        "en": "Find a symbol of the city—a flag, a public statue, or a government building—and take a powerful photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-task-4",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Historic Marker Hunter"
+      },
+      "prompt": {
+        "en": "Locate a historical marker or plaque on a building or street corner. Take a picture and share the most interesting fact you learned."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-task-5",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Manicured Nature"
+      },
+      "prompt": {
+        "en": "Photograph a perfectly manicured garden, park, or planter box that contrasts with the surrounding brick and stone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "historic-downtown-core-task-6",
+      "neighborhood_id": "historic-downtown-core",
+      "title": {
+        "en": "Stately Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the grandest, most impressive building you can find, striking a suitably historic pose."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-task-1",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "title": {
+        "en": "Gritty Textures"
+      },
+      "prompt": {
+        "en": "Find an interesting industrial texture—like peeling paint, rusted metal, or rough concrete—and take a close-up, abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-task-2",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "title": {
+        "en": "Repurposed Relic"
+      },
+      "prompt": {
+        "en": "Spot a building that has clearly been repurposed from its original industrial use. Capture a detail that hints at its past and present life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-task-3",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "title": {
+        "en": "The Weirdest Thing"
+      },
+      "prompt": {
+        "en": "Photograph the most wonderfully weird or out-of-place object you can find in the neighborhood. The stranger, the better."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-task-4",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "title": {
+        "en": "Community Sports Story"
+      },
+      "prompt": {
+        "en": "Find evidence of local sports—a faded mural, a well-worn basketball hoop, a sticker for a local team—and capture its story in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-task-5",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "title": {
+        "en": "Nature Finds a Way"
+      },
+      "prompt": {
+        "en": "Take a picture of a plant, flower, or tree growing in an unexpected industrial place, like a crack in the pavement or up a brick wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "northside-industrial-rec-hub-task-6",
+      "neighborhood_id": "northside-industrial-rec-hub",
+      "title": {
+        "en": "Authentic Northside Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a backdrop that screams 'authentic Northside'—think old brick, a chain-link fence, or a quirky storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-task-1",
+      "neighborhood_id": "southside-campus-adjacent",
+      "title": {
+        "en": "Signs of Student Life"
+      },
+      "prompt": {
+        "en": "Capture a photo of something that clearly represents student life: a flyer for a campus event, a stack of textbooks seen through a window, or a well-used bike rack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-task-2",
+      "neighborhood_id": "southside-campus-adjacent",
+      "title": {
+        "en": "Leafy Hideaway"
+      },
+      "prompt": {
+        "en": "Find a quiet, leafy spot—a hidden garden, a bench under a big tree, or a vine-covered wall—and take a photo that captures its peaceful vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-task-3",
+      "neighborhood_id": "southside-campus-adjacent",
+      "title": {
+        "en": "Intellectual Energy"
+      },
+      "prompt": {
+        "en": "Take a picture that represents the intellectual or creative energy of the area. This could be public art, an interesting bookstore, or a thought-provoking sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-task-4",
+      "neighborhood_id": "southside-campus-adjacent",
+      "title": {
+        "en": "Cozy Cafe Shot"
+      },
+      "prompt": {
+        "en": "Find a local cafe or eatery and take an inviting photo of its exterior, focusing on what makes it look like a great place to relax."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-task-5",
+      "neighborhood_id": "southside-campus-adjacent",
+      "title": {
+        "en": "Creative Expression"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art, graffiti, or a unique architectural detail that shows off the neighborhood's creative side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    },
+    {
+      "id": "southside-campus-adjacent-task-6",
+      "neighborhood_id": "southside-campus-adjacent",
+      "title": {
+        "en": "Relaxed Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you embracing the laid-back vibe of the neighborhood. Find a chill spot and capture your moment of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:28:14.232652+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

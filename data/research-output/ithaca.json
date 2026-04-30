@@ -1,0 +1,463 @@
+{
+  "neighborhoods": [
+    {
+      "id": "central-district",
+      "city_id": "ithaca",
+      "name": {
+        "en": "Central District: Downtown & The Commons"
+      },
+      "summary": {
+        "en": "The city's living room, centered around a pedestrian mall, with a unique atmosphere blending Ivy League ambition and earthy counter-culture. It's a dense hub of 19th-century architecture, independent businesses, and public art."
+      },
+      "lat": 42.4406,
+      "lng": -76.4991,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "central-district-enr-gimme-coffee",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Gimme! Coffee"
+      },
+      "description": {
+        "en": "A true Ithaca institution woven into the daily fabric of local life, serving as a community third space with expertly crafted coffee in a bustling, unpretentious environment."
+      },
+      "type": "drink",
+      "lat": 42.4395,
+      "lng": -76.4969,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-asia-cuisine",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Asia Cuisine"
+      },
+      "description": {
+        "en": "A trusted local go-to for consistently good food without the hype. This is a perfect stop for an authentic taste of a local's routine, not a trendy scene."
+      },
+      "type": "food",
+      "lat": 42.4398,
+      "lng": -76.5005,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-ithaca-diner",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Ithaca Diner"
+      },
+      "description": {
+        "en": "A classic American diner and cultural landmark, offering a no-frills spot for hearty, straightforward food and a glimpse into a timeless piece of Americana."
+      },
+      "type": "food",
+      "lat": 42.4425,
+      "lng": -76.496,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-sagan-planet-walk",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Sagan Planet Walk"
+      },
+      "description": {
+        "en": "A walkable, true-to-scale model of the solar system that provides a profound and humbling perspective on our place in the universe, disguised as a simple city walk."
+      },
+      "type": "hidden_gem",
+      "lat": 42.4406,
+      "lng": -76.4991,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-ithaca-falls",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Ithaca Falls"
+      },
+      "description": {
+        "en": "A genuinely startling and powerful 150-foot-tall waterfall just a short walk from the city center, offering a dramatic contrast between the built environment and wild nature."
+      },
+      "type": "nature",
+      "lat": 42.4515,
+      "lng": -76.4955,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-namgyal-monastery",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Namgyal Monastery"
+      },
+      "description": {
+        "en": "The North American seat of the Dalai Lama's personal monastery, this is a serene and unexpected pocket of Tibetan culture offering a genuine cultural experience far from the usual tourist trail."
+      },
+      "type": "hidden_gem",
+      "lat": 42.4295,
+      "lng": -76.4935,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-kitchen-theatre-company",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Kitchen Theatre Company"
+      },
+      "description": {
+        "en": "A professional theater dedicated to producing bold, intimate, and thought-provoking contemporary plays, representing the creative, intellectual soul of the city."
+      },
+      "type": "culture",
+      "lat": 42.4393,
+      "lng": -76.505,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-ruins-of-the-old-mills",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Ruins of the Old Mills"
+      },
+      "description": {
+        "en": "Remnants of Ithaca's industrial past, these ruins near Ithaca Falls were once powered by the waterfall and offer a glimpse into the city's history."
+      },
+      "type": "landmark",
+      "lat": 42.451,
+      "lng": -76.495,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-downtown-public-art",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Downtown Public Art"
+      },
+      "description": {
+        "en": "The downtown area is dense with public art, from murals to sculptures, reflecting the city's creative and independent spirit."
+      },
+      "type": "culture",
+      "lat": 42.4402,
+      "lng": -76.4985,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-fall-creek",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Fall Creek"
+      },
+      "description": {
+        "en": "The creek that feeds the spectacular Ithaca Falls, offering scenic views from the bridge and showcasing the powerful gorge country for which the region is famous."
+      },
+      "type": "nature",
+      "lat": 42.4505,
+      "lng": -76.4945,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-enr-historic-19th-century-buildings",
+      "city_id": "ithaca",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Historic 19th-Century Buildings"
+      },
+      "description": {
+        "en": "The downtown district is filled with well-preserved 19th-century architecture, giving the area a distinct character and a tangible connection to its past."
+      },
+      "type": "landmark",
+      "lat": 42.44,
+      "lng": -76.4978,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "central-district-task-1",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Urban Nature"
+      },
+      "prompt": {
+        "en": "Find a place where nature is reclaiming the urban environment—a plant growing through a crack in the pavement, ivy on a brick wall—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-2",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a reflection of an old building in the window of a new one, capturing the city's past and present in one frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-3",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Street Art Story"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or graffiti and take a photo that tells a story about it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-4",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of shadows cast by a building, a tree, or a person on the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-5",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Take a photo of a unique or vintage-looking sign for a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-6",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Local's Perspective"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the blend of student life and local community vibe in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-7",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "My Ithaca Moment"
+      },
+      "prompt": {
+        "en": "Find a spot that feels uniquely 'Ithaca' to you and take a selfie there, showing your reaction to the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-8",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque on a building and take a photo of it. What did you learn?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-9",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Community Pulse"
+      },
+      "prompt": {
+        "en": "Photograph a community notice board or a flyer for a local event. What's happening in town?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-10",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Secret Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a quiet alley or side street off the main path and capture its hidden character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-11",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on the upper floor of a building that most people would walk past without noticing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-12",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "The Sound of the City"
+      },
+      "prompt": {
+        "en": "Find a scene that represents the sound of the city—a street musician, people chatting at a cafe, birds in a park—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-13",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Intellectual Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the intellectual spirit of the town—a bookstore, students studying, or a flyer for a lecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-14",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Counter-Culture Vibe"
+      },
+      "prompt": {
+        "en": "Photograph something that represents Ithaca's independent, counter-culture spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-15",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Fuel for the Walk"
+      },
+      "prompt": {
+        "en": "Take a top-down 'flat lay' photo of your coffee, snack, or meal from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-16",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Taste of Local"
+      },
+      "prompt": {
+        "en": "Find a food item or menu that mentions a local farm or ingredient and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-17",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Sweet Stop"
+      },
+      "prompt": {
+        "en": "Capture a photo of a tempting treat in a bakery or cafe window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    },
+    {
+      "id": "central-district-task-18",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Curb-side Cuisine"
+      },
+      "prompt": {
+        "en": "Photograph a food truck or an interesting outdoor dining setup."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:54:46.437150+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

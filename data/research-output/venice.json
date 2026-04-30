@@ -1,0 +1,2056 @@
+{
+  "neighborhoods": [
+    {
+      "id": "cannaregio",
+      "city_id": "venice",
+      "name": {
+        "en": "Cannaregio"
+      },
+      "summary": {
+        "en": "This is where many Venetians actually live, a neighborhood of quiet canals, laundry lines strung between buildings, and the lively hum of local life."
+      },
+      "lat": 45.4445,
+      "lng": 12.328,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro",
+      "city_id": "venice",
+      "name": {
+        "en": "Dorsoduro"
+      },
+      "summary": {
+        "en": "The soul of artistic and academic Venice, home to universities and museums, giving it a youthful, bohemian energy with cool galleries and bookshops."
+      },
+      "lat": 45.432,
+      "lng": 12.325,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo",
+      "city_id": "venice",
+      "name": {
+        "en": "San Polo"
+      },
+      "summary": {
+        "en": "The historic commercial heart of Venice, centered around the Rialto Market. It’s a dense, chaotic, and thrilling maze of streets where you can feel the city’s mercantile past."
+      },
+      "lat": 45.438,
+      "lng": 12.331,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello",
+      "city_id": "venice",
+      "name": {
+        "en": "Castello"
+      },
+      "summary": {
+        "en": "The largest and most varied sestiere, becoming more authentic and peaceful the further east you walk. It's a neighborhood of public gardens, the monumental Arsenale, and everyday Venetian life."
+      },
+      "lat": 45.436,
+      "lng": 12.347,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco",
+      "city_id": "venice",
+      "name": {
+        "en": "San Marco"
+      },
+      "summary": {
+        "en": "While home to the main tourist attractions, the challenge is to navigate away from the main arteries to find silent courtyards, architectural oddities, and local-approved refuges just feet from the chaos."
+      },
+      "lat": 45.434,
+      "lng": 12.335,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano",
+      "city_id": "venice",
+      "name": {
+        "en": "Burano"
+      },
+      "summary": {
+        "en": "A fisherman's island that is a kaleidoscope of color, where every house is painted a different, shockingly bright hue. It's a place for whimsical wandering and enjoying a slower, island atmosphere."
+      },
+      "lat": 45.4855,
+      "lng": 12.4165,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "cannaregio-enr-vino-vero",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Vino Vero"
+      },
+      "description": {
+        "en": "A celebrated natural wine bar, or bacaro, with an exceptional selection of wines and creative cicchetti. Grab a glass and a seat on the canal's edge."
+      },
+      "type": "drink",
+      "lat": 45.4435,
+      "lng": 12.3298,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-enr-bea-vita",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Bea Vita"
+      },
+      "description": {
+        "en": "From the team behind Vino Vero, this spot offers a spirited and welcoming atmosphere focused on natural wines and simple, delicious food."
+      },
+      "type": "drink",
+      "lat": 45.4455,
+      "lng": 12.3255,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-enr-ca-d-oro-alla-vedova",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Cà D'Oro alla Vedova"
+      },
+      "description": {
+        "en": "A tiny, quintessential trattoria famous for its legendary polpette (fried meatballs). It’s a cozy, no-frills institution that’s often packed."
+      },
+      "type": "food",
+      "lat": 45.4411,
+      "lng": 12.3341,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-enr-osteria-giorgione-da-masa",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Osteria Giorgione Da Masa"
+      },
+      "description": {
+        "en": "A high-quality Japanese restaurant praised by locals for its fresh seafood preparations, offering a break from Venetian cuisine."
+      },
+      "type": "food",
+      "lat": 45.4415,
+      "lng": 12.3361,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-enr-gam-gam",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Gam Gam"
+      },
+      "description": {
+        "en": "Located at the entrance to the Jewish Ghetto, this beloved kosher restaurant serves vibrant, flavorful Middle Eastern and Mediterranean dishes."
+      },
+      "type": "food",
+      "lat": 45.4438,
+      "lng": 12.3225,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-enr-jewish-ghetto-ghetto-ebraico",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Jewish Ghetto (Ghetto Ebraico)"
+      },
+      "description": {
+        "en": "The world's first ghetto, established in 1516. It's a deeply atmospheric area of quiet campi, historic synagogues, and tall 'skyscraper' buildings."
+      },
+      "type": "landmark",
+      "lat": 45.4445,
+      "lng": 12.3245,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-enr-ponte-chiodo",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Ponte Chiodo"
+      },
+      "description": {
+        "en": "One of only two remaining public bridges in Venice without a parapet, offering a glimpse into what the city's bridges once looked like."
+      },
+      "type": "hidden_gem",
+      "lat": 45.4431,
+      "lng": 12.3305,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-enr-chiesa-della-madonna-dell-orto",
+      "city_id": "venice",
+      "neighborhood_id": "cannaregio",
+      "name": {
+        "en": "Chiesa della Madonna dell'Orto"
+      },
+      "description": {
+        "en": "A stunning Gothic church that acts as a mini-museum for the artist Tintoretto, who is buried here. It’s peaceful and far less crowded than other churches."
+      },
+      "type": "culture",
+      "lat": 45.4468,
+      "lng": 12.3315,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-enr-gelateria-nico",
+      "city_id": "venice",
+      "neighborhood_id": "dorsoduro",
+      "name": {
+        "en": "Gelateria Nico"
+      },
+      "description": {
+        "en": "An iconic gelateria whose signature is the Gianduiotto. Sit at a table on their floating terrace to enjoy the view of the Giudecca Canal."
+      },
+      "type": "food",
+      "lat": 45.4296,
+      "lng": 12.3282,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-enr-ai-artisti",
+      "city_id": "venice",
+      "neighborhood_id": "dorsoduro",
+      "name": {
+        "en": "Ai Artisti"
+      },
+      "description": {
+        "en": "A small, intimate osteria with a creative, market-driven menu that feels more like a modern bistro than a traditional trattoria."
+      },
+      "type": "food",
+      "lat": 45.4325,
+      "lng": 12.3265,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-enr-ai-cugnai-dal-1911",
+      "city_id": "venice",
+      "neighborhood_id": "dorsoduro",
+      "name": {
+        "en": "Ai Cugnai Dal 1911"
+      },
+      "description": {
+        "en": "An 'unchanged trattoria' that has been serving classic Venetian fare for over a century, known for its excellent seafood pastas."
+      },
+      "type": "food",
+      "lat": 45.4316,
+      "lng": 12.3283,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-enr-squero-di-san-trovaso",
+      "city_id": "venice",
+      "neighborhood_id": "dorsoduro",
+      "name": {
+        "en": "Squero di San Trovaso"
+      },
+      "description": {
+        "en": "One of Venice's last remaining gondola boatyards. Watch artisans meticulously build and repair the iconic boats from across the canal."
+      },
+      "type": "landmark",
+      "lat": 45.43,
+      "lng": 12.327,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-enr-ponte-dei-pugni-bridge-of-fists",
+      "city_id": "venice",
+      "neighborhood_id": "dorsoduro",
+      "name": {
+        "en": "Ponte dei Pugni (Bridge of Fists)"
+      },
+      "description": {
+        "en": "This bridge was once the site of organized brawls between rival clans; look for the marble footprints marking the fighters' starting positions."
+      },
+      "type": "hidden_gem",
+      "lat": 45.432,
+      "lng": 12.3248,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-enr-ca-macana",
+      "city_id": "venice",
+      "neighborhood_id": "dorsoduro",
+      "name": {
+        "en": "Ca' Macana"
+      },
+      "description": {
+        "en": "A world-renowned artisan workshop for traditional Venetian masks where you can watch artists at work and purchase an authentic, handcrafted piece."
+      },
+      "type": "culture",
+      "lat": 45.4328,
+      "lng": 12.324,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-enr-fondamenta-zattere",
+      "city_id": "venice",
+      "neighborhood_id": "dorsoduro",
+      "name": {
+        "en": "Fondamenta Zattere"
+      },
+      "description": {
+        "en": "A long, wide, and sunny promenade along the Giudecca Canal, perfect for a sunset stroll with expansive views."
+      },
+      "type": "viewpoint",
+      "lat": 45.4299,
+      "lng": 12.329,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-enr-naranzaria",
+      "city_id": "venice",
+      "neighborhood_id": "san-polo",
+      "name": {
+        "en": "Naranzaria"
+      },
+      "description": {
+        "en": "Located right next to the Rialto Market, this is the perfect spot to soak in the atmosphere with meat-heavy cicchetti and an excellent wine list."
+      },
+      "type": "drink",
+      "lat": 45.4385,
+      "lng": 12.335,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-enr-antiche-carampane",
+      "city_id": "venice",
+      "neighborhood_id": "san-polo",
+      "name": {
+        "en": "Antiche Carampane"
+      },
+      "description": {
+        "en": "A historic seafood restaurant tucked deep in the sestiere, beloved by Venetians for its fresh, traditional dishes."
+      },
+      "type": "food",
+      "lat": 45.4388,
+      "lng": 12.331,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-enr-birraria-la-corte",
+      "city_id": "venice",
+      "neighborhood_id": "san-polo",
+      "name": {
+        "en": "Birraria La Corte"
+      },
+      "description": {
+        "en": "A sure bet for fantastic Neapolitan-style pizza, a rarity in Venice, set in a huge, open campo."
+      },
+      "type": "food",
+      "lat": 45.437,
+      "lng": 12.3288,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-enr-farini-venezia",
+      "city_id": "venice",
+      "neighborhood_id": "san-polo",
+      "name": {
+        "en": "Farini Venezia"
+      },
+      "description": {
+        "en": "The place for a quick, delicious, and affordable bite of Roman-style pizza al taglio (pizza by the slice)."
+      },
+      "type": "food",
+      "lat": 45.4375,
+      "lng": 12.3305,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-enr-tomb-of-antonio-canova",
+      "city_id": "venice",
+      "neighborhood_id": "san-polo",
+      "name": {
+        "en": "Tomb of Antonio Canova"
+      },
+      "description": {
+        "en": "Inside the Basilica S. Maria Gloriosa dei Frari is a bizarre pyramid-shaped tomb that holds only the sculptor's heart."
+      },
+      "type": "hidden_gem",
+      "lat": 45.4368,
+      "lng": 12.3265,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-enr-ponte-delle-tette-bridge-of-breasts",
+      "city_id": "venice",
+      "neighborhood_id": "san-polo",
+      "name": {
+        "en": "Ponte delle Tette (Bridge of Breasts)"
+      },
+      "description": {
+        "en": "This small bridge marks the heart of what was once the city's official red-light district."
+      },
+      "type": "landmark",
+      "lat": 45.439,
+      "lng": 12.332,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-enr-rialto-market-mercato-di-rialto",
+      "city_id": "venice",
+      "neighborhood_id": "san-polo",
+      "name": {
+        "en": "Rialto Market (Mercato di Rialto)"
+      },
+      "description": {
+        "en": "A feast for the senses. Arrive in the morning to see the Pescaria (fish market) and colorful Erbaria (fruit and vegetable market) in full swing."
+      },
+      "type": "shopping",
+      "lat": 45.439,
+      "lng": 12.3345,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-enr-aciugheta",
+      "city_id": "venice",
+      "neighborhood_id": "castello",
+      "name": {
+        "en": "Aciugheta"
+      },
+      "description": {
+        "en": "Located just a stone's throw from St. Mark's, this spot serves great cicchetti and wine, an ideal first stop before exploring quieter parts of Castello."
+      },
+      "type": "drink",
+      "lat": 45.435,
+      "lng": 12.342,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-enr-nevodi",
+      "city_id": "venice",
+      "neighborhood_id": "castello",
+      "name": {
+        "en": "Nevodi"
+      },
+      "description": {
+        "en": "A small, popular osteria on Via Garibaldi serving traditional Venetian recipes with a modern touch, focusing on fresh, local seafood."
+      },
+      "type": "food",
+      "lat": 45.434,
+      "lng": 12.353,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-enr-trattoria-al-vecio-portal",
+      "city_id": "venice",
+      "neighborhood_id": "castello",
+      "name": {
+        "en": "Trattoria Al Vecio Portal"
+      },
+      "description": {
+        "en": "For a change of pace, this restaurant offers top-notch Sicilian food, bringing the bright, bold flavors of the south to Venice."
+      },
+      "type": "food",
+      "lat": 45.4365,
+      "lng": 12.3445,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-enr-libreria-acqua-alta",
+      "city_id": "venice",
+      "neighborhood_id": "castello",
+      "name": {
+        "en": "Libreria Acqua Alta"
+      },
+      "description": {
+        "en": "A wonderfully eccentric bookstore where books are kept safe from floods in bathtubs, canoes, and even a full-sized gondola."
+      },
+      "type": "culture",
+      "lat": 45.4375,
+      "lng": 12.3415,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-enr-the-flooded-crypt-of-san-zaccaria",
+      "city_id": "venice",
+      "neighborhood_id": "castello",
+      "name": {
+        "en": "The Flooded Crypt of San Zaccaria"
+      },
+      "description": {
+        "en": "A true hidden gem where you can see an ancient crypt's columns and vaulted ceilings permanently and beautifully flooded with clear canal water."
+      },
+      "type": "hidden_gem",
+      "lat": 45.4345,
+      "lng": 12.3425,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-enr-arsenale-di-venezia",
+      "city_id": "venice",
+      "neighborhood_id": "castello",
+      "name": {
+        "en": "Arsenale di Venezia"
+      },
+      "description": {
+        "en": "The historic heart of Venice's naval power. Admire the magnificent land gate, the Porta Magna, flanked by four stone lions from Greece."
+      },
+      "type": "landmark",
+      "lat": 45.4355,
+      "lng": 12.351,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-enr-via-garibaldi",
+      "city_id": "venice",
+      "neighborhood_id": "castello",
+      "name": {
+        "en": "Via Garibaldi"
+      },
+      "description": {
+        "en": "A unique, wide-open street filled with local bakeries, shops, and bars where you can see a slice of normal neighborhood life."
+      },
+      "type": "landmark",
+      "lat": 45.4335,
+      "lng": 12.354,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-enr-ai-do-leoni",
+      "city_id": "venice",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Ai Do Leoni"
+      },
+      "description": {
+        "en": "A sophisticated oasis for a quiet break, this recently revamped spot serves top-notch cicchetti and a curated list of interesting wines."
+      },
+      "type": "drink",
+      "lat": 45.436,
+      "lng": 12.3385,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-enr-ai-assassini",
+      "city_id": "venice",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Ai Assassini"
+      },
+      "description": {
+        "en": "A reliable, traditional choice for an excellent Venetian meal, and one of the few exceptions to the overpriced food that plagues the area."
+      },
+      "type": "food",
+      "lat": 45.435,
+      "lng": 12.3315,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-enr-rosticceria-gislon",
+      "city_id": "venice",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Rosticceria Gislon"
+      },
+      "description": {
+        "en": "A local institution for a quick, standing-room-only lunch. The mozzarella in carrozza (fried cheese sandwich) is legendary."
+      },
+      "type": "food",
+      "lat": 45.4378,
+      "lng": 12.3365,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-enr-scala-contarini-del-bovolo",
+      "city_id": "venice",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Scala Contarini del Bovolo"
+      },
+      "description": {
+        "en": "A breathtaking, multi-arch spiral staircase hidden in a tiny courtyard. Climb to the top for a stunning, panoramic view over the rooftops."
+      },
+      "type": "viewpoint",
+      "lat": 45.4355,
+      "lng": 12.3335,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-enr-st-mark-s-clock-tower-torre-dell-orologio",
+      "city_id": "venice",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "St. Mark's Clock Tower (Torre dell'Orologio)"
+      },
+      "description": {
+        "en": "A pre-booked tour takes you behind the famous clock face to see the incredible 500-year-old machinery and the two bronze 'Moors' who strike the bell."
+      },
+      "type": "culture",
+      "lat": 45.4346,
+      "lng": 12.3387,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-enr-teatro-la-fenice",
+      "city_id": "venice",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Teatro La Fenice"
+      },
+      "description": {
+        "en": "Venice's glorious opera house, which has risen from the ashes three times. Take an audio tour to experience the stunning, gilded interior."
+      },
+      "type": "culture",
+      "lat": 45.4338,
+      "lng": 12.333,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-enr-calle-varisco",
+      "city_id": "venice",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Calle Varisco"
+      },
+      "description": {
+        "en": "Hunt for what is often claimed to be the narrowest street in Venice, at just 53cm (21 inches) wide at chest level."
+      },
+      "type": "hidden_gem",
+      "lat": 45.4405,
+      "lng": 12.336,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-enr-trattoria-da-romano",
+      "city_id": "venice",
+      "neighborhood_id": "burano",
+      "name": {
+        "en": "Trattoria da Romano"
+      },
+      "description": {
+        "en": "An island institution famous for its seafood, especially the risotto di gò, a creamy risotto made with tiny goby fish from the lagoon."
+      },
+      "type": "food",
+      "lat": 45.4855,
+      "lng": 12.4165,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-enr-a-quintessential-burano-bar",
+      "city_id": "venice",
+      "neighborhood_id": "burano",
+      "name": {
+        "en": "A Quintessential Burano Bar"
+      },
+      "description": {
+        "en": "Part of Burano's charm is its simplicity. Duck into any small, unnamed bar on a side canal and order a bright orange Aperol Spritz."
+      },
+      "type": "drink",
+      "lat": 45.4853,
+      "lng": 12.417,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-enr-casa-di-bepi-sua-bepi-s-house",
+      "city_id": "venice",
+      "neighborhood_id": "burano",
+      "name": {
+        "en": "Casa di Bepi Suà (Bepi's House)"
+      },
+      "description": {
+        "en": "Find the most colorful house on the island, painted by a local man with vibrant geometric patterns, now a beloved landmark."
+      },
+      "type": "landmark",
+      "lat": 45.485,
+      "lng": 12.418,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-enr-museo-del-merletto-lace-museum",
+      "city_id": "venice",
+      "neighborhood_id": "burano",
+      "name": {
+        "en": "Museo del Merletto (Lace Museum)"
+      },
+      "description": {
+        "en": "Discover Burano's other famous tradition: intricate, handmade lace. This small museum showcases the incredible artistry of this delicate craft."
+      },
+      "type": "culture",
+      "lat": 45.4858,
+      "lng": 12.416,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-enr-ponte-dell-amore",
+      "city_id": "venice",
+      "neighborhood_id": "burano",
+      "name": {
+        "en": "Ponte dell'Amore"
+      },
+      "description": {
+        "en": "A small wooden bridge that offers one of the most iconic photo opportunities on the island, with a perfect view down a canal lined with colorful houses."
+      },
+      "type": "viewpoint",
+      "lat": 45.486,
+      "lng": 12.4175,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "cannaregio-task-1",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Local Life Snapshot"
+      },
+      "prompt": {
+        "en": "Find a string of laundry hanging between two buildings and take a photo that captures this authentic slice of Venetian life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-2",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Quiet Canal"
+      },
+      "prompt": {
+        "en": "Venture off the main path to find a small, silent canal with no other people. Capture the peacefulness in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-3",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Cicchetti Challenge"
+      },
+      "prompt": {
+        "en": "Order a cicchetto you've never tried before from a local bacaro. Take a picture of your adventurous snack!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-4",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "In the Jewish Ghetto, find a detail that speaks to its history—an old inscription, a worn stone, or a unique window. Photograph it up close."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-5",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo of a bridge from a low angle, looking up, to make it seem monumental."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-6",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Venetian Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a local resident in the background (respectfully, of course!) going about their day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-7",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Crumbling Beauty"
+      },
+      "prompt": {
+        "en": "Find a wall with peeling plaster that reveals layers of color and history. Capture the texture in a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-8",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Sounds of the Sestiere"
+      },
+      "prompt": {
+        "en": "Record a 10-second audio clip of the neighborhood's ambient sounds: distant chatter, water lapping, footsteps."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-9",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Doorway to Another Time"
+      },
+      "prompt": {
+        "en": "Photograph an interesting or ancient-looking doorway. What stories could it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-10",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Canal-side Cheers"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink resting on the edge of a fondamenta (canal-side walkway)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-11",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture a photo of the long shadows cast in a narrow alleyway in the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-12",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Find a Cat"
+      },
+      "prompt": {
+        "en": "Venice is full of cats. Find one lounging in a quiet corner and take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-13",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Local Shopfront"
+      },
+      "prompt": {
+        "en": "Photograph the charming, non-touristy storefront of a local artisan, baker, or grocer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-14",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Water-Level View"
+      },
+      "prompt": {
+        "en": "Get as low as you can and take a photo from the water's perspective, looking up at the buildings lining a canal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "cannaregio-task-15",
+      "neighborhood_id": "cannaregio",
+      "title": {
+        "en": "Hidden Courtyard"
+      },
+      "prompt": {
+        "en": "Peek through an open gate or archway and capture a photo of a secret courtyard or garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-1",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Artistic Detail"
+      },
+      "prompt": {
+        "en": "Find a piece of street art, a unique sculpture, or an interesting gallery window and capture its creative spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-2",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Bohemian Vibe Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie near a university building or a bookshop, capturing the neighborhood's academic and bohemian energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-3",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Gondola in the Making"
+      },
+      "prompt": {
+        "en": "From a distance, find a view of a gondola workshop (squero) and photograph the traditional craft in action."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-4",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Sunny Zattere Stroll"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the wide, sunny expanse of the Zattere promenade and the view across the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-5",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Buy a scoop of gelato and take a picture of it with a scenic Dorsoduro backdrop before it melts!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-6",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Masked Marvel"
+      },
+      "prompt": {
+        "en": "Photograph an elaborate, handcrafted Venetian mask in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-7",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Bridge with a Story"
+      },
+      "prompt": {
+        "en": "Find a small, unassuming bridge and take a photo. Imagine the centuries of footsteps that have crossed it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-8",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Reflections of Art"
+      },
+      "prompt": {
+        "en": "Find a building's reflection in a canal and capture the painterly, slightly distorted image."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-9",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Literary Corner"
+      },
+      "prompt": {
+        "en": "Take a photo of a cozy-looking bookshop or a person reading by a canal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-10",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Palazzo Grandeur"
+      },
+      "prompt": {
+        "en": "Capture the impressive facade of one of the grand palazzi that line the canals in this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-11",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Student Life"
+      },
+      "prompt": {
+        "en": "Photograph a scene that represents the university presence, like a group of students chatting in a campo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-12",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Secret Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Many Venetian buildings hide lush gardens. Find a glimpse of green behind a wall or gate and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-13",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "The Perfect Corner"
+      },
+      "prompt": {
+        "en": "Find a picturesque corner where two small canals meet and capture the composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-14",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Modern vs. Ancient"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a contrast between modern art or design and the ancient architecture of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "dorsoduro-task-15",
+      "neighborhood_id": "dorsoduro",
+      "title": {
+        "en": "Sunset on the Water"
+      },
+      "prompt": {
+        "en": "From the Zattere, capture the colors of the sunset reflecting on the Giudecca Canal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-1",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Market Mayhem"
+      },
+      "prompt": {
+        "en": "Capture the chaotic, vibrant energy of the Rialto Market area. Focus on the crowds, the vendors, and the colors."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-2",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "A Merchant's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the bustling Rialto Bridge or market in the background, looking like a historic merchant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-3",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Foodie's Find"
+      },
+      "prompt": {
+        "en": "Photograph the most colorful fruit or vegetable stall you can find in the Erbaria."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-4",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Pizza Pose"
+      },
+      "prompt": {
+        "en": "Grab a slice of pizza al taglio and take a triumphant photo of it before you take a bite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-5",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Ancient Stones"
+      },
+      "prompt": {
+        "en": "Find a well-worn stone step or paving slab in a quiet campo and take a photo, focusing on its texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-6",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Gothic Giant"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the massive scale of the Basilica S. Maria Gloriosa dei Frari from the outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-7",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Duck into a narrow, maze-like alley and take a photo looking towards the light at the end."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-8",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Commercial Hub"
+      },
+      "prompt": {
+        "en": "Photograph a delivery boat unloading goods, a classic scene in Venice's commercial heart."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-9",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Campo Life"
+      },
+      "prompt": {
+        "en": "Find a quiet square away from the market and capture a scene of local life: children playing, people chatting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-10",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Cheers at the Market"
+      },
+      "prompt": {
+        "en": "Take a photo of your glass of wine or spritz with the market's hustle and bustle in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-11",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Stand in a small square and take a photo looking straight up, capturing the unique shapes the rooftops make against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-12",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "The Fishmonger's Art"
+      },
+      "prompt": {
+        "en": "At the Pescaria, take an artistic shot of the neatly arranged fish and seafood on ice."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-13",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Secret Passage"
+      },
+      "prompt": {
+        "en": "Find and photograph a 'sotoportego,' a covered passageway that runs underneath a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-14",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Window Box Charm"
+      },
+      "prompt": {
+        "en": "Find a window adorned with a colorful flower box and capture this charming detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-polo-task-15",
+      "neighborhood_id": "san-polo",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Photograph an old, carved stone relief or coat of arms on the side of a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-1",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "East End Authenticity"
+      },
+      "prompt": {
+        "en": "On a residential street like Via Garibaldi, take a photo that captures everyday Venetian life, far from the tourist crowds."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-2",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Naval Power"
+      },
+      "prompt": {
+        "en": "Take a powerful photo of the Arsenale's grand entrance gate, focusing on the impressive stone lions."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-3",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Literary Chaos Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie inside or just outside the wonderfully eccentric Libreria Acqua Alta."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-4",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Find one of the neighborhood's public gardens and take a photo that contrasts the green space with the surrounding city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-5",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Hidden Gem Hunter"
+      },
+      "prompt": {
+        "en": "Find a small, interesting detail that other tourists might miss—a strange doorknocker, a small shrine, or an old sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-6",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Wide Open Space"
+      },
+      "prompt": {
+        "en": "Castello has some of Venice's widest streets. Take a photo that emphasizes this sense of openness, so rare in the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-7",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Bookworm's View"
+      },
+      "prompt": {
+        "en": "Find a creative way to photograph books, inspired by the famous local bookstore. Maybe a book you're reading by a canal?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-8",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Eerie Reflection"
+      },
+      "prompt": {
+        "en": "Find a puddle or a very still canal and capture a spooky, beautiful reflection of an old building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-9",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Local's Lunch"
+      },
+      "prompt": {
+        "en": "Photograph a simple, delicious-looking meal or snack from a local bakery or osteria in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-10",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "The Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Take a photo of an empty alleyway or bridge, showcasing the peaceful side of Venice found in Castello."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-11",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Maritime Motif"
+      },
+      "prompt": {
+        "en": "Find and photograph a symbol of the sea: an anchor, a boat's prow, a nautical carving."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-12",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Neighborhood Watch"
+      },
+      "prompt": {
+        "en": "Photograph a scene from a window, looking out onto a quiet campo or canal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-13",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Biennale Spirit"
+      },
+      "prompt": {
+        "en": "Even when the Biennale isn't on, its artistic spirit lingers. Find a modern sculpture or installation and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-14",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Faded Glory"
+      },
+      "prompt": {
+        "en": "Capture an image of a once-grand palazzo that now shows its age with grace and character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "castello-task-15",
+      "neighborhood_id": "castello",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm light from a bar or restaurant spilling out onto a dark street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-1",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Escape the Crowd"
+      },
+      "prompt": {
+        "en": "Just steps from a major tourist artery, find and photograph a completely empty, silent courtyard or alley."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-2",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Hidden Wonder Selfie"
+      },
+      "prompt": {
+        "en": "Find an architectural oddity, like a strange staircase or a tiny street, and take a selfie expressing your surprise."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-3",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "A Local's Refuge"
+      },
+      "prompt": {
+        "en": "Find a small bacaro or cafe that seems to be filled with locals, not tourists. Capture its inviting atmosphere from the outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-4",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Rooftop Perspective"
+      },
+      "prompt": {
+        "en": "Find a high vantage point (or just point your camera up) and capture a photo of the iconic rooftops and chimneys of Venice."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-5",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Luxury Window Shopping"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a high-fashion designer's window display, focusing on the reflections in the glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-6",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Gilded Detail"
+      },
+      "prompt": {
+        "en": "Find a small, golden detail on a building—a mosaic tile, a painted sign, a door handle—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-7",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Quick Bite"
+      },
+      "prompt": {
+        "en": "Photograph your quick Venetian lunch, like a tramezzino or mozzarella in carrozza, held up against a historic backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-8",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "The Grand & the Small"
+      },
+      "prompt": {
+        "en": "Frame a photo that shows the contrast between a massive, famous landmark and a small, human detail in the foreground."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-9",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Behind the Scenes"
+      },
+      "prompt": {
+        "en": "Take a photo down a service alley or of a back entrance to a grand hotel or theatre, capturing the hidden life of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-10",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Listen to the Music"
+      },
+      "prompt": {
+        "en": "Find a street musician or the faint sound of an orchestra from a cafe. Take a photo that tries to capture the sound."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-11",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Pigeon's Eye View"
+      },
+      "prompt": {
+        "en": "Take a photo from a very low angle in a large piazza, as if you were one of St. Mark's famous pigeons."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-12",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Architectural Geometry"
+      },
+      "prompt": {
+        "en": "Find a building with interesting geometric patterns—arches, windows, tiles—and capture the repetition in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-13",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Water Taxi Wake"
+      },
+      "prompt": {
+        "en": "Capture the pattern a boat leaves in the water of a canal, with the historic buildings as a backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-14",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Through the Arch"
+      },
+      "prompt": {
+        "en": "Frame a famous landmark or a beautiful canal scene by shooting through an archway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "san-marco-task-15",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find someone having a quiet moment amidst the chaos—reading a map, sipping coffee, gazing at a canal—and capture the scene respectfully."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-1",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Rainbow Row"
+      },
+      "prompt": {
+        "en": "Find a row of at least five houses all painted different, vibrant colors and capture them in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-2",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Color Pop Selfie"
+      },
+      "prompt": {
+        "en": "Find a house painted your favorite color and take a selfie in front of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-3",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Mirrored World"
+      },
+      "prompt": {
+        "en": "On a calm day, find a perfect, mirror-like reflection of the colorful houses in a canal and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-4",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Sweet Souvenir"
+      },
+      "prompt": {
+        "en": "Buy a bag of traditional Bussolai or Essi cookies and take a photo of them with the colorful island in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-5",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Fisherman's Touch"
+      },
+      "prompt": {
+        "en": "Find and photograph details related to the island's fishing heritage: a boat, a net, a colorful buoy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-6",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Lace in the Wild"
+      },
+      "prompt": {
+        "en": "Find a shop window displaying intricate Burano lace and take a close-up photo of the delicate patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-7",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Color Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo that highlights the striking contrast between two adjacent, brightly colored houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-8",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Spritz o'Clock"
+      },
+      "prompt": {
+        "en": "Order a bright orange Aperol Spritz and photograph it against a brightly colored wall for maximum color impact."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-9",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "The Leaning Tower"
+      },
+      "prompt": {
+        "en": "Find the island's leaning bell tower and take a creative photo that exaggerates its tilt."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-10",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Door & Window"
+      },
+      "prompt": {
+        "en": "Find a perfectly composed shot of a colorful door and a matching or contrasting window on one of the houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-11",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Island Cat"
+      },
+      "prompt": {
+        "en": "The cats of Burano are famous. Find one napping on a colorful stoop and capture the peaceful scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-12",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Stand on a bridge and take a classic photo looking down a canal lined with houses on both sides."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-13",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Laundry Day"
+      },
+      "prompt": {
+        "en": "Photograph a line of laundry hanging against a brightly colored house. The contrast is pure Burano."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-14",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Geometric Joy"
+      },
+      "prompt": {
+        "en": "Find a house with interesting geometric patterns or shapes painted on it and take an abstract-style photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    },
+    {
+      "id": "burano-task-15",
+      "neighborhood_id": "burano",
+      "title": {
+        "en": "Shadow on Color"
+      },
+      "prompt": {
+        "en": "Capture the sharp shadow of a building, bridge, or person falling across a brightly painted wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:16:30.671819+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

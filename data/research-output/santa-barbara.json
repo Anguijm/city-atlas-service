@@ -1,0 +1,966 @@
+{
+  "neighborhoods": [
+    {
+      "id": "funk-zone",
+      "city_id": "santa-barbara",
+      "name": {
+        "en": "The Funk Zone"
+      },
+      "summary": {
+        "en": "An energetic and creative hub born from converted warehouses, this district is known for its vibrant street art, urban wineries, and innovative food scene."
+      },
+      "lat": 34.4125,
+      "lng": -119.6895,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio",
+      "city_id": "santa-barbara",
+      "name": {
+        "en": "The Presidio"
+      },
+      "summary": {
+        "en": "The historic Spanish soul of the city, this tranquil neighborhood is defined by its iconic red-tile roofs, adobe walls, and hidden paseos waiting to be discovered."
+      },
+      "lat": 34.422,
+      "lng": -119.7,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor",
+      "city_id": "santa-barbara",
+      "name": {
+        "en": "The Waterfront & Harbor"
+      },
+      "summary": {
+        "en": "A laid-back and salty slice of the coast offering an authentic look at the city's maritime life, from the working harbor to scenic bluff-top parks."
+      },
+      "lat": 34.407,
+      "lng": -119.693,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "funk-zone-enr-third-window-brewing",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "Third Window Brewing"
+      },
+      "description": {
+        "en": "A brewery in a restored 1904 feed mill, beloved for its Belgian-style beers, incredible smash burgers, and spacious, relaxed patio."
+      },
+      "type": "drink",
+      "lat": 34.4155,
+      "lng": -119.6933,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-enr-test-pilot",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "Test Pilot"
+      },
+      "description": {
+        "en": "An intimate, transportive tiki bar serving inventive and classic tropical cocktails with meticulous decor."
+      },
+      "type": "nightlife",
+      "lat": 34.4115,
+      "lng": -119.6893,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-enr-satellite",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "Satellite"
+      },
+      "description": {
+        "en": "A farm-to-table vegetarian restaurant and natural wine bar with a funky, laid-back atmosphere and a sun-drenched patio."
+      },
+      "type": "drink",
+      "lat": 34.4195,
+      "lng": -119.6995,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-enr-sama-sama-kitchen",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "Sama Sama Kitchen"
+      },
+      "description": {
+        "en": "A vibrant spot serving modern Southeast Asian cuisine with bold, exciting flavors and a lush, hidden back patio."
+      },
+      "type": "food",
+      "lat": 34.421,
+      "lng": -119.701,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-enr-funk-zone-murals-street-art",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "Funk Zone Murals & Street Art"
+      },
+      "description": {
+        "en": "An open-air art gallery where alleys and warehouses are canvases for large-scale murals and quirky graffiti."
+      },
+      "type": "culture",
+      "lat": 34.412,
+      "lng": -119.689,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-enr-the-urban-wine-trail",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "The Urban Wine Trail"
+      },
+      "description": {
+        "en": "A collection of urban wineries and tasting rooms allowing you to sample local pinot noir and chardonnay without leaving the city."
+      },
+      "type": "drink",
+      "lat": 34.4125,
+      "lng": -119.6895,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-enr-santa-barbara-train-station",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "Santa Barbara Train Station"
+      },
+      "description": {
+        "en": "A beautifully preserved 1902 Spanish Colonial Revival station with elegant arches, tile work, and gardens."
+      },
+      "type": "landmark",
+      "lat": 34.4126,
+      "lng": -119.6926,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-enr-the-blue-door",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "funk-zone",
+      "name": {
+        "en": "The Blue Door"
+      },
+      "description": {
+        "en": "A multi-level antique and vintage collective that feels like a treasure hunt, packed with unique furniture, decor, and curiosities."
+      },
+      "type": "shopping",
+      "lat": 34.4119,
+      "lng": -119.6913,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-the-daisy",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "The Daisy"
+      },
+      "description": {
+        "en": "A bright and airy cafe serving excellent coffee and a fantastic Mediterranean-inspired menu, beloved for its quality ingredients."
+      },
+      "type": "food",
+      "lat": 34.4215,
+      "lng": -119.7018,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-oat-bakery",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "Oat Bakery"
+      },
+      "description": {
+        "en": "A tiny, minimalist bakery specializing in Scandinavian-style sourdough loaves and pastries, with must-try cardamom buns."
+      },
+      "type": "food",
+      "lat": 34.4173,
+      "lng": -119.6975,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-barbareno",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "Barbareño"
+      },
+      "description": {
+        "en": "A restaurant celebrating Central Coast history with an inventive menu inspired by local traditions like Santa Maria BBQ."
+      },
+      "type": "food",
+      "lat": 34.4225,
+      "lng": -119.7055,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-corazon-cocina",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "Corazón Cocina"
+      },
+      "description": {
+        "en": "A standout food stall in the Santa Barbara Public Market serving creative, market-fresh Mexican seafood, including incredible ceviches and tacos."
+      },
+      "type": "food",
+      "lat": 34.4235,
+      "lng": -119.7035,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-santa-barbara-county-courthouse-clock-tower",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "Santa Barbara County Courthouse Clock Tower"
+      },
+      "description": {
+        "en": "The El Mirador clock tower offers the single best free panoramic vista of the city's red-tile roofs, mountains, and ocean."
+      },
+      "type": "viewpoint",
+      "lat": 34.4245,
+      "lng": -119.702,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-el-presidio-de-santa-barbara-state-historic-park",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "El Presidio de Santa Bárbara State Historic Park"
+      },
+      "description": {
+        "en": "Explore the restored remnants of the original Spanish fortress founded in 1782, a quiet and evocative historic site."
+      },
+      "type": "landmark",
+      "lat": 34.422,
+      "lng": -119.7,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-paseo-de-la-guerra",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "Paseo de la Guerra"
+      },
+      "description": {
+        "en": "A historic and atmospheric Spanish-style courtyard and alleyway that feels like a secret passage back in time."
+      },
+      "type": "hidden_gem",
+      "lat": 34.4205,
+      "lng": -119.699,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-enr-hidden-courtyards-paseos",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "presidio",
+      "name": {
+        "en": "Hidden Courtyards (Paseos)"
+      },
+      "description": {
+        "en": "The blocks around State Street are riddled with charming, semi-hidden courtyards offering quiet escapes with fountains and Spanish tile."
+      },
+      "type": "hidden_gem",
+      "lat": 34.4228,
+      "lng": -119.7005,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-chad-s-cafe",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "Chad's Cafe"
+      },
+      "description": {
+        "en": "A classic, no-frills beachside diner that has been serving breakfast and lunch for decades right across from the beach."
+      },
+      "type": "food",
+      "lat": 34.4095,
+      "lng": -119.6905,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-santa-barbara-shellfish-company",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "Santa Barbara Shellfish Company"
+      },
+      "description": {
+        "en": "A local institution at the end of Stearns Wharf serving incredibly fresh, simply prepared seafood with an unbeatable ocean view."
+      },
+      "type": "food",
+      "lat": 34.408,
+      "lng": -119.685,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-brophy-bros",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "Brophy Bros."
+      },
+      "description": {
+        "en": "Overlooking the harbor, this lively spot is famous for its clam chowder, fresh oysters, and fantastic views of the boats."
+      },
+      "type": "food",
+      "lat": 34.4075,
+      "lng": -119.694,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-lillys-taqueria",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "Lilly’s Taqueria"
+      },
+      "description": {
+        "en": "A beloved, cash-only taco spot that locals swear by, focusing on simple, authentic steamed and grilled meat tacos."
+      },
+      "type": "food",
+      "lat": 34.414,
+      "lng": -119.695,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-the-santa-barbara-harbor",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "The Santa Barbara Harbor"
+      },
+      "description": {
+        "en": "Walk the docks of this working harbor to see the commercial fishing fleet, sailboats, and resident sea lions for an authentic maritime experience."
+      },
+      "type": "landmark",
+      "lat": 34.407,
+      "lng": -119.695,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-moreton-bay-fig-tree",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "Moreton Bay Fig Tree"
+      },
+      "description": {
+        "en": "A spectacular botanical wonder planted in 1876, rumored to be the largest of its kind in the nation, with a vast, magical canopy."
+      },
+      "type": "nature",
+      "lat": 34.4135,
+      "lng": -119.6935,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-shoreline-park",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "Shoreline Park"
+      },
+      "description": {
+        "en": "A long park atop coastal bluffs offering sweeping views of the coastline, Channel Islands, and the city."
+      },
+      "type": "viewpoint",
+      "lat": 34.403,
+      "lng": -119.705,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-enr-leadbetter-beach",
+      "city_id": "santa-barbara",
+      "neighborhood_id": "waterfront-harbor",
+      "name": {
+        "en": "Leadbetter Beach"
+      },
+      "description": {
+        "en": "A local's beach just west of the harbor with a relaxed, less-crowded feel, popular with surfers and paddleboarders."
+      },
+      "type": "nature",
+      "lat": 34.404,
+      "lng": -119.7,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "funk-zone-task-1",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find a building that shows off the neighborhood's industrial past and capture the contrast between its gritty texture and modern use."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-2",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Artful Sip"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink (wine, beer, or coffee) with a piece of street art or a colorful wall as the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-3",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Warehouse Wanderer"
+      },
+      "prompt": {
+        "en": "Capture a photo down an alleyway or side street that reveals a hidden mural, a unique doorway, or an interesting architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-4",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Graffiti Portrait"
+      },
+      "prompt": {
+        "en": "Find the most colorful mural you can and take a selfie where you blend in or interact with the artwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-5",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Photograph the scene at a bustling outdoor patio, capturing the energetic and social vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-6",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Creative Contrast"
+      },
+      "prompt": {
+        "en": "Find an example of old meeting new. Photograph a historic architectural element next to a piece of modern art or design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-7",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "The Color of Cool"
+      },
+      "prompt": {
+        "en": "Find a scene dominated by a single, bold color and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-8",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Urban Flora"
+      },
+      "prompt": {
+        "en": "Capture a shot of a plant, flower, or vine growing against an industrial backdrop like a metal wall or concrete."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-9",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph an interesting shadow cast by a building, sign, or street furniture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-10",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Take an artful photo of a dish or drink that you feel represents the innovative spirit of the Funk Zone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-11",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Hidden Art Discovery"
+      },
+      "prompt": {
+        "en": "Look closely for a small, easily missed piece of street art—a sticker, a small stencil, or a tiny sculpture—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "funk-zone-task-12",
+      "neighborhood_id": "funk-zone",
+      "title": {
+        "en": "Modernist Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie using a reflection in a modern window or a polished metal surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-1",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Spanish Archway Frame"
+      },
+      "prompt": {
+        "en": "Find an archway and use it to frame a photo of a courtyard, a street, or the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-2",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Red Tile Roofs"
+      },
+      "prompt": {
+        "en": "Capture a photo that emphasizes the iconic red-tile roofs that define the Santa Barbara skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-3",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Historic Detail"
+      },
+      "prompt": {
+        "en": "Find and take a close-up shot of a piece of decorative ironwork, a colorful Spanish tile, or a hand-carved wooden door."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-4",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Courtyard Serenity"
+      },
+      "prompt": {
+        "en": "Find a quiet courtyard or paseo and take a photo that captures its peaceful, hidden atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-5",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Adobe & Sky"
+      },
+      "prompt": {
+        "en": "Photograph the simple, powerful contrast between a stark white adobe wall and the brilliant blue California sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-6",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Timeless Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie against a backdrop that looks like it could have been taken 100 years ago."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-7",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Capture the sharp, geometric shadows cast by the Spanish Colonial Revival architecture, especially in the morning or late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-8",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "A Bite of History"
+      },
+      "prompt": {
+        "en": "Photograph a meal or a pastry that feels classic and timeless, fitting the historic vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-9",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Secret Garden"
+      },
+      "prompt": {
+        "en": "Find a hidden patch of green—a potted plant, a climbing vine, or a small garden—and capture its beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-10",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Architectural Lines"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the clean lines, curves, and angles of the neighborhood's distinctive architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-11",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "Fountain Focus"
+      },
+      "prompt": {
+        "en": "Many courtyards have fountains. Find one and take a creative shot of the water, the tile, or the overall structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "presidio-task-12",
+      "neighborhood_id": "presidio",
+      "title": {
+        "en": "The Color of History"
+      },
+      "prompt": {
+        "en": "Find a pop of color—a bright blue door, a pot of red geraniums—against the white adobe walls and make it your photo's subject."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-1",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the harbor's sailboats or the open ocean as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-2",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Ocean Horizon"
+      },
+      "prompt": {
+        "en": "Capture a minimalist photo of the horizon where the sea meets the sky. Look for a passing boat or bird to add interest."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-3",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Maritime Moment"
+      },
+      "prompt": {
+        "en": "Photograph a detail that speaks to the working harbor: a coil of rope, a fishing net, an anchor, or a boat's name."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-4",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Nature's Sculpture"
+      },
+      "prompt": {
+        "en": "Find a natural sculpture, like the gnarled roots of a tree, a uniquely shaped piece of driftwood, or a pattern in the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-5",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Seafood Snap"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering photo of a fresh seafood dish you're about to enjoy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-6",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the late afternoon, capture a photo of the warm, golden light reflecting on the water or illuminating the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-7",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Boat Life"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the forest of sailboat masts in the harbor, creating an interesting pattern against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-8",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Coastal Colors"
+      },
+      "prompt": {
+        "en": "Find a scene that captures the classic colors of the coast: the blue of the water, the white of the waves, and the beige of the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-9",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Park with a View"
+      },
+      "prompt": {
+        "en": "From a bluff or park, take a sweeping landscape photo that shows the relationship between the land and the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-10",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Palm Tree Portrait"
+      },
+      "prompt": {
+        "en": "Frame a photo looking up at the sky through the fronds of a palm tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-11",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Harbor Reflections"
+      },
+      "prompt": {
+        "en": "Capture the colorful reflections of boats and buildings in the calm water of the harbor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    },
+    {
+      "id": "waterfront-harbor-task-12",
+      "neighborhood_id": "waterfront-harbor",
+      "title": {
+        "en": "Local's Beach Scene"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the relaxed, active vibe of a local beach—people walking, surfing, or playing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:46:09.856345+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

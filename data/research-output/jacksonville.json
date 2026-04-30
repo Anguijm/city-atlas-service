@@ -1,0 +1,1801 @@
+{
+  "neighborhoods": [
+    {
+      "id": "riverside-five-points",
+      "city_id": "jacksonville",
+      "name": {
+        "en": "Riverside & Five Points"
+      },
+      "summary": {
+        "en": "The creative and bohemian soul of Jacksonville, where grand historic homes and riverfront parks meet a vibrant, gritty hub of indie theaters, funky boutiques, and sought-after eateries."
+      },
+      "lat": 30.312,
+      "lng": -81.685,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale",
+      "city_id": "jacksonville",
+      "name": {
+        "en": "Avondale"
+      },
+      "summary": {
+        "en": "Riverside’s polished, sophisticated older sibling, known for its immaculate historic homes, serene tree-lined streets, and a chic, walkable shopping district."
+      },
+      "lat": 30.302,
+      "lng": -81.695,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco",
+      "city_id": "jacksonville",
+      "name": {
+        "en": "San Marco"
+      },
+      "summary": {
+        "en": "A charming, European-inspired neighborhood centered around a picturesque square with iconic lion sculptures, art galleries, and upscale restaurants."
+      },
+      "lat": 30.313,
+      "lng": -81.657,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield",
+      "city_id": "jacksonville",
+      "name": {
+        "en": "Springfield"
+      },
+      "summary": {
+        "en": "Jacksonville's oldest neighborhood, a historic district defined by stunning late 19th-century homes and a proud, community-driven revitalization."
+      },
+      "lat": 30.345,
+      "lng": -81.657,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill",
+      "city_id": "jacksonville",
+      "name": {
+        "en": "Murray Hill"
+      },
+      "summary": {
+        "en": "An unpretentious, quirky, and cool historic neighborhood that has become a haven for artists and culinary entrepreneurs, known for its vibrant murals and retro feel."
+      },
+      "lat": 30.31,
+      "lng": -81.715,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank",
+      "city_id": "jacksonville",
+      "name": {
+        "en": "Downtown & The Southbank"
+      },
+      "summary": {
+        "en": "The urban heart of the city, a place of contrasts combining the Northbank's business district and architectural gems with the Southbank's scenic parks and skyline views."
+      },
+      "lat": 30.326,
+      "lng": -81.659,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "riverside-five-points-enr-brew-five-points",
+      "city_id": "jacksonville",
+      "neighborhood_id": "riverside-five-points",
+      "name": {
+        "en": "Brew Five Points"
+      },
+      "description": {
+        "en": "A bustling corner cafe perfect for people-watching, known for strong coffee, egg sandwiches, and viral cake slices."
+      },
+      "type": "drink",
+      "lat": 30.3125,
+      "lng": -81.6845,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-enr-13-gypsies",
+      "city_id": "jacksonville",
+      "neighborhood_id": "riverside-five-points",
+      "name": {
+        "en": "13 Gypsies"
+      },
+      "description": {
+        "en": "An intimate, seven-table restaurant offering a unique dining experience with Spanish and Mediterranean tapas. Reservations are essential."
+      },
+      "type": "food",
+      "lat": 30.3115,
+      "lng": -81.6855,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-enr-memorial-park",
+      "city_id": "jacksonville",
+      "neighborhood_id": "riverside-five-points",
+      "name": {
+        "en": "Memorial Park"
+      },
+      "description": {
+        "en": "A breathtaking 5.8-acre park on the St. Johns River, designed by the Olmsted Brothers and anchored by the iconic 'Life' sculpture."
+      },
+      "type": "nature",
+      "lat": 30.31,
+      "lng": -81.678,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-enr-riverside-arts-market-ram",
+      "city_id": "jacksonville",
+      "neighborhood_id": "riverside-five-points",
+      "name": {
+        "en": "Riverside Arts Market (RAM)"
+      },
+      "description": {
+        "en": "A sprawling market of local artists and food vendors held every Saturday under the Fuller Warren Bridge, feeling like the city's weekly block party."
+      },
+      "type": "shopping",
+      "lat": 30.3165,
+      "lng": -81.6725,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-enr-cummer-museum-of-art-and-gardens",
+      "city_id": "jacksonville",
+      "neighborhood_id": "riverside-five-points",
+      "name": {
+        "en": "Cummer Museum of Art and Gardens"
+      },
+      "description": {
+        "en": "While the museum is well-known, its two acres of historic gardens on the river are a perfect, tranquil escape from the city buzz."
+      },
+      "type": "culture",
+      "lat": 30.312,
+      "lng": -81.675,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-enr-residential-architecture-walk",
+      "city_id": "jacksonville",
+      "neighborhood_id": "avondale",
+      "name": {
+        "en": "Residential Architecture Walk"
+      },
+      "description": {
+        "en": "The real magic of Avondale is in its side streets, where you can wander and admire stunning, multi-million dollar historic homes with unique architectural details."
+      },
+      "type": "landmark",
+      "lat": 30.301,
+      "lng": -81.698,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-enr-st-johns-river-vistas",
+      "city_id": "jacksonville",
+      "neighborhood_id": "avondale",
+      "name": {
+        "en": "St. Johns River Vistas"
+      },
+      "description": {
+        "en": "Public access points east of the shopping district offer quiet, tree-framed views of the water that feel like a private discovery."
+      },
+      "type": "viewpoint",
+      "lat": 30.3045,
+      "lng": -81.69,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-enr-mayday-ice-cream",
+      "city_id": "jacksonville",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Mayday Ice Cream"
+      },
+      "description": {
+        "en": "A beloved local ice cream shop known for its inventive, handcrafted flavors like 'Ice Box Lemon' and 'Coffee + Donuts'."
+      },
+      "type": "food",
+      "lat": 30.3135,
+      "lng": -81.6572,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-enr-southbank-riverwalk-access",
+      "city_id": "jacksonville",
+      "neighborhood_id": "san-marco",
+      "name": {
+        "en": "Southbank Riverwalk Access"
+      },
+      "description": {
+        "en": "Walk north from the square to connect with the Southbank Riverwalk for some of the city's best skyline views, especially at sunset."
+      },
+      "type": "viewpoint",
+      "lat": 30.3175,
+      "lng": -81.6585,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-enr-1748-bakehouse",
+      "city_id": "jacksonville",
+      "neighborhood_id": "springfield",
+      "name": {
+        "en": "1748 Bakehouse"
+      },
+      "description": {
+        "en": "The quintessential neighborhood cafe of Springfield, this cozy spot serves delicious pastries, breads, and savory lunch items with a focus on local ingredients."
+      },
+      "type": "food",
+      "lat": 30.3455,
+      "lng": -81.6571,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-enr-klutho-park",
+      "city_id": "jacksonville",
+      "neighborhood_id": "springfield",
+      "name": {
+        "en": "Klutho Park"
+      },
+      "description": {
+        "en": "A sprawling green space featuring a unique Venetian-style promenade designed by famed Prairie School architect Henry J. Klutho."
+      },
+      "type": "nature",
+      "lat": 30.342,
+      "lng": -81.655,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-enr-prairie-school-architecture",
+      "city_id": "jacksonville",
+      "neighborhood_id": "springfield",
+      "name": {
+        "en": "Prairie School Architecture"
+      },
+      "description": {
+        "en": "Springfield is a treasure trove for architecture buffs, home to one of the largest collections of Prairie School buildings outside the Midwest."
+      },
+      "type": "landmark",
+      "lat": 30.348,
+      "lng": -81.659,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-enr-main-street-commercial-corridor",
+      "city_id": "jacksonville",
+      "neighborhood_id": "springfield",
+      "name": {
+        "en": "Main Street Commercial Corridor"
+      },
+      "description": {
+        "en": "The historic heart of Springfield's commerce is experiencing a rebirth, with historic buildings being adapted into new, independent businesses."
+      },
+      "type": "landmark",
+      "lat": 30.346,
+      "lng": -81.6573,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-enr-springfield-park",
+      "city_id": "jacksonville",
+      "neighborhood_id": "springfield",
+      "name": {
+        "en": "Springfield Park"
+      },
+      "description": {
+        "en": "A vast park on the neighborhood's southern edge that offers wide-open spaces and a surprisingly good vantage point for photos of the downtown skyline."
+      },
+      "type": "viewpoint",
+      "lat": 30.338,
+      "lng": -81.652,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-enr-community-loaves",
+      "city_id": "jacksonville",
+      "neighborhood_id": "murray-hill",
+      "name": {
+        "en": "Community Loaves"
+      },
+      "description": {
+        "en": "An essential Murray Hill institution, this artisan bakery and cafe is known for its incredible sourdough bread, pastries, and hearty sandwiches."
+      },
+      "type": "food",
+      "lat": 30.3105,
+      "lng": -81.7155,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-enr-murray-hill-art-center",
+      "city_id": "jacksonville",
+      "neighborhood_id": "murray-hill",
+      "name": {
+        "en": "Murray Hill Art Center"
+      },
+      "description": {
+        "en": "Operated by the Art League of Jacksonville, this center is a hub of community creativity, offering classes and workshops."
+      },
+      "type": "culture",
+      "lat": 30.311,
+      "lng": -81.7165,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-enr-the-murray-hill-theatre",
+      "city_id": "jacksonville",
+      "neighborhood_id": "murray-hill",
+      "name": {
+        "en": "The Murray Hill Theatre"
+      },
+      "description": {
+        "en": "The iconic marquee of this historic theater is a landmark of the neighborhood, representing its long history as a community gathering place."
+      },
+      "type": "landmark",
+      "lat": 30.3108,
+      "lng": -81.716,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-intuition-ale-works",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Intuition Ale Works"
+      },
+      "description": {
+        "en": "A pioneering craft brewery in the sports district with a massive, popular taproom and a rooftop bar offering great views."
+      },
+      "type": "drink",
+      "lat": 30.3255,
+      "lng": -81.648,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-ruby-beach-brewing",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Ruby Beach Brewing"
+      },
+      "description": {
+        "en": "A downtown brewery with a welcoming taproom, known for its solid lineup of beers and a friendly, local vibe."
+      },
+      "type": "drink",
+      "lat": 30.327,
+      "lng": -81.6555,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-mixed-fillings-pie-shop",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Mixed Fillings Pie Shop"
+      },
+      "description": {
+        "en": "A fantastic to-go pie shop known for its creative sweet and savory pies, sold by the slice or as a 'pie flight'."
+      },
+      "type": "food",
+      "lat": 30.3275,
+      "lng": -81.658,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-the-bearded-pig",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "The Bearded Pig"
+      },
+      "description": {
+        "en": "A beloved BBQ joint on the Southbank. Grab a platter of smoked meats and enjoy the casual atmosphere before a walk along the river."
+      },
+      "type": "food",
+      "lat": 30.3155,
+      "lng": -81.6595,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-treaty-oak",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Treaty Oak"
+      },
+      "description": {
+        "en": "A majestic 250-year-old Southern live oak that is older than the city itself, this tree is a true Jacksonville legend."
+      },
+      "type": "nature",
+      "lat": 30.318,
+      "lng": -81.656,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-friendship-fountain",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Friendship Fountain"
+      },
+      "description": {
+        "en": "This massive, beautifully restored fountain offers spectacular light and water shows at night, with the downtown skyline as a backdrop."
+      },
+      "type": "landmark",
+      "lat": 30.32,
+      "lng": -81.658,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-laura-street-trio",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Laura Street Trio"
+      },
+      "description": {
+        "en": "A collection of three historic, early 20th-century skyscrapers that stand as a beautiful monument to Jacksonville's 'first skyscraper era'."
+      },
+      "type": "landmark",
+      "lat": 30.328,
+      "lng": -81.659,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-jacksonville-riverwalks",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Jacksonville Riverwalks"
+      },
+      "description": {
+        "en": "Miles of walking paths on both the Northbank and Southbank offer fantastic views of the city and river."
+      },
+      "type": "viewpoint",
+      "lat": 30.323,
+      "lng": -81.66,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-enr-main-street-bridge",
+      "city_id": "jacksonville",
+      "neighborhood_id": "downtown-southbank",
+      "name": {
+        "en": "Main Street Bridge"
+      },
+      "description": {
+        "en": "The walk across this iconic blue lift bridge offers unparalleled 360-degree views of the city and the St. Johns River."
+      },
+      "type": "viewpoint",
+      "lat": 30.3225,
+      "lng": -81.6575,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "riverside-five-points-task-1",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Bohemian Vibe"
+      },
+      "prompt": {
+        "en": "Capture a photo that you think perfectly represents the creative and bohemian soul of this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-2",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Oak Canopy Portrait"
+      },
+      "prompt": {
+        "en": "Find a street with a beautiful canopy of oak trees and take a photo looking up through the branches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-3",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Historic Home Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on one of the grand historic homes—a unique window, porch column, or doorway—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-4",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Indie Shop Window"
+      },
+      "prompt": {
+        "en": "Take a picture of the most interesting or funky boutique window display you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-5",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Riverfront Reflection"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the St. Johns River and take a photo that includes the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-6",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Street Art Story"
+      },
+      "prompt": {
+        "en": "Discover a piece of street art or a mural and take a photo that tells a story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-7",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Local's Coffee Break"
+      },
+      "prompt": {
+        "en": "Take a photo of your coffee or snack from a local cafe, with the neighborhood vibe in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-8",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Gritty & Grand Contrast"
+      },
+      "prompt": {
+        "en": "Capture a single image that shows the neighborhood's mix of historic preservation and youthful, gritty energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-9",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "People-Watching Perspective"
+      },
+      "prompt": {
+        "en": "Find a good spot for people-watching and take a photo that captures the flow of life in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-10",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Architectural Quirk"
+      },
+      "prompt": {
+        "en": "Search for and photograph an unusual or quirky architectural feature on a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-11",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Park Bench Serenity"
+      },
+      "prompt": {
+        "en": "Find a quiet park bench and take a photo from its perspective, capturing a moment of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-12",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Sunset on the St. Johns"
+      },
+      "prompt": {
+        "en": "If you're here at the right time, capture the colors of the sunset over the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-13",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Creative Energy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you soaking in the creative, youthful energy of Five Points."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-14",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "Hidden Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Many historic homes have beautiful gardens. Find one you can see from the street and capture a glimpse of its beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "riverside-five-points-task-15",
+      "neighborhood_id": "riverside-five-points",
+      "title": {
+        "en": "The Perfect Corner Cafe"
+      },
+      "prompt": {
+        "en": "Find a cafe that looks like the perfect place to spend an afternoon and snap a photo of its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-1",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Elegant Architecture"
+      },
+      "prompt": {
+        "en": "Take a photo of a house or building that you feel best represents Avondale's polished and sophisticated vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-2",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Manicured Garden Shot"
+      },
+      "prompt": {
+        "en": "Find the most beautifully manicured lawn or garden and capture its perfect details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-3",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Mediterranean Revival Detail"
+      },
+      "prompt": {
+        "en": "Look for a home with Mediterranean Revival features (stucco, red tile roof) and photograph a specific detail like an arched window or doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-4",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Sophisticated Stroll Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on one of Avondale's serene, tree-lined streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-5",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Tree-Lined Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a long shot down one of the neighborhood's quiet streets, emphasizing the trees and historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-6",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Chic Boutique Display"
+      },
+      "prompt": {
+        "en": "Photograph a window display from one of the high-end boutiques in the Shoppes of Avondale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-7",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Quiet Luxury"
+      },
+      "prompt": {
+        "en": "Take a photo that conveys a sense of quiet, elegant luxury."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-8",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Prairie School Lines"
+      },
+      "prompt": {
+        "en": "Try to find a home with Prairie School architecture and capture its strong horizontal lines."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-9",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Ornate Ironwork"
+      },
+      "prompt": {
+        "en": "Find an example of decorative ironwork on a gate, fence, or window and get a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-10",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "A Stately Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the most grand and stately front door or entrance you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-11",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Reflections in a Shop Window"
+      },
+      "prompt": {
+        "en": "Use the reflection in a boutique window to capture the street scene behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-12",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Serene Side Street"
+      },
+      "prompt": {
+        "en": "Venture off the main avenue and capture the peaceful atmosphere of a residential side street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-13",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Architectural Symmetry"
+      },
+      "prompt": {
+        "en": "Find a building with perfect symmetry and take a photo that highlights its balanced design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-14",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "A Glimpse of the River"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see the St. Johns River between the houses and trees, and capture that hidden view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "avondale-task-15",
+      "neighborhood_id": "avondale",
+      "title": {
+        "en": "Polished & Picturesque"
+      },
+      "prompt": {
+        "en": "Take a photo of a local delicacy or drink that looks as polished and picturesque as the neighborhood itself."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-1",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "European-Inspired Scene"
+      },
+      "prompt": {
+        "en": "Capture a photo that makes San Marco look like a small town square in Europe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-2",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Lion Guardian Portrait"
+      },
+      "prompt": {
+        "en": "Take a creative photo of one of the iconic lion sculptures. Try a low angle to make it look majestic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-3",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Fountain Focus"
+      },
+      "prompt": {
+        "en": "Get a shot of the central fountain, focusing on the water in motion."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-4",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Boutique Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most appealing boutique and take a photo of its window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-5",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "A Toast to the Square"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink or ice cream with the San Marco square in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-6",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Art Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of one of the neighborhood's art galleries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-7",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Riverside Skyline View"
+      },
+      "prompt": {
+        "en": "Walk towards the river and capture the best view of the downtown skyline you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-8",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Charming Alleyway"
+      },
+      "prompt": {
+        "en": "Explore the side streets off the main square and find a charming, picturesque alleyway to photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-9",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "A Detail in the Square"
+      },
+      "prompt": {
+        "en": "Find a small, interesting detail within San Marco Square—a piece of tile, a park bench, a lamp post—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-10",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Theatrical Entrance"
+      },
+      "prompt": {
+        "en": "Take a photo of the entrance to a theater or restaurant that looks dramatic and inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-11",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Upscale Eatery Facade"
+      },
+      "prompt": {
+        "en": "Capture the sophisticated facade of one of San Marco's upscale restaurants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-12",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "A Moment of Sophistication"
+      },
+      "prompt": {
+        "en": "Take a selfie where you look as sophisticated and friendly as the neighborhood feels."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-13",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "San Marco at Dusk"
+      },
+      "prompt": {
+        "en": "If you're here in the evening, capture the warm glow of the lights around the square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-14",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "Finding the Perfect Archway"
+      },
+      "prompt": {
+        "en": "Many buildings here have beautiful arches. Find your favorite one and frame a photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "san-marco-task-15",
+      "neighborhood_id": "san-marco",
+      "title": {
+        "en": "A Friendly Neighborhood Feel"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that captures the friendly, welcoming atmosphere of San Marco."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-1",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Victorian 'Painted Lady'"
+      },
+      "prompt": {
+        "en": "Find a restored Victorian home with multiple colors and capture a photo that highlights its intricate, 'painted lady' details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-2",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Historic Revitalization"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the neighborhood's revitalization in action—perhaps an old building next to a new cafe, or a home mid-restoration."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-3",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Grand Porch Perspective"
+      },
+      "prompt": {
+        "en": "The porches in Springfield are stunning. Find one that catches your eye and take a photo that emphasizes its size and character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-4",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Prairie School Signature"
+      },
+      "prompt": {
+        "en": "Find a building with Prairie School features (strong horizontal lines, overhanging eaves) and capture its unique design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-5",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Community Pride Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the authentic, community-driven vibe of Springfield."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-6",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "A Glimpse of the Past"
+      },
+      "prompt": {
+        "en": "Find a detail—like an old sign, a historical marker, or a piece of architecture—that feels like a window into the neighborhood's long history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-7",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Park Promenade View"
+      },
+      "prompt": {
+        "en": "Walk through one of the parks and take a photo along a path or promenade that shows off the green space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-8",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a single image showing a historic building being used for a modern purpose, like a new brewery or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-9",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Main Street Rebirth"
+      },
+      "prompt": {
+        "en": "Take a photo of the Main Street corridor that shows its ongoing commercial rebirth."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-10",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Skyline from the Park"
+      },
+      "prompt": {
+        "en": "Find a vantage point in one of the parks and get a shot of the downtown skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-11",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Authentic Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that you feel captures the authentic, historic, and unpretentious character of Springfield."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-12",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Massive Oak Tree Frame"
+      },
+      "prompt": {
+        "en": "Use the branches of one of Springfield's massive, old trees to frame a shot of a historic home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-13",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Intricate Woodwork Detail"
+      },
+      "prompt": {
+        "en": "Get a close-up photo of the detailed woodwork (gingerbread trim, spindles, etc.) on a Victorian-era house."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-14",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "A Home with History"
+      },
+      "prompt": {
+        "en": "Photograph a house that looks like it has a hundred years of stories to tell."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "springfield-task-15",
+      "neighborhood_id": "springfield",
+      "title": {
+        "en": "Neighborhood Cafe Comfort"
+      },
+      "prompt": {
+        "en": "Capture the cozy, welcoming exterior of a neighborhood bakery or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-1",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Mural Madness"
+      },
+      "prompt": {
+        "en": "Find your favorite mural on Edgewood Avenue and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-2",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Retro Signage"
+      },
+      "prompt": {
+        "en": "Find a cool, retro-looking sign on a storefront and capture its vintage vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-3",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Unpretentious Cool Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the quirky, unpretentious, and unapologetically cool feel of Murray Hill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-4",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Quirky Storefront"
+      },
+      "prompt": {
+        "en": "Photograph the most unique or quirky independent shop you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-5",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Edgewood Avenue Energy"
+      },
+      "prompt": {
+        "en": "Take a photo looking down Edgewood Avenue that captures the energy and color of the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-6",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Artist's Touch"
+      },
+      "prompt": {
+        "en": "Find a small, artistic detail on the street—not a huge mural, but something smaller—and make it your photo's subject."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-7",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Working-Class Roots"
+      },
+      "prompt": {
+        "en": "Capture an image of a building or scene that hints at the neighborhood's historic, working-class feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-8",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Culinary Discovery"
+      },
+      "prompt": {
+        "en": "Take a picture of the most exciting or delicious-looking food you find in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-9",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Vintage Find"
+      },
+      "prompt": {
+        "en": "Peer into a vintage or record store and take a photo of an item that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-10",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "This neighborhood is full of color. Take a photo where one bright color is the dominant subject."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-11",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Maker's Space Glimpse"
+      },
+      "prompt": {
+        "en": "Find a place that looks like a hub for artists or makers and capture its creative exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-12",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "The Perfect Street Art Backdrop"
+      },
+      "prompt": {
+        "en": "Use a colorful mural as a backdrop for a portrait of a friend or a creative selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-13",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Neighborhood Landmark Shot"
+      },
+      "prompt": {
+        "en": "Take a photo of a landmark, like the Murray Hill Theatre marquee, that defines the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-14",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Casual & Cool Vibe"
+      },
+      "prompt": {
+        "en": "Photograph a scene of people enjoying themselves in a casual, relaxed way that sums up the local vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "murray-hill-task-15",
+      "neighborhood_id": "murray-hill",
+      "title": {
+        "en": "Hidden Alley Art"
+      },
+      "prompt": {
+        "en": "Look down the alleys off Edgewood Avenue to find and photograph a hidden or less-obvious piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-1",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Skyscraper Reflection"
+      },
+      "prompt": {
+        "en": "Find a modern building and capture the reflection of another skyscraper or the sky in its glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-2",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Historic & Modern Contrast"
+      },
+      "prompt": {
+        "en": "Take a single photo that shows a historic architectural gem right next to a gleaming modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-3",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Riverwalk Panorama"
+      },
+      "prompt": {
+        "en": "Use your phone's panorama mode to capture a wide shot of the skyline from the Riverwalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-4",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Bridge Architecture"
+      },
+      "prompt": {
+        "en": "Take a photo that focuses on the interesting architectural lines and structure of one of the downtown bridges."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-5",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Urban Heartbeat"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents the energy and buzz of the city's urban heart."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-6",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Southbank Skyline Shot"
+      },
+      "prompt": {
+        "en": "From the Southbank, take your best shot of the Northbank skyline across the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-7",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Fountain Light Show"
+      },
+      "prompt": {
+        "en": "If you're near Friendship Fountain at night, try to capture the colorful light and water show."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-8",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "A Moment with a Legend"
+      },
+      "prompt": {
+        "en": "Take a selfie with the massive Treaty Oak, trying to show its incredible scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-9",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Business District Buzz"
+      },
+      "prompt": {
+        "en": "Photograph a scene that captures the professional, business-like atmosphere of the Northbank."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-10",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-11",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "A View from the Bridge"
+      },
+      "prompt": {
+        "en": "Safely take a photo from one of the pedestrian walkways on a bridge, capturing the view of the city and river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-12",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "City Lights on the Water"
+      },
+      "prompt": {
+        "en": "At night, capture the reflection of the city's lights on the surface of the St. Johns River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-13",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Architectural Gem Detail"
+      },
+      "prompt": {
+        "en": "Find one of the historic buildings, like those in the Laura Street Trio, and take a close-up of an ornate architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-14",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "Park in the City"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between a peaceful park space and the tall city buildings surrounding it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    },
+    {
+      "id": "downtown-southbank-task-15",
+      "neighborhood_id": "downtown-southbank",
+      "title": {
+        "en": "The River's Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from as close to the water's edge as you can get, looking up at the city skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:04:00.020837+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

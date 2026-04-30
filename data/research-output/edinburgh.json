@@ -1,0 +1,893 @@
+{
+  "neighborhoods": [
+    {
+      "id": "leith",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "Leith"
+      },
+      "summary": {
+        "en": "A fiercely independent port district with a gritty, creative soul, Leith has transformed its industrial waterfront into a celebrated foodie destination buzzing with unique energy."
+      },
+      "lat": 55.9748,
+      "lng": -3.1709,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "Stockbridge"
+      },
+      "summary": {
+        "en": "An affluent, bohemian village with cobbled streets and graceful bridges, Stockbridge feels like a self-contained world of independent boutiques, cozy pubs, and destination bakeries."
+      },
+      "lat": 55.9581,
+      "lng": -3.2082,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "The New Town"
+      },
+      "summary": {
+        "en": "A masterpiece of Georgian urban planning, the New Town is defined by its wide, grid-like streets, elegant squares, and grand, symmetrical townhouses."
+      },
+      "lat": 55.955,
+      "lng": -3.196,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "The West End"
+      },
+      "summary": {
+        "en": "Elegant and polished, the West End is characterized by its grand Georgian crescents, hidden mews, and a sophisticated, cultural air."
+      },
+      "lat": 55.9485,
+      "lng": -3.2135,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "Marchmont & The Southside"
+      },
+      "summary": {
+        "en": "A leafy, intellectual neighborhood with a relaxed, bohemian feel, shaped by its proximity to the University of Edinburgh and its grand Victorian tenements."
+      },
+      "lat": 55.938,
+      "lng": -3.191,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank",
+      "city_id": "edinburgh",
+      "name": {
+        "en": "Abbeyhill & Meadowbank"
+      },
+      "summary": {
+        "en": "An unpretentious, residential area that offers a genuine slice of everyday Edinburgh life, with a growing reputation for creativity and a dramatic border with Holyrood Park."
+      },
+      "lat": 55.9555,
+      "lng": -3.165,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "leith-enr-ardfern",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Ardfern"
+      },
+      "description": {
+        "en": "A stylish, all-day wine bar and restaurant with a neighborhood living room feel, showcasing Scottish produce in modern European small plates."
+      },
+      "type": "drink",
+      "lat": 55.9697,
+      "lng": -3.1755,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "leith-enr-sabzi",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Sabzi"
+      },
+      "description": {
+        "en": "A must-visit, family-run Punjabi street food kitchen serving vibrant, flavor-packed dishes in a casual, friendly atmosphere."
+      },
+      "type": "food",
+      "lat": 55.9778,
+      "lng": -3.1812,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "leith-enr-water-of-leith-walkway",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Water of Leith Walkway"
+      },
+      "description": {
+        "en": "A peaceful riverside path offering a different perspective on the area's industrial past, with old warehouses, charming bridges, and lush greenery."
+      },
+      "type": "nature",
+      "lat": 55.976,
+      "lng": -3.168,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "leith-enr-leith-walk",
+      "city_id": "edinburgh",
+      "neighborhood_id": "leith",
+      "name": {
+        "en": "Leith Walk"
+      },
+      "description": {
+        "en": "A constantly evolving mile-long artery connecting Leith to the city center, packed with independent shops, international grocers, and historic pubs."
+      },
+      "type": "landmark",
+      "lat": 55.964,
+      "lng": -3.178,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-enr-lannan-bakery-pantry",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge",
+      "name": {
+        "en": "Lannan Bakery & Pantry"
+      },
+      "description": {
+        "en": "A mega-hyped bakery known for exceptional pastries and breads that is absolutely worth the almost guaranteed queue."
+      },
+      "type": "food",
+      "lat": 55.959,
+      "lng": -3.209,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-enr-water-of-leith-walkway-stockbridge-section",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge",
+      "name": {
+        "en": "Water of Leith Walkway (Stockbridge Section)"
+      },
+      "description": {
+        "en": "Arguably the most picturesque section of the path, passing by the historic St Bernard's Well and under the impressive Dean Bridge."
+      },
+      "type": "nature",
+      "lat": 55.956,
+      "lng": -3.213,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-enr-grange-cricket-club",
+      "city_id": "edinburgh",
+      "neighborhood_id": "stockbridge",
+      "name": {
+        "en": "Grange Cricket Club"
+      },
+      "description": {
+        "en": "Home to the Scottish cricket team, this historic club offers a lovely green space and a peaceful escape."
+      },
+      "type": "landmark",
+      "lat": 55.961,
+      "lng": -3.206,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-enr-calton-hill",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Calton Hill"
+      },
+      "description": {
+        "en": "A popular hill offering dramatic city views; try visiting at sunrise and shooting east to capture the National Monument against the morning sky."
+      },
+      "type": "viewpoint",
+      "lat": 55.955,
+      "lng": -3.182,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-enr-national-monument-of-edinburgh",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "National Monument of Edinburgh"
+      },
+      "description": {
+        "en": "An unfinished acropolis on Calton Hill whose massive, weathered columns can be used to frame different parts of the city skyline."
+      },
+      "type": "landmark",
+      "lat": 55.955,
+      "lng": -3.181,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-enr-assembly-rooms",
+      "city_id": "edinburgh",
+      "neighborhood_id": "new-town",
+      "name": {
+        "en": "Assembly Rooms"
+      },
+      "description": {
+        "en": "A historic and grand entertainment venue with a prime example of Georgian facade, especially beautiful when lit up at night."
+      },
+      "type": "culture",
+      "lat": 55.953,
+      "lng": -3.2,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-enr-the-palmerston",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "The Palmerston"
+      },
+      "description": {
+        "en": "One of the city's most-loved restaurants in a converted bank, with a focus on in-house butchery, baking, and modern European cooking."
+      },
+      "type": "food",
+      "lat": 55.946,
+      "lng": -3.22,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-enr-royal-lyceum-theatre",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "Royal Lyceum Theatre"
+      },
+      "description": {
+        "en": "A stunning Victorian theatre with ornate architecture that is home to its own highly respected company."
+      },
+      "type": "culture",
+      "lat": 55.947,
+      "lng": -3.203,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-enr-usher-hall",
+      "city_id": "edinburgh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "Usher Hall"
+      },
+      "description": {
+        "en": "Edinburgh's premier concert hall, an impressive circular building with world-class acoustics and a distinctive dome."
+      },
+      "type": "culture",
+      "lat": 55.947,
+      "lng": -3.204,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-enr-maras-picklery",
+      "city_id": "edinburgh",
+      "neighborhood_id": "marchmont-southside",
+      "name": {
+        "en": "Mara’s Picklery"
+      },
+      "description": {
+        "en": "A cute, ferment-obsessed, country-ish cafe, perfect for a coffee and a toastie surrounded by colorful jars of house-made pickles."
+      },
+      "type": "food",
+      "lat": 55.937,
+      "lng": -3.193,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-enr-noodles-home",
+      "city_id": "edinburgh",
+      "neighborhood_id": "marchmont-southside",
+      "name": {
+        "en": "Noodles Home"
+      },
+      "description": {
+        "en": "A beloved, low-key spot for a comforting and authentic meal of bouncy Chinese noodles."
+      },
+      "type": "food",
+      "lat": 55.945,
+      "lng": -3.185,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-enr-the-cameo-cinema",
+      "city_id": "edinburgh",
+      "neighborhood_id": "marchmont-southside",
+      "name": {
+        "en": "The Cameo Cinema"
+      },
+      "description": {
+        "en": "A historic repertory cinema with beautiful, old-school interiors and a well-curated programme of independent and classic films."
+      },
+      "type": "culture",
+      "lat": 55.943,
+      "lng": -3.205,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-enr-queen-s-hall",
+      "city_id": "edinburgh",
+      "neighborhood_id": "marchmont-southside",
+      "name": {
+        "en": "Queen's Hall"
+      },
+      "description": {
+        "en": "A premier mid-sized venue for classical, jazz, and folk music, housed in a beautiful former chapel."
+      },
+      "type": "culture",
+      "lat": 55.941,
+      "lng": -3.183,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-enr-the-meadows",
+      "city_id": "edinburgh",
+      "neighborhood_id": "marchmont-southside",
+      "name": {
+        "en": "The Meadows"
+      },
+      "description": {
+        "en": "This vast park is the neighborhood's backyard, perfect for exploring community allotments, watching local sports, or people-watching."
+      },
+      "type": "nature",
+      "lat": 55.94,
+      "lng": -3.192,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-enr-montrose",
+      "city_id": "edinburgh",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "name": {
+        "en": "Montrose"
+      },
+      "description": {
+        "en": "A true neighborhood gem that has become a destination for its seriously fun European small plates and brilliant wine list."
+      },
+      "type": "food",
+      "lat": 55.956,
+      "lng": -3.17,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-enr-st-anthony-s-chapel-ruins",
+      "city_id": "edinburgh",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "name": {
+        "en": "St Anthony's Chapel Ruins"
+      },
+      "description": {
+        "en": "A quieter, more atmospheric viewpoint than Arthur's Seat, these medieval ruins in Holyrood Park offer stunning views over the city."
+      },
+      "type": "viewpoint",
+      "lat": 55.95,
+      "lng": -3.163,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-enr-meadowbank-stadium",
+      "city_id": "edinburgh",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "name": {
+        "en": "Meadowbank Stadium"
+      },
+      "description": {
+        "en": "A major city sports venue and a key local landmark that defines the area and serves as a hub of community activity."
+      },
+      "type": "landmark",
+      "lat": 55.957,
+      "lng": -3.155,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-enr-the-pavement-gauntlet",
+      "city_id": "edinburgh",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "name": {
+        "en": "The Pavement Gauntlet"
+      },
+      "description": {
+        "en": "A tongue-in-cheek point of interest where pavements are notorious for dog fouling, offering a humorous insight into a real neighborhood gripe."
+      },
+      "type": "hidden_gem",
+      "lat": 55.956,
+      "lng": -3.158,
+      "trending_score": 55,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "leith-task-1",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Portside Palette"
+      },
+      "prompt": {
+        "en": "Find a scene that captures Leith's maritime past. It could be a rusty chain, a colorful boat, or a dockside crane. Take a photo that tells a story of the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "leith-task-2",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Industrial Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a texture that feels uniquely 'Leith'—think weathered brick on an old warehouse, peeling paint on a door, or cobblestones by the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "leith-task-3",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Creative Spirit"
+      },
+      "prompt": {
+        "en": "Leith is full of art. Find a piece of street art, a quirky shop sign, or a creative window display and capture its independent spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "leith-task-4",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Foodie Find"
+      },
+      "prompt": {
+        "en": "Take a photo of a delicious-looking dish or an interesting food item from one of Leith's many independent eateries or international grocers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "leith-task-5",
+      "neighborhood_id": "leith",
+      "title": {
+        "en": "Water Reflection"
+      },
+      "prompt": {
+        "en": "Use a puddle or the Water of Leith to create a reflection shot. Capture the blend of old and new architecture in the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-task-1",
+      "neighborhood_id": "stockbridge",
+      "title": {
+        "en": "Cobblestone Charm"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a cobbled street or alleyway. Focus on the texture and history under your feet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-task-2",
+      "neighborhood_id": "stockbridge",
+      "title": {
+        "en": "Boutique Beauty"
+      },
+      "prompt": {
+        "en": "Find the most charming independent shopfront in the neighborhood. Capture the details that make it unique, like the sign, colors, or window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-task-3",
+      "neighborhood_id": "stockbridge",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Photograph a quiet, peaceful scene. It could be a bench by the water, a hidden garden, or a tranquil corner away from the main street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-task-4",
+      "neighborhood_id": "stockbridge",
+      "title": {
+        "en": "Bohemian Detail"
+      },
+      "prompt": {
+        "en": "Capture a small detail that embodies the 'bohemian village' vibe—a colorful flower box, a quirky doorknocker, or an artistic decoration."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "stockbridge-task-5",
+      "neighborhood_id": "stockbridge",
+      "title": {
+        "en": "Sweet Treat Selfie"
+      },
+      "prompt": {
+        "en": "Grab a pastry or coffee from a local bakery or cafe and take a selfie enjoying your delicious Stockbridge treat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-task-1",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Georgian Symmetry"
+      },
+      "prompt": {
+        "en": "Find a building or street that showcases perfect symmetry. Take a photo that emphasizes the clean lines and balanced design of the New Town."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-task-2",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Elegant Entrance"
+      },
+      "prompt": {
+        "en": "Photograph a grand New Town doorway. Focus on the details like the fanlight window above, the polished door knocker, or the surrounding pillars."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-task-3",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Grid View"
+      },
+      "prompt": {
+        "en": "Look down one of the long, straight streets and capture a photo that highlights the grid-like layout of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-task-4",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "High-End Window Shopping"
+      },
+      "prompt": {
+        "en": "Take an artistic shot of a luxury shop's window display on George Street. Play with reflections and the items inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "new-town-task-5",
+      "neighborhood_id": "new-town",
+      "title": {
+        "en": "Monumental Perspective"
+      },
+      "prompt": {
+        "en": "Find a statue or monument and take a photo of it from an unusual angle—from below looking up, or through a gap in a fence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-task-1",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Crescent Curve"
+      },
+      "prompt": {
+        "en": "Capture the elegant, sweeping curve of a Georgian crescent. Try to show the satisfying repetition of the architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-task-2",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Hidden Mews"
+      },
+      "prompt": {
+        "en": "Discover a quiet mews lane behind the grand streets. Photograph the contrast between the main roads and these hidden, charming alleyways."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-task-3",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Cultural Hub"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the cultural vibe of the West End. It could be a theatre poster, an architectural detail on a venue, or people gathering before a show."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-task-4",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Polished Details"
+      },
+      "prompt": {
+        "en": "Find and photograph a detail that feels 'polished' and 'elegant'—like a shiny black door, a well-kept iron railing, or a pristine private garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "west-end-task-5",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Sophisticated Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie looking sophisticated against the backdrop of a grand Georgian building or a stylish cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-task-1",
+      "neighborhood_id": "marchmont-southside",
+      "title": {
+        "en": "Tenement Towers"
+      },
+      "prompt": {
+        "en": "Look up! Capture the impressive height and repeating patterns of the grand Victorian tenement buildings that define the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-task-2",
+      "neighborhood_id": "marchmont-southside",
+      "title": {
+        "en": "Intellectual Atmosphere"
+      },
+      "prompt": {
+        "en": "Find a scene that captures the student and academic vibe. It could be a quirky bookshop, a busy cafe, or someone reading in the park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-task-3",
+      "neighborhood_id": "marchmont-southside",
+      "title": {
+        "en": "Leafy Living"
+      },
+      "prompt": {
+        "en": "Photograph the blend of nature and city in this leafy neighborhood. Look for trees lining the streets or ivy climbing up a tenement wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-task-4",
+      "neighborhood_id": "marchmont-southside",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a moment of life in The Meadows park—people playing sports, having a picnic, or simply relaxing on the grass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "marchmont-southside-task-5",
+      "neighborhood_id": "marchmont-southside",
+      "title": {
+        "en": "Bohemian Find"
+      },
+      "prompt": {
+        "en": "Discover something that feels uniquely quirky or bohemian—an unusual garden gnome, a colorful front door, or an interesting notice in a window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-task-1",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "title": {
+        "en": "Urban Meets Wild"
+      },
+      "prompt": {
+        "en": "Find a spot where you can photograph the contrast between the residential streets and the wild, green hills of Holyrood Park rising behind them."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-task-2",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "title": {
+        "en": "Everyday Edinburgh"
+      },
+      "prompt": {
+        "en": "Capture a scene of unpretentious, everyday life. This could be a local shop, people waiting at a bus stop, or kids playing in a park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-task-3",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "title": {
+        "en": "Creative Corner"
+      },
+      "prompt": {
+        "en": "This area has a growing creative reputation. Find a sign of this—an artist's studio, a gallery poster, or a creatively decorated window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-task-4",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "title": {
+        "en": "A View from Below"
+      },
+      "prompt": {
+        "en": "Take a photo looking up towards Arthur's Seat or the Crags from one of the neighborhood's streets, emphasizing the scale of the hills."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    },
+    {
+      "id": "abbeyhill-meadowbank-task-5",
+      "neighborhood_id": "abbeyhill-meadowbank",
+      "title": {
+        "en": "Local Landmark"
+      },
+      "prompt": {
+        "en": "Take an interesting photo of a local landmark that isn't a major tourist attraction, like Meadowbank Stadium or a distinctive local pub."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:25:28.187121+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

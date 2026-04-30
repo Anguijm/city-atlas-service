@@ -1,0 +1,1937 @@
+{
+  "neighborhoods": [
+    {
+      "id": "north-loop",
+      "city_id": "minneapolis",
+      "name": {
+        "en": "North Loop (Warehouse District)"
+      },
+      "summary": {
+        "en": "Once the industrial heart of Minneapolis, the North Loop has transformed into the city's most fashionable neighborhood, where preserved 19th-century warehouses meet modern luxury."
+      },
+      "lat": 44.986,
+      "lng": -93.277,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district",
+      "city_id": "minneapolis",
+      "name": {
+        "en": "Northeast Minneapolis (Arts District)"
+      },
+      "summary": {
+        "en": "Gritty, creative, and sprawling, the Northeast Arts District is the city's bohemian soul, a post-industrial landscape reclaimed by artists, brewers, and culinary innovators."
+      },
+      "lat": 45.005,
+      "lng": -93.255,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street",
+      "city_id": "minneapolis",
+      "name": {
+        "en": "Whittier & \"Eat Street\""
+      },
+      "summary": {
+        "en": "A dense and dynamic neighborhood that blends high culture with grassroots energy, best known for \"Eat Street,\" a stretch of Nicollet Avenue packed with international restaurants."
+      },
+      "lat": 44.958,
+      "lng": -93.28,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills",
+      "city_id": "minneapolis",
+      "name": {
+        "en": "Linden Hills"
+      },
+      "summary": {
+        "en": "Nestled between Lake Harriet and Bde Maka Ska, Linden Hills feels like a charming small town within the city, with a relaxed, family-friendly vibe connected to an outdoor lifestyle."
+      },
+      "lat": 44.925,
+      "lng": -93.315,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown",
+      "city_id": "minneapolis",
+      "name": {
+        "en": "Marcy-Holmes & Dinkytown"
+      },
+      "summary": {
+        "en": "This area offers a fascinating contrast between Marcy-Holmes, the city's oldest neighborhood with quiet historic streets, and the youthful, eclectic energy of the University of Minnesota's Dinkytown."
+      },
+      "lat": 44.983,
+      "lng": -93.247,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park",
+      "city_id": "minneapolis",
+      "name": {
+        "en": "Powderhorn Park"
+      },
+      "summary": {
+        "en": "A deeply residential and diverse South Minneapolis neighborhood with a strong, unpretentious community spirit, where life revolves around the beautiful 66-acre park at its center."
+      },
+      "lat": 44.94,
+      "lng": -93.26,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "north-loop-enr-parlour",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "Parlour"
+      },
+      "description": {
+        "en": "A sophisticated, dimly-lit bar known for its exceptional cocktails and its legendary burger, often considered one of the city's best."
+      },
+      "type": "nightlife",
+      "lat": 44.988,
+      "lng": -93.2765,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-enr-spoon-and-stable",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "Spoon and Stable"
+      },
+      "description": {
+        "en": "Housed in a stunningly renovated 1906 horse stable, the bar here is a destination for expertly crafted pre-dinner cocktails."
+      },
+      "type": "drink",
+      "lat": 44.984,
+      "lng": -93.27,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-enr-dario",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "Dario"
+      },
+      "description": {
+        "en": "An intimate spot focused on Northern Italian cuisine where locals rave about the handmade pasta, especially the must-order doppio ravioli."
+      },
+      "type": "food",
+      "lat": 44.9855,
+      "lng": -93.273,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-enr-black-sheep-coal-fired-pizza",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "Black Sheep Coal Fired Pizza"
+      },
+      "description": {
+        "en": "This spot serves up pizza with a distinctive, charred crust, offering a no-fuss, high-quality pizza experience."
+      },
+      "type": "food",
+      "lat": 44.9875,
+      "lng": -93.2755,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-enr-first-avenue-7th-st-entry",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "First Avenue & 7th St Entry"
+      },
+      "description": {
+        "en": "An iconic, black-painted music venue that has been the epicenter of the Minneapolis music scene for decades, famously featured in Prince's film *Purple Rain*."
+      },
+      "type": "culture",
+      "lat": 44.9795,
+      "lng": -93.276,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-enr-warehouse-district-architecture",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "Warehouse District Architecture"
+      },
+      "description": {
+        "en": "Wander down N Washington Ave and N 1st St to admire the red-brick facades, large arched windows, and ghost signs of former warehouses and factories."
+      },
+      "type": "landmark",
+      "lat": 44.987,
+      "lng": -93.276,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-enr-mississippi-riverfront",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "Mississippi Riverfront"
+      },
+      "description": {
+        "en": "A walk along West River Parkway on the neighborhood's eastern edge offers fantastic views of the water and the historic Hennepin Avenue Bridge."
+      },
+      "type": "viewpoint",
+      "lat": 44.985,
+      "lng": -93.265,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-enr-hennepin-avenue-bridge",
+      "city_id": "minneapolis",
+      "neighborhood_id": "north-loop",
+      "name": {
+        "en": "Hennepin Avenue Bridge"
+      },
+      "description": {
+        "en": "A historic bridge offering excellent views of the Mississippi River and the iconic \"Grain Belt Beer\" sign."
+      },
+      "type": "landmark",
+      "lat": 44.983,
+      "lng": -93.262,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-enr-vinai",
+      "city_id": "minneapolis",
+      "neighborhood_id": "northeast-arts-district",
+      "name": {
+        "en": "Vinai"
+      },
+      "description": {
+        "en": "A restaurant with gorgeous decor serving celebrated Hmong food and delightful drinks, located in a transformed former brewery."
+      },
+      "type": "food",
+      "lat": 45.0095,
+      "lng": -93.243,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-enr-oro-by-nixta",
+      "city_id": "minneapolis",
+      "neighborhood_id": "northeast-arts-district",
+      "name": {
+        "en": "Oro by Nixta"
+      },
+      "description": {
+        "en": "A standout restaurant dedicated to the art of masa, using extraordinary heirloom corn to create deeply flavorful and authentic Mexican dishes."
+      },
+      "type": "food",
+      "lat": 44.998,
+      "lng": -93.257,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-enr-martys-deli",
+      "city_id": "minneapolis",
+      "neighborhood_id": "northeast-arts-district",
+      "name": {
+        "en": "Marty’s Deli"
+      },
+      "description": {
+        "en": "This popular deli serves enormous, thoughtfully constructed sandwiches that are genuinely worth the wait in the line that often snakes out the door."
+      },
+      "type": "food",
+      "lat": 45.018,
+      "lng": -93.262,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-enr-hai-hai",
+      "city_id": "minneapolis",
+      "neighborhood_id": "northeast-arts-district",
+      "name": {
+        "en": "Hai Hai"
+      },
+      "description": {
+        "en": "Step into a vibrant, plant-filled dining room that feels like a tropical escape, serving Southeast Asian street food with bold, fresh flavors."
+      },
+      "type": "food",
+      "lat": 45.01,
+      "lng": -93.236,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-enr-northrup-king-building",
+      "city_id": "minneapolis",
+      "neighborhood_id": "northeast-arts-district",
+      "name": {
+        "en": "Northrup-King Building"
+      },
+      "description": {
+        "en": "The heart of the Arts District, this massive former seed warehouse is now home to over 350 artist studios and galleries."
+      },
+      "type": "culture",
+      "lat": 45.002,
+      "lng": -93.25,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-enr-northeast-arts-district-murals",
+      "city_id": "minneapolis",
+      "neighborhood_id": "northeast-arts-district",
+      "name": {
+        "en": "Northeast Arts District Murals"
+      },
+      "description": {
+        "en": "The neighborhood is an open-air gallery; explore the streets to discover dozens of large-scale, colorful murals painted on industrial buildings."
+      },
+      "type": "landmark",
+      "lat": 45.003,
+      "lng": -93.251,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-enr-pimento-jamaican-kitchen",
+      "city_id": "minneapolis",
+      "neighborhood_id": "whittier-eat-street",
+      "name": {
+        "en": "Pimento Jamaican Kitchen"
+      },
+      "description": {
+        "en": "A cultural hub serving authentic Jamaican cuisine, including legendary braised oxtail, with a laid-back atmosphere and frequent live music."
+      },
+      "type": "food",
+      "lat": 44.957,
+      "lng": -93.2785,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-enr-eat-street-exploration",
+      "city_id": "minneapolis",
+      "neighborhood_id": "whittier-eat-street",
+      "name": {
+        "en": "\"Eat Street\" Exploration"
+      },
+      "description": {
+        "en": "Walk Nicollet Avenue between 24th and 28th Streets to explore dozens of family-owned restaurants serving Vietnamese, Mexican, German, and Middle Eastern food."
+      },
+      "type": "landmark",
+      "lat": 44.956,
+      "lng": -93.2785,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-enr-minneapolis-institute-of-art-mia",
+      "city_id": "minneapolis",
+      "neighborhood_id": "whittier-eat-street",
+      "name": {
+        "en": "Minneapolis Institute of Art (Mia)"
+      },
+      "description": {
+        "en": "A world-class, encyclopedic art museum with a vast collection spanning 5,000 years of history, housed in a grand neoclassical building with free general admission."
+      },
+      "type": "culture",
+      "lat": 44.9585,
+      "lng": -93.275,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-enr-american-swedish-institute",
+      "city_id": "minneapolis",
+      "neighborhood_id": "whittier-eat-street",
+      "name": {
+        "en": "American Swedish Institute"
+      },
+      "description": {
+        "en": "Housed in the stunning, castle-like Turnblad Mansion, this museum and cultural center celebrates Swedish and Nordic heritage."
+      },
+      "type": "culture",
+      "lat": 44.956,
+      "lng": -93.271,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-enr-washburn-fair-oaks-mansion-district",
+      "city_id": "minneapolis",
+      "neighborhood_id": "whittier-eat-street",
+      "name": {
+        "en": "Washburn-Fair Oaks Mansion District"
+      },
+      "description": {
+        "en": "A historic area surrounding the Minneapolis Institute of Art featuring opulent Gilded Age mansions built by the city's founding \"flour barons.\""
+      },
+      "type": "landmark",
+      "lat": 44.959,
+      "lng": -93.273,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-enr-sebastian-joes-ice-cream-cafe",
+      "city_id": "minneapolis",
+      "neighborhood_id": "linden-hills",
+      "name": {
+        "en": "Sebastian Joe’s Ice Cream Cafe"
+      },
+      "description": {
+        "en": "A beloved Minneapolis institution serving dozens of unique, homemade ice cream flavors, making it the perfect stop on a walk around the lakes."
+      },
+      "type": "food",
+      "lat": 44.926,
+      "lng": -93.314,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-enr-martina",
+      "city_id": "minneapolis",
+      "neighborhood_id": "linden-hills",
+      "name": {
+        "en": "Martina"
+      },
+      "description": {
+        "en": "An Argentinian-Italian restaurant with a breezy, beach-house feel, known for its wood-fired seafood, grilled meats, and excellent cocktail program."
+      },
+      "type": "food",
+      "lat": 44.9265,
+      "lng": -93.314,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-enr-magers-quinn-booksellers",
+      "city_id": "minneapolis",
+      "neighborhood_id": "linden-hills",
+      "name": {
+        "en": "Magers & Quinn Booksellers"
+      },
+      "description": {
+        "en": "A short walk into Uptown, this is one of the best independent bookstores in the country, with a massive selection of new and used titles."
+      },
+      "type": "shopping",
+      "lat": 44.948,
+      "lng": -93.299,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-enr-lake-harriet-bandshell",
+      "city_id": "minneapolis",
+      "neighborhood_id": "linden-hills",
+      "name": {
+        "en": "Lake Harriet Bandshell"
+      },
+      "description": {
+        "en": "An iconic feature of the lake, this beautiful structure hosts free concerts and movies all summer long, anchoring a quintessential Minneapolis walking path."
+      },
+      "type": "landmark",
+      "lat": 44.923,
+      "lng": -93.305,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-enr-the-bakken-museum",
+      "city_id": "minneapolis",
+      "neighborhood_id": "linden-hills",
+      "name": {
+        "en": "The Bakken Museum"
+      },
+      "description": {
+        "en": "Located in a historic mansion, this unique museum is dedicated to invention, innovation, and the wonders of electricity and magnetism."
+      },
+      "type": "culture",
+      "lat": 44.937,
+      "lng": -93.321,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-enr-alma",
+      "city_id": "minneapolis",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "name": {
+        "en": "Alma"
+      },
+      "description": {
+        "en": "An elegant all-day cafe within a boutique hotel, offering a serene spot for coffee, pastries, or a glass of wine with a focus on local ingredients."
+      },
+      "type": "drink",
+      "lat": 44.978,
+      "lng": -93.242,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-enr-als-breakfast",
+      "city_id": "minneapolis",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "name": {
+        "en": "Al’s Breakfast"
+      },
+      "description": {
+        "en": "A true Minneapolis landmark, this legendary 14-seat diner is a sliver of a room where cooks sling must-try blueberry pancakes just feet away from you."
+      },
+      "type": "food",
+      "lat": 44.975,
+      "lng": -93.232,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-enr-owamni",
+      "city_id": "minneapolis",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "name": {
+        "en": "Owamni"
+      },
+      "description": {
+        "en": "A groundbreaking, award-winning restaurant featuring a \"decolonized\" menu using only ingredients indigenous to North America for a profound culinary experience."
+      },
+      "type": "food",
+      "lat": 44.979,
+      "lng": -93.259,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-enr-stone-arch-bridge",
+      "city_id": "minneapolis",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "name": {
+        "en": "Stone Arch Bridge"
+      },
+      "description": {
+        "en": "The crown jewel of the riverfront, this former railroad bridge is now a pedestrian path offering breathtaking, panoramic views of the city."
+      },
+      "type": "viewpoint",
+      "lat": 44.981,
+      "lng": -93.256,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-enr-weisman-art-museum",
+      "city_id": "minneapolis",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "name": {
+        "en": "Weisman Art Museum"
+      },
+      "description": {
+        "en": "You can't miss the shimmering, abstract stainless steel facade of this Frank Gehry-designed museum on the University of Minnesota campus."
+      },
+      "type": "culture",
+      "lat": 44.9735,
+      "lng": -93.236,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-enr-mill-ruins-park",
+      "city_id": "minneapolis",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "name": {
+        "en": "Mill Ruins Park"
+      },
+      "description": {
+        "en": "Explore the evocative ruins of the flour mills that once made Minneapolis the milling capital of the world, a haunting reminder of the city's past."
+      },
+      "type": "landmark",
+      "lat": 44.9795,
+      "lng": -93.26,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-enr-matts-bar",
+      "city_id": "minneapolis",
+      "neighborhood_id": "powderhorn-park",
+      "name": {
+        "en": "Matt’s Bar"
+      },
+      "description": {
+        "en": "A classic, no-frills dive bar and Minneapolis institution, home to one of the original \"Jucy Lucy\" burgers—a non-negotiable food experience."
+      },
+      "type": "food",
+      "lat": 44.939,
+      "lng": -93.258,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-enr-petite-leon",
+      "city_id": "minneapolis",
+      "neighborhood_id": "powderhorn-park",
+      "name": {
+        "en": "Petite León"
+      },
+      "description": {
+        "en": "Located in the adjacent Kingfield neighborhood, this cozy spot is perfect for an upscale drink experience, like the smoky Oaxacan Old Fashioned."
+      },
+      "type": "drink",
+      "lat": 44.934,
+      "lng": -93.2785,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-enr-powderhorn-park",
+      "city_id": "minneapolis",
+      "neighborhood_id": "powderhorn-park",
+      "name": {
+        "en": "Powderhorn Park"
+      },
+      "description": {
+        "en": "The heart and soul of the neighborhood, this 66-acre park features a lake, rolling hills, and a popular walking path for locals."
+      },
+      "type": "nature",
+      "lat": 44.94,
+      "lng": -93.26,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-enr-midtown-greenway",
+      "city_id": "minneapolis",
+      "neighborhood_id": "powderhorn-park",
+      "name": {
+        "en": "Midtown Greenway"
+      },
+      "description": {
+        "en": "This 5.5-mile-long former railroad corridor is now a major artery for cyclists and pedestrians, offering a unique below-street-level view of the city."
+      },
+      "type": "landmark",
+      "lat": 44.949,
+      "lng": -93.26,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "north-loop-task-1",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Industrial Elegance"
+      },
+      "prompt": {
+        "en": "Find a building that perfectly blends old industrial brick with modern glass and steel. Capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-2",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Brick & Mortar Story"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a weathered brick wall. What story does its texture tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-3",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Look up! Find a faint, painted advertisement from a bygone era on the side of a warehouse and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-4",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Luxury Window Shopping"
+      },
+      "prompt": {
+        "en": "Photograph the most stylish or intriguing display you can find in a boutique window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-5",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Riverfront Reflection"
+      },
+      "prompt": {
+        "en": "Find a view of the Mississippi River and capture the reflection of the sky or a bridge on its surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-6",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Cobblestone Cam"
+      },
+      "prompt": {
+        "en": "Find a patch of old cobblestone or brick street and take a photo from a low angle, focusing on the texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-7",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Chic Cafe Culture"
+      },
+      "prompt": {
+        "en": "Capture a moment that defines the upscale cafe or bar scene—a fancy cocktail, a perfect latte art, or a stylish interior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-8",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Architectural Archway"
+      },
+      "prompt": {
+        "en": "The old warehouses are full of arches. Find an interesting one and frame a photo through it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-9",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Modern Meets Historic"
+      },
+      "prompt": {
+        "en": "Take a selfie where a historic brick building and a modern luxury apartment are both visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-10",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the late afternoon, capture how the golden sunlight illuminates the red brick of the old buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-11",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Find an interesting texture in the neighborhood—rust on metal, peeling paint, or worn wood—and take a macro shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-12",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Stylish Selfie"
+      },
+      "prompt": {
+        "en": "Strike a pose for a selfie that matches the fashionable, energetic vibe of the North Loop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-13",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a quiet alley or side street and photograph the view from its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-14",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "North Loop Noir"
+      },
+      "prompt": {
+        "en": "Take a black and white photo that emphasizes the shadows and historic character of a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "north-loop-task-15",
+      "neighborhood_id": "north-loop",
+      "title": {
+        "en": "City Lights on Brick"
+      },
+      "prompt": {
+        "en": "After dusk, capture the way streetlights or neon signs cast a colorful glow on a brick wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-1",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Mural Masterpiece"
+      },
+      "prompt": {
+        "en": "Find a large-scale mural and take a photo that makes you look like part of the artwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-2",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Artist's Perspective"
+      },
+      "prompt": {
+        "en": "Photograph an ordinary object (a fire hydrant, a street sign) from an unusual angle to make it look like a piece of abstract art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-3",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Industrial Grit"
+      },
+      "prompt": {
+        "en": "Capture a close-up shot of a texture that represents the neighborhood's industrial past: corrugated metal, cracked concrete, or a rusty rail line."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-4",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Bohemian Soul Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the creative, unpretentious spirit of the Arts District."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-5",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Find the Factory"
+      },
+      "prompt": {
+        "en": "Photograph a building that clearly used to be a factory or warehouse. Look for old smokestacks or large, multi-paned windows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-6",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Creative Fuel"
+      },
+      "prompt": {
+        "en": "Snap a picture of your drink or snack from a local brewery or cafe that's fueling your artistic exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-7",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Unexpected Art"
+      },
+      "prompt": {
+        "en": "Find a piece of street art in an unexpected place—a sticker on a pole, a small sculpture in a yard, or a painted utility box."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-8",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Grain Silo Giant"
+      },
+      "prompt": {
+        "en": "Find a view of the old grain silos and take a photo that emphasizes their immense scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-9",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Studio Light"
+      },
+      "prompt": {
+        "en": "Capture an interesting play of light and shadow coming from a window of an artist studio or gallery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-10",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Colorful Corner"
+      },
+      "prompt": {
+        "en": "Find the most colorful building or wall in the neighborhood and make it the backdrop for a vibrant photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-11",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Brewery Vibe"
+      },
+      "prompt": {
+        "en": "Photograph something that captures the essence of a local brewery, even from the outside—a logo, a patio, or a group of friends."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-12",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Post-Industrial Plant Life"
+      },
+      "prompt": {
+        "en": "Find and photograph a plant or tree growing in an unlikely industrial spot, like out of a crack in the pavement or against a metal wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-13",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Gritty Texture Shot"
+      },
+      "prompt": {
+        "en": "Take a black and white photo focusing on a gritty texture, like peeling paint on a door or rust on a fence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-14",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Art District Abstract"
+      },
+      "prompt": {
+        "en": "Create an abstract photo by focusing on a small, colorful detail of a mural or piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "northeast-arts-district-task-15",
+      "neighborhood_id": "northeast-arts-district",
+      "title": {
+        "en": "Local Creator's Mark"
+      },
+      "prompt": {
+        "en": "Find a sign for a local artist, craftsman, or creator and snap a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-1",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Eat Street Eats"
+      },
+      "prompt": {
+        "en": "Take a delicious-looking photo of a dish from one of Eat Street's many international restaurants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-2",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Global Flavors"
+      },
+      "prompt": {
+        "en": "Find a restaurant sign with a language other than English on it and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-3",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Mansion Majesty"
+      },
+      "prompt": {
+        "en": "Photograph the most impressive or ornate architectural detail you can find on one of the neighborhood's historic mansions."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-4",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Cultural Crossroads"
+      },
+      "prompt": {
+        "en": "Capture a street scene that shows the diversity and energy of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-5",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Art Museum Pose"
+      },
+      "prompt": {
+        "en": "Strike a pose like a classical statue for a selfie with a grand, cultural building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-6",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Neighborhood Spice"
+      },
+      "prompt": {
+        "en": "Find a colorful mural or piece of public art that adds flavor to the neighborhood and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-7",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Historic Home Detail"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting detail on a historic house, like a stained-glass window, intricate woodwork, or a unique door knocker."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-8",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "International Signage"
+      },
+      "prompt": {
+        "en": "Create a collage of at least three different restaurant signs from Eat Street in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-9",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Urban Garden Gem"
+      },
+      "prompt": {
+        "en": "Find a small garden, a planter box, or a vine-covered wall that brings a touch of nature to the dense urban environment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-10",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "A Bite of the World"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a snack or drink that represents a cuisine you've never tried before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-11",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Gilded Age Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo of a mansion that makes it look as grand and imposing as possible."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-12",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Community Canvas"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a community notice board that gives you a sense of the local vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-13",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Diverse Doorways"
+      },
+      "prompt": {
+        "en": "Find a particularly interesting or colorful doorway on a shop or restaurant and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-14",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Street Food Story"
+      },
+      "prompt": {
+        "en": "Capture a photo that tells the story of a meal on Eat Street, from the menu to the final bite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "whittier-eat-street-task-15",
+      "neighborhood_id": "whittier-eat-street",
+      "title": {
+        "en": "Whittier Welcome"
+      },
+      "prompt": {
+        "en": "Find a welcoming sign, a friendly patio, or an open door that embodies the spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-1",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Lakeside Serenity"
+      },
+      "prompt": {
+        "en": "Take a photo of the lake that captures a feeling of peace and quiet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-2",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Charming Shopfront"
+      },
+      "prompt": {
+        "en": "Find the most charming independent shop and photograph its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-3",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use tree branches or flowers to frame a shot of a house, a street, or the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-4",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Small Town in the City"
+      },
+      "prompt": {
+        "en": "Capture a scene that makes Linden Hills feel like a quaint small town."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-5",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Cozy Corner Cafe"
+      },
+      "prompt": {
+        "en": "Take a photo of your coffee or ice cream at a cozy spot in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-6",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Park Path Perspective"
+      },
+      "prompt": {
+        "en": "Photograph one of the walking paths around the lakes, showing where it leads."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-7",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Family Fun Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the family-friendly vibe of the neighborhood—a playground, a family on a walk, or a dog playing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-8",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Ice Cream Dream"
+      },
+      "prompt": {
+        "en": "Get a scoop of ice cream and take a selfie with it before it melts!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-9",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Bookstore Browse"
+      },
+      "prompt": {
+        "en": "Find a book with an interesting cover at a local bookstore and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-10",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Waterfront Wander"
+      },
+      "prompt": {
+        "en": "Take a photo from the edge of the lake, getting as close to the water as you can."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-11",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Quaint Architecture"
+      },
+      "prompt": {
+        "en": "Find a house or building with particularly charming architecture and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-12",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Green Space Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in one of the neighborhood's beautiful parks or green spaces."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-13",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Neighborhood Bloom"
+      },
+      "prompt": {
+        "en": "Find a beautiful flower or blooming tree in someone's yard or a public space and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-14",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Relaxed Rhythm"
+      },
+      "prompt": {
+        "en": "Capture a photo that illustrates the relaxed, easygoing pace of life in Linden Hills."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "linden-hills-task-15",
+      "neighborhood_id": "linden-hills",
+      "title": {
+        "en": "Sunset Over Water"
+      },
+      "prompt": {
+        "en": "If you're here in the evening, capture the colors of the sunset reflecting on the surface of the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-1",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Bridge View Beauty"
+      },
+      "prompt": {
+        "en": "Find a great view of the Stone Arch Bridge and take a photo that shows its scale and beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-2",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Campus Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents the youthful, bustling energy of the University of Minnesota campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-3",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Historic Streetscape"
+      },
+      "prompt": {
+        "en": "Find a quiet, tree-lined street in Marcy-Holmes with historic homes and capture its timeless charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-4",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "River Walk Wonder"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Mississippi River and the downtown skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-5",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Oldest Neighborhood Detail"
+      },
+      "prompt": {
+        "en": "Find a detail that speaks to Marcy-Holmes being the city's oldest neighborhood—a historic plaque, a brick road, or an old-fashioned lamppost."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-6",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Victorian Vision"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful example of Victorian architecture in the Marcy-Holmes area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-7",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Student Life Scene"
+      },
+      "prompt": {
+        "en": "Capture a scene that is quintessentially 'Dinkytown'—students with backpacks, a busy cafe, or a quirky shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-8",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between the historic brick buildings and modern architecture like the Weisman Art Museum."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-9",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Mill City Echoes"
+      },
+      "prompt": {
+        "en": "Photograph the ruins or remnants of the old flour mills along the riverfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-10",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Dinkytown Buzz"
+      },
+      "prompt": {
+        "en": "Find a neon sign or a bustling storefront that captures the eclectic energy of Dinkytown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-11",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Gehry's Gleam"
+      },
+      "prompt": {
+        "en": "Capture the way light reflects off the unique metallic surface of the Weisman Art Museum."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-12",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Stone Arch Story"
+      },
+      "prompt": {
+        "en": "Take a photo from on the Stone Arch Bridge, looking down at the powerful St. Anthony Falls."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-13",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Quiet Corner, City View"
+      },
+      "prompt": {
+        "en": "Find a quiet spot in a park or along the river that has a great view of the downtown skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-14",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "University Landmark"
+      },
+      "prompt": {
+        "en": "Photograph an iconic University of Minnesota landmark or sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "marcy-holmes-dinkytown-task-15",
+      "neighborhood_id": "marcy-holmes-dinkytown",
+      "title": {
+        "en": "Golden Hour on the Mississippi"
+      },
+      "prompt": {
+        "en": "Capture the warm light of golden hour on the river, the bridges, and the skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-1",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Park Life Portrait"
+      },
+      "prompt": {
+        "en": "Take a photo that captures a slice of life in Powderhorn Park: people picnicking, playing, or just relaxing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-2",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "Find something that represents the neighborhood's community spirit—a community garden, a little free library, or a local event flyer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-3",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Neighborhood Heart"
+      },
+      "prompt": {
+        "en": "Take a wide shot of Powderhorn Park that shows the lake and the surrounding green space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-4",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Photograph a house or a front yard that has a lot of character and charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-5",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Local's View"
+      },
+      "prompt": {
+        "en": "Take a selfie from a spot that feels like a hidden gem only a local would know."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-6",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Hidden Greenway"
+      },
+      "prompt": {
+        "en": "Find an entrance to the Midtown Greenway and take a photo looking down the path."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-7",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Unpretentious Beauty"
+      },
+      "prompt": {
+        "en": "Capture a simple, beautiful moment that reflects the neighborhood's down-to-earth vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-8",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Everyday Minneapolis"
+      },
+      "prompt": {
+        "en": "Photograph a scene that feels like a snapshot of everyday life for people in this part of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-9",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Lake in the City"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see both the park's lake and the downtown skyline in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-10",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Picnic Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of someone sitting on a picnic blanket, looking out at the park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-11",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Dive Bar Details"
+      },
+      "prompt": {
+        "en": "Capture the classic, no-frills exterior of a neighborhood institution like Matt's Bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-12",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "South Side Story"
+      },
+      "prompt": {
+        "en": "Take a photo that you think tells a story about life in South Minneapolis."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-13",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Tree-Lined Tranquility"
+      },
+      "prompt": {
+        "en": "Find a street with a beautiful canopy of mature trees and take a photo looking down it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-14",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Photograph a spot in the park that feels like a complete escape from the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    },
+    {
+      "id": "powderhorn-park-task-15",
+      "neighborhood_id": "powderhorn-park",
+      "title": {
+        "en": "Powderhorn's People"
+      },
+      "prompt": {
+        "en": "Capture the diversity of the neighborhood in a single, respectful street photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:13:16.561623+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

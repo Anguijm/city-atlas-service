@@ -21,11 +21,10 @@ Thank you for your attention to this matter!
 - u/SPAC-ey-McSpacface (34): These have been popping-up all over.  And quietly.   
 
 Hatred of Flock seems to be one of the few issues that Democrats &amp; Republicans seem to agree on, but yet they proliferate still, which may explain the "quietly" part.   FYI, I've noticed these in Heber recently too.
-- u/rdrivel (14): whats the law on these? if we cover the lens a few feet out with a photo of trump or JD so thats all it captures, is that... illegal?
+- u/rdrivel (15): whats the law on these? if we cover the lens a few feet out with a photo of trump or JD so thats all it captures, is that... illegal?
 - u/Winter-Invite-2803 (7): Flock SAYS that they don’t share data. The user determines what agencies they share data with. In some cases, individual officers have shared data to other agencies without authorization. 
 So, simply stating that Flock data isn’t shared with Feds is untrue. 
 Regardless of whether ICE will cuff up your landscaper….Flock sucks. It’s an outright invasion of American citizens 4th amendment rights. Even if Flock were perfectly secure .. do you trust everyone at PCPD with the data ?
-- u/tbell2000 (5): Park City seems to operate another type of solar license plate camera that looks very similar too, there’s one at the top of Marsac and Wheaton and another right after the roundabout.
 
 ## Is it just me or is Park City kind of boring?
 
@@ -49,9 +48,11 @@ Does anyone else feel the same way?
 
 - u/ImpossibleIndustry49 (77): It’s a small mountain town. Of course it’s “boring”. I think that’s why most people like it.
 - u/Remarkable-Self2268 (67): You moved to a Ski town and somehow expected it to be a medium city feel. Your expectations were way off from reality. This seems like a you problem in what you’re describing.
-- u/tuocyn (47): You have to branch out and go down to SLC if you want any diversity and a "city" feel. Of course PC doesn't have a city vibe; its permanent population is like 10k. I love Park City but you need serious outdoor hobbies to stay busy
-- u/lukesaskier (35): you not skiing in the best ski town in america is a you problem lol
-- u/Fabulous_Yesterday77 (14): I assure you there are wayyyy worse places to be stationed in the US.
+- u/tuocyn (48): You have to branch out and go down to SLC if you want any diversity and a "city" feel. Of course PC doesn't have a city vibe; its permanent population is like 10k. I love Park City but you need serious outdoor hobbies to stay busy
+- u/lukesaskier (37): you not skiing in the best ski town in america is a you problem lol
+- u/Herr_Tilke (14): It's certainly not all sunshine and rainbows here. Generally, most of the local workforce is making significant sacrifices to enjoy the lifestyle Park City can offer. It helps if you have lots of disposable income and even more free time. 
+
+Life is good here in the summers, so I hope you are looking forward to that.
 
 ## 2026 DV World Cup likely cancelled due to lack of snow.
 
@@ -63,8 +64,8 @@ TLDR, Moguls are heading to Waterville Valley in NH and aerials to Lake Placid i
 
 ### Top comments
 
-- u/Meddy020 (8): It’s not for another month lol ?
-- u/ssaall58214 (7): Honestly for some reason I think it's going to be dumping in January
+- u/Meddy020 (10): It’s not for another month lol ?
+- u/ssaall58214 (8): Honestly for some reason I think it's going to be dumping in January
 - u/-QuestionMark- (6): Apparently word came down from up high over the last few days.  
 
 Expect a formal announcement soon.
@@ -102,9 +103,9 @@ Thank you for attending my TED talk.
 
 ### Top comments
 
-- u/-QuestionMark- (10): Slow day at the office? 8-)
+- u/-QuestionMark- (9): Slow day at the office? 8-)
 - u/ollieastic (9): This is the kind of content I subscribe to this sub for.
-- u/williampsmithjones (5): Riddle me this: unless it’s a one-way street, what road has only one main travel direction?
+- u/williampsmithjones (6): Riddle me this: unless it’s a one-way street, what road has only one main travel direction?
 
 ## Warning for Anyone Hiring a Landscape Architect/Installer: Our Experience with Open Range
 
@@ -133,4 +134,3 @@ Would strongly recommend avoiding this company. They do not stand behind their w
 ### Top comments
 
 - u/SignificantDivide449 (7): We should start a reddit for the worst business's  in Park City, maybe then these companies will start doing the right thing, did you know that each company has a different price list for each community, like the colonies would be a much pricier job than say Pinebrook, it's all a scam.
-- u/Sea_Egg1137 (6): I’m so sorry about this. Thanks for the heads up. Did they get a permit from the City?

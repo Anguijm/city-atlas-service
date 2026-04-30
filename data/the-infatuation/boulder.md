@@ -1,5 +1,120 @@
 # The Infatuation: Boulder, United States
 
+## Finder results (geo-scoped)
+
+What are you looking for?
+
+FILTERS
+
+ALL
+
+SPOTS
+
+GUIDES
+
+SORT
+
+MOST RELEVANT
+
+ACCEPTS ONLINE RESERVATIONS
+
+Showing results 1-14 of 14
+
+in  
+
+Infatuation
+The Best Restaurants In Boulder, Colorado
+
+APRIL 10, 2026
+
+The Sink
+BAR
+PIZZA
+BOULDER
+$
+$
+$
+$
+Nepal House
+NEPALI
+BOULDER
+$
+$
+$
+$
+Il Pastaio
+ITALIAN
+BOULDER
+$
+$
+$
+$
+Stella's Cucina
+ITALIAN
+BOULDER
+$
+$
+$
+$
+Rincón Argentino
+ARGENTINIAN
+BOULDER
+$
+$
+$
+$
+The Ginger Pig
+CHINESE
+SOUTHEAST ASIAN
+BOULDER
+$
+$
+$
+$
+Cozobi Fonda Fina
+MEXICAN
+BOULDER
+$
+$
+$
+$
+Woodgrain Bagels
+BAGELS
+BOULDER
+$
+$
+$
+$
+Blackbelly
+AMERICAN
+BOULDER
+$
+$
+$
+$
+Frasca Food And Wine
+ITALIAN
+BOULDER
+$
+$
+$
+$
+Where To Eat Near Zilker Park
+
+SEPTEMBER 23, 2025
+
+Where To Eat After Swimming In Barton Springs
+
+JANUARY 29, 2024
+
+We Talked To Savor Seattle’s Founder On Supporting Black-Owned Businesses Through Their Solidarity Boxes
+
+JULY 25, 2020
+
+Show saved results
+
+## City page (venue reviews)
+
 The Best Restaurants In Boulder, Colorado
 Black Cat Farm
 AMERICAN
@@ -64,22 +179,22 @@ ALLYSON REEDY
 
 APRIL 9, 2026
 
+Blackbelly
+AMERICAN
+BOULDER
+
+Blackbelly is to meat as Red Rocks Amphitheatre is to live music.
+
+ALLYSON REEDY
+
+APRIL 9, 2026
+
 The Sink
 BAR
 PIZZA
 BOULDER
 
 For a crash course in Boulder, the 100-plus-year-old The Sink is the most iconic spot in town.
-
-ALLYSON REEDY
-
-APRIL 9, 2026
-
-Blackbelly
-AMERICAN
-BOULDER
-
-Blackbelly is to meat as Red Rocks Amphitheatre is to live music.
 
 ALLYSON REEDY
 

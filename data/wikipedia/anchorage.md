@@ -16,6 +16,22 @@ Oscar Anderson House Museum
 Wells Fargo Alaska Heritage Library & Museum
 The city of Anchorage provides three municipal facilities large enough to hold major events such as concerts, trade shows and conventions. Downtown facilities include the Alaska Center for the Performing Arts, William A. Egan Civic & Convention Center and the recently completed Dena'ina Civic and Convention Center, which will be connected via skybridge to form the Anchorage Civic & Convention District. The Sullivan Arena hosts sporting events as well as concerts and annual trade shows.
 
+## Sports
+
+Ceremonial start of the Iditarod Trail Sled Dog Race, in downtown Anchorage
+Anchorage Golf Course
+National attention focuses on Anchorage on the first Saturday of each March, when the Iditarod Trail Sled Dog Race kicks off with its ceremonial start downtown on Fourth Avenue. Anchorage is also home to the Fur Rendezvous Open World Championship Sled Dog Races, a three-day dog sled sprint event consisting of three timed races of 25.5 mi (41.0 km) each. Held each February, the event is part of the annual Fur Rendezvous, a winter sports carnival.
+Anchorage is home to three teams in the Alaska Baseball League: the Anchorage Bucs and Anchorage Glacier Pilots, which both play at Mulcahy Stadium, and the Chugiak-Eagle River Chinooks based at Lee Jordan Field in Chugiak.
+Anchorage has no professional sports teams. The most recent to call the city home was the Alaska Aces of the ECHL. The Aces were very successful during their time in Anchorage, claiming three league titles, four conference championships, and eight division championship during their 29-year history (1989–2017). The Aces affiliated with various National Hockey League teams, including the Calgary Flames, Minnesota Wild, and Vancouver Canucks. After the 2016–17 season, the team ceased operations and was sold to a group in Portland, Maine, where it became the Maine Mariners in the 2018–19 season. In 2021, the NAHL approved the addition of an expansion team in Anchorage. The expansion team, named the Anchorage Wolverines, began competing in the Midwest Division for the 2021–22 season.
+The University of Alaska Anchorage Seawolves are a member of the National Collegiate Athletic Association. UAA has Division I teams in gymnastics and hockey, as well as several other Division II teams. UAA sponsors the annual Great Alaska Shootout, an annual NCAA Division I basketball tournament featuring colleges and universities from across the United States along with the UAA team.
+Anchorage is the finish line for the Sadler's Ultra Challenge wheelchair race.
+The city hosts four rugby clubs: the Bird Creek Barbarians RFC, the Anchorage Thunderbirds, the Mat Valley Maulers RFC, and the Spenard Green Dragons. The season runs from April through September.
+The Anchorage Northern Knights gained national attention when they joined the eight-team Eastern Basketball Association in 1977, a league whose nearest competitor was 5,000 mi (8,000 km) from Anchorage. The Knights captured the 1979–80 league championship, and featured several players who would play in the NBA, most notably Brad Davis, a future player and broadcaster for the Dallas Mavericks. They competed in the renamed Continental Basketball Association for five seasons until the economic recession ended their run in 1982.
+The city was the U.S. candidate for hosting the 1992 and 1994 Winter Olympics, but lost to Albertville, France, and Lillehammer, Norway, respectively. Anchorage is a premier cross-country skiing city, in terms of density of groomed trails within the urban core. There are 105 mi (169 km) of maintained ski trails in the city, some of which reach downtown. The same trail system also provides access to Chugach State Park, a 495,000-acre (200,000 ha) high alpine park. The Tour of Anchorage is an annual 50-kilometer ski race within the city and was the Host for the 2009 and 2010 US Senior National Cross Country Ski Championship.
+Anchorage is also home to Alaska's first WFTDA flat track women's roller derby league, the Rage City Rollergirls.
+The Anchorage Football Stadium is also a noteworthy sports venue.
+The 1989 World Junior Ice Hockey Championships was played in Anchorage.
+
 ## Parks, gardens, and wildlife refuges
 
 Alaska Native Heritage Center
