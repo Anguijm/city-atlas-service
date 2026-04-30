@@ -23,6 +23,9 @@ const app = getApps().length
       projectId: process.env.GOOGLE_CLOUD_PROJECT || "urban-explorer-483600",
     });
 const db = getFirestore(app, "urbanexplorer");
+// Gemini research output sometimes emits undefined for optional numeric fields
+// (e.g. trending_score). Firestore rejects undefined; silently drop such fields.
+db.settings({ ignoreUndefinedProperties: true });
 
 interface LocalizedText {
   en: string;
