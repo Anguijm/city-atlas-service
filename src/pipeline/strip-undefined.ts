@@ -10,10 +10,23 @@ export function stripUndefined(obj: Record<string, unknown>): Record<string, unk
   return Object.fromEntries(
     Object.entries(obj)
       .filter(([, v]) => v !== undefined)
-      .map(([k, v]) =>
-        v !== null && typeof v === "object" && !Array.isArray(v)
-          ? [k, stripUndefined(v as Record<string, unknown>)]
-          : [k, v]
-      )
+      .map(([k, v]) => [k, stripValue(v)])
   );
+}
+
+function stripValue(v: unknown): unknown {
+  if (Array.isArray(v)) {
+    // Remove undefined elements and recurse into any nested objects.
+    return v
+      .filter((el) => el !== undefined)
+      .map((el) =>
+        el !== null && typeof el === "object" && !Array.isArray(el)
+          ? stripUndefined(el as Record<string, unknown>)
+          : el
+      );
+  }
+  if (v !== null && typeof v === "object") {
+    return stripUndefined(v as Record<string, unknown>);
+  }
+  return v;
 }

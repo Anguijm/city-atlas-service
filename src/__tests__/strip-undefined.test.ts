@@ -17,9 +17,21 @@ describe("stripUndefined", () => {
     expect(stripUndefined(input)).toEqual({ name: { en: "Foo" }, details: { label: "bar" } });
   });
 
-  it("does not modify arrays", () => {
+  it("preserves defined array elements", () => {
     const input = { tags: ["a", "b"], score: undefined };
     expect(stripUndefined(input)).toEqual({ tags: ["a", "b"] });
+  });
+
+  it("strips undefined elements from arrays", () => {
+    const input = { items: [undefined, "a", undefined, "b"] };
+    expect(stripUndefined(input)).toEqual({ items: ["a", "b"] });
+  });
+
+  it("recursively strips objects nested inside arrays", () => {
+    const input = { waypoints: [{ name: "Foo", score: undefined }, { name: "Bar", lat: 1.0 }] };
+    expect(stripUndefined(input)).toEqual({
+      waypoints: [{ name: "Foo" }, { name: "Bar", lat: 1.0 }],
+    });
   });
 
   it("handles fully undefined nested object", () => {
