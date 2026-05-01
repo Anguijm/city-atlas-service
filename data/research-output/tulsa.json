@@ -1,0 +1,762 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "tulsa",
+      "name": {
+        "en": "The Downtown Core"
+      },
+      "summary": {
+        "en": "A dynamic juxtaposition of old and new, from the lively, music-filled streets of the Arts District to the historically significant and contemplative atmosphere of the Greenwood District."
+      },
+      "lat": 36.157,
+      "lng": -95.9904,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district",
+      "city_id": "tulsa",
+      "name": {
+        "en": "The Pearl District"
+      },
+      "summary": {
+        "en": "Gritty, authentic, and creative, this district offers a glimpse into the city's working-class roots and its burgeoning musical legacy through the creative reuse of industrial spaces."
+      },
+      "lat": 36.152,
+      "lng": -95.979,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown",
+      "city_id": "tulsa",
+      "name": {
+        "en": "Midtown's Green Oasis"
+      },
+      "summary": {
+        "en": "Tranquil, refined, and lush, this area showcases Tulsa's reputation as a green city with its manicured gardens, stately architecture, and the opulent history funded by oil money."
+      },
+      "lat": 36.1265,
+      "lng": -95.974,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-enr-neff-brewing",
+      "city_id": "tulsa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Neff Brewing"
+      },
+      "description": {
+        "en": "A local-favorite brewery and unpretentious spot to connect with the city's activist and social scene over a craft beer."
+      },
+      "type": "drink",
+      "lat": 36.1523,
+      "lng": -95.9893,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-enr-cain-s-ballroom",
+      "city_id": "tulsa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Cain's Ballroom"
+      },
+      "description": {
+        "en": "An iconic, world-renowned music venue and the birthplace of Western Swing. The building itself is a landmark of music history."
+      },
+      "type": "nightlife",
+      "lat": 36.1593,
+      "lng": -95.9922,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-enr-guthrie-green",
+      "city_id": "tulsa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Guthrie Green"
+      },
+      "description": {
+        "en": "An urban park that serves as the district's backyard, hosting free concerts, markets, and community events with great views of the neighborhood."
+      },
+      "type": "nature",
+      "lat": 36.157,
+      "lng": -95.9904,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-enr-greenwood-rising-history-center",
+      "city_id": "tulsa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Greenwood Rising History Center"
+      },
+      "description": {
+        "en": "A state-of-the-art center offering a powerful, immersive look at the history of the Greenwood District and the spirit of Black Wall Street."
+      },
+      "type": "culture",
+      "lat": 36.1565,
+      "lng": -95.9881,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-enr-oneok-field",
+      "city_id": "tulsa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "ONEOK Field"
+      },
+      "description": {
+        "en": "Home of the Tulsa Drillers minor league baseball team, its modern architecture contrasts sharply with the historic surroundings of Greenwood."
+      },
+      "type": "landmark",
+      "lat": 36.1578,
+      "lng": -95.9873,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-enr-the-church-studio",
+      "city_id": "tulsa",
+      "neighborhood_id": "pearl-district",
+      "name": {
+        "en": "The Church Studio"
+      },
+      "description": {
+        "en": "A historic church converted into a world-famous recording studio by Leon Russell, becoming the epicenter of the 'Tulsa Sound'."
+      },
+      "type": "hidden_gem",
+      "lat": 36.1522,
+      "lng": -95.979,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-enr-art-deco-architecture",
+      "city_id": "tulsa",
+      "neighborhood_id": "pearl-district",
+      "name": {
+        "en": "Art Deco Architecture"
+      },
+      "description": {
+        "en": "The streets connecting downtown to the Pearl feature many smaller-scale Art Deco and Streamline Moderne buildings, making the walk itself an architectural tour."
+      },
+      "type": "landmark",
+      "lat": 36.151,
+      "lng": -95.975,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-enr-woodward-park",
+      "city_id": "tulsa",
+      "neighborhood_id": "midtown",
+      "name": {
+        "en": "Woodward Park"
+      },
+      "description": {
+        "en": "A 45-acre public park that feels like a private estate garden, this botanical wonderland is a favorite spot for locals to unwind."
+      },
+      "type": "nature",
+      "lat": 36.1265,
+      "lng": -95.974,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-enr-philbrook-museum-of-art-gardens",
+      "city_id": "tulsa",
+      "neighborhood_id": "midtown",
+      "name": {
+        "en": "Philbrook Museum of Art Gardens"
+      },
+      "description": {
+        "en": "Housed in a 1920s Tuscan-style villa, the museum's 25 acres of breathtaking formal and informal gardens are a prize for any urban explorer."
+      },
+      "type": "nature",
+      "lat": 36.1215,
+      "lng": -95.9765,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-enr-historic-residential-streets",
+      "city_id": "tulsa",
+      "neighborhood_id": "midtown",
+      "name": {
+        "en": "Historic Residential Streets"
+      },
+      "description": {
+        "en": "Wandering the streets surrounding the parks reveals stunning historic homes from the 1920s and 30s, offering a free architectural tour."
+      },
+      "type": "landmark",
+      "lat": 36.124,
+      "lng": -95.977,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-enr-tulsa-municipal-rose-garden",
+      "city_id": "tulsa",
+      "neighborhood_id": "midtown",
+      "name": {
+        "en": "Tulsa Municipal Rose Garden"
+      },
+      "description": {
+        "en": "Located within Woodward Park, this beautiful garden is a perfect spot to admire colorful blooms, especially in the early morning or late afternoon light."
+      },
+      "type": "nature",
+      "lat": 36.1255,
+      "lng": -95.9735,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-enr-linnaeus-teaching-gardens",
+      "city_id": "tulsa",
+      "neighborhood_id": "midtown",
+      "name": {
+        "en": "Linnaeus Teaching Gardens"
+      },
+      "description": {
+        "en": "A section of Woodward Park dedicated to botanical education, where you can discover a wide variety of vegetables, herbs, and flowers."
+      },
+      "type": "nature",
+      "lat": 36.1275,
+      "lng": -95.9745,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a historic brick building right next to a modern glass or steel structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of public street art or a sculpture and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Find a poster or sign for a live music event and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Reflective Moment"
+      },
+      "prompt": {
+        "en": "Take a picture of the neighborhood's reflection in a puddle, a window, or a pair of sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Oasis Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while enjoying one of the neighborhood's urban parks or green spaces."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Taste of Tulsa"
+      },
+      "prompt": {
+        "en": "Photograph your coffee, beer, or snack from a local downtown spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Find a building that's over 50 years old and take a close-up of an interesting architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Capture a photo of a cool neon or vintage-style sign for a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "A Story of Resilience"
+      },
+      "prompt": {
+        "en": "Find a plaque, monument, or piece of art that speaks to the history of the area and capture its message."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at one of the district's tall buildings against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a scene of people gathering and enjoying a public space together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Patterns on the Path"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern on the sidewalk, a brick wall, or a building facade and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-1",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Find a textured surface like corrugated metal, old brick, or peeling paint and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-2",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "New Life for Old Bones"
+      },
+      "prompt": {
+        "en": "Photograph a building that was clearly industrial (like a warehouse or garage) but is now used for something new and creative."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-3",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Gritty Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the authentic, industrial character of the Pearl District in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-4",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Vintage Find"
+      },
+      "prompt": {
+        "en": "Spot something that looks like a vintage treasure—a piece of furniture, an old sign, a classic car—and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-5",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Art in Unexpected Places"
+      },
+      "prompt": {
+        "en": "Find a piece of street art on a garage door, an electrical box, or another non-traditional canvas."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-6",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Echoes of Music"
+      },
+      "prompt": {
+        "en": "Capture a photo of a place that looks like it has a musical soul, whether it's a studio, a dive bar, or just a cool looking doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-7",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Handmade Signage"
+      },
+      "prompt": {
+        "en": "Find a unique, hand-painted or custom-made sign for a local business and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-8",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Industrial Silhouette"
+      },
+      "prompt": {
+        "en": "Take a photo of the silhouette of an industrial building or structure against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-9",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Hidden Gem Hunter"
+      },
+      "prompt": {
+        "en": "Photograph a small detail or a hidden spot that most people would probably walk right past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-10",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Nature vs. Industry"
+      },
+      "prompt": {
+        "en": "Find a plant, tree, or patch of grass growing in an industrial setting (like through a crack in the concrete) and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-11",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Monochrome Mood"
+      },
+      "prompt": {
+        "en": "Take a black and white photo that emphasizes the shadows, shapes, and textures of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "pearl-district-task-12",
+      "neighborhood_id": "pearl-district",
+      "title": {
+        "en": "Art Deco Detail"
+      },
+      "prompt": {
+        "en": "Find a building with an Art Deco or Streamline Moderne detail (like curved corners or zigzag patterns) and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-1",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Garden Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a beautiful backdrop of flowers, trees, or a manicured garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-2",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Dream Home"
+      },
+      "prompt": {
+        "en": "Find a historic home that you find particularly beautiful and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-3",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Flower Close-Up"
+      },
+      "prompt": {
+        "en": "Find the most interesting flower you can and take a macro (super close-up) photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-4",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Architectural Accent"
+      },
+      "prompt": {
+        "en": "Photograph a unique architectural detail on a house, like a colorful door, a strange turret, or an interesting gate."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-5",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Shady Spot"
+      },
+      "prompt": {
+        "en": "Capture the way sunlight filters through the leaves of a large, old tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-6",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Path to Somewhere"
+      },
+      "prompt": {
+        "en": "Take a photo of an inviting garden path, walkway, or set of steps."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-7",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Symmetry in Nature"
+      },
+      "prompt": {
+        "en": "Find a symmetrical view in a formal garden or park and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-8",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Find a peaceful-looking bench and take a photo from its perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-9",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Lush & Green"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by the color green to capture the lushness of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-10",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Water Feature"
+      },
+      "prompt": {
+        "en": "Find a fountain, pond, or birdbath and take a creative picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-11",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Curb Appeal"
+      },
+      "prompt": {
+        "en": "Photograph a home's charming entrance, focusing on the front door, porch, or entryway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    },
+    {
+      "id": "midtown-task-12",
+      "neighborhood_id": "midtown",
+      "title": {
+        "en": "Tree Giant"
+      },
+      "prompt": {
+        "en": "Find the largest, most majestic tree you can and take a photo from its base looking up to the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:08:01.523153+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

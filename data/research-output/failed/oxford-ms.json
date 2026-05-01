@@ -1,0 +1,812 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-square",
+      "city_id": "oxford-ms",
+      "name": {
+        "en": "The Historic Square"
+      },
+      "summary": {
+        "en": "The classic, beating heart of Oxford, centered on the stately courthouse. It's a place for slow strolls, browsing legendary bookshops, and uncovering stories hidden in plain sight."
+      },
+      "lat": 34.3665,
+      "lng": -89.5186,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road",
+      "city_id": "oxford-ms",
+      "name": {
+        "en": "Cowley Road"
+      },
+      "summary": {
+        "en": "Energetic, eclectic, and unapologetically multicultural, Cowley Road is Oxford’s culinary artery. This walk is a sensory experience, filled with the scent of spices and a bohemian, creative spirit."
+      },
+      "lat": 34.365,
+      "lng": -89.51,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho",
+      "city_id": "oxford-ms",
+      "name": {
+        "en": "Jericho"
+      },
+      "summary": {
+        "en": "A village within the city, Jericho is a charming tangle of Victorian terraced streets and tranquil canal paths. It feels more relaxed and residential, with a slightly bohemian, intellectual air."
+      },
+      "lat": 34.372,
+      "lng": -89.525,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-square-enr-the-white-rabbit",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "historic-square",
+      "name": {
+        "en": "The White Rabbit"
+      },
+      "description": {
+        "en": "Tucked away in a historic alley, this cozy, independent pub is a haven for pizza and beer lovers with a lively, local atmosphere."
+      },
+      "type": "hidden_gem",
+      "lat": 34.367,
+      "lng": -89.518,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-enr-formosan-tea-bar",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "historic-square",
+      "name": {
+        "en": "Formosan Tea Bar"
+      },
+      "description": {
+        "en": "A small, dedicated bubble tea bar that takes its craft seriously, using high-quality ingredients and perfectly brewed teas."
+      },
+      "type": "drink",
+      "lat": 34.3662,
+      "lng": -89.5185,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-enr-edamame",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "historic-square",
+      "name": {
+        "en": "Edamamé"
+      },
+      "description": {
+        "en": "A tiny, beloved Japanese kitchen that locals queue for, with a daily changing menu and legendary Thursday sushi."
+      },
+      "type": "food",
+      "lat": 34.3675,
+      "lng": -89.519,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-enr-square-books",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "historic-square",
+      "name": {
+        "en": "Square Books"
+      },
+      "description": {
+        "en": "More than a bookstore, this is a cultural institution with three floors of beautifully curated books and a balcony overlooking the Square."
+      },
+      "type": "culture",
+      "lat": 34.366,
+      "lng": -89.5192,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-enr-j-e-neilson-co",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "historic-square",
+      "name": {
+        "en": "J. E. Neilson Co."
+      },
+      "description": {
+        "en": "The South’s oldest documented store, founded in 1839. This department store survived the burning of Oxford and retains a classic charm."
+      },
+      "type": "landmark",
+      "lat": 34.3668,
+      "lng": -89.5193,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-enr-lyric-theater",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "historic-square",
+      "name": {
+        "en": "Lyric Theater"
+      },
+      "description": {
+        "en": "Once a 1920s cinema and a livery stable owned by William Faulkner's family, it's now a premier live music venue with a restored marquee."
+      },
+      "type": "culture",
+      "lat": 34.3655,
+      "lng": -89.5196,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-enr-peloton-espresso",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "cowley-road",
+      "name": {
+        "en": "Peloton Espresso"
+      },
+      "description": {
+        "en": "A relaxed cafe that combines two passions: cycling and coffee. The top-tier banana bread is the perfect fuel for a day of walking."
+      },
+      "type": "drink",
+      "lat": 34.3651,
+      "lng": -89.5101,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-enr-taste-tibet",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "cowley-road",
+      "name": {
+        "en": "Taste Tibet"
+      },
+      "description": {
+        "en": "A much-loved local legend serving street food from the 'top of the world,' famous for its incredible momo dumplings and fiery chili sauce."
+      },
+      "type": "hidden_gem",
+      "lat": 34.3655,
+      "lng": -89.509,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-enr-dosa-darlings",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "cowley-road",
+      "name": {
+        "en": "Dosa Darlings"
+      },
+      "description": {
+        "en": "A fantastic South Indian restaurant perfect for any occasion, where the dosas are the star and the entire menu is packed with authentic flavors."
+      },
+      "type": "food",
+      "lat": 34.3647,
+      "lng": -89.5095,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-enr-the-oxford-blue",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "cowley-road",
+      "name": {
+        "en": "The Oxford Blue"
+      },
+      "description": {
+        "en": "A true hidden gem; what looks like a traditional pub is actually a fully vegan restaurant specializing in incredible pizzas and small plates."
+      },
+      "type": "hidden_gem",
+      "lat": 34.366,
+      "lng": -89.511,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-enr-101-coffee",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "jericho",
+      "name": {
+        "en": "101 Coffee"
+      },
+      "description": {
+        "en": "Also known as Edge, this is a sleek, minimalist coffee shop for 'proper coffee nerds,' focusing on expertly prepared, high-quality coffee."
+      },
+      "type": "drink",
+      "lat": 34.3721,
+      "lng": -89.5251,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-enr-the-perch",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "jericho",
+      "name": {
+        "en": "The Perch"
+      },
+      "description": {
+        "en": "A historic, 17th-century thatched-roof pub with a gorgeous garden that feels like a country escape just minutes from the city."
+      },
+      "type": "food",
+      "lat": 34.373,
+      "lng": -89.53,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-enr-oxford-canal-towpath",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "jericho",
+      "name": {
+        "en": "Oxford Canal Towpath"
+      },
+      "description": {
+        "en": "Discover a hidden, peaceful side of the city with a beautiful walk past colorful narrowboats and quiet water."
+      },
+      "type": "nature",
+      "lat": 34.372,
+      "lng": -89.526,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-enr-port-meadow",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "jericho",
+      "name": {
+        "en": "Port Meadow"
+      },
+      "description": {
+        "en": "A vast, ancient pasture where horses and cattle graze freely, offering a lungful of fresh air and open space."
+      },
+      "type": "nature",
+      "lat": 34.3735,
+      "lng": -89.531,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-enr-godstow-abbey-ruins",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "jericho",
+      "name": {
+        "en": "Godstow Abbey Ruins"
+      },
+      "description": {
+        "en": "The historic ruins of a former nunnery, located a short walk across Port Meadow, offering a glimpse into the area's ancient past."
+      },
+      "type": "hidden_gem",
+      "lat": 34.374,
+      "lng": -89.532,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-square-task-1",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Literary Ghost"
+      },
+      "prompt": {
+        "en": "Take a photo that looks like it could be the cover of a Southern Gothic novel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-2",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph an interesting detail on one of the historic buildings around the Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-3",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Explore a side street or alley and capture a shot of a place that feels like a hidden secret."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-4",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Living History Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a building that's over 100 years old."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-5",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Storyteller's View"
+      },
+      "prompt": {
+        "en": "Frame a photo of the Square through a window, archway, or from a unique perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-6",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Find a Plaque"
+      },
+      "prompt": {
+        "en": "Locate and photograph a historical marker or plaque that tells a story about the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-7",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting patterns made by shadows on a historic facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-8",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "The Reading Nook"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or corner that looks like the perfect spot to sit and read a book."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-9",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Photograph a food or drink item that feels quintessentially Southern."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-10",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo of the storefront or sign of a fiercely independent local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-11",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows a contrast between the historic and the modern."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "historic-square-task-12",
+      "neighborhood_id": "historic-square",
+      "title": {
+        "en": "Heart of the Town"
+      },
+      "prompt": {
+        "en": "Take a wide shot that captures the bustling energy of the central Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-1",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Global Kitchen"
+      },
+      "prompt": {
+        "en": "Photograph a dish from a cuisine you've never tried before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-2",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Street Art Statement"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a mural that you feel best represents the neighborhood's vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-3",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Multicultural Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a sign or storefront that's in a language you don't speak."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-4",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Sensory Overload"
+      },
+      "prompt": {
+        "en": "Try to capture the energetic, eclectic, and colorful feeling of the street in a single photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-5",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Bohemian Spirit"
+      },
+      "prompt": {
+        "en": "Photograph a detail that showcases the creative, bohemian spirit of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-6",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "World of Flavors"
+      },
+      "prompt": {
+        "en": "Find a shop selling international groceries and photograph its colorful window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-7",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Menu Explorer"
+      },
+      "prompt": {
+        "en": "Find a restaurant menu posted outside that looks incredibly delicious and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-8",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Hidden Canvas"
+      },
+      "prompt": {
+        "en": "Venture down a side street and find a piece of graffiti or street art that most people would miss."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-9",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Street Style"
+      },
+      "prompt": {
+        "en": "Capture a unique or interesting piece of street fashion you spot on a passerby."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-10",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Sounds of the Street"
+      },
+      "prompt": {
+        "en": "Take a photo that you think best represents the mix of different languages and sounds on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-11",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Fuel Stop Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a coffee, pastry, or snack from one of the area's independent cafes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "cowley-road-task-12",
+      "neighborhood_id": "cowley-road",
+      "title": {
+        "en": "Worlds Collide"
+      },
+      "prompt": {
+        "en": "Capture an image that shows two different cultures existing side-by-side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-1",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Doorway to Jericho"
+      },
+      "prompt": {
+        "en": "Find the most charming and colorful front door on one of the Victorian terraced streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-2",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Canal Reflections"
+      },
+      "prompt": {
+        "en": "Capture a beautiful reflection of a narrowboat or building in the still canal water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-3",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Village Vibe Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet, leafy street that captures the 'village within the city' feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-4",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Intellectual Air"
+      },
+      "prompt": {
+        "en": "Take a photo that you think captures the bohemian, intellectual atmosphere of Jericho."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-5",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Sweet Escape"
+      },
+      "prompt": {
+        "en": "Photograph a delicious-looking cake or pastry in a cafe window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-6",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Waterside Wander"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot along the canal towpath and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-7",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Nature Meets City"
+      },
+      "prompt": {
+        "en": "Capture an image showing the contrast between the neighborhood's houses and the vast open space of Port Meadow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-8",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Cozy Corner Pub"
+      },
+      "prompt": {
+        "en": "Find a pub that looks like the perfect place to spend a rainy afternoon and photograph its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-9",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Blue Plaque Hunter"
+      },
+      "prompt": {
+        "en": "Search the residential streets for a blue plaque commemorating a famous former resident."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-10",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Life on the Water"
+      },
+      "prompt": {
+        "en": "Photograph a narrowboat with a clever or funny name."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-11",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Victorian Details"
+      },
+      "prompt": {
+        "en": "Find and photograph a unique architectural feature on one of the Victorian houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    },
+    {
+      "id": "jericho-task-12",
+      "neighborhood_id": "jericho",
+      "title": {
+        "en": "Golden Hour Meadow"
+      },
+      "prompt": {
+        "en": "If you're here at the right time, capture the long shadows and warm light across Port Meadow at sunrise or sunset."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T21:20:28.598227+00:00"
+    }
+  ]
+}

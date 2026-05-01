@@ -1,0 +1,528 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-ship-creek",
+      "city_id": "anchorage",
+      "name": {
+        "en": "Downtown Core & Ship Creek"
+      },
+      "summary": {
+        "en": "The historic and civic heart of Anchorage with a distinct frontier-town edge. The compact grid reveals layers of history, from early cottages to post-earthquake architecture."
+      },
+      "lat": 61.2181,
+      "lng": -149.8935,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone",
+      "city_id": "anchorage",
+      "name": {
+        "en": "The Coastal & Inlet Zone"
+      },
+      "summary": {
+        "en": "A network of trails and wild coastline where the city dissolves into the immense landscape of the Cook Inlet, offering dramatic tides and skies."
+      },
+      "lat": 61.195,
+      "lng": -149.95,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-ship-creek-enr-midnight-sun-brewing-co",
+      "city_id": "anchorage",
+      "neighborhood_id": "downtown-ship-creek",
+      "name": {
+        "en": "Midnight Sun Brewing Co."
+      },
+      "description": {
+        "en": "The oldest brewery in Anchorage, using glacial-fed water from the Chugach Mountains. It's a foundational piece of the local craft beer scene."
+      },
+      "type": "drink",
+      "lat": 61.2177,
+      "lng": -149.8791,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-enr-snow-city-cafe",
+      "city_id": "anchorage",
+      "neighborhood_id": "downtown-ship-creek",
+      "name": {
+        "en": "Snow City Cafe"
+      },
+      "description": {
+        "en": "A bustling downtown brunch institution beloved by locals for its creative, Alaska-centric menu featuring items like crab omelettes and sockeye salmon cakes."
+      },
+      "type": "food",
+      "lat": 61.2185,
+      "lng": -149.8992,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-enr-oscar-anderson-house-museum",
+      "city_id": "anchorage",
+      "neighborhood_id": "downtown-ship-creek",
+      "name": {
+        "en": "Oscar Anderson House Museum"
+      },
+      "description": {
+        "en": "A preserved 1915 home offering a rare glimpse into Anchorage's pre-statehood origins. It's one of the city's first permanent frame houses."
+      },
+      "type": "culture",
+      "lat": 61.2195,
+      "lng": -149.9041,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-enr-the-ulu-factory",
+      "city_id": "anchorage",
+      "neighborhood_id": "downtown-ship-creek",
+      "name": {
+        "en": "The ULU Factory"
+      },
+      "description": {
+        "en": "A working factory where you can watch artisans craft the iconic, crescent-shaped ulu knives used by Alaska Native peoples for centuries."
+      },
+      "type": "shopping",
+      "lat": 61.2231,
+      "lng": -149.8915,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-enr-iditarod-ceremonial-start-line",
+      "city_id": "anchorage",
+      "neighborhood_id": "downtown-ship-creek",
+      "name": {
+        "en": "Iditarod Ceremonial Start Line"
+      },
+      "description": {
+        "en": "A landmark on Fourth Avenue marking the starting gate for the 'Last Great Race on Earth,' imbued with the spirit of adventure."
+      },
+      "type": "landmark",
+      "lat": 61.218,
+      "lng": -149.893,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-enr-delaney-park-strip",
+      "city_id": "anchorage",
+      "neighborhood_id": "downtown-ship-creek",
+      "name": {
+        "en": "Delaney Park Strip"
+      },
+      "description": {
+        "en": "Originally a firebreak, this 13-block green space is now Anchorage's 'Central Park' and a hub for local life and events."
+      },
+      "type": "nature",
+      "lat": 61.212,
+      "lng": -149.895,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-enr-tony-knowles-coastal-trail",
+      "city_id": "anchorage",
+      "neighborhood_id": "coastal-inlet-zone",
+      "name": {
+        "en": "Tony Knowles Coastal Trail"
+      },
+      "description": {
+        "en": "An 11-mile paved trail offering breathtaking, uninterrupted views of the Cook Inlet, the distant Alaska Range, and the city skyline."
+      },
+      "type": "nature",
+      "lat": 61.218,
+      "lng": -149.91,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-enr-the-kincaid-dune",
+      "city_id": "anchorage",
+      "neighborhood_id": "coastal-inlet-zone",
+      "name": {
+        "en": "The Kincaid Dune"
+      },
+      "description": {
+        "en": "A massive sand dune inside Kincaid Park that rewards climbers with a stunning, elevated panorama of the Cook Inlet and Fire Island."
+      },
+      "type": "viewpoint",
+      "lat": 61.16,
+      "lng": -150.05,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-enr-westchester-lagoon",
+      "city_id": "anchorage",
+      "neighborhood_id": "coastal-inlet-zone",
+      "name": {
+        "en": "Westchester Lagoon"
+      },
+      "description": {
+        "en": "A beautiful, protected waterfowl sanctuary where the city’s greenbelt meets the Coastal Trail, perfect for birdwatching or ice-skating in winter."
+      },
+      "type": "nature",
+      "lat": 61.205,
+      "lng": -149.915,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-ship-creek-task-1",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Frontier Town Contrast"
+      },
+      "prompt": {
+        "en": "Capture a single photo that shows both a historic building and a modern piece of architecture, highlighting the neighborhood's contrasting styles."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-2",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Find a cafe or restaurant menu and take a photo of the most Alaskan-sounding dish or drink on it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-3",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Spirit of the Sled Dog"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking down a long street, imagining the view from a sled dog's perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-4",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Urban Green Space"
+      },
+      "prompt": {
+        "en": "Find a park or green space and take a selfie enjoying a moment of quiet in the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-5",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Earthquake Architecture"
+      },
+      "prompt": {
+        "en": "Photograph a building with a brutalist architectural style, typical of the post-1964 earthquake rebuild."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-6",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Local's Recommendation"
+      },
+      "prompt": {
+        "en": "Ask a local shopkeeper or barista for their favorite thing to do in the neighborhood and write down their answer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-7",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Craftsmanship Close-Up"
+      },
+      "prompt": {
+        "en": "Find an example of local craftsmanship, whether in a shop window or as part of a building, and take a detailed close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-8",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Taste of Anchorage"
+      },
+      "prompt": {
+        "en": "Try a locally brewed beer, coffee, or baked good and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-9",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a plaque, sign, or marker that tells a story about the neighborhood's past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-10",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Civic Heart Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a government or civic building that looks important."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-11",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Record a 10-second audio clip of the ambient sounds of downtown Anchorage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "downtown-ship-creek-task-12",
+      "neighborhood_id": "downtown-ship-creek",
+      "title": {
+        "en": "Street Art Spotting"
+      },
+      "prompt": {
+        "en": "Find and photograph a piece of public art or a colorful mural on a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-1",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Edge of the Wilderness"
+      },
+      "prompt": {
+        "en": "Take a photo that shows where the urban environment (a path, a bench, a sign) meets the wild landscape of the coast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-2",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Mountain Panorama"
+      },
+      "prompt": {
+        "en": "Capture a wide panoramic photo of the distant mountains across the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-3",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Wildlife Watch"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign warning about local wildlife, like moose or bears."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-4",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here during golden hour, take a photo of the light reflecting on the water of the Cook Inlet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-5",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Trail User Silhouette"
+      },
+      "prompt": {
+        "en": "Capture a silhouette of another person (a cyclist, runner, or walker) against the sky or water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-6",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Tidal Flats Texture"
+      },
+      "prompt": {
+        "en": "If the tide is out, take a close-up photo of the unique patterns and textures in the mud or sand of the tidal flats."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-7",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Birdwatcher's View"
+      },
+      "prompt": {
+        "en": "Take a photo of a bird. Any bird! Try to get as close as you can without disturbing it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-8",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Selfie with the Scenery"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most dramatic natural backdrop you can find, whether it's the water, mountains, or forest."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-9",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Nature's Palette"
+      },
+      "prompt": {
+        "en": "Create a small, flat-lay arrangement of natural items you find on the ground (fallen leaves, cool rocks, a piece of driftwood) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-10",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Reflective Moment"
+      },
+      "prompt": {
+        "en": "Find a calm body of water and capture a reflection of the sky, mountains, or city skyline in it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-11",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Sounds of the Coast"
+      },
+      "prompt": {
+        "en": "Record a 10-second audio clip of the sounds of the coast - it could be waves, wind, or birds."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    },
+    {
+      "id": "coastal-inlet-zone-task-12",
+      "neighborhood_id": "coastal-inlet-zone",
+      "title": {
+        "en": "Path to the Horizon"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a long, straight stretch of trail as it disappears into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:20:01.009037+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

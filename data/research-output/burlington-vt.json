@@ -1,0 +1,423 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-burlington",
+      "city_id": "burlington-vt",
+      "name": {
+        "en": "Downtown Burlington"
+      },
+      "summary": {
+        "en": "The city's living room, centered around the pedestrian-only Church Street Marketplace. It's a compact and energetic district with a unique blend of New England charm and progressive, arts-focused energy."
+      },
+      "lat": 44.4771,
+      "lng": -73.2128,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-burlington-enr-honey-road",
+      "city_id": "burlington-vt",
+      "neighborhood_id": "downtown-burlington",
+      "name": {
+        "en": "Honey Road"
+      },
+      "description": {
+        "en": "A local institution and award-winning Eastern Mediterranean restaurant serving vibrant mezze, dips, and breads designed for sharing."
+      },
+      "type": "food",
+      "lat": 44.4761,
+      "lng": -73.2129,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-enr-episcopal-cathedral-church-of-st-paul",
+      "city_id": "burlington-vt",
+      "neighborhood_id": "downtown-burlington",
+      "name": {
+        "en": "Episcopal Cathedral Church of St. Paul"
+      },
+      "description": {
+        "en": "A striking and unexpected piece of Brutalist architecture whose stark, geometric concrete form stands in bold contrast to the city's brick buildings."
+      },
+      "type": "landmark",
+      "lat": 44.4795,
+      "lng": -73.2153,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-enr-the-howard-mortuary-chapel",
+      "city_id": "burlington-vt",
+      "neighborhood_id": "downtown-burlington",
+      "name": {
+        "en": "The Howard Mortuary Chapel"
+      },
+      "description": {
+        "en": "A lavish and ornate gem of High Victorian Gothic architecture from 1882 that feels like it was plucked from a forgotten fairytale."
+      },
+      "type": "hidden_gem",
+      "lat": 44.4842,
+      "lng": -73.2211,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-enr-church-street-marketplace",
+      "city_id": "burlington-vt",
+      "neighborhood_id": "downtown-burlington",
+      "name": {
+        "en": "Church Street Marketplace"
+      },
+      "description": {
+        "en": "The pedestrian-only heart of Burlington, a vibrant four-block hub for shopping, dining, and observing the city's unique character."
+      },
+      "type": "landmark",
+      "lat": 44.4778,
+      "lng": -73.2125,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-enr-nectar-s",
+      "city_id": "burlington-vt",
+      "neighborhood_id": "downtown-burlington",
+      "name": {
+        "en": "Nectar's"
+      },
+      "description": {
+        "en": "The legendary bar with an iconic orange sign where the band Phish played their first gigs, a cornerstone of Burlington's music history."
+      },
+      "type": "nightlife",
+      "lat": 44.4753,
+      "lng": -73.2121,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-enr-leunigs-bistro",
+      "city_id": "burlington-vt",
+      "neighborhood_id": "downtown-burlington",
+      "name": {
+        "en": "Leunig’s Bistro"
+      },
+      "description": {
+        "en": "A long-standing French-inspired spot whose outdoor patio is the ultimate perch for people-watching on the Church Street Marketplace."
+      },
+      "type": "food",
+      "lat": 44.4768,
+      "lng": -73.2129,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-enr-lakeview-cemetery",
+      "city_id": "burlington-vt",
+      "neighborhood_id": "downtown-burlington",
+      "name": {
+        "en": "Lakeview Cemetery"
+      },
+      "description": {
+        "en": "A historic cemetery offering a pleasant walk from the downtown core, home to the stunning Howard Mortuary Chapel."
+      },
+      "type": "landmark",
+      "lat": 44.4835,
+      "lng": -73.2205,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-burlington-task-1",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Historic Meets Modern"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a historic brick building right next to a modern storefront or piece of art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-2",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "The Color of Burlington"
+      },
+      "prompt": {
+        "en": "Find a scene dominated by a single, vibrant color and take a striking photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-3",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Street Art Story"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a mural and take a photo that tells a story about it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-4",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Reflection Perfection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a Burlington street scene in a shop window, a puddle, or a pair of sunglasses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-5",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Architectural Close-Up"
+      },
+      "prompt": {
+        "en": "Take a detailed, close-up photo of an interesting texture you find on a building, door, or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-6",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph an interesting or dramatic shadow cast by a person, building, or bicycle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-7",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Take a picture of a unique, artistic, or beautifully designed sign for an independent business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-8",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Find a Hidden Alley"
+      },
+      "prompt": {
+        "en": "Document a quiet alley or small side street you discover off the main path."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-9",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Gilded Age Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph an ornate architectural detail on a building that looks like it's from another era."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-10",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Vermont Vernacular"
+      },
+      "prompt": {
+        "en": "Find a sign or menu that uses a word or phrase that feels uniquely Vermont (hint: look for 'maple' or 'creemee')."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-11",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "The Local Uniform"
+      },
+      "prompt": {
+        "en": "Take a subtle photo that captures the quintessential Burlington local's style. Does it involve flannel?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-12",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Canine Citizen"
+      },
+      "prompt": {
+        "en": "Photograph a happy dog enjoying city life with its owner."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-13",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "The Contemplative Moment"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of someone reading, working on a laptop, or just thinking in a public cafe or park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-14",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Street Performer Spotlight"
+      },
+      "prompt": {
+        "en": "Find a street musician or performer and capture the energy of their act in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-15",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Coffee Culture Canvas"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of your coffee or tea from a local cafe. Play with the light and composition."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-16",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Find a locally made pastry or sweet treat and take a mouth-watering photo of it before you take a bite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-17",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Farm-to-Table Clue"
+      },
+      "prompt": {
+        "en": "Photograph a menu or chalkboard sign that proudly mentions a local Vermont farm or food producer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-18",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Indie Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of your favorite independent shop, restaurant, or bookstore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-19",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Urban Explorer Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you actively exploring a street or corner of the neighborhood, with the city life in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    },
+    {
+      "id": "downtown-burlington-task-20",
+      "neighborhood_id": "downtown-burlington",
+      "title": {
+        "en": "Pedestrian Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle on a pedestrian-only street to capture the feeling of a city built for walkers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:52:11.175697+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

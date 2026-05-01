@@ -1,0 +1,2073 @@
+{
+  "neighborhoods": [
+    {
+      "id": "southtown-king-william",
+      "city_id": "san-antonio",
+      "name": {
+        "en": "Southtown / King William"
+      },
+      "summary": {
+        "en": "Historic German architecture meets a thriving, bohemian arts scene. This creative and relaxed district buzzes with gallery-goers and foodies enjoying a slower pace just south of downtown."
+      },
+      "lat": 29.4115,
+      "lng": -98.4938,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill",
+      "city_id": "san-antonio",
+      "name": {
+        "en": "The Pearl / Tobin Hill"
+      },
+      "summary": {
+        "en": "A former 19th-century brewery transformed into a chic culinary and cultural hub. The vibe is polished and energetic, with beautifully landscaped grounds and high-end boutiques."
+      },
+      "lat": 29.4425,
+      "lng": -98.481,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core",
+      "city_id": "san-antonio",
+      "name": {
+        "en": "Downtown (Urban Core)"
+      },
+      "summary": {
+        "en": "Beyond the River Walk, downtown is a dense grid of history, art, and commerce. Explore side streets to discover stunning Art Deco theaters and hidden culinary gems."
+      },
+      "lat": 29.4245,
+      "lng": -98.491,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights",
+      "city_id": "san-antonio",
+      "name": {
+        "en": "Eastside / Denver Heights"
+      },
+      "summary": {
+        "en": "Historically the heart of San Antonio's African American community, this neighborhood has deep roots and a resilient spirit. The vibe is grounded, friendly, and proud."
+      },
+      "lat": 29.416,
+      "lng": -98.473,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park",
+      "city_id": "san-antonio",
+      "name": {
+        "en": "Midtown / Brackenridge Park"
+      },
+      "summary": {
+        "en": "A sprawling, leafy area just north of downtown that serves as San Antonio's cultural heart. It's home to world-class museums, lush parks, and tranquil gardens."
+      },
+      "lat": 29.4595,
+      "lng": -98.476,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district",
+      "city_id": "san-antonio",
+      "name": {
+        "en": "Northwest Side / Deco District"
+      },
+      "summary": {
+        "en": "A mosaic of mid-century neighborhoods and bustling commercial strips offering an authentic look at local life. The Deco District adds a dash of historic architectural charm."
+      },
+      "lat": 29.475,
+      "lng": -98.535,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "southtown-king-william-enr-mixtli",
+      "city_id": "san-antonio",
+      "neighborhood_id": "southtown-king-william",
+      "name": {
+        "en": "Mixtli"
+      },
+      "description": {
+        "en": "A high-end restaurant offering an innovative tasting menu that explores the diverse culinary regions of Mexico."
+      },
+      "type": "food",
+      "lat": 29.414,
+      "lng": -98.493,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-enr-the-station-cafe",
+      "city_id": "san-antonio",
+      "neighborhood_id": "southtown-king-william",
+      "name": {
+        "en": "The Station Cafe"
+      },
+      "description": {
+        "en": "Housed in a converted 1940s gas station, this beloved spot serves some of the best sandwiches in town with house-made bread."
+      },
+      "type": "food",
+      "lat": 29.412,
+      "lng": -98.495,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-enr-blue-star-contemporary",
+      "city_id": "san-antonio",
+      "neighborhood_id": "southtown-king-william",
+      "name": {
+        "en": "Blue Star Contemporary"
+      },
+      "description": {
+        "en": "The city's first and longest-running contemporary art space, showcasing thought-provoking work from local and international artists."
+      },
+      "type": "culture",
+      "lat": 29.41,
+      "lng": -98.494,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-enr-king-william-historic-district",
+      "city_id": "san-antonio",
+      "neighborhood_id": "southtown-king-william",
+      "name": {
+        "en": "King William Historic District"
+      },
+      "description": {
+        "en": "Wander these streets to see stunning 19th-century mansions built by German immigrants, a beautiful contrast to the city's Spanish colonial roots."
+      },
+      "type": "landmark",
+      "lat": 29.412,
+      "lng": -98.496,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-enr-world-s-longest-mosaic-bench",
+      "city_id": "san-antonio",
+      "neighborhood_id": "southtown-king-william",
+      "name": {
+        "en": "World's Longest Mosaic Bench"
+      },
+      "description": {
+        "en": "A unique public art installation and sculpture near the Blue Star complex, perfect for a colorful photo opportunity."
+      },
+      "type": "landmark",
+      "lat": 29.411,
+      "lng": -98.493,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-enr-revolucion-coffee-juice",
+      "city_id": "san-antonio",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "name": {
+        "en": "Revolución Coffee + Juice"
+      },
+      "description": {
+        "en": "A spacious, airy spot with great coffee, fresh juices, and a full food menu, featuring a large workspace and pleasant covered patio."
+      },
+      "type": "drink",
+      "lat": 29.441,
+      "lng": -98.479,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-enr-best-quality-daughter",
+      "city_id": "san-antonio",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "name": {
+        "en": "Best Quality Daughter"
+      },
+      "description": {
+        "en": "An inventive Asian-fusion restaurant at The Pearl praised for its creative menu that cleverly folds in Texan tastes."
+      },
+      "type": "food",
+      "lat": 29.443,
+      "lng": -98.482,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-enr-cullums-attaboy",
+      "city_id": "san-antonio",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "name": {
+        "en": "Cullum’s Attaboy"
+      },
+      "description": {
+        "en": "A cozy spot just off the main Pearl campus that offers a unique and intimate dining experience, like a cross between a diner and a French bistro."
+      },
+      "type": "food",
+      "lat": 29.449,
+      "lng": -98.481,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-enr-hotel-emma",
+      "city_id": "san-antonio",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "name": {
+        "en": "Hotel Emma"
+      },
+      "description": {
+        "en": "A breathtaking hotel built within the original 1894 brewhouse, featuring a stunning industrial-chic design that incorporates old brewing machinery."
+      },
+      "type": "landmark",
+      "lat": 29.442,
+      "lng": -98.481,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-enr-twig-book-shop",
+      "city_id": "san-antonio",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "name": {
+        "en": "Twig Book Shop"
+      },
+      "description": {
+        "en": "A charming independent bookstore located in the old brewery's bottling department, perfect for browsing and supporting a local business."
+      },
+      "type": "shopping",
+      "lat": 29.443,
+      "lng": -98.48,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-enr-san-antonio-museum-of-art-sama",
+      "city_id": "san-antonio",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "name": {
+        "en": "San Antonio Museum of Art (SAMA)"
+      },
+      "description": {
+        "en": "Housed in the former Lone Star Brewery, this museum boasts a massive collection spanning 5,000 years of world culture."
+      },
+      "type": "culture",
+      "lat": 29.435,
+      "lng": -98.484,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-bohanans-bar",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "Bohanan’s Bar"
+      },
+      "description": {
+        "en": "A classic, dark-wood sanctuary for a perfectly made old-fashioned or martini, offering a sophisticated escape from the downtown bustle."
+      },
+      "type": "nightlife",
+      "lat": 29.426,
+      "lng": -98.489,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-battalion",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "Battalion"
+      },
+      "description": {
+        "en": "Set in a stunningly restored 1920s fire station, this Italian restaurant has a fantastic bar with a vibey setting."
+      },
+      "type": "food",
+      "lat": 29.416,
+      "lng": -98.493,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-carnitas-don-raul",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "Carnitas Don Raúl"
+      },
+      "description": {
+        "en": "Originally a famed food truck, this spot serves what many call the best carnitas in San Antonio for an authentic and satisfying experience."
+      },
+      "type": "food",
+      "lat": 29.444,
+      "lng": -98.474,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-leche-de-tigre",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "Leche de Tigre"
+      },
+      "description": {
+        "en": "A rare Peruvian cevicheria praised for its cool aura and excellent, zesty food that brings a fresh flavor to the downtown scene."
+      },
+      "type": "food",
+      "lat": 29.426,
+      "lng": -98.488,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-hopscotch",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "Hopscotch"
+      },
+      "description": {
+        "en": "An immersive and interactive art gallery that's a feast for the senses, with mind-boggling optical illusions and neon lights."
+      },
+      "type": "culture",
+      "lat": 29.422,
+      "lng": -98.49,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-spanish-governor-s-palace",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "Spanish Governor's Palace"
+      },
+      "description": {
+        "en": "This 18th-century adobe structure was the original capitol of Spanish-ruled Texas and is now a beautifully preserved, quiet oasis."
+      },
+      "type": "landmark",
+      "lat": 29.425,
+      "lng": -98.497,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-the-fairmount-hotel",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "The Fairmount Hotel"
+      },
+      "description": {
+        "en": "This historic hotel holds a Guinness World Record as one of the heaviest buildings ever moved intact to its current location in 1985."
+      },
+      "type": "landmark",
+      "lat": 29.418,
+      "lng": -98.492,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-la-villita-historic-arts-village",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "La Villita Historic Arts Village"
+      },
+      "description": {
+        "en": "Originally one of San Antonio's first neighborhoods, this 'little village' is now a collection of artisan shops and galleries in historic adobe buildings."
+      },
+      "type": "shopping",
+      "lat": 29.421,
+      "lng": -98.491,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-enr-majestic-theatre",
+      "city_id": "san-antonio",
+      "neighborhood_id": "downtown-urban-core",
+      "name": {
+        "en": "Majestic Theatre"
+      },
+      "description": {
+        "en": "A stunningly ornate historic theatre on Houston Street, its glowing marquee is an iconic part of the downtown cityscape."
+      },
+      "type": "culture",
+      "lat": 29.427,
+      "lng": -98.491,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-enr-road-map-brewing-co",
+      "city_id": "san-antonio",
+      "neighborhood_id": "eastside-denver-heights",
+      "name": {
+        "en": "Road Map Brewing Co."
+      },
+      "description": {
+        "en": "A unique spot where you can start with coffee from their attached 'super chill' coffee shop and transition to a craft beer."
+      },
+      "type": "drink",
+      "lat": 29.432,
+      "lng": -98.486,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-enr-reese-bros-bbq",
+      "city_id": "san-antonio",
+      "neighborhood_id": "eastside-denver-heights",
+      "name": {
+        "en": "Reese Bros BBQ"
+      },
+      "description": {
+        "en": "A smoky BBQ oasis just a few blocks from the Alamodome, this is a must-visit for expertly smoked meats in a classic Texas setting."
+      },
+      "type": "food",
+      "lat": 29.418,
+      "lng": -98.47,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-enr-the-magpie",
+      "city_id": "san-antonio",
+      "neighborhood_id": "eastside-denver-heights",
+      "name": {
+        "en": "The Magpie"
+      },
+      "description": {
+        "en": "An eclectic, Asian-inflected American restaurant that reflects the diverse and creative spirit of the Eastside."
+      },
+      "type": "food",
+      "lat": 29.421,
+      "lng": -98.471,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-enr-chatman-s-chicken",
+      "city_id": "san-antonio",
+      "neighborhood_id": "eastside-denver-heights",
+      "name": {
+        "en": "Chatman's Chicken"
+      },
+      "description": {
+        "en": "A legendary, family-owned spot for fried chicken that's a top recommendation among locals. A no-frills place that's all about the food."
+      },
+      "type": "food",
+      "lat": 29.399,
+      "lng": -98.402,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-enr-st-paul-square-historic-district",
+      "city_id": "san-antonio",
+      "neighborhood_id": "eastside-denver-heights",
+      "name": {
+        "en": "St. Paul Square Historic District"
+      },
+      "description": {
+        "en": "A collection of restored 19th-century buildings and a historic railroad depot, forming a quieter, picturesque corner of the city."
+      },
+      "type": "landmark",
+      "lat": 29.42,
+      "lng": -98.48,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-enr-ellis-alley",
+      "city_id": "san-antonio",
+      "neighborhood_id": "eastside-denver-heights",
+      "name": {
+        "en": "Ellis Alley"
+      },
+      "description": {
+        "en": "One of the first settlements for African Americans in San Antonio, where preserved 'shotgun' houses offer a powerful reminder of the area's history."
+      },
+      "type": "landmark",
+      "lat": 29.423,
+      "lng": -98.479,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-enr-alamodome",
+      "city_id": "san-antonio",
+      "neighborhood_id": "eastside-denver-heights",
+      "name": {
+        "en": "Alamodome"
+      },
+      "description": {
+        "en": "A massive sports stadium whose distinctive cable-stayed roof and four towers are a major landmark on the Eastside skyline."
+      },
+      "type": "landmark",
+      "lat": 29.417,
+      "lng": -98.479,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-commonwealth-coffeehouse-bakery",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "Commonwealth Coffeehouse & Bakery"
+      },
+      "description": {
+        "en": "A favorite among locals, praised for its welcoming atmosphere, great patio, and solid coffee and food."
+      },
+      "type": "drink",
+      "lat": 29.45,
+      "lng": -98.489,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-nowhere-bookshop",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "Nowhere Bookshop"
+      },
+      "description": {
+        "en": "More than just a bookstore, this literary-themed haven has a cozy cafe, perfect for grabbing a coffee and getting lost in a book."
+      },
+      "type": "shopping",
+      "lat": 29.48,
+      "lng": -98.468,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-mr-juicy",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "Mr. Juicy"
+      },
+      "description": {
+        "en": "A burger joint that lives up to its name, celebrated for its perfectly chargrilled, no-nonsense burgers."
+      },
+      "type": "food",
+      "lat": 29.47,
+      "lng": -98.487,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-jardin",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "Jardin"
+      },
+      "description": {
+        "en": "An elevated food experience at the San Antonio Botanical Garden, offering Mediterranean-inspired cuisine in a beautiful, scenic setting."
+      },
+      "type": "food",
+      "lat": 29.458,
+      "lng": -98.459,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-japanese-tea-garden",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "Japanese Tea Garden"
+      },
+      "description": {
+        "en": "A breathtaking free public garden built in a former rock quarry, featuring a 60-foot waterfall and tranquil koi ponds."
+      },
+      "type": "nature",
+      "lat": 29.464,
+      "lng": -98.48,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-witte-museum",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "Witte Museum"
+      },
+      "description": {
+        "en": "This museum focuses on the natural history, science, and culture of Texas, featuring everything from dinosaur bones to exhibits on early settlers."
+      },
+      "type": "culture",
+      "lat": 29.459,
+      "lng": -98.469,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-mcnay-art-museum",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "McNay Art Museum"
+      },
+      "description": {
+        "en": "Texas's first museum of modern art, housed in a stunning 1920s Spanish Colonial Revival mansion with works by Picasso and Van Gogh."
+      },
+      "type": "culture",
+      "lat": 29.489,
+      "lng": -98.455,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-enr-brackenridge-park",
+      "city_id": "san-antonio",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "name": {
+        "en": "Brackenridge Park"
+      },
+      "description": {
+        "en": "A vast, lush urban park that is home to several museums, gardens, and the San Antonio Zoo, offering a relaxing escape."
+      },
+      "type": "nature",
+      "lat": 29.461,
+      "lng": -98.475,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-enr-curator-coffee",
+      "city_id": "san-antonio",
+      "neighborhood_id": "northwest-side-deco-district",
+      "name": {
+        "en": "Curator Coffee"
+      },
+      "description": {
+        "en": "A very quiet spot recommended for its nice drinks that aren't 'sugar bombs,' ideal for focused work or a peaceful break."
+      },
+      "type": "drink",
+      "lat": 29.57,
+      "lng": -98.53,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-enr-sichuan-house",
+      "city_id": "san-antonio",
+      "neighborhood_id": "northwest-side-deco-district",
+      "name": {
+        "en": "Sichuan House"
+      },
+      "description": {
+        "en": "A must-visit for spice lovers, this spot serves authentic Sichuan Chinese food in huge, family-sized portions perfect for sharing."
+      },
+      "type": "food",
+      "lat": 29.51,
+      "lng": -98.61,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-enr-garcia-s-mexican-food-to-go",
+      "city_id": "san-antonio",
+      "neighborhood_id": "northwest-side-deco-district",
+      "name": {
+        "en": "Garcia's Mexican Food To Go"
+      },
+      "description": {
+        "en": "A beloved local institution serving classic, unfussy Tex-Mex, famous for its brisket tacos in a dine-in setting."
+      },
+      "type": "food",
+      "lat": 29.45,
+      "lng": -98.52,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-enr-french-sandwiches",
+      "city_id": "san-antonio",
+      "neighborhood_id": "northwest-side-deco-district",
+      "name": {
+        "en": "French Sandwiches"
+      },
+      "description": {
+        "en": "A tiny, unassuming spot that locals rave about for its delicious and authentic Vietnamese Banh Mi sandwiches."
+      },
+      "type": "hidden_gem",
+      "lat": 29.52,
+      "lng": -98.58,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-enr-legacy-comics",
+      "city_id": "san-antonio",
+      "neighborhood_id": "northwest-side-deco-district",
+      "name": {
+        "en": "Legacy Comics"
+      },
+      "description": {
+        "en": "A hidden gem for collectors, praised for its vintage toys, books, and the amazing stories from its owner."
+      },
+      "type": "hidden_gem",
+      "lat": 29.57,
+      "lng": -98.6,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-enr-north-star-mall-boots",
+      "city_id": "san-antonio",
+      "neighborhood_id": "northwest-side-deco-district",
+      "name": {
+        "en": "North Star Mall Boots"
+      },
+      "description": {
+        "en": "An iconic and quirky San Antonio landmark, these 40-foot-tall cowboy boots are a must-see piece of Texas-sized pop art."
+      },
+      "type": "landmark",
+      "lat": 29.51,
+      "lng": -98.49,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-enr-woodlawn-theatre",
+      "city_id": "san-antonio",
+      "neighborhood_id": "northwest-side-deco-district",
+      "name": {
+        "en": "Woodlawn Theatre"
+      },
+      "description": {
+        "en": "A historic 1940s movie palace in the heart of the Deco District, now operating as a non-profit theater for musicals and plays."
+      },
+      "type": "culture",
+      "lat": 29.46,
+      "lng": -98.53,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "southtown-king-william-task-1",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Artistic Contrast"
+      },
+      "prompt": {
+        "en": "Find a scene that captures the neighborhood's blend of old and new. Photograph a historic architectural detail next to a piece of modern street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-2",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Bohemian Vibe Check"
+      },
+      "prompt": {
+        "en": "Take a photo that you think perfectly encapsulates the 'bohemian arts scene' of Southtown. It could be a person's style, a quirky shopfront, or a colorful mural."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-3",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Mansion Selfie"
+      },
+      "prompt": {
+        "en": "Find the most ornate 19th-century mansion you can and take a selfie in front of its grand entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-4",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Shady Streets"
+      },
+      "prompt": {
+        "en": "Capture an image of one of the quiet, tree-canopied streets. Focus on the way the light filters through the leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-5",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Photograph a dish or drink from a local cafe or eatery that feels unique to this neighborhood's relaxed, creative vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-6",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Hidden Art"
+      },
+      "prompt": {
+        "en": "Look for a small, easily missed piece of art—a tiny sticker, a small sculpture, or a hidden tag—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-7",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "German Heritage"
+      },
+      "prompt": {
+        "en": "Find an architectural element that reflects the area's German immigrant history, like intricate woodwork or stonemasonry, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-8",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Warehouse Reimagined"
+      },
+      "prompt": {
+        "en": "Take a picture of a converted industrial building now being used as a gallery, studio, or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-9",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Creative Colors"
+      },
+      "prompt": {
+        "en": "Find a building or mural with at least five distinct, vibrant colors and capture them all in one frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-10",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot, like a quiet porch or a hidden courtyard, and take a photo that conveys a sense of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-11",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Latino Arts Influence"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a sign that celebrates the area's strong Latino cultural heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-12",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Foodie Find"
+      },
+      "prompt": {
+        "en": "Take a picture of a menu or sign for a food item that sounds delicious and unique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-13",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Gallery Gazer"
+      },
+      "prompt": {
+        "en": "Take a selfie looking thoughtfully at a piece of art through a gallery window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-14",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "Texture Study"
+      },
+      "prompt": {
+        "en": "Create a photo focusing on the textures of the neighborhood: peeling paint on a warehouse, old brick on a mansion, or the smooth surface of a modern sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "southtown-king-william-task-15",
+      "neighborhood_id": "southtown-king-william",
+      "title": {
+        "en": "The Local's View"
+      },
+      "prompt": {
+        "en": "Capture a scene of everyday life, like locals chatting at a cafe, walking their dogs, or enjoying a park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-1",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Find a spot where old brewery machinery has been repurposed as decoration and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-2",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Polished & Posh"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the 'polished and energetic' vibe of The Pearl, like a high-end boutique window or a perfectly landscaped garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-3",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Culinary Hub Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a bustling, popular restaurant or food hall in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-4",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the late afternoon, photograph the way the warm light hits the historic brick buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-5",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "A Toast to the View"
+      },
+      "prompt": {
+        "en": "Take a picture of your drink (coffee, juice, or cocktail) with a scenic background of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-6",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Urban Renewal"
+      },
+      "prompt": {
+        "en": "Find an element that clearly shows the transformation from an old brewery to a modern space and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-7",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Reflections of Style"
+      },
+      "prompt": {
+        "en": "Take a photo of the reflection of a historic building in the window of a modern shop or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-8",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Lush Landscapes"
+      },
+      "prompt": {
+        "en": "Photograph the beautifully manicured plants, flowers, or water features that decorate the public spaces."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-9",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "The Buzz"
+      },
+      "prompt": {
+        "en": "Capture the energy of the crowd. Use a slow shutter speed to create a motion blur of people walking by."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-10",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Historic Home Hunt"
+      },
+      "prompt": {
+        "en": "Step into the surrounding Tobin Hill area and find a charming historic home. Take a photo of its most interesting feature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-11",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Foodie Focus"
+      },
+      "prompt": {
+        "en": "Take an artistic, close-up shot of a beautifully presented dish or pastry from one of the area's eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-12",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Rooftop Perspective"
+      },
+      "prompt": {
+        "en": "Find an elevated spot and take a photo looking down on the bustling grounds or across to the city skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-13",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "River Walk Respite"
+      },
+      "prompt": {
+        "en": "Take a photo from the Museum Reach of the River Walk path that runs through the area, capturing the blend of nature and architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-14",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Chic Selfie"
+      },
+      "prompt": {
+        "en": "Find a backdrop that feels luxurious and stylish—like a designer storefront or a grand hotel lobby—and take a selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "the-pearl-tobin-hill-task-15",
+      "neighborhood_id": "the-pearl-tobin-hill",
+      "title": {
+        "en": "Architectural Lines"
+      },
+      "prompt": {
+        "en": "Compose a shot that emphasizes the strong lines and shapes of the modern architecture against the historic brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-1",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Beyond the River Walk"
+      },
+      "prompt": {
+        "en": "Find a quiet side street away from the main tourist crowds and capture a scene of authentic downtown life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-2",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Art Deco Details"
+      },
+      "prompt": {
+        "en": "Look up! Find an example of Art Deco architecture on an old building and take a photo of its intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-3",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Historic Landmark Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a national historic landmark, like the Spanish Governor's Palace or a historic hotel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-4",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Discover a hidden, quiet corner amidst the workday bustle—a small plaza, a courtyard, or a garden—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-5",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Taste of Downtown"
+      },
+      "prompt": {
+        "en": "Photograph a no-frills, authentic meal from a local downtown spot, away from the tourist traps."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-6",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the glow of a vintage neon sign or a historic theater marquee."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-7",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Step Back in Time"
+      },
+      "prompt": {
+        "en": "Take a photo of a building or street that looks like it hasn't changed in 50 years."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-8",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Commerce & Culture"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the mix of business and art, like a modern office building next to a historic theater or public sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-9",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Adobe Architecture"
+      },
+      "prompt": {
+        "en": "Find an example of historic adobe construction, common in La Villita, and take a close-up of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-10",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "City Reflections"
+      },
+      "prompt": {
+        "en": "After a rain, or in a puddle or glass building, capture a reflection of the downtown skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-11",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Artisan's Craft"
+      },
+      "prompt": {
+        "en": "In La Villita or another artisan shop, photograph a handmade item that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-12",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Sophisticated Sip"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic cocktail or elegant drink in a sophisticated downtown bar setting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-13",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Historical Plaque"
+      },
+      "prompt": {
+        "en": "Find a historical marker on a building or in a plaza and take a photo of it, capturing a piece of the city's story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-14",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Urban Grid"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a long, straight street, emphasizing the grid-like pattern of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "downtown-urban-core-task-15",
+      "neighborhood_id": "downtown-urban-core",
+      "title": {
+        "en": "Fire Station Reborn"
+      },
+      "prompt": {
+        "en": "Find a historic building that has been repurposed, like an old fire station or bank, and photograph its new life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-1",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Spirit of the Eastside"
+      },
+      "prompt": {
+        "en": "Capture a photo that you feel represents the 'grounded, friendly, and proud' spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-2",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "BBQ Culture"
+      },
+      "prompt": {
+        "en": "Take a picture of a classic Texas barbecue joint, focusing on the smoker, a pile of wood, or a neon sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-3",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Historic Roots Selfie"
+      },
+      "prompt": {
+        "en": "Find a historic landmark like a preserved shotgun house in Ellis Alley or a building in St. Paul Square and take a selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-4",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Old and New"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic building with a modern structure, like the Alamodome, in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-5",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Authentic Eats"
+      },
+      "prompt": {
+        "en": "Photograph a meal from a no-frills, hole-in-the-wall spot that is clearly loved by locals."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-6",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Find a place that serves as a community gathering spot—a church, a park, a local shop—and capture a moment of interaction."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-7",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Railroad History"
+      },
+      "prompt": {
+        "en": "Photograph a detail related to the area's railroad history, like old tracks or a historic depot building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-8",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Resilient Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo of something that symbolizes resilience and evolution, like a new business in an old building or a community garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-9",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Neighborhood Landmark"
+      },
+      "prompt": {
+        "en": "Take a photo of a building or sign that feels like an iconic landmark for the local community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-10",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "Find an unexpected pop of bright color on a building or mural in this less-polished part of the city and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-11",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Family-Owned"
+      },
+      "prompt": {
+        "en": "Take a picture of the storefront of a business that is clearly family-owned and has been around for a long time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-12",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Eastside Skyline"
+      },
+      "prompt": {
+        "en": "Capture the unique skyline of the Eastside, making sure to include its distinctive landmarks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-13",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Architectural Story"
+      },
+      "prompt": {
+        "en": "Photograph an architectural detail on a 19th-century building that tells a story of the past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-14",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Local Pride"
+      },
+      "prompt": {
+        "en": "Find a symbol of local pride, such as a neighborhood banner, a school mascot, or a community mural, and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "eastside-denver-heights-task-15",
+      "neighborhood_id": "eastside-denver-heights",
+      "title": {
+        "en": "Creative Spirit"
+      },
+      "prompt": {
+        "en": "Find a sign of the neighborhood's creative spirit, like an eclectic restaurant or a unique shop, and capture its essence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-1",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use leaves, branches, or flowers to create a natural frame around a subject in one of the parks or gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-2",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Cultural Heart"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the 'cultural heart' of San Antonio, perhaps the grand entrance to a museum or a piece of public art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-3",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Garden Selfie"
+      },
+      "prompt": {
+        "en": "Find the most beautiful floral display you can and take a selfie surrounded by the colors."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-4",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "A Moment of Zen"
+      },
+      "prompt": {
+        "en": "In the Japanese Tea Garden or another tranquil spot, capture an image that conveys peace and serenity, like koi swimming or light on water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-5",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Elevated Eats"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully plated meal or a coffee in a scenic, relaxing setting like a museum cafe or garden restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-6",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Texas History"
+      },
+      "prompt": {
+        "en": "Find an exhibit or object that tells a story about Texas history or nature and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-7",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Mansion Museum"
+      },
+      "prompt": {
+        "en": "Capture the grandeur of a historic mansion that has been converted into a museum, focusing on its unique architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-8",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Family Fun"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that shows the family-friendly vibe of the area, like children playing in a park or exploring a museum."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-9",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Literary Escape"
+      },
+      "prompt": {
+        "en": "Find a cozy corner in a bookshop or cafe and take a photo of a book you'd like to read."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-10",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Water's Path"
+      },
+      "prompt": {
+        "en": "Photograph a water feature, like a river, pond, or waterfall, and focus on the movement of the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-11",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Art & Nature"
+      },
+      "prompt": {
+        "en": "Find a sculpture or piece of art located outdoors in a garden or park and photograph how it interacts with its natural surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-12",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "On a sunny day, find interesting shadows cast by trees, sculptures, or architecture and make them the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-13",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Dino Discovery"
+      },
+      "prompt": {
+        "en": "Find a reference to dinosaurs or other prehistoric creatures and take a creative photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-14",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Take a photo of an inviting patio at a local coffeehouse or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "midtown-brackenridge-park-task-15",
+      "neighborhood_id": "midtown-brackenridge-park",
+      "title": {
+        "en": "Modern Masterpiece"
+      },
+      "prompt": {
+        "en": "Find a piece of modern or contemporary art and take a photo from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-1",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Deco Details"
+      },
+      "prompt": {
+        "en": "Find a building with classic Art Deco architectural details—like curved corners, geometric patterns, or a vintage marquee—and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-2",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Off the Beaten Path"
+      },
+      "prompt": {
+        "en": "Capture a scene that represents the authentic, local life of the Northwest Side, far from the typical tourist spots."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-3",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Texas-Sized Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with an iconic, oversized landmark that screams 'Texas'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-4",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Hole-in-the-Wall Gem"
+      },
+      "prompt": {
+        "en": "Find a tiny, unassuming restaurant or shop that looks like a hidden gem and photograph its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-5",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "International Flavors"
+      },
+      "prompt": {
+        "en": "Photograph a dish or a menu from one of the area's diverse international food spots, like a Vietnamese or Sichuan restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-6",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Mid-Century Mood"
+      },
+      "prompt": {
+        "en": "Look for architecture or signage that has a distinct mid-century (1950s-60s) vibe and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-7",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Pop Culture Find"
+      },
+      "prompt": {
+        "en": "Discover a nod to pop culture, like a comic book shop, a vintage toy, or a movie-themed mural, and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-8",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Bustling Boulevard"
+      },
+      "prompt": {
+        "en": "Take a photo of a busy commercial strip like Fredericksburg Road, capturing the flow of traffic and the variety of businesses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-9",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Local's Favorite"
+      },
+      "prompt": {
+        "en": "Find a spot that is clearly a beloved local institution—it might be crowded, old, or unassuming—and capture its character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-10",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Quiet Coffee Moment"
+      },
+      "prompt": {
+        "en": "Find a peaceful coffee shop and take an artistic shot of your drink."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-11",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Unfussy Food"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic, unfussy meal like a brisket taco or a banh mi sandwich."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-12",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Neighborhood Mosaic"
+      },
+      "prompt": {
+        "en": "Create a photo that shows the diversity of the neighborhood, perhaps by capturing different types of storefronts or homes in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-13",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Vintage Signage"
+      },
+      "prompt": {
+        "en": "Find and photograph a cool, retro sign for a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-14",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Theatrical Facade"
+      },
+      "prompt": {
+        "en": "Take a picture of the front of a historic theater, focusing on its unique architectural style."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    },
+    {
+      "id": "northwest-side-deco-district-task-15",
+      "neighborhood_id": "northwest-side-deco-district",
+      "title": {
+        "en": "Quirky Landmark"
+      },
+      "prompt": {
+        "en": "Find a quirky or unusual landmark and take a photo that highlights what makes it unique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T03:43:06.151300+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

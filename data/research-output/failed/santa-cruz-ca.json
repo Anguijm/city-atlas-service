@@ -1,0 +1,897 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-mission-hill",
+      "city_id": "santa-cruz-ca",
+      "name": {
+        "en": "Downtown & The Mission Hill Core"
+      },
+      "summary": {
+        "en": "The historic and cultural heart of Santa Cruz, this area blends historic landmarks with the modern pulse of the city’s main gathering place. The vibe is energetic, arts-focused, and full of independent spirit."
+      },
+      "lat": 36.9741,
+      "lng": -122.0252,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast",
+      "city_id": "santa-cruz-ca",
+      "name": {
+        "en": "The Westside & The Wild Coast"
+      },
+      "summary": {
+        "en": "This is the soul of Santa Cruz surf culture, defined by the stunning West Cliff Drive. The atmosphere is laid-back, salty, and deeply connected to the rhythm of the waves and world-famous surf breaks."
+      },
+      "lat": 36.955,
+      "lng": -122.045,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright",
+      "city_id": "santa-cruz-ca",
+      "name": {
+        "en": "The Eastside & Seabright"
+      },
+      "summary": {
+        "en": "A place for sunny, classic beach days, this area feels more residential and relaxed. It's known for wide sandy beaches, a bustling yacht harbor, and a growing craft brewery scene."
+      },
+      "lat": 36.965,
+      "lng": -121.998,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-mission-hill-enr-cat-cloud-companion",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-mission-hill",
+      "name": {
+        "en": "Cat.Cloud.Companion"
+      },
+      "description": {
+        "en": "A top-tier, third-wave coffee spot in Abbott Square, perfect for fueling your day with meticulously prepared espresso drinks and single-origin pour-overs."
+      },
+      "type": "drink",
+      "lat": 36.974,
+      "lng": -122.0236,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-enr-the-octagon-building",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-mission-hill",
+      "name": {
+        "en": "The Octagon Building"
+      },
+      "description": {
+        "en": "A beautifully preserved, quirky example of 19th-century octagonal architecture and a tangible piece of pre-earthquake Santa Cruz."
+      },
+      "type": "landmark",
+      "lat": 36.9742,
+      "lng": -122.0242,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-enr-mission-santa-cruz",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-mission-hill",
+      "name": {
+        "en": "Mission Santa Cruz"
+      },
+      "description": {
+        "en": "A quiet, contemplative replica of the original 1791 Spanish mission, offering a glimpse into the area's colonial past and a peaceful escape."
+      },
+      "type": "landmark",
+      "lat": 36.978,
+      "lng": -122.029,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-enr-pacific-avenue-stroll",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "downtown-mission-hill",
+      "name": {
+        "en": "Pacific Avenue Stroll"
+      },
+      "description": {
+        "en": "The main artery of downtown, redesigned after the 1989 earthquake and filled with public art, independent bookstores, and street musicians."
+      },
+      "type": "landmark",
+      "lat": 36.9725,
+      "lng": -122.0258,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-steamer-lane-supply",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "Steamer Lane Supply"
+      },
+      "description": {
+        "en": "A small takeaway spot with a prime location overlooking the legendary Steamer Lane surf break, serving excellent poke bowls, fish tacos, and coffee."
+      },
+      "type": "food",
+      "lat": 36.96,
+      "lng": -122.0465,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-humble-sea-brewing-company",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "Humble Sea Brewing Company"
+      },
+      "description": {
+        "en": "A Westside institution known for its hazy IPAs and a perpetually lively, dog-friendly beer garden that embodies the neighborhood's social spirit."
+      },
+      "type": "drink",
+      "lat": 36.958,
+      "lng": -122.063,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-point-market",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "Point Market"
+      },
+      "description": {
+        "en": "A corner market and local legend serving what many claim is the best breakfast burrito in California, the quintessential fuel for a day on the coast."
+      },
+      "type": "food",
+      "lat": 36.9531,
+      "lng": -121.979,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-cafe-brasil",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "Cafe Brasil"
+      },
+      "description": {
+        "en": "A vibrant spot famous for its authentic Brazilian cuisine, especially the incredible açai bowls piled high with fruit and granola."
+      },
+      "type": "food",
+      "lat": 36.9698,
+      "lng": -122.0398,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-steamer-lane",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "Steamer Lane"
+      },
+      "description": {
+        "en": "One of the world's most famous surf breaks. Find a spot on the bluff to watch the mesmerizing skill of surfers and the raw power of the waves."
+      },
+      "type": "viewpoint",
+      "lat": 36.9595,
+      "lng": -122.0475,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-santa-cruz-surfing-museum",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "Santa Cruz Surfing Museum"
+      },
+      "description": {
+        "en": "Housed in a picturesque lighthouse, this tiny museum is packed with vintage boards and local surf history, including a board chomped by a great white shark."
+      },
+      "type": "culture",
+      "lat": 36.9608,
+      "lng": -122.0467,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-west-cliff-drive-path",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "West Cliff Drive Path"
+      },
+      "description": {
+        "en": "A 3-mile paved path that is the neighborhood's main artery, offering breathtaking vistas of Monterey Bay with every turn."
+      },
+      "type": "nature",
+      "lat": 36.9515,
+      "lng": -122.056,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-enr-natural-bridges-state-beach",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "westside-wild-coast",
+      "name": {
+        "en": "Natural Bridges State Beach"
+      },
+      "description": {
+        "en": "Known for its stunning sea arch, this beach is a beautiful spot for tide pooling at low tide and a fantastic place to watch the sunset."
+      },
+      "type": "nature",
+      "lat": 36.9518,
+      "lng": -122.058,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-sante-adairius-rustic-ales",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "Sante Adairius Rustic Ales"
+      },
+      "description": {
+        "en": "A pilgrimage site for beer lovers, world-renowned for its meticulously crafted barrel-aged sours and farmhouse ales in an intimate tasting room."
+      },
+      "type": "drink",
+      "lat": 36.9789,
+      "lng": -121.9691,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-discretion-brewing",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "Discretion Brewing"
+      },
+      "description": {
+        "en": "A brewery destination known for its exceptional gastropub fare, offering a full restaurant experience alongside well-made, ecologically-minded beers."
+      },
+      "type": "food",
+      "lat": 36.9841,
+      "lng": -121.9625,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-seabright-state-beach",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "Seabright State Beach"
+      },
+      "description": {
+        "en": "A long, wide stretch of sand that's a favorite among locals for classic beach days, bonfires, and watching boats from the nearby harbor."
+      },
+      "type": "nature",
+      "lat": 36.963,
+      "lng": -122.008,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-walton-lighthouse",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "Walton Lighthouse"
+      },
+      "description": {
+        "en": "This picturesque white lighthouse stands at the end of the jetty, marking the harbor entrance and offering fantastic views back toward the beach."
+      },
+      "type": "landmark",
+      "lat": 36.9603,
+      "lng": -122.0045,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-santa-cruz-museum-of-natural-history",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "Santa Cruz Museum of Natural History"
+      },
+      "description": {
+        "en": "A charming local museum, known for the life-sized gray whale sculpture out front, with exhibits on the region's diverse ecosystems and wildlife."
+      },
+      "type": "culture",
+      "lat": 36.9658,
+      "lng": -121.999,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-arana-gulch-open-space-preserve",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "Arana Gulch Open Space Preserve"
+      },
+      "description": {
+        "en": "A greenbelt with trails and a long wooden boardwalk crossing coastal prairie and marshland, offering excellent birdwatching and a peaceful walk."
+      },
+      "type": "nature",
+      "lat": 36.9725,
+      "lng": -121.9985,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-san-lorenzo-river-mouth",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "San Lorenzo River Mouth"
+      },
+      "description": {
+        "en": "The point where the San Lorenzo River meets the sea, bookending Seabright Beach and offering a dynamic view of water, sand, and wildlife."
+      },
+      "type": "nature",
+      "lat": 36.9655,
+      "lng": -122.0135,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-enr-santa-cruz-harbor",
+      "city_id": "santa-cruz-ca",
+      "neighborhood_id": "eastside-seabright",
+      "name": {
+        "en": "Santa Cruz Harbor"
+      },
+      "description": {
+        "en": "A bustling yacht harbor where you can watch boats come and go, offering a classic maritime atmosphere adjacent to the beach."
+      },
+      "type": "landmark",
+      "lat": 36.964,
+      "lng": -122.001,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-mission-hill-task-1",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Historic Heartbeat"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it has a story to tell. Capture a detail that showcases its historic character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-2",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Street Symphony"
+      },
+      "prompt": {
+        "en": "The streets here have a soundtrack. Find a street musician and take a photo that captures the energy of their performance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-3",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Take a selfie with a piece of public art—a mural, a sculpture, or an artistic installation you discover on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-4",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a coffee, pastry, or snack from an independent shop. Take an artful photo of your local treat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-5",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture a single photo that shows both a historic, pre-earthquake building and a modern one side-by-side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-6",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Indie Spirit"
+      },
+      "prompt": {
+        "en": "Find the most unique or quirky independent shopfront and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-7",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Plaque Quest"
+      },
+      "prompt": {
+        "en": "Seek out and photograph a historical plaque. What's the oldest date you can find?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-8",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Discover a quiet courtyard, a hidden alley, or a peaceful garden tucked away from the main street buzz. Capture its tranquil vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-9",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Gathering Place"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the essence of a public gathering space, showing how locals use the city's heart."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-10",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Tree-Lined Perspective"
+      },
+      "prompt": {
+        "en": "Use the trees lining Pacific Avenue to frame a shot of the bustling street life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-11",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Mission Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a photo that feels peaceful and contemplative, inspired by the Mission on the hill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "downtown-mission-hill-task-12",
+      "neighborhood_id": "downtown-mission-hill",
+      "title": {
+        "en": "Community Canvas"
+      },
+      "prompt": {
+        "en": "Photograph a piece of art or a detail that you think truly represents the creative spirit of the community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-1",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Ocean's Power"
+      },
+      "prompt": {
+        "en": "Capture a photo of a wave crashing against the cliffs or shore. Try to freeze the motion of the spray."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-2",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Salty Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the wild Pacific Ocean as your backdrop. Let the wind mess up your hair!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-3",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Surf Culture Symbol"
+      },
+      "prompt": {
+        "en": "Find something that screams 'surf culture'—a classic surf van, a sticker-covered board, or a wetsuit drying on a porch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-4",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If it's late afternoon, capture a photo of the coastal landscape bathed in the warm, golden light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-5",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "The Path of Motion"
+      },
+      "prompt": {
+        "en": "Take a picture of someone walking, biking, or skating along the coastal path, showing the active life of the Westside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-6",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Bluff Textures"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of the texture of the coastal bluffs—the rock, the hardy plants, the wind-swept soil."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-7",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Post-Surf Fuel"
+      },
+      "prompt": {
+        "en": "Photograph the quintessential Westside meal: a burrito or a poke bowl. Bonus points if you can see the ocean in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-8",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "View from a Bench"
+      },
+      "prompt": {
+        "en": "Find a memorial bench along the cliff and take a photo of the view from its perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-9",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "The Watchers"
+      },
+      "prompt": {
+        "en": "Take a photo of people watching the surfers or the waves, capturing their focused attention on the ocean."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-10",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Coastal Curve"
+      },
+      "prompt": {
+        "en": "Find a spot where you can photograph the curve of the coastline or the winding path of West Cliff Drive."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-11",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Tide Pool Treasures"
+      },
+      "prompt": {
+        "en": "If the tide is low, explore a tide pool and take a photo of the tiny marine life you discover."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "westside-wild-coast-task-12",
+      "neighborhood_id": "westside-wild-coast",
+      "title": {
+        "en": "Sunset Silhouette"
+      },
+      "prompt": {
+        "en": "Capture a silhouette of a person, a bird, or a natural feature against the setting sun over the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-1",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Classic Beach Day"
+      },
+      "prompt": {
+        "en": "Take a photo that perfectly captures a 'classic beach day' scene: towels, umbrellas, sandcastles, and sun."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-2",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Harbor Life"
+      },
+      "prompt": {
+        "en": "Find a boat in the harbor with a unique name or character. Take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-3",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Sandy Toes Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie of your feet in the sand with the waves in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-4",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Craft Brew Culture"
+      },
+      "prompt": {
+        "en": "Find a sign, logo, or tap handle from a local craft brewery and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-5",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Morning Light on Water"
+      },
+      "prompt": {
+        "en": "If you're out early, capture the way the morning sun sparkles on the calm harbor or ocean water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-6",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Bonfire Remnants"
+      },
+      "prompt": {
+        "en": "Find the remnants of a beach bonfire from the night before and take an atmospheric photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-7",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Walk a block or two away from the beach and photograph a charming beach cottage or house that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-8",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Jetty Perspective"
+      },
+      "prompt": {
+        "en": "Walk out on a jetty and take a photo looking back at the beach, capturing a new perspective of the shoreline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-9",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Feathered Friends"
+      },
+      "prompt": {
+        "en": "Take a photo of the local birdlife—gulls on the beach, pelicans over the water, or smaller birds in the Arana Gulch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-10",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Beach Games"
+      },
+      "prompt": {
+        "en": "Find people playing a game on the beach—volleyball, frisbee, paddleball—and capture the action."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-11",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Whale of a Tale"
+      },
+      "prompt": {
+        "en": "Take a photo that plays with scale, inspired by the giant whale sculpture at the Museum of Natural History."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    },
+    {
+      "id": "eastside-seabright-task-12",
+      "neighborhood_id": "eastside-seabright",
+      "title": {
+        "en": "Relaxed Vibe"
+      },
+      "prompt": {
+        "en": "Capture an image that you feel perfectly represents the relaxed, residential vibe of the Eastside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:15:09.641581+00:00"
+    }
+  ]
+}

@@ -4,13 +4,15 @@
 > For long-form session learnings see `.harness/learnings.md`.
 > For start-here-next-session block see `SESSION_HANDOFF.md`.
 >
-> Last refreshed: 2026-04-28 (session close).
+> Last refreshed: 2026-05-01 (session 4 close).
 
 ## Now (this week)
 
-- **Issue #37 — tiered quality gates by `coverageTier`** — implement BEFORE running the 97-city research batch. Scraper char thresholds, coverageTier-aware prompt variant, QC floor scaling. `coverageTier` already in schema; no schema changes needed. ([#37](https://github.com/Anguijm/city-atlas-service/issues/37))
-- **Merge `scrape/100-new-cities` PR + run research (after #37 lands)** — pre-flight: Firestore export backup + 10-city dry run + branch-guard green. Then `batch_research.py --no-limit --ingest` for 97 cities (moab-ut/crested-butte-co/rapid-city-sd deferred until #37 lowers village floor).
-- **Issue #21 — automate branch-guard preflight inside pipeline entry points.** PR #27's 4-attempt retry pattern is the template. ([#21](https://github.com/Anguijm/city-atlas-service/issues/21))
+- **Merge PR #40** (session 3 close docs) — open since 2026-04-28, data-only, no council needed.
+- **Merge PR #42** (Phase B prompt injection) — CONDITIONAL; address remediations, get 🟢.
+- **Merge PR #43** (corridor cities: louisville, birmingham, wichita, amarillo) — check council status.
+- **Fix oxford-ms** — `data/timeout/oxford-ms.md` contains Oxford, UK data; delete it, re-scrape explicitly, re-run research. Semantic audit will then pass.
+- **Issue #21 — automate branch-guard preflight inside pipeline entry points.** ([#21](https://github.com/Anguijm/city-atlas-service/issues/21))
 - **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`). ([#8](https://github.com/Anguijm/city-atlas-service/issues/8))
 
 ## Next (queued, scoped)
@@ -57,12 +59,18 @@
 
 ## In flight (branches not yet merged)
 
-- **`scrape/100-new-cities`** — Wikipedia (89/92) + Reddit scraped data for the 100 new US cities added in PR #34. No code changes; data-only PR.
-- **`add-100-us-cities`** — source branch for PR #34. Already merged; can be deleted.
+- **PR #40** (`docs/session-close-2026-04-29`) — session 3 close docs. Merge first.
+- **PR #42** (`fix/prompt-injection-phase-b`) — Phase B prompt injection. CONDITIONAL.
+- **PR #43** (`feat/add-missing-corridor-cities`) — louisville, birmingham, wichita, amarillo + research data. Council pending.
+- **PR #45** (`claude/work-in-progress-wPNxa`) — harness alignment. Investigate.
+- **This PR** (`docs/session-close-2026-05-01`) — session 4 close docs + enrichment scrape data.
 
 ## Recently closed
 
-- **PR #34** — Expand US city coverage from 100 to 200 cities (285 total globally). CI city-cache-validate job. batch_research.py 25-city circuit breaker. Admin-merged `df1a69b` after 4 council rounds. Filed #36 (disambiguation audit — closed same session, PASS).
+- **PR #44** — `enrich_ingest.ts`: stripUndefined utility + Zod required-field validation before Firestore writes. 7 council rounds. Merged `7f7652c`.
+- **PR #39** — Tiered quality gates by coverageTier (village/town/metro). Merged `7782539`. Closed #6, #37.
+- **PR #38** — Scrape data for 100 new US cities (Wikipedia + Reddit). Merged `10bd5e1`.
+- **PR #34** — Expand US city coverage from 100 to 200 cities (285 total globally). CI city-cache-validate job. batch_research.py 25-city circuit breaker. Admin-merged `df1a69b` after 4 council rounds.
 - **Issue #36** — Wikipedia scraper disambiguation audit. 8/8 pilot cities resolved correctly. Closed 2026-04-28 as PASS.
 - **PR #26** — Schema alignment: `cityAtlas.ts` + `build_cache.ts` pipeline-emitted fields. Admin-merged `55c8715` after 3 rounds. Filed #32, #33.
 - **PR #30** — Council cross-round memory (#16) + score-rule tightening (#23). Admin-merged `18f150e`. Closed #16, #23.

@@ -21,3 +21,60 @@ The Great Plains Zoo & Delbridge Museum provides the area with natural history a
 The USS South Dakota Battleship Memorial to the World War II battleship USS South Dakota is on State Highway 42 (West 12th Street) and Kiwanis Avenue.
 The 114th Fighter Wing is at Joe Foss Field and houses F-16C/D fighter aircraft. The SDANG unit is known for its support of community activities and services.
 A replica of Michelangelo's David is near the downtown area at Fawick Park.
+
+## Sports
+
+The Sioux Falls Canaries were known as the Sioux Falls Fighting Pheasants from 2010 to 2013. Patrick Mahomes Sr. pitched for the Sioux Falls Canaries in 2007 and 2008.
+
+## Notable people
+
+James Abourezk, first Arab-American U.S. senator, practiced law in Sioux Falls
+Erika M. Anderson, aka EMA, musician and digital media artist
+Jacob M. Appel, author, wrote Coulrophobia & Fata Morgana while living in Sioux Falls
+Shayna Baszler, former MMA fighter and professional wrestler
+George Botsford, composer and pianist, noted for the "Black and White Rag"
+Chris Browne, comic strip artist and cartoonist, Hägar the Horrible
+Benny Castillo, 11-year minor league baseball player and manager
+Dallas Clark, professional football player
+Devin Clark, UFC mixed martial artist
+Donn Clendenon, MLB first baseman
+Dusty Coleman, MLB infielder
+Brian Cummings, voice actor
+George Jonathan Danforth, South Dakota politician
+Chris Darrow, multi-instrumentalist and singer-songwriter
+Karl Dean, former mayor of Nashville, Tennessee
+Cooper DeJean, NFL player for the Philadelphia Eagles
+Nick Dinsmore, WWE Superstar 1999–2009 and WWE coach 2012–2015
+William Dougherty, South Dakota politician
+Wallace Dow, architect
+Walker Duehr, professional ice hockey player, played in the National Hockey League
+Oscar Randolph Fladmark, World War II and Korean War fighter pilot, recipient of the Distinguished Flying Cross (United States)
+James D. Ford, former Chaplain of the United States House of Representatives
+Terry Forster, pitcher for five MLB teams
+Joe Foss, World War II "ace of aces" fighter pilot, first commissioner of the American Football League; 20th governor of South Dakota
+Michael E. Fossum, astronaut
+Neil Graff, quarterback for several NFL teams
+George Barnes Grigsby, delegate to Congress from Alaska Territory
+John T. Grigsby, Lieutenant Governor of South Dakota
+Melvin Grigsby, American Civil War and Spanish–American War veteran who served as Attorney General of South Dakota
+Sioux K. Grigsby, Lieutenant Governor of South Dakota
+Donald A. Haggar, lawyer and legislator
+Mary Hart, television personality, Entertainment Tonight
+Allison Hedge Coke, writer and educator
+Stephanie Herseth Sandlin, U.S. representative from South Dakota's at-large congressional district, current President of Augustana University
+Crystal Johnson, state's attorney for Minnehaha County
+January Jones, actress, best known for playing Betty Draper on Mad Men
+Herbert Krause, author (1905–1976)
+David Lillehaug, associate justice of the Minnesota Supreme Court and Attorney General of Minnesota
+Mike Martz, former head coach of NFL's St. Louis Rams, born in Sioux Falls
+Gail Matthius, actress, cast member on Saturday Night Live
+Milton J. Nieuwsma, author, screenwriter, producer
+Pat O'Brien, television personality, Access Hollywood
+MK Pritzker, First Lady of Illinois
+A. J. Rosier, Wyoming state senator
+David Soul, actor, co-star of Starsky & Hutch
+David Stenshoel, musician (Boiled in Lead)
+Joan Tabor, actress
+John Thune, South Dakota senator; U.S. Senate Majority Leader
+Shane Van Boening, professional pool player
+Jerry verDorn, actor, Guiding Light and One Life to Live

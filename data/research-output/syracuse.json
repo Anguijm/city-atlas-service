@@ -1,0 +1,745 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown",
+      "city_id": "syracuse",
+      "name": {
+        "en": "Downtown: Armory Square & Hanover Square"
+      },
+      "summary": {
+        "en": "The city’s commercial and cultural heart, where 19th-century red-brick warehouses and ornate office buildings have been reborn as galleries, shops, and public spaces."
+      },
+      "lat": 43.0498,
+      "lng": -76.1535,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore",
+      "city_id": "syracuse",
+      "name": {
+        "en": "Strathmore"
+      },
+      "summary": {
+        "en": "A stately and serene residential neighborhood known for its grand, early 20th-century homes, manicured lawns, and the beautiful Onondaga Park at its center."
+      },
+      "lat": 43.0275,
+      "lng": -76.1655,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy",
+      "city_id": "syracuse",
+      "name": {
+        "en": "Eastwood & Little Italy"
+      },
+      "summary": {
+        "en": "A proud 'village within the city' with a strong main-street character, deep immigrant roots, and an authentic, lived-in feel."
+      },
+      "lat": 43.0585,
+      "lng": -76.1295,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-enr-niagara-mohawk-building",
+      "city_id": "syracuse",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Niagara Mohawk Building"
+      },
+      "description": {
+        "en": "An absolute masterpiece of Art Deco architecture, this former utility headquarters is a temple to the machine age, adorned with shimmering stainless steel and geometric patterns."
+      },
+      "type": "landmark",
+      "lat": 43.0525,
+      "lng": -76.1561,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-enr-hanover-square",
+      "city_id": "syracuse",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Hanover Square"
+      },
+      "description": {
+        "en": "Syracuse's first commercial district, this charming, plaza-like square feels like a step back in time, surrounded by beautifully preserved 19th-century buildings."
+      },
+      "type": "landmark",
+      "lat": 43.0508,
+      "lng": -76.1515,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-enr-the-amos-block",
+      "city_id": "syracuse",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "The Amos Block"
+      },
+      "description": {
+        "en": "A cornerstone of Armory Square, this building is a prime example of Romanesque Revival architecture with its powerful arches and detailed brickwork."
+      },
+      "type": "landmark",
+      "lat": 43.0493,
+      "lng": -76.1541,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-enr-onondaga-park",
+      "city_id": "syracuse",
+      "neighborhood_id": "strathmore",
+      "name": {
+        "en": "Onondaga Park"
+      },
+      "description": {
+        "en": "The heart and soul of Strathmore, this park is an urban oasis featuring the stunning Hiawatha Lake and idyllic walking paths."
+      },
+      "type": "nature",
+      "lat": 43.0275,
+      "lng": -76.1655,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-enr-hiawatha-lake",
+      "city_id": "syracuse",
+      "neighborhood_id": "strathmore",
+      "name": {
+        "en": "Hiawatha Lake"
+      },
+      "description": {
+        "en": "Located in the upper section of Onondaga Park, this idyllic lake offers a picturesque walk and a moment of natural beauty."
+      },
+      "type": "nature",
+      "lat": 43.0265,
+      "lng": -76.166,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-enr-gazebo-on-hiawatha-lake",
+      "city_id": "syracuse",
+      "neighborhood_id": "strathmore",
+      "name": {
+        "en": "Gazebo on Hiawatha Lake"
+      },
+      "description": {
+        "en": "A picturesque, much-photographed gazebo that feels like a relic from a more romantic era, offering a perfect view over the lake."
+      },
+      "type": "viewpoint",
+      "lat": 43.0259,
+      "lng": -76.1663,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-enr-ward-wellington-ward-architectural-walk",
+      "city_id": "syracuse",
+      "neighborhood_id": "strathmore",
+      "name": {
+        "en": "Ward Wellington Ward Architectural Walk"
+      },
+      "description": {
+        "en": "A treasure hunt for the distinctive Arts and Crafts-inspired homes designed by a prolific local architect, found along streets like Robineau Road."
+      },
+      "type": "culture",
+      "lat": 43.0245,
+      "lng": -76.1645,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-enr-the-streetscapes-of-strathmore",
+      "city_id": "syracuse",
+      "neighborhood_id": "strathmore",
+      "name": {
+        "en": "The Streetscapes of Strathmore"
+      },
+      "description": {
+        "en": "A living museum of early 20th-century suburban design, where mature trees form canopies over streets lined with cohesive, beautiful architecture."
+      },
+      "type": "culture",
+      "lat": 43.0288,
+      "lng": -76.1625,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-enr-little-italy-s-cultural-streetscape",
+      "city_id": "syracuse",
+      "neighborhood_id": "eastwood-little-italy",
+      "name": {
+        "en": "Little Italy's Cultural Streetscape"
+      },
+      "description": {
+        "en": "Walk down North Salina Street to see signs of the neighborhood's heritage: Italian flags, bakeries, and social clubs that speak to the community's history."
+      },
+      "type": "culture",
+      "lat": 43.057,
+      "lng": -76.146,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-enr-megaton-games",
+      "city_id": "syracuse",
+      "neighborhood_id": "eastwood-little-italy",
+      "name": {
+        "en": "Megaton Games"
+      },
+      "description": {
+        "en": "A trusted, resident-approved independent shop for video games, representing the kind of specialty, passion-driven retail that keeps a neighborhood interesting."
+      },
+      "type": "shopping",
+      "lat": 43.0565,
+      "lng": -76.1385,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-enr-james-street-walk",
+      "city_id": "syracuse",
+      "neighborhood_id": "eastwood-little-italy",
+      "name": {
+        "en": "James Street Walk"
+      },
+      "description": {
+        "en": "The main artery of Eastwood, this street embodies the 'village within the city' motto with its corridor of local businesses and the hum of neighborhood life."
+      },
+      "type": "culture",
+      "lat": 43.061,
+      "lng": -76.115,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-task-1",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Architectural Abstraction"
+      },
+      "prompt": {
+        "en": "Find a historic building and create an abstract photo by focusing on a single detail, like an archway, a window, or a section of textured brick."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-2",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Historic Date Hunter"
+      },
+      "prompt": {
+        "en": "Explore the building facades and find the oldest date you can spot carved into a cornerstone or plaque. Snap a photo of your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-3",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Downtown Dusk Drama"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture a photo of a historic building's facade as its lights begin to glow, emphasizing its dramatic presence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-4",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Pattern Recognition"
+      },
+      "prompt": {
+        "en": "Photograph three different repeating geometric patterns you find in the district's metalwork, stonework, or brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-5",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Framing History"
+      },
+      "prompt": {
+        "en": "Use a modern element, like a street sign or another building, to frame a shot of a classic 19th-century structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-6",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Find the most interesting or ornate window on a historic building and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-7",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Urban Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the vibe of a bustling downtown street, with historic architecture in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-8",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Red Brick City"
+      },
+      "prompt": {
+        "en": "Capture a photo that showcases the rich red-brick texture of the warehouses and buildings in Armory Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-9",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Find and photograph a vintage-looking sign on a shop or gallery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-10",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Public Space Pause"
+      },
+      "prompt": {
+        "en": "Find a bench in a public square or plaza and take a photo from that seated perspective, capturing a slice of city life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-11",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Arches of Armory"
+      },
+      "prompt": {
+        "en": "The area is known for Romanesque arches. Find a prominent one and take a low-angle shot to emphasize its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "downtown-task-12",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Culinary Discovery"
+      },
+      "prompt": {
+        "en": "This guide leaves food to you! Find a local eatery that looks inviting, and snap a picture of its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-1",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Storybook Streetscape"
+      },
+      "prompt": {
+        "en": "Find a spot where the curve of the road, overhanging trees, and classic homes create a perfect 'storybook' neighborhood photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-2",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Doorway Details"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different, interesting doorways or front porches you discover on your walk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-3",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Architectural Signature"
+      },
+      "prompt": {
+        "en": "Find a quirky, repeated detail (like a chimney style or window pattern) on multiple houses and photograph it. Do you think it's the same architect?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-4",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully tended garden or a unique lawn ornament that adds character to a home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-5",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Park Bench Perspective"
+      },
+      "prompt": {
+        "en": "Find a park bench with a great view in Onondaga Park and capture the scene from your seated vantage point."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-6",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Reflection Perfection"
+      },
+      "prompt": {
+        "en": "On a calm day, find a reflection of trees or the sky in Hiawatha Lake and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-7",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Serene Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the peaceful, green, and stately vibe of the Strathmore neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-8",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Tree Canopy Tunnel"
+      },
+      "prompt": {
+        "en": "Find a street where the mature trees form a canopy overhead and take a photo looking down the 'tunnel'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-9",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Arts and Crafts Clue"
+      },
+      "prompt": {
+        "en": "Look for homes with Arts and Crafts details like unique tilework or creative window arrangements. Photograph your favorite example."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-10",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Grand Home Portrait"
+      },
+      "prompt": {
+        "en": "Pick one of the grand, early 20th-century homes and take a portrait-style photo of it, capturing its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-11",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Nature's Details"
+      },
+      "prompt": {
+        "en": "While walking through the park, take a close-up photo of an interesting flower, tree bark, or leaf."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "strathmore-task-12",
+      "neighborhood_id": "strathmore",
+      "title": {
+        "en": "Winding Road"
+      },
+      "prompt": {
+        "en": "Capture the gentle curve of one of Strathmore's winding residential streets in a photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-1",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Main Street Character"
+      },
+      "prompt": {
+        "en": "Take a photo of a vintage or hand-painted business sign on James Street that shows the history of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-2",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Signs of Heritage"
+      },
+      "prompt": {
+        "en": "Capture a slice-of-life photo that communicates the neighborhood's Italian-American heritage without being a cliché."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-3",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Hidden History Hunt"
+      },
+      "prompt": {
+        "en": "Little Italy was once settled by Germans. Find a visual clue to this earlier history—a name on a building, an old sign, or an architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-4",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Local Life Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a main street that captures the grounded, unpretentious, and lived-in feel of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-5",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Village Within the City"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel best represents the 'village within the city' motto of Eastwood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-6",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Storefront Stories"
+      },
+      "prompt": {
+        "en": "Find a local business that has clearly been operating for decades and photograph its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-7",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Bakery Quest"
+      },
+      "prompt": {
+        "en": "The area is known for bakeries. Find one that smells amazing and take a photo of its window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-8",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Neighborhood Colors"
+      },
+      "prompt": {
+        "en": "Find the Italian flag colors (red, white, and green) displayed together somewhere in Little Italy and snap a creative picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-9",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of a small, independent shop that you find interesting, capturing its unique local character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-10",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Street Corner Scene"
+      },
+      "prompt": {
+        "en": "Capture a candid photo of a street corner that shows the daily hum of neighborhood life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-11",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Step off the main commercial streets and take a photo of a charming house or residential block."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    },
+    {
+      "id": "eastwood-little-italy-task-12",
+      "neighborhood_id": "eastwood-little-italy",
+      "title": {
+        "en": "A Taste of the Neighborhood"
+      },
+      "prompt": {
+        "en": "Find a local deli, market, or restaurant and take a picture of a food item that looks unique to the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:52:28.454800+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

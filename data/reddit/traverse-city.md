@@ -2,6 +2,46 @@
 
 Sources: /r/traversecity
 
+## Short's Brewing &amp; Keen Plan a New Future for Logan's Landing
+
+# By Beth Milligan | April 7, 2026
+
+Short’s Brewing Company is finally coming to Traverse City. Its new home – the east side of Logan’s Landing on South Airport Road, which the company has jointly purchased with Keen Technical Solutions – will see millions in new investment pour into a site locals have long desired to see revitalized. *The Ticker* has an exclusive first look at the property plans, including a targeted spring 2027 opening for a new Short’s taproom with a riverside tiki bar.
+
+Tim Pulliam of Keen Technical Solutions and Scott Newman-Bale of Short’s Brewing Company sat down to discuss the companies’ purchase of the site, a deal they finalized March 16. The partners now own the entire east side of Logan’s Landing, including the parking area. Short’s Brewing Company is planning to use about 10,000 square feet of the 16,000-square-foot site, including a 1,600-square-foot deck. Multiple existing tenants including Vince’s Jewelers will stay for now in the remaining space, with room to accommodate future new uses.
+
+Vince Amroian, who owns the jewelry store, sold Logan’s Landing East to Keen and Short’s after owning it for over a decade. Multiple potential buyers have come and gone, but Amroian says it was “worth the wait” to make this particular deal.
+
+“The right people bought it,” he says. “This is the best thing that’s ever happened to this property. We’re not going anywhere – we’ve signed a great lease and are looking forward to their endeavors here. We have the dream team now.”
+
+Pulliam, who is [also developing the nearby Mill District property on Woodmere Avenue](https://www.traverseticker.com/news/developments-move-forward-in-boardman-lake-district/), is passionate about the placemaking potential around the Boardman Lake Loop Trail. Like other locals, he remembers the heyday of Logan’s Landing when businesses like Auntie Pasta’s drew big crowds on evenings and weekends. Pulliam started dreaming in recent years about bringing the property back to life.
+
+On a recent bike ride, Pulliam brought Short’s founder Joe Short to Logan’s Landing and said, “Could you imagine a bar here on the river?” That set the wheels in motion. Newman-Bale says Short’s – which has been approached “twenty to thirty times” over the years to come to TC and once “heavily looked” at The Village at Grand Traverse Commons – saw a unique opportunity to do something “cool and exciting that could help shape the community.” In December, the partners “quickly” reached an agreement to purchase Logan’s Landing East, Newman-Bale says, with Pulliam estimating the timeline at just a few weeks.
+
+With the property now secured, the partners are ready to take action. Newman-Bale says Short’s plans to develop a taproom with on-site brewing, food service, and indoor and outdoor seating that will include a riverside tiki deck that could potentially host live music and other events/entertainment. The combined indoor-outdoor space will be able to hold a few hundred people, he estimates. The taproom is targeted for a spring 2027 launch, with significant remodeling work planned for the fall and potential “pop-ups” occurring between now and next year’s opening, Newman-Bale says.
+
+From there, there’s room for additional future uses/tenants to come online, potential expansion of the outdoor area, and improved connections with the west side of Logan’s Landing, which is under different ownership. The bridge connecting the two sides is in disrepair and blocked off to pedestrians, but Newman-Bale and Pulliam hope that could change in the future. “We hope we can create inspiration and collaboration for like-minded uses to occur across the river,” Pulliam says.
+
+One of the major challenges with Logan’s Landing [has been that it’s grandfathered in as a nonconforming structure](https://www.traverseticker.com/news/a-new-dawn-for-logans-landing/) and thus faces restrictions on its redevelopment under today’s zoning code, including river setbacks. Those regulations have stopped other buyers from being able to come in and, for example, convert the site to luxury condos or a brand-new commercial development. However, Pulliam and Newman-Bale say the property can still be revitalized for those with the patience – and long-term vision – to work within the existing parameters.
+
+“To do it in a way that’s sustainable and not just about immediately maximizing profit does take longer, but it has much more of a community feel in the end,” says Newman-Bale. Pulliam agrees. “The goal is just not to lose money,” he laughs. “If it’s something the community wants, that will be its success.”
+
+The partners have met with Garfield Township officials and say they’re allowed to invest in updating the existing structure so long as they don’t change the site’s footprint. While Short’s and Keen generally can’t build up or out, they can rehabilitate the existing building. The partners plan to invest several million dollars over a multi-year period into updating the property, ranging from roof repairs to new paint to improving the deck.
+
+Township Planning Director John Sych affirms that approach. The owners can “make improvements to keep (the property) in usable operation and maintain the buildings,” he says. Garfield Township could also offer potential “flexibility in dimensional standards in terms of the setback” for future growth through a planned unit development (PUD), or a zoning plan tailored to a specific property. A PUD generally gives developers more flexibility in exchange for offering community benefits on a site. Sych says the township would likely want to see “improvements along the riverfront” as part of the PUD and have the owners of both sides of Logan’s Landing covered in the plan so the property is developed “cohesively.”
+
+The new development comes at a time when Garfield Township is [already studying the future of Logan’s Landing and the South Airport Road corridor](https://www.traverseticker.com/news/garfield-township-eyes-visioning-process-for-south-airport-road/). Township officials have long discussed the need to potentially raise South Airport Road – which sits in a floodplain near Logan’s Landing – and create some type of crossing that could restore a more natural flow to the Boardman River. There’s a “working group” looking at the area, Sych says, including partners like Grand Traverse County (which owns Medalie Park at Logan’s Landing) and businesses along the corridor. Both Newman-Bale and Pulliam say they’re excited to be part of an effort to bring new energy to Logan’s Landing and the Boardman Lake Loop Trail district.
+
+“The goal is really to be a catalyst with this project and the Mill District project to create activation around the entire loop,” Pulliam says. “It’s such a beautiful natural area around the lake and has such a cool history in our town. We’re getting away from its old industrial roots toward something that’s more beneficial for the entire community.”
+
+### Top comments
+
+- u/btwsox (45): This is great. Logan’s Landing has been an eyesore and a waste of an ideal location for a long time. I just wish both sides had a single owner so there could be a unified vision for its redevelopment.
+- u/DisastrousWrangler (34): Quibble all you want about "more alcohol" but this is honestly best case scenario for this building and site. I really want them to pull it off and succeed. It's such an iconic property, but needs some deep(ish) pockets with real roots in the community. This partnership seems to be exactly that!
+- u/Charmin76 (9): Very cool. I knew something would happen there and I am glad to see Keen involved.
+- u/TVCity- (9): Yes, I understand the "we don't need more beer!" argument. However if it's anything like their Bellaire spot, it'll have good food as well. So... a restaurant. Like what was there before, just better beer :) Can't wait to paddle up there, hang out on the deck, and have a snack.
+- u/SuggestionNo3506 (8): I've been wanting a cool riverside bar with a music venue in that space for 14 years, since I moved here.
+
 ## Oryana Unionization and Management Discussion
 
 Hello! This post may seem like I am rambling, worsened I am sure by the fact that I am much more of a lurker than poster on any platform, and for that I apologize. I have quite a lot to say. First off, this in no way is meant to get people to riot or boycott Oryana or take any action. This is simply to hopefully get change to take place where it will help friends, family, and anybody who is a member/owner. I will do my best to stay anonymous, and keep those I talk about anonymous as well. For those who are curious but don't wish to read this whole post, I understand completely so here is a TLDR:
@@ -26,58 +66,4 @@ This last section will act as my argument against such writing being used to dis
   
 My first and biggest issue with this is that this person claims to have a strong ideological stance being pro union and community building, and the entirety of that facade falls apart by the very fact that any sort of resistance to the union on the side of management. If you truly held this position, then you would have welcomed a union vote, maybe met with the organizers to see what could be improved, or changed. I may not have the years of being a morally consistent labor rights supporter, but I know damn well that **every** labor group should be unionized, even if they work for the nicest company on the planet. To use a belief so blatantly to endear those under you to your point, only to push for the exact opposite of what your own family would be for, is sickening.
 
-My second issue is one of optics, you could say. Printing so many copies of this and taping them to every employees locker is not only childish and something I would only imagine from a crazy ex, it is straight up wasteful. It would be hilarious if it wasn't real. Is Oryana not a green company? Why would you print off so many copies of this already insanely petty move, and STILL print a giant copy and hang it up? Not only is that side of it terrible optics, but once you get to the second half of this, it gets so petty and backhanded. "Maybe some of us have forgotten what the purpose of a coop is." Are you trying to perpetuate the stereotype that hippies at a certain point become insufferable, out of touch, and downright mean? It doesn't read like you're reteaching the people that work under you. It reads more like you grew up privileged enough to witness the hard work of your family and not need to absorb every aspect of it for survival, just parts of it for show.
-
-  
-The paragraph following that post uses such a fence sitting, higher than thou style of argumentation that it completely disintegrates any standing you had from talking about your working class family background. "Maybe some of us think we need a union to ensure we have rights." YES! Is that not what you supposedly believe? I sure thought so when I read the first half of this, that's for sure. Referring back to my biggest issue with this, it is absolutely insane to read such an obvious contradiction.
-
-  
-Within the same paragraph, you say "In this current political/economic climate, there are other battles more worthy of our time." This is what upset me so horribly upon my first reading. I immediately thought of a recent anecdote one of my friends had told me about a conversation they overheard. In January, the internet was on fire, for very good reasons, about a potential general strike in reaction to the insane ICE raids happening in Minnesota. One coworker brought up to one of the members of management how Oryana should lean into that, have a strike of their own and show their support. The response given was just corporate speak about acceptance, at some point the topic of Nazi's came up, prompting the worker to ask when Oryana would draw a line and stand up for something. It kept going on for a bit, with the manager saying that all are welcome and there's no way to tell someones political affiliation. While I am sure there is more of this conversation that took place before and after, this completely destroys the argument that other bigger matters are at hand, so a union should not be formed. Clearly Oryana's management doesn't care that much about the 'current political/economic climate' as long as they can stay open and make their money. 
-
-  
-The next paragraph has the sentence "We are decidedly ahead of our competitors in all the areas that a union will bargain." This is yet another self defeating argument. It is just like saying "If you don't like this country, why don't you move?" Maybe, just maybe, they actually really love this job and wish to improve it. They aren't working at Meijer, or Walmart, so why the hell are you using them as an example? This is the same argument I have personally seen from places like Meijer and Walmart. You are not better than them here, you are emulating them. "See, we aren't as bad as them, so why would you want us to improve?" 
-
-  
-"Maybe some folks just don't know what it really means to be member owned. Maybe some folks think any success equates to corruption. Is so, I guess I can see why they'd rather rely on some union rep from downstate to communicate, than just talk to us themselves." What a crock of shit. This feels like a text I would receive in a manipulative relationship. Are you trying to guilt people for wanting to better their personal conditions? Are they truly in the wrong for getting someone who's literal job is to do exactly that for them? Very pro union, very pro union messaging indeed.
-
-  
-I will also close with a quote from Utah Phillips, from a live performance of *We Have Fed You All a Thousand Years****,*** where his words **directly** apply to unions and can be applied to any sort of community organizing.
-
-"When the union's inspiration through the workers' blood shall run  
-There can be no power greater anywhere beneath the sun;  
-Yet what force on earth is weaker then the feeble strength of one  
-But the union makes us strong"
-
-With love  
-A concerned community member
-
-[First Half](https://preview.redd.it/7o8zcaqc5oog1.jpg?width=1620&amp;format=pjpg&amp;auto=webp&amp;s=8f13e357770b8d23be05d394f12d768fd5554353)
-
-[Second Half](https://preview.redd.it/797casqd5oog1.jpg?width=1539&amp;format=pjpg&amp;auto=webp&amp;s=be42a91337b3484eda9070686197ba4aaa4cd621)
-
-[Poster Version](https://preview.redd.it/u77kurke5oog1.jpg?width=1215&amp;format=pjpg&amp;auto=webp&amp;s=c7518eeb40c71f3fe1f813858a4c5a715b190f20)
-
-### Top comments
-
-- u/keegums (61): "I benefited from every person in my life being a union member, but you guys definitely don't need one!"
-- u/sour_bong_water (26): They really thought they did something with a gigantic poster of it too 😂
-- u/skiinggoose (25): The behavior at West from some of the management has been *incredibly* disappointing. I understand they are happy because they got what they want, but the….gleefulness after the vote was gross. The gleefulness over who called in the next day was gross. 
-It felt like high school mean girl shit. 
-
-EDIT - I should say the behavior of *one* manager.
-- u/emteeboyd (23): The fact that that giant ass letter was laminated is sending me 🤣🤣
-- u/Jelly_gh0st (18): the shady management stuff goes deep, I worked in culinary and was supposed to take a lead position before it was cut without warning, then our boss, the department head, got pressured out of her position after working there for some 8 years. She was the hardest worker I've ever known, literally all of her employees loved and respected her, she stood up for them and always listened and worked to make conditions better for them, and upper management started undermining her decisions for seemingly no reason, started firing employees without consulting her, ones she was standing up for who had disabilities that altered their working schedules etc. 
-
-I heard several rumors from people in kitchen that the same person who posted this letter got caught trying to sneak expired meat into the cooler to peg it on the culinary head and fire her.
-
-After that, we just stopped getting support from upper management on anything. If equipment was breaking, they'd take upwards of 6 months of constant asking to do anything about it, and would only cave if it was an active emergency. They started throwing out a ton of food without giving a reason and without giving out to employees or local food drives, stuff like soups that had just been made, or deli meat that was still good. 
-
-Absolutely not normal person behavior, and I'm hearing they keep getting more secretive about major store decisions that people are complaining about: things like phasing out the March Cheese Madness event, taking the Rueben off the deli spring menu, getting rid of the guy who would come and melt raclette as a promo, they've gutted the beer and wine department and lost a bunch of really great products that I know were selling really well... the decisions are baffling even from a business perspective, this stuff made them money and got really positive attention
-
-## Short's Brewing &amp; Keen Plan a New Future for Logan's Landing
-
-# By Beth Milligan | April 7, 2026
-
-Short’s Brewing Company is finally coming to Traverse City. Its new home – the east side of Logan’s Landing on South Airport Road, which the company has jointly purchased with Keen Technical Solutions – will see millions in new investment pour into a site locals have long desired to see revitalized. *The Ticker* has an exclusive first look at the property plans, including a targeted spring 2027 opening for a new Short’s taproom with a riverside tiki bar.
-
-Tim Pulliam of Keen Technical Solutions and Scott Newman-Bale of Short’s Brewing Company sat down to discuss the companies’ purchase of the site, a deal they finalized March 16. The partners now own the entire east side of Logan’s Landing, including the parking area. Short’s Brewing Company is planning to use about 10,000 square feet of the 16,000-square-foot site, including a 1,600-square-foot deck. Multiple exis
+My second issue is one of optics, you could say. Printing so many copies of this and taping them to every employees locker is not only childish and something I would only imagine from a crazy ex, it is straight up wasteful. It would be hilarious if it wasn't real. Is Oryana not a green company? Why would you print off so many copies of this already insanely pe

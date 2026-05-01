@@ -1,0 +1,1784 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-barrios",
+      "city_id": "tucson",
+      "name": {
+        "en": "Downtown & The Historic Barrios"
+      },
+      "summary": {
+        "en": "This is the heart of Tucson, where deep Spanish colonial roots meet a modern cultural renaissance in the colorful, narrow streets of Presidio and Barrio Viejo."
+      },
+      "lat": 32.2205,
+      "lng": -110.9731,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university",
+      "city_id": "tucson",
+      "name": {
+        "en": "Fourth Avenue & West University"
+      },
+      "summary": {
+        "en": "Funky, bohemian, and buzzing with youthful energy, this area is a vibrant artery of thrift stores, quirky boutiques, and laid-back bars."
+      },
+      "lat": 32.2275,
+      "lng": -110.9665,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse",
+      "city_id": "tucson",
+      "name": {
+        "en": "Warehouse Arts District & Iron Horse"
+      },
+      "summary": {
+        "en": "Gritty, creative, and unapologetically industrial, this district is where Tucson's artistic spirit has reclaimed old warehouses for murals and galleries."
+      },
+      "lat": 32.2238,
+      "lng": -110.9752,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak",
+      "city_id": "tucson",
+      "name": {
+        "en": "Menlo Park & Sentinel Peak"
+      },
+      "summary": {
+        "en": "This is where Tucson began, offering a profound connection to the region's agricultural past and the single best viewpoint for understanding the city's layout."
+      },
+      "lat": 32.2165,
+      "lng": -110.985,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university",
+      "city_id": "tucson",
+      "name": {
+        "en": "Sam Hughes & University Campus"
+      },
+      "summary": {
+        "en": "A graceful, historic neighborhood defined by charming architecture and the intellectual energy of the adjacent University of Arizona."
+      },
+      "lat": 32.2319,
+      "lng": -110.9505,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell",
+      "city_id": "tucson",
+      "name": {
+        "en": "Historic Fort Lowell & San Pedro Chapel"
+      },
+      "summary": {
+        "en": "A hidden pocket of deep history that feels like a rural village, where crumbling adobe ruins coexist with a mid-century artist colony."
+      },
+      "lat": 32.265,
+      "lng": -110.8958,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-barrios-enr-hotel-congress",
+      "city_id": "tucson",
+      "neighborhood_id": "downtown-barrios",
+      "name": {
+        "en": "Hotel Congress"
+      },
+      "description": {
+        "en": "A living piece of history and legendary music venue with a classic taproom that has been serving since 1919."
+      },
+      "type": "nightlife",
+      "lat": 32.2225,
+      "lng": -110.9698,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-enr-el-charro-cafe",
+      "city_id": "tucson",
+      "neighborhood_id": "downtown-barrios",
+      "name": {
+        "en": "El Charro Café"
+      },
+      "description": {
+        "en": "Tucson's oldest restaurant, famous for its authentic Sonoran cuisine and as the reputed birthplace of the chimichanga."
+      },
+      "type": "food",
+      "lat": 32.224,
+      "lng": -110.974,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-enr-el-tiradito-wishing-shrine",
+      "city_id": "tucson",
+      "neighborhood_id": "downtown-barrios",
+      "name": {
+        "en": "El Tiradito Wishing Shrine"
+      },
+      "description": {
+        "en": "The only shrine in the U.S. dedicated to a 'sinner' buried in unconsecrated ground, where locals light candles and leave wishes."
+      },
+      "type": "hidden_gem",
+      "lat": 32.2175,
+      "lng": -110.973,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-enr-fox-theatre",
+      "city_id": "tucson",
+      "neighborhood_id": "downtown-barrios",
+      "name": {
+        "en": "Fox Theatre"
+      },
+      "description": {
+        "en": "A stunningly restored 1929 'Southwestern Art Deco' masterpiece with a beautiful glowing marquee."
+      },
+      "type": "culture",
+      "lat": 32.222,
+      "lng": -110.9718,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-enr-sosa-carrillo-fremont-house-museum",
+      "city_id": "tucson",
+      "neighborhood_id": "downtown-barrios",
+      "name": {
+        "en": "Sosa-Carrillo-Fremont House Museum"
+      },
+      "description": {
+        "en": "An 1870s adobe home that survived urban renewal, offering a tangible glimpse into Tucson's territorial past."
+      },
+      "type": "landmark",
+      "lat": 32.2198,
+      "lng": -110.9755,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-enr-exo-roast-co",
+      "city_id": "tucson",
+      "neighborhood_id": "fourth-ave-west-university",
+      "name": {
+        "en": "Exo Roast Co."
+      },
+      "description": {
+        "en": "A serious coffee destination that roasts its own beans and serves unique drinks like the spicy-sweet Chiltepin cold brew."
+      },
+      "type": "drink",
+      "lat": 32.2265,
+      "lng": -110.966,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-enr-la-rosa-pizza-pasta",
+      "city_id": "tucson",
+      "neighborhood_id": "fourth-ave-west-university",
+      "name": {
+        "en": "La Rosa Pizza & Pasta"
+      },
+      "description": {
+        "en": "A neighborhood anchor known for its live music, unpretentious vibe, and being a true local hangout."
+      },
+      "type": "food",
+      "lat": 32.2285,
+      "lng": -110.9668,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-enr-tucson-thrift",
+      "city_id": "tucson",
+      "neighborhood_id": "fourth-ave-west-university",
+      "name": {
+        "en": "Tucson Thrift"
+      },
+      "description": {
+        "en": "A popular thrift store perfect for digging through racks to find vintage treasures and unique clothing."
+      },
+      "type": "shopping",
+      "lat": 32.2255,
+      "lng": -110.9658,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-enr-4th-avenue-underpass",
+      "city_id": "tucson",
+      "neighborhood_id": "fourth-ave-west-university",
+      "name": {
+        "en": "4th Avenue Underpass"
+      },
+      "description": {
+        "en": "A pedestrian and bike tunnel connecting to Downtown that serves as a gallery of ever-changing street art."
+      },
+      "type": "landmark",
+      "lat": 32.2245,
+      "lng": -110.968,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-enr-west-university-historic-district",
+      "city_id": "tucson",
+      "neighborhood_id": "fourth-ave-west-university",
+      "name": {
+        "en": "West University Historic District"
+      },
+      "description": {
+        "en": "Charming streets surrounding Fourth Avenue filled with historic bungalows and architecture that give the neighborhood its character."
+      },
+      "type": "landmark",
+      "lat": 32.2301,
+      "lng": -110.965,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-enr-borderlands-brewing-company",
+      "city_id": "tucson",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "name": {
+        "en": "Borderlands Brewing Company"
+      },
+      "description": {
+        "en": "The social heart of the district, this brewery is housed in a former produce warehouse and offers a wide range of craft beers."
+      },
+      "type": "drink",
+      "lat": 32.223,
+      "lng": -110.975,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-enr-rattlesnake-bridge",
+      "city_id": "tucson",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "name": {
+        "en": "Rattlesnake Bridge"
+      },
+      "description": {
+        "en": "An iconic pedestrian bridge designed to look like a giant diamondback rattlesnake you can walk through."
+      },
+      "type": "landmark",
+      "lat": 32.222,
+      "lng": -110.966,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-enr-historic-train-depot",
+      "city_id": "tucson",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "name": {
+        "en": "Historic Train Depot"
+      },
+      "description": {
+        "en": "A beautifully restored Southern Pacific station and active Amtrak stop whose historic architecture contrasts with modern street art."
+      },
+      "type": "landmark",
+      "lat": 32.224,
+      "lng": -110.97,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-enr-sentinel-peak-a-mountain",
+      "city_id": "tucson",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "name": {
+        "en": "Sentinel Peak / \"A\" Mountain"
+      },
+      "description": {
+        "en": "A must-do for any visitor, offering a breathtaking panoramic view of the entire Tucson valley, especially at sunset."
+      },
+      "type": "viewpoint",
+      "lat": 32.214,
+      "lng": -110.988,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-enr-mission-garden",
+      "city_id": "tucson",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "name": {
+        "en": "Mission Garden"
+      },
+      "description": {
+        "en": "A living agricultural museum cultivating heritage crops grown in the Sonoran Desert for over 4,000 years."
+      },
+      "type": "nature",
+      "lat": 32.211,
+      "lng": -110.983,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-enr-menlo-park-neighborhood",
+      "city_id": "tucson",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "name": {
+        "en": "Menlo Park Neighborhood"
+      },
+      "description": {
+        "en": "A historic neighborhood with a strong sense of identity, distinct from the barrios east of the Santa Cruz River."
+      },
+      "type": "landmark",
+      "lat": 32.218,
+      "lng": -110.981,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-enr-university-of-arizona-poetry-center",
+      "city_id": "tucson",
+      "neighborhood_id": "sam-hughes-university",
+      "name": {
+        "en": "University of Arizona Poetry Center"
+      },
+      "description": {
+        "en": "A stunning piece of modern architecture housing a vast collection of contemporary poetry, with a quiet reading room and serene garden."
+      },
+      "type": "culture",
+      "lat": 32.234,
+      "lng": -110.948,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-enr-center-for-creative-photography",
+      "city_id": "tucson",
+      "neighborhood_id": "sam-hughes-university",
+      "name": {
+        "en": "Center for Creative Photography"
+      },
+      "description": {
+        "en": "Co-founded by Ansel Adams, this premier institution for photographic arts features rotating exhibitions and vast archives."
+      },
+      "type": "culture",
+      "lat": 32.232,
+      "lng": -110.952,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-enr-the-historic-homes-of-sam-hughes",
+      "city_id": "tucson",
+      "neighborhood_id": "sam-hughes-university",
+      "name": {
+        "en": "The Historic Homes of Sam Hughes"
+      },
+      "description": {
+        "en": "A joy to walk through, this area features diverse architectural styles from the 1920s to the 1950s along shady, pedestrian-friendly streets."
+      },
+      "type": "landmark",
+      "lat": 32.23,
+      "lng": -110.94,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-enr-the-arizona-inn",
+      "city_id": "tucson",
+      "neighborhood_id": "sam-hughes-university",
+      "name": {
+        "en": "The Arizona Inn"
+      },
+      "description": {
+        "en": "A luxurious, historic resort built in 1930 where you can walk the beautiful grounds or have a classic cocktail to soak in old-world elegance."
+      },
+      "type": "drink",
+      "lat": 32.242,
+      "lng": -110.943,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-enr-main-gate-square",
+      "city_id": "tucson",
+      "neighborhood_id": "sam-hughes-university",
+      "name": {
+        "en": "Main Gate Square"
+      },
+      "description": {
+        "en": "A bustling area on University Boulevard packed with cafes and restaurants catering to the university community."
+      },
+      "type": "food",
+      "lat": 32.232,
+      "lng": -110.959,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-enr-fort-lowell-park-museum",
+      "city_id": "tucson",
+      "neighborhood_id": "historic-fort-lowell",
+      "name": {
+        "en": "Fort Lowell Park & Museum"
+      },
+      "description": {
+        "en": "Walk among cottonwood trees to see remaining structures of the 1873 fort, with a small museum providing historical context."
+      },
+      "type": "landmark",
+      "lat": 32.265,
+      "lng": -110.893,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-enr-san-pedro-chapel-el-fuerte",
+      "city_id": "tucson",
+      "neighborhood_id": "historic-fort-lowell",
+      "name": {
+        "en": "San Pedro Chapel (El Fuerte)"
+      },
+      "description": {
+        "en": "A beautiful, simple, and lovingly restored 1932 adobe chapel that serves as the spiritual and community heart of the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 32.264,
+      "lng": -110.899,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-enr-the-artist-colony-adobes",
+      "city_id": "tucson",
+      "neighborhood_id": "historic-fort-lowell",
+      "name": {
+        "en": "The \"Artist Colony\" Adobes"
+      },
+      "description": {
+        "en": "Unique adobe homes renovated by artists and academics in the mid-20th century, creating a unique architectural style."
+      },
+      "type": "landmark",
+      "lat": 32.2645,
+      "lng": -110.894,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-enr-tucson-botanical-gardens",
+      "city_id": "tucson",
+      "neighborhood_id": "historic-fort-lowell",
+      "name": {
+        "en": "Tucson Botanical Gardens"
+      },
+      "description": {
+        "en": "A lush, thematic oasis that feels like a natural extension of the historic neighborhood's verdant setting."
+      },
+      "type": "nature",
+      "lat": 32.249,
+      "lng": -110.92,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-barrios-task-1",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Adobe Details"
+      },
+      "prompt": {
+        "en": "Find a colorful adobe wall and take a photo focusing on its unique texture and color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-2",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a single image that shows a historic building next to a modern piece of architecture or art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-3",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Historic Street Sign"
+      },
+      "prompt": {
+        "en": "Find a street sign with a Spanish name and take a photo of it. What does the name mean?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-4",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Art in an Alley"
+      },
+      "prompt": {
+        "en": "Explore a narrow side street or alleyway and photograph a hidden piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-5",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the interesting shadows cast by an old building or ornate ironwork in the afternoon sun."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-6",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Sonoran Flavor"
+      },
+      "prompt": {
+        "en": "Find a local restaurant and take a picture of a dish that represents Sonoran cuisine."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-7",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Architectural Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most interesting historical doorway or window you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-8",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Look for a faded advertisement painted on the side of a brick building and capture its ghostly image."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-9",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Take a 10-second video capturing the ambient sounds of a historic street corner."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-10",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Local Brew"
+      },
+      "prompt": {
+        "en": "Take a photo of a locally brewed beer or coffee you're enjoying in a historic setting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-11",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Colorful Corner"
+      },
+      "prompt": {
+        "en": "Find a street corner where at least four different vibrant colors are visible and capture them in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-12",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Historical Marker"
+      },
+      "prompt": {
+        "en": "Find and photograph a plaque or marker that tells a story about a building's past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-13",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Barrio Garden"
+      },
+      "prompt": {
+        "en": "Photograph a small, resilient garden or potted plant thriving against an old adobe wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-14",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Reflections of History"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a historic building in the window of a modern shop or car."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "downtown-barrios-task-15",
+      "neighborhood_id": "downtown-barrios",
+      "title": {
+        "en": "Theatrical Entrance"
+      },
+      "prompt": {
+        "en": "Take a photo of the grand entrance to one of the area's historic theaters."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-1",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Bohemian Street Style"
+      },
+      "prompt": {
+        "en": "Discreetly capture a photo that represents the unique, funky fashion sense of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-2",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Weird Window Display"
+      },
+      "prompt": {
+        "en": "Find the most bizarre or wonderful item you can find for sale in a shop window and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-3",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Thrift Store Treasure"
+      },
+      "prompt": {
+        "en": "Go into a thrift store and take a picture of an item that looks like it has an amazing story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-4",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Counter-Culture Coffee"
+      },
+      "prompt": {
+        "en": "Take an artistic shot of your coffee or tea at a local, independent cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-5",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Sticker Art"
+      },
+      "prompt": {
+        "en": "Find a lamppost or sign covered in stickers and take a close-up photo of the most interesting one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-6",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "People-Watching Perspective"
+      },
+      "prompt": {
+        "en": "Find a good spot to sit and take a photo that captures the general buzz and energy of the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-7",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Funky Ride"
+      },
+      "prompt": {
+        "en": "Photograph a uniquely decorated bike, scooter, or car parked in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-8",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Bungalow Charm"
+      },
+      "prompt": {
+        "en": "Wander off the main avenue and take a photo of a charming, historic bungalow in the West University area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-9",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Local Zine"
+      },
+      "prompt": {
+        "en": "Find a zine, a used book, or a local newspaper and take a photo of its cover."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-10",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Graffiti Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a colorful piece of graffiti or street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-11",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Live Music Moment"
+      },
+      "prompt": {
+        "en": "If you see a street performer or a band playing, capture a photo of the performance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-12",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Handmade Craft"
+      },
+      "prompt": {
+        "en": "Photograph a piece of handmade jewelry, pottery, or art for sale in a local boutique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-13",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Slice of Life"
+      },
+      "prompt": {
+        "en": "Grab a slice of pizza from a local spot and take a picture of it before you dig in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-14",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the glow of a neon sign from a bar or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "fourth-ave-west-university-task-15",
+      "neighborhood_id": "fourth-ave-west-university",
+      "title": {
+        "en": "Quirky Signage"
+      },
+      "prompt": {
+        "en": "Find and photograph a funny or cleverly worded sign outside a business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-1",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a rusty metal door, corrugated steel wall, or weathered brick."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-2",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Mural Magic"
+      },
+      "prompt": {
+        "en": "Find a large-scale mural and take a photo from an interesting angle that shows its size."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-3",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Shadows on the Tracks"
+      },
+      "prompt": {
+        "en": "Capture the long shadows cast by buildings or fences near the railroad tracks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-4",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Art & Decay"
+      },
+      "prompt": {
+        "en": "Photograph a piece of street art on a crumbling or decaying wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-5",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Creative Repurposing"
+      },
+      "prompt": {
+        "en": "Find an old industrial object that has been repurposed as art or decoration and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-6",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Warehouse Window"
+      },
+      "prompt": {
+        "en": "Take a photo of an old, multi-paned warehouse window. Try to capture the reflections."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-7",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Mural Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you look like you are interacting with a character or element in a mural."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-8",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "The Lone Plant"
+      },
+      "prompt": {
+        "en": "Find a single plant or weed growing out of a crack in the concrete or a brick wall and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-9",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Brewery Vibe"
+      },
+      "prompt": {
+        "en": "Capture the industrial-chic atmosphere inside a local brewery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-10",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Train Sighting"
+      },
+      "prompt": {
+        "en": "If you hear a train, try to safely capture a photo of it passing by."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-11",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Gritty Details"
+      },
+      "prompt": {
+        "en": "Find a detail that embodies the 'gritty' vibe of the neighborhood—peeling paint, a stained wall, a broken sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-12",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Skyline View"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a gritty foreground (like a warehouse roof) and the downtown skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-13",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Artist's Mark"
+      },
+      "prompt": {
+        "en": "Find an artist's signature or tag on a mural and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-14",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Geometric Shapes"
+      },
+      "prompt": {
+        "en": "Compose a photo focusing on the geometric shapes and lines of the industrial architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "warehouse-arts-iron-horse-task-15",
+      "neighborhood_id": "warehouse-arts-iron-horse",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a brightly colored mural or piece of graffiti that stands out against the industrial backdrop and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-1",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Panoramic City"
+      },
+      "prompt": {
+        "en": "From a high vantage point, take a panoramic photo of the Tucson valley spread out below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-2",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Desert Flora"
+      },
+      "prompt": {
+        "en": "Find a native Sonoran desert plant (like a saguaro or prickly pear) and take a photo of it with the city or mountains in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-3",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Historic Roots"
+      },
+      "prompt": {
+        "en": "Photograph a sign, building, or garden that speaks to the agricultural or historical origins of Tucson."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-4",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Contemplative Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie looking out over the view from a quiet spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-5",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Sunset Colors"
+      },
+      "prompt": {
+        "en": "If you're here at dusk, capture the vibrant colors of the sunset over the mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-6",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "City Lights"
+      },
+      "prompt": {
+        "en": "As evening falls, take a photo of the city lights beginning to twinkle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-7",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "A Path Forward"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a quiet residential street or a walking path, emphasizing perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-8",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Edible History"
+      },
+      "prompt": {
+        "en": "Find a fruit or vegetable growing in a garden that you've never seen before and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-9",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Geological Detail"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of the interesting rocks and geological formations on Sentinel Peak."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-10",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a peaceful, shady spot and take a photo that conveys a sense of calm and quiet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-11",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Riverbed View"
+      },
+      "prompt": {
+        "en": "Capture a view of the (usually dry) Santa Cruz River bed from the west side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-12",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Shadow of the Mountain"
+      },
+      "prompt": {
+        "en": "In the late afternoon, photograph the long shadow cast by Sentinel Peak over the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-13",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Neighborhood Identity"
+      },
+      "prompt": {
+        "en": "Find a detail on a house or in a yard that gives the Menlo Park neighborhood its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-14",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Sky Island"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the distant mountain ranges surrounding Tucson, known as 'Sky Islands'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "menlo-park-sentinel-peak-task-15",
+      "neighborhood_id": "menlo-park-sentinel-peak",
+      "title": {
+        "en": "Hiker's Reward"
+      },
+      "prompt": {
+        "en": "Take a photo of your walking shoes or water bottle with the epic view in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-1",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Architectural Gem"
+      },
+      "prompt": {
+        "en": "Find a historic home with a unique architectural detail—like a colorful tile, a unique porch, or an interesting roofline—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-2",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Campus Landmark"
+      },
+      "prompt": {
+        "en": "Take a photo of an iconic building or landmark on the University of Arizona campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-3",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Leafy Canopy"
+      },
+      "prompt": {
+        "en": "Find a street lined with trees and take a photo looking up through the shady canopy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-4",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Intellectual Energy"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the 'smart' vibe of the area—a library, a student studying, or a thought-provoking sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-5",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Desert Landscaping"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully landscaped yard that uses native Sonoran Desert plants and cacti."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-6",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Poetic Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet garden or bench and take a photo that feels peaceful and poetic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-7",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Scholarly Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a building that looks particularly academic or historic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-8",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Student Fuel"
+      },
+      "prompt": {
+        "en": "Grab a coffee or a quick bite from a spot on University Boulevard and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-9",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Light and Lines"
+      },
+      "prompt": {
+        "en": "Find a modern building on campus and photograph the way the desert light plays across its geometric lines."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-10",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Bike-Friendly Path"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the designated bike paths, perhaps with a cyclist riding past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-11",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Old World Elegance"
+      },
+      "prompt": {
+        "en": "Find a spot that exudes the 'old-world elegance' mentioned in the report and capture its atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-12",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Public Art"
+      },
+      "prompt": {
+        "en": "The university campus has many sculptures and art installations. Find one and take a creative photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-13",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "Find a brightly colored door or gate on one of the historic homes and make it the focus of your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-14",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "Peaceful Walkway"
+      },
+      "prompt": {
+        "en": "Photograph a quiet, inviting walkway or path within the neighborhood or on campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "sam-hughes-university-task-15",
+      "neighborhood_id": "sam-hughes-university",
+      "title": {
+        "en": "University Spirit"
+      },
+      "prompt": {
+        "en": "Find something that shows off the University of Arizona's school spirit—a logo, a mascot, or school colors."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-1",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Melting Adobe"
+      },
+      "prompt": {
+        "en": "Find a historic adobe ruin and take a close-up photo that emphasizes the weathered, crumbling texture of the wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-2",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Chapel & Sky"
+      },
+      "prompt": {
+        "en": "Capture the stark, beautiful contrast between a white adobe chapel wall and the deep blue Arizona sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-3",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Atmospheric History"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the quiet, dusty, and profoundly atmospheric feeling of this historic area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-4",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Artist Colony Vibe"
+      },
+      "prompt": {
+        "en": "Find a unique adobe home from the mid-century artist colony and photograph a detail that shows its creative character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-5",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Photograph a place where nature—like a large cottonwood tree or desert scrub—is growing over or alongside a historic ruin."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-6",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "A Moment of Silence"
+      },
+      "prompt": {
+        "en": "Find a quiet spot, perhaps near the chapel or in the park, and take a photo that conveys peace and reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-7",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Historic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the oldest-looking wall or structure you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-8",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Capture the interesting shadows cast by the ruins or old trees in the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-9",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Rural Village Feel"
+      },
+      "prompt": {
+        "en": "Take a picture of a dusty road or a simple fence that makes the area feel like a village within the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-10",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Historical Marker Discovery"
+      },
+      "prompt": {
+        "en": "Find and photograph a historical marker or plaque that explains a piece of the area's history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-11",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Frame a shot looking through a window or doorway of a ruin to the landscape beyond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-12",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Lush Oasis"
+      },
+      "prompt": {
+        "en": "Capture an image of the lush greenery in the botanical gardens or park that contrasts with the surrounding desert."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-13",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Simple Beauty"
+      },
+      "prompt": {
+        "en": "Photograph a simple, beautiful detail: a wooden cross, a single flower, or light coming through a window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-14",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Fort Foundations"
+      },
+      "prompt": {
+        "en": "Find the stone or adobe foundations of a former fort building and take a photo from a low angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    },
+    {
+      "id": "historic-fort-lowell-task-15",
+      "neighborhood_id": "historic-fort-lowell",
+      "title": {
+        "en": "Explorer's Feet"
+      },
+      "prompt": {
+        "en": "Take a photo of your feet on a dusty path, with the historic scenery in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T04:02:18.371667+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

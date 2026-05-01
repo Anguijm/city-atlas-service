@@ -32,6 +32,21 @@ The Pincus Building in the Lower Dauphin Street Historic District
 The city's historic districts include: Old Dauphin Way, Oakleigh Garden, Lower Dauphin Street, Leinkauf, De Tonti Square, Church Street East, Ashland Place, Campground, and Midtown. Many storefronts from the 1800s still stand along Lower Dauphin Street. Renovations to the ground floors of some buildings often leave the upper floors untouched. The Oakleigh Garden District is centered around the most photographed house in Mobile, Oakleigh. Many bracketed Italianate residences were later built around it.
 The Cathedral Basilica of the Immaculate Conception was built on the colonial-era Campo Santo cemetery, of which no trace remains. Several historic cemeteries were established shortly after the colonial era. The Church Street Graveyard contains above-ground tombs and monuments spread over 4 acres (2 ha) and was founded in 1819. The nearby 120-acre (49 ha) Magnolia Cemetery was established in 1836 and served as Mobile's primary burial site during the 19th and early 20th centuries. Mobile's Jewish community dates back to the 1820s, and the city has two historic Jewish cemeteries, Sha'arai Shomayim Cemetery and Ahavas Chesed Cemetery. Sha'arai Shomayim is the older of the two.
 
+## Sports
+
+The first South Alabama Jaguars football game at Ladd–Peebles Stadium
+See also: History of sports in Mobile, Alabama
+
+## Other sports and facilities
+
+The Hank Aaron Stadium
+Mobile has been home to Minor League Baseball teams from the late nineteenth century to 2019. Three Southern League teams operated out of Mobile intermittently in the nineteenth century: the Swamp Angels, Blackbirds, and Bluebirds. In the twentieth century, several teams, each called the Bears, operated at different times. Mobile's Hank Aaron Stadium was the home of the Minor League Mobile BayBears from 1997 to 2019.
+
+Entrance to the Mitchell Center at the University of South Alabama
+South Alabama basketball is a mid-major team in the Sun Belt Conference. They play their home games at the Mitchell Center. The Archbishop Lipscomb Athletic Complex is home of AFC Mobile, which is a National Premier Soccer League team. The public Mobile Tennis Center includes over 50 courts, all lighted and hard-court.
+For golfers, Magnolia Grove, part of the Robert Trent Jones Golf Trail, has 36 holes. The Falls course was recently named the best par 3 course in America. The Mitchell Company Tournament of Champions was played annually at Magnolia Grove from 1999 through 2007. The Mobile Bay LPGA Classic took its place in 2008, also held at Mobile's Magnolia Grove.
+Mobile is home to the Azalea Trail Run, which races through historic midtown and downtown Mobile. This 10k run has been an annual event since 1978. The Azalea Trail Run is one of the premier 10k road races in the United States, attracting runners from all over the world.
+
 ## Parks and recreation
 
 Ketchum Fountain in the center of Bienville Square

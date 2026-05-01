@@ -49,6 +49,29 @@ The City Opera House features plays, movies, and performances.
 The Traverse Symphony Orchestra was founded in 1952.
 The Dennos Museum Center is located on the campus of Northwestern Michigan College.
 
+## Historical markers
+
+Historic postcard of Building 50, c. 1930
+There are eleven recognized Michigan historical markers in the Traverse City area. They are:
+
+Bingham District No. 5 Schoolhouse
+City Opera House
+Congregation Beth El
+Grand Traverse Bay
+Grand Traverse County Courthouse
+Great Lakes Sport Fishery
+Ladies Library Association
+Novotny's Saloon
+Park Place Hotel
+Perry Hannah House
+Traverse City State Hospital
+
+## Sports
+
+The Huntington Rink indoor arena is used primarily for ice hockey, and is the home of the Traverse City North Stars hockey team.
+
+During their annual offseason, the Detroit Red Wings of the National Hockey League hold their training camp at Traverse City's Centre Ice Arena. In addition to training camp every September, the Red Wings host an NHL Prospect Tournament, consisting of prospects of participating teams around the league. In 2021, the Traverse City Prospect Tournament consisted of players from the Detroit Red Wings, Toronto Maple Leafs, Columbus Blue Jackets, Dallas Stars, and St. Louis Blues. For this reason, Traverse City is often referred to as Hockeytown North, in reference to Detroit's nickname, Hockeytown.
+
 ## Parks and recreation
 
 Hull Park on Boardman Lake in Traverse City; the bike path is part of the TART trail system

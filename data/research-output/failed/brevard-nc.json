@@ -1,0 +1,242 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-brevard",
+      "city_id": "brevard-nc",
+      "name": {
+        "en": "Downtown Brevard & College Grounds"
+      },
+      "summary": {
+        "en": "A classic, community-focused Appalachian mountain town where main streets transform into festival grounds and the unique white squirrel is a point of civic pride."
+      },
+      "lat": 35.2335,
+      "lng": -82.7343,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-brevard-enr-white-squirrel-habitats",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "downtown-brevard",
+      "name": {
+        "en": "White Squirrel Habitats"
+      },
+      "description": {
+        "en": "Brevard is famous for its population of white squirrels, a variant of the Eastern gray squirrel. Spotting them in the leafy areas around downtown and the college is a quintessential local experience."
+      },
+      "type": "hidden_gem",
+      "lat": 35.2351,
+      "lng": -82.7325,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-enr-south-broad-street-festival-grounds",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "downtown-brevard",
+      "name": {
+        "en": "South Broad Street & Festival Grounds"
+      },
+      "description": {
+        "en": "This is the main artery for Brevard's major community celebrations like the Christmas Parade and Halloweenfest, serving as the town’s open-air stage."
+      },
+      "type": "landmark",
+      "lat": 35.2318,
+      "lng": -82.7346,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-enr-brevard-college-campus",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "downtown-brevard",
+      "name": {
+        "en": "Brevard College Campus"
+      },
+      "description": {
+        "en": "Deeply integrated into the town's identity, the campus offers quiet, walkable green spaces, collegiate architecture, and is a prime habitat for white squirrels."
+      },
+      "type": "culture",
+      "lat": 35.2372,
+      "lng": -82.7301,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-brevard-task-1",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Squirrel Quest"
+      },
+      "prompt": {
+        "en": "Find a representation of the town's mascot, the white squirrel. It could be a real one, a statue, a logo on a sign, or art. Snap a photo!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-2",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Mountain Town Charm"
+      },
+      "prompt": {
+        "en": "Capture a photo that you think perfectly encapsulates the 'small-town charm' of Brevard's downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-3",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Historic Facade"
+      },
+      "prompt": {
+        "en": "Find the most interesting or historic-looking building you can and take a creative shot of its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-4",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Campus Serenity"
+      },
+      "prompt": {
+        "en": "Wander onto the Brevard College grounds and find a peaceful scene. Photograph a quiet pathway, a brick building through the trees, or a tranquil green space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-5",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Festival Feeling"
+      },
+      "prompt": {
+        "en": "Imagine the main street is full for a parade. Take a photo from a perspective that makes the street look grand and ready for a celebration."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-6",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Appalachian Details"
+      },
+      "prompt": {
+        "en": "Look for details that feel unique to an Appalachian mountain town. It could be a craft, a sign, a style of architecture, or a view. Capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-7",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "Find something that represents 'community' to you. It could be a public bench, a notice board, or a gathering spot. Take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-8",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Green and Grand"
+      },
+      "prompt": {
+        "en": "Find an old, large tree in the neighborhood and take a low-angle shot looking up into its branches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-9",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Town & Gown"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the blend of the town and the college campus in a single frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-10",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Architectural Accent"
+      },
+      "prompt": {
+        "en": "Zoom in on a unique architectural detail you might otherwise miss, like an interesting window frame, brick pattern, or doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-11",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If it's near sunrise or sunset, capture a photo of a building or street bathed in the warm light of the golden hour."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    },
+    {
+      "id": "downtown-brevard-task-12",
+      "neighborhood_id": "downtown-brevard",
+      "title": {
+        "en": "Main Street Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most charming part of the main street in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:02:46.539146+00:00"
+    }
+  ]
+}

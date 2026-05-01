@@ -1,0 +1,2022 @@
+{
+  "neighborhoods": [
+    {
+      "id": "el-centro",
+      "city_id": "medellin",
+      "name": {
+        "en": "El Centro (La Candelaria)"
+      },
+      "summary": {
+        "en": "The historical and commercial nucleus of Medellín, a vibrant, gritty, and often overwhelming assault on the senses with architectural treasures amidst the chaos."
+      },
+      "lat": 6.2518,
+      "lng": -75.5668,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles",
+      "city_id": "medellin",
+      "name": {
+        "en": "Laureles"
+      },
+      "summary": {
+        "en": "A relaxed, confident, and decidedly Paisa neighborhood with a strong community feel, built around circular parks and tree-lined streets."
+      },
+      "lat": 6.2442,
+      "lng": -75.5925,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado",
+      "city_id": "medellin",
+      "name": {
+        "en": "Prado"
+      },
+      "summary": {
+        "en": "A protected architectural heritage zone that feels like an open-air museum of grand mansions, offering a glimpse into the city's aristocratic past."
+      },
+      "lat": 6.2595,
+      "lng": -75.5642,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13",
+      "city_id": "medellin",
+      "name": {
+        "en": "Comuna 13 (San Javier)"
+      },
+      "summary": {
+        "en": "A powerful symbol of Medellín's transformation, this resilient neighborhood is now a vibrant open-air gallery of street art, music, and community."
+      },
+      "lat": 6.2551,
+      "lng": -75.6219,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez",
+      "city_id": "medellin",
+      "name": {
+        "en": "Aranjuez"
+      },
+      "summary": {
+        "en": "Medellín's intellectual and scientific core, a dynamic zone where nature, science, and social innovation converge around the university and botanical garden."
+      },
+      "lat": 6.2699,
+      "lng": -75.5655,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado",
+      "city_id": "medellin",
+      "name": {
+        "en": "Envigado (El Dorado & Jardines)"
+      },
+      "summary": {
+        "en": "An independent municipality with a small-town feel, offering a traditional Paisa atmosphere with quiet parks and a slower pace of life."
+      },
+      "lat": 6.175,
+      "lng": -75.584,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "el-centro-enr-salon-malaga",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Salon Málaga"
+      },
+      "description": {
+        "en": "A time capsule since 1957, this classic salon is a temple to tango and local culture, perfect for a simple coffee or beer."
+      },
+      "type": "drink",
+      "lat": 6.2476,
+      "lng": -75.5703,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-enr-street-side-tinto-carts",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Street-side Tinto Carts"
+      },
+      "description": {
+        "en": "Found on nearly every corner, these carts offer an authentic experience to buy a small, sweet coffee and watch the city go by."
+      },
+      "type": "drink",
+      "lat": 6.2515,
+      "lng": -75.5675,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-enr-salon-versalles",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Salón Versalles"
+      },
+      "description": {
+        "en": "An institution since 1961, beloved for its unique blend of Argentinian and traditional Paisa pastries and meals like empanadas and milanesa."
+      },
+      "type": "food",
+      "lat": 6.252,
+      "lng": -75.567,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-enr-hacienda-junin",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Hacienda Junín"
+      },
+      "description": {
+        "en": "A classic, bustling restaurant to try authentic Antioquian cuisine like the Bandeja Paisa without a tourist-trap feel."
+      },
+      "type": "food",
+      "lat": 6.251,
+      "lng": -75.567,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-enr-palacio-de-la-cultura-rafael-uribe-uribe",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Palacio de la Cultura Rafael Uribe Uribe"
+      },
+      "description": {
+        "en": "A striking Gothic Revival palace overlooking Plaza Botero. Climb to the upper balconies for a unique perspective of the plaza."
+      },
+      "type": "culture",
+      "lat": 6.2525,
+      "lng": -75.568,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-enr-plaza-botero",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Plaza Botero"
+      },
+      "description": {
+        "en": "An open-air museum featuring 23 monumental bronze sculptures by Fernando Botero, central to the city's identity."
+      },
+      "type": "culture",
+      "lat": 6.252,
+      "lng": -75.568,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-enr-vasquez-and-carre-buildings",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Vásquez and Carré Buildings"
+      },
+      "description": {
+        "en": "Two magnificent, symmetrical Republican-era buildings that stand as elegant witnesses to Medellín's early 20th-century commercial boom."
+      },
+      "type": "landmark",
+      "lat": 6.248,
+      "lng": -75.571,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-enr-parque-de-las-luces-plaza-cisneros",
+      "city_id": "medellin",
+      "neighborhood_id": "el-centro",
+      "name": {
+        "en": "Parque de las Luces (Plaza Cisneros)"
+      },
+      "description": {
+        "en": "A plaza featuring a forest of 300 towering light poles that create a magical, otherworldly atmosphere after dark."
+      },
+      "type": "landmark",
+      "lat": 6.2475,
+      "lng": -75.571,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-enr-rituales-compania-de-cafe",
+      "city_id": "medellin",
+      "neighborhood_id": "laureles",
+      "name": {
+        "en": "Rituales Compañía de Café"
+      },
+      "description": {
+        "en": "A specialty coffee shop that takes its craft seriously, sourcing beans directly from local farms in a quiet, minimalist space."
+      },
+      "type": "drink",
+      "lat": 6.242,
+      "lng": -75.594,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-enr-caduff-pasta-fresca",
+      "city_id": "medellin",
+      "neighborhood_id": "laureles",
+      "name": {
+        "en": "Caduff Pasta Fresca"
+      },
+      "description": {
+        "en": "A tiny, unassuming fresh pasta spot that is a true neighborhood gem, offering an intimate dining experience."
+      },
+      "type": "food",
+      "lat": 6.242,
+      "lng": -75.593,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-enr-primer-parque-de-laureles",
+      "city_id": "medellin",
+      "neighborhood_id": "laureles",
+      "name": {
+        "en": "Primer Parque de Laureles"
+      },
+      "description": {
+        "en": "One of the two circular parks that act as the green lungs of the neighborhood, ringed with bars and restaurants."
+      },
+      "type": "landmark",
+      "lat": 6.245,
+      "lng": -75.59,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-enr-segundo-parque-de-laureles",
+      "city_id": "medellin",
+      "neighborhood_id": "laureles",
+      "name": {
+        "en": "Segundo Parque de Laureles"
+      },
+      "description": {
+        "en": "The second of the neighborhood's iconic circular parks, a prime spot for people-watching on weekend evenings."
+      },
+      "type": "landmark",
+      "lat": 6.241,
+      "lng": -75.592,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-enr-atanasio-girardot-sports-complex",
+      "city_id": "medellin",
+      "neighborhood_id": "laureles",
+      "name": {
+        "en": "Atanasio Girardot Sports Complex"
+      },
+      "description": {
+        "en": "The epicenter of Medellín's sports passion, featuring a massive soccer stadium and swimming complex."
+      },
+      "type": "landmark",
+      "lat": 6.256,
+      "lng": -75.59,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-enr-the-circular-streets",
+      "city_id": "medellin",
+      "neighborhood_id": "laureles",
+      "name": {
+        "en": "The Circular Streets"
+      },
+      "description": {
+        "en": "The neighborhood's unique urban design is a landmark itself. Get lost walking the concentric streets and admiring the mid-century architecture."
+      },
+      "type": "hidden_gem",
+      "lat": 6.243,
+      "lng": -75.591,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-enr-local-panaderias",
+      "city_id": "medellin",
+      "neighborhood_id": "prado",
+      "name": {
+        "en": "Local Panaderías"
+      },
+      "description": {
+        "en": "Pop into any small, unnamed neighborhood bakery for a tinto and fresh pan de queso to observe the quiet pace of life."
+      },
+      "type": "food",
+      "lat": 6.26,
+      "lng": -75.563,
+      "trending_score": 60,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-enr-casa-egipcia-the-egyptian-house",
+      "city_id": "medellin",
+      "neighborhood_id": "prado",
+      "name": {
+        "en": "Casa Egipcia (The Egyptian House)"
+      },
+      "description": {
+        "en": "The crown jewel of Prado, a bizarre and wonderful mansion adorned with pharaonic motifs, sphinxes, and hieroglyphics."
+      },
+      "type": "hidden_gem",
+      "lat": 6.262,
+      "lng": -75.565,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-enr-teatro-prado",
+      "city_id": "medellin",
+      "neighborhood_id": "prado",
+      "name": {
+        "en": "Teatro Prado"
+      },
+      "description": {
+        "en": "An Art Deco theater, now home to a theater company, whose facade is a beautiful example of the neighborhood's architectural diversity."
+      },
+      "type": "culture",
+      "lat": 6.26,
+      "lng": -75.561,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-enr-gothic-palace-palacio-egipcio",
+      "city_id": "medellin",
+      "neighborhood_id": "prado",
+      "name": {
+        "en": "Gothic Palace (Palacio Egipcio)"
+      },
+      "description": {
+        "en": "An architectural oddity with a Gothic, castle-like feel that now houses a school but has an exterior worth admiring."
+      },
+      "type": "landmark",
+      "lat": 6.258,
+      "lng": -75.565,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-enr-cremas-de-mango-biche",
+      "city_id": "medellin",
+      "neighborhood_id": "comuna-13",
+      "name": {
+        "en": "Cremas de Mango Biche"
+      },
+      "description": {
+        "en": "An essential Comuna 13 experience. Vendors all along the escalator route sell these bright green, sweet-and-sour unripe mango slushies."
+      },
+      "type": "drink",
+      "lat": 6.254,
+      "lng": -75.623,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-enr-balcony-cafes",
+      "city_id": "medellin",
+      "neighborhood_id": "comuna-13",
+      "name": {
+        "en": "Balcony Cafes"
+      },
+      "description": {
+        "en": "Small, family-run cafes with second-story balconies perfect for watching the flow of tourists, performers, and residents below."
+      },
+      "type": "drink",
+      "lat": 6.2545,
+      "lng": -75.6235,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-enr-las-escaleras-electricas",
+      "city_id": "medellin",
+      "neighborhood_id": "comuna-13",
+      "name": {
+        "en": "Las Escaleras Eléctricas"
+      },
+      "description": {
+        "en": "Iconic outdoor escalators that are a revolutionary piece of public infrastructure and a symbol of social urbanism."
+      },
+      "type": "landmark",
+      "lat": 6.2542,
+      "lng": -75.624,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-enr-the-graffiti-murals",
+      "city_id": "medellin",
+      "neighborhood_id": "comuna-13",
+      "name": {
+        "en": "The Graffiti Murals"
+      },
+      "description": {
+        "en": "The neighborhood is a living gallery where the art is a narrative of the community’s violent past and its hopeful future."
+      },
+      "type": "culture",
+      "lat": 6.2548,
+      "lng": -75.6245,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-enr-san-javier-metrocable-line-j",
+      "city_id": "medellin",
+      "neighborhood_id": "comuna-13",
+      "name": {
+        "en": "San Javier Metrocable (Line J)"
+      },
+      "description": {
+        "en": "Ride the cable car up the mountain for a breathtaking, humbling perspective of the sheer scale of the city and its barrios."
+      },
+      "type": "viewpoint",
+      "lat": 6.256,
+      "lng": -75.618,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-enr-san-javier-library-park",
+      "city_id": "medellin",
+      "neighborhood_id": "comuna-13",
+      "name": {
+        "en": "San Javier Library Park"
+      },
+      "description": {
+        "en": "A modern architectural space providing a safe and beautiful place for the community to learn and gather."
+      },
+      "type": "culture",
+      "lat": 6.2565,
+      "lng": -75.617,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-cafe-del-bosque",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "Café del Bosque"
+      },
+      "description": {
+        "en": "A tranquil cafe set within the botanical garden, offering a peaceful respite surrounded by lush greenery."
+      },
+      "type": "drink",
+      "lat": 6.2705,
+      "lng": -75.564,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-in-situ",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "In Situ"
+      },
+      "description": {
+        "en": "An elegant, open-air restaurant set by a lake in the botanical garden, perfect for a special lunch in a stunning natural setting."
+      },
+      "type": "food",
+      "lat": 6.271,
+      "lng": -75.563,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-jardin-botanico-de-medellin",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "Jardín Botánico de Medellín"
+      },
+      "description": {
+        "en": "A 34-acre oasis featuring the spectacular 'Orquideorama,' a futuristic wooden mesh structure protecting orchids and butterflies."
+      },
+      "type": "nature",
+      "lat": 6.27,
+      "lng": -75.564,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-parque-explora",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "Parque Explora"
+      },
+      "description": {
+        "en": "Medellín's brilliant interactive science museum, recognizable by its four massive red cubes and a testament to the city's investment in education."
+      },
+      "type": "culture",
+      "lat": 6.268,
+      "lng": -75.566,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-moravia-cultural-development-center",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "Moravia Cultural Development Center"
+      },
+      "description": {
+        "en": "The heart of an inspiring transformation, this center sits at the base of a hill that was once a garbage dump and is now a public garden."
+      },
+      "type": "culture",
+      "lat": 6.273,
+      "lng": -75.565,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-parque-de-los-deseos-wishes-park",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "Parque de los Deseos (Wishes Park)"
+      },
+      "description": {
+        "en": "An expansive public plaza that is a space for reflection by day and a popular gathering spot for outdoor movies by night."
+      },
+      "type": "landmark",
+      "lat": 6.267,
+      "lng": -75.566,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-student-cafes-near-udea",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "Student Cafes near UdeA"
+      },
+      "description": {
+        "en": "Bustling, no-frills cafes bordering the University of Antioquia, filled with students debating, studying, and socializing."
+      },
+      "type": "drink",
+      "lat": 6.266,
+      "lng": -75.568,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-enr-food-stalls-at-caribe-station",
+      "city_id": "medellin",
+      "neighborhood_id": "aranjuez",
+      "name": {
+        "en": "Food Stalls at Caribe Station"
+      },
+      "description": {
+        "en": "Small eateries and food stalls catering to students and workers, offering cheap and delicious daily menus (menú del día)."
+      },
+      "type": "food",
+      "lat": 6.269,
+      "lng": -75.57,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-enr-el-cafe-de-otraparte",
+      "city_id": "medellin",
+      "neighborhood_id": "envigado",
+      "name": {
+        "en": "El Café de Otraparte"
+      },
+      "description": {
+        "en": "One of the most beautiful and beloved cafes in the valley, located in a lush, peaceful garden setting."
+      },
+      "type": "drink",
+      "lat": 6.18,
+      "lng": -75.577,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-enr-la-cava-de-quesos",
+      "city_id": "medellin",
+      "neighborhood_id": "envigado",
+      "name": {
+        "en": "La Cava de Quesos"
+      },
+      "description": {
+        "en": "A charming little shop and cafe specializing in artisanal Colombian cheeses and wine, perfect for a relaxed afternoon."
+      },
+      "type": "food",
+      "lat": 6.176,
+      "lng": -75.578,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-enr-el-trifasico",
+      "city_id": "medellin",
+      "neighborhood_id": "envigado",
+      "name": {
+        "en": "El Trifásico"
+      },
+      "description": {
+        "en": "A legendary, no-frills restaurant famous for massive, perfectly cooked cuts of meat, especially its chicharrón and morcilla."
+      },
+      "type": "food",
+      "lat": 6.175,
+      "lng": -75.58,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-enr-contenedores-food-place",
+      "city_id": "medellin",
+      "neighborhood_id": "envigado",
+      "name": {
+        "en": "Contenedores Food Place"
+      },
+      "description": {
+        "en": "A modern food truck park built from shipping containers, offering a wide variety of options in a lively, casual spot."
+      },
+      "type": "food",
+      "lat": 6.176,
+      "lng": -75.577,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-enr-parque-de-envigado",
+      "city_id": "medellin",
+      "neighborhood_id": "envigado",
+      "name": {
+        "en": "Parque de Envigado"
+      },
+      "description": {
+        "en": "The social heart of Envigado, this classic Colombian plaza is dominated by a large church and is always bustling with activity."
+      },
+      "type": "landmark",
+      "lat": 6.173,
+      "lng": -75.585,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-enr-casa-museo-otraparte",
+      "city_id": "medellin",
+      "neighborhood_id": "envigado",
+      "name": {
+        "en": "Casa Museo Otraparte"
+      },
+      "description": {
+        "en": "The former home of philosopher Fernando González is now a museum and cultural center, offering a tranquil escape."
+      },
+      "type": "culture",
+      "lat": 6.1805,
+      "lng": -75.5775,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-enr-calle-de-la-buena-mesa",
+      "city_id": "medellin",
+      "neighborhood_id": "envigado",
+      "name": {
+        "en": "Calle de la Buena Mesa"
+      },
+      "description": {
+        "en": "A stretch of street known for its high concentration of diverse and high-quality restaurants, perfect for an evening stroll."
+      },
+      "type": "food",
+      "lat": 6.177,
+      "lng": -75.579,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "el-centro-task-1",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Heart of the Hustle"
+      },
+      "prompt": {
+        "en": "Capture a photo that perfectly encapsulates the chaotic energy of a busy downtown street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-2",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Botero's View"
+      },
+      "prompt": {
+        "en": "Take a selfie mimicking the pose of your favorite Botero sculpture in Plaza Botero."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-3",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic building stands next to a modern one and photograph the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-4",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "The City's Fuel"
+      },
+      "prompt": {
+        "en": "Buy a 'tinto' from a street vendor and take a photo of the small cup in your hand with the city life in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-5",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Gothic Grandeur"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of the Palacio de la Cultura to emphasize its dramatic, checkered facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-6",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Plaza People-Watching"
+      },
+      "prompt": {
+        "en": "Find a bench in a plaza and take a candid photo of the daily life unfolding before you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-7",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Street Vendor's Display"
+      },
+      "prompt": {
+        "en": "Photograph a colorful and interesting display from a street vendor's cart."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-8",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Reflections of History"
+      },
+      "prompt": {
+        "en": "Find a puddle or a window and capture the reflection of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-9",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Sounds of Downtown"
+      },
+      "prompt": {
+        "en": "Record a 15-second audio clip of the ambient sounds in the busiest area you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-10",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Capture a compelling image using the strong light and shadows cast by the tall buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-11",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting texture you find on a wall, door, or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-12",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "A Moment of Calm"
+      },
+      "prompt": {
+        "en": "Find someone enjoying a quiet moment amidst the chaos and capture the scene from a respectful distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-13",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Lottery Dreams"
+      },
+      "prompt": {
+        "en": "Photograph a lottery ticket seller at their post, a classic character of El Centro."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-14",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up to capture the tops of the buildings against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "el-centro-task-15",
+      "neighborhood_id": "el-centro",
+      "title": {
+        "en": "Historic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the facade of one of the Vásquez or Carré buildings in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-1",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Circular Logic"
+      },
+      "prompt": {
+        "en": "Find a perfect circle in the neighborhood's design—a park, a roundabout, a sign—and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-2",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Leafy Canopy"
+      },
+      "prompt": {
+        "en": "Photograph a street where the trees form a beautiful green tunnel over the road."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-3",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "The 'Algo' Ritual"
+      },
+      "prompt": {
+        "en": "Order a traditional afternoon snack (like pan de bono or buñuelos with coffee) and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-4",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Park Life Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie relaxing in either the Primer or Segundo Parque, capturing the laid-back vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-5",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Mid-Century Modern"
+      },
+      "prompt": {
+        "en": "Find a house or apartment building with interesting mid-century architecture and photograph its unique details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-6",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Local Hangout"
+      },
+      "prompt": {
+        "en": "Capture a candid photo of locals enjoying themselves at a neighborhood cafe or bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-7",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Shade and Sun"
+      },
+      "prompt": {
+        "en": "Play with the light and shadows created by the neighborhood's many trees. Capture a photo with interesting patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-8",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Neighborhood Watch"
+      },
+      "prompt": {
+        "en": "Find a friendly-looking dog being walked by its owner and ask if you can take its picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-9",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Coffee Craft"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of a beautifully prepared specialty coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-10",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Residential Calm"
+      },
+      "prompt": {
+        "en": "Find a quiet residential street and take a photo that conveys a sense of peace and community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-11",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Follow the Signs"
+      },
+      "prompt": {
+        "en": "Take a photo of a street sign, either a 'Circular' or a 'Transversal', that defines the neighborhood's layout."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-12",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm glow from a restaurant or bar spilling onto the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-13",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Paisa Fashion"
+      },
+      "prompt": {
+        "en": "Take a discreet photo that captures the local style of the people in Laureles."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-14",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Flat and Walkable"
+      },
+      "prompt": {
+        "en": "Take a photo down a long, flat street that emphasizes how easy it is to walk around this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "laureles-task-15",
+      "neighborhood_id": "laureles",
+      "title": {
+        "en": "Foodie Find"
+      },
+      "prompt": {
+        "en": "Photograph the most delicious-looking meal you see, whether it's yours or on someone else's table (from a distance!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-1",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Elegant Decay"
+      },
+      "prompt": {
+        "en": "Find a beautiful architectural detail—like peeling paint on a grand facade or an overgrown balcony—and capture its faded glory."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-2",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Mansion Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the most impressive or unusual mansion you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-3",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Architectural Mashup"
+      },
+      "prompt": {
+        "en": "Find a building that mixes different architectural styles (like Moorish arches with Art Deco curves) and photograph the strange combination."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-4",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Past and Present"
+      },
+      "prompt": {
+        "en": "Photograph an old mansion that is now being used for a modern purpose, like a school or an office."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-5",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Gateway to the Past"
+      },
+      "prompt": {
+        "en": "Take a detailed photo of an ornate gate, doorway, or window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-6",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Silent Streets"
+      },
+      "prompt": {
+        "en": "Capture the quiet, tranquil atmosphere of a tree-lined street in Prado."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-7",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Black and White History"
+      },
+      "prompt": {
+        "en": "Take a photo of a mansion and edit it in black and white to emphasize its historic character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-8",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Hidden Details"
+      },
+      "prompt": {
+        "en": "Find a small, overlooked detail on a building—a tile, a carving, a door knocker—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-9",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Photograph a place where nature (vines, trees, moss) is growing on or around an old structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-10",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Eclectic Egypt"
+      },
+      "prompt": {
+        "en": "Find an Egyptian-themed detail on the Casa Egipcia and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-11",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Ghostly Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo of an abandoned or decaying mansion that looks like it could be haunted."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-12",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "Symmetry Search"
+      },
+      "prompt": {
+        "en": "Find a building with a perfectly symmetrical facade and capture it head-on."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-13",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "The Weight of Time"
+      },
+      "prompt": {
+        "en": "Photograph a cracked wall, a rusted gate, or any other sign of aging on one of the old houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-14",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet corner or alleyway and take a photo that captures the neighborhood's peacefulness."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "prado-task-15",
+      "neighborhood_id": "prado",
+      "title": {
+        "en": "If Walls Could Talk"
+      },
+      "prompt": {
+        "en": "Take a photo of a mansion and imagine the stories it holds. Give your photo a title that reflects a potential story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-1",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Colors of Resilience"
+      },
+      "prompt": {
+        "en": "Capture a photo that is bursting with the vibrant colors of the neighborhood's murals and houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-2",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Escalator Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the famous outdoor escalators with the sprawling view of the city or colorful houses behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-3",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "A Story on a Wall"
+      },
+      "prompt": {
+        "en": "Find a mural that tells a clear story of hope, struggle, or peace, and photograph it in its entirety."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-4",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Mango Biche Moment"
+      },
+      "prompt": {
+        "en": "Get a 'crema de mango biche' and take a photo of the bright green drink with the colorful neighborhood in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-5",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "View from the Top"
+      },
+      "prompt": {
+        "en": "From a high vantage point, take a photo that shows the density of the houses climbing up the hillside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-6",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Art in Detail"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of a specific detail or character within a larger mural."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-7",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Community in Action"
+      },
+      "prompt": {
+        "en": "Capture a moment of daily life: kids playing, neighbors chatting, or vendors at work."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-8",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Rooftop Cityscape"
+      },
+      "prompt": {
+        "en": "Photograph the incredible view of Medellín's skyscrapers from one of the lookout points in the comuna."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-9",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "The Sound of Transformation"
+      },
+      "prompt": {
+        "en": "Record a 15-second audio clip of the mix of music, chatter, and energy you hear around you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-10",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Symbol of Peace"
+      },
+      "prompt": {
+        "en": "Find a mural that includes a symbol of peace, like a dove or a white flag, and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-11",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Stairway to Heaven"
+      },
+      "prompt": {
+        "en": "Photograph a brightly painted staircase that winds its way up the hill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-12",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Hip Hop Energy"
+      },
+      "prompt": {
+        "en": "Find a group of breakdancers or rappers performing and capture their energy in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-13",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Art and Life"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both a mural and a local resident going about their day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-14",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Look Down"
+      },
+      "prompt": {
+        "en": "From the top of the escalators, take a photo looking down the line of escalators as they descend."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "comuna-13-task-15",
+      "neighborhood_id": "comuna-13",
+      "title": {
+        "en": "Street Food Star"
+      },
+      "prompt": {
+        "en": "Buy a local street food snack, like an empanada, and take a heroic shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-1",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Nature Meets Future"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between the natural elements of the Botanical Garden and the modern architecture of Parque Explora or the Orquideorama."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-2",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Orchid Hive"
+      },
+      "prompt": {
+        "en": "Stand directly under the Orquideorama in the Botanical Garden and take a photo looking straight up at its hexagonal pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-3",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Science Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the iconic red cubes of Parque Explora in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-4",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Garden of Renewal"
+      },
+      "prompt": {
+        "en": "Visit the Moravia hill and take a photo of the flowers growing, symbolizing the area's transformation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-5",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "A Moment of Zen"
+      },
+      "prompt": {
+        "en": "Find a tranquil spot within the Jardín Botánico and take a photo that conveys peace and quiet."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-6",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Student Life"
+      },
+      "prompt": {
+        "en": "Capture the intellectual energy of the area by photographing a scene near the University of Antioquia."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-7",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Water and Light"
+      },
+      "prompt": {
+        "en": "Take a photo of the water features in the Parque de los Deseos or the lake in the Botanical Garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-8",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Botanical Macro"
+      },
+      "prompt": {
+        "en": "Find a beautiful flower or interesting plant and take a detailed, close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-9",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Reflections of Knowledge"
+      },
+      "prompt": {
+        "en": "Capture the reflection of one of the area's modern buildings in a puddle or pond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-10",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Coffee in the Woods"
+      },
+      "prompt": {
+        "en": "Enjoy a coffee at Café del Bosque and take a photo of your cup in the serene, green surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-11",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Take a wide shot that shows the lushness of the Botanical Garden with the city skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-12",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Interactive Fun"
+      },
+      "prompt": {
+        "en": "Photograph people interacting with an exhibit at Parque Explora or playing in Parque de los Deseos."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-13",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Photograph a winding path or walkway in the Botanical Garden, inviting the viewer to explore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-14",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "Lunch with a View"
+      },
+      "prompt": {
+        "en": "If you eat at In Situ, take a photo of your meal with the beautiful lake setting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "aranjuez-task-15",
+      "neighborhood_id": "aranjuez",
+      "title": {
+        "en": "From Trash to Treasure"
+      },
+      "prompt": {
+        "en": "From the top of the Moravia garden hill, take a photo looking out over the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-1",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Small Town Heart"
+      },
+      "prompt": {
+        "en": "Capture a classic photo of the main square, Parque de Envigado, with the Santa Gertrudis church in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-2",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Coffee and Philosophy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the peaceful, garden atmosphere of El Café de Otraparte. Include a coffee or a book for extra points."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-3",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Chicharrón Champion"
+      },
+      "prompt": {
+        "en": "Find a massive piece of chicharrón (pork belly) and take a photo of the delicious, crispy treat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-4",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Plaza Life Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in the bustling Parque de Envigado, showing the local life happening around you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-5",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "A Slower Pace"
+      },
+      "prompt": {
+        "en": "Photograph a scene that represents the slower, more traditional pace of life in Envigado."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-6",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Good Food Street"
+      },
+      "prompt": {
+        "en": "Stroll down the 'Calle de la Buena Mesa' and take a photo of the inviting restaurant facades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-7",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Family Time"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of a local family enjoying the park or a meal together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-8",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Artisanal Delight"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful display of artisanal cheese, wine, or pastries from a local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-9",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Traditional Tastes"
+      },
+      "prompt": {
+        "en": "Find a vendor selling a traditional Antioquian snack and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-10",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Container Cool"
+      },
+      "prompt": {
+        "en": "Take a photo of the unique architecture at the Contenedores Food Place."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-11",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Juice Break"
+      },
+      "prompt": {
+        "en": "Find a vendor selling fresh-squeezed orange juice in the plaza and take a photo of their cart."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-12",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Take a photo inside the tranquil grounds of the Casa Museo Otraparte."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-13",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Church Bells"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of the Santa Gertrudis church, making it look grand and impressive."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-14",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Neighborhood Storefront"
+      },
+      "prompt": {
+        "en": "Photograph a charming, family-run business or storefront that looks like it has been there for decades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    },
+    {
+      "id": "envigado-task-15",
+      "neighborhood_id": "envigado",
+      "title": {
+        "en": "Evening Lights"
+      },
+      "prompt": {
+        "en": "As dusk falls, capture the warm lights of the restaurants and the main plaza."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:04:09.325599+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

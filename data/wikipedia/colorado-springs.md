@@ -14,6 +14,14 @@ The downtown Colorado Springs Visitor Information Center offers free area inform
 Colorado Springs has been the subject of or setting for many books, films and television shows, and is a frequent backdrop for political thrillers and military-themed stories because of its many military installations and vital importance to the United States' continental defense. Notable television series using the city as a setting include Dr. Quinn, Medicine Woman, Homicide Hunter and the Stargate series Stargate SG-1, as well as the films WarGames, The Prestige, and BlacKkKlansman.
 In a North Korean propaganda video released in April 2013, Colorado Springs was singled out as one of four targets for a missile strike. The video failed to pinpoint Colorado Springs on the map, instead showing a spot somewhere in Louisiana.
 
+## Olympic sports
+
+United States Olympic Committee headquarters and training facility
+Colorado Springs, dubbed Olympic City USA, is home to the United States Olympic & Paralympic Training Center and the headquarters of the United States Olympic & Paralympic Committee and the United States Anti-Doping Agency.
+Further, over 50 national sports organizations (non-Olympic) headquarter in Colorado Springs. These include the National Strength and Conditioning Association, Sports Incubator, a various non-Olympic Sports (such as USA Ultimate), and more.
+Colorado Springs and Denver hosted the 1962 World Ice Hockey Championships.
+The city has a long association with the sport of figure skating, having hosted the U.S. Figure Skating Championships six times and the World Figure Skating Championships five times. It is home to the World Figure Skating Museum and Hall of Fame and the Broadmoor Skating Club, a notable training center for the sport. In recent years, the Broadmoor World Arena has hosted skating events such as Skate America and the Four Continents Figure Skating Championships.
+
 ## Parks and recreation
 
 Main articles: Parks in Colorado Springs, Colorado and List of parks in Colorado Springs, Colorado

@@ -1,0 +1,457 @@
+{
+  "neighborhoods": [
+    {
+      "id": "central-district",
+      "city_id": "santa-fe",
+      "name": {
+        "en": "Central District: Downtown & The Plaza"
+      },
+      "summary": {
+        "en": "Explore a labyrinth of earth-toned adobe architecture echoing Spanish colonial law. This historic core is a harmonious blend of ancient history, high-end art, and a deeply rooted local culture."
+      },
+      "lat": 35.6869,
+      "lng": -105.9378,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "central-district-enr-dolina-bakery-cafe",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Dolina Bakery & Cafe"
+      },
+      "description": {
+        "en": "A bright, modern cafe beloved by locals for its Eastern European-inspired pastries and brunch, scientifically perfected for high-altitude baking."
+      },
+      "type": "drink",
+      "lat": 35.6918,
+      "lng": -105.943,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-la-boca",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "La Boca"
+      },
+      "description": {
+        "en": "A tiny, vibrant Spanish tapas bar tucked away just off the Plaza, known for its bustling, intimate energy and excellent sherry."
+      },
+      "type": "drink",
+      "lat": 35.6885,
+      "lng": -105.9389,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-the-shed",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "The Shed"
+      },
+      "description": {
+        "en": "A legendary restaurant in a 17th-century hacienda, famous for its definitive red and green chile that defines New Mexican cuisine."
+      },
+      "type": "food",
+      "lat": 35.6881,
+      "lng": -105.9365,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-el-chile-toreado",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "El Chile Toreado"
+      },
+      "description": {
+        "en": "An unassuming food truck offering a true taste of local Santa Fe with exceptional burritos and fully-dressed hot dogs."
+      },
+      "type": "food",
+      "lat": 35.6796,
+      "lng": -105.9525,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-loretto-chapel-s-miraculous-staircase",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Loretto Chapel's Miraculous Staircase"
+      },
+      "description": {
+        "en": "Home to a mysterious, helix-shaped spiral staircase built in 1878 with no visible means of support, a feat of woodworking that baffles engineers."
+      },
+      "type": "hidden_gem",
+      "lat": 35.6853,
+      "lng": -105.9362,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-barrio-de-analco-historic-district",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Barrio De Analco Historic District"
+      },
+      "description": {
+        "en": "One of the oldest neighborhoods in the United States, offering a quiet, contemplative walk through living history among historic adobe homes."
+      },
+      "type": "landmark",
+      "lat": 35.6845,
+      "lng": -105.9355,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-san-miguel-mission",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "San Miguel Mission"
+      },
+      "description": {
+        "en": "Located in the Barrio De Analco, this is one of the oldest churches in the United States, a cornerstone of the city's deep history."
+      },
+      "type": "culture",
+      "lat": 35.6843,
+      "lng": -105.9365,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-palace-of-the-governors-portal-program",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Palace of the Governors Portal Program"
+      },
+      "description": {
+        "en": "A juried program where Native American artisans sell authentic, handmade jewelry and crafts under the historic portal of the Palace of the Governors."
+      },
+      "type": "shopping",
+      "lat": 35.6876,
+      "lng": -105.9379,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-enr-the-santa-fe-plaza",
+      "city_id": "santa-fe",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "The Santa Fe Plaza"
+      },
+      "description": {
+        "en": "The historic and cultural heart of the city since 1610, this central square is a hub of activity surrounded by landmarks and adobe architecture."
+      },
+      "type": "landmark",
+      "lat": 35.6869,
+      "lng": -105.9378,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "central-district-task-1",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Adobe Abstract"
+      },
+      "prompt": {
+        "en": "Find a weathered adobe wall and take a close-up shot focusing on its unique texture and soft, rounded corners."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-2",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Viga Shadows"
+      },
+      "prompt": {
+        "en": "Capture the geometric pattern of shadows cast by exposed wooden beams (vigas) on an adobe wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-3",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Hidden Courtyard Selfie"
+      },
+      "prompt": {
+        "en": "Discover a quiet, hidden courtyard off a main street and take a selfie that captures its secret garden feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-4",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "The Color of Chile"
+      },
+      "prompt": {
+        "en": "Find something bright red or green that reminds you of Santa Fe's famous chile and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-5",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Sky Against Earth"
+      },
+      "prompt": {
+        "en": "Frame a shot that contrasts the deep blue of the high-desert sky with the earth-toned Pueblo-style architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-6",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Winding Lane Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo down one of Santa Fe's narrow, winding lanes, creating a sense of mystery and discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-7",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Artistic Reflection"
+      },
+      "prompt": {
+        "en": "Find a gallery window and capture a photo of the street's reflection mixed with the art inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-8",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Local Flavor Quest"
+      },
+      "prompt": {
+        "en": "Ask a local shopkeeper for their favorite lunch spot and take a photo of the menu or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-9",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Turquoise Treasure"
+      },
+      "prompt": {
+        "en": "Find a piece of turquoise jewelry or art and take a detailed close-up shot (ask for permission if it's for sale!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-10",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Portal Point of View"
+      },
+      "prompt": {
+        "en": "Take a photo from underneath a covered porch (portal), using the posts to frame the bustling street scene beyond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-11",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "City Different Detail"
+      },
+      "prompt": {
+        "en": "Find a unique architectural detail—a carved door, a colorful window frame, a decorative tile—and make it the hero of your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-12",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "High-Altitude Light"
+      },
+      "prompt": {
+        "en": "Capture a photo that showcases Santa Fe's famously clear light as it illuminates a historic building or a piece of public art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-13",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "A Taste of Santa Fe"
+      },
+      "prompt": {
+        "en": "Take a 'foodie' photo of a local snack or drink you're trying for the first time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-14",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Historic Marker Hunt"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on a building and take a photo of it. What's the oldest date you can find?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-15",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Pueblo Revival Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie with a classic example of Pueblo Revival architecture in the background. Try to include a flat roof and soft corners."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-16",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "The Saint in the City"
+      },
+      "prompt": {
+        "en": "Santa Fe means 'Holy Faith'. Find a piece of religious iconography or art (a cross, a saint's statue, a church facade) and capture it in a respectful photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-17",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Handcrafted Beauty"
+      },
+      "prompt": {
+        "en": "Photograph a handmade object for sale, focusing on the craftsmanship and detail that makes it unique."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-18",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a scene that looks like it could be from a century ago and capture it in a timeless black and white photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-19",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "The Ristra Shot"
+      },
+      "prompt": {
+        "en": "Find a hanging string of dried red chiles (a ristra) and take a vibrant photo that captures its deep crimson color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    },
+    {
+      "id": "central-district-task-20",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Local's Perspective Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet bench away from the main Plaza crowds and take a selfie, capturing a more peaceful, residential side of downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:17:38.232418+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -1,0 +1,898 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-city-downtown",
+      "city_id": "knoxville",
+      "name": {
+        "en": "The Old City & Downtown Core"
+      },
+      "summary": {
+        "en": "This is Knoxville’s historic heart, where the city's industrial past meets its creative present. Expect beautifully preserved 19th-century brick warehouses, cobblestone-style streets, and a buzz of independent spirit."
+      },
+      "lat": 35.9653,
+      "lng": -83.9188,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville",
+      "city_id": "knoxville",
+      "name": {
+        "en": "South Knoxville (Old Sevier)"
+      },
+      "summary": {
+        "en": "Gritty, green, and fiercely independent, SoKno is where Knoxville's adventurous, outdoorsy soul resides. It’s unpretentious, community-driven, and caters to those fresh off the trails of the adjacent Urban Wilderness."
+      },
+      "lat": 35.956,
+      "lng": -83.91,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville",
+      "city_id": "knoxville",
+      "name": {
+        "en": "North Knoxville (Happy Holler & Old North)"
+      },
+      "summary": {
+        "en": "A captivating blend of historic residential charm and quirky, modern bohemia. The energy here is creative, community-focused, and a bit more laid-back than downtown, with stunning Victorian homes and independent shops."
+      },
+      "lat": 35.98,
+      "lng": -83.925,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-city-downtown-enr-pilot-light",
+      "city_id": "knoxville",
+      "neighborhood_id": "old-city-downtown",
+      "name": {
+        "en": "Pilot Light"
+      },
+      "description": {
+        "en": "A legendary non-profit music venue that is the soul of the Old City's indie scene. It's an excellent spot to grab a drink in a space steeped in Knoxville's underground music history."
+      },
+      "type": "nightlife",
+      "lat": 35.9688,
+      "lng": -83.9178,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-enr-the-tomato-head",
+      "city_id": "knoxville",
+      "neighborhood_id": "old-city-downtown",
+      "name": {
+        "en": "The Tomato Head"
+      },
+      "description": {
+        "en": "A Knoxville institution on Market Square known for its creative pizzas and fresh-baked bread. It's a prime spot for a meal and people-watching in the pedestrian-only square."
+      },
+      "type": "food",
+      "lat": 35.9656,
+      "lng": -83.9189,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-enr-wdvx-blue-plate-special",
+      "city_id": "knoxville",
+      "neighborhood_id": "old-city-downtown",
+      "name": {
+        "en": "WDVX Blue Plate Special"
+      },
+      "description": {
+        "en": "A free, live radio show broadcast daily at noon from the Knoxville Visitor Center. See authentic bluegrass, folk, and Americana musicians in an incredibly intimate setting."
+      },
+      "type": "culture",
+      "lat": 35.9639,
+      "lng": -83.918,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-enr-the-sunsphere",
+      "city_id": "knoxville",
+      "neighborhood_id": "old-city-downtown",
+      "name": {
+        "en": "The Sunsphere"
+      },
+      "description": {
+        "en": "Knoxville's most famous landmark from the 1982 World's Fair. The 266-foot-high observation deck is free to visit and offers panoramic views of the city and mountains."
+      },
+      "type": "viewpoint",
+      "lat": 35.9609,
+      "lng": -83.9235,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-enr-architectural-walk-on-jackson-avenue",
+      "city_id": "knoxville",
+      "neighborhood_id": "old-city-downtown",
+      "name": {
+        "en": "Architectural Walk on Jackson Avenue"
+      },
+      "description": {
+        "en": "The main artery of the Old City is a living museum of commercial architecture. Look up at the detailed brickwork, faded ghost signs, and ironwork from Knoxville's boom years."
+      },
+      "type": "landmark",
+      "lat": 35.9685,
+      "lng": -83.9185,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-enr-world-s-fair-park",
+      "city_id": "knoxville",
+      "neighborhood_id": "old-city-downtown",
+      "name": {
+        "en": "World's Fair Park"
+      },
+      "description": {
+        "en": "The site of the 1982 World's Fair, this expansive park is home to the Sunsphere and offers green space with views of the city skyline."
+      },
+      "type": "nature",
+      "lat": 35.9615,
+      "lng": -83.9245,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-enr-ijams-nature-center",
+      "city_id": "knoxville",
+      "neighborhood_id": "south-knoxville",
+      "name": {
+        "en": "Ijams Nature Center"
+      },
+      "description": {
+        "en": "The heart of SoKno's outdoor identity, this 315-acre urban oasis features miles of trails, a quarry lake for paddling, and rock climbing areas."
+      },
+      "type": "nature",
+      "lat": 35.9525,
+      "lng": -83.8795,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-enr-baker-creek-preserve",
+      "city_id": "knoxville",
+      "neighborhood_id": "south-knoxville",
+      "name": {
+        "en": "Baker Creek Preserve"
+      },
+      "description": {
+        "en": "The epicenter of Knoxville's mountain biking scene and a key part of the Urban Wilderness. The trails are also fantastic for a walk."
+      },
+      "type": "nature",
+      "lat": 35.94,
+      "lng": -83.895,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-enr-ijams-quarry-lake",
+      "city_id": "knoxville",
+      "neighborhood_id": "south-knoxville",
+      "name": {
+        "en": "Ijams Quarry Lake"
+      },
+      "description": {
+        "en": "A beautiful quarry lake within Ijams Nature Center, perfect for paddling. The Ross Marble Quarry Loop trail offers stunning views of its turquoise water."
+      },
+      "type": "nature",
+      "lat": 35.95,
+      "lng": -83.885,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-enr-knoxville-s-urban-wilderness",
+      "city_id": "knoxville",
+      "neighborhood_id": "south-knoxville",
+      "name": {
+        "en": "Knoxville's Urban Wilderness"
+      },
+      "description": {
+        "en": "A 1,000-acre outdoor adventure area connecting parks, trails, and natural spaces. It's the soul of SoKno's rugged, adventurous identity."
+      },
+      "type": "nature",
+      "lat": 35.945,
+      "lng": -83.89,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-enr-volunteer-landing-park",
+      "city_id": "knoxville",
+      "neighborhood_id": "south-knoxville",
+      "name": {
+        "en": "Volunteer Landing Park"
+      },
+      "description": {
+        "en": "A scenic riverfront park perfect for a stroll along the Tennessee River. It's home to the iconic Bicycle Arch and offers great city views."
+      },
+      "type": "landmark",
+      "lat": 35.96,
+      "lng": -83.913,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-enr-sevier-avenue",
+      "city_id": "knoxville",
+      "neighborhood_id": "south-knoxville",
+      "name": {
+        "en": "Sevier Avenue"
+      },
+      "description": {
+        "en": "The main drag of the Old Sevier neighborhood, buzzing with makers, brewers, and chefs. This street is the basecamp for SoKno's adventurous community."
+      },
+      "type": "landmark",
+      "lat": 35.955,
+      "lng": -83.908,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-wild-love-bakehouse",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "Wild Love Bakehouse"
+      },
+      "description": {
+        "en": "A beloved neighborhood bakery crafting what many call the best croissants in the state. They use local flour, eggs, and butter for their flaky pastries."
+      },
+      "type": "food",
+      "lat": 35.9814,
+      "lng": -83.9255,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-central-filling-station",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "Central Filling Station"
+      },
+      "description": {
+        "en": "Knoxville's first and favorite food truck park. A rotating cast of local trucks and communal seating make it a fantastic spot to sample the local food scene."
+      },
+      "type": "food",
+      "lat": 35.9745,
+      "lng": -83.9225,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-old-north-knoxville-historic-district",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "Old North Knoxville Historic District"
+      },
+      "description": {
+        "en": "Wander the streets of this stunning 'streetcar suburb' to see a breathtaking collection of Victorian and Craftsman-style homes, including many by architect George F. Barber."
+      },
+      "type": "landmark",
+      "lat": 35.983,
+      "lng": -83.928,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-old-gray-cemetery",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "Old Gray Cemetery"
+      },
+      "description": {
+        "en": "Established in 1850, this classic garden cemetery is a peaceful place for a walk, filled with history, elaborate monuments, and ancient trees."
+      },
+      "type": "landmark",
+      "lat": 35.9725,
+      "lng": -83.923,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-fourth-gill-historic-district",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "Fourth & Gill Historic District"
+      },
+      "description": {
+        "en": "Adjacent to Old North, this neighborhood represents one of the best-preserved collections of late 19th and early 20th-century residential architecture in the South."
+      },
+      "type": "landmark",
+      "lat": 35.978,
+      "lng": -83.92,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-happy-holler-historic-district",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "Happy Holler Historic District"
+      },
+      "description": {
+        "en": "The historic commercial spine of North Knoxville along Central Street. This strip is lined with independent shops, bakeries, and venues with a quirky, bohemian vibe."
+      },
+      "type": "landmark",
+      "lat": 35.981,
+      "lng": -83.925,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-north-central-street",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "North Central Street"
+      },
+      "description": {
+        "en": "The commercial heart of North Knoxville, this street is home to the Happy Holler district, food truck parks, and beloved local bakeries."
+      },
+      "type": "landmark",
+      "lat": 35.978,
+      "lng": -83.924,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-enr-george-f-barber-homes",
+      "city_id": "knoxville",
+      "neighborhood_id": "north-knoxville",
+      "name": {
+        "en": "George F. Barber Homes"
+      },
+      "description": {
+        "en": "Knoxville is home to the nation's largest concentration of homes by famed Victorian architect George F. Barber. Many of his ornate, imaginative designs can be found here."
+      },
+      "type": "culture",
+      "lat": 35.9825,
+      "lng": -83.9275,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-city-downtown-task-1",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Find a wall with interesting brickwork and take a photo focusing on its texture and history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-2",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Locate a faded 'ghost sign' painted on the side of an old building and capture its vintage charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-3",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Market Square Moment"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energy and movement of people in Market Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-4",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Streetlight Glow"
+      },
+      "prompt": {
+        "en": "As dusk falls, capture a photo of an old-fashioned streetlight illuminating the historic architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-5",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Find a storefront window and take a creative photo of the street's reflection in the glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-6",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Sounds of the Street"
+      },
+      "prompt": {
+        "en": "Find a venue or bar with a band poster in the window and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-7",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Photograph a historic building that now houses a modern business, capturing the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-8",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Alleyway Art"
+      },
+      "prompt": {
+        "en": "Explore a side alley and find a hidden piece of street art or an interesting architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-9",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Downtown Dish"
+      },
+      "prompt": {
+        "en": "Take an artful photo of a meal or drink you're enjoying at a local downtown eatery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-10",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on a building and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-11",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Sunsphere Framing"
+      },
+      "prompt": {
+        "en": "From street level, find a unique angle to frame the Sunsphere between buildings or trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "old-city-downtown-task-12",
+      "neighborhood_id": "old-city-downtown",
+      "title": {
+        "en": "Cobblestone Perspective"
+      },
+      "prompt": {
+        "en": "Get a low-angle shot of a cobblestone-style street, emphasizing the texture and leading lines."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-1",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Spirit of Adventure"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the outdoorsy, adventurous vibe of SoKno. This could be a bike, a kayak, or a trail sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-2",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the Tennessee River and capture the way the light hits the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-3",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of a natural texture, like tree bark, a mossy rock, or a wildflower."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-4",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Bridge Portrait"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the bridges connecting South Knoxville to downtown, focusing on its structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-5",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Post-Hike Fuel"
+      },
+      "prompt": {
+        "en": "Snap a picture of your well-deserved food or drink at a local SoKno spot after some exploring."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-6",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Trailhead Selfie"
+      },
+      "prompt": {
+        "en": "Find any trailhead marker in the Urban Wilderness and take an adventurous selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-7",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Gritty & Green"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between SoKno's industrial roots and its abundant green spaces."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-8",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a local brewery, coffee shop, or restaurant that feels like a community gathering place."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-9",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a walking or biking path, creating a sense of invitation and discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-10",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Maker's Mark"
+      },
+      "prompt": {
+        "en": "Find a sign or logo for a local maker, brewer, or independent business and get a creative shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-11",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo from the edge of the river or a quarry, focusing on the reflections on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "south-knoxville-task-12",
+      "neighborhood_id": "south-knoxville",
+      "title": {
+        "en": "SoKno Pride"
+      },
+      "prompt": {
+        "en": "Find a mural, sticker, or sign that says 'SoKno' and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-1",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Porch Portrait"
+      },
+      "prompt": {
+        "en": "Find a beautiful Victorian or Craftsman-style porch and take a photo focusing on its unique details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-2",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Bohemian Vibe"
+      },
+      "prompt": {
+        "en": "Capture a photo of a quirky shop, a colorful mural, or anything that represents the neighborhood's modern bohemian spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-3",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Bakery Bliss"
+      },
+      "prompt": {
+        "en": "Take an irresistible photo of a pastry or coffee from a local bakery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-4",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of an interesting architectural feature on a historic home, like stained glass, ornate woodwork, or a turret."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-5",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Food Truck Feast"
+      },
+      "prompt": {
+        "en": "Take a colorful photo that captures the lively atmosphere of a food truck or food truck park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-6",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Peaceful Cemetery Scene"
+      },
+      "prompt": {
+        "en": "In a historic cemetery, find a monument shaded by an old tree and capture the peaceful, timeless feeling."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-7",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Neighborhood Colors"
+      },
+      "prompt": {
+        "en": "Find a house painted in a bold or unusual color and take a photo that makes it pop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-8",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Laid-Back Living"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet, tree-lined residential street, capturing the laid-back community feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-9",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Garden Discovery"
+      },
+      "prompt": {
+        "en": "Photograph a beautiful flower or an interesting plant in one of the neighborhood's many gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-10",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Happy Holler Signage"
+      },
+      "prompt": {
+        "en": "Find a cool vintage or neon sign on an independent shop in the Happy Holler district."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-11",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Streetcar Suburb"
+      },
+      "prompt": {
+        "en": "Take a photo down a long residential street, imagining what it looked like in the streetcar era."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    },
+    {
+      "id": "north-knoxville-task-12",
+      "neighborhood_id": "north-knoxville",
+      "title": {
+        "en": "Cozy Corner"
+      },
+      "prompt": {
+        "en": "Find a welcoming cafe or shopfront and take a picture that feels warm and inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T01:47:05.106393+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

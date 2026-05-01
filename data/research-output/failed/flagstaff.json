@@ -1,0 +1,388 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-historic-core",
+      "city_id": "flagstaff",
+      "name": {
+        "en": "Downtown & Historic Core"
+      },
+      "summary": {
+        "en": "Explore a historic downtown where the Old West meets Route 66. This laid-back, outdoorsy college town hub features turn-of-the-century architecture, the rumble of freight trains, and the San Francisco Peaks on the horizon."
+      },
+      "lat": 35.1983,
+      "lng": -111.6491,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-historic-core-enr-sono-kitchen-and-boba",
+      "city_id": "flagstaff",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Sono Kitchen and Boba"
+      },
+      "description": {
+        "en": "A modern, casual spot highly praised by locals for its standout boba tea, offering a refreshing break while exploring downtown."
+      },
+      "type": "drink",
+      "lat": 35.1985,
+      "lng": -111.6495,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-enr-nimarcos-pizza",
+      "city_id": "flagstaff",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "NiMarcos Pizza"
+      },
+      "description": {
+        "en": "A beloved local institution and no-frills pizzeria that has been serving genuinely satisfying slices for decades."
+      },
+      "type": "food",
+      "lat": 35.1975,
+      "lng": -111.6511,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-enr-weatherford-hotel-the-great-pinecone-drop",
+      "city_id": "flagstaff",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Weatherford Hotel & The Great Pinecone Drop"
+      },
+      "description": {
+        "en": "A historic downtown landmark famous for its quirky New Year's Eve tradition of dropping a giant metallic pinecone from its roof."
+      },
+      "type": "landmark",
+      "lat": 35.1989,
+      "lng": -111.649,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-enr-bookmans-entertainment-exchange",
+      "city_id": "flagstaff",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Bookmans Entertainment Exchange"
+      },
+      "description": {
+        "en": "A sprawling hub for used books, music, and more, cherished by locals as a community gathering spot and treasure trove for unexpected finds."
+      },
+      "type": "shopping",
+      "lat": 35.1815,
+      "lng": -111.6645,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-enr-lowell-observatory",
+      "city_id": "flagstaff",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Lowell Observatory"
+      },
+      "description": {
+        "en": "A National Historic Landmark where Pluto was discovered, offering tours and stargazing through historic telescopes just a short walk from downtown."
+      },
+      "type": "culture",
+      "lat": 35.1983,
+      "lng": -111.6685,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-historic-core-task-1",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Historic Meets Modern"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between a historic brick building and a modern element of city life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-2",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Mountain Town Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the iconic San Francisco Peaks visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-3",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Route 66 Relic"
+      },
+      "prompt": {
+        "en": "Find a sign, symbol, or building that evokes the spirit of historic Route 66 and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-4",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "The Ponderosa Frame"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a ponderosa pine tree and a piece of downtown architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-5",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Western Footprint"
+      },
+      "prompt": {
+        "en": "Take a 'look down' photo of your shoes on a classic Flagstaff sidewalk. Bonus points for hiking or cowboy boots!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-6",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Take an artistic photo of a locally made drink, whether it's a craft beer, coffee, or boba tea."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-7",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Train Town Echoes"
+      },
+      "prompt": {
+        "en": "Capture an image that conveys the presence of the railroad, like tracks, a signal, or the train itself."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-8",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Indie Spirit"
+      },
+      "prompt": {
+        "en": "Find a unique, independent shop and take a photo of its inviting storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-9",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find a building from the early 1900s and zoom in on its most interesting architectural feature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-10",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "High-Altitude Skies"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo of the vast Arizona sky framed by the city's rooftops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-11",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Street Art Discovery"
+      },
+      "prompt": {
+        "en": "Go on a hunt for a piece of public art or a hidden mural and share your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-12",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Document your most delicious food find with a mouth-watering photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-13",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Reflective Moment"
+      },
+      "prompt": {
+        "en": "Take a creative selfie using your reflection in a shop window or a puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-14",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Community Corner"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of local life happening in a public square or on a street corner."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-15",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Find a faded, old advertisement painted on the side of a brick building and capture its ghostly charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-16",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Mountain Town Motif"
+      },
+      "prompt": {
+        "en": "Find a local business logo or sign that incorporates a mountain or a pinecone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-17",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As the sun sets, capture the warm, inviting light from a local restaurant or bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-18",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Story in Stone"
+      },
+      "prompt": {
+        "en": "Find a historic plaque or marker and take a photo that tells a piece of Flagstaff's story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-19",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Stargazer's View"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see the stars begin to appear at dusk and capture the moment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    },
+    {
+      "id": "downtown-historic-core-task-20",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "False-Front Facade"
+      },
+      "prompt": {
+        "en": "Photograph a building with a classic Western false-front architectural style."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:24:48.833936+00:00"
+    }
+  ]
+}

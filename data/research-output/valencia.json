@@ -1,0 +1,2209 @@
+{
+  "neighborhoods": [
+    {
+      "id": "el-carmen",
+      "city_id": "valencia",
+      "name": {
+        "en": "El Carmen"
+      },
+      "summary": {
+        "en": "The city’s ancient heart, a labyrinth of cobblestone streets where Roman history, Gothic architecture, and a rebellious street art scene collide."
+      },
+      "lat": 39.4778,
+      "lng": -0.3785,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa",
+      "city_id": "valencia",
+      "name": {
+        "en": "Ruzafa"
+      },
+      "summary": {
+        "en": "Valencia’s creative and multicultural hub, a grid of 19th-century buildings filled with specialty coffee shops, vintage stores, art galleries, and innovative restaurants."
+      },
+      "lat": 39.4625,
+      "lng": -0.372,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal",
+      "city_id": "valencia",
+      "name": {
+        "en": "El Cabanyal"
+      },
+      "summary": {
+        "en": "A former independent fishing village with a proud, bohemian soul, defined by its rows of fishermen's houses adorned with stunning, colorful Art Nouveau tiles."
+      },
+      "lat": 39.4701,
+      "lng": -0.3255,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla",
+      "city_id": "valencia",
+      "name": {
+        "en": "Mestalla"
+      },
+      "summary": {
+        "en": "A primarily residential and unpretentious neighborhood where life revolves around the local market, tapas bars, and the energy of the Valencia CF football stadium."
+      },
+      "lat": 39.4745,
+      "lng": -0.3588,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via",
+      "city_id": "valencia",
+      "name": {
+        "en": "Eixample (Gran Via)"
+      },
+      "summary": {
+        "en": "Valencia's elegant and sophisticated upscale district, characterized by wide, tree-lined avenues, stately Art Nouveau buildings, and high-end boutiques."
+      },
+      "lat": 39.467,
+      "lng": -0.3685,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina",
+      "city_id": "valencia",
+      "name": {
+        "en": "Arrancapins & La Petxina"
+      },
+      "summary": {
+        "en": "Deeply authentic and residential neighborhoods that represent the soul of everyday Valencia, with legacy restaurants and a genuine, unhurried pace of life."
+      },
+      "lat": 39.469,
+      "lng": -0.39,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "el-carmen-enr-cafe-sant-jaume",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "Café Sant Jaume"
+      },
+      "description": {
+        "en": "A former 19th-century apothecary, this unique bar retains its antique charm with original wooden shelves and ceramic jars, perfect for a signature cocktail."
+      },
+      "type": "drink",
+      "lat": 39.4761,
+      "lng": -0.376,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-enr-taberna-la-samorra",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "Taberna La Samorra"
+      },
+      "description": {
+        "en": "Tucked away from the main squares, this is a quintessential snacking hole-in-the-wall perfect for a vermouth and a quick bite like a local."
+      },
+      "type": "drink",
+      "lat": 39.4755,
+      "lng": -0.3772,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-enr-tasca-angel",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "Tasca Angel"
+      },
+      "description": {
+        "en": "A beloved, no-frills dive bar known for its grilled sardines and bustling, standing-room-only atmosphere, offering an authentic taste of old-school Valencia."
+      },
+      "type": "food",
+      "lat": 39.474,
+      "lng": -0.3781,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-enr-central-bar",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "Central Bar"
+      },
+      "description": {
+        "en": "Located inside the Mercat Central, this is chef Ricard Camarena's down-to-earth counter bar, perfect for an elevated sandwich or tapas."
+      },
+      "type": "food",
+      "lat": 39.4736,
+      "lng": -0.3788,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-enr-cat-house-la-casa-de-los-gatos",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "Cat House (La Casa de los Gatos)"
+      },
+      "description": {
+        "en": "A miniature house built into a wall on Carrer del Museu, this tiny facade is an architectural oddity and a tribute to the neighborhood's feline residents."
+      },
+      "type": "hidden_gem",
+      "lat": 39.4789,
+      "lng": -0.3775,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-enr-el-carme-street-art",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "El Carme Street Art"
+      },
+      "description": {
+        "en": "The entire neighborhood is an open-air gallery. Wander the streets around Plaça del Tossal and Carrer de Moret to discover large-scale murals."
+      },
+      "type": "culture",
+      "lat": 39.4765,
+      "lng": -0.3795,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-enr-l-almoina-archaeological-centre",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "L'Almoina Archaeological Centre"
+      },
+      "description": {
+        "en": "An underground museum built over the excavated Roman foundations of the city, where you can walk on glass floors above 2,000-year-old ruins."
+      },
+      "type": "culture",
+      "lat": 39.476,
+      "lng": -0.3748,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-enr-holy-chalice-of-valencia",
+      "city_id": "valencia",
+      "neighborhood_id": "el-carmen",
+      "name": {
+        "en": "Holy Chalice of Valencia"
+      },
+      "description": {
+        "en": "Housed within the Valencia Cathedral, this agate cup is a serious contender for the historical Holy Grail, displayed dramatically in its own chapel."
+      },
+      "type": "culture",
+      "lat": 39.4752,
+      "lng": -0.3754,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-la-cantina-de-ruzafa",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "La Cantina de Ruzafa"
+      },
+      "description": {
+        "en": "This spot is dedicated to preserving the Valencian tradition of *almuerzo*, a hearty mid-morning sandwich, offering a bustling and authentic experience."
+      },
+      "type": "food",
+      "lat": 39.4618,
+      "lng": -0.3735,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-nozomi-sushi-bar",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "Nozomi Sushi Bar"
+      },
+      "description": {
+        "en": "Widely considered one of the best sushi restaurants in Spain, with a minimalist interior and exceptional quality fish that transports you to Japan."
+      },
+      "type": "food",
+      "lat": 39.463,
+      "lng": -0.3705,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-la-salita",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "La Salita"
+      },
+      "description": {
+        "en": "A fine-dining destination where Chef Begoña Rodrigo’s tasting menus offer an inventive culinary journey rooted in local Valencian tradition."
+      },
+      "type": "food",
+      "lat": 39.4605,
+      "lng": -0.369,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-ruzafa-market-mercat-de-russafa",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "Ruzafa Market (Mercat de Russafa)"
+      },
+      "description": {
+        "en": "A true neighborhood market with a colorful, boxy exterior where you'll find residents doing their daily shopping, offering a less tourist-focused experience."
+      },
+      "type": "landmark",
+      "lat": 39.462,
+      "lng": -0.373,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-carrer-de-sueca",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "Carrer de Sueca"
+      },
+      "description": {
+        "en": "One of Ruzafa's main arteries, perfect for a walk to discover independent shops, cafes, and the vibrant street life of the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 39.463,
+      "lng": -0.3715,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-carrer-de-cadis",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "Carrer de Cadis"
+      },
+      "description": {
+        "en": "A key street in the Ruzafa grid, lined with interesting shops and restaurants, ideal for dipping into side streets to find hidden gems."
+      },
+      "type": "landmark",
+      "lat": 39.462,
+      "lng": -0.3708,
+      "trending_score": 81,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-ruzafa-vintage-stores",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "Ruzafa Vintage Stores"
+      },
+      "description": {
+        "en": "Explore the side streets to find a curated collection of vintage clothing and furniture stores that reflect the neighborhood's trendy, creative spirit."
+      },
+      "type": "shopping",
+      "lat": 39.4635,
+      "lng": -0.3725,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-enr-ruzafa-specialty-coffee-shops",
+      "city_id": "valencia",
+      "neighborhood_id": "ruzafa",
+      "name": {
+        "en": "Ruzafa Specialty Coffee Shops"
+      },
+      "description": {
+        "en": "As Valencia's creative hub, Ruzafa is the epicenter of the city's specialty coffee scene, with numerous cafes perfect for a high-quality brew."
+      },
+      "type": "drink",
+      "lat": 39.4615,
+      "lng": -0.3722,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-bar-lapaca",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Bar Lapaca"
+      },
+      "description": {
+        "en": "An effortlessly cool neighborhood bar known for its excellent tortilla española and laid-back atmosphere, perfect for a vermouth after a walk from the beach."
+      },
+      "type": "drink",
+      "lat": 39.468,
+      "lng": -0.328,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-casa-montana",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Casa Montaña"
+      },
+      "description": {
+        "en": "A legendary bodega founded in 1836, this institution serves fantastic tapas and wine in a historic setting with giant oak barrels."
+      },
+      "type": "drink",
+      "lat": 39.472,
+      "lng": -0.326,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-casa-carmela",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Casa Carmela"
+      },
+      "description": {
+        "en": "A Valencian institution for paella since 1922, they still cook their rice dishes over an orange-wood fire for an authentic, smoky flavor."
+      },
+      "type": "food",
+      "lat": 39.478,
+      "lng": -0.329,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-augusta",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Augusta"
+      },
+      "description": {
+        "en": "A charming restaurant serving Northern Italian comfort food inside a beautifully restored 1900s fisherman’s cottage."
+      },
+      "type": "food",
+      "lat": 39.4695,
+      "lng": -0.3275,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-tiled-facades-of-el-cabanyal",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Tiled Façades of El Cabanyal"
+      },
+      "description": {
+        "en": "The real treasure of the neighborhood is its architecture; wander the streets to admire the modernist tilework depicting floral motifs and nautical scenes."
+      },
+      "type": "culture",
+      "lat": 39.471,
+      "lng": -0.328,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-lonja-de-pescadores",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Lonja de Pescadores"
+      },
+      "description": {
+        "en": "The local fish market where you can see the day's catch being sold, offering a glimpse into the neighborhood's living heritage as a fishing community."
+      },
+      "type": "landmark",
+      "lat": 39.466,
+      "lng": -0.324,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-las-arenas-beach-platja-de-les-arenes",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Las Arenas Beach (Platja de les Arenes)"
+      },
+      "description": {
+        "en": "The wide, golden-sand beach adjacent to the neighborhood, lined with restaurants and perfect for a long walk along the promenade."
+      },
+      "type": "nature",
+      "lat": 39.473,
+      "lng": -0.322,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-passeig-maritim",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Passeig Marítim"
+      },
+      "description": {
+        "en": "The beautiful seaside promenade that runs along Las Arenas beach, ideal for walking, cycling, and enjoying the Mediterranean views."
+      },
+      "type": "landmark",
+      "lat": 39.475,
+      "lng": -0.324,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-carrer-de-la-reina",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Carrer de la Reina"
+      },
+      "description": {
+        "en": "A main thoroughfare in El Cabanyal and a great starting point for exploring the side streets to find the most beautiful tiled houses."
+      },
+      "type": "landmark",
+      "lat": 39.4715,
+      "lng": -0.329,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-enr-carrer-de-la-barraca",
+      "city_id": "valencia",
+      "neighborhood_id": "el-cabanyal",
+      "name": {
+        "en": "Carrer de la Barraca"
+      },
+      "description": {
+        "en": "A characteristic street famous for its traditional fishermen's houses and stunning modernist tilework, embodying the soul of the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 39.4705,
+      "lng": -0.3285,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-la-gilda-bar",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "La Gilda Bar"
+      },
+      "description": {
+        "en": "A testament to simplicity and quality, this small bar focuses on doing a few things perfectly, namely the classic 'gilda' skewer and other tapas."
+      },
+      "type": "drink",
+      "lat": 39.472,
+      "lng": -0.361,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-bar-tonyina",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "Bar Tonyina"
+      },
+      "description": {
+        "en": "A cozy, modern tapas bar that has been a local favorite for over a decade, serving creative twists on classic tapas with high-quality ingredients."
+      },
+      "type": "food",
+      "lat": 39.471,
+      "lng": -0.36,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-askua",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "Askua"
+      },
+      "description": {
+        "en": "A temple for meat lovers, this restaurant serves some of the best grilled beef and steaks in the city in a refined setting."
+      },
+      "type": "food",
+      "lat": 39.47,
+      "lng": -0.362,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-mestalla-stadium",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "Mestalla Stadium"
+      },
+      "description": {
+        "en": "The imposing and colorful home of Valencia CF football club is a significant local landmark representing the city's passion for the sport."
+      },
+      "type": "landmark",
+      "lat": 39.4747,
+      "lng": -0.3585,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-jardines-de-monforte",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "Jardines de Monforte"
+      },
+      "description": {
+        "en": "One of Valencia's most beautiful and lesser-known neoclassical gardens, this is a tranquil oasis with statues, fountains, and manicured hedges."
+      },
+      "type": "nature",
+      "lat": 39.476,
+      "lng": -0.363,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-avenida-de-suecia",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "Avenida de Suecia"
+      },
+      "description": {
+        "en": "The main avenue running alongside the stadium, perfect for a walk to observe daily life and feel the energy of the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 39.474,
+      "lng": -0.357,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-calle-de-aragon",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "Calle de Aragón"
+      },
+      "description": {
+        "en": "A major street in the area where you can see the rhythm of local life, from residents chatting on benches to people running errands."
+      },
+      "type": "landmark",
+      "lat": 39.472,
+      "lng": -0.355,
+      "trending_score": 74,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-enr-mestalla-local-shops",
+      "city_id": "valencia",
+      "neighborhood_id": "mestalla",
+      "name": {
+        "en": "Mestalla Local Shops"
+      },
+      "description": {
+        "en": "Experience the neighborhood by stopping at a local *frutería* or bakery to see how residents live and shop day-to-day."
+      },
+      "type": "shopping",
+      "lat": 39.473,
+      "lng": -0.36,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-mercado-colon",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Mercado Colón"
+      },
+      "description": {
+        "en": "A stunning Art Nouveau masterpiece of iron and glass, this former market is now a gourmet hub for coffee, horchata, and admiring architecture."
+      },
+      "type": "landmark",
+      "lat": 39.467,
+      "lng": -0.369,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-goya-gallery",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Goya Gallery"
+      },
+      "description": {
+        "en": "A refined and welcoming restaurant specializing in high-quality seafood and rice dishes, offering a sophisticated meal that feels both traditional and timeless."
+      },
+      "type": "food",
+      "lat": 39.465,
+      "lng": -0.365,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-flama",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Flama"
+      },
+      "description": {
+        "en": "This restaurant is all about cooking over an open flame, making it the go-to spot for perfectly grilled fish and expertly cut meat in a chic setting."
+      },
+      "type": "food",
+      "lat": 39.466,
+      "lng": -0.367,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-lalquimista",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "L’Alquimista"
+      },
+      "description": {
+        "en": "A hidden gem for pasta lovers, this intimate restaurant is a veritable shrine to fresh, handmade pasta, serving authentic and sublime Italian dishes."
+      },
+      "type": "food",
+      "lat": 39.464,
+      "lng": -0.368,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-estacio-del-nord",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Estació Del Nord"
+      },
+      "description": {
+        "en": "The city's main train station is a spectacular example of Valencian Art Nouveau architecture, with intricate mosaics, ceramics, and woodwork."
+      },
+      "type": "landmark",
+      "lat": 39.466,
+      "lng": -0.376,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-art-nouveau-facades",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Art Nouveau Façades"
+      },
+      "description": {
+        "en": "Walk along Carrer de Ciril Amorós and the Gran Vía to see ornate stonework, floral motifs, and curved iron balconies that define the neighborhood's style."
+      },
+      "type": "culture",
+      "lat": 39.465,
+      "lng": -0.367,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-gran-via-del-marques-del-turia",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Gran Vía del Marqués del Túria"
+      },
+      "description": {
+        "en": "A grand, tree-lined avenue that is the backbone of the Eixample district, perfect for a stroll to admire the stately architecture and upscale atmosphere."
+      },
+      "type": "landmark",
+      "lat": 39.464,
+      "lng": -0.366,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-puente-de-las-flores",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Puente de las Flores"
+      },
+      "description": {
+        "en": "This bridge is famous for its vibrant, year-round display of thousands of flowers, offering a beautiful and colorful walk over the Turia Gardens."
+      },
+      "type": "landmark",
+      "lat": 39.471,
+      "lng": -0.364,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-enr-gran-via-boutiques",
+      "city_id": "valencia",
+      "neighborhood_id": "eixample-gran-via",
+      "name": {
+        "en": "Gran Via Boutiques"
+      },
+      "description": {
+        "en": "The neighborhood is Valencia's premier destination for high-end shopping, with numerous boutiques from local and international designers."
+      },
+      "type": "shopping",
+      "lat": 39.468,
+      "lng": -0.37,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-enr-barbaric",
+      "city_id": "valencia",
+      "neighborhood_id": "arrancapins-petxina",
+      "name": {
+        "en": "Barbaric"
+      },
+      "description": {
+        "en": "An old-school neighborhood bar with a fresh twist, featuring a fantastic natural wine list and creative, market-driven food."
+      },
+      "type": "drink",
+      "lat": 39.462,
+      "lng": -0.387,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-enr-bar-ricardo",
+      "city_id": "valencia",
+      "neighborhood_id": "arrancapins-petxina",
+      "name": {
+        "en": "Bar Ricardo"
+      },
+      "description": {
+        "en": "A true Valencian institution since the 1940s, this bustling bar is famous for its patatas bravas and fresh grilled seafood."
+      },
+      "type": "food",
+      "lat": 39.472,
+      "lng": -0.389,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-enr-rausell",
+      "city_id": "valencia",
+      "neighborhood_id": "arrancapins-petxina",
+      "name": {
+        "en": "Rausell"
+      },
+      "description": {
+        "en": "A family-run establishment renowned for its pristine seafood, especially the *sepionet* and *cigalas*, that has fed generations of Valencians."
+      },
+      "type": "food",
+      "lat": 39.465,
+      "lng": -0.388,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-enr-turia-gardens-jardi-del-turia",
+      "city_id": "valencia",
+      "neighborhood_id": "arrancapins-petxina",
+      "name": {
+        "en": "Turia Gardens (Jardí del Túria)"
+      },
+      "description": {
+        "en": "This edge of the neighborhood borders the vast, green riverbed park, perfect for a stroll, a bike ride, or relaxing on the grass."
+      },
+      "type": "nature",
+      "lat": 39.474,
+      "lng": -0.386,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-enr-mercado-de-abastos",
+      "city_id": "valencia",
+      "neighborhood_id": "arrancapins-petxina",
+      "name": {
+        "en": "Mercado de Abastos"
+      },
+      "description": {
+        "en": "The central market for this part of the city, housed in a massive, historic industrial building where you can see the real commercial life of Valencia."
+      },
+      "type": "landmark",
+      "lat": 39.467,
+      "lng": -0.389,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-enr-parque-gulliver",
+      "city_id": "valencia",
+      "neighborhood_id": "arrancapins-petxina",
+      "name": {
+        "en": "Parque Gulliver"
+      },
+      "description": {
+        "en": "Located in the Turia Gardens, this massive, climbable sculpture of a reclining Gulliver is a surreal and wonderfully playful piece of public art."
+      },
+      "type": "landmark",
+      "lat": 39.463,
+      "lng": -0.36,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-enr-plaza-de-espana",
+      "city_id": "valencia",
+      "neighborhood_id": "arrancapins-petxina",
+      "name": {
+        "en": "Plaza de España"
+      },
+      "description": {
+        "en": "A major transport hub whose surrounding streets and cafes are a great place to people-watch and see the daily rhythm of the city away from the tourist core."
+      },
+      "type": "landmark",
+      "lat": 39.463,
+      "lng": -0.383,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "el-carmen-task-1",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Art Meets History"
+      },
+      "prompt": {
+        "en": "Capture a piece of modern street art that creatively interacts with an ancient architectural element like a crumbling wall or an old doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-2",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Labyrinth Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie at the narrowest, most charming cobblestone alley you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-3",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Hidden Plaza Discovery"
+      },
+      "prompt": {
+        "en": "Get lost on purpose and photograph a quiet, hidden plaza that isn't on the main tourist path."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-4",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Gothic Shadows"
+      },
+      "prompt": {
+        "en": "Photograph the dramatic shadows cast by a Gothic building in the late afternoon sun."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-5",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Taste of the Old Town"
+      },
+      "prompt": {
+        "en": "Find a traditional tapas bar and take a photo of a classic Valencian snack like esgarraet or titaina."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-6",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Roman Echoes"
+      },
+      "prompt": {
+        "en": "Find a stone or plaque that hints at the neighborhood's Roman past and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-7",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Bohemian Colors"
+      },
+      "prompt": {
+        "en": "Create a photo focusing on the vibrant colors of a bohemian shopfront or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-8",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "The Smallest Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph a tiny, interesting detail on a building that most people would walk right past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-9",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Night and Day"
+      },
+      "prompt": {
+        "en": "Capture a street that looks quiet and historic by day, but feels like it would be buzzing with energy at night."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-10",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Artisan's Hands"
+      },
+      "prompt": {
+        "en": "Photograph a product or sign from a local artisan shop that showcases true craftsmanship."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-11",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Cat's-Eye View"
+      },
+      "prompt": {
+        "en": "Take a photo from a very low angle, capturing the cobblestone streets as a cat might see them."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-12",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Fountain of Stories"
+      },
+      "prompt": {
+        "en": "Find a public fountain, no matter how small, and capture it in a way that makes it look magical."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-13",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Rebellious Spirit"
+      },
+      "prompt": {
+        "en": "Find a piece of street art with a political or social message and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-14",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Photograph an old, barred window and imagine the stories it could tell."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-carmen-task-15",
+      "neighborhood_id": "el-carmen",
+      "title": {
+        "en": "Vermouth Moment"
+      },
+      "prompt": {
+        "en": "Capture the perfect 'aperitivo' moment: a glass of vermouth or a cold beer on a sunny plaza."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-1",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Cafe Culture"
+      },
+      "prompt": {
+        "en": "Frame a shot through a cafe window, capturing the interior ambiance and a slice of the street life outside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-2",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Vintage Soul Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a vintage item in a shop window that perfectly matches your style."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-3",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Architectural Pop"
+      },
+      "prompt": {
+        "en": "Find a 19th-century building with a brightly colored facade and make the color pop in your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-4",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Latte Art Love"
+      },
+      "prompt": {
+        "en": "Order a coffee from a specialty shop and get a close-up shot of the beautiful latte art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-5",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Gallery Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph an interesting piece of art through the window of a local gallery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-6",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Capture an ornate Art Nouveau balcony or architectural detail high up on a building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-7",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Multicultural Bite"
+      },
+      "prompt": {
+        "en": "Find a restaurant or food stall offering cuisine from another country and photograph its most colorful dish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-8",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Bookworm's Corner"
+      },
+      "prompt": {
+        "en": "Take a photo of an inviting-looking independent bookstore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-9",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Neighborhood Reflection"
+      },
+      "prompt": {
+        "en": "After a rain, or using a bottle of water, capture the reflection of a colorful Ruzafa building in a puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-10",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Trendy Transport"
+      },
+      "prompt": {
+        "en": "Photograph a stylish bicycle parked against an interesting wall or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-11",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Find a balcony overflowing with plants and capture this small patch of urban jungle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-12",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Market Colors"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the vibrant colors of the produce at the Ruzafa Market or a local fruit stand."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-13",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Street Style"
+      },
+      "prompt": {
+        "en": "Discreetly capture a detail of the local street style that feels unique to this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-14",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Innovative Plate"
+      },
+      "prompt": {
+        "en": "Find a modern restaurant and photograph a dish that looks like a work of art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "ruzafa-task-15",
+      "neighborhood_id": "ruzafa",
+      "title": {
+        "en": "Grid Life"
+      },
+      "prompt": {
+        "en": "Take a photo looking down one of Ruzafa's long, straight streets, emphasizing the grid pattern of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-1",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Tile Hunter"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three distinct and colorful tile patterns you find on different houses."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-2",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Golden Hour Shadows"
+      },
+      "prompt": {
+        "en": "Head to the beach an hour before sunset and capture a photo that emphasizes the long shadows on the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-3",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Fisherman's Cottage"
+      },
+      "prompt": {
+        "en": "Photograph a two-story house that best represents the old fishing village spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-4",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Seaside Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the promenade with the beautiful Las Arenas beach and the sea behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-5",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Bodega Still Life"
+      },
+      "prompt": {
+        "en": "Capture the historic atmosphere inside a traditional bodega, focusing on wine barrels, old bottles, or classic tapas."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-6",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "Find a house with a brightly painted door or window frame and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-7",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Nautical Nod"
+      },
+      "prompt": {
+        "en": "Find and photograph a detail on a building or a street sign that references the neighborhood's fishing heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-8",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "The Scent of Paella"
+      },
+      "prompt": {
+        "en": "Take a photo of a restaurant known for paella, capturing the smoke from a wood fire or a giant paella pan."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-9",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Bohemian Soul"
+      },
+      "prompt": {
+        "en": "Capture a scene that embodies the laid-back, bohemian vibe of El Cabanyal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-10",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Worn by the Sea"
+      },
+      "prompt": {
+        "en": "Photograph a texture that shows the effect of the sea air, like peeling paint, rusted metal, or weathered wood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-11",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Street of Tiles"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a street where multiple houses have beautiful tiled facades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-12",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "The Day's Catch"
+      },
+      "prompt": {
+        "en": "Visit the local fish market or a seafood restaurant and photograph the fresh catch of the day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-13",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Modernist Curves"
+      },
+      "prompt": {
+        "en": "Find an example of Art Nouveau architecture and focus on its curved lines and organic shapes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-14",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Beachcomber's Find"
+      },
+      "prompt": {
+        "en": "Walk along the beach and take an artistic photo of something you find in the sand, like a unique shell, piece of driftwood, or sea glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "el-cabanyal-task-15",
+      "neighborhood_id": "el-cabanyal",
+      "title": {
+        "en": "Open Door"
+      },
+      "prompt": {
+        "en": "Capture the welcoming feeling of the neighborhood by photographing an open doorway that hints at the life inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-1",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "The Quiet Giant"
+      },
+      "prompt": {
+        "en": "Capture a photo of the massive football stadium from an unexpected angle on a quiet, residential side street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-2",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Tapas Still Life"
+      },
+      "prompt": {
+        "en": "Create an artful composition of your drink and a plate of classic tapas on a bar counter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-3",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "A Slice of Life"
+      },
+      "prompt": {
+        "en": "Photograph a candid moment of daily life: locals chatting on a bench, shopping at a frutería, or walking their dogs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-4",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Garden Sanctuary Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a tranquil spot in the Jardines de Monforte, surrounded by greenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-5",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Team Colors"
+      },
+      "prompt": {
+        "en": "Find the Valencia CF team colors (black, white, and orange) on something other than the stadium, like a scarf, a flag on a balcony, or a bar sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-6",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Unpretentious Beauty"
+      },
+      "prompt": {
+        "en": "Find beauty in the ordinary. Photograph a simple, well-kept residential building that shows neighborhood pride."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-7",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "The Perfect Gilda"
+      },
+      "prompt": {
+        "en": "Order a 'gilda' (olive, anchovy, and pepper skewer) at a local bar and take a mouth-watering close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-8",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Monumental vs. Mundane"
+      },
+      "prompt": {
+        "en": "Create a photo that contrasts a large, modern building with a small, everyday detail of street life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-9",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Neighborhood Greenspace"
+      },
+      "prompt": {
+        "en": "Photograph a small park or tree-lined street that serves as a green lung for the residential area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-10",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Local Landmark"
+      },
+      "prompt": {
+        "en": "Besides the stadium, find another spot that feels like a landmark for the locals, like a popular corner cafe or a well-known shop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-11",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Bakery Window"
+      },
+      "prompt": {
+        "en": "Find a local bakery and take an appetizing photo of the pastries displayed in the window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-12",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Game Day Energy"
+      },
+      "prompt": {
+        "en": "Even on a non-match day, capture a photo that conveys the football passion of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-13",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Honest Materials"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of the textures of the neighborhood's buildings: brick, concrete, or stucco."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-14",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet side street and take a photo that captures the peaceful, residential feel of Mestalla."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "mestalla-task-15",
+      "neighborhood_id": "mestalla",
+      "title": {
+        "en": "Modern Twist"
+      },
+      "prompt": {
+        "en": "Photograph a modern tapas dish from a local bar that puts a creative spin on a classic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-1",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Architectural Light"
+      },
+      "prompt": {
+        "en": "Inside a grand building like Mercado Colón or Estació del Nord, capture the way sunlight filters through the roof, creating patterns of light and shadow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-2",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Doorway to the Past"
+      },
+      "prompt": {
+        "en": "Find and photograph the most ornate and impressive Art Nouveau doorway you can, focusing on the detailed carvings or ironwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-3",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Elegant Reflection Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in the reflection of a high-end boutique's window, capturing both you and the luxury display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-4",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Grand Avenue"
+      },
+      "prompt": {
+        "en": "Take a photo down one of the wide, tree-lined avenues, capturing the scale and grandeur of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-5",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Floral Bridge"
+      },
+      "prompt": {
+        "en": "Get a vibrant, colorful shot of the Puente de las Flores, focusing on the density and variety of the flowers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-6",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Bourgeois Details"
+      },
+      "prompt": {
+        "en": "Find a building with intricate stonework or floral motifs and take a close-up photo of the craftsmanship."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-7",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "A Polished Plate"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully presented dish at one of the neighborhood's sophisticated restaurants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-8",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Iron and Glass"
+      },
+      "prompt": {
+        "en": "Take an abstract photo focusing on the interplay of ironwork and glass on an Art Nouveau building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-9",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Gourmet Hub"
+      },
+      "prompt": {
+        "en": "Capture the lively, gourmet atmosphere inside the Mercado Colón."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-10",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Symmetry Street"
+      },
+      "prompt": {
+        "en": "Find a spot where you can take a perfectly symmetrical photo of a building's facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-11",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Horchata Break"
+      },
+      "prompt": {
+        "en": "Order a glass of horchata at a stylish cafe and take a refreshing-looking photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-12",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Canopy of Trees"
+      },
+      "prompt": {
+        "en": "Look up and photograph the canopy of leaves from the trees lining one of the grand boulevards."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-13",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Timeless Elegance"
+      },
+      "prompt": {
+        "en": "Capture a scene that feels like it could be from a century ago, showcasing the neighborhood's timeless quality."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-14",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Mosaic Magic"
+      },
+      "prompt": {
+        "en": "Find an example of 'trencadís' mosaic work on a building facade and get a close-up of the colorful ceramic fragments."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "eixample-gran-via-task-15",
+      "neighborhood_id": "eixample-gran-via",
+      "title": {
+        "en": "Chic Transport"
+      },
+      "prompt": {
+        "en": "Photograph a stylish scooter or classic car that fits the sophisticated vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-1",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "The Perfect Brava"
+      },
+      "prompt": {
+        "en": "Get a close-up, mouth-watering shot of a legendary plate of patatas bravas at a local institution."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-2",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Playful Perspective"
+      },
+      "prompt": {
+        "en": "In the Turia Gardens, take a photo that plays with perspective, making something big look small or vice versa."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-3",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Legacy Signage"
+      },
+      "prompt": {
+        "en": "Find and photograph a shop or bar sign that looks like it has been there for decades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-4",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Authentic Bite Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while enjoying a classic tapa at a bustling, brightly-lit local bar."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-5",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Generations at the Table"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the multi-generational character of the neighborhood, like families enjoying a meal together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-6",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Market Life"
+      },
+      "prompt": {
+        "en": "Photograph the hustle and bustle inside a functional, no-frills neighborhood market like Mercado de Abastos."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-7",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Seafood Showcase"
+      },
+      "prompt": {
+        "en": "Take a photo of a pristine display of fresh seafood at a market or on a restaurant's counter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-8",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Unhurried Pace"
+      },
+      "prompt": {
+        "en": "Capture an image that conveys the slow, unhurried pace of life in this residential area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-9",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Industrial Past"
+      },
+      "prompt": {
+        "en": "Photograph an architectural detail of a large, historic industrial building like the Mercado de Abastos."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-10",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "People Watching"
+      },
+      "prompt": {
+        "en": "Find a spot near a busy square and take a photo that captures the daily rhythm of the locals."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-11",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Take a photo from within the Turia Gardens looking back towards the residential buildings of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-12",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Chef's Choice"
+      },
+      "prompt": {
+        "en": "Find a bar where off-duty chefs might hang out and photograph the simple, high-quality tapas they would eat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-13",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a place where a traditional, old-school bar has been given a contemporary twist and capture that blend."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-14",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "The Soul of the Bar"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the essence of a true Valencian institution—the bright lights, the noise, the crowd."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    },
+    {
+      "id": "arrancapins-petxina-task-15",
+      "neighborhood_id": "arrancapins-petxina",
+      "title": {
+        "en": "Residential Rhythm"
+      },
+      "prompt": {
+        "en": "Photograph the facade of an apartment building, focusing on the balconies and windows that hint at the everyday lives within."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:12:15.182513+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

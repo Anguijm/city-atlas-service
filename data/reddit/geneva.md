@@ -43,13 +43,12 @@ Thanks again for all the feedback on the previous posts. It genuinely helped sha
 ### Top comments
 
 - u/Neat-Diver-782 (16): I would be in favour of option 3 making it optional. Looking forward to it.
-- u/nodens2099 (11): All good as long as it's optional, but I'm concerned about "see your friends on the map" feature. That would mean sharing the location permanently and seems like it could be abused very easily, would need a lot of safeguards in place to ensure it isn't (like asymmetric cryptography or something so that only the people involved and not you or anyone else could make use of the data, at the very least).
+- u/nodens2099 (10): All good as long as it's optional, but I'm concerned about "see your friends on the map" feature. That would mean sharing the location permanently and seems like it could be abused very easily, would need a lot of safeguards in place to ensure it isn't (like asymmetric cryptography or something so that only the people involved and not you or anyone else could make use of the data, at the very least).
 If I want someone to see where I am there are other, safer options... 
 
 Just my one cent thoughts and friendly advice about this as a privacy conscious person, mind you, I'm not in Geneva often or long enough to need this app (I do think the concept of listing fountains is good, though, but I'd use OSM for this purpose).
 - u/a147la (8): I would also be in favor of option 3
-- u/-sayitagain- (7): Hello, i havent check your app, but there is already https://www.ge-soif.ch/ which shows the fontaines in Geneva.
-- u/juantxipiron (5): You can get data/inspiration from the app mymizu. It shows refillable points of water for Japan but actually has a ton for Geneva also. Good luck with your project!
+- u/-sayitagain- (6): Hello, i havent check your app, but there is already https://www.ge-soif.ch/ which shows the fontaines in Geneva.
 
 ## Best ramen in Geneva: Yukiguni vs Nagomi
 
@@ -77,7 +76,7 @@ Final verdict: So at least in my subjective opinion, although Yukiguni is the ol
 
 - u/_zukato_ (21): Thanks for the detailed reviews.
 - u/Tommyverdatre (8): Thank you for the review! I personally like the tonkotsu style ramen from Sanuki. The shop looks less authentic, but the flavour (in my opinion) is the closest from the tonkotsu I had in Japan. You should try it if you're back in these parts!
-- u/huazzy (5): Im team Nagomi all the way. Glad to see my opinion validated.
+- u/huazzy (6): Im team Nagomi all the way. Glad to see my opinion validated.
 
 ## Why does everything in Geneva close so early?
 
@@ -90,7 +89,7 @@ Thanks in advance!
 
 ### Top comments
 
-- u/Niolu92 (57): There are legal restrictions in place that limit opening hours, especially on Sundays (even though the right is still trying to lift those up)
+- u/Niolu92 (51): There are legal restrictions in place that limit opening hours, especially on Sundays (even though the right is still trying to lift those up)
 
 But for the rest it's just cultural. Like you said, work-life balance is important. People are planning around it, like doing their groceries during lunch break or right after work. There are some shops opened until late like at the train station or the airport.
 
@@ -99,8 +98,8 @@ On thursdays, shops tend to close a little later.
 People have a right to have a life. Why would you want them to work until 22:00 or even later ?
 
 https://preview.redd.it/a13xh9accc3f1.jpeg?width=1080&amp;format=pjpg&amp;auto=webp&amp;s=bd5b275aa04fcf0cd802bc9481a9f248dcc900d9
-- u/certuna (18): Restaurants typically open 19:30 or 20:00 and stay open until 0:00, but yes most coffee bars do close around 17-18:00.
-- u/CloudsAndSnow (14): &gt; Is there a cultural or legal reason behind this?
+- u/certuna (19): Restaurants typically open 19:30 or 20:00 and stay open until 0:00, but yes most coffee bars do close around 17-18:00.
+- u/CloudsAndSnow (15): &gt; Is there a cultural or legal reason behind this?
 
 
 Sunday is a "family day" so people traditionally didn't go out that much. The rest of the week supermarkets are open.
@@ -163,11 +162,13 @@ Thank you for reading me 🙏
 
 ### Top comments
 
-- u/HowToChoose- (7): If you’d ever like to meet in person for a walk around Geneva, feel free to send me a message. I’m a chronic over-thinker with a soft spot for curious minds so I’m always eager to listen to others’ experiences and perspectives and have a few interesting stories of my own to share.
-- u/PaulTre (5): Hi there,
+- u/HowToChoose- (9): If you’d ever like to meet in person for a walk around Geneva, feel free to send me a message. I’m a chronic over-thinker with a soft spot for curious minds so I’m always eager to listen to others’ experiences and perspectives and have a few interesting stories of my own to share.
+- u/PaulTre (6): Hi there,
 
 First off happy early birthday. 33 is a great age to be asking these kinds of questions.
 
 I read your post carefully, and I wanted to respond because something stood out to me. You’ve been through a lot in the past year: a breakup, a job change, financial loss, and a move. And yet, you’ve landed on your feet. You have a permanent job, you bought a place, and you’re stable again. That’s not nothing that’s resilience.
 
-But here’s the thing I noticed: you ha
+But here’s the thing I noticed: you have something that a lot of people spend their whole lives chasing and never get. You have *freedom*.
+
+Not the abstract kind real, material freedom. You have a secure job, a home, and no i

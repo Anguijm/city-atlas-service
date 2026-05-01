@@ -1,0 +1,897 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "portsmouth-nh",
+      "name": {
+        "en": "The Downtown Core"
+      },
+      "summary": {
+        "en": "This is the quintessential Portsmouth experience, a living, breathing downtown centered around Market Square where the city's historic past and modern future collide."
+      },
+      "lat": 43.0763,
+      "lng": -70.7594,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront",
+      "city_id": "portsmouth-nh",
+      "name": {
+        "en": "The Waterfront"
+      },
+      "summary": {
+        "en": "The working heart of the seaport, this district is defined by the salty air of the Piscataqua River, scenic patios, public parks, and iconic tugboat views."
+      },
+      "lat": 43.078,
+      "lng": -70.753,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end",
+      "city_id": "portsmouth-nh",
+      "name": {
+        "en": "The West End"
+      },
+      "summary": {
+        "en": "An eclectic, residential-feeling area where the tourist crowds thin out, offering a corridor of culinary discovery and a look at how the city is evolving."
+      },
+      "lat": 43.077,
+      "lng": -70.77,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-enr-cup-of-joe",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Cup of Joe"
+      },
+      "description": {
+        "en": "Owned by the city's vice mayor, this coffee shop is a true local hub where you can gauge the town's civic mood along with your espresso."
+      },
+      "type": "drink",
+      "lat": 43.0769,
+      "lng": -70.7588,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-the-wilder",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Wilder"
+      },
+      "description": {
+        "en": "An American gastropub with a serious cocktail program, offering a sophisticated yet comfortable atmosphere popular with locals."
+      },
+      "type": "drink",
+      "lat": 43.078,
+      "lng": -70.7611,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-botanica",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Botanica"
+      },
+      "description": {
+        "en": "A beautiful French restaurant and dedicated gin bar, this spot is a hidden gem for unique cocktails in an elegant setting."
+      },
+      "type": "drink",
+      "lat": 43.0778,
+      "lng": -70.7585,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-moxy",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Moxy"
+      },
+      "description": {
+        "en": "A modern American tapas restaurant that embodies the city's culinary ambition with an inventive menu designed for sharing."
+      },
+      "type": "food",
+      "lat": 43.0784,
+      "lng": -70.7577,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-barrio",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Barrio"
+      },
+      "description": {
+        "en": "A build-your-own-taco joint with a buzzing atmosphere and excellent margaritas that is consistently packed with residents."
+      },
+      "type": "food",
+      "lat": 43.0768,
+      "lng": -70.7607,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-john-paul-jones-house",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "John Paul Jones House"
+      },
+      "description": {
+        "en": "Visit the 1758 home where the Revolutionary War naval hero once boarded, now a museum offering a tangible link to the city's maritime history."
+      },
+      "type": "culture",
+      "lat": 43.075,
+      "lng": -70.758,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-co-living-on-congress",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Co-Living on Congress"
+      },
+      "description": {
+        "en": "Witness urban evolution at this former department store, the site of a major 'co-living' development that shows the future of downtown housing."
+      },
+      "type": "hidden_gem",
+      "lat": 43.0765,
+      "lng": -70.76,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-historic-district-boundary-oddities",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Historic District Boundary Oddities"
+      },
+      "description": {
+        "en": "Walk along Middle Street and notice how the official historic boundary lines sometimes awkwardly bisect properties and even buildings."
+      },
+      "type": "hidden_gem",
+      "lat": 43.0745,
+      "lng": -70.759,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-enr-market-square",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Market Square"
+      },
+      "description": {
+        "en": "The bustling historic, political, and social heart of the city, surrounded by 18th and 19th-century buildings and a palpable energy."
+      },
+      "type": "landmark",
+      "lat": 43.0763,
+      "lng": -70.7594,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-enr-portsmouth-gas-light-co",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Portsmouth Gas Light Co."
+      },
+      "description": {
+        "en": "A multi-level institution whose outdoor deck is a fantastic, casual spot to grab a beer and watch the harbor traffic."
+      },
+      "type": "drink",
+      "lat": 43.078,
+      "lng": -70.757,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-enr-river-house",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "River House"
+      },
+      "description": {
+        "en": "The quintessential waterfront dining experience with an outdoor patio offering prime views of the harbor's tugboats and bridges."
+      },
+      "type": "food",
+      "lat": 43.0789,
+      "lng": -70.7565,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-enr-red-rover-creamery",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Red Rover Creamery"
+      },
+      "description": {
+        "en": "Tucked away in a small alley, this old-fashioned ice cream shop is a local favorite for grabbing a scoop to enjoy by the docks."
+      },
+      "type": "food",
+      "lat": 43.0782,
+      "lng": -70.7563,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-enr-prescott-park",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Prescott Park"
+      },
+      "description": {
+        "en": "Portsmouth's sprawling public backyard, this waterfront park and garden is a local treasure for strolls and boat watching."
+      },
+      "type": "nature",
+      "lat": 43.0775,
+      "lng": -70.7515,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-enr-moffatt-ladd-house",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Moffatt-Ladd House"
+      },
+      "description": {
+        "en": "This historic home offers a glimpse into the grander side of colonial life right near the bustling waterfront."
+      },
+      "type": "culture",
+      "lat": 43.0795,
+      "lng": -70.7555,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-enr-memorial-bridge",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Memorial Bridge"
+      },
+      "description": {
+        "en": "This iconic bridge dominates the waterfront view and connects New Hampshire to Maine, offering fantastic photo opportunities from the park."
+      },
+      "type": "landmark",
+      "lat": 43.0805,
+      "lng": -70.7495,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-enr-piscataqua-riverfront",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "waterfront",
+      "name": {
+        "en": "Piscataqua Riverfront"
+      },
+      "description": {
+        "en": "Walk along the edge of the powerful Piscataqua River to experience the rhythm of the tides and the working harbor."
+      },
+      "type": "viewpoint",
+      "lat": 43.078,
+      "lng": -70.7505,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-enr-street",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "Street"
+      },
+      "description": {
+        "en": "A vibrant, funky restaurant serving an eclectic mix of international street food that's a huge hit with locals."
+      },
+      "type": "food",
+      "lat": 43.0784,
+      "lng": -70.7745,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-enr-nikki-s-banh-mi",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "Nikki's Banh Mi"
+      },
+      "description": {
+        "en": "A casual and authentic Vietnamese spot for banh mi sandwiches, showcasing the diverse culinary landscape of the neighborhood."
+      },
+      "type": "food",
+      "lat": 43.0763,
+      "lng": -70.7645,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-enr-african-burying-ground-memorial",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "African Burying Ground Memorial"
+      },
+      "description": {
+        "en": "A powerful and poignant memorial park marking the rediscovered 18th-century burying ground for Portsmouth's enslaved and free Africans."
+      },
+      "type": "culture",
+      "lat": 43.0755,
+      "lng": -70.7573,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-enr-islington-street-corridor",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "Islington Street Corridor"
+      },
+      "description": {
+        "en": "Walk the main artery of the West End to observe the eclectic mix of businesses and the subtle evolution of the neighborhood."
+      },
+      "type": "hidden_gem",
+      "lat": 43.0775,
+      "lng": -70.769,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Find a wall with interesting old brickwork and take a photo that highlights its texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Then & Now"
+      },
+      "prompt": {
+        "en": "Find an old building next to a new one. Capture the contrast between historic and modern architecture in a single shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Take a photo of a dish or drink that you think perfectly represents the taste of downtown Portsmouth."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most interesting or artistic window display in a local shop and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Look for a historical plaque or marker on a building. Take a photo and share one interesting fact you learned."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Street Style Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the bustling energy of a downtown street scene behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on an interesting architectural detail—a unique doorknob, a carved stone, or an ornate window frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Sign of the Times"
+      },
+      "prompt": {
+        "en": "Find a cool, vintage-looking sign for a local business and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Sidewalk Stories"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, focusing on the red brick sidewalks and the feet of people walking by."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Civic Conversation"
+      },
+      "prompt": {
+        "en": "Find a spot where locals are gathered and talking (like a cafe patio). Capture the scene from a respectful distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Future Glimpse"
+      },
+      "prompt": {
+        "en": "Photograph a construction site or a renovated building, imagining what the future of this spot will look like."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Political Pulse"
+      },
+      "prompt": {
+        "en": "Take a selfie near a government building or civic space. What's the mood today?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-1",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Piscataqua River and the Memorial Bridge in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-2",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Tugboat Textures"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of a tugboat, focusing on details like coiled ropes, peeling paint, or rusted metal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-3",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Harbor Life"
+      },
+      "prompt": {
+        "en": "Capture a photo that tells a story about the working harbor—a boat being loaded, a fisherman at work, or gulls waiting for a snack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-4",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Bridge Geometry"
+      },
+      "prompt": {
+        "en": "Find an interesting angle of the Memorial Bridge and take a photo that emphasizes its lines, shapes, and structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-5",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Take a photo of the waterfront during the golden hour (just after sunrise or before sunset) as the light reflects on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-6",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Nature's Oasis"
+      },
+      "prompt": {
+        "en": "Find a quiet spot in a waterfront park and take a photo of a flower, a bee, or a beautiful tree with the water in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-7",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Taste of the Sea"
+      },
+      "prompt": {
+        "en": "Photograph your seafood meal or ice cream cone with a view of the harbor behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-8",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the sky, a building, or a boat in the surface of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-9",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Seagull Portrait"
+      },
+      "prompt": {
+        "en": "Try to take a majestic portrait of a seagull looking out over the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-10",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Park Bench Perspective"
+      },
+      "prompt": {
+        "en": "Sit on a park bench and take a photo of the view from your perspective. What do you see?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-11",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Diesel & Salt"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the 'salty air and diesel' smell of the working waterfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "waterfront-task-12",
+      "neighborhood_id": "waterfront",
+      "title": {
+        "en": "Secret Garden Vibe"
+      },
+      "prompt": {
+        "en": "Find a hidden garden or a burst of flowers near the water and take a photo that feels like a secret discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-1",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Street Food Story"
+      },
+      "prompt": {
+        "en": "Take a photo of a dish from a local spot that represents international street food culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-2",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Neighborhood Evolution"
+      },
+      "prompt": {
+        "en": "Find a house that shows signs of change—a new addition, a modern renovation next to an old facade—and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-3",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Hidden Home Hunt"
+      },
+      "prompt": {
+        "en": "Try to spot and photograph a 'hidden home' or Accessory Dwelling Unit (ADU) in a backyard or over a garage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-4",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Residential Rhythm"
+      },
+      "prompt": {
+        "en": "Take a photo down a quiet residential side street, capturing the peaceful, local vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-5",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Eclectic Finds"
+      },
+      "prompt": {
+        "en": "Photograph something unexpected or quirky you find on your walk through the West End—a unique garden gnome, a strange sign, or a piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-6",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Corridor of Change"
+      },
+      "prompt": {
+        "en": "Take a photo looking down Islington Street that captures its feeling as a main corridor connecting different parts of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-7",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet, contemplative spot (like the memorial or a small park) and take a photo that conveys a sense of peace or history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-8",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Local's View Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a residential street, away from the main tourist areas, showing what it's like to be in a real Portsmouth neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-9",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Architectural Mix"
+      },
+      "prompt": {
+        "en": "Capture a photo showing at least three different styles of houses or buildings in one frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-10",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Growth Spurt"
+      },
+      "prompt": {
+        "en": "Find evidence of new growth—a community garden, a new small business, or a recently built home—and document it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-11",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "The Walk Home"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of an everyday scene, like someone walking their dog or carrying groceries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    },
+    {
+      "id": "west-end-task-12",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Diverse Tastes"
+      },
+      "prompt": {
+        "en": "Find a sign or menu for a restaurant that offers a cuisine you wouldn't expect to find here."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:00:17.630525+00:00"
+    }
+  ]
+}

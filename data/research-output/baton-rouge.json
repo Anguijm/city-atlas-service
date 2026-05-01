@@ -1,0 +1,932 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-spanish-town",
+      "city_id": "baton-rouge",
+      "name": {
+        "en": "Downtown & Spanish Town"
+      },
+      "summary": {
+        "en": "A walk of contrasts, from the monumental heart of Louisiana's political power to the rebellious, creative spirit of one of the city's oldest and most eccentric neighborhoods."
+      },
+      "lat": 30.451,
+      "lng": -91.188,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city",
+      "city_id": "baton-rouge",
+      "name": {
+        "en": "Mid City"
+      },
+      "summary": {
+        "en": "Baton Rouge's artsy, entrepreneurial, and ever-evolving heart, this creative corridor has a scrappy, independent energy and is the city's cultural engine."
+      },
+      "lat": 30.442,
+      "lng": -91.155,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus",
+      "city_id": "baton-rouge",
+      "name": {
+        "en": "LSU & South Campus"
+      },
+      "summary": {
+        "en": "A world unto itself, this district blends academic energy, deep-rooted athletic tradition, and surprising pockets of natural tranquility among ancient live oaks."
+      },
+      "lat": 30.413,
+      "lng": -91.178,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-spanish-town-enr-doe-s-eat-place-bar",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "downtown-spanish-town",
+      "name": {
+        "en": "Doe's Eat Place (Bar)"
+      },
+      "description": {
+        "en": "A dark, old-school bar famous for its massive steaks, but a destination in itself for a classic cocktail prepared by a master bartender."
+      },
+      "type": "drink",
+      "lat": 30.4482,
+      "lng": -91.1883,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-enr-phil-brady-s-bar",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "downtown-spanish-town",
+      "name": {
+        "en": "Phil Brady's Bar"
+      },
+      "description": {
+        "en": "A legendary, no-frills blues institution. The real magic is the Thursday night blues jam, showcasing the living legacy of Baton Rouge's swamp blues scene."
+      },
+      "type": "nightlife",
+      "lat": 30.4395,
+      "lng": -91.1363,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-enr-pinetta-s-european-restaurant",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "downtown-spanish-town",
+      "name": {
+        "en": "Pinetta's European Restaurant"
+      },
+      "description": {
+        "en": "A tiny, candle-lit institution that feels like a secret, serving a surprising and delightful mix of German, Turkish, and Italian dishes."
+      },
+      "type": "food",
+      "lat": 30.4293,
+      "lng": -91.156,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-enr-old-louisiana-state-capitol",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "downtown-spanish-town",
+      "name": {
+        "en": "Old Louisiana State Capitol"
+      },
+      "description": {
+        "en": "A stunning neo-gothic 'castle' overlooking the Mississippi, with a breathtaking interior stained-glass dome and a political history museum."
+      },
+      "type": "culture",
+      "lat": 30.4497,
+      "lng": -91.1896,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-enr-spanish-town-neighborhood",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "downtown-spanish-town",
+      "name": {
+        "en": "Spanish Town Neighborhood"
+      },
+      "description": {
+        "en": "One of the city's oldest districts, famous for its irreverent Mardi Gras parade, pink flamingo mascots, and colorful Creole cottages."
+      },
+      "type": "landmark",
+      "lat": 30.455,
+      "lng": -91.1865,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-enr-uss-kidd-dd-661",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "downtown-spanish-town",
+      "name": {
+        "en": "USS Kidd (DD-661)"
+      },
+      "description": {
+        "en": "A Fletcher-class destroyer docked on the Mississippi that serves as a memorial, offering a tangible connection to WWII naval history."
+      },
+      "type": "culture",
+      "lat": 30.4475,
+      "lng": -91.1906,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-enr-river-road-levee-path",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "downtown-spanish-town",
+      "name": {
+        "en": "River Road Levee Path"
+      },
+      "description": {
+        "en": "A paved path atop the levee offering elevated views of the Mississippi River and the city skyline, perfect for a golden-hour walk."
+      },
+      "type": "viewpoint",
+      "lat": 30.447,
+      "lng": -91.191,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-radio-bar",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Radio Bar"
+      },
+      "description": {
+        "en": "The quintessential neighborhood hangout with retro decor, a spacious patio, and an excellent cocktail menu that attracts the city's creative class."
+      },
+      "type": "drink",
+      "lat": 30.4435,
+      "lng": -91.1553,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-tin-roof-brewery",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Tin Roof Brewery"
+      },
+      "description": {
+        "en": "Baton Rouge's first production craft brewery, located in a sprawling industrial space with a fantastic taproom and a huge outdoor area."
+      },
+      "type": "drink",
+      "lat": 30.4329,
+      "lng": -91.1755,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-government-street-stroll",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Government Street Stroll"
+      },
+      "description": {
+        "en": "The core of the Mid-City Cultural District where the walk itself is the activity. Keep an eye out for public art, boutiques, and antique shops."
+      },
+      "type": "landmark",
+      "lat": 30.4425,
+      "lng": -91.15,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-mid-city-murals",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Mid City Murals"
+      },
+      "description": {
+        "en": "This neighborhood is a canvas for public art. As you walk Government Street, look for vibrant murals that capture the city's creative spirit."
+      },
+      "type": "culture",
+      "lat": 30.443,
+      "lng": -91.152,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-government-street-boutiques",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Government Street Boutiques"
+      },
+      "description": {
+        "en": "Explore the many independent boutiques along Government Street, offering unique clothing, gifts, and local crafts that define the area's character."
+      },
+      "type": "shopping",
+      "lat": 30.4438,
+      "lng": -91.1485,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-mid-city-antique-shops",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Mid City Antique Shops"
+      },
+      "description": {
+        "en": "Discover treasures from the past in Mid City's eclectic antique shops, where old and new Baton Rouge converge."
+      },
+      "type": "shopping",
+      "lat": 30.4419,
+      "lng": -91.145,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-repurposed-architecture",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Repurposed Architecture"
+      },
+      "description": {
+        "en": "A key feature of Mid City is its creative reuse of buildings. Spot former gas stations turned into cafes and other examples of architectural reinvention."
+      },
+      "type": "hidden_gem",
+      "lat": 30.4428,
+      "lng": -91.1535,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-enr-liberty-magnet-high-school-site-of-activism",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "mid-city",
+      "name": {
+        "en": "Liberty Magnet High School (Site of Activism)"
+      },
+      "description": {
+        "en": "This nearby school was the site of student walkouts, a story of youth activism that speaks to the community's diversity and engagement."
+      },
+      "type": "hidden_gem",
+      "lat": 30.4298,
+      "lng": -91.1491,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-enr-lsu-campus-walk",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "lsu-south-campus",
+      "name": {
+        "en": "LSU Campus Walk"
+      },
+      "description": {
+        "en": "Wander under the canopies of massive, centuries-old live oaks through the heart of the university, featuring impressive Italian Renaissance-style architecture."
+      },
+      "type": "landmark",
+      "lat": 30.4135,
+      "lng": -91.1775,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-enr-burden-museum-gardens",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "lsu-south-campus",
+      "name": {
+        "en": "Burden Museum & Gardens"
+      },
+      "description": {
+        "en": "A remarkable 440-acre green space oasis that contains both the LSU Rural Life Museum and the serene Windrush Gardens."
+      },
+      "type": "nature",
+      "lat": 30.4095,
+      "lng": -91.1008,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-enr-lsu-rural-life-museum",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "lsu-south-campus",
+      "name": {
+        "en": "LSU Rural Life Museum"
+      },
+      "description": {
+        "en": "An outdoor museum with dozens of historic Louisiana buildings from the 18th and 19th centuries, offering an immersive look at the state's past."
+      },
+      "type": "culture",
+      "lat": 30.4085,
+      "lng": -91.1015,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-enr-windrush-gardens",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "lsu-south-campus",
+      "name": {
+        "en": "Windrush Gardens"
+      },
+      "description": {
+        "en": "A serene and beautiful collection of formal gardens, winding paths, and ancient statues that feel like a hidden European estate."
+      },
+      "type": "nature",
+      "lat": 30.4105,
+      "lng": -91.1,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-enr-tiger-stadium-death-valley",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "lsu-south-campus",
+      "name": {
+        "en": "Tiger Stadium ('Death Valley')"
+      },
+      "description": {
+        "en": "One of college football's most iconic venues. On a non-game day, the sheer scale of this 102,000-seat stadium is awe-inspiring."
+      },
+      "type": "landmark",
+      "lat": 30.412,
+      "lng": -91.1838,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-enr-mike-the-tiger-s-habitat",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "lsu-south-campus",
+      "name": {
+        "en": "Mike the Tiger's Habitat"
+      },
+      "description": {
+        "en": "Visit the home of LSU's famous live tiger mascot, located right next to the stadium on the university campus."
+      },
+      "type": "landmark",
+      "lat": 30.413,
+      "lng": -91.183,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-enr-memorial-tower",
+      "city_id": "baton-rouge",
+      "neighborhood_id": "lsu-south-campus",
+      "name": {
+        "en": "Memorial Tower"
+      },
+      "description": {
+        "en": "An iconic clock tower at the heart of the LSU campus, serving as a memorial to Louisianans who died in service."
+      },
+      "type": "landmark",
+      "lat": 30.4145,
+      "lng": -91.1773,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-spanish-town-task-1",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Historic Contrast"
+      },
+      "prompt": {
+        "en": "Capture a photo where old, historic architecture meets a modern city element."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-2",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Flamingo Finder"
+      },
+      "prompt": {
+        "en": "Find a pink flamingo, the unofficial mascot of Spanish Town, and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-3",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Power Pose Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the grandest, most powerful-looking building you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-4",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Deep South Detail"
+      },
+      "prompt": {
+        "en": "Photograph an architectural detail, like ironwork or a grand porch, that feels uniquely 'Deep South'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-5",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Take a photo from the levee that shows the scale of the Mississippi River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-6",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Taste of Louisiana"
+      },
+      "prompt": {
+        "en": "Find a menu offering a classic Louisiana dish (like gumbo or étouffée) and snap a picture of the description."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-7",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Rebellious Color"
+      },
+      "prompt": {
+        "en": "Find a house or building painted in a vibrant, unconventional color and capture its personality."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-8",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "History Lesson"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque and take a photo. What's one new fact you learned?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-9",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Gothic Shadows"
+      },
+      "prompt": {
+        "en": "Photograph an interesting shadow cast by one of the area's historic or gothic-style buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-10",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Cocktail Hour"
+      },
+      "prompt": {
+        "en": "Take a moody, atmospheric photo of a classic cocktail or an old-school bar interior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-11",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Skyline Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the sky or a historic building in the glass of a modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "downtown-spanish-town-task-12",
+      "neighborhood_id": "downtown-spanish-town",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Try to capture a photo that represents a sound you hear, whether it's a blues riff, a ship's horn, or political chatter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-1",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Mural Spotlight"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a mural that feels uniquely 'Baton Rouge' and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-2",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Creative Reuse"
+      },
+      "prompt": {
+        "en": "Find and photograph a building that has clearly been repurposed from an older business into something new and creative."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-3",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Colorful Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the most colorful and energetic mural you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-4",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Capture the vibe of a local, independent shop through a photo of its storefront or a window display."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-5",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Take a picture that captures the neon glow of a local bar or shop sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-6",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Community Pulse"
+      },
+      "prompt": {
+        "en": "Find a community bulletin board or a flyer for a local event and take a photo. What's the most interesting thing happening?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-7",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Scrappy Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel represents the 'scrappy, independent energy' of Mid City."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-8",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a local craft beer or a coffee from an independent cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-9",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Photograph a detail that shows old Baton Rouge meeting new Baton Rouge in this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-10",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Food Truck Find"
+      },
+      "prompt": {
+        "en": "Spot a food truck or a pop-up food stall and snap a picture of its menu or design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-11",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Antique Treasure"
+      },
+      "prompt": {
+        "en": "Peer into an antique shop window and photograph the most interesting object you see."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "mid-city-task-12",
+      "neighborhood_id": "mid-city",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Capture the relaxed atmosphere of an outdoor patio at a local bar or cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-1",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Live Oak Frame"
+      },
+      "prompt": {
+        "en": "Frame a shot of classic campus architecture through the draping branches of a live oak tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-2",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Tiger Pride Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie showing your best 'Tiger Pride' pose somewhere on campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-3",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Spanish Moss"
+      },
+      "prompt": {
+        "en": "Take a close-up, artistic photo of Spanish moss hanging from a tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-4",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Academic Spirit"
+      },
+      "prompt": {
+        "en": "Photograph something that represents the university's academic spirit—a library, a statue of a scholar, or students studying."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-5",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Death Valley Scale"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the massive size of Tiger Stadium."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-6",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "A Step Back in Time"
+      },
+      "prompt": {
+        "en": "Find a historic building or object at the Rural Life Museum and take a photo that looks like it could be from the 19th century."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-7",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Campus Color Palette"
+      },
+      "prompt": {
+        "en": "Take a photo that features the tan stucco and red-tiled roofs characteristic of LSU's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-8",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Garden Serenity"
+      },
+      "prompt": {
+        "en": "Find a quiet, peaceful spot in one of the gardens and take a photo that conveys tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-9",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Purple and Gold"
+      },
+      "prompt": {
+        "en": "Find evidence of school spirit! Photograph the LSU colors, purple and gold, somewhere on campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-10",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Picnic Spot"
+      },
+      "prompt": {
+        "en": "Find the most beautiful spot for a picnic and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-11",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Nature vs. City"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between the natural oasis of the gardens or museum and the modern city beyond."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    },
+    {
+      "id": "lsu-south-campus-task-12",
+      "neighborhood_id": "lsu-south-campus",
+      "title": {
+        "en": "Historic Landmark"
+      },
+      "prompt": {
+        "en": "Find a statue or building on campus named after a historical figure and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-29T23:41:27.857592+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

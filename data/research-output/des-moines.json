@@ -1,0 +1,1000 @@
+{
+  "neighborhoods": [
+    {
+      "id": "east-village",
+      "city_id": "des-moines",
+      "name": {
+        "en": "The East Village"
+      },
+      "summary": {
+        "en": "Historic charm meets modern cool in this creative nucleus, a grid of 19th-century brick buildings housing boutiques, restaurants, and galleries between the river and the Capitol."
+      },
+      "lat": 41.588,
+      "lng": -93.616,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core",
+      "city_id": "des-moines",
+      "name": {
+        "en": "Downtown Core & Western Gateway"
+      },
+      "summary": {
+        "en": "The polished, cultural heart of the city, this area features sleek modern architecture, corporate headquarters, and expansive public green spaces with world-class art."
+      },
+      "lat": 41.586,
+      "lng": -93.633,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand",
+      "city_id": "des-moines",
+      "name": {
+        "en": "South of Grand & Gray's Lake"
+      },
+      "summary": {
+        "en": "A peaceful retreat into nature and history, this area is defined by stately homes, historic manors, and the sprawling recreational hub of Gray's Lake Park."
+      },
+      "lat": 41.575,
+      "lng": -93.655,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "east-village-enr-scenic-route-bakery",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "Scenic Route Bakery"
+      },
+      "description": {
+        "en": "A bustling cornerstone known for excellent espresso, house-made pastries, and a sun-drenched, bi-level space."
+      },
+      "type": "drink",
+      "lat": 41.5883,
+      "lng": -93.6171,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-enr-peace-tree-brewing-co-des-moines-branch",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "Peace Tree Brewing Co. - Des Moines Branch"
+      },
+      "description": {
+        "en": "An Iowa-based brewery with a welcoming taproom, perfect for sampling local craft beer after a walk."
+      },
+      "type": "drink",
+      "lat": 41.5847,
+      "lng": -93.6178,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-enr-lucca",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "Lucca"
+      },
+      "description": {
+        "en": "An intimate and praised modern Italian restaurant offering a prix-fixe menu with fresh, high-quality ingredients."
+      },
+      "type": "food",
+      "lat": 41.5884,
+      "lng": -93.6159,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-enr-clyde-s-fine-diner",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "Clyde's Fine Diner"
+      },
+      "description": {
+        "en": "A sophisticated take on the classic American diner with elevated comfort food and creative cocktails."
+      },
+      "type": "food",
+      "lat": 41.5895,
+      "lng": -93.6204,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-enr-iowa-state-capitol-grounds",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "Iowa State Capitol & Grounds"
+      },
+      "description": {
+        "en": "A major landmark whose grounds are an urban explorer's delight with various memorials and monuments."
+      },
+      "type": "landmark",
+      "lat": 41.5911,
+      "lng": -93.6037,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-enr-soldiers-and-sailors-monument",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "Soldiers' and Sailors' Monument"
+      },
+      "description": {
+        "en": "An imposing monument from 1894 located on the grounds of the Iowa State Capitol."
+      },
+      "type": "landmark",
+      "lat": 41.5909,
+      "lng": -93.6058,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-enr-raygun",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "RAYGUN"
+      },
+      "description": {
+        "en": "A Des Moines institution famous for its witty, sarcastic, and hyper-local t-shirts and novelty items."
+      },
+      "type": "shopping",
+      "lat": 41.5894,
+      "lng": -93.6148,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-enr-robert-d-ray-asian-gardens",
+      "city_id": "des-moines",
+      "neighborhood_id": "east-village",
+      "name": {
+        "en": "Robert D. Ray Asian Gardens"
+      },
+      "description": {
+        "en": "A serene pocket of tranquility on the riverbank featuring a stunning Chinese pavilion and peaceful viewpoints."
+      },
+      "type": "nature",
+      "lat": 41.587,
+      "lng": -93.6215,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-ritual-cafe",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Ritual Cafe"
+      },
+      "description": {
+        "en": "An eclectic, artsy cafe with a strong vegetarian menu and a bohemian vibe, beloved by locals."
+      },
+      "type": "drink",
+      "lat": 41.586,
+      "lng": -93.6348,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-hello-marjorie",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Hello, Marjorie"
+      },
+      "description": {
+        "en": "A transportive, mid-century modern cocktail lounge with vintage decor and expertly crafted cocktails."
+      },
+      "type": "nightlife",
+      "lat": 41.5867,
+      "lng": -93.6261,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-fong-s-pizza",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Fong's Pizza"
+      },
+      "description": {
+        "en": "A legendary spot in a former tiki lounge serving creative pizzas, including the iconic Crab Rangoon pizza."
+      },
+      "type": "food",
+      "lat": 41.5848,
+      "lng": -93.6221,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-downtown-farmers-market",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Downtown Farmers' Market"
+      },
+      "description": {
+        "en": "An essential Des Moines experience, this sprawling street festival offers produce and diverse street food on Saturdays (May-Oct)."
+      },
+      "type": "food",
+      "lat": 41.5845,
+      "lng": -93.62,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-pappajohn-sculpture-park",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Pappajohn Sculpture Park"
+      },
+      "description": {
+        "en": "A 4.4-acre open-air museum featuring a stunning collection of sculptures from internationally acclaimed artists."
+      },
+      "type": "culture",
+      "lat": 41.5872,
+      "lng": -93.6355,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-meredith-test-garden",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Meredith Test Garden"
+      },
+      "description": {
+        "en": "A true hidden gem used by Better Homes & Gardens magazine to test planting strategies, open to the public on Fridays."
+      },
+      "type": "hidden_gem",
+      "lat": 41.5855,
+      "lng": -93.6425,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-des-moines-central-library",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Des Moines Central Library"
+      },
+      "description": {
+        "en": "An architectural landmark designed by David Chipperfield, featuring a unique copper-mesh facade."
+      },
+      "type": "landmark",
+      "lat": 41.5873,
+      "lng": -93.6298,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-enr-the-skywalk-system",
+      "city_id": "des-moines",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Skywalk System"
+      },
+      "description": {
+        "en": "A network of enclosed, elevated pedestrian bridges offering unique, second-story perspectives of the streets below."
+      },
+      "type": "hidden_gem",
+      "lat": 41.5865,
+      "lng": -93.625,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-zanzibar-s-coffee-adventure",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Zanzibar's Coffee Adventure"
+      },
+      "description": {
+        "en": "A Des Moines coffee institution that roasts its own beans, offering a cozy spot dedicated to great coffee."
+      },
+      "type": "drink",
+      "lat": 41.5835,
+      "lng": -93.6611,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-the-greenwood-lounge",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "The Greenwood Lounge"
+      },
+      "description": {
+        "en": "A classic, unpretentious neighborhood bar offering a real local watering hole experience."
+      },
+      "type": "nightlife",
+      "lat": 41.582,
+      "lng": -93.6787,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-eatery-a",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Eatery A"
+      },
+      "description": {
+        "en": "A vibrant, Mediterranean-inspired restaurant known for its wood-fired pizzas and expansive patio."
+      },
+      "type": "food",
+      "lat": 41.583,
+      "lng": -93.6653,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-sakari-sushi-lounge",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Sakari Sushi Lounge"
+      },
+      "description": {
+        "en": "A sleek and modern spot for high-quality sushi and Japanese cuisine with creative rolls."
+      },
+      "type": "food",
+      "lat": 41.5837,
+      "lng": -93.6586,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-salisbury-house-gardens",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Salisbury House & Gardens"
+      },
+      "description": {
+        "en": "A magnificent 42-room historic mansion resembling a Tudor English estate with art and rare books."
+      },
+      "type": "culture",
+      "lat": 41.5746,
+      "lng": -93.6833,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-gray-s-lake-park",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Gray's Lake Park"
+      },
+      "description": {
+        "en": "The city's favorite outdoor playground, featuring a 1.9-mile lighted trail encircling the lake."
+      },
+      "type": "nature",
+      "lat": 41.5688,
+      "lng": -93.6425,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-kruidenier-trail",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Kruidenier Trail"
+      },
+      "description": {
+        "en": "A striking 1.9-mile lighted pedestrian loop that encircles Gray's Lake, popular for walking and running."
+      },
+      "type": "landmark",
+      "lat": 41.57,
+      "lng": -93.64,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-hoyt-sherman-place",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Hoyt Sherman Place"
+      },
+      "description": {
+        "en": "A restored 1877 mansion, Des Moines' first public art gallery, which also houses a stunning theater."
+      },
+      "type": "culture",
+      "lat": 41.5888,
+      "lng": -93.6389,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-des-moines-water-works-park",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Des Moines Water Works Park"
+      },
+      "description": {
+        "en": "A vast, 1,500-acre urban wilderness with miles of trails, an arboretum, and quiet spots along the river."
+      },
+      "type": "nature",
+      "lat": 41.565,
+      "lng": -93.655,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-enr-arie-den-boer-arboretum",
+      "city_id": "des-moines",
+      "neighborhood_id": "south-of-grand",
+      "name": {
+        "en": "Arie den Boer Arboretum"
+      },
+      "description": {
+        "en": "A famous arboretum located within the Des Moines Water Works Park, specializing in crabapple trees."
+      },
+      "type": "nature",
+      "lat": 41.5695,
+      "lng": -93.6591,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "east-village-task-1",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Historic Brickwork"
+      },
+      "prompt": {
+        "en": "Find a beautifully preserved 19th-century brick wall and take a photo that highlights its texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-2",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Capitol Gaze"
+      },
+      "prompt": {
+        "en": "Frame a photo where a modern storefront or piece of street art seems to be looking towards the golden dome of the Capitol."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-3",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Creative Fuel"
+      },
+      "prompt": {
+        "en": "Take a picture of your coffee or craft beer. What creative plans will it fuel for your day?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-4",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Boutique Window"
+      },
+      "prompt": {
+        "en": "Capture the most interesting or artistic display in an independent boutique window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-5",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "River Reflection"
+      },
+      "prompt": {
+        "en": "Find a spot near the Des Moines River and capture a reflection of the East Village skyline or a bridge in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-6",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Local Flavor Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a treat from a local bakery or restaurant in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-7",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Photograph a modern element (like a scooter or a new sign) against a backdrop that feels historic and old."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-8",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a gallery sign and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-9",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "As the sun gets lower, capture the warm light hitting the brick buildings of the East Village."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-10",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Neighborhood Pattern"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern in the architecture, sidewalk, or a storefront and take a close-up, abstract shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-11",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Political Buzz"
+      },
+      "prompt": {
+        "en": "The Capitol is nearby. Find something that feels political—a sign, a slogan on a shirt, or a government building—and capture its essence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "east-village-task-12",
+      "neighborhood_id": "east-village",
+      "title": {
+        "en": "Coolest Menu Item"
+      },
+      "prompt": {
+        "en": "Snap a photo of a menu board and circle the most creative or delicious-sounding item you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Skyscraper Geometry"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo focusing on the geometric lines and reflections of a modern skyscraper."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Art & The City"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes a piece of public art and a busy city street in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Skywalk Perspective"
+      },
+      "prompt": {
+        "en": "Find a view from the Skywalk and take a photo of the street life below from your elevated viewpoint."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Corporate vs. Casual"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the mix of business suits and casual pedestrians sharing the same space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Green Oasis Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie relaxing in one of the downtown green spaces, like the sculpture park or a small plaza."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Market Munchies"
+      },
+      "prompt": {
+        "en": "If the market is on, take a photo of the most colorful or tempting food item you can find. If not, find a food truck or cart!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Reflection"
+      },
+      "prompt": {
+        "en": "Find a glass building and capture a distorted reflection of an older, more historic building in its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Look for a plaque, cornerstone, or sign on a building that reveals a piece of its history. Photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Lunch Break"
+      },
+      "prompt": {
+        "en": "Capture the midday energy of downtown. Photograph a scene of people enjoying their lunch break."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The City's Pulse"
+      },
+      "prompt": {
+        "en": "Take a long-exposure or motion-blur photo of the traffic and people moving through the heart of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Modern Marvel"
+      },
+      "prompt": {
+        "en": "Photograph the Des Moines Central Library from an unusual angle, focusing on its unique copper-mesh skin."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Nomad's View"
+      },
+      "prompt": {
+        "en": "Channel the spirit of the Nomade sculpture. Take a photo of something in the city that makes you think or wonder."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-1",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Grand Residence"
+      },
+      "prompt": {
+        "en": "Find a stately, historic home and take a photo that captures its grandeur and character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-2",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use trees, leaves, or flowers to frame a shot of a distant landmark or a beautiful home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-3",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of recreation or relaxation in one of the neighborhood's sprawling parks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-4",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Sunset Over Water"
+      },
+      "prompt": {
+        "en": "If you're near Gray's Lake or the river at dusk, capture the colors of the sunset reflecting on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-5",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Neighborhood Stroll Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet, tree-lined residential street. What makes it so peaceful?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-6",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Historic Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on an old house or building—like a unique window, doorknob, or stone carving."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-7",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Trail View"
+      },
+      "prompt": {
+        "en": "Take a photo from your perspective on a walking trail, showing the path ahead of you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-8",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Local Hangout"
+      },
+      "prompt": {
+        "en": "Find a cozy-looking neighborhood cafe or bar and take a picture of its inviting exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-9",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Manicured Garden"
+      },
+      "prompt": {
+        "en": "Photograph a beautifully kept garden, focusing on the colors and arrangement of the plants."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-10",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet bench with a nice view and take a photo from that spot, capturing the serene scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-11",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Ingersoll Energy"
+      },
+      "prompt": {
+        "en": "Capture the vibe of Ingersoll Avenue, the commercial heart of the neighborhood. Show the mix of shops, restaurants, and people."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    },
+    {
+      "id": "south-of-grand-task-12",
+      "neighborhood_id": "south-of-grand",
+      "title": {
+        "en": "Tudor Dreams"
+      },
+      "prompt": {
+        "en": "Inspired by Salisbury House, find a home with Tudor-style architectural elements (like half-timbering or steep gables) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T00:13:51.638094+00:00"
+    }
+  ],
+  "quality_status": "verified"
+}

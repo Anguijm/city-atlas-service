@@ -1,0 +1,711 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "akron",
+      "name": {
+        "en": "Downtown Core"
+      },
+      "summary": {
+        "en": "This is where Akron’s history and future collide, a compact grid defined by the historic Ohio & Erie Canal, grand 1920s architecture, and bold modern art."
+      },
+      "lat": 41.0814,
+      "lng": -81.519,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park",
+      "city_id": "akron",
+      "name": {
+        "en": "Firestone Park"
+      },
+      "summary": {
+        "en": "A historic 'company town' defined by its grid of modest, well-kept mail-order homes and a quiet, deeply-rooted community spirit."
+      },
+      "lat": 41.0431,
+      "lng": -81.5025,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill",
+      "city_id": "akron",
+      "name": {
+        "en": "West Hill"
+      },
+      "summary": {
+        "en": "A journey back to the opulence of the rubber boom, where Akron's industrial titans built their sprawling mansions in a quiet, leafy neighborhood perfect for an architectural stroll."
+      },
+      "lat": 41.0875,
+      "lng": -81.535,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-enr-akron-art-museum",
+      "city_id": "akron",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Akron Art Museum"
+      },
+      "description": {
+        "en": "A stunning architectural mashup where a historic 1899 post office meets a modern masterpiece of glass and steel. The collection focuses on art produced since 1850."
+      },
+      "type": "culture",
+      "lat": 41.0822,
+      "lng": -81.5169,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-enr-akron-civic-theatre",
+      "city_id": "akron",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Akron Civic Theatre"
+      },
+      "description": {
+        "en": "An opulent 1929 'movie palace' with a breathtaking Moorish fantasy interior, designed to resemble a Moroccan courtyard with a ceiling of twinkling stars."
+      },
+      "type": "culture",
+      "lat": 41.0806,
+      "lng": -81.5198,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-enr-lock-3-park-the-ohio-and-erie-canal-towpath",
+      "city_id": "akron",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Lock 3 Park & The Ohio and Erie Canal Towpath"
+      },
+      "description": {
+        "en": "The historic artery of the city, where a former canal lock is now a vibrant public amphitheater and access point to the Towpath Trail."
+      },
+      "type": "landmark",
+      "lat": 41.0811,
+      "lng": -81.5205,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-enr-huntington-tower",
+      "city_id": "akron",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Huntington Tower"
+      },
+      "description": {
+        "en": "Completed in 1931, this is Akron's tallest building and a beautiful example of Art Deco architecture, with an ornate crown of glazed terra-cotta."
+      },
+      "type": "landmark",
+      "lat": 41.082,
+      "lng": -81.5189,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-enr-strickland-s-frozen-custard",
+      "city_id": "akron",
+      "neighborhood_id": "firestone-park",
+      "name": {
+        "en": "Strickland's Frozen Custard"
+      },
+      "description": {
+        "en": "An Akron institution that has been serving its signature frozen custard from vintage machines for decades. Check their 'Flavor of the Day' before you go."
+      },
+      "type": "food",
+      "lat": 41.0336,
+      "lng": -81.5011,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-enr-the-mail-order-homes",
+      "city_id": "akron",
+      "neighborhood_id": "firestone-park",
+      "name": {
+        "en": "The Mail-Order Homes"
+      },
+      "description": {
+        "en": "The neighborhood itself is a living museum of early 20th-century residential architecture, with homes ordered from catalogs and assembled on-site."
+      },
+      "type": "hidden_gem",
+      "lat": 41.044,
+      "lng": -81.5015,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-enr-stan-hywet-hall-gardens",
+      "city_id": "akron",
+      "neighborhood_id": "west-hill",
+      "name": {
+        "en": "Stan Hywet Hall & Gardens"
+      },
+      "description": {
+        "en": "The breathtaking former estate of Goodyear co-founder F.A. Seiberling, this is the seventh-largest historic house in the U.S., with a 65-room manor and 70 acres of gardens."
+      },
+      "type": "landmark",
+      "lat": 41.1036,
+      "lng": -81.554,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-enr-oakdale-historic-district",
+      "city_id": "akron",
+      "neighborhood_id": "west-hill",
+      "name": {
+        "en": "Oakdale Historic District"
+      },
+      "description": {
+        "en": "An immersive walking experience through a district filled with stately, architecturally significant homes, old trees, and quiet streets."
+      },
+      "type": "landmark",
+      "lat": 41.0875,
+      "lng": -81.532,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-enr-dr-robert-smith-house",
+      "city_id": "akron",
+      "neighborhood_id": "west-hill",
+      "name": {
+        "en": "Dr. Robert Smith House"
+      },
+      "description": {
+        "en": "A site of immense cultural importance, this modest home is where Dr. Bob, a co-founder of Alcoholics Anonymous, lived and where the global movement was founded."
+      },
+      "type": "culture",
+      "lat": 41.0883,
+      "lng": -81.5305,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Find a spot where you can capture a historic building and a modern one in the same photo. Frame the shot to highlight the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Art Deco Details"
+      },
+      "prompt": {
+        "en": "Look up! Find an interesting Art Deco architectural detail on a building and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Canal Reflections"
+      },
+      "prompt": {
+        "en": "Take a photo of the city's reflection in the water of the Ohio & Erie Canal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Civic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a grand civic building, like a theater or museum, in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Skyward Gaze"
+      },
+      "prompt": {
+        "en": "Stand at the base of a tall building and take a photo looking straight up to capture its dramatic lines."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Texture of History"
+      },
+      "prompt": {
+        "en": "Find a section of the Towpath Trail and take a low-angle photo that emphasizes its unique texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Find a small park, plaza, or green space amidst the downtown buildings and capture a photo of this urban oasis."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Glass and Steel"
+      },
+      "prompt": {
+        "en": "Photograph the way a modern glass building reflects the sky or the older buildings around it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historical Marker Quest"
+      },
+      "prompt": {
+        "en": "Find any historical marker or plaque on a building or in a park. Take a photo and learn one new fact about Akron's past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Downtown Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that you feel represents the energy of downtown Akron, whether it's people walking, traffic, or a quiet architectural moment."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Street Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a mural and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The Local's View"
+      },
+      "prompt": {
+        "en": "Find a local cafe or bar that looks inviting, grab a drink, and take a photo from your seat looking out at the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-1",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Catalog Home Comparison"
+      },
+      "prompt": {
+        "en": "Find two houses that look like they came from the same catalog model but have been personalized differently. Capture them in one photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-2",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Neighborhood Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a texture that feels unique to this neighborhood, like a specific type of brickwork, a vintage doorknob, or a well-tended garden."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-3",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Many homes here have inviting front porches. Find one that shows a lot of personality and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-4",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Community Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a place that feels like the heart of the community, like a local park, cafe, or church."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-5",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the quiet, residential feel of Firestone Park."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-6",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Streetscape Symmetry"
+      },
+      "prompt": {
+        "en": "Find a street where the houses and trees create a pleasing, symmetrical view and take a photo looking down the road."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-7",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Try a treat from a local spot like a cafe or custard stand. Take a photo of your food with the neighborhood in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-8",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Signs of the Season"
+      },
+      "prompt": {
+        "en": "Find a yard or home decorated for the current season or a holiday and capture its charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-9",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Window Watch"
+      },
+      "prompt": {
+        "en": "Notice the different styles of window groupings on the houses. Find a particularly interesting arrangement and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-10",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Working-Class Roots"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel honors the working-class history of this 'company town' neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-11",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "The Perfect Lawn"
+      },
+      "prompt": {
+        "en": "Find a particularly well-kept lawn or garden and take a photo that celebrates the owner's pride."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "firestone-park-task-12",
+      "neighborhood_id": "firestone-park",
+      "title": {
+        "en": "Neighborhood Watcher"
+      },
+      "prompt": {
+        "en": "Find a friendly cat or dog watching the world go by from a window or porch and (respectfully) snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-1",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Mansion Grandeur"
+      },
+      "prompt": {
+        "en": "Find the most impressive mansion you can and take a photo from an angle that captures its scale and grandeur."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-2",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an ornate architectural detail on one of the historic homes—like a carving, a unique window, or a decorative gate—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-3",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Leafy Canopy"
+      },
+      "prompt": {
+        "en": "Capture a photo looking up through the canopy of the old-growth trees that line the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-4",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Historic Home Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a beautiful historic home in the background. Imagine you're a rubber baron for a day!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-5",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Light and Shadow Play"
+      },
+      "prompt": {
+        "en": "Find a spot where the sunlight filters through the trees and creates interesting patterns of light and shadow on a building's facade. Capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-6",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Find a beautifully manicured garden or yard and take a photo that highlights its design and color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-7",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Plaque Quest"
+      },
+      "prompt": {
+        "en": "Look for a home with a historical plaque. Take a photo of the plaque and learn who originally lived there or when it was built."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-8",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "The Grand Entrance"
+      },
+      "prompt": {
+        "en": "Photograph a particularly impressive entryway, gate, or front door of one of the neighborhood's mansions."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-9",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Signs of Opulence"
+      },
+      "prompt": {
+        "en": "Find a detail that speaks to the wealth of the original owners—a stone wall, a multi-car garage (originally a carriage house), or a fountain."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-10",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "A Walk Through Time"
+      },
+      "prompt": {
+        "en": "Take a photo down a quiet, tree-lined street that makes you feel like you've stepped back in time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-11",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Roofline Silhouettes"
+      },
+      "prompt": {
+        "en": "Capture the interesting silhouettes created by the varied rooflines of the historic homes against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    },
+    {
+      "id": "west-hill-task-12",
+      "neighborhood_id": "west-hill",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a home that is more modest than its neighbors but still has historic charm. Capture a photo that tells its story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:17:38.978270+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

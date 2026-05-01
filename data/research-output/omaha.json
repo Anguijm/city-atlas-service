@@ -1,0 +1,915 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-market",
+      "city_id": "omaha",
+      "name": {
+        "en": "The Old Market"
+      },
+      "summary": {
+        "en": "Omaha's historic heart, this is a dense, explorable grid where 19th-century warehouses now host contemporary art galleries, cozy bars, and destination-worthy restaurants."
+      },
+      "lat": 41.255,
+      "lng": -95.932,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast",
+      "city_id": "omaha",
+      "name": {
+        "en": "Dundee & The Gold Coast"
+      },
+      "summary": {
+        "en": "This area blends stately, historic mansions with a revitalized, village-like atmosphere, perfect for a slower-paced day of architectural admiration and culinary discovery."
+      },
+      "lat": 41.2595,
+      "lng": -96.005,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha",
+      "city_id": "omaha",
+      "name": {
+        "en": "South Omaha"
+      },
+      "summary": {
+        "en": "A vibrant, unpretentious hub of authentic culture, particularly along the South 24th Street corridor known as 'Little Mexico', this neighborhood is best explored with your appetite."
+      },
+      "lat": 41.225,
+      "lng": -95.947,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-market-enr-la-buvette-wine-grocery",
+      "city_id": "omaha",
+      "neighborhood_id": "old-market",
+      "name": {
+        "en": "La Buvette Wine & Grocery"
+      },
+      "description": {
+        "en": "A slice of Parisian bohemia with an unpretentious atmosphere, an eclectic wine list, and a sprawling patio perfect for people-watching."
+      },
+      "type": "drink",
+      "lat": 41.2555,
+      "lng": -95.9311,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-enr-wilson-washburn",
+      "city_id": "omaha",
+      "neighborhood_id": "old-market",
+      "name": {
+        "en": "Wilson & Washburn"
+      },
+      "description": {
+        "en": "A gastropub in a restored historic building, known for elevated comfort food and a well-curated tap list in a grand yet cozy setting."
+      },
+      "type": "food",
+      "lat": 41.2571,
+      "lng": -95.9351,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-enr-garden-of-the-zodiac",
+      "city_id": "omaha",
+      "neighborhood_id": "old-market",
+      "name": {
+        "en": "Garden of the Zodiac"
+      },
+      "description": {
+        "en": "A true hidden gem, this serene, cloistered sculpture garden is tucked away in the Old Market's central passageway."
+      },
+      "type": "hidden_gem",
+      "lat": 41.255,
+      "lng": -95.9315,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-enr-the-riverfront-light-installation",
+      "city_id": "omaha",
+      "neighborhood_id": "old-market",
+      "name": {
+        "en": "The Riverfront Light Installation"
+      },
+      "description": {
+        "en": "A mesmerizing, futuristic tunnel of light under the 10th St bridge featuring animated patterns that change with the seasons."
+      },
+      "type": "landmark",
+      "lat": 41.258,
+      "lng": -95.929,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-enr-bob-kerrey-pedestrian-bridge",
+      "city_id": "omaha",
+      "neighborhood_id": "old-market",
+      "name": {
+        "en": "Bob Kerrey Pedestrian Bridge"
+      },
+      "description": {
+        "en": "Affectionately known as 'Bob,' this bridge offers the quintessential Omaha experience of standing in both Nebraska and Iowa at the same time."
+      },
+      "type": "landmark",
+      "lat": 41.2628,
+      "lng": -95.925,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-enr-bemis-center-for-contemporary-arts",
+      "city_id": "omaha",
+      "neighborhood_id": "old-market",
+      "name": {
+        "en": "Bemis Center for Contemporary Arts"
+      },
+      "description": {
+        "en": "An internationally recognized artist-in-residence program and gallery space showcasing innovative and challenging contemporary art."
+      },
+      "type": "culture",
+      "lat": 41.253,
+      "lng": -95.9325,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-enr-gene-leahy-mall",
+      "city_id": "omaha",
+      "neighborhood_id": "old-market",
+      "name": {
+        "en": "Gene Leahy Mall"
+      },
+      "description": {
+        "en": "A major downtown park and home to the 'hidden' Riverfront Light Installation, offering a green oasis in the city."
+      },
+      "type": "nature",
+      "lat": 41.2585,
+      "lng": -95.93,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-sweet-magnolias-bake-shop",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "Sweet Magnolias Bake Shop"
+      },
+      "description": {
+        "en": "A beloved, cozy neighborhood corner shop famous for what many consider to be the best cinnamon rolls in Omaha."
+      },
+      "type": "food",
+      "lat": 41.2618,
+      "lng": -95.971,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-lalibela-ethiopian-restaurant",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "Lalibela Ethiopian Restaurant"
+      },
+      "description": {
+        "en": "A treasured local gem serving authentic Ethiopian cuisine on shared platters for a communal and flavorful dining experience."
+      },
+      "type": "food",
+      "lat": 41.2624,
+      "lng": -95.979,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-kitchen-table",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "Kitchen Table"
+      },
+      "description": {
+        "en": "Located inside the historic Dundee Theater, this restaurant is built on a philosophy of fresh, local, and from-scratch cooking."
+      },
+      "type": "food",
+      "lat": 41.259,
+      "lng": -95.9895,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-saint-cecilia-cathedral",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "Saint Cecilia Cathedral"
+      },
+      "description": {
+        "en": "An architectural marvel in the Spanish Renaissance Revival style that dominates the neighborhood skyline with its breathtaking scale."
+      },
+      "type": "landmark",
+      "lat": 41.2635,
+      "lng": -95.9715,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-voodoo-s-odd-shop",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "Voodoo's Odd Shop"
+      },
+      "description": {
+        "en": "A true cabinet of curiosities, this shop is a treasure trove of taxidermy, antiques, strange artifacts, and unique art."
+      },
+      "type": "shopping",
+      "lat": 41.25,
+      "lng": -96.026,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-heron-haven",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "Heron Haven"
+      },
+      "description": {
+        "en": "A small, volunteer-run wetland preserve with easy walking trails, perfect for a quiet moment of bird-watching and reflection."
+      },
+      "type": "nature",
+      "lat": 41.288,
+      "lng": -96.095,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-yoshitomo",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "Yoshitomo"
+      },
+      "description": {
+        "en": "Cited by locals as worth a drive across the country, this is an experience in precision and flavor, far beyond an average sushi joint."
+      },
+      "type": "food",
+      "lat": 41.2755,
+      "lng": -96.002,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-enr-the-gold-coast",
+      "city_id": "omaha",
+      "neighborhood_id": "dundee-gold-coast",
+      "name": {
+        "en": "The Gold Coast"
+      },
+      "description": {
+        "en": "A historic residential area known for its stately, grand mansions and beautiful architecture, perfect for a scenic walk."
+      },
+      "type": "landmark",
+      "lat": 41.255,
+      "lng": -95.968,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-enr-john-s-grecian-delight",
+      "city_id": "omaha",
+      "neighborhood_id": "south-omaha",
+      "name": {
+        "en": "John's Grecian Delight"
+      },
+      "description": {
+        "en": "The ultimate hidden gem located in a mall basement, this spot is a local legend for serving what many call the best gyro in Omaha."
+      },
+      "type": "hidden_gem",
+      "lat": 41.231,
+      "lng": -96.042,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-enr-el-basha",
+      "city_id": "omaha",
+      "neighborhood_id": "south-omaha",
+      "name": {
+        "en": "El Basha"
+      },
+      "description": {
+        "en": "A family-owned place consistently praised by locals for its authentic and delicious Middle Eastern food, far from the tourist crowds."
+      },
+      "type": "food",
+      "lat": 41.242,
+      "lng": -96.027,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-enr-the-taquerias-of-south-24th-street",
+      "city_id": "omaha",
+      "neighborhood_id": "south-omaha",
+      "name": {
+        "en": "The Taquerias of South 24th Street"
+      },
+      "description": {
+        "en": "The quintessential South Omaha experience is to walk this strip and pop into any of the small, family-run taquerias for authentic tacos."
+      },
+      "type": "food",
+      "lat": 41.2255,
+      "lng": -95.947,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-enr-el-museo-latino",
+      "city_id": "omaha",
+      "neighborhood_id": "south-omaha",
+      "name": {
+        "en": "El Museo Latino"
+      },
+      "description": {
+        "en": "The first Latino art and history museum in the Midwest, offering a vital cultural anchor with exhibits from local and international artists."
+      },
+      "type": "culture",
+      "lat": 41.214,
+      "lng": -95.9485,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-enr-fertile-ground-mural",
+      "city_id": "omaha",
+      "neighborhood_id": "south-omaha",
+      "name": {
+        "en": "'Fertile Ground' Mural"
+      },
+      "description": {
+        "en": "The nation's largest singly funded mural, this massive, photorealistic work depicts a rich tapestry of Nebraskan history and identity."
+      },
+      "type": "culture",
+      "lat": 41.249,
+      "lng": -95.933,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-enr-south-24th-street-bakeries",
+      "city_id": "omaha",
+      "neighborhood_id": "south-omaha",
+      "name": {
+        "en": "South 24th Street Bakeries"
+      },
+      "description": {
+        "en": "A key part of the South 24th Street experience is visiting the local panaderias for traditional Mexican sweet breads and pastries."
+      },
+      "type": "food",
+      "lat": 41.2245,
+      "lng": -95.947,
+      "trending_score": 84,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-market-task-1",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Cobblestone Composition"
+      },
+      "prompt": {
+        "en": "Find a cobblestone street and take a low-angle shot that emphasizes its historic texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-2",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "19th Century Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a detail on a historic warehouse that hints at its original purpose, like a faded sign or an old pulley."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-3",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Hidden Art Selfie"
+      },
+      "prompt": {
+        "en": "Find a piece of public art tucked away in an alley or courtyard and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-4",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Urban Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the Old Market's brick buildings in a modern window or a puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-5",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "The Perfect Patio"
+      },
+      "prompt": {
+        "en": "Find the most inviting-looking patio or outdoor seating area and capture its unique atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-6",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, take a photo of a glowing neon sign that adds to the neighborhood's character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-7",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "A Toast to the City"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink with a distinctly Old Market background, like cobblestones or a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-8",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic brick building right next to a modern structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-9",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Gateway to the Past"
+      },
+      "prompt": {
+        "en": "Find an interesting alleyway or passageway and photograph it as if it's a portal to another time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-10",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "River City View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the Missouri River and capture the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-11",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Artistic Expression"
+      },
+      "prompt": {
+        "en": "Photograph a piece of street art or a gallery window display that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "old-market-task-12",
+      "neighborhood_id": "old-market",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Take a photo of a dish or food item that feels unique to an independent, local restaurant here."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-1",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Mansion Majesty"
+      },
+      "prompt": {
+        "en": "Find a grand, historic home and take a photo that captures its most impressive architectural feature."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-2",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Neighborhood Corner"
+      },
+      "prompt": {
+        "en": "Photograph a charming street corner that perfectly captures the cozy, village-like feel of Dundee."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-3",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Cinematic Moment"
+      },
+      "prompt": {
+        "en": "Take a photo of a local shop or cafe that looks like it could be a set from an independent film."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-4",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Sweet Treat Still Life"
+      },
+      "prompt": {
+        "en": "Get a pastry or coffee from a local shop and create an artistic, top-down photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-5",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Shaded Streets"
+      },
+      "prompt": {
+        "en": "Capture the beauty of the neighborhood's tree-lined streets, focusing on the light and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-6",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "A Local's Perch"
+      },
+      "prompt": {
+        "en": "Find a bench or quiet spot and take a photo from the perspective of someone relaxing and watching the world go by."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-7",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Find an old plaque, ghost sign, or unique architectural detail on a commercial building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-8",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Intellectual Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the established, intellectual feel of the neighborhood—perhaps a bookstore, theater, or quiet cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-9",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture a photo of one of the neighborhood's grand buildings during the golden hour just before sunset."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-10",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a place where it looks like locals are gathering and connecting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-11",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "Nature in the City"
+      },
+      "prompt": {
+        "en": "Find a well-tended garden or a beautiful patch of nature amidst the homes and shops."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "dundee-gold-coast-task-12",
+      "neighborhood_id": "dundee-gold-coast",
+      "title": {
+        "en": "The Perfect Read"
+      },
+      "prompt": {
+        "en": "Find a cozy spot that looks perfect for settling in with a good book and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-1",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "Find a brightly colored mural or building exterior and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-2",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "The Taco Test"
+      },
+      "prompt": {
+        "en": "Take a close-up, mouth-watering photo of the most authentic-looking taco you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-3",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Signs of Culture"
+      },
+      "prompt": {
+        "en": "Photograph a sign written in a language other than English that points to the neighborhood's heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-4",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Family-Run Feel"
+      },
+      "prompt": {
+        "en": "Capture an image of a storefront that has the unmistakable charm of a family-owned business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-5",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Culinary Craft"
+      },
+      "prompt": {
+        "en": "Take a photo of a chef or cook at work through a restaurant window or service counter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-6",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Street Scene"
+      },
+      "prompt": {
+        "en": "Take a candid photo that captures the vibrant energy and daily life along South 24th Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-7",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Sweet Traditions"
+      },
+      "prompt": {
+        "en": "Find a bakery (panaderia) and photograph the colorful assortment of pastries."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-8",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Unassuming Gem"
+      },
+      "prompt": {
+        "en": "Photograph a restaurant or shop with a simple, unpretentious exterior that you sense holds something amazing inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-9",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Community Art"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, big or small, that celebrates the local culture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-10",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "A Taste of Tradition"
+      },
+      "prompt": {
+        "en": "Photograph a plate of food that looks like it's been made from a time-honored family recipe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-11",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Neighborhood Pride"
+      },
+      "prompt": {
+        "en": "Find a symbol, flag, or piece of art that showcases pride in a specific cultural heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    },
+    {
+      "id": "south-omaha-task-12",
+      "neighborhood_id": "south-omaha",
+      "title": {
+        "en": "Fresh Flavors"
+      },
+      "prompt": {
+        "en": "Find a spot selling fresh produce or a colorful agua fresca and capture its vibrant appeal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:44:02.357521+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

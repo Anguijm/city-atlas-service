@@ -1,0 +1,957 @@
+{
+  "neighborhoods": [
+    {
+      "id": "loda",
+      "city_id": "mobile",
+      "name": {
+        "en": "Lower Dauphin Street (LoDa)"
+      },
+      "summary": {
+        "en": "This is Mobile's central nervous system, a handsome historic district with a creative, modern pulse that buzzes with energy from theaters, galleries, and cocktail bars."
+      },
+      "lat": 30.6925,
+      "lng": -88.042,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district",
+      "city_id": "mobile",
+      "name": {
+        "en": "Oakleigh Garden District"
+      },
+      "summary": {
+        "en": "A quiet, elegant, and deeply Southern residential area where magnificent Greek Revival and Italianate homes sit on large, shaded lots, perfect for aimless wandering."
+      },
+      "lat": 30.6795,
+      "lng": -88.0515,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square",
+      "city_id": "mobile",
+      "name": {
+        "en": "De Tonti Square & Church Street East"
+      },
+      "summary": {
+        "en": "Mobile's oldest surviving neighborhood, this reverent area features brick-paved streets, gas lamps, and the city's most significant historic churches and museums."
+      },
+      "lat": 30.69,
+      "lng": -88.0385,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "loda-enr-the-haberdasher",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "The Haberdasher"
+      },
+      "description": {
+        "en": "A dimly lit, sophisticated cocktail bar known for its expert bartenders and classic, spirit-forward drinks, offering a speakeasy-like escape."
+      },
+      "type": "nightlife",
+      "lat": 30.692,
+      "lng": -88.0415,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-enr-serda-s-coffee-company",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "Serda's Coffee Company"
+      },
+      "description": {
+        "en": "A downtown institution and a reliable hub for excellent coffee, it's a straightforward, quality-focused spot to grab an espresso."
+      },
+      "type": "drink",
+      "lat": 30.693,
+      "lng": -88.04,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-enr-the-noble-south",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "The Noble South"
+      },
+      "description": {
+        "en": "A cornerstone of Mobile's culinary scene, focusing on seasonal, farm-to-table Southern cuisine in an elegant setting."
+      },
+      "type": "food",
+      "lat": 30.6923,
+      "lng": -88.043,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-enr-dumbwaiter-restaurant",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "Dumbwaiter Restaurant"
+      },
+      "description": {
+        "en": "A local favorite serving upscale Southern comfort food in a beautifully restored historic building with a cozy, brick-walled ambiance."
+      },
+      "type": "food",
+      "lat": 30.6921,
+      "lng": -88.0425,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-enr-dew-drop-inn",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "Dew Drop Inn"
+      },
+      "description": {
+        "en": "A legendary spot serving its unique hot dogs since 1924, this is a non-negotiable pilgrimage for a taste of pure, unpretentious Mobile history."
+      },
+      "type": "food",
+      "lat": 30.6895,
+      "lng": -88.055,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-enr-bienville-square",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "Bienville Square"
+      },
+      "description": {
+        "en": "The city's historic living room, this lush square is shaded by ancient live oaks and centered on a massive cast-iron fountain."
+      },
+      "type": "nature",
+      "lat": 30.6925,
+      "lng": -88.042,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-enr-the-haunted-book-shop",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "The Haunted Book Shop"
+      },
+      "description": {
+        "en": "A charming independent bookstore with a strong focus on local authors and Southern literature, offering a cozy refuge for book lovers."
+      },
+      "type": "culture",
+      "lat": 30.6924,
+      "lng": -88.0445,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-enr-saenger-theatre",
+      "city_id": "mobile",
+      "neighborhood_id": "loda",
+      "name": {
+        "en": "Saenger Theatre"
+      },
+      "description": {
+        "en": "An opulent 1927 'movie palace' that now serves as a premier performing arts venue, featuring a grand, European-inspired facade."
+      },
+      "type": "landmark",
+      "lat": 30.691,
+      "lng": -88.041,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-enr-nova-espresso",
+      "city_id": "mobile",
+      "neighborhood_id": "oakleigh-garden-district",
+      "name": {
+        "en": "Nova Espresso"
+      },
+      "description": {
+        "en": "A seriously good coffee shop in a sleek, modern space with a permanent Airstream trailer in its courtyard, offering a hip and relaxed vibe."
+      },
+      "type": "drink",
+      "lat": 30.6855,
+      "lng": -88.049,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-enr-callaghan-s-irish-social-club",
+      "city_id": "mobile",
+      "neighborhood_id": "oakleigh-garden-district",
+      "name": {
+        "en": "Callaghan's Irish Social Club"
+      },
+      "description": {
+        "en": "The heart and soul of the neighborhood, this beloved, unpretentious pub is famous for its incredible burgers and live music."
+      },
+      "type": "food",
+      "lat": 30.678,
+      "lng": -88.055,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-enr-the-hummingbird-way",
+      "city_id": "mobile",
+      "neighborhood_id": "oakleigh-garden-district",
+      "name": {
+        "en": "The Hummingbird Way"
+      },
+      "description": {
+        "en": "A refined dining experience focusing on sustainable Gulf seafood and Southern ingredients, this is a special occasion spot beloved by residents."
+      },
+      "type": "food",
+      "lat": 30.685,
+      "lng": -88.052,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-enr-oakleigh-historic-complex",
+      "city_id": "mobile",
+      "neighborhood_id": "oakleigh-garden-district",
+      "name": {
+        "en": "Oakleigh Historic Complex"
+      },
+      "description": {
+        "en": "The neighborhood's namesake, this beautiful 1833 Greek Revival mansion offers tours to glimpse into 19th-century life."
+      },
+      "type": "landmark",
+      "lat": 30.6795,
+      "lng": -88.0515,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-enr-washington-square",
+      "city_id": "mobile",
+      "neighborhood_id": "oakleigh-garden-district",
+      "name": {
+        "en": "Washington Square"
+      },
+      "description": {
+        "en": "A serene, eight-acre park that feels like a secret garden, surrounded by stunning historic homes and offering a peaceful respite."
+      },
+      "type": "nature",
+      "lat": 30.682,
+      "lng": -88.05,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-carpe-diem-coffee-tea-co",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "Carpe Diem Coffee & Tea Co."
+      },
+      "description": {
+        "en": "A cozy and beloved local fixture for years, known for its comfortable atmosphere and as a perfect spot to caffeinate before a long historical walk."
+      },
+      "type": "drink",
+      "lat": 30.689,
+      "lng": -88.057,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-las-floriditas",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "Las Floriditas"
+      },
+      "description": {
+        "en": "A true hidden gem tucked away inside a hotel, this speakeasy is an homage to Hemingway's Havana and specializes in classic rum cocktails."
+      },
+      "type": "hidden_gem",
+      "lat": 30.6945,
+      "lng": -88.04,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-noja",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "NoJa"
+      },
+      "description": {
+        "en": "An intimate, fine-dining restaurant in a historic 1840s townhouse, known for its beautiful courtyard and unique menu."
+      },
+      "type": "food",
+      "lat": 30.6935,
+      "lng": -88.0435,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-southern-national",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "Southern National"
+      },
+      "description": {
+        "en": "A James Beard award-winning restaurant offering a sophisticated exploration of Southern cuisine influenced by global flavors."
+      },
+      "type": "food",
+      "lat": 30.6915,
+      "lng": -88.041,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-church-street-graveyard",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "Church Street Graveyard"
+      },
+      "description": {
+        "en": "Established in 1819, this beautiful open-air museum features fascinating above-ground tombs and weathered headstones that tell the story of early Mobile."
+      },
+      "type": "landmark",
+      "lat": 30.69,
+      "lng": -88.0385,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-cathedral-basilica-of-the-immaculate-conception",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "Cathedral-Basilica of the Immaculate Conception"
+      },
+      "description": {
+        "en": "A monumental Roman Catholic cathedral that anchors the neighborhood, featuring an impressive scale and stunning German stained-glass windows."
+      },
+      "type": "landmark",
+      "lat": 30.691,
+      "lng": -88.043,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-scottish-rite-temple",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "Scottish Rite Temple"
+      },
+      "description": {
+        "en": "A genuine architectural oddity, this is Mobile's only example of the Egyptian Revival style, adorned with sphinxes and obelisks."
+      },
+      "type": "landmark",
+      "lat": 30.694,
+      "lng": -88.0425,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-enr-conde-charlotte-museum-house",
+      "city_id": "mobile",
+      "neighborhood_id": "de-tonti-square",
+      "name": {
+        "en": "Condé-Charlotte Museum House"
+      },
+      "description": {
+        "en": "One of the city's oldest homes, this museum showcases Mobile's history under the five flags that have flown over it."
+      },
+      "type": "culture",
+      "lat": 30.689,
+      "lng": -88.0395,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "loda-task-1",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Iron Lace Portrait"
+      },
+      "prompt": {
+        "en": "Find an example of the district's famous cast-iron balconies. Take a photo looking up at it from the sidewalk below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-2",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Gas Lamp Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm, flickering light of a historic gas lamp against a twilight sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-3",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Modern Meets Historic"
+      },
+      "prompt": {
+        "en": "Find a view that captures a 19th-century building next to a modern sign or piece of public art. Frame them both in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-4",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Reflections of Dauphin"
+      },
+      "prompt": {
+        "en": "Find a shop window and capture the reflection of the historic streetscape in the glass."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-5",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Creative Pulse"
+      },
+      "prompt": {
+        "en": "Spot a sign for a local gallery, theater, or music venue. Take a creative photo of the sign or entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-6",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Hidden Courtyard Clue"
+      },
+      "prompt": {
+        "en": "Many buildings hide small courtyards or alleyways. Find one and take a photo looking into the hidden space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-7",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Cheers to Mobile"
+      },
+      "prompt": {
+        "en": "Take a photo of your drink (coffee or cocktail) with the lively street scene blurred in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-8",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on an interesting architectural detail you spot on a building's facade—a carving, a unique window, or decorative brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-9",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Capture a photo of a menu board outside a restaurant that features a classic Southern or Gulf Coast dish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-10",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "The Color of LoDa"
+      },
+      "prompt": {
+        "en": "Find a brightly colored door or storefront and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-11",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "People of the Square"
+      },
+      "prompt": {
+        "en": "From a respectful distance, capture the general ambiance of people relaxing or walking through Bienville Square."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-12",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Nightlife Energy"
+      },
+      "prompt": {
+        "en": "After dark, take a long-exposure shot to capture the motion blur of people and lights on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "loda-task-13",
+      "neighborhood_id": "loda",
+      "title": {
+        "en": "Sidewalk Stories"
+      },
+      "prompt": {
+        "en": "Take a photo of your feet on the historic sidewalk, with the shadow of a live oak or balcony falling over them."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-1",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Live Oak Majesty"
+      },
+      "prompt": {
+        "en": "Frame a photo of a grand historic home through the moss-draped branches of a massive live oak tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-2",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Find a classic Southern front porch with rocking chairs or a swing. Capture the inviting scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-3",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by an iron fence or grand columns across a lawn or sidewalk in the afternoon light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-4",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "A Grand Entrance"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the impressive front door and entryway of one of the neighborhood's magnificent homes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-5",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Garden District Green"
+      },
+      "prompt": {
+        "en": "Find a burst of color from a blooming flower in a neighborhood garden and make it the star of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-6",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Quiet Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of a peaceful, tree-lined street, emphasizing the canopy of live oaks overhead."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-7",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Architectural Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the stately columns of a Greek Revival home in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-8",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Signs of the South"
+      },
+      "prompt": {
+        "en": "Find a historical marker or a street sign with a historic name. Take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-9",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Ironwork Artistry"
+      },
+      "prompt": {
+        "en": "Find an ornate piece of ironwork on a fence or gate and take a detailed photo of its design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-10",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "The Perfect Perch"
+      },
+      "prompt": {
+        "en": "Find a picturesque park bench in Washington Square or along a sidewalk and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-11",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Roots of History"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of the massive, sprawling roots of an ancient live oak tree."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-12",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Italianate Details"
+      },
+      "prompt": {
+        "en": "Identify a home with Italianate features, like bracketed eaves, and capture that specific detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "oakleigh-garden-district-task-13",
+      "neighborhood_id": "oakleigh-garden-district",
+      "title": {
+        "en": "Neighborhood Watch"
+      },
+      "prompt": {
+        "en": "Spot a friendly neighborhood cat or dog enjoying the sun on a porch or lawn and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-1",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Brick & Time"
+      },
+      "prompt": {
+        "en": "Take a low-angle photo of the historic brick-paved streets, showing their texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-2",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Sacred Light"
+      },
+      "prompt": {
+        "en": "Capture the way sunlight filters through the leaves of a tree onto the wall of a historic church."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-3",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Grave Marker Story"
+      },
+      "prompt": {
+        "en": "In a historic graveyard, find a weathered headstone and take a respectful photo that highlights the texture of the stone and the carving."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-4",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Federal Style"
+      },
+      "prompt": {
+        "en": "Identify a Federal-style townhouse, characterized by its symmetry and brick construction. Take a photo of its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-5",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Gas Lamp Geometry"
+      },
+      "prompt": {
+        "en": "Frame a shot of a historic gas lamp against the geometric lines of a nearby building or iron fence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-6",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Discover a quiet, contemplative corner in a square or churchyard and capture the peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-7",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes an element of the old city (like a tomb or historic wall) with the modern skyline visible behind it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-8",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Architectural Anomaly"
+      },
+      "prompt": {
+        "en": "Look for an architectural detail that seems out of place or unique, like the Egyptian motifs in the district, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-9",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Doorway to History"
+      },
+      "prompt": {
+        "en": "Find an old, interesting doorway on a historic townhouse or museum and take a photo focusing on its details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-10",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Sacred Symmetry"
+      },
+      "prompt": {
+        "en": "Take a photo of the front of the Cathedral-Basilica, focusing on its symmetrical design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-11",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker on a building and take a photo of it, trying to capture a piece of the building it describes in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-12",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Contemplative Selfie"
+      },
+      "prompt": {
+        "en": "Take a thoughtful selfie on a quiet street, with the historic, reverent atmosphere of the neighborhood as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    },
+    {
+      "id": "de-tonti-square-task-13",
+      "neighborhood_id": "de-tonti-square",
+      "title": {
+        "en": "Echoes of Five Flags"
+      },
+      "prompt": {
+        "en": "Find a flag flying in the district and take a photo of it with a historic building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:38:32.612533+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -1,0 +1,406 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-asheville",
+      "city_id": "asheville",
+      "name": {
+        "en": "Downtown Asheville"
+      },
+      "summary": {
+        "en": "A living museum of architecture and mountain bohemianism, with a compact grid of Art Deco masterpieces, independent shops, and a vibrant artistic spirit set against the backdrop of the Blue Ridge Mountains."
+      },
+      "lat": 35.5951,
+      "lng": -82.5515,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-asheville-enr-top-of-the-monk",
+      "city_id": "asheville",
+      "neighborhood_id": "downtown-asheville",
+      "name": {
+        "en": "Top of the Monk"
+      },
+      "description": {
+        "en": "A sophisticated speakeasy-style bar specializing in classic cocktails with a stunning rooftop patio offering mountain views."
+      },
+      "type": "drink",
+      "lat": 35.5956,
+      "lng": -82.5543,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-enr-chai-pani",
+      "city_id": "asheville",
+      "neighborhood_id": "downtown-asheville",
+      "name": {
+        "en": "Chai Pani"
+      },
+      "description": {
+        "en": "A beloved downtown institution serving creative and flavorful Indian street food in a bright, bustling, and casual atmosphere."
+      },
+      "type": "food",
+      "lat": 35.5968,
+      "lng": -82.5534,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-enr-the-moog-factory",
+      "city_id": "asheville",
+      "neighborhood_id": "downtown-asheville",
+      "name": {
+        "en": "The Moog Factory"
+      },
+      "description": {
+        "en": "The headquarters of Moog Music, offering a free look into how iconic synthesizers are handcrafted, with hands-on exhibits."
+      },
+      "type": "culture",
+      "lat": 35.6005,
+      "lng": -82.5539,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-enr-asheville-drum-circle",
+      "city_id": "asheville",
+      "neighborhood_id": "downtown-asheville",
+      "name": {
+        "en": "Asheville Drum Circle"
+      },
+      "description": {
+        "en": "A spontaneous, free-form community gathering of percussionists and dancers in Pritchard Park on Friday evenings."
+      },
+      "type": "culture",
+      "lat": 35.5959,
+      "lng": -82.5527,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-enr-lexington-glassworks",
+      "city_id": "asheville",
+      "neighborhood_id": "downtown-asheville",
+      "name": {
+        "en": "Lexington Glassworks"
+      },
+      "description": {
+        "en": "A working hot shop and gallery where you can watch the mesmerizing process of glassblowing up close."
+      },
+      "type": "culture",
+      "lat": 35.5932,
+      "lng": -82.5534,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-enr-jackson-building",
+      "city_id": "asheville",
+      "neighborhood_id": "downtown-asheville",
+      "name": {
+        "en": "Jackson Building"
+      },
+      "description": {
+        "en": "A striking 1924 Neo-Gothic tower, Western North Carolina's first skyscraper, adorned with intricate grotesque faces and gargoyles."
+      },
+      "type": "landmark",
+      "lat": 35.5952,
+      "lng": -82.5506,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-asheville-task-1",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it's from a different era and capture its most interesting detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-2",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Mountain Bohemian Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the unique 'mountain bohemian' spirit of the street you're on."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-3",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Shopfront Story"
+      },
+      "prompt": {
+        "en": "Photograph the window display of a fiercely independent shop that tells a story."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-4",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Art Deco Angles"
+      },
+      "prompt": {
+        "en": "Find an example of Art Deco architecture and take a photo looking straight up to emphasize its geometric lines."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-5",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Weird and Wonderful"
+      },
+      "prompt": {
+        "en": "Find something wonderfully weird on the street—a piece of public art, a unique sign, or an interesting character—and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-6",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Take a picture of a food or drink item that feels uniquely 'Asheville'."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-7",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Creative Expression"
+      },
+      "prompt": {
+        "en": "Spot a piece of street art or a mural and take a photo that makes it the star of the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-8",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Red Brick Rhythm"
+      },
+      "prompt": {
+        "en": "Find a classic red-brick storefront and take a photo that highlights its texture and history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-9",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Peak-a-Boo Peaks"
+      },
+      "prompt": {
+        "en": "Frame a photo where the Blue Ridge Mountains are visible between or behind the city buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-10",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Community Corner"
+      },
+      "prompt": {
+        "en": "Find a public bench or square and take a photo that captures a moment of community interaction."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-11",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the glow of a vintage or artistic neon sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-12",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Musician's Moment"
+      },
+      "prompt": {
+        "en": "Take a respectful photo of a street performer sharing their music with the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-13",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "A Touch of Gothic"
+      },
+      "prompt": {
+        "en": "Find a building with Neo-Gothic details (like pointed arches or towers) and photograph it from a low angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-14",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Independent Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a local business that you find inspiring."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-15",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Pavement Patterns"
+      },
+      "prompt": {
+        "en": "Look down! Capture an interesting pattern or texture you find on the sidewalk or street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-16",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Gallery Glimpse"
+      },
+      "prompt": {
+        "en": "Without being disruptive, take a photo looking into an art gallery from the street, capturing the art within."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-17",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "The People's Art"
+      },
+      "prompt": {
+        "en": "Find a sticker, poster, or small piece of unofficial art on a lamp post or wall and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-18",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Historic Marker Hunt"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker on a building and take a photo of it. What did you learn?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-19",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "Upcycled Artistry"
+      },
+      "prompt": {
+        "en": "Find an object or display that has been creatively reused or upcycled and capture its new purpose."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    },
+    {
+      "id": "downtown-asheville-task-20",
+      "neighborhood_id": "downtown-asheville",
+      "title": {
+        "en": "The Sound of the Street"
+      },
+      "prompt": {
+        "en": "Take a short video capturing the ambient sounds of downtown, from street performers to conversations."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:21:58.569357+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

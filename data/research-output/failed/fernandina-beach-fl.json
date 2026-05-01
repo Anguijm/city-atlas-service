@@ -1,0 +1,276 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-old-town",
+      "city_id": "fernandina-beach-fl",
+      "name": {
+        "en": "Historic Downtown & Old Town Fernandina"
+      },
+      "summary": {
+        "en": "This district represents the soul of Fernandina Beach, blending a Victorian-era commercial hub with an older, Spanish-platted grid overlooking the Amelia River."
+      },
+      "lat": 30.6721,
+      "lng": -81.4655,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-old-town-enr-captain-bell-s-house-pippi-longstocking-s-villa-villekulla",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "historic-downtown-old-town",
+      "name": {
+        "en": "Captain Bell's House (Pippi Longstocking's Villa Villekulla)"
+      },
+      "description": {
+        "en": "An unexpected piece of 1980s film history, this privately owned residence on Estrada Street served as the exterior for Villa Villekulla in the movie 'The New Adventures of Pippi Longstocking'."
+      },
+      "type": "hidden_gem",
+      "lat": 30.6763,
+      "lng": -81.4685,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-enr-fernandina-plaza-original-town-of-fernandina-historic-site",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "historic-downtown-old-town",
+      "name": {
+        "en": "Fernandina Plaza (Original Town of Fernandina Historic Site)"
+      },
+      "description": {
+        "en": "This is the last Spanish-platted town in the Western Hemisphere in its original form. This grassy bluff overlooking the Amelia River was the parade ground for a Spanish fort."
+      },
+      "type": "landmark",
+      "lat": 30.6765,
+      "lng": -81.4691,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-enr-fairbanks-house",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "historic-downtown-old-town",
+      "name": {
+        "en": "Fairbanks House"
+      },
+      "description": {
+        "en": "Listed on the National Register of Historic Places, this is a stunning example of Italianate architecture representing the wealth of Fernandina's 'Golden Age'."
+      },
+      "type": "landmark",
+      "lat": 30.6695,
+      "lng": -81.4632,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-enr-historic-nassau-county-courthouse",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "historic-downtown-old-town",
+      "name": {
+        "en": "Historic Nassau County Courthouse"
+      },
+      "description": {
+        "en": "A stately building with classic revival architecture that anchors the Victorian-era commercial district and serves as a link to the town's civic history."
+      },
+      "type": "landmark",
+      "lat": 30.6714,
+      "lng": -81.4623,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-enr-isle-of-eight-flags-shrimp-festival",
+      "city_id": "fernandina-beach-fl",
+      "neighborhood_id": "historic-downtown-old-town",
+      "name": {
+        "en": "Isle of Eight Flags Shrimp Festival"
+      },
+      "description": {
+        "en": "A major culinary event on the first weekend of May celebrating the local shrimping industry. Note: This is a seasonal event, not a permanent location."
+      },
+      "type": "culture",
+      "lat": 30.6718,
+      "lng": -81.466,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-old-town-task-1",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Victorian Details"
+      },
+      "prompt": {
+        "en": "Find a building with classic Victorian architecture and take a photo focusing on its most intricate detail, like gingerbread trim or a bay window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-2",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Shady Oaks"
+      },
+      "prompt": {
+        "en": "Capture a photo of a street or path beautifully shaded by the area's iconic live oak trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-3",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of the Amelia River and take a peaceful photo of the water and marshes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-4",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Then & Now"
+      },
+      "prompt": {
+        "en": "Take a picture of a historic building next to a modern element (like a car or a new sign) to show the contrast of time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-5",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you look like you're enjoying the fresh, salty air coming off the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-6",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Story in Stone"
+      },
+      "prompt": {
+        "en": "Find any historical marker or plaque. Take a photo of it and share the most interesting year or fact you find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-7",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Architectural Accent"
+      },
+      "prompt": {
+        "en": "Photograph a unique architectural feature that catches your eye: a colorful door, an ornate iron balcony, or a distinctive chimney."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-8",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Timeless Photo"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking building you can and take a black and white photo to give it a timeless, historic feel."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-9",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Port City Palette"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three colors that you feel represent the neighborhood's coastal and historic character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-10",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Spanish Roots"
+      },
+      "prompt": {
+        "en": "The area has a Spanish-platted grid. Capture a photo that emphasizes the straight lines and right angles of the street layout."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-11",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "As the sun begins to set, capture a photo of a building or street bathed in the warm, golden light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    },
+    {
+      "id": "historic-downtown-old-town-task-12",
+      "neighborhood_id": "historic-downtown-old-town",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Many historic homes have beautiful porches. Find one that looks especially inviting and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:22:51.943871+00:00"
+    }
+  ]
+}

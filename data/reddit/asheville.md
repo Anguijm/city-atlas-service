@@ -14,13 +14,13 @@ Don’t even get me started on what they do to our bathrooms. You wouldn’t wan
 
 ### Top comments
 
-- u/itchy-n-scratchy19 (434): I've seen the little roving gangs of kids acting tough. Barely able to cross the street without getting hit because they are talking so much crap they can't pay attention. It is disappointing, but not surprising they steal. Take note if any are athletes, call the school, and talk to their coach. Last time I had my bathroom destroyed by some kids I was so mad that's what I did. They threw a large full cup of red fruit punch at the ceiling so hard that the straw and lid stuck into the drop tile. Think red sticky bomb all over a two-stall public bathroom. Walls, floors, paper towels, toilet paper, and RIP the entire ceiling dripping with it. 
+- u/itchy-n-scratchy19 (435): I've seen the little roving gangs of kids acting tough. Barely able to cross the street without getting hit because they are talking so much crap they can't pay attention. It is disappointing, but not surprising they steal. Take note if any are athletes, call the school, and talk to their coach. Last time I had my bathroom destroyed by some kids I was so mad that's what I did. They threw a large full cup of red fruit punch at the ceiling so hard that the straw and lid stuck into the drop tile. Think red sticky bomb all over a two-stall public bathroom. Walls, floors, paper towels, toilet paper, and RIP the entire ceiling dripping with it. 
 
 The coach brought the entire team in and made them deep-clean the dining room. I got in a little trouble for letting it happen, but it was 100% worth seeing the grossed-out faces of stuck-up teenagers pulling gum out from under the tables and chairs.
-- u/monkeychemist25 (240): Can we take a moment to appreciate that this was labeled as “bears/wildlife” 🤣😅😂
-- u/Xina123 (106): Stores should stop allowing them in without a parent.
-- u/Elegant_Gas_740 (85): Sounds frustrating, parents definitely need to step up because that kind of behavior ruins things for workers and for everyone else who just wants to enjoy the place.
-- u/Jazzlike_Wrap_7907 (80): It’s the proximity to TC Robertson. I’ve seen them at the YMCA opening lockers and going through bags of strangers. There’s no good middle ground between letting them run rampant and ruining a kids life by giving them criminal charges as a juvenile. I think a lot of the problems society has are really a parenting problem mislabeled as some other problem
+- u/monkeychemist25 (243): Can we take a moment to appreciate that this was labeled as “bears/wildlife” 🤣😅😂
+- u/Xina123 (107): Stores should stop allowing them in without a parent.
+- u/Elegant_Gas_740 (84): Sounds frustrating, parents definitely need to step up because that kind of behavior ruins things for workers and for everyone else who just wants to enjoy the place.
+- u/Jazzlike_Wrap_7907 (81): It’s the proximity to TC Robertson. I’ve seen them at the YMCA opening lockers and going through bags of strangers. There’s no good middle ground between letting them run rampant and ruining a kids life by giving them criminal charges as a juvenile. I think a lot of the problems society has are really a parenting problem mislabeled as some other problem
 
 ## Here is a post from last night at one of the Buncombe County shelters.
 
@@ -32,9 +32,9 @@ I sit in the dark, while 85 of some of our community’s most vulnerable sleep. 
 
 - u/Intelligent_Hair3109 (311): We are all an economic shock away from being homeless .
 Empathy, respect and consideration isn't too much to ask.
-- u/BrunoiseTheBastards (117): Helene sure as Hell (sorry) taught me that some Religious organizations/people actually live by/operate by what they preach
-- u/fashionweeksurvivor (77): This is the kind of thing I wish people in this city and on this sub could remember when they’re othering our homeless neighbors and blaming them for all the woes of our town rather than pointing fingers at the people who designed the system that has failed them. Everyone deserves the basic necessities of life - food, shelter, medical care - just for the simple fact that they exist and are just as human as anyone else. No one is “less deserving” of the bare minimum required for survival.
-- u/unbreakablewildone (63): This is the first winter I don’t have to worry about my mom freezing to death on the streets in 10 years so I really feel for these people.
+- u/BrunoiseTheBastards (118): Helene sure as Hell (sorry) taught me that some Religious organizations/people actually live by/operate by what they preach
+- u/fashionweeksurvivor (81): This is the kind of thing I wish people in this city and on this sub could remember when they’re othering our homeless neighbors and blaming them for all the woes of our town rather than pointing fingers at the people who designed the system that has failed them. Everyone deserves the basic necessities of life - food, shelter, medical care - just for the simple fact that they exist and are just as human as anyone else. No one is “less deserving” of the bare minimum required for survival.
+- u/unbreakablewildone (61): This is the first winter I don’t have to worry about my mom freezing to death on the streets in 10 years so I really feel for these people.
 - u/MissPotatoPeel (34): What a beautiful post. Brought tears to my eyes. I do direct outreach with the houseless folks, primarily in West Asheville. By working from midnight to sunrise, I can find everyone to pass out food and supplies — and not worry about traffic, police, or where to park. I bet many of my “regulars” were with you last night. I hope so. The ones I found — shivering at bus stops or huddled in a doorway of a business — were the most vulnerable of the houseless community, with significant mental health challenges. It’s heartbreaking to see someone in flip-flops in freezing weather, or even without a coat. And everyone is so hungry and thirsty. Thankfully I had food, blankets, sleeping bags, hand warmers, and even a few small heaters with propane canisters. Thank you for your loving kindness and the respect you hold for our neighbors who are facing such serious challenges. I do believe we can make a difference by working together. Again, thank you for all that you do.
 
 ## Meteorologist here. Don't freak out (yet) about this upcoming winter storm.
@@ -65,27 +65,25 @@ Don't get scared, get prepared, and THE FORECAST WILL CHANGE
 
 ### Top comments
 
-- u/garye55 (283): What, a calm, rational voice on Reddit?. You must have come here by mistake
-- u/mediocre_remnants (281): Too late, already freaking out! I went into the grocery store and screamed that we were getting 14" of snow this weekend and everyone needs to freak the fuck out. Then I chugged 15 gallons of milk and stuffed a loaf of bread in my pants and ran out of the store. The cops are still looking for me.
+- u/garye55 (281): What, a calm, rational voice on Reddit?. You must have come here by mistake
+- u/mediocre_remnants (279): Too late, already freaking out! I went into the grocery store and screamed that we were getting 14" of snow this weekend and everyone needs to freak the fuck out. Then I chugged 15 gallons of milk and stuffed a loaf of bread in my pants and ran out of the store. The cops are still looking for me.
 - u/ellasaurusrex (45): Thank you! I was just telling coworkers that I don't pay attention to any snow related forecasts until 12 hours before at this point, lol. I will admit I'm crossing my fingers for a big one though!
+- u/crownvic64 (43): Also recommend North Carolina’s Weather Authority. Ethan Clarke. Super nice kid and already doing a great job in the weather world.
 - u/BigHeadDeadass (41): I'm going to the grocery store to buy the three most perishable items in the event my power goes out
-- u/5H33B335T (40): Just go ask an old timer. 
-
-Last weekend, I was taking care of a demented and very sick 90 year old. I was doing something and he snapped his eyes open from sleep, looked towards the window and said “It’s about to snow”. Lo and behold, it was snowing within half an hour.
 
 ## “You better pay my workers wages” - The smokin’ onion owner
 
 ### Top comments
 
-- u/SublimeApathy (286): Tipping is not, and never had been, mandatory.  Doubly so if it's counter service and I have to wait on myself.  When I worked in service in AVL back in 2004-2009, I would have good nights, and I would have bad nights.  That the roll of the dice you take when you wait tables.  Currently live in Portland, OR and quite a few restaurants are adding the service fee to insure their employees are paid, AND have healthcare.  Here's on example of one of my favorite places and their approach.  Service is constantly on-point, friendly and cooperative.  Meaining, the person who takes your order, isn't necessarly the same person who comes back to check on you, bring your food or your drinks.
+- u/SublimeApathy (288): Tipping is not, and never had been, mandatory.  Doubly so if it's counter service and I have to wait on myself.  When I worked in service in AVL back in 2004-2009, I would have good nights, and I would have bad nights.  That the roll of the dice you take when you wait tables.  Currently live in Portland, OR and quite a few restaurants are adding the service fee to insure their employees are paid, AND have healthcare.  Here's on example of one of my favorite places and their approach.  Service is constantly on-point, friendly and cooperative.  Meaining, the person who takes your order, isn't necessarly the same person who comes back to check on you, bring your food or your drinks.
 
 "**We are charging a service fee in lieu of an optional tip line and using this service fee to offer a minimum of $25 per hour to employees. No need to do any math at the end of your meal – in fact we don’t want anyone to feel pressured to leave extra. We will provide the hospitality and grace you deserve because it’s what we do. Tipping, at its most innocent, creates inequity between “front-of-house” and “back-of-house” workers, and at its most sinister, continues a tradition of racism. Don’t believe us? Google “History of Tipping in the US”. Actually, please do even if you do believe us. We think this is one of our industry’s best kept** [**dirty secrets**](https://www.nytimes.com/2021/02/05/opinion/minimum-wage-racism.html)**.**"
 
 [https://www.kachkapdx.com/wage-equity](https://www.kachkapdx.com/wage-equity)
-- u/Zoolander1324 (268): I’m not sure if this was the catalyst for other reviews but they are getting cooked rn on Google reviews!
-- u/StrainExternal7301 (141): if you’re unable to pay your workers a living wage and instead expect them to rely on the gratuity of customers to keep your business afloat, maybe don’t open a restaurant
+- u/Zoolander1324 (274): I’m not sure if this was the catalyst for other reviews but they are getting cooked rn on Google reviews!
+- u/StrainExternal7301 (143): if you’re unable to pay your workers a living wage and instead expect them to rely on the gratuity of customers to keep your business afloat, maybe don’t open a restaurant
 - u/shakedownsugaree (113): I miss Trashy Vegan
-- u/Raiine42 (98): If I am standing when I place my order, I do not tip.
+- u/Raiine42 (95): If I am standing when I place my order, I do not tip.
 
 ## Followed home from downtown last night
 
@@ -93,10 +91,10 @@ Stay vigilant in downtown Asheville especially if you’re a woman walking to yo
 
 ### Top comments
 
-- u/YourDarkHalf7 (327): Always pull in to a PD. Well done.
-- u/AVLLaw (84): trust your instincts
-- u/yuicebox (64): That is fucked, sorry to hear that happened. Good moves on your part. 
+- u/YourDarkHalf7 (337): Always pull in to a PD. Well done.
+- u/AVLLaw (82): trust your instincts
+- u/yuicebox (65): That is fucked, sorry to hear that happened. Good moves on your part. 
 
 If you know it, you should also share the color of convertible just to help others be on the lookout for creeps
-- u/ZEXYMSTRMND (38): I’ve had this happen to me. A guy followed me from east tunnel road all the way home to Hendersonville. I started making a series of random turns headed for the police department and he eventually turned around. It’s so fucking scary trying to navigate this reality as a woman.
-- u/Devil_0fHellsKitchen (36): Impressive that you're that vigilant. Sorry it happened 😔
+- u/ZEXYMSTRMND (39): I’ve had this happen to me. A guy followed me from east tunnel road all the way home to Hendersonville. I started making a series of random turns headed for the police department and he eventually turned around. It’s so fucking scary trying to navigate this reality as a woman.
+- u/Devil_0fHellsKitchen (34): Impressive that you're that vigilant. Sorry it happened 😔

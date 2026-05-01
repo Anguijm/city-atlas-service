@@ -1,5 +1,7 @@
 # The Infatuation: Asheville, United States
 
+## City page (venue reviews)
+
 The Best Restaurants In Asheville
 Sand Hill Kitchen
 SOUTHERN

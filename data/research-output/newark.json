@@ -1,0 +1,711 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-central-ward",
+      "city_id": "newark",
+      "name": {
+        "en": "Downtown & The Central Ward"
+      },
+      "summary": {
+        "en": "This is Newark's historic and administrative heart, a landscape of architectural contrasts where grand buildings from the city's golden age stand beside modern university campuses and government centers."
+      },
+      "lat": 40.7375,
+      "lng": -74.1722,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound",
+      "city_id": "newark",
+      "name": {
+        "en": "The Ironbound (East Ward)"
+      },
+      "summary": {
+        "en": "A dense, energetic, and historically immigrant neighborhood with a powerful Portuguese and Brazilian identity, the Ironbound feels like a vibrant city within a city."
+      },
+      "lat": 40.7335,
+      "lng": -74.155,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward",
+      "city_id": "newark",
+      "name": {
+        "en": "The North Ward"
+      },
+      "summary": {
+        "en": "A world away from the dense urbanism of other districts, the North Ward offers serenity and grandeur, defined by the vast Branch Brook Park and the stately mansions of the Forest Hill Historic District."
+      },
+      "lat": 40.768,
+      "lng": -74.173,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-central-ward-enr-military-park-wars-of-america-monument",
+      "city_id": "newark",
+      "neighborhood_id": "downtown-central-ward",
+      "name": {
+        "en": "Military Park & Wars of America Monument"
+      },
+      "description": {
+        "en": "A central green space dominated by a staggering monument from Gutzon Borglum, the sculptor of Mount Rushmore, making the park an open-air gallery."
+      },
+      "type": "landmark",
+      "lat": 40.7385,
+      "lng": -74.1715,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-enr-newark-museum-of-art",
+      "city_id": "newark",
+      "neighborhood_id": "downtown-central-ward",
+      "name": {
+        "en": "Newark Museum of Art"
+      },
+      "description": {
+        "en": "A beautiful Beaux-Arts building that serves as a major cultural anchor, representing a period of immense civic investment and pride."
+      },
+      "type": "culture",
+      "lat": 40.7415,
+      "lng": -74.172,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-enr-national-newark-building",
+      "city_id": "newark",
+      "neighborhood_id": "downtown-central-ward",
+      "name": {
+        "en": "National Newark Building"
+      },
+      "description": {
+        "en": "An iconic Art Deco skyscraper that defines the city's skyline, with an ornate, cathedral-like lobby and imposing limestone facade."
+      },
+      "type": "landmark",
+      "lat": 40.736,
+      "lng": -74.1724,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-enr-riverbank-park",
+      "city_id": "newark",
+      "neighborhood_id": "ironbound",
+      "name": {
+        "en": "Riverbank Park"
+      },
+      "description": {
+        "en": "A welcome stretch of green designed by the Olmsted Brothers firm, set against the industrial backdrop of the Passaic River."
+      },
+      "type": "nature",
+      "lat": 40.734,
+      "lng": -74.145,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-enr-peter-francisco-park",
+      "city_id": "newark",
+      "neighborhood_id": "ironbound",
+      "name": {
+        "en": "Peter Francisco Park"
+      },
+      "description": {
+        "en": "Located at the bustling 'Five Corners' intersection, this park serves as the official gateway to the Ironbound and is a great spot for people-watching."
+      },
+      "type": "landmark",
+      "lat": 40.7355,
+      "lng": -74.1605,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-enr-ironbound-streetscape",
+      "city_id": "newark",
+      "neighborhood_id": "ironbound",
+      "name": {
+        "en": "Ironbound Streetscape"
+      },
+      "description": {
+        "en": "The real gem of the neighborhood is the experience of walking its streets, like Ferry Street, to see the rowhouses, community gardens, and small shops."
+      },
+      "type": "hidden_gem",
+      "lat": 40.7325,
+      "lng": -74.1545,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-enr-branch-brook-park",
+      "city_id": "newark",
+      "neighborhood_id": "north-ward",
+      "name": {
+        "en": "Branch Brook Park"
+      },
+      "description": {
+        "en": "The oldest county park in the U.S. and home to the nation's largest collection of cherry blossom trees, designed by the famed Olmsted Brothers."
+      },
+      "type": "nature",
+      "lat": 40.77,
+      "lng": -74.175,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-enr-cathedral-basilica-of-the-sacred-heart",
+      "city_id": "newark",
+      "neighborhood_id": "north-ward",
+      "name": {
+        "en": "Cathedral Basilica of the Sacred Heart"
+      },
+      "description": {
+        "en": "A colossal French Gothic cathedral and architectural marvel that dominates the skyline, with a scale often compared to Westminster Abbey."
+      },
+      "type": "landmark",
+      "lat": 40.766,
+      "lng": -74.17,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-enr-forest-hill-historic-district",
+      "city_id": "newark",
+      "neighborhood_id": "north-ward",
+      "name": {
+        "en": "Forest Hill Historic District"
+      },
+      "description": {
+        "en": "An open-air museum of residential architecture, best experienced by wandering its streets to admire the grand mansions and colonial homes."
+      },
+      "type": "landmark",
+      "lat": 40.773,
+      "lng": -74.168,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-central-ward-task-1",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic building and a modern one are visible in the same frame. Capture the architectural contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-2",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Cornerstone Quest"
+      },
+      "prompt": {
+        "en": "Examine the base of an old building and find a cornerstone with a date carved into it. Take a photo of this piece of history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-3",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Skyline Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the iconic National Newark Building or another Art Deco skyscraper in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-4",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Focus your camera upwards and capture an interesting architectural detail on the upper floors of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-5",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Urban Canyon"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by the tall downtown buildings late in the afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-6",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Find and photograph a government building or a major cultural institution like a museum or library."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-7",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Capture the reflection of an old building in the glass facade of a new one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-8",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Art in the Open"
+      },
+      "prompt": {
+        "en": "Take a photo of a piece of public art, whether it's a grand monument or a small modern sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-9",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Weekday Rush"
+      },
+      "prompt": {
+        "en": "Capture the motion and energy of the professional weekday bustle. Try a slow shutter speed to blur the movement of people or traffic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-10",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Historic Plaque Hunter"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on a wall or monument. Take a picture and learn something new about the city's past."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-11",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Gateway Shot"
+      },
+      "prompt": {
+        "en": "Frame a photograph of a building or street scene through an archway, gate, or other natural frame."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "downtown-central-ward-task-12",
+      "neighborhood_id": "downtown-central-ward",
+      "title": {
+        "en": "Deco Details"
+      },
+      "prompt": {
+        "en": "Find an example of Art Deco design—like a metal grille, a geometric pattern, or a light fixture—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-1",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Taste of Portugal"
+      },
+      "prompt": {
+        "en": "Find a bakery and take a photo of a delicious-looking Portuguese or Brazilian pastry."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-2",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Cultural Colors"
+      },
+      "prompt": {
+        "en": "Photograph a Portuguese or Brazilian flag hanging from a window, shop, or social club."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-3",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Rowhouse Rainbow"
+      },
+      "prompt": {
+        "en": "Capture the vibrant colors of the neighborhood's rowhouses. Find a particularly colorful block and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-4",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Street Art Selfie"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a colorful mural and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-5",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Industrial Edge"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the neighborhood's industrial side—a bridge, a factory, or the riverfront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-6",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Signs of the Old World"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign or storefront with Portuguese writing on it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-7",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Neighborhood Nexus"
+      },
+      "prompt": {
+        "en": "Capture the energy of a busy intersection like 'Five Corners'. Focus on the flow of people and traffic."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-8",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Hidden Green"
+      },
+      "prompt": {
+        "en": "Discover a small community garden or a well-tended planter box on a side street and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-9",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Social Fabric"
+      },
+      "prompt": {
+        "en": "Find the entrance to a neighborhood social club and take a photo of its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-10",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Follow the Crowd"
+      },
+      "prompt": {
+        "en": "The report says to find food by seeing where locals gather. Find a busy-looking restaurant and take a photo of its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-11",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Sensory Snapshot"
+      },
+      "prompt": {
+        "en": "Take a single photo that you feel captures the 'feast for the senses' vibe of the Ironbound."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "ironbound-task-12",
+      "neighborhood_id": "ironbound",
+      "title": {
+        "en": "Coffee Break"
+      },
+      "prompt": {
+        "en": "Grab a coffee from a local cafe and take a photo of your drink against the backdrop of a busy street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-1",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Mansion Portrait"
+      },
+      "prompt": {
+        "en": "From a respectful distance on the sidewalk, choose one grand home and take an 'architectural portrait' of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-2",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Serene Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet, tree-lined street that captures the peaceful, elegant vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-3",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Olmsted's Vision"
+      },
+      "prompt": {
+        "en": "Find a spot in Branch Brook Park and capture a view with a curving path, a body of water, or a grove of trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-4",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Cathedral from the Green"
+      },
+      "prompt": {
+        "en": "Stand within Branch Brook Park and use the trees to frame a photograph of the Cathedral Basilica of the Sacred Heart."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-5",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting detail on one of the historic homes—an ornate porch column, a unique turret, or a stained-glass window—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-6",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Nature's Canopy"
+      },
+      "prompt": {
+        "en": "Photograph the way sunlight filters through the leaves of the large, mature trees that line the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-7",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Style Spotter"
+      },
+      "prompt": {
+        "en": "Walk down one block and try to identify three different architectural styles (e.g., Tudor, Colonial, Victorian). Photograph your favorite."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-8",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Find a beautifully manicured garden or lawn and take a photo of a single perfect flower or plant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-9",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Grand Entrance"
+      },
+      "prompt": {
+        "en": "Photograph an impressive gate, fence, or entryway to one of the historic properties."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-10",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Gothic Grandeur"
+      },
+      "prompt": {
+        "en": "Walk around the Cathedral Basilica and take a photo of a carved figure like a gargoyle, saint, or angel on its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-11",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Park Bridge"
+      },
+      "prompt": {
+        "en": "Find one of the elegant bridges inside Branch Brook Park and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    },
+    {
+      "id": "north-ward-task-12",
+      "neighborhood_id": "north-ward",
+      "title": {
+        "en": "Avenue View"
+      },
+      "prompt": {
+        "en": "Stand at one end of a long, straight, tree-lined street like Ballantine Parkway and capture a photo looking down its length."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T02:24:38.862703+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -34,7 +34,7 @@ We have a good community here, check on your neighbors!
 
 ### Top comments
 
-- u/darthmaule_II (212): Just posted this to my FB:
+- u/darthmaule_II (213): Just posted this to my FB:
 
 After watching all the videos of ICE killing US citizen Alex Pretti today, this is what I saw:
 
@@ -65,12 +65,12 @@ Alex is now lying motionless in the ground.
 Another ICE agent (not the first shooter) unloads 5 or 6 shots into Alex’s motionless body.
 
 Another video shows ICE surrounding witnesses and taking their phones.
-- u/Imaginary_Most_7778 (81): It’s impossibly disgusting. I can’t believe anyone can defend this. I know you raging morons WILL defend this, because you’re in a cult. Following a leader with dementia. What does that make you?
-- u/pivyca (78): For those asking where/how to start and what to do, follow and get involved with SIRDN and the Worker’s Center:
+- u/Imaginary_Most_7778 (84): It’s impossibly disgusting. I can’t believe anyone can defend this. I know you raging morons WILL defend this, because you’re in a cult. Following a leader with dementia. What does that make you?
+- u/pivyca (80): For those asking where/how to start and what to do, follow and get involved with SIRDN and the Worker’s Center:
 
 https://www.cnysolidarity.org/directory/sirdn-syracuse-immigrant-refugee-defense-network/
-- u/macaroni-rodriguez (36): Where can we learn about protests happening around the area
-- u/Glittering_Aspect116 (31): He was protecting 2 women in his community. Record record record. Seems to be more important than “them” tracking you for now. I’m down to protest at your detention facility up there.
+- u/macaroni-rodriguez (35): Where can we learn about protests happening around the area
+- u/Internal-Cat-4365 (33): The Meidas touch livestream of the aftermath is wild. Tear gas and non lethal rounds out of nowhere. Then advancing and firing on people running away and detaining people they catch
 
 ## Warning about Voltage Video Games
 
@@ -89,90 +89,107 @@ wondering if anyone else has had such a negative experience. we've bought from t
 
 ### Top comments
 
-- u/Excolo_Veritas (104): I've heard a number of bad things about them. I know the owner was looking to sell, not sure if he ever did, so the bad things may have been old management so take with a grain of salt. I can highly recommend Megaton games over on James street though if you're looking for local
-- u/IDivineHorizon (96): This shop purchased games that were stolen from me and refused to cooperate with the police department.
-- u/scooter315 (61): A good place in my opinion is micro game which is In Clay next to the old great northern mall. I have never been to voltage however all resellers/old retro stores always smells a little weird.
+- u/Excolo_Veritas (102): I've heard a number of bad things about them. I know the owner was looking to sell, not sure if he ever did, so the bad things may have been old management so take with a grain of salt. I can highly recommend Megaton games over on James street though if you're looking for local
+- u/IDivineHorizon (94): This shop purchased games that were stolen from me and refused to cooperate with the police department.
+- u/scooter315 (64): A good place in my opinion is micro game which is In Clay next to the old great northern mall. I have never been to voltage however all resellers/old retro stores always smells a little weird.
 - u/PuzzledHelicopter541 (27): Sorry that happened to you but thanks for the heads up. We will also go to Megaton instead even though it’s further away.
-- u/2D15 (22): https://www.reddit.com/r/Syracuse/s/9AZu651RaC
+- u/2D15 (23): https://www.reddit.com/r/Syracuse/s/9AZu651RaC
 
-## Trying to make friends in Syracuse? Come hash with us!
+## Two boys left alone after ICE took their mom make painful choice to leave American dream behind
 
-Hey guys! I’ve seen a lot of posts from people asking how to make friends in Syracuse as adults. I was in the same boat - then I found hashing! I somehow worked up the courage (or maybe I was just desperate?!) to meet up with a bunch of strangers behind a horse barn in the woods. It ended up being a great decision - I met my husband that day and a ton of awesome friends!
+An immigration raid in NY left two boys with no mom and a brutal choice: Do we stay or go?
 
-Who we are: We’re the Syracuse On-On-Dog-A Hash House Harriers and Harriettes (SOH4), a “drinking club with a running problem.” But don’t worry, you don’t have to drink or run. We’ve got some serious runners, sure, but also plenty of joggers and walkers too.
+Fulton, N.Y. — The last time Jose and Nain Maldonado-Zavala saw their mother was when she made them pancakes for the first day of school Sept. 4.
 
-What is hashing? It’s basically a scavenger hunt - for beer! One person (the hare) sets a mystery trail using flour or chalk, and the rest of us (the harriers) try to follow it. Trails can go through the city, woods, or weird in-between places. We get silly nicknames, sing ridiculous songs, and don’t take ourselves seriously.
+They got on the school bus, headed to eighth and ninth grade in Fulton. She went to her job at the Nutrition Bar Confectioners Factory in Cato.
 
-When we meet: Right now we hash every Monday at 6PM. When the days get shorter, we switch to Saturdays at 2PM. We also have special events like full moon hashes and our big annual Red Dress Run in September - everyone (guys included) wears red dresses and runs around downtown to raise money for charity.
+A few hours later, immigration agents stormed the factory. Hilda Gloria Yanez-Zavala was among the 57 workers detained. Like more than 20 of the workers who were taken with her, Yanez-Zavala was separated from her children.
 
-Where to find us: Locations change every time and are posted on our website - [SOH4.com](http://SOH4.com) (hope links are allowed!). Honestly, it’s been such a fun way to explore Syracuse and the surrounding area. I’ve seen so many cool parks and hidden gems I never would’ve found on my own.
+After a month in detention, Yanez-Zavala decided to self-deport back to El Salvador. She and the boys had a pending asylum case, and she was legally allowed to work when she was detained, according to court records.
 
-It’s $7 per trail - unless it’s your first time, virgins are free! You do have to be 21+ to join. 
+But without work, she had no money to pay the lawyer who had been handling the case. And without a lawyer, their slim chance all but disappeared, she told syracuse.com.
 
-If this sounds even a little interesting, come give it a try! Worst case, you never come back - but you might have a great time and meet some cool people! :)
+Every day since then has been held hostage by one question: Should the boys stay or go?
 
-Check out the website or leave a comment if you have any questions!
+She brought them here three years ago to give them a better life, she said. Could they still get it?
 
-### Top comments
+Jose, 15, wanted to stay, he says. He dreamed of being a Marine. He excelled at wrestling. He likes algebra. He has friends.
 
-- u/tofubutgood (18): Sounds cool! Ever have N/A beers?
-- u/Ragatron42 (7): Well color me intrigued! Whatever color that may be
-- u/ToTheTurtles (5): Interested!
+“It would be a better future,” he says.
 
-## What is the mysterious "hiden place" underneath 690?
+Nain, 13, wanted to go. He needed his mother. He came for a better life, and this was not it, he says. He was scared U.S. Immigration and Customs Enforcement would pick him up, too, and he would disappear in this system.
 
-### Top comments
+Their mother, 52, has so much energy, they say. If she was busy, she was happy. If she wasn’t at her job, she was doing her other job of taking care of all of them. Cooking, cleaning, making sure they got up in the morning and did their homework at night.
 
-- u/d4nks4uce (32): Driven past there a lot. Not sure if this is serious as I’m pretty sure it’s just a little park-ish area
-- u/mo9722 (25): Laurie, share the secret with us
-- u/Agreeable-Tackle7365 (15): very good "massages"
-- u/Jack_of_all_offs (13): I think that was a little camp for unhoused people at one point.
+When ICE took their mother, it was without regard for the fact that she is their sole legal guardian. Since Trump’s crackdown began, immigration advocates have been working with families like Yanez-Zavala’s to have papers filled out so someone else can step in as a guardian if a parent is taken. But in September, things weren’t moving as quickly. The Cato raid was a surprise.
 
-I might be off by a block, though. It was somewhere around there.
-- u/Time-Sector7222 (5): theres a park there, a really cool oversized red bench and some trees and a pathway, there are sometimes unhoused people there.
+“It’s not good that they are separating families,” Nain says.
 
-## Help Proposing to my girlfriend this weekend in Syracuse.
+Another relative had been watching over them, but he has his own immigration situation and could not be their guardian.
 
-**\*\*Update\*\***
+The boys were, in many ways, on their own.
 
-I didn’t even know this posted, I thought the admin took it down, just seeing this now 😂.
+They miss their mother and she has missed so much. Jose goes into his room and comes back with a yellow ribbon. He and his team won fourth at a wrestling tournament with more than 50 schools. He holds up the award. Then he demonstrates his signature move. As he shows, his shyness fades.
 
-Thanks all for your recommendations!
+What do you like here, a reporter asks Nain. But there is nothing. “I do not like it anymore,” he says. The whole country is a broken promise.
 
-I went with Franklin Square park. You know she’s the one when she agrees to follow you to a park in 1 degree weather!
-
-We had a surprise engagement party at Kitty Hoynes after and had a time with friends and family. Thanks for all the well wishes
-
-Hi all,
-
-Looking for some recommendations on good spots to propose in or around downtown Syracuse this weekend. I’m from Boston and my girlfriend is from the Syracuse area, so I’d love to get some local thoughts!
-
-**Some ideas I’ve considered:**
-
-• Franklin Square or Clinton Square
-
-• The pier in Skaneateles / Clift Park area – I saw that the lakefront, gazebo, and pier are beautiful. It looks like you can walk out on the pier any time during daylight, but if anyone knows season specifics it would be great to hear!
-
-• Beak &amp; Skiff – looks awesome, but I think it’s closed in the winter
-
-**Questions I’m hoping folks can help with:**
-
-• Good proposal spots specifically this time of year (winter)
-
-• Any hidden gems downtown or nearby?
-
-• Thoughts on Skaneateles pier in the winter — is it still a nice place for a moment/photo op?
-
-Thanks in advance!
+The danger here is what made the final decision for these boys. Both say they are afraid of being picked up by ICE, and of what happens if they stay here. Their mother decided they should come home now. Even though they still have asylum cases, there is no money for their lawyer, she says. She has no work.
 
 ### Top comments
 
-- u/rolewiii (107): I hope she's a hearty lass because it's going to cold as hell this weekend. 
+- u/tofubutgood (79): Nazi scumbags don’t deserve to live here. Destroy ICE
+- u/BigBibs (63): This is so sad. I'm sorry for that family being torn apart by this horrid administration.
+- u/EeveeLover1334 (37): Abolish ice. 
+Whatever happened to everyone claiming to want to protect kids.  Or claiming to be Christians? They sure don't act how Jesus taught us to. This poor innocent family :(
+- u/Clever_mudblood (17): The comments on fb were an absolute cesspool.
+- u/Alarmed_Flounder_475 (9): It's been shown time and time again that they LOVE going after folks following due process. Literally waiting for them at their hearings or disrupting them.
 
-I'd lean Clinton Square.
-- u/Ashamed_Blackberry55 (48): I'll be honest, kinda disappointed in you. I thought you were coming here to find help to organize a flash mob or something like that to make the proposal extra special. I would have braved the cold for that; now you're on your own. As far as your actual question, my vote is for Green Lakes. Skaneateles is probably great too, I just don't have any personal experience there at this time of year.
-- u/roverclover75 (32): Maybe call The Sherwood Inn and ask if the pier is open- they sometimes close it when it’s too cold or icy. I definitely vote for Skaneateles.
-- u/i_kate_you (19): Just came to say congratulations and best wishes on your engagement!
+## Syracuse’s Unfiltered Drinking Water: Update on Risks
 
-The pier in Skaneateles is beautiful.  Are there places she speaks of often? Does she have a favorite hangout?
-- u/youuturnn (15): Green Lakes!
+Hello everyone,
+
+Thank you for all of your thoughtful comments and questions about the risks facing Syracuse drinking water. I’ve compiled a majority of your questions and released a podcast episode about it.
+
+You can find the YouTube version here: [https://youtu.be/FkmQdQ0TwOY?si=VndvjD\_V76Vur5Om](https://youtu.be/FkmQdQ0TwOY?si=VndvjD_V76Vur5Om)
+
+Or the podcast version here: [https://creators.spotify.com/pod/profile/aquadiarypodcast/](https://creators.spotify.com/pod/profile/aquadiarypodcast/)
+
+One thing I accidentally left out was a map of the service area (if you were wondering if you get your water from Skaneateles) . You can find your service area by googling your town’s annual drinking water report!
+
+Also, as promised, here’s a summary with some of the information (full explanations in the episode):
+
+Skaneateles Lake is one of the only lakes in the U.S. used as a direct, *unfiltered drinking water source*, supplying about 165,000 people. It’s one of the cleanest in the entire country. The nutrient levels in the water are very low (lower than what’s typically needed for harmful algal blooms to grow).
+
+**But here’s what’s been happening and it’s concerning:**
+
+First confirmed bloom: 2017. 2023: 19 blooms. 2024: 145 blooms
+
+At the peak in 2024, microcystin toxin levels (a liver toxin) at the shoreline reached **176 µg/L.**
+
+For comparison, the EPA’s drinking water guidance is:
+
+0.3 µg/L for children. 1.6 µg/L for adults.
+
+**Important context:**
+
+The treated drinking water remained safe, with no toxins detected in 2024 testing. The city’s water system is working as intended *for now.* But there’s a real risk since **there’s no method in place to neutralize the toxins if or when they come into the system.**
+
+What’s not fully understood is why blooms are happening in a lake this clean.
+
+I cover what the research is pointing to in the episode (nutrients in the lake sediment). Most current plans focus on nutrient pollution flowing *into* the lake, not what might already be stored *inside* it. So we don’t know if what’s inside it has a bigger impact and if our attempted management is in the right direction. It is important to manage outside pollution, but **what we are doing now may not fix the problem if the lake nutrient release from within is the main contributor.**
+
+People deserve to know realistic timelines. This may only get worse. We don’t know.
+
+There are also around 2,000 septic systems in the area, and some have had issues. In other lakes, nutrients from older systems have been shown to move through groundwater for **decades**. We’re not tracking or managing this right now either. There are some studies looking into it that I mention.
+
+So overall:
+
+Drinking water is still safe, but is very much at risk.
+
+Blooms are increasing, and the cause isn’t fully explained yet. Another friendly reminder, you cannot boil out algae toxins.
+
+I put together a full breakdown of the facts and what researchers are looking at now if anyone wants more detail on what we’re doing right, what we may be missing, and the reality of the risk these toxins present.
+
+The full citations are not in the show notes this time because the exceeded the character limit. If you want those sources, send me a DM and I will send you the list.
+
+\- Ally Berry

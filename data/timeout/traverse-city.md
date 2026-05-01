@@ -16,6 +16,13 @@ Traverse City is the cherry capital of the world and you’ll find this fruit ce
 
 Done something on this list and loved it? Share it with the hashtag #TimeOutDoList and tag @TimeOutEverywhere.
 
+Time Out Japan
+Flow
+Read More
+00:00
+/
+07:12
+
 Find out more about how Time Out selects the very best things to do all over the world.
 
 The 10 best things to do in Traverse City

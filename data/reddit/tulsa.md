@@ -18,14 +18,14 @@ Being from Minnesota, Tulsa just wasn’t on my radar, but I’ll be happy to si
 
 ### Top comments
 
-- u/QuantumEmmisary (35): C'mon back some time. We're happy you had a good time!!
+- u/QuantumEmmisary (33): C'mon back some time. We're happy you had a good time!!
 
 No matter when you come, there's probably a festival around the corner. For example, Mayfest \[ [www.tulsamayfest.org](https://www.tulsamayfest.org/) \], Tulsa Juneteenth \[ [www.tulsajuneteenth.org](https://www.tulsajuneteenth.org/) \], Scotfest \[ [okscotfest.com](https://okscotfest.com/) \] and Oktoberfest \[ [tulsaoktoberfest.org](https://tulsaoktoberfest.org/) \]. There's another great museum you didn't mention seeing, Philbrook \[ [philbrook.org](https://philbrook.org/) \]. And there's an aquarium in the suburb of Jenks with a walk-through shark tank \[ [www.okaquarium.org](http://www.okaquarium.org) \]. If you happen to come around Christmas your toddler might enjoy seeing the massive Christmas light display at Rhema \[ [www.rhemalights.org](https://www.rhemalights.org/) \].
 
 Thanks for stopping by. 🤗
-- u/2dwind (15): Very impressive- sort of a “deep tracks” Tulsa visit! Glad you enjoyed our town
-- u/Living_on_Tulsa_Time (10): Sounds like you had a great visit! Come back someday.  :)
-- u/Worldly-Ad1005 (10): Ah you hit some great spots around town, glad you enjoyed.
+- u/2dwind (16): Very impressive- sort of a “deep tracks” Tulsa visit! Glad you enjoyed our town
+- u/Worldly-Ad1005 (9): Ah you hit some great spots around town, glad you enjoyed.
+- u/Living_on_Tulsa_Time (8): Sounds like you had a great visit! Come back someday.  :)
 - u/Yhtacnrocinu-ya13579 (7): 🥰glad you had a good time!
 
 ## Neff Brewery Meetup ( Wed 7-9)
@@ -87,9 +87,9 @@ Thanks!
 - u/BelleBivDaVoe (65): I moved here from Philadelphia almost two years ago and what’s captivated me is; the slower pace of life- Tulsa time is a thing; accessibility- I can do all of the same culturally as i could in Philly but it’s just easier here; community - it’s been very easy to build community here and meet people and get involved. 
 
 The other things I really like are there are a lot of great restaurants but it doesn’t take months to get a table, there is so much amazing thrift and vintage shopping, the airport is a breeze, i can literally show up 30 minutes before my flight and fly through security, as much as Tulsans complain the traffic is basically nonexistent. Sure there is congestion but nowhere near what I experienced on the east coast.
-- u/JessTheStressed (41): I move here from the deep south and I think Tulsa has a really underrated food scene. I also have really enjoyed the amount of live music we have here. There’s so many venues compared to where I used to live and it’s been my favorite thing. From big shows to small local shows, there’s always something artsy going on.
-- u/AuraOfASpiceGirl (26): To start: Philbrook, Botanical Garden, Gathering Place, May fest, Art Crawl Downtown
-- u/Sox071318 (26): They call it Green Country, and you can't help but notice how lush it is here especially if coming from a drier climate. 
+- u/JessTheStressed (38): I move here from the deep south and I think Tulsa has a really underrated food scene. I also have really enjoyed the amount of live music we have here. There’s so many venues compared to where I used to live and it’s been my favorite thing. From big shows to small local shows, there’s always something artsy going on.
+- u/AuraOfASpiceGirl (28): To start: Philbrook, Botanical Garden, Gathering Place, May fest, Art Crawl Downtown
+- u/Sox071318 (25): They call it Green Country, and you can't help but notice how lush it is here especially if coming from a drier climate. 
 
 When you work up an appetite you can find several local restaurants that have been around for decades (including Ike's Chili since 1908!), but you can also find most well-known national chains. We also have James Beard Award nominees and winner(s?) that round out the offerings. 
 
@@ -120,17 +120,17 @@ We’re moving to Cherry street so we watch a fun vibe!
 
 ### Top comments
 
-- u/glenndrip (20): Consignment shops and rehome stores. Always a roll of thr dice what you find. I actually just sold some lime green porcelain sinks I found and resold.
-- u/emdelgrosso (14): Vintage Vault, Prime Thrift, ReStore, Salvation Army Family Thrift Store, and Facebook Marketplace. 
+- u/glenndrip (19): Consignment shops and rehome stores. Always a roll of thr dice what you find. I actually just sold some lime green porcelain sinks I found and resold.
+- u/emdelgrosso (15): Vintage Vault, Prime Thrift, ReStore, Salvation Army Family Thrift Store, and Facebook Marketplace. 
 
 We filled our home with quality, funky pieces by all of these but Vintage Vault because we couldn’t afford their prices. 
 
 If you can afford it, that’s the quickest way to find what you’re looking for but since it’s highly curated it’s expensive.
-- u/littlefupa (11): I’ve been trying to find a good home for my banana yellow floral print loveseat:
+- u/littlefupa (10): I’ve been trying to find a good home for my banana yellow floral print loveseat:
 
 https://imgur.com/a/3mGTHuV
 - u/Sad_Specialist_1984 (9): There's an excellent used furniture store on 15th &amp; Sheridan called L&amp;J Treasures.
-- u/Life-Of_Ward (7): 40 Year Vintage is where I’d go for “funky” furniture.
+- u/Life-Of_Ward (6): 40 Year Vintage is where I’d go for “funky” furniture.
 
 ## Tulsa Christmas Holiday Lights 2025: what hidden gems should I add?
 
@@ -158,6 +158,6 @@ Thanks in advance ✨
 ### Top comments
 
 - u/IDeserveThis (17): You should remove Paragon Industries from the list. They're not doing lights this year do to the owner of the company going to jail for a few millions worth of embezzlement
-- u/Productive-Turtle (6): If you’re athletic there’s a turkey mountain mtb group that rides through the rich neighborhoods by the phillbrook for an annual Christmas ride on the 16th
+- u/Productive-Turtle (5): If you’re athletic there’s a turkey mountain mtb group that rides through the rich neighborhoods by the phillbrook for an annual Christmas ride on the 16th
 
 https://facebook.com/events/s/christmas-light-tour-ride/716749314796410/

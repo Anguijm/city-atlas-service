@@ -6,14 +6,14 @@ Sources: /r/coloradosprings
 
 ### Top comments
 
-- u/CatsAreMajorAssholes (63): Also, Chicken Salad Chick donates a FUCK TON to the Republican Party, just like Chick Fil A (what is it with Right Wing nutjobs and chicken) and they just want to soften the blow of what is happening, so later they can be like "YEAH WE CAUSED HUNGER BUT WE ALSO SOLVED IT, SEE?  NOW YOU CAN'T BE MAD AT US"
+- u/CatsAreMajorAssholes (64): Also, Chicken Salad Chick donates a FUCK TON to the Republican Party, just like Chick Fil A (what is it with Right Wing nutjobs and chicken) and they just want to soften the blow of what is happening, so later they can be like "YEAH WE CAUSED HUNGER BUT WE ALSO SOLVED IT, SEE?  NOW YOU CAN'T BE MAD AT US"
 
 Fuck Chicken Salad Chick and their right wing MAGA support.
-- u/iRevo (56): I'm so, so glad that many restaurants are stepping up to feed our most vulnerable. 
+- u/iRevo (59): I'm so, so glad that many restaurants are stepping up to feed our most vulnerable. 
 
 However, this shouldn't have happened in the first place.
-- u/ahriskywalker (34): ⚠️⚠️I just want to add two more places to this! Heart of Jerusalem Cafe is doing this as well as Rooster's Grille &amp; Pizzaria in calhan. Meals for kids until the benefits are fixed, no questions asked no purchase needed!!!
-- u/KellyCTargaryen (28): Good for them. But take sides.
+- u/ahriskywalker (36): ⚠️⚠️I just want to add two more places to this! Heart of Jerusalem Cafe is doing this as well as Rooster's Grille &amp; Pizzaria in calhan. Meals for kids until the benefits are fixed, no questions asked no purchase needed!!!
+- u/KellyCTargaryen (30): Good for them. But take sides.
 - u/echo4thirty (22): Time to go support them. Great job!
 
 ## We have officially opened our professional TTRPG studio near downtown
@@ -24,8 +24,8 @@ We pride ourselves on only using locally sourced art and artists and hand made p
 
 ### Top comments
 
-- u/BRAX7ON (51): This is pretty cool. I hope you have a ton of success. Didn’t really know there was a market for this sort of thing in Colorado Springs. Good luck!
-- u/Fremonster (46): My kids go to Dungeons and Java every saturday for kids DnD.  It has the following set up:
+- u/BRAX7ON (53): This is pretty cool. I hope you have a ton of success. Didn’t really know there was a market for this sort of thing in Colorado Springs. Good luck!
+- u/Fremonster (48): My kids go to Dungeons and Java every saturday for kids DnD.  It has the following set up:
 
 1. It costs $15 for 3 hours (per kid)
 2. They have a dungeon master who (usually) pretty great and patient with kids
@@ -42,9 +42,9 @@ The issue are:
 
 
 Do you offer something similar for kids (like ages 9 - 13) with dungeon masters that are patient and can make a great experience for kids for a relatively affordable price with some light food/drink options?  If so, count us and many of the other kids they play with, in for trying you all out!
-- u/Magnificent_Unsu (29): Do you happen to host campaigns for newbie adults who want to get into DnD? A friend and I were interested in getting into a campaign but never have enough people around to get something started.
-- u/wo_ic3m4n (11): Awesome, hope this takes off, based on the already quite good response, I think it might!
-- u/Haunting-Economy-80 (9): This is awesome!
+- u/Magnificent_Unsu (31): Do you happen to host campaigns for newbie adults who want to get into DnD? A friend and I were interested in getting into a campaign but never have enough people around to get something started.
+- u/Haunting-Economy-80 (11): This is awesome!
+- u/wo_ic3m4n (10): Awesome, hope this takes off, based on the already quite good response, I think it might!
 
 ## Only 110,114 people Have Voted! We should all be worried about low voter turnout.
 
@@ -76,14 +76,14 @@ Please vote in the school board election tomorrow. Every vote adds up, and every
 
 ### Top comments
 
-- u/Quiet-Competition849 (112): Hopefully there are a lot of procrastinators out there like me. I always drop my ballot off the last day.
-- u/that_cat403 (82): Your ballots are mailed to you. There is no excuse. As a transplant you have no idea how good you have it.
-- u/TheBaconator7 (55): get off your ass everyone
-- u/zeeyaz (50): Looks like Manitou is the only part that blue beat red, rest is red landslides.
+- u/Quiet-Competition849 (111): Hopefully there are a lot of procrastinators out there like me. I always drop my ballot off the last day.
+- u/that_cat403 (81): Your ballots are mailed to you. There is no excuse. As a transplant you have no idea how good you have it.
+- u/TheBaconator7 (57): get off your ass everyone
+- u/zeeyaz (48): Looks like Manitou is the only part that blue beat red, rest is red landslides.
 
   
 I'm not sure if I can vote here or not, because I just moved to Colorado Springs in March for my masters program. I guess I could show up in person and find out tomorrow?
-- u/Cryptic_Mutt (37): My fiance and I dropped our ballots off earlier today before I went into work! We always try to vote at least in local and state elections.
+- u/Cryptic_Mutt (39): My fiance and I dropped our ballots off earlier today before I went into work! We always try to vote at least in local and state elections.
 
 ## Talk to your young son's about how to treat girls &amp;women
 
@@ -104,10 +104,10 @@ Then I put my headphones back on and ignored them. Feeling absolutely disgusted.
 
 ### Top comments
 
-- u/Negative-Ambition110 (309): I think a main part of this is keeping kids off social media. It’s a toxic wasteland
-- u/Consistent_Damage885 (61): Could also be construed as a threat to sexual assault, could file a police report.
+- u/Negative-Ambition110 (312): I think a main part of this is keeping kids off social media. It’s a toxic wasteland
+- u/Consistent_Damage885 (59): Could also be construed as a threat to sexual assault, could file a police report.
 - u/Federal_Share_4400 (47): Im definetely teaching and showing my girls how they are supposed to be treated. Also teaching them that no one is allowed to touch them without their permission.
-- u/emmyghoul42 (40): When an admitted abuser has been elected president twice, what do you expect?  We've said that you can be a misogynistic prick and be elected to what used to be a highly respected role... If the president isn't a role model, who is?!?
+- u/emmyghoul42 (41): When an admitted abuser has been elected president twice, what do you expect?  We've said that you can be a misogynistic prick and be elected to what used to be a highly respected role... If the president isn't a role model, who is?!?
 
 (The "Grab 'em" line and admitting to walking into changing rooms is admitting to being an abuser. Sorry if you're in a cult.)
 - u/black-winter- (39): what causes kids to be this way? I’m 23, grew up at the very beginning of the era of kids on social media, was raised in a family that didn’t really talk about these sort of issues, and it would have never even occurred to younger me to ever talk to a woman this way (or anyone). My younger brothers (19, 17, and 16) I don’t imagine would act like this either. 
@@ -126,10 +126,10 @@ Thoughts?
 
 ### Top comments
 
-- u/Laserdollarz (231): We could use some moisture
+- u/Laserdollarz (235): We could use some moisture
 - u/Unhappy_Plankton_671 (88): This is clearly wrong and this is the worst place ever and CoS drivers are the worst in the world! /s
 
 I’d expand on that further but I need to post my daily, ‘what was that boom’ thread.
-- u/Chilaquilesmonster (77): Sir this is a Wendy's
-- u/tickleshits54321 (76): I lived in the Colorado Springs area for 35 years, born and raised, and moved to central Florida about 5 years ago, and I can say you’re pretty spot on. I thought I didn’t like driving in Colorado, then I moved to Florida and realized Colorado is child’s play in comparison. And people in Florida are such assholes for no reason. Every time I’m in a parking lot, there’s always someone trying to back out of a spot and someone has to haul ass down that lane and blast their horn at the person backing out which then usually leads to yelling and gestures. And for what? And I’m not talking about someone backing out all Willy nilly like and almost hitting another car. I’ve only been on 95 maybe once or twice, but I4 sucks and 75 heading towards Ocala is usually a nightmare. I don’t hate Florida, but I’ll be glad when the day comes that I leave.
-- u/Adventurous-Suz (61): Agreed. I hear a lot of people complaining who must not appreciate the natural beauty of the springs. I’ve been here for 15 years and I still marvel every time I see Pikes Peak. My husband and I spent a couple of years traveling for work but then ended up back here because of the community and access to mountains.
+- u/Chilaquilesmonster (78): Sir this is a Wendy's
+- u/tickleshits54321 (74): I lived in the Colorado Springs area for 35 years, born and raised, and moved to central Florida about 5 years ago, and I can say you’re pretty spot on. I thought I didn’t like driving in Colorado, then I moved to Florida and realized Colorado is child’s play in comparison. And people in Florida are such assholes for no reason. Every time I’m in a parking lot, there’s always someone trying to back out of a spot and someone has to haul ass down that lane and blast their horn at the person backing out which then usually leads to yelling and gestures. And for what? And I’m not talking about someone backing out all Willy nilly like and almost hitting another car. I’ve only been on 95 maybe once or twice, but I4 sucks and 75 heading towards Ocala is usually a nightmare. I don’t hate Florida, but I’ll be glad when the day comes that I leave.
+- u/Adventurous-Suz (62): Agreed. I hear a lot of people complaining who must not appreciate the natural beauty of the springs. I’ve been here for 15 years and I still marvel every time I see Pikes Peak. My husband and I spent a couple of years traveling for work but then ended up back here because of the community and access to mountains.

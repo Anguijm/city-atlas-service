@@ -16,6 +16,13 @@ Although you're going to enjoy this Blue Ridge Mountains destination regardless 
 
 A vibrant arts scene dominates the local culture: Biltmore, a historic mansion, is home to works by the likes of Renoir; the River Arts District, which used to be dominated by factory buildings, is now where most local artists set up shop; the Downtown Art District, on the other hand, is where most of the galleries and museums are located. 
 
+Time Out Japan
+Flow
+Read More
+00:00
+/
+07:12
+
 And if art isn't your thing, opt to explore the endless hiking trail or indulge in the foods prepared at the best restaurants in town. Asheville might not be the biggest city—it's home to just over 91,000 residents—but it's clearly very big in personality, rich in history and delectable in all things food and drink. Ready to explore it?
 
 Best things to do in Asheville, NC

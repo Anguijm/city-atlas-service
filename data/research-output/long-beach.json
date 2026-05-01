@@ -1,0 +1,847 @@
+{
+  "neighborhoods": [
+    {
+      "id": "retro-row",
+      "city_id": "long-beach",
+      "name": {
+        "en": "Retro Row (4th Street)"
+      },
+      "summary": {
+        "en": "A fiercely independent and funky stretch of 4th Street, Retro Row is the city's vintage heart, where thrift stores, indie cinemas, and punk-rock dive bars create a timelessly cool atmosphere."
+      },
+      "lat": 33.7716,
+      "lng": -118.1663,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district",
+      "city_id": "long-beach",
+      "name": {
+        "en": "East Village Arts District"
+      },
+      "summary": {
+        "en": "The creative and cultural core of Downtown Long Beach, defined by its independent spirit. Historic brick buildings house artist lofts and galleries, while vibrant murals splash color across unexpected walls."
+      },
+      "lat": 33.7683,
+      "lng": -118.1881,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town",
+      "city_id": "long-beach",
+      "name": {
+        "en": "Cambodia Town"
+      },
+      "summary": {
+        "en": "A vibrant cultural and culinary corridor along Anaheim Street, this neighborhood is the heart of the largest Cambodian community in the United States, offering an immersion in Khmer culture and food."
+      },
+      "lat": 33.7826,
+      "lng": -118.1736,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "retro-row-enr-little-coyote",
+      "city_id": "long-beach",
+      "neighborhood_id": "retro-row",
+      "name": {
+        "en": "Little Coyote"
+      },
+      "description": {
+        "en": "A neighborhood pizza joint with a cult following for its consistently high-quality New York-style pies, available whole or by the slice."
+      },
+      "type": "food",
+      "lat": 33.7717,
+      "lng": -118.1654,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-enr-chef-memo-lb-bbq-pop-up",
+      "city_id": "long-beach",
+      "neighborhood_id": "retro-row",
+      "name": {
+        "en": "Chef Memo LB (BBQ Pop-Up)"
+      },
+      "description": {
+        "en": "A true local secret, this Sunday pop-up serves incredible BBQ. It’s a no-frills, high-reward experience that embodies the city’s grassroots food scene."
+      },
+      "type": "hidden_gem",
+      "lat": 33.7636,
+      "lng": -118.161,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-enr-the-art-theatre-of-long-beach",
+      "city_id": "long-beach",
+      "neighborhood_id": "retro-row",
+      "name": {
+        "en": "The Art Theatre of Long Beach"
+      },
+      "description": {
+        "en": "A beautifully restored 1925 single-screen movie palace showing independent, foreign, and classic films, anchored by its glowing marquee."
+      },
+      "type": "culture",
+      "lat": 33.7717,
+      "lng": -118.1671,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-enr-meow-vintage-clothing",
+      "city_id": "long-beach",
+      "neighborhood_id": "retro-row",
+      "name": {
+        "en": "Meow Vintage Clothing"
+      },
+      "description": {
+        "en": "A key part of Retro Row's main attraction, this shop is a prime spot for treasure hunting for unique vintage clothing."
+      },
+      "type": "shopping",
+      "lat": 33.7717,
+      "lng": -118.1649,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-enr-deja-vu-mid-century-modern-furniture",
+      "city_id": "long-beach",
+      "neighborhood_id": "retro-row",
+      "name": {
+        "en": "Deja Vu Mid-Century Modern Furniture"
+      },
+      "description": {
+        "en": "A vintage store specializing in mid-century modern furniture, perfect for an afternoon of treasure hunting."
+      },
+      "type": "shopping",
+      "lat": 33.7717,
+      "lng": -118.1644,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-enr-the-ordinarie",
+      "city_id": "long-beach",
+      "neighborhood_id": "east-village-arts-district",
+      "name": {
+        "en": "The Ordinarie"
+      },
+      "description": {
+        "en": "A tavern dedicated to early American history and classic cocktails, featuring a cozy, wood-paneled interior and a lively patio on The Promenade."
+      },
+      "type": "drink",
+      "lat": 33.7697,
+      "lng": -118.1923,
+      "trending_score": 86,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-enr-pow-wow-long-beach-murals",
+      "city_id": "long-beach",
+      "neighborhood_id": "east-village-arts-district",
+      "name": {
+        "en": "POW! WOW! Long Beach Murals"
+      },
+      "description": {
+        "en": "Wander down Linden Avenue and explore the alleys to discover massive, museum-quality murals from the annual street art festival."
+      },
+      "type": "culture",
+      "lat": 33.769,
+      "lng": -118.1875,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-enr-independent-boutiques",
+      "city_id": "long-beach",
+      "neighborhood_id": "east-village-arts-district",
+      "name": {
+        "en": "Independent Boutiques"
+      },
+      "description": {
+        "en": "The neighborhood is dotted with unique shops run by local entrepreneurs, selling everything from local art and handmade goods to curated vinyl records."
+      },
+      "type": "shopping",
+      "lat": 33.7685,
+      "lng": -118.1885,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-naga-cafe-khmer-street-food",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Naga Cafe Khmer Street Food"
+      },
+      "description": {
+        "en": "A great entry point to the neighborhood's flavors, offering a fantastic selection of traditional Cambodian drinks like rich iced coffees and refreshing fruit smoothies."
+      },
+      "type": "drink",
+      "lat": 33.7829,
+      "lng": -118.1521,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-gemmae-bake-shop",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Gemmae Bake Shop"
+      },
+      "description": {
+        "en": "A beloved Filipino bakery and cafe on the edge of Cambodia Town, serving coffee and unique pastries like Spanish bread or ube pandesal."
+      },
+      "type": "food",
+      "lat": 33.7825,
+      "lng": -118.174,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-phnom-penh-noodle-shack",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Phnom Penh Noodle Shack"
+      },
+      "description": {
+        "en": "An essential Long Beach institution serving legendary Cambodian noodle soups to a perpetually packed house. Be prepared for a line."
+      },
+      "type": "food",
+      "lat": 33.7876,
+      "lng": -118.1683,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-sophy-s",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Sophy's"
+      },
+      "description": {
+        "en": "A cornerstone of the community, Sophy's offers a comprehensive menu of classic Cambodian dishes like beef loc lac in a welcoming, family-friendly setting."
+      },
+      "type": "food",
+      "lat": 33.7997,
+      "lng": -118.1528,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-shlap-muan",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Shlap Muan"
+      },
+      "description": {
+        "en": "Specializing in Cambodian-style fried chicken, this spot serves up incredibly crispy, flavorful wings with a variety of unique sauces."
+      },
+      "type": "food",
+      "lat": 33.8225,
+      "lng": -118.1651,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-cambodia-town-murals",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Cambodia Town Murals"
+      },
+      "description": {
+        "en": "Look for large, colorful murals along Anaheim Street that depict scenes from Cambodian history and mythology, including Apsara dancers and ancient temples."
+      },
+      "type": "culture",
+      "lat": 33.7827,
+      "lng": -118.165,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-willow-springs-park",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Willow Springs Park"
+      },
+      "description": {
+        "en": "A remarkable urban nature restoration project on a former oil field, offering trails through restored wetlands for a peaceful escape."
+      },
+      "type": "nature",
+      "lat": 33.8075,
+      "lng": -118.1765,
+      "trending_score": 76,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-cambodia-town-strip-malls",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Cambodia Town Strip Malls"
+      },
+      "description": {
+        "en": "The true magic of the neighborhood is found in its unassuming strip malls, where you can discover tiny eateries and grocery stores with Southeast Asian snacks."
+      },
+      "type": "hidden_gem",
+      "lat": 33.7826,
+      "lng": -118.17,
+      "trending_score": 83,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-enr-cambodia-town-street-signs",
+      "city_id": "long-beach",
+      "neighborhood_id": "cambodia-town",
+      "name": {
+        "en": "Cambodia Town Street Signs"
+      },
+      "description": {
+        "en": "Ornate, blue-and-gold street signs that officially designate the cultural district, serving as a landmark for the community."
+      },
+      "type": "landmark",
+      "lat": 33.7825,
+      "lng": -118.1808,
+      "trending_score": 79,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "retro-row-task-1",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Vintage Find"
+      },
+      "prompt": {
+        "en": "Find the most unique or weirdly wonderful item in a vintage or thrift store and snap a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-2",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Retro Reflection"
+      },
+      "prompt": {
+        "en": "Take a selfie in the reflection of a shop window, framed by vintage clothes or mid-century furniture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-3",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Punk Rock Detail"
+      },
+      "prompt": {
+        "en": "Capture a detail that embodies the neighborhood's punk rock spirit – a band t-shirt, a worn leather jacket, or a piece of graffiti."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-4",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Photograph your favorite neon sign on the street, capturing its unique color and design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-5",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Indie Film Scene"
+      },
+      "prompt": {
+        "en": "Frame a shot of a street corner, alley, or storefront that looks like it could be a still from a cool independent film."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-6",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Album Art"
+      },
+      "prompt": {
+        "en": "Find a record album in a shop whose cover perfectly captures the vibe of Retro Row."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-7",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Slice of Life"
+      },
+      "prompt": {
+        "en": "Take an appetizing photo of a slice of pizza or a craft beer from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-8",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Hidden Art"
+      },
+      "prompt": {
+        "en": "Look away from the main murals and find a smaller, hidden piece of street art like a sticker or a small stencil."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-9",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Texture Hunter"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting texture: peeling paint, worn brick, vintage fabric, or cracked pavement."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-10",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Classic Wheels"
+      },
+      "prompt": {
+        "en": "Find a classic or vintage car parked on the street and capture its timeless style."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-11",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "The Perfect Dive"
+      },
+      "prompt": {
+        "en": "Capture the atmosphere of a local dive bar, focusing on the lighting, decor, or patrons."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "retro-row-task-12",
+      "neighborhood_id": "retro-row",
+      "title": {
+        "en": "Second-Hand Story"
+      },
+      "prompt": {
+        "en": "Photograph a second-hand object and imagine the story it could tell."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-1",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Mural Selfie"
+      },
+      "prompt": {
+        "en": "Find a large mural and take a creative selfie with your favorite part of the artwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-2",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Historic & Modern"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between a historic brick building and a piece of modern street art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-3",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Abstract Art"
+      },
+      "prompt": {
+        "en": "Get very close to a colorful mural and take an abstract photo of just the colors, lines, and textures."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-4",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Boutique Find"
+      },
+      "prompt": {
+        "en": "Photograph a unique, locally-made item you discover inside one of the independent boutiques."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-5",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Look up! Find and photograph an interesting architectural detail on one of the district's historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-6",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Alleyway Perspective"
+      },
+      "prompt": {
+        "en": "Capture the play of light and shadow down one of the art-filled alleyways."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-7",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Cocktail Craft"
+      },
+      "prompt": {
+        "en": "Take a picture of a beautifully crafted cocktail, focusing on the colors and garnish."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-8",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Urban Nature"
+      },
+      "prompt": {
+        "en": "Find a single plant, flower, or patch of green growing in an unexpected urban place and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-9",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo of art through the window of a gallery or design studio."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-10",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Local Style"
+      },
+      "prompt": {
+        "en": "Discreetly capture the unique fashion or style of a local resident that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-11",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Creative Energy"
+      },
+      "prompt": {
+        "en": "Photograph a scene that you feel captures the creative energy of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "east-village-arts-district-task-12",
+      "neighborhood_id": "east-village-arts-district",
+      "title": {
+        "en": "Promenade Life"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of a patio or public space along The Promenade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-1",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Noodle Pull"
+      },
+      "prompt": {
+        "en": "Get a classic food photo by lifting noodles out of a soup bowl with your chopsticks or fork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-2",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Cultural Signage"
+      },
+      "prompt": {
+        "en": "Find an example of Khmer script on a restaurant sign, menu, or grocery store and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-3",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Market Colors"
+      },
+      "prompt": {
+        "en": "Photograph a colorful display of exotic fruits, vegetables, or snacks inside a local market."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-4",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Apsara Dancer"
+      },
+      "prompt": {
+        "en": "Find a depiction of a traditional Apsara dancer in a mural or piece of art and capture its graceful details."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-5",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "First Taste"
+      },
+      "prompt": {
+        "en": "Try a food or drink that's completely new to you and take a photo before your first bite or sip."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-6",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the sense of community, like a family sharing a meal or friends chatting at a cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-7",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Street Scene"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the bustling energy and daily life along Anaheim Street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-8",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Golden Hour Chicken"
+      },
+      "prompt": {
+        "en": "Take a mouth-watering shot of some Cambodian fried chicken, focusing on its crispy texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-9",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Find a unique pastry or sweet drink from a local bakery or cafe and get a delicious close-up."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-10",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Find an architectural detail on a building that is inspired by traditional Cambodian design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-11",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "Strip Mall Gem"
+      },
+      "prompt": {
+        "en": "Photograph the unassuming storefront of a restaurant or shop tucked away in a strip mall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    },
+    {
+      "id": "cambodia-town-task-12",
+      "neighborhood_id": "cambodia-town",
+      "title": {
+        "en": "The Perfect Bowl"
+      },
+      "prompt": {
+        "en": "Take a top-down photo of a beautiful bowl of noodle soup, arranging the ingredients artfully."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:31:21.828946+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

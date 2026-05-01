@@ -944,3 +944,70 @@ Two rounds: R1 🔴 → R2 🔴 → admin-merge.
 - Open issues (13): #5, #6, #7, #8, #9, #12, #14, #17, #21, #32, #33, #35, #37.
 - CI: tsc ✅ vitest ✅ branch-guard ✅ city-cache-validate ✅.
 - Production Firestore: unchanged (16 parked metros, no new cities ingested yet).
+
+---
+
+## 2026-05-01 — enrichment sweep + enrich_ingest.ts undefined bug fix (session 4)
+
+`main` HEAD: `7f7652c` (PR #44 squash-merge). Started session at `10bd5e1` (PR #38 scrape data).
+PRs merged this session: **#38** (scrape data, 2026-04-29 session), **#39** (tiered quality gates, 2026-04-29), **#44** (enrich_ingest: stripUndefined + Zod validation, 7 council rounds).
+Enrichment sweep: 101/119 thin/low cities enriched, ~1800 new waypoints, ~4600 tasks added.
+
+### KEEP
+
+- **`stripUndefined()` + post-strip Zod validation is the right pattern for Firestore pre-write hardening.** `ignoreUndefinedProperties: true` on the db settings was rejected (too broad — silently swallows required fields like lat/lng). Explicit strip + validate is auditable: required fields that go undefined still surface as Zod validation errors rather than being swallowed. Extract the helper to its own file so it can be unit-tested independently of `main()`.
+
+- **`id` is NOT a payload field — it is the Firestore document path.** `NeighborhoodWriteSchema`, `WaypointWriteSchema`, and `TaskWriteSchema` must NOT include `id: z.string()`. First two rounds of validation failures were caused by this: `id` was in the payload schemas but the data object never has `id` (it's passed as the `.doc(id)` path arg). Remove `id` from all three schemas.
+
+- **7-round council arc produced a genuinely correct function.** R1=global-vs-explicit, R2=validation after strip, R3=tasks missing schema, R4=stale comment, R5=arrays, R6=nested arrays. None of these were drift — each was a real gap in the implementation. The function is now complete and correct. Trust the process when each round surfaces a distinct non-overlapping concern.
+
+- **Enrichment sweep orchestration: parallel LOW + sequential THIN.** LOW research (50 cities) ran immediately; THIN scrape (5 phases) ran in background; THIN research launched automatically via watcher script once scraper PID exited. Total wall-clock: ~6 hours. The three-process parallelism (LOW research + THIN scrape + THIN watcher) made the sweep fit in one session.
+
+- **Roadtripper visibility fix pattern: backfill partial city docs.** Cities existed in Firestore but had no `city_fallback.json` entry. Root cause: the flat `city_fallback.json` was 102 cities but Firestore had 258. Fix: query `vibe_waypoints` (flat collection, one scan vs 258 nested subcollection reads), group by `city_id`, write into `city_fallback.json`. Lesson: the flat denormalized collections (`vibe_waypoints`, `vibe_neighborhoods`, `vibe_tasks`) are the right surface for cross-city aggregation queries — scanning nested subcollections requires O(N) reads.
+
+### IMPROVE
+
+- **Editing `enrich_ingest.ts` while batches were running was safe because each city spawns a fresh `npx tsx` subprocess.** The in-flight subprocess already loaded the old version; cities processed AFTER the file edit automatically used the fixed version. No restart needed. This is a property of the subprocess-per-city architecture — worth knowing, not worth relying on; always prefer the batch to be idle before editing files that it uses.
+
+- **`data/timeout/oxford-ms.md` pulled Oxford, UK data and caused a semantic audit hallucination.** The Playwright scraper hit the wrong Oxford (UK) because it matched on city name alone. Phase C correctly caught it (12/15 waypoints hallucinated for Mississippi). Fix: delete the bad file, re-scrape with `--city oxford-ms`. **When a Phase C semantic audit FAIL reports UK/international POIs for a US city, the first thing to check is the scraper's timeout data file.**
+
+- **Four data-starvation cities (fernandina-beach-fl, frederick-md, sitka-ak, winslow-az) can't be rescued without new source material.** Phase C threshold miss is a symptom, not the root cause — Wikipedia is 1-4KB with no Reddit or Playwright coverage. These are not threshold-tuning candidates; they need new source files or manual research.
+
+### INSIGHT
+
+- **Firestore Admin SDK rejects `undefined` values even for optional fields.** `trending_score: undefined` (Gemini emits undefined for optional numeric fields) causes `Cannot use "undefined" as a Firestore value`. The `ignoreUndefinedProperties` db setting is a footgun — it silently discards required fields too. Explicit `stripUndefined()` is the right fix.
+
+- **Self-recursive `stripValue` is required for correct array handling.** First implementation stripped top-level and object-nested undefined but left `undefined` elements in arrays. Second iteration filtered array elements but didn't recurse into them (missing `[undefined, "a"]` inside nested arrays). Third iteration: `v.filter((el) => el !== undefined).map(stripValue)` where `stripValue` calls itself — handles arrays of arrays and arrays of objects correctly.
+
+- **oxford-ms hallucination is a structural risk for any city sharing a name with a non-US city.** Oxford (UK) is a large city with rich Playwright-source content. The Mississippi Oxford is small. The scraper fetched the wrong one because it searched by name without state/country context. This is distinct from Wikipedia disambiguation (which uses `stateFromId()`); the Playwright sources have no equivalent disambiguation. **Partial mitigation: if a Phase C fail shows international/wrong-geography POIs, delete the timeout/infatuation file and re-scrape with explicit `--city oxford-ms` (the slug includes the state code).**
+
+- **Phase C threshold pass rates are not uniform across the full 258-city corpus.** After the enrichment sweep, 4 cities failed threshold even with fresh sources (flagstaff-az, taos-nm, portsmouth-nh, santa-cruz-ca). A second `--force` re-run passed all 4 — Gemini non-determinism, not data starvation. **For any batch of threshold misses, retry with `--force` before diagnosing data starvation.**
+
+### COUNCIL
+
+- **PR #44 (enrich_ingest.ts undefined fix): 7 rounds, 🟢 CLEAR.** No admin override — every round surfaced a real gap.
+  - R1 🔴: `ignoreUndefinedProperties` too broad — `stripUndefined` + Zod.
+  - R2 🔴: Zod schemas didn't cover tasks; `id` field incorrectly included in schemas.
+  - R3 🔴: `TaskWriteSchema` defined but not attached to task ops.
+  - R4 🟡: Stale comment said "task ops don't need schema."
+  - R5 🟡: `stripUndefined` didn't handle arrays (undefined elements not removed).
+  - R6 🟡: `stripValue` didn't recurse into array elements (nested arrays missed).
+  - R7 🟢 CLEAR: all axes passing. Merged `7f7652c`.
+- **7 rounds is high but not drift.** Each round surfaced a distinct, non-overlapping concern. The R1→R7 arc turned a broken implementation into a correct one. The council system works when each round moves the ball.
+
+### Production state at session close
+
+- `main`: `7f7652c` (PR #44).
+- **~258 cities live in `urbanexplorer` Firestore.** Full enrichment sweep complete (2026-05-01). 101/119 thin/low cities enriched; 8 still failing (see `SESSION_HANDOFF.md`).
+- Open PRs: #40 (session 3 docs), #42 (prompt injection CONDITIONAL), #43 (4 corridor cities), #45 (harness alignment — investigate).
+- Open issues (11): #5, #6, #7, #8, #9, #12, #14, #17, #21, #32, #33.
+- CI: tsc ✅ vitest ✅ branch-guard ✅ city-cache-validate ✅.
+- oxford-ms: semantic audit FAIL — `data/timeout/oxford-ms.md` contains Oxford UK data. Fix next session.
+
+### Carryover for next session
+
+1. **Merge PR #40** (session 3 docs) then **PR #42** (prompt injection) — address CONDITIONAL remediations.
+2. **Merge PR #43** (corridor cities: louisville, birmingham, wichita, amarillo).
+3. **Fix oxford-ms** — delete `data/timeout/oxford-ms.md`, re-scrape, re-run research.
+4. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
+5. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.

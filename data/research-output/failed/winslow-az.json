@@ -1,0 +1,326 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-winslow",
+      "city_id": "winslow-az",
+      "name": {
+        "en": "Historic Downtown Winslow"
+      },
+      "summary": {
+        "en": "The heart of Winslow is a living time capsule dedicated to the golden age of American road trips and rock and roll, where art, history, and music are part of the streetscape."
+      },
+      "lat": 35.0241,
+      "lng": -110.6978,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-winslow-enr-standin-on-the-corner-park",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "Standin' on the Corner Park"
+      },
+      "description": {
+        "en": "A pilgrimage site for music fans, this park celebrates the iconic Eagles' lyric with a life-sized bronze statue and a two-story mural."
+      },
+      "type": "landmark",
+      "lat": 35.02451,
+      "lng": -110.69852,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-enr-la-posada-hotel",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "La Posada Hotel"
+      },
+      "description": {
+        "en": "An architectural masterpiece from the railroad era, this historic hotel's public spaces serve as a de facto museum of Southwestern art and design."
+      },
+      "type": "culture",
+      "lat": 35.02255,
+      "lng": -110.69551,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-enr-9-11-remembrance-gardens",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "9-11 Remembrance Gardens"
+      },
+      "description": {
+        "en": "A powerful and unexpected memorial featuring two massive steel beams from the World Trade Center, offering a quiet, contemplative space for reflection."
+      },
+      "type": "landmark",
+      "lat": 35.02403,
+      "lng": -110.69904,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-winslow-task-1",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Route 66 Spirit"
+      },
+      "prompt": {
+        "en": "Capture a photo that embodies the spirit of a classic American road trip on Route 66."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-2",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Rock & Roll Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes you look like the star of a classic rock and roll album cover."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-3",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Railroad Relics"
+      },
+      "prompt": {
+        "en": "Find and photograph a detail that hints at the town's deep railroad history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-4",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Small Town Story"
+      },
+      "prompt": {
+        "en": "Take a picture of a building or street scene that tells a story of small-town American life."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-5",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Nostalgia Filter"
+      },
+      "prompt": {
+        "en": "Find a scene that looks like it's from a past decade and take a photo with a vintage-style filter."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-6",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "The Open Road"
+      },
+      "prompt": {
+        "en": "Frame a shot looking down a street or road, capturing the feeling of endless possibilities."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-7",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Southwestern Palette"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three distinct colors you find that feel uniquely Southwestern."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-8",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the strong Arizona sun to capture an interesting pattern made by shadows on a wall or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-9",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Echoes of a Song"
+      },
+      "prompt": {
+        "en": "Find something that reminds you of a classic song lyric and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-10",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Architectural Elegance"
+      },
+      "prompt": {
+        "en": "Photograph an architectural detail—a doorway, a window, an arch—that you find particularly beautiful."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-11",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Street Art Surprise"
+      },
+      "prompt": {
+        "en": "Discover a piece of public art or a mural (besides the most famous one!) and capture it from a unique angle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-12",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Traveler's Perspective"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you as a traveler discovering this unique corner of the world."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-13",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Texture Study"
+      },
+      "prompt": {
+        "en": "Get up close and take an abstract photo of a texture you find interesting, like peeling paint, old brick, or rusted metal."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-14",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "The Vast Sky"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the vastness of the Arizona sky over the town's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-15",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a photo that captures a feeling of peace and contemplation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-16",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a vintage or retro-style sign that adds to the neighborhood's character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-17",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Reflection Shot"
+      },
+      "prompt": {
+        "en": "Use a window, puddle, or shiny surface to capture a reflection of the historic downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    },
+    {
+      "id": "historic-downtown-winslow-task-18",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "My Winslow Story"
+      },
+      "prompt": {
+        "en": "Take a photo of your shoes or feet on the ground, with a caption about your impression of Winslow."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T09:19:48.405023+00:00"
+    }
+  ]
+}

@@ -1,0 +1,192 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-railway-district",
+      "city_id": "whitefish-mt",
+      "name": {
+        "en": "Historic Downtown & Railway District"
+      },
+      "summary": {
+        "en": "The undeniable core of Whitefish, this district blends historic frontier architecture with a thriving local arts scene and a strong connection to the surrounding wilderness."
+      },
+      "lat": 48.4115,
+      "lng": -114.3365,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-railway-district-enr-great-northern-brewing-company",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "name": {
+        "en": "Great Northern Brewing Company"
+      },
+      "description": {
+        "en": "A cornerstone of the local craft beer scene and a social hub for residents, offering a real taste of the town's character in an unpretentious atmosphere."
+      },
+      "type": "drink",
+      "lat": 48.4125,
+      "lng": -114.337,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-enr-whitefish-museum-at-the-great-northern-railway-depot",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "name": {
+        "en": "Whitefish Museum (at the Great Northern Railway Depot)"
+      },
+      "description": {
+        "en": "Housed in the magnificent 1927 railway depot, this museum is the town's historical anchor, detailing the logging and railroad industries that built Whitefish."
+      },
+      "type": "culture",
+      "lat": 48.411,
+      "lng": -114.336,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-enr-the-whitefish-trail-system-gateway",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "name": {
+        "en": "The Whitefish Trail System Gateway"
+      },
+      "description": {
+        "en": "Access points near downtown that link directly to the town's ethos of conservation and its vast, protected forest system."
+      },
+      "type": "nature",
+      "lat": 48.414,
+      "lng": -114.339,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-enr-alpine-theatre-project",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "name": {
+        "en": "Alpine Theatre Project"
+      },
+      "description": {
+        "en": "A cultural powerhouse, this professional theatre company brings Broadway-level talent to a small mountain town, speaking to the community's dedication to the arts."
+      },
+      "type": "culture",
+      "lat": 48.4105,
+      "lng": -114.3355,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-enr-whitefish-theatre-company",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "name": {
+        "en": "Whitefish Theatre Company"
+      },
+      "description": {
+        "en": "A pillar of the local performing arts, this community-focused theatre demonstrates Whitefish's grassroots passion for creativity and culture."
+      },
+      "type": "culture",
+      "lat": 48.41,
+      "lng": -114.335,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-railway-district-task-1",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "title": {
+        "en": "Frontier Facade"
+      },
+      "prompt": {
+        "en": "Find a building with classic frontier-style architecture and take a photo that highlights its historic character against the mountain sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-task-2",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "title": {
+        "en": "Rails to Today"
+      },
+      "prompt": {
+        "en": "Capture a detail that hints at the town's railroad history, like a piece of track, a sign, or railway-themed art."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-task-3",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "title": {
+        "en": "Mountain Town Art"
+      },
+      "prompt": {
+        "en": "The streets are full of art. Find a piece of public art (mural, sculpture, etc.) and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-task-4",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "title": {
+        "en": "Nature's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo that shows where the town's streets meet the natural landscape, capturing the blend of urban and wild."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-task-5",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "The report mentions an 'inclusive atmosphere' and being a 'model of resistance'. Find a sign, sticker, or flag that represents this community spirit and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    },
+    {
+      "id": "historic-downtown-railway-district-task-6",
+      "neighborhood_id": "historic-downtown-railway-district",
+      "title": {
+        "en": "Logging Legacy"
+      },
+      "prompt": {
+        "en": "Find a texture or material, like rough-hewn wood on a building or in a park, that evokes the town's history as a logging hub."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T06:59:57.739767+00:00"
+    }
+  ]
+}

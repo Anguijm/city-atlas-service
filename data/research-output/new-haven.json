@@ -1,0 +1,1903 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown",
+      "city_id": "new-haven",
+      "name": {
+        "en": "Downtown"
+      },
+      "summary": {
+        "en": "The energetic core of New Haven, where the Gothic grandeur of Yale University collides with the civic life of the city, centered on the historic New Haven Green."
+      },
+      "lat": 41.3083,
+      "lng": -72.9279,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square",
+      "city_id": "new-haven",
+      "name": {
+        "en": "Wooster Square"
+      },
+      "summary": {
+        "en": "New Haven's historic and proud 'Little Italy,' a culinary landmark home to world-famous apizza with a charming mix of old-world tradition and neighborhood pride."
+      },
+      "lat": 41.3036,
+      "lng": -72.9175,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock",
+      "city_id": "new-haven",
+      "name": {
+        "en": "East Rock"
+      },
+      "summary": {
+        "en": "A leafy, academic, and architecturally stunning neighborhood defined by the massive basalt ridge of East Rock Park and the grand 19th-century mansions that line its streets."
+      },
+      "lat": 41.3217,
+      "lng": -72.9156,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river",
+      "city_id": "new-haven",
+      "name": {
+        "en": "Mill River"
+      },
+      "summary": {
+        "en": "An industrial-chic neighborhood on the rise, defined by its repurposed factory buildings and home to some of the city's most acclaimed and inventive food."
+      },
+      "lat": 41.3115,
+      "lng": -72.9139,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill",
+      "city_id": "new-haven",
+      "name": {
+        "en": "The Hill"
+      },
+      "summary": {
+        "en": "A historic neighborhood with deep community roots and a resilient spirit, known as the heart of New Haven's soul food scene."
+      },
+      "lat": 41.2986,
+      "lng": -72.9345,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven",
+      "city_id": "new-haven",
+      "name": {
+        "en": "Fair Haven"
+      },
+      "summary": {
+        "en": "A historic, maritime neighborhood with a proud, independent identity shaped by the Quinnipiac River, featuring a distinct waterfront character and historic architecture."
+      },
+      "lat": 41.3088,
+      "lng": -72.8951,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-enr-cafe-nine",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Cafe Nine"
+      },
+      "description": {
+        "en": "Affectionately known as the 'musician's living room,' this is a beloved, no-frills local bar and music venue for catching up-and-coming bands."
+      },
+      "type": "nightlife",
+      "lat": 41.3061,
+      "lng": -72.9232,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-80-proof-kitchen-and-bar",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "80 Proof Kitchen and Bar"
+      },
+      "description": {
+        "en": "A solid choice for starting an evening or for a late-night meal, where locals come for well-made drinks and a lively atmosphere."
+      },
+      "type": "drink",
+      "lat": 41.3056,
+      "lng": -72.9288,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-louis-lunch",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Louis' Lunch"
+      },
+      "description": {
+        "en": "A pilgrimage site credited by the Library of Congress as the birthplace of the hamburger, serving burgers on white toast from original 1898 broilers."
+      },
+      "type": "food",
+      "lat": 41.3052,
+      "lng": -72.9295,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-sherkaan",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Sherkaan"
+      },
+      "description": {
+        "en": "An Indian restaurant specializing in street food-inspired dishes with huge portions and bold flavors, located next to the Yale Bookstore."
+      },
+      "type": "food",
+      "lat": 41.3113,
+      "lng": -72.9297,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-menya-gumi",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Menya-Gumi"
+      },
+      "description": {
+        "en": "A go-to spot for deeply comforting and authentic ramen, with bowls packed with impossibly long noodles for a satisfying meal."
+      },
+      "type": "food",
+      "lat": 41.3087,
+      "lng": -72.9291,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-the-crypt-at-center-church",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "The Crypt at Center Church"
+      },
+      "description": {
+        "en": "A true hidden gem beneath a 19th-century church, this 17th-century crypt holds the gravestones of New Haven's earliest colonists."
+      },
+      "type": "hidden_gem",
+      "lat": 41.3081,
+      "lng": -72.9261,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-grove-street-cemetery",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Grove Street Cemetery"
+      },
+      "description": {
+        "en": "The first chartered burial ground in the U.S., featuring a stunning Egyptian Revival gateway and the graves of Eli Whitney and Noah Webster."
+      },
+      "type": "landmark",
+      "lat": 41.3146,
+      "lng": -72.9267,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-knights-of-columbus-museum",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Knights of Columbus Museum"
+      },
+      "description": {
+        "en": "Housed in a striking modernist tower, this museum details the history of the Catholic fraternal organization founded in New Haven."
+      },
+      "type": "culture",
+      "lat": 41.3041,
+      "lng": -72.9244,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-enr-union-station-pedestrian-tunnel",
+      "city_id": "new-haven",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Union Station Pedestrian Tunnel"
+      },
+      "description": {
+        "en": "An unexpectedly cinematic location, this long, tiled tunnel connecting train platforms offers a unique, symmetrical photo opportunity."
+      },
+      "type": "hidden_gem",
+      "lat": 41.3016,
+      "lng": -72.9258,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-enr-frank-pepe-pizzeria-napoletana",
+      "city_id": "new-haven",
+      "neighborhood_id": "wooster-square",
+      "name": {
+        "en": "Frank Pepe Pizzeria Napoletana"
+      },
+      "description": {
+        "en": "The originator of apizza since 1925. The thin, chewy, charred crust from the coal-fired oven and the White Clam Pie are a rite of passage."
+      },
+      "type": "food",
+      "lat": 41.3043,
+      "lng": -72.9158,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-enr-sallys-apizza",
+      "city_id": "new-haven",
+      "neighborhood_id": "wooster-square",
+      "name": {
+        "en": "Sally’s Apizza"
+      },
+      "description": {
+        "en": "Pepe's legendary rival since 1938, known for a slightly thinner crust and robust tomato sauce. The debate over which is better is a core New Haven experience."
+      },
+      "type": "food",
+      "lat": 41.3029,
+      "lng": -72.9142,
+      "trending_score": 100,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-enr-gioia",
+      "city_id": "new-haven",
+      "neighborhood_id": "wooster-square",
+      "name": {
+        "en": "Gioia"
+      },
+      "description": {
+        "en": "A modern Italian restaurant offering a more contemporary dining experience amidst the pizza titans on Wooster Street."
+      },
+      "type": "food",
+      "lat": 41.3045,
+      "lng": -72.9163,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-enr-wooster-square-park",
+      "city_id": "new-haven",
+      "neighborhood_id": "wooster-square",
+      "name": {
+        "en": "Wooster Square Park"
+      },
+      "description": {
+        "en": "The picturesque heart of the neighborhood, famous for its stunning cherry blossoms in the spring and perfect for a post-pizza walk."
+      },
+      "type": "nature",
+      "lat": 41.3039,
+      "lng": -72.9181,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-enr-wooster-street",
+      "city_id": "new-haven",
+      "neighborhood_id": "wooster-square",
+      "name": {
+        "en": "Wooster Street"
+      },
+      "description": {
+        "en": "The main thoroughfare is a destination in its own right, where you can feel the history of the Italian-American community that built this culinary mecca."
+      },
+      "type": "landmark",
+      "lat": 41.3036,
+      "lng": -72.915,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-enr-cityseed-farmers-market",
+      "city_id": "new-haven",
+      "neighborhood_id": "wooster-square",
+      "name": {
+        "en": "CitySeed Farmers' Market"
+      },
+      "description": {
+        "en": "On Saturdays, this vibrant market in Russo Park brings together local farmers and artisans, showcasing the neighborhood's strong community spirit."
+      },
+      "type": "shopping",
+      "lat": 41.3022,
+      "lng": -72.9168,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-enr-atticus-market",
+      "city_id": "new-haven",
+      "neighborhood_id": "east-rock",
+      "name": {
+        "en": "Atticus Market"
+      },
+      "description": {
+        "en": "A beloved local institution that is part bakery, cafe, and grocery, ideal for grabbing a phenomenal sandwich and coffee before a walk."
+      },
+      "type": "food",
+      "lat": 41.3197,
+      "lng": -72.9184,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-enr-the-pantry",
+      "city_id": "new-haven",
+      "neighborhood_id": "east-rock",
+      "name": {
+        "en": "The Pantry"
+      },
+      "description": {
+        "en": "A legendary brunch spot that commands lines out the door for its creative pancakes and classic breakfast fare, considered by many to be the city's best."
+      },
+      "type": "food",
+      "lat": 41.3155,
+      "lng": -72.9123,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-enr-east-rock-park-summit",
+      "city_id": "new-haven",
+      "neighborhood_id": "east-rock",
+      "name": {
+        "en": "East Rock Park Summit"
+      },
+      "description": {
+        "en": "Home to the Soldiers' and Sailors' Monument, this summit offers the single best panoramic view of New Haven, the harbor, and Long Island Sound."
+      },
+      "type": "viewpoint",
+      "lat": 41.3325,
+      "lng": -72.9111,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-enr-hillhouse-avenue",
+      "city_id": "new-haven",
+      "neighborhood_id": "east-rock",
+      "name": {
+        "en": "Hillhouse Avenue"
+      },
+      "description": {
+        "en": "Once declared 'the most beautiful street in America' by Charles Dickens, this is a walkable museum of stunning 19th-century mansions."
+      },
+      "type": "landmark",
+      "lat": 41.3148,
+      "lng": -72.9221,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-enr-marsh-botanical-garden",
+      "city_id": "new-haven",
+      "neighborhood_id": "east-rock",
+      "name": {
+        "en": "Marsh Botanical Garden"
+      },
+      "description": {
+        "en": "A compact, historic garden on the Yale campus that provides a tranquil oasis for a quiet moment of reflection away from the city bustle."
+      },
+      "type": "nature",
+      "lat": 41.3201,
+      "lng": -72.9205,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-enr-modern-apizza",
+      "city_id": "new-haven",
+      "neighborhood_id": "mill-river",
+      "name": {
+        "en": "Modern Apizza"
+      },
+      "description": {
+        "en": "The essential third point in New Haven's 'holy trinity' of pizza, offering its own take on the classic apizza in a wonderfully old-school dining room."
+      },
+      "type": "food",
+      "lat": 41.3148,
+      "lng": -72.9142,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-enr-tavern-on-state",
+      "city_id": "new-haven",
+      "neighborhood_id": "mill-river",
+      "name": {
+        "en": "Tavern on State"
+      },
+      "description": {
+        "en": "A new-American restaurant celebrated for its creativity, with a menu that changes almost daily focusing on seasonal and inventive dishes."
+      },
+      "type": "food",
+      "lat": 41.3183,
+      "lng": -72.9148,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-enr-erector-square",
+      "city_id": "new-haven",
+      "neighborhood_id": "mill-river",
+      "name": {
+        "en": "Erector Square"
+      },
+      "description": {
+        "en": "The former factory where the iconic Erector Set was invented, now a sprawling complex housing a vibrant community of artist studios."
+      },
+      "type": "culture",
+      "lat": 41.3082,
+      "lng": -72.909,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-enr-the-mill-river",
+      "city_id": "new-haven",
+      "neighborhood_id": "mill-river",
+      "name": {
+        "en": "The Mill River"
+      },
+      "description": {
+        "en": "The waterway that gives the neighborhood its name offers a different perspective of New Haven, where industry, nature, and urban renewal coexist."
+      },
+      "type": "nature",
+      "lat": 41.3095,
+      "lng": -72.9112,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-enr-sandra-s-next-generation",
+      "city_id": "new-haven",
+      "neighborhood_id": "the-hill",
+      "name": {
+        "en": "Sandra's Next Generation"
+      },
+      "description": {
+        "en": "An institution serving authentic, soul-warming Southern food. The fried catfish, greens, and real cornbread are legendary."
+      },
+      "type": "food",
+      "lat": 41.2995,
+      "lng": -72.9365,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-enr-mama-mary-s-soul-food",
+      "city_id": "new-haven",
+      "neighborhood_id": "the-hill",
+      "name": {
+        "en": "Mama Mary's Soul Food"
+      },
+      "description": {
+        "en": "Another pillar of the neighborhood's soul food scene, frequently recommended by locals for authentic, home-style cooking."
+      },
+      "type": "food",
+      "lat": 41.2964,
+      "lng": -72.9401,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-enr-historic-residential-streets",
+      "city_id": "new-haven",
+      "neighborhood_id": "the-hill",
+      "name": {
+        "en": "Historic Residential Streets"
+      },
+      "description": {
+        "en": "Wander off the main avenues to see the neighborhood's fabric of historic homes and community gardens to find its real, lived-in character."
+      },
+      "type": "landmark",
+      "lat": 41.2975,
+      "lng": -72.9378,
+      "trending_score": 60,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-enr-yale-medical-school-campus",
+      "city_id": "new-haven",
+      "neighborhood_id": "the-hill",
+      "name": {
+        "en": "Yale Medical School Campus"
+      },
+      "description": {
+        "en": "The imposing architecture of the medical campus provides a striking visual contrast to the surrounding residential neighborhood."
+      },
+      "type": "landmark",
+      "lat": 41.3015,
+      "lng": -72.9333,
+      "trending_score": 68,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-enr-fair-haven-oyster-company",
+      "city_id": "new-haven",
+      "neighborhood_id": "fair-haven",
+      "name": {
+        "en": "Fair Haven Oyster Company"
+      },
+      "description": {
+        "en": "A gem that looks like a tiny seaside shack but feels like a swanky yacht club inside, serving fantastic seafood and drinks."
+      },
+      "type": "food",
+      "lat": 41.3054,
+      "lng": -72.8931,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-enr-quinnipiac-river-historic-district",
+      "city_id": "new-haven",
+      "neighborhood_id": "fair-haven",
+      "name": {
+        "en": "Quinnipiac River Historic District"
+      },
+      "description": {
+        "en": "Walk along Front Street to see beautifully preserved 18th and 19th-century homes from the neighborhood's heyday as a bustling maritime village."
+      },
+      "type": "landmark",
+      "lat": 41.3075,
+      "lng": -72.8935,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-enr-grand-avenue-bridge",
+      "city_id": "new-haven",
+      "neighborhood_id": "fair-haven",
+      "name": {
+        "en": "Grand Avenue Bridge"
+      },
+      "description": {
+        "en": "This classic drawbridge is the artery of the neighborhood and a great vantage point for watching boats and taking in the working-waterfront atmosphere."
+      },
+      "type": "landmark",
+      "lat": 41.304,
+      "lng": -72.8996,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-enr-quinnipiac-river-park",
+      "city_id": "new-haven",
+      "neighborhood_id": "fair-haven",
+      "name": {
+        "en": "Quinnipiac River Park"
+      },
+      "description": {
+        "en": "A stretch of green along the river that hosts a farmers' market and provides a peaceful spot to enjoy the waterfront views."
+      },
+      "type": "nature",
+      "lat": 41.3133,
+      "lng": -72.8916,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-task-1",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Gothic Meets Modern"
+      },
+      "prompt": {
+        "en": "Find an angle that captures a historic Gothic building and a modern structure in the same shot. How do they contrast or complement each other?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-2",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "City Pulse Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a busy street corner, capturing the energy and movement of the city's core behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-3",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker on a building. Take a photo and share the most interesting fact you learned."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-4",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Look up! Take a close-up photo of an interesting architectural detail on a building's facade—a gargoyle, a carving, or an ornate window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-5",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Taste of Downtown"
+      },
+      "prompt": {
+        "en": "Photograph your meal or drink from a local downtown spot. What flavors define the city's center for you?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-6",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Green Space Moment"
+      },
+      "prompt": {
+        "en": "Capture a moment of peace or activity on the New Haven Green. What is the Green's role in city life today?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-7",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Scholarly Shadows"
+      },
+      "prompt": {
+        "en": "Take a photo that plays with the light and shadows cast by one of Yale's grand buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-8",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Shop Small"
+      },
+      "prompt": {
+        "en": "Find an independent shop with a unique window display. Capture what makes it stand out from the crowd."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-9",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Civic Symbol"
+      },
+      "prompt": {
+        "en": "Photograph a government building or public monument. What does it say about the city's identity?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-10",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Street Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of street art, a mural, or even a unique sticker. Capture this small act of public creativity."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-11",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic building's reflection in the window of a modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-12",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Theatrical Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the entrance or marquee of one of the downtown theaters. Capture the promise of the performance within."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-13",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Get close and capture an interesting texture: old brick, worn cobblestone, or a rusted fire escape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-14",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "After dark, capture the glow of a neon sign or the warm light from a restaurant window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "downtown-task-15",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "My Downtown Discovery"
+      },
+      "prompt": {
+        "en": "Take a photo of something you found unexpectedly charming or odd. What's your personal hidden gem?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-1",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "The Perfect Slice"
+      },
+      "prompt": {
+        "en": "Take an artful photo of your apizza. Focus on the texture of the crust, the color of the sauce, or the cheese pull!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-2",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Little Italy Details"
+      },
+      "prompt": {
+        "en": "Find a symbol of Italian-American heritage—a flag, a sign, or a garden statue. Capture this piece of neighborhood pride."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-3",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Charming Facade"
+      },
+      "prompt": {
+        "en": "Photograph the front of a historic brick building or row house. What details make it unique?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-4",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Park Bench Perspective"
+      },
+      "prompt": {
+        "en": "Sit on a bench in Wooster Square Park and take a photo of the view from your perspective. Capture the tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-5",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Food Coma Selfie"
+      },
+      "prompt": {
+        "en": "Take a happy, well-fed selfie after indulging in the neighborhood's famous food."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-6",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Old World Texture"
+      },
+      "prompt": {
+        "en": "Find a worn texture that speaks to the neighborhood's history—old cobblestones, a weathered door, or a vintage sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-7",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Neighborhood Gathering Spot"
+      },
+      "prompt": {
+        "en": "Take a photo of a place where neighbors seem to gather, whether it's a cafe, a park, or a street corner."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-8",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Waiting for Pizza"
+      },
+      "prompt": {
+        "en": "Capture the anticipation of waiting in line for apizza. Focus on the people, the building, or the signs."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-9",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "A Pop of Color"
+      },
+      "prompt": {
+        "en": "Find a brightly colored door, window box, or decoration against the historic brick buildings and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-10",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Generational Story"
+      },
+      "prompt": {
+        "en": "Take a photo that seems to tell a story of multiple generations, like an old storefront next to a new one, or a historic home with modern touches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-11",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "The Aroma of Wooster"
+      },
+      "prompt": {
+        "en": "You can't photograph a smell, but you can capture its source! Take a picture of a restaurant's chimney or a bakery's window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-12",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Community Garden Gem"
+      },
+      "prompt": {
+        "en": "Find a small community garden or a well-tended planter box. Capture this little piece of neighborhood green."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-13",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Shadows on the Square"
+      },
+      "prompt": {
+        "en": "In the late afternoon, capture the long shadows cast by the trees or buildings in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-14",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "Local Loyalty"
+      },
+      "prompt": {
+        "en": "Find a sign or detail that shows fierce local pride or loyalty to a specific pizzeria. Capture the spirit of the great pizza debate."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "wooster-square-task-15",
+      "neighborhood_id": "wooster-square",
+      "title": {
+        "en": "My Wooster Square Moment"
+      },
+      "prompt": {
+        "en": "Take a photo of the one thing that best captures the 'old-world tradition' vibe of the neighborhood for you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-1",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Mansion Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo of the most impressive 19th-century mansion you can find. Focus on its grand scale or an ornate detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-2",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Leafy Streetscape"
+      },
+      "prompt": {
+        "en": "Capture the essence of a tree-lined street. Try to create a sense of a green canopy over the road."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-3",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Academic Atmosphere"
+      },
+      "prompt": {
+        "en": "Find a scene that hints at the neighborhood's connection to the university—a person reading on a lawn, a building with a crest, or a scholarly-looking cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-4",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Nature's View"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of East Rock itself. Photograph the massive basalt ridge from the neighborhood below."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-5",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Peaceful Escape Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a quiet, green spot, capturing the peaceful and residential feel of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-6",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Ornate Entryway"
+      },
+      "prompt": {
+        "en": "Photograph the most beautiful or intricate doorway or gate you can find. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-7",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Brunch Envy"
+      },
+      "prompt": {
+        "en": "Capture a photo of a delicious-looking brunch or pastry from a local cafe. Make your friends hungry!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-8",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Garden Discovery"
+      },
+      "prompt": {
+        "en": "Find a beautifully maintained private or public garden. Take a close-up of a flower or an interesting plant."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-9",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Path to Somewhere"
+      },
+      "prompt": {
+        "en": "Take a photo of an inviting path, sidewalk, or staircase. Where do you imagine it leads?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-10",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Signs of the Seasons"
+      },
+      "prompt": {
+        "en": "Capture a detail that shows the current season—spring blossoms, summer leaves, autumn colors, or winter branches."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-11",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Historic Ironwork"
+      },
+      "prompt": {
+        "en": "Find and photograph a piece of old, decorative ironwork, like a fence, a gate, or a railing."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-12",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet, overlooked corner of the neighborhood and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-13",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "The Perfect Porch"
+      },
+      "prompt": {
+        "en": "Photograph a porch or stoop that looks like the perfect place to relax with a book."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-14",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "Sunlight Through the Trees"
+      },
+      "prompt": {
+        "en": "Capture the way the sunlight filters through the leaves of the neighborhood's many trees."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "east-rock-task-15",
+      "neighborhood_id": "east-rock",
+      "title": {
+        "en": "My East Rock Escape"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that best represents a 'peaceful escape' to you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-1",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Capture the contrast between old industrial architecture (brick, smokestacks) and modern life (a new business, street art, a nice car)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-2",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Factory Bones"
+      },
+      "prompt": {
+        "en": "Take a close-up, textural photo of an old factory wall. Focus on the weathered brick, faded paint, or metal elements."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-3",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Signs of Reinvention"
+      },
+      "prompt": {
+        "en": "Find a sign for a new, creative business (like a restaurant or artist studio) housed in an old industrial building. Photograph the sign against the old facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-4",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Gritty Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a gritty, post-industrial background. Embrace the neighborhood's edgy character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-5",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Inventive Plate"
+      },
+      "prompt": {
+        "en": "Photograph a dish from one of the neighborhood's inventive restaurants. How does the food reflect the area's creative spirit?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-6",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Take a photo of the Mill River itself. Try to include a bridge or a piece of the industrial landscape in your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-7",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Ghost of Industry"
+      },
+      "prompt": {
+        "en": "Find a 'ghost sign'—a faded, painted advertisement on the side of an old brick building. Capture this piece of history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-8",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Photograph a place where nature is starting to grow over the industrial landscape—vines on a brick wall, or weeds in a cracked pavement."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-9",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Artistic Hub"
+      },
+      "prompt": {
+        "en": "Find a sign or entryway that points to the neighborhood's artist community. Capture the creative energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-10",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Urban Geometry"
+      },
+      "prompt": {
+        "en": "Look for interesting shapes and lines in the industrial architecture—repeating windows, crisscrossing pipes, or the angle of a roof."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-11",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "Shadow and Steel"
+      },
+      "prompt": {
+        "en": "Capture a photo that plays with the shadows cast by a bridge, fire escape, or other industrial structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-12",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "The Overlooked Detail"
+      },
+      "prompt": {
+        "en": "Find a small, interesting detail on an old building: a maker's mark on a brick, a unique bolt, or a piece of old hardware."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-13",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "In the mostly brick and concrete landscape, find and photograph a surprising splash of bright color."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-14",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "On the Rise"
+      },
+      "prompt": {
+        "en": "Take a photo that symbolizes the neighborhood's 'on the rise' vibe, like a construction site or a newly renovated building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "mill-river-task-15",
+      "neighborhood_id": "mill-river",
+      "title": {
+        "en": "My Mill River Find"
+      },
+      "prompt": {
+        "en": "Photograph the one thing that you feel best represents the blend of old industry and new creativity in this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-1",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Taste of Soul"
+      },
+      "prompt": {
+        "en": "Take a vibrant photo of your soul food meal. Capture the rich colors and textures that make the cuisine so comforting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-2",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "Find and photograph a piece of public art, a mural, or a community garden that speaks to the neighborhood's identity and roots."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-3",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Neighborhood Fabric"
+      },
+      "prompt": {
+        "en": "Photograph a residential street scene that shows the historic character and lived-in feel of The Hill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-4",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Resilient Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the resilient, non-academic soul of the neighborhood in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-5",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Contrasting Worlds"
+      },
+      "prompt": {
+        "en": "Capture a shot that shows the visual contrast between the imposing medical campus and the surrounding residential homes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-6",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Local Landmark"
+      },
+      "prompt": {
+        "en": "Photograph a local church, community center, or corner store that seems to be a pillar of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-7",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Home Style"
+      },
+      "prompt": {
+        "en": "Find a house with unique character—interesting paint, a welcoming porch, or a well-loved garden. Capture what makes it feel like a home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-8",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "A Welcoming Sign"
+      },
+      "prompt": {
+        "en": "Take a photo of a sign for a local, family-owned business. Capture the personality of the sign itself."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-9",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "The Heart of the Block"
+      },
+      "prompt": {
+        "en": "Take a photo down a residential street, trying to capture the feeling of a tight-knit community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-10",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Generations"
+      },
+      "prompt": {
+        "en": "Find a scene that suggests the neighborhood's deep history, like an old building with modern cars parked in front."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-11",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Urban Green"
+      },
+      "prompt": {
+        "en": "Photograph a small park, a tree-lined sidewalk, or a community garden plot. Capture how nature fits into the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-12",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Details of Daily Life"
+      },
+      "prompt": {
+        "en": "Capture a small detail that points to the daily life of residents: a basketball hoop, a porch swing, or a welcome mat."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-13",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Architectural Survivor"
+      },
+      "prompt": {
+        "en": "Find an old building that seems to have a lot of stories to tell. Take a portrait of the building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-14",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "Sounds of the Neighborhood"
+      },
+      "prompt": {
+        "en": "You can't photograph sound, but you can photograph its source. Capture an image of something that represents the sounds of The Hill."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "the-hill-task-15",
+      "neighborhood_id": "the-hill",
+      "title": {
+        "en": "My Hill Story"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that, to you, best captures the 'deep community roots' of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-1",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Waterfront Character"
+      },
+      "prompt": {
+        "en": "Take a photo of the Quinnipiac River, making sure to include boats, a bridge, or the shoreline to capture the maritime vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-2",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Historic Home Portrait"
+      },
+      "prompt": {
+        "en": "Find a beautifully preserved 18th or 19th-century house in the historic district and take a photo of its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-3",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Maritime Detail"
+      },
+      "prompt": {
+        "en": "Find a small detail that speaks to the neighborhood's oystering or shipbuilding past—an anchor, a coil of rope, a boat-related sign."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-4",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Seaside Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the river and the working waterfront in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-5",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Take a photo from or of the Grand Avenue Bridge. Capture its structure or the view it offers."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-6",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Taste of the Sea"
+      },
+      "prompt": {
+        "en": "Photograph your meal or drink from a local seafood spot. Capture the freshness of the coast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-7",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Find a local, non-chain business with a unique storefront. Take a photo that captures its independent character."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-8",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "River Reflection"
+      },
+      "prompt": {
+        "en": "On a calm day, capture the reflection of the sky, boats, or buildings on the surface of the Quinnipiac River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-9",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "A Room with a View"
+      },
+      "prompt": {
+        "en": "Photograph a house or building that seems to have the best view of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-10",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Neighborhood Colors"
+      },
+      "prompt": {
+        "en": "Find a house or boat with a distinctive color scheme and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-11",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Peace by the Water"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot in a riverside park and take a photo that conveys a sense of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-12",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Working Waterfront"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows this is still a working waterfront—a fishing boat, a dock, or industrial buildings by the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-13",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Historic Streetscape"
+      },
+      "prompt": {
+        "en": "Take a photo down a street in the historic district, trying to frame the shot with as many old homes as possible."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-14",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "Sunset on the Quinnipiac"
+      },
+      "prompt": {
+        "en": "If you're here at the right time, capture the colors of the sunset over the river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    },
+    {
+      "id": "fair-haven-task-15",
+      "neighborhood_id": "fair-haven",
+      "title": {
+        "en": "My Fair Haven View"
+      },
+      "prompt": {
+        "en": "Take a photo of the view or detail that you feel best captures the proud, maritime identity of Fair Haven."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:42:41.970858+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

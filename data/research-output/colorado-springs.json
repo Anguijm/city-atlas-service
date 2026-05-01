@@ -1,0 +1,932 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-old-north-end",
+      "city_id": "colorado-springs",
+      "name": {
+        "en": "Downtown & The Old North End"
+      },
+      "summary": {
+        "en": "The city's historic and creative core, blending turn-of-the-century architecture with a bustling, modern scene of brewpubs, museums, and a thriving geek culture."
+      },
+      "lat": 38.8415,
+      "lng": -104.8235,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside",
+      "city_id": "colorado-springs",
+      "name": {
+        "en": "The Historic Westside"
+      },
+      "summary": {
+        "en": "A nostalgic trip from the Old West frontier to a quirky, vintage arcade town, exploring the region's early tourism and entertainment history."
+      },
+      "lat": 38.855,
+      "lng": -104.885,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills",
+      "city_id": "colorado-springs",
+      "name": {
+        "en": "The Southern Foothills"
+      },
+      "summary": {
+        "en": "A blend of Gilded Age grandeur and dramatic natural landscapes, where high-society leisure meets niche museums at the base of Cheyenne Mountain."
+      },
+      "lat": 38.795,
+      "lng": -104.86,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-old-north-end-enr-dungeons-and-java",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Dungeons and Java"
+      },
+      "description": {
+        "en": "A haven for the tabletop gaming community, this unique coffee shop is the perfect place to grab a latte while watching an intense Dungeons & Dragons campaign unfold."
+      },
+      "type": "hidden_gem",
+      "lat": 38.8388,
+      "lng": -104.8251,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-enr-phantom-canyon-brewing-co",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Phantom Canyon Brewing Co."
+      },
+      "description": {
+        "en": "The city's original brewpub, housed in the magnificent 1901 Cheyenne Building, offering house-brewed beers in a classic, multi-level pub setting."
+      },
+      "type": "drink",
+      "lat": 38.8336,
+      "lng": -104.8231,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-enr-heart-of-jerusalem-cafe",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Heart of Jerusalem Cafe"
+      },
+      "description": {
+        "en": "A no-frills, independent spot praised by locals for its authentic Middle Eastern cuisine and genuine community spirit."
+      },
+      "type": "food",
+      "lat": 38.8395,
+      "lng": -104.8215,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-enr-monument-valley-park",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Monument Valley Park"
+      },
+      "description": {
+        "en": "This sprawling urban park along Monument Creek is the city's green lung, offering beautiful walking paths with views of the Pikes Peak backdrop."
+      },
+      "type": "nature",
+      "lat": 38.8451,
+      "lng": -104.8283,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-enr-tahama-spring",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Tahama Spring"
+      },
+      "description": {
+        "en": "Discover the original mineral spring that gave the city its name, a subtle and often-overlooked piece of foundational history located within Monument Valley Park."
+      },
+      "type": "landmark",
+      "lat": 38.842,
+      "lng": -104.8275,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-enr-colorado-springs-pioneers-museum",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Colorado Springs Pioneers Museum"
+      },
+      "description": {
+        "en": "Housed in the stunning 1903 El Paso County Courthouse, this museum is a treasure trove of regional history, offering a quiet, thoughtful counterpoint to the city's outdoor adventures."
+      },
+      "type": "culture",
+      "lat": 38.832,
+      "lng": -104.8226,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-enr-colorado-springs-fine-arts-center-at-colorado-college",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Colorado Springs Fine Arts Center at Colorado College"
+      },
+      "description": {
+        "en": "An incredible example of Art Deco architecture, this cultural center houses a superb collection of Southwestern art and a freely accessible outdoor sculpture garden."
+      },
+      "type": "culture",
+      "lat": 38.8445,
+      "lng": -104.8248,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-enr-old-north-end-victorian-homes",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "downtown-old-north-end",
+      "name": {
+        "en": "Old North End Victorian Homes"
+      },
+      "description": {
+        "en": "Stroll through the historic Old North End to admire the grand, turn-of-the-century Victorian homes that showcase the city's foundational wealth and architecture."
+      },
+      "type": "landmark",
+      "lat": 38.8552,
+      "lng": -104.825,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-enr-old-colorado-city-historic-district",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "historic-westside",
+      "name": {
+        "en": "Old Colorado City Historic District"
+      },
+      "description": {
+        "en": "Walk through the original capital of the Colorado Territory, where restored brick buildings from the Old West now house independent art galleries, workshops, and boutiques."
+      },
+      "type": "landmark",
+      "lat": 38.8425,
+      "lng": -104.8578,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-enr-manitou-springs-penny-arcade",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "historic-westside",
+      "name": {
+        "en": "Manitou Springs Penny Arcade"
+      },
+      "description": {
+        "en": "A sprawling, block-long collection of hundreds of coin-operated games, from 1930s mechanical wonders to classic 80s video games—a joyous piece of preserved Americana."
+      },
+      "type": "hidden_gem",
+      "lat": 38.8585,
+      "lng": -104.913,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-enr-manitou-cliff-dwellings",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "historic-westside",
+      "name": {
+        "en": "Manitou Cliff Dwellings"
+      },
+      "description": {
+        "en": "Explore authentic Anasazi ruins relocated here in the early 1900s, offering a tangible connection to a history that predates the Old West by centuries."
+      },
+      "type": "landmark",
+      "lat": 38.861,
+      "lng": -104.9311,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-enr-art-galleries-of-old-colorado-city",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "historic-westside",
+      "name": {
+        "en": "Art Galleries of Old Colorado City"
+      },
+      "description": {
+        "en": "Discover dozens of independent art galleries and workshops housed in historic buildings, many featuring the work of local Colorado artists."
+      },
+      "type": "shopping",
+      "lat": 38.8426,
+      "lng": -104.859,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-enr-manitou-springs-town",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "historic-westside",
+      "name": {
+        "en": "Manitou Springs Town"
+      },
+      "description": {
+        "en": "Explore the quirky, canyon-tucked town of Manitou Springs, the heart of the region's early tourism and entertainment history."
+      },
+      "type": "landmark",
+      "lat": 38.859,
+      "lng": -104.915,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-enr-w-colorado-avenue",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "historic-westside",
+      "name": {
+        "en": "W Colorado Avenue"
+      },
+      "description": {
+        "en": "Walk the main street of Old Colorado City, once a bustling hub of saloons and supply stores, now the center of a charming historic district."
+      },
+      "type": "landmark",
+      "lat": 38.8425,
+      "lng": -104.8585,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-enr-historic-saloon-fronts",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "historic-westside",
+      "name": {
+        "en": "Historic Saloon Fronts"
+      },
+      "description": {
+        "en": "Imagine the Old West by observing the restored 19th-century architecture that once housed the region's bustling saloons and supply stores."
+      },
+      "type": "landmark",
+      "lat": 38.8424,
+      "lng": -104.857,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-enr-the-golden-bee",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "southern-foothills",
+      "name": {
+        "en": "The Golden Bee"
+      },
+      "description": {
+        "en": "An authentic 19th-century English pub disassembled and shipped to Colorado, known for its yards of ale and boisterous nightly ragtime piano singalongs."
+      },
+      "type": "drink",
+      "lat": 38.7925,
+      "lng": -104.8508,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-enr-world-figure-skating-museum-hall-of-fame",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "southern-foothills",
+      "name": {
+        "en": "World Figure Skating Museum & Hall of Fame"
+      },
+      "description": {
+        "en": "A surprisingly captivating hidden gem showcasing stunning costumes, historic skates, and the legacy of skating champions who trained in Colorado Springs."
+      },
+      "type": "culture",
+      "lat": 38.8025,
+      "lng": -104.8488,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-enr-glen-eyrie-castle",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "southern-foothills",
+      "name": {
+        "en": "Glen Eyrie Castle"
+      },
+      "description": {
+        "en": "The original 1871 Tudor-style stone castle of the city's founder, an architectural marvel tucked into a private canyon with dramatic red rock formations."
+      },
+      "type": "landmark",
+      "lat": 38.8755,
+      "lng": -104.8788,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-enr-helen-hunt-falls",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "southern-foothills",
+      "name": {
+        "en": "Helen Hunt Falls"
+      },
+      "description": {
+        "en": "An easily accessible, picturesque 35-foot waterfall in North Cheyenne Cañon Park that is a local favorite for a quick escape into nature."
+      },
+      "type": "nature",
+      "lat": 38.7775,
+      "lng": -104.888,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-enr-the-broadmoor",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "southern-foothills",
+      "name": {
+        "en": "The Broadmoor"
+      },
+      "description": {
+        "en": "A famous, grand resort at the base of the mountains that embodies the area's history of high-society leisure and Gilded Age elegance."
+      },
+      "type": "landmark",
+      "lat": 38.792,
+      "lng": -104.8515,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-enr-cheyenne-mountain-base",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "southern-foothills",
+      "name": {
+        "en": "Cheyenne Mountain Base"
+      },
+      "description": {
+        "en": "Experience the dramatic landscape where the city meets the Rocky Mountains, offering stunning views and easy access to nature trails."
+      },
+      "type": "nature",
+      "lat": 38.775,
+      "lng": -104.86,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-enr-north-cheyenne-canon-park",
+      "city_id": "colorado-springs",
+      "neighborhood_id": "southern-foothills",
+      "name": {
+        "en": "North Cheyenne Cañon Park"
+      },
+      "description": {
+        "en": "A stunning city park that offers dramatic canyon scenery, hiking trails, and picturesque waterfalls just a short drive from downtown."
+      },
+      "type": "nature",
+      "lat": 38.785,
+      "lng": -104.885,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-old-north-end-task-1",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Historic & Modern Mashup"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic, turn-of-the-century building is right next to a piece of modern street art or a contemporary business. Capture the contrast in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-2",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Look up! Find an interesting architectural detail on one of the old buildings—a gargoyle, a unique window, or ornate stonework—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-3",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Creative Culture Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a place that represents the neighborhood's creative or geek culture, like a gallery, game store, or public art installation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-4",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Find a local, independent cafe or eatery. Take a photo of your order that captures the unique vibe of the place."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-5",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Victorian Dream Home"
+      },
+      "prompt": {
+        "en": "Wander through the Old North End and find the Victorian house you'd most like to live in. Snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-6",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Urban Nature"
+      },
+      "prompt": {
+        "en": "Capture a moment where nature and the city meet. This could be a tree growing against a brick wall, flowers in a window box, or a view of the mountains between buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-7",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker on a building or in a park. Take a photo and share one interesting fact you learned from it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-8",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Local Brew"
+      },
+      "prompt": {
+        "en": "Find a local brewery or coffee shop and take a photo of your drink with the establishment's logo or unique interior in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-9",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Art Deco Lines"
+      },
+      "prompt": {
+        "en": "Find a building with Art Deco architecture. Take a photo that emphasizes its strong geometric lines and patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-10",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a place where locals are gathering, whether it's a park bench, a busy cafe, or a museum entrance. Capture the sense of community."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-11",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Reflection Shot"
+      },
+      "prompt": {
+        "en": "Use a puddle, a window, or a pair of sunglasses to capture a reflection of the downtown streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "downtown-old-north-end-task-12",
+      "neighborhood_id": "downtown-old-north-end",
+      "title": {
+        "en": "Hidden History Quest"
+      },
+      "prompt": {
+        "en": "Find a sign or detail that hints at a building's former life—an old painted advertisement, a cornerstone with a date, or an unusual name."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-1",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Old West Postcard"
+      },
+      "prompt": {
+        "en": "Frame a shot of the historic main street that looks like it could be a postcard from the 1880s. Try to include old brick buildings and a view of the mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-2",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Vintage Vibes"
+      },
+      "prompt": {
+        "en": "Find something that feels like a relic from another time—a vintage sign, an old-school arcade game, or a classic car. Capture its nostalgic charm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-3",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Artisan's Touch"
+      },
+      "prompt": {
+        "en": "Peer into an art gallery or workshop window and take a photo of a piece of local art that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-4",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Alleyway Explorer"
+      },
+      "prompt": {
+        "en": "Find a quiet alleyway and take a photo that captures the textures of old brick, fire escapes, and maybe a glimpse of the sky or mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-5",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Frontier Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a building that looks like it could have been a saloon or a general store in the Old West."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-6",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Taste of the Territory"
+      },
+      "prompt": {
+        "en": "Find a shop selling old-fashioned candy, ice cream, or another classic treat. Snap a photo of your nostalgic snack."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-7",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Listen to the Past"
+      },
+      "prompt": {
+        "en": "Find a quiet spot, close your eyes for a moment, and imagine the sounds of this street 150 years ago. Take a photo of the view from your spot."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-8",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Quirky Discovery"
+      },
+      "prompt": {
+        "en": "Photograph the most unusual or quirky thing you can find, whether it's a strange souvenir, a funny sign, or an odd piece of decor."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-9",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Mountain Frame"
+      },
+      "prompt": {
+        "en": "Use a doorway, window, or archway to frame a photo of the mountains in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-10",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a brightly colored storefront, door, or sign that stands out against the historic brick and stone. Make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-11",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of light and shadow cast by an old building, awning, or balcony."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "historic-westside-task-12",
+      "neighborhood_id": "historic-westside",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different interesting signs you find in the neighborhood—they can be historic, neon, or hand-painted."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-1",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Gilded Age Grandeur"
+      },
+      "prompt": {
+        "en": "Find an example of grand, elegant architecture and take a photo that captures its scale and opulence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-2",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Nature's Edge"
+      },
+      "prompt": {
+        "en": "Capture a photo where manicured gardens or grand buildings meet the wild, rugged landscape of the foothills."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-3",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Elegant Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a location that feels luxurious or historic, like in front of a castle, a grand hotel, or a beautiful fountain."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-4",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Red Rock Texture"
+      },
+      "prompt": {
+        "en": "Find a natural red rock formation and take a close-up photo that highlights its color and texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-5",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "A Moment of Zen"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot—by a waterfall, in a garden, or on a quiet trail—and take a photo that conveys a sense of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-6",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Champion's View"
+      },
+      "prompt": {
+        "en": "Find a spot with an inspiring view and take a photo. Imagine you're an athlete training here—what do you see?"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-7",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "The Sound of Water"
+      },
+      "prompt": {
+        "en": "Find a source of moving water, like a waterfall or a creek. If you can, use a slow shutter speed to capture the motion of the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-8",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "A Taste of Elegance"
+      },
+      "prompt": {
+        "en": "Find a place that serves a fancy drink or a delicate pastry. Photograph it in its elegant setting."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-9",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Hidden Gem Hunt"
+      },
+      "prompt": {
+        "en": "Look for a small, unexpected detail that reveals the area's unique character—a niche museum sign, a historic plaque, or an unusual sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-10",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Path to Adventure"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a hiking trail, a winding road, or a garden path that disappears into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-11",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Skyline Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the silhouette of the mountains, a castle turret, or a unique tree against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    },
+    {
+      "id": "southern-foothills-task-12",
+      "neighborhood_id": "southern-foothills",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Photograph a historic building or landmark from a modern perspective, perhaps including a contemporary car or person in the frame to show the passage of time."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:59:37.745185+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

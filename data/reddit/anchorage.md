@@ -23,38 +23,74 @@ I'm happy to verify my employment record to mods, if necessary, and AGDC is a st
 ### Top comments
 
 - u/Shirofang (110): Op, if you think you were retaliated against, your best bet would be submitting a complaint to AK Dept. of Labor.
-- u/Sad_Bed_5263 (85): As an alaskan native who works in the oil fields, you have my gratitude and respect. Thanks stranger
-- u/Disastrous-Pain-2367 (63): I just want to emphasize I seek no gain or recognition from this. However, to observe overt racism and not say something is to be complicit in that racism. 
+- u/Sad_Bed_5263 (86): As an alaskan native who works in the oil fields, you have my gratitude and respect. Thanks stranger
+- u/Disastrous-Pain-2367 (62): I just want to emphasize I seek no gain or recognition from this. However, to observe overt racism and not say something is to be complicit in that racism. 
 
 If any one of us had made comments of this nature, the likely outcome would have been immediate termination. Much less said to a guest to our state. Even more, from a person of leadership in a state corporation.
 
 As the line goes "If you see something, say something."
 
 I'm saying something.
-- u/804449 (35): Thank you for speaking up and calling out racism.
-- u/Alaska_Jack (32): What the heck. Native Alaskans have not just one but SEVERAL vibrant cultures, each distinct in their own ways. What an incredibly ignorant thing to say.
+- u/804449 (34): Thank you for speaking up and calling out racism.
+- u/Alaska_Jack (33): What the heck. Native Alaskans have not just one but SEVERAL vibrant cultures, each distinct in their own ways. What an incredibly ignorant thing to say.
 
-## Dunleavy has to go
+## GCI's monopoly is an absolute menace to society
 
-What an asshole. I’m getting really tired of politicians actively destroying the good things in our society; things we all want, for the sake of their own twisted bullshit.
+No real competition. No meaningful alternatives. If you want usable internet, you pay them. Period. Because of that, they can charge hundreds of dollars a month for service that is mediocre at best, unreliable at worst, and comes with zero accountability. Outages are labeled unexpected. Customer service is a maze designed to exhaust you until you give up.
 
-Everyone knows and agrees that schools need more money. Of course they do! Everything is more expensive now. The whole legislature is eager to raise the BSA, and he vetoes it, again! So instead we can give more money to home schools, which is a vast minority of the student population. We all get less for our kids, these few get way more, or nobody gets nothing.
+And what incentive do they have to improve? None. You cannot leave, and they know it. They price accordingly.
+
+Internet access is no longer a luxury. It is required for work, school, healthcare, government services, and basic participation in modern society. Yet we allow GCI to treat it like a premium add on, extracting as much money as possible from people who literally have no choice. This is not a free market. This is regulatory failure. It is what happens when critical infrastructure is privatized without competition, oversight, or consequences. We would never accept this model for electricity or water, yet somehow it is fine for the thing that powers nearly every aspect of daily life. The worst part is that everyone knows this is happening, and nothing changes. These companies post record profits while customers are told to upgrade or restart the modem. Until competition or regulation is forced into these markets, they will keep doing exactly what monopolies always do. Charge more. Deliver less. Dare you to complain.
 
 ### Top comments
 
-- u/newtrawn (139): With 4 kids in the public school system in Alaska, I can't agree more. This dipshit has all the wrong priorities for our state, it seems.
-- u/mjh410 (49): Unfortunately not everyone knows this. Quite often the comments in threads about AK education funding is against giving more money to the BSA. They always quote the same thing, that we have the lowest test scores in the country and among the most money per student so throwing more money at the problem isn't going to change anything. That's their go to.
+- u/Important-Lead5652 (72): I turn the WiFi off on my phone when I’m at home because my 5Ge is faster than my GCI WiFi 🙃
+- u/MindfuckRocketship (38): I took a Lyft ride a few weeks ago and the driver said he’s a GCI network engineer. He told me he uses Cricket Wireless (owned by AT&amp;T) for his cell phone plan because it’s a better deal and, when I complained about GCI’s very frequent internet issues, he said GCI focuses on improving maximum network speed while not spending enough time and money on regular maintenance, hence the frequent instability. He agreed that it’s because of their monopoly. 
 
-I wish more people would see the reality of the situation and recognize that inflation has driven up costs of everything and the money schools get isn't enough to pay for it all. I moved up here to teach and as of right now I'm not getting a contract for next year. So I'm likely to be without a job and have to figure out what to do next. I enjoy what I do and I wanted to live here and now 2.5 years later I'm beginning to think moving here was a mistake.
-- u/thewharfartscenter_ (25): I know it’s not much consolation, but he’s out as of November 2026. He’s not going anywhere in the meantime, unfortunately.
-- u/Autoimmunity (10): It truly does suck but rather than screaming that Dunleavy is evil you should actually look at why he keeps vetoing these bills.  It's all about revenue.  The governor is not going to approve a budget that requires the state to take on more debt or make more short sided withdrawals from the permanent fund.  Oil prices crashed recently and so state revenues are low.  We need to increase revenue to be able to fund our schools.  Call your representatives and the Governor's office and demand that they tax Hillcorp and we'll solve this problem.
-- u/Ok-Inspection7355 (6): Politicians like Dunleavy are "successful" because they know how to harness people's resentment toward others with less responsibility. And it's successful as hell. I see it in this thread right now.
+He said GCI has gone as far as buying cell towers incompatible with GCI’s network strictly to prevent a competitor (Verizon) from expanding/improving their cellular network in Alaska. GCI didn’t bother retrofitting them to add to their network—the purchases were to keep the assets away from the competition, nothing else. Wild.
+- u/Alaska_Jack (37): I've said for a long time -- if you are an Alaska politician, and want to do something very popular, campaign on breaking up the GCI monopoly.
+- u/akrdubbs (24): Borealis Broadband is worth a look. Excellent local customer service, but you do need a (small) dish installed and LOS to their tower. We have them at work for years and it’s been excellent.
+- u/DMaybes (22): This is capitalism at work!  This is what our society is based on.  Take basic needs and find ways to charge as much as the people will pay for it.
 
-"Someone else" is always getting the money like those liberal arts teachers, or special education kids, or administrators. Which conveniently for Dunleavy, oversimplifies the issue to the point where we all just end of fighting each other. 
+## Confronting Rosales at the HALO Forum
 
-The truth is if you want to know where the money is going it's pretty much all online. The problem is that we fund education in such a piece-meal mess that you'll need to know the details of dozens of funding sources. Grants for migrant education, ESL learners, IDEA funding, Medicaid. All with their own complex accountability measures. IDEA, for example, is a civil rights law with both programmatic and fiscal requirements. It's also been flat funded for 20 years and has never been funded to the level Congress said it would contribute which means state and local education agencies have to pick up the slack as more and more children are identified as needing support. That results in more administration costs because now you need someone to chase down funds to shore up the difference, meet the requirements of that new fund source, AND still track and spend the IDEA funds as required by law. 
+So a bunch of Anchorage citizens showed up as planned to ask white nationalist school board candidate Alexander Rosales about his long track record of bigoted and degrading remarks, and beteeen the 6-8 of us who showed we probably submitted 12 questions, written in advance, to the moderators, per procedure. 
 
-It is incredibly complex and everyone thinks they have the right answer. I certainly don't know what the answer is but I see a lot of resentment in this debate and I know that's the wrong answer.
+The moderator asked NONE of them: he said he had a stack of questions but would ask one, clearly his own, which would “allow you to address all of it.”  The question was about whether parents should be informed about a child questioning gender, which allowed him to give a reasonable-sounding response that it was an issue bwteeen parents and child and the district shouldn’t be involved. 
+
+As they then moved on to pre-written yes or no questions, I objected: “Are you really not going to ask any of the dozen questions I know community members have asked about this man’s bigotry?”  
+
+Friends, you would not believe (or maybe you would) how angry the middle-aged white homeowners running this forum got.  One woman, HALO president Katie Nolan, angrily said—I am not making this up—“this is a NICE forum, we don’t do that here.”  The moderator stopped the process, walked over to where I was sitting, and told me he had a whole stack of questions and didn’t have time for all, that this was over, and if there was any more they would contact APD and have me escorted off the premises because it was so important to have an orderly process.
+
+They then went back for a round of “fun questions,” at which point I said, “So you have time for fun questions but none of the questions people actually asked?” and was met with more threats of arrest. 
+
+Soon after, a woman with a trans child spoke to Rosales after he left the stage, and he told her she was an abusive parent. She told Miss Nice Forum that, but she was unmoved—although she \*did\* say that APD had been contacted and were on their way (they never came). 
+
+At the end, Miss Nice Forum told me I was trespassed from all future HALO events and would be arrested if I showed up.  I also spoke to the moderator, who told me he couldn’t ask the kind of questions we had submitted because it wasn’t that kind of forum—that is to say, when earlier claimed he didn’t have time, he was lying : he just didnt \*want\* to ask them.  He was never going to. He explained that wanted to “focus on issues that concern this community,” which was as depressing a window into this mindset as I’ve ever gotten: the idea that questions of budgeting and school closures are what really matters and affirming the dignity of all students is a meaningless distraction that doesn’t count.  How, I said, in a district with hundreds of Muslim families, could naked and rampant Islamophobia not be relevant?  How could the questions we ourselves asked not be what the community wanted to hear? 
+
+But what struck me was just how \*angry\* these wealthy homeowners were—not that there was a Nazi running for school board, but that people wanted to ask the Nazi challenging questions about his own words.  I am not exaggerating or joking when I say this is the sort of mindset that led to the Holocaust.  The Holocaust didn’t happen because there were a couple thousand dedicated Nazis, it happened because there were a couple thousand dedicated Nazis AND ALSO millions of Good Germans who would rather accept Nazism than kick up a storm, and not only that but who were deeply offended when the targets of Nazi bullshit did kick up a storm, because We Don’t Do That Here. 
+
+In a city the size of Anchorage, fringe candidates with hateful views are going to run from time to time: it’s a thing that happens.  But watching respectable citizens go out of their way to provide cover for a hateful bigot?  To treat him like a normal candidate whose publicly-stated views on Jews, Muslims, women, black folks, and trans kids are somehow  off-limits because it would be rude to talk about them?  To me that is a FAR more disturbing phenomenon, and I cannot emphasize enough how contemptuous I am of leading citizens who think it’s worse to be confrontational than it is to be a Nazi
+
+### Top comments
+
+- u/Upset-Word151 (87): Thank you for going, for asking the questions, and confronting these assholes. And for posting this. Just reading it got me angry, I can’t even imagine how angry you (and other non-Nazis) were there. 
+
+The absolute racism and bigotry in this state and among the wealthy whites is so fucking disgusting. What’s the point of a forum if it’s just softball questions to make someone look like a sane candidate? Everything is performative and I fucking hate it.
+- u/Trenduin (53): Who was moderating?
+
+No surprise on Katie Nolan, she is a dire hard MAGA type and was part of the "Save Anchorage" facebook group and that group was openly racist and bigoted.  Save Anchorage along with folks like Demboski and Allard are directly responsible for Bronson's mayoral win.  Bronson appointed Katie to the election commission because of her support.
+
+HALO has an alarming number of extremist reactionary folks, its like a super community council and it seems to condense the worst parts of community councils into one. It's like being king of shit mountain.
+
+Edit - OP didn't answer/know so I asked around. Katie Nolan's husband was the moderator, so no surprise on what happened.
+- u/ArtioBishop (43): I am the woman with the trans child. This man also did not deny writing on social media that trans kids should be banned and their parents jailed and castrated. He said I needed to read the entire post for context. As if there is an appropriate context for that remark. 
+
+Also, in Eagle River, vote for Kyle Walker for Assembly. He’s running against Donald Handleland, who is endorsed by the Jamie Allard Crowd. I’ve met with Kyle 1:1 and he’s definitely the better candidate.
+- u/Toxicologie (33): How dare you threaten the narrative they wrote for themselves! Jk, thank you so much for showing up and thank you for taking the time to write and share your experience here.
+- u/WanderingWorkhorse (27): "I can excuse a neo-nazi, but I draw the line at someone calling him out."
+/s
+Good work OP, thanks for showing up and supporting our neighbors. If I can help by showing up to the next meeting, where would I find out about that?
 
 ## Double Musky restaurant review: don't rush it, because you can't
 
@@ -64,27 +100,4 @@ I will briefly remark on the timeline, for those that are curious. We got there 
 
 We shared a drink and the Hot Crawfish Cheese Dip (spicy!) appetizer while waiting for that genuine, real table, and closed out our bar tab after about 70 minutes. We were seated at a dinner table next to the front window, which was nice. Other than the flies buzzing around that window about 8 inches from my face. It was a character building experience eating while shooing flies, but I wasn't expecting to eat and shoo them indoors eating a steak. But like I said, a more lowbrow experience. We were at our real table for about 50 minutes, so plan on about two hours plus for a minimum if it's busy. By about 7:30pm it had thinned out and some parking became available. 
 
-The dude strolling inside in Bermuda shorts and a ratty blue tank top looked like he had just come from the lake with uncombed hair, so no pretentious dressing up required. Keep it classy, Alaska. Ignoring the flies, the window did afford an excellent chance to people watch. Everyone from grandma in an orange pashmina shawl with a long skirt to dad with his jean shorts, T-shirt, and Keen sandals, plus bored junior climbing the rocks in the charming little garden out front will hold your eye should you stray from gazing into your dining companions eyes. This restaurant has a noisier vibe, people just seemed to be having a better time here than Crow's Nest, but yes, you could most certainly take your boss/in laws/Tinder fling here, too. As well as friends, as that seemed to be what many groups were comprised of.
-
-I will say there were lots of staff hustling around at all times with items for changing tables over and water pitchers and food, but our glasses got filled less often than I would have liked. The tables are rather close together and so getting in and out might be a trial for great grandma. No fancy tablecloths, but the napkins were cloth, so a hybrid approach to fine dining.
-
-I am glad we chose to be seated (temporarily) in the lounge, because it afforded me the chance to overhear a man asking for the bathroom be told, "Out there, second tree on the right," by the fella taking names and seating folks in line. He even pointed out the open door. The patron looked as if he took that answer seriously for a moment, before he was steered to the indoor facilities. I feel I must remark on those facilities but will try very hard not to launch into a diatribe on the subject. 
-
-But here I go anyway: Why do American restaurants/bars persist in having enormous cracks in the stalls? Do bathroom stall manufacturers not have the technology to machine a better fit than a one inch gap? Astronauts have gone to space, but the awkward stall crack size endures. I do not want to make eye contact with someone seated on a toilet while I am waiting to use the facilities, but that's just me, I guess. And when it was my turn in the stall, the toilet was so far forward my feet were almost beyond the stall door. Strange, and a bit humorous as horrors of the bathroom often are. I don't know the margins on fine dining establishments, but perhaps a bit of a remodel is due for modesty's sake. I will at least consider the second tree on the right next time, if the two toilet bathroom is busy.
-
-On to the food, as that is why we drove around 45 minutes (but what a beautiful drive!) to wait over 45 minutes to eat dinner. I got the Prime Filet combo, which besides the steak, included three large pan-fried prawns in seasoned panko crumbs and a side of roasted vegetables. If you read my review of The Peanut Farm, you will remember the appalling nature of the vegetable side there, so it was with both trepidation and expectation I picked up my fork and tried a broccoli floret. Never fear, reader! The sweet relief of some fork resistance and genuine flavor assuaged my doubts. The veg side was fully edible. The green dinner salad was nothing special and I thought the vinaigrette a bit sweet for my taste. The large dinner rolls seemed house made and were quite dense and tasty, but I added butter, and that is well known for making almost any roll more palatable. My dining companion didn't think they were anything special, but did continue to eat them, perhaps out of boredom, as the Cornish Game Hen they ordered had been eaten by then. 
-
-They were a bit overwhelmed with the presentation of a whole bird on their plate, and strategy was required to know where to start. The deeply admired garlic mashed potatoes were tucked away first, and then the bird was attacked with gusto. I thought the mashed potatoes were a bit heavy on the garlic taste, but to each their own. And my own favorite from my meal was surprisingly the shrimp. Usually the fried coating is greasy or sluffs off the shrimp in my experience, but I found the seasoned panko done beautifully, and can be more charitable toward that portion of my meal than my thick cut steak, which I found to be high quality, but had a bit of a "burned" taste. Hard to describe, and somewhat of a disappointment. (My favorite steak is still the one I had at ginger last year.) I feel I must mention I have had excellent steak here in the past.
-
-We did not leave without trying some dessert, as a servers were cleverly bringing a platter of them to show all the tables after their dinner. I did save a small space in my stomach for Cajun Delight and my companion had the Double Musky Pie. I think pecans are in both desserts, so this joint likes adding nuts, but as I enjoy pecans, I agree with their choice. My companion scraped their whipped cream/cool whip layer off the pie, but as an avowed whipped cream hater, it was not a particular slight against the food, just a personal choice. I've had Cajun Delight before (you can get these desserts at Tommy's Burger Stop in Anchorage and save yourself a drive if you have a hankering) and knew what to expect, so I cunningly paced myself and stopped before I felt overfull. 
-
-The drive back to Anchorage was beautiful, just world class scenery. And if one can avoid the drivers with ants in their pants, well worth a trip. Don't forget your wallet, as a dinner for two was about $150, not including drinks or tip.
-
-I would love to hear what your Double Musky experience has been. Do share!
-
-### Top comments
-
-- u/Smoothe_Loadde (80): Dress standards in AK have always been that way.  Can’t say I mind, I’ve stopped at the Musky on the way back from slaying salmon on the Peninsula, and nobody commented on my jeans and T shirt.  
-
-I always waited until I was sure there was fresh strawberry pie on the dessert tray at the Musky.  It’s a “don’t miss”.
-- u/back-rolls (38): I've been obsessed with the coconut salmon for ages, and I LOVE to make the "sweet and sour" sauce - grape jelly, mustard and horseradish! Never h
+The dude strolling inside in Bermuda shorts and a ratty blue tank top looked like he had just come from the lake with uncombed hair, so no pretentious dressing up required. Keep it classy, Alaska. Ignoring the flies, the window did afford an excellent chance to people watch. Everyone from grandma in an orange pashmina shawl with a long skirt to dad with his jean shorts, T-shirt, and Keen sandals, plus bored junior climbing the rocks in the charming little garden out front will hold your eye should you stray from gazing into your dining companions eyes. This restaurant has a noisier vibe, people just seemed to be having a bett

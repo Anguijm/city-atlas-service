@@ -1,0 +1,779 @@
+{
+  "neighborhoods": [
+    {
+      "id": "lowertown",
+      "city_id": "st-paul",
+      "name": {
+        "en": "Lowertown"
+      },
+      "summary": {
+        "en": "Gritty, creative, and historic. Lowertown is Saint Paul’s original warehouse district, where massive 19th-century buildings have been transformed into artist lofts, galleries, and unique public spaces."
+      },
+      "lat": 44.9485,
+      "lng": -93.088,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill",
+      "city_id": "st-paul",
+      "name": {
+        "en": "Summit Hill"
+      },
+      "summary": {
+        "en": "Grand, literary, and impeccably preserved. Summit Hill is a walk through the Gilded Age, featuring a stunningly long stretch of Victorian and Beaux-Arts mansions."
+      },
+      "lat": 44.938,
+      "lng": -93.125,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh",
+      "city_id": "st-paul",
+      "name": {
+        "en": "West Seventh"
+      },
+      "summary": {
+        "en": "Authentic, unpretentious, and deeply connected to the Mississippi River. This is one of the city's oldest neighborhoods, with a working-class and Irish-American heritage."
+      },
+      "lat": 44.9355,
+      "lng": -93.1155,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "lowertown-enr-the-black-dog",
+      "city_id": "st-paul",
+      "neighborhood_id": "lowertown",
+      "name": {
+        "en": "The Black Dog"
+      },
+      "description": {
+        "en": "More than just a cafe or bar, this is a cultural institution and a hub where local and European jazz musicians connect, with a deep, artistic soul."
+      },
+      "type": "culture",
+      "lat": 44.9495,
+      "lng": -93.0865,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-enr-chs-field",
+      "city_id": "st-paul",
+      "neighborhood_id": "lowertown",
+      "name": {
+        "en": "CHS Field"
+      },
+      "description": {
+        "en": "Home to the St. Paul Saints, this modern ballpark is masterfully integrated into the historic warehouse district, offering a fantastic juxtaposition of old and new architecture."
+      },
+      "type": "landmark",
+      "lat": 44.9505,
+      "lng": -93.0855,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-enr-schubert-club-museum-of-musical-instruments",
+      "city_id": "st-paul",
+      "neighborhood_id": "lowertown",
+      "name": {
+        "en": "Schubert Club Museum of Musical Instruments"
+      },
+      "description": {
+        "en": "Tucked away in the grand Landmark Center, this true hidden gem showcases a fascinating collection of historical keyboard instruments and correspondence from famous composers."
+      },
+      "type": "hidden_gem",
+      "lat": 44.9445,
+      "lng": -93.0945,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-enr-peanuts-character-statues",
+      "city_id": "st-paul",
+      "neighborhood_id": "lowertown",
+      "name": {
+        "en": "Peanuts Character Statues"
+      },
+      "description": {
+        "en": "Honoring cartoonist Charles M. Schulz, the city is dotted with decorated statues of characters like Snoopy and Charlie Brown, making for a city-wide scavenger hunt."
+      },
+      "type": "landmark",
+      "lat": 44.9485,
+      "lng": -93.088,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-enr-f-scott-fitzgerald-s-neighborhood",
+      "city_id": "st-paul",
+      "neighborhood_id": "summit-hill",
+      "name": {
+        "en": "F. Scott Fitzgerald's Neighborhood"
+      },
+      "description": {
+        "en": "The famous author was born and did much of his writing here. Walking along Summit and Dale Street, you trace his footsteps through the world of Midwestern wealth that shaped his novels."
+      },
+      "type": "culture",
+      "lat": 44.9395,
+      "lng": -93.1215,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-enr-james-j-hill-house",
+      "city_id": "st-paul",
+      "neighborhood_id": "summit-hill",
+      "name": {
+        "en": "James J. Hill House"
+      },
+      "description": {
+        "en": "The undisputed king of Summit Avenue, this red sandstone mansion was built for a railroad tycoon and serves as an anchor to understand the immense wealth that built the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 44.9415,
+      "lng": -93.1115,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-enr-alexander-ramsey-house",
+      "city_id": "st-paul",
+      "neighborhood_id": "summit-hill",
+      "name": {
+        "en": "Alexander Ramsey House"
+      },
+      "description": {
+        "en": "The home of Minnesota's first territorial governor, this mansion is a time capsule of 1870s life, filled with intricate details and a different flavor of Victorian opulence."
+      },
+      "type": "landmark",
+      "lat": 44.941,
+      "lng": -93.107,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-enr-summit-avenue",
+      "city_id": "st-paul",
+      "neighborhood_id": "summit-hill",
+      "name": {
+        "en": "Summit Avenue"
+      },
+      "description": {
+        "en": "The crown jewel of the neighborhood, this is a stunningly long stretch of well-preserved Victorian and Beaux-Arts mansions, perfect for slow strolls and architectural admiration."
+      },
+      "type": "landmark",
+      "lat": 44.938,
+      "lng": -93.13,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-enr-shamrocks",
+      "city_id": "st-paul",
+      "neighborhood_id": "west-seventh",
+      "name": {
+        "en": "Shamrocks"
+      },
+      "description": {
+        "en": "A neighborhood institution known for its lively atmosphere and classic pub fare. This is the quintessential local Irish pub for soaking in a friendly, no-frills vibe."
+      },
+      "type": "drink",
+      "lat": 44.936,
+      "lng": -93.123,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-enr-the-dubliner-pub",
+      "city_id": "st-paul",
+      "neighborhood_id": "west-seventh",
+      "name": {
+        "en": "The Dubliner Pub"
+      },
+      "description": {
+        "en": "A pillar of Saint Paul's Irish pub scene, celebrated for its authentic feel and commitment to live traditional music in a cozy, welcoming spot."
+      },
+      "type": "drink",
+      "lat": 44.9525,
+      "lng": -93.179,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-enr-wabasha-street-caves",
+      "city_id": "st-paul",
+      "neighborhood_id": "west-seventh",
+      "name": {
+        "en": "Wabasha Street Caves"
+      },
+      "description": {
+        "en": "A great secret, these sandstone caves were once a speakeasy frequented by gangsters. Taking a tour is a must for anyone interested in the city's hidden history."
+      },
+      "type": "hidden_gem",
+      "lat": 44.939,
+      "lng": -93.092,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-enr-harriet-island-regional-park",
+      "city_id": "st-paul",
+      "neighborhood_id": "west-seventh",
+      "name": {
+        "en": "Harriet Island Regional Park"
+      },
+      "description": {
+        "en": "A beautiful green space on the banks of the Mississippi, offering one of the best, most iconic views of the downtown Saint Paul skyline."
+      },
+      "type": "viewpoint",
+      "lat": 44.9395,
+      "lng": -93.089,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-enr-raspberry-island",
+      "city_id": "st-paul",
+      "neighborhood_id": "west-seventh",
+      "name": {
+        "en": "Raspberry Island"
+      },
+      "description": {
+        "en": "A small island in the Mississippi that feels like a secret hideaway, rewarding visitors with unique, ground-level views of the river and the downtown bridges."
+      },
+      "type": "nature",
+      "lat": 44.942,
+      "lng": -93.09,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "lowertown-task-1",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Industrial Echoes"
+      },
+      "prompt": {
+        "en": "Find a piece of old industrial machinery or a ghost sign on a brick wall and capture its story in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-2",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Artist's Eye"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a gallery window display that captures the creative spirit of Lowertown."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-3",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the unique texture and pattern of a 19th-century brick wall."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-4",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Modern Meets Historic"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a modern structure or sculpture against the backdrop of a historic warehouse."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-5",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Alleyway Secrets"
+      },
+      "prompt": {
+        "en": "Explore a hidden alley and capture an interesting detail others might miss, like unique graffiti or a winding fire escape."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-6",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Cafe Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of your coffee or drink at a local cafe, capturing the unique ambiance of the space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-7",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Find an old, interesting window on a warehouse building and take a creative photo of its reflection or the life inside."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-8",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Loft Life"
+      },
+      "prompt": {
+        "en": "Take a photo looking up at the large windows of the artist lofts, imagining the creative energy within."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-9",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Park Reprieve"
+      },
+      "prompt": {
+        "en": "Find a bench in a public square or park and take a selfie enjoying a quiet moment amidst the urban grit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-10",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Architectural Details"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail, like a cornice or a stone carving, on one of the old warehouses and photograph it up close."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-11",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Night Lights"
+      },
+      "prompt": {
+        "en": "Capture the glow of a neon sign or a warmly lit bar window after dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "lowertown-task-12",
+      "neighborhood_id": "lowertown",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Ask a local for their favorite lunch spot and take a picture of the meal you order there."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-1",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Gilded Age Grandeur"
+      },
+      "prompt": {
+        "en": "Find the most ornate, detailed Victorian mansion and take a photo that emphasizes its grand scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-2",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Literary Ghost"
+      },
+      "prompt": {
+        "en": "Find a quiet, tree-lined spot and take a thoughtful selfie, imagining F. Scott Fitzgerald walking the same street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-3",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Architectural Envy"
+      },
+      "prompt": {
+        "en": "Photograph a detail of a mansion that you'd love to have in your own home, like a stained-glass window or a wraparound porch."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-4",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "A Story in Stone"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on a home and take a picture of it, capturing a piece of the neighborhood's history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-5",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Manicured Nature"
+      },
+      "prompt": {
+        "en": "Capture the beauty of a perfectly landscaped garden or a majestic old tree in front of one of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-6",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Through the Wrought Iron"
+      },
+      "prompt": {
+        "en": "Frame a shot of a mansion through the bars of an ornate wrought-iron fence."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-7",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Summit Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on Summit Avenue with the long, impressive street stretching out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-8",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Afternoon Light"
+      },
+      "prompt": {
+        "en": "Capture the way the late afternoon sun hits the facade of a grand home, highlighting its textures and colors."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-9",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "A Walk with History"
+      },
+      "prompt": {
+        "en": "Take a photo of the sidewalk and towering trees, focusing on the path that generations have walked before."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-10",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Roofline Silhouettes"
+      },
+      "prompt": {
+        "en": "Point your camera upwards and capture the interesting shapes and silhouettes of the Victorian rooflines against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-11",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Find an inviting-looking porch and take a picture, imagining the conversations that have taken place there over the decades."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "summit-hill-task-12",
+      "neighborhood_id": "summit-hill",
+      "title": {
+        "en": "Seasonal Splendor"
+      },
+      "prompt": {
+        "en": "Capture how the current season—spring blossoms, summer green, autumn leaves, or winter snow—enhances the beauty of the architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-1",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Irish Pride"
+      },
+      "prompt": {
+        "en": "Find an Irish flag, a shamrock symbol, or the name of an Irish county on a sign or building and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-2",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "A Pint of Plain"
+      },
+      "prompt": {
+        "en": "Order a classic pint at a local pub and take a picture of it, capturing the cozy pub atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-3",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Find a spot with a clear view of the Mississippi River and take a photo that shows its power and importance to the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-4",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Skyline Postcard"
+      },
+      "prompt": {
+        "en": "From a park along the river, frame the perfect postcard shot of the downtown Saint Paul skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-5",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Neighborhood Character"
+      },
+      "prompt": {
+        "en": "Photograph a building or a local shop that you feel best represents the unpretentious, authentic vibe of West Seventh."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-6",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it could have a hidden history (like a speakeasy) and take a moody, atmospheric photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-7",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Bridge Portrait"
+      },
+      "prompt": {
+        "en": "Take a creative photo of one of the bridges crossing the Mississippi, focusing on its structure or its reflection in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-8",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Local Hangout"
+      },
+      "prompt": {
+        "en": "Take a selfie outside a neighborhood pub or restaurant that looks like it's been there for generations."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-9",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Find a quiet spot in a riverside park and take a photo of the natural scenery."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-10",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "Find a community notice board, a mural, or a sign that shows the strong local spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-11",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Hearty Fare"
+      },
+      "prompt": {
+        "en": "Order a classic pub meal and take a mouth-watering photo before you dig in."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    },
+    {
+      "id": "west-seventh-task-12",
+      "neighborhood_id": "west-seventh",
+      "title": {
+        "en": "Fort Road Story"
+      },
+      "prompt": {
+        "en": "Take a picture of a street sign for 'W 7th St' or 'Fort Rd' and try to capture the feel of one of the city's oldest thoroughfares."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:37:37.520697+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -1,0 +1,412 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-town",
+      "city_id": "key-west",
+      "name": {
+        "en": "Old Town"
+      },
+      "summary": {
+        "en": "Old Town is the historic heart of Key West, where the island’s true character reveals itself in pastel-painted bungalows, lush tropical gardens, and a palpable sense of history."
+      },
+      "lat": 24.5551,
+      "lng": -81.7984,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-town-enr-cuban-coffee-queen",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Cuban Coffee Queen"
+      },
+      "description": {
+        "en": "An institutional walk-up counter for potent, authentic Cuban coffee. Locals and savvy visitors alike come for the strong, sweet, and creamy cafe con leche."
+      },
+      "type": "drink",
+      "lat": 24.5615,
+      "lng": -81.8045,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-enr-the-roost",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "The Roost"
+      },
+      "description": {
+        "en": "A sophisticated cocktail bar tucked away just off Duval Street, offering a relaxed, intimate space for a well-crafted drink in a calmer atmosphere."
+      },
+      "type": "nightlife",
+      "lat": 24.5586,
+      "lng": -81.8037,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-enr-bobby-s-monkey-bar",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Bobby's Monkey Bar"
+      },
+      "description": {
+        "en": "A beloved, no-pretenses local dive bar where residents escape the tourist crowds. Expect strong drinks, good conversation, and a quirky, lived-in feel."
+      },
+      "type": "nightlife",
+      "lat": 24.5574,
+      "lng": -81.8021,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-enr-eaton-street-seafood-market",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Eaton Street Seafood Market"
+      },
+      "description": {
+        "en": "Part fish market, part casual eatery offering a direct line from the ocean to your plate. Enjoy a perfectly prepared fish sandwich or lobster roll with fresh, local catch."
+      },
+      "type": "food",
+      "lat": 24.56,
+      "lng": -81.8,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-enr-key-west-cemetery",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Key West Cemetery"
+      },
+      "description": {
+        "en": "A quirky and historic cemetery founded in 1847, famous for its above-ground tombs and witty epitaphs that offer a unique window into the island's personality."
+      },
+      "type": "landmark",
+      "lat": 24.5545,
+      "lng": -81.798,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-enr-the-smallest-bar-in-key-west",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "The Smallest Bar in Key West"
+      },
+      "description": {
+        "en": "Exactly what its name claims, this tiny bar is a fun and quirky novelty. Squeezing in for a quick key lime shot is a memorable rite of passage."
+      },
+      "type": "hidden_gem",
+      "lat": 24.558,
+      "lng": -81.803,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-enr-key-west-butterfly-and-nature-conservatory",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Key West Butterfly and Nature Conservatory"
+      },
+      "description": {
+        "en": "A magical, glass-enclosed habitat filled with hundreds of free-flying butterflies, tropical birds, and two resident flamingos. A serene and beautiful escape."
+      },
+      "type": "nature",
+      "lat": 24.5505,
+      "lng": -81.8,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-enr-key-west-library",
+      "city_id": "key-west",
+      "neighborhood_id": "old-town",
+      "name": {
+        "en": "Key West Library"
+      },
+      "description": {
+        "en": "A quiet, air-conditioned oasis that holds a special piece of local lore. Find the hidden gem: a framed letter from Jimmy Buffett thanking the library for its inspiration."
+      },
+      "type": "culture",
+      "lat": 24.5588,
+      "lng": -81.8015,
+      "trending_score": 65,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-town-task-1",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Pastel Palette"
+      },
+      "prompt": {
+        "en": "Find a house painted in your favorite pastel color and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-2",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Gingerbread Dreams"
+      },
+      "prompt": {
+        "en": "Capture a close-up shot of the most intricate 'gingerbread' trim you can find on a historic home."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-3",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Tropical Overgrowth"
+      },
+      "prompt": {
+        "en": "Find a spot where a lush tropical garden is overflowing onto the sidewalk and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-4",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Island Character Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a quirky piece of lawn art or a unique mailbox that captures the island's spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-5",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Rooster on the Loose"
+      },
+      "prompt": {
+        "en": "Key West is famous for its free-roaming chickens. Take a photo of a rooster strutting down the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-6",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Sun-Drenched Details"
+      },
+      "prompt": {
+        "en": "Capture a photo that plays with the bright sun and deep shadows on a piece of interesting architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-7",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Key Lime Quest"
+      },
+      "prompt": {
+        "en": "Find something key lime flavored (pie, drink, candy) and take a delicious-looking photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-8",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Nautical Nod"
+      },
+      "prompt": {
+        "en": "Photograph a detail that hints at the island's maritime history, like an anchor, a ship's wheel, or a nautical flag."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-9",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Capture the essence of 'porch life' by photographing an inviting-looking porch or veranda from a respectful distance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-10",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Quirky Signage"
+      },
+      "prompt": {
+        "en": "Find a funny or uniquely designed sign for a local business and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-11",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Colorful Ride"
+      },
+      "prompt": {
+        "en": "Take a photo of a brightly colored bicycle or scooter, a popular mode of transport here."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-12",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "One Human Family"
+      },
+      "prompt": {
+        "en": "The city's motto is 'One Human Family.' Find a sign, sticker, or flag with this motto and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-13",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Island Footwear"
+      },
+      "prompt": {
+        "en": "Take a 'from where I stand' photo of your shoes on a particularly interesting patch of pavement, tile, or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-14",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Literary Legend"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a place that looks like it could have inspired a famous writer."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-15",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Dive Bar Glow"
+      },
+      "prompt": {
+        "en": "Capture the neon glow of a local bar sign after the sun starts to set."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-16",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Shady Spot"
+      },
+      "prompt": {
+        "en": "Find a giant banyan tree or a palm-lined street and take a photo looking up through the leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-17",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque on a building you find interesting and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    },
+    {
+      "id": "old-town-task-18",
+      "neighborhood_id": "old-town",
+      "title": {
+        "en": "Artistic Expression"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, a small gallery window, or a mural and capture its creative energy."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T07:15:51.120910+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

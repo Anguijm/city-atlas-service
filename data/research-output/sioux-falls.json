@@ -1,0 +1,881 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "sioux-falls",
+      "name": {
+        "en": "Downtown Core & Phillips Avenue"
+      },
+      "summary": {
+        "en": "The historic and cultural heart of Sioux Falls, this area is a classic American main street with a lively mix of business, arts, and local life, famous for its ever-changing outdoor sculpture gallery."
+      },
+      "lat": 43.5479,
+      "lng": -96.7285,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park",
+      "city_id": "sioux-falls",
+      "name": {
+        "en": "Falls Park & The River Greenway"
+      },
+      "summary": {
+        "en": "The city's namesake and natural soul, where the Big Sioux River cascades over dramatic pink quartzite, offering a blend of rugged beauty, parkland, and repurposed industrial buildings."
+      },
+      "lat": 43.5553,
+      "lng": -96.7251,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial",
+      "city_id": "sioux-falls",
+      "name": {
+        "en": "The Augustana & Memorial Walk"
+      },
+      "summary": {
+        "en": "A quieter, contemplative walk for lovers of history and architecture, connecting the Augustana University campus with one of the state's most unique and monumental military memorials."
+      },
+      "lat": 43.5345,
+      "lng": -96.7412,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-enr-crawford-s-bar-grill",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Crawford's Bar & Grill"
+      },
+      "description": {
+        "en": "A downtown institution and go-to spot on Phillips Avenue for a classic meal in the middle of the action."
+      },
+      "type": "food",
+      "lat": 43.5468,
+      "lng": -96.7284,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-papa-woody-s-wood-fired-pizza",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Papa Woody's Wood Fired Pizza"
+      },
+      "description": {
+        "en": "A legendary local spot that famously won the city's annual 'Burger Battle' despite being a pizza place."
+      },
+      "type": "food",
+      "lat": 43.5498,
+      "lng": -96.7286,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-sculpturewalk",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "SculptureWalk"
+      },
+      "description": {
+        "en": "An outdoor gallery experience woven into the fabric of downtown, featuring dozens of sculptures from artists around the country."
+      },
+      "type": "culture",
+      "lat": 43.5485,
+      "lng": -96.7285,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-washington-pavilion-of-arts-and-science",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Washington Pavilion of Arts and Science"
+      },
+      "description": {
+        "en": "The city's cultural powerhouse, housed in a repurposed historic high school, containing a science museum, art galleries, and performance venues."
+      },
+      "type": "culture",
+      "lat": 43.5458,
+      "lng": -96.7319,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-site-of-the-ghost-of-the-zip-feed-mill",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Site of the 'Ghost' of the Zip Feed Mill"
+      },
+      "description": {
+        "en": "The location of a spectacularly failed demolition in 2005 that became a local legend known as the 'Leaning Tower of Zip'."
+      },
+      "type": "hidden_gem",
+      "lat": 43.5515,
+      "lng": -96.7225,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-orpheum-theater",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Orpheum Theater"
+      },
+      "description": {
+        "en": "A beautifully restored 1913 vaudeville house with an ornate marquee that adds old-world elegance to the streetscape."
+      },
+      "type": "culture",
+      "lat": 43.5448,
+      "lng": -96.7283,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-phillips-avenue",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Phillips Avenue"
+      },
+      "description": {
+        "en": "A classic American main street that serves as the historic and cultural heart of the city."
+      },
+      "type": "landmark",
+      "lat": 43.5475,
+      "lng": -96.7284,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-east-bank",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "East Bank"
+      },
+      "description": {
+        "en": "A developing area just a short walk from the downtown core, known as the former home of the legendary Zip Feed Mill."
+      },
+      "type": "landmark",
+      "lat": 43.5508,
+      "lng": -96.723,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-enr-historic-quartzite-buildings",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Historic Quartzite Buildings"
+      },
+      "description": {
+        "en": "The turn-of-the-century quartzite and brick buildings that line Phillips Avenue and define the city's historic architecture."
+      },
+      "type": "landmark",
+      "lat": 43.549,
+      "lng": -96.7285,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-enr-falls-park-observation-tower",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "falls-park",
+      "name": {
+        "en": "Falls Park Observation Tower"
+      },
+      "description": {
+        "en": "A five-story tower within the park offering panoramic views of the falls and the city skyline."
+      },
+      "type": "viewpoint",
+      "lat": 43.5545,
+      "lng": -96.7248,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-enr-remnants-of-the-queen-bee-mill",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "falls-park",
+      "name": {
+        "en": "Remnants of the Queen Bee Mill"
+      },
+      "description": {
+        "en": "The historic ruins of a mill that once harnessed the river's power, offering a glimpse into the area's industrial past."
+      },
+      "type": "landmark",
+      "lat": 43.5565,
+      "lng": -96.7255,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-enr-replica-of-michelangelo-s-david",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "falls-park",
+      "name": {
+        "en": "Replica of Michelangelo's David"
+      },
+      "description": {
+        "en": "An unexpected and surreal full-scale bronze replica of the Florentine masterpiece located in the leafy Fawick Park."
+      },
+      "type": "culture",
+      "lat": 43.5435,
+      "lng": -96.7265,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-enr-levitt-at-the-falls",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "falls-park",
+      "name": {
+        "en": "Levitt at the Falls"
+      },
+      "description": {
+        "en": "A state-of-the-art outdoor amphitheater that hosts over 50 free concerts each summer against the backdrop of the falls."
+      },
+      "type": "culture",
+      "lat": 43.5525,
+      "lng": -96.7235,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-enr-river-greenway",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "falls-park",
+      "name": {
+        "en": "River Greenway"
+      },
+      "description": {
+        "en": "A scenic trail system that runs along the Big Sioux River, connecting parks and offering beautiful views."
+      },
+      "type": "nature",
+      "lat": 43.5495,
+      "lng": -96.7258,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-enr-fawick-park",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "falls-park",
+      "name": {
+        "en": "Fawick Park"
+      },
+      "description": {
+        "en": "A leafy park adjacent to the downtown core, home to the city's famous replica of Michelangelo's David."
+      },
+      "type": "nature",
+      "lat": 43.5438,
+      "lng": -96.727,
+      "trending_score": 78,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-enr-pink-quartzite-formations",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "falls-park",
+      "name": {
+        "en": "Pink Quartzite Formations"
+      },
+      "description": {
+        "en": "The distinctive billion-year-old pink rock that defines the region's geology and creates the dramatic cascades of the falls."
+      },
+      "type": "nature",
+      "lat": 43.5558,
+      "lng": -96.7252,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-enr-replica-of-michelangelo-s-moses",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "augustana-memorial",
+      "name": {
+        "en": "Replica of Michelangelo's Moses"
+      },
+      "description": {
+        "en": "A powerful and impressive sculpture tucked away on the Augustana University campus, a true hidden gem that most guides miss."
+      },
+      "type": "hidden_gem",
+      "lat": 43.5225,
+      "lng": -96.74,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-enr-uss-south-dakota-battleship-memorial",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "augustana-memorial",
+      "name": {
+        "en": "USS South Dakota Battleship Memorial"
+      },
+      "description": {
+        "en": "A concrete outline of the entire main deck of the most decorated battleship of WWII, giving a profound sense of the vessel's immense scale."
+      },
+      "type": "landmark",
+      "lat": 43.544,
+      "lng": -96.755,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-enr-augustana-university-campus",
+      "city_id": "sioux-falls",
+      "neighborhood_id": "augustana-memorial",
+      "name": {
+        "en": "Augustana University Campus"
+      },
+      "description": {
+        "en": "The academic grounds that provide a quiet, contemplative setting for a walk among historic buildings and hidden art."
+      },
+      "type": "landmark",
+      "lat": 43.523,
+      "lng": -96.7395,
+      "trending_score": 72,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "Find a building that looks over 100 years old and take a photo that makes it look like it's from a different era."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Gallery Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a piece of public art from the SculptureWalk that matches your mood today."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Quartzite Close-up"
+      },
+      "prompt": {
+        "en": "Find a wall made of the local pink quartzite and take an artistic, close-up photo of its unique texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Reflections of Downtown"
+      },
+      "prompt": {
+        "en": "Capture a picture of a historic building's reflection in a modern glass window."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Local Flavor Quest"
+      },
+      "prompt": {
+        "en": "Ask a local shopkeeper for their favorite downtown lunch spot (that isn't in this guide!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a vintage-looking spot and take a photo of someone using a modern smartphone in front of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "As the sun gets lower, capture a long shadow cast by a sculpture or historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Downtown Details"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail that most people would walk right by—a unique doorknob, a carving, or a piece of ironwork."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Art Imitates Life"
+      },
+      "prompt": {
+        "en": "Find a sculpture of a person and try to mimic their pose for a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Soundtrack"
+      },
+      "prompt": {
+        "en": "Record a short video capturing the sounds of the city, from traffic to the occasional train horn."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a cool vintage or neon sign on a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Main Street Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the mix of business, art, and local life on Phillips Avenue."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-1",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Nature Meets City"
+      },
+      "prompt": {
+        "en": "Frame a photo that includes both the natural falls and a man-made structure like a bridge or building."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-2",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Power of Water"
+      },
+      "prompt": {
+        "en": "Take a slow-motion video of the water cascading over the pink quartzite rocks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-3",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Pink Rock Portrait"
+      },
+      "prompt": {
+        "en": "Find a piece of the iconic pink quartzite and take a photo of it, focusing on its unique color and texture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-4",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Greenway Perspective"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot from the river greenway path, making it look like it leads to an adventure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-5",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Sky Over the Sioux"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the sky in a calm part of the Big Sioux River."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-6",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Industrial Past"
+      },
+      "prompt": {
+        "en": "Find a remnant of an old industrial building and photograph it in a way that highlights its history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-7",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot away from the main crowds and take a selfie showing your moment of relaxation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-8",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Bridge Framing"
+      },
+      "prompt": {
+        "en": "Use one of the park's bridges to frame a beautiful view of the river or falls."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-9",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Sounds of the Park"
+      },
+      "prompt": {
+        "en": "Record the sound of the rushing water without any talking or city noise."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-10",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the hour before sunset, capture how the light changes the color of the quartzite rocks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-11",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Unexpected Art"
+      },
+      "prompt": {
+        "en": "Find something that isn't an official sculpture but looks like a piece of art (e.g., a twisted tree branch, a pattern in the rocks)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "falls-park-task-12",
+      "neighborhood_id": "falls-park",
+      "title": {
+        "en": "Panoramic Peace"
+      },
+      "prompt": {
+        "en": "Take a panoramic photo from a high point that captures the sweep of the park and river."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-1",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Monumental Scale"
+      },
+      "prompt": {
+        "en": "Take a photo of a large monument or building from a low angle to make it look even more immense."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-2",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Academic Air"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the feeling of being on a university campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-3",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "A Walk Through History"
+      },
+      "prompt": {
+        "en": "Find a plaque or historical marker and take a photo of it, focusing on a single, interesting phrase."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-4",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Hidden Gem Selfie"
+      },
+      "prompt": {
+        "en": "You've found a spot most tourists miss. Take a triumphant selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-5",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Contemplative Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or lawn and take a photo of your peaceful view."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-6",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Photograph the long shadow of a statue or memorial late in the day."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-7",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Architectural Lines"
+      },
+      "prompt": {
+        "en": "Find a building with interesting lines or angles and take an abstract architectural photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-8",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "The Weight of History"
+      },
+      "prompt": {
+        "en": "Take a photo that conveys a sense of solemnity or remembrance."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-9",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Knowledge Seeker"
+      },
+      "prompt": {
+        "en": "Pose as if you are a student deep in thought on the university campus."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-10",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Symbol of Service"
+      },
+      "prompt": {
+        "en": "Find a flag or other symbol of patriotism and capture it in a respectful photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-11",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Unusual Landmark"
+      },
+      "prompt": {
+        "en": "Take a photo of the most unexpected or unusual landmark you find on this walk."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    },
+    {
+      "id": "augustana-memorial-task-12",
+      "neighborhood_id": "augustana-memorial",
+      "title": {
+        "en": "Pathways to Learning"
+      },
+      "prompt": {
+        "en": "Photograph a campus walkway or path, focusing on where it leads the eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:27:53.556973+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

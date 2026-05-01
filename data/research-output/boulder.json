@@ -1,0 +1,423 @@
+{
+  "neighborhoods": [
+    {
+      "id": "central-district",
+      "city_id": "boulder",
+      "name": {
+        "en": "Central District: Downtown & Pearl Street Mall"
+      },
+      "summary": {
+        "en": "The energetic heart of Boulder, this area is a quintessential blend of outdoorsy-chic and lingering hippie charm, centered around a bustling pedestrian mall."
+      },
+      "lat": 40.0176,
+      "lng": -105.282,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "central-district-enr-boulder-dushanbe-teahouse",
+      "city_id": "boulder",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Boulder Dushanbe Teahouse"
+      },
+      "description": {
+        "en": "Handcrafted in Tajikistan, this teahouse is a breathtaking work of art, offering international teas in a transportive setting by Boulder Creek."
+      },
+      "type": "drink",
+      "lat": 40.0149,
+      "lng": -105.2831,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-enr-rayback-collective",
+      "city_id": "boulder",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Rayback Collective"
+      },
+      "description": {
+        "en": "A sprawling beer garden and event space in a reinvented warehouse, featuring a rotating lineup of food trucks and over 30 taps of craft beer."
+      },
+      "type": "drink",
+      "lat": 40.0263,
+      "lng": -105.2571,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-enr-il-pastaio",
+      "city_id": "boulder",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Il Pastaio"
+      },
+      "description": {
+        "en": "A tiny, beloved local secret serving authentic, no-frills pasta and Italian classics in an intimate, family-run trattoria setting."
+      },
+      "type": "hidden_gem",
+      "lat": 40.0148,
+      "lng": -105.2543,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-enr-aoi-sushi-izakaya",
+      "city_id": "boulder",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "AOI Sushi & Izakaya"
+      },
+      "description": {
+        "en": "A local favorite for high-quality sushi and izakaya-style small plates in an unpretentious atmosphere focused on authentic food."
+      },
+      "type": "food",
+      "lat": 40.0205,
+      "lng": -105.282,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-enr-the-street-performers-of-pearl-street",
+      "city_id": "boulder",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "The Street Performers of Pearl Street"
+      },
+      "description": {
+        "en": "A living stage featuring a rotating cast of contortionists, fire-jugglers, and local legends like the 'zip-code guy' that create spontaneous theater."
+      },
+      "type": "culture",
+      "lat": 40.018,
+      "lng": -105.28,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-enr-mork-mindy-house",
+      "city_id": "boulder",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Mork & Mindy House"
+      },
+      "description": {
+        "en": "A quirky piece of pop culture history, this Victorian house was the filming location for the 1970s sitcom *Mork & Mindy*."
+      },
+      "type": "landmark",
+      "lat": 40.021,
+      "lng": -105.2858,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-enr-boulder-creek-path",
+      "city_id": "boulder",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Boulder Creek Path"
+      },
+      "description": {
+        "en": "The city's main artery for recreation, this path offers a serene, nature-filled escape just steps from the urban core."
+      },
+      "type": "nature",
+      "lat": 40.0155,
+      "lng": -105.284,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "central-district-task-1",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Mountain View Urbanite"
+      },
+      "prompt": {
+        "en": "Find a spot where you can capture both a bustling city street scene and the iconic Flatirons mountains in the same photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-2",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Boulder Vibe Check"
+      },
+      "prompt": {
+        "en": "Take a selfie that you think perfectly captures Boulder's 'outdoorsy-chic' vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-3",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Hippie Spirit"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, clothing, or architecture that embodies the 'lingering hippie charm' of the city and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-4",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Tech Meets Trail"
+      },
+      "prompt": {
+        "en": "Frame a photo that shows a symbol of modern tech (like an e-scooter or a startup's office) alongside a symbol of nature (a tree, a flowerbed, a mountain view)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-5",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a food truck or cafe with a unique, locally-sourced item on its menu. Snap a picture of the menu board highlighting the item."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-6",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Canine Companion"
+      },
+      "prompt": {
+        "en": "Boulder is a dog-friendly city. Take a picture of a happy dog enjoying the downtown atmosphere (from a respectful distance!)."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-7",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Street Art Discovery"
+      },
+      "prompt": {
+        "en": "Go on a hunt for a hidden mural or piece of street art on a side street or alleyway. Capture its unique style."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-8",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "The People's Republic"
+      },
+      "prompt": {
+        "en": "Find a sign, sticker, or piece of graffiti that references Boulder's nickname, 'The People's Republic.'"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-9",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Artisan's Craft"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a handcrafted item for sale at an artisan kiosk or local shop. Focus on the texture and detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-10",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Pedal Power"
+      },
+      "prompt": {
+        "en": "Find a uniquely decorated or vintage bicycle, a common sight in Boulder, and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-11",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Sun-Drenched Moment"
+      },
+      "prompt": {
+        "en": "Capture a photo of sunlight filtering through the leaves of a tree onto a sidewalk or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-12",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Take a picture that shows a historic brick building standing next to a modern architectural structure."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-13",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Spontaneous Performance"
+      },
+      "prompt": {
+        "en": "Capture a candid photo of a street musician or performer drawing a crowd on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-14",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Local Brews"
+      },
+      "prompt": {
+        "en": "Find a coffee shop or brewery and take a photo of their list of local craft beers or coffee roasts."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-15",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Flower Power"
+      },
+      "prompt": {
+        "en": "The Pearl Street Mall is known for its flowerbeds. Create a colorful, close-up shot of the most vibrant flowers you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-16",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Outdoor Gear Fashion"
+      },
+      "prompt": {
+        "en": "Take a photo that showcases how locals incorporate outdoor gear (like hiking boots or a puffy jacket) into their everyday city fashion."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-17",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Fountain Fun"
+      },
+      "prompt": {
+        "en": "Find one of the downtown fountains and take a creative photo using its water and light."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-18",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Step off the main pedestrian mall and find a quiet, charming courtyard or alley. Capture the peaceful atmosphere in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-19",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Local's Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at the buildings and sky, to capture the perspective of someone sitting at an outdoor cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    },
+    {
+      "id": "central-district-task-20",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Sustainable City"
+      },
+      "prompt": {
+        "en": "Find and photograph an example of Boulder's commitment to sustainability, like a public recycling station, a solar panel, or an electric vehicle charging port."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T05:39:02.993072+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

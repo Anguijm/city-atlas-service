@@ -1,0 +1,1028 @@
+{
+  "neighborhoods": [
+    {
+      "id": "gamla-stan",
+      "city_id": "stockholm",
+      "name": {
+        "en": "Gamla Stan (The Historic Heart)"
+      },
+      "summary": {
+        "en": "This is the storybook Stockholm of cobblestone alleys, royal history, and medieval architecture, offering a journey back in time among saffron and terracotta-colored buildings."
+      },
+      "lat": 59.3255,
+      "lng": 18.0715,
+      "trending_score": 98,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm",
+      "city_id": "stockholm",
+      "name": {
+        "en": "Södermalm (The Creative South)"
+      },
+      "summary": {
+        "en": "Known as 'Söder,' this is Stockholm's creative and bohemian soul, a hub for artists and designers with stunning viewpoints, vintage shops, and effortlessly cool hangouts."
+      },
+      "lat": 59.3152,
+      "lng": 18.0722,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm",
+      "city_id": "stockholm",
+      "name": {
+        "en": "Norrmalm (The Modernist Hub)"
+      },
+      "summary": {
+        "en": "Stockholm's bustling, modern heart is a landscape of concrete, glass, and sharp angles, featuring striking modernist architecture and subterranean art."
+      },
+      "lat": 59.3326,
+      "lng": 18.0632,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen",
+      "city_id": "stockholm",
+      "name": {
+        "en": "Kungsholmen (The Civic Island)"
+      },
+      "summary": {
+        "en": "Dominated by the magnificent City Hall, this tranquil island mixes grand civic architecture with peaceful waterside promenades and a relaxed, residential pace."
+      },
+      "lat": 59.3293,
+      "lng": 18.0422,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden",
+      "city_id": "stockholm",
+      "name": {
+        "en": "Djurgården (The Royal Oasis)"
+      },
+      "summary": {
+        "en": "A vast, green island that has been royal land for centuries, Djurgården is Stockholm's primary space for recreation, culture, sprawling parks, and waterfront paths."
+      },
+      "lat": 59.328,
+      "lng": 18.1,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano",
+      "city_id": "stockholm",
+      "name": {
+        "en": "Vasastan & Albano (Academic & Atomic Age Secrets)"
+      },
+      "summary": {
+        "en": "This area blends stately residential architecture with intellectual energy, featuring beautiful libraries, quiet parks, and hidden Cold War history."
+      },
+      "lat": 59.3498,
+      "lng": 18.0576,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "gamla-stan-enr-den-gyldene-freden",
+      "city_id": "stockholm",
+      "neighborhood_id": "gamla-stan",
+      "name": {
+        "en": "Den Gyldene Freden"
+      },
+      "description": {
+        "en": "One of the world's oldest restaurants, operating since 1722. It's a living piece of history perfect for a traditional Swedish beer or meal in a historic cellar vault."
+      },
+      "type": "drink",
+      "lat": 59.3255,
+      "lng": 18.0736,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-enr-aifur",
+      "city_id": "stockholm",
+      "neighborhood_id": "gamla-stan",
+      "name": {
+        "en": "Aifur"
+      },
+      "description": {
+        "en": "A unique, subterranean Viking-themed restaurant and bar. A memorable place to grab a glass of mead and soak in a boisterous, legendary atmosphere."
+      },
+      "type": "food",
+      "lat": 59.3246,
+      "lng": 18.0694,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-enr-riddarholmen-church-riddarholmskyrkan",
+      "city_id": "stockholm",
+      "neighborhood_id": "gamla-stan",
+      "name": {
+        "en": "Riddarholmen Church (Riddarholmskyrkan)"
+      },
+      "description": {
+        "en": "Stockholm's oldest building, dating from the late 13th century. It is the final resting place of most Swedish monarchs."
+      },
+      "type": "landmark",
+      "lat": 59.3247,
+      "lng": 18.0649,
+      "trending_score": 92,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-enr-the-german-church-tyska-kyrkan",
+      "city_id": "stockholm",
+      "neighborhood_id": "gamla-stan",
+      "name": {
+        "en": "The German Church (Tyska Kyrkan)"
+      },
+      "description": {
+        "en": "Its towering spire dominates the Gamla Stan skyline. Step inside to escape the crowds and admire the ornate baroque interior."
+      },
+      "type": "landmark",
+      "lat": 59.3243,
+      "lng": 18.0718,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-enr-medieval-street-layout",
+      "city_id": "stockholm",
+      "neighborhood_id": "gamla-stan",
+      "name": {
+        "en": "Medieval Street Layout"
+      },
+      "description": {
+        "en": "The joy of Gamla Stan is getting lost in its side alleys and narrow passages that open into quiet squares, a living map of medieval Stockholm."
+      },
+      "type": "hidden_gem",
+      "lat": 59.3259,
+      "lng": 18.0718,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-enr-jarnpojke-iron-boy",
+      "city_id": "stockholm",
+      "neighborhood_id": "gamla-stan",
+      "name": {
+        "en": "Järnpojke (Iron Boy)"
+      },
+      "description": {
+        "en": "Stockholm's smallest public monument, this tiny iron sculpture is hidden away in a courtyard behind the Finnish Church."
+      },
+      "type": "hidden_gem",
+      "lat": 59.325,
+      "lng": 18.0732,
+      "trending_score": 95,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-enr-marten-trotzigs-grand",
+      "city_id": "stockholm",
+      "neighborhood_id": "gamla-stan",
+      "name": {
+        "en": "Mårten Trotzigs Gränd"
+      },
+      "description": {
+        "en": "The narrowest alley in Stockholm, perfect for creative photography and experiencing the compressed scale of the medieval city."
+      },
+      "type": "hidden_gem",
+      "lat": 59.3229,
+      "lng": 18.0738,
+      "trending_score": 93,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-enr-omnipollo-s-church",
+      "city_id": "stockholm",
+      "neighborhood_id": "sodermalm",
+      "name": {
+        "en": "Omnipollo's Church"
+      },
+      "description": {
+        "en": "A must-visit for craft beer lovers, this is a fully functioning brewery and bar set inside a beautifully preserved former church."
+      },
+      "type": "drink",
+      "lat": 59.3218,
+      "lng": 18.0716,
+      "trending_score": 94,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-enr-monteliusvagen-viewpoint",
+      "city_id": "stockholm",
+      "neighborhood_id": "sodermalm",
+      "name": {
+        "en": "Monteliusvägen Viewpoint"
+      },
+      "description": {
+        "en": "A walking path along the northern cliffs of Södermalm offering the most breathtaking panoramic view of Lake Mälaren, City Hall, and Gamla Stan."
+      },
+      "type": "viewpoint",
+      "lat": 59.3206,
+      "lng": 18.0606,
+      "trending_score": 99,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-enr-katarinahissen-katarina-lift",
+      "city_id": "stockholm",
+      "neighborhood_id": "sodermalm",
+      "name": {
+        "en": "Katarinahissen (Katarina Lift)"
+      },
+      "description": {
+        "en": "While often under renovation, the area around Slussen provides a dramatic, multi-layered urban landscape with a gritty, industrial frame for photos."
+      },
+      "type": "landmark",
+      "lat": 59.3204,
+      "lng": 18.0726,
+      "trending_score": 82,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-enr-nytorget-square",
+      "city_id": "stockholm",
+      "neighborhood_id": "sodermalm",
+      "name": {
+        "en": "Nytorget Square"
+      },
+      "description": {
+        "en": "The heart of the 'SoFo' area, this square and its surrounding streets are lined with independent boutiques, record stores, and relaxed cafes perfect for people-watching."
+      },
+      "type": "landmark",
+      "lat": 59.3149,
+      "lng": 18.0825,
+      "trending_score": 91,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-enr-pre-industrial-wooden-houses",
+      "city_id": "stockholm",
+      "neighborhood_id": "sodermalm",
+      "name": {
+        "en": "Pre-industrial Wooden Houses"
+      },
+      "description": {
+        "en": "Discover the small, red, pre-industrial wooden cottages tucked between larger apartment buildings on streets like Mäster Mikaels Gata."
+      },
+      "type": "hidden_gem",
+      "lat": 59.3168,
+      "lng": 18.0795,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-enr-kungstradgarden-metro-station",
+      "city_id": "stockholm",
+      "neighborhood_id": "norrmalm",
+      "name": {
+        "en": "Kungsträdgården Metro Station"
+      },
+      "description": {
+        "en": "Part of Stockholm's 'longest art gallery,' this station resembles an underground archaeological dig with exposed bedrock and replicas of palace ruins."
+      },
+      "type": "hidden_gem",
+      "lat": 59.3314,
+      "lng": 18.0717,
+      "trending_score": 96,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-enr-sergels-torg",
+      "city_id": "stockholm",
+      "neighborhood_id": "norrmalm",
+      "name": {
+        "en": "Sergels Torg"
+      },
+      "description": {
+        "en": "The city's central square, known for its distinctive black-and-white triangular pavement and a towering glass obelisk, capturing the city's modern pulse."
+      },
+      "type": "landmark",
+      "lat": 59.3328,
+      "lng": 18.0647,
+      "trending_score": 89,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-enr-kulturhuset-house-of-culture",
+      "city_id": "stockholm",
+      "neighborhood_id": "norrmalm",
+      "name": {
+        "en": "Kulturhuset (House of Culture)"
+      },
+      "description": {
+        "en": "A massive glass-fronted public cultural center with libraries, theaters, and galleries. Its upper floors offer fantastic, free views over Sergels Torg."
+      },
+      "type": "culture",
+      "lat": 59.332,
+      "lng": 18.0655,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-enr-stadshuskallaren",
+      "city_id": "stockholm",
+      "neighborhood_id": "kungsholmen",
+      "name": {
+        "en": "Stadshuskällaren"
+      },
+      "description": {
+        "en": "Located in the City Hall cellar, this restaurant lets you order the exact menu from any Nobel Prize banquet since 1901, a chance to eat history."
+      },
+      "type": "food",
+      "lat": 59.3275,
+      "lng": 18.0548,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-enr-norr-malarstrand",
+      "city_id": "stockholm",
+      "neighborhood_id": "kungsholmen",
+      "name": {
+        "en": "Norr Mälarstrand"
+      },
+      "description": {
+        "en": "A beautiful waterfront promenade perfect for a long walk with uninterrupted views of Södermalm's cliffs and the boats on Riddarfjärden."
+      },
+      "type": "nature",
+      "lat": 59.328,
+      "lng": 18.043,
+      "trending_score": 87,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-enr-s-t-gorans-gymnasium",
+      "city_id": "stockholm",
+      "neighborhood_id": "kungsholmen",
+      "name": {
+        "en": "S:t Görans Gymnasium"
+      },
+      "description": {
+        "en": "A celebrated example of 1960s Brutalist architecture, offering a striking contrast to the romanticism of the nearby City Hall."
+      },
+      "type": "landmark",
+      "lat": 59.3355,
+      "lng": 18.0223,
+      "trending_score": 70,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-enr-cenotaph-of-birger-jarl",
+      "city_id": "stockholm",
+      "neighborhood_id": "kungsholmen",
+      "name": {
+        "en": "Cenotaph of Birger Jarl"
+      },
+      "description": {
+        "en": "An empty tomb honoring the traditional founder of Stockholm, located on the perimeter of the grand City Hall."
+      },
+      "type": "hidden_gem",
+      "lat": 59.3278,
+      "lng": 18.0556,
+      "trending_score": 75,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-enr-victoriahuset-the-victoria-house",
+      "city_id": "stockholm",
+      "neighborhood_id": "djurgarden",
+      "name": {
+        "en": "Victoriahuset (The Victoria House)"
+      },
+      "description": {
+        "en": "A beautiful Victorian greenhouse designed to house the giant Amazonian water lily, whose pads can grow up to three meters in diameter."
+      },
+      "type": "nature",
+      "lat": 59.366,
+      "lng": 18.051,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-enr-djurgardsbron-the-djurgarden-bridge",
+      "city_id": "stockholm",
+      "neighborhood_id": "djurgarden",
+      "name": {
+        "en": "Djurgårdsbron (The Djurgården Bridge)"
+      },
+      "description": {
+        "en": "An ornate, cast-iron bridge from 1897 adorned with sculptures of Norse gods, offering a stunning gateway to the island."
+      },
+      "type": "landmark",
+      "lat": 59.3315,
+      "lng": 18.091,
+      "trending_score": 88,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-enr-strandvagen-view",
+      "city_id": "stockholm",
+      "neighborhood_id": "djurgarden",
+      "name": {
+        "en": "Strandvägen View"
+      },
+      "description": {
+        "en": "Look back from the island's western shore for a spectacular view of the grand boulevard lined with Stockholm's most exclusive apartment buildings."
+      },
+      "type": "viewpoint",
+      "lat": 59.3295,
+      "lng": 18.0925,
+      "trending_score": 90,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-enr-r1-nuclear-reactor",
+      "city_id": "stockholm",
+      "neighborhood_id": "vasastan-albano",
+      "name": {
+        "en": "R1 Nuclear Reactor"
+      },
+      "description": {
+        "en": "Sweden's first nuclear reactor is located 25 meters underground beneath the KTH campus, a fascinating piece of Cold War history hidden in plain sight."
+      },
+      "type": "hidden_gem",
+      "lat": 59.349,
+      "lng": 18.069,
+      "trending_score": 80,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-enr-stockholm-public-library-stadsbiblioteket",
+      "city_id": "stockholm",
+      "neighborhood_id": "vasastan-albano",
+      "name": {
+        "en": "Stockholm Public Library (Stadsbiblioteket)"
+      },
+      "description": {
+        "en": "An architectural masterpiece by Gunnar Asplund, featuring a stunning central rotunda—a vast cylindrical hall lined with three stories of bookshelves."
+      },
+      "type": "culture",
+      "lat": 59.343,
+      "lng": 18.0538,
+      "trending_score": 97,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-enr-kth-library-kth-biblioteket",
+      "city_id": "stockholm",
+      "neighborhood_id": "vasastan-albano",
+      "name": {
+        "en": "KTH Library (KTH Biblioteket)"
+      },
+      "description": {
+        "en": "Known for its beautiful main reading hall with a soaring glass ceiling, this library also hosts public cultural events like Lucia choir performances."
+      },
+      "type": "culture",
+      "lat": 59.3489,
+      "lng": 18.071,
+      "trending_score": 85,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "gamla-stan-task-1",
+      "neighborhood_id": "gamla-stan",
+      "title": {
+        "en": "Cobblestone Close-Up"
+      },
+      "prompt": {
+        "en": "Find a particularly worn and interesting patch of cobblestones and take a photo from a low angle, capturing the texture of history."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-task-2",
+      "neighborhood_id": "gamla-stan",
+      "title": {
+        "en": "Alleyway Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in the narrowest, most atmospheric alley you can find. Try to capture the feeling of the old buildings closing in around you."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-task-3",
+      "neighborhood_id": "gamla-stan",
+      "title": {
+        "en": "Saffron & Terracotta"
+      },
+      "prompt": {
+        "en": "Capture a photo that showcases the warm, historic color palette of Gamla Stan's buildings. Frame at least two different colored buildings together."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-task-4",
+      "neighborhood_id": "gamla-stan",
+      "title": {
+        "en": "Hidden Courtyard Discovery"
+      },
+      "prompt": {
+        "en": "Peer through an open gate or doorway and find a hidden courtyard. Take a photo of this secret, quiet space."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-task-5",
+      "neighborhood_id": "gamla-stan",
+      "title": {
+        "en": "Royal Reflections"
+      },
+      "prompt": {
+        "en": "Find a puddle or a shop window and capture a reflection of a historic building, like the Royal Palace or a church spire."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "gamla-stan-task-6",
+      "neighborhood_id": "gamla-stan",
+      "title": {
+        "en": "Medieval Details"
+      },
+      "prompt": {
+        "en": "Find and photograph an interesting historical detail on a building: an old iron sign, a unique door knocker, or a carved stone."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-task-1",
+      "neighborhood_id": "sodermalm",
+      "title": {
+        "en": "Bohemian Street Style"
+      },
+      "prompt": {
+        "en": "Capture a candid photo that represents the creative and effortlessly cool style of the people in Södermalm. (Be respectful!)"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-task-2",
+      "neighborhood_id": "sodermalm",
+      "title": {
+        "en": "Viewpoint Selfie"
+      },
+      "prompt": {
+        "en": "Find a high point and take a selfie with the Stockholm skyline in the background. Show off the amazing views from Söder."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-task-3",
+      "neighborhood_id": "sodermalm",
+      "title": {
+        "en": "Vintage Vibes"
+      },
+      "prompt": {
+        "en": "Take a photo of a storefront or window display of a vintage shop or independent boutique that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-task-4",
+      "neighborhood_id": "sodermalm",
+      "title": {
+        "en": "Café Culture"
+      },
+      "prompt": {
+        "en": "Photograph your coffee or fika pastry at a cool, relaxed café. Capture the cozy, creative atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-task-5",
+      "neighborhood_id": "sodermalm",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic wooden cottage stands next to a modern apartment building and capture the architectural contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "sodermalm-task-6",
+      "neighborhood_id": "sodermalm",
+      "title": {
+        "en": "Artistic Expression"
+      },
+      "prompt": {
+        "en": "Find a piece of street art, a unique sign, or a creative detail on a building and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-task-1",
+      "neighborhood_id": "norrmalm",
+      "title": {
+        "en": "Modernist Geometry"
+      },
+      "prompt": {
+        "en": "Take an abstract photo focusing on the sharp angles, lines, and geometric patterns of a modern building in Norrmalm."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-task-2",
+      "neighborhood_id": "norrmalm",
+      "title": {
+        "en": "Glass & Concrete"
+      },
+      "prompt": {
+        "en": "Capture the interplay of light and shadow on the glass and concrete surfaces that define this neighborhood's architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-task-3",
+      "neighborhood_id": "norrmalm",
+      "title": {
+        "en": "Urban Pulse Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a busy, bustling area like Sergels Torg, capturing the motion and energy of the city's commercial heart."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-task-4",
+      "neighborhood_id": "norrmalm",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Use the glass facade of a modern building to capture a reflection of the surrounding city, creating a layered urban image."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-task-5",
+      "neighborhood_id": "norrmalm",
+      "title": {
+        "en": "Subterranean World"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the unique feeling of being underground, whether at a metro entrance or in a subterranean passage."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "norrmalm-task-6",
+      "neighborhood_id": "norrmalm",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Stand at the base of a tall, modernist building and take a photo looking straight up to emphasize its scale and geometry."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-task-1",
+      "neighborhood_id": "kungsholmen",
+      "title": {
+        "en": "Waterside Serenity"
+      },
+      "prompt": {
+        "en": "Take a photo along a waterside promenade that captures the tranquil, peaceful vibe of the island."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-task-2",
+      "neighborhood_id": "kungsholmen",
+      "title": {
+        "en": "Civic Grandeur"
+      },
+      "prompt": {
+        "en": "Capture an image of a stately, grand building that represents the civic nature of Kungsholmen. Focus on its impressive scale."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-task-3",
+      "neighborhood_id": "kungsholmen",
+      "title": {
+        "en": "City Hall Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the iconic tower of Stockholm City Hall prominent in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-task-4",
+      "neighborhood_id": "kungsholmen",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a view that includes both the National Romantic style of the City Hall and the Brutalist style of a building like S:t Görans Gymnasium."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-task-5",
+      "neighborhood_id": "kungsholmen",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Take a photo from one of the bridges connecting Kungsholmen to the rest of the city, capturing the view of the water and the opposite shore."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "kungsholmen-task-6",
+      "neighborhood_id": "kungsholmen",
+      "title": {
+        "en": "Residential Calm"
+      },
+      "prompt": {
+        "en": "Photograph a quiet residential street that shows the more relaxed, local pace of life on the island."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-task-1",
+      "neighborhood_id": "djurgarden",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up macro photo of a natural element: the bark of a tree, a detailed leaf, or petals on a flower in one of the parks."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-task-2",
+      "neighborhood_id": "djurgarden",
+      "title": {
+        "en": "Royal Oasis Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a green lawn or by the water, showing yourself enjoying the peaceful, park-like atmosphere of this royal island."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-task-3",
+      "neighborhood_id": "djurgarden",
+      "title": {
+        "en": "Waterfront Path"
+      },
+      "prompt": {
+        "en": "Capture a photo of one of the beautiful waterfront paths, showing the trail leading off into the distance with water on one side."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-task-4",
+      "neighborhood_id": "djurgarden",
+      "title": {
+        "en": "Museum Architecture"
+      },
+      "prompt": {
+        "en": "Take a photo of the exterior of one of the island's many famous museums, focusing on a unique architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-task-5",
+      "neighborhood_id": "djurgarden",
+      "title": {
+        "en": "Gateway to Green"
+      },
+      "prompt": {
+        "en": "Photograph the ornate Djurgården Bridge, framing it as a grand entrance to the island's natural beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "djurgarden-task-6",
+      "neighborhood_id": "djurgarden",
+      "title": {
+        "en": "A Moment of Escape"
+      },
+      "prompt": {
+        "en": "Find a quiet bench with a view and take a photo that captures a feeling of peaceful escape from the city."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-task-1",
+      "neighborhood_id": "vasastan-albano",
+      "title": {
+        "en": "Temple of Knowledge"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the grand, intellectual atmosphere of a library, focusing on rows of books or a quiet reading area."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-task-2",
+      "neighborhood_id": "vasastan-albano",
+      "title": {
+        "en": "Academic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a university campus, with a stately academic building in the background. Look thoughtful!"
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-task-3",
+      "neighborhood_id": "vasastan-albano",
+      "title": {
+        "en": "Stately Facade"
+      },
+      "prompt": {
+        "en": "Photograph the detailed facade of one of Vasastan's beautiful residential buildings. Focus on the symmetry and ornamentation."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-task-4",
+      "neighborhood_id": "vasastan-albano",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet park or square and take a photo that conveys a sense of peace and contemplation away from the city bustle."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-task-5",
+      "neighborhood_id": "vasastan-albano",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Take a photo of an unassuming building or location and imagine the secret history it might hold. Write a one-sentence story for it in your mind."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    },
+    {
+      "id": "vasastan-albano-task-6",
+      "neighborhood_id": "vasastan-albano",
+      "title": {
+        "en": "Architectural Symmetry"
+      },
+      "prompt": {
+        "en": "Find a building or a feature like a grand doorway and take a perfectly symmetrical photo, emphasizing its balanced design."
+      },
+      "points": 10,
+      "duration_minutes": 5,
+      "source": "enrichment-gemini-2026-04",
+      "enriched_at": "2026-04-30T08:49:41.370663+00:00"
+    }
+  ],
+  "quality_status": "degraded"
+}

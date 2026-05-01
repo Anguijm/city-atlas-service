@@ -50,12 +50,20 @@ North Carolina Arboretum, arboretum and botanical garden located within the Bent
 Smith-McDowell House, the city's first mansion and oldest surviving house, and the oldest brick structure in Buncombe County
 Thomas Wolfe House, boyhood home of American author Thomas Wolfe, and a U.S. National Historic Landmark
 
+## Other sports
+
+Area colleges and universities, such as the University of North Carolina at Asheville, compete in sports. UNCA's sports teams are known as the Bulldogs and play in the Big South Conference. The Fighting Owls of Warren Wilson College participate in mountain biking and ultimate sports teams. The college is also home of the Hooter Dome, where the Owls play their home basketball games. The Blue Ridge Rollergirls, Asheville's first women's flat-track roller derby team, was established in 2006.
+
 ## Parks and recreation
 
 Asheville is a major hub of whitewater recreation, particularly whitewater kayaking, in the eastern US. Many kayak manufacturers have their bases of operation in the Asheville area. Some of the most distinguished whitewater kayakers live in or around Asheville. In its July/August 2006 journal, the group American Whitewater named Asheville one of the top five US whitewater cities.
 Asheville is also home to numerous disc golf courses.
 Soccer is another popular recreational sport in Asheville. There are two youth soccer clubs in Asheville, Asheville Shield Football Club and HFC.
 The Asheville Hockey League provides opportunities for youth and adult inline hockey at an outdoor rink at Carrier Park. The rink is open to the public, and pick-up hockey is also available. The Asheville Civic Center has held recreational ice hockey leagues in the past.
+
+## Notable people
+
+Further information: List of people from Asheville, North Carolina and List of University of North Carolina at Asheville notable people
 
 ## In popular culture
 

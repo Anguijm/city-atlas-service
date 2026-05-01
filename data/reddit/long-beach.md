@@ -1,11 +1,57 @@
 # Reddit: Long Beach, United States
 
-Sources: /r/longbeach
+Sources: /r/LongBeach
+
+## Nazi Barber at Razorbacks
+
+UPDATE:
+
+The owner of Razorbacks has responded to my Yelp review:
+
+"I apologize for this situation. This was completely out of our control and has been handled accordingly. Everybody is welcome at Razorbacks.. We absolutely do not support or condone this type of behavior."
+
+I believe the below comment was from the business owner as well:
+
+"I just want to come on here and say that we do not support any form a apoligetics or sympathizers for nazis and wanted to let you all know that she has been fired and rightfully so. I had no idea she was like that but I’m glad we cut the cancer out. Please don’t hate the rest of us for the actions of 1"
+
+I can confirm that the vile person in question is no longer employed there and that her profile has been removed from their booking form.  While we can't necessarily expect all business owners to fully vet each employee's social media posts, we can expect them to be held accountable when things like this come to light, and that standard has been met here.
+
+Thank you to everyone who supported this post and spreading the message that NAZIS ARE NOT WELCOME IN LBC.
+
+If you left a bad Yelp or Google review of Razorbacks based on this incident, please consider updating or removing it.  The intent here was not to destroy this business or the livelihood of everyone who works there.  The intent was for one less Nazi to be working in Long Beach, and that intent has been fulfilled.
+
+---------------------------
+ORIGINAL POST:
+
+I’ve been to Razorbacks Barbershop on 4th Street a few times and usually had a decent experience, but I recently went down a rabbit hole after seeing some of my barber Cori’s Instagram posts.
+
+​To put it bluntly: she is a literal Nazi. Her (now deleted) Instagram was filled with everything from "lizard people" conspiracies to blatant racism against immigrants and reposts defending and praising Adolf Hitler.
+
+​I messaged her on IG to ask her about the Hitler post (see screenshot). The response I got was... something.  I don’t flabbergast easily, but wtf? I ended up leaving a 1-star Yelp review calling her out, and she replied by calling HERSELF Hitler before scrubbing her social media.
+
+Trying to give Razorbacks the benefit of the doubt here in that they didn't know this about her, but it's not like her Insta was private, nor her posts subtle. I have yet to receive a response to my Yelp review from them.
+
+Is this where we're at now?  Nazis openly flaunting their abhorrent views on Retro Row?
+
+### Top comments
+
+- u/Feartheoldblood42 (236): https://preview.redd.it/3zd4o6jgnbog1.jpeg?width=1170&amp;format=pjpg&amp;auto=webp&amp;s=7b7387fc7cd7563dd3bdfd9f7524f3f7d7390a23
+
+She’s been MAGA/Nazi for awhile is seems. She posted this on October 2025. 🙄
+- u/humaneramblings (230): I've gotten my haircuts from there before. This sucks cuz the owner is a nice dude and a lot of the barbers I've had there have been really professional, but I can't in good conscience go back if a Nazis is getting paid there. Anyone know a decent place near Bixby or North LB?
+- u/Superb-Fee-6926 (178): OMG I’ve seen her before! She pooped her pants at The Blind Donkey. It was during the karaoke night. Everyone was covering their nose and she was drunk yelling “I pooped my pants, oh shit”. She thought it was hilarious. She even smoked a cigarette outside in poopy pants gross.
+- u/jessibela (128): She just blocked you. The ig is still up
+- u/FriendOfDirutti (127): Syndicate also employs Nazis. Kinda far away but if you are ever in Fullerton Barbarians Barbershop has a sign that says No Crybabies, Levas, Nazis etc…
 
 ## Hidden gem BBQ: @chefmemolb
 
 Sunday-only BBQ pop-up in Long Beach — Ocean &amp; Temple (follow the smoker smell)
 
+### Top comments
+
+- u/JDM_562 (11): I’m guessing just this Sunday only?
+- u/janekathleen (8): How late? I work Sundays and this could be a weekly reward 🤞
+- u/Dear-Relationship666 (6): Cool good looking out focusing on small business
 
 ## I love the dolphins here
 
@@ -19,6 +65,13 @@ I figure they must normally swim along this beach, and maybe it’s just a coinc
 
 If you were that couple you’re a part of one of my core memories now haha.
 
+### Top comments
+
+- u/PuzzleheadedFly2934 (33): They wanted to party.
+- u/Objective-Ad5620 (18): Honestly, it never gets old seeing the sea life. I’ve seen god-knows how many seals all up and down the coast and every time it’s like “hey look! Sea dog!”
+- u/ViolettaQueso (16): Spring is the best for whales &amp; dolphins :)
+- u/Agreeable_Ad7077 (14): That’s awesome! One swam next to our duffy one time IN the bay, which was wild because I feel like they are usually on the ocean side. Thanks for sharing:)
+- u/hahagato (9): Aw that’s beautiful 🥹 I love Long Beach for animals too. I love visiting the moon jellies at the Colorado lagoon
 
 ## City of Long Beach Preparing for Upcoming Weather Event, Urges Residents to Take Precautions
 
@@ -85,6 +138,11 @@ https://preview.redd.it/pjj2wbt72zuf1.jpg?width=1080&amp;format=pjpg&amp;auto=we
 
 https://preview.redd.it/l7t8p1682zuf1.jpg?width=1080&amp;format=pjpg&amp;auto=webp&amp;s=243893ccbf8263de98a0e1e61c7d82e8ec43d37a
 
+### Top comments
+
+- u/sweetbeard (33): Careful out there, there’s a chance we might get a half inch of rain!! 😮
+- u/Empty-Act7801 (12): Thank you for sharing
+- u/SoCal7s (8): Translation: “it’s gonna rain a bit.”
 
 ## The Martin Luther King Park Pool Is BACK BABY!
 
@@ -92,26 +150,4 @@ https://preview.redd.it/6rxbf3l1lw9f1.jpg?width=1250&amp;format=pjpg&amp;auto=we
 
 It's a summer of water activities in Central Long Beach, thanks to the reopening of the City’s newly renovated pool at Martin Luther King, Jr. Park (1910 Lemon Ave.).
 
-On June 23, City leaders and community members joined together to celebrate the pool’s reopening just in time for the hot summer months. With the pool’s new amenities, community members of all abilities can engage in fun, recreational play, connect with friends and neighbors, and stay cool and active all summer long.
-
-Both the main swimming pool and learner swimming pool received upgrades to enhance accessibility and safety. New battery-powered pool lifts were installed and new interior plaster, tile depth markers and upgraded underwater light fixtures were added. Pools also received upgrades to its circulation, filtration and chemical systems for cleaner, safer and more energy-efficient operations.
-
-Outside the pool, upgrades include pool deck repairs, waterproof coating, new perimeter tile and refurbished diving stands. Restrooms received new plumbing and locker rooms were improved along with other refreshed spaces throughout to extend the useful life of the facility and enhance the visitor experience.
-
-For more information about this [Elevate ’28](https://lbelevate28.com/) project, visit the [project page](https://longbeach.gov/pw/projects/mlk-jr.-park-swimming-pool-upgrades/).
-
-King Park Pool is a year-round, indoor public pool offering recreational swim, water exercise classes, swimming lessons and more and is open seven days a week. Children must be at least 48 inches tall or accompanied by an adult in the water at all times.
-
-More information about the pool, including schedules and entry fees, is available on the [webpage](https://longbeach.gov/park/recreation-programs/aquatics/pools/martin-luther-king-jr-park-pool/).
-
-
-## Cos-Playing Homelessness For A Genuinely Good Cause
-
-Jeff Levine is going to sit on a bench for 24 hours straight.  The campaign will take place from noon on October 9th to Noon on October 10th. The location will be 224 W Anaheim Street in downtown Long Beach outside the Rescue Mission. 
-
-Jeff plans to be awake the entire 24 hours (if he is able) and the event will be streamed lice by Long Beach Rescue Mission on its Facebook and Youtube feeds.
-
-If you have ever muttered (or typed, or shouted loudly) an opinion on homelessness in Long Beach, Jeff invites you to come be a part of this day. Come by and sit with him on the bench for a few minutes. Ask him challenging questions, share your point of view, question policies, and engage in specific topics about situations in Long Beach.
-
-Learn more out the bench in by reading the article in the uploaded photos.
-
+On Jun

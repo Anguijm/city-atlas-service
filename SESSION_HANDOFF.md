@@ -11,30 +11,42 @@
 
 ## Start here next session
 
-- **`main` HEAD:** `df1a69b` (PR #34 — expand US city coverage from 100 to 200 cities; CI city-cache-validate job; batch_research.py circuit breaker)
-- **Last substantive code merge:** `df1a69b` (PR #34)
-- **Production state:** 16 metro cities live in `urbanexplorer` Firestore (4 verified, 12 degraded). **100 new cities added to config but NOT yet ingested** — scrape data is in-flight (branch `scrape/100-new-cities`).
-- **Open PRs:** `scrape/100-new-cities` — Wikipedia (89/92 scraped) + Reddit data for the 100 new cities. Merge this first, confirm branch-guard green, then run batch_research.py.
+- **`main` HEAD:** `7f7652c` (PR #44 — harden enrich_ingest against undefined Firestore fields)
+- **Last substantive code merge:** `7f7652c` (PR #44)
+- **Production state:** ~258 cities live in `urbanexplorer` Firestore. Full enrichment sweep complete (2026-05-01): 101/119 thin/low cities enriched, ~1800 new waypoints + ~4600 tasks added. 8 cities still failing — see Known issues below.
+- **Open PRs (in merge priority order):**
+  1. **PR #40** (`docs/session-close-2026-04-29`) — session 3 close docs. Data-only, merge first.
+  2. **PR #42** (`fix/prompt-injection-phase-b`) — Phase B prompt injection fix. Still CONDITIONAL; check council status and address remaining remediations.
+  3. **PR #43** (`feat/add-missing-corridor-cities`) — louisville, birmingham, wichita, amarillo added to global_city_cache + research run. Awaiting council.
+  4. **PR #45** (`claude/work-in-progress-wPNxa`) — harness alignment. Investigate before merging.
+  5. **This PR** (`docs/session-close-2026-05-01`) — session 4 close docs + enrichment sweep scrape data.
 - **Top-priority next actions, in order:**
-  1. **Issue #37 — tiered quality gates by `coverageTier`.** Implement BEFORE running the 100-city research batch. Three-part change: (a) lower Wikipedia/Reddit char floor by coverageTier in `src/scrapers/`, (b) add coverageTier-aware prompt variant in `configs/{app}/tasks.yaml`, (c) scale QC threshold in `phase_c_threshold.py`. `coverageTier` is already in the schema — no schema changes needed.
-  2. **Merge `scrape/100-new-cities` PR then run research** (after #37 lands). Pre-flight before the ingest run: (a) `gcloud firestore export gs://urban-explorer-483600.appspot.com/backups/$(date +%Y%m%d)` for rollback, (b) dry run on a 10-city sample without `--ingest` and spot-check the JSON output, (c) confirm branch-guard green. Then: `python3.12 src/pipeline/batch_research.py --cities "<97 city IDs below>" --no-limit --ingest --interval 60 2>&1 | tee research-100-new.log`
-  3. **Issue #21 — automate branch-guard preflight inside pipeline entry points.** PR #27's 4-attempt retry pattern is the copy-pasteable template.
-  4. **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`).
-- **Blockers:** none. CI validate pre-existing failure on main (npm audit high-severity vuln + rolldown binding) — not introduced by this branch.
+  1. **Merge PR #40** (session 3 docs) then **PR #42** (prompt injection) — address CONDITIONAL remediations, check council.
+  2. **Merge PR #43** (corridor cities) — council likely needs a run; check status.
+  3. **Fix oxford-ms**: the `data/timeout/oxford-ms.md` file contains Oxford, UK data (scraped the wrong city). Delete it, re-scrape with explicit `--city oxford-ms` and verify US results, then re-run research.
+  4. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
+  5. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
+- **Blockers:** none.
 - **Doctrine reminders:**
   - **All changes to main MUST go through PRs.** Direct push fails branch-guard post-hoc.
   - **Branch-guard preflight before any `--ingest` run:** `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` → expect `"success"`.
+  - **Use `python3.12`**, not `python3` (resolves to 3.14 via linuxbrew, lacks `google-genai`).
   - Database is `urbanexplorer`, NOT `travel-cities`. Schemas at `src/schemas/cityAtlas.ts` (no npm package). Tasks nested under cities + flat in `vibe_tasks`.
   - Cross-round memory is live (PR #30). Post fixed-format submitter response after each council round.
-  - `batch_research.py` has a 25-city circuit breaker — use `--no-limit` for the 100-city research run.
+  - `enrich_ingest.ts` now strips undefined fields + validates required fields with Zod before every Firestore write (PR #44).
 
-## The 97 city IDs for batch_research.py
+## 8 cities still failing after enrichment sweep (2026-05-01)
 
-Three cities excluded due to content-thin Wikipedia articles (moab-ut: 325 chars, crested-butte-co: 453 chars, rapid-city-sd: 39 chars). Re-add after issue #37 lowers the quality floor for `coverageTier: village`.
-
-```
-ann-arbor-mi,annapolis-md,arcata-ca,asbury-park-nj,ashland-or,astoria-or,bar-harbor-me,beacon-ny,beaufort-sc,bellingham-wa,bethlehem-pa,bisbee-az,black-mountain-nc,boone-nc,bozeman-mt,brattleboro-vt,brevard-nc,camden-me,cannon-beach-or,cape-may-nj,carmel-by-the-sea-ca,charlottesville-va,clarksdale-ms,columbia-sc,cooperstown-ny,deadwood-sd,decatur-ga,durango-co,eau-claire-wi,el-paso-tx,eureka-ca,eureka-springs-ar,fargo-nd,fernandina-beach-fl,florence-al,frederick-md,fredericksburg-tx,galena-il,galveston-tx,gettysburg-pa,gloucester-ma,green-bay-wi,greenville-sc,healdsburg-ca,holland-mi,hood-river-or,hot-springs-ar,hudson-ny,huntsville-al,iowa-city-ia,jerome-az,juneau-ak,kalamazoo-mi,lambertville-nj,lancaster-pa,lawrence-ks,lenox-ma,livingston-mt,lubbock-tx,marquette-mi,monterey-ca,natchez-ms,newport-ri,northampton-ma,ojai-ca,olympia-wa,ouray-co,oxford-ms,pensacola-fl,petaluma-ca,port-townsend-wa,portsmouth-nh,prescott-az,princeton-nj,provincetown-ma,roanoke-va,salem-ma,san-luis-obispo-ca,santa-cruz-ca,saratoga-springs-ny,scottsdale-az,scranton-pa,selma-al,sitka-ak,st-augustine-fl,staunton-va,steamboat-springs-co,stowe-vt,telluride-co,terlingua-tx,truth-or-consequences-nm,waco-tx,whitefish-mt,williamsburg-va,wilmington-nc,winslow-az,woodstock-ny
-```
+| City | Reason | Fix |
+|---|---|---|
+| oxford-ms | Semantic audit FAIL: Gemini hallucinated Oxford, UK (timeout scrape pulled UK data) | Delete `data/timeout/oxford-ms.md`, re-scrape, re-run research |
+| fernandina-beach-fl | Data starvation — wiki only (1.7KB), no other sources | Manual scrape or add to low-priority queue |
+| frederick-md | Data starvation — wiki (3KB) + reddit (3KB) only | Same |
+| sitka-ak | Data starvation — wiki (4KB) only | Same |
+| winslow-az | Data starvation — wiki (1.4KB) + inf (2KB) only | Same |
+| geneva | International — English sources thin | Language-aware Phase A (#future) |
+| kaohsiung | International — reddit (5KB) only, no wiki | Same |
+| taipei | International — timeout + reddit only, no wiki | Same |
 
 ## What this repo is
 
@@ -50,13 +62,13 @@ Firestore database (in GCP project `urban-explorer-483600`) consumed by:
 
 ## What's in main right now
 
-`main` = `df1a69b` at the end of the 2026-04-28 session. Recent history:
+`main` = `7f7652c` at the end of the 2026-05-01 session. Recent history:
 
 ```
+7f7652c fix: harden enrich_ingest against undefined Firestore fields (#44)
+10bd5e1 scrape: Wikipedia + Reddit data for 100 new US cities (#38)
+7782539 feat: tiered quality gates by coverageTier (#39)
 df1a69b feat: expand US city coverage from 100 to 200 cities (#34)
-a263c42 docs: README status — note PR #26 schema alignment + CI clean
-39ccefb Session close 2026-04-27 (session 2): post-PR-#26 doc refresh
-55c8715 schema: align cityAtlas.ts with pipeline-emitted fields (#26)
 ```
 
 Layout:
@@ -162,11 +174,21 @@ npx tsx src/scrapers/reddit.ts --cities "city1,city2" --interval 2000
 
 ## Known issues / gotchas
 
-1. **Small towns almost universally fail Reddit quality gate.** Only Portsmouth, NH passed in a 92-city scrape. The gate is calibrated for cities with active subreddits. Issue #37 will add tiered thresholds by `coverageTier`.
-2. **Gemini subprocess non-determinism.** `batch_research.py` sometimes produces thinner output than direct `research_city.py` runs. Failed-cities queue + direct retry is the compensator.
-3. **Geneva + Lisbon** — English-only source coverage is too thin. Both parked pending language-aware Phase A.
-4. **London manifest mystery** — in `configs/global_city_cache.json` but absent from `manifest.cities`. Carryover.
-5. **CI `city-cache-validate` scope** — the validator in CI only checks `global_city_cache.json`. It does not validate scraped data files or research output JSON.
+1. **Small towns almost universally fail Reddit quality gate.** The gate is calibrated for cities with active subreddits. Issue #37 will add tiered thresholds by `coverageTier`.
+2. **Gemini subprocess non-determinism.** `batch_research.py` sometimes produces thinner output than direct `research_city.py` runs. Failed-cities queue + `--force` retry is the compensator.
+3. **oxford-ms timeout scrape pulled Oxford, UK data.** Gemini was given a 22KB file about the wrong city and hallucinated accordingly. Semantic audit caught it. Fix: delete the bad file and re-scrape.
+4. **Geneva, kaohsiung, taipei, ho-chi-minh-city** — English-only source coverage is thin for non-English-primary cities. Parked pending language-aware Phase A.
+5. **London manifest mystery** — in `configs/global_city_cache.json` but absent from `manifest.cities`. Carryover.
+6. **CI `city-cache-validate` scope** — the validator in CI only checks `global_city_cache.json`. It does not validate scraped data files or research output JSON.
+7. **enrich_ingest.ts undefined field bug (fixed PR #44)** — Gemini occasionally emits `undefined` for optional numeric fields (e.g. `trending_score`). Fix: `stripUndefined()` + Zod required-field validation before every Firestore write.
+
+## Session 2026-05-01 (session 4) summary
+
+PRs merged: **#44** (enrich_ingest: stripUndefined + Zod validation, 7 council rounds). Enrichment sweep: 101/119 thin/low cities enriched, ~1800 new waypoints + ~4600 tasks. Roadtripper visibility bug fixed: 23 partial city docs backfilled, city_fallback.json 102→258 cities. 4 corridor cities (louisville, birmingham, wichita, amarillo) added + researched (PR #43 open). 8 cities still failing. Scrape data committed on this branch.
+
+## Session 2026-04-29/30 (session 3) summary
+
+PRs merged: **#38** (scrape data), **#39** (tiered quality gates). Batch run: 173→258 cities ingested (73/97 passed). PR #42 open (CONDITIONAL).
 
 ## Session 2026-04-28 summary
 
