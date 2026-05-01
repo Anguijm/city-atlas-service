@@ -9,6 +9,7 @@ Covers:
 """
 
 import json
+import math
 import sys
 from pathlib import Path
 
@@ -17,6 +18,17 @@ sys.path.insert(0, str(Path(__file__).parent))
 from research_city import _wrap_report_for_structuring
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
+
+
+def _haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
+    """Great-circle distance in kilometres between two lat/lng points."""
+    R = 6371.0
+    phi1, phi2 = math.radians(lat1), math.radians(lat2)
+    a = (
+        math.sin(math.radians(lat2 - lat1) / 2) ** 2
+        + math.cos(phi1) * math.cos(phi2) * math.sin(math.radians(lng2 - lng1) / 2) ** 2
+    )
+    return R * 2 * math.asin(math.sqrt(a))
 
 
 class TestWrapReportForStructuring:
@@ -201,3 +213,17 @@ class TestGoldenFileIntegration:
             assert isinstance(task["title"], dict) and "en" in task["title"]
             assert isinstance(task["prompt"], dict) and "en" in task["prompt"]
             assert isinstance(task["points"], (int, float))
+
+    def test_waypoints_are_near_their_neighborhood_centers(self):
+        # Portsmouth, NH is compact; 1.5 km catches cross-neighborhood assignment
+        # errors. Any waypoint exceeding this threshold is a data-quality bug in
+        # the fixture (Gemini misassigned it) and must be corrected before merge.
+        MAX_KM = 1.5
+        data = self._load_phase_b()
+        nbhd_by_id = {n["id"]: n for n in data["neighborhoods"]}
+        for wp in data["waypoints"]:
+            nbhd = nbhd_by_id[wp["neighborhood_id"]]
+            dist = _haversine_km(wp["lat"], wp["lng"], nbhd["lat"], nbhd["lng"])
+            assert dist < MAX_KM, (
+                f"{wp['id']}: {dist:.2f} km from {nbhd['id']} center — exceeds {MAX_KM} km"
+            )
