@@ -22,7 +22,7 @@ FIXTURES_DIR = Path(__file__).parent / "fixtures"
 
 def _haversine_km(lat1: float, lng1: float, lat2: float, lng2: float) -> float:
     """Great-circle distance in kilometres between two lat/lng points."""
-    R = 6371.0
+    R = 6371.0  # Earth's mean radius in km (WGS-84 volumetric mean)
     phi1, phi2 = math.radians(lat1), math.radians(lat2)
     a = (
         math.sin(math.radians(lat2 - lat1) / 2) ** 2
@@ -215,9 +215,11 @@ class TestGoldenFileIntegration:
             assert isinstance(task["points"], (int, float))
 
     def test_waypoints_are_near_their_neighborhood_centers(self):
-        # Portsmouth, NH is compact; 1.5 km catches cross-neighborhood assignment
-        # errors. Any waypoint exceeding this threshold is a data-quality bug in
-        # the fixture (Gemini misassigned it) and must be corrected before merge.
+        # 1.5 km: generous upper bound for a compact walkable city like Portsmouth,
+        # NH (city is ~3 km wide). For denser/smaller cities use ~0.8 km; for
+        # sprawling metros (e.g. LA, Houston) raise to ~3–5 km. Any waypoint
+        # exceeding this threshold is a Gemini neighborhood-assignment error in the
+        # fixture and must be corrected before merge.
         MAX_KM = 1.5
         data = self._load_phase_b()
         nbhd_by_id = {n["id"]: n for n in data["neighborhoods"]}
