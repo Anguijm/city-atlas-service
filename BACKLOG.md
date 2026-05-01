@@ -4,10 +4,11 @@
 > For long-form session learnings see `.harness/learnings.md`.
 > For start-here-next-session block see `SESSION_HANDOFF.md`.
 >
-> Last refreshed: 2026-05-01 (session 5 close).
+> Last refreshed: 2026-05-01 (session 5/6 close).
 
 ## Now (this week)
 
+- **Open PR for fix/backfill-task-city-id-and-orphan-cleanup** — backfill script + cache cleanup already applied to Firestore; PR is code-review gate. Branch: `fix/backfill-task-city-id-and-orphan-cleanup`.
 - **Fix oxford-ms and birmingham wrong-city scrapes (#47)** — `data/timeout/oxford-ms.md` is Oxford UK; `data/timeout/birmingham.md` is Birmingham UK. Delete both, re-scrape using `clinicalName` ("Oxford, Mississippi" / "Birmingham, Alabama"), re-run research. ([#47](https://github.com/Anguijm/city-atlas-service/issues/47))
 - **Supplemental scraping for 24 failed cities.** Run scrapers on cities in `data/research-output/failed/`, then re-run `batch_research.py --cities <failed-list> --ingest --mode gemini`. Failed cities: bisbee-az, black-mountain-nc, boone-nc, camden-me, cannon-beach-or, cape-may-nj, charlottesville-va, clarksdale-ms, cooperstown-ny, deadwood-sd, galena-il, gettysburg-pa, jerome-az, lambertville-nj, lenox-ma, natchez-ms, ouray-co, princeton-nj, stowe-vt, telluride-co, terlingua-tx, truth-or-consequences-nm, williamsburg-va, wilmington-nc.
 - **Issue #21 — automate branch-guard preflight inside pipeline entry points.** ([#21](https://github.com/Anguijm/city-atlas-service/issues/21))
@@ -58,7 +59,7 @@
 
 ## In flight (branches not yet merged)
 
-(none — PR queue cleared 2026-05-01 session 5)
+- **fix/backfill-task-city-id-and-orphan-cleanup** — Firestore backfill already live; PR pending. `global_city_cache.json` (-1 entry) + `backfill_task_city_id.py` (new).
 
 ## Recently closed
 

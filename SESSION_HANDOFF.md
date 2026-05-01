@@ -1,6 +1,6 @@
 # Session Handoff — city-atlas-service
 
-> Living document. Last refreshed 2026-04-28 at end-of-session. Edit in
+> Living document. Last refreshed 2026-05-01 (session 5/6 close). Edit in
 > place rather than appending date-stamped blocks — this is the "what would
 > you want to know on day one" index, not a changelog.
 >
@@ -13,13 +13,15 @@
 
 - **`main` HEAD:** `bc6d7a7` (PR #42 — Phase B prompt injection defense + golden-file tests)
 - **Last substantive code merge:** `bc6d7a7` (PR #42)
-- **Production state:** ~262 cities live in `urbanexplorer` Firestore (258 post-enrichment + 4 corridor cities: louisville, birmingham, wichita, amarillo). 8 cities still failing — see Known issues below. Birmingham and oxford-ms have wrong-city timeout scrapes (see #47).
-- **Open PRs:** none — PR queue cleared 2026-05-01 (session 5). PRs #40, #42, #43, #44, #45, #46 all merged.
+- **In-flight branch:** `fix/backfill-task-city-id-and-orphan-cleanup` (bb0fbb3) — ready for PR. Changes already applied to Firestore.
+- **Production state:** 257 legitimate cities in `urbanexplorer` Firestore (260 total minus 3 orphan docs deleted this session). `vibe_tasks` now has `city_id` on 21,368/28,419 tasks; 7,051 remain orphaned (missing neighborhoods). `birmingham-al` duplicate deleted; `birmingham` (Alabama) is authoritative. 8 cities still failing — see Known issues below.
+- **Open PRs:** none on main — `fix/backfill-task-city-id-and-orphan-cleanup` branch open, needs PR.
 - **Top-priority next actions, in order:**
-  1. **Fix oxford-ms and birmingham wrong-city scrapes (#47)** — `data/timeout/oxford-ms.md` is Oxford UK; `data/timeout/birmingham.md` is Birmingham UK. Delete both, re-scrape using clinicalName ("Oxford, Mississippi" / "Birmingham, Alabama"), re-run research. This also addresses #47's systematic fix ask.
-  2. **Supplemental scraping for 24 failed cities** — see BACKLOG.md "Now" section for the full list.
-  3. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
-  4. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
+  1. **Open PR for fix/backfill-task-city-id-and-orphan-cleanup** — `global_city_cache.json` cleanup + backfill script. Already applied to Firestore; PR is documentation + code review gate.
+  2. **Fix oxford-ms and birmingham wrong-city scrapes (#47)** — `data/timeout/oxford-ms.md` is Oxford UK; `data/timeout/birmingham.md` is Birmingham UK. Delete both, re-scrape using clinicalName ("Oxford, Mississippi" / "Birmingham, Alabama"), re-run research.
+  3. **Supplemental scraping for 24 failed cities** — see BACKLOG.md "Now" section for the full list.
+  4. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
+  5. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
 - **Blockers:** none.
 - **Doctrine reminders:**
   - **All changes to main MUST go through PRs.** Direct push fails branch-guard post-hoc.
@@ -175,6 +177,10 @@ npx tsx src/scrapers/reddit.ts --cities "city1,city2" --interval 2000
 5. **London manifest mystery** — in `configs/global_city_cache.json` but absent from `manifest.cities`. Carryover.
 6. **CI `city-cache-validate` scope** — the validator in CI only checks `global_city_cache.json`. It does not validate scraped data files or research output JSON.
 7. **enrich_ingest.ts undefined field bug (fixed PR #44)** — Gemini occasionally emits `undefined` for optional numeric fields (e.g. `trending_score`). Fix: `stripUndefined()` + Zod required-field validation before every Firestore write.
+
+## Session 2026-05-01 (session 5/6) summary
+
+PRs merged: **#40, #42, #43, #44, #45, #46** — entire PR queue cleared. Firestore audit: confirmed 260 cities in DB (257 legitimate + 3 orphan stubs), debunked assumption that big cities were never researched (they were, first, just without local git artifacts). Ran full `vibe_waypoints` and `vibe_tasks` counts (12,123 waypoints, 28,419 tasks, 1,780 neighborhoods across 260 cities). Backfilled `city_id` onto 21,368 `vibe_tasks` docs via two-pass neighborhood lookup (no AI). Deleted 3 orphan city docs (bellevue, bellevue-wa-usa, new-york) + `birmingham-al` duplicate (154 docs). Removed `birmingham-al` from `global_city_cache.json` (288 entries now). 7,051 orphaned tasks left in place (--delete-orphans available). Branch `fix/backfill-task-city-id-and-orphan-cleanup` ready for PR.
 
 ## Session 2026-05-01 (session 4) summary
 
