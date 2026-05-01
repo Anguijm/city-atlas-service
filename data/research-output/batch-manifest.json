@@ -1,34 +1,56 @@
 {
-  "started": "2026-04-29T20:28:14.283634+00:00",
+  "started": "2026-04-29T22:22:42.237194+00:00",
   "tiers": null,
   "interval_s": 60,
   "cities": [
     {
-      "id": "ouray-co",
-      "status": "failed",
-      "started_at": "2026-04-29T20:30:35.886197+00:00",
-      "error": "Exit code 1",
-      "duration_s": 56
+      "id": "amarillo",
+      "status": "completed",
+      "started_at": "2026-04-29T22:23:21.583739+00:00",
+      "duration_s": 117,
+      "neighborhoods": 3,
+      "waypoints": 5,
+      "tasks": 36
     },
     {
-      "id": "scottsdale-az",
+      "id": "birmingham",
       "status": "completed",
-      "started_at": "2026-04-29T20:33:29.197787+00:00",
-      "duration_s": 198,
+      "started_at": "2026-04-29T22:25:38.756259+00:00",
+      "duration_s": 191,
       "neighborhoods": 6,
-      "waypoints": 37,
+      "waypoints": 27,
       "tasks": 90
     },
     {
-      "id": "truth-or-consequences-nm",
-      "status": "failed",
-      "started_at": "2026-04-29T20:38:59.119156+00:00",
-      "error": "Exit code 1",
-      "duration_s": 85
+      "id": "little-rock",
+      "status": "completed",
+      "started_at": "2026-04-29T22:29:20.165029+00:00",
+      "duration_s": 170,
+      "neighborhoods": 3,
+      "waypoints": 25,
+      "tasks": 36
+    },
+    {
+      "id": "louisville",
+      "status": "completed",
+      "started_at": "2026-04-29T22:32:42.392258+00:00",
+      "duration_s": 240,
+      "neighborhoods": 6,
+      "waypoints": 26,
+      "tasks": 90
+    },
+    {
+      "id": "wichita",
+      "status": "completed",
+      "started_at": "2026-04-29T22:37:16.146297+00:00",
+      "duration_s": 119,
+      "neighborhoods": 3,
+      "waypoints": 8,
+      "tasks": 36
     }
   ],
-  "completed": 1,
-  "failed": 2,
+  "completed": 5,
+  "failed": 0,
   "pending": 0,
   "skipped": 0
 }
