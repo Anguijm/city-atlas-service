@@ -4,7 +4,7 @@
 #   - circuit-breaker status (.harness_halt)
 #   - last commit
 #   - current branch
-#   - active plan (first 30 lines)
+#   - active plan (first 20 lines)
 #   - last council verdict (verdict + summary only)
 #
 # Output is plain text written to stdout, surfaced to Claude as part of the
@@ -38,7 +38,7 @@ if [ -f .harness/active_plan.md ]; then
   plan_lines="$(wc -l < .harness/active_plan.md | tr -d ' ')"
   echo ""
   echo "Active plan (.harness/active_plan.md, $plan_lines lines):"
-  head -20 .harness/active_plan.md | sed 's/^/  /'
+  head -20 .harness/active_plan.md | sed 's/^/  /'  # 20 lines: enough context without diluting session-start output
   if [ "$plan_lines" -gt 20 ]; then
     echo "  ... ($((plan_lines - 20)) more lines)"
   fi

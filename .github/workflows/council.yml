@@ -37,7 +37,7 @@ jobs:
   # same run_id so they do not double-charge.
   budget:
     runs-on: ubuntu-latest
-    timeout-minutes: 3
+    timeout-minutes: 3  # budget job reads/writes a single cache entry; 3 min is generous for gh CLI + cache round-trip
     # Serialize the budget step across ALL council runs in this repo. The
     # group key is repo-wide (no PR / month component), so every budget job
     # queues against every other one. cancel-in-progress=false so an
