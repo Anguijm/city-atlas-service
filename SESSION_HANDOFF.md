@@ -11,21 +11,15 @@
 
 ## Start here next session
 
-- **`main` HEAD:** `7f7652c` (PR #44 — harden enrich_ingest against undefined Firestore fields)
-- **Last substantive code merge:** `7f7652c` (PR #44)
-- **Production state:** ~258 cities live in `urbanexplorer` Firestore. Full enrichment sweep complete (2026-05-01): 101/119 thin/low cities enriched, ~1800 new waypoints + ~4600 tasks added. 8 cities still failing — see Known issues below.
-- **Open PRs (in merge priority order):**
-  1. **PR #40** (`docs/session-close-2026-04-29`) — session 3 close docs. Data-only, merge first.
-  2. **PR #42** (`fix/prompt-injection-phase-b`) — Phase B prompt injection fix. Still CONDITIONAL; check council status and address remaining remediations.
-  3. **PR #43** (`feat/add-missing-corridor-cities`) — louisville, birmingham, wichita, amarillo added to global_city_cache + research run. Awaiting council.
-  4. **PR #45** (`claude/work-in-progress-wPNxa`) — harness alignment. Investigate before merging.
-  5. **This PR** (`docs/session-close-2026-05-01`) — session 4 close docs + enrichment sweep scrape data.
+- **`main` HEAD:** `bc6d7a7` (PR #42 — Phase B prompt injection defense + golden-file tests)
+- **Last substantive code merge:** `bc6d7a7` (PR #42)
+- **Production state:** ~262 cities live in `urbanexplorer` Firestore (258 post-enrichment + 4 corridor cities: louisville, birmingham, wichita, amarillo). 8 cities still failing — see Known issues below. Birmingham and oxford-ms have wrong-city timeout scrapes (see #47).
+- **Open PRs:** none — PR queue cleared 2026-05-01 (session 5). PRs #40, #42, #43, #44, #45, #46 all merged.
 - **Top-priority next actions, in order:**
-  1. **Merge PR #40** (session 3 docs) then **PR #42** (prompt injection) — address CONDITIONAL remediations, check council.
-  2. **Merge PR #43** (corridor cities) — council likely needs a run; check status.
-  3. **Fix oxford-ms**: the `data/timeout/oxford-ms.md` file contains Oxford, UK data (scraped the wrong city). Delete it, re-scrape with explicit `--city oxford-ms` and verify US results, then re-run research.
-  4. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
-  5. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
+  1. **Fix oxford-ms and birmingham wrong-city scrapes (#47)** — `data/timeout/oxford-ms.md` is Oxford UK; `data/timeout/birmingham.md` is Birmingham UK. Delete both, re-scrape using clinicalName ("Oxford, Mississippi" / "Birmingham, Alabama"), re-run research. This also addresses #47's systematic fix ask.
+  2. **Supplemental scraping for 24 failed cities** — see BACKLOG.md "Now" section for the full list.
+  3. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
+  4. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
 - **Blockers:** none.
 - **Doctrine reminders:**
   - **All changes to main MUST go through PRs.** Direct push fails branch-guard post-hoc.
