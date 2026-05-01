@@ -1,0 +1,855 @@
+{
+  "neighborhoods": [
+    {
+      "id": "plaza-downtown",
+      "city_id": "arcata-ca",
+      "name": {
+        "en": "The Plaza & Historic Downtown Core"
+      },
+      "summary": {
+        "en": "The historic and cultural heart of Arcata, this vibrant town square buzzes with student energy, old-school counter-culture, and small-town charm."
+      },
+      "lat": 40.8695,
+      "lng": -124.0866,
+      "trending_score": 95
+    },
+    {
+      "id": "arcata-marsh",
+      "city_id": "arcata-ca",
+      "name": {
+        "en": "Arcata Marsh & Wildlife Sanctuary"
+      },
+      "summary": {
+        "en": "A serene and beautiful landscape of ponds and wetlands that is actually a world-renowned natural wastewater treatment facility, popular with birders and walkers."
+      },
+      "lat": 40.8625,
+      "lng": -124.0935,
+      "trending_score": 88
+    },
+    {
+      "id": "community-forest",
+      "city_id": "arcata-ca",
+      "name": {
+        "en": "Arcata Community Forest"
+      },
+      "summary": {
+        "en": "An immersive redwood experience on the edge of town, this sustainably managed forest offers a cathedral-like atmosphere with a rich network of trails."
+      },
+      "lat": 40.873,
+      "lng": -124.072,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "plaza-downtown-missing-president",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "The Missing President Pedestal"
+      },
+      "description": {
+        "en": "A prominent, empty stone pedestal in the center of the Plaza where a controversial statue of President McKinley once stood, now a cultural landmark in itself."
+      },
+      "type": "landmark",
+      "lat": 40.8695,
+      "lng": -124.0866,
+      "trending_score": 90
+    },
+    {
+      "id": "plaza-downtown-minor-theater",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "The Minor Theater"
+      },
+      "description": {
+        "en": "One of the oldest movie-only theaters still in operation in the United States, its classic marquee is a beacon of living history."
+      },
+      "type": "culture",
+      "lat": 40.8703,
+      "lng": -124.0855,
+      "trending_score": 85
+    },
+    {
+      "id": "plaza-downtown-brizard-building",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "View from the Brizard Building"
+      },
+      "description": {
+        "en": "This historic building on the corner of 8th and G offers the best vantage point for a fantastic perspective of the town square's layout and energy."
+      },
+      "type": "viewpoint",
+      "lat": 40.8692,
+      "lng": -124.0873,
+      "trending_score": 75
+    },
+    {
+      "id": "plaza-downtown-farmers-market",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "Arcata Farmers' Market"
+      },
+      "description": {
+        "en": "On Saturdays (April-November), the Plaza transforms into the largest farmers' market in the county, offering a direct line to local producers and prepared foods."
+      },
+      "type": "food",
+      "lat": 40.8696,
+      "lng": -124.0863,
+      "trending_score": 98
+    },
+    {
+      "id": "plaza-downtown-plaza-cafes",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "The Plaza's Cafe Scene"
+      },
+      "description": {
+        "en": "The streets bordering the Plaza are dense with independent coffee shops. Look for spots with local art on the walls or a well-worn couch to find the town's pulse."
+      },
+      "type": "drink",
+      "lat": 40.8699,
+      "lng": -124.0859,
+      "trending_score": 80
+    },
+    {
+      "id": "plaza-downtown-local-watering-holes",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "Local Watering Holes"
+      },
+      "description": {
+        "en": "Surrounding the square are several unpretentious, long-standing bars and live music venues. Seek the sound of a local band to find them."
+      },
+      "type": "nightlife",
+      "lat": 40.8689,
+      "lng": -124.0869,
+      "trending_score": 78
+    },
+    {
+      "id": "plaza-downtown-farm-to-table",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "Farm-to-Table Finds"
+      },
+      "description": {
+        "en": "Restaurants around the Plaza reflect Humboldt's agricultural bounty, with menus changing based on what's fresh. Stroll the perimeter and read the menus."
+      },
+      "type": "food",
+      "lat": 40.8691,
+      "lng": -124.0861,
+      "trending_score": 88
+    },
+    {
+      "id": "plaza-downtown-victorian-architecture",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "Victorian Architecture on G & H Streets"
+      },
+      "description": {
+        "en": "Wander the streets just off the Plaza to spot numerous, beautifully restored Victorian homes and commercial buildings that are lived and worked in."
+      },
+      "type": "landmark",
+      "lat": 40.8708,
+      "lng": -124.087,
+      "trending_score": 70
+    },
+    {
+      "id": "plaza-downtown-plaza-lawn",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "plaza-downtown",
+      "name": {
+        "en": "Arcata Plaza Lawn"
+      },
+      "description": {
+        "en": "The grassy town square that acts as a community living room. It's a place for lingering, people-watching, and soaking in the town's fiercely independent spirit."
+      },
+      "type": "landmark",
+      "lat": 40.8694,
+      "lng": -124.0865,
+      "trending_score": 82
+    },
+    {
+      "id": "arcata-marsh-living-machine",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "The 'Living Machine' Interpretive Signs"
+      },
+      "description": {
+        "en": "Wander the trails to find signs explaining how the ecosystem of plants, bacteria, and sunlight naturally purifies the town's wastewater."
+      },
+      "type": "hidden_gem",
+      "lat": 40.8635,
+      "lng": -124.094,
+      "trending_score": 80
+    },
+    {
+      "id": "arcata-marsh-bird-watching",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "Bird Watching Hotspot"
+      },
+      "description": {
+        "en": "A critical stop on the Pacific Flyway, the marsh attracts hundreds of bird species. Benches are strategically placed for patient observation of egrets, herons, and ducks."
+      },
+      "type": "nature",
+      "lat": 40.8618,
+      "lng": -124.0955,
+      "trending_score": 90
+    },
+    {
+      "id": "arcata-marsh-log-pond-view",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "The Log Pond View"
+      },
+      "description": {
+        "en": "Walk the trail along the western edge for an expansive view across the McDaniel Slough and out to Humboldt Bay, creating a stunning panorama on a clear day."
+      },
+      "type": "viewpoint",
+      "lat": 40.863,
+      "lng": -124.1002,
+      "trending_score": 85
+    },
+    {
+      "id": "arcata-marsh-trail-to-bay",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "The Trail to the Bay"
+      },
+      "description": {
+        "en": "Follow the main path westward to reach the shores of Humboldt Bay, offering a more rugged, windswept coastal environment compared to the placid ponds."
+      },
+      "type": "nature",
+      "lat": 40.8645,
+      "lng": -124.1021,
+      "trending_score": 78
+    },
+    {
+      "id": "arcata-marsh-picnic-benches",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "Marsh Picnic Benches"
+      },
+      "description": {
+        "en": "Numerous benches are placed throughout the sanctuary, offering beautiful views of the ponds and Humboldt Bay for a perfect picnic spot."
+      },
+      "type": "food",
+      "lat": 40.8628,
+      "lng": -124.0968,
+      "trending_score": 70
+    },
+    {
+      "id": "arcata-marsh-freshwater-ponds",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "Freshwater Treatment Ponds"
+      },
+      "description": {
+        "en": "The heart of the sanctuary, these ponds are the primary location for the natural wastewater treatment process, surrounded by trails and wildlife."
+      },
+      "type": "nature",
+      "lat": 40.864,
+      "lng": -124.095,
+      "trending_score": 75
+    },
+    {
+      "id": "arcata-marsh-release-point",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "Treated Water Release Point"
+      },
+      "description": {
+        "en": "A hidden gem where the journey ends. Find the spot where the naturally purified freshwater from the marsh is finally released into Humboldt Bay."
+      },
+      "type": "hidden_gem",
+      "lat": 40.8655,
+      "lng": -124.1015,
+      "trending_score": 65
+    },
+    {
+      "id": "arcata-marsh-footbridges",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "arcata-marsh",
+      "name": {
+        "en": "Wooden Footbridges"
+      },
+      "description": {
+        "en": "The trail network is connected by charming wooden footbridges that cross over channels and offer great foreground elements for photos of the ponds."
+      },
+      "type": "landmark",
+      "lat": 40.8622,
+      "lng": -124.0929,
+      "trending_score": 68
+    },
+    {
+      "id": "community-forest-fsc-signs",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "FSC Certified Forestry Signs"
+      },
+      "description": {
+        "en": "Look for trail markers or signs mentioning the Forest Stewardship Council (FSC) certification, a nod to the forest's pioneering role in sustainable management."
+      },
+      "type": "hidden_gem",
+      "lat": 40.8735,
+      "lng": -124.0715,
+      "trending_score": 70
+    },
+    {
+      "id": "community-forest-redwood-creek-trail",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "Redwood Creek Trail (Trail #11)"
+      },
+      "description": {
+        "en": "A popular and accessible trail following a creek, offering a quintessential redwood forest experience with ferns, sorrel, and towering trees."
+      },
+      "type": "nature",
+      "lat": 40.8755,
+      "lng": -124.07,
+      "trending_score": 90
+    },
+    {
+      "id": "community-forest-upper-canopy",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "The Upper Canopy View"
+      },
+      "description": {
+        "en": "Climb the steeper trails to be rewarded with mystical views as you get closer to the massive redwood canopy, especially on foggy days."
+      },
+      "type": "viewpoint",
+      "lat": 40.878,
+      "lng": -124.0685,
+      "trending_score": 80
+    },
+    {
+      "id": "community-forest-headwaters",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "Headwaters of Urban Streams"
+      },
+      "description": {
+        "en": "This forest is the source of many small creeks that run through Arcata, representing the heart of the town's watershed."
+      },
+      "type": "nature",
+      "lat": 40.8762,
+      "lng": -124.0693,
+      "trending_score": 75
+    },
+    {
+      "id": "community-forest-scale-photo-spot",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "Redwood Scale Photo Spot"
+      },
+      "description": {
+        "en": "Find a spot along the trail where a person can stand next to the base of a redwood to create a dramatic sense of the tree's immense scale."
+      },
+      "type": "viewpoint",
+      "lat": 40.8748,
+      "lng": -124.0728,
+      "trending_score": 85
+    },
+    {
+      "id": "community-forest-crown-shyness",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "Crown Shyness Viewing Clearing"
+      },
+      "description": {
+        "en": "Find a clearing or a bend in a trail and look straight up to see where the tops of the redwoods avoid touching, creating fractal-like patterns against the sky."
+      },
+      "type": "nature",
+      "lat": 40.8771,
+      "lng": -124.0711,
+      "trending_score": 78
+    },
+    {
+      "id": "community-forest-creek-bridges",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "Wooden Creek Bridges"
+      },
+      "description": {
+        "en": "The forest trails are dotted with wooden bridges that cross over the numerous creeks flowing down toward the city."
+      },
+      "type": "landmark",
+      "lat": 40.8759,
+      "lng": -124.0705,
+      "trending_score": 68
+    },
+    {
+      "id": "community-forest-trailhead",
+      "city_id": "arcata-ca",
+      "neighborhood_id": "community-forest",
+      "name": {
+        "en": "Community Forest Trailhead"
+      },
+      "description": {
+        "en": "The main entrance to the forest's network of trails, located near Cal Poly Humboldt on the eastern side of town."
+      },
+      "type": "landmark",
+      "lat": 40.8731,
+      "lng": -124.0725,
+      "trending_score": 72
+    }
+  ],
+  "tasks": [
+    {
+      "id": "plaza-downtown-task-1",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Victorian Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on one of the historic Victorian buildings and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-2",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Plaza Lounging Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie relaxing on the central grass lawn of the Plaza, capturing the community living room vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-3",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Find a storefront, sign, or piece of art that you think perfectly captures Arcata's fiercely independent spirit. Snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-4",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Farm-Fresh Food Find"
+      },
+      "prompt": {
+        "en": "Photograph your farm-to-table meal or a fresh find from the farmers' market. Make it look delicious!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-5",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Cafe Culture"
+      },
+      "prompt": {
+        "en": "Capture the cozy interior of a local coffee shop, focusing on the local art or well-worn furniture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-6",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between a historic building and a modern element, like a new car, a student on a laptop, or a modern sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-7",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "The Sound of the Town"
+      },
+      "prompt": {
+        "en": "Listen for live music or the buzz of a busy bar. Take a photo of the venue where the sound is coming from."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-8",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Bicycle with a Story"
+      },
+      "prompt": {
+        "en": "Find a bicycle parked in the neighborhood that looks like it has a unique personality or story. Take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-9",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Hidden Public Art"
+      },
+      "prompt": {
+        "en": "Explore a side street or alley and find a piece of public art, like a small mural or sculpture, that most people might miss."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-10",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Community Bulletin"
+      },
+      "prompt": {
+        "en": "Find a community bulletin board and photograph the most interesting or unusual flyer posted on it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-11",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "Living History Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a historic building in the background that now houses a modern, unexpected business."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "plaza-downtown-task-12",
+      "neighborhood_id": "plaza-downtown",
+      "title": {
+        "en": "People-Watching Perspective"
+      },
+      "prompt": {
+        "en": "Find a good spot for people-watching and take a photo that captures the diverse mix of people enjoying the Plaza."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-1",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Sky Reflection"
+      },
+      "prompt": {
+        "en": "Find a calm spot on one of the treatment ponds and capture a beautiful reflection of the sky or clouds in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-2",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Peaceful Marsh Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a bench or a bridge, looking as peaceful and contemplative as the scenery around you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-3",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Avian Paparazzi"
+      },
+      "prompt": {
+        "en": "Without disturbing the wildlife, try to photograph a bird. Bonus points if it's an egret or heron!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-4",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Trail Texture"
+      },
+      "prompt": {
+        "en": "Take a low-angle photo focusing on the texture of the walking path, whether it's gravel, dirt, or a wooden boardwalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-5",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Framed by Reeds"
+      },
+      "prompt": {
+        "en": "Compose a photo of the ponds or the bay using the tall reeds or marsh grasses as a natural frame in the foreground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-6",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Ecological Engineer"
+      },
+      "prompt": {
+        "en": "Find an interpretive sign explaining how the marsh works and take a photo of it. What's one fact you learned?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-7",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Windswept Bay Selfie"
+      },
+      "prompt": {
+        "en": "Walk to the edge of Humboldt Bay and take a selfie with the wind in your hair and the open water behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-8",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Marsh Plant Trio"
+      },
+      "prompt": {
+        "en": "Find and photograph three distinct species of plants you see growing in the wetlands."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-9",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here at sunrise or sunset, capture the warm, golden light hitting the water and the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-10",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Life in the Marsh"
+      },
+      "prompt": {
+        "en": "From a respectful distance, take a photo of another person enjoying the marsh—a jogger, a photographer, a bird-watcher."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-11",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Water's Journey"
+      },
+      "prompt": {
+        "en": "Find a channel, pipe, or small waterfall that shows the movement of water between ponds. Capture the flow."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arcata-marsh-task-12",
+      "neighborhood_id": "arcata-marsh",
+      "title": {
+        "en": "Nature's Patterns"
+      },
+      "prompt": {
+        "en": "Find a natural pattern to photograph, like ripples in the water, the arrangement of leaves, or cracks in the dried mud."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-1",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Cathedral of Trees"
+      },
+      "prompt": {
+        "en": "Point your camera straight up to the sky and capture the majestic redwood canopy. Try to show the 'crown shyness' where the trees don't touch."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-2",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Redwood Scale Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie next to the base of a giant redwood tree to show off its incredible size compared to you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-3",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Forest Floor Detail"
+      },
+      "prompt": {
+        "en": "Get low to the ground and take a close-up photo of something on the forest floor: a vibrant green fern, moss on a log, or a patch of redwood sorrel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-4",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Sunbeam Chaser"
+      },
+      "prompt": {
+        "en": "Find a spot where sunlight is filtering through the canopy, creating visible rays or 'god beams', and capture the magical effect."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-5",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "The Winding Path"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a long, winding trail as it disappears into the forest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-6",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Rugged Explorer Selfie"
+      },
+      "prompt": {
+        "en": "After hiking up a steep section of trail, take a selfie looking like a triumphant and rugged forest explorer."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-7",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Stand on one of the wooden bridges and take a photo looking down at the creek flowing beneath you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-8",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Bark Texture"
+      },
+      "prompt": {
+        "en": "Get very close to a redwood tree and take a photo that captures the deep, fibrous texture of its bark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-9",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Trail Marker Discovery"
+      },
+      "prompt": {
+        "en": "Find any trail marker or sign within the forest and take a photo of it, showing where you are on the map."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-10",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Forest's Green Heart"
+      },
+      "prompt": {
+        "en": "Compose a photo that is overwhelmingly green, filled with moss, ferns, and the lush undergrowth of the forest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-11",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Fallen Giant"
+      },
+      "prompt": {
+        "en": "Find a large fallen redwood log and take a photo that shows how it has become a part of the forest floor, perhaps with new plants growing on it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "community-forest-task-12",
+      "neighborhood_id": "community-forest",
+      "title": {
+        "en": "Sustainable Forestry Sign"
+      },
+      "prompt": {
+        "en": "Look for subtle signs of active forest management, like a numbered tag on a tree or a sign about the FSC, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

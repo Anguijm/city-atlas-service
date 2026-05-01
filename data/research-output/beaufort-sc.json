@@ -1,0 +1,600 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "beaufort-sc",
+      "name": {
+        "en": "The Historic Downtown Core & Waterfront"
+      },
+      "summary": {
+        "en": "The vibrant heart of Beaufort, where maritime history meets a lively waterfront park along the Beaufort River, creating a hub that feels both timeless and alive."
+      },
+      "lat": 32.4321,
+      "lng": -80.6715,
+      "trending_score": 95
+    },
+    {
+      "id": "the-point",
+      "city_id": "beaufort-sc",
+      "name": {
+        "en": "The Point (Old Point)"
+      },
+      "summary": {
+        "en": "A hushed, residential neighborhood of grand antebellum homes, lush gardens, and streets shaded by moss-draped live oaks, perfect for slow, aimless wandering."
+      },
+      "lat": 32.428,
+      "lng": -80.6658,
+      "trending_score": 88
+    },
+    {
+      "id": "arts-corridor",
+      "city_id": "beaufort-sc",
+      "name": {
+        "en": "The Boundary Street Arts Corridor"
+      },
+      "summary": {
+        "en": "The town's contemporary creative engine, a district of galleries, studios, and quirky cultural spots that offers a modern counterpoint to the historic core."
+      },
+      "lat": 32.441,
+      "lng": -80.6955,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-waterfront-park",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Henry C. Chambers Waterfront Park"
+      },
+      "description": {
+        "en": "Beaufort's public front porch, a wide grassy expanse perfect for watching shrimp boats and observing the rhythm of the town."
+      },
+      "type": "landmark",
+      "lat": 32.4325,
+      "lng": -80.67,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-downtown-woods-bridge",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Richard V. Woods Memorial Bridge"
+      },
+      "description": {
+        "en": "An iconic swing bridge offering the single best panoramic view of the city's church steeples and waterfront."
+      },
+      "type": "viewpoint",
+      "lat": 32.4345,
+      "lng": -80.6725,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-st-helena-church",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Parish Church of St. Helena"
+      },
+      "description": {
+        "en": "A community anchor since 1712, this historic church features a serene graveyard with centuries-old headstones telling Beaufort's story."
+      },
+      "type": "landmark",
+      "lat": 32.4313,
+      "lng": -80.6738,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-robert-smalls-house",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Robert Smalls House"
+      },
+      "description": {
+        "en": "The former home of Robert Smalls, who escaped slavery to become a U.S. Congressman, offering a vital narrative of the city's history."
+      },
+      "type": "landmark",
+      "lat": 32.4295,
+      "lng": -80.6725,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-downtown-tabernacle-church",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Tabernacle Baptist Church (Robert Smalls Statue)"
+      },
+      "description": {
+        "en": "This historic church is home to a statue honoring Robert Smalls, a pivotal figure in Beaufort's and American history."
+      },
+      "type": "culture",
+      "lat": 32.4305,
+      "lng": -80.6755,
+      "trending_score": 86
+    },
+    {
+      "id": "the-point-the-bluff",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "the-point",
+      "name": {
+        "en": "The Bluff"
+      },
+      "description": {
+        "en": "A public waterfront path along Bay Street offering unobstructed views of the Beaufort River and marshes beyond."
+      },
+      "type": "viewpoint",
+      "lat": 32.4275,
+      "lng": -80.666,
+      "trending_score": 90
+    },
+    {
+      "id": "the-point-antebellum-homes",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "the-point",
+      "name": {
+        "en": "Antebellum Homes of The Point"
+      },
+      "description": {
+        "en": "A stunning collection of 19th-century mansions with sprawling verandas and intricate ironwork, best explored on a slow, aimless wander."
+      },
+      "type": "landmark",
+      "lat": 32.4285,
+      "lng": -80.6675,
+      "trending_score": 94
+    },
+    {
+      "id": "arts-corridor-uscb-arts-center",
+      "city_id": "beaufort-sc",
+      "neighborhood_id": "arts-corridor",
+      "name": {
+        "en": "University of South Carolina Beaufort Center for the Arts"
+      },
+      "description": {
+        "en": "The premier performing arts center for the region and a key landmark on Beaufort's cultural map."
+      },
+      "type": "culture",
+      "lat": 32.4338,
+      "lng": -80.6765,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Waterfront Rhythm"
+      },
+      "prompt": {
+        "en": "Find a bench with a view of the water and take a 10-second video capturing the movement of boats, birds, or people."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Historic Brick"
+      },
+      "prompt": {
+        "en": "Find an interesting brick wall and take a close-up photo focusing on its texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Steeple Skyline"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes one of Beaufort's historic church steeples against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Maritime Details"
+      },
+      "prompt": {
+        "en": "Photograph a detail on a boat in the marina – a rope, a name, or a reflection in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Porch Swing Serenity"
+      },
+      "prompt": {
+        "en": "Capture a photo of an inviting porch swing or rocking chair you spot from the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "A Story in Stone"
+      },
+      "prompt": {
+        "en": "Find a historical marker and take a photo of a single phrase that captures your attention."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Downtown Reflection"
+      },
+      "prompt": {
+        "en": "Find a puddle or a shop window and capture a reflection of the historic streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "The Salt Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Beaufort River in the background, trying to capture the breezy, maritime feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Gateway to the Sea"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a street that ends at the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "The Sound of Downtown"
+      },
+      "prompt": {
+        "en": "Record a short audio clip of the ambient sounds of the neighborhood - water, bells, conversation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by the historic buildings during the golden hour."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Local Flavors Quest"
+      },
+      "prompt": {
+        "en": "Find a local eatery's menu posted outside. Photograph the most interesting Lowcountry dish you see listed."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-1",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Gates of The Point"
+      },
+      "prompt": {
+        "en": "Create a photo of a unique and ornate wrought-iron gate guarding one of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-2",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Mossy Mood"
+      },
+      "prompt": {
+        "en": "Take a moody, artistic photo of Spanish moss hanging from an ancient live oak."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-3",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Veranda Views"
+      },
+      "prompt": {
+        "en": "Photograph a grand two-story porch, focusing on its architectural lines and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-4",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "A Novel's Cover"
+      },
+      "prompt": {
+        "en": "Find a quiet street corner that looks like it could be the cover of a Pat Conroy novel and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-5",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find and photograph an interesting architectural feature: a unique window, a column, or a decorative flourish."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-6",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Garden Secret"
+      },
+      "prompt": {
+        "en": "Take a photo peeking over a fence or through a gate into one of the lush, private gardens that line the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-7",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Hushed Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a photo of an empty street, emphasizing the stillness and timeless quality of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-8",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Marsh Vista"
+      },
+      "prompt": {
+        "en": "Take a panoramic photo of the salt marsh from a viewpoint along the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-9",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Foundation of History"
+      },
+      "prompt": {
+        "en": "Find a home with a visible tabby foundation and take a photo of its unique shell-and-lime texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-10",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Storytelling Porch Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the sidewalk in front of a porch that looks perfect for telling a long, winding story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-11",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "The Scent of the South"
+      },
+      "prompt": {
+        "en": "Find a flowering plant like jasmine or magnolia and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-point-task-12",
+      "neighborhood_id": "the-point",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a photo of your shoes on the historic pavement, a moment of pause in a timeless place."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-1",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Modern Lines"
+      },
+      "prompt": {
+        "en": "Find a modern building and take a photo that contrasts its clean lines with the natural landscape around it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-2",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Creative Spirit"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art, a mural, or a sculpture in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-3",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "Find the most vibrant and unexpected splash of color in the urban landscape and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-4",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Quirky Discovery"
+      },
+      "prompt": {
+        "en": "Find something delightfully strange or out of place that speaks to the area's independent spirit and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-5",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "The Shape of Art"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on the geometric shapes and patterns of a building in the arts district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-6",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Cultural Hub Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a building that represents the neighborhood's creative energy, like a gallery or theater."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-7",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Work in Progress"
+      },
+      "prompt": {
+        "en": "Look for signs of creation – paint splatters on a sidewalk, construction, or an artist's delivery – and document it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-8",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "The Poster Wall"
+      },
+      "prompt": {
+        "en": "Find a poster for an upcoming show or event and take an artistic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-9",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Capture the interplay of light and shadow on a modern facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-10",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Urban Counterpoint"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a modern structure and an element of Beaufort's classic live oaks or Spanish moss."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-11",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Artist's Tools"
+      },
+      "prompt": {
+        "en": "Find a sign for a gallery or studio and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-corridor-task-12",
+      "neighborhood_id": "arts-corridor",
+      "title": {
+        "en": "Inspired by Nature"
+      },
+      "prompt": {
+        "en": "Find a man-made object or architectural detail that seems to be inspired by a natural shape (a leaf, a wave, etc.) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

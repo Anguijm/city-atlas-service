@@ -1,0 +1,660 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "florence-al",
+      "name": {
+        "en": "Historic Downtown & Court Street Core"
+      },
+      "summary": {
+        "en": "The civic and cultural heart of Florence, where historic brick storefronts house a new generation of businesses alongside long-standing local institutions. The vibe is one of quiet preservation and deep history."
+      },
+      "lat": 34.7988,
+      "lng": -87.6755,
+      "trending_score": 90
+    },
+    {
+      "id": "university-greenway",
+      "city_id": "florence-al",
+      "name": {
+        "en": "The University & Cypress Creek Greenway"
+      },
+      "summary": {
+        "en": "A blend of academic energy from the University of North Alabama and the quiet nature of the Cypress Creek corridor. This area feels younger and more active, ideal for exploring architecture and natural landscapes."
+      },
+      "lat": 34.8075,
+      "lng": -87.6831,
+      "trending_score": 75
+    },
+    {
+      "id": "riverfront-music",
+      "city_id": "florence-al",
+      "name": {
+        "en": "The Tennessee Riverfront & Music Mecca"
+      },
+      "summary": {
+        "en": "Defined by the Tennessee River and the world-changing creativity of the Shoals music scene. The vibe is elemental, blending massive industrial engineering, sweeping natural views, and mythical music history."
+      },
+      "lat": 34.815,
+      "lng": -87.695,
+      "trending_score": 95
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-rollies",
+      "city_id": "florence-al",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Rollies"
+      },
+      "description": {
+        "en": "A modern boba tea shop that provides a refreshing counterpoint to the area's historic feel, popular with students and locals."
+      },
+      "type": "drink",
+      "lat": 34.7995,
+      "lng": -87.6755,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-downtown-dick-howells",
+      "city_id": "florence-al",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Dick Howell's"
+      },
+      "description": {
+        "en": "A classic, no-fuss lunch institution valued for its consistency and local character, serving the community for years."
+      },
+      "type": "food",
+      "lat": 34.7981,
+      "lng": -87.6752,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-downtown-soul-wingery",
+      "city_id": "florence-al",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Soul Wingery"
+      },
+      "description": {
+        "en": "A beloved spot specializing in Southern comfort food with a focus on wings and fried green tomatoes."
+      },
+      "type": "food",
+      "lat": 34.8012,
+      "lng": -87.6761,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-popes-tavern-museum",
+      "city_id": "florence-al",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Pope's Tavern Museum"
+      },
+      "description": {
+        "en": "A former stagecoach stop, tavern, and inn that served as a hospital for both Confederate and Union soldiers during the Civil War."
+      },
+      "type": "culture",
+      "lat": 34.7963,
+      "lng": -87.6795,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-wilson-park",
+      "city_id": "florence-al",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Wilson Park"
+      },
+      "description": {
+        "en": "The city's central green space, designated as a 'Public Walk' in the original 1818 city plan, serving as Florence's true town square."
+      },
+      "type": "nature",
+      "lat": 34.7972,
+      "lng": -87.6764,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-black-owl-trading-co",
+      "city_id": "florence-al",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Black Owl Trading Co."
+      },
+      "description": {
+        "en": "A screenprinting shop that transforms into a DIY venue for punk and alternative bands, representing the heart of the modern Shoals music scene."
+      },
+      "type": "nightlife",
+      "lat": 34.8085,
+      "lng": -87.6713,
+      "trending_score": 90
+    },
+    {
+      "id": "university-greenway-rosenbaum-house",
+      "city_id": "florence-al",
+      "neighborhood_id": "university-greenway",
+      "name": {
+        "en": "Frank Lloyd Wright's Rosenbaum House"
+      },
+      "description": {
+        "en": "An architectural masterpiece and one of the purest examples of Frank Lloyd Wright's 'Usonian' home concept, designed for a middle-class family."
+      },
+      "type": "culture",
+      "lat": 34.7935,
+      "lng": -87.6718,
+      "trending_score": 92
+    },
+    {
+      "id": "university-greenway-wildwood-park",
+      "city_id": "florence-al",
+      "neighborhood_id": "university-greenway",
+      "name": {
+        "en": "Wildwood Park"
+      },
+      "description": {
+        "en": "Described as the 'most secluded and serene of the city parks,' it runs along Cypress Creek and serves as a perfect urban oasis for locals."
+      },
+      "type": "nature",
+      "lat": 34.8133,
+      "lng": -87.6855,
+      "trending_score": 80
+    },
+    {
+      "id": "university-greenway-una-campus",
+      "city_id": "florence-al",
+      "neighborhood_id": "university-greenway",
+      "name": {
+        "en": "University of North Alabama (UNA) Campus"
+      },
+      "description": {
+        "en": "The grounds of the state's oldest public university, featuring historic buildings and a unique live lion habitat for its mascots."
+      },
+      "type": "landmark",
+      "lat": 34.8081,
+      "lng": -87.6833,
+      "trending_score": 85
+    },
+    {
+      "id": "riverfront-music-wilson-dam",
+      "city_id": "florence-al",
+      "neighborhood_id": "riverfront-music",
+      "name": {
+        "en": "Wilson Dam"
+      },
+      "description": {
+        "en": "A massive hydroelectric dam on the Tennessee River, this monumental piece of 20th-century engineering is also a source of local folklore."
+      },
+      "type": "landmark",
+      "lat": 34.7855,
+      "lng": -87.6458,
+      "trending_score": 88
+    },
+    {
+      "id": "riverfront-music-mcfarland-park",
+      "city_id": "florence-al",
+      "neighborhood_id": "riverfront-music",
+      "name": {
+        "en": "McFarland Park"
+      },
+      "description": {
+        "en": "A sprawling park on the shores of Pickwick Lake that serves as the city's primary connection to the Tennessee River."
+      },
+      "type": "nature",
+      "lat": 34.8182,
+      "lng": -87.7001,
+      "trending_score": 85
+    },
+    {
+      "id": "riverfront-music-muscle-shoals-sound-studio",
+      "city_id": "florence-al",
+      "neighborhood_id": "riverfront-music",
+      "name": {
+        "en": "Muscle Shoals Sound Studio"
+      },
+      "description": {
+        "en": "The unassuming studio on Jackson Highway where The Rolling Stones, Bob Dylan, and countless others recorded some of music's most iconic tracks."
+      },
+      "type": "culture",
+      "lat": 34.7571,
+      "lng": -87.6935,
+      "trending_score": 100
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Historic Brickwork"
+      },
+      "prompt": {
+        "en": "Find the most interesting or oldest-looking brick building on the street and capture its texture and character in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Modern Meets Historic"
+      },
+      "prompt": {
+        "en": "Take a picture that shows a modern element (like a new sign or product) contrasting with a historic architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Sounds of the Shoals"
+      },
+      "prompt": {
+        "en": "Find a flyer, poster, or sign for a local band or live music event. Snap a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Southern Comfort Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while enjoying a classic Southern drink or snack you've found in a local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Photograph a reflection in an old storefront window, capturing both the past and the present in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Local Institution"
+      },
+      "prompt": {
+        "en": "Find a business that looks like it has been here for generations and take a photo of its classic sign or facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Civic Heartbeat"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents the civic life of downtown, like a courthouse, public square, or library."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Explore a side street or alley and find a hidden detail—graffiti, a unique door, an old fire escape—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Park Bench Perspective"
+      },
+      "prompt": {
+        "en": "Sit on a bench in a public park or square and take a photo of the view that captures the rhythm of local life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Look for a faded, painted advertisement on the side of a brick building—a 'ghost sign'—and capture its historic charm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Refreshing Moment"
+      },
+      "prompt": {
+        "en": "Buy a cold drink from a local spot and take a creative photo that makes it look like the most refreshing thing in the world."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Local Pride"
+      },
+      "prompt": {
+        "en": "Find something that shows local Florence or Shoals pride—a t-shirt, a sticker, a flag—and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-1",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Campus Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the academic energy of the area—students walking, a library entrance, or an inspiring piece of campus architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-2",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Find a spot along the greenway and frame a shot of a man-made object (like a bridge or building) using natural elements like trees or leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-3",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Serene Selfie"
+      },
+      "prompt": {
+        "en": "Find the most peaceful-looking spot you can and take a selfie that shows how relaxed you are."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-4",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find a building with a unique architectural style and take a close-up photo of a detail that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-5",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Photograph a walking path, trail, or sidewalk from a low angle to make it look like an invitation to an adventure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-6",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Find an area with interesting trees or structures and capture a photo of the patterns their shadows make on the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-7",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "University Pride"
+      },
+      "prompt": {
+        "en": "Spot the university's logo, mascot, or colors and take a creative photo incorporating it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-8",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo right at the edge of Cypress Creek, focusing on the reflection of the sky or trees in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-9",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Oldest and Newest"
+      },
+      "prompt": {
+        "en": "Capture an image that shows a historic campus building alongside a more modern one, highlighting the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-10",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Hidden Study Spot"
+      },
+      "prompt": {
+        "en": "Find a bench or nook that looks like the perfect secret spot to study or read a book. Photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-11",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Green Escape"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by the color green, showcasing the lush nature of the parks and campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-greenway-task-12",
+      "neighborhood_id": "university-greenway",
+      "title": {
+        "en": "Signs of the Seasons"
+      },
+      "prompt": {
+        "en": "Find a plant, tree, or flower that clearly shows the current season and take an artistic close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-1",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "River's Power"
+      },
+      "prompt": {
+        "en": "Capture a photo that conveys the immense size and power of the Tennessee River or the structures built on it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-2",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Music History Landmark"
+      },
+      "prompt": {
+        "en": "Find a sign, plaque, or building related to the area's music history and take a photo that gives it a legendary feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-3",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here in the late afternoon, take a photo of the golden light reflecting on the river's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-4",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Taste of the Shoals"
+      },
+      "prompt": {
+        "en": "Order a dish that feels unique to the region and take an artful photo of your meal before you dig in."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-5",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Industrial Scale Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a massive piece of industrial engineering, like a dam or bridge, in the background to show the scale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-6",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Local Legend"
+      },
+      "prompt": {
+        "en": "Find a local and ask them about a local legend or story (like the giant catfish!). Take a photo of the place the story is about."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-7",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "On the Water"
+      },
+      "prompt": {
+        "en": "Photograph boats in a harbor or on the river, capturing the sense of recreation and life on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-8",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Album Cover Pose"
+      },
+      "prompt": {
+        "en": "Find a cool-looking wall or backdrop and strike a pose as if you were on the cover of your own legendary album."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-9",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Nature Meets Industry"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a natural element (water, trees) and a man-made industrial structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-10",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Wide Open Spaces"
+      },
+      "prompt": {
+        "en": "Take a panoramic photo of the riverfront that captures the sweeping, expansive view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-11",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "The 'Shoals' Name"
+      },
+      "prompt": {
+        "en": "Find the word 'Shoals' on a sign, a menu, or a piece of merchandise and snap a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "riverfront-music-task-12",
+      "neighborhood_id": "riverfront-music",
+      "title": {
+        "en": "Sounds of Silence"
+      },
+      "prompt": {
+        "en": "Find a quiet spot by the river and take a photo that conveys a sense of peace and the elemental power of the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

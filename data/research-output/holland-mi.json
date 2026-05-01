@@ -1,0 +1,825 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-historic-core",
+      "city_id": "holland-mi",
+      "name": {
+        "en": "Downtown & The Historic Core"
+      },
+      "summary": {
+        "en": "A blend of historic preservation and modern boutique energy, with famously snow-free streets in winter. It’s a compact, bustling core where the city’s past and present are in constant conversation."
+      },
+      "lat": 42.7878,
+      "lng": -86.1,
+      "trending_score": 95
+    },
+    {
+      "id": "dutch-heritage-loop",
+      "city_id": "holland-mi",
+      "name": {
+        "en": "The Dutch Heritage Loop"
+      },
+      "summary": {
+        "en": "A meticulously crafted landscape designed to transport you to the Netherlands. It’s peaceful, scenic, and unabashedly thematic, where the urban grid gives way to gardens and canals."
+      },
+      "lat": 42.7935,
+      "lng": -86.1015,
+      "trending_score": 90
+    },
+    {
+      "id": "waterfront-gateway",
+      "city_id": "holland-mi",
+      "name": {
+        "en": "The Waterfront Gateway"
+      },
+      "summary": {
+        "en": "Windswept and scenic, this is where the calm channel of Lake Macatawa opens into the vast expanse of Lake Michigan. It’s where locals go to watch the sunset and feel the presence of the Great Lakes."
+      },
+      "lat": 42.7695,
+      "lng": -86.205,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-historic-core-cappon-house",
+      "city_id": "holland-mi",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Cappon House Museum"
+      },
+      "description": {
+        "en": "The impeccably preserved Italianate house of Holland’s first mayor, offering a tangible connection to the city's founding generation and 19th-century life."
+      },
+      "type": "culture",
+      "lat": 42.7865,
+      "lng": -86.1055,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-historic-core-settlers-house",
+      "city_id": "holland-mi",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Settlers House Museum"
+      },
+      "description": {
+        "en": "A genuine city treasure, this is one of the very few structures to have survived the devastating Great Holland Fire of 1871."
+      },
+      "type": "culture",
+      "lat": 42.7842,
+      "lng": -86.101,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-historic-core-snowmelt-system",
+      "city_id": "holland-mi",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "The Snowmelt System"
+      },
+      "description": {
+        "en": "An invisible infrastructure of pipes carrying waste heat that keeps downtown sidewalks and streets snow-free, one of the largest such systems in the country."
+      },
+      "type": "hidden_gem",
+      "lat": 42.7878,
+      "lng": -86.1,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-historic-core-8th-street",
+      "city_id": "holland-mi",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "8th Street"
+      },
+      "description": {
+        "en": "The main artery and commercial heart of Holland, lined with shops and serving as the primary dining district."
+      },
+      "type": "shopping",
+      "lat": 42.7878,
+      "lng": -86.099,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-historic-core-river-avenue",
+      "city_id": "holland-mi",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "River Avenue"
+      },
+      "description": {
+        "en": "A side street intersecting with 8th Street, noted as a place to seek out potential hidden gem restaurants away from the main flow."
+      },
+      "type": "food",
+      "lat": 42.7878,
+      "lng": -86.1025,
+      "trending_score": 70
+    },
+    {
+      "id": "downtown-historic-core-central-avenue",
+      "city_id": "holland-mi",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Central Avenue"
+      },
+      "description": {
+        "en": "Another side street off the main drag, suggested as a location for discovering locally-owned establishments."
+      },
+      "type": "food",
+      "lat": 42.7878,
+      "lng": -86.0975,
+      "trending_score": 70
+    },
+    {
+      "id": "downtown-historic-core-washington-blvd",
+      "city_id": "holland-mi",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Washington Boulevard Historic Homes"
+      },
+      "description": {
+        "en": "A street featuring historic homes like the Cappon House, showcasing the city's 19th-century residential architecture."
+      },
+      "type": "landmark",
+      "lat": 42.7865,
+      "lng": -86.1065,
+      "trending_score": 65
+    },
+    {
+      "id": "dutch-heritage-loop-de-zwaan",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "De Zwaan Windmill"
+      },
+      "description": {
+        "en": "The only authentic, working Dutch windmill in the United States. This 250-year-old marvel was shipped from the Netherlands and reconstructed here."
+      },
+      "type": "landmark",
+      "lat": 42.7935,
+      "lng": -86.1015,
+      "trending_score": 100
+    },
+    {
+      "id": "dutch-heritage-loop-windmill-gardens",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "Windmill Island Gardens"
+      },
+      "description": {
+        "en": "A 36-acre park featuring canals, a carousel, and thousands of tulips in the spring, providing a beautiful setting for the De Zwaan windmill."
+      },
+      "type": "nature",
+      "lat": 42.7938,
+      "lng": -86.1025,
+      "trending_score": 90
+    },
+    {
+      "id": "dutch-heritage-loop-post-fire-architecture",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "Post-Fire Architecture Area"
+      },
+      "description": {
+        "en": "The residential and commercial blocks between Downtown and Windmill Island, where you can find brick and stone buildings from the late 19th century."
+      },
+      "type": "hidden_gem",
+      "lat": 42.79,
+      "lng": -86.101,
+      "trending_score": 75
+    },
+    {
+      "id": "dutch-heritage-loop-canals",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "Windmill Island Canals"
+      },
+      "description": {
+        "en": "Scenic waterways that wind through the Windmill Island Gardens, adding to the authentic Dutch atmosphere and offering beautiful reflections."
+      },
+      "type": "nature",
+      "lat": 42.793,
+      "lng": -86.102,
+      "trending_score": 80
+    },
+    {
+      "id": "dutch-heritage-loop-carousel",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "Antique Dutch Carousel"
+      },
+      "description": {
+        "en": "A charming, antique carousel located in the gardens, featuring hand-carved Dutch horses and decorative painted panels."
+      },
+      "type": "culture",
+      "lat": 42.794,
+      "lng": -86.101,
+      "trending_score": 75
+    },
+    {
+      "id": "dutch-heritage-loop-lincoln-bridge",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "Lincoln Avenue Bridge"
+      },
+      "description": {
+        "en": "The bridge that connects the downtown area to Windmill Island, marking the transition from the city grid to the park."
+      },
+      "type": "landmark",
+      "lat": 42.7915,
+      "lng": -86.1015,
+      "trending_score": 60
+    },
+    {
+      "id": "dutch-heritage-loop-vinkel-plaque",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "De Zwaan's Journey Plaque"
+      },
+      "description": {
+        "en": "A plaque or marker within the gardens that tells the story of the De Zwaan windmill's journey from Vinkel, Netherlands, to Holland, Michigan."
+      },
+      "type": "hidden_gem",
+      "lat": 42.7936,
+      "lng": -86.1014,
+      "trending_score": 70
+    },
+    {
+      "id": "dutch-heritage-loop-tulip-fields",
+      "city_id": "holland-mi",
+      "neighborhood_id": "dutch-heritage-loop",
+      "name": {
+        "en": "Tulip Fields"
+      },
+      "description": {
+        "en": "In the spring, the gardens are filled with thousands of tulips, creating a vibrant and iconic Dutch landscape."
+      },
+      "type": "nature",
+      "lat": 42.7932,
+      "lng": -86.1028,
+      "trending_score": 88
+    },
+    {
+      "id": "waterfront-gateway-big-red",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Holland Harbor Light (\"Big Red\")"
+      },
+      "description": {
+        "en": "The iconic red lighthouse at the entrance of the Lake Macatawa channel, best viewed from across the water at Holland State Park."
+      },
+      "type": "landmark",
+      "lat": 42.769,
+      "lng": -86.209,
+      "trending_score": 100
+    },
+    {
+      "id": "waterfront-gateway-tunnel-park",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Tunnel Park"
+      },
+      "description": {
+        "en": "A local gem featuring a concrete tunnel bored through a sand dune, which opens onto a stunning vista of Lake Michigan."
+      },
+      "type": "nature",
+      "lat": 42.783,
+      "lng": -86.213,
+      "trending_score": 90
+    },
+    {
+      "id": "waterfront-gateway-medal-of-honor",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Medal of Honor Monument"
+      },
+      "description": {
+        "en": "A quiet, powerful monument paying tribute to the four Medal of Honor recipients from Holland, more than any other US municipality."
+      },
+      "type": "culture",
+      "lat": 42.789,
+      "lng": -86.113,
+      "trending_score": 85
+    },
+    {
+      "id": "waterfront-gateway-holland-state-park",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Holland State Park"
+      },
+      "description": {
+        "en": "The primary access point for viewing the 'Big Red' lighthouse and enjoying the sandy shores of Lake Michigan."
+      },
+      "type": "nature",
+      "lat": 42.7695,
+      "lng": -86.205,
+      "trending_score": 95
+    },
+    {
+      "id": "waterfront-gateway-state-park-pier",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Holland State Park Pier"
+      },
+      "description": {
+        "en": "The pier extending into Lake Michigan, offering the classic postcard view of the 'Big Red' lighthouse across the channel."
+      },
+      "type": "viewpoint",
+      "lat": 42.7695,
+      "lng": -86.208,
+      "trending_score": 90
+    },
+    {
+      "id": "waterfront-gateway-heinz-walkway",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Heinz Waterfront Walkway"
+      },
+      "description": {
+        "en": "A scenic path along the water in the downtown area, which serves as the location for the Medal of Honor Monument."
+      },
+      "type": "nature",
+      "lat": 42.7895,
+      "lng": -86.1135,
+      "trending_score": 75
+    },
+    {
+      "id": "waterfront-gateway-macatawa-channel",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Lake Macatawa Channel"
+      },
+      "description": {
+        "en": "The waterway connecting Lake Macatawa to the vast Lake Michigan, frequented by sailboats, fishing boats, and freighters."
+      },
+      "type": "nature",
+      "lat": 42.7692,
+      "lng": -86.207,
+      "trending_score": 80
+    },
+    {
+      "id": "waterfront-gateway-lake-michigan-vista",
+      "city_id": "holland-mi",
+      "neighborhood_id": "waterfront-gateway",
+      "name": {
+        "en": "Lake Michigan Vista"
+      },
+      "description": {
+        "en": "The wide-open, stunning view of the Great Lake available from Tunnel Park and Holland State Park."
+      },
+      "type": "viewpoint",
+      "lat": 42.77,
+      "lng": -86.206,
+      "trending_score": 88
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-historic-core-task-1",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Historic Brickwork"
+      },
+      "prompt": {
+        "en": "Find a brick building from the 19th century and take a detailed photo of its unique texture or pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-2",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Capture a photo of a faded, hand-painted advertisement on the side of an old building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-3",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Modern Meets Historic"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic building's reflection in the window of a modern boutique."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-4",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "The Hidden Heat"
+      },
+      "prompt": {
+        "en": "In winter, capture the steam rising from the snow-free sidewalks. In other seasons, find a utility cover you think is part of the system."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-5",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a locally-owned cafe or pub bustling with residents and take a photo of its inviting storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-6",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Side Street Secret"
+      },
+      "prompt": {
+        "en": "Venture off 8th Street and photograph a charming detail you find on a quieter side street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-7",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Post-Fire Resilience"
+      },
+      "prompt": {
+        "en": "Find a building with a date stone from the late 1800s and take a photo that celebrates its longevity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-8",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Civic Heartbeat"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energy of 8th Street, Holland's main commercial artery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-9",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on an interesting architectural element of a historic building, like a cornice, window frame, or doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-10",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Walker's Paradise Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows off the clean, walkable streets of the downtown core."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-11",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Shop Local"
+      },
+      "prompt": {
+        "en": "Photograph a window display of an independent shop that you find particularly creative or appealing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-12",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Urban Texture Trio"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different textures you find downtown: brick, glass, and pavement."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-1",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Windmill Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the De Zwaan windmill as a dramatic silhouette against the morning or evening sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-2",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Canal Reflections"
+      },
+      "prompt": {
+        "en": "Find a calm spot along a canal and take a photo of the perfect reflection of the sky or gardens in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-3",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "A Touch of the Netherlands"
+      },
+      "prompt": {
+        "en": "Photograph an object or scene that makes you feel like you've been transported to the Netherlands."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-4",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Garden's Geometry"
+      },
+      "prompt": {
+        "en": "Find a pattern in the garden layouts—in the flower beds, pathways, or hedges—and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-5",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Flower Portrait"
+      },
+      "prompt": {
+        "en": "If tulips are in bloom, take a close-up portrait of a single, perfect flower. If not, find another beautiful flower to feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-6",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Hand-Carved History"
+      },
+      "prompt": {
+        "en": "Take a detailed photo of the hand-carved and painted details on the antique Dutch carousel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-7",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Peaceful Park Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet bench in the gardens and take a selfie enjoying the peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-8",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Use a bridge over a canal to frame a scenic view of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-9",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Dutch Craftsmanship"
+      },
+      "prompt": {
+        "en": "Find an example of craftsmanship, whether in the windmill's construction, garden design, or building details, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-10",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Colors of Holland"
+      },
+      "prompt": {
+        "en": "Create a photo that is dominated by the colors of the Dutch flag: red, white, and blue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-11",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of the authentic, 250-year-old windmill at the heart of the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "dutch-heritage-loop-task-12",
+      "neighborhood_id": "dutch-heritage-loop",
+      "title": {
+        "en": "Explorer's Picnic"
+      },
+      "prompt": {
+        "en": "The report suggests packing a picnic. Stage a photo of your snack in a scenic spot within the gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-1",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Great Lake Horizon"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the vast, seemingly endless horizon where Lake Michigan meets the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-2",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Sunset Seeker"
+      },
+      "prompt": {
+        "en": "If you're here at the right time, capture the stunning colors of the sunset over the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-3",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Leading Lines Pier"
+      },
+      "prompt": {
+        "en": "Use the pier as a strong leading line in your composition, drawing the eye out towards the lake or the lighthouse."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-4",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Light at the End of the Tunnel"
+      },
+      "prompt": {
+        "en": "Stand at the back of the tunnel in Tunnel Park and frame the bright beach scene with the dark tunnel walls."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-5",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Windswept Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the beach or pier that captures the windswept feeling of the lakeshore."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-6",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Power of Water"
+      },
+      "prompt": {
+        "en": "Capture the motion of the waves, either as a crisp, frozen splash or a smooth, long-exposure blur."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-7",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Big Red from Afar"
+      },
+      "prompt": {
+        "en": "Take a photo of the iconic 'Big Red' lighthouse from the classic viewpoint at Holland State Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-8",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Channel Traffic"
+      },
+      "prompt": {
+        "en": "Photograph a boat—sailboat, freighter, or fishing boat—as it passes through the channel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-9",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Dune Climb Vista"
+      },
+      "prompt": {
+        "en": "Climb the stairs on a dune and take a panoramic photo of the view from the top."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-10",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet spot near the water and take a photo that captures a feeling of peace and reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-11",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Sand and Sky"
+      },
+      "prompt": {
+        "en": "Compose a minimalist photo that is split between the texture of the sand and the color of the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waterfront-gateway-task-12",
+      "neighborhood_id": "waterfront-gateway",
+      "title": {
+        "en": "Nature's Still Life"
+      },
+      "prompt": {
+        "en": "Find three natural objects (a stone, a piece of driftwood, a feather) and arrange them for a still-life photo on the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

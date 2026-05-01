@@ -1,0 +1,870 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "bar-harbor-me",
+      "name": {
+        "en": "Downtown Core & Rodick Street Hideaways"
+      },
+      "summary": {
+        "en": "This is the energetic heart of Bar Harbor, with real magic found on quieter side streets like Rodick Street, a local’s corridor packed with beloved eateries and pubs."
+      },
+      "lat": 44.3885,
+      "lng": -68.2055,
+      "trending_score": 95
+    },
+    {
+      "id": "historic-shore-path",
+      "city_id": "bar-harbor-me",
+      "name": {
+        "en": "The Historic Shore Path & Gilded Age Echoes"
+      },
+      "summary": {
+        "en": "Step back in time along a coastal path defined by stunning views of Frenchman Bay and the grand, Gilded Age mansions that line the waterfront."
+      },
+      "lat": 44.386,
+      "lng": -68.201,
+      "trending_score": 88
+    },
+    {
+      "id": "route-3-corridor",
+      "city_id": "bar-harbor-me",
+      "name": {
+        "en": "The Route 3 Corridor & Acadia's Doorstep"
+      },
+      "summary": {
+        "en": "This rustic corridor is the last bastion of in-town flavor before the wilderness of Acadia National Park, home to breweries, classic diners, and iconic seafood shacks."
+      },
+      "lat": 44.3795,
+      "lng": -68.215,
+      "trending_score": 82
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-thirsty-whale",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Thirsty Whale Tavern"
+      },
+      "description": {
+        "en": "A classic, no-frills local pub and beloved dive bar, perfect for a late-night beer and a genuine slice of Bar Harbor life."
+      },
+      "type": "nightlife",
+      "lat": 44.3893,
+      "lng": -68.2053,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-core-havana-parrilla",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Havana Parrilla"
+      },
+      "description": {
+        "en": "Tucked behind its sister restaurant, this vibrant outdoor tapas bar is a local favorite for tropical cocktails and a relaxed vibe."
+      },
+      "type": "drink",
+      "lat": 44.3868,
+      "lng": -68.2051,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-core-a-slice-of-eden",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "A Slice of Eden"
+      },
+      "description": {
+        "en": "A tiny, unassuming bakery known for its kitschy decor and fantastic bagels and pastries, perfect for a quick breakfast."
+      },
+      "type": "food",
+      "lat": 44.3888,
+      "lng": -68.2062,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-core-side-street-cafe",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Side Street Cafe"
+      },
+      "description": {
+        "en": "The quintessential local hangout on Rodick Street, serving everything from hearty burgers to fresh lobster rolls in a welcoming atmosphere."
+      },
+      "type": "food",
+      "lat": 44.3884,
+      "lng": -68.2061,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-core-project-social",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Project Social Kitchen & Bar"
+      },
+      "description": {
+        "en": "A contemporary spot with a quaint patio, focusing on creative small plates like duck tacos and craft cocktails."
+      },
+      "type": "food",
+      "lat": 44.3878,
+      "lng": -68.2048,
+      "trending_score": 87
+    },
+    {
+      "id": "downtown-core-downeast-deli",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Downeast Deli"
+      },
+      "description": {
+        "en": "An essential stop for provisioning your day's adventure with a perfectly constructed, no-nonsense lobster roll or a hearty sub."
+      },
+      "type": "food",
+      "lat": 44.3896,
+      "lng": -68.2044,
+      "trending_score": 84
+    },
+    {
+      "id": "downtown-core-village-green",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Village Green"
+      },
+      "description": {
+        "en": "Considered the town's living room, this award-winning public space features a charming bandstand and is perfect for people-watching."
+      },
+      "type": "landmark",
+      "lat": 44.3899,
+      "lng": -68.2059,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-core-civil-war-monument",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "American Civil War Monument"
+      },
+      "description": {
+        "en": "A piece of hidden-in-plain-sight history on the Village Green, dedicated to \"Eden's sons,\" a nod to Bar Harbor's original name."
+      },
+      "type": "hidden_gem",
+      "lat": 44.3898,
+      "lng": -68.2058,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-core-ben-and-bills",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Ben & Bill's Chocolate Emporium"
+      },
+      "description": {
+        "en": "A popular shop famous for its signature oddity: a surprisingly savory-sweet lobster-flavored ice cream."
+      },
+      "type": "food",
+      "lat": 44.3895,
+      "lng": -68.2041,
+      "trending_score": 91
+    },
+    {
+      "id": "downtown-core-town-pier",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Town Pier"
+      },
+      "description": {
+        "en": "Walk to the end of the pier to see the working waterfront, observe lobster boats, and get a ground-level view of the harbor's daily rhythm."
+      },
+      "type": "viewpoint",
+      "lat": 44.3916,
+      "lng": -68.2033,
+      "trending_score": 86
+    },
+    {
+      "id": "historic-shore-path-the-loft-bar",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "historic-shore-path",
+      "name": {
+        "en": "The Loft Bar"
+      },
+      "description": {
+        "en": "Situated with a commanding view of the Atlantic, this is an ideal spot to enjoy a crisp glass of wine and fresh oysters after your walk."
+      },
+      "type": "viewpoint",
+      "lat": 44.3965,
+      "lng": -68.2001,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-shore-path-two-cats",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "historic-shore-path",
+      "name": {
+        "en": "Two Cats Breakfast"
+      },
+      "description": {
+        "en": "A cozy, homey diner known for excellent corned beef hash and fluffy pancakes, it feels like breakfast in a friend's quirky cottage."
+      },
+      "type": "food",
+      "lat": 44.387,
+      "lng": -68.2081,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-shore-path-havana",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "historic-shore-path",
+      "name": {
+        "en": "Havana"
+      },
+      "description": {
+        "en": "An acclaimed Latin restaurant with one of the region's most impressive wine lists, offering a refined dining experience to match the Gilded Age atmosphere."
+      },
+      "type": "food",
+      "lat": 44.3868,
+      "lng": -68.2051,
+      "trending_score": 93
+    },
+    {
+      "id": "historic-shore-path-shore-path",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "historic-shore-path",
+      "name": {
+        "en": "The Shore Path"
+      },
+      "description": {
+        "en": "This 1.5-mile public path winds along the rocky coastline, offering intimate views of the Porcupine Islands and historic summer homes."
+      },
+      "type": "nature",
+      "lat": 44.391,
+      "lng": -68.203,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-shore-path-balance-rock",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "historic-shore-path",
+      "name": {
+        "en": "Balance Rock"
+      },
+      "description": {
+        "en": "A geological curiosity and classic photo spot, this massive, glacially deposited boulder sits impossibly perched on a rock ledge at the water's edge."
+      },
+      "type": "landmark",
+      "lat": 44.392,
+      "lng": -68.2015,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-shore-path-bar-island-path",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "historic-shore-path",
+      "name": {
+        "en": "Bar Island Path"
+      },
+      "description": {
+        "en": "A true hidden gem accessible only at low tide, this natural gravel bar allows you to walk across the ocean floor to an uninhabited island."
+      },
+      "type": "hidden_gem",
+      "lat": 44.3945,
+      "lng": -68.2075,
+      "trending_score": 94
+    },
+    {
+      "id": "historic-shore-path-gilded-age-mansions",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "historic-shore-path",
+      "name": {
+        "en": "Gilded Age Mansions Viewpoint"
+      },
+      "description": {
+        "en": "As you walk the Shore Path, admire the historic \"cottages\" and look for unique architectural details like turrets, sprawling porches, and intricate stonework."
+      },
+      "type": "landmark",
+      "lat": 44.3875,
+      "lng": -68.2005,
+      "trending_score": 85
+    },
+    {
+      "id": "route-3-corridor-atlantic-brewing",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "Atlantic Brewing Company"
+      },
+      "description": {
+        "en": "A must-visit for beer lovers, this sleek, modern brewery with an expansive lawn is the perfect place for a post-hike tasting flight."
+      },
+      "type": "drink",
+      "lat": 44.3748,
+      "lng": -68.2325,
+      "trending_score": 90
+    },
+    {
+      "id": "route-3-corridor-thrive-juice-bar",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "Thrive Juice Bar & Kitchen"
+      },
+      "description": {
+        "en": "The ideal starting point for a day of adventure; grab a healthy smoothie or a nutrient-packed breakfast bowl to fuel your walk or hike."
+      },
+      "type": "food",
+      "lat": 44.3883,
+      "lng": -68.2062,
+      "trending_score": 80
+    },
+    {
+      "id": "route-3-corridor-travelin-lobster",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "The Travelin' Lobster"
+      },
+      "description": {
+        "en": "A quintessential Maine seafood shack serving unpretentious, incredibly fresh, and perfectly prepared lobster rolls."
+      },
+      "type": "food",
+      "lat": 44.3689,
+      "lng": -68.2301,
+      "trending_score": 96
+    },
+    {
+      "id": "route-3-corridor-jordans-restaurant",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "Jordan's Restaurant"
+      },
+      "description": {
+        "en": "A Bar Harbor institution famous for one thing: blueberries. This diner serves what many consider the definitive blueberry pancakes on the island."
+      },
+      "type": "food",
+      "lat": 44.388,
+      "lng": -68.2069,
+      "trending_score": 91
+    },
+    {
+      "id": "route-3-corridor-jeannies-breakfast",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "Jeannie's Great Maine Breakfast"
+      },
+      "description": {
+        "en": "A legendary breakfast spot that lives up to its hype, known for fantastic, from-scratch plates and homemade strawberry-rhubarb jam."
+      },
+      "type": "food",
+      "lat": 44.39,
+      "lng": -68.2047,
+      "trending_score": 92
+    },
+    {
+      "id": "route-3-corridor-compass-harbor-trail",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "Compass Harbor Trail"
+      },
+      "description": {
+        "en": "This easy walking trail and hidden gem leads to the stone foundations of the former estate of George Dorr, the \"Father of Acadia National Park.\""
+      },
+      "type": "nature",
+      "lat": 44.3815,
+      "lng": -68.1975,
+      "trending_score": 88
+    },
+    {
+      "id": "route-3-corridor-mdi-ice-cream",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "Mount Desert Island Ice Cream"
+      },
+      "description": {
+        "en": "With a national reputation as one of America's best, this shop serves unique, small-batch flavors like \"Butterscotch Miso\"."
+      },
+      "type": "food",
+      "lat": 44.389,
+      "lng": -68.2048,
+      "trending_score": 95
+    },
+    {
+      "id": "route-3-corridor-cycling-terminus",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "Adventure Cycling Route Terminus"
+      },
+      "description": {
+        "en": "Head towards the harbor to find cyclists completing epic cross-country journeys, a celebration of slow travel and human endurance."
+      },
+      "type": "culture",
+      "lat": 44.3925,
+      "lng": -68.2035,
+      "trending_score": 75
+    },
+    {
+      "id": "route-3-corridor-oldfarm-ruins",
+      "city_id": "bar-harbor-me",
+      "neighborhood_id": "route-3-corridor",
+      "name": {
+        "en": "\"Oldfarm\" Estate Ruins"
+      },
+      "description": {
+        "en": "Explore the quiet, slightly spooky stone foundations of George Dorr's estate, found along the Compass Harbor Trail."
+      },
+      "type": "hidden_gem",
+      "lat": 44.38,
+      "lng": -68.196,
+      "trending_score": 82
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Alleyway Perspective"
+      },
+      "prompt": {
+        "en": "Find a hidden alley or quiet side street and take a photo looking out towards the bustling main thoroughfare."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shop Window Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a historic building or a lively street scene in a shop's window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Local Flavor Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a dish or drink that feels like authentic local comfort food."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Maritime Typography"
+      },
+      "prompt": {
+        "en": "Photograph a sign or menu that uses classic, nautical-themed lettering."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Maritime Grit"
+      },
+      "prompt": {
+        "en": "Find a detail that shows the town's working waterfront history, like a weathered rope, an old buoy, or an anchor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The Town's Living Room"
+      },
+      "prompt": {
+        "en": "Capture a candid 'slice of life' photo of people relaxing or socializing on the Village Green."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Colorful Facade"
+      },
+      "prompt": {
+        "en": "Find the most colorful and vibrant storefront in the area and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Footsteps"
+      },
+      "prompt": {
+        "en": "Take a photo of your feet on a historic brick sidewalk or a well-worn wooden floor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Secret Story Building"
+      },
+      "prompt": {
+        "en": "Photograph a building that looks like it has a secret story to tell. What do you think it is?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between old architecture and modern life (e.g., a historic building with a modern car in front)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Menu Explorer"
+      },
+      "prompt": {
+        "en": "Find a menu board outside a restaurant and take a photo of the most tempting local specialty you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Quirky Detail Quest"
+      },
+      "prompt": {
+        "en": "Find a piece of quirky public art or an unusual decoration on a building and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-1",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Ocean Framed"
+      },
+      "prompt": {
+        "en": "Take a photo of the ocean or Frenchman Bay perfectly framed by trees, rocks, or an architectural element."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-2",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Gilded Age Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a grand Gilded Age mansion in the background, making sure to capture its elegant architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-3",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Stone Story"
+      },
+      "prompt": {
+        "en": "Find a piece of intricate or weathered stonework on a historic building or wall and take a close-up photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-4",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Elegant Details"
+      },
+      "prompt": {
+        "en": "Photograph a detail that evokes old-world elegance, such as a wrought-iron gate, a gas lamp, or a widow's walk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-5",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Porcupine Islands Panorama"
+      },
+      "prompt": {
+        "en": "Find a spot with a clear view of the Porcupine Islands and take a panoramic shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-6",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Crashing Waves"
+      },
+      "prompt": {
+        "en": "Capture the motion of waves crashing against the rocky Maine coastline."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-7",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Nature's Treasure"
+      },
+      "prompt": {
+        "en": "Find a natural detail along the path, like a unique seashell, a piece of sea glass, or colorful lichen on a rock, and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-8",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Manicured vs. Wild"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the contrast between a manicured mansion lawn and the wild, rugged coastline."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-9",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or viewpoint and take a photo that captures a feeling of quiet contemplation by the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-10",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Find an interesting shadow cast by a historic architectural feature, like a turret or a sprawling porch."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-11",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Boat Spotting"
+      },
+      "prompt": {
+        "en": "Take a photo of a boat on Frenchman Bay from the perspective of the Shore Path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-shore-path-task-12",
+      "neighborhood_id": "historic-shore-path",
+      "title": {
+        "en": "Coastal Texture"
+      },
+      "prompt": {
+        "en": "Capture the texture of weathered wood on a bench, fence, or seaside structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-1",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Edge of the Wild"
+      },
+      "prompt": {
+        "en": "Take a photo that shows where the town gives way to the wilderness of Acadia National Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-2",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Classic Maine Eats"
+      },
+      "prompt": {
+        "en": "Capture the classic, rustic look of a Maine seafood shack, roadside stand, or old-fashioned diner."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-3",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Adventure Fuel"
+      },
+      "prompt": {
+        "en": "Photograph a meal or snack that feels like the perfect fuel for a hike or a day of exploring."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-4",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Path to Adventure"
+      },
+      "prompt": {
+        "en": "Take a picture of a trail marker or a path leading into the woods, capturing the feeling of starting a journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-5",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Essence of Maine"
+      },
+      "prompt": {
+        "en": "Find a detail that screams 'Maine,' like a pile of lobster traps, a blueberry-themed item, or a pine tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-6",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Ready for Adventure"
+      },
+      "prompt": {
+        "en": "Take a photo of your adventure gear (hiking boots, backpack, water bottle) against a natural backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-7",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Find a historic ruin, stone wall, or old foundation that is being actively reclaimed by nature and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-8",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Park-Bound Selfie"
+      },
+      "prompt": {
+        "en": "Find a sign for Acadia National Park and take an excited selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-9",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Adventurous Ride"
+      },
+      "prompt": {
+        "en": "Take a photo of a vehicle that looks ready for an adventure, like a bicycle, a kayak on a car, or a rugged Jeep."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-10",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Local Flora"
+      },
+      "prompt": {
+        "en": "Find a wild plant, flower, or type of tree native to the area and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-11",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "A Look Back"
+      },
+      "prompt": {
+        "en": "From the edge of the park or a trailhead, photograph a view looking back towards the town of Bar Harbor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "route-3-corridor-task-12",
+      "neighborhood_id": "route-3-corridor",
+      "title": {
+        "en": "Brewery Still Life"
+      },
+      "prompt": {
+        "en": "Create a 'still life' photo of a local craft beer or beverage against the rustic backdrop of a brewery or picnic table."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

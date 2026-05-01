@@ -1,0 +1,615 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-old-town",
+      "city_id": "steamboat-springs-co",
+      "name": {
+        "en": "Historic Old Town"
+      },
+      "summary": {
+        "en": "A quiet, authentic neighborhood just north of Lincoln Avenue where Steamboat's story began, featuring original homestead-era architecture and charming residential streets."
+      },
+      "lat": 40.4878,
+      "lng": -106.8335,
+      "trending_score": 65
+    },
+    {
+      "id": "yampa-river-corridor",
+      "city_id": "steamboat-springs-co",
+      "name": {
+        "en": "The Yampa River Corridor"
+      },
+      "summary": {
+        "en": "The natural, energetic artery of Steamboat, where the Yampa River flows through town, creating a year-round hub for outdoorsy activity."
+      },
+      "lat": 40.4851,
+      "lng": -106.8302,
+      "trending_score": 85
+    },
+    {
+      "id": "mountain-base",
+      "city_id": "steamboat-springs-co",
+      "name": {
+        "en": "The Mountain Base"
+      },
+      "summary": {
+        "en": "A polished, energetic, and distinctly alpine village at the foot of Steamboat Ski Resort, serving as the modern heart of the town's resort identity."
+      },
+      "lat": 40.4581,
+      "lng": -106.8063,
+      "trending_score": 90
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-old-town-crawford-house",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "historic-old-town",
+      "name": {
+        "en": "The Crawford House"
+      },
+      "description": {
+        "en": "The 1894 stone home of James Harvey Crawford, the founder of Steamboat Springs, offering a direct link to the town's pioneer roots."
+      },
+      "type": "landmark",
+      "lat": 40.4905,
+      "lng": -106.8365,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-old-town-christian-science-building",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "historic-old-town",
+      "name": {
+        "en": "Christian Science Society Building"
+      },
+      "description": {
+        "en": "An unexpected architectural gem built in 1934, this church is constructed entirely of logs, giving it a distinct 'Rocky Mountain rustic' feel."
+      },
+      "type": "landmark",
+      "lat": 40.4871,
+      "lng": -106.832,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-old-town-olympian-legacy-walk",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "historic-old-town",
+      "name": {
+        "en": "The Olympian Legacy Walk"
+      },
+      "description": {
+        "en": "A self-guided walk through the quiet streets where many of Steamboat's numerous winter Olympians grew up, connecting the town to its athletic heart."
+      },
+      "type": "hidden_gem",
+      "lat": 40.4885,
+      "lng": -106.834,
+      "trending_score": 80
+    },
+    {
+      "id": "yampa-river-corridor-charlies-hole",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "yampa-river-corridor",
+      "name": {
+        "en": "Charlie's Hole (C-Hole)"
+      },
+      "description": {
+        "en": "A legendary, surfable whitewater feature on the Yampa River that serves as a living memorial and a social hub for the local paddling community."
+      },
+      "type": "nature",
+      "lat": 40.4852,
+      "lng": -106.8308,
+      "trending_score": 88
+    },
+    {
+      "id": "yampa-river-corridor-downtown-whitewater-run",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "yampa-river-corridor",
+      "name": {
+        "en": "The Downtown Whitewater Run"
+      },
+      "description": {
+        "en": "A 4-mile stretch of the Yampa River engineered with man-made features, creating a Class II-III whitewater course through the heart of town."
+      },
+      "type": "nature",
+      "lat": 40.4845,
+      "lng": -106.828,
+      "trending_score": 85
+    },
+    {
+      "id": "yampa-river-corridor-festival-arena",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "yampa-river-corridor",
+      "name": {
+        "en": "Yampa River Festival 'Arena'"
+      },
+      "description": {
+        "en": "The section of the river where the annual Yampa River Festival's kayak rodeo is held, serving as a permanent, dynamic stage for whitewater action."
+      },
+      "type": "landmark",
+      "lat": 40.485,
+      "lng": -106.8295,
+      "trending_score": 82
+    },
+    {
+      "id": "yampa-river-corridor-bud-werner-library",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "yampa-river-corridor",
+      "name": {
+        "en": "Bud Werner Memorial Library"
+      },
+      "description": {
+        "en": "The town's main library, named in memory of Buddy Werner, a Steamboat-raised Olympic alpine skier and national hero."
+      },
+      "type": "culture",
+      "lat": 40.4855,
+      "lng": -106.831,
+      "trending_score": 78
+    },
+    {
+      "id": "mountain-base-ski-resort-base",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "mountain-base",
+      "name": {
+        "en": "The Steamboat Ski Resort Base"
+      },
+      "description": {
+        "en": "The central plaza and launching point for the vast ski area, serving as the engine room of Steamboat's 'Ski Town, U.S.A.' persona."
+      },
+      "type": "landmark",
+      "lat": 40.458,
+      "lng": -106.8065,
+      "trending_score": 95
+    },
+    {
+      "id": "mountain-base-buddy-werner-tributes",
+      "city_id": "steamboat-springs-co",
+      "neighborhood_id": "mountain-base",
+      "name": {
+        "en": "Tributes to Buddy Werner"
+      },
+      "description": {
+        "en": "A scavenger hunt for the various memorials honoring Wallace 'Buddy' Werner, a Steamboat-raised Olympic skier and national hero."
+      },
+      "type": "culture",
+      "lat": 40.4575,
+      "lng": -106.8055,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-old-town-task-1",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Pioneer Portrait"
+      },
+      "prompt": {
+        "en": "Find a home built before 1900 and take a selfie with it, imagining you're a homesteader."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-2",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Capture a close-up photo of an interesting architectural detail on one of Old Town's historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-3",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by the mountains over the quiet residential streets in the morning or late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-4",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a historic building and a modern element, like a new car or a mountain bike."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-5",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Ski Town Clues"
+      },
+      "prompt": {
+        "en": "Find a subtle nod to ski culture in the neighborhood's decor—old skis on a fence, a snowflake carving, etc.—and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-6",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Take a photo down an empty, tree-lined street that captures the peaceful vibe of this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-7",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Local's Ride"
+      },
+      "prompt": {
+        "en": "Find a classic 'mountain town' vehicle (like an old Subaru or a truck with a ski rack) and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-8",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Capture a photo of a charming front porch that looks like the perfect place to relax after a day on the mountain."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-9",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Mountain Backdrop"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic home is perfectly framed by the mountains in the background and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-10",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Street Sign Story"
+      },
+      "prompt": {
+        "en": "Find a street named after a founding family (like Crawford or Werner) and take a photo of the sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-11",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Texture Study"
+      },
+      "prompt": {
+        "en": "Create an abstract photo focusing on the texture of old wood, local stone, or peeling paint on a historic structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-old-town-task-12",
+      "neighborhood_id": "historic-old-town",
+      "title": {
+        "en": "Olympian's View"
+      },
+      "prompt": {
+        "en": "Stand on a street corner and take a photo of the view towards Howelsen Hill, imagining the Olympians who grew up here."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-1",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "River's Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the town or the sky in a calm section of the Yampa River."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-2",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Action Shot"
+      },
+      "prompt": {
+        "en": "Find someone enjoying the river—a kayaker, a fly-fisherman, a tuber—and take a photo of them in action."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-3",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from the middle of one of the pedestrian bridges, looking either up or down the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-4",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Water's Edge Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the rushing water of the Yampa River right behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-5",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Nature Meets Town"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the wildness of the riverbank contrasting with the buildings of the town grid."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-6",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "The Sound of Water"
+      },
+      "prompt": {
+        "en": "Take a short video (or a photo that implies motion) that captures the sound and movement of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-7",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the golden hour, photograph the light hitting the surface of the water or the trees along the bank."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-8",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Trail Life"
+      },
+      "prompt": {
+        "en": "Snap a picture of the Yampa River Core Trail, capturing bikers, walkers, or runners enjoying the path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-9",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Whitewater Power"
+      },
+      "prompt": {
+        "en": "Get low and take a photo of a rapid or whitewater feature, making it look as powerful as possible."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-10",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Local Hangout"
+      },
+      "prompt": {
+        "en": "Find a spot on the riverbank where locals are gathered and take a photo that captures the community vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-11",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Flora by the Flow"
+      },
+      "prompt": {
+        "en": "Find some interesting plants or wildflowers growing along the river's edge and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "yampa-river-corridor-task-12",
+      "neighborhood_id": "yampa-river-corridor",
+      "title": {
+        "en": "Urban Angler"
+      },
+      "prompt": {
+        "en": "Spot a fly-fisherman casting their line and capture the graceful arc of the fly line against the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-1",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Alpine Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the ski slopes rising dramatically behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-2",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Gondola Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at the gondola cars passing overhead against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-3",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Two-Season Story"
+      },
+      "prompt": {
+        "en": "Capture an image that hints at both summer and winter, like a green ski run with an empty chairlift."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-4",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Gear Envy"
+      },
+      "prompt": {
+        "en": "Find a display of high-tech ski or mountain bike gear and take a photo of your favorite item."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-5",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Mountain Village Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energy of the base area plaza, with people coming and going."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-6",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "A Skier's View"
+      },
+      "prompt": {
+        "en": "Stand at the bottom of a run and look up, taking a photo from the perspective of a skier finishing their descent."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-7",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Architectural Alps"
+      },
+      "prompt": {
+        "en": "Photograph a building in the mountain village that has a modern, alpine-inspired design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-8",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Trail Map Treasure"
+      },
+      "prompt": {
+        "en": "Find a large trail map and take a photo of a run with a funny or interesting name."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-9",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Après-Adventure"
+      },
+      "prompt": {
+        "en": "Find a patio or outdoor seating area and take a photo that captures the feeling of relaxing after a day of adventure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-10",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Shadow of the Mountain"
+      },
+      "prompt": {
+        "en": "In the late afternoon, capture the long shadow of the mountain falling across the base village."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-11",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "The Promise of Powder"
+      },
+      "prompt": {
+        "en": "Take a creative photo of a chairlift, imagining it covered in snow and ready for winter."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mountain-base-task-12",
+      "neighborhood_id": "mountain-base",
+      "title": {
+        "en": "Resort Reflection"
+      },
+      "prompt": {
+        "en": "Find a reflection of the mountain or the gondola in the window of a shop or restaurant and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

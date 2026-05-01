@@ -1,0 +1,855 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown",
+      "city_id": "kalamazoo-mi",
+      "name": {
+        "en": "Downtown"
+      },
+      "summary": {
+        "en": "The city's energetic core, where historic architecture meets a vibrant, modern cultural scene. The vibe is a mix of professional, artistic, and community-focused."
+      },
+      "lat": 42.2917,
+      "lng": -85.5839,
+      "trending_score": 95
+    },
+    {
+      "id": "vine",
+      "city_id": "kalamazoo-mi",
+      "name": {
+        "en": "The Vine Neighborhood"
+      },
+      "summary": {
+        "en": "A dense, historic neighborhood with a funky, bohemian soul just south of downtown. The vibe is eclectic, youthful, and proudly independent."
+      },
+      "lat": 42.2842,
+      "lng": -85.5947,
+      "trending_score": 88
+    },
+    {
+      "id": "stuart",
+      "city_id": "kalamazoo-mi",
+      "name": {
+        "en": "Stuart Historic District"
+      },
+      "summary": {
+        "en": "One of the city’s most prestigious historic neighborhoods, known for its grand, impeccably preserved 19th-century mansions. The vibe is quiet, stately, and residential."
+      },
+      "lat": 42.2975,
+      "lng": -85.589,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-factory-coffee",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Factory Coffee"
+      },
+      "description": {
+        "en": "A specialty coffee roaster with a minimalist, industrial-chic vibe, offering meticulously prepared pour-overs and espresso drinks."
+      },
+      "type": "drink",
+      "lat": 42.2974,
+      "lng": -85.5791,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-bells-eccentric-cafe",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Bell's Eccentric Cafe"
+      },
+      "description": {
+        "en": "A Kalamazoo institution with a cozy pub, a massive beer garden, and a huge tap list including rare brews you won't find elsewhere."
+      },
+      "type": "nightlife",
+      "lat": 42.2946,
+      "lng": -85.5765,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-final-gravity-brewing",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Final Gravity Brewing Company"
+      },
+      "description": {
+        "en": "A beloved, intimate local spot with a constantly rotating tap list that showcases creative and well-executed craft beers."
+      },
+      "type": "drink",
+      "lat": 42.2951,
+      "lng": -85.5835,
+      "trending_score": 82
+    },
+    {
+      "id": "downtown-principle",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Principle"
+      },
+      "description": {
+        "en": "An upscale-casual restaurant and cocktail bar known for its inventive, ingredient-driven American cuisine in a sophisticated yet welcoming ambiance."
+      },
+      "type": "food",
+      "lat": 42.2896,
+      "lng": -85.5839,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-sarkozy-bakery",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Sarkozy Bakery"
+      },
+      "description": {
+        "en": "A downtown institution famous for its artisanal bread, pastries, and sandwiches, including the renowned Pepper-Parmesan bread."
+      },
+      "type": "food",
+      "lat": 42.2922,
+      "lng": -85.5772,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-rustica",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Rustica"
+      },
+      "description": {
+        "en": "A European-inspired bistro with a focus on rustic dishes from France, Italy, and Spain, set in an intimate, warmly lit dining room."
+      },
+      "type": "food",
+      "lat": 42.2895,
+      "lng": -85.5839,
+      "trending_score": 89
+    },
+    {
+      "id": "downtown-kalamazoo-mall",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Kalamazoo Mall"
+      },
+      "description": {
+        "en": "A living piece of urban planning history, this was the first outdoor pedestrian mall in the United States, lined with shops, sculptures, and fountains."
+      },
+      "type": "landmark",
+      "lat": 42.2917,
+      "lng": -85.5839,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-park-trades-center",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Park Trades Center"
+      },
+      "description": {
+        "en": "A massive former industrial building that now houses dozens of artist studios, coming alive during the monthly Art Hop events."
+      },
+      "type": "culture",
+      "lat": 42.2946,
+      "lng": -85.588,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-kalamazoo-state-theatre",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Kalamazoo State Theatre"
+      },
+      "description": {
+        "en": "A stunning Spanish-Baroque style movie palace from 1927, featuring an ornate facade and an iconic vertical marquee that lights up the street at night."
+      },
+      "type": "landmark",
+      "lat": 42.2882,
+      "lng": -85.5841,
+      "trending_score": 94
+    },
+    {
+      "id": "downtown-bronson-park",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Bronson Park"
+      },
+      "description": {
+        "en": "The historic central square of the city, home to ancient Hopewell Native American mounds and the site of an 1856 anti-slavery speech by Abraham Lincoln."
+      },
+      "type": "landmark",
+      "lat": 42.2912,
+      "lng": -85.5851,
+      "trending_score": 87
+    },
+    {
+      "id": "downtown-fountain-of-the-pioneers",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "downtown",
+      "name": {
+        "en": "Fountain of the Pioneers"
+      },
+      "description": {
+        "en": "A notable sculpture by Alfonso Iannelli located in Bronson Park with a plaque detailing its controversial history."
+      },
+      "type": "landmark",
+      "lat": 42.291,
+      "lng": -85.5858,
+      "trending_score": 70
+    },
+    {
+      "id": "vine-water-street-coffee",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "Water Street Coffee Joint"
+      },
+      "description": {
+        "en": "A bustling, comfortable coffee shop that feels like the neighborhood's living room, perfect for people-watching on the edge of the Vine."
+      },
+      "type": "drink",
+      "lat": 42.288,
+      "lng": -85.588,
+      "trending_score": 86
+    },
+    {
+      "id": "vine-oduffys-pub",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "O'Duffy's Pub"
+      },
+      "description": {
+        "en": "A cozy, unpretentious, and genuinely welcoming Irish pub tucked away on a residential street; a true neighborhood watering hole."
+      },
+      "type": "nightlife",
+      "lat": 42.2842,
+      "lng": -85.5947,
+      "trending_score": 80
+    },
+    {
+      "id": "vine-crows-nest",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "The Crow's Nest"
+      },
+      "description": {
+        "en": "A legendary breakfast and brunch spot known for its massive, creative pancakes and equally massive weekend waits. A local rite of passage."
+      },
+      "type": "food",
+      "lat": 42.2841,
+      "lng": -85.5968,
+      "trending_score": 96
+    },
+    {
+      "id": "vine-martinis-pizza",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "Martini's Pizza"
+      },
+      "description": {
+        "en": "A beloved, no-frills local pizza joint that has been serving the neighborhood for decades, known for its signature cornmeal crust."
+      },
+      "type": "food",
+      "lat": 42.2839,
+      "lng": -85.5968,
+      "trending_score": 84
+    },
+    {
+      "id": "vine-sweetwaters-donut-mill",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "Sweetwater's Donut Mill"
+      },
+      "description": {
+        "en": "A non-negotiable Kalamazoo experience, this 24/7 independent, family-owned institution offers an incredible variety of fresh, delicious donuts."
+      },
+      "type": "food",
+      "lat": 42.253,
+      "lng": -85.5973,
+      "trending_score": 97
+    },
+    {
+      "id": "vine-henderson-castle",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "Henderson Castle"
+      },
+      "description": {
+        "en": "A stunning and slightly surreal 19th-century Queen Anne-style mansion perched on a hill overlooking the city."
+      },
+      "type": "landmark",
+      "lat": 42.2871,
+      "lng": -85.5986,
+      "trending_score": 89
+    },
+    {
+      "id": "vine-victorian-homes",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "Vine's \"Painted Ladies\""
+      },
+      "description": {
+        "en": "The main attraction of the Vine is the architecture itself. Wander the streets to admire Victorian homes painted in a vibrant palette of contrasting colors."
+      },
+      "type": "landmark",
+      "lat": 42.2845,
+      "lng": -85.593,
+      "trending_score": 85
+    },
+    {
+      "id": "vine-stained-glass-co",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "vine",
+      "name": {
+        "en": "Vries-Henderson-Kalamazoo-Stained-Glass-Co"
+      },
+      "description": {
+        "en": "A unique, hyper-local working stained-glass studio in a historic building that speaks to the neighborhood's artistic character."
+      },
+      "type": "hidden_gem",
+      "lat": 42.2821,
+      "lng": -85.5739,
+      "trending_score": 65
+    },
+    {
+      "id": "stuart-civil-house-coffee",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "stuart",
+      "name": {
+        "en": "Civil House Coffee"
+      },
+      "description": {
+        "en": "Located on the edge of the district, this bright, modern coffee shop offers excellent espresso and a calm atmosphere, perfect for starting an architectural tour."
+      },
+      "type": "drink",
+      "lat": 42.2964,
+      "lng": -85.5849,
+      "trending_score": 79
+    },
+    {
+      "id": "stuart-food-dance",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "stuart",
+      "name": {
+        "en": "Food Dance"
+      },
+      "description": {
+        "en": "A pioneering farm-to-table restaurant and market with a casual, vibrant atmosphere and a menu dedicated to fresh, local ingredients."
+      },
+      "type": "food",
+      "lat": 42.2923,
+      "lng": -85.5758,
+      "trending_score": 88
+    },
+    {
+      "id": "stuart-avenue-mansions",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "stuart",
+      "name": {
+        "en": "Stuart Avenue Mansions"
+      },
+      "description": {
+        "en": "The heart of the district, these quiet, tree-lined streets feature outstanding examples of Italianate, Queen Anne, and Gothic Revival mansions."
+      },
+      "type": "landmark",
+      "lat": 42.2975,
+      "lng": -85.589,
+      "trending_score": 85
+    },
+    {
+      "id": "stuart-ladies-library",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "stuart",
+      "name": {
+        "en": "Ladies' Library Association Building"
+      },
+      "description": {
+        "en": "A magnificent, castle-like Richardsonian Romanesque building from 1878 that housed the first women's club in Michigan and is a National Historic Landmark."
+      },
+      "type": "landmark",
+      "lat": 42.289,
+      "lng": -85.5875,
+      "trending_score": 82
+    },
+    {
+      "id": "stuart-kalamazoo-institute-of-arts",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "stuart",
+      "name": {
+        "en": "Kalamazoo Institute of Arts"
+      },
+      "description": {
+        "en": "A highly respected museum with a strong collection of American and 20th-century art, housed in a modern, light-filled building."
+      },
+      "type": "culture",
+      "lat": 42.2895,
+      "lng": -85.5875,
+      "trending_score": 90
+    },
+    {
+      "id": "stuart-kalamazoo-public-library",
+      "city_id": "kalamazoo-mi",
+      "neighborhood_id": "stuart",
+      "name": {
+        "en": "Kalamazoo Public Library"
+      },
+      "description": {
+        "en": "An award-winning library worth visiting for its beautiful public space and a local history room that provides context for the surrounding historic homes."
+      },
+      "type": "culture",
+      "lat": 42.2896,
+      "lng": -85.5852,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-task-1",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Urban Reflections"
+      },
+      "prompt": {
+        "en": "Find a puddle or a glass window and capture the reflection of a historic downtown building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-2",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Art Hop Energy"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art or a colorful mural that captures the creative spirit of downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-3",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Mall Walker's Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle looking up at the architecture along the Kalamazoo Mall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-4",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Caffeine Kickstart"
+      },
+      "prompt": {
+        "en": "Snap a picture of your coffee or drink from a local cafe, with the downtown streetscape in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-5",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Find a building more than 100 years old and take a close-up shot of an interesting architectural detail, like a carving or a cornice."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-6",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Lunch Break"
+      },
+      "prompt": {
+        "en": "Capture the perfect shot of your meal from a downtown eatery. Make it look delicious!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-7",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "City in Motion"
+      },
+      "prompt": {
+        "en": "Find a busy spot and take a photo that shows the movement and energy of people in the city's core."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-8",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "After dusk, photograph a glowing neon sign from a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-9",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Secret Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a hidden alley or side street and take a picture that makes it look mysterious or inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-10",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Community Corner"
+      },
+      "prompt": {
+        "en": "Take a selfie with a sculpture or public seating area that looks like a great community gathering spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-11",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a historic plaque or marker and take a photo that includes both the plaque and the modern scene around it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-task-12",
+      "neighborhood_id": "downtown",
+      "title": {
+        "en": "Professional Vibe"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the professional, business side of downtown Kalamazoo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-1",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Painted Lady Portrait"
+      },
+      "prompt": {
+        "en": "Find the most colorful Victorian house you can and take a 'portrait' of it, capturing its unique personality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-2",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Bohemian Vibe Check"
+      },
+      "prompt": {
+        "en": "Photograph something that perfectly captures the funky, bohemian soul of the Vine neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-3",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Student Life"
+      },
+      "prompt": {
+        "en": "Take a picture that hints at the youthful, university-adjacent energy of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-4",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Winding Streets"
+      },
+      "prompt": {
+        "en": "Capture a photo down one of the Vine's winding residential streets, emphasizing the curves and the canopy of trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-5",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Find an interesting front porch and take a photo. Does it look welcoming, quirky, or historic?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-6",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Neighborhood Nosh"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic neighborhood food, like a slice of pizza or a donut, held up against a Vine street backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-7",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Gingerbread Details"
+      },
+      "prompt": {
+        "en": "Get up close and personal with a Victorian home and photograph the intricate 'gingerbread' trim or woodwork."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-8",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Local's View"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a local-favorite spot, like a pub or coffee shop, that feels like the heart of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-9",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Hidden Garden"
+      },
+      "prompt": {
+        "en": "Many homes have unique gardens. Find a pop of color from a flower or a quirky garden gnome and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-10",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find a grand Victorian mansion next to a more modest home and capture the contrast in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-11",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "On a sunny day, photograph the interesting shadows cast by the complex rooflines and porches of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "vine-task-12",
+      "neighborhood_id": "vine",
+      "title": {
+        "en": "The Perfect Pint"
+      },
+      "prompt": {
+        "en": "Capture a picture of a pint of beer at a cozy neighborhood pub, focusing on the atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-1",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Mansion Majesty"
+      },
+      "prompt": {
+        "en": "Take a photo of a grand 19th-century mansion, trying to capture its stately and imposing presence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-2",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Architectural Close-Up"
+      },
+      "prompt": {
+        "en": "Find a unique doorknocker, porch column, or stained-glass window and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-3",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Museum of Homes"
+      },
+      "prompt": {
+        "en": "Frame a shot that makes the street look like an open-air architectural museum."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-4",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Quiet & Stately"
+      },
+      "prompt": {
+        "en": "Capture the quiet, residential atmosphere of the Stuart district in a single image. Think tree-lined streets and peaceful facades."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-5",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Gothic Revival"
+      },
+      "prompt": {
+        "en": "Identify a house with Gothic Revival features (like pointed arches or steep gables) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-6",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "History & Modernity"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both a historic 19th-century building and a modern one in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-7",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Cultural Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of one of the neighborhood's cultural institutions, like the KIA or the Library."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-8",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Stone & Brick"
+      },
+      "prompt": {
+        "en": "Find a building with interesting stonework or brick patterns and take a texture-focused photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-9",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Witch's Hat"
+      },
+      "prompt": {
+        "en": "Many Queen Anne homes have a conical turret known as a 'witch's hat.' Find one and get a great shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-10",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "A Grand Entrance"
+      },
+      "prompt": {
+        "en": "Photograph the most impressive entryway or front door you can find in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-11",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Afternoon Light"
+      },
+      "prompt": {
+        "en": "Capture how the late afternoon sun hits the facade of one of the historic mansions, highlighting its textures and details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "stuart-task-12",
+      "neighborhood_id": "stuart",
+      "title": {
+        "en": "Learning & Leisure"
+      },
+      "prompt": {
+        "en": "Take a photo that represents the neighborhood's blend of stately homes and cultural/educational buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

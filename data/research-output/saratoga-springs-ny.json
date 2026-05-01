@@ -1,0 +1,855 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "saratoga-springs-ny",
+      "name": {
+        "en": "The Downtown Core: Broadway & The Historic Heart"
+      },
+      "summary": {
+        "en": "The energetic center of Saratoga, where grand Victorian architecture meets bustling side streets. This district hums with sophisticated culture and lively energy, anchored by the elegant Congress Park."
+      },
+      "lat": 43.0795,
+      "lng": -73.785,
+      "trending_score": 95
+    },
+    {
+      "id": "east-side",
+      "city_id": "saratoga-springs-ny",
+      "name": {
+        "en": "The East Side: Historic Charm & Local Haunts"
+      },
+      "summary": {
+        "en": "A quieter, residential area defined by stunning Victorian homes and architectural splendor. This is where you discover a legendary artist retreat and eat at spots that feel like neighborhood secrets."
+      },
+      "lat": 43.0775,
+      "lng": -73.776,
+      "trending_score": 80
+    },
+    {
+      "id": "spa-park-west-side",
+      "city_id": "saratoga-springs-ny",
+      "name": {
+        "en": "Spa State Park & The West Side: Grandeur & Oddities"
+      },
+      "summary": {
+        "en": "An ode to grandeur and wellness, defined by monumental Neoclassical architecture and sprawling park grounds. It’s a place for restorative walks among towering pines and unique geological discoveries."
+      },
+      "lat": 43.0655,
+      "lng": -73.799,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-bocage-champagne-bar",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Bocage Champagne Bar"
+      },
+      "description": {
+        "en": "An intimate, stylish bar that transports you to a Parisian state of mind, perfect for a celebratory glass of bubbly or a sophisticated cocktail."
+      },
+      "type": "drink",
+      "lat": 43.0811,
+      "lng": -73.7853,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-core-hamlet-ghost",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Hamlet & Ghost"
+      },
+      "description": {
+        "en": "A cozy, speakeasy-style cocktail bar known for its inventive drinks and warm, knowledgeable staff, a local favorite for a date night."
+      },
+      "type": "drink",
+      "lat": 43.0818,
+      "lng": -73.785,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-core-druthers-brewing",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Druthers Brewing Company"
+      },
+      "description": {
+        "en": "The go-to for a casual, high-quality craft beer experience right on Broadway, with excellent house-brewed IPAs and a sprawling patio."
+      },
+      "type": "drink",
+      "lat": 43.0822,
+      "lng": -73.7863,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-core-sweet-mimis-cafe",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Sweet Mimi's Cafe & Bakery"
+      },
+      "description": {
+        "en": "A beloved local institution famous for its scones and legendary cinnamon rolls, where the line out the door is a testament to its quality."
+      },
+      "type": "food",
+      "lat": 43.0805,
+      "lng": -73.7842,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-core-osteria-danny",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Osteria Danny"
+      },
+      "description": {
+        "en": "An intimate and highly-regarded Italian restaurant that feels both special and welcoming, a place locals take friends they want to impress."
+      },
+      "type": "food",
+      "lat": 43.0801,
+      "lng": -73.7828,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-core-rhea",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Rhea"
+      },
+      "description": {
+        "en": "A cozy and focused ramen shop offering a delicious respite, perfect for a flavorful, comforting lunch that feels worlds away from typical tourist fare."
+      },
+      "type": "food",
+      "lat": 43.0824,
+      "lng": -73.7864,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-core-congress-park",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Congress Park"
+      },
+      "description": {
+        "en": "A historic park that serves as the elegant anchor of downtown, home to mineral springs, a historic casino, and beautiful walking paths."
+      },
+      "type": "nature",
+      "lat": 43.0795,
+      "lng": -73.7845,
+      "trending_score": 96
+    },
+    {
+      "id": "downtown-core-canfield-casino",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Canfield Casino"
+      },
+      "description": {
+        "en": "A grand, Italianate former casino with stunning architecture, holding the legend of inventing the club sandwich in 1894."
+      },
+      "type": "landmark",
+      "lat": 43.079,
+      "lng": -73.7848,
+      "trending_score": 93
+    },
+    {
+      "id": "downtown-core-mineral-springs",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Mineral Springs of Congress Park"
+      },
+      "description": {
+        "en": "The source of the city's 'health' motto, these active spring fountains offer a taste of naturally carbonated mineral waters, each with a distinct flavor."
+      },
+      "type": "hidden_gem",
+      "lat": 43.0798,
+      "lng": -73.7855,
+      "trending_score": 89
+    },
+    {
+      "id": "downtown-core-the-drinkhall",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Drinkhall"
+      },
+      "description": {
+        "en": "An elegant, glass-enclosed historic building near the Carousel, once a central spot for visitors to 'take the waters' and now a beautiful architectural relic."
+      },
+      "type": "landmark",
+      "lat": 43.0785,
+      "lng": -73.7843,
+      "trending_score": 82
+    },
+    {
+      "id": "downtown-core-spirit-of-life",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Spirit of Life Statue"
+      },
+      "description": {
+        "en": "A beautiful statue and fountain located just outside the Drinkhall in Congress Park, featuring a moving inscription on its base."
+      },
+      "type": "landmark",
+      "lat": 43.0786,
+      "lng": -73.7845,
+      "trending_score": 84
+    },
+    {
+      "id": "east-side-henry-street-taproom",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "Henry Street Taproom"
+      },
+      "description": {
+        "en": "The quintessential neighborhood gastropub with a fantastic craft beer list and a relaxed atmosphere, perfect for feeling like a true local."
+      },
+      "type": "drink",
+      "lat": 43.078,
+      "lng": -73.7805,
+      "trending_score": 89
+    },
+    {
+      "id": "east-side-9-miles-east-farm",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "9 Miles East Farm"
+      },
+      "description": {
+        "en": "A casual spot with a focus on farm-to-table ingredients, best known for its creative pizzas, fresh salads, and a favorite local patio."
+      },
+      "type": "food",
+      "lat": 43.0865,
+      "lng": -73.774,
+      "trending_score": 86
+    },
+    {
+      "id": "east-side-hatties-restaurant",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "Hattie's Restaurant"
+      },
+      "description": {
+        "en": "A Saratoga legend, this iconic spot has been serving its famous Southern fried chicken since 1938 and is a non-negotiable part of the city's culinary fabric."
+      },
+      "type": "food",
+      "lat": 43.0805,
+      "lng": -73.7843,
+      "trending_score": 97
+    },
+    {
+      "id": "east-side-yaddo-gardens",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "Yaddo Gardens"
+      },
+      "description": {
+        "en": "A true hidden gem on the grounds of a famed artists' colony, featuring serene rose and rock gardens that are open to the public for peaceful exploration."
+      },
+      "type": "hidden_gem",
+      "lat": 43.0735,
+      "lng": -73.771,
+      "trending_score": 94
+    },
+    {
+      "id": "east-side-union-avenue-historic-district",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "Union Avenue Historic District"
+      },
+      "description": {
+        "en": "A magnificent stretch of sprawling Victorian homes that are architectural masterpieces with intricate details, grand porches, and storied histories."
+      },
+      "type": "landmark",
+      "lat": 43.0765,
+      "lng": -73.773,
+      "trending_score": 91
+    },
+    {
+      "id": "east-side-gideon-putnam-burying-ground",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "east-side",
+      "name": {
+        "en": "Gideon Putnam Burying Ground"
+      },
+      "description": {
+        "en": "A small, colonial-era cemetery offering a quiet, contemplative look into the city's earliest days and the resting place of its founding father."
+      },
+      "type": "hidden_gem",
+      "lat": 43.074,
+      "lng": -73.783,
+      "trending_score": 78
+    },
+    {
+      "id": "spa-park-west-side-saratoga-spa-state-park",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "Saratoga Spa State Park"
+      },
+      "description": {
+        "en": "A National Historic Landmark defined by monumental Neoclassical architecture, covered arcades, and sprawling grounds perfect for restorative walks."
+      },
+      "type": "nature",
+      "lat": 43.065,
+      "lng": -73.798,
+      "trending_score": 95
+    },
+    {
+      "id": "spa-park-west-side-hall-of-springs",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "Hall of Springs"
+      },
+      "description": {
+        "en": "A monumental Neoclassical building in Spa State Park, best viewed from across its long reflecting pool for a perfectly symmetrical, grand photo."
+      },
+      "type": "landmark",
+      "lat": 43.0665,
+      "lng": -73.7975,
+      "trending_score": 90
+    },
+    {
+      "id": "spa-park-west-side-lincoln-baths",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "Lincoln Baths"
+      },
+      "description": {
+        "en": "One of the grand historic bathhouses in Spa State Park, showcasing the monumental scale and Neoclassical design of the area's wellness-focused past."
+      },
+      "type": "landmark",
+      "lat": 43.0625,
+      "lng": -73.8015,
+      "trending_score": 84
+    },
+    {
+      "id": "spa-park-west-side-roosevelt-baths",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "Roosevelt Baths"
+      },
+      "description": {
+        "en": "An architectural marvel within the park, this historic bathhouse continues to offer spa services, connecting visitors to the area's 'Health' heritage."
+      },
+      "type": "landmark",
+      "lat": 43.0595,
+      "lng": -73.803,
+      "trending_score": 88
+    },
+    {
+      "id": "spa-park-west-side-spac",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "Saratoga Performing Arts Center (SPAC) Grounds"
+      },
+      "description": {
+        "en": "An architectural wonder and iconic amphitheater that is the summer home of the New York City Ballet and The Philadelphia Orchestra."
+      },
+      "type": "culture",
+      "lat": 43.0678,
+      "lng": -73.8045,
+      "trending_score": 92
+    },
+    {
+      "id": "spa-park-west-side-national-museum-of-dance",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "National Museum of Dance & Hall of Fame"
+      },
+      "description": {
+        "en": "Housed in the beautifully restored Washington Bathhouse, this museum is worth visiting for its architecture alone, a great example of historic repurposing."
+      },
+      "type": "culture",
+      "lat": 43.071,
+      "lng": -73.7925,
+      "trending_score": 85
+    },
+    {
+      "id": "spa-park-west-side-petrified-sea-gardens",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "Petrified Sea Gardens"
+      },
+      "description": {
+        "en": "A unique natural landmark where you can walk among 500-million-year-old stromatolites on a preserved ancient seafloor."
+      },
+      "type": "hidden_gem",
+      "lat": 43.0755,
+      "lng": -73.838,
+      "trending_score": 91
+    },
+    {
+      "id": "spa-park-west-side-geyser-creek",
+      "city_id": "saratoga-springs-ny",
+      "neighborhood_id": "spa-park-west-side",
+      "name": {
+        "en": "Geyser Creek"
+      },
+      "description": {
+        "en": "A creek in Spa State Park named for its cold-water geyser, a rare natural phenomenon that adds to the area's unique geological character."
+      },
+      "type": "nature",
+      "lat": 43.06,
+      "lng": -73.8,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Victorian Detail Hunter"
+      },
+      "prompt": {
+        "en": "Find an interesting piece of architectural detail on a historic Broadway building—like intricate ironwork or a carved stone face—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Side Street Story"
+      },
+      "prompt": {
+        "en": "Capture a photo down a narrow side street like Phila or Caroline that tells a story about the neighborhood's lively energy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Taste of Toga"
+      },
+      "prompt": {
+        "en": "Find one of the public mineral springs and take a selfie while bravely tasting the famous water. What's your tasting note?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Park Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from inside Congress Park looking out towards the bustling city streets, capturing the contrast between nature and urban life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Sweet Treat Snapshot"
+      },
+      "prompt": {
+        "en": "Photograph a delicious-looking pastry or coffee from a local cafe. Make it look like the cover of a food magazine!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker and take a photo that includes both the plaque and the building or place it describes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Reflections of Broadway"
+      },
+      "prompt": {
+        "en": "Capture a creative photo of the street scene reflected in a shop window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The 'Health, History, Horses' Shot"
+      },
+      "prompt": {
+        "en": "Take a single photo that you think best represents Saratoga's famous motto. Get creative!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Oasis Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie relaxing on a bench in Congress Park, with a beautiful fountain or statue in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Storefront Style"
+      },
+      "prompt": {
+        "en": "Find the most unique or charming independent shop storefront and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Nightlife Neon"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the glow of a neon sign from a bar or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a small alley or passageway off a main street and take an artistic photo looking down it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-1",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Porch Portrait"
+      },
+      "prompt": {
+        "en": "Find a grand Victorian porch with intricate details and take a photo that highlights its welcoming, yet stately, character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-2",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Witch's Hat Selfie"
+      },
+      "prompt": {
+        "en": "Locate a house with a conical turret (a 'witch's hat') and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-3",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Secret Garden Gate"
+      },
+      "prompt": {
+        "en": "Find a charming garden gate or fence and take a photo that makes it look like the entrance to a secret world."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-4",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Photograph the most colorfully painted Victorian 'cottage' you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-5",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Quiet Street Scene"
+      },
+      "prompt": {
+        "en": "Capture the peaceful, residential atmosphere of the East Side with a photo of a quiet, tree-lined street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-6",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Stained Glass Gleam"
+      },
+      "prompt": {
+        "en": "Find a house with a stained-glass window and try to capture the way the light shines through it or reflects off it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-7",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Neighborhood Haunt"
+      },
+      "prompt": {
+        "en": "Take a photo of a local cafe or pub that looks like a true 'neighborhood secret'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-8",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Leading Lines"
+      },
+      "prompt": {
+        "en": "Use a sidewalk or fence as a 'leading line' to create a dramatic photo emphasizing the grandeur of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-9",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Historic Home Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the most impressive Victorian house you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-10",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the interesting shadows cast by trees or architectural details on the facade of a historic home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-11",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Ancient Tree"
+      },
+      "prompt": {
+        "en": "Find a large, old tree that looks like it has seen centuries of history and take its portrait."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-side-task-12",
+      "neighborhood_id": "east-side",
+      "title": {
+        "en": "Architectural Story"
+      },
+      "prompt": {
+        "en": "Find a house that looks like it has a fascinating story to tell and take a photo. What do you imagine its story is?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-1",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Neoclassical Symmetry"
+      },
+      "prompt": {
+        "en": "Find one of the grand buildings and take a perfectly symmetrical photo that emphasizes its classical architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-2",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Pillars and Pines"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between the monumental man-made columns and the towering natural pine trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-3",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Wellness Embodied"
+      },
+      "prompt": {
+        "en": "Find a detail in the park—a fountain, a quiet path, an inscription—that represents 'wellness' and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-4",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Arcade Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while walking through one of the long, covered arcades, showing the repeating columns stretching out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-5",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Reflecting on Grandeur"
+      },
+      "prompt": {
+        "en": "Use a reflecting pool or a puddle to capture a reflection of one of the park's grand buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-6",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Texture of Time"
+      },
+      "prompt": {
+        "en": "Get close to the brick or stonework of a historic building and take a macro shot that highlights its texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-7",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Monumental Scale"
+      },
+      "prompt": {
+        "en": "Take a photo that makes one of the park's buildings look as massive and monumental as possible. Try a low angle!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-8",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "A Restorative Moment"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot and take a photo that captures a feeling of calm and restoration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-9",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Geological Oddity"
+      },
+      "prompt": {
+        "en": "Find a strange natural feature, like rust-colored mineral deposits or an unusual rock, and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-10",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Photograph a winding path or trail that disappears into the trees, inviting exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-11",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Skyward Pines"
+      },
+      "prompt": {
+        "en": "Stand at the base of a towering pine tree and take a photo looking straight up the trunk to the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spa-park-west-side-task-12",
+      "neighborhood_id": "spa-park-west-side",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find an old sign, a piece of hardware, or an architectural detail that looks like it's from the 1930s and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

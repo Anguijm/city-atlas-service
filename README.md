@@ -15,7 +15,7 @@ Pipeline operational and producing live Firestore data. Extracted from [urban-ex
 
 ## Governance
 
-All changes go through the **council** — a 7-persona Gemini review running as a GitHub Actions workflow on every PR (`.github/workflows/council.yml`). Lead Architect synthesis posts as a single re-editable PR comment with 🟢 CLEAR / 🟡 CONDITIONAL / 🔴 BLOCK. Merge requires 🟢, an admin override with filed follow-ups, or `[skip council]` in the PR title (reserved for hotfixes).
+All changes go through the **council** — an 8-persona Gemini review running as a GitHub Actions workflow on every PR (`.github/workflows/council.yml`). Lead Architect synthesis posts as a single re-editable PR comment with 🟢 CLEAR / 🟡 CONDITIONAL / 🔴 BLOCK. Merge requires 🟢, an admin override with filed follow-ups, or `[skip council]` in the PR title (reserved for hotfixes).
 
 See `.harness/README.md` for the protocol, `.harness/council/*.md` for persona definitions, and `CONTRIBUTING.md` for the full workflow.
 
@@ -51,8 +51,7 @@ docs/                           # DATA_COVERAGE_REPORT and other standing docs
 Tracked as GitHub issues:
 
 - **#5** — SRE: alert pipe on aggregate `AUDIT_DELETION` waypoint counts (Cloud Logging → BigQuery → Alert Policy)
-- **#6** — Tier-aware deletion floor for small Phase C audit samples
-- **#7** — Phase A scraper prompt-injection defense (boundary markers + ignore-instructions guard)
+- **#7** — Phase A scraper prompt-injection defense (Phase B fix in PR #42 pending merge; Phase A scraper wrapping remains)
 - **#8** — Sanitize city-ID arguments in `batch_research.py` subprocess calls
 - **#9** — Replace personal email with role-based address in scraper User-Agents
 - **#12** — CI smoke-test on entry-point scripts (catches the porting-miss class of bugs at port time)

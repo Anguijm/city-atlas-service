@@ -1,0 +1,660 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "hot-springs-ar",
+      "name": {
+        "en": "Downtown Core: Bathhouse Row & Central Avenue"
+      },
+      "summary": {
+        "en": "The historic heart of Hot Springs, this area is an open-air museum where the raw power of thermal springs was tamed into an elegant health resort, showcasing Beaux-Arts, Art Deco, and Spanish Revival styles."
+      },
+      "lat": 34.5135,
+      "lng": -93.0548,
+      "trending_score": 95
+    },
+    {
+      "id": "pleasant-street",
+      "city_id": "hot-springs-ar",
+      "name": {
+        "en": "Pleasant Street Historic District"
+      },
+      "summary": {
+        "en": "Once a thriving commercial and social hub known as \"Black Broadway,\" this district offers a quiet, contemplative walk through the city’s vital African American history."
+      },
+      "lat": 34.5048,
+      "lng": -93.0511,
+      "trending_score": 70
+    },
+    {
+      "id": "whittington-park",
+      "city_id": "hot-springs-ar",
+      "name": {
+        "en": "Whittington Park & Valley"
+      },
+      "summary": {
+        "en": "A secret garden northwest of downtown, this neighborhood is built around a long, green park and lined with beautiful Queen Anne and Craftsman homes, perfect for a peaceful architectural stroll."
+      },
+      "lat": 34.5177,
+      "lng": -93.0635,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-superior-brewery",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Superior Bathhouse Brewery"
+      },
+      "description": {
+        "en": "The only brewery in a U.S. National Park, using thermal spring water as its main ingredient in a restored 1916 bathhouse."
+      },
+      "type": "drink",
+      "lat": 34.5126,
+      "lng": -93.0551,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-core-fordyce-visitor-center",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Fordyce Bathhouse Visitor Center"
+      },
+      "description": {
+        "en": "The most opulent historic bathhouse, now a free museum showcasing stunning stained-glass ceilings and vintage hydrotherapy equipment."
+      },
+      "type": "culture",
+      "lat": 34.5128,
+      "lng": -93.0552,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-core-buckstaff-bathhouse",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Buckstaff Bathhouse"
+      },
+      "description": {
+        "en": "A true time capsule, this bathhouse has been in continuous operation since 1912, offering traditional thermal mineral baths."
+      },
+      "type": "landmark",
+      "lat": 34.5155,
+      "lng": -93.0542,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-core-medical-arts-building",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Medical Arts Building"
+      },
+      "description": {
+        "en": "An unmissable Art Deco skyscraper from 1929 whose detailed facade provides a beautiful contrast to the surrounding architecture."
+      },
+      "type": "landmark",
+      "lat": 34.5105,
+      "lng": -93.0559,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-core-mountain-tower",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Hot Springs Mountain Tower"
+      },
+      "description": {
+        "en": "A 216-foot observation tower offering a breathtaking 360-degree panorama of the city and the Ouachita Mountains."
+      },
+      "type": "viewpoint",
+      "lat": 34.5165,
+      "lng": -93.0495,
+      "trending_score": 90
+    },
+    {
+      "id": "pleasant-street-visitors-chapel",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "pleasant-street",
+      "name": {
+        "en": "Visitors Chapel A.M.E. Church"
+      },
+      "description": {
+        "en": "A beautiful and historically significant landmark that has served as a cornerstone of the African American community for generations."
+      },
+      "type": "landmark",
+      "lat": 34.5052,
+      "lng": -93.0503,
+      "trending_score": 72
+    },
+    {
+      "id": "pleasant-street-woodmen-building",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "pleasant-street",
+      "name": {
+        "en": "Woodmen of Union Building"
+      },
+      "description": {
+        "en": "An impressive brick building that was a hub for Black-owned businesses and a monument to Black entrepreneurship."
+      },
+      "type": "landmark",
+      "lat": 34.5042,
+      "lng": -93.0515,
+      "trending_score": 75
+    },
+    {
+      "id": "pleasant-street-historic-streetscape",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "pleasant-street",
+      "name": {
+        "en": "Pleasant & Malvern Historic Streetscape"
+      },
+      "description": {
+        "en": "A collection of 93 historic buildings where the real treasure is walking slowly to notice the variety of brickwork and architectural styles."
+      },
+      "type": "culture",
+      "lat": 34.5045,
+      "lng": -93.0513,
+      "trending_score": 68
+    },
+    {
+      "id": "whittington-park-park",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "whittington-park",
+      "name": {
+        "en": "Whittington Park"
+      },
+      "description": {
+        "en": "A linear park that serves as the neighborhood's spine, perfect for a stroll under mature trees to admire historic homes."
+      },
+      "type": "nature",
+      "lat": 34.5175,
+      "lng": -93.0621,
+      "trending_score": 80
+    },
+    {
+      "id": "whittington-park-architectural-tour",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "whittington-park",
+      "name": {
+        "en": "Whittington Residential Architecture"
+      },
+      "description": {
+        "en": "A living catalog of early 20th-century residential styles, including Queen Anne homes with wraparound porches and Craftsman houses with low-pitched roofs."
+      },
+      "type": "landmark",
+      "lat": 34.5182,
+      "lng": -93.0645,
+      "trending_score": 78
+    },
+    {
+      "id": "whittington-park-alligator-farm",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "whittington-park",
+      "name": {
+        "en": "Arkansas Alligator Farm and Petting Zoo"
+      },
+      "description": {
+        "en": "A delightfully strange and historic old-school roadside attraction founded in 1902, featuring hundreds of alligators."
+      },
+      "type": "hidden_gem",
+      "lat": 34.5195,
+      "lng": -93.0668,
+      "trending_score": 85
+    },
+    {
+      "id": "whittington-park-fordyce-ricks-house",
+      "city_id": "hot-springs-ar",
+      "neighborhood_id": "whittington-park",
+      "name": {
+        "en": "Fordyce-Ricks House Historic District"
+      },
+      "description": {
+        "en": "A surprising architectural anomaly featuring log cabins in the rustic Adirondack style, a world away from the nearby Victorian homes."
+      },
+      "type": "landmark",
+      "lat": 34.5231,
+      "lng": -93.0725,
+      "trending_score": 76
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Gilded Age Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo of the most opulent and detailed piece of architecture you can find. Focus on the ambition of the design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Art Deco Dreams"
+      },
+      "prompt": {
+        "en": "Find a building with Art Deco style. Capture its strong vertical lines and geometric details in a single shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The Power of Water"
+      },
+      "prompt": {
+        "en": "Find a visual representation of water in the neighborhood—it could be a fountain, steam, or even a symbol carved in stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Reflection Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in the reflection of a historic storefront window, capturing both yourself and the history behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a historic building and a modern element, like a new car or contemporary fashion."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Point your camera skyward and capture the ornate roofline or cornice of one of the grand old buildings on Central Avenue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Spa City Snack"
+      },
+      "prompt": {
+        "en": "Let your senses guide you! Find a local snack or drink and take a picture of it with a historic backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Find a sign, plaque, or detail that tells you the age of a building and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shadows and Light"
+      },
+      "prompt": {
+        "en": "Capture the interesting way sunlight and shadows play across the detailed facade of a building on Bathhouse Row."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Tourist Flow"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the movement and energy of people exploring the historic downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Nature in the City"
+      },
+      "prompt": {
+        "en": "Find a spot where the green of the National Park meets the stone of the city and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Doorway to the Past"
+      },
+      "prompt": {
+        "en": "Find the most interesting and ornate doorway you can and take a photo. What stories could it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-1",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Brickwork Stories"
+      },
+      "prompt": {
+        "en": "Find a wall with interesting brickwork. Take a close-up shot that highlights its texture, color, and age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-2",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Echoes of Broadway"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the spirit of the former \"Black Broadway.\" What does community resilience look like?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-3",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Contemplative Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet spot in the district and take a photo that conveys a sense of peace and history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-4",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Architectural Survivor"
+      },
+      "prompt": {
+        "en": "Photograph a building that looks like it has stood the test of time. Focus on details that show its age and history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-5",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Community Cornerstone"
+      },
+      "prompt": {
+        "en": "Find a building that feels like the heart of the neighborhood, like a church or community center, and capture its presence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-6",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Historic Home Selfie"
+      },
+      "prompt": {
+        "en": "Take a respectful selfie with one of the historic homes or buildings in the background, reflecting on the stories it holds."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-7",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Even in a quiet historic district, life goes on. Capture a modern detail against a historic backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-8",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Find an interesting window on one of the historic buildings. What might have been seen through it 100 years ago?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-9",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Faded Glory"
+      },
+      "prompt": {
+        "en": "Look for a faded sign, worn steps, or peeling paint that hints at the vibrant life of the past. Capture this detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-10",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Three Rooflines"
+      },
+      "prompt": {
+        "en": "Create a single image or a collage of three different roof styles you can see in the district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-11",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Streetscape Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo down one of the streets, showing how the collection of historic buildings creates a unique landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pleasant-street-task-12",
+      "neighborhood_id": "pleasant-street",
+      "title": {
+        "en": "Foundation of History"
+      },
+      "prompt": {
+        "en": "Find and photograph a cornerstone or foundation of a building. What year does it say? What does it represent?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-1",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Find the most charming and inviting porch you can see and take a photo. Focus on details like swings, columns, or plants."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-2",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Secret Garden Selfie"
+      },
+      "prompt": {
+        "en": "Find a lush, green spot in the park or a beautiful garden and take a selfie enjoying the peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-3",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Craftsman vs. Queen Anne"
+      },
+      "prompt": {
+        "en": "Find a detail you think is classic Craftsman style (like a heavy column) and another that is classic Queen Anne (like a turret)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-4",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Quirky Discovery"
+      },
+      "prompt": {
+        "en": "This neighborhood has some quirky spots. Find something unexpected—a strange statue, a weird mailbox, a surprising animal—and snap a pic."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-5",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use the trees and paths of Whittington Park to frame a shot of one of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-6",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Stained Glass Sparkle"
+      },
+      "prompt": {
+        "en": "Many homes in this area have decorative windows. Find a piece of stained or leaded glass and capture how it catches the light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-7",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Rustic Texture"
+      },
+      "prompt": {
+        "en": "Inspired by the Fordyce-Ricks House, find a texture in the neighborhood that feels rustic—it could be wood, stone, or something else."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-8",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Path to Peace"
+      },
+      "prompt": {
+        "en": "Take a photo of a walking path in the park. Use it as a leading line to create a sense of a peaceful journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-9",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Architectural Anomaly"
+      },
+      "prompt": {
+        "en": "Find a house or a detail that seems different from all its neighbors. What makes it stand out?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-10",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Shade Seeker"
+      },
+      "prompt": {
+        "en": "Capture a photo that illustrates the cool shade provided by the mature trees in the park or along the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-11",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "My Dream House"
+      },
+      "prompt": {
+        "en": "Walk the residential streets and pick out the house you'd most want to live in. Take a photo of its most appealing feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whittington-park-task-12",
+      "neighborhood_id": "whittington-park",
+      "title": {
+        "en": "Thermal Water Spotting"
+      },
+      "prompt": {
+        "en": "The report mentions public thermal water fountains. See if you can spot one or any sign of the thermal water in this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -1,0 +1,840 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-arts-history",
+      "city_id": "hood-river-or",
+      "name": {
+        "en": "The Downtown Arts & History Core"
+      },
+      "summary": {
+        "en": "The historic and cultural heart of Hood River, where early 20th-century brick buildings house galleries, shops, and a creative, community-focused vibe."
+      },
+      "lat": 45.7115,
+      "lng": -121.5218,
+      "trending_score": 90
+    },
+    {
+      "id": "active-waterfront",
+      "city_id": "hood-river-or",
+      "name": {
+        "en": "The Active Waterfront"
+      },
+      "summary": {
+        "en": "The town's recreational soul, this area is defined by energetic, athletic action on the Columbia River and breathtaking views of the surrounding landscape."
+      },
+      "lat": 45.7152,
+      "lng": -121.5175,
+      "trending_score": 95
+    },
+    {
+      "id": "westside-heritage",
+      "city_id": "hood-river-or",
+      "name": {
+        "en": "Westside Heritage Trail"
+      },
+      "summary": {
+        "en": "A quieter area featuring grand historic landmarks, stunning architecture, and elevated views, steeped in the ambition of Hood River's early founders."
+      },
+      "lat": 45.7101,
+      "lng": -121.5356,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-arts-history-public-art",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Public Art Walking Tour (BIG ART)"
+      },
+      "description": {
+        "en": "A living gallery of rotating sculptures and art installations woven into the urban fabric of the downtown area."
+      },
+      "type": "culture",
+      "lat": 45.7118,
+      "lng": -121.5211,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-arts-history-museum",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "History Museum of Hood River County"
+      },
+      "description": {
+        "en": "Located in the historic Natatorium building, this museum offers a deep dive into the region's unique history, from pioneer settlement to its wind-sports scene."
+      },
+      "type": "culture",
+      "lat": 45.7135,
+      "lng": -121.5195,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-arts-history-ghost-signs",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Alleyways and Ghost Signs"
+      },
+      "description": {
+        "en": "The alleys between Oak and State Streets hold faded advertisements painted on brickwork, offering a visual link to the town's past."
+      },
+      "type": "hidden_gem",
+      "lat": 45.7112,
+      "lng": -121.5223,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-arts-history-galleries",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Downtown Art Galleries"
+      },
+      "description": {
+        "en": "A dense collection of galleries showcasing the work of artists and makers drawn to the creative energy of the Gorge."
+      },
+      "type": "culture",
+      "lat": 45.7116,
+      "lng": -121.522,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-arts-history-shops",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Oak & State Street Shops"
+      },
+      "description": {
+        "en": "The main arteries of downtown are lined with independent shops housed in early 20th-century brick buildings."
+      },
+      "type": "shopping",
+      "lat": 45.711,
+      "lng": -121.5215,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-arts-history-coffee",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Locally-Owned Coffee Shops"
+      },
+      "description": {
+        "en": "Numerous coffee shops serve as community gathering places, perfect for a break while exploring the historic core."
+      },
+      "type": "drink",
+      "lat": 45.7108,
+      "lng": -121.5225,
+      "trending_score": 78
+    },
+    {
+      "id": "downtown-arts-history-brewpubs",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Downtown Brewpubs"
+      },
+      "description": {
+        "en": "Casual brewpubs popular with the post-adventure crowd, serving local craft beers and food."
+      },
+      "type": "drink",
+      "lat": 45.7121,
+      "lng": -121.5205,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-arts-history-bistros",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Farm-to-Table Bistros"
+      },
+      "description": {
+        "en": "Downtown is the hub for culinary establishments, including bistros that feature ingredients from the surrounding agricultural region."
+      },
+      "type": "food",
+      "lat": 45.7114,
+      "lng": -121.5228,
+      "trending_score": 82
+    },
+    {
+      "id": "active-waterfront-park",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "Waterfront Park"
+      },
+      "description": {
+        "en": "A central hub with a sandy beach and grassy lawns, perfect for watching the kiteboarding and windsurfing action on the river."
+      },
+      "type": "nature",
+      "lat": 45.715,
+      "lng": -121.516,
+      "trending_score": 95
+    },
+    {
+      "id": "active-waterfront-hook",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "The Hook"
+      },
+      "description": {
+        "en": "A protected cove at the west end of Waterfront Park, offering a perfect vantage point to watch beginners learn to windsurf and kiteboard."
+      },
+      "type": "landmark",
+      "lat": 45.7155,
+      "lng": -121.5208,
+      "trending_score": 90
+    },
+    {
+      "id": "active-waterfront-port-viewpoint",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "The Port of Hood River Viewpoint"
+      },
+      "description": {
+        "en": "Walking east from the park leads to a grittier, industrial view that contrasts with the natural beauty and offers a unique perspective of the town."
+      },
+      "type": "viewpoint",
+      "lat": 45.7148,
+      "lng": -121.5112,
+      "trending_score": 75
+    },
+    {
+      "id": "active-waterfront-food-trucks",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "Waterfront Food Trucks"
+      },
+      "description": {
+        "en": "The food scene here is geared toward casual and quick bites, perfect for refueling after a session on the water."
+      },
+      "type": "food",
+      "lat": 45.7145,
+      "lng": -121.5155,
+      "trending_score": 85
+    },
+    {
+      "id": "active-waterfront-grills",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "Waterfront Grills"
+      },
+      "description": {
+        "en": "Casual spots where you can grab a satisfying meal in your wetsuit or after a bike ride, often with great views."
+      },
+      "type": "food",
+      "lat": 45.7151,
+      "lng": -121.518,
+      "trending_score": 80
+    },
+    {
+      "id": "active-waterfront-patio-bars",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "Post-Activity Drink Spots"
+      },
+      "description": {
+        "en": "Find a casual spot with a patio for a drink, offering prime views of the non-stop action on the Columbia River."
+      },
+      "type": "drink",
+      "lat": 45.7149,
+      "lng": -121.517,
+      "trending_score": 82
+    },
+    {
+      "id": "active-waterfront-sandy-beach",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "Sandy Beach at Waterfront Park"
+      },
+      "description": {
+        "en": "A popular spot for families, athletes, and sunbathers, this beach is the launch point for much of the river action."
+      },
+      "type": "nature",
+      "lat": 45.7153,
+      "lng": -121.5165,
+      "trending_score": 88
+    },
+    {
+      "id": "active-waterfront-trail",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "active-waterfront",
+      "name": {
+        "en": "Waterfront Trail"
+      },
+      "description": {
+        "en": "A scenic path that runs along the Columbia River, connecting the park, The Hook, and the Port area."
+      },
+      "type": "nature",
+      "lat": 45.715,
+      "lng": -121.514,
+      "trending_score": 85
+    },
+    {
+      "id": "westside-heritage-stoltz-vineyards",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Stoltz Vineyards"
+      },
+      "description": {
+        "en": "A winery and tasting room housed in the Ezra L. Smith home, the oldest house in Hood River, built in 1886."
+      },
+      "type": "drink",
+      "lat": 45.7081,
+      "lng": -121.5311,
+      "trending_score": 85
+    },
+    {
+      "id": "westside-heritage-columbia-gorge-hotel",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Columbia Gorge Hotel"
+      },
+      "description": {
+        "en": "A grand, mission-style hotel built in 1920, this landmark offers sweeping clifftop views of the Columbia River."
+      },
+      "type": "landmark",
+      "lat": 45.7125,
+      "lng": -121.5398,
+      "trending_score": 92
+    },
+    {
+      "id": "westside-heritage-waaam",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Western Antique Aeroplane & Automobile Museum (WAAAM)"
+      },
+      "description": {
+        "en": "A living museum with one of the largest collections of still-flying antique airplanes and still-driving antique cars in the country."
+      },
+      "type": "culture",
+      "lat": 45.6944,
+      "lng": -121.5597,
+      "trending_score": 90
+    },
+    {
+      "id": "westside-heritage-ezra-smith-home",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Ezra L. Smith Home"
+      },
+      "description": {
+        "en": "The oldest house in Hood River (1886), now home to Stoltz Vineyards, connecting the valley's past and present."
+      },
+      "type": "landmark",
+      "lat": 45.7082,
+      "lng": -121.531,
+      "trending_score": 78
+    },
+    {
+      "id": "westside-heritage-hotel-restaurant",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Restaurant at Columbia Gorge Hotel"
+      },
+      "description": {
+        "en": "A formal dining experience with incredible clifftop views of the river, located within the historic hotel."
+      },
+      "type": "food",
+      "lat": 45.7126,
+      "lng": -121.5395,
+      "trending_score": 88
+    },
+    {
+      "id": "westside-heritage-hotel-terrace",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Terrace at Columbia Gorge Hotel"
+      },
+      "description": {
+        "en": "Enjoying a drink on the terrace is a classic Hood River experience, offering stunning views from the historic landmark."
+      },
+      "type": "drink",
+      "lat": 45.7127,
+      "lng": -121.5393,
+      "trending_score": 89
+    },
+    {
+      "id": "westside-heritage-hotel-gardens",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Gardens at Columbia Gorge Hotel"
+      },
+      "description": {
+        "en": "Beautifully maintained gardens on the hotel grounds that offer dramatic views of the cliffside location and the river below."
+      },
+      "type": "nature",
+      "lat": 45.7124,
+      "lng": -121.5401,
+      "trending_score": 80
+    },
+    {
+      "id": "westside-heritage-wah-gwin-gwin-falls",
+      "city_id": "hood-river-or",
+      "neighborhood_id": "westside-heritage",
+      "name": {
+        "en": "Wah Gwin Gwin Falls"
+      },
+      "description": {
+        "en": "A beautiful waterfall located on the grounds of the Columbia Gorge Hotel, offering a peaceful spot for viewing."
+      },
+      "type": "nature",
+      "lat": 45.7122,
+      "lng": -121.539,
+      "trending_score": 82
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-arts-history-task-1",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Architectural Time Travel"
+      },
+      "prompt": {
+        "en": "Find a building from the early 20th century and take a photo that highlights a specific architectural detail, like a cornice, window frame, or brick pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-2",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a contrast between a historic element (like a ghost sign or old brick) and a modern one (like a new bike, a bright cafe sign, or modern fashion)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-3",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Public Art Pose"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sculpture and take a selfie where you mimic its shape, pose, or mood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-4",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Alleyway Explorer"
+      },
+      "prompt": {
+        "en": "Venture into one of the alleyways and take an artistic shot looking out towards the main street, framing the view with the alley walls."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-5",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Shop Local Snapshot"
+      },
+      "prompt": {
+        "en": "Find an independent shop with an interesting window display and capture a photo of its most unique item."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-6",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the 'community gathering place' vibe of a local cafe or taproom, focusing on people connecting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-7",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Stand on a street corner and take a photo looking straight up, capturing the tops of the historic buildings against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-8",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Taste of the Gorge"
+      },
+      "prompt": {
+        "en": "Find a menu board outside a restaurant that mentions a local ingredient (like pears, apples, or salmon) and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-9",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Reflection of History"
+      },
+      "prompt": {
+        "en": "Find a historic window and capture a reflection of the modern street scene in its glass."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-10",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Creative Energy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that you feel captures the creative, artistic energy of the downtown core."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-11",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Hidden Color"
+      },
+      "prompt": {
+        "en": "Find an unexpected pop of bright color on a door, sign, or flower box against the historic brick and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-12",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Find the most faded or hard-to-read ghost sign and take a photo. Try to guess what it once advertised!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-1",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Kinetic Colors"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the vibrant colors of at least three different kites or sails against the blue of the river or sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-2",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Mountain Backdrop"
+      },
+      "prompt": {
+        "en": "Frame a shot of the river action (kitesurfers, windsurfers, etc.) with the Cascade Mountains visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-3",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Wind-Powered Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the wind in your hair and the bustling river scene behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-4",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Motion Blur"
+      },
+      "prompt": {
+        "en": "Try using a slow shutter speed on your camera to capture the blur of a fast-moving kiteboarder, creating a sense of speed."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-5",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of people enjoying the park – a family playing, athletes relaxing, or friends watching the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-6",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Industrial Contrast"
+      },
+      "prompt": {
+        "en": "Near the port, find a way to frame a photo that includes both the natural beauty of the Gorge and a piece of industrial infrastructure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-7",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Golden Hour Silhouette"
+      },
+      "prompt": {
+        "en": "In the late afternoon, capture the silhouette of a windsurfer or the bridge against the warm light of the setting sun."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-8",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Post-Adventure Fuel"
+      },
+      "prompt": {
+        "en": "Take a photo of your casual waterfront meal or drink, with the river or park in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-9",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Beginner's Luck"
+      },
+      "prompt": {
+        "en": "Find a spot to watch the beginners learning to windsurf or kiteboard and capture a photo of their determined efforts."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-10",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Texture of the Waterfront"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a texture unique to the waterfront, like smooth river stones, coarse sand, or a weathered wooden bench."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-11",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "Panoramic Power"
+      },
+      "prompt": {
+        "en": "Use your phone's panorama mode to capture the entire sweep of the waterfront, from the park to the bridge."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "active-waterfront-task-12",
+      "neighborhood_id": "active-waterfront",
+      "title": {
+        "en": "International Hub"
+      },
+      "prompt": {
+        "en": "The waterfront attracts a global crowd. Capture a photo that hints at this international vibe, like a collection of different flags on gear or a group of diverse people."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-1",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Grandeur of the Past"
+      },
+      "prompt": {
+        "en": "Find a historic building and take a photo from a low angle to emphasize its grand scale and architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-2",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Clifftop Perspective"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the dramatic drop-off to the river, highlighting the area's elevated and scenic location."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-3",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Heritage Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a significant historic landmark, like the Columbia Gorge Hotel or the Ezra L. Smith home, in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-4",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Vintage Detail"
+      },
+      "prompt": {
+        "en": "Find a beautifully restored antique car or plane and take a close-up shot of an intricate detail, like a hood ornament, logo, or instrument panel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-5",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Vineyard Views"
+      },
+      "prompt": {
+        "en": "Take a photo that connects the area's agricultural heritage with its present, such as a glass of wine with vines or a historic building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-6",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Peaceful Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet spot in a garden or with a view of a waterfall and take a photo that captures the peaceful, grand vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-7",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Capture an image that shows history is alive here, like a mechanic working on a vintage engine or modern activity happening at a historic site."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-8",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Timber Baron's View"
+      },
+      "prompt": {
+        "en": "Imagine you are an early founder. Find a viewpoint and take a photo of the landscape that you think a timber or agricultural baron would have admired."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-9",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "A Toast to History"
+      },
+      "prompt": {
+        "en": "If you're enjoying a drink, take a photo of your glass raised in a toast to a historic building or a beautiful view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-10",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use trees, flowers, or garden elements to frame a shot of a historic piece of architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-11",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Morning Light Magic"
+      },
+      "prompt": {
+        "en": "Capture a photo of one of the grand buildings or viewpoints in the soft morning light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-heritage-task-12",
+      "neighborhood_id": "westside-heritage",
+      "title": {
+        "en": "Mechanical Beauty"
+      },
+      "prompt": {
+        "en": "Find an antique vehicle and take an artistic photo focusing on the curves of its body or the complexity of its engine."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

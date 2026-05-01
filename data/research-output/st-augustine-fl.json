@@ -1,0 +1,750 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-core",
+      "city_id": "st-augustine-fl",
+      "name": {
+        "en": "The Historic Core"
+      },
+      "summary": {
+        "en": "This is the St. Augustine everyone pictures, but the real magic is in the quiet alleys and hidden gardens. The air is thick with history, and the challenge is to find tranquility amidst the bustle."
+      },
+      "lat": 29.8929,
+      "lng": -81.3116,
+      "trending_score": 95
+    },
+    {
+      "id": "anastasia-island",
+      "city_id": "st-augustine-fl",
+      "name": {
+        "en": "Anastasia Island"
+      },
+      "summary": {
+        "en": "A short walk across the Bridge of Lions, this area is defined by maritime history, wide-open natural spaces, and a more relaxed, coastal-town energy."
+      },
+      "lat": 29.885,
+      "lng": -81.288,
+      "trending_score": 85
+    },
+    {
+      "id": "lincolnville-northern-edge",
+      "city_id": "st-augustine-fl",
+      "name": {
+        "en": "Lincolnville & The Northern Edge"
+      },
+      "summary": {
+        "en": "This area offers a more unpolished and authentic glimpse into St. Augustine, with profound historical significance, stunning Gilded Age architecture, and a quieter, residential pace."
+      },
+      "lat": 29.891,
+      "lng": -81.3185,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-core-st-augustine-distillery",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "St. Augustine Distillery"
+      },
+      "description": {
+        "en": "Housed in a restored ice plant, this is Florida's most awarded distillery, producing spirits from scratch using local ingredients. The free tour is genuinely interesting."
+      },
+      "type": "drink",
+      "lat": 29.8905,
+      "lng": -81.318,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-core-spanish-bakery-cafe",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Spanish Bakery and Café"
+      },
+      "description": {
+        "en": "Tucked away in a colonial-era courtyard, this authentic spot serves savory empanadas and fresh bread from a stone hearth oven. Go early, as they often sell out."
+      },
+      "type": "food",
+      "lat": 29.8938,
+      "lng": -81.313,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-core-lightner-museum-courtyard",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Lightner Museum Courtyard"
+      },
+      "description": {
+        "en": "Once the swimming pool of the Gilded Age Alcazar Hotel, this public courtyard is an oasis of tranquility with palm trees, a koi pond, and a beautiful stone bridge."
+      },
+      "type": "hidden_gem",
+      "lat": 29.8916,
+      "lng": -81.3148,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-core-park-at-castillo-de-san-marcos",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "The Park at Castillo de San Marcos"
+      },
+      "description": {
+        "en": "The vast green space surrounding the oldest masonry fort in the U.S. is an ideal place for a picnic with views of the Matanzas Bay and the Bridge of Lions."
+      },
+      "type": "nature",
+      "lat": 29.8976,
+      "lng": -81.3113,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-core-trinity-church",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Trinity Church of St. Augustine"
+      },
+      "description": {
+        "en": "An architecturally significant spot with beautiful stained-glass windows and a quiet interior that offers a welcome respite from the energy of the city."
+      },
+      "type": "culture",
+      "lat": 29.8903,
+      "lng": -81.3132,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-core-castillo-de-san-marcos",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Castillo de San Marcos"
+      },
+      "description": {
+        "en": "The oldest masonry fortification in the continental United States, a massive coquina structure offering a commanding presence on the Matanzas Bay."
+      },
+      "type": "landmark",
+      "lat": 29.8976,
+      "lng": -81.3113,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-core-bridge-of-lions",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Bridge of Lions"
+      },
+      "description": {
+        "en": "An iconic drawbridge connecting downtown to Anastasia Island, offering beautiful views of the Matanzas Bay and the historic city skyline during the walk across."
+      },
+      "type": "landmark",
+      "lat": 29.8925,
+      "lng": -81.3075,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-core-st-george-street",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "St. George Street"
+      },
+      "description": {
+        "en": "The main pedestrian thoroughfare of the Historic Core, whose real magic lies in the quiet alleys and historic courtyards that branch off from it."
+      },
+      "type": "landmark",
+      "lat": 29.895,
+      "lng": -81.3128,
+      "trending_score": 96
+    },
+    {
+      "id": "anastasia-island-lighthouse",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "anastasia-island",
+      "name": {
+        "en": "St. Augustine Lighthouse"
+      },
+      "description": {
+        "en": "This spiraling black-and-white tower offers the single best panoramic view of the city and ocean after a 219-step climb."
+      },
+      "type": "viewpoint",
+      "lat": 29.8854,
+      "lng": -81.2881,
+      "trending_score": 94
+    },
+    {
+      "id": "anastasia-island-alligator-farm",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "anastasia-island",
+      "name": {
+        "en": "St. Augustine Alligator Farm Zoological Park"
+      },
+      "description": {
+        "en": "A respected zoological park, not a tourist trap, featuring a famous boardwalk over a lagoon filled with massive alligators in a naturalistic setting."
+      },
+      "type": "culture",
+      "lat": 29.8817,
+      "lng": -81.2868,
+      "trending_score": 89
+    },
+    {
+      "id": "anastasia-island-farmers-market",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "anastasia-island",
+      "name": {
+        "en": "St. Augustine Amphitheatre Farmers Market"
+      },
+      "description": {
+        "en": "A must-do local experience on Saturday mornings, where residents shop for local produce and crafts under the iconic sails of the amphitheater."
+      },
+      "type": "shopping",
+      "lat": 29.8655,
+      "lng": -81.28,
+      "trending_score": 80
+    },
+    {
+      "id": "anastasia-island-beach",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "anastasia-island",
+      "name": {
+        "en": "St. Augustine Beach"
+      },
+      "description": {
+        "en": "A classic white-sand beach known for its great surf and abundance of shells, perfect for a long walk to clear your head away from the crowds."
+      },
+      "type": "nature",
+      "lat": 29.855,
+      "lng": -81.265,
+      "trending_score": 87
+    },
+    {
+      "id": "anastasia-island-pier",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "anastasia-island",
+      "name": {
+        "en": "St. Johns County Ocean Pier"
+      },
+      "description": {
+        "en": "The iconic pier at St. Augustine Beach, offering a classic backdrop for photos and a popular spot for fishing and enjoying views of the Atlantic."
+      },
+      "type": "landmark",
+      "lat": 29.8596,
+      "lng": -81.2675,
+      "trending_score": 82
+    },
+    {
+      "id": "lincolnville-northern-edge-memorial-presbyterian",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "name": {
+        "en": "Memorial Presbyterian Church"
+      },
+      "description": {
+        "en": "An architectural masterpiece commissioned by Henry Flagler, this breathtaking Venetian Renaissance-style church features a massive copper dome and intricate details."
+      },
+      "type": "landmark",
+      "lat": 29.8903,
+      "lng": -81.3158,
+      "trending_score": 86
+    },
+    {
+      "id": "lincolnville-northern-edge-old-jail",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "name": {
+        "en": "The Old Jail"
+      },
+      "description": {
+        "en": "A Victorian-era jail worth seeing in the daylight for its unusual Romanesque Revival architecture, a stark contrast to the Spanish style prevalent elsewhere."
+      },
+      "type": "hidden_gem",
+      "lat": 29.9073,
+      "lng": -81.3153,
+      "trending_score": 79
+    },
+    {
+      "id": "lincolnville-northern-edge-great-cross",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "name": {
+        "en": "The Great Cross"
+      },
+      "description": {
+        "en": "This 208-foot stainless steel cross towers over the Matanzas River, a powerful and contemplative landmark due to its sheer scale and minimalist form."
+      },
+      "type": "landmark",
+      "lat": 29.9025,
+      "lng": -81.314,
+      "trending_score": 84
+    },
+    {
+      "id": "lincolnville-northern-edge-mission-nombre-de-dios",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "name": {
+        "en": "Mission Nombre de Dios"
+      },
+      "description": {
+        "en": "The peaceful grounds of America's first mission, a contemplative place to walk that is home to a historic chapel and the towering Great Cross."
+      },
+      "type": "culture",
+      "lat": 29.9025,
+      "lng": -81.314,
+      "trending_score": 81
+    },
+    {
+      "id": "lincolnville-northern-edge-lincolnville-historic-district",
+      "city_id": "st-augustine-fl",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "name": {
+        "en": "Lincolnville Historic District"
+      },
+      "description": {
+        "en": "A neighborhood of profound historical significance, established by formerly enslaved people after the Civil War, offering a glimpse into the city's rich African-American heritage."
+      },
+      "type": "culture",
+      "lat": 29.891,
+      "lng": -81.3185,
+      "trending_score": 77
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-core-task-1",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Cobblestone Close-up"
+      },
+      "prompt": {
+        "en": "Find a particularly worn and historic-looking cobblestone or coquina block on a street or wall and take a detailed, artistic photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-2",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Hidden Courtyard Discovery"
+      },
+      "prompt": {
+        "en": "Peer down a quiet alleyway and capture a photo of a hidden courtyard or garden that most tourists walk right past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-3",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both a modern element (like a person on a phone) and a centuries-old architectural detail in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-4",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "A Moment of Tranquility"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or hidden corner away from the main crowds and take a selfie enjoying a peaceful moment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-5",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Colonial Craftsmanship"
+      },
+      "prompt": {
+        "en": "Photograph an interesting piece of ironwork, a wooden shutter, or a historic door that speaks to the city's colonial past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-6",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "The Flavor of History"
+      },
+      "prompt": {
+        "en": "Capture a photo of a local food or drink that feels authentic to St. Augustine's history, like a fresh empanada or a craft spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-7",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Historic Shadow Play"
+      },
+      "prompt": {
+        "en": "In the late afternoon, find a long shadow cast by a historic building or statue and take a creative photo incorporating it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-8",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Through the Archway"
+      },
+      "prompt": {
+        "en": "Frame a shot of a bustling street scene or quiet garden through an old stone archway or gate."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-9",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Plaza People-Watching"
+      },
+      "prompt": {
+        "en": "From a discreet spot in the main plaza, capture a candid photo that tells a story about life in the city center."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-10",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Coquina Wall Texture"
+      },
+      "prompt": {
+        "en": "Find a wall made of coquina (local shell-stone) and take a close-up shot that highlights the fossilized shells within it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-11",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Horse-Drawn Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo of a horse-drawn carriage, but try to capture it from an interesting, low, or reflective angle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-12",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Salty Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie near the bayfront with the Bridge of Lions or the Castillo in the background, capturing the coastal feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-1",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Horizon Gazer"
+      },
+      "prompt": {
+        "en": "Find a spot with a wide-open view of the ocean or Intracoastal Waterway and take a photo that emphasizes the vastness of the horizon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-2",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Salty Breeze Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the wind in your hair, with the beach or the lighthouse in the background to show off the coastal vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-3",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Abstract Stripe Pattern"
+      },
+      "prompt": {
+        "en": "Find a pattern of stripes—on the lighthouse, a beach towel, or an awning—and take a close-up, abstract photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-4",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Nature's Tiny Treasures"
+      },
+      "prompt": {
+        "en": "On the beach or in a park, find a unique seashell, feather, or plant and take a detailed macro shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-5",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "A Walk on the Wild Side"
+      },
+      "prompt": {
+        "en": "Capture a photo of local wildlife, whether it's a shorebird on the beach, a lizard on a fence, or something more... reptilian."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-6",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Local Market Haul"
+      },
+      "prompt": {
+        "en": "If the farmers market is open, photograph a colorful display of local produce or crafts. If not, find a local shop and do the same!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-7",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Bridge of Lions Frame"
+      },
+      "prompt": {
+        "en": "From somewhere on the island, frame a photo of the historic downtown skyline with the Bridge of Lions connecting the two."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-8",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Shadow of the Tower"
+      },
+      "prompt": {
+        "en": "Capture the long shadow of the lighthouse or another tall structure stretching across the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-9",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Water's Edge Patterns"
+      },
+      "prompt": {
+        "en": "At the beach during low tide, take a photo focusing on the intricate patterns the receding water leaves in the sand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-10",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Coastal Town Colors"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by the colors of the coast: sandy beige, sea blue, and the bright pastels of beach houses."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-11",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "Picnic with a View"
+      },
+      "prompt": {
+        "en": "Stage a photo of your water bottle and a snack with a beautiful beach or park view in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "anastasia-island-task-12",
+      "neighborhood_id": "anastasia-island",
+      "title": {
+        "en": "The Sound of the Ocean"
+      },
+      "prompt": {
+        "en": "Take a short video (or a photo that implies motion) of the waves crashing on the shore."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-1",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "Gilded Age Grandeur"
+      },
+      "prompt": {
+        "en": "Find an example of stunning Gilded Age architecture, like an ornate church or mansion, and take a photo that captures its most impressive detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-2",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "Unpolished Beauty"
+      },
+      "prompt": {
+        "en": "Capture an image that reflects the authentic, unpolished vibe of the neighborhood—perhaps a historic home in need of care or a quiet, non-touristy street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-3",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "A Story in Stone"
+      },
+      "prompt": {
+        "en": "Photograph a historic marker, an old brick wall, or a cornerstone that tells a story about the neighborhood's deep history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-4",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "Towering Landmark Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie from a low angle with a towering structure like the Great Cross or a church steeple, making it look immense."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-5",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Frame a shot that contrasts two different architectural styles, like the grim Old Jail next to a sunny Florida home or a grand church next to a simple building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-6",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "A Quiet Moment of History"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot on the Mission grounds or a quiet residential street and capture the stillness of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-7",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "The Dome and the Sky"
+      },
+      "prompt": {
+        "en": "Take a photo looking up at the grand copper dome of the Memorial Presbyterian Church against the blue sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-8",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Photograph a charming detail on one of the historic residential homes in Lincolnville, like a welcoming porch or unique window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-9",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "Gateway to the Past"
+      },
+      "prompt": {
+        "en": "Take a photo of a street that looks like it could be a gateway into the neighborhood's rich past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-10",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "Stark Beauty"
+      },
+      "prompt": {
+        "en": "Capture the minimalist, stark beauty of the Great Cross or the imposing facade of the Old Jail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-11",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "A Reflection of History"
+      },
+      "prompt": {
+        "en": "Find a reflection of a historic building in a puddle, a car window, or the reflecting pool at the church."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lincolnville-northern-edge-task-12",
+      "neighborhood_id": "lincolnville-northern-edge",
+      "title": {
+        "en": "The Colors of Lincolnville"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three distinct colors you find on the homes and buildings in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

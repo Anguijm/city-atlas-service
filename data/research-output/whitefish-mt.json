@@ -1,0 +1,795 @@
+{
+  "neighborhoods": [
+    {
+      "id": "railway-district",
+      "city_id": "whitefish-mt",
+      "name": {
+        "en": "Historic Railway District"
+      },
+      "summary": {
+        "en": "The historic heart of Whitefish, centered around the iconic Great Northern Railway depot. This area echoes with the town's railroad and logging past."
+      },
+      "lat": 48.4105,
+      "lng": -114.3361,
+      "trending_score": 85
+    },
+    {
+      "id": "central-avenue-core",
+      "city_id": "whitefish-mt",
+      "name": {
+        "en": "Central Avenue Core"
+      },
+      "summary": {
+        "en": "The main commercial artery of downtown, where turn-of-the-century buildings house a vibrant mix of independent shops, breweries, and local eateries."
+      },
+      "lat": 48.413,
+      "lng": -114.3365,
+      "trending_score": 90
+    },
+    {
+      "id": "arts-and-culture-quarter",
+      "city_id": "whitefish-mt",
+      "name": {
+        "en": "Arts & Culture Quarter"
+      },
+      "summary": {
+        "en": "A hub for the town's creative spirit, this district is home to professional theaters and local galleries, showcasing a surprisingly vibrant arts scene."
+      },
+      "lat": 48.4121,
+      "lng": -114.3395,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "railway-district-whitefish-museum",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "railway-district",
+      "name": {
+        "en": "Whitefish Museum (at the Whitefish Depot)"
+      },
+      "description": {
+        "en": "Housed in the 1927 Great Northern Railway depot, this museum offers a glimpse into Whitefish's rugged railroad and logging town past."
+      },
+      "type": "landmark",
+      "lat": 48.4102,
+      "lng": -114.336,
+      "trending_score": 95
+    },
+    {
+      "id": "railway-district-gnr-depot",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "railway-district",
+      "name": {
+        "en": "Great Northern Railway Depot Building"
+      },
+      "description": {
+        "en": "A stunning, still-operating 1927 depot that serves as the town's literal and historical anchor and a living piece of history."
+      },
+      "type": "landmark",
+      "lat": 48.4103,
+      "lng": -114.3362,
+      "trending_score": 92
+    },
+    {
+      "id": "railway-district-amtrak-viewpoint",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "railway-district",
+      "name": {
+        "en": "Amtrak Train Viewpoint"
+      },
+      "description": {
+        "en": "A spot to watch the Amtrak train pull in, creating a 'then and now' moment against the historic depot architecture."
+      },
+      "type": "viewpoint",
+      "lat": 48.4098,
+      "lng": -114.3365,
+      "trending_score": 75
+    },
+    {
+      "id": "railway-district-historic-brick-building",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "railway-district",
+      "name": {
+        "en": "Turn-of-the-Century Brick Architecture"
+      },
+      "description": {
+        "en": "The streets of the district are lined with historic brick buildings that define the town's old-west railway character."
+      },
+      "type": "landmark",
+      "lat": 48.411,
+      "lng": -114.3358,
+      "trending_score": 65
+    },
+    {
+      "id": "railway-district-local-eatery",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "railway-district",
+      "name": {
+        "en": "Independent Eatery near the Depot"
+      },
+      "description": {
+        "en": "The area around the Railway Depot is a primary dining hub, with independent eateries favored by locals."
+      },
+      "type": "food",
+      "lat": 48.4108,
+      "lng": -114.3368,
+      "trending_score": 70
+    },
+    {
+      "id": "central-avenue-core-gnbc",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "Great Northern Brewing Company"
+      },
+      "description": {
+        "en": "Whitefish's original craft brewery and a cornerstone of the local social scene, serving beers brewed with Montana barley."
+      },
+      "type": "drink",
+      "lat": 48.4125,
+      "lng": -114.3364,
+      "trending_score": 98
+    },
+    {
+      "id": "central-avenue-core-going-to-the-sun-ipa",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "Going-to-the-Sun IPA Tap"
+      },
+      "description": {
+        "en": "Find the tap handle for the iconic brew at Great Northern Brewing and learn its connection to Glacier National Park."
+      },
+      "type": "hidden_gem",
+      "lat": 48.4126,
+      "lng": -114.3363,
+      "trending_score": 75
+    },
+    {
+      "id": "central-avenue-core-coffee-shop",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "Independent Coffee Shop"
+      },
+      "description": {
+        "en": "A walk along Central Avenue reveals numerous local coffee shops to discover, perfect for a break from exploring."
+      },
+      "type": "food",
+      "lat": 48.4135,
+      "lng": -114.3366,
+      "trending_score": 80
+    },
+    {
+      "id": "central-avenue-core-local-eatery",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "Side Street Eatery"
+      },
+      "description": {
+        "en": "Exploring the side streets off Central Avenue is the best way to discover the independent eateries favored by locals."
+      },
+      "type": "food",
+      "lat": 48.4132,
+      "lng": -114.3372,
+      "trending_score": 82
+    },
+    {
+      "id": "central-avenue-core-independent-business",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "Independent Downtown Business"
+      },
+      "description": {
+        "en": "The historic downtown is filled with independent businesses, from shops to galleries, housed in turn-of-the-century buildings."
+      },
+      "type": "shopping",
+      "lat": 48.4128,
+      "lng": -114.336,
+      "trending_score": 78
+    },
+    {
+      "id": "central-avenue-core-ghost-golf",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "The 'Ghost' of the World Indoor Golf Championship"
+      },
+      "description": {
+        "en": "A quirky local tradition where businesses become a mini-golf course. Its spirit is a piece of local culture hidden in plain sight."
+      },
+      "type": "hidden_gem",
+      "lat": 48.4138,
+      "lng": -114.3367,
+      "trending_score": 88
+    },
+    {
+      "id": "central-avenue-core-mountain-culture-hub",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "Modern Mountain Culture Hub"
+      },
+      "description": {
+        "en": "Experience the unique blend of old-west railway town and modern mountain culture that defines Whitefish's downtown vibe."
+      },
+      "type": "landmark",
+      "lat": 48.414,
+      "lng": -114.3369,
+      "trending_score": 72
+    },
+    {
+      "id": "central-avenue-core-local-gathering-spot",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "central-avenue-core",
+      "name": {
+        "en": "Local Gathering Spot"
+      },
+      "description": {
+        "en": "A place where locals gather after a day on the slopes or trails, embodying the authentic social scene of the town."
+      },
+      "type": "landmark",
+      "lat": 48.4122,
+      "lng": -114.337,
+      "trending_score": 76
+    },
+    {
+      "id": "arts-and-culture-quarter-atp",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Alpine Theatre Project"
+      },
+      "description": {
+        "en": "A cultural powerhouse bringing professional Broadway actors and high-caliber productions to this mountain town."
+      },
+      "type": "culture",
+      "lat": 48.412,
+      "lng": -114.3385,
+      "trending_score": 94
+    },
+    {
+      "id": "arts-and-culture-quarter-wtc",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Whitefish Theatre Company"
+      },
+      "description": {
+        "en": "A community-focused theatre that showcases regional talent and represents the true local creative spirit of Whitefish."
+      },
+      "type": "culture",
+      "lat": 48.4122,
+      "lng": -114.34,
+      "trending_score": 89
+    },
+    {
+      "id": "arts-and-culture-quarter-local-gallery",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Local Art Gallery"
+      },
+      "description": {
+        "en": "The downtown core is home to a vibrant, independent arts scene with galleries waiting to be discovered by the wandering explorer."
+      },
+      "type": "culture",
+      "lat": 48.4125,
+      "lng": -114.339,
+      "trending_score": 75
+    },
+    {
+      "id": "arts-and-culture-quarter-theatre-marquee",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Historic Theatre Marquee"
+      },
+      "description": {
+        "en": "The entrance to one of the local theatres, offering a chance to capture the pre-show anticipation and artistic energy."
+      },
+      "type": "landmark",
+      "lat": 48.4123,
+      "lng": -114.3388,
+      "trending_score": 70
+    },
+    {
+      "id": "arts-and-culture-quarter-box-office",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Community Theatre Box Office"
+      },
+      "description": {
+        "en": "The access point to the local arts scene, where you can find brochures and information on the current season's plays."
+      },
+      "type": "culture",
+      "lat": 48.4121,
+      "lng": -114.3402,
+      "trending_score": 65
+    },
+    {
+      "id": "arts-and-culture-quarter-past-playbill",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Past Performance Poster"
+      },
+      "description": {
+        "en": "Look for playbills or posters from past performances at the local theatres, a treasure hunt for familiar Broadway names."
+      },
+      "type": "hidden_gem",
+      "lat": 48.4119,
+      "lng": -114.3383,
+      "trending_score": 68
+    },
+    {
+      "id": "arts-and-culture-quarter-creative-spirit-spot",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Local Creative Spirit Hub"
+      },
+      "description": {
+        "en": "A place that embodies the thriving local arts scene, where the spirit of the Great Northern Railway meets vibrant, independent art."
+      },
+      "type": "culture",
+      "lat": 48.4128,
+      "lng": -114.3392,
+      "trending_score": 72
+    },
+    {
+      "id": "arts-and-culture-quarter-pre-show-spot",
+      "city_id": "whitefish-mt",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "name": {
+        "en": "Pre-Show Drink Spot"
+      },
+      "description": {
+        "en": "Find a cozy spot near the theatres for a pre-show drink or bite, soaking in the artistic atmosphere of the neighborhood."
+      },
+      "type": "drink",
+      "lat": 48.4118,
+      "lng": -114.3398,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "railway-district-task-1",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a historic building and frame a photo that includes a modern element (like a car, a person on a phone, or a new sign). Capture the contrast between past and present."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-2",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Echoes of the Whistle"
+      },
+      "prompt": {
+        "en": "Take a short video and try to capture the sound of a passing train. If no train is present, find a piece of railway track and take a low-angle photo looking down the line."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-3",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Railroad Relic"
+      },
+      "prompt": {
+        "en": "Find an object or architectural detail that looks like it's from the original railroad era—an old sign, a piece of ironwork, or a worn brick pattern. Take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-4",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "The Traveler's View"
+      },
+      "prompt": {
+        "en": "Take a selfie from the perspective of someone just arriving in Whitefish by train for the first time. What's the first thing you'd want to capture?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-5",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Logging Town Grit"
+      },
+      "prompt": {
+        "en": "Photograph a texture that reminds you of this area's past as a rugged logging town. Think rough wood, old brick, or rusted metal."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-6",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Historic Anchor"
+      },
+      "prompt": {
+        "en": "Take a photo of the Railway Depot from an unusual angle. Try shooting from down low, or through a window, to show its importance to the town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-7",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Mountain Backdrop"
+      },
+      "prompt": {
+        "en": "Frame a shot of a historic building with the mountains visible in the background, capturing the blend of town and nature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-8",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Find a sign with a vintage or historic-looking font. Take a photo focusing on the typography."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-9",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Waiting for the Train"
+      },
+      "prompt": {
+        "en": "Find a bench or waiting area and take a photo that evokes a sense of travel and anticipation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-10",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "The Harvey Girl Hunt"
+      },
+      "prompt": {
+        "en": "Ask a local working near the depot if they've heard stories about the 'Harvey Girls'. Report back one interesting fact you learn."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-11",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Find an interesting window on an old building. Take a photo of the reflection in the glass, trying to capture another part of the historic district in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railway-district-task-12",
+      "neighborhood_id": "railway-district",
+      "title": {
+        "en": "Fueling the Journey"
+      },
+      "prompt": {
+        "en": "Find a local cafe or eatery in this district. Photograph your drink or snack with a historic building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-1",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Main Street Energy"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the energy of Central Avenue. This could be people walking, flags flying, or the front of a busy-looking shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-2",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a menu board outside a local eatery. Take a photo of the most 'Montana' sounding dish you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-3",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Old West Meets Modern"
+      },
+      "prompt": {
+        "en": "Photograph an old, western-style storefront that now houses a modern business (like a tech store, a modern cafe, or a yoga studio)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-4",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Brewery Bear"
+      },
+      "prompt": {
+        "en": "Find a logo or sign featuring a bear, inspired by the Great Northern Brewing Company's logo. Take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-5",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "My Mini-Golf Hole"
+      },
+      "prompt": {
+        "en": "Pick a random storefront and imagine it as a mini-golf hole for the indoor championship. Take a photo and describe what the obstacle would be."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-6",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Shopkeeper Story"
+      },
+      "prompt": {
+        "en": "Step into an independent shop and ask the owner what makes their business unique to Whitefish. Share the most interesting thing you learn."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-7",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Mountain Town Reflection"
+      },
+      "prompt": {
+        "en": "Find a shop window and capture a reflection of the street scene behind you. Try to get the mountains or the sky in the reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-8",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "The Perfect Perk-Up"
+      },
+      "prompt": {
+        "en": "Buy a coffee or tea from a local, independent coffee shop. Take an artful photo of your cup against a classic Whitefish downtown backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-9",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo of the second story of a building on Central Avenue. What interesting architectural details do people miss when they don't look up?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-10",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Local's Ride"
+      },
+      "prompt": {
+        "en": "Find a vehicle that screams 'Montana'. It could be a big truck, a car with a ski rack in summer, or a vintage vehicle. Photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-11",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Peer down a side street or alley off Central Ave. Take a photo that captures a hidden, less-touristy view of the town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-avenue-core-task-12",
+      "neighborhood_id": "central-avenue-core",
+      "title": {
+        "en": "Colors of Whitefish"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different colors you find on the storefronts of Central Avenue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-1",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Showtime Shadows"
+      },
+      "prompt": {
+        "en": "Find a theatre entrance or marquee and take an abstract photo focusing on the interplay of light and shadow."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-2",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Art is Everywhere"
+      },
+      "prompt": {
+        "en": "Find something that isn't in a gallery but looks like a piece of art—a colorful door, an interesting pattern on the sidewalk, or a unique window display. Photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-3",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "The Sound of Art"
+      },
+      "prompt": {
+        "en": "Stand quietly for a moment. What do you hear? A distant train, music from a shop, conversation? Take a photo of the spot where you are standing and describe the sound."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-4",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Dramatic Entrance"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a theatre as if you are a Broadway star arriving for your performance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-5",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Poster Quest"
+      },
+      "prompt": {
+        "en": "Find a poster for a current or upcoming play or art show. Take a photo of it. Which one would you most want to see?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-6",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Community Creativity"
+      },
+      "prompt": {
+        "en": "Take a photo that you think best represents the 'local creative spirit' mentioned in the report. It could be a piece of public art, a unique shop, or people enjoying the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-7",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Dusk Delight"
+      },
+      "prompt": {
+        "en": "If it's near dusk, capture a photo of a building's lights just as they turn on. If it's daytime, find a brightly lit sign or window and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-8",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Artistic Typography"
+      },
+      "prompt": {
+        "en": "Find a sign or marquee with a particularly creative or beautiful font. Take a close-up photo focusing on the letters."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-9",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "The Unsung Stage"
+      },
+      "prompt": {
+        "en": "Find a place that isn't a stage but could be—an interesting doorway, a small plaza, or a set of steps. Take a photo and imagine what kind of performance would happen there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-10",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Find an art gallery and take a photo through the window of a piece of art that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-11",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Pre-Show Ritual"
+      },
+      "prompt": {
+        "en": "Find a cozy-looking bar or cafe near a theatre. Take a photo of its entrance and tell us what your ideal pre-show drink or snack would be."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "arts-and-culture-quarter-task-12",
+      "neighborhood_id": "arts-and-culture-quarter",
+      "title": {
+        "en": "Montana Muse"
+      },
+      "prompt": {
+        "en": "Look at the playbills or gallery listings. Find a show or artist whose work seems uniquely inspired by Montana. Snap a photo of the title or name."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

@@ -1,0 +1,153 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-hillside",
+      "city_id": "jerome-az",
+      "name": {
+        "en": "The Historic Hillside"
+      },
+      "summary": {
+        "en": "A living ghost town clinging to Cleopatra Hill, where raw industrial history collides with a modern-day arts colony. The entire town is a single, walkable district with steep streets and stunning views of the Verde Valley."
+      },
+      "lat": 34.7486,
+      "lng": -112.1135,
+      "trending_score": 90
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-hillside-sliding-jail",
+      "city_id": "jerome-az",
+      "neighborhood_id": "historic-hillside",
+      "name": {
+        "en": "The Sliding Jail"
+      },
+      "description": {
+        "en": "A quintessential quirky landmark, this 2,600-ton concrete jail slid 225 feet downhill due to mine blasts and unstable ground, symbolizing Jerome's wild history."
+      },
+      "type": "landmark",
+      "lat": 34.7465,
+      "lng": -112.1148,
+      "trending_score": 95
+    },
+    {
+      "id": "historic-hillside-mine-museum",
+      "city_id": "jerome-az",
+      "neighborhood_id": "historic-hillside",
+      "name": {
+        "en": "Jerome Mine Museum"
+      },
+      "description": {
+        "en": "Run by the Jerome Historical Society, this dense, artifact-filled museum captures the grit of the town's copper mining heyday and the lives of the miners."
+      },
+      "type": "culture",
+      "lat": 34.7489,
+      "lng": -112.1132,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-hillside-historical-archives",
+      "city_id": "jerome-az",
+      "neighborhood_id": "historic-hillside",
+      "name": {
+        "en": "Jerome Historical Society Archives"
+      },
+      "description": {
+        "en": "Housed in a former church, this building is the town's memory bank, holding the stories and deep community history that persists long after the mines closed."
+      },
+      "type": "culture",
+      "lat": 34.7495,
+      "lng": -112.1125,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-hillside-galleries-shops",
+      "city_id": "jerome-az",
+      "neighborhood_id": "historic-hillside",
+      "name": {
+        "en": "Unnamed Galleries and Shops"
+      },
+      "description": {
+        "en": "The lifeblood of modern Jerome, wander Main Street to discover independent art galleries, boutiques, and craft shops showcasing the work of local artists."
+      },
+      "type": "shopping",
+      "lat": 34.7483,
+      "lng": -112.1138,
+      "trending_score": 85
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-hillside-task-1",
+      "neighborhood_id": "historic-hillside",
+      "title": {
+        "en": "Vertical Views"
+      },
+      "prompt": {
+        "en": "Capture a photo that emphasizes the steep, vertical nature of Jerome's streets and how the town clings to the hillside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-hillside-task-2",
+      "neighborhood_id": "historic-hillside",
+      "title": {
+        "en": "Ghost Town Texture"
+      },
+      "prompt": {
+        "en": "Find a crumbling foundation or a weathered, rusty surface and take a close-up shot focusing on the texture of history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-hillside-task-3",
+      "neighborhood_id": "historic-hillside",
+      "title": {
+        "en": "Verde Valley Vista"
+      },
+      "prompt": {
+        "en": "Find an opening between buildings and capture the stunning panoramic view of the Verde Valley below."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-hillside-task-4",
+      "neighborhood_id": "historic-hillside",
+      "title": {
+        "en": "Art Colony Spirit"
+      },
+      "prompt": {
+        "en": "Photograph an interesting window display from one of the many art galleries or quirky shops."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-hillside-task-5",
+      "neighborhood_id": "historic-hillside",
+      "title": {
+        "en": "Copper Connection"
+      },
+      "prompt": {
+        "en": "Find a piece of art, jewelry, or a craft item that incorporates copper, paying homage to the town's mining origins."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-hillside-task-6",
+      "neighborhood_id": "historic-hillside",
+      "title": {
+        "en": "Haunted Vibe Check"
+      },
+      "prompt": {
+        "en": "Take a photo of a building, alley, or staircase that gives off a 'haunted' or mysterious vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

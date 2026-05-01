@@ -1,0 +1,328 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-winslow",
+      "city_id": "winslow-az",
+      "name": {
+        "en": "Historic Downtown Winslow"
+      },
+      "summary": {
+        "en": "The heart of Winslow is a living time capsule where the rumble of freight trains provides a constant soundtrack, echoing the town’s origins as a railroad hub."
+      },
+      "lat": 35.0245,
+      "lng": -110.6985,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-winslow-turquoise-room",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "The Turquoise Room"
+      },
+      "description": {
+        "en": "A celebrated destination restaurant inside the La Posada Hotel, known for its inventive Southwestern cuisine and elegant, historic atmosphere."
+      },
+      "type": "food",
+      "lat": 35.0248,
+      "lng": -110.6935,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-winslow-martini-bar",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "The Martini Bar"
+      },
+      "description": {
+        "en": "A cozy, sophisticated bar within La Posada, featuring a beautiful handcrafted bar and a relaxed atmosphere perfect for classic cocktails."
+      },
+      "type": "drink",
+      "lat": 35.0249,
+      "lng": -110.6936,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-winslow-standin-corner-park",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "Standin' on the Corner Park"
+      },
+      "description": {
+        "en": "A cheerful monument to the famous Eagles song lyric, featuring a statue, a flatbed Ford, and a two-story trompe-l'œil mural."
+      },
+      "type": "landmark",
+      "lat": 35.0245,
+      "lng": -110.6985,
+      "trending_score": 95
+    },
+    {
+      "id": "historic-downtown-winslow-911-remembrance-gardens",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "9-11 Remembrance Gardens"
+      },
+      "description": {
+        "en": "A powerful and poignant memorial featuring two massive, twisted steel beams recovered from the World Trade Center."
+      },
+      "type": "landmark",
+      "lat": 35.0235,
+      "lng": -110.6945,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-downtown-winslow-la-posada-hotel",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "La Posada Hotel & Gardens"
+      },
+      "description": {
+        "en": "Known as the 'last great railroad hotel,' this architectural masterpiece by Mary Colter is a living museum of Southwestern art and design."
+      },
+      "type": "culture",
+      "lat": 35.0247,
+      "lng": -110.6934,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-winslow-tina-mion-gallery",
+      "city_id": "winslow-az",
+      "neighborhood_id": "historic-downtown-winslow",
+      "name": {
+        "en": "Tina Mion Museum & Art Gallery"
+      },
+      "description": {
+        "en": "A hidden gem inside La Posada showcasing the captivating, surreal, and thought-provoking work of acclaimed artist Tina Mion."
+      },
+      "type": "hidden_gem",
+      "lat": 35.0248,
+      "lng": -110.6937,
+      "trending_score": 82
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-winslow-task-1",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Route 66 Spirit"
+      },
+      "prompt": {
+        "en": "Find a classic Route 66 shield or sign and take a photo that captures the spirit of the open road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-2",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Railroad Rhythms"
+      },
+      "prompt": {
+        "en": "The sound of trains is everywhere. Capture a photo or short video of a freight train rumbling through town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-3",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Sun-Drenched Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the bright, sun-drenched feeling of a slow day in an Arizona town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-4",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Americana Details"
+      },
+      "prompt": {
+        "en": "Find a small detail that feels quintessentially American—an old sign, a flag, a classic car—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-5",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Photograph an interesting architectural detail on one of the historic downtown buildings. Look for unique brickwork, window frames, or rooflines."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-6",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the strong Arizona sun to your advantage. Take a creative photo of long shadows cast by buildings, people, or street signs."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-7",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Look for a faded advertisement painted on the side of a brick building—a 'ghost sign'—and capture its historic character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-8",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Sky Above the Mother Road"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up, capturing the vast Arizona sky framed by historic downtown buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-9",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Nostalgic Neon"
+      },
+      "prompt": {
+        "en": "Find a classic neon sign, whether it's lit up at dusk or dormant during the day, and take a compelling photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-10",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Desert Flora"
+      },
+      "prompt": {
+        "en": "Even in the downtown core, desert plants find a way. Photograph a cactus, yucca, or other native plant growing in an unexpected urban spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-11",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "My Own Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet street corner that isn't the famous one. Take a selfie there and give it your own story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-12",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "The Color of the Southwest"
+      },
+      "prompt": {
+        "en": "Create a photo that is dominated by a classic Southwestern color: turquoise, terracotta, or sandy beige."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-13",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "A Moment in Time"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that looks like it could have been taken 50 years ago."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-14",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art that isn't part of the famous park. It could be a small sculpture, a mural, or a decorative bench."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-15",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Pavement Stories"
+      },
+      "prompt": {
+        "en": "Look down! Take a photo of an interesting detail on the sidewalk or street—a unique manhole cover, a historic marker, or weathered bricks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-16",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Reflection of History"
+      },
+      "prompt": {
+        "en": "Use a shop window or a puddle to capture a reflection of a historic building or a classic car."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-17",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Local Ride"
+      },
+      "prompt": {
+        "en": "Find a cool-looking vehicle parked downtown—a vintage truck, a motorcycle, or a classic car—and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winslow-task-18",
+      "neighborhood_id": "historic-downtown-winslow",
+      "title": {
+        "en": "Southwestern Textures"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a texture that feels unique to the Southwest, like adobe, rough-hewn wood, or decorative tile."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

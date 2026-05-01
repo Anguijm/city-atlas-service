@@ -1,0 +1,840 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-lower-harbor",
+      "city_id": "marquette-mi",
+      "name": {
+        "en": "Downtown & The Lower Harbor"
+      },
+      "summary": {
+        "en": "This is Marquette’s historic and civic heart, where handsome 19th-century sandstone buildings meet the vast, post-industrial waterfront. It's a district for appreciating grand architecture and understanding the city’s iron ore past."
+      },
+      "lat": 46.5435,
+      "lng": -87.3925,
+      "trending_score": 95
+    },
+    {
+      "id": "third-street-nmu",
+      "city_id": "marquette-mi",
+      "name": {
+        "en": "The Third Street Corridor & NMU Campus"
+      },
+      "summary": {
+        "en": "The energetic, slightly bohemian artery of Marquette, heavily influenced by Northern Michigan University. This is where you’ll find a concentration of independent shops, affordable eats, and the everyday hum of local life."
+      },
+      "lat": 46.555,
+      "lng": -87.401,
+      "trending_score": 88
+    },
+    {
+      "id": "north-marquette-presque-isle",
+      "city_id": "marquette-mi",
+      "name": {
+        "en": "North Marquette & Presque Isle Park"
+      },
+      "summary": {
+        "en": "This is where the city grid dissolves into the rugged, natural sanctuary of Presque Isle Park. The area is a place for quiet hikes, bracing swims, and dramatic views of Lake Superior's power and beauty."
+      },
+      "lat": 46.575,
+      "lng": -87.385,
+      "trending_score": 98
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-lower-harbor-vierling-brewery",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "The Vierling Restaurant & Marquette Harbor Brewery"
+      },
+      "description": {
+        "en": "A quintessential Marquette establishment in a historic saloon, perfect for trying a beer brewed on-site while soaking in the classic ambiance."
+      },
+      "type": "drink",
+      "lat": 46.5425,
+      "lng": -87.3915,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-lower-harbor-superior-culture",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "Superior Culture"
+      },
+      "description": {
+        "en": "A vibrant hub for live music and locally made kombucha and cider, praised by locals for its kind and supportive community feel."
+      },
+      "type": "nightlife",
+      "lat": 46.5505,
+      "lng": -87.4005,
+      "trending_score": 89
+    },
+    {
+      "id": "downtown-lower-harbor-vierling-restaurant",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "The Vierling Restaurant"
+      },
+      "description": {
+        "en": "Beyond its brewery, The Vierling serves up classic American fare with a notable emphasis on fresh Lake Superior whitefish in a historic setting."
+      },
+      "type": "food",
+      "lat": 46.5425,
+      "lng": -87.3915,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-lower-harbor-food-trucks",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "Lower Harbor Food Trucks"
+      },
+      "description": {
+        "en": "On summer evenings, a small food truck scene emerges near Mattson Park, offering a casual, delicious bite with a view of the harbor."
+      },
+      "type": "food",
+      "lat": 46.5445,
+      "lng": -87.388,
+      "trending_score": 78
+    },
+    {
+      "id": "downtown-lower-harbor-ore-dock",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "Lower Harbor Ore Dock"
+      },
+      "description": {
+        "en": "A colossal, defunct concrete structure that dominates the harbor skyline, standing as a silent monument to the shipping and iron industry that built the city."
+      },
+      "type": "landmark",
+      "lat": 46.542,
+      "lng": -87.3845,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-lower-harbor-courthouse",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "Marquette County Courthouse"
+      },
+      "description": {
+        "en": "A stately, neoclassical building that served as the primary filming location for the courtroom scenes in the classic 1959 film, *Anatomy of a Murder*."
+      },
+      "type": "landmark",
+      "lat": 46.542,
+      "lng": -87.397,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-lower-harbor-grandfather-sculpture",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "The Seven Grandfather Teachings Sculpture"
+      },
+      "description": {
+        "en": "A powerful installation honoring the traditions of the Anishinaabe people, offering a moment of cultural reflection against the backdrop of Lake Superior."
+      },
+      "type": "culture",
+      "lat": 46.543,
+      "lng": -87.39,
+      "trending_score": 86
+    },
+    {
+      "id": "downtown-lower-harbor-mattson-park",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "downtown-lower-harbor",
+      "name": {
+        "en": "Mattson Lower Harbor Park"
+      },
+      "description": {
+        "en": "The city's front yard, offering wide-open green space, a public marina, and the best ground-level views of the ore dock."
+      },
+      "type": "nature",
+      "lat": 46.544,
+      "lng": -87.389,
+      "trending_score": 90
+    },
+    {
+      "id": "third-street-nmu-superior-dome",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "Superior Dome"
+      },
+      "description": {
+        "en": "Known affectionately as the 'YooperDome,' this is the world's largest wooden dome and home to NMU athletics. Its sheer scale is a sight to behold."
+      },
+      "type": "landmark",
+      "lat": 46.56,
+      "lng": -87.4035,
+      "trending_score": 91
+    },
+    {
+      "id": "third-street-nmu-wright-street-falls",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "Wright Street Falls"
+      },
+      "description": {
+        "en": "A true hidden gem where a lovely waterfall on the Dead River cascades over and around the ruins of an old powerhouse."
+      },
+      "type": "hidden_gem",
+      "lat": 46.563,
+      "lng": -87.415,
+      "trending_score": 94
+    },
+    {
+      "id": "third-street-nmu-independent-shops",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "Third Street's Independent Shops"
+      },
+      "description": {
+        "en": "This is the best street in Marquette for browsing local bookstores, record shops, and other unique retailers that give the corridor its character."
+      },
+      "type": "shopping",
+      "lat": 46.5528,
+      "lng": -87.4008,
+      "trending_score": 85
+    },
+    {
+      "id": "third-street-nmu-hospital-site",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "The Former Hospital Site"
+      },
+      "description": {
+        "en": "A massive redevelopment project offering a real-time glimpse into how Marquette is evolving and dealing with its growing pains."
+      },
+      "type": "hidden_gem",
+      "lat": 46.55,
+      "lng": -87.405,
+      "trending_score": 60
+    },
+    {
+      "id": "third-street-nmu-coffee-shops",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "Third Street Coffee Shops"
+      },
+      "description": {
+        "en": "This corridor is dotted with independent coffee shops serving the university community. Pop into one that looks inviting to feel the local student buzz."
+      },
+      "type": "drink",
+      "lat": 46.551,
+      "lng": -87.4007,
+      "trending_score": 75
+    },
+    {
+      "id": "third-street-nmu-pubs",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "Third Street Pubs"
+      },
+      "description": {
+        "en": "Discover the unpretentious pubs along Third Street, popular with students and locals for their casual atmosphere and affordable drinks."
+      },
+      "type": "drink",
+      "lat": 46.554,
+      "lng": -87.401,
+      "trending_score": 76
+    },
+    {
+      "id": "third-street-nmu-eateries",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "Third Street Eateries"
+      },
+      "description": {
+        "en": "Known for its diverse and budget-friendly options, Third Street offers everything from pizza and subs to international cuisine. Let your nose be your guide."
+      },
+      "type": "food",
+      "lat": 46.5525,
+      "lng": -87.4008,
+      "trending_score": 80
+    },
+    {
+      "id": "third-street-nmu-nmu-campus",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "third-street-nmu",
+      "name": {
+        "en": "Northern Michigan University (NMU) Campus"
+      },
+      "description": {
+        "en": "The grounds of the university that heavily influence the neighborhood's energetic and academic vibe. A great place for a stroll to see campus life."
+      },
+      "type": "landmark",
+      "lat": 46.557,
+      "lng": -87.402,
+      "trending_score": 82
+    },
+    {
+      "id": "north-marquette-presque-isle-black-rocks",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "Black Rocks"
+      },
+      "description": {
+        "en": "Ancient, dark rock formations forming dramatic cliffs that plunge into Lake Superior, famous for the local tradition of exhilarating cliff jumping."
+      },
+      "type": "nature",
+      "lat": 46.5855,
+      "lng": -87.38,
+      "trending_score": 100
+    },
+    {
+      "id": "north-marquette-presque-isle-sugarloaf",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "Sugarloaf Mountain"
+      },
+      "description": {
+        "en": "A relatively short but steep climb to a summit with one of the most breathtaking panoramic views in the Upper Peninsula."
+      },
+      "type": "viewpoint",
+      "lat": 46.605,
+      "lng": -87.428,
+      "trending_score": 99
+    },
+    {
+      "id": "north-marquette-presque-isle-mccartys-cove",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "McCarty's Cove"
+      },
+      "description": {
+        "en": "A beautiful sandy beach just south of Presque Isle, offering a gentler way to experience the lake and an iconic view of the lighthouse."
+      },
+      "type": "nature",
+      "lat": 46.558,
+      "lng": -87.386,
+      "trending_score": 93
+    },
+    {
+      "id": "north-marquette-presque-isle-peter-white-drive",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "Peter White Drive"
+      },
+      "description": {
+        "en": "The scenic road that circles Presque Isle Park is a destination in itself, perfect for a walk to discover hidden coves and changing lake views."
+      },
+      "type": "landmark",
+      "lat": 46.57,
+      "lng": -87.382,
+      "trending_score": 87
+    },
+    {
+      "id": "north-marquette-presque-isle-concession-stand",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "Presque Isle Park Concession Stand"
+      },
+      "description": {
+        "en": "A classic park stand offering simple snacks and ice cream—the perfect reward after a hike or a chilly jump into the lake."
+      },
+      "type": "food",
+      "lat": 46.578,
+      "lng": -87.378,
+      "trending_score": 65
+    },
+    {
+      "id": "north-marquette-presque-isle-lighthouse",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "Marquette Harbor Lighthouse"
+      },
+      "description": {
+        "en": "The picturesque, bright red U.S. Coast Guard Station and lighthouse that creates one of Marquette's most iconic scenes, best viewed from McCarty's Cove."
+      },
+      "type": "landmark",
+      "lat": 46.5595,
+      "lng": -87.383,
+      "trending_score": 90
+    },
+    {
+      "id": "north-marquette-presque-isle-hidden-coves",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "Presque Isle Hidden Coves"
+      },
+      "description": {
+        "en": "Explore the loop around Presque Isle to discover numerous quiet, hidden coves perfect for a moment of reflection by the vast lake."
+      },
+      "type": "hidden_gem",
+      "lat": 46.583,
+      "lng": -87.377,
+      "trending_score": 80
+    },
+    {
+      "id": "north-marquette-presque-isle-sunrise-point",
+      "city_id": "marquette-mi",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "name": {
+        "en": "Sunrise Point on Peter White Drive"
+      },
+      "description": {
+        "en": "The eastern side of the park's loop road offers particularly stunning and quiet views of Lake Superior as the sun comes up."
+      },
+      "type": "viewpoint",
+      "lat": 46.582,
+      "lng": -87.376,
+      "trending_score": 84
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-lower-harbor-task-1",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Sandstone Selfie"
+      },
+      "prompt": {
+        "en": "Find a historic sandstone building and take a selfie that captures its grand, 19th-century character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-2",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Industrial Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a detail that hints at Marquette's iron ore past—a piece of old metal, a massive bolt, or a view of the ore dock."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-3",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Harbor Horizon"
+      },
+      "prompt": {
+        "en": "Capture a photo of the vast Lake Superior horizon from the waterfront. Try to include a boat or a bird for scale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-4",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Local Brews"
+      },
+      "prompt": {
+        "en": "Find a local brewery or pub and take a photo of your drink with the historic interior in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-5",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Take a photo of a government building or monument that speaks to the city's history and civic identity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-6",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Preservation vs. Progress"
+      },
+      "prompt": {
+        "en": "Find a scene that shows the old and new side-by-side—a historic building next to a modern one, or a new development near an old landmark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-7",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Lake Superior Whitefish"
+      },
+      "prompt": {
+        "en": "Find a restaurant serving the local specialty, Lake Superior whitefish, and snap a picture of the menu or the dish itself."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-8",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Anishinaabe Art"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a symbol that honors the local Anishinaabe heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-9",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of people enjoying the green space of Mattson Lower Harbor Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-10",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Film Noir Frame"
+      },
+      "prompt": {
+        "en": "Find a dramatic shadow or an interesting architectural angle and take a black-and-white photo inspired by *Anatomy of a Murder*."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-11",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Food Truck Feast"
+      },
+      "prompt": {
+        "en": "Find a food truck and photograph its most interesting menu item."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lower-harbor-task-12",
+      "neighborhood_id": "downtown-lower-harbor",
+      "title": {
+        "en": "Sunrise Over the Water"
+      },
+      "prompt": {
+        "en": "If you're out early, capture the colors of the sunrise reflecting on the harbor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-1",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "University Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the energy of the university—students with backpacks, a campus building, or a flyer for a college event."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-2",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Indie Spirit"
+      },
+      "prompt": {
+        "en": "Find an independent shop with a unique storefront and capture its character in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-3",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Bohemian Detail"
+      },
+      "prompt": {
+        "en": "Photograph a quirky or artistic detail you find on the street—a sticker, a piece of graffiti, or a unique sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-4",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Coffee Shop Culture"
+      },
+      "prompt": {
+        "en": "Get a coffee from a local spot and take a photo of your cup in a cozy corner."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-5",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Hidden Nature"
+      },
+      "prompt": {
+        "en": "Find a spot where nature is reclaiming the urban environment—vines on a wall, a tree growing in a strange place, or a hidden patch of green."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-6",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Local Music Scene"
+      },
+      "prompt": {
+        "en": "Find a poster or sign advertising a live music show and snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-7",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Budget Bite"
+      },
+      "prompt": {
+        "en": "Find a spot offering an affordable meal popular with students and photograph your find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-8",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Architectural Anomaly"
+      },
+      "prompt": {
+        "en": "Photograph the most unusual or interesting building you can find in the area, from modern campus structures to older neighborhood homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-9",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Record Store Find"
+      },
+      "prompt": {
+        "en": "Browse a local record shop and take a photo of an album cover that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-10",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "City in Transition"
+      },
+      "prompt": {
+        "en": "Find evidence of construction or redevelopment and take a photo that shows how the neighborhood is changing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-11",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Academic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a building or sign related to Northern Michigan University."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "third-street-nmu-task-12",
+      "neighborhood_id": "third-street-nmu",
+      "title": {
+        "en": "Follow Your Nose"
+      },
+      "prompt": {
+        "en": "Let your sense of smell guide you to an interesting eatery. Take a photo of the storefront that drew you in."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-1",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Superior Power"
+      },
+      "prompt": {
+        "en": "Capture a photo of the waves of Lake Superior crashing against the rocky shoreline."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-2",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Forest Floor"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of something interesting on the forest floor—a unique mushroom, a pattern of leaves, or moss on a rock."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-3",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Panoramic Vista"
+      },
+      "prompt": {
+        "en": "Find an elevated spot and take a sweeping panoramic photo of the lake and the surrounding landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-4",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Ancient Rocks"
+      },
+      "prompt": {
+        "en": "Find an interesting rock formation and take a photo that emphasizes its texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-5",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Trail Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a hiking trail with the natural beauty of the area behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-6",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Northwoods Color Palette"
+      },
+      "prompt": {
+        "en": "Create a photo that focuses on the colors of the Northwoods: the deep green of pines, the white of birch bark, and the blue of the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-7",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Braving the Water"
+      },
+      "prompt": {
+        "en": "Safely capture a photo of someone swimming or jumping into the cold Lake Superior water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-8",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Lighthouse Gaze"
+      },
+      "prompt": {
+        "en": "Frame a shot of a lighthouse against the vastness of the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-9",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Sandy Toes"
+      },
+      "prompt": {
+        "en": "Take a photo of your feet on a sandy beach with the waves in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-10",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Post-Hike Reward"
+      },
+      "prompt": {
+        "en": "Find a spot to grab a simple snack or ice cream and take a photo of your well-earned treat."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-11",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Olmsted's Vision"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that you think looks 'so perfect it should be left untouched,' in the spirit of Frederick Law Olmsted."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-marquette-presque-isle-task-12",
+      "neighborhood_id": "north-marquette-presque-isle",
+      "title": {
+        "en": "Sunset Glow"
+      },
+      "prompt": {
+        "en": "If you're here in the evening, capture the warm light of the golden hour on the trees, rocks, or water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

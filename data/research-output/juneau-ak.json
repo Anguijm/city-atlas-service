@@ -1,0 +1,585 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-juneau",
+      "city_id": "juneau-ak",
+      "name": {
+        "en": "Downtown Juneau"
+      },
+      "summary": {
+        "en": "The historic and artistic heart of Alaska’s capital, a dense grid of streets set against Mount Juneau, buzzing with government buildings, Alaska Native culture, and an independent arts scene."
+      },
+      "lat": 58.3019,
+      "lng": -134.4197,
+      "trending_score": 90
+    },
+    {
+      "id": "douglas-island",
+      "city_id": "juneau-ak",
+      "name": {
+        "en": "Douglas Island"
+      },
+      "summary": {
+        "en": "A quieter, residential area steeped in gold rush history, blending dramatic mine ruins with a vibrant community centered around arts and recreation."
+      },
+      "lat": 58.288,
+      "lng": -134.405,
+      "trending_score": 80
+    },
+    {
+      "id": "juneau-waterfront",
+      "city_id": "juneau-ak",
+      "name": {
+        "en": "Juneau Waterfront"
+      },
+      "summary": {
+        "en": "Experience the edge of the city where it meets the frigid Gastineau Channel, offering stunning views of the mountains and dynamic tributes to the region's marine life."
+      },
+      "lat": 58.298,
+      "lng": -134.412,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-juneau-soboleff-building",
+      "city_id": "juneau-ak",
+      "neighborhood_id": "downtown-juneau",
+      "name": {
+        "en": "Walter Soboleff Building"
+      },
+      "description": {
+        "en": "An architectural landmark and cultural center for the Tlingit, Haida, and Tsimshian peoples, featuring a massive carved cedar house front and art exhibits."
+      },
+      "type": "culture",
+      "lat": 58.3005,
+      "lng": -134.4133,
+      "trending_score": 95
+    },
+    {
+      "id": "juneau-waterfront-tahku-sculpture",
+      "city_id": "juneau-ak",
+      "neighborhood_id": "juneau-waterfront",
+      "name": {
+        "en": "Tahku (The Humpback Whale Sculpture)"
+      },
+      "description": {
+        "en": "A life-sized bronze sculpture depicting a humpback whale in a spectacular breach, located near the waterfront."
+      },
+      "type": "landmark",
+      "lat": 58.2978,
+      "lng": -134.4086,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-juneau-gold-town-nickelodeon",
+      "city_id": "juneau-ak",
+      "neighborhood_id": "downtown-juneau",
+      "name": {
+        "en": "Gold Town Nickelodeon"
+      },
+      "description": {
+        "en": "A cherished single-screen art house cinema showing independent, foreign, and classic films, representing Juneau's independent spirit."
+      },
+      "type": "culture",
+      "lat": 58.3031,
+      "lng": -134.4194,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-juneau-jacc",
+      "city_id": "juneau-ak",
+      "neighborhood_id": "downtown-juneau",
+      "name": {
+        "en": "Juneau Arts & Culture Center (JACC)"
+      },
+      "description": {
+        "en": "The nerve center of Juneau's creative community, hosting a gallery with rotating exhibits and a shop with work by local artists."
+      },
+      "type": "culture",
+      "lat": 58.3036,
+      "lng": -134.4215,
+      "trending_score": 80
+    },
+    {
+      "id": "douglas-island-treadwell-ruins",
+      "city_id": "juneau-ak",
+      "neighborhood_id": "douglas-island",
+      "name": {
+        "en": "Treadwell Gold Mine Ruins"
+      },
+      "description": {
+        "en": "The skeletal remains of one of the world's largest gold mines, now being reclaimed by the temperate rainforest."
+      },
+      "type": "hidden_gem",
+      "lat": 58.2771,
+      "lng": -134.3942,
+      "trending_score": 88
+    },
+    {
+      "id": "douglas-island-perseverance-theatre",
+      "city_id": "juneau-ak",
+      "neighborhood_id": "douglas-island",
+      "name": {
+        "en": "Perseverance Theatre"
+      },
+      "description": {
+        "en": "Alaska's largest professional theater and a cultural powerhouse known for developing works by Alaskan playwrights."
+      },
+      "type": "culture",
+      "lat": 58.2885,
+      "lng": -134.4068,
+      "trending_score": 82
+    },
+    {
+      "id": "douglas-island-treadwell-arena",
+      "city_id": "juneau-ak",
+      "neighborhood_id": "douglas-island",
+      "name": {
+        "en": "Treadwell Ice Arena"
+      },
+      "description": {
+        "en": "A true community hub next to the mine ruins, hosting hockey, skating, and other local events year-round."
+      },
+      "type": "landmark",
+      "lat": 58.2785,
+      "lng": -134.3961,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-juneau-task-1",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Urban Canyon"
+      },
+      "prompt": {
+        "en": "Capture a photo looking up a street that shows the dramatic contrast between the historic buildings and the sheer face of Mount Juneau."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-2",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of public art—a mural, sculpture, or carving—and take a photo that incorporates the surrounding Alaskan environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-3",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Government Grandeur"
+      },
+      "prompt": {
+        "en": "Take a picture of a government building, focusing on an architectural detail that feels unique to Alaska's capital."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-4",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of a local, independent shop that catches your eye. What makes it feel uniquely Juneau?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-5",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Native Art Discovery"
+      },
+      "prompt": {
+        "en": "Find an example of Tlingit, Haida, or Tsimshian art or design on a building, sign, or object. Take a close-up shot of the formline patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-6",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Past & Present"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both a historic building and a modern element, showing how Juneau's past and present coexist."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-7",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Local Flavors Quest"
+      },
+      "prompt": {
+        "en": "Peer into a local cafe or eatery and take a photo of an item on the menu that features a classic Alaskan ingredient, like salmon or berries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-8",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Stairway to the Mountain"
+      },
+      "prompt": {
+        "en": "Juneau is built on a mountainside. Find a public staircase and take a creative photo looking up or down it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-9",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Capital City Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Alaska State Capitol building visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-10",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Rainforest Reflection"
+      },
+      "prompt": {
+        "en": "After a rain shower, find a puddle and capture the reflection of a downtown building or street scene in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-11",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "The Color of Juneau"
+      },
+      "prompt": {
+        "en": "Find a brightly colored building or door and make it the subject of your photo, contrasting with the often-grey skies."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-juneau-task-12",
+      "neighborhood_id": "downtown-juneau",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Take a photo that captures a sense of community—people chatting, a busy public space, or a sign for a local event."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-1",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Nature's Reclamation"
+      },
+      "prompt": {
+        "en": "Find a man-made object (a wall, a piece of metal, a foundation) being overgrown by moss, ferns, or trees. Capture the texture of nature taking over."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-2",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Ghost of the Gold Rush"
+      },
+      "prompt": {
+        "en": "Take a black and white photo of an old structure or ruin to emphasize its history and the passage of time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-3",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "A Local's Life"
+      },
+      "prompt": {
+        "en": "Photograph a detail that speaks to the residential, everyday life on the island—a quirky mailbox, a well-tended garden, or a bike parked outside a home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-4",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Forest Floor"
+      },
+      "prompt": {
+        "en": "Get low to the ground and take a photo focusing on the rich textures of the temperate rainforest floor: moss, fallen leaves, and ferns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-5",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "View from the Other Side"
+      },
+      "prompt": {
+        "en": "Find a spot with a view across the channel and take a photo of the Downtown Juneau skyline from the Douglas Island perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-6",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Industrial Relic"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking piece of rusted machinery or metal you can and take a close-up, artistic shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-7",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo of the Gastineau Channel Bridge, focusing on its lines and structure against the backdrop of mountains or water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-8",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Community Arts Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie near a community arts or recreation spot, like a theater or arena, capturing the local vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-9",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Path into the Woods"
+      },
+      "prompt": {
+        "en": "Find a trail or path leading into the forest and take a photo that creates a sense of mystery or invitation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-10",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Sounds of Silence"
+      },
+      "prompt": {
+        "en": "Find a quiet spot among the trees or ruins. Take a photo that conveys the peaceful, hushed atmosphere of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-11",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Story in a Poster"
+      },
+      "prompt": {
+        "en": "Find a poster for a local play, concert, or community event. Take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "douglas-island-task-12",
+      "neighborhood_id": "douglas-island",
+      "title": {
+        "en": "Canopy View"
+      },
+      "prompt": {
+        "en": "Stand beneath the tall trees and take a photo looking straight up at the forest canopy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-1",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Mountain Panorama"
+      },
+      "prompt": {
+        "en": "Take a wide, panoramic photo of the mountains across the Gastineau Channel. Try to capture their scale and grandeur."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-2",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Seaplane Spotting"
+      },
+      "prompt": {
+        "en": "Capture a photo of a seaplane taking off, landing, or taxiing on the water. It's a classic Juneau sight!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-3",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Water's Edge Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie right at the edge of the water, with the Gastineau Channel and Douglas Island in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-4",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Tidal Treasures"
+      },
+      "prompt": {
+        "en": "If the tide is low, get close to the shoreline and take a photo of the textures revealed: seaweed-covered rocks, barnacles, or tide pools."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-5",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Boats of the North"
+      },
+      "prompt": {
+        "en": "Find a fishing boat, tugboat, or other working vessel and take a photo that tells a story about life on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-6",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Dramatic Skies"
+      },
+      "prompt": {
+        "en": "The weather changes fast here. Capture a photo of the dramatic clouds moving over the mountains and the channel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-7",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Eagle Eye Quest"
+      },
+      "prompt": {
+        "en": "Scan the skies, lampposts, and treetops for a bald eagle. If you spot one, try to get a photo!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-8",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Reflection on the Water"
+      },
+      "prompt": {
+        "en": "On a calm day, capture the reflection of the mountains or the city lights on the surface of the channel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-9",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Cruise Ship Scale"
+      },
+      "prompt": {
+        "en": "If a cruise ship is in port, take a photo that shows its immense scale compared to the buildings and people on the dock."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-10",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Marine Life Tribute"
+      },
+      "prompt": {
+        "en": "Find a sculpture, sign, or mural that pays tribute to the region's marine life (whales, salmon, etc.) and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-11",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "The Seawalk Path"
+      },
+      "prompt": {
+        "en": "Take a photo down the length of the seawalk path, using leading lines to draw the eye towards the water or mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "juneau-waterfront-task-12",
+      "neighborhood_id": "juneau-waterfront",
+      "title": {
+        "en": "Dockside Details"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of a detail on the docks: a coiled rope, a colorful buoy, or the weathered wood of the pier."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

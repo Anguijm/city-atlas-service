@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "bozeman-mt",
+      "name": {
+        "en": "Historic Downtown"
+      },
+      "summary": {
+        "en": "The heart of Bozeman, where the city’s pioneer past meets its vibrant present in a blend of Old West charm and modern mountain-town energy."
+      },
+      "lat": 45.6795,
+      "lng": -111.0385,
+      "trending_score": 95
+    },
+    {
+      "id": "university-museum-district",
+      "city_id": "bozeman-mt",
+      "name": {
+        "en": "University & Museum District"
+      },
+      "summary": {
+        "en": "An intellectual and inquisitive area south of downtown, defined by Montana State University and its world-class museums."
+      },
+      "lat": 45.665,
+      "lng": -111.048,
+      "trending_score": 90
+    },
+    {
+      "id": "northeast-industrial-arts",
+      "city_id": "bozeman-mt",
+      "name": {
+        "en": "The Northeast Industrial-Arts Quarter"
+      },
+      "summary": {
+        "en": "An emerging area where industrial roots are being creatively repurposed, offering a gritty-cool vibe that's off the beaten path."
+      },
+      "lat": 45.69,
+      "lng": -111.025,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-pioneer-museum",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Gallatin Historical Society - The Pioneer Museum"
+      },
+      "description": {
+        "en": "Housed in a former county jail, this museum offers an unvarnished look into the lives of the pioneers who shaped the Gallatin Valley."
+      },
+      "type": "culture",
+      "lat": 45.6798,
+      "lng": -111.0371,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-the-rialto",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Rialto"
+      },
+      "description": {
+        "en": "A beautifully restored 1908 theater, now a contemporary cultural hub for music and performance with a classic Americana marquee."
+      },
+      "type": "culture",
+      "lat": 45.6793,
+      "lng": -111.0326,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-story-mansion",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Story Mansion"
+      },
+      "description": {
+        "en": "A grand, 20-room mansion from 1910 whose imposing architecture offers a glimpse into the opulent side of early 20th-century Bozeman."
+      },
+      "type": "landmark",
+      "lat": 45.6708,
+      "lng": -111.0396,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-last-best-comedy",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Last Best Comedy Club"
+      },
+      "description": {
+        "en": "A modern cultural anchor offering a raw, local alternative for evening entertainment with stand-up and improv comedy."
+      },
+      "type": "nightlife",
+      "lat": 45.6805,
+      "lng": -111.0281,
+      "trending_score": 78
+    },
+    {
+      "id": "university-museum-district-museum-of-rockies",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "university-museum-district",
+      "name": {
+        "en": "Museum of the Rockies"
+      },
+      "description": {
+        "en": "A world-renowned paleontological research facility housing one of the most important collections of dinosaur fossils in the world."
+      },
+      "type": "culture",
+      "lat": 45.663,
+      "lng": -111.048,
+      "trending_score": 98
+    },
+    {
+      "id": "university-museum-district-computer-museum",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "university-museum-district",
+      "name": {
+        "en": "American Computer & Robotics Museum"
+      },
+      "description": {
+        "en": "An Atlas Obscura-style gem charting the history of computing from the abacus to the first Apple computers."
+      },
+      "type": "culture",
+      "lat": 45.6636,
+      "lng": -111.052,
+      "trending_score": 88
+    },
+    {
+      "id": "university-museum-district-montana-arboretum",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "university-museum-district",
+      "name": {
+        "en": "Montana Arboretum and Gardens"
+      },
+      "description": {
+        "en": "A peaceful, living laboratory on the MSU campus showcasing plants and trees that can thrive in the challenging Rocky Mountain climate."
+      },
+      "type": "nature",
+      "lat": 45.667,
+      "lng": -111.046,
+      "trending_score": 75
+    },
+    {
+      "id": "northeast-industrial-arts-gibson-guitars",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "northeast-industrial-arts",
+      "name": {
+        "en": "Gibson Guitar Factory"
+      },
+      "description": {
+        "en": "A landmark for music lovers, this is where Gibson's world-famous acoustic guitars are crafted, representing a pocket of world-class artistic manufacturing."
+      },
+      "type": "hidden_gem",
+      "lat": 45.6945,
+      "lng": -111.0203,
+      "trending_score": 80
+    },
+    {
+      "id": "northeast-industrial-arts-fish-tech-center",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "northeast-industrial-arts",
+      "name": {
+        "en": "U.S. Fish and Wildlife Service Fish Technology Center"
+      },
+      "description": {
+        "en": "Established in 1892, this is a quirky and fascinating piece of living history dedicated to fisheries science and conservation."
+      },
+      "type": "hidden_gem",
+      "lat": 45.7135,
+      "lng": -110.9896,
+      "trending_score": 65
+    },
+    {
+      "id": "northeast-industrial-arts-east-gallatin-rec",
+      "city_id": "bozeman-mt",
+      "neighborhood_id": "northeast-industrial-arts",
+      "name": {
+        "en": "East Gallatin Recreation Area"
+      },
+      "description": {
+        "en": "A sprawling park providing a rugged, natural walking experience and a local's escape for a quick dose of nature on the edge of the city."
+      },
+      "type": "nature",
+      "lat": 45.705,
+      "lng": -111.045,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Find a historic brick building and take a close-up photo emphasizing the texture and age of the bricks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Old West Window"
+      },
+      "prompt": {
+        "en": "Photograph the most interesting display you can find in a local shop window on Main Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Pioneer Perspective"
+      },
+      "prompt": {
+        "en": "Take a selfie with a building that looks like it's from the 19th century."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a reflection of a historic building in a modern window or surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Mountain Town Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the vibrant energy of Main Street, focusing on people and movement."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Vintage Signage"
+      },
+      "prompt": {
+        "en": "Find and photograph a business sign that uses a classic or vintage-style font."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a quiet alley off the main street and take an artistic shot of what you find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Architectural Accent"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail, like a cornice or window arch, and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Search the brick walls for a 'ghost sign'—a faded, hand-painted advertisement from long ago—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Photograph a piece of art through the window of one of the downtown art galleries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the colorful glow of a neon sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Main Street Story"
+      },
+      "prompt": {
+        "en": "Take a photo that you think tells a story about life in downtown Bozeman."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-1",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Symbol of Knowledge"
+      },
+      "prompt": {
+        "en": "Find and photograph something that represents learning or discovery, like a statue, a book, or an interesting building detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-2",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Campus Greens"
+      },
+      "prompt": {
+        "en": "Capture a wide-angle photo of one of the university's open green spaces, emphasizing its size and tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-3",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Intellectual Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie looking thoughtful or curious with a museum or university building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-4",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Nature Meets Science"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the intersection of the natural world and human knowledge (e.g., a garden next to a lab building)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-5",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Ancient Bark"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking tree you can and take a macro photo of its textured bark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-6",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Student Life"
+      },
+      "prompt": {
+        "en": "Photograph a detail that represents student life, such as a full bike rack, a creative flyer, or a busy pathway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-7",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Find an interesting path or walkway and take a photo from a low angle, making it look like a journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-8",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Modern Angles"
+      },
+      "prompt": {
+        "en": "Photograph an interesting architectural angle or line on one of the modern museum buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-9",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Historic Tribute"
+      },
+      "prompt": {
+        "en": "Locate a plaque, monument, or statue dedicated to a person or event and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-10",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Botanical Beauty"
+      },
+      "prompt": {
+        "en": "Find a unique flower or plant in one of the gardens and take a close-up shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-11",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern of shadows cast by a tree or building on campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-museum-district-task-12",
+      "neighborhood_id": "university-museum-district",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or spot and take a photo that evokes a sense of peace and thought."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-1",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Find a surface with a cool industrial texture—like corrugated metal, worn concrete, or rusted steel—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-2",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Repurposed Past"
+      },
+      "prompt": {
+        "en": "Photograph a building that is clearly an old industrial structure (like a warehouse or silo) being used for a new purpose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-3",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Gritty-Cool Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a backdrop that captures the gritty, utilitarian, and creative vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-4",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Big Sky Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the silhouette of an industrial building or grain elevator against the vast Montana sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-5",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Maker's Mark"
+      },
+      "prompt": {
+        "en": "Find a sign of creative work in progress: a mural, a sculpture, stacked raw materials, or a unique artisan sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-6",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Nature vs. Industry"
+      },
+      "prompt": {
+        "en": "Take a photo that shows nature reclaiming an industrial space—weeds growing through concrete, vines on a metal wall, etc."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-7",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Tracks to the Past"
+      },
+      "prompt": {
+        "en": "Find a set of old railroad tracks or other remnants of the area's transportation history and photograph them."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-8",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Off the Beaten Path"
+      },
+      "prompt": {
+        "en": "Take a picture of a street or view that feels undiscovered and far from the typical tourist trail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-9",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Industrial Geometry"
+      },
+      "prompt": {
+        "en": "Find strong lines, shapes, and angles in the industrial architecture and compose an abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-10",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Wall Art"
+      },
+      "prompt": {
+        "en": "Search for a unique piece of graffiti or a mural on the side of a warehouse and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-11",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Shadows of Giants"
+      },
+      "prompt": {
+        "en": "Photograph a long shadow cast by a tall industrial structure like a silo or smokestack."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "northeast-industrial-arts-task-12",
+      "neighborhood_id": "northeast-industrial-arts",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Find a modern, creative business sign on an old, utilitarian building and photograph the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

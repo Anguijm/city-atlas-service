@@ -1,0 +1,615 @@
+{
+  "neighborhoods": [
+    {
+      "id": "whiskey-row",
+      "city_id": "prescott-az",
+      "name": {
+        "en": "Whiskey Row"
+      },
+      "summary": {
+        "en": "This is the historic epicenter of Prescott's nightlife, a single block where the ghosts of gold miners and gunslingers mingle with a palpable modern energy."
+      },
+      "lat": 34.5405,
+      "lng": -112.4695,
+      "trending_score": 95
+    },
+    {
+      "id": "courthouse-square",
+      "city_id": "prescott-az",
+      "name": {
+        "en": "Courthouse Square"
+      },
+      "summary": {
+        "en": "Centered on the Yavapai County Courthouse, this district is Prescott's communal front yard, featuring stunning historic architecture and a vibrant public plaza."
+      },
+      "lat": 34.5408,
+      "lng": -112.4683,
+      "trending_score": 90
+    },
+    {
+      "id": "westside-pioneer-hill",
+      "city_id": "prescott-az",
+      "name": {
+        "en": "Westside Academia & Pioneer Hill"
+      },
+      "summary": {
+        "en": "A quiet, residential area for contemplative walks, defined by the progressive Prescott College and a poignant connection to the individuals who shaped Arizona's history."
+      },
+      "lat": 34.5415,
+      "lng": -112.475,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "whiskey-row-the-palace",
+      "city_id": "prescott-az",
+      "neighborhood_id": "whiskey-row",
+      "name": {
+        "en": "The Palace Restaurant & Saloon"
+      },
+      "description": {
+        "en": "Arizona's oldest continuously operating business, this is a living museum you can drink in, famous for its massive wooden bar saved from the great fire of 1900."
+      },
+      "type": "nightlife",
+      "lat": 34.5401,
+      "lng": -112.4695,
+      "trending_score": 100
+    },
+    {
+      "id": "whiskey-row-main-strip",
+      "city_id": "prescott-az",
+      "neighborhood_id": "whiskey-row",
+      "name": {
+        "en": "Whiskey Row"
+      },
+      "description": {
+        "en": "The historic epicenter of Prescott's nightlife, this single block on Montezuma Street is a lively strip of bars and shops with restored historic facades."
+      },
+      "type": "landmark",
+      "lat": 34.5405,
+      "lng": -112.4695,
+      "trending_score": 98
+    },
+    {
+      "id": "courthouse-square-plaza",
+      "city_id": "prescott-az",
+      "neighborhood_id": "courthouse-square",
+      "name": {
+        "en": "Yavapai County Courthouse Plaza"
+      },
+      "description": {
+        "en": "Prescott's public square and communal front yard, shaded by enormous trees and serving as a prime spot for people-watching and community events."
+      },
+      "type": "landmark",
+      "lat": 34.5405,
+      "lng": -112.4683,
+      "trending_score": 92
+    },
+    {
+      "id": "courthouse-square-elks-theatre",
+      "city_id": "prescott-az",
+      "neighborhood_id": "courthouse-square",
+      "name": {
+        "en": "Elks Theatre Performing Arts Center"
+      },
+      "description": {
+        "en": "A beautifully restored 1905 theater and architectural gem whose glowing marquee is a downtown landmark, still hosting films and live performances."
+      },
+      "type": "culture",
+      "lat": 34.5415,
+      "lng": -112.4678,
+      "trending_score": 85
+    },
+    {
+      "id": "courthouse-square-hassayampa-hotel",
+      "city_id": "prescott-az",
+      "neighborhood_id": "courthouse-square",
+      "name": {
+        "en": "Hassayampa Hotel"
+      },
+      "description": {
+        "en": "A stunning 1927 example of Spanish Colonial and Italian Renaissance revival architecture with a lobby featuring hand-painted ceiling tiles and historic details."
+      },
+      "type": "landmark",
+      "lat": 34.5416,
+      "lng": -112.4673,
+      "trending_score": 88
+    },
+    {
+      "id": "westside-pioneer-hill-pioneers-home",
+      "city_id": "prescott-az",
+      "neighborhood_id": "westside-pioneer-hill",
+      "name": {
+        "en": "Arizona Pioneers' Home & Cemetery"
+      },
+      "description": {
+        "en": "A state-run retirement home for Arizona's founders with an adjacent cemetery, offering a quiet, tangible link to the state's rugged past."
+      },
+      "type": "hidden_gem",
+      "lat": 34.538,
+      "lng": -112.4745,
+      "trending_score": 80
+    },
+    {
+      "id": "westside-pioneer-hill-sharlot-hall",
+      "city_id": "prescott-az",
+      "neighborhood_id": "westside-pioneer-hill",
+      "name": {
+        "en": "Sharlot Hall Museum"
+      },
+      "description": {
+        "en": "An open-air campus dedicated to preserving Prescott's territorial history, featuring the original Governor's Mansion and other historic structures."
+      },
+      "type": "culture",
+      "lat": 34.5425,
+      "lng": -112.4745,
+      "trending_score": 89
+    },
+    {
+      "id": "westside-pioneer-hill-prescott-college",
+      "city_id": "prescott-az",
+      "neighborhood_id": "westside-pioneer-hill",
+      "name": {
+        "en": "Prescott College"
+      },
+      "description": {
+        "en": "A small liberal arts college integrated into the neighborhood, known for its focus on environmental and social justice, community gardens, and student art."
+      },
+      "type": "landmark",
+      "lat": 34.5445,
+      "lng": -112.476,
+      "trending_score": 70
+    },
+    {
+      "id": "westside-pioneer-hill-brinkmeyer-house",
+      "city_id": "prescott-az",
+      "neighborhood_id": "westside-pioneer-hill",
+      "name": {
+        "en": "Brinkmeyer House"
+      },
+      "description": {
+        "en": "A perfect landmark on the historic residential streets, this home is on the National Register of Historic Places and represents the town's architectural wealth."
+      },
+      "type": "landmark",
+      "lat": 34.54,
+      "lng": -112.4735,
+      "trending_score": 65
+    }
+  ],
+  "tasks": [
+    {
+      "id": "whiskey-row-task-1",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Old West Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a photo that feels like a scene from an old Western movie. Focus on the historic storefronts and wooden details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-2",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Saloon Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of one of the iconic saloons on Whiskey Row. Try to capture the historic sign in your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-3",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Ghost of a Gunslinger"
+      },
+      "prompt": {
+        "en": "Find a doorway or alley that looks like it holds a hundred years of secrets. Take a mysterious, shadowy photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-4",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Sounds of the Row"
+      },
+      "prompt": {
+        "en": "Close your eyes for a moment and listen. What do you hear? Live music? Laughter? Describe the soundscape of Whiskey Row."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-5",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Neon & Night"
+      },
+      "prompt": {
+        "en": "If it's evening, capture the glow of a neon sign. If it's daytime, find a vintage sign and photograph it in black and white."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-6",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Brick & Mortar History"
+      },
+      "prompt": {
+        "en": "Find a brick wall that shows its age. Take a close-up texture shot of the weathered bricks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-7",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Reflection of the Past"
+      },
+      "prompt": {
+        "en": "Find a store window and capture the reflection of the historic buildings across the street in its glass."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-8",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "A Drink with History"
+      },
+      "prompt": {
+        "en": "Snap a photo of your drink (or a glass of water!) with the ambiance of a historic bar in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-9",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Find the Founding Year"
+      },
+      "prompt": {
+        "en": "Look for a historical plaque or sign on a building. What's the oldest date you can find? Snap a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-10",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Modern Cowboy"
+      },
+      "prompt": {
+        "en": "People-watch and spot someone who embodies the modern spirit of the Old West. Without being intrusive, describe their style."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-11",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Swinging Doors"
+      },
+      "prompt": {
+        "en": "Many saloons have iconic swinging doors. Find a set and take a creative photo looking in or out."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "whiskey-row-task-12",
+      "neighborhood_id": "whiskey-row",
+      "title": {
+        "en": "Whiskey Row Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the 'palpable energy' of the street. This could be a motion blur shot of people walking or a wide shot of the bustling scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-1",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Architectural Grandeur"
+      },
+      "prompt": {
+        "en": "Find the most impressive-looking historic building and take a low-angle shot looking up to emphasize its height and details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-2",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Plaza People-Watching"
+      },
+      "prompt": {
+        "en": "Find a comfortable bench in the plaza and take a photo of the scene from your point of view. Capture the relaxed atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-3",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Historic Detail Hunt"
+      },
+      "prompt": {
+        "en": "Zoom in on an interesting architectural detail: a carved stone, an ornate window frame, or a decorative metalwork piece. Capture its craftsmanship."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-4",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Shadows of the Square"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by the enormous trees in the plaza. Play with the contrast between light and dark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-5",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "A Moment of Calm"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a quiet moment on the grass or a bench in the plaza, with the grand courthouse in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-6",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Marquee Magic"
+      },
+      "prompt": {
+        "en": "Find a glowing theater marquee or a vintage sign. Take a photo that captures its nostalgic charm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-7",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Symmetry of the Square"
+      },
+      "prompt": {
+        "en": "Stand in a central spot and compose a perfectly symmetrical photo of the courthouse or another grand building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-8",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Find a Dedication"
+      },
+      "prompt": {
+        "en": "Many public squares have benches, statues, or plaques dedicated to historical figures. Find one and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-9",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic building in black and white to make it feel like an old photograph from the town's founding."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-10",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Lobby Luxury"
+      },
+      "prompt": {
+        "en": "Step into a historic hotel or theater lobby. Capture a photo of an elegant detail, like a chandelier, tiled floor, or grand staircase."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-11",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Skyline View"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes the top of a historic building against the bright Arizona sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "courthouse-square-task-12",
+      "neighborhood_id": "courthouse-square",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Find a local cafe or eatery near the square. Take a photo of a local treat you're trying."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-1",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Victorian Dream Home"
+      },
+      "prompt": {
+        "en": "Find a beautiful Victorian-era house on a residential street. Photograph its most charming feature, like the porch, a turret, or the 'gingerbread' trim."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-2",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Contemplative Walk"
+      },
+      "prompt": {
+        "en": "Take a photo of a quiet, tree-lined street that captures the peaceful, residential feeling of this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-3",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Academic Atmosphere"
+      },
+      "prompt": {
+        "en": "Find a sign of student life near the college—a bulletin board with flyers, a community garden, or a piece of public art. Capture its unique spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-4",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Whispers of History"
+      },
+      "prompt": {
+        "en": "Find a weathered fence, an old stone wall, or a historic marker. Take a photo that feels like a connection to the past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-5",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Pioneer's Perspective"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet street, imagining what it would have been like to walk here over a century ago."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-6",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Nature in the Neighborhood"
+      },
+      "prompt": {
+        "en": "Find a unique tree, a blooming flower bush, or a well-tended garden and capture its beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-7",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Contrast of Eras"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a historic log cabin or Victorian home alongside a more modern element, highlighting the passage of time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-8",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "The Color Palette"
+      },
+      "prompt": {
+        "en": "Many historic homes have unique color schemes. Find a house with at least three different colors and take a photo that shows them off."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-9",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "A Story in Stone"
+      },
+      "prompt": {
+        "en": "Respectfully, find an old cemetery and photograph a weathered headstone from a distance. Focus on the texture and age of the stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-10",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Progressive Spirit"
+      },
+      "prompt": {
+        "en": "Look for a sign of the neighborhood's progressive, environmental, or social justice ethos—like a protest sign, a little free library, or a solar panel array."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-11",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "The front porch is a classic feature of these homes. Find an inviting-looking porch and take a photo of its details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-pioneer-hill-task-12",
+      "neighborhood_id": "westside-pioneer-hill",
+      "title": {
+        "en": "Hidden Gem Discovery"
+      },
+      "prompt": {
+        "en": "Walk down a side street and find something unexpected—a unique garden gnome, a strange mailbox, or a hidden path. Document your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

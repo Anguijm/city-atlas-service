@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "durango-co",
+      "name": {
+        "en": "Historic Downtown & The 11th Street Station"
+      },
+      "summary": {
+        "en": "A compelling blend of the past and present, from stately 19th-century brick buildings to a laid-back, industrial-chic gathering spot at a converted gas station."
+      },
+      "lat": 37.2758,
+      "lng": -107.8801,
+      "trending_score": 95
+    },
+    {
+      "id": "college-corridor",
+      "city_id": "durango-co",
+      "name": {
+        "en": "The College & 3rd Avenue Corridor"
+      },
+      "summary": {
+        "en": "A relaxed, academic, and residential area with a subtle energy, perfect for finding a quiet corner and seeing a more day-to-day side of Durango."
+      },
+      "lat": 37.2745,
+      "lng": -107.8755,
+      "trending_score": 75
+    },
+    {
+      "id": "north-main",
+      "city_id": "durango-co",
+      "name": {
+        "en": "North Main & Beyond"
+      },
+      "summary": {
+        "en": "A modern, evolving commercial strip where you'll find some of the town's most exciting and diverse food in unassuming locations, popular with locals."
+      },
+      "lat": 37.2895,
+      "lng": -107.883,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-office-spiritorium",
+      "city_id": "durango-co",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Office Spiritorium"
+      },
+      "description": {
+        "en": "A transportive Victorian-style bar inside the Strater Hotel that feels like a lavish, turn-of-the-century saloon, perfect for a classic cocktail."
+      },
+      "type": "drink",
+      "lat": 37.2724,
+      "lng": -107.8804,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-ernies",
+      "city_id": "durango-co",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Ernie's"
+      },
+      "description": {
+        "en": "The anchor bar for the 11th Street Station food truck collective, this spot in a former auto repair shop embodies the unpretentious, creative spirit of modern Durango."
+      },
+      "type": "drink",
+      "lat": 37.2775,
+      "lng": -107.8801,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-himalayan-kitchen",
+      "city_id": "durango-co",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Himalayan Kitchen"
+      },
+      "description": {
+        "en": "A true local favorite offering a departure from typical mountain-town cuisine with its authentic Nepalese, Tibetan, and Indian dishes."
+      },
+      "type": "food",
+      "lat": 37.2762,
+      "lng": -107.8802,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-backcountry-gourmet",
+      "city_id": "durango-co",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Backcountry Gourmet"
+      },
+      "description": {
+        "en": "Located at the 11th Street Station, this food truck elevates street food with creative, high-quality ingredients in a casual, open-air environment."
+      },
+      "type": "food",
+      "lat": 37.2776,
+      "lng": -107.88,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-rice-monkeys",
+      "city_id": "durango-co",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Rice Monkeys"
+      },
+      "description": {
+        "en": "Praised by locals for its extremely fresh sushi, this spot is a go-to for high-quality Asian fusion, also serving satisfying bowls of phở and other rice dishes."
+      },
+      "type": "food",
+      "lat": 37.2769,
+      "lng": -107.8801,
+      "trending_score": 87
+    },
+    {
+      "id": "historic-downtown-11th-street-station",
+      "city_id": "durango-co",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "11th Street Station"
+      },
+      "description": {
+        "en": "Durango's modern town square, this repurposed 1920s service station is a culinary collective with food trucks and a bar, serving as a hub of local life."
+      },
+      "type": "landmark",
+      "lat": 37.2775,
+      "lng": -107.8799,
+      "trending_score": 94
+    },
+    {
+      "id": "historic-downtown-strater-hotel",
+      "city_id": "durango-co",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Strater Hotel (Exterior)"
+      },
+      "description": {
+        "en": "A living museum and anchor of historic downtown, this landmark's ornate, red-brick Victorian architecture sets the tone for the entire neighborhood."
+      },
+      "type": "landmark",
+      "lat": 37.2723,
+      "lng": -107.8803,
+      "trending_score": 91
+    },
+    {
+      "id": "college-corridor-smiley-cafe",
+      "city_id": "durango-co",
+      "neighborhood_id": "college-corridor",
+      "name": {
+        "en": "The Smiley Cafe"
+      },
+      "description": {
+        "en": "Located in a historic schoolhouse turned community hub, this cafe is a true neighborhood gathering place and a slice of authentic local life."
+      },
+      "type": "drink",
+      "lat": 37.279,
+      "lng": -107.8745,
+      "trending_score": 80
+    },
+    {
+      "id": "college-corridor-college-drive-cafe",
+      "city_id": "durango-co",
+      "neighborhood_id": "college-corridor",
+      "name": {
+        "en": "College Drive Cafe"
+      },
+      "description": {
+        "en": "A quintessential homey diner beloved by locals for its hearty, straightforward breakfast and lunch fare in a warm and welcoming atmosphere."
+      },
+      "type": "food",
+      "lat": 37.2709,
+      "lng": -107.8761,
+      "trending_score": 84
+    },
+    {
+      "id": "north-main-fridas",
+      "city_id": "durango-co",
+      "neighborhood_id": "north-main",
+      "name": {
+        "en": "Frida’s"
+      },
+      "description": {
+        "en": "This Mexican restaurant is known for its vibrant, party-like atmosphere, making it a festive spot where the energy is as much a draw as the food."
+      },
+      "type": "food",
+      "lat": 37.2913,
+      "lng": -107.8833,
+      "trending_score": 85
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Victorian Detail Hunter"
+      },
+      "prompt": {
+        "en": "Find an interesting piece of architectural detail on a historic building—like intricate brickwork or a fancy cornice—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Old West, New Vibe"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a modern element (like a scooter, a new sign, or street art) against a historic, 19th-century brick building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Food Truck Feast Frame"
+      },
+      "prompt": {
+        "en": "Take a picture of a delicious-looking meal from a food truck, using the casual, industrial setting as your background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Main Avenue Reflection"
+      },
+      "prompt": {
+        "en": "After a rain, or using a puddle, capture a reflection of the historic buildings on Main Avenue in the water on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Spirit of the Saloon"
+      },
+      "prompt": {
+        "en": "Find a bar or restaurant that has an 'Old West' feel and take a photo of a drink on a dark, polished wood surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Historic Signage"
+      },
+      "prompt": {
+        "en": "Locate and photograph a 'ghost sign'—a faded, hand-painted advertisement on the side of a brick building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Communal Gathering"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the atmosphere of a communal space, like people gathering around a fire pit or sharing a picnic table."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Photograph a piece of art in a gallery window that you feel represents the spirit of Durango."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Dusk Glow"
+      },
+      "prompt": {
+        "en": "As evening approaches, capture the warm glow of string lights or historic lamps against the twilight sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Find a storefront for a local, independent business that looks unique and inviting. Take a photo of its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Mountain Town Menu"
+      },
+      "prompt": {
+        "en": "Find a menu posted outside a restaurant and take a photo of the most adventurous or unique dish you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Alleyway Art"
+      },
+      "prompt": {
+        "en": "Explore an alley off Main Avenue and find a hidden mural, interesting doorway, or unique architectural feature to photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-1",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Historic Home Portrait"
+      },
+      "prompt": {
+        "en": "Find a charming, historic house in the neighborhood and take a photo that highlights its most interesting feature, like a porch, a window, or a garden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-2",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Tree-Lined Serenity"
+      },
+      "prompt": {
+        "en": "Capture a photo looking down a quiet, tree-lined street, emphasizing the peaceful, residential feel of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-3",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Quiet Corner Cafe"
+      },
+      "prompt": {
+        "en": "Take a photo of a cozy-looking cafe or coffee shop, capturing a sense of it being a local's hideaway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-4",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Academic Atmosphere"
+      },
+      "prompt": {
+        "en": "Find something that hints at the nearby college—a student with a backpack, a flyer for a campus event, or a building with academic architecture—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-5",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Neighborhood Watcher"
+      },
+      "prompt": {
+        "en": "Take a photo of a friendly-looking dog or cat you spot in a yard or window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-6",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Find a welcoming front porch with interesting furniture or plants and take a photo that makes you want to sit and relax."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-7",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "On a sunny day, capture an interesting pattern of shadows cast by the leaves of a large tree onto a sidewalk or the side of a house."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-8",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Diner Classic"
+      },
+      "prompt": {
+        "en": "Take a photo of a classic breakfast plate—pancakes, eggs, bacon—at a local diner, capturing the homey feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-9",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Repurposed History"
+      },
+      "prompt": {
+        "en": "Find a building that has clearly been repurposed from an older use (like a school or church) and photograph a detail that reveals its past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-10",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Local's Ride"
+      },
+      "prompt": {
+        "en": "Photograph a vintage bicycle or a rugged mountain bike parked outside a house or cafe, suggesting the owner's lifestyle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-11",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "Garden Discovery"
+      },
+      "prompt": {
+        "en": "Find a unique flower or plant in a neighborhood garden and take a macro shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "college-corridor-task-12",
+      "neighborhood_id": "college-corridor",
+      "title": {
+        "en": "The Perfect Reading Spot"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or patch of grass that looks like the perfect place to sit and read a book. Take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-1",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Unassuming Gem"
+      },
+      "prompt": {
+        "en": "Find a restaurant or shop in a plain-looking building or strip mall that seems to be hiding something great inside. Photograph its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-2",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Local Flavor Close-Up"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of a vibrant, flavorful dish from one of the area's diverse restaurants, like Thai curry or Mexican food."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-3",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Craft Culture Capture"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the essence of craft brewing—a flight of beers, a row of tap handles, or brewing equipment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-4",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Modern Main Street"
+      },
+      "prompt": {
+        "en": "Take a wide shot of a section of North Main that shows the mix of modern businesses and the flow of local traffic."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-5",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Festive Atmosphere"
+      },
+      "prompt": {
+        "en": "Find a restaurant with colorful, festive decor and take a photo that captures its lively energy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-6",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "From Truck to Table"
+      },
+      "prompt": {
+        "en": "Find a business that mentions its origins as a food truck or a small startup. Photograph its sign or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-7",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Industrial Chic"
+      },
+      "prompt": {
+        "en": "Photograph an interesting texture or feature in an industrial park or commercial area, like corrugated metal, a loading dock, or bold signage."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-8",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "A Local's Recommendation"
+      },
+      "prompt": {
+        "en": "Ask a local for their favorite place to eat in the area and take a photo of its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-9",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "The Art of the Can"
+      },
+      "prompt": {
+        "en": "Visit a brewery or liquor store and photograph the most creative or artistic beer can you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-10",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Capture a photo of an inviting outdoor patio or beer garden, focusing on what makes it a great place to hang out."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-11",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Global Cuisine Quest"
+      },
+      "prompt": {
+        "en": "Find signs for two different restaurants that serve food from different continents (e.g., Asia and North America) and get them both in one photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "north-main-task-12",
+      "neighborhood_id": "north-main",
+      "title": {
+        "en": "Neon Nights"
+      },
+      "prompt": {
+        "en": "After dark, find a cool neon sign for a local business and take a moody, glowing photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

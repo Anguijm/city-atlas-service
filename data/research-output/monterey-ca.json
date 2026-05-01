@@ -1,0 +1,825 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-monterey",
+      "city_id": "monterey-ca",
+      "name": {
+        "en": "Old Monterey"
+      },
+      "summary": {
+        "en": "The city’s historic and administrative core, where California’s story is written in adobe walls and lush, hidden gardens. The pace is unhurried, a world away from the bustle of the nearby waterfront."
+      },
+      "lat": 36.5988,
+      "lng": -121.8945,
+      "trending_score": 75
+    },
+    {
+      "id": "new-monterey-cannery-row",
+      "city_id": "monterey-ca",
+      "name": {
+        "en": "New Monterey & The Cannery Row Fringe"
+      },
+      "summary": {
+        "en": "Explore the area’s industrial past and literary heritage, focusing on the surviving remnants of John Steinbeck’s world, alongside the local businesses that keep the area grounded."
+      },
+      "lat": 36.6145,
+      "lng": -121.9011,
+      "trending_score": 85
+    },
+    {
+      "id": "pacific-grove",
+      "city_id": "monterey-ca",
+      "name": {
+        "en": "Pacific Grove"
+      },
+      "summary": {
+        "en": "Known as \"America's Last Hometown,\" this quiet community features stunningly preserved Victorian homes, quaint downtown shops, and a dramatic, untamed coastline."
+      },
+      "lat": 36.6215,
+      "lng": -121.9167,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-monterey-alta-bakery",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "old-monterey",
+      "name": {
+        "en": "Alta Bakery & Cafe"
+      },
+      "description": {
+        "en": "Housed in the historic Cooper Molera Adobe, this spot is beloved by locals for exceptional pastries and coffee in a stunning garden setting."
+      },
+      "type": "drink",
+      "lat": 36.5976,
+      "lng": -121.892,
+      "trending_score": 90
+    },
+    {
+      "id": "old-monterey-alvarado-brewery",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "old-monterey",
+      "name": {
+        "en": "Alvarado Street Brewery"
+      },
+      "description": {
+        "en": "A lively hub in a renovated historic theater where locals gather to sample inventive craft beers in an outdoor beer garden."
+      },
+      "type": "drink",
+      "lat": 36.5984,
+      "lng": -121.8943,
+      "trending_score": 95
+    },
+    {
+      "id": "old-monterey-stokes-adobe",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "old-monterey",
+      "name": {
+        "en": "Stokes Adobe"
+      },
+      "description": {
+        "en": "Set in a beautifully restored adobe home, this spot offers a cozy, upscale-casual experience with a menu of elevated American and Italian dishes."
+      },
+      "type": "food",
+      "lat": 36.597,
+      "lng": -121.8928,
+      "trending_score": 88
+    },
+    {
+      "id": "old-monterey-rosines-restaurant",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "old-monterey",
+      "name": {
+        "en": "Rosine’s Restaurant"
+      },
+      "description": {
+        "en": "A beloved fixture for residents, known for its generous portions of classic American comfort food and famously large cake slices."
+      },
+      "type": "food",
+      "lat": 36.5982,
+      "lng": -121.8941,
+      "trending_score": 85
+    },
+    {
+      "id": "old-monterey-hidden-gardens",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "old-monterey",
+      "name": {
+        "en": "Hidden Gardens of Monterey State Historic Park"
+      },
+      "description": {
+        "en": "Wander behind adobe walls to discover dazzling, overlooked garden courtyards with Spanish tile fountains and fragrant blossoms."
+      },
+      "type": "hidden_gem",
+      "lat": 36.598,
+      "lng": -121.8924,
+      "trending_score": 82
+    },
+    {
+      "id": "old-monterey-whalebone-sidewalk",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "old-monterey",
+      "name": {
+        "en": "The Whalebone Sidewalk"
+      },
+      "description": {
+        "en": "A true oddity where a section of sidewalk is embedded with massive whale vertebrae, laid by whalers in the 19th century."
+      },
+      "type": "hidden_gem",
+      "lat": 36.601,
+      "lng": -121.8929,
+      "trending_score": 78
+    },
+    {
+      "id": "old-monterey-colton-hall",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "old-monterey",
+      "name": {
+        "en": "Colton Hall"
+      },
+      "description": {
+        "en": "A landmark of California history where the state's first constitution was drafted in 1849, with a small museum inside."
+      },
+      "type": "landmark",
+      "lat": 36.596,
+      "lng": -121.8947,
+      "trending_score": 70
+    },
+    {
+      "id": "new-monterey-cannery-row-bright-coffee",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "Bright Coffee"
+      },
+      "description": {
+        "en": "A hidden gem for coffee connoisseurs, tucked inside a stylish boutique, serving meticulously crafted lattes and espresso drinks."
+      },
+      "type": "drink",
+      "lat": 36.6145,
+      "lng": -121.9025,
+      "trending_score": 85
+    },
+    {
+      "id": "new-monterey-cannery-row-sardine-factory",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "The Sardine Factory"
+      },
+      "description": {
+        "en": "A gloriously over-the-top Cannery Row institution with opulent dining rooms. Head to the lounge for a classic cocktail experience."
+      },
+      "type": "drink",
+      "lat": 36.6171,
+      "lng": -121.899,
+      "trending_score": 78
+    },
+    {
+      "id": "new-monterey-cannery-row-paprika-cafe",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "Paprika Cafe"
+      },
+      "description": {
+        "en": "A small, casual Mediterranean spot that’s a local favorite for a quick and delicious lunch, with standout gyros and falafel."
+      },
+      "type": "food",
+      "lat": 36.616,
+      "lng": -121.9061,
+      "trending_score": 82
+    },
+    {
+      "id": "new-monterey-cannery-row-el-cantaro",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "El Cantaro"
+      },
+      "description": {
+        "en": "An oasis of authenticity on the main strip, this laid-back spot specializes in delicious vegan Mexican food that satisfies everyone."
+      },
+      "type": "food",
+      "lat": 36.6179,
+      "lng": -121.898,
+      "trending_score": 88
+    },
+    {
+      "id": "new-monterey-cannery-row-cannery-ruins",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "Cannery Ruins"
+      },
+      "description": {
+        "en": "Walk behind the main buildings to find the skeletal foundations of old canneries, a haunting reminder of the industry that defined this coast."
+      },
+      "type": "hidden_gem",
+      "lat": 36.6195,
+      "lng": -121.8995,
+      "trending_score": 80
+    },
+    {
+      "id": "new-monterey-cannery-row-doc-ricketts-lab",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "Doc Ricketts' Lab"
+      },
+      "description": {
+        "en": "The actual Pacific Biological Laboratories of marine biologist Ed Ricketts, a central location in Steinbeck's novels and a pilgrimage for fans."
+      },
+      "type": "landmark",
+      "lat": 36.6178,
+      "lng": -121.8975,
+      "trending_score": 75
+    },
+    {
+      "id": "new-monterey-cannery-row-wing-chong-market",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "Wing Chong Market"
+      },
+      "description": {
+        "en": "The real-life inspiration for Lee Chong's Market in Steinbeck's *Cannery Row*, its historic facade is a tangible link to the novel."
+      },
+      "type": "landmark",
+      "lat": 36.6185,
+      "lng": -121.8968,
+      "trending_score": 72
+    },
+    {
+      "id": "new-monterey-cannery-row-lilify",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "name": {
+        "en": "Lilify"
+      },
+      "description": {
+        "en": "A stylish boutique offering a calm, design-forward respite from the crowds, featuring locally handcrafted goods and an excellent coffee bar inside."
+      },
+      "type": "shopping",
+      "lat": 36.6145,
+      "lng": -121.9026,
+      "trending_score": 80
+    },
+    {
+      "id": "pacific-grove-passionfish",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "Passionfish"
+      },
+      "description": {
+        "en": "A premier destination for a drink, with a nationally recognized, sustainably-focused wine list and incredibly knowledgeable staff."
+      },
+      "type": "drink",
+      "lat": 36.622,
+      "lng": -121.914,
+      "trending_score": 92
+    },
+    {
+      "id": "pacific-grove-mezzaluna",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "Mezzaluna Pasteria & Mozzarella Bar"
+      },
+      "description": {
+        "en": "An intimate and authentic Italian restaurant where the house-made pasta and fresh mozzarella are the stars of the show."
+      },
+      "type": "food",
+      "lat": 36.6181,
+      "lng": -121.926,
+      "trending_score": 90
+    },
+    {
+      "id": "pacific-grove-il-vecchio",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "Il Vecchio"
+      },
+      "description": {
+        "en": "The ideal spot for a leisurely lunch, serving hearty, traditional Italian dishes in a warm, convivial atmosphere."
+      },
+      "type": "food",
+      "lat": 36.6202,
+      "lng": -121.914,
+      "trending_score": 88
+    },
+    {
+      "id": "pacific-grove-the-butter-house",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "The Butter House"
+      },
+      "description": {
+        "en": "Just on the edge of Pacific Grove, this diner serves incredible Filipino specialties alongside classic American breakfast fare."
+      },
+      "type": "food",
+      "lat": 36.616,
+      "lng": -121.879,
+      "trending_score": 85
+    },
+    {
+      "id": "pacific-grove-asilomar-beach",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "Asilomar State Beach"
+      },
+      "description": {
+        "en": "A stunning one-mile stretch of white sand and rocky coves. Stroll the boardwalk and explore the creature-filled tide pools at low tide."
+      },
+      "type": "nature",
+      "lat": 36.6165,
+      "lng": -121.936,
+      "trending_score": 95
+    },
+    {
+      "id": "pacific-grove-julia-morgan-architecture",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "Julia Morgan Architecture at Asilomar"
+      },
+      "description": {
+        "en": "A collection of historic Arts & Crafts buildings designed by the famed architect of Hearst Castle, a masterpiece of organic design."
+      },
+      "type": "landmark",
+      "lat": 36.615,
+      "lng": -121.932,
+      "trending_score": 80
+    },
+    {
+      "id": "pacific-grove-painted-ladies",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "Victorian \"Painted Ladies\""
+      },
+      "description": {
+        "en": "Wander the residential streets to find meticulously maintained Victorian homes, from grand mansions to tiny, colorful cottages."
+      },
+      "type": "landmark",
+      "lat": 36.623,
+      "lng": -121.919,
+      "trending_score": 85
+    },
+    {
+      "id": "pacific-grove-asilomar-grounds",
+      "city_id": "monterey-ca",
+      "neighborhood_id": "pacific-grove",
+      "name": {
+        "en": "Asilomar Conference Grounds"
+      },
+      "description": {
+        "en": "Explore the grounds to see how Julia Morgan's rustic stone and redwood structures blend seamlessly with the surrounding pine forest."
+      },
+      "type": "culture",
+      "lat": 36.6155,
+      "lng": -121.9325,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-monterey-task-1",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Adobe Texture"
+      },
+      "prompt": {
+        "en": "Find an old adobe wall and take a close-up photo that captures its unique, earthy texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-2",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Secret Garden Selfie"
+      },
+      "prompt": {
+        "en": "Discover a quiet garden courtyard hidden behind a wall and take a selfie among the flowers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-3",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Historic Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a photo of a serene, tree-lined street that feels like a step back in time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-4",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Spanish Tile Story"
+      },
+      "prompt": {
+        "en": "Find a decorative Spanish-style tile and photograph its pattern or design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-5",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "A Taste of History"
+      },
+      "prompt": {
+        "en": "Photograph your coffee or snack with a historic adobe building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-6",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Plaque Detective"
+      },
+      "prompt": {
+        "en": "Find a historical marker and take a picture of it. What's the most interesting fact you learned?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-7",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Play with light and shadow. Take a photo of the interesting shadows cast by an old building or tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-8",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Governor's View"
+      },
+      "prompt": {
+        "en": "Find a second-story balcony or window and take a photo from that elevated perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-9",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Pathways to the Past"
+      },
+      "prompt": {
+        "en": "Photograph an interesting walkway, path, or cobblestone street in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-10",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Floral Frame"
+      },
+      "prompt": {
+        "en": "Use blooming flowers or lush greenery to frame a shot of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-11",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "The Unseen Detail"
+      },
+      "prompt": {
+        "en": "Find a small, overlooked architectural detail on a building—like an old doorknob or ironwork—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-monterey-task-12",
+      "neighborhood_id": "old-monterey",
+      "title": {
+        "en": "Historic Refreshment"
+      },
+      "prompt": {
+        "en": "Take a selfie enjoying a local drink or treat in a spot that feels centuries old."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-1",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Industrial Skeleton"
+      },
+      "prompt": {
+        "en": "Find a remnant of the old canneries—a rusty pipe, a concrete wall, a gear—and take an artistic, close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-2",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Steinbeck's Ghost"
+      },
+      "prompt": {
+        "en": "Capture a black and white photo of a street scene that you think John Steinbeck would recognize."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-3",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Ocean's Edge Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the crashing waves of the Pacific Ocean right behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-4",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a small, local business (not a big chain) and take a photo of its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-5",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Gritty and Beautiful"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between the area's gritty, industrial past and its natural, coastal beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-6",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Literary Echoes"
+      },
+      "prompt": {
+        "en": "Find a quote, sign, or image related to the area's literary or fishing history and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-7",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Modern & Vintage"
+      },
+      "prompt": {
+        "en": "Capture a single image that contains something very modern and something that looks historic."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-8",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "A Local's Lunch"
+      },
+      "prompt": {
+        "en": "Photograph your meal from a non-touristy spot. Make it look as delicious and authentic as possible."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-9",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Window to the Sea"
+      },
+      "prompt": {
+        "en": "Frame a shot of the ocean using a window, archway, or building ruin as a natural frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-10",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Sounds of the Row"
+      },
+      "prompt": {
+        "en": "Take a photo that tries to capture the sound of the neighborhood—crashing waves, seagulls, bustling crowds."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-11",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "Coffee and Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of your coffee or drink next to something that represents local art or design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "new-monterey-cannery-row-task-12",
+      "neighborhood_id": "new-monterey-cannery-row",
+      "title": {
+        "en": "The Survivor"
+      },
+      "prompt": {
+        "en": "Find an old building that looks like it has a thousand stories to tell and take a portrait of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-1",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Victorian Detail"
+      },
+      "prompt": {
+        "en": "Find a \"Painted Lady\" Victorian home and take a close-up photo of its most ornate detail, like the gingerbread trim or a stained-glass window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-2",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Wild Coastline"
+      },
+      "prompt": {
+        "en": "Capture the dramatic beauty of the untamed coastline. Get low to the ground to emphasize the rocks and waves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-3",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Hometown Vibe Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a quiet, charming street that captures the \"America's Last Hometown\" feeling."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-4",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Tide Pool Treasures"
+      },
+      "prompt": {
+        "en": "If the tide is low, find a tide pool and take a photo of the tiny creatures living inside. If not, photograph the patterns the water makes on the rocks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-5",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Find a Victorian house with at least three distinct colors and take a photo that shows them all."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-6",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Nature's Architecture"
+      },
+      "prompt": {
+        "en": "Photograph how the natural landscape (like a cypress tree or coastal dunes) interacts with the man-made architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-7",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Quaint Cafe Culture"
+      },
+      "prompt": {
+        "en": "Take a photo of your meal or drink that captures the cozy, intimate atmosphere of a local restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-8",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Boardwalk Wanderer"
+      },
+      "prompt": {
+        "en": "Find a wooden boardwalk along the coast and take a photo looking down its path towards the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-9",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Cottage Charm"
+      },
+      "prompt": {
+        "en": "Instead of a grand mansion, find a tiny, charming cottage and take a photo that highlights its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-10",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Sunset Seeker"
+      },
+      "prompt": {
+        "en": "If you're here in the evening, capture a photo of the legendary sunset over the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-11",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "Arts & Crafts Lines"
+      },
+      "prompt": {
+        "en": "Find an example of Arts & Crafts architecture and photograph the strong, clean lines of its woodwork or stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pacific-grove-task-12",
+      "neighborhood_id": "pacific-grove",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet bench with a view and take a photo from that perspective, capturing a moment of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

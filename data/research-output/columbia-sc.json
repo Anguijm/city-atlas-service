@@ -1,0 +1,618 @@
+{
+  "neighborhoods": [
+    {
+      "id": "main-street-district",
+      "city_id": "columbia-sc",
+      "name": {
+        "en": "Main Street District"
+      },
+      "summary": {
+        "en": "Polished and central, this is the spine of the city where stately government buildings meet a modernizing arts scene, buzzing with business by day and culture by night."
+      },
+      "lat": 34.0051,
+      "lng": -81.0346,
+      "trending_score": 95
+    },
+    {
+      "id": "the-vista",
+      "city_id": "columbia-sc",
+      "name": {
+        "en": "The Vista"
+      },
+      "summary": {
+        "en": "A historic warehouse district brought back to life, where repurposed red-brick depots and mills now house a buzzing collection of museums and galleries."
+      },
+      "lat": 33.9975,
+      "lng": -81.0432,
+      "trending_score": 92
+    },
+    {
+      "id": "university-five-points",
+      "city_id": "columbia-sc",
+      "name": {
+        "en": "University & Five Points"
+      },
+      "summary": {
+        "en": "Youthful, eclectic, and slightly bohemian, this area pulses with the energy of the University of South Carolina and the independent spots that cater to a creative crowd."
+      },
+      "lat": 33.9958,
+      "lng": -81.0255,
+      "trending_score": 90
+    },
+    {
+      "id": "olympia-granby",
+      "city_id": "columbia-sc",
+      "name": {
+        "en": "Olympia & Granby"
+      },
+      "summary": {
+        "en": "A neighborhood steeped in the tangible history of the textile industry, featuring a quiet grid of identical historic mill cottages living under the shadow of colossal brick mills."
+      },
+      "lat": 33.9831,
+      "lng": -81.0459,
+      "trending_score": 75
+    },
+    {
+      "id": "the-riverfront-canal",
+      "city_id": "columbia-sc",
+      "name": {
+        "en": "The Riverfront & Canal"
+      },
+      "summary": {
+        "en": "An accessible natural escape carved into the city's edge, where 19th-century infrastructure meets the serene natural beauty of the Columbia Canal and Congaree River."
+      },
+      "lat": 34.0155,
+      "lng": -81.0501,
+      "trending_score": 85
+    },
+    {
+      "id": "waverly-historic-district",
+      "city_id": "columbia-sc",
+      "name": {
+        "en": "Waverly Historic District"
+      },
+      "summary": {
+        "en": "A neighborhood rich in African-American history and culture, where historic homes, churches, and institutions tell a profound story of community-building and perseverance."
+      },
+      "lat": 34.0102,
+      "lng": -81.0188,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "main-street-district-nickelodeon-theater",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "main-street-district",
+      "name": {
+        "en": "Nickelodeon Theater"
+      },
+      "description": {
+        "en": "A fiercely independent, non-profit art house cinema known as 'The Nick,' serving as a cultural anchor for film lovers since 1979."
+      },
+      "type": "culture",
+      "lat": 34.0058,
+      "lng": -81.0347,
+      "trending_score": 88
+    },
+    {
+      "id": "main-street-district-columbia-museum-of-art",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "main-street-district",
+      "name": {
+        "en": "Columbia Museum of Art"
+      },
+      "description": {
+        "en": "The city's premier art institution, offering a dynamic mix of international collections and impressive traveling exhibitions in a bright, modern space."
+      },
+      "type": "culture",
+      "lat": 34.0036,
+      "lng": -81.0341,
+      "trending_score": 92
+    },
+    {
+      "id": "main-street-district-trustus-theatre",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "main-street-district",
+      "name": {
+        "en": "Trustus Theatre"
+      },
+      "description": {
+        "en": "A professional stage known for producing contemporary, often edgy, plays and musicals, representing the bold side of Columbia's performing arts."
+      },
+      "type": "culture",
+      "lat": 33.9994,
+      "lng": -81.0391,
+      "trending_score": 85
+    },
+    {
+      "id": "main-street-district-finlay-park",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "main-street-district",
+      "name": {
+        "en": "Finlay Park"
+      },
+      "description": {
+        "en": "An 18-acre urban green space established in 1859, offering a lush respite from the downtown grid with a scenic fountain and waterfall."
+      },
+      "type": "nature",
+      "lat": 34.0061,
+      "lng": -81.0409,
+      "trending_score": 80
+    },
+    {
+      "id": "the-vista-south-carolina-state-museum",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "the-vista",
+      "name": {
+        "en": "South Carolina State Museum"
+      },
+      "description": {
+        "en": "Housed in a massive 1894 textile mill, this museum offers four floors of exhibits on state history, art, natural history, and science."
+      },
+      "type": "culture",
+      "lat": 33.996,
+      "lng": -81.048,
+      "trending_score": 95
+    },
+    {
+      "id": "the-vista-edventure-childrens-museum",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "the-vista",
+      "name": {
+        "en": "EdVenture Children's Museum"
+      },
+      "description": {
+        "en": "One of the largest children's museums in the South, offering a massive, hands-on world for kids to explore and learn through play."
+      },
+      "type": "culture",
+      "lat": 33.9965,
+      "lng": -81.0475,
+      "trending_score": 89
+    },
+    {
+      "id": "the-vista-columbia-marionette-theatre",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "the-vista",
+      "name": {
+        "en": "Columbia Marionette Theatre"
+      },
+      "description": {
+        "en": "A rare and whimsical gem—a free-standing theater dedicated entirely to the art of marionettes, offering a unique performance experience."
+      },
+      "type": "hidden_gem",
+      "lat": 34.0035,
+      "lng": -81.0466,
+      "trending_score": 82
+    },
+    {
+      "id": "the-vista-sc-confederate-relic-room",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "the-vista",
+      "name": {
+        "en": "SC Confederate Relic Room & Military Museum"
+      },
+      "description": {
+        "en": "A specialized museum with a deep collection of military artifacts spanning from the Colonial period to the space age."
+      },
+      "type": "culture",
+      "lat": 33.9961,
+      "lng": -81.0481,
+      "trending_score": 78
+    },
+    {
+      "id": "university-five-points-mckissick-museum",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "university-five-points",
+      "name": {
+        "en": "McKissick Museum"
+      },
+      "description": {
+        "en": "A university museum with thoughtfully curated rotating exhibits on Southern folk art, regional history, and natural science."
+      },
+      "type": "culture",
+      "lat": 33.9989,
+      "lng": -81.0281,
+      "trending_score": 80
+    },
+    {
+      "id": "university-five-points-town-theatre",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "university-five-points",
+      "name": {
+        "en": "Town Theatre"
+      },
+      "description": {
+        "en": "A true piece of living history, this is the oldest continuously operating community theatre in the United States."
+      },
+      "type": "culture",
+      "lat": 34.0068,
+      "lng": -81.0275,
+      "trending_score": 86
+    },
+    {
+      "id": "university-five-points-colonial-life-arena",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "university-five-points",
+      "name": {
+        "en": "Colonial Life Arena"
+      },
+      "description": {
+        "en": "Home to USC basketball, this massive 18,000-seat arena is an impressive modern landmark that hosts major concerts and events."
+      },
+      "type": "culture",
+      "lat": 33.993,
+      "lng": -81.039,
+      "trending_score": 88
+    },
+    {
+      "id": "olympia-granby-olympia-mill-village",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "olympia-granby",
+      "name": {
+        "en": "Olympia Mill Village"
+      },
+      "description": {
+        "en": "A historic area defined by the distinct, repeating architecture of workers' cottages and the massive, imposing Olympia Mill building."
+      },
+      "type": "landmark",
+      "lat": 33.9845,
+      "lng": -81.0425,
+      "trending_score": 79
+    },
+    {
+      "id": "olympia-granby-granby-mill-village",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "olympia-granby",
+      "name": {
+        "en": "Granby Mill Village"
+      },
+      "description": {
+        "en": "A historic village perfect for a quiet walk to appreciate the unique urban planning of a turn-of-the-century company town."
+      },
+      "type": "landmark",
+      "lat": 33.9878,
+      "lng": -81.048,
+      "trending_score": 76
+    },
+    {
+      "id": "olympia-granby-founders-park",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "olympia-granby",
+      "name": {
+        "en": "Founders Park"
+      },
+      "description": {
+        "en": "The modern, state-of-the-art home for USC baseball, providing a striking visual contrast between Columbia's industrial past and its vibrant present."
+      },
+      "type": "landmark",
+      "lat": 33.989,
+      "lng": -81.044,
+      "trending_score": 81
+    },
+    {
+      "id": "olympia-granby-granby-park",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "olympia-granby",
+      "name": {
+        "en": "Granby Park"
+      },
+      "description": {
+        "en": "A riverside park offering trails and green space, providing a natural escape at the edge of the historic industrial zone."
+      },
+      "type": "nature",
+      "lat": 33.9895,
+      "lng": -81.051,
+      "trending_score": 75
+    },
+    {
+      "id": "the-riverfront-canal-riverfront-park",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "the-riverfront-canal",
+      "name": {
+        "en": "Riverfront Park"
+      },
+      "description": {
+        "en": "The main hub for the area, with paved trails perfect for a stroll along the historic canal, popular with locals for exercise and relaxation."
+      },
+      "type": "nature",
+      "lat": 34.017,
+      "lng": -81.0515,
+      "trending_score": 87
+    },
+    {
+      "id": "the-riverfront-canal-esplanade",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "the-riverfront-canal",
+      "name": {
+        "en": "Esplanade at Columbia Canal"
+      },
+      "description": {
+        "en": "This specific section of the riverwalk offers some of the best views of the canal's 19th-century diversion dam and the downtown skyline."
+      },
+      "type": "viewpoint",
+      "lat": 34.012,
+      "lng": -81.048,
+      "trending_score": 84
+    },
+    {
+      "id": "the-riverfront-canal-congaree-river-views",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "the-riverfront-canal",
+      "name": {
+        "en": "Congaree River Views"
+      },
+      "description": {
+        "en": "The trails provide multiple points to access views of the wide, flowing Congaree River, a major natural feature and a great spot for birdwatching."
+      },
+      "type": "viewpoint",
+      "lat": 34.008,
+      "lng": -81.049,
+      "trending_score": 82
+    },
+    {
+      "id": "waverly-historic-district-walking-tour",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "waverly-historic-district",
+      "name": {
+        "en": "Waverly Historic District"
+      },
+      "description": {
+        "en": "The primary activity is an architectural and historical walking tour to see homes reflecting the diverse community of Black professionals who built the neighborhood."
+      },
+      "type": "landmark",
+      "lat": 34.0105,
+      "lng": -81.0185,
+      "trending_score": 80
+    },
+    {
+      "id": "waverly-historic-district-booker-t-washington-heights",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "waverly-historic-district",
+      "name": {
+        "en": "Booker T. Washington Heights"
+      },
+      "description": {
+        "en": "An adjacent area with a similar historical significance, representing the growth and strength of Columbia's Black community in the 20th century."
+      },
+      "type": "landmark",
+      "lat": 34.008,
+      "lng": -81.021,
+      "trending_score": 75
+    },
+    {
+      "id": "waverly-historic-district-mlk-park",
+      "city_id": "columbia-sc",
+      "neighborhood_id": "waverly-historic-district",
+      "name": {
+        "en": "Valley Park (Martin Luther King Jr. Park)"
+      },
+      "description": {
+        "en": "A community park dedicated to the civil rights leader, serving as a green space and gathering point within this historic area."
+      },
+      "type": "nature",
+      "lat": 34.006,
+      "lng": -81.023,
+      "trending_score": 72
+    }
+  ],
+  "tasks": [
+    {
+      "id": "main-street-district-task-1",
+      "neighborhood_id": "main-street-district",
+      "title": {
+        "en": "Civic Grandeur"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the contrast between a stately, historic government building and modern city life around it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-district-task-2",
+      "neighborhood_id": "main-street-district",
+      "title": {
+        "en": "Arts & Energy"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, a gallery window, or a colorful mural and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "main-street-district-task-3",
+      "neighborhood_id": "main-street-district",
+      "title": {
+        "en": "Downtown Pulse"
+      },
+      "prompt": {
+        "en": "Take a short video capturing the daytime buzz of business and pedestrian flow on a busy street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-vista-task-1",
+      "neighborhood_id": "the-vista",
+      "title": {
+        "en": "Industrial Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a detail that reveals the neighborhood's past as a warehouse district, like old bricks, railway lines, or loading docks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-vista-task-2",
+      "neighborhood_id": "the-vista",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find an example of a historic industrial building that has been repurposed for a modern use and capture its transformation in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-vista-task-3",
+      "neighborhood_id": "the-vista",
+      "title": {
+        "en": "Red Brick Aesthetic"
+      },
+      "prompt": {
+        "en": "Create a photo composition that focuses on the textures, colors, and patterns of the red-brick architecture common in The Vista."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-five-points-task-1",
+      "neighborhood_id": "university-five-points",
+      "title": {
+        "en": "Campus Spirit"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the youthful, intellectual energy of the university area—students studying, socializing, or walking to class."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-five-points-task-2",
+      "neighborhood_id": "university-five-points",
+      "title": {
+        "en": "Bohemian Detail"
+      },
+      "prompt": {
+        "en": "Find a quirky storefront, a unique piece of street art, or a cozy nook that represents the area's independent, bohemian vibe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-five-points-task-3",
+      "neighborhood_id": "university-five-points",
+      "title": {
+        "en": "Intellectual Pursuits"
+      },
+      "prompt": {
+        "en": "Snap a picture of a place that feels dedicated to learning or creativity, like a bookstore window, a quiet campus corner, or a cafe with people reading."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "olympia-granby-task-1",
+      "neighborhood_id": "olympia-granby",
+      "title": {
+        "en": "Mill Town Geometry"
+      },
+      "prompt": {
+        "en": "Capture the repeating patterns and uniform architecture of the historic mill cottages in a single photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "olympia-granby-task-2",
+      "neighborhood_id": "olympia-granby",
+      "title": {
+        "en": "Shadow of Industry"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows the immense scale of a former textile mill looming over the surrounding neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "olympia-granby-task-3",
+      "neighborhood_id": "olympia-granby",
+      "title": {
+        "en": "A Pop of Personality"
+      },
+      "prompt": {
+        "en": "Find a historic mill house where the resident has added a unique, personal touch (like a colorful door or garden art) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-riverfront-canal-task-1",
+      "neighborhood_id": "the-riverfront-canal",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Take a photo that captures both a natural element (water, trees) and a piece of the city skyline in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-riverfront-canal-task-2",
+      "neighborhood_id": "the-riverfront-canal",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Find a calm spot along the canal or river and capture the reflection of the sky, trees, or bridges on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-riverfront-canal-task-3",
+      "neighborhood_id": "the-riverfront-canal",
+      "title": {
+        "en": "Path to Serenity"
+      },
+      "prompt": {
+        "en": "Photograph the walking or biking trail as it stretches into the distance, inviting exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waverly-historic-district-task-1",
+      "neighborhood_id": "waverly-historic-district",
+      "title": {
+        "en": "Architectural Legacy"
+      },
+      "prompt": {
+        "en": "Photograph the front porch of a historic home, focusing on the details that give it character and tell a story of resilience."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waverly-historic-district-task-2",
+      "neighborhood_id": "waverly-historic-district",
+      "title": {
+        "en": "Signs of History"
+      },
+      "prompt": {
+        "en": "Find a historical marker, a church cornerstone, or an old street sign and take a photo that highlights its significance to the community."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "waverly-historic-district-task-3",
+      "neighborhood_id": "waverly-historic-district",
+      "title": {
+        "en": "Community Roots"
+      },
+      "prompt": {
+        "en": "Capture an image that represents the feeling of community in the neighborhood, such as a well-tended garden, a gathering space, or a welcoming entryway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

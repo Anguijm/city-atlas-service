@@ -1,0 +1,840 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-festival-core",
+      "city_id": "brevard-nc",
+      "name": {
+        "en": "Historic Festival Core"
+      },
+      "summary": {
+        "en": "The quintessential small-town American main street, this is the vibrant heart of Brevard's community life and the stage for its most beloved festivals."
+      },
+      "lat": 35.2334,
+      "lng": -82.7343,
+      "trending_score": 95
+    },
+    {
+      "id": "white-squirrel-greenbelt",
+      "city_id": "brevard-nc",
+      "name": {
+        "en": "White Squirrel Greenbelt"
+      },
+      "summary": {
+        "en": "Explore the parks, green spaces, and quiet residential yards bordering downtown, the primary habitat for Brevard's famous and quirky white squirrels."
+      },
+      "lat": 35.2358,
+      "lng": -82.7355,
+      "trending_score": 90
+    },
+    {
+      "id": "collegiate-gothic-quarter",
+      "city_id": "brevard-nc",
+      "name": {
+        "en": "Collegiate & Gothic Quarter"
+      },
+      "summary": {
+        "en": "Discover where academic life meets local folklore, from the peaceful Brevard College campus to the playful, spooky echoes of 'Transylvania County'."
+      },
+      "lat": 35.2295,
+      "lng": -82.7328,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-festival-core-festival-hub",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "The Festival Core (Main & Broad)"
+      },
+      "description": {
+        "en": "The main thoroughfares that form the vibrant heart of Brevard's community life, hosting events like the White Squirrel Festival and Halloweenfest."
+      },
+      "type": "landmark",
+      "lat": 35.2331,
+      "lng": -82.7345,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-festival-core-parade-path",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "South Broad Street Parade Path"
+      },
+      "description": {
+        "en": "Walk the official route of the town's cherished Christmas Parade, a path steeped in local tradition and community spirit."
+      },
+      "type": "landmark",
+      "lat": 35.2319,
+      "lng": -82.7339,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-festival-core-downtown-shop",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "A Quintessential Downtown Shop"
+      },
+      "description": {
+        "en": "Brevard's charm is in its local businesses. Pop into one of the many downtown shops that catch your eye for a true local experience."
+      },
+      "type": "shopping",
+      "lat": 35.2336,
+      "lng": -82.7348,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-festival-core-local-eatery",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "A Charming Local Eatery"
+      },
+      "description": {
+        "en": "The downtown area is the primary hub for dining. Discover a local restaurant by wandering the main streets and following your senses."
+      },
+      "type": "food",
+      "lat": 35.2328,
+      "lng": -82.7351,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-festival-core-independent-cafe",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "A Cozy Independent Cafe"
+      },
+      "description": {
+        "en": "Part of the discovery of Brevard is popping into a cafe that looks inviting to soak in the relaxed, community-focused atmosphere."
+      },
+      "type": "drink",
+      "lat": 35.2339,
+      "lng": -82.7339,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-festival-core-parade-viewpoint",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "Ideal Parade Vantage Point"
+      },
+      "description": {
+        "en": "Find a historic building along the parade route on South Broad Street that would offer the best view of the town's festivities."
+      },
+      "type": "viewpoint",
+      "lat": 35.2325,
+      "lng": -82.7337,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-festival-core-halloweenfest-spot",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "Halloweenfest Gathering Spot"
+      },
+      "description": {
+        "en": "This central area comes alive with costumed locals and spooky fun during the annual Halloweenfest celebration."
+      },
+      "type": "culture",
+      "lat": 35.2332,
+      "lng": -82.7341,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-festival-core-downtown-gazebo",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "historic-festival-core",
+      "name": {
+        "en": "Downtown Gazebo"
+      },
+      "description": {
+        "en": "A town square or gazebo that serves as a natural gathering point and a likely start/finish line for community events."
+      },
+      "type": "landmark",
+      "lat": 35.2341,
+      "lng": -82.7335,
+      "trending_score": 72
+    },
+    {
+      "id": "white-squirrel-greenbelt-habitat",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "The White Squirrel Habitat"
+      },
+      "description": {
+        "en": "Brevard is famous for its population of white squirrels, the town's unofficial mascots. Spotting them is a quintessential activity."
+      },
+      "type": "nature",
+      "lat": 35.2362,
+      "lng": -82.7358,
+      "trending_score": 100
+    },
+    {
+      "id": "white-squirrel-greenbelt-prime-spotting-zone",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "Prime Squirrel Spotting Zone"
+      },
+      "description": {
+        "en": "These squirrels are most commonly seen in the green spaces, parks, and yards bordering the downtown core. Keep your eyes peeled!"
+      },
+      "type": "hidden_gem",
+      "lat": 35.2355,
+      "lng": -82.7365,
+      "trending_score": 92
+    },
+    {
+      "id": "white-squirrel-greenbelt-downtown-park",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "Downtown-Adjacent Green Space"
+      },
+      "description": {
+        "en": "A small park or leafy area perfect for a quiet moment and a chance to spot the town's famous furry residents."
+      },
+      "type": "nature",
+      "lat": 35.2351,
+      "lng": -82.7349,
+      "trending_score": 80
+    },
+    {
+      "id": "white-squirrel-greenbelt-residential-street",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "A Quiet Residential Street"
+      },
+      "description": {
+        "en": "Stroll down a residential street bordering downtown to see the squirrels in their natural habitat among the local homes and gardens."
+      },
+      "type": "landmark",
+      "lat": 35.2368,
+      "lng": -82.7345,
+      "trending_score": 70
+    },
+    {
+      "id": "white-squirrel-greenbelt-park-bench",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "Park Bench for Wildlife Watching"
+      },
+      "description": {
+        "en": "Find a quiet bench in a local park, the perfect perch for patiently waiting to capture a photo of a white squirrel."
+      },
+      "type": "viewpoint",
+      "lat": 35.2359,
+      "lng": -82.7351,
+      "trending_score": 75
+    },
+    {
+      "id": "white-squirrel-greenbelt-mascot-home",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "Home of the Unofficial Mascot"
+      },
+      "description": {
+        "en": "This entire area is dedicated to the white squirrel, the theme of a major festival and a symbol of the town's unique identity."
+      },
+      "type": "culture",
+      "lat": 35.2365,
+      "lng": -82.736,
+      "trending_score": 88
+    },
+    {
+      "id": "white-squirrel-greenbelt-scavenger-hunt",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "Squirrel Scavenger Hunt Start"
+      },
+      "description": {
+        "en": "Begin your walk from the town center towards Brevard College and count how many white squirrels you can spot. More than five is a lucky day!"
+      },
+      "type": "landmark",
+      "lat": 35.2345,
+      "lng": -82.734,
+      "trending_score": 82
+    },
+    {
+      "id": "white-squirrel-greenbelt-leafy-park",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "name": {
+        "en": "A Leafy Town Park"
+      },
+      "description": {
+        "en": "One of the many green spaces that make Brevard a haven for its unique wildlife and a pleasant place for a stroll."
+      },
+      "type": "nature",
+      "lat": 35.236,
+      "lng": -82.737,
+      "trending_score": 78
+    },
+    {
+      "id": "collegiate-gothic-quarter-college-edge",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "Brevard College Campus Edge"
+      },
+      "description": {
+        "en": "A peaceful, leafy anchor to the town center, where the town's academic and civic lives intersect."
+      },
+      "type": "landmark",
+      "lat": 35.2288,
+      "lng": -82.7325,
+      "trending_score": 85
+    },
+    {
+      "id": "collegiate-gothic-quarter-historic-architecture",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "Historic College Architecture"
+      },
+      "description": {
+        "en": "The older, traditional buildings of the college offer a quiet contrast to the commercial main street and a glimpse into the town's history."
+      },
+      "type": "landmark",
+      "lat": 35.2281,
+      "lng": -82.7322,
+      "trending_score": 80
+    },
+    {
+      "id": "collegiate-gothic-quarter-transylvania-signage",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "Transylvania Thematic Signage"
+      },
+      "description": {
+        "en": "Hunt for local shop names, art, or decorations that playfully reference Transylvania County's spooky, gothic name."
+      },
+      "type": "hidden_gem",
+      "lat": 35.2305,
+      "lng": -82.7333,
+      "trending_score": 90
+    },
+    {
+      "id": "collegiate-gothic-quarter-vampire-run-start",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "\"Flight of the Vampires\" Start Line"
+      },
+      "description": {
+        "en": "Locate the town square or park that would serve as the natural start/finish line for a community race like the Halloween 5K."
+      },
+      "type": "culture",
+      "lat": 35.2312,
+      "lng": -82.7335,
+      "trending_score": 82
+    },
+    {
+      "id": "collegiate-gothic-quarter-high-school",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "Brevard High School Vicinity"
+      },
+      "description": {
+        "en": "This landmark serves as the starting point for the town's famous Christmas Parade route, a key piece of local tradition."
+      },
+      "type": "landmark",
+      "lat": 35.2301,
+      "lng": -82.7299,
+      "trending_score": 65
+    },
+    {
+      "id": "collegiate-gothic-quarter-campus-green",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "Contemplative Campus Green"
+      },
+      "description": {
+        "en": "The green lawns of Brevard College offer a perfect spot for a quiet, contemplative stroll at the edge of the bustling town center."
+      },
+      "type": "nature",
+      "lat": 35.2291,
+      "lng": -82.7331,
+      "trending_score": 75
+    },
+    {
+      "id": "collegiate-gothic-quarter-college-marker",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "Brevard College Entrance Marker"
+      },
+      "description": {
+        "en": "Find the official entrance sign or stone marker for the college, a formal welcome to this historic institution."
+      },
+      "type": "landmark",
+      "lat": 35.2299,
+      "lng": -82.7329,
+      "trending_score": 70
+    },
+    {
+      "id": "collegiate-gothic-quarter-gargoyle-hunt",
+      "city_id": "brevard-nc",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "name": {
+        "en": "Architectural Gargoyle Hunt"
+      },
+      "description": {
+        "en": "Look up! Search the historic buildings for gargoyles or other architectural details that echo the county's gothic theme."
+      },
+      "type": "hidden_gem",
+      "lat": 35.2308,
+      "lng": -82.733,
+      "trending_score": 88
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-festival-core-task-1",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Main Street Postcard"
+      },
+      "prompt": {
+        "en": "Find a vantage point and take a photo of the main street that looks like a classic American small-town postcard. Try to capture the mountains in the background!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-2",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Festival Spirit"
+      },
+      "prompt": {
+        "en": "Imagine you're at the White Squirrel Festival. Take a selfie in the middle of the street where you think the main stage would be."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-3",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Shop Window Discovery"
+      },
+      "prompt": {
+        "en": "Find the most interesting or quirky item displayed in a shop window and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-4",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Parade Route Perspective"
+      },
+      "prompt": {
+        "en": "Walk along South Broad Street and take a photo from the perspective of a child watching the Christmas parade go by."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-5",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Take a photo of the menu or sign of a local cafe or eatery that looks most appealing to you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-6",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Small Town Details"
+      },
+      "prompt": {
+        "en": "Capture a photo of a small detail that gives this downtown its unique character—a historic plaque, a unique bench, or a piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-7",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Find a spot that feels like the social center of the town, like a gazebo or town square, and take a photo that captures its community feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-8",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Architectural Charm"
+      },
+      "prompt": {
+        "en": "Photograph the facade of the most charming historic building you can find on the main street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-9",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Rhythm of the Town"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the relaxed, unhurried pace of life in downtown Brevard."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-10",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Halloweenfest Haunt"
+      },
+      "prompt": {
+        "en": "Find a spot that you think would be the spookiest or most fun during Halloweenfest and take a selfie there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-11",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "Local Colors"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by a single, vibrant color you find in the downtown area, whether on a building, a sign, or a flower box."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-festival-core-task-12",
+      "neighborhood_id": "historic-festival-core",
+      "title": {
+        "en": "The Perfect Meeting Spot"
+      },
+      "prompt": {
+        "en": "Take a picture of a place where you'd arrange to meet a friend—a specific storefront, a clock, or a corner cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-1",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "The White Squirrel Challenge"
+      },
+      "prompt": {
+        "en": "Capture a clear, well-focused shot of a white squirrel. This is the ultimate Brevard photo challenge!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-2",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Find a beautiful old tree and use its branches to frame a photo of a nearby house or park scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-3",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Squirrel's Eye View"
+      },
+      "prompt": {
+        "en": "Take a photo from a very low angle, imagining the world from the perspective of a squirrel looking up at the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-4",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find the most peaceful-looking park bench and take a photo of the view from it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-5",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Mascot Homage"
+      },
+      "prompt": {
+        "en": "Find any representation of a white squirrel (a statue, a sign, a logo) and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-6",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Texture of Nature"
+      },
+      "prompt": {
+        "en": "Take a close-up, detailed photo of a natural texture, like tree bark, a patch of moss, or a unique leaf."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-7",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Lucky Day Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie and in the caption, write down how many white squirrels you've spotted so far. Is it a lucky day?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-8",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Find a small path or trail in a park and take a photo looking down its length, inviting a sense of discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-9",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Green Oasis"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of a green space that shows how nature is integrated right into the edge of the town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-10",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Take a photo of the interesting shadows cast by trees on a lawn or sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-11",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Residential Charm"
+      },
+      "prompt": {
+        "en": "Photograph a charming detail of one of the houses bordering the green spaces, like a welcoming porch or a beautiful garden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "white-squirrel-greenbelt-task-12",
+      "neighborhood_id": "white-squirrel-greenbelt",
+      "title": {
+        "en": "Expert Squirrel Spotter"
+      },
+      "prompt": {
+        "en": "Take a selfie pointing to the spot where you just saw a white squirrel (even if it's already gone!)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-1",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Gothic Echoes"
+      },
+      "prompt": {
+        "en": "Find a piece of local signage, architecture, or art that references the 'Transylvania' or vampire theme and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-2",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Academic Pose"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a historic Brevard College building, striking a thoughtful, scholarly pose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-3",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Vampire 5K Training"
+      },
+      "prompt": {
+        "en": "Find a spot that looks like a race starting line and take a photo of your feet, ready to run the 'Flight of the Vampires 5K'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-4",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Campus Contemplation"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the peaceful, leafy, and contemplative atmosphere of the Brevard College campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-5",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Spooky Detail"
+      },
+      "prompt": {
+        "en": "Look up! Find a 'gargoyle' or other spooky architectural detail on a building and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-6",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Welcome to College"
+      },
+      "prompt": {
+        "en": "Find an official sign or marker for Brevard College and take a photo as if you're a new student arriving for the first time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-7",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Old School"
+      },
+      "prompt": {
+        "en": "Take a photo of a building that looks like it has a lot of history and stories to tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-8",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Playful Spookiness"
+      },
+      "prompt": {
+        "en": "Find something that shows the town's playful embrace of its county's name and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-9",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Civic Intersection"
+      },
+      "prompt": {
+        "en": "Take a photo that shows where the town and the college meet, capturing both a town street and a piece of the campus in one frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-10",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Parade Route Start"
+      },
+      "prompt": {
+        "en": "Go to the vicinity of the High School and take a photo looking down the street, imagining the start of the Christmas parade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-11",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "Bat Signal"
+      },
+      "prompt": {
+        "en": "Find a bat-shaped decoration or symbol and take a dramatic photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "collegiate-gothic-quarter-task-12",
+      "neighborhood_id": "collegiate-gothic-quarter",
+      "title": {
+        "en": "A Quiet Study Spot"
+      },
+      "prompt": {
+        "en": "Find a spot on the campus green that would be perfect for studying outdoors and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

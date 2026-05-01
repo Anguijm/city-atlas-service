@@ -1,0 +1,795 @@
+{
+  "neighborhoods": [
+    {
+      "id": "boardwalk-waterfront",
+      "city_id": "asbury-park-nj",
+      "name": {
+        "en": "The Boardwalk & Waterfront"
+      },
+      "summary": {
+        "en": "This is not a polished beachfront; it's a place of potent ghosts and vibrant present, where historic architecture meets the raw energy of legendary music venues."
+      },
+      "lat": 40.2205,
+      "lng": -73.999,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-cookman",
+      "city_id": "asbury-park-nj",
+      "name": {
+        "en": "Downtown: The Cookman Avenue Arts & Eats District"
+      },
+      "summary": {
+        "en": "The city's creative and culinary engine room, this historic district is a dense, walkable grid of independent restaurants, coffee shops, and unique boutiques."
+      },
+      "lat": 40.2195,
+      "lng": -74.0065,
+      "trending_score": 90
+    },
+    {
+      "id": "west-side-springwood",
+      "city_id": "asbury-park-nj",
+      "name": {
+        "en": "West Side & Springwood Avenue Heritage Corridor"
+      },
+      "summary": {
+        "en": "The historic, soulful heart of Asbury Park's rich African American history, this area is a legendary hub for jazz and R&B, now powered by community-led revitalization."
+      },
+      "lat": 40.217,
+      "lng": -74.015,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "boardwalk-waterfront-stone-pony",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "boardwalk-waterfront",
+      "name": {
+        "en": "The Stone Pony"
+      },
+      "description": {
+        "en": "More than a bar, it's a pilgrimage site for music lovers where legends like Springsteen and Bon Jovi cut their teeth. The history is palpable."
+      },
+      "type": "nightlife",
+      "lat": 40.2185,
+      "lng": -74.0005,
+      "trending_score": 100
+    },
+    {
+      "id": "boardwalk-waterfront-wonder-bar",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "boardwalk-waterfront",
+      "name": {
+        "en": "Wonder Bar"
+      },
+      "description": {
+        "en": "Famous for its \"Yappy Hour\" and the giant, winking \"Tillie\" mural, this is a quintessential, no-frills boardwalk-area bar with a local, laid-back shore vibe."
+      },
+      "type": "drink",
+      "lat": 40.2215,
+      "lng": -73.9983,
+      "trending_score": 90
+    },
+    {
+      "id": "boardwalk-waterfront-the-galley",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "boardwalk-waterfront",
+      "name": {
+        "en": "The Galley Pizza & Eatery"
+      },
+      "description": {
+        "en": "A reliable and delicious spot for a casual slice or a sandwich. It’s a classic boardwalk staple beloved by locals for its unfussy, quality food."
+      },
+      "type": "food",
+      "lat": 40.222,
+      "lng": -73.998,
+      "trending_score": 80
+    },
+    {
+      "id": "boardwalk-waterfront-casino-carousel",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "boardwalk-waterfront",
+      "name": {
+        "en": "The Casino and Carousel House"
+      },
+      "description": {
+        "en": "Magnificent, semi-derelict Beaux-Arts structures that are Asbury Park's most beautiful ruins. A stunningly photogenic space connecting the boardwalk to Wesley Lake."
+      },
+      "type": "landmark",
+      "lat": 40.216,
+      "lng": -74.002,
+      "trending_score": 92
+    },
+    {
+      "id": "boardwalk-waterfront-silverball-arcade",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "boardwalk-waterfront",
+      "name": {
+        "en": "Silverball Retro Arcade"
+      },
+      "description": {
+        "en": "A hands-on museum with hundreds of vintage pinball machines and classic arcade games set to free-play. A loud, blinking, and joyous trip back in time."
+      },
+      "type": "culture",
+      "lat": 40.2195,
+      "lng": -74.0,
+      "trending_score": 95
+    },
+    {
+      "id": "boardwalk-waterfront-convention-hall",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "boardwalk-waterfront",
+      "name": {
+        "en": "Asbury Park Convention Hall"
+      },
+      "description": {
+        "en": "A grand, historic complex that feels like a landlocked ocean liner, connected to the Paramount Theatre by the impressive Grand Arcade."
+      },
+      "type": "landmark",
+      "lat": 40.2225,
+      "lng": -73.9975,
+      "trending_score": 85
+    },
+    {
+      "id": "boardwalk-waterfront-grand-arcade",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "boardwalk-waterfront",
+      "name": {
+        "en": "Grand Arcade"
+      },
+      "description": {
+        "en": "An architecturally impressive hall connecting the Convention Hall and Paramount Theatre, featuring nautical-themed murals and a soaring ceiling."
+      },
+      "type": "landmark",
+      "lat": 40.2223,
+      "lng": -73.9978,
+      "trending_score": 82
+    },
+    {
+      "id": "downtown-cookman-cafe-volan",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "downtown-cookman",
+      "name": {
+        "en": "Cafe Volan"
+      },
+      "description": {
+        "en": "A serious coffee shop with a minimalist, surf-inspired aesthetic, serving as a hub for locals and creatives who appreciate a perfectly pulled espresso."
+      },
+      "type": "drink",
+      "lat": 40.22,
+      "lng": -74.0058,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-cookman-talulas",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "downtown-cookman",
+      "name": {
+        "en": "Talula’s"
+      },
+      "description": {
+        "en": "A local favorite with a buzzing atmosphere, known for its sourdough pizza with inventive toppings, vibrant salads, and a great bar."
+      },
+      "type": "food",
+      "lat": 40.219,
+      "lng": -74.006,
+      "trending_score": 94
+    },
+    {
+      "id": "downtown-cookman-adas-gojjo",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "downtown-cookman",
+      "name": {
+        "en": "Ada’s Gojjo"
+      },
+      "description": {
+        "en": "A fantastic and unique independent gem offering a fusion of Dominican and Ethiopian cuisines for a truly memorable meal."
+      },
+      "type": "food",
+      "lat": 40.216,
+      "lng": -74.008,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-cookman-franks-deli",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "downtown-cookman",
+      "name": {
+        "en": "Frank’s Deli & Restaurant"
+      },
+      "description": {
+        "en": "An old-school institution and the real deal for a classic Jersey deli experience, serving massive, delicious sandwiches for decades."
+      },
+      "type": "food",
+      "lat": 40.2175,
+      "lng": -74.01,
+      "trending_score": 89
+    },
+    {
+      "id": "downtown-cookman-stephen-crane-house",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "downtown-cookman",
+      "name": {
+        "en": "Stephen Crane House"
+      },
+      "description": {
+        "en": "The former home of the author of *The Red Badge of Courage*, this tourable house is a fascinating piece of literary history."
+      },
+      "type": "culture",
+      "lat": 40.2168,
+      "lng": -74.006,
+      "trending_score": 70
+    },
+    {
+      "id": "downtown-cookman-library-square-park",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "downtown-cookman",
+      "name": {
+        "en": "Library Square Park"
+      },
+      "description": {
+        "en": "A quiet, contemplative green space adjacent to the public library, offering a place of reflection and community solidarity."
+      },
+      "type": "nature",
+      "lat": 40.222,
+      "lng": -74.0085,
+      "trending_score": 65
+    },
+    {
+      "id": "downtown-cookman-downtown-murals",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "downtown-cookman",
+      "name": {
+        "en": "Downtown Murals"
+      },
+      "description": {
+        "en": "An open-air gallery found in the alleyways and side streets, featuring a rotating collection of vibrant, large-scale murals by various artists."
+      },
+      "type": "hidden_gem",
+      "lat": 40.2192,
+      "lng": -74.007,
+      "trending_score": 87
+    },
+    {
+      "id": "west-side-springwood-kula-cafe",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "west-side-springwood",
+      "name": {
+        "en": "Kula Cafe"
+      },
+      "description": {
+        "en": "More than a cafe, this is a community hub providing on-site job training and a gathering space, with a mission you can support with every visit."
+      },
+      "type": "food",
+      "lat": 40.217,
+      "lng": -74.016,
+      "trending_score": 85
+    },
+    {
+      "id": "west-side-springwood-mutiny-bbq",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "west-side-springwood",
+      "name": {
+        "en": "Mutiny BBQ Company"
+      },
+      "description": {
+        "en": "A casual, counter-service joint serving up excellent smoked meats that honor a deep American culinary tradition."
+      },
+      "type": "food",
+      "lat": 40.2155,
+      "lng": -74.012,
+      "trending_score": 80
+    },
+    {
+      "id": "west-side-springwood-springwood-park",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "west-side-springwood",
+      "name": {
+        "en": "Springwood Park"
+      },
+      "description": {
+        "en": "The modern heart of the West Side, this vibrant community space hosts summer music events and important community gatherings."
+      },
+      "type": "nature",
+      "lat": 40.2165,
+      "lng": -74.018,
+      "trending_score": 75
+    },
+    {
+      "id": "west-side-springwood-turf-club-site",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "west-side-springwood",
+      "name": {
+        "en": "The Turf Club Site"
+      },
+      "description": {
+        "en": "The last standing structure from Springwood Avenue's mid-century \"music row,\" its exterior features a powerful jazz-themed mural."
+      },
+      "type": "landmark",
+      "lat": 40.2172,
+      "lng": -74.0155,
+      "trending_score": 82
+    },
+    {
+      "id": "west-side-springwood-honeysuckle-rose-house",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "west-side-springwood",
+      "name": {
+        "en": "119 Atkins Avenue"
+      },
+      "description": {
+        "en": "An unmarked but deeply significant site where Fats Waller and Andy Razaf wrote the jazz standard \"Honeysuckle Rose\" in a private residence."
+      },
+      "type": "hidden_gem",
+      "lat": 40.219,
+      "lng": -74.0185,
+      "trending_score": 78
+    },
+    {
+      "id": "west-side-springwood-kula-urban-farm",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "west-side-springwood",
+      "name": {
+        "en": "Kula Urban Farm"
+      },
+      "description": {
+        "en": "A hydroponic urban farm that is a symbol of resilience and sustainable growth, growing fresh produce for local restaurants and the community."
+      },
+      "type": "culture",
+      "lat": 40.2173,
+      "lng": -74.015,
+      "trending_score": 84
+    },
+    {
+      "id": "west-side-springwood-second-baptist-church",
+      "city_id": "asbury-park-nj",
+      "neighborhood_id": "west-side-springwood",
+      "name": {
+        "en": "Second Baptist Church"
+      },
+      "description": {
+        "en": "An important community and religious institution whose steeple provides a dramatic backdrop to the adjacent Springwood Park."
+      },
+      "type": "landmark",
+      "lat": 40.2168,
+      "lng": -74.0185,
+      "trending_score": 68
+    }
+  ],
+  "tasks": [
+    {
+      "id": "boardwalk-waterfront-task-1",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Rock and Roll Relic"
+      },
+      "prompt": {
+        "en": "Find a detail, texture, or view that feels like it could be on a classic rock album cover and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-2",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Salt Air Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the mood of the ocean today—is it calm, wild, sunny, or moody?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-3",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Architectural Frame"
+      },
+      "prompt": {
+        "en": "Use a piece of the historic architecture—a window, archway, or pillar—to frame a modern scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-4",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Taste of the Shore"
+      },
+      "prompt": {
+        "en": "Photograph a classic boardwalk food (like fried dough or pizza) with the ocean or a landmark in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-5",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Nostalgic Detail"
+      },
+      "prompt": {
+        "en": "Find a small, weathered detail that speaks to the boardwalk's long history. It could be peeling paint, a vintage sign, or worn-out wood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-6",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Sounds of the Boardwalk"
+      },
+      "prompt": {
+        "en": "Listen for the most interesting sound you can hear—live music, arcade noises, crashing waves—and take a photo of its source."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-7",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture a photo of interesting shadows cast by the boardwalk structures, people, or railings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-8",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Ghost of Grandeur"
+      },
+      "prompt": {
+        "en": "Photograph one of the grand old buildings in a way that highlights its age and history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-9",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Splash of Color"
+      },
+      "prompt": {
+        "en": "Find a surprising pop of bright color against the neutral tones of the sand, sea, and weathered buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-10",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "Motion of the Ocean"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the movement of the waves crashing on the shore."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-11",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "The Unofficial Mascot"
+      },
+      "prompt": {
+        "en": "Find a seagull and capture its personality in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "boardwalk-waterfront-task-12",
+      "neighborhood_id": "boardwalk-waterfront",
+      "title": {
+        "en": "A Sign of the Times"
+      },
+      "prompt": {
+        "en": "Find a sign (new or old) that perfectly captures the gritty, unapologetic vibe of the waterfront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-1",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Brick & Character"
+      },
+      "prompt": {
+        "en": "Get up close and capture the unique texture and color of a historic brick wall in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-2",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Alleyway Art Hunt"
+      },
+      "prompt": {
+        "en": "Explore an alley or side street and photograph a hidden mural or piece of street art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-3",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Culinary Canvas"
+      },
+      "prompt": {
+        "en": "Take a top-down photo of your coffee, cocktail, or plate of food, treating it like a work of art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-4",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Shopfront Stories"
+      },
+      "prompt": {
+        "en": "Find the most interesting or creative storefront and capture what makes it unique."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-5",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Reflections of Downtown"
+      },
+      "prompt": {
+        "en": "Use a window or a puddle to capture a reflection of the downtown streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-6",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Creative Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel represents the artistic and community-driven energy of the district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-7",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Amidst the buzz, find a quiet bench, park, or corner and capture a moment of peace."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-8",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Photograph the interesting architectural details on the upper floors of the buildings that people often miss."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-9",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Menu Explorer"
+      },
+      "prompt": {
+        "en": "Find a menu posted outside a restaurant and photograph the most intriguing dish you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-10",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Local Style"
+      },
+      "prompt": {
+        "en": "Capture a detail that showcases the unique style of the people in the neighborhood (with respect and from a distance)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-11",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "The Perfect Pour"
+      },
+      "prompt": {
+        "en": "If you're getting a drink, capture the beautiful details of a craft cocktail or the latte art on a coffee."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cookman-task-12",
+      "neighborhood_id": "downtown-cookman",
+      "title": {
+        "en": "Streetlight Glow"
+      },
+      "prompt": {
+        "en": "As day turns to evening, capture the warm glow of a streetlight on the historic architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-1",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Soul of the West Side"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the historic, soulful vibe of this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-2",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Echoes of Music"
+      },
+      "prompt": {
+        "en": "Find a mural, sign, or building that pays tribute to the neighborhood's rich jazz and R&B history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-3",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Community Spirit"
+      },
+      "prompt": {
+        "en": "Capture an image of a place where the community gathers, like a park, a church, or a local cafe."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-4",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "A Story in a Structure"
+      },
+      "prompt": {
+        "en": "Photograph a building, new or old, that looks like it has a powerful story to tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-5",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Urban Green"
+      },
+      "prompt": {
+        "en": "Find a symbol of nature and growth in the neighborhood—a community farm, a park, or even a resilient plant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-6",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Residential Rhythm"
+      },
+      "prompt": {
+        "en": "Capture the quiet character of a residential street, focusing on architectural details or front porches."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-7",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Find a scene that shows the contrast between the neighborhood's history and its modern revitalization."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-8",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Historical Marker Hunt"
+      },
+      "prompt": {
+        "en": "Find a plaque, sign, or mural that tells a piece of the West Side's history and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-9",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "The Sound of History"
+      },
+      "prompt": {
+        "en": "Put on a classic jazz or R&B song and take a photo of your surroundings that matches the mood of the music."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-10",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "A Welcoming Detail"
+      },
+      "prompt": {
+        "en": "Find a detail on a home or community building that feels welcoming, like a brightly painted door, a garden, or a piece of art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-11",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Supporting Local"
+      },
+      "prompt": {
+        "en": "Take a photo of a local business that is clearly a hub for the community."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-side-springwood-task-12",
+      "neighborhood_id": "west-side-springwood",
+      "title": {
+        "en": "Black and White History"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic building or site and edit it in black and white to emphasize its timeless quality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

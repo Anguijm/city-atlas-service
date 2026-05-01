@@ -1,0 +1,840 @@
+{
+  "neighborhoods": [
+    {
+      "id": "eau-claire-downtown",
+      "city_id": "eau-claire-wi",
+      "name": {
+        "en": "Downtown & The Confluence"
+      },
+      "summary": {
+        "en": "The revitalized heart of Eau Claire, where modern architecture and a vibrant arts scene meet the city's natural riverfront with an optimistic, community-focused energy."
+      },
+      "lat": 44.8155,
+      "lng": -91.4985,
+      "trending_score": 95
+    },
+    {
+      "id": "eau-claire-university",
+      "city_id": "eau-claire-wi",
+      "name": {
+        "en": "The University & Owen Park Greenway"
+      },
+      "summary": {
+        "en": "A leafy, peaceful district blending the quiet energy of the university campus with the timeless charm of historic city parks, perfect for a long, meandering walk."
+      },
+      "lat": 44.806,
+      "lng": -91.502,
+      "trending_score": 80
+    },
+    {
+      "id": "eau-claire-carson-park",
+      "city_id": "eau-claire-wi",
+      "name": {
+        "en": "The Carson Park Peninsula"
+      },
+      "summary": {
+        "en": "A recreational island of green embraced by an oxbow lake, offering a classic American park experience in a peaceful, self-contained natural world."
+      },
+      "lat": 44.803,
+      "lng": -91.515,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "eau-claire-downtown-phoenix-park",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "Phoenix Park"
+      },
+      "description": {
+        "en": "Located at the confluence of two rivers, this park is the city's public square, hosting farmers markets and concerts, making it a focal point of local life."
+      },
+      "type": "nature",
+      "lat": 44.8158,
+      "lng": -91.5,
+      "trending_score": 98
+    },
+    {
+      "id": "eau-claire-downtown-pablo-center",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "Pablo Center at the Confluence"
+      },
+      "description": {
+        "en": "A striking, modern performing arts center and architectural landmark on the riverbank, serving as the city's premier venue for theater, music, and visual arts."
+      },
+      "type": "culture",
+      "lat": 44.815,
+      "lng": -91.498,
+      "trending_score": 92
+    },
+    {
+      "id": "eau-claire-downtown-high-bridge",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "The High Bridge"
+      },
+      "description": {
+        "en": "An elevated pedestrian bridge offering distinct perspectives of the city, the river valley, and the downtown skyline, making it a destination in itself."
+      },
+      "type": "viewpoint",
+      "lat": 44.8115,
+      "lng": -91.506,
+      "trending_score": 90
+    },
+    {
+      "id": "eau-claire-downtown-trail-head",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "Chippewa River State Trail Head"
+      },
+      "description": {
+        "en": "The official start of a beloved regional trail, representing a gateway where the city's managed riverfront transitions into a more rustic, natural path."
+      },
+      "type": "nature",
+      "lat": 44.8165,
+      "lng": -91.501,
+      "trending_score": 80
+    },
+    {
+      "id": "eau-claire-downtown-farmers-market",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "Phoenix Park Farmers Market"
+      },
+      "description": {
+        "en": "A bustling weekly market held in Phoenix Park, offering a chance to find local Wisconsin cheeses and other regional goods."
+      },
+      "type": "shopping",
+      "lat": 44.816,
+      "lng": -91.4995,
+      "trending_score": 88
+    },
+    {
+      "id": "eau-claire-downtown-barstow-street",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "Barstow Street"
+      },
+      "description": {
+        "en": "The city's primary hub for independent dining and coffee, best discovered by exploring its local spots on foot."
+      },
+      "type": "food",
+      "lat": 44.8135,
+      "lng": -91.497,
+      "trending_score": 85
+    },
+    {
+      "id": "eau-claire-downtown-confluence-point",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "Confluence of the Rivers"
+      },
+      "description": {
+        "en": "The precise point where the darker water of the Eau Claire River meets the wider Chippewa, defining the geography of the city."
+      },
+      "type": "viewpoint",
+      "lat": 44.8152,
+      "lng": -91.5012,
+      "trending_score": 82
+    },
+    {
+      "id": "eau-claire-downtown-pedestrian-bridges",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-downtown",
+      "name": {
+        "en": "Downtown Pedestrian Bridges"
+      },
+      "description": {
+        "en": "A series of bridges that stitch the downtown area together, each offering unique views, construction, and purpose for crossing the rivers."
+      },
+      "type": "landmark",
+      "lat": 44.8145,
+      "lng": -91.4998,
+      "trending_score": 87
+    },
+    {
+      "id": "eau-claire-university-bandshell",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "Sarge Boyd Bandshell"
+      },
+      "description": {
+        "en": "A classic 1938 bandshell in Owen Park, listed on the National Register of Historic Places and still hosting open-air concerts."
+      },
+      "type": "landmark",
+      "lat": 44.8095,
+      "lng": -91.5035,
+      "trending_score": 85
+    },
+    {
+      "id": "eau-claire-university-footbridge",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "UWEC Footbridge"
+      },
+      "description": {
+        "en": "An essential pedestrian artery connecting the main university campus with the Haas Fine Arts Center, offering great ground-level river views."
+      },
+      "type": "viewpoint",
+      "lat": 44.8065,
+      "lng": -91.5,
+      "trending_score": 90
+    },
+    {
+      "id": "eau-claire-university-putnam-park",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "Putnam Park"
+      },
+      "description": {
+        "en": "A preserved natural forest with rustic trails that offers a genuine escape from the city grid, just steps from the university campus."
+      },
+      "type": "nature",
+      "lat": 44.8035,
+      "lng": -91.493,
+      "trending_score": 88
+    },
+    {
+      "id": "eau-claire-university-owen-park",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "Owen Park"
+      },
+      "description": {
+        "en": "A sprawling, historic city park with old-growth trees that provides a timeless and charming green space for the community."
+      },
+      "type": "nature",
+      "lat": 44.809,
+      "lng": -91.504,
+      "trending_score": 82
+    },
+    {
+      "id": "eau-claire-university-haas-center",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "Haas Fine Arts Center"
+      },
+      "description": {
+        "en": "A key university building across the Chippewa River, connected to the main campus by the iconic UWEC footbridge."
+      },
+      "type": "culture",
+      "lat": 44.806,
+      "lng": -91.4985,
+      "trending_score": 75
+    },
+    {
+      "id": "eau-claire-university-little-niagara",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "Little Niagara"
+      },
+      "description": {
+        "en": "A small, charming cascade found by following Putnam Creek, offering a hidden natural discovery within Putnam Park."
+      },
+      "type": "hidden_gem",
+      "lat": 44.8028,
+      "lng": -91.4905,
+      "trending_score": 80
+    },
+    {
+      "id": "eau-claire-university-campus",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "University of Wisconsin-Eau Claire Campus"
+      },
+      "description": {
+        "en": "The heart of the district, this university campus provides a quiet, academic energy with a mix of architectural beauty and green spaces."
+      },
+      "type": "landmark",
+      "lat": 44.8055,
+      "lng": -91.5015,
+      "trending_score": 78
+    },
+    {
+      "id": "eau-claire-university-putnam-creek",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-university",
+      "name": {
+        "en": "Putnam Creek"
+      },
+      "description": {
+        "en": "A rustic creek that winds through Putnam Park, leading explorers to hidden spots like the 'Little Niagara' cascade."
+      },
+      "type": "nature",
+      "lat": 44.804,
+      "lng": -91.495,
+      "trending_score": 70
+    },
+    {
+      "id": "eau-claire-carson-park-loop",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "Halfmoon Lake Loop"
+      },
+      "description": {
+        "en": "A scenic path that traces the shoreline of the C-shaped lake, offering constantly shifting views of the water and the park's interior."
+      },
+      "type": "nature",
+      "lat": 44.8035,
+      "lng": -91.516,
+      "trending_score": 90
+    },
+    {
+      "id": "eau-claire-carson-park-high-bridge-view",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "The High Bridge Viewpoint"
+      },
+      "description": {
+        "en": "A viewpoint providing the best context for the park's unique geography, showing how the river bend isolates the park into a peninsula."
+      },
+      "type": "viewpoint",
+      "lat": 44.8115,
+      "lng": -91.506,
+      "trending_score": 88
+    },
+    {
+      "id": "eau-claire-carson-park-interior",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "Carson Park's Interior"
+      },
+      "description": {
+        "en": "Vast green spaces at the heart of the park where the community comes to play, relax, and connect with nature."
+      },
+      "type": "nature",
+      "lat": 44.803,
+      "lng": -91.515,
+      "trending_score": 85
+    },
+    {
+      "id": "eau-claire-carson-park-halfmoon-lake",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "Halfmoon Lake"
+      },
+      "description": {
+        "en": "A stunning C-shaped oxbow lake that embraces the park, creating a serene environment for walking, fishing, and reflection."
+      },
+      "type": "nature",
+      "lat": 44.804,
+      "lng": -91.514,
+      "trending_score": 87
+    },
+    {
+      "id": "eau-claire-carson-park-oxbow",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "Chippewa River Oxbow"
+      },
+      "description": {
+        "en": "The unique geographical feature where the Chippewa River bends, creating the peninsula on which Carson Park is situated."
+      },
+      "type": "nature",
+      "lat": 44.805,
+      "lng": -91.518,
+      "trending_score": 75
+    },
+    {
+      "id": "eau-claire-carson-park-fishing-docks",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "Fishing Docks on Halfmoon Lake"
+      },
+      "description": {
+        "en": "A series of piers and docks along the lake's perimeter, offering quiet spots for fishing or enjoying the water views."
+      },
+      "type": "hidden_gem",
+      "lat": 44.806,
+      "lng": -91.513,
+      "trending_score": 70
+    },
+    {
+      "id": "eau-claire-carson-park-oak-tree",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "Majestic Oak Tree"
+      },
+      "description": {
+        "en": "A large, majestic-looking oak tree within the park's interior, notable for its impressive scale and age."
+      },
+      "type": "landmark",
+      "lat": 44.8025,
+      "lng": -91.5145,
+      "trending_score": 68
+    },
+    {
+      "id": "eau-claire-carson-park-marching-band-field",
+      "city_id": "eau-claire-wi",
+      "neighborhood_id": "eau-claire-carson-park",
+      "name": {
+        "en": "Blugold Marching Band Practice Fields"
+      },
+      "description": {
+        "en": "Open fields in the park sometimes used by the massive 475-member university marching band for practice, filling the air with music."
+      },
+      "type": "culture",
+      "lat": 44.801,
+      "lng": -91.5165,
+      "trending_score": 72
+    }
+  ],
+  "tasks": [
+    {
+      "id": "eau-claire-downtown-task-1",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "River City Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a modern downtown building or a bridge in the surface of the Chippewa or Eau Claire River."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-2",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the downtown bridges from an unusual angle—get low to the ground or frame it with natural elements."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-3",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Art Spotter"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, whether a sculpture or a mural, and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-4",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Local Buzz"
+      },
+      "prompt": {
+        "en": "Find a local coffee shop and take a photo of your drink. Bonus points for latte art!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-5",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Community in Motion"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the energy of the neighborhood: cyclists on a trail, people at the market, or friends chatting on a bench."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-6",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Skyline Seeker"
+      },
+      "prompt": {
+        "en": "Find a viewpoint that shows the downtown skyline against the river and the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-7",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Nature Meets City"
+      },
+      "prompt": {
+        "en": "Frame a shot that perfectly contrasts the natural riverbank with the man-made architecture of downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-8",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Market Discovery"
+      },
+      "prompt": {
+        "en": "Find a vendor at the farmers market (or a local shop) selling a unique Wisconsin product and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-9",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Evening Glow"
+      },
+      "prompt": {
+        "en": "As dusk approaches, capture a photo of the city lights beginning to glow and reflect on the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-10",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Trailblazer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie at the start of a walking or biking path, ready for an adventure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-11",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on a modern building and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-downtown-task-12",
+      "neighborhood_id": "eau-claire-downtown",
+      "title": {
+        "en": "Two Rivers"
+      },
+      "prompt": {
+        "en": "Find a spot where you can see both the Chippewa and Eau Claire rivers and take a photo that captures their meeting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-1",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Campus Calm"
+      },
+      "prompt": {
+        "en": "Find a quiet, leafy corner in a park or on campus and take a photo that feels like a secret garden."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-2",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Scholarly Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a bench or lawn that looks like the perfect place to study or read a book."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-3",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture the contrast between historic brick architecture and the natural green landscape of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-4",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Signs of Student Life"
+      },
+      "prompt": {
+        "en": "Photograph a detail that says 'university life' without using any words (e.g., a backpack on a bench, a well-worn path, a flyer on a bulletin board)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-5",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Canopy View"
+      },
+      "prompt": {
+        "en": "Find a spot with dense trees and take a photo looking straight up through the canopy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-6",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Find a rustic, unpaved trail and take a photo looking down its path into the woods."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-7",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Golden Hour Shadows"
+      },
+      "prompt": {
+        "en": "During the late afternoon, capture the long, dramatic shadows cast by trees, buildings, or people."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-8",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or dedication marker and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-9",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Sounds of Music"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and listen for the sound of music practice. Take a photo of the place where you heard it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-10",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Take a photo of the Chippewa River from a low, ground-level perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-11",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Park Americana"
+      },
+      "prompt": {
+        "en": "Capture a scene in Owen Park that feels like a slice of classic Americana."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-university-task-12",
+      "neighborhood_id": "eau-claire-university",
+      "title": {
+        "en": "Student Fuel"
+      },
+      "prompt": {
+        "en": "Find a casual eatery or coffee shop catering to students and photograph its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-1",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Mirror Lake"
+      },
+      "prompt": {
+        "en": "On a calm day, find a spot where the water is perfectly still and capture a mirror-like reflection of the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-2",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Giant's Perspective"
+      },
+      "prompt": {
+        "en": "Find the largest, most majestic-looking tree you can and compose a photo that emphasizes its scale and age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-3",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a moment of classic park recreation: a picnic, a game of catch, or someone fishing from a dock."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-4",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Lakeside Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the vast expanse of Halfmoon Lake spreading out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-5",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "The Winding Path"
+      },
+      "prompt": {
+        "en": "Take a photo of the walking path as it curves around the lake, leading the viewer's eye into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-6",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Watercraft Spotting"
+      },
+      "prompt": {
+        "en": "Take a photo of a boat on the water, whether it's a kayak, a fishing boat, or a pontoon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-7",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Picnic Paradise"
+      },
+      "prompt": {
+        "en": "Find the most idyllic spot for a picnic and take a photo of it (with or without your picnic blanket!)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-8",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "View from the Dock"
+      },
+      "prompt": {
+        "en": "Walk out onto a fishing dock or pier and take a photo looking back at the shoreline."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-9",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Shades of Green"
+      },
+      "prompt": {
+        "en": "Compose a photo that captures at least three different shades of green from the park's trees, grass, and water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-10",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Listen for the Band"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and listen for the distant sound of the Blugold Marching Band. Take a photo of the open field where they might practice."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-11",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Sun-Dappled Trail"
+      },
+      "prompt": {
+        "en": "Capture a photo of sunlight filtering through the trees onto a walking path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "eau-claire-carson-park-task-12",
+      "neighborhood_id": "eau-claire-carson-park",
+      "title": {
+        "en": "Peninsula Panorama"
+      },
+      "prompt": {
+        "en": "Find a spot that gives you a wide view of the park and take a panoramic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

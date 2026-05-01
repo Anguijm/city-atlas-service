@@ -1,0 +1,675 @@
+{
+  "neighborhoods": [
+    {
+      "id": "beverley-historic-district",
+      "city_id": "staunton-va",
+      "name": {
+        "en": "The Beverley Historic District"
+      },
+      "summary": {
+        "en": "The undeniable heart of Staunton, this district is a living museum of late-19th-century architecture with an arts-forward and bustling vibe."
+      },
+      "lat": 38.1495,
+      "lng": -79.0715,
+      "trending_score": 95
+    },
+    {
+      "id": "sears-hill",
+      "city_id": "staunton-va",
+      "name": {
+        "en": "Sears Hill & Woodrow Park"
+      },
+      "summary": {
+        "en": "A quiet, historic residential neighborhood perched high above the city, offering a peaceful, contemplative atmosphere and sweeping views."
+      },
+      "lat": 38.1475,
+      "lng": -79.068,
+      "trending_score": 80
+    },
+    {
+      "id": "gypsy-hill-west-end",
+      "city_id": "staunton-va",
+      "name": {
+        "en": "Gypsy Hill Park & The West End"
+      },
+      "summary": {
+        "en": "Sprawling and green, this area is the city’s communal backyard, a place where locals come to play, relax, and reflect on history."
+      },
+      "lat": 38.155,
+      "lng": -79.085,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "beverley-historic-district-by-and-by",
+      "city_id": "staunton-va",
+      "neighborhood_id": "beverley-historic-district",
+      "name": {
+        "en": "The By & By Café and Beer Garden"
+      },
+      "description": {
+        "en": "A true local's hub with a relaxed, bohemian atmosphere, known for its coffee, craft beer, and a secluded, leafy back patio."
+      },
+      "type": "drink",
+      "lat": 38.14901,
+      "lng": -79.07005,
+      "trending_score": 88
+    },
+    {
+      "id": "beverley-historic-district-blackfriars",
+      "city_id": "staunton-va",
+      "neighborhood_id": "beverley-historic-district",
+      "name": {
+        "en": "Blackfriars Playhouse"
+      },
+      "description": {
+        "en": "A breathtaking, non-profit recreation of Shakespeare's indoor theatre that serves as a working playhouse and a transportive cultural landmark."
+      },
+      "type": "culture",
+      "lat": 38.14982,
+      "lng": -79.07081,
+      "trending_score": 98
+    },
+    {
+      "id": "beverley-historic-district-tj-collins-clocktower",
+      "city_id": "staunton-va",
+      "neighborhood_id": "beverley-historic-district",
+      "name": {
+        "en": "T.J. Collins' Clocktower Building"
+      },
+      "description": {
+        "en": "An iconic downtown landmark and the perfect starting point for a scavenger hunt to spot the nearly 200 buildings by architect T.J. Collins."
+      },
+      "type": "landmark",
+      "lat": 38.14935,
+      "lng": -79.07252,
+      "trending_score": 92
+    },
+    {
+      "id": "beverley-historic-district-art-sign",
+      "city_id": "staunton-va",
+      "neighborhood_id": "beverley-historic-district",
+      "name": {
+        "en": "\"What is ART?\" Clocktower Sign"
+      },
+      "description": {
+        "en": "A simple, thought-provoking piece of public art on the side of the iconic Clocktower that speaks to the city’s creative spirit."
+      },
+      "type": "hidden_gem",
+      "lat": 38.14938,
+      "lng": -79.07248,
+      "trending_score": 75
+    },
+    {
+      "id": "sears-hill-woodrow-park",
+      "city_id": "staunton-va",
+      "neighborhood_id": "sears-hill",
+      "name": {
+        "en": "Woodrow Park Scenic Overlook"
+      },
+      "description": {
+        "en": "The neighborhood's crown jewel, this small park offers a panoramic vista of historic downtown, the surrounding hills, and the train lines."
+      },
+      "type": "viewpoint",
+      "lat": 38.14722,
+      "lng": -79.06751,
+      "trending_score": 90
+    },
+    {
+      "id": "sears-hill-the-oaks",
+      "city_id": "staunton-va",
+      "neighborhood_id": "sears-hill",
+      "name": {
+        "en": "The Oaks"
+      },
+      "description": {
+        "en": "A private 1840s residence modified by Jedediah Hotchkiss, famed cartographer for the Confederate Army, making it a fascinating landmark to view from the street."
+      },
+      "type": "landmark",
+      "lat": 38.14785,
+      "lng": -79.06653,
+      "trending_score": 65
+    },
+    {
+      "id": "sears-hill-stuart-house",
+      "city_id": "staunton-va",
+      "neighborhood_id": "sears-hill",
+      "name": {
+        "en": "Stuart House"
+      },
+      "description": {
+        "en": "An elegant, Jefferson-inspired Federal-style home from the 18th century whose stately presence predates the surrounding Victorian boom."
+      },
+      "type": "landmark",
+      "lat": 38.14656,
+      "lng": -79.07104,
+      "trending_score": 70
+    },
+    {
+      "id": "gypsy-hill-west-end-park",
+      "city_id": "staunton-va",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "name": {
+        "en": "Gypsy Hill Park"
+      },
+      "description": {
+        "en": "A classic 214-acre American public park with a charmingly retro feel, serving as a hub of local life and recreation."
+      },
+      "type": "nature",
+      "lat": 38.15501,
+      "lng": -79.08502,
+      "trending_score": 90
+    },
+    {
+      "id": "gypsy-hill-west-end-duck-pond",
+      "city_id": "staunton-va",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "name": {
+        "en": "Gypsy Hill Park Duck Pond"
+      },
+      "description": {
+        "en": "A central feature of the park, perfect for a leisurely walk and capturing reflections of the Victorian-era bandstand on a calm day."
+      },
+      "type": "nature",
+      "lat": 38.15455,
+      "lng": -79.08601,
+      "trending_score": 78
+    },
+    {
+      "id": "gypsy-hill-west-end-mini-train",
+      "city_id": "staunton-va",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "name": {
+        "en": "Gypsy Express Mini-Train"
+      },
+      "description": {
+        "en": "A dose of pure nostalgia, this miniature train offers charming rides through the park and is a delight for all ages."
+      },
+      "type": "culture",
+      "lat": 38.15603,
+      "lng": -79.08458,
+      "trending_score": 75
+    },
+    {
+      "id": "gypsy-hill-west-end-booker-t-washington",
+      "city_id": "staunton-va",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "name": {
+        "en": "Booker T. Washington Community Center"
+      },
+      "description": {
+        "en": "Formerly the city's segregated high school, this building is a crucial part of Staunton's story and a place to reflect on the Civil Rights era."
+      },
+      "type": "landmark",
+      "lat": 38.15207,
+      "lng": -79.07801,
+      "trending_score": 70
+    },
+    {
+      "id": "gypsy-hill-west-end-montgomery-hall",
+      "city_id": "staunton-va",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "name": {
+        "en": "Montgomery Hall Park"
+      },
+      "description": {
+        "en": "Opened in 1950 as the only park for African-Americans before desegregation, its 148 acres offer a deeper understanding of the city's past."
+      },
+      "type": "nature",
+      "lat": 38.16004,
+      "lng": -79.07505,
+      "trending_score": 72
+    },
+    {
+      "id": "gypsy-hill-west-end-irene-givens-building",
+      "city_id": "staunton-va",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "name": {
+        "en": "Irene Givens Administration Building"
+      },
+      "description": {
+        "en": "A key building within Montgomery Hall Park, named for a local community leader."
+      },
+      "type": "landmark",
+      "lat": 38.16051,
+      "lng": -79.07552,
+      "trending_score": 55
+    }
+  ],
+  "tasks": [
+    {
+      "id": "beverley-historic-district-task-1",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Victorian Visions"
+      },
+      "prompt": {
+        "en": "Look up! Find the most ornate Victorian building facade and capture a photo of its intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-2",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Alleyway Explorer"
+      },
+      "prompt": {
+        "en": "Discover a hidden alley or narrow side street and take a photo that captures its unique character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-3",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Artistic Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows off the neighborhood's creative vibe, with public art or a colorful storefront in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-4",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Search the old brick buildings for a 'ghost sign'—a faded, hand-painted advertisement from a bygone era—and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-5",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Cafe Window Cravings"
+      },
+      "prompt": {
+        "en": "Find a local cafe and take a mouth-watering photo of a pastry or coffee creation through the window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-6",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Rooftop Geometry"
+      },
+      "prompt": {
+        "en": "Point your camera upwards and frame a shot of the sky using the historic rooftops and cornices as a geometric border."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-7",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Shakespearean Pose"
+      },
+      "prompt": {
+        "en": "Strike a dramatic pose like a character from a Shakespearean tragedy or comedy on a historic street corner."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-8",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Architectural Details"
+      },
+      "prompt": {
+        "en": "Find a unique architectural detail—an ornate window arch, a metal cresting, or a whimsical turret—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-9",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Cornerstone Chronology"
+      },
+      "prompt": {
+        "en": "Examine the base of the buildings until you find one with a date carved into its cornerstone. Photograph this piece of history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-10",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a menu board outside a local restaurant and take a picture of the most interesting-sounding dish."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-11",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Reflections of History"
+      },
+      "prompt": {
+        "en": "Capture a reflection of a historic building in a modern shop window or a puddle after rain."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "beverley-historic-district-task-12",
+      "neighborhood_id": "beverley-historic-district",
+      "title": {
+        "en": "Street Performer Spotlight"
+      },
+      "prompt": {
+        "en": "If you spot a busker or street performer, capture a respectful photo of them adding to the city's artistic soundtrack."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-1",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Room with a View"
+      },
+      "prompt": {
+        "en": "Find the best panoramic overlook of downtown Staunton and take a sweeping landscape photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-2",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Historic Home Portrait"
+      },
+      "prompt": {
+        "en": "Photograph a grand, historic home that looks like it has a hundred years of stories to tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-3",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Contemplative Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or peaceful spot and take a selfie that captures the calm, contemplative vibe of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-4",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Many homes here have beautiful gardens. Find one visible from the street and photograph your favorite flower or plant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-5",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Framing the View"
+      },
+      "prompt": {
+        "en": "Use a wrought-iron fence, a gate, or tree branches as a natural frame for a photo of a historic house or the view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-6",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "The Steepest Street"
+      },
+      "prompt": {
+        "en": "This is a vertical neighborhood! Find the steepest-looking street or staircase and take a photo that emphasizes the incline."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-7",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Doorway to the Past"
+      },
+      "prompt": {
+        "en": "Find a house with a unique or brightly colored front door and make it the star of your photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-8",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here in the late afternoon, capture a photo of the warm, golden light on the historic homes and long shadows on the streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-9",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Historical Marker Hunt"
+      },
+      "prompt": {
+        "en": "Look for a historical plaque on a building or in a park. Take a photo of it and learn a new fact about the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-10",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Texture Test"
+      },
+      "prompt": {
+        "en": "Get up close and personal with the neighborhood's history. Take a detailed photo of an old brick sidewalk, a stone wall, or peeling paint on a porch."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-11",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Many homes feature beautiful porches. Capture a photo of an inviting-looking porch, complete with rocking chairs or hanging plants."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sears-hill-task-12",
+      "neighborhood_id": "sears-hill",
+      "title": {
+        "en": "Viewpoint Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the entire city of Staunton laid out behind you from a high vantage point."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-1",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Community in Action"
+      },
+      "prompt": {
+        "en": "Capture a candid photo of local life: a baseball game, a family picnic, or friends walking by the pond."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-2",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Park Bench Respite"
+      },
+      "prompt": {
+        "en": "Find an empty park bench and take an artistic photo of it, imagining the stories it could tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-3",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Relaxation Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while enjoying a moment of peace and quiet on the park's sprawling green lawns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-4",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Find a spot that speaks to the area's history and take a thoughtful photo. Try using a black and white filter to evoke the past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-5",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Nature's Reflection"
+      },
+      "prompt": {
+        "en": "On a calm day, capture a perfect reflection of trees, the bandstand, or the sky in the park's duck pond."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-6",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Nostalgia Trip"
+      },
+      "prompt": {
+        "en": "Photograph something that feels charmingly retro or nostalgic, like the mini-train or the old-fashioned bandstand."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-7",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Follow the Path"
+      },
+      "prompt": {
+        "en": "Find a walking path or trail and take a photo looking down its length, using it as a leading line in your composition."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-8",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Playground Throwback"
+      },
+      "prompt": {
+        "en": "Pose on a swing or slide like you're a kid again for a fun, playful selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-9",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Monumental Discovery"
+      },
+      "prompt": {
+        "en": "Search for a monument, memorial, or dedication plaque within the park. Photograph it and read its inscription."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-10",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Mighty Oaks"
+      },
+      "prompt": {
+        "en": "Find the most interesting or majestic tree in the park and take a photo that captures its age and character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-11",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Sounds of the Park"
+      },
+      "prompt": {
+        "en": "Listen for the unique sounds of the park—a train whistle, music from the bandstand, cheering from a game—and capture a photo of the source."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gypsy-hill-west-end-task-12",
+      "neighborhood_id": "gypsy-hill-west-end",
+      "title": {
+        "en": "Wildlife Watch"
+      },
+      "prompt": {
+        "en": "Take a picture of the local wildlife. The ducks at the pond are a great place to start!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

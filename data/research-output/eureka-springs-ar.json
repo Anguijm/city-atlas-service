@@ -1,0 +1,600 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-crescent-hill",
+      "city_id": "eureka-springs-ar",
+      "name": {
+        "en": "Historic Downtown & Crescent Hill"
+      },
+      "summary": {
+        "en": "A vertical maze of Victorian-era stone buildings, winding streets, and hidden staircases with a thriving arts community and a touch of the supernatural."
+      },
+      "lat": 36.4035,
+      "lng": -93.7391,
+      "trending_score": 95
+    },
+    {
+      "id": "the-sacred-heights",
+      "city_id": "eureka-springs-ar",
+      "name": {
+        "en": "The Sacred Heights"
+      },
+      "summary": {
+        "en": "An open, expansive area dominated by monumental spiritual landmarks, offering vast, sweeping views and a quiet, contemplative atmosphere."
+      },
+      "lat": 36.3933,
+      "lng": -93.7205,
+      "trending_score": 80
+    },
+    {
+      "id": "westside-woodlands-sanctuaries",
+      "city_id": "eureka-springs-ar",
+      "name": {
+        "en": "Westside Woodlands & Architectural Sanctuaries"
+      },
+      "summary": {
+        "en": "A serene and contemplative district where world-class architecture and human creation exist in harmony with the quiet beauty of the Ozark nature."
+      },
+      "lat": 36.425,
+      "lng": -93.761,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-crescent-hill-crescent-hotel",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "name": {
+        "en": "Crescent Hotel (1886)"
+      },
+      "description": {
+        "en": "Known as 'America's Most Haunted Hotel,' this grand Victorian landmark offers a living museum of strange and layered history overlooking the town."
+      },
+      "type": "landmark",
+      "lat": 36.4061,
+      "lng": -93.7384,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-downtown-crescent-hill-railway",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "name": {
+        "en": "Eureka Springs & North Arkansas Railway"
+      },
+      "description": {
+        "en": "A beautifully preserved piece of industrial history where you can get up close to vintage locomotives and passenger cars from the golden age of steam travel."
+      },
+      "type": "landmark",
+      "lat": 36.4112,
+      "lng": -93.7335,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-crescent-hill-writers-colony",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "name": {
+        "en": "The Writers' Colony at Dairy Hollow"
+      },
+      "description": {
+        "en": "A significant cultural landmark and private retreat for writers that infuses the surrounding area with a quiet, literary energy."
+      },
+      "type": "culture",
+      "lat": 36.3989,
+      "lng": -93.7467,
+      "trending_score": 70
+    },
+    {
+      "id": "the-sacred-heights-christ-of-the-ozarks",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "the-sacred-heights",
+      "name": {
+        "en": "Christ of the Ozarks"
+      },
+      "description": {
+        "en": "A seven-story, modernist statue of Jesus that stands as a compelling and slightly uncanny landmark against the lush green landscape."
+      },
+      "type": "landmark",
+      "lat": 36.3938,
+      "lng": -93.7208,
+      "trending_score": 92
+    },
+    {
+      "id": "the-sacred-heights-passion-play-grounds",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "the-sacred-heights",
+      "name": {
+        "en": "The Grounds of The Great Passion Play"
+      },
+      "description": {
+        "en": "Manicured lawns and open spaces offering some of the most commanding viewpoints of the Ozark hills and valleys that cradle Eureka Springs."
+      },
+      "type": "viewpoint",
+      "lat": 36.3925,
+      "lng": -93.7195,
+      "trending_score": 82
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-thorncrown-chapel",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "name": {
+        "en": "Thorncrown Chapel"
+      },
+      "description": {
+        "en": "An architectural marvel of glass and wood hidden in the forest, where the surrounding nature becomes the walls of the sanctuary."
+      },
+      "type": "culture",
+      "lat": 36.4195,
+      "lng": -93.7682,
+      "trending_score": 100
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-lake-leatherwood",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "name": {
+        "en": "Lake Leatherwood Park"
+      },
+      "description": {
+        "en": "A vast nature preserve centered on an 85-acre lake formed by a historic, hand-cut limestone dam, offering a dose of pure Ozark nature."
+      },
+      "type": "nature",
+      "lat": 36.4331,
+      "lng": -93.7553,
+      "trending_score": 89
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-blue-spring",
+      "city_id": "eureka-springs-ar",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "name": {
+        "en": "Blue Spring Heritage Center"
+      },
+      "description": {
+        "en": "A tranquil oasis sacred to Native American tribes, where 38 million gallons of cold water pour daily into a trout-filled lagoon."
+      },
+      "type": "nature",
+      "lat": 36.4586,
+      "lng": -93.7314,
+      "trending_score": 87
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-crescent-hill-task-1",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Vertical Views"
+      },
+      "prompt": {
+        "en": "Find one of the many steep, winding streets and take a photo looking straight up or down to capture the town's unique verticality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-2",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Stairway to Somewhere"
+      },
+      "prompt": {
+        "en": "Discover and photograph a hidden public staircase connecting two different levels of the town. Where does it lead?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-3",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Victorian Detail"
+      },
+      "prompt": {
+        "en": "Get up close to one of the historic stone buildings and capture a photo of an interesting architectural detail, like ornate trim, a unique window, or stonework."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-4",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "The town is famous for ghost stories. Find a sign, flyer, or storefront for a local ghost tour and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-5",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Artistic Soul"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a sign for an artist's gallery that you think captures the creative spirit of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-6",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Spring Seeker"
+      },
+      "prompt": {
+        "en": "Many of the town's namesake springs are tucked away. Find a public spring and photograph the grotto or basin where the water emerges."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-7",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Maze Runner Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you 'getting lost' in the charming maze of narrow streets and alleys."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-8",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Shopfront Story"
+      },
+      "prompt": {
+        "en": "Photograph the storefront of a shop that looks like it has been here for a hundred years. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-9",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Find a cafe or bakery and take an artful photo of a locally made treat you're about to enjoy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-10",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Balcony View"
+      },
+      "prompt": {
+        "en": "Many buildings have balconies. Capture a photo looking up at an interesting one from street level."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-11",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic building stands next to a modern one. Capture the contrast in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-crescent-hill-task-12",
+      "neighborhood_id": "historic-downtown-crescent-hill",
+      "title": {
+        "en": "Hidden Garden"
+      },
+      "prompt": {
+        "en": "Look for a small, hidden garden or a collection of potted plants tucked into an alley or courtyard and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-1",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Expansive Ozarks"
+      },
+      "prompt": {
+        "en": "Find a viewpoint and take a wide, panoramic photo of the rolling Ozark hills and valleys."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-2",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Feeling Small"
+      },
+      "prompt": {
+        "en": "Take a photo of a person (or yourself) next to a monumental structure or in a wide-open space to emphasize the grand scale of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-3",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Sky Above"
+      },
+      "prompt": {
+        "en": "From an open area, point your camera straight up and capture a photo of the vast, open sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-4",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Contemplative Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or spot on the grass that looks perfect for quiet reflection and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-5",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Manicured Nature"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between the manicured lawns and the wild Ozark forest in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-6",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Pilgrim's Path"
+      },
+      "prompt": {
+        "en": "Photograph a pathway or road in a way that makes it look like a symbolic journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-7",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Surreal Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the slightly surreal and larger-than-life atmosphere of this district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-8",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Long Shadows"
+      },
+      "prompt": {
+        "en": "In the late afternoon, use the open spaces to capture a photo of long, dramatic shadows stretching across the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-9",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "A Sign of Faith"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign, plaque, or symbol that speaks to the spiritual focus of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-10",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Distant Town"
+      },
+      "prompt": {
+        "en": "From a high vantage point, try to spot and photograph the historic downtown nestled in the valley below."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-11",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Minimalist Landscape"
+      },
+      "prompt": {
+        "en": "Compose a minimalist photo focusing on just two or three elements: the sky, a distant hill, and a single tree or structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-sacred-heights-task-12",
+      "neighborhood_id": "the-sacred-heights",
+      "title": {
+        "en": "Horizon Line"
+      },
+      "prompt": {
+        "en": "Take a photo where the horizon line of the Ozark mountains is the main subject."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-1",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Forest Light"
+      },
+      "prompt": {
+        "en": "Capture a photo of sunlight filtering through the canopy of trees, creating patterns of light and shadow on the forest floor."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-2",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Nature's Textures"
+      },
+      "prompt": {
+        "en": "Find an interesting natural texture—like moss on a rock, the bark of a tree, or ripples on water—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-3",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Serene Selfie"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot in the woods or by the water and take a quiet, contemplative selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-4",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Path into the Woods"
+      },
+      "prompt": {
+        "en": "Photograph a walking trail as it disappears into the forest, inviting exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-5",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Find a body of water and capture the reflection of the trees and sky on its surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-6",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Architectural Harmony"
+      },
+      "prompt": {
+        "en": "Find an example of a man-made structure (a bench, a sign, a building) that seems to blend harmoniously with its natural surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-7",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Listen to the Forest"
+      },
+      "prompt": {
+        "en": "Pause for a moment and listen. Take a photo of the spot where you stood and describe the sounds you heard (birds, wind, water)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-8",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Wildflower Discovery"
+      },
+      "prompt": {
+        "en": "Search for a wildflower and take a macro photo of it. Can you identify it?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-9",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Ancient Stone"
+      },
+      "prompt": {
+        "en": "The Ozarks are ancient. Find an interesting rock formation or a weathered stone wall and photograph its rugged character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-10",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Shades of Green"
+      },
+      "prompt": {
+        "en": "Compose a photo that captures at least three different shades of green from the surrounding foliage."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-11",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Sanctuary Seeker"
+      },
+      "prompt": {
+        "en": "Find a spot that feels like a natural sanctuary or a private hideaway and capture its essence in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-woodlands-sanctuaries-task-12",
+      "neighborhood_id": "westside-woodlands-sanctuaries",
+      "title": {
+        "en": "Human and Nature"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both a person and a large natural element (like a big tree or a lake) to show the relationship between them."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

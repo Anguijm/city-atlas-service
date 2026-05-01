@@ -1,0 +1,840 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-plaza",
+      "city_id": "ashland-or",
+      "name": {
+        "en": "The Downtown Core & Plaza"
+      },
+      "summary": {
+        "en": "The cultural and historic heart of Ashland, blending Elizabethan-era drama with relaxed, small-town life around a central plaza and a hidden creekside alley."
+      },
+      "lat": 42.1955,
+      "lng": -122.7183,
+      "trending_score": 95
+    },
+    {
+      "id": "lithia-park",
+      "city_id": "ashland-or",
+      "name": {
+        "en": "Lithia Park & The Greenway"
+      },
+      "summary": {
+        "en": "Ashland's 93-acre green lung, shifting from manicured gardens near downtown to wilder, wooded trails. A sanctuary for quiet walks, picnics, and nature."
+      },
+      "lat": 42.1921,
+      "lng": -122.7165,
+      "trending_score": 90
+    },
+    {
+      "id": "university-district",
+      "city_id": "ashland-or",
+      "name": {
+        "en": "The University District & A Scientific Oddity"
+      },
+      "summary": {
+        "en": "A quieter area with an academic atmosphere, defined by the Southern Oregon University campus, contemporary art, and a uniquely secretive federal facility."
+      },
+      "lat": 42.1835,
+      "lng": -122.7058,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-plaza-ashland-plaza",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Ashland Plaza"
+      },
+      "description": {
+        "en": "The central hub of Ashland's cultural and social life, where the energy of the theater district comes alive. Ideal for people-watching and pre-show strolls."
+      },
+      "type": "landmark",
+      "lat": 42.1958,
+      "lng": -122.7181,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-plaza-lithia-fountains",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Lithia Water Fountains"
+      },
+      "description": {
+        "en": "A quirky local tradition where you can taste naturally carbonated mineral water with a famously strong, sulfuric flavor. A true taste of the town's geology."
+      },
+      "type": "landmark",
+      "lat": 42.1956,
+      "lng": -122.7179,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-plaza-calle-guanajuato",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Restaurants on Calle Guanajuato"
+      },
+      "description": {
+        "en": "A narrow, European-style lane along Ashland Creek known for its collection of independent restaurants with charming patios overlooking the water."
+      },
+      "type": "food",
+      "lat": 42.1952,
+      "lng": -122.7178,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-plaza-osf-campus",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Oregon Shakespeare Festival Campus"
+      },
+      "description": {
+        "en": "The grounds of the largest regional repertory theater in the U.S., featuring a fascinating mix of architecture and cultural significance."
+      },
+      "type": "culture",
+      "lat": 42.1948,
+      "lng": -122.7172,
+      "trending_score": 100
+    },
+    {
+      "id": "downtown-plaza-allen-theatre",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Allen Elizabethan Theatre"
+      },
+      "description": {
+        "en": "A stunning open-air theater on the OSF campus, offering a dramatic contrast between its historic style and the modern buildings surrounding it."
+      },
+      "type": "culture",
+      "lat": 42.1946,
+      "lng": -122.7175,
+      "trending_score": 96
+    },
+    {
+      "id": "downtown-plaza-cabaret-theatre",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Oregon Cabaret Theatre"
+      },
+      "description": {
+        "en": "A year-round musical and comedy theater housed in a beautifully preserved former church with distinctive Mission Revival architecture."
+      },
+      "type": "culture",
+      "lat": 42.1969,
+      "lng": -122.7155,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-plaza-creek-walk",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Ashland Creek Walk"
+      },
+      "description": {
+        "en": "A scenic path that runs alongside Ashland Creek, just behind the Plaza, offering a peaceful natural escape in the heart of downtown."
+      },
+      "type": "nature",
+      "lat": 42.195,
+      "lng": -122.718,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-plaza-side-street-cafes",
+      "city_id": "ashland-or",
+      "neighborhood_id": "downtown-plaza",
+      "name": {
+        "en": "Plaza Side Street Cafes"
+      },
+      "description": {
+        "en": "An area of discovery where you can bypass chains and seek out the independent coffee shops tucked away on the side streets branching off the main Plaza."
+      },
+      "type": "drink",
+      "lat": 42.1963,
+      "lng": -122.7185,
+      "trending_score": 78
+    },
+    {
+      "id": "lithia-park-bandshell",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Butler Memorial Band Shell"
+      },
+      "description": {
+        "en": "A classic outdoor stage built in 1946 that evokes a sense of community history and is home to free public concerts in the summer."
+      },
+      "type": "landmark",
+      "lat": 42.1935,
+      "lng": -122.716,
+      "trending_score": 80
+    },
+    {
+      "id": "lithia-park-japanese-garden",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Japanese Garden"
+      },
+      "description": {
+        "en": "A beautifully designed and maintained sanctuary within the larger park, offering a pocket of pure tranquility with stone lanterns and a koi pond."
+      },
+      "type": "nature",
+      "lat": 42.1895,
+      "lng": -122.7148,
+      "trending_score": 90
+    },
+    {
+      "id": "lithia-park-greenway-trailhead",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Bear Creek Greenway Trailhead"
+      },
+      "description": {
+        "en": "The starting line for an 18-mile paved path connecting Ashland to neighboring towns, offering a different perspective of the city as it gives way to nature."
+      },
+      "type": "nature",
+      "lat": 42.1995,
+      "lng": -122.7091,
+      "trending_score": 82
+    },
+    {
+      "id": "lithia-park-duck-ponds",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Lithia Park Duck Ponds"
+      },
+      "description": {
+        "en": "A tranquil and scenic spot within the park, perfect for a quiet moment, watching the waterfowl, or as a backdrop for a picnic."
+      },
+      "type": "nature",
+      "lat": 42.1915,
+      "lng": -122.7155,
+      "trending_score": 85
+    },
+    {
+      "id": "lithia-park-picnic-meadows",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Lithia Park Picnic Meadows"
+      },
+      "description": {
+        "en": "The large public greens near the park entrance are the perfect spot to enjoy takeout from a downtown eatery for an idyllic picnic."
+      },
+      "type": "food",
+      "lat": 42.194,
+      "lng": -122.7168,
+      "trending_score": 75
+    },
+    {
+      "id": "lithia-park-upper-trails",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Upper Lithia Park Trails"
+      },
+      "description": {
+        "en": "Explore the wilder, wooded trails further into the park for a more immersive nature walk away from the manicured gardens."
+      },
+      "type": "nature",
+      "lat": 42.1868,
+      "lng": -122.7135,
+      "trending_score": 78
+    },
+    {
+      "id": "lithia-park-park-entrance",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Lithia Park Entrance"
+      },
+      "description": {
+        "en": "The main gateway to the park from the downtown Plaza, where the manicured gardens begin and the town's green sanctuary unfolds."
+      },
+      "type": "landmark",
+      "lat": 42.1945,
+      "lng": -122.7178,
+      "trending_score": 84
+    },
+    {
+      "id": "lithia-park-coffee-walk",
+      "city_id": "ashland-or",
+      "neighborhood_id": "lithia-park",
+      "name": {
+        "en": "Coffee-to-Go Benches"
+      },
+      "description": {
+        "en": "Grab a coffee from a nearby cafe and find a quiet bench within the park for a walking conversation or a moment of peaceful reflection."
+      },
+      "type": "drink",
+      "lat": 42.193,
+      "lng": -122.717,
+      "trending_score": 70
+    },
+    {
+      "id": "university-district-forensics-lab",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "National Fish and Wildlife Forensics Laboratory"
+      },
+      "description": {
+        "en": "The world's only laboratory dedicated to solving crimes against wildlife. A true hidden gem you can only view from the outside."
+      },
+      "type": "hidden_gem",
+      "lat": 42.1913,
+      "lng": -122.6975,
+      "trending_score": 95
+    },
+    {
+      "id": "university-district-schneider-museum",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "Schneider Museum of Art"
+      },
+      "description": {
+        "en": "The primary contemporary art museum in the region, located on the SOU campus and offering rotating exhibitions in a clean, modern space."
+      },
+      "type": "culture",
+      "lat": 42.183,
+      "lng": -122.7045,
+      "trending_score": 85
+    },
+    {
+      "id": "university-district-oca",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "Oregon Center for the Arts (at SOU)"
+      },
+      "description": {
+        "en": "The creative hub of the university, where you can see campus architecture, spot public art, and feel the energy of the student community."
+      },
+      "type": "culture",
+      "lat": 42.1838,
+      "lng": -122.7048,
+      "trending_score": 80
+    },
+    {
+      "id": "university-district-sou-campus",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "Southern Oregon University Campus"
+      },
+      "description": {
+        "en": "The grounds of Southern Oregon University, offering a quieter, more academic atmosphere for a walk away from the downtown tourist bustle."
+      },
+      "type": "landmark",
+      "lat": 42.1845,
+      "lng": -122.7065,
+      "trending_score": 75
+    },
+    {
+      "id": "university-district-student-cafes",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "University District Cafes"
+      },
+      "description": {
+        "en": "Explore the streets bordering the SOU campus to find independent, student-focused coffee shops with a local, less touristy feel."
+      },
+      "type": "drink",
+      "lat": 42.1865,
+      "lng": -122.7075,
+      "trending_score": 70
+    },
+    {
+      "id": "university-district-student-eateries",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "University District Eateries"
+      },
+      "description": {
+        "en": "Discover the affordable, no-frills eateries that fuel the student body, such as pizza-by-the-slice joints and delis."
+      },
+      "type": "food",
+      "lat": 42.1868,
+      "lng": -122.7068,
+      "trending_score": 72
+    },
+    {
+      "id": "university-district-public-art",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "SOU Public Art Installations"
+      },
+      "description": {
+        "en": "Wander the university campus on a hunt for the many interesting and unusual pieces of outdoor sculpture and art installations."
+      },
+      "type": "culture",
+      "lat": 42.184,
+      "lng": -122.7055,
+      "trending_score": 78
+    },
+    {
+      "id": "university-district-arts-architecture",
+      "city_id": "ashland-or",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "SOU Arts Buildings Architectural Walk"
+      },
+      "description": {
+        "en": "Take a walk around the buildings that house the music, theater, and art programs to appreciate the campus architecture and creative energy."
+      },
+      "type": "landmark",
+      "lat": 42.1836,
+      "lng": -122.705,
+      "trending_score": 76
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-plaza-task-1",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Elizabethan Echoes"
+      },
+      "prompt": {
+        "en": "Find and photograph an architectural detail or sign that evokes an 'Old English' or Shakespearean feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-2",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Dramatic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie striking a dramatic pose, as if you are the star of your own play on the streets of Ashland."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-3",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Creekside Contemplation"
+      },
+      "prompt": {
+        "en": "Capture a photo of the Ashland Creek as it flows through the downtown core."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-4",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "The Show Must Go On"
+      },
+      "prompt": {
+        "en": "Find a poster or advertisement for a local theater production and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-5",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Pre-Show Ritual"
+      },
+      "prompt": {
+        "en": "Take a photo of your pre-theater coffee, drink, or snack from a local independent shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-6",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Frame a shot that captures both historic and modern architecture in the same picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-7",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most interesting or quirky window display in a local shop and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-8",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a restaurant menu and take a picture of the most appealing locally-inspired dish."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-9",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Plaza People"
+      },
+      "prompt": {
+        "en": "Capture the energy of the Plaza by taking a photo of the flow of people (from a respectful distance)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-10",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Street Scene"
+      },
+      "prompt": {
+        "en": "Take a photo down a side street that looks inviting to explore."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-11",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Historic Marker Hunt"
+      },
+      "prompt": {
+        "en": "Find and photograph a historic plaque on one of the downtown buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-plaza-task-12",
+      "neighborhood_id": "downtown-plaza",
+      "title": {
+        "en": "Art in the Alley"
+      },
+      "prompt": {
+        "en": "Discover and capture a photo of a mural or piece of public art hidden in an alley or side street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-1",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up, macro photo of an interesting natural texture: tree bark, a mossy stone, or a detailed leaf."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-2",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Peaceful Park Selfie"
+      },
+      "prompt": {
+        "en": "Find a tranquil spot by water (the creek or a pond) and take a serene selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-3",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Sunlight Through The Trees"
+      },
+      "prompt": {
+        "en": "Capture an artistic photo of the way sunlight filters through the canopy of trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-4",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "The Perfect Picnic"
+      },
+      "prompt": {
+        "en": "Stage a photo of your picnic, or if you don't have one, find the perfect picnic spot and photograph the view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-5",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Path to Adventure"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a winding path or trail that disappears into the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-6",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Shades of Green"
+      },
+      "prompt": {
+        "en": "Compose a photo that includes at least three distinct shades of green."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-7",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Bridge Portrait"
+      },
+      "prompt": {
+        "en": "Find one of the park's charming bridges and take a photo of it, focusing on its design and surroundings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-8",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Bench with a View"
+      },
+      "prompt": {
+        "en": "Find an empty park bench and take a photo from its perspective. What does the bench see?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-9",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Ancient Guardian"
+      },
+      "prompt": {
+        "en": "Find the largest or most ancient-looking tree you can and take a photo that emphasizes its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-10",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the sky, trees, or yourself in one of the park's bodies of water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-11",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Park Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes you look like a rugged nature explorer on an expedition."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lithia-park-task-12",
+      "neighborhood_id": "lithia-park",
+      "title": {
+        "en": "Listen to the Park"
+      },
+      "prompt": {
+        "en": "Find a quiet spot. Close your eyes for 30 seconds. Then, take a photo of what you were hearing (e.g., rustling leaves, flowing water, birds)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-1",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Academic Atmosphere"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the 'college town' vibe – a backpack left on a bench, a student on a laptop, or a bulletin board full of flyers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-2",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Scholarly Selfie"
+      },
+      "prompt": {
+        "en": "Take a studious-looking selfie in front of an academic-looking building on campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-3",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Modern Lines"
+      },
+      "prompt": {
+        "en": "Find a modern building on campus and take a photo focusing on its interesting angles, lines, or materials."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-4",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Student Fuel"
+      },
+      "prompt": {
+        "en": "Find a cafe or eatery catering to students and take a photo of its menu or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-5",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Artful Reflection"
+      },
+      "prompt": {
+        "en": "Use the glass facade of a modern building to capture an abstract photo of the reflection of the sky or trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-6",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Campus Secret"
+      },
+      "prompt": {
+        "en": "Find a quiet, hidden-away spot on campus that would make a great place to study or relax, and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-7",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Living Statue"
+      },
+      "prompt": {
+        "en": "Find a piece of outdoor sculpture and take a selfie mimicking its pose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-8",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Top Secret Selfie"
+      },
+      "prompt": {
+        "en": "Take a mysterious, 'secret agent' style selfie in front of an unassuming, official-looking building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-9",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Bike Culture"
+      },
+      "prompt": {
+        "en": "Find the most interesting or colorful bicycle locked up on campus and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-10",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Campus Pathways"
+      },
+      "prompt": {
+        "en": "Capture a photo of the intersecting walkways and paths on campus, showing the routes students take."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-11",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Signs of Learning"
+      },
+      "prompt": {
+        "en": "Find and photograph a sign for a university department or building with an interesting name."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-12",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Town and Gown"
+      },
+      "prompt": {
+        "en": "Take a photo that shows where the university campus meets the residential neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "russian-american-core",
+      "city_id": "sitka-ak",
+      "name": {
+        "en": "The Russian-American Core"
+      },
+      "summary": {
+        "en": "A palpable sense of history where onion domes rise against evergreen-choked mountains, this is the historic heart of Sitka where the transfer of Alaska from Russia to the United States took place."
+      },
+      "lat": 57.0521,
+      "lng": -135.3325,
+      "trending_score": 95
+    },
+    {
+      "id": "tlingit-heritage-trail",
+      "city_id": "sitka-ak",
+      "name": {
+        "en": "Tlingit Heritage & Totem Park Trail"
+      },
+      "summary": {
+        "en": "A serene and powerful walk through temperate rainforest where history is told through the towering, carved faces of totem poles, connecting you with the region's deep-rooted Tlingit culture."
+      },
+      "lat": 57.0465,
+      "lng": -135.3235,
+      "trending_score": 92
+    },
+    {
+      "id": "wildlife-nature-walk",
+      "city_id": "sitka-ak",
+      "name": {
+        "en": "The Wildlife & Nature Walk"
+      },
+      "summary": {
+        "en": "This exploration takes you to the edge of town where human settlement and the vast Tongass National Forest blur, offering up-close encounters with Alaska's incredible wildlife."
+      },
+      "lat": 57.0615,
+      "lng": -135.295,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "russian-american-core-st-michaels-cathedral",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "russian-american-core",
+      "name": {
+        "en": "St. Michael's Cathedral"
+      },
+      "description": {
+        "en": "An iconic Russian Orthodox cathedral with distinctive green onion domes, it's a striking reminder of Sitka's past as the capital of Russian America."
+      },
+      "type": "landmark",
+      "lat": 57.053,
+      "lng": -135.3315,
+      "trending_score": 98
+    },
+    {
+      "id": "russian-american-core-baranof-castle-hill",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "russian-american-core",
+      "name": {
+        "en": "Baranof Castle Hill (Castle Hill State Historic Site)"
+      },
+      "description": {
+        "en": "Arguably the most historically significant land in Alaska, this is where the American flag was first raised over the territory in 1867, offering 360-degree views."
+      },
+      "type": "viewpoint",
+      "lat": 57.0513,
+      "lng": -135.3345,
+      "trending_score": 96
+    },
+    {
+      "id": "russian-american-core-russian-bishops-house",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "russian-american-core",
+      "name": {
+        "en": "Russian Bishop's House"
+      },
+      "description": {
+        "en": "One of the last surviving examples of Russian colonial architecture in North America, this meticulously restored log structure offers a glimpse into the life of Orthodox missionaries."
+      },
+      "type": "culture",
+      "lat": 57.052,
+      "lng": -135.328,
+      "trending_score": 90
+    },
+    {
+      "id": "russian-american-core-sitka-pioneer-home",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "russian-american-core",
+      "name": {
+        "en": "Sitka Pioneer Home"
+      },
+      "description": {
+        "en": "A stately, historic building overlooking the harbor, this state-run retirement home has peaceful grounds and speaks to the deep community roots of Alaska."
+      },
+      "type": "landmark",
+      "lat": 57.05,
+      "lng": -135.335,
+      "trending_score": 80
+    },
+    {
+      "id": "tlingit-heritage-trail-sitka-national-historical-park",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "name": {
+        "en": "Sitka National Historical Park"
+      },
+      "description": {
+        "en": "Alaska's oldest federally protected park, preserving the site of a Tlingit-Russian battle and featuring a stunning Totem Trail through the forest."
+      },
+      "type": "nature",
+      "lat": 57.0465,
+      "lng": -135.3235,
+      "trending_score": 99
+    },
+    {
+      "id": "tlingit-heritage-trail-sheetka-kwaan-naa-kahidi",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "name": {
+        "en": "Sheet’ká Kwáan Naa Kahídi"
+      },
+      "description": {
+        "en": "The Sitka Tlingit tribal community house, a beautiful example of Northwest Coast architecture and a vital center for cultural preservation and practice."
+      },
+      "type": "culture",
+      "lat": 57.0468,
+      "lng": -135.323,
+      "trending_score": 88
+    },
+    {
+      "id": "tlingit-heritage-trail-sheldon-jackson-museum",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "name": {
+        "en": "Sheldon Jackson Museum"
+      },
+      "description": {
+        "en": "This unique octagonal museum houses an extraordinary collection of Alaska Native artifacts, offering a comprehensive look at the diverse cultures across the state."
+      },
+      "type": "culture",
+      "lat": 57.0475,
+      "lng": -135.325,
+      "trending_score": 85
+    },
+    {
+      "id": "wildlife-nature-walk-alaska-raptor-center",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-nature-walk",
+      "name": {
+        "en": "Alaska Raptor Center"
+      },
+      "description": {
+        "en": "A renowned rehabilitation center that lets you come face-to-face with permanent residents like majestic bald eagles, owls, and falcons."
+      },
+      "type": "nature",
+      "lat": 57.058,
+      "lng": -135.305,
+      "trending_score": 94
+    },
+    {
+      "id": "wildlife-nature-walk-fortress-of-the-bear",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-nature-walk",
+      "name": {
+        "en": "Fortress of the Bear"
+      },
+      "description": {
+        "en": "A unique rescue facility providing a home for orphaned brown and black bears, with viewing platforms for safe, close-up observation."
+      },
+      "type": "nature",
+      "lat": 57.075,
+      "lng": -135.255,
+      "trending_score": 97
+    },
+    {
+      "id": "wildlife-nature-walk-swan-lake",
+      "city_id": "sitka-ak",
+      "neighborhood_id": "wildlife-nature-walk",
+      "name": {
+        "en": "Swan Lake"
+      },
+      "description": {
+        "en": "A beautiful freshwater lake on the edge of town, offering stunning reflections of the surrounding mountains and a favorite walking spot for locals."
+      },
+      "type": "nature",
+      "lat": 57.055,
+      "lng": -135.315,
+      "trending_score": 82
+    }
+  ],
+  "tasks": [
+    {
+      "id": "russian-american-core-task-1",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Echoes of Russia"
+      },
+      "prompt": {
+        "en": "Find a piece of architecture that shows Sitka's Russian history. Capture its most unique detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-2",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Mountain & Sea Vista"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both the mountains and the sea in a single frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-3",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Harbor Life"
+      },
+      "prompt": {
+        "en": "Photograph a fishing boat and try to capture the character of the vessel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-4",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Historic Marker Quest"
+      },
+      "prompt": {
+        "en": "Find any historical plaque or sign. Take a picture of it with its subject in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-5",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Colonial Craftsmanship"
+      },
+      "prompt": {
+        "en": "Find an old building and take a close-up shot of its construction, like log corners, old windows, or stonework."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-6",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Twilight's Glow"
+      },
+      "prompt": {
+        "en": "As dusk settles, capture a photo of a building or street illuminated against the darkening sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-7",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Pioneer Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a view that you think an early Alaskan pioneer would have appreciated."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-8",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Flag Over Alaska"
+      },
+      "prompt": {
+        "en": "Find an American flag and frame it against a distinctly Alaskan backdrop like the ocean or mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-9",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "The Color of History"
+      },
+      "prompt": {
+        "en": "Find a bold color on a historic building and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-10",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "View from the Top"
+      },
+      "prompt": {
+        "en": "Find a high point, even if it's just a small hill or staircase, and capture the view of the town below."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-11",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Play with light and shadow. Capture an interesting shadow cast by a historic building or statue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "russian-american-core-task-12",
+      "neighborhood_id": "russian-american-core",
+      "title": {
+        "en": "Seaside Stroll"
+      },
+      "prompt": {
+        "en": "Take a photo from the waterfront that captures the feeling of this town's connection to the sea."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-1",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Totem's Gaze"
+      },
+      "prompt": {
+        "en": "Find a totem pole and take a photo from a low angle, making it look as tall and powerful as possible."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-2",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Rainforest Texture"
+      },
+      "prompt": {
+        "en": "Get close to a tree trunk and capture the intricate textures of the moss and bark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-3",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Forest Canopy"
+      },
+      "prompt": {
+        "en": "Stand in the forest, look straight up, and take a picture of the sky through the canopy of trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-4",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Formline Art Finder"
+      },
+      "prompt": {
+        "en": "Find an example of the bold, flowing lines of Tlingit formline art on a carving or building and capture a detail of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-5",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Take a photo of a walking path or trail as it disappears into the forest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-6",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Nature's Storyteller"
+      },
+      "prompt": {
+        "en": "Find a raven or an eagle. Try to capture a photo of this important cultural figure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-7",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Reflective Moment Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet, serene spot. Take a selfie that captures the peaceful atmosphere of the forest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-8",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Carved Expressions"
+      },
+      "prompt": {
+        "en": "Focus on the face of a single figure on a totem pole. Capture its expression."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-9",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "River's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo where the forest meets the water, showing the lush greenery along the shoreline."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-10",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Whispers of the Past"
+      },
+      "prompt": {
+        "en": "Photograph a scene that you feel represents the meeting of Tlingit culture and the natural environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-11",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "The Color Green"
+      },
+      "prompt": {
+        "en": "Take a photo that showcases at least five different shades of green in the rainforest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tlingit-heritage-trail-task-12",
+      "neighborhood_id": "tlingit-heritage-trail",
+      "title": {
+        "en": "Crest Animal Spotting"
+      },
+      "prompt": {
+        "en": "Find a representation of an Eagle, Raven, Wolf, or Bear and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-1",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Mountain Reflection"
+      },
+      "prompt": {
+        "en": "Find a body of water, like a lake or a large puddle, and capture the reflection of the mountains or trees on its surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-2",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Edge of the Wild"
+      },
+      "prompt": {
+        "en": "Take a photo that shows where the town ends and the vast Tongass National Forest begins."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-3",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Avian Portrait"
+      },
+      "prompt": {
+        "en": "Try to get a clear shot of any bird you see, whether it's an eagle, a raven, or a duck on the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-4",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Flora Focus"
+      },
+      "prompt": {
+        "en": "Find an interesting local plant, flower, or berry and take a detailed close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-5",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Signs of Wildlife"
+      },
+      "prompt": {
+        "en": "Look for indirect signs of animals, like tracks, chewed leaves, or a nest. Photograph the evidence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-6",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Wilderness Walker Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a trail or path with the wild Alaskan landscape stretching out behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-7",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "The Sound of Nature"
+      },
+      "prompt": {
+        "en": "Find a spot where you can hear nature clearly (a rushing stream, birdsong). Take a photo that you feel represents that sound."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-8",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Waterfowl Watch"
+      },
+      "prompt": {
+        "en": "Find a lake or pond and take a picture of the ducks, swans, or other waterfowl you can spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-9",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Scale of the Forest"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the immense scale of the trees. Try including a person or object for comparison."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-10",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Nature's Patterns"
+      },
+      "prompt": {
+        "en": "Find a repeating pattern in nature—ripples in water, the arrangement of leaves, or the texture of rock—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-11",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "The Open Road"
+      },
+      "prompt": {
+        "en": "Capture a photo of the road leading out of town, with the forest or mountains framing it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "wildlife-nature-walk-task-12",
+      "neighborhood_id": "wildlife-nature-walk",
+      "title": {
+        "en": "Peaceful Water"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the calm, serene surface of a lake or pond."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

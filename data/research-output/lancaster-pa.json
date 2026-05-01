@@ -1,0 +1,645 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "lancaster-pa",
+      "name": {
+        "en": "The Downtown Core (Penn Square & Gallery Row)"
+      },
+      "summary": {
+        "en": "This is the historic and commercial heart of Lancaster, where the daily buzz of city life plays out against a backdrop of magnificent 19th and early 20th-century architecture."
+      },
+      "lat": 40.0395,
+      "lng": -76.3055,
+      "trending_score": 95
+    },
+    {
+      "id": "industrial-north",
+      "city_id": "lancaster-pa",
+      "name": {
+        "en": "The Industrial North (Northwest Corridor)"
+      },
+      "summary": {
+        "en": "A masterclass in creative reuse, where soaring brick warehouses and factory complexes have been reborn as hotels, art spaces, and modern residences with an industrial-chic vibe."
+      },
+      "lat": 40.046,
+      "lng": -76.318,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-east-side",
+      "city_id": "lancaster-pa",
+      "name": {
+        "en": "Historic East Side & Musser Park"
+      },
+      "summary": {
+        "en": "A contemplative and soulful district defined by magnificent historic churches and the tree-lined streets of the Musser Park neighborhood, perfect for a peaceful stroll to discover hidden architectural gems."
+      },
+      "lat": 40.043,
+      "lng": -76.3,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-central-market",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Central Market"
+      },
+      "description": {
+        "en": "Visit the soul of the city’s culinary scene, the oldest continuously operating farmers' market in the United States, housed in a stunning 1889 Romanesque Revival building."
+      },
+      "type": "food",
+      "lat": 40.0393,
+      "lng": -76.3061,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-core-fulton-opera-house",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Fulton Opera House"
+      },
+      "description": {
+        "en": "Admire this opulent Victorian theater, a National Historic Landmark and the oldest continually running theater in the United States. It's a piece of living history."
+      },
+      "type": "culture",
+      "lat": 40.0398,
+      "lng": -76.3075,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-core-griest-building",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "W. W. Griest Building"
+      },
+      "description": {
+        "en": "Appreciate this beautiful relic of early 20th-century ambition, an elegant 1925 Beaux-Arts skyscraper that defines the Lancaster skyline with intricate details."
+      },
+      "type": "landmark",
+      "lat": 40.0392,
+      "lng": -76.3052,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-core-lancaster-prison",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Lancaster County Prison"
+      },
+      "description": {
+        "en": "Witness a startling and dramatic piece of architecture; this formidable, castle-like structure from 1849 looks like it belongs in medieval Europe."
+      },
+      "type": "landmark",
+      "lat": 40.0391,
+      "lng": -76.2955,
+      "trending_score": 85
+    },
+    {
+      "id": "industrial-north-john-j-jeffries",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "industrial-north",
+      "name": {
+        "en": "John J Jeffries"
+      },
+      "description": {
+        "en": "Experience an organic, farm-to-table restaurant housed in a former tobacco warehouse, where the ethos of local agriculture feels at home in a rustic-industrial space."
+      },
+      "type": "food",
+      "lat": 40.0461,
+      "lng": -76.3182,
+      "trending_score": 80
+    },
+    {
+      "id": "industrial-north-cap-and-cork",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "industrial-north",
+      "name": {
+        "en": "Cap & Cork Restaurant"
+      },
+      "description": {
+        "en": "Dine among original exposed brick and massive wood beams in a beautifully restored 19th-century cork factory, where the historic ambiance is the star."
+      },
+      "type": "food",
+      "lat": 40.0475,
+      "lng": -76.2971,
+      "trending_score": 78
+    },
+    {
+      "id": "industrial-north-lancaster-arts-hotel",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "industrial-north",
+      "name": {
+        "en": "Lancaster Arts Hotel"
+      },
+      "description": {
+        "en": "Explore a cultural hub disguised as a hotel, where public spaces in a preserved 1881 tobacco warehouse function as a gallery for regional artists."
+      },
+      "type": "culture",
+      "lat": 40.0461,
+      "lng": -76.3183,
+      "trending_score": 82
+    },
+    {
+      "id": "industrial-north-hamilton-watch-complex",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "industrial-north",
+      "name": {
+        "en": "Hamilton Watch Complex"
+      },
+      "description": {
+        "en": "Walk the perimeter of this landmark of American innovation, the sprawling former factory where the world's first battery-powered watch was developed."
+      },
+      "type": "landmark",
+      "lat": 40.0385,
+      "lng": -76.323,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-east-side-bethel-ame-church",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "historic-east-side",
+      "name": {
+        "en": "Bethel African Methodist Episcopal Church"
+      },
+      "description": {
+        "en": "Pause and reflect at this 1879 church, a monument to freedom and resilience whose congregation was a vital station on the Underground Railroad."
+      },
+      "type": "culture",
+      "lat": 40.0405,
+      "lng": -76.2988,
+      "trending_score": 86
+    },
+    {
+      "id": "historic-east-side-unitarian-church",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "historic-east-side",
+      "name": {
+        "en": "Unitarian Universalist Church of Lancaster"
+      },
+      "description": {
+        "en": "Discover an unexpected trove of fine art by visiting this architecturally unique church, celebrated for its world-class stained-glass windows."
+      },
+      "type": "landmark",
+      "lat": 40.0432,
+      "lng": -76.3151,
+      "trending_score": 84
+    },
+    {
+      "id": "historic-east-side-musser-park",
+      "city_id": "lancaster-pa",
+      "neighborhood_id": "historic-east-side",
+      "name": {
+        "en": "Musser Park Neighborhood"
+      },
+      "description": {
+        "en": "Take a slow-paced walk through a living museum of 19th and early 20th-century homes to admire the craftsmanship of a bygone era."
+      },
+      "type": "landmark",
+      "lat": 40.0431,
+      "lng": -76.3005,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Giant"
+      },
+      "prompt": {
+        "en": "Find the tallest historic building you can see and take a low-angle shot looking up to the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Photograph an official historical marker or plaque on the side of a building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Street Corner Story"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of city life unfolding on a busy street corner."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a scene where historic brickwork stands next to a modern sign or structure and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Find and photograph an ornate detail, like a cornice or carving, high up on a building's facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Cobblestone Selfie"
+      },
+      "prompt": {
+        "en": "Find a cobblestone or brick-paved alley and take a selfie that captures the historic texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "City Colors"
+      },
+      "prompt": {
+        "en": "Create a photo that focuses on a bold splash of color you find in the urban landscape, like a painted door or a bright mural."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture the long shadows cast by the grand buildings during the late afternoon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Public Art Spotting"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, like a statue or sculpture, and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Market Flavors"
+      },
+      "prompt": {
+        "en": "If you see a food stall or market, capture a colorful photo of the fresh produce or prepared foods on display."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Reflections of Lancaster"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic building's reflection in a modern glass window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Urban Energy"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the movement and energy of downtown, like people walking or traffic flowing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-1",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Brick & Time"
+      },
+      "prompt": {
+        "en": "Find a weathered brick wall and take a close-up shot that highlights its texture and age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-2",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Industrial Scale"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the massive scale of a former factory or warehouse building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-3",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Rebirth & Renewal"
+      },
+      "prompt": {
+        "en": "Find a sign of new life in an old industrial space—like plants growing on a brick wall or a modern light fixture on an old beam."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-4",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Look for faded lettering or 'ghost signs' on the side of a brick building and photograph what you find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-5",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Metal & Rust"
+      },
+      "prompt": {
+        "en": "Find an interesting piece of metalwork, like an old fire escape, gate, or pipe, and capture its form and texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-6",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Factory Window Frame"
+      },
+      "prompt": {
+        "en": "Use a large industrial window as a frame for a photo of the scene outside or inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-7",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Industrial Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a towering smokestack or a massive brick facade in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-8",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Lines of Industry"
+      },
+      "prompt": {
+        "en": "Compose a photo that focuses on the strong vertical or horizontal lines of the industrial architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-9",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Art in the Rough"
+      },
+      "prompt": {
+        "en": "Find an unexpected piece of art or a colorful mural against a rugged industrial backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-10",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture an element of 21st-century life set against a 19th-century industrial building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-11",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "The Repurposed Space"
+      },
+      "prompt": {
+        "en": "Photograph a doorway or entrance that clearly shows how an old building has been given a new purpose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "industrial-north-task-12",
+      "neighborhood_id": "industrial-north",
+      "title": {
+        "en": "Sky Above the Factory"
+      },
+      "prompt": {
+        "en": "Frame a shot of the sky as seen between two large industrial buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-1",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Doorway Personality"
+      },
+      "prompt": {
+        "en": "Find the most unique or colorful front door on a residential street and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-2",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Stained Glass Glow"
+      },
+      "prompt": {
+        "en": "Find a church with stained-glass windows and capture the colors from the outside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-3",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Park Bench Peace"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of someone sitting peacefully on a park bench in Musser Park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-4",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Neighborhood Watcher"
+      },
+      "prompt": {
+        "en": "Find a home with a quaint porch or stoop and imagine the stories it could tell. Capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-5",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Tree-Lined Serenity"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a quiet, tree-lined street, capturing the canopy of leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-6",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Historic Home Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a beautiful 19th-century home, showcasing its architectural style."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-7",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Ironwork Art"
+      },
+      "prompt": {
+        "en": "Find a piece of intricate cast-iron fencing or a gate and take a close-up photo of the details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-8",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Photograph a historic church, focusing on an element that conveys its age and dignity, like a cornerstone or bell tower."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-9",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Garden Gem"
+      },
+      "prompt": {
+        "en": "Find a small, well-tended garden or window box in front of a historic home and capture its charm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-10",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "The Story in the Bricks"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the different patterns and colors of brickwork on the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-11",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a peaceful-looking corner where two residential streets meet and capture the tranquil atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-east-side-task-12",
+      "neighborhood_id": "historic-east-side",
+      "title": {
+        "en": "Architectural Detail Hunt"
+      },
+      "prompt": {
+        "en": "Find and photograph a unique architectural feature on a house, like a bay window, a turret, or decorative trim."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
