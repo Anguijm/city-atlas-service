@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "boone-nc",
+      "name": {
+        "en": "Historic Downtown & King Street"
+      },
+      "summary": {
+        "en": "The heart and soul of Boone, where 19th-century brick storefronts house a modern, creative energy. It’s a compact, highly walkable area where every corner reveals a piece of Boone's story."
+      },
+      "lat": 36.2175,
+      "lng": -81.6752,
+      "trending_score": 95
+    },
+    {
+      "id": "asu-campus",
+      "city_id": "boone-nc",
+      "name": {
+        "en": "Appalachian State University Campus"
+      },
+      "summary": {
+        "en": "A city-within-a-city, the ASU campus is the energetic engine of Boone, defined by its signature dark stone buildings, sprawling green quads, and youthful, dynamic atmosphere."
+      },
+      "lat": 36.214,
+      "lng": -81.6798,
+      "trending_score": 88
+    },
+    {
+      "id": "cultural-greenbelt",
+      "city_id": "boone-nc",
+      "name": {
+        "en": "The Cultural Greenbelt (West Boone)"
+      },
+      "summary": {
+        "en": "A quiet, contemplative district where Boone's history and natural environment are preserved. This area is a cluster of cultural sites nestled in the woods, perfect for a peaceful stroll."
+      },
+      "lat": 36.2136,
+      "lng": -81.6897,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-doc-watson",
+      "city_id": "boone-nc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Doc Watson Sculpture"
+      },
+      "description": {
+        "en": "A life-sized bronze statue of the legendary blind guitarist and bluegrass pioneer Doc Watson, sitting casually on a public bench at the corner of King and Depot Streets."
+      },
+      "type": "landmark",
+      "lat": 36.2185,
+      "lng": -81.6751,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-ned-austin-star",
+      "city_id": "boone-nc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Ned Austin's \"Hollywood Star\""
+      },
+      "description": {
+        "en": "A quirky and distinctly local take on the Hollywood Walk of Fame, this single star on a stone pedestal honors the first actor to play Daniel Boone in the town's outdoor drama."
+      },
+      "type": "hidden_gem",
+      "lat": 36.2175,
+      "lng": -81.6748,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-hellbender-mural",
+      "city_id": "boone-nc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Hellbender Mural"
+      },
+      "description": {
+        "en": "A massive, striking mural of an Eastern hellbender, a unique native salamander. This public art transforms a downtown wall into a statement on local ecology and conservation."
+      },
+      "type": "landmark",
+      "lat": 36.219,
+      "lng": -81.674,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-downtown-jones-house",
+      "city_id": "boone-nc",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "The Jones House"
+      },
+      "description": {
+        "en": "A beautifully preserved 1908 home on the National Register of Historic Places, now serving as the town's cultural and community center, often hosting free concerts and art galleries."
+      },
+      "type": "culture",
+      "lat": 36.2172,
+      "lng": -81.6766,
+      "trending_score": 85
+    },
+    {
+      "id": "asu-campus-kidd-brewer-stadium",
+      "city_id": "boone-nc",
+      "neighborhood_id": "asu-campus",
+      "name": {
+        "en": "Kidd-Brewer Stadium (\"The Rock\")"
+      },
+      "description": {
+        "en": "The legendary home of the Appalachian State Mountaineers football team, where the team won three consecutive national championships and cemented its giant-killer reputation."
+      },
+      "type": "landmark",
+      "lat": 36.2115,
+      "lng": -81.6853,
+      "trending_score": 90
+    },
+    {
+      "id": "asu-campus-sanford-mall",
+      "city_id": "boone-nc",
+      "neighborhood_id": "asu-campus",
+      "name": {
+        "en": "Sanford Mall"
+      },
+      "description": {
+        "en": "A vast green lawn that serves as the university's central gathering spot, surrounded by the campus's unique \"Appalachian-style\" architecture using locally quarried stone."
+      },
+      "type": "nature",
+      "lat": 36.214,
+      "lng": -81.6798,
+      "trending_score": 82
+    },
+    {
+      "id": "asu-campus-ted-mackorell-soccer",
+      "city_id": "boone-nc",
+      "neighborhood_id": "asu-campus",
+      "name": {
+        "en": "Ted Mackorell Soccer Complex"
+      },
+      "description": {
+        "en": "Home to Appalachian FC, Boone's semi-professional soccer team, this complex offers a more intimate sporting atmosphere and represents the town's growing sports culture."
+      },
+      "type": "landmark",
+      "lat": 36.2081,
+      "lng": -81.6911,
+      "trending_score": 70
+    },
+    {
+      "id": "cultural-greenbelt-horn-in-the-west",
+      "city_id": "boone-nc",
+      "neighborhood_id": "cultural-greenbelt",
+      "name": {
+        "en": "\"Horn in the West\" Amphitheater"
+      },
+      "description": {
+        "en": "The nation's oldest Revolutionary War drama has been performed in this sprawling outdoor amphitheater since 1952. When empty, it feels like ancient ruins hidden in the forest."
+      },
+      "type": "culture",
+      "lat": 36.2135,
+      "lng": -81.6895,
+      "trending_score": 85
+    },
+    {
+      "id": "cultural-greenbelt-native-gardens",
+      "city_id": "boone-nc",
+      "neighborhood_id": "cultural-greenbelt",
+      "name": {
+        "en": "Daniel Boone Native Gardens"
+      },
+      "description": {
+        "en": "A serene 3-acre garden that is a living museum of Appalachian flora, featuring winding stone paths, a reflection pool, and hundreds of native plant species."
+      },
+      "type": "nature",
+      "lat": 36.2142,
+      "lng": -81.6898,
+      "trending_score": 80
+    },
+    {
+      "id": "cultural-greenbelt-blair-farm",
+      "city_id": "boone-nc",
+      "neighborhood_id": "cultural-greenbelt",
+      "name": {
+        "en": "The Blair Farm"
+      },
+      "description": {
+        "en": "A historic farmstead on the National Register of Historic Places that offers a tangible link to the region's 19th-century agricultural past with its preserved homestead and outbuildings."
+      },
+      "type": "culture",
+      "lat": 36.2128,
+      "lng": -81.6905,
+      "trending_score": 72
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Find the most interesting 19th-century brickwork you can and take a photo focusing on its texture and history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Street Art Surprise"
+      },
+      "prompt": {
+        "en": "Look for an unexpected piece of public art—a small mural, a decorated utility box, or a sculpture—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "King Street Character"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the modern, creative energy of a storefront contrasting with its historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Local Legend Quest"
+      },
+      "prompt": {
+        "en": "Find a sign, plaque, or business name that references a local person, legend, or historical event."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Photograph the most unique or artistic window display you can find in a local shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Peer down an alley or side street and capture a view that most people walk right past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Sounds of the Street"
+      },
+      "prompt": {
+        "en": "Find a reference to music in the neighborhood—a concert poster, a music shop, or a street performer—and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Look for a faded, painted advertisement on the side of an old brick building (a 'ghost sign') and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail high above street level, like a cornice or decorative window, and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Boone's Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of King Street's historic architecture in a modern window or puddle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Local Pride"
+      },
+      "prompt": {
+        "en": "Photograph something that clearly shows off Boone's local pride, whether it's a flag, a bumper sticker, or a t-shirt."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "A Seat with a Story"
+      },
+      "prompt": {
+        "en": "Find a unique public bench or seating area and take a photo, imagining the stories it could tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-1",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Appalachian Stone"
+      },
+      "prompt": {
+        "en": "Take a close-up, abstract photo of the locally quarried stone used in the campus buildings, focusing on its texture and color."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-2",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Campus Geometry"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural element—a stone archway, a spiral staircase, or a pattern of windows—and compose a photo focusing on lines and shadows."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-3",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Mountaineer Spirit"
+      },
+      "prompt": {
+        "en": "Find a logo, banner, or statue showing Appalachian State pride and capture it from a creative angle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-4",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Green Quad Life"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of a sprawling green space on campus, like Sanford Mall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-5",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "A Scholar's View"
+      },
+      "prompt": {
+        "en": "Photograph a view from inside a campus building looking out, or from outside looking in through a window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-6",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Pathways to Knowledge"
+      },
+      "prompt": {
+        "en": "Find an interesting walkway, bridge, or set of stairs on campus and take a photo emphasizing its direction and design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-7",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Discover a hidden courtyard, garden, or quiet bench and capture its peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-8",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Mountain Backdrop"
+      },
+      "prompt": {
+        "en": "Frame a shot of a campus building or landmark with the Blue Ridge Mountains visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-9",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Signs of Student Life"
+      },
+      "prompt": {
+        "en": "Find and photograph a flyer, a painted rock, or another sign of student activity on campus."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-10",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a historic stone building next to a more modern piece of architecture or technology."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-11",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Bike Rack Art"
+      },
+      "prompt": {
+        "en": "Find a collection of bicycles and take an interesting photo focusing on the patterns of wheels, frames, and colors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "asu-campus-task-12",
+      "neighborhood_id": "asu-campus",
+      "title": {
+        "en": "Campus Landmark Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with one of the main campus buildings or statues in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-1",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use leaves, branches, or flowers to create a natural frame around a historic building or path in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-2",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Appalachian Flora"
+      },
+      "prompt": {
+        "en": "Find a native plant or flower that catches your eye and take a detailed macro shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-3",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Whispers of History"
+      },
+      "prompt": {
+        "en": "Photograph a historic structure, like a log cabin or stone wall, in a way that makes it feel ancient and timeless."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-4",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "The Winding Path"
+      },
+      "prompt": {
+        "en": "Capture an image of a winding stone or dirt path leading into the woods, inviting exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-5",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Pastoral Peace"
+      },
+      "prompt": {
+        "en": "Take a wide shot that captures the quiet, contemplative feeling of the open fields or historic farms in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-6",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Texture of the Past"
+      },
+      "prompt": {
+        "en": "Get close to a historic object—weathered wood, old stone, or rusty metal—and take a photo that highlights its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-7",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Forest Light"
+      },
+      "prompt": {
+        "en": "Photograph the way sunlight filters through the trees, creating patterns of light and shadow on the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-8",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Find a quiet spot, perhaps near a reflection pool or a peaceful clearing, and take a photo that conveys serenity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-9",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Historic Marker Hunt"
+      },
+      "prompt": {
+        "en": "Find an official historic marker or informational plaque and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-10",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "The Empty Stage"
+      },
+      "prompt": {
+        "en": "Find a stage, a clearing, or a natural amphitheater-like space and photograph it, imagining a performance taking place."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-11",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Settler's Craft"
+      },
+      "prompt": {
+        "en": "Look for examples of old-world construction, like notched logs on a cabin or a dry-stack stone wall, and capture the craftsmanship."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-greenbelt-task-12",
+      "neighborhood_id": "cultural-greenbelt",
+      "title": {
+        "en": "Nature Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a beautiful natural backdrop, like a lush garden or a dense forest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

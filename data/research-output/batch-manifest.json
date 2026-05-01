@@ -1,56 +1,164 @@
 {
-  "started": "2026-04-29T22:22:42.237194+00:00",
+  "started": "2026-05-01T22:43:22.252643+00:00",
   "tiers": null,
   "interval_s": 60,
   "cities": [
     {
-      "id": "amarillo",
-      "status": "completed",
-      "started_at": "2026-04-29T22:23:21.583739+00:00",
-      "duration_s": 117,
-      "neighborhoods": 3,
-      "waypoints": 5,
-      "tasks": 36
-    },
-    {
       "id": "birmingham",
       "status": "completed",
-      "started_at": "2026-04-29T22:25:38.756259+00:00",
-      "duration_s": 191,
+      "started_at": "2026-05-01T22:43:34.238347+00:00",
+      "duration_s": 239,
       "neighborhoods": 6,
-      "waypoints": 27,
+      "waypoints": 29,
       "tasks": 90
     },
     {
-      "id": "little-rock",
+      "id": "bisbee-az",
       "status": "completed",
-      "started_at": "2026-04-29T22:29:20.165029+00:00",
-      "duration_s": 170,
+      "started_at": "2026-05-01T22:52:52.088308+00:00",
+      "duration_s": 126,
       "neighborhoods": 3,
-      "waypoints": 25,
+      "waypoints": 9,
       "tasks": 36
     },
     {
-      "id": "louisville",
+      "id": "black-mountain-nc",
+      "status": "failed",
+      "started_at": "2026-05-01T23:00:42.099450+00:00",
+      "error": "Exit code 1",
+      "duration_s": 69
+    },
+    {
+      "id": "boone-nc",
       "status": "completed",
-      "started_at": "2026-04-29T22:32:42.392258+00:00",
-      "duration_s": 240,
-      "neighborhoods": 6,
+      "started_at": "2026-05-01T23:07:39.281326+00:00",
+      "duration_s": 133,
+      "neighborhoods": 3,
+      "waypoints": 10,
+      "tasks": 36
+    },
+    {
+      "id": "camden-me",
+      "status": "failed",
+      "started_at": "2026-05-01T23:12:20.105658+00:00",
+      "error": "Exit code 1",
+      "duration_s": 37
+    },
+    {
+      "id": "cannon-beach-or",
+      "status": "failed",
+      "started_at": "2026-05-01T23:16:08.105342+00:00",
+      "error": "Exit code 1",
+      "duration_s": 82
+    },
+    {
+      "id": "cape-may-nj",
+      "status": "completed",
+      "started_at": "2026-05-01T23:20:44.616419+00:00",
+      "duration_s": 157,
+      "neighborhoods": 3,
       "waypoints": 26,
-      "tasks": 90
+      "tasks": 36
     },
     {
-      "id": "wichita",
+      "id": "charlottesville-va",
       "status": "completed",
-      "started_at": "2026-04-29T22:37:16.146297+00:00",
-      "duration_s": 119,
+      "started_at": "2026-05-01T23:25:10.434576+00:00",
+      "duration_s": 158,
       "neighborhoods": 3,
-      "waypoints": 8,
+      "waypoints": 24,
       "tasks": 36
+    },
+    {
+      "id": "clarksdale-ms",
+      "status": "completed",
+      "started_at": "2026-05-01T23:30:23.398835+00:00",
+      "duration_s": 112,
+      "neighborhoods": 3,
+      "waypoints": 6,
+      "tasks": 36
+    },
+    {
+      "id": "cooperstown-ny",
+      "status": "completed",
+      "started_at": "2026-05-01T23:34:06.416421+00:00",
+      "duration_s": 108,
+      "neighborhoods": 1,
+      "waypoints": 10,
+      "tasks": 18
+    },
+    {
+      "id": "deadwood-sd",
+      "status": "completed",
+      "started_at": "2026-05-01T23:37:54.869484+00:00",
+      "duration_s": 105,
+      "neighborhoods": 1,
+      "waypoints": 12,
+      "tasks": 20
+    },
+    {
+      "id": "galena-il",
+      "status": "pending"
+    },
+    {
+      "id": "gettysburg-pa",
+      "status": "pending"
+    },
+    {
+      "id": "jerome-az",
+      "status": "pending"
+    },
+    {
+      "id": "lambertville-nj",
+      "status": "pending"
+    },
+    {
+      "id": "lenox-ma",
+      "status": "pending"
+    },
+    {
+      "id": "natchez-ms",
+      "status": "pending"
+    },
+    {
+      "id": "ouray-co",
+      "status": "pending"
+    },
+    {
+      "id": "oxford-ms",
+      "status": "pending"
+    },
+    {
+      "id": "princeton-nj",
+      "status": "pending"
+    },
+    {
+      "id": "stowe-vt",
+      "status": "pending"
+    },
+    {
+      "id": "telluride-co",
+      "status": "pending"
+    },
+    {
+      "id": "terlingua-tx",
+      "status": "pending"
+    },
+    {
+      "id": "truth-or-consequences-nm",
+      "status": "pending"
+    },
+    {
+      "id": "williamsburg-va",
+      "status": "pending"
+    },
+    {
+      "id": "wilmington-nc",
+      "status": "pending"
     }
   ],
-  "completed": 5,
-  "failed": 0,
-  "pending": 0,
+  "completed": 8,
+  "failed": 3,
+  "pending": 15,
   "skipped": 0
 }
