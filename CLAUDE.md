@@ -108,6 +108,13 @@ If the pipeline is producing bad data or council is spiraling on a change:
 2. Council + pr-watch workflows will silent-exit on next trigger.
 3. Remove the file to resume.
 
+## Hook timeouts (settings.json)
+
+`.claude/settings.json` configures two hook timeouts. JSON syntax doesn't allow inline comments, so the rationale lives here:
+
+- **`SessionStart` hook timeout: 10s.** Runs `.claude/hooks/session-start.sh`, which prints last-commit / halt-status / active-plan / last-council-verdict. Typical run < 2s. Failure mode if exceeded: hook is killed and Claude proceeds without the session-start context — risk is missing the halt warning or plan reminder. If timing out regularly, optimize the hook script, don't extend the timeout.
+- **`PreToolUse` (Bash) hook timeout: 15s.** Runs `.claude/hooks/check-branch-not-merged.sh` before any Bash tool call. The check involves `git fetch origin main`, which can be slow on poor networks. Failure mode if exceeded: hook fails open and the push is allowed — by design (rather let a push through than block all git activity on a flaky network).
+
 ## Cross-repo links
 
 - **Consumers:** `urban-explorer` (Next.js), Roadtripper (separate repo).
