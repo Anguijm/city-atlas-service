@@ -1,0 +1,660 @@
+{
+  "neighborhoods": [
+    {
+      "id": "market-square",
+      "city_id": "portsmouth-nh",
+      "name": {
+        "en": "Market Square & Waterfront"
+      },
+      "summary": {
+        "en": "The quintessential, bustling heart of Portsmouth, where brick sidewalks and colonial-era buildings house a dense collection of shops, restaurants, and waterfront views."
+      },
+      "lat": 43.0765,
+      "lng": -70.7592,
+      "trending_score": 95
+    },
+    {
+      "id": "south-end",
+      "city_id": "portsmouth-nh",
+      "name": {
+        "en": "The South End"
+      },
+      "summary": {
+        "en": "A quiet, charming residential district featuring beautifully preserved 17th and 18th-century homes and a tangible connection to the city's deep maritime history."
+      },
+      "lat": 43.0728,
+      "lng": -70.7535,
+      "trending_score": 85
+    },
+    {
+      "id": "west-end",
+      "city_id": "portsmouth-nh",
+      "name": {
+        "en": "The West End"
+      },
+      "summary": {
+        "en": "Portsmouth’s creative and eclectic soul, this corridor features a diverse, international food scene and a tangible sense of a neighborhood in transition."
+      },
+      "lat": 43.0781,
+      "lng": -70.7705,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "market-square-the-wilder",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "market-square",
+      "name": {
+        "en": "The Wilder"
+      },
+      "description": {
+        "en": "A stylish American gastropub known for its inventive cocktails, perfect for a pre-dinner drink or a late-night conversation."
+      },
+      "type": "drink",
+      "lat": 43.0778,
+      "lng": -70.7615,
+      "trending_score": 90
+    },
+    {
+      "id": "market-square-botanica",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "market-square",
+      "name": {
+        "en": "Botanica"
+      },
+      "description": {
+        "en": "An intimate, French-inspired restaurant and dedicated gin bar with a chic, cozy atmosphere that feels like a discovery."
+      },
+      "type": "drink",
+      "lat": 43.0781,
+      "lng": -70.7591,
+      "trending_score": 88
+    },
+    {
+      "id": "market-square-river-house",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "market-square",
+      "name": {
+        "en": "River House"
+      },
+      "description": {
+        "en": "A local favorite offering excellent seafood and a lively atmosphere with prime views from its waterfront patio."
+      },
+      "type": "food",
+      "lat": 43.0786,
+      "lng": -70.7578,
+      "trending_score": 92
+    },
+    {
+      "id": "market-square-moxy",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "market-square",
+      "name": {
+        "en": "Moxy"
+      },
+      "description": {
+        "en": "A modern tapas restaurant with creative American small plates and an experimental cocktail list, ideal for sharing."
+      },
+      "type": "food",
+      "lat": 43.0772,
+      "lng": -70.7583,
+      "trending_score": 95
+    },
+    {
+      "id": "market-square-barrio",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "market-square",
+      "name": {
+        "en": "Barrio"
+      },
+      "description": {
+        "en": "A vibrant and casual build-your-own taco joint with excellent margaritas and a fun, high-energy atmosphere."
+      },
+      "type": "food",
+      "lat": 43.0781,
+      "lng": -70.7575,
+      "trending_score": 89
+    },
+    {
+      "id": "market-square-tugboat-alley",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "market-square",
+      "name": {
+        "en": "Tugboat Alley (Ceres Street)"
+      },
+      "description": {
+        "en": "A narrow, cobblestone lane offering a gritty, atmospheric view of the iconic tugboats moored on the Piscataqua River."
+      },
+      "type": "hidden_gem",
+      "lat": 43.0783,
+      "lng": -70.7573,
+      "trending_score": 91
+    },
+    {
+      "id": "south-end-strawbery-banke",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "Strawbery Banke Museum"
+      },
+      "description": {
+        "en": "A 10-acre outdoor history museum on the site of the original 1630s settlement, with preserved houses spanning four centuries."
+      },
+      "type": "culture",
+      "lat": 43.0738,
+      "lng": -70.7545,
+      "trending_score": 98
+    },
+    {
+      "id": "south-end-john-paul-jones-house",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "John Paul Jones House"
+      },
+      "description": {
+        "en": "A 1758 National Historic Landmark where the Revolutionary War naval hero once boarded, offering a glimpse into Portsmouth's maritime past."
+      },
+      "type": "culture",
+      "lat": 43.0755,
+      "lng": -70.7565,
+      "trending_score": 85
+    },
+    {
+      "id": "south-end-architectural-walk",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "south-end",
+      "name": {
+        "en": "South End Architectural Walk"
+      },
+      "description": {
+        "en": "A living museum of early American architecture where you can wander quiet streets and admire beautifully preserved historic homes."
+      },
+      "type": "landmark",
+      "lat": 43.0721,
+      "lng": -70.7529,
+      "trending_score": 88
+    },
+    {
+      "id": "west-end-street",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "Street"
+      },
+      "description": {
+        "en": "A vibrant, energetic restaurant reflecting the neighborhood's character with a global mash-up of international street food."
+      },
+      "type": "food",
+      "lat": 43.0784,
+      "lng": -70.7712,
+      "trending_score": 93
+    },
+    {
+      "id": "west-end-nikkis-banh-mi",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "west-end",
+      "name": {
+        "en": "Nikki's Banh Mi"
+      },
+      "description": {
+        "en": "A no-frills spot serving authentic Vietnamese sandwiches, tacos, and bowls that locals rave about for its quality and value."
+      },
+      "type": "food",
+      "lat": 43.0785,
+      "lng": -70.7713,
+      "trending_score": 90
+    },
+    {
+      "id": "west-end-shipyard-overlook",
+      "city_id": "portsmouth-nh",
+      "neighborhood_id": "market-square",
+      "name": {
+        "en": "Portsmouth Naval Shipyard Overlook"
+      },
+      "description": {
+        "en": "Public vantage points offering glimpses of naval vessels and the industrial architecture of the nation's oldest naval shipyard."
+      },
+      "type": "viewpoint",
+      "lat": 43.0795,
+      "lng": -70.7551,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "market-square-task-1",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Brick & Cobblestone"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot that emphasizes the texture of the historic brick sidewalks or cobblestone streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-2",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Waterfront Reflection"
+      },
+      "prompt": {
+        "en": "Find a view of the Piscataqua River and capture a photo of the buildings or boats reflected on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-3",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Shop Sign Story"
+      },
+      "prompt": {
+        "en": "Photograph a unique or beautifully designed sign for one of the independent shops or restaurants."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-4",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Bustling Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the energy and movement of the people in Market Square behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-5",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Culinary Close-Up"
+      },
+      "prompt": {
+        "en": "Get an artistic, top-down photo of a coffee, cocktail, or plate of food from a local cafe or restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-6",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Discover a narrow alley or side street and take a photo looking down it, creating a sense of depth and discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-7",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Colonial Window"
+      },
+      "prompt": {
+        "en": "Find an interesting window on one of the historic buildings and frame a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-8",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Tugboat Tribute"
+      },
+      "prompt": {
+        "en": "From a public spot, capture a photo of the iconic tugboats on the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-9",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Take a 10-second video capturing the ambient sounds of the bustling waterfront district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-10",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find a small, interesting architectural detail on a building—like an old iron hook, a boot scraper, or a decorative brick pattern—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-11",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Patio Life"
+      },
+      "prompt": {
+        "en": "Capture the lively atmosphere of an outdoor dining patio or cafe seating area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "market-square-task-12",
+      "neighborhood_id": "market-square",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "On a sunny day, take a photo of the interesting shadows cast by the historic buildings on the brick sidewalks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-1",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Historic Plaque Hunt"
+      },
+      "prompt": {
+        "en": "Find a historical plaque on the side of a house and take a photo of it. Try to find one with a date before 1800!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-2",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Colonial Color"
+      },
+      "prompt": {
+        "en": "Photograph a historic home with a brightly colored front door or window shutters."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-3",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Capture a photo of a beautiful flower box, climbing vine, or private garden peeking over a fence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-4",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Quiet Street Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on one of the peaceful, tree-lined residential streets, capturing the quiet charm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-5",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "History's Footsteps"
+      },
+      "prompt": {
+        "en": "Take a photo looking down at your feet on an old brick sidewalk or stone step."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-6",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Maritime Echoes"
+      },
+      "prompt": {
+        "en": "Find and photograph an object that hints at the neighborhood's maritime past, like an anchor, a captain's walk, or a view of the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-7",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Roofline Geometry"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo focusing on the interesting shapes and angles of the historic rooflines against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-8",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Preserved in Time"
+      },
+      "prompt": {
+        "en": "Capture an image that makes the neighborhood look like a scene from a history book."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-9",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Fence and Flora"
+      },
+      "prompt": {
+        "en": "Take a picture of a classic wooden fence with flowers or greenery growing nearby."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-10",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Wavy Glass Window"
+      },
+      "prompt": {
+        "en": "Find an old window with wavy, imperfect glass and capture the distorted reflection in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-11",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Historic Texture"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of weathered wood siding, old brick, or a stone foundation on one of the homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-end-task-12",
+      "neighborhood_id": "south-end",
+      "title": {
+        "en": "Peaceful Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or stoop and take a photo from that perspective, capturing the tranquil vibe of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-1",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Urban Evolution"
+      },
+      "prompt": {
+        "en": "Capture a single photo that shows both old, historic architecture and new, modern construction or development."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-2",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Global Flavors"
+      },
+      "prompt": {
+        "en": "Take a colorful photo of a dish from one of the neighborhood's international street food spots."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-3",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Creative Soul Selfie"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, a mural, or a quirky, artistic sign and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-4",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Industrial Beauty"
+      },
+      "prompt": {
+        "en": "Photograph an element that hints at the area's working-class or industrial past, like old brickwork, a fire escape, or a view of the shipyard cranes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-5",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Neighborhood Grit"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the 'grit' of the neighborhood—peeling paint, a weathered sign, or a well-worn doorway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-6",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Local's View"
+      },
+      "prompt": {
+        "en": "Take a picture of something that looks like a hidden gem only a local would know about or appreciate."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-7",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Signs of Change"
+      },
+      "prompt": {
+        "en": "Find a 'For Lease' sign, a construction site, or a newly opened business and photograph it as a symbol of the neighborhood's transition."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-8",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Sweet Treat"
+      },
+      "prompt": {
+        "en": "Get a delicious-looking shot of an ice cream cone or other dessert from a local spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-9",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Islington Street Scene"
+      },
+      "prompt": {
+        "en": "Take a photo looking down Islington Street that captures its unique mix of businesses and architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-10",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Handmade Discovery"
+      },
+      "prompt": {
+        "en": "Look for evidence of the local crafting scene. Photograph a handmade item in a shop window, a flyer for a craft fair, or a piece of yarn bombing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-11",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Transportation Hub"
+      },
+      "prompt": {
+        "en": "Capture a photo that includes a mode of transportation—a bike, a car, a bus—against the backdrop of the West End."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-end-task-12",
+      "neighborhood_id": "west-end",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Find a vantage point where you can see one of the Piscataqua River bridges and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
