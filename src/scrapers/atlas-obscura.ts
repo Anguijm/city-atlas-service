@@ -65,6 +65,23 @@ function buildAtlasUrl(city: City): string {
   return `https://www.atlasobscura.com/things-to-do/${slug}`;
 }
 
+// Atlas Obscura uses {city}-{state} for US cities (e.g. bisbee-arizona,
+// deadwood-south-dakota). Map the two-letter state suffix in city.id to the
+// full state name so we can build that URL without a manual override per city.
+const US_STATE_SLUGS: Record<string, string> = {
+  ak: "alaska", al: "alabama", ar: "arkansas", az: "arizona",
+  ca: "california", co: "colorado", ct: "connecticut", de: "delaware",
+  fl: "florida", ga: "georgia", hi: "hawaii", ia: "iowa", id: "idaho",
+  il: "illinois", in: "indiana", ks: "kansas", ky: "kentucky", la: "louisiana",
+  ma: "massachusetts", md: "maryland", me: "maine", mi: "michigan", mn: "minnesota",
+  mo: "missouri", ms: "mississippi", mt: "montana", nc: "north-carolina",
+  nd: "north-dakota", ne: "nebraska", nh: "new-hampshire", nj: "new-jersey",
+  nm: "new-mexico", nv: "nevada", ny: "new-york", oh: "ohio", ok: "oklahoma",
+  or: "oregon", pa: "pennsylvania", ri: "rhode-island", sc: "south-carolina",
+  sd: "south-dakota", tn: "tennessee", tx: "texas", ut: "utah", va: "virginia",
+  vt: "vermont", wa: "washington", wi: "wisconsin", wv: "west-virginia", wy: "wyoming",
+};
+
 async function scrapeCityPage(
   page: Page,
   city: City,
@@ -79,8 +96,24 @@ async function scrapeCityPage(
     .replace("ho-chi-minh", "saigon")
     .replace("mexico-city", "mexico-city"); // keep as-is
   const overrideSlug = overrides[city.id];
+
+  // For US cities, derive the state slug from city.id suffix (e.g. bisbee-az → arizona)
+  // and try {city}-{state} first — that's Atlas Obscura's standard US URL pattern.
+  // Cities whose clinicalName has a comma also carry state info (birmingham → alabama).
+  const stateSlug: string | null = (() => {
+    const idSuffix = city.id.split("-").at(-1) ?? "";
+    if (US_STATE_SLUGS[idSuffix]) return US_STATE_SLUGS[idSuffix];
+    // Fallback: clinicalName "Birmingham, Alabama" → "alabama"
+    if (city.country === "United States" && city.clinicalName?.includes(",")) {
+      return city.clinicalName.split(",")[1].trim().toLowerCase().replace(/\s+/g, "-");
+    }
+    return null;
+  })();
+
   const urls = [
     ...(overrideSlug ? [`https://www.atlasobscura.com/things-to-do/${overrideSlug}`] : []),
+    // US state-based pattern (most reliable for US cities)
+    ...(stateSlug ? [`https://www.atlasobscura.com/things-to-do/${slug}-${stateSlug}`] : []),
     `https://www.atlasobscura.com/things-to-do/${slug}-${countrySlug}`,
     `https://www.atlasobscura.com/things-to-do/${slug}`,
     ...(altSlug !== slug ? [`https://www.atlasobscura.com/things-to-do/${altSlug}`] : []),
