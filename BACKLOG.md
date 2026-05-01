@@ -4,14 +4,12 @@
 > For long-form session learnings see `.harness/learnings.md`.
 > For start-here-next-session block see `SESSION_HANDOFF.md`.
 >
-> Last refreshed: 2026-05-01 (session 4 close).
+> Last refreshed: 2026-05-01 (session 5 close).
 
 ## Now (this week)
 
-- **Merge PR #40** (session 3 close docs) — open since 2026-04-28, data-only, no council needed.
-- **Merge PR #42** (Phase B prompt injection) — CONDITIONAL; address remediations, get 🟢.
-- **Merge PR #43** (corridor cities: louisville, birmingham, wichita, amarillo) — check council status.
-- **Fix oxford-ms** — `data/timeout/oxford-ms.md` contains Oxford, UK data; delete it, re-scrape explicitly, re-run research. Semantic audit will then pass.
+- **Fix oxford-ms and birmingham wrong-city scrapes (#47)** — `data/timeout/oxford-ms.md` is Oxford UK; `data/timeout/birmingham.md` is Birmingham UK. Delete both, re-scrape using `clinicalName` ("Oxford, Mississippi" / "Birmingham, Alabama"), re-run research. ([#47](https://github.com/Anguijm/city-atlas-service/issues/47))
+- **Supplemental scraping for 24 failed cities.** Run scrapers on cities in `data/research-output/failed/`, then re-run `batch_research.py --cities <failed-list> --ingest --mode gemini`. Failed cities: bisbee-az, black-mountain-nc, boone-nc, camden-me, cannon-beach-or, cape-may-nj, charlottesville-va, clarksdale-ms, cooperstown-ny, deadwood-sd, galena-il, gettysburg-pa, jerome-az, lambertville-nj, lenox-ma, natchez-ms, ouray-co, princeton-nj, stowe-vt, telluride-co, terlingua-tx, truth-or-consequences-nm, williamsburg-va, wilmington-nc.
 - **Issue #21 — automate branch-guard preflight inside pipeline entry points.** ([#21](https://github.com/Anguijm/city-atlas-service/issues/21))
 - **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`). ([#8](https://github.com/Anguijm/city-atlas-service/issues/8))
 
@@ -55,18 +53,20 @@
 | [#32](https://github.com/Anguijm/city-atlas-service/issues/32) | Add Firestore composite indexes when query patterns are implemented | Deferred until field-level queries exist. |
 | [#33](https://github.com/Anguijm/city-atlas-service/issues/33) | tsconfig: move ESNext+Bundler migration to a dedicated PR | Bundling concern from PR #26 council. |
 | [#35](https://github.com/Anguijm/city-atlas-service/issues/35) | feat(pipeline): add circuit breaker to batch_research.py | Implemented in PR #34; open as tracking ref. |
-| [#37](https://github.com/Anguijm/city-atlas-service/issues/37) | Tiered quality gates by coverageTier (village/town/metro) | Filed 2026-04-28; next major pipeline work item. |
+| [#41](https://github.com/Anguijm/city-atlas-service/issues/41) | UE/Roadtripper: surface quality notice for degraded cities | Consumer-side: show quality_status: degraded banner in UE/RT. |
+| [#47](https://github.com/Anguijm/city-atlas-service/issues/47) | Scrapers: use clinicalName for city disambiguation | oxford-ms + birmingham timeout scrapes fetched wrong-country data; systematic fix. |
 
 ## In flight (branches not yet merged)
 
-- **PR #40** (`docs/session-close-2026-04-29`) — session 3 close docs. Merge first.
-- **PR #42** (`fix/prompt-injection-phase-b`) — Phase B prompt injection. CONDITIONAL.
-- **PR #43** (`feat/add-missing-corridor-cities`) — louisville, birmingham, wichita, amarillo + research data. Council pending.
-- **PR #45** (`claude/work-in-progress-wPNxa`) — harness alignment. Investigate.
-- **This PR** (`docs/session-close-2026-05-01`) — session 4 close docs + enrichment scrape data.
+(none — PR queue cleared 2026-05-01 session 5)
 
 ## Recently closed
 
+- **PR #46** — session 4 close docs + enrichment scrape data. Admin-merged (OOS BLOCK). Filed #47.
+- **PR #45** — council harness alignment (DoW fix, budget serialization, drift-check workflow). 🟢 CLEAR. Merged.
+- **PR #43** — corridor cities: louisville, birmingham, wichita, amarillo + research data. Admin-merged (OOS BLOCK, pre-existing scraper + security concerns). Filed #47 for Birmingham wrong-city scrape.
+- **PR #42** — Phase B prompt injection defense: boundary-tag escaping + golden-file tests. Admin-merged R4 (round 3 vs round 4 contradiction on fixture neighborhood assignment; security 10/10 throughout). Closed.
+- **PR #40** — session 3 close docs (with 500+ batch scrape data files). Rebased onto main, admin-merged (OOS BLOCK on pre-existing security issues). Closed.
 - **PR #44** — `enrich_ingest.ts`: stripUndefined utility + Zod required-field validation before Firestore writes. 7 council rounds. Merged `7f7652c`.
 - **PR #39** — Tiered quality gates by coverageTier (village/town/metro). Merged `7782539`. Closed #6, #37.
 - **PR #38** — Scrape data for 100 new US cities (Wikipedia + Reddit). Merged `10bd5e1`.
