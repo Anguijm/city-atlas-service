@@ -8,9 +8,9 @@
 
 ## Now (this week)
 
-- **Open PR for fix/backfill-task-city-id-and-orphan-cleanup** — backfill script + cache cleanup already applied to Firestore; PR is code-review gate. Branch: `fix/backfill-task-city-id-and-orphan-cleanup`.
-- **Fix oxford-ms and birmingham wrong-city scrapes (#47)** — `data/timeout/oxford-ms.md` is Oxford UK; `data/timeout/birmingham.md` is Birmingham UK. Delete both, re-scrape using `clinicalName` ("Oxford, Mississippi" / "Birmingham, Alabama"), re-run research. ([#47](https://github.com/Anguijm/city-atlas-service/issues/47))
-- **Supplemental scraping for 24 failed cities.** Run scrapers on cities in `data/research-output/failed/`, then re-run `batch_research.py --cities <failed-list> --ingest --mode gemini`. Failed cities: bisbee-az, black-mountain-nc, boone-nc, camden-me, cannon-beach-or, cape-may-nj, charlottesville-va, clarksdale-ms, cooperstown-ny, deadwood-sd, galena-il, gettysburg-pa, jerome-az, lambertville-nj, lenox-ma, natchez-ms, ouray-co, princeton-nj, stowe-vt, telluride-co, terlingua-tx, truth-or-consequences-nm, williamsburg-va, wilmington-nc.
+- **Merge PR #49** (`fix/backfill-task-city-id-and-orphan-cleanup`) — awaiting council. Contains: vibe_tasks city_id backfill script, timeout scraper disambiguation fix, global_city_cache.json cleanup. All Firestore writes already applied.
+- **Supplemental scraping for 24 failed cities + re-research.** atlas-obscura.ts has no `--cities` flag — run per-city loop or add the flag. Failed cities: bisbee-az, black-mountain-nc, boone-nc, camden-me, cannon-beach-or, cape-may-nj, charlottesville-va, clarksdale-ms, cooperstown-ny, deadwood-sd, galena-il, gettysburg-pa, jerome-az, lambertville-nj, lenox-ma, natchez-ms, ouray-co, princeton-nj, stowe-vt, telluride-co, terlingua-tx, truth-or-consequences-nm, williamsburg-va, wilmington-nc. After scraping: `batch_research.py --cities <list> --ingest --mode gemini`.
+- **Re-run research for oxford-ms and birmingham** — wrong-country timeout files removed (commit `a8a4e6c`); needs Reddit + Atlas Obscura pass first, then re-research. ([#47](https://github.com/Anguijm/city-atlas-service/issues/47))
 - **Issue #21 — automate branch-guard preflight inside pipeline entry points.** ([#21](https://github.com/Anguijm/city-atlas-service/issues/21))
 - **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`). ([#8](https://github.com/Anguijm/city-atlas-service/issues/8))
 
@@ -59,7 +59,7 @@
 
 ## In flight (branches not yet merged)
 
-- **fix/backfill-task-city-id-and-orphan-cleanup** — Firestore backfill already live; PR pending. `global_city_cache.json` (-1 entry) + `backfill_task_city_id.py` (new).
+- **fix/backfill-task-city-id-and-orphan-cleanup** — PR #49 open, awaiting council. Firestore writes already live. Contains: backfill script, timeout scraper fix, cache cleanup, partial Atlas Obscura data (8 major US cities).
 
 ## Recently closed
 

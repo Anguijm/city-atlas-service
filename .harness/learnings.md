@@ -1011,3 +1011,49 @@ Enrichment sweep: 101/119 thin/low cities enriched, ~1800 new waypoints, ~4600 t
 3. **Fix oxford-ms** — delete `data/timeout/oxford-ms.md`, re-scrape, re-run research.
 4. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
 5. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
+
+---
+
+## 2026-05-01 — Session 5/6: PR queue clear + Firestore audit + city_id backfill + scraper disambiguation
+
+### KEEP
+
+- **Two-pass neighborhood→city lookup is the right pattern for cross-collection backfills.** Primary: flat `vibe_neighborhoods` (indexed, fast). Secondary: `collection_group("neighborhoods")` fallback for neighborhoods that only exist in nested subcollections. The secondary pass added 24 previously unresolvable IDs. Pattern: `db.collection_group("neighborhoods").stream()` and extract city_id from `doc.reference.path.split("/")[1]`.
+
+- **`city.id` slug-first in scrapers prevents wrong-country hits.** `scrapeTimeOut` previously used `slugify(city.name)` → `"oxford"` → Oxford UK; `"birmingham"` → Birmingham UK. Fix (commit `a8a4e6c`): try `city.id` first (already state-disambiguated: `oxford-ms`, `cape-may-nj`), then fall back to name slug. Also added a state guard: for US cities whose clinicalName has a comma (e.g. "Birmingham, Alabama"), require the scraped page to mention "Alabama" — catches the case where id == nameSlug but name is genuinely ambiguous.
+
+- **Dry run before any destructive Firestore operation.** The backfill script (commit `bb0fbb3`) ran dry first: confirmed 21,392 would-update, 33 orphan docs to delete, 154 birmingham-al docs. Live run matched exactly (21,368 after step 2 deleted birmingham-al tasks). No surprises.
+
+- **When council shows 217 cities in Atlas Obscura run, that's expected — no `--cities` filter on that scraper.** atlas-obscura.ts only accepts `--city` (singular). Passing `--cities` is silently ignored. To scrape a specific subset, run multiple `--city` calls or accept the full sweep.
+
+### IMPROVE
+
+- **Atlas Obscura scraper has no `--cities` (plural) flag** — unlike `reddit.ts` which accepts comma-separated `--cities`. Scraping a specific subset via atlas-obscura requires looping `--city city1`, `--city city2`, or accepting the full alphabetical sweep. Add `--cities` to atlas-obscura.ts to match reddit.ts's interface (or convert both to use local-sources.ts pattern with `--city` as multi-value). Next session: run the Atlas Obscura scraper via a loop over the 24 failed cities.
+
+- **Starting Atlas Obscura sweep from all-cities-alphabetical is slow when you only need a 24-city subset.** At 30s/city the sweep takes 108 minutes and the small towns appear late alphabetically. For targeted supplemental scraping, run a per-city loop or add a `--cities` flag.
+
+- **Interrupted scraper runs leave partial data in the working tree.** The Atlas Obscura run produced 8 major-city files (austin, chicago, denver, LA, miami, SF, seattle, DC) that were untracked at session close. These needed an explicit commit — easy to miss if session-close checklist doesn't include `git status`. Always check for untracked `data/` files before closing.
+
+### INSIGHT
+
+- **Absence of a git artifact does NOT mean a city was never ingested.** Original pipeline sessions (1-2) wrote to Firestore without saving local `.json` artifacts. NYC, Paris, Tokyo were ingested first; their data lives in Firestore not in `data/research-output/`. Never infer "not in git → not in Firestore." The authoritative source is `vibe_waypoints` count from the database, not local file presence.
+
+- **28,419 vibe_tasks had no city_id, making city-level task queries impossible.** The field was simply never populated — neighborhoods have city_id, tasks have neighborhood_id, but no backfill ran. The fix was entirely programmatic: ~20 minutes to write and run `backfill_task_city_id.py`. 7,051 tasks remain orphaned (their neighborhood_id references neighborhoods that no longer exist after city re-ingestions with different IDs). These are unserveable; --delete-orphans will remove them when decided.
+
+- **birmingham-al duplicate was created by the PR #43 batch run ingesting the city under a non-standard ID.** The canonical doc is `birmingham` (6 neighborhoods, 27 wps, correct Alabama neighborhoods). `birmingham-al` was a parallel ingest that produced 5 neighborhoods with doubled entries. The fix: delete `birmingham-al` (154 docs including all subcollections + flat entries via `delete_city_and_subcollections()`).
+
+### COUNCIL
+
+- No council rounds this session (no code PRs pushed to review). PR #49 open for council on the backfill branch.
+
+### Production state at session close
+
+- `main`: `bc6d7a7` (PR #42). **No change to main this session.**
+- **257 live cities in `urbanexplorer` Firestore** (260 total minus 3 orphan docs deleted this session).
+- **21,368 vibe_tasks now have city_id** (backfill applied live 2026-05-01). 7,051 remain orphaned.
+- **birmingham-al duplicate deleted** (154 docs). `birmingham` is authoritative.
+- **Wrong-country timeout scrapes removed**: `data/timeout/oxford-ms.md` (Oxford UK), `data/timeout/birmingham.md` (Birmingham UK). Both produce empty stubs now.
+- Open PRs: **#49** (fix/backfill-task-city-id-and-orphan-cleanup — council pending).
+- In-flight branch: `fix/backfill-task-city-id-and-orphan-cleanup` (commits `bb0fbb3`, `52b614a`, `a8a4e6c`, `2414370`).
+- CI: all green on `main`. PR #49 awaiting council.
+- **24 failed cities still need Atlas Obscura + Reddit scraping and re-research.** Scrapers interrupted mid-session.
