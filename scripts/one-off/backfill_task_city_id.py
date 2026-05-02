@@ -1,4 +1,20 @@
-"""Backfill city_id on vibe_tasks + clean up orphan/duplicate city docs.
+"""
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+DANGER — ONE-OFF SCRIPT. ALREADY RUN ON PRODUCTION. DO NOT RE-RUN.
+
+This script was run on 2026-05-01 (commit bb0fbb3) to backfill city_id on
+vibe_tasks and delete orphan/duplicate city docs. Re-running it without manual
+validation will DELETE city docs from Firestore that may have since been
+re-ingested with valid data (e.g., bellevue, new-york, birmingham-al).
+
+If you need to re-run, first verify each city in the DELETE list against
+global_city_cache.json and confirm 0 waypoints in Firestore before proceeding.
+Never run --run without reviewing --dry-run output first.
+
+Moved from src/pipeline/ to scripts/one-off/ post-council-review (PR #49).
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Backfill city_id on vibe_tasks + clean up orphan/duplicate city docs.
 
 Performs three operations in order:
 

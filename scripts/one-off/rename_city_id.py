@@ -1,4 +1,20 @@
-"""Rename a city document and all its associated data in Firestore.
+"""
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+DANGER — ONE-OFF SCRIPT. ALREADY RUN ON PRODUCTION. DO NOT RE-RUN.
+
+This script was run on 2026-05-01 to rename "birmingham" → "birmingham-al" in
+Firestore (commit in the fix/backfill-task-city-id-and-orphan-cleanup branch).
+Re-running it with the same old/new IDs will attempt to copy and delete docs
+that have already been migrated, potentially corrupting data.
+
+If you need to rename a different city, audit every step against the current
+Firestore state before using --run. Never run --run without reviewing dry-run
+output first.
+
+Moved from src/pipeline/ to scripts/one-off/ post-council-review (PR #49).
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Rename a city document and all its associated data in Firestore.
 
 Renames city docs, all nested subcollections, and all flat vibe_ collection
 entries from old_id to new_id. Required when the canonical city ID changes

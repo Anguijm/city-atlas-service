@@ -68,7 +68,16 @@ function buildAtlasUrl(city: City): string {
 // Atlas Obscura uses {city}-{state} for US cities (e.g. bisbee-arizona,
 // deadwood-south-dakota). Map the two-letter state suffix in city.id to the
 // full state name so we can build that URL without a manual override per city.
-const US_STATE_SLUGS: Record<string, string> = {
+//
+// Coverage: 50 US states only. US territories (PR, GU, VI, etc.) are not
+// included because Atlas Obscura uses country-based slugs for them
+// (e.g., "san-juan-puerto-rico") rather than the state pattern. Add a
+// slug override in configs/atlas-obscura-slugs.json for any territory city.
+//
+// To add a new abbreviation: map the two-letter suffix to the full slug
+// Atlas Obscura uses in its URL (lowercase, hyphens for spaces). Verify
+// with a real URL before committing — Atlas Obscura is inconsistent.
+export const US_STATE_SLUGS: Record<string, string> = {
   ak: "alaska", al: "alabama", ar: "arkansas", az: "arizona",
   ca: "california", co: "colorado", ct: "connecticut", de: "delaware",
   fl: "florida", ga: "georgia", hi: "hawaii", ia: "iowa", id: "idaho",
@@ -82,11 +91,14 @@ const US_STATE_SLUGS: Record<string, string> = {
   vt: "vermont", wa: "washington", wi: "wisconsin", wv: "west-virginia", wy: "wyoming",
 };
 
-async function scrapeCityPage(
-  page: Page,
+/**
+ * Build the ordered list of Atlas Obscura URLs to try for a city.
+ * Exported for unit testing — the async scraper calls this internally.
+ */
+export function buildAtlasUrls(
   city: City,
   overrides: Record<string, string>,
-): Promise<{ places: ScrapedPlace[]; fullText: string }> {
+): string[] {
   // Try multiple URL patterns — Atlas Obscura is inconsistent with slugs
   const slug = city.name.toLowerCase().replace(/\s+/g, "-");
   const countrySlug = city.country.toLowerCase().replace(/\s+/g, "-");
@@ -110,7 +122,21 @@ async function scrapeCityPage(
     return null;
   })();
 
-  const urls = [
+  // URL fallback chain — tried in priority order, stops at first URL with ≥5 places.
+  // Priority rationale:
+  //   1. Override slug from configs/atlas-obscura-slugs.json — human-verified, always wins.
+  //   2. US state pattern ({city}-{state-name}) — Atlas Obscura's canonical pattern for
+  //      all 50 states; most reliable for US cities (e.g., "bisbee-arizona").
+  //   3. Country pattern ({city}-{country}) — Atlas Obscura's standard for international
+  //      cities (e.g., "kyoto-japan").
+  //   4. Bare city slug ({city}) — some major cities use this (e.g., "tokyo", "paris").
+  //   5. Alt slug — handles common name variants (strips "-city", "ho-chi-minh" → "saigon").
+  //   6. Country-first-word only ({city}-{country-word-1}) — fallback for multi-word
+  //      countries where Atlas Obscura uses only the first word (e.g., "south" of
+  //      "south-korea" → unlikely but tried last).
+  // If a URL returns a "Page Not Found" title or doesn't mention the city name,
+  // it is skipped. The URL with the most extracted places wins.
+  return [
     ...(overrideSlug ? [`https://www.atlasobscura.com/things-to-do/${overrideSlug}`] : []),
     // US state-based pattern (most reliable for US cities)
     ...(stateSlug ? [`https://www.atlasobscura.com/things-to-do/${slug}-${stateSlug}`] : []),
@@ -119,6 +145,14 @@ async function scrapeCityPage(
     ...(altSlug !== slug ? [`https://www.atlasobscura.com/things-to-do/${altSlug}`] : []),
     `https://www.atlasobscura.com/things-to-do/${slug}-${countrySlug.split("-")[0]}`,
   ];
+}
+
+async function scrapeCityPage(
+  page: Page,
+  city: City,
+  overrides: Record<string, string>,
+): Promise<{ places: ScrapedPlace[]; fullText: string }> {
+  const urls = buildAtlasUrls(city, overrides);
 
   let loaded = false;
   let bestPlaces: { name: string; description: string; location: string; tags: string[]; url: string }[] = [];
@@ -188,7 +222,7 @@ async function scrapeCityPage(
   return { places: bestPlaces, fullText: bestFullText };
 }
 
-function extractPlacesFromText(
+export function extractPlacesFromText(
   text: string,
   cityName: string
 ): ScrapedPlace[] {
