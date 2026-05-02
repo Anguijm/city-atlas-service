@@ -1,294 +1,294 @@
 {
   "neighborhoods": [
     {
-      "id": "lambertville-historic-district",
+      "id": "downtown-historic-district",
       "city_id": "lambertville-nj",
       "name": {
-        "en": "Lambertville Historic District"
+        "en": "Downtown Lambertville / Historic District"
       },
       "summary": {
-        "en": "A village frozen in time, Lambertville is an open-air museum with 18th and 19th-century architecture lining streets that lead down to the scenic Delaware and Raritan Canal."
+        "en": "A perfectly preserved piece of American history, blending riverside tranquility with artistic energy. The area is defined by Federal and Victorian architecture and the quiet Delaware and Raritan Canal."
       },
-      "lat": 40.3651,
-      "lng": -74.9432,
-      "trending_score": 85
+      "lat": 40.3655,
+      "lng": -74.9442,
+      "trending_score": 95
     }
   ],
   "waypoints": [
     {
-      "id": "lambertville-historic-district-dr-canal-towpath",
+      "id": "downtown-historic-district-dr-canal",
       "city_id": "lambertville-nj",
-      "neighborhood_id": "lambertville-historic-district",
+      "neighborhood_id": "downtown-historic-district",
       "name": {
-        "en": "Delaware and Raritan Canal Towpath"
+        "en": "Delaware and Raritan Canal Towpath & Bridge Tender's House"
       },
       "description": {
-        "en": "This historic canal's preserved towpath offers a serene, flat walking trail that runs parallel to the river, providing a unique perspective on the back of the town's historic buildings."
+        "en": "A serene greenway along a historic 19th-century canal, featuring a photogenic Bridge Tender's House that serves as a tangible link to the canal's working past."
       },
-      "type": "nature",
-      "lat": 40.365,
-      "lng": -74.9405,
+      "type": "landmark",
+      "lat": 40.3641,
+      "lng": -74.9435,
       "trending_score": 90
     },
     {
-      "id": "lambertville-historic-district-james-marshall-house",
+      "id": "downtown-historic-district-marshall-house",
       "city_id": "lambertville-nj",
-      "neighborhood_id": "lambertville-historic-district",
+      "neighborhood_id": "downtown-historic-district",
       "name": {
-        "en": "The James W. Marshall House"
+        "en": "James W. Marshall House"
       },
       "description": {
-        "en": "The historic home of the man whose discovery of gold at Sutter's Mill triggered the California Gold Rush, providing a tangible link between this small town and the American West."
+        "en": "The childhood home of the man whose discovery of gold in California triggered the 1849 Gold Rush, creating an unexpected link between New Jersey and American history."
       },
       "type": "landmark",
-      "lat": 40.3655,
-      "lng": -74.9446,
-      "trending_score": 75
+      "lat": 40.3652,
+      "lng": -74.9448,
+      "trending_score": 85
     },
     {
-      "id": "lambertville-historic-district-lambertville-house",
+      "id": "downtown-historic-district-lambertville-house",
       "city_id": "lambertville-nj",
-      "neighborhood_id": "lambertville-historic-district",
+      "neighborhood_id": "downtown-historic-district",
       "name": {
-        "en": "Lambertville House"
+        "en": "The Lambertville House"
       },
       "description": {
-        "en": "A stately, historic hotel with a grand stone facade that has been a cornerstone of the town since the early 19th century, representing its long history as a stopping point for travelers."
+        "en": "A grand, historic hotel and a cornerstone of the town since the early 19th century, featuring a beautiful stone facade and multi-level porches."
       },
       "type": "landmark",
       "lat": 40.3658,
-      "lng": -74.9424,
-      "trending_score": 80
+      "lng": -74.9439,
+      "trending_score": 88
     },
     {
-      "id": "lambertville-historic-district-kalmia-club",
+      "id": "downtown-historic-district-kalmia-club",
       "city_id": "lambertville-nj",
-      "neighborhood_id": "lambertville-historic-district",
+      "neighborhood_id": "downtown-historic-district",
       "name": {
         "en": "The Kalmia Club"
       },
       "description": {
-        "en": "Home to one of the oldest continuously running women's clubs in New Jersey, this hidden gem represents a significant piece of local social and cultural history."
+        "en": "An architectural standout and home to one of New Jersey's oldest continuously running women's clubs, listed on the National Register of Historic Places."
       },
-      "type": "hidden_gem",
-      "lat": 40.3636,
-      "lng": -74.9429,
-      "trending_score": 65
+      "type": "culture",
+      "lat": 40.3671,
+      "lng": -74.9445,
+      "trending_score": 80
     }
   ],
   "tasks": [
     {
-      "id": "lambertville-historic-district-task-1",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-1",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Canal Reflections"
+        "en": "Victorian Detail Hunter"
       },
       "prompt": {
-        "en": "At golden hour, stand on a bridge over the canal and capture the long reflections of trees and historic buildings in the still water."
+        "en": "Find a building with ornate Victorian details. Take a close-up photo of the most interesting element, like gingerbread trim or a fancy bracket."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-2",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-2",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Architectural Texture"
+        "en": "Riverside Selfie"
       },
       "prompt": {
-        "en": "Find a historic building and take a close-up shot focusing on the texture of its aged brickwork, rugged stone, or wooden shutters."
+        "en": "Take a selfie with the Delaware River providing a scenic backdrop. Capture the tranquility of the water."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-3",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-3",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Then & Now"
+        "en": "Historic Brickwork"
       },
       "prompt": {
-        "en": "Frame a photo that contrasts a historic, rugged exterior with a modern detail, like a car's reflection in an old window."
+        "en": "Photograph the weathered texture of a brick-fronted townhouse. Try to capture the sense of age and history in the bricks."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-4",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-4",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Community Character"
+        "en": "Canal Reflection"
       },
       "prompt": {
-        "en": "Capture a photo that highlights the unique architectural character of a community building, focusing on its symmetry or window patterns."
+        "en": "Find a spot along the D&R Canal and capture a beautiful reflection of a building, bridge, or trees in the still water."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-5",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-5",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Plaque Quest"
+        "en": "Artistic Energy"
       },
       "prompt": {
-        "en": "Find and photograph an official historic marker or plaque on any building in the district."
+        "en": "Lambertville has an artistic vibe. Find a gallery window, a piece of public art, or a colorful display and capture it in a photo."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-6",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-6",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Frozen in Time"
+        "en": "19th-Century Shopkeeper"
       },
       "prompt": {
-        "en": "Take a photo of a street scene that, with a little imagination, could have been taken a century ago."
+        "en": "Pose in front of a historic-looking storefront for a selfie. Imagine you're the owner from 1880."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-7",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-7",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Towpath Tranquility"
+        "en": "Hidden History"
       },
       "prompt": {
-        "en": "Take a selfie on the serene, tree-lined Delaware and Raritan Canal Towpath."
+        "en": "Find any historical plaque or marker on a building. Take a photo focusing on the date to document a piece of the town's past."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-8",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-8",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Doorway to the Past"
+        "en": "Charming Entrance"
       },
       "prompt": {
-        "en": "Find the most interesting or colorful historic doorway you can and snap a picture of it."
+        "en": "Locate the most charming or colorful front door you can find and take a picture. What makes it so welcoming?"
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-9",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-9",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Shadow Play"
+        "en": "Towpath Perspective"
       },
       "prompt": {
-        "en": "In the morning or late afternoon, capture the interesting patterns created by long shadows from the historic buildings."
+        "en": "Walk along the canal towpath and take a photo looking down the path. Try to create a sense of depth and peacefulness."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-10",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-10",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "River Glimpse"
+        "en": "Federal Style Symmetry"
       },
       "prompt": {
-        "en": "Find a side street that ends with a view of the Delaware River and capture the scene."
+        "en": "Find a building in the Federal architectural style, known for its symmetry. Take a photo that highlights its balanced windows and central door."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-11",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-11",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Open-Air Museum"
+        "en": "Cafe Culture View"
       },
       "prompt": {
-        "en": "Take a photo that best captures the feeling of the whole town being an open-air museum."
+        "en": "Find a local cafe or eatery with outdoor seating. Take a photo from your seat, capturing the ambiance of the street."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-12",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-12",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Historic Streetscape"
+        "en": "Shadows and Light"
       },
       "prompt": {
-        "en": "Photograph a wide shot of a street lined with 18th or 19th-century houses."
+        "en": "Play with the light. Capture an interesting pattern of shadows cast by a historic building, a tree, or a fence onto a sidewalk or wall."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-13",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-13",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Nature Meets Town"
+        "en": "Window to the Past"
       },
       "prompt": {
-        "en": "Capture an image where the town's historic architecture and the natural environment beautifully intersect."
+        "en": "Take a photo of an interesting window on one of the historic homes. Focus on the frame, the glass, or the reflection."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-14",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-14",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Quiet Corner"
+        "en": "Bridge Crossing Selfie"
       },
       "prompt": {
-        "en": "Find a peaceful-looking bench or quiet corner and take a photo that conveys the town's tranquil atmosphere."
+        "en": "Take a selfie on one of the small, charming bridges that cross the canal."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-15",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-15",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Discovery Quest: Canal History"
+        "en": "Stone Foundation"
       },
       "prompt": {
-        "en": "Along the canal, find a preserved historical object (like a lock, a marker, or a building) and photograph it."
+        "en": "Many old buildings have stone foundations. Find one and take a close-up shot that shows the texture and age of the stonework."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-16",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-16",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Window to the World"
+        "en": "Streetscape Story"
       },
       "prompt": {
-        "en": "Take a photo of a historic window, focusing on its design and the view it offers, whether inside or reflected."
+        "en": "Find a vantage point and capture a whole streetscape. Your photo should tell the story of Lambertville's historic character."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-17",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-17",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "Signs of the Times"
+        "en": "Ornate Ironwork"
       },
       "prompt": {
-        "en": "Find and photograph a vintage or historic-style sign on one of the local buildings."
+        "en": "Search for a piece of decorative ironwork—it could be a fence, a gate, or a balcony railing. Photograph its intricate design."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "lambertville-historic-district-task-18",
-      "neighborhood_id": "lambertville-historic-district",
+      "id": "downtown-historic-district-task-18",
+      "neighborhood_id": "downtown-historic-district",
       "title": {
-        "en": "The Explorer's Selfie"
+        "en": "Local Flavors"
       },
       "prompt": {
-        "en": "Take a selfie with your favorite historic building in the background."
+        "en": "Find a window display of a local shop (bakery, candy store, etc.) and take an enticing photo of the goods inside."
       },
       "points": 10,
       "duration_minutes": 5

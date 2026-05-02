@@ -1,656 +1,686 @@
 {
   "neighborhoods": [
     {
-      "id": "historic-downtown-square",
+      "id": "oxford-town-square",
       "city_id": "oxford-ms",
       "name": {
-        "en": "The Historic Downtown Square"
+        "en": "The Historic Square"
       },
       "summary": {
-        "en": "The cultural and commercial heart of Oxford, where Southern history, literary lore, and modern life converge around the stately Lafayette County Courthouse."
+        "en": "The historic and cultural epicenter of Oxford, where literary history and Southern tradition converge around the stately Lafayette County Courthouse."
       },
-      "lat": 34.366,
-      "lng": -89.5188,
+      "lat": 34.3665,
+      "lng": -89.5192,
       "trending_score": 95
     },
     {
-      "id": "university-of-mississippi",
+      "id": "ole-miss-campus-core",
       "city_id": "oxford-ms",
       "name": {
-        "en": "The University of Mississippi Campus & Environs"
+        "en": "University of Mississippi Campus Core"
       },
       "summary": {
-        "en": "A quintessential Southern campus of grand, columned buildings and sprawling lawns, offering a journey through architectural beauty and complex American history."
+        "en": "The sprawling, shaded grounds of \"Ole Miss,\" a place of 19th-century academic grandeur, immense beauty, and profound historical weight."
       },
       "lat": 34.3649,
       "lng": -89.5358,
       "trending_score": 90
     },
     {
-      "id": "historic-residential-streets",
+      "id": "oxford-heritage-sites",
       "city_id": "oxford-ms",
       "name": {
-        "en": "Historic Residential Streets"
+        "en": "Oxford Heritage Sites"
       },
       "summary": {
-        "en": "A quiet, contemplative area revealing the domestic and political history of Oxford's influential figures through significant 19th-century homes."
+        "en": "Explore the secluded domains and cultural landmarks that tell the deeper stories of Oxford's most famous residents and communities."
       },
-      "lat": 34.372,
-      "lng": -89.518,
-      "trending_score": 75
+      "lat": 34.3622,
+      "lng": -89.526,
+      "trending_score": 85
     }
   ],
   "waypoints": [
     {
-      "id": "historic-downtown-square-lyric-theater",
+      "id": "oxford-town-square-courthouse",
       "city_id": "oxford-ms",
-      "neighborhood_id": "historic-downtown-square",
-      "name": {
-        "en": "The Lyric Theater"
-      },
-      "description": {
-        "en": "Once a livery stable owned by Faulkner’s family, this former 1920s cinema is now Oxford's premier live music venue."
-      },
-      "type": "nightlife",
-      "lat": 34.3668,
-      "lng": -89.5178,
-      "trending_score": 88
-    },
-    {
-      "id": "historic-downtown-square-square-books",
-      "city_id": "oxford-ms",
-      "neighborhood_id": "historic-downtown-square",
-      "name": {
-        "en": "Square Books"
-      },
-      "description": {
-        "en": "A legendary, three-story independent bookstore that is a pilgrimage site for any book lover, featuring a balcony overlooking the Square."
-      },
-      "type": "culture",
-      "lat": 34.3664,
-      "lng": -89.5193,
-      "trending_score": 98
-    },
-    {
-      "id": "historic-downtown-square-neilson-co",
-      "city_id": "oxford-ms",
-      "neighborhood_id": "historic-downtown-square",
-      "name": {
-        "en": "J. E. Neilson Co."
-      },
-      "description": {
-        "en": "The South’s oldest documented department store, founded in 1839, offering a tangible connection to the town's mercantile past."
-      },
-      "type": "shopping",
-      "lat": 34.366,
-      "lng": -89.5191,
-      "trending_score": 80
-    },
-    {
-      "id": "historic-downtown-square-off-square-books",
-      "city_id": "oxford-ms",
-      "neighborhood_id": "historic-downtown-square",
-      "name": {
-        "en": "Off Square Books"
-      },
-      "description": {
-        "en": "The sister store to the main emporium, focusing on used and collectible books and hosting the Thacker Mountain Radio show."
-      },
-      "type": "culture",
-      "lat": 34.3662,
-      "lng": -89.5192,
-      "trending_score": 85
-    },
-    {
-      "id": "historic-downtown-square-lafayette-county-courthouse",
-      "city_id": "oxford-ms",
-      "neighborhood_id": "historic-downtown-square",
+      "neighborhood_id": "oxford-town-square",
       "name": {
         "en": "Lafayette County Courthouse"
       },
       "description": {
-        "en": "The stately centerpiece of the Downtown Square, embodying the convergence of Southern history, literary lore, and modern life in Oxford."
+        "en": "The 1872 architectural and civic anchor of the Square, a classic example of Southern public architecture with a presiding clock tower and shaded lawn."
       },
       "type": "landmark",
-      "lat": 34.366,
-      "lng": -89.5188,
-      "trending_score": 92
+      "lat": 34.36651,
+      "lng": -89.51918,
+      "trending_score": 90
     },
     {
-      "id": "university-of-mississippi-rowan-oak",
+      "id": "oxford-town-square-square-books",
       "city_id": "oxford-ms",
-      "neighborhood_id": "university-of-mississippi",
+      "neighborhood_id": "oxford-town-square",
       "name": {
-        "en": "Rowan Oak"
+        "en": "Square Books"
       },
       "description": {
-        "en": "The beautifully preserved 1848 Greek Revival home where William Faulkner lived and wrote many of his masterpieces."
+        "en": "One of America's great literary landmarks, this famous bookstore is a sanctuary for readers with creaking floors and a famous balcony overlooking the Square."
       },
-      "type": "landmark",
-      "lat": 34.3584,
-      "lng": -89.5255,
-      "trending_score": 97
+      "type": "culture",
+      "lat": 34.36685,
+      "lng": -89.51865,
+      "trending_score": 100
     },
     {
-      "id": "university-of-mississippi-the-lyceum",
+      "id": "oxford-town-square-neilsons",
       "city_id": "oxford-ms",
-      "neighborhood_id": "university-of-mississippi",
+      "neighborhood_id": "oxford-town-square",
+      "name": {
+        "en": "J. E. Neilson Co."
+      },
+      "description": {
+        "en": "Founded in 1839, Neilson's is the oldest documented store in the South, offering a feeling of stepping back in time."
+      },
+      "type": "shopping",
+      "lat": 34.36612,
+      "lng": -89.51859,
+      "trending_score": 85
+    },
+    {
+      "id": "oxford-town-square-lyric-theater",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "oxford-town-square",
+      "name": {
+        "en": "The Lyric Theater"
+      },
+      "description": {
+        "en": "A vibrant music venue with a layered history, once a livery stable owned by William Faulkner's family and the site of a Faulkner film premiere."
+      },
+      "type": "nightlife",
+      "lat": 34.36725,
+      "lng": -89.51891,
+      "trending_score": 88
+    },
+    {
+      "id": "oxford-town-square-confederate-monuments",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "oxford-town-square",
+      "name": {
+        "en": "Confederate Monuments"
+      },
+      "description": {
+        "en": "Two statues located near the courthouse that are a point of local lore and historical observation."
+      },
+      "type": "landmark",
+      "lat": 34.3662,
+      "lng": -89.5195,
+      "trending_score": 60
+    },
+    {
+      "id": "ole-miss-campus-core-lyceum",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "ole-miss-campus-core",
       "name": {
         "en": "The Lyceum"
       },
       "description": {
-        "en": "The iconic, columned centerpiece of the university, a silent witness to the 1962 riots over integration."
+        "en": "The oldest building on campus (1848) and its administrative heart, known for its iconic white columns and historical significance."
       },
       "type": "landmark",
-      "lat": 34.3649,
-      "lng": -89.5358,
-      "trending_score": 94
+      "lat": 34.3651,
+      "lng": -89.5361,
+      "trending_score": 95
     },
     {
-      "id": "university-of-mississippi-james-meredith-statue",
+      "id": "ole-miss-campus-core-the-circle",
       "city_id": "oxford-ms",
-      "neighborhood_id": "university-of-mississippi",
+      "neighborhood_id": "ole-miss-campus-core",
       "name": {
-        "en": "James Meredith Statue"
+        "en": "The Circle"
       },
       "description": {
-        "en": "A powerful monument titled 'Courage' depicting James Meredith, the first African American student to attend Ole Miss."
+        "en": "The historic core and central green space of Ole Miss, a place of immense beauty and the flashpoint of the 1962 integration riots."
       },
       "type": "landmark",
-      "lat": 34.3646,
-      "lng": -89.5359,
+      "lat": 34.36495,
+      "lng": -89.53585,
+      "trending_score": 92
+    },
+    {
+      "id": "ole-miss-campus-core-meredith-memorial",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "ole-miss-campus-core",
+      "name": {
+        "en": "James Meredith Memorial"
+      },
+      "description": {
+        "en": "A powerful statue commemorating the university's first African American student and his courageous enrollment in 1962."
+      },
+      "type": "landmark",
+      "lat": 34.3654,
+      "lng": -89.5364,
       "trending_score": 90
     },
     {
-      "id": "university-of-mississippi-burns-belfry-museum",
+      "id": "ole-miss-campus-core-university-museum",
       "city_id": "oxford-ms",
-      "neighborhood_id": "university-of-mississippi",
+      "neighborhood_id": "ole-miss-campus-core",
       "name": {
-        "en": "Burns-Belfry Museum & Multicultural Center"
+        "en": "University of Mississippi Museum"
       },
       "description": {
-        "en": "Housed in a 1910 church built by freed African Americans, this museum offers a vital exhibit on local African American history."
+        "en": "A surprisingly robust museum housing remarkable collections of Greek and Roman antiquities and 19th-century scientific instruments."
       },
       "type": "culture",
-      "lat": 34.3678,
-      "lng": -89.5108,
-      "trending_score": 82
+      "lat": 34.3681,
+      "lng": -89.5386,
+      "trending_score": 85
     },
     {
-      "id": "historic-residential-streets-lamar-house",
+      "id": "ole-miss-campus-core-robinson-collection",
       "city_id": "oxford-ms",
-      "neighborhood_id": "historic-residential-streets",
+      "neighborhood_id": "ole-miss-campus-core",
       "name": {
-        "en": "Lucius Q. C. Lamar House Museum"
+        "en": "Robinson Collection of Greek and Roman Antiquities"
       },
       "description": {
-        "en": "The restored antebellum home of a complex U.S. Senator and Supreme Court Justice, offering a look into post-Civil War politics."
+        "en": "A remarkable collection of ancient artifacts housed within the University of Mississippi Museum."
       },
-      "type": "culture",
-      "lat": 34.3725,
-      "lng": -89.5218,
+      "type": "hidden_gem",
+      "lat": 34.36815,
+      "lng": -89.53855,
+      "trending_score": 75
+    },
+    {
+      "id": "ole-miss-campus-core-millington-barnard-collection",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "ole-miss-campus-core",
+      "name": {
+        "en": "Millington-Barnard Collection"
+      },
+      "description": {
+        "en": "A fascinating collection of 19th-century scientific instruments that look like they belong in a mad scientist's lab, located in the University Museum."
+      },
+      "type": "hidden_gem",
+      "lat": 34.36805,
+      "lng": -89.53865,
       "trending_score": 78
     },
     {
-      "id": "historic-residential-streets-ammadelle",
+      "id": "oxford-heritage-sites-rowan-oak",
       "city_id": "oxford-ms",
-      "neighborhood_id": "historic-residential-streets",
+      "neighborhood_id": "oxford-heritage-sites",
       "name": {
-        "en": "Ammadelle"
+        "en": "Rowan Oak"
       },
       "description": {
-        "en": "A grand 1859 Italianate villa designed by Calvert Vaux, one of the co-designers of New York's Central Park."
+        "en": "The 1840s Greek Revival home where William Faulkner lived and wrote for over 30 years, preserved as he left it."
       },
       "type": "landmark",
-      "lat": 34.3733,
-      "lng": -89.5183,
-      "trending_score": 80
+      "lat": 34.3585,
+      "lng": -89.5245,
+      "trending_score": 100
     },
     {
-      "id": "historic-residential-streets-st-peters-church",
+      "id": "oxford-heritage-sites-faulkner-office",
       "city_id": "oxford-ms",
-      "neighborhood_id": "historic-residential-streets",
+      "neighborhood_id": "oxford-heritage-sites",
       "name": {
-        "en": "St. Peter's Episcopal Church"
+        "en": "William Faulkner's Office"
       },
       "description": {
-        "en": "A beautiful 1860 Neo-Gothic church with a tranquil churchyard where William Faulkner's funeral was held."
+        "en": "The famous study inside Rowan Oak where Faulkner outlined his novel *A Fable* directly on the walls."
       },
-      "type": "landmark",
-      "lat": 34.365,
-      "lng": -89.5163,
-      "trending_score": 76
+      "type": "hidden_gem",
+      "lat": 34.35855,
+      "lng": -89.52445,
+      "trending_score": 90
+    },
+    {
+      "id": "oxford-heritage-sites-burns-belfry",
+      "city_id": "oxford-ms",
+      "neighborhood_id": "oxford-heritage-sites",
+      "name": {
+        "en": "Burns-Belfry Museum & Cultural Center"
+      },
+      "description": {
+        "en": "A restored 1910 church, originally built by freed African Americans, now a museum dedicated to local African American history."
+      },
+      "type": "culture",
+      "lat": 34.366,
+      "lng": -89.5275,
+      "trending_score": 85
     }
   ],
   "tasks": [
     {
-      "id": "historic-downtown-square-task-1",
-      "neighborhood_id": "historic-downtown-square",
-      "title": {
-        "en": "Literary Echoes"
-      },
-      "prompt": {
-        "en": "Find a cozy corner or storefront that feels like it's straight out of a Faulkner novel and capture it in a photo."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-downtown-square-task-2",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-1",
+      "neighborhood_id": "oxford-town-square",
       "title": {
         "en": "Courthouse Perspective"
       },
       "prompt": {
-        "en": "Take a photo of the Lafayette County Courthouse from an unusual angle—from down low, through a window, or in a reflection."
+        "en": "Find an interesting angle of the Lafayette County Courthouse. Frame it with tree branches, from a low angle, or through a shop window."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-3",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-2",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Brick & Mortar History"
+        "en": "Literary Echoes"
       },
       "prompt": {
-        "en": "Capture a close-up shot of the historic brickwork on one of the Square's oldest buildings. Focus on the texture and age."
+        "en": "Take a photo of a place that feels like it could be a setting in a Southern novel. It could be a storefront, a quiet alley, or a bench on the lawn."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-4",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-3",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Southern Refreshment"
+        "en": "Taste of the Town"
       },
       "prompt": {
-        "en": "Take a photo of a classic Southern beverage you're enjoying, whether it's sweet tea, a mint julep, or a local craft beer."
+        "en": "Find a cafe or restaurant that serves a classic Southern item, like biscuits or sweet tea. Snap a picture of your local treat."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-5",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-4",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Shop Window Story"
+        "en": "Historic Signage"
       },
       "prompt": {
-        "en": "Find the most interesting or eclectic window display on the Square and take a creative photo of it."
+        "en": "Look for a business with a vintage or historic-looking sign. Capture a photo that highlights its unique typography or design."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-6",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-5",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Square Selfie"
+        "en": "Porch Life"
       },
       "prompt": {
-        "en": "Take a selfie that captures the lively, intellectual buzz of the Downtown Square."
+        "en": "Many buildings on the Square have porches or balconies. Take a selfie on a public porch or with a famous one in the background."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-7",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-6",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Find a Plaque"
+        "en": "Local Recommendation Quest"
       },
       "prompt": {
-        "en": "Seek out and photograph a historical marker or plaque that tells a story about one of the buildings."
+        "en": "Ask a local shopkeeper for their favorite spot on the Square (for coffee, lunch, etc.). Take a photo of the place they recommend."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-8",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-7",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Then and Now"
+        "en": "Past Meets Present"
       },
       "prompt": {
-        "en": "Capture a photo that shows the contrast between historic architecture and modern life on the Square."
+        "en": "Capture an image that shows the blend of old and new in the Square—a historic building next to a modern boutique, for example."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-9",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-8",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Balcony View"
+        "en": "Red Brick Rhythm"
       },
       "prompt": {
-        "en": "Find a second-story window or balcony and capture the view of the bustling street below."
+        "en": "The Square is known for its beautiful brickwork. Find an interesting pattern or texture on a wall or sidewalk and take a close-up shot."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-10",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-9",
+      "neighborhood_id": "oxford-town-square",
+      "title": {
+        "en": "Window Shopping"
+      },
+      "prompt": {
+        "en": "Find the most interesting or creative window display in one of the Square's boutiques. Take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-town-square-task-10",
+      "neighborhood_id": "oxford-town-square",
       "title": {
         "en": "Sounds of the Square"
       },
       "prompt": {
-        "en": "Take a photo of something that represents the sounds of the square - a musician, a marquee, or people chatting on a bench."
+        "en": "Find a spot where you can hear music—a street performer, a band setting up, or music from a bar. Take a photo of the source of the sound."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-11",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-11",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Literary Find"
+        "en": "Shady Spot Selfie"
       },
       "prompt": {
-        "en": "Photograph a book by a Mississippi author in the window of a bookstore."
+        "en": "The courthouse lawn is famous for its old oak trees. Find a comfortable, shady spot under a tree and take a relaxing selfie."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-downtown-square-task-12",
-      "neighborhood_id": "historic-downtown-square",
+      "id": "oxford-town-square-task-12",
+      "neighborhood_id": "oxford-town-square",
       "title": {
-        "en": "Dusk Glow"
+        "en": "Blue Hour Glow"
       },
       "prompt": {
-        "en": "As evening approaches, capture the warm glow of a streetlamp or a lit-up sign on the Square."
+        "en": "If you're here at twilight, capture a photo of a building's glowing sign or lighted windows against the deep blue evening sky."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "university-of-mississippi-task-1",
-      "neighborhood_id": "university-of-mississippi",
+      "id": "ole-miss-campus-core-task-1",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Shadow of the Past"
+        "en": "Campus Column Capture"
       },
       "prompt": {
-        "en": "Capture the long shadow of one of the grand columns on the Lyceum or another historic building."
+        "en": "The campus is famous for its grand, columned buildings. Take a photo that emphasizes the scale and symmetry of a set of columns."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "university-of-mississippi-task-2",
-      "neighborhood_id": "university-of-mississippi",
+      "id": "ole-miss-campus-core-task-2",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Campus Contemplation"
+        "en": "Moment of Reflection"
       },
       "prompt": {
-        "en": "Find a quiet bench under a large tree and take a photo of the peaceful view."
+        "en": "Find a historical marker or monument on campus. Take a photo of it and reflect on the story it tells."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "university-of-mississippi-task-3",
-      "neighborhood_id": "university-of-mississippi",
+      "id": "ole-miss-campus-core-task-3",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Architectural Detail"
+        "en": "Future Scholar Selfie"
       },
       "prompt": {
-        "en": "Find an interesting architectural detail—a window arch, a cornerstone, or a decorative element—on a campus building and take a close-up shot."
+        "en": "Take a selfie in front of an academic building that looks inspiring or imposing."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "university-of-mississippi-task-4",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Scholar's Selfie"
-      },
-      "prompt": {
-        "en": "Take a selfie in front of the grandest, most inspiring academic building you can find."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-5",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Pathways of Knowledge"
-      },
-      "prompt": {
-        "en": "Photograph one of the many brick pathways or shaded walkways that crisscross the campus, imagining the generations of students who have walked there."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-6",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Nature Meets Knowledge"
-      },
-      "prompt": {
-        "en": "Frame a shot that shows the beautiful interplay between the campus's historic architecture and its natural setting of trees and lawns."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-7",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "A Moment of Courage"
-      },
-      "prompt": {
-        "en": "Find a symbol of progress or history on campus and take a photo that reflects on its meaning."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-8",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Signs of Academia"
-      },
-      "prompt": {
-        "en": "Photograph a sign for a university department or building that sounds particularly interesting to you."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-9",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Through the Grove"
-      },
-      "prompt": {
-        "en": "Capture a photo looking through the branches of the old trees that give the campus its shaded, timeless feel."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-10",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Campus Colors"
-      },
-      "prompt": {
-        "en": "Find the university's colors (red and blue) somewhere on campus and feature them in a creative photograph."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-11",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Historic Marker Hunt"
-      },
-      "prompt": {
-        "en": "Locate and photograph a historical marker on campus that commemorates a person or event."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "university-of-mississippi-task-12",
-      "neighborhood_id": "university-of-mississippi",
-      "title": {
-        "en": "Lawn Lounging"
-      },
-      "prompt": {
-        "en": "Take a photo from the perspective of someone relaxing on one of the campus's sprawling green lawns."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-residential-streets-task-1",
-      "neighborhood_id": "historic-residential-streets",
-      "title": {
-        "en": "Facade Fascination"
-      },
-      "prompt": {
-        "en": "From the sidewalk, capture the most impressive or beautiful facade of a 19th-century home."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-residential-streets-task-2",
-      "neighborhood_id": "historic-residential-streets",
-      "title": {
-        "en": "Porch Stories"
-      },
-      "prompt": {
-        "en": "Take a photo of an inviting-looking porch. What stories could it tell?"
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-residential-streets-task-3",
-      "neighborhood_id": "historic-residential-streets",
-      "title": {
-        "en": "Garden Glimpse"
-      },
-      "prompt": {
-        "en": "Photograph a beautiful detail from a front garden—a blooming flower, an old gate, or a winding path."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-residential-streets-task-4",
-      "neighborhood_id": "historic-residential-streets",
-      "title": {
-        "en": "Architectural Eye Spy"
-      },
-      "prompt": {
-        "en": "Find and photograph a unique architectural feature, like an ornate window, a grand tower, or decorative trim."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-residential-streets-task-5",
-      "neighborhood_id": "historic-residential-streets",
-      "title": {
-        "en": "Quiet Street Selfie"
-      },
-      "prompt": {
-        "en": "Take a selfie on a quiet, tree-lined street that captures the contemplative vibe of the neighborhood."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-residential-streets-task-6",
-      "neighborhood_id": "historic-residential-streets",
+      "id": "ole-miss-campus-core-task-4",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
         "en": "Shades of History"
       },
       "prompt": {
-        "en": "Capture the way sunlight and shadows play across the front of an old, historic house."
+        "en": "The campus is filled with old trees. Capture an image showing the play of light and shadow from the trees on a historic brick walkway or building."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-residential-streets-task-7",
-      "neighborhood_id": "historic-residential-streets",
+      "id": "ole-miss-campus-core-task-5",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Historic Marker Discovery"
+        "en": "Academic Still Life"
       },
       "prompt": {
-        "en": "Find a historical marker in front of a house or church and take a photo of it."
+        "en": "Find a scene that represents university life—a collection of bikes, a quiet study bench, a flyer-covered bulletin board—and compose a still life photo."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-residential-streets-task-8",
-      "neighborhood_id": "historic-residential-streets",
+      "id": "ole-miss-campus-core-task-6",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Street Sign Story"
+        "en": "Green Space"
       },
       "prompt": {
-        "en": "Photograph a street sign named after a historic figure or a prominent family."
+        "en": "Find a beautiful lawn or green space on campus. Take a wide shot that captures the feeling of openness and nature within the university."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-residential-streets-task-9",
-      "neighborhood_id": "historic-residential-streets",
+      "id": "ole-miss-campus-core-task-7",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "The Perfect Walk"
+        "en": "Architectural Detail"
       },
       "prompt": {
-        "en": "Take a photo looking down a long, inviting sidewalk shaded by large trees."
+        "en": "Focus on a small, interesting architectural detail of one of the older buildings—a carved stone, an ornate window frame, or a unique brick pattern."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-residential-streets-task-10",
-      "neighborhood_id": "historic-residential-streets",
+      "id": "ole-miss-campus-core-task-8",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Window to the Past"
+        "en": "Pathways"
       },
       "prompt": {
-        "en": "Focus on a single window of a historic home. Try to capture its character and the reflection of the sky or trees."
+        "en": "The campus is connected by countless sidewalks and paths. Take a photo looking down a long, tree-lined path, emphasizing perspective."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-residential-streets-task-11",
-      "neighborhood_id": "historic-residential-streets",
+      "id": "ole-miss-campus-core-task-9",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Steeple in the Sky"
+        "en": "Signs of Student Life"
       },
       "prompt": {
-        "en": "Find a church steeple and take a photo of it against the sky."
+        "en": "Find an object or scene that clearly says 'college campus' without showing any people. It could be a discarded textbook, a university flag, or team mascot."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-residential-streets-task-12",
-      "neighborhood_id": "historic-residential-streets",
+      "id": "ole-miss-campus-core-task-10",
+      "neighborhood_id": "ole-miss-campus-core",
       "title": {
-        "en": "Fence Line"
+        "en": "A Quiet Corner"
       },
       "prompt": {
-        "en": "Capture an interesting photo of a historic fence—wrought iron, white picket, or stone—that lines one of the properties."
+        "en": "Discover a quiet, hidden corner of campus—a small garden, a secluded bench, or an overlooked courtyard—and capture its peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "ole-miss-campus-core-task-11",
+      "neighborhood_id": "ole-miss-campus-core",
+      "title": {
+        "en": "Campus Colors"
+      },
+      "prompt": {
+        "en": "Take a photo that prominently features the university's official colors (red and blue)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "ole-miss-campus-core-task-12",
+      "neighborhood_id": "ole-miss-campus-core",
+      "title": {
+        "en": "Through the Window"
+      },
+      "prompt": {
+        "en": "Take a photo of a campus scene as viewed from inside a building, looking out a window. Use the window frame to frame your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-1",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "A Writer's Perspective"
+      },
+      "prompt": {
+        "en": "Find a spot with a view of a historic home or natural landscape. Take a photo from a low angle, as if seeing the world from a thoughtful, observant perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-2",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Capture an image of a quiet driveway, a worn footpath, or a secluded trail that evokes a sense of history and discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-3",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Architectural Story"
+      },
+      "prompt": {
+        "en": "Photograph a detail on a historic building that tells a story—weathered paint, intricate brickwork, or a stained-glass window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-4",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Take a black and white photo of a historic site to emphasize its timeless quality and connection to the past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-5",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use the natural surroundings, like the cedar-lined driveway at Rowan Oak or trees near the Burns-Belfry, to frame a photo of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-6",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Contemplative Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet, inspiring spot near one of the heritage sites. Take a thoughtful selfie, capturing the serene atmosphere of the location."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-7",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Capture the way the late afternoon light falls on a historic building or through the trees, creating interesting patterns of light and shadow."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-8",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "A Piece of History"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque. Take a close-up photo of a specific date or phrase that you find compelling."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-9",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Wild and Untamed"
+      },
+      "prompt": {
+        "en": "The grounds around some heritage sites are intentionally preserved with a natural feel. Photograph a scene that looks 'wild and untamed'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-10",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Community Landmark"
+      },
+      "prompt": {
+        "en": "Take a photo of a building that clearly served as a community hub, like a church or historic home, and try to capture its welcoming or stately presence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-11",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "Texture Study"
+      },
+      "prompt": {
+        "en": "Get close to an old structure and capture its texture—peeling paint on wood, rough stone, or aged brick."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "oxford-heritage-sites-task-12",
+      "neighborhood_id": "oxford-heritage-sites",
+      "title": {
+        "en": "The Long View"
+      },
+      "prompt": {
+        "en": "Step back and take a photo of a historic site from a distance, showing it in the context of its natural or neighborhood surroundings."
       },
       "points": 10,
       "duration_minutes": 5

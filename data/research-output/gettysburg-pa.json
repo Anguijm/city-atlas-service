@@ -1,0 +1,660 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-town-core",
+      "city_id": "gettysburg-pa",
+      "name": {
+        "en": "The Historic Town Core"
+      },
+      "summary": {
+        "en": "This is the living heart of Gettysburg, where the immense weight of history meets the daily life of a small Pennsylvania town. It’s a district for discovering history at a human scale, etched into walls and preserved in homes."
+      },
+      "lat": 39.8309,
+      "lng": -77.2311,
+      "trending_score": 95
+    },
+    {
+      "id": "battlefields-quirky-periphery",
+      "city_id": "gettysburg-pa",
+      "name": {
+        "en": "The Battlefield's Quirky Periphery"
+      },
+      "summary": {
+        "en": "Just beyond the town core lies a landscape of stranger stories and oddities of history. This area is for those who appreciate monuments dedicated not just to generals, but to heroic animals and bizarre events."
+      },
+      "lat": 39.818,
+      "lng": -77.233,
+      "trending_score": 88
+    },
+    {
+      "id": "western-approach-rural-landscape",
+      "city_id": "gettysburg-pa",
+      "name": {
+        "en": "The Western Approach & Rural Landscape"
+      },
+      "summary": {
+        "en": "This is a quieter, more contemplative journey through rolling fields and past iconic structures. The landscape itself is the main character here, a silent witness to history from the age of dinosaurs to the Cold War."
+      },
+      "lat": 39.835,
+      "lng": -77.26,
+      "trending_score": 82
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-town-core-dobbin-house",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-town-core",
+      "name": {
+        "en": "Historic Dobbin House Tavern"
+      },
+      "description": {
+        "en": "One of Gettysburg's oldest buildings, this tavern predates the Revolutionary War and features a candlelit downstairs area that feels like stepping back in time."
+      },
+      "type": "drink",
+      "lat": 39.8245,
+      "lng": -77.2323,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-town-core-jennie-wade-house",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-town-core",
+      "name": {
+        "en": "Jennie Wade House"
+      },
+      "description": {
+        "en": "This museum tells the story of the battle's only direct civilian casualty, a poignant reminder of the human cost of the conflict beyond the soldiers."
+      },
+      "type": "landmark",
+      "lat": 39.8235,
+      "lng": -77.2305,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-town-core-civil-war-graffiti",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-town-core",
+      "name": {
+        "en": "Civil War Graffiti"
+      },
+      "description": {
+        "en": "A treasure hunt throughout the town's historic buildings, where soldiers from both armies carved their names and regiments into walls and windows."
+      },
+      "type": "hidden_gem",
+      "lat": 39.8305,
+      "lng": -77.2314,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-town-core-adams-county-library",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "historic-town-core",
+      "name": {
+        "en": "Federal Building (Adams County Library)"
+      },
+      "description": {
+        "en": "This stately 1912 building was the original headquarters for the Gettysburg National Military Park and is now a vibrant public library."
+      },
+      "type": "culture",
+      "lat": 39.8288,
+      "lng": -77.2312,
+      "trending_score": 70
+    },
+    {
+      "id": "battlefields-quirky-periphery-civil-war-tails",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "name": {
+        "en": "Civil War Tails at the Homestead Diorama Museum"
+      },
+      "description": {
+        "en": "A charmingly eccentric museum featuring key moments from the Civil War meticulously recreated in dioramas populated by hand-crafted cat figurines."
+      },
+      "type": "hidden_gem",
+      "lat": 39.8195,
+      "lng": -77.2315,
+      "trending_score": 89
+    },
+    {
+      "id": "battlefields-quirky-periphery-sallie-ann-jarrett",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "name": {
+        "en": "Statue of Sallie Ann Jarrett"
+      },
+      "description": {
+        "en": "A bronze tribute to Sallie, the beloved brindle bull terrier mascot of a Union regiment, and a touching monument to the animals of war."
+      },
+      "type": "landmark",
+      "lat": 39.8415,
+      "lng": -77.2485,
+      "trending_score": 84
+    },
+    {
+      "id": "battlefields-quirky-periphery-sickles-wound-marker",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "name": {
+        "en": "General Sickles's Wound Marker"
+      },
+      "description": {
+        "en": "This small, cannonball-topped marker commemorates the bizarre event where a cannonball shattered General Daniel Sickles's leg, which he later donated to a museum."
+      },
+      "type": "hidden_gem",
+      "lat": 39.8045,
+      "lng": -77.2435,
+      "trending_score": 80
+    },
+    {
+      "id": "battlefields-quirky-periphery-gettysburg-cyclorama",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "name": {
+        "en": "Gettysburg Cyclorama"
+      },
+      "description": {
+        "en": "A massive, 360-degree painting of Pickett's Charge from the 1880s, this stunningly immersive piece of pre-cinema entertainment puts you in the middle of the action."
+      },
+      "type": "culture",
+      "lat": 39.8156,
+      "lng": -77.2285,
+      "trending_score": 96
+    },
+    {
+      "id": "western-approach-rural-landscape-first-shot-marker",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "name": {
+        "en": "Gettysburg’s First Shot Marker"
+      },
+      "description": {
+        "en": "This simple stone marker on the side of a road commemorates the unassuming spot where a Union cavalry officer fired the opening shot of the Battle of Gettysburg."
+      },
+      "type": "landmark",
+      "lat": 39.8395,
+      "lng": -77.2715,
+      "trending_score": 79
+    },
+    {
+      "id": "western-approach-rural-landscape-dinosaur-tracks",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "name": {
+        "en": "Gettysburg Dinosaur Tracks"
+      },
+      "description": {
+        "en": "Embedded in the reddish stone blocks of a bridge abutment are the fossilized, three-toed footprints of a dinosaur, a piece of 'deep time' hidden in plain sight."
+      },
+      "type": "hidden_gem",
+      "lat": 39.839,
+      "lng": -77.269,
+      "trending_score": 85
+    },
+    {
+      "id": "western-approach-rural-landscape-sachs-bridge",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "name": {
+        "en": "Sach’s Bridge"
+      },
+      "description": {
+        "en": "A picturesque covered bridge used by both armies during the battle, now a peaceful and highly photogenic spot with a reputation for being haunted."
+      },
+      "type": "viewpoint",
+      "lat": 39.8185,
+      "lng": -77.2795,
+      "trending_score": 90
+    },
+    {
+      "id": "western-approach-rural-landscape-eisenhower-site",
+      "city_id": "gettysburg-pa",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "name": {
+        "en": "Eisenhower National Historic Site"
+      },
+      "description": {
+        "en": "The preserved home and farm of President Dwight D. Eisenhower, offering a fascinating look at the Cold War era set against the backdrop of the Civil War landscape."
+      },
+      "type": "culture",
+      "lat": 39.8085,
+      "lng": -77.2555,
+      "trending_score": 88
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-town-core-task-1",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Brick Witness"
+      },
+      "prompt": {
+        "en": "Find a 19th-century brick wall and take a close-up photo that highlights its texture, color, and age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-2",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Ghostly Gaze"
+      },
+      "prompt": {
+        "en": "Take a selfie where you're looking thoughtfully into the distance, as if you're seeing a ghost from the 1860s on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-3",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture a single photo that shows a historic architectural detail alongside a modern object, like a security camera or a neon sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-4",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Plaque Detective"
+      },
+      "prompt": {
+        "en": "Find any historical marker or plaque on a building. What's the most interesting fact or name you can find on it?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-5",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Frame a shot of the street scene through an old, wavy glass window of a shop or historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-6",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Timeless Tavern"
+      },
+      "prompt": {
+        "en": "Find a tavern or restaurant that looks like it could have been here for over a century. Take a photo of its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-7",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Historic Refreshment"
+      },
+      "prompt": {
+        "en": "Photograph your snack or drink against a backdrop of historic architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-8",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Shadows of History"
+      },
+      "prompt": {
+        "en": "Take a black and white photo of a street or alleyway, focusing on the dramatic shadows cast by the old buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-9",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Worn by Time"
+      },
+      "prompt": {
+        "en": "Find and photograph a detail that shows the passage of time, like a worn stone step, a faded painted sign, or a rusty iron fence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-10",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Civic Pride"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a government building, old or new, that serves the community today."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-11",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a building that was here during the 1863 battle. Take a photo and imagine what it witnessed."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-town-core-task-12",
+      "neighborhood_id": "historic-town-core",
+      "title": {
+        "en": "Historic Font Finder"
+      },
+      "prompt": {
+        "en": "Find a business sign that uses an old-fashioned or script font. Snap a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-1",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Heroic Angle"
+      },
+      "prompt": {
+        "en": "Find any statue or monument and take a photo from a very low angle, making it look grand and heroic against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-2",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Monument Mirror"
+      },
+      "prompt": {
+        "en": "Take a selfie with a statue while mimicking its pose and expression."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-3",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "The Unsung Detail"
+      },
+      "prompt": {
+        "en": "Look for a small, quirky, or unusual detail on a large monument that most people might overlook. Take a close-up shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-4",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "State of the Union (or Confederacy)"
+      },
+      "prompt": {
+        "en": "Find a monument dedicated to a specific state's regiment. Which state is it, and what does the monument depict?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-5",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Cannon's View"
+      },
+      "prompt": {
+        "en": "Take a photo from behind a cannon, looking down its barrel towards the field it once commanded."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-6",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Field of History"
+      },
+      "prompt": {
+        "en": "Use your phone's panoramic mode to capture the vast, open expanse of one of the battlefields."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-7",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Photograph a spot where nature (a tree, vine, or wildflower) is growing on or right next to a stone wall or monument."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-8",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "A Moment of Reflection"
+      },
+      "prompt": {
+        "en": "Take a selfie looking out over the fields, with a thoughtful or somber expression."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-9",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Bronze and Stone"
+      },
+      "prompt": {
+        "en": "Capture a photo that contrasts the texture of a bronze statue with the stone base it rests upon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-10",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Visitor's View"
+      },
+      "prompt": {
+        "en": "Observe how other people are experiencing the park. Without being intrusive, capture a photo that tells a story about modern tourism in a historic place."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-11",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Shadow Soldier"
+      },
+      "prompt": {
+        "en": "In the late afternoon, find a monument that casts a long shadow. Take a picture of the shadow itself."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "battlefields-quirky-periphery-task-12",
+      "neighborhood_id": "battlefields-quirky-periphery",
+      "title": {
+        "en": "Forgotten Name"
+      },
+      "prompt": {
+        "en": "Read the names on a monument until you find a last name you've never heard before. What is it?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-1",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "The Long Road"
+      },
+      "prompt": {
+        "en": "Find a view of a road or path stretching out into the rural landscape and take a photo that emphasizes its length and journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-2",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Peaceful Vista"
+      },
+      "prompt": {
+        "en": "Take a selfie with a wide, peaceful expanse of rolling fields or farmland behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-3",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Deep Time Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an old stone wall, a wooden bridge beam, or a large rock, focusing on the textures created by time and weather."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-4",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Silent Witness"
+      },
+      "prompt": {
+        "en": "Find a very old-looking tree and take its portrait. Imagine the history it has witnessed."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-5",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Rural Silhouette"
+      },
+      "prompt": {
+        "en": "At sunrise or sunset, capture the silhouette of a barn, farmhouse, or tree line against the colorful sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-6",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Sound of Silence"
+      },
+      "prompt": {
+        "en": "Stop walking for one minute and just listen. What is the most prominent sound of the countryside you can hear? (e.g., wind, birds, a distant tractor)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-7",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Creek Reflection"
+      },
+      "prompt": {
+        "en": "Find a creek or even a large puddle and capture the reflection of the sky, trees, or a bridge in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-8",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Historic Farmland"
+      },
+      "prompt": {
+        "en": "Take a photo that includes both a piece of the natural landscape (a field, a creek) and a man-made historic structure (a bridge, a barn)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-9",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Minimalist Horizon"
+      },
+      "prompt": {
+        "en": "Compose a minimalist photo that is at least two-thirds sky, with just the horizon of the rolling hills at the bottom."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-10",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Covered Bridge Selfie"
+      },
+      "prompt": {
+        "en": "If you find a covered bridge, take a selfie from just inside, using the bridge's structure to frame your face."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-11",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Century Jumper"
+      },
+      "prompt": {
+        "en": "Find a view where you can see something from the 19th century (like a stone wall) and something from the 20th or 21st century (like a modern house or power line) in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-approach-rural-landscape-task-12",
+      "neighborhood_id": "western-approach-rural-landscape",
+      "title": {
+        "en": "Wildflower Scout"
+      },
+      "prompt": {
+        "en": "Find a wildflower growing by the side of the road or in a field. Take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

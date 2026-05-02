@@ -1,0 +1,931 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-riverfront",
+      "city_id": "wilmington-nc",
+      "name": {
+        "en": "Historic Downtown & Riverfront"
+      },
+      "summary": {
+        "en": "The heart of Wilmington, where cobblestone streets meet the Cape Fear River, blending maritime history with hidden oddities."
+      },
+      "lat": 34.2361,
+      "lng": -77.9505,
+      "trending_score": 95
+    },
+    {
+      "id": "mansion-district",
+      "city_id": "wilmington-nc",
+      "name": {
+        "en": "The Mansion District"
+      },
+      "summary": {
+        "en": "A quiet, contemplative area where magnificent live oaks create a canopy over streets lined with stunning antebellum and Victorian mansions."
+      },
+      "lat": 34.2315,
+      "lng": -77.9458,
+      "trending_score": 88
+    },
+    {
+      "id": "brooklyn-arts-district",
+      "city_id": "wilmington-nc",
+      "name": {
+        "en": "Brooklyn Arts District"
+      },
+      "summary": {
+        "en": "A neighborhood with a raw, creative, and post-industrial energy, where old brick warehouses serve as canvases for street art and grassroots projects."
+      },
+      "lat": 34.2425,
+      "lng": -77.9419,
+      "trending_score": 92
+    },
+    {
+      "id": "southside-sanctuaries",
+      "city_id": "wilmington-nc",
+      "name": {
+        "en": "Southside Sanctuaries"
+      },
+      "summary": {
+        "en": "A quieter escape into nature and art, trading historic buildings for modern sculpture gardens and bizarre, beautiful flora."
+      },
+      "lat": 34.203,
+      "lng": -77.909,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-riverfront-uss-north-carolina-view",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "name": {
+        "en": "View of the USS North Carolina Battleship Memorial"
+      },
+      "description": {
+        "en": "The most iconic and walkable view of the massive, decorated WWII vessel is from the downtown riverwalk, offering a powerful silhouette against the sky."
+      },
+      "type": "viewpoint",
+      "lat": 34.2371,
+      "lng": -77.9525,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-downtown-riverfront-hannah-block-uso",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "name": {
+        "en": "Hannah Block Historic USO / Community Arts Center"
+      },
+      "description": {
+        "en": "A living museum that was a bustling USO club during WWII, with a home front museum in its lobby and an active community arts center."
+      },
+      "type": "culture",
+      "lat": 34.2345,
+      "lng": -77.9472,
+      "trending_score": 85
+    },
+    {
+      "id": "mansion-district-bellamy-mansion",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "mansion-district",
+      "name": {
+        "en": "Bellamy Mansion Museum of History & Design Arts"
+      },
+      "description": {
+        "en": "A breathtaking example of antebellum architecture, offering tours of the main house, gardens, and original urban slave quarters."
+      },
+      "type": "culture",
+      "lat": 34.2303,
+      "lng": -77.9435,
+      "trending_score": 94
+    },
+    {
+      "id": "mansion-district-latimer-house",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "mansion-district",
+      "name": {
+        "en": "Latimer House Museum and Gardens"
+      },
+      "description": {
+        "en": "Step into the world of a prosperous Victorian-era merchant family, with a house showcasing over 600 historical objects."
+      },
+      "type": "culture",
+      "lat": 34.2331,
+      "lng": -77.9462,
+      "trending_score": 87
+    },
+    {
+      "id": "mansion-district-city-hall-thalian-hall",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "mansion-district",
+      "name": {
+        "en": "City Hall / Thalian Hall"
+      },
+      "description": {
+        "en": "An architectural marvel housing both the city's government and one of America's most historic and beautiful theaters, in operation since 1858."
+      },
+      "type": "landmark",
+      "lat": 34.2364,
+      "lng": -77.9451,
+      "trending_score": 91
+    },
+    {
+      "id": "brooklyn-arts-district-brooklyn-arts-center",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "brooklyn-arts-district",
+      "name": {
+        "en": "Brooklyn Arts Center at St. Andrews"
+      },
+      "description": {
+        "en": "A 125-year-old former church, now a breathtaking venue for concerts and art shows, with soaring ceilings and stained-glass windows."
+      },
+      "type": "culture",
+      "lat": 34.2411,
+      "lng": -77.9423,
+      "trending_score": 93
+    },
+    {
+      "id": "brooklyn-arts-district-n4th-murals",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "brooklyn-arts-district",
+      "name": {
+        "en": "North 4th Street Murals & Street Art"
+      },
+      "description": {
+        "en": "The main artery of the district is an open-air gallery; keep your eyes peeled for large-scale murals and hidden street art on brick facades."
+      },
+      "type": "viewpoint",
+      "lat": 34.2432,
+      "lng": -77.9415,
+      "trending_score": 90
+    },
+    {
+      "id": "brooklyn-arts-district-railroad-museum",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "brooklyn-arts-district",
+      "name": {
+        "en": "Wilmington Railroad Museum"
+      },
+      "description": {
+        "en": "A must for lovers of trains and industrial history, offering a deep dive into the Atlantic Coast Line Railroad's heritage."
+      },
+      "type": "culture",
+      "lat": 34.2405,
+      "lng": -77.9468,
+      "trending_score": 86
+    },
+    {
+      "id": "southside-sanctuaries-carnivorous-plant-garden",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "southside-sanctuaries",
+      "name": {
+        "en": "Stanley Rehder Carnivorous Plant Garden"
+      },
+      "description": {
+        "en": "A unique public garden dedicated to native carnivorous plants, where you can see Venus flytraps in a natural-style habitat."
+      },
+      "type": "nature",
+      "lat": 34.2065,
+      "lng": -77.8961,
+      "trending_score": 95
+    },
+    {
+      "id": "southside-sanctuaries-cameron-art-museum",
+      "city_id": "wilmington-nc",
+      "neighborhood_id": "southside-sanctuaries",
+      "name": {
+        "en": "Cameron Art Museum"
+      },
+      "description": {
+        "en": "Wilmington's premier art institution, featuring historical and contemporary art with a focus on North Carolina artists and a sculpture park."
+      },
+      "type": "culture",
+      "lat": 34.2008,
+      "lng": -77.9224,
+      "trending_score": 92
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-riverfront-task-1",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Cobblestone Perspective"
+      },
+      "prompt": {
+        "en": "Find a cobblestone street and take a low-angle photo that makes the stones look like ancient mountains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-2",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Riverfront Reflection"
+      },
+      "prompt": {
+        "en": "Take a selfie by the Cape Fear River with a boat or the battleship in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-3",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Maritime History Hunt"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker related to the city's port or maritime past and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-4",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Hidden Oddity"
+      },
+      "prompt": {
+        "en": "Capture a photo of the most unusual or bizarre object you can find in a shop window or alleyway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-5",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Historic Lamppost Portrait"
+      },
+      "prompt": {
+        "en": "Find an old-fashioned lamppost and take an artistic photo of it, focusing on its details and character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-6",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Record a 10-second video capturing the ambient sounds of the riverfront: water, seagulls, people, or distant horns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-7",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Governmental Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo of an impressive-looking historic government or commercial building, emphasizing its architectural power."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-8",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Secret Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Find a hidden courtyard or garden gate and take a photo that makes it look like a secret entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-9",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Nautical Knot"
+      },
+      "prompt": {
+        "en": "Find a rope or cleat on the riverwalk and take a close-up, abstract photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-10",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Window Shopping Wonder"
+      },
+      "prompt": {
+        "en": "Photograph a reflection in a storefront window that captures both the items inside and the street scene outside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-11",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by a historic building, a statue, or a person."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-12",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "The Color of History"
+      },
+      "prompt": {
+        "en": "Find a brightly colored door or window shutter on an old building and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-13",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Take a photo of a local snack or drink you're trying from a cafe or shop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-14",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes a very old architectural element and a very modern one (like a car or a phone) in the same picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-riverfront-task-15",
+      "neighborhood_id": "historic-downtown-riverfront",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up the facade of a tall, historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-1",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Spanish Moss Majesty"
+      },
+      "prompt": {
+        "en": "Take a photo looking up through the branches of a live oak tree, focusing on the hanging Spanish moss."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-2",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Grand Entrance"
+      },
+      "prompt": {
+        "en": "Find the most impressive-looking mansion doorway or front porch and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-3",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Victorian Detail"
+      },
+      "prompt": {
+        "en": "Find a piece of intricate ironwork on a fence or balcony and capture a close-up shot of its pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-4",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Garden Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a beautifully manicured garden or a blooming flower."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-5",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Architectural Symmetry"
+      },
+      "prompt": {
+        "en": "Find a building or gate that is perfectly symmetrical and take a photo that highlights its balance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-6",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Shadows on the Walk"
+      },
+      "prompt": {
+        "en": "Capture the long shadows of the oak trees stretching across a sidewalk or street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-7",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "A Contemplative Moment"
+      },
+      "prompt": {
+        "en": "Find a quiet bench and take a photo from its perspective, capturing the peaceful view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-8",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Photograph an old, wavy glass window on one of the historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-9",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Towering Columns"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a mansion's columns to make them look monumental."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-10",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Find a spot where vines or plants are growing on an old brick wall or iron fence and capture the image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-11",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Historic Street Sign"
+      },
+      "prompt": {
+        "en": "Find and photograph an old or ornate street sign in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-12",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "The Perfect Porch"
+      },
+      "prompt": {
+        "en": "Find a porch with a rocking chair or swing and take a photo that evokes a feeling of calm Southern living."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-13",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a brightly colored flower in a garden and take a macro (close-up) shot of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-14",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Roofline Silhouettes"
+      },
+      "prompt": {
+        "en": "Photograph the interesting shapes and silhouettes of the historic rooflines against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mansion-district-task-15",
+      "neighborhood_id": "mansion-district",
+      "title": {
+        "en": "Pathway to the Past"
+      },
+      "prompt": {
+        "en": "Take a photo down a long, tree-lined brick or stone walkway leading to a historic home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-1",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Mural Selfie"
+      },
+      "prompt": {
+        "en": "Find your favorite piece of street art or a mural and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-2",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Industrial Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up, abstract photo of a textured surface like old brick, rusted metal, or peeling paint."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-3",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a historic, industrial building next to a modern piece of art or a new business."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-4",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Creative Spirit"
+      },
+      "prompt": {
+        "en": "Find a sign for a local artist's studio, a gallery, or a creative workshop and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-5",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Search for a faded, old advertisement painted on the side of a brick building and capture its ghostly image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-6",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Repurposed Beauty"
+      },
+      "prompt": {
+        "en": "Take a photo of a building that has clearly been repurposed from its original industrial use into something new."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-7",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Art in an Unexpected Place"
+      },
+      "prompt": {
+        "en": "Find a small, hidden piece of street art—a sticker, a small stencil, or a tiny sculpture—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-8",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Warehouse Windows"
+      },
+      "prompt": {
+        "en": "Photograph the repeating patterns of large windows on an old warehouse or factory building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-9",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "The Artist's Tools"
+      },
+      "prompt": {
+        "en": "If you spot an artist at work or see art supplies through a window, respectfully take a photo that captures the creative process."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-10",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Lines and Angles"
+      },
+      "prompt": {
+        "en": "Find a fire escape, staircase, or railroad track and take a photo focusing on its strong geometric lines."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-11",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Color of Creativity"
+      },
+      "prompt": {
+        "en": "Find the most vibrant and colorful mural in the district and take a picture that fills the entire frame with its colors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-12",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Urban Flora"
+      },
+      "prompt": {
+        "en": "Find a plant or flower growing out of a crack in the pavement or up the side of a brick wall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-13",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Local Brew"
+      },
+      "prompt": {
+        "en": "Find a local coffee shop or brewery and take an artistic shot of your drink."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-14",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Shadow Selfie"
+      },
+      "prompt": {
+        "en": "Use the side of a large industrial building to capture a long, dramatic shadow selfie in the afternoon sun."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "brooklyn-arts-district-task-15",
+      "neighborhood_id": "brooklyn-arts-district",
+      "title": {
+        "en": "Message on the Wall"
+      },
+      "prompt": {
+        "en": "Find a piece of street art that includes text or a powerful message and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-1",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Nature's Patterns"
+      },
+      "prompt": {
+        "en": "Find a leaf, flower, or piece of bark with an interesting pattern and take a super close-up (macro) photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-2",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Sculpture Interaction"
+      },
+      "prompt": {
+        "en": "Find an outdoor sculpture and take a photo of yourself or a friend interacting with it in a creative way."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-3",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Bizarre Flora"
+      },
+      "prompt": {
+        "en": "Photograph the strangest or most alien-looking plant you can find in one of the gardens."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-4",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Art and Sky"
+      },
+      "prompt": {
+        "en": "Take a photo of an outdoor sculpture from a very low angle, making it look monumental against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-5",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Contemplative Path"
+      },
+      "prompt": {
+        "en": "Find a winding path in a garden or park and take a photo looking down it, creating a sense of mystery or invitation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-6",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot to sit and take a photo of the tranquil view in front of you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-7",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Shadow and Light"
+      },
+      "prompt": {
+        "en": "Capture a photo that plays with the strong contrast between sunlight and shadow on a plant, sculpture, or pathway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-8",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Reflection in Art"
+      },
+      "prompt": {
+        "en": "If you find a reflective sculpture or a pond, capture your reflection in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-9",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "The Smallest Detail"
+      },
+      "prompt": {
+        "en": "Find the smallest flower or insect you can and try to get a clear photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-10",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Man-Made vs. Natural"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a piece of man-made art or architecture alongside a natural element, highlighting the contrast or harmony."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-11",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Texture of Nature"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of the texture of tree bark, a smooth stone, or a fuzzy leaf."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-12",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "A Splash of Color"
+      },
+      "prompt": {
+        "en": "Find the most vibrant color in the landscape—a flower, a sculpture, a sign—and make it the sole focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-13",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Framed by Nature"
+      },
+      "prompt": {
+        "en": "Use leaves or branches to create a natural frame around a distant object, like a building or sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-14",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Art from the Inside"
+      },
+      "prompt": {
+        "en": "Take a photo from inside the art museum looking out a window, capturing the view of the grounds."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "southside-sanctuaries-task-15",
+      "neighborhood_id": "southside-sanctuaries",
+      "title": {
+        "en": "Sanctuary Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the peaceful, quiet feeling of this area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

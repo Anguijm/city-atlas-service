@@ -1,0 +1,555 @@
+{
+  "neighborhoods": [
+    {
+      "id": "spirited-main-drag",
+      "city_id": "jerome-az",
+      "name": {
+        "en": "The Spirited Main Drag"
+      },
+      "summary": {
+        "en": "The historic and commercial heart of Jerome, blending Wild West history with an artistic revival and a palpable haunted reputation. Steep streets offer stunning new vistas of the Verde Valley at every turn."
+      },
+      "lat": 34.7488,
+      "lng": -112.113,
+      "trending_score": 95
+    },
+    {
+      "id": "unstable-slopes",
+      "city_id": "jerome-az",
+      "name": {
+        "en": "The Unstable Slopes"
+      },
+      "summary": {
+        "en": "Just off the main thoroughfare, this area reveals the consequences of building a town on a 30-degree slope riddled with mine shafts. The ground itself is a historical artifact of Jerome's geological precarity."
+      },
+      "lat": 34.7475,
+      "lng": -112.1145,
+      "trending_score": 80
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts",
+      "city_id": "jerome-az",
+      "name": {
+        "en": "The Mechanical Ghost Town Outskirts"
+      },
+      "summary": {
+        "en": "A short walk from the town center, this area is a sprawling, outdoor museum dedicated to the mechanical age. It's a wonderfully cluttered and photogenic landscape of rust and history."
+      },
+      "lat": 34.755,
+      "lng": -112.125,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "spirited-main-drag-nellie-bly",
+      "city_id": "jerome-az",
+      "neighborhood_id": "spirited-main-drag",
+      "name": {
+        "en": "Nellie Bly Kaleidoscopes"
+      },
+      "description": {
+        "en": "The world's largest collection of kaleidoscopes, this shop has a steampunk aesthetic and feels more like a gallery of interactive art than a retail store."
+      },
+      "type": "shopping",
+      "lat": 34.7491,
+      "lng": -112.1132,
+      "trending_score": 92
+    },
+    {
+      "id": "spirited-main-drag-mine-museum",
+      "city_id": "jerome-az",
+      "neighborhood_id": "spirited-main-drag",
+      "name": {
+        "en": "Jerome Historical Society Mine Museum"
+      },
+      "description": {
+        "en": "A dense collection of artifacts from Jerome's boom-and-bust past, including mining equipment, period photographs, and relics from old saloons and homes."
+      },
+      "type": "culture",
+      "lat": 34.7485,
+      "lng": -112.1128,
+      "trending_score": 85
+    },
+    {
+      "id": "spirited-main-drag-open-air-relics",
+      "city_id": "jerome-az",
+      "neighborhood_id": "spirited-main-drag",
+      "name": {
+        "en": "The Open-Air Art & Relics"
+      },
+      "description": {
+        "en": "The streets themselves are a museum, featuring abandoned mining equipment, rusted classic cars, and public art installations that have become part of the landscape."
+      },
+      "type": "landmark",
+      "lat": 34.7487,
+      "lng": -112.1135,
+      "trending_score": 88
+    },
+    {
+      "id": "unstable-slopes-sliding-jail",
+      "city_id": "jerome-az",
+      "neighborhood_id": "unstable-slopes",
+      "name": {
+        "en": "Jerome's Sliding Jail"
+      },
+      "description": {
+        "en": "A solid concrete jailhouse that slid 225 feet from its original location due to dynamite blasts and unstable ground, now resting at an odd angle."
+      },
+      "type": "landmark",
+      "lat": 34.7473,
+      "lng": -112.1148,
+      "trending_score": 98
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-gold-king-mine",
+      "city_id": "jerome-az",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "name": {
+        "en": "Gold King Mine Ghost Town"
+      },
+      "description": {
+        "en": "A vast, fascinating collection of classic machines, trucks, and mining equipment built on the site of a gold strike, offering a photogenic landscape of rust and history."
+      },
+      "type": "culture",
+      "lat": 34.7552,
+      "lng": -112.1253,
+      "trending_score": 94
+    }
+  ],
+  "tasks": [
+    {
+      "id": "spirited-main-drag-task-1",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Valley Vista"
+      },
+      "prompt": {
+        "en": "Find the best viewpoint of the Verde Valley from one of the steep side streets and take a panoramic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-2",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Ghostly Reflection"
+      },
+      "prompt": {
+        "en": "Take a selfie in the reflection of a historic shop window, trying to capture a 'ghostly' or old-timey feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-3",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Artistic Detail"
+      },
+      "prompt": {
+        "en": "Jerome is filled with art. Find a small, interesting detail on a piece of public art or a gallery sign and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-4",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Wild West Facade"
+      },
+      "prompt": {
+        "en": "Capture a photo of a building that looks like it's straight out of a Wild West movie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-5",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Steep Street Challenge"
+      },
+      "prompt": {
+        "en": "Take a photo that exaggerates the steepness of one of Jerome's streets. Get low to the ground for the best effect!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-6",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Miner's Mark"
+      },
+      "prompt": {
+        "en": "Find a piece of old mining equipment displayed on the street and take a photo of it with a modern element (like a person or a car) in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-7",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Haunted Corner"
+      },
+      "prompt": {
+        "en": "Find a spooky-looking alley or corner and take a photo. Bonus points for using a black and white filter."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-8",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Shop Sign Story"
+      },
+      "prompt": {
+        "en": "Photograph a unique or handmade shop sign that you think tells a story about the business inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-9",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Take a picture of a restored historic building. Try to imagine what it looked like 100 years ago."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-10",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Vertical Living"
+      },
+      "prompt": {
+        "en": "Capture an image that shows how buildings are stacked on top of each other on the hillside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-11",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Colorful Discovery"
+      },
+      "prompt": {
+        "en": "Find an unexpected pop of color on a building, door, or piece of art and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "spirited-main-drag-task-12",
+      "neighborhood_id": "spirited-main-drag",
+      "title": {
+        "en": "Stairway to Somewhere"
+      },
+      "prompt": {
+        "en": "Find an interesting public staircase and take a photo looking either up or down."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-1",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Precarious Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the feeling of instability. Use tilted angles to show how the town clings to the hillside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-2",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Beauty in Decay"
+      },
+      "prompt": {
+        "en": "Find a crumbling wall or a decaying structure and take a close-up shot focusing on the texture of the decay."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-3",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Ghost Town Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of an abandoned or ruined building. Try to look like you've just seen a ghost!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-4",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Nature Reclaims"
+      },
+      "prompt": {
+        "en": "Find a spot where plants or trees are growing out of or over an old man-made structure and capture the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-5",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Tilted World"
+      },
+      "prompt": {
+        "en": "Photograph a building or object that is visibly leaning or at an odd angle due to the shifting ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-6",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Take a photo of a ruin and edit it in black and white to make it look like a historical photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-7",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Forgotten Foundation"
+      },
+      "prompt": {
+        "en": "Look for old, crumbling foundations of buildings that no longer exist and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-8",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "A Somber View"
+      },
+      "prompt": {
+        "en": "Frame a shot with a piece of a ruin in the foreground and the expansive Verde Valley in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-9",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Shadows of Jerome"
+      },
+      "prompt": {
+        "en": "Play with light and shadow. Capture a photo of an abandoned structure where the shadows create interesting or spooky shapes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-10",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Survivor Story"
+      },
+      "prompt": {
+        "en": "Find a lone wall or a single piece of a building that is still standing against the odds and make it the hero of your photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-11",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "Peeking Through Time"
+      },
+      "prompt": {
+        "en": "Take a photo through a broken window or a hole in a wall of a ruined building (from a safe distance)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "unstable-slopes-task-12",
+      "neighborhood_id": "unstable-slopes",
+      "title": {
+        "en": "The Weight of History"
+      },
+      "prompt": {
+        "en": "Find a retaining wall that is bulging or cracking and take a photo that emphasizes the pressure it's under."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-1",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Rust is a Color"
+      },
+      "prompt": {
+        "en": "Find the most interesting patch of rust on a vintage vehicle or piece of machinery and take a detailed, close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-2",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Mechanical Graveyard Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a row of old trucks or cars in the background. Try to make it look like you've discovered a lost world."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-3",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Logo of a Lost Era"
+      },
+      "prompt": {
+        "en": "Find a faded or rusted logo on an old piece of equipment or vehicle and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-4",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "History in a Headlight"
+      },
+      "prompt": {
+        "en": "Take a creative photo focusing on a single cracked or weathered headlight of a vintage vehicle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-5",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "The Collector's Vision"
+      },
+      "prompt": {
+        "en": "Take a wide shot that attempts to capture the overwhelming scale and density of the collection of machines."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-6",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Steering into the Past"
+      },
+      "prompt": {
+        "en": "If you can see inside a vehicle, take a photo of a weathered steering wheel or dashboard."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-7",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Gears of Time"
+      },
+      "prompt": {
+        "en": "Find some exposed gears or engine parts on a piece of mining equipment and take an artistic, detailed shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-8",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Wooden Heart"
+      },
+      "prompt": {
+        "en": "Photograph a piece of weathered wood on an old building or vehicle, focusing on its texture and grain."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-9",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Mechanical Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the silhouette of an interesting piece of machinery against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-10",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Line Up"
+      },
+      "prompt": {
+        "en": "Find a row of similar items (trucks, gas pumps, etc.) and use the repeating patterns to create a compelling photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-11",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Man vs. Machine"
+      },
+      "prompt": {
+        "en": "Pose next to a giant piece of mining equipment or a large truck to show the scale difference between a person and the machine."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "mechanical-ghost-town-outskirts-task-12",
+      "neighborhood_id": "mechanical-ghost-town-outskirts",
+      "title": {
+        "en": "Tired Tires"
+      },
+      "prompt": {
+        "en": "Find a vehicle with old, cracked, or deflated tires and take a photo that tells a story of a long-finished journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

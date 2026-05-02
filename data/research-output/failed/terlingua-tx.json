@@ -7,11 +7,11 @@
         "en": "Terlingua Ghost Town"
       },
       "summary": {
-        "en": "Experience a singular blend of living history, rugged independence, and artistic grit in this sprawling, dusty landscape of adobe ruins. The vibe is slow, sun-baked, and deeply authentic, with panoramic views of the Chisos Mountains."
+        "en": "The soul of the community, this area is a living museum with a unique blend of rustic frontier, artistic eccentricity, and stark desert beauty."
       },
       "lat": 29.3215,
-      "lng": -103.6175,
-      "trending_score": 85
+      "lng": -103.6185,
+      "trending_score": 95
     }
   ],
   "waypoints": [
@@ -23,11 +23,26 @@
         "en": "The General Store"
       },
       "description": {
-        "en": "The undisputed social and commercial heart of the Ghost Town, its legendary porch is the perfect spot to grab a cold drink, get supplies, and watch the desert world go by."
+        "en": "The quintessential heart of the community, serving as a grocery, souvenir shop, and social hub with a legendary front porch for sunset views."
       },
-      "type": "drink",
+      "type": "shopping",
       "lat": 29.3218,
-      "lng": -103.6155,
+      "lng": -103.618,
+      "trending_score": 90
+    },
+    {
+      "id": "terlingua-ghost-town-ruins",
+      "city_id": "terlingua-tx",
+      "neighborhood_id": "terlingua-ghost-town",
+      "name": {
+        "en": "The Ghost Town Ruins"
+      },
+      "description": {
+        "en": "The authentic, crumbling adobe and stone remains from Terlingua’s early 20th-century quicksilver mining boom, offering a tangible connection to the past."
+      },
+      "type": "landmark",
+      "lat": 29.321,
+      "lng": -103.619,
       "trending_score": 95
     },
     {
@@ -38,42 +53,27 @@
         "en": "Terlingua Cemetery"
       },
       "description": {
-        "en": "An active, living cemetery dating to 1903 that tells the story of the town's mining origins through handmade crosses and gravesites overlooking the vast landscape."
+        "en": "A living cemetery used since 1903, featuring a poignant mix of simple crosses, stonework, and personal memorials that testify to the town's continuous history."
       },
       "type": "landmark",
-      "lat": 29.3205,
-      "lng": -103.618,
-      "trending_score": 90
+      "lat": 29.3225,
+      "lng": -103.6175,
+      "trending_score": 85
     },
     {
-      "id": "terlingua-ghost-town-chili-cook-off-grounds",
+      "id": "terlingua-ghost-town-mine-shafts",
       "city_id": "terlingua-tx",
       "neighborhood_id": "terlingua-ghost-town",
       "name": {
-        "en": "Chili Cook-Off Grounds"
+        "en": "Abandoned Mine Shafts"
       },
       "description": {
-        "en": "A quiet, expansive space that explodes with life each November for the world-famous chili championships, embodying the anarchic spirit of the community."
+        "en": "Fascinating landmarks from the town's industrial past, where you can see remnants of equipment and the sealed entrances to old quicksilver mines."
       },
-      "type": "culture",
-      "lat": 29.323,
+      "type": "hidden_gem",
+      "lat": 29.32,
       "lng": -103.62,
-      "trending_score": 75
-    },
-    {
-      "id": "terlingua-ghost-town-cinnabar-ruins",
-      "city_id": "terlingua-tx",
-      "neighborhood_id": "terlingua-ghost-town",
-      "name": {
-        "en": "Cinnabar Mining Ruins"
-      },
-      "description": {
-        "en": "Explore the ghostly adobe ruins and crumbling stone structures scattered throughout the hillsides, a tangible connection to the mercury mining that gave birth to Terlingua."
-      },
-      "type": "landmark",
-      "lat": 29.321,
-      "lng": -103.6195,
-      "trending_score": 88
+      "trending_score": 80
     }
   ],
   "tasks": [
@@ -81,10 +81,10 @@
       "id": "terlingua-ghost-town-task-1",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Desert Still Life"
+        "en": "Desert Dweller Selfie"
       },
       "prompt": {
-        "en": "Arrange some items you've found or brought with you (a cool rock, a drink, your sunglasses) and take an artistic photo of them against the dusty ground."
+        "en": "Take a selfie that captures the spirit of a modern desert pioneer. How does the vast landscape make you feel?"
       },
       "points": 10,
       "duration_minutes": 5
@@ -93,10 +93,10 @@
       "id": "terlingua-ghost-town-task-2",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Ghost Town Portrait"
+        "en": "Shadow Play"
       },
       "prompt": {
-        "en": "Take a selfie with a crumbling adobe ruin in the background, capturing the spirit of resilience and the passage of time."
+        "en": "Find an interesting shadow cast by a ruin, a cactus, or a piece of old machinery and take a creative photo of it."
       },
       "points": 10,
       "duration_minutes": 5
@@ -105,10 +105,10 @@
       "id": "terlingua-ghost-town-task-3",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Shadow Play"
+        "en": "Colors of the Chihuahuan Desert"
       },
       "prompt": {
-        "en": "Capture a photo of the long, dramatic shadows cast by a building, cactus, or person in the late afternoon sun."
+        "en": "Create a photo collage of three different natural colors you find in the landscape: the dirt, the plants, and the sky."
       },
       "points": 10,
       "duration_minutes": 5
@@ -117,10 +117,10 @@
       "id": "terlingua-ghost-town-task-4",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Mountain Majesty"
+        "en": "Frontier Texture"
       },
       "prompt": {
-        "en": "Find a clear view of the Chisos Mountains and take a panoramic photo that showcases their immense scale against the desert foreground."
+        "en": "Take a close-up photo of a fascinating texture you find, like crumbling adobe, cracked earth, or rusted metal."
       },
       "points": 10,
       "duration_minutes": 5
@@ -129,10 +129,10 @@
       "id": "terlingua-ghost-town-task-5",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Relic of the Past"
+        "en": "The Survivor"
       },
       "prompt": {
-        "en": "Find and photograph a piece of rusted, forgotten metal—a ghost of the town's mining history. Do not remove any artifacts."
+        "en": "Find a desert plant growing in an unlikely place, like through a crack in a wall or next to a ruin, and photograph it."
       },
       "points": 10,
       "duration_minutes": 5
@@ -141,10 +141,10 @@
       "id": "terlingua-ghost-town-task-6",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Framed by History"
+        "en": "Human History, Geological Time"
       },
       "prompt": {
-        "en": "Frame a shot of the desert landscape by looking through a crumbling window or doorway of a ruin."
+        "en": "Frame a photo that shows something man-made (a ruin, a fence) against the backdrop of the immense mountains."
       },
       "points": 10,
       "duration_minutes": 5
@@ -153,10 +153,10 @@
       "id": "terlingua-ghost-town-task-7",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Artistic Grit"
+        "en": "Artistic Soul"
       },
       "prompt": {
-        "en": "Find an example of modern art, a quirky sign, or a unique handmade decoration that shows off Terlingua's creative soul."
+        "en": "Terlingua is full of artistic eccentricity. Find a piece of local art or a quirky decoration and capture its unique character."
       },
       "points": 10,
       "duration_minutes": 5
@@ -165,10 +165,10 @@
       "id": "terlingua-ghost-town-task-8",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Porch Life Perspective"
+        "en": "Off-Grid Spirit"
       },
       "prompt": {
-        "en": "Find a porch and take a photo from a seated perspective that captures the relaxed, slow-paced vibe of the town."
+        "en": "Without being intrusive, capture an image that represents the off-grid, independent spirit of the town, like a solar panel or a rainwater tank."
       },
       "points": 10,
       "duration_minutes": 5
@@ -177,10 +177,10 @@
       "id": "terlingua-ghost-town-task-9",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Sky So Big"
+        "en": "Dusty Roads"
       },
       "prompt": {
-        "en": "Take a low-angle photo that emphasizes the vast, open West Texas sky above you, making the landscape feel even bigger."
+        "en": "Take a low-angle shot of one of the dusty streets, emphasizing its path leading into the vast desert landscape."
       },
       "points": 10,
       "duration_minutes": 5
@@ -189,10 +189,10 @@
       "id": "terlingua-ghost-town-task-10",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Survivor"
+        "en": "Sky Above, Earth Below"
       },
       "prompt": {
-        "en": "Find a desert plant growing in an unlikely place, like out of a crack in a ruin or a rock, and photograph its resilience."
+        "en": "Take a photo that is two-thirds sky, capturing the vastness of the West Texas sky over the desert floor."
       },
       "points": 10,
       "duration_minutes": 5
@@ -201,10 +201,10 @@
       "id": "terlingua-ghost-town-task-11",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Sun-Baked Texture"
+        "en": "Ghost Town Stillness"
       },
       "prompt": {
-        "en": "Get up close to a cracked adobe wall, a weathered piece of wood, or the dry desert floor and capture its intricate texture."
+        "en": "Find a quiet spot and take a photo that conveys the profound peace and silence of the ghost town."
       },
       "points": 10,
       "duration_minutes": 5
@@ -213,10 +213,10 @@
       "id": "terlingua-ghost-town-task-12",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "The Dusty Road"
+        "en": "Echoes of the Past"
       },
       "prompt": {
-        "en": "Take a photo looking down one of the dusty roads, conveying a sense of endless adventure and beautiful isolation."
+        "en": "Photograph a detail—a piece of colored glass, a rusty nail, a fragment of wood—that hints at the lives of the people who lived here a century ago."
       },
       "points": 10,
       "duration_minutes": 5
@@ -225,10 +225,10 @@
       "id": "terlingua-ghost-town-task-13",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Golden Hour Glow"
+        "en": "Desert Provisions"
       },
       "prompt": {
-        "en": "Capture a photo of the Ghost Town during sunrise or sunset, when the golden light makes the landscape and ruins glow."
+        "en": "Find something for sale that could only be found in a place like Terlingua. Take a photo of this unique desert provision."
       },
       "points": 10,
       "duration_minutes": 5
@@ -237,10 +237,10 @@
       "id": "terlingua-ghost-town-task-14",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Off-Grid Ingenuity"
+        "en": "Sunset Silhouette"
       },
       "prompt": {
-        "en": "Photograph an example of the off-grid, self-sufficient lifestyle, such as a solar panel, a rainwater collector, or a unique handmade structure."
+        "en": "As the sun gets low, capture a silhouette of a person, a ruin, or a cactus against the colorful evening sky."
       },
       "points": 10,
       "duration_minutes": 5
@@ -249,10 +249,10 @@
       "id": "terlingua-ghost-town-task-15",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Footsteps in Time"
+        "en": "A Wanderer's Path"
       },
       "prompt": {
-        "en": "Take a photo of your own footprints in the dusty ground, marking your path through this historic place."
+        "en": "Take a photo of your own feet on a dusty path, symbolizing your journey through this historic landscape."
       },
       "points": 10,
       "duration_minutes": 5
@@ -261,10 +261,10 @@
       "id": "terlingua-ghost-town-task-16",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "A Study in Contrast"
+        "en": "Written in the Dust"
       },
       "prompt": {
-        "en": "Find a scene that shows a strong contrast, like the bright blue sky against a brown ruin, or a new object next to an ancient one."
+        "en": "Find a clear patch of dust or sand and write the word 'Terlingua' with your finger or a stick. Take a photo before the wind erases it."
       },
       "points": 10,
       "duration_minutes": 5
@@ -273,10 +273,10 @@
       "id": "terlingua-ghost-town-task-17",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Desert Dwelling"
+        "en": "Stark Beauty"
       },
       "prompt": {
-        "en": "Photograph a home, new or old, that looks perfectly suited to the desert environment."
+        "en": "Find an example of beauty in the harshness of the desert—a single flower, a resilient plant, a beautifully weathered rock—and capture it in a photo."
       },
       "points": 10,
       "duration_minutes": 5
@@ -285,10 +285,22 @@
       "id": "terlingua-ghost-town-task-18",
       "neighborhood_id": "terlingua-ghost-town",
       "title": {
-        "en": "Spirit of the Place"
+        "en": "Cold Drink, Hot Day"
       },
       "prompt": {
-        "en": "Take a photo that you feel captures the unique, independent, and resilient spirit of Terlingua."
+        "en": "Take a photo of your cold beverage with the sun-baked desert landscape in the background. A classic desert moment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "terlingua-ghost-town-task-19",
+      "neighborhood_id": "terlingua-ghost-town",
+      "title": {
+        "en": "Frontier Fashion"
+      },
+      "prompt": {
+        "en": "Take a selfie showing off your best desert explorer outfit. Boots, hat, and sunglasses encouraged!"
       },
       "points": 10,
       "duration_minutes": 5

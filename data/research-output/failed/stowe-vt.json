@@ -7,57 +7,72 @@
         "en": "Stowe Village"
       },
       "summary": {
-        "en": "The quintessential heart of a New England mountain town, this compact, walkable district serves as the historic and cultural anchor for the sprawling outdoor playground that surrounds it."
+        "en": "The postcard-perfect heart of Stowe, this walkable village features historic New England architecture and a palpable sense of outdoor adventure against the backdrop of the Green Mountains."
       },
       "lat": 44.4655,
-      "lng": -72.6853,
-      "trending_score": 85
+      "lng": -72.6871,
+      "trending_score": 92
     }
   ],
   "waypoints": [
     {
-      "id": "stowe-village-vt-ski-snowboard-museum",
+      "id": "stowe-village-ski-museum",
       "city_id": "stowe-vt",
       "neighborhood_id": "stowe-village",
       "name": {
         "en": "Vermont Ski and Snowboard Museum"
       },
       "description": {
-        "en": "A focused deep-dive into the culture and stories that made Vermont a cornerstone of winter sports, housed in a historic village building."
+        "en": "A cultural touchstone in the village center, this museum offers a deep-dive into the history of mountain sports, from early skis to revolutionary snowboards."
       },
       "type": "culture",
-      "lat": 44.4659,
-      "lng": -72.6853,
+      "lat": 44.46531,
+      "lng": -72.68762,
       "trending_score": 80
     },
     {
-      "id": "stowe-village-recreation-path",
+      "id": "stowe-village-rec-path",
       "city_id": "stowe-vt",
       "neighborhood_id": "stowe-village",
       "name": {
         "en": "Stowe Recreation Path"
       },
       "description": {
-        "en": "The town's beloved 5.3-mile greenway, meandering alongside the river with stunning views of Mount Mansfield."
+        "en": "This beloved 5.3-mile paved greenway is the village's outdoor corridor, meandering alongside a river with stunning, unobstructed views of Mount Mansfield."
       },
       "type": "nature",
-      "lat": 44.4665,
-      "lng": -72.6865,
-      "trending_score": 90
+      "lat": 44.46755,
+      "lng": -72.68551,
+      "trending_score": 95
     },
     {
-      "id": "stowe-village-cady-hill-forest",
+      "id": "stowe-village-cady-hill",
       "city_id": "stowe-vt",
       "neighborhood_id": "stowe-village",
       "name": {
         "en": "Cady Hill Forest"
       },
       "description": {
-        "en": "A 258-acre conserved forest offering a rugged, solitary hiking experience just minutes from the bustle of Main Street."
+        "en": "A true local’s gem just steps from Main Street, this forest offers miles of winding paths for an immersive escape into nature with quiet overlooks of the village."
       },
       "type": "nature",
-      "lat": 44.468,
-      "lng": -72.695,
+      "lat": 44.46882,
+      "lng": -72.70015,
+      "trending_score": 85
+    },
+    {
+      "id": "stowe-village-emilys-bridge",
+      "city_id": "stowe-vt",
+      "neighborhood_id": "stowe-village",
+      "name": {
+        "en": "Emily's Bridge"
+      },
+      "description": {
+        "en": "This historic 1844 covered bridge is steeped in local folklore and ghost stories, offering an atmospheric and beautifully preserved piece of New England history."
+      },
+      "type": "landmark",
+      "lat": 44.44253,
+      "lng": -72.71198,
       "trending_score": 75
     }
   ],
@@ -66,10 +81,10 @@
       "id": "stowe-village-task-1",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Steeple Story"
+        "en": "Mountain Town Moment"
       },
       "prompt": {
-        "en": "The white-steepled church is the heart of the village. Capture a photo of it from an interesting angle, perhaps framed by trees or another building."
+        "en": "Capture a photo that perfectly blends historic village architecture with the mountain scenery in the background."
       },
       "points": 10,
       "duration_minutes": 5
@@ -78,10 +93,10 @@
       "id": "stowe-village-task-2",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Gear Check Selfie"
+        "en": "Adventurer's Selfie"
       },
       "prompt": {
-        "en": "Take a selfie showcasing your adventure gear, whether it's hiking boots, a backpack, or just your comfiest walking shoes."
+        "en": "Take a selfie with the most adventurous-looking piece of outdoor gear you can find, either in a shop window or on a person."
       },
       "points": 10,
       "duration_minutes": 5
@@ -90,10 +105,10 @@
       "id": "stowe-village-task-3",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Architectural Charm"
+        "en": "Spirit of the Outdoors"
       },
       "prompt": {
-        "en": "Find an example of classic New England architecture—like a clapboard house or a historic storefront—and take a photo highlighting its most charming detail."
+        "en": "Find a scene that captures the active, outdoorsy vibe of Stowe's locals and visitors."
       },
       "points": 10,
       "duration_minutes": 5
@@ -102,10 +117,10 @@
       "id": "stowe-village-task-4",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Nature's Texture"
+        "en": "New England Details"
       },
       "prompt": {
-        "en": "Get up close and personal with nature. Take a detailed photo of tree bark, a river stone, or a wildflower you find along a path."
+        "en": "Photograph a charming architectural detail on a historic building, like a unique window, doorway, or sign."
       },
       "points": 10,
       "duration_minutes": 5
@@ -114,10 +129,10 @@
       "id": "stowe-village-task-5",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Local Flavors Quest"
+        "en": "Cozy Cafe Window"
       },
       "prompt": {
-        "en": "Peek into a cafe or shop and take a photo of a locally made product, like maple syrup or a craft beer sign."
+        "en": "Find a cafe or eatery that looks especially inviting and capture a photo of its welcoming storefront."
       },
       "points": 10,
       "duration_minutes": 5
@@ -126,10 +141,10 @@
       "id": "stowe-village-task-6",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "The Color of Stowe"
+        "en": "Nature in the Village"
       },
       "prompt": {
-        "en": "What color defines the village for you today? Find a collection of objects—flowers, signs, doors—that all share that one dominant color and photograph them together."
+        "en": "Find a spot where nature and the village meet. Photograph a tree, river, or garden with a building in the background."
       },
       "points": 10,
       "duration_minutes": 5
@@ -138,10 +153,10 @@
       "id": "stowe-village-task-7",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Shadow Play"
+        "en": "Mountain Reflection"
       },
       "prompt": {
-        "en": "Use the mountain sun to your advantage. Find an interesting shadow cast by a building, a tree, or a person and capture it in a creative way."
+        "en": "Find a reflection of the mountains or a historic steeple in a shop window or puddle and take a picture."
       },
       "points": 10,
       "duration_minutes": 5
@@ -150,10 +165,10 @@
       "id": "stowe-village-task-8",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Hiker's Repose"
+        "en": "Taste of Vermont"
       },
       "prompt": {
-        "en": "Find a spot where adventurers might rest, like an outdoor patio or a park bench. Take a photo from the perspective of someone taking a well-deserved break."
+        "en": "Find a local Vermont product for sale, like maple syrup or cheese, and take an artistic photo of it."
       },
       "points": 10,
       "duration_minutes": 5
@@ -162,10 +177,10 @@
       "id": "stowe-village-task-9",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "River's Reflection"
+        "en": "Seasonal Snapshot"
       },
       "prompt": {
-        "en": "Find a spot where you can see the reflection of the sky, trees, or village in the Little River. Capture the watery mirror image."
+        "en": "Take a photo that captures the current season in Stowe, whether it's snow, autumn leaves, summer flowers, or spring buds."
       },
       "points": 10,
       "duration_minutes": 5
@@ -174,10 +189,10 @@
       "id": "stowe-village-task-10",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Cozy Corner"
+        "en": "Historic Textures"
       },
       "prompt": {
-        "en": "Stowe has a cozy vibe. Find a welcoming doorway, a warm-lit window, or a comfortable-looking nook and take a photo that feels inviting."
+        "en": "Get up close and photograph the texture of an old building—think weathered wood, old brick, or stone."
       },
       "points": 10,
       "duration_minutes": 5
@@ -186,10 +201,10 @@
       "id": "stowe-village-task-11",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Trailhead Signage"
+        "en": "Bench with a View"
       },
       "prompt": {
-        "en": "Find any sign pointing towards a trail, path, or natural area. Take a photo that makes it look like the start of an epic adventure."
+        "en": "Find a public bench and take a photo from its perspective, capturing the view it offers."
       },
       "points": 10,
       "duration_minutes": 5
@@ -198,10 +213,10 @@
       "id": "stowe-village-task-12",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Mountain Frame"
+        "en": "Church Steeple Frame"
       },
       "prompt": {
-        "en": "Use a man-made object—a window, a doorway, a bridge—to frame a view of the distant mountains."
+        "en": "Find the iconic white church steeple and frame a photo of it using trees, buildings, or other objects."
       },
       "points": 10,
       "duration_minutes": 5
@@ -210,10 +225,10 @@
       "id": "stowe-village-task-13",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Main Street Energy"
+        "en": "My Mountain Life"
       },
       "prompt": {
-        "en": "Capture the flow of life on Main Street. Take a photo that shows the mix of locals, visitors, cars, and shops."
+        "en": "Take a selfie that shows you embracing the relaxed, outdoorsy vibe of the village."
       },
       "points": 10,
       "duration_minutes": 5
@@ -222,10 +237,10 @@
       "id": "stowe-village-task-14",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Sweet Treat Selfie"
+        "en": "Bridge Hunter"
       },
       "prompt": {
-        "en": "Find a local shop selling ice cream, pastries, or candy. Take a selfie enjoying a sweet Vermont treat."
+        "en": "Stowe is known for its charming bridges. Find a small wooden bridge over the river and capture its character."
       },
       "points": 10,
       "duration_minutes": 5
@@ -234,10 +249,10 @@
       "id": "stowe-village-task-15",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Art in the Wild"
+        "en": "Color Pop"
       },
       "prompt": {
-        "en": "Look for public art, a unique sculpture, or a colorful mural within the village. Take a photo of your favorite piece."
+        "en": "Find a bright pop of color—like a skier's jacket, a colorful sign, or flowers—against a neutral background and photograph it."
       },
       "points": 10,
       "duration_minutes": 5
@@ -246,10 +261,10 @@
       "id": "stowe-village-task-16",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Then and Now"
+        "en": "Signs of the Times"
       },
       "prompt": {
-        "en": "Find a historic building and take a photo that includes a modern element (like a car or a person in modern clothes) to contrast the old with the new."
+        "en": "Photograph the most interesting or beautifully designed sign for a local shop or inn."
       },
       "points": 10,
       "duration_minutes": 5
@@ -258,10 +273,10 @@
       "id": "stowe-village-task-17",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "Signs of the Seasons"
+        "en": "Flow of the River"
       },
       "prompt": {
-        "en": "Capture a detail that perfectly represents the current season in Stowe, whether it's a colorful autumn leaf, a spring blossom, or a snow-dusted railing."
+        "en": "Capture the movement of the West Branch of the Little River as it flows through or near the village."
       },
       "points": 10,
       "duration_minutes": 5
@@ -270,10 +285,10 @@
       "id": "stowe-village-task-18",
       "neighborhood_id": "stowe-village",
       "title": {
-        "en": "The Adventurer's Ride"
+        "en": "Gear & Gables"
       },
       "prompt": {
-        "en": "Find a vehicle that's clearly equipped for adventure—think a car with a ski rack, a mountain bike, or a rugged Jeep. Take a photo of it."
+        "en": "Take a photo that shows the contrast between modern, high-tech outdoor gear and the town's historic architecture."
       },
       "points": 10,
       "duration_minutes": 5

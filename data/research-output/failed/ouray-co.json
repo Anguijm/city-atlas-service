@@ -1,264 +1,294 @@
 {
   "neighborhoods": [
     {
-      "id": "downtown-ouray",
+      "id": "historic-downtown-ouray",
       "city_id": "ouray-co",
       "name": {
-        "en": "Downtown Ouray"
+        "en": "Historic Downtown Ouray"
       },
       "summary": {
-        "en": "A cinematic mountain sanctuary that feels like a preserved piece of the Old West, serving as the real-life inspiration for Ayn Rand's 'Galt's Gulch'."
+        "en": "A unique blend of breathtaking alpine scenery and a well-preserved Old West frontier spirit, this entire district is a National Historic landmark nestled in a dramatic box canyon."
       },
       "lat": 38.0236,
-      "lng": -107.6717,
-      "trending_score": 90
+      "lng": -107.6712,
+      "trending_score": 92
     }
   ],
   "waypoints": [
     {
-      "id": "downtown-ouray-courthouse",
+      "id": "historic-downtown-ouray-alchemist",
       "city_id": "ouray-co",
-      "neighborhood_id": "downtown-ouray",
+      "neighborhood_id": "historic-downtown-ouray",
+      "name": {
+        "en": "Ouray Alchemist"
+      },
+      "description": {
+        "en": "A meticulously recreated 19th-century apothecary that feels more like a museum, filled with curious tinctures, historical artifacts, and strange medical devices."
+      },
+      "type": "hidden_gem",
+      "lat": 38.0242,
+      "lng": -107.6715,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-ouray-box-canyon-falls",
+      "city_id": "ouray-co",
+      "neighborhood_id": "historic-downtown-ouray",
+      "name": {
+        "en": "Box Canyon Falls Park"
+      },
+      "description": {
+        "en": "A natural wonder featuring a powerful waterfall in a narrow slot canyon, accessible via a suspended steel catwalk just above the roaring water."
+      },
+      "type": "nature",
+      "lat": 38.0185,
+      "lng": -107.6765,
+      "trending_score": 95
+    },
+    {
+      "id": "historic-downtown-ouray-courthouse",
+      "city_id": "ouray-co",
+      "neighborhood_id": "historic-downtown-ouray",
       "name": {
         "en": "Ouray County Courthouse"
       },
       "description": {
-        "en": "A handsome brick courthouse and key filming location for the 1969 classic *True Grit*, starring John Wayne."
+        "en": "A historic 1888 courthouse famous for its appearance in the classic John Wayne film 'True Grit', offering a tangible link to cinematic history."
       },
       "type": "landmark",
-      "lat": 38.0245,
-      "lng": -107.6714,
-      "trending_score": 95
+      "lat": 38.0233,
+      "lng": -107.6702,
+      "trending_score": 82
     },
     {
-      "id": "downtown-ouray-overlook",
+      "id": "historic-downtown-ouray-cascade-falls",
       "city_id": "ouray-co",
-      "neighborhood_id": "downtown-ouray",
+      "neighborhood_id": "historic-downtown-ouray",
       "name": {
-        "en": "The 'Opening Credits' Overlook"
+        "en": "Cascade Falls Park"
       },
       "description": {
-        "en": "The iconic viewpoint of Ouray from the Netflix series *The Ranch* and the inspiration for Ayn Rand's 'Galt's Gulch'."
+        "en": "Home to Ouray's tallest and most visible waterfall, this park offers a stunning scenic payoff via a short, accessible trail to the base of the lower falls."
       },
-      "type": "viewpoint",
-      "lat": 38.0218,
-      "lng": -107.6635,
-      "trending_score": 98
+      "type": "nature",
+      "lat": 38.0246,
+      "lng": -107.6645,
+      "trending_score": 88
     }
   ],
   "tasks": [
     {
-      "id": "downtown-ouray-task-1",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-1",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Western Film Still"
+        "en": "Old West Film Set"
       },
       "prompt": {
-        "en": "Find a historic building and frame a shot that looks like a still from a classic Western movie."
+        "en": "Find a view that looks like a scene from a classic Western movie and capture it. Bonus points for dramatic angles!"
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-2",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-2",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Galt's Gulch Founder"
+        "en": "Switzerland of America Selfie"
       },
       "prompt": {
-        "en": "Take a selfie looking like a rugged individualist who has just arrived in their mountain sanctuary."
+        "en": "Take a selfie that perfectly captures the 'Switzerland of America' vibe, with majestic peaks in the background."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-3",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-3",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Mountain Frame"
+        "en": "Victorian Detail Hunter"
       },
       "prompt": {
-        "en": "Capture a photo of a charming town detail framed by the towering canyon walls in the background."
+        "en": "Zoom in on an interesting architectural detail on one of the Victorian-era buildings. It could be ornate trim, a unique window, or a colorful facade."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-4",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-4",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Cinematic Main Street"
+        "en": "Mountain vs. Main Street"
       },
       "prompt": {
-        "en": "Take a photo down Main Street, capturing the feeling of a real-life movie set."
+        "en": "Frame a photo that contrasts the historic, human-scale buildings of Main Street with the immense, sheer mountain peaks towering above them."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-5",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-5",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Prospector's Provisions"
+        "en": "Frontier Spirit"
       },
       "prompt": {
-        "en": "Find a local shop and photograph an item that looks like it could have been sold here 100 years ago."
+        "en": "Find a sign, object, or building that you feel best represents Ouray's rugged, independent frontier spirit."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-6",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-6",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "The Duke's Stare"
+        "en": "Canyon Reflection"
       },
       "prompt": {
-        "en": "Channel your inner John Wayne and take a stoic selfie in front of a backdrop that screams 'True Grit'."
+        "en": "Capture the reflection of the dramatic canyon walls or a historic building in a shop window."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-7",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-7",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Echoes of the Old West"
+        "en": "Local Flavor Find"
       },
       "prompt": {
-        "en": "Find a historical plaque or sign. Take a photo of the most interesting fact you learn from it."
+        "en": "Find a menu posted outside a restaurant or cafe. Snap a photo of the most interesting or mountain-themed item on it."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-8",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-8",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Switzerland of America"
+        "en": "Time Traveler's Pose"
       },
       "prompt": {
-        "en": "Capture a view that shows why Ouray is called the 'Switzerland of America'. Focus on the relationship between the town and the mountains."
+        "en": "Pose for a photo in front of a historic building as if you've just arrived from the 1880s."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-9",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-9",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Rugged Refuel"
+        "en": "Sounds of the Mountains"
       },
       "prompt": {
-        "en": "Find a local cafe or eatery and take a photo of a coffee or snack that would fuel a mountain explorer."
+        "en": "Close your eyes and listen for a moment. What natural sound can you hear from downtown? The wind, a creek, a waterfall? Take a photo of what you think is making the sound."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-10",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-10",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Literary Hideaway"
+        "en": "Galt's Gulch Inspiration"
       },
       "prompt": {
-        "en": "Find a quiet corner or bench that looks like the perfect spot for a great mind to think. Snap a photo of this literary hideaway."
+        "en": "Ouray inspired a mythical place in 'Atlas Shrugged'. Capture a photo of a scene that looks rugged, hidden, and self-sufficient."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-11",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-11",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Box Canyon Perspective"
+        "en": "Colorful Facade"
       },
       "prompt": {
-        "en": "Take a photo looking straight up to emphasize the dramatic height of the canyon walls surrounding the town."
+        "en": "The Old West wasn't all brown and grey. Find the most colorfully painted historic building and take a picture."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-12",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-12",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Architectural Story"
+        "en": "History Detective"
       },
       "prompt": {
-        "en": "Photograph an interesting architectural detail on a historic building—a cornice, a window, or a doorway that tells a story."
+        "en": "Find a historical plaque or marker on a building. Take a photo and share one interesting fact you learned from it."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-13",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-13",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Hero's Entrance"
+        "en": "Cozy Corner"
       },
       "prompt": {
-        "en": "Find a doorway that looks like the entrance to an old saloon or hotel and pose for a dramatic entrance selfie."
+        "en": "Peer into a cafe or restaurant and find the coziest-looking spot to enjoy a warm drink. Snap a photo of it from the outside."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-14",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-14",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Color of the Mountains"
+        "en": "Vertical Vista"
       },
       "prompt": {
-        "en": "Capture the unique red or golden color of the mountainsides that surround Ouray in a photo."
+        "en": "Use a vertical panorama to try and capture the full height of the scene, from the street at your feet to the peak of the mountains above."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-15",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-15",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Sounds of Sanctuary"
+        "en": "Shadows of the Canyon"
       },
       "prompt": {
-        "en": "Take a short video (or just listen) of the ambient sounds. What makes it feel so beautifully isolated?"
+        "en": "Play with the light and shadows cast by the tall canyon walls. Capture an interesting pattern of light on a building or street."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-16",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-16",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "Shadows of the West"
+        "en": "Modern Meets Historic"
       },
       "prompt": {
-        "en": "Play with light and shadow. Capture a photo where the long shadows of the buildings or mountains create a dramatic effect."
+        "en": "Find an example of the new and old side-by-side, like a modern car parked in front of a 140-year-old building, and capture the contrast."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-17",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-17",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "The Independent Spirit"
+        "en": "The Explorer's Selfie"
       },
       "prompt": {
-        "en": "Photograph a sign or symbol that represents the rugged, independent spirit of Ouray."
+        "en": "Take a selfie that says 'I'm an adventurer exploring a historic mountain town'."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "downtown-ouray-task-18",
-      "neighborhood_id": "downtown-ouray",
+      "id": "historic-downtown-ouray-task-18",
+      "neighborhood_id": "historic-downtown-ouray",
       "title": {
-        "en": "A View from Below"
+        "en": "Signs of the Times"
       },
       "prompt": {
-        "en": "Take a photo from a low angle, looking up at a historic facade against the vast mountain sky."
+        "en": "Find a business sign with a classic, old-fashioned font or design and take a photo of it."
       },
       "points": 10,
       "duration_minutes": 5
