@@ -127,6 +127,10 @@ export const TaskSchema = z
     id: z.string().min(1),
     waypoint_id: z.string().min(1).optional(),
     neighborhood_id: z.string().optional(),
+    // city_id was backfilled onto vibe_tasks in production (backfill_task_city_id.py,
+    // commit bb0fbb3). Optional because ~7k orphaned tasks predate the backfill and
+    // lack a resolvable neighborhood → city mapping.
+    city_id: z.string().optional(),
     title: LocalizedTextSchema,
     prompt: LocalizedTextSchema,
     points: z.number().int().min(0).default(0),

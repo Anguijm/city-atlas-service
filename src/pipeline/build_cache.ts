@@ -598,6 +598,10 @@ export async function writeCityToFirestore(
             JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY),
           ),
         })
+      // projectId must be explicit when using ADC — the Firebase Admin Node.js SDK
+      // does not auto-detect it from ADC credentials the way google-cloud-* Python
+      // libraries do. Without it, all batch.commit() calls fail with gRPC 5 NOT_FOUND
+      // in environments where GOOGLE_CLOUD_PROJECT / GCLOUD_PROJECT are not set.
       : initializeApp({ projectId: 'urban-explorer-483600' });
 
   const db = getFirestore(app, 'urbanexplorer');
@@ -1070,6 +1074,7 @@ export async function writeLocalizedFieldsToFirestore(
     ? getApps()[0]
     : process.env.FIREBASE_SERVICE_ACCOUNT_KEY
       ? initializeApp({ credential: cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY)) })
+      // projectId explicit: ADC path requires it — see note in writeCityToFirestore above.
       : initializeApp({ projectId: 'urban-explorer-483600' });
 
   const db = getFirestore(app, 'urbanexplorer');

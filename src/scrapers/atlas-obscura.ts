@@ -225,7 +225,14 @@ function extractPlacesFromText(
     }
   }
 
-  return places;
+  // Deduplicate by name — Atlas Obscura pages can repeat the same place
+  // multiple times (e.g. pagination artifacts, sidebar reprompts).
+  const seen = new Set<string>();
+  return places.filter((p) => {
+    if (seen.has(p.name)) return false;
+    seen.add(p.name);
+    return true;
+  });
 }
 
 async function scrapeDetailPage(

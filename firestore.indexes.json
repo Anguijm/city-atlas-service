@@ -18,6 +18,14 @@
       ]
     },
     {
+      "collectionGroup": "vibe_tasks",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "city_id", "order": "ASCENDING" },
+        { "fieldPath": "neighborhood_id", "order": "ASCENDING" }
+      ]
+    },
+    {
       "collectionGroup": "seasonal_variants",
       "queryScope": "COLLECTION",
       "fields": [
