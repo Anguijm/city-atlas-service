@@ -1,6 +1,6 @@
 # Reddit: Williamsburg, United States
 
-Sources: /r/williamsburgva
+Sources: /r/WilliamsburgVa
 
 ## Social stuff for 30s-50s+ – figure if the younger folks can look for new friends, maybe the older ones can too? :)
 
@@ -26,6 +26,7 @@ So. Scared everyone off yet, or might there be some intereted folks so we can fi
 But whatever works out. :)
 
 edit: I'll poke anyone who speaks up directly, but I'll also post plans in this thread, so if you're interested but didn't want to say so, keep en eye out :)
+- u/Impressive_shot_xo (6): I’m looking for something like this
 
 ## The healthcare here is...weird?
 
@@ -37,8 +38,8 @@ I'm baffled here. I live with daily pain and a pain specialist tells me there's 
 
 ### Top comments
 
-- u/BigXthaPugg (28): That’s really odd. Isn’t tramadol a pretty weak pain killer? like a step up from ibuprofen?
-- u/Ande138 (24): It is a DEA thing. I have had chronic pain and have been on the same medication for 14 years, but now they don't prescribe that anymore. The opioid crisis hurts the people who need the medication because of the people that were prescribed 1 every 4 hours decided to take 4 every hour. Instead of helping the people with addiction issues, they just hurt the people who wouldn't take street drugs in the first place. I am sorry, and I hope you find someone that can get you some relief.
+- u/BigXthaPugg (29): That’s really odd. Isn’t tramadol a pretty weak pain killer? like a step up from ibuprofen?
+- u/Ande138 (23): It is a DEA thing. I have had chronic pain and have been on the same medication for 14 years, but now they don't prescribe that anymore. The opioid crisis hurts the people who need the medication because of the people that were prescribed 1 every 4 hours decided to take 4 every hour. Instead of helping the people with addiction issues, they just hurt the people who wouldn't take street drugs in the first place. I am sorry, and I hope you find someone that can get you some relief.
 - u/Gang_of_Druids (21): There’s been a concerted effort in a lot of East Coast states (such as Virginia), to only resort to pain management medications as a last resort — in part this has been driven by insurance companies and in part due to malpractice litigation.
 
 I’m willing to bet that you can get a prescription AFTER the following have occurred:
@@ -48,8 +49,8 @@ I’m willing to bet that you can get a prescription AFTER the following have oc
 4) Discussion of less Western-medicine style interventions (such as acupuncture).
 
 At that point, then long-term pain medication will be on the table but with stricter check-ins to limit possible addiction. A lot of those check-ins are driven by insurance companies who don’t want to be on the hook for a habit or have a doctor in their network known as a “pill doc.”
-- u/NotAQuiltnB (11): Tramadol is baby aspirin with big dreams.  Pain doctors are hit or miss here. I had one that was wonderful but he retired as he was sick of all the BS. He switched to research.
-- u/extramailtoday (8): Recently moved here for work, was rejected from the “recommended” women’s clinic for reasons they wouldn’t tell me except I think someone read my chart wrong or had mixed me up w someone else. My “risk factors” include being pregnant at 35+ which is a nothingburger. In any other state I’d been in before (we move for work regularly) never had the issues I have here. Some specialists are great, but until then, worth driving to Richmond imo.
+- u/NotAQuiltnB (12): Tramadol is baby aspirin with big dreams.  Pain doctors are hit or miss here. I had one that was wonderful but he retired as he was sick of all the BS. He switched to research.
+- u/extramailtoday (7): Recently moved here for work, was rejected from the “recommended” women’s clinic for reasons they wouldn’t tell me except I think someone read my chart wrong or had mixed me up w someone else. My “risk factors” include being pregnant at 35+ which is a nothingburger. In any other state I’d been in before (we move for work regularly) never had the issues I have here. Some specialists are great, but until then, worth driving to Richmond imo.
 
 ## first time in williamsburg. what would you not skip?
 
@@ -57,10 +58,10 @@ hi!! i'm heading to williamsburg soon. i'll be staying around scotland steet, an
 
 ### Top comments
 
-- u/henrydbs (30): Cheese Shop for a sandwich. Been coming for 30 years.
+- u/henrydbs (29): Cheese Shop for a sandwich. Been coming for 30 years.
 - u/CollarIntelligent628 (13): Amber Ox, Cooks Burger Bar, the study speakeasy (need reservations)…edit: Billsburg Brewery
-- u/Expat111 (9): Precarious Beer house is just off DoG and a nice place for a beer. Amber Ox is usually really good.
-- u/Amerinamese (6): If you do a ghost tour, do one given by Colonial Williamsburg.  They have access to the houses and can take you inside.  The unaffiliated ghost tours can only walk you around on the streets.
+- u/Expat111 (10): Precarious Beer house is just off DoG and a nice place for a beer. Amber Ox is usually really good.
+- u/Amerinamese (7): If you do a ghost tour, do one given by Colonial Williamsburg.  They have access to the houses and can take you inside.  The unaffiliated ghost tours can only walk you around on the streets.
 - u/Privat3Ice (6): Chickahominy House for lunch. Get one of the meal specials. Great Brunswick stew and excellent pie. (And I'm a pie snob, so that's saying something).
 
 ## Any recommendations for Fourth of July in Colonial Williamsburg for 30 year old couple and dogs?
@@ -69,7 +70,7 @@ hi!! i'm heading to williamsburg soon. i'll be staying around scotland steet, an
 
 ### Top comments
 
-- u/Bicepsandballgowns (15): There are events and activities in Colonial Williamsburg all afternoon and evening. You’ll want to place a blanket out on the lawn of the governors mansion in the morning to stack your spot. Don’t worry no one will take it. Locals tend to whine about traffic. It’s the 4th. Don’t be in a hurry and enjoy the experience.
+- u/Bicepsandballgowns (16): There are events and activities in Colonial Williamsburg all afternoon and evening. You’ll want to place a blanket out on the lawn of the governors mansion in the morning to stack your spot. Don’t worry no one will take it. Locals tend to whine about traffic. It’s the 4th. Don’t be in a hurry and enjoy the experience.
 - u/rossor11 (8): We got fifes, drums and an occasional canon blast. It’s nowhere near as groovy as the Hamilton soundtrack, but you need to visit at least once. 
 
 Jamestown Island is very cool if you’re into amazing archaeology and have a few hours.
@@ -81,7 +82,7 @@ Hello all. I (23M) just recently moved to Williamsburg and was wondering what ar
 
 ### Top comments
 
-- u/EntireInevitable26 (14): Hey there! I’m in your same age group &amp; share your frustrations. There’s a lot of breweries, my personal favorite being Precarious simply for the arcade. I also love the farmers market on DOG street Saturday mornings.
+- u/EntireInevitable26 (15): Hey there! I’m in your same age group &amp; share your frustrations. There’s a lot of breweries, my personal favorite being Precarious simply for the arcade. I also love the farmers market on DOG street Saturday mornings.
 
 In terms of sports, Williamsburg Boat Club offers learn to row classes a few times a year. The adult group is a wide range of ages &amp; competitiveness, but they’re a really fun group!
 - u/Privat3Ice (12): Nothing after 8 PM, that's for sure!

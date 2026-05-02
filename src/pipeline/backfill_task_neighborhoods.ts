@@ -25,7 +25,7 @@ const app = getApps().length > 0
   ? getApps()[0]
   : process.env.FIREBASE_SERVICE_ACCOUNT_KEY
     ? initializeApp({ credential: cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY)) })
-    : initializeApp();
+    : initializeApp({ projectId: 'urban-explorer-483600' });
 
 const db = getFirestore(app, 'urbanexplorer');
 

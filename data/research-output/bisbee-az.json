@@ -1,0 +1,615 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-bisbee",
+      "city_id": "bisbee-az",
+      "name": {
+        "en": "Old Bisbee"
+      },
+      "summary": {
+        "en": "The historic and commercial core of Bisbee, this is a dense, vibrant district built into Tombstone Canyon, defined by its hundreds of public staircases and bohemian, Old West vibe."
+      },
+      "lat": 31.4425,
+      "lng": -109.9287,
+      "trending_score": 95
+    },
+    {
+      "id": "lowell",
+      "city_id": "bisbee-az",
+      "name": {
+        "en": "Lowell"
+      },
+      "summary": {
+        "en": "A living art installation and mid-century time capsule, this area's heart is Erie Street, a block meticulously preserved to look as it did in the 1950s, creating a surreal and photogenic experience."
+      },
+      "lat": 31.4347,
+      "lng": -109.9156,
+      "trending_score": 90
+    },
+    {
+      "id": "warren",
+      "city_id": "bisbee-az",
+      "name": {
+        "en": "Warren"
+      },
+      "summary": {
+        "en": "One of Arizona's first planned communities, this quieter, residential district contrasts with Old Bisbee's verticality, featuring graceful homes, wide streets, and a deep sporting and labor history."
+      },
+      "lat": 31.4218,
+      "lng": -109.9075,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-bisbee-copper-queen-bar",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "old-bisbee",
+      "name": {
+        "en": "Copper Queen Hotel Bar"
+      },
+      "description": {
+        "en": "Located in Arizona's longest continuously operated hotel, this historic saloon is a living piece of Bisbee history, perfect for soaking in a turn-of-the-century atmosphere."
+      },
+      "type": "drink",
+      "lat": 31.4428,
+      "lng": -109.9283,
+      "trending_score": 90
+    },
+    {
+      "id": "old-bisbee-stairs",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "old-bisbee",
+      "name": {
+        "en": "The Bisbee Stairs"
+      },
+      "description": {
+        "en": "The town's defining feature, these intricate networks of public concrete stairs connect homes and offer unique architectural views, serving as the true thoroughfares of Old Bisbee."
+      },
+      "type": "landmark",
+      "lat": 31.4435,
+      "lng": -109.9275,
+      "trending_score": 98
+    },
+    {
+      "id": "old-bisbee-lavender-pit",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "old-bisbee",
+      "name": {
+        "en": "Lavender Pit Overlook"
+      },
+      "description": {
+        "en": "A viewpoint offering a staggering perspective of a massive, inactive open-pit copper mine, whose sheer scale and colorful geology are a beautiful reminder of the industry that built Bisbee."
+      },
+      "type": "viewpoint",
+      "lat": 31.4403,
+      "lng": -109.9164,
+      "trending_score": 92
+    },
+    {
+      "id": "old-bisbee-copper-queen-hotel",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "old-bisbee",
+      "name": {
+        "en": "Copper Queen Hotel"
+      },
+      "description": {
+        "en": "A major town landmark and reputedly haunted historic hotel. Its lobby and facade are a testament to the town's prosperous mining past."
+      },
+      "type": "landmark",
+      "lat": 31.4429,
+      "lng": -109.9284,
+      "trending_score": 88
+    },
+    {
+      "id": "lowell-erie-street",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "lowell",
+      "name": {
+        "en": "Erie Street"
+      },
+      "description": {
+        "en": "The main attraction of Lowell, this street is curated to be a perfect mid-century American snapshot, with vintage cars and period-correct storefronts that make you feel like you've stepped onto a movie set."
+      },
+      "type": "landmark",
+      "lat": 31.4348,
+      "lng": -109.9157,
+      "trending_score": 99
+    },
+    {
+      "id": "lowell-shady-dell",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "lowell",
+      "name": {
+        "en": "The Shady Dell"
+      },
+      "description": {
+        "en": "A unique hotel experience featuring a collection of perfectly restored vintage travel trailers from the 1940s and '50s, complementing the time-capsule vibe of the area."
+      },
+      "type": "hidden_gem",
+      "lat": 31.4355,
+      "lng": -109.915,
+      "trending_score": 85
+    },
+    {
+      "id": "warren-ballpark",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "warren",
+      "name": {
+        "en": "Warren Ballpark"
+      },
+      "description": {
+        "en": "One of America's oldest professional baseball stadiums, this site holds a complex past as both a place of recreation and the location where striking miners were held during the 1917 Bisbee Deportation."
+      },
+      "type": "landmark",
+      "lat": 31.4225,
+      "lng": -109.9078,
+      "trending_score": 80
+    },
+    {
+      "id": "warren-mule-pass-marker",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "warren",
+      "name": {
+        "en": "Mule Pass"
+      },
+      "description": {
+        "en": "Home to a quirky historical error, this spot features a marker incorrectly claiming it as the Continental Divide, making it a perfect quest for lovers of odd local lore."
+      },
+      "type": "hidden_gem",
+      "lat": 31.4444,
+      "lng": -109.9425,
+      "trending_score": 65
+    },
+    {
+      "id": "warren-historic-homes",
+      "city_id": "bisbee-az",
+      "neighborhood_id": "warren",
+      "name": {
+        "en": "Warren's Historic Homes"
+      },
+      "description": {
+        "en": "The streets of Warren feature beautiful examples of Arts and Crafts and Bungalow-style homes, telling a story of the town's class structure through architecture."
+      },
+      "type": "culture",
+      "lat": 31.421,
+      "lng": -109.906,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-bisbee-task-1",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Stair Master Selfie"
+      },
+      "prompt": {
+        "en": "Find a long, steep public staircase and take a triumphant selfie from the top or bottom."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-2",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Canyon Color Palette"
+      },
+      "prompt": {
+        "en": "Capture a photo that showcases at least five different colors on the historic buildings of Tombstone Canyon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-3",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Hidden Art Discovery"
+      },
+      "prompt": {
+        "en": "Many walls and alleys hide small murals or art pieces. Find a piece of street art that isn't on a main road and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-4",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Ghost Hunter's View"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic building that looks like it could be haunted. Use a black and white filter for extra spookiness."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-5",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Vertical Living"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows how homes are built directly into the steep canyon walls, one on top of the other."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-6",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Miner's Lunch"
+      },
+      "prompt": {
+        "en": "Find a local cafe or diner and photograph your meal. Imagine what a copper miner might have eaten a century ago."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-7",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Bohemian Detail"
+      },
+      "prompt": {
+        "en": "Find a storefront or home with quirky, artistic decorations and capture a close-up of your favorite detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-8",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Echoes of the West"
+      },
+      "prompt": {
+        "en": "Photograph a piece of architecture that feels like it's straight out of an old Western movie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-9",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "A Drink with History"
+      },
+      "prompt": {
+        "en": "Find a historic-looking bar and take a photo of your drink on the counter, capturing the atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-10",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "View from Above"
+      },
+      "prompt": {
+        "en": "Climb any set of stairs and capture a panoramic view of the town nestled in the canyon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-11",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Narrow Street Perspective"
+      },
+      "prompt": {
+        "en": "Find one of Old Bisbee's narrowest streets and take a photo looking down its length, emphasizing the tight space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-bisbee-task-12",
+      "neighborhood_id": "old-bisbee",
+      "title": {
+        "en": "Reflection of the Past"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a historic building in a modern shop window, blending old and new."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-1",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Mid-Century Selfie"
+      },
+      "prompt": {
+        "en": "Pose with a vintage car on Erie Street as if you've just stepped out of it in 1958."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-2",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Frozen in Time"
+      },
+      "prompt": {
+        "en": "Take a photo of a storefront that looks completely untouched by the modern world."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-3",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Chrome and Color"
+      },
+      "prompt": {
+        "en": "Find a classic car and take a close-up, artistic shot of a detail like a hood ornament, tail fin, or chrome bumper."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-4",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Ghost Town Vibes"
+      },
+      "prompt": {
+        "en": "Capture the quiet, surreal emptiness of Erie Street in a single photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-5",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Vintage Advertisement"
+      },
+      "prompt": {
+        "en": "Find an old sign or advertisement on a building and photograph it. What was it selling?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-6",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Trailer Park Dreams"
+      },
+      "prompt": {
+        "en": "Photograph one of the vintage trailers at The Shady Dell, focusing on its unique retro design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-7",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Nostalgia Filter"
+      },
+      "prompt": {
+        "en": "Use a sepia or faded color filter to take a photo that looks like a genuine old photograph from the 1950s."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-8",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "The American Dream"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes a classic car, a storefront, and the American flag to capture a sense of mid-century Americana."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-9",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Movie Set Moment"
+      },
+      "prompt": {
+        "en": "Take a photo of a friend (or a selfie) posing as if they are an actor on a movie set for a film set in the 50s."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-10",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a modern object (like a smartphone) and photograph it against the vintage backdrop of Erie Street to create a striking contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-11",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Sign of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a classic neon or painted sign on one of the buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lowell-task-12",
+      "neighborhood_id": "lowell",
+      "title": {
+        "en": "Gas Guzzler Glory"
+      },
+      "prompt": {
+        "en": "Take a picture of the old-fashioned gas pumps, imagining a time when gas was 25 cents a gallon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-1",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Find a classic Arts and Crafts or Bungalow-style home and take a photo of its inviting front porch."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-2",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Planned Community Lines"
+      },
+      "prompt": {
+        "en": "Capture the symmetry and wider, greener streets of Warren, contrasting it with the chaotic layout of Old Bisbee."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-3",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Ballpark Legend Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the historic Warren Ballpark, home to over a century of baseball."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-4",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Labor History Lesson"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque in the neighborhood and take a photo of it. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-5",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Suburban Serenity"
+      },
+      "prompt": {
+        "en": "Photograph a quiet residential street, capturing the peaceful atmosphere of this historic suburb."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-6",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Architectural Story"
+      },
+      "prompt": {
+        "en": "Find two houses side-by-side built in different styles and capture them in one photo to show the area's architectural diversity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-7",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "A Walk in the Park"
+      },
+      "prompt": {
+        "en": "Warren was designed around a central park. Take a photo that captures the feeling of this community green space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-8",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Manager's Mansion"
+      },
+      "prompt": {
+        "en": "Find a particularly grand or well-preserved historic home and photograph its most impressive feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-9",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Shadow of the Past"
+      },
+      "prompt": {
+        "en": "Take a photo at the Warren Ballpark that feels somber, reflecting its role in the 1917 Bisbee Deportation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-10",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Neighborhood Watch"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of someone sitting on a porch, looking out at the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-11",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "The Sporting Soul"
+      },
+      "prompt": {
+        "en": "Capture an image that represents sports or recreation in the neighborhood, whether it's the ballpark, a basketball hoop, or a local park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "warren-task-12",
+      "neighborhood_id": "warren",
+      "title": {
+        "en": "Finding the Mistake"
+      },
+      "prompt": {
+        "en": "If you find the erroneous Continental Divide marker at Mule Pass, take a photo celebrating this quirky piece of local lore."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

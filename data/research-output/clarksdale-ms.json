@@ -1,0 +1,570 @@
+{
+  "neighborhoods": [
+    {
+      "id": "crossroads-historic-core",
+      "city_id": "clarksdale-ms",
+      "name": {
+        "en": "Crossroads Historic Core"
+      },
+      "summary": {
+        "en": "The legendary heart of Clarksdale, where myth and music intersect at a world-famous crossroads. The vibe is deeply historic, centered around the spot where legends were born."
+      },
+      "lat": 34.1986,
+      "lng": -90.572,
+      "trending_score": 95
+    },
+    {
+      "id": "blues-alley-juke-district",
+      "city_id": "clarksdale-ms",
+      "name": {
+        "en": "Blues Alley Juke District"
+      },
+      "summary": {
+        "en": "The raw, authentic soul of the city's music scene, where the Delta Blues is a living, breathing tradition in no-frills juke joints and cultural hubs."
+      },
+      "lat": 34.201,
+      "lng": -90.5703,
+      "trending_score": 98
+    },
+    {
+      "id": "depot-and-legacy-quarter",
+      "city_id": "clarksdale-ms",
+      "name": {
+        "en": "Depot & Legacy Quarter"
+      },
+      "summary": {
+        "en": "A district of reflection and history, centered around the old railroad depot and sites of profound musical legacy where titans of the blues once walked."
+      },
+      "lat": 34.2029,
+      "lng": -90.5713,
+      "trending_score": 92
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "crossroads-historic-core-abes-bbq",
+      "city_id": "clarksdale-ms",
+      "neighborhood_id": "crossroads-historic-core",
+      "name": {
+        "en": "Abe’s Bar-B-Q"
+      },
+      "description": {
+        "en": "A century-old institution located steps from the famed Crossroads, offering a pilgrimage-worthy taste of history in a setting wonderfully suspended in time."
+      },
+      "type": "food",
+      "lat": 34.1988,
+      "lng": -90.5721,
+      "trending_score": 94
+    },
+    {
+      "id": "crossroads-historic-core-crossroads",
+      "city_id": "clarksdale-ms",
+      "neighborhood_id": "crossroads-historic-core",
+      "name": {
+        "en": "Clarksdale Crossroads"
+      },
+      "description": {
+        "en": "Ground zero for the myth of Robert Johnson selling his soul to the devil, this intersection marked by giant blue guitars is a quintessential pilgrimage site for music lovers."
+      },
+      "type": "landmark",
+      "lat": 34.1985,
+      "lng": -90.5719,
+      "trending_score": 100
+    },
+    {
+      "id": "blues-alley-juke-district-reds",
+      "city_id": "clarksdale-ms",
+      "neighborhood_id": "blues-alley-juke-district",
+      "name": {
+        "en": "Red’s"
+      },
+      "description": {
+        "en": "A genuine, no-frills juke joint that serves as a cultural landmark for the living tradition of the Delta Blues. Go for the raw, unfiltered atmosphere and live music."
+      },
+      "type": "nightlife",
+      "lat": 34.2015,
+      "lng": -90.5702,
+      "trending_score": 99
+    },
+    {
+      "id": "blues-alley-juke-district-cat-head",
+      "city_id": "clarksdale-ms",
+      "neighborhood_id": "blues-alley-juke-district",
+      "name": {
+        "en": "Cat Head Delta Blues & Folk Art"
+      },
+      "description": {
+        "en": "The unofficial town hall for the Clarksdale music scene, this shop is packed with blues records, books, and vibrant folk art, and is the best place to find out who’s playing where."
+      },
+      "type": "shopping",
+      "lat": 34.2005,
+      "lng": -90.5705,
+      "trending_score": 96
+    },
+    {
+      "id": "depot-and-legacy-quarter-delta-blues-museum",
+      "city_id": "clarksdale-ms",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "name": {
+        "en": "Delta Blues Museum"
+      },
+      "description": {
+        "en": "Housed in a historic railroad depot, this museum's centerpiece is the reconstructed sharecropper’s cabin that was once home to blues titan Muddy Waters."
+      },
+      "type": "culture",
+      "lat": 34.2023,
+      "lng": -90.57,
+      "trending_score": 97
+    },
+    {
+      "id": "depot-and-legacy-quarter-riverside-hotel",
+      "city_id": "clarksdale-ms",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "name": {
+        "en": "Riverside Hotel"
+      },
+      "description": {
+        "en": "A hallowed historic site where Empress of the Blues, Bessie Smith, died. It later hosted a staggering list of blues royalty, making it a place for somber reflection."
+      },
+      "type": "landmark",
+      "lat": 34.2035,
+      "lng": -90.5725,
+      "trending_score": 91
+    }
+  ],
+  "tasks": [
+    {
+      "id": "crossroads-historic-core-task-1",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Historic Neon Glow"
+      },
+      "prompt": {
+        "en": "Find a classic neon sign and take a photo of it, capturing the unique buzz and color of historic Clarksdale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-2",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Crossroads Contemplation"
+      },
+      "prompt": {
+        "en": "Take a selfie at a street corner, looking in two different directions. What deal would you make for your art?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-3",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it has a hundred stories to tell and capture its most interesting feature in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-4",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Delta Flavors"
+      },
+      "prompt": {
+        "en": "Photograph your meal or a drink. Try to frame it with a piece of the restaurant's historic decor in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-5",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Mythic Marker"
+      },
+      "prompt": {
+        "en": "Locate any historical marker or plaque in the area and take a picture of it. What's the most surprising fact you learned?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-6",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Sky Over the Crossroads"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at the Mississippi sky, framed by the buildings or signs around you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-7",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "The Devil's Details"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail—a door handle, a window frame, a piece of ironwork—and capture it in a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-8",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Sounds of the South"
+      },
+      "prompt": {
+        "en": "Take a short video (10 seconds) capturing the ambient sounds of the neighborhood, whether it's music, traffic, or conversation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-9",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Time Traveler Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in black and white in front of the oldest-looking building you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-10",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Local Legends"
+      },
+      "prompt": {
+        "en": "Ask a local shop owner or bartender for a one-sentence story about this part of town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-11",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Shadows and Light"
+      },
+      "prompt": {
+        "en": "Capture a photo that plays with the strong shadows cast by the buildings in the afternoon sun."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "crossroads-historic-core-task-12",
+      "neighborhood_id": "crossroads-historic-core",
+      "title": {
+        "en": "Highway Signs"
+      },
+      "prompt": {
+        "en": "Find and photograph a highway sign. Imagine the journeys that started or ended on that road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-1",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Juke Joint Glow"
+      },
+      "prompt": {
+        "en": "Capture a photo of the light spilling out of a doorway or window of a bar or music venue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-2",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "The Blues in Your Hands"
+      },
+      "prompt": {
+        "en": "Find a record, a piece of folk art, or a book about the blues and take a photo of you holding it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-3",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Handwritten History"
+      },
+      "prompt": {
+        "en": "Find a handwritten sign—for a band, a menu special, or store hours—and photograph it. What does its imperfection say?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-4",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Texture of the Delta"
+      },
+      "prompt": {
+        "en": "Take a close-up, abstract photo of a texture unique to this area: peeling paint, weathered wood, or old brick."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-5",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Street Art Soul"
+      },
+      "prompt": {
+        "en": "Find a piece of street art or a mural and take a selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-6",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Listen to the Alley"
+      },
+      "prompt": {
+        "en": "Stand still for one minute and listen. Can you hear live music? Record a short audio clip of the neighborhood's soundtrack."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-7",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "The Musician's View"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of a street musician looking out at the sidewalk or street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-8",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Local Music Rec"
+      },
+      "prompt": {
+        "en": "Ask someone working in a shop or bar for their favorite local musician and look them up online."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-9",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Reflection in the Blues"
+      },
+      "prompt": {
+        "en": "Find a puddle or a store window and capture the reflection of the street scene in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-10",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Color of the Music"
+      },
+      "prompt": {
+        "en": "Find the most vibrant and colorful object, mural, or piece of art in the alley and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-11",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Gritty Still Life"
+      },
+      "prompt": {
+        "en": "Create a still life photo using found objects on the street: a bottle cap, a flyer, a fallen leaf on the pavement."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "blues-alley-juke-district-task-12",
+      "neighborhood_id": "blues-alley-juke-district",
+      "title": {
+        "en": "Night Owl Selfie"
+      },
+      "prompt": {
+        "en": "If it's evening, take a selfie illuminated only by the light from a bar or venue sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-1",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Tracks of Time"
+      },
+      "prompt": {
+        "en": "Take a photo of the railroad tracks, focusing on the lines leading off into the distance. Imagine the journeys they represent."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-2",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Legacy in Black and White"
+      },
+      "prompt": {
+        "en": "Find a historic building and photograph it in black and white to emphasize its timelessness and the weight of its history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-3",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Reflecting on History"
+      },
+      "prompt": {
+        "en": "Take a selfie in the reflection of a window of a historic building, capturing both yourself and the history behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-4",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Architectural Story"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on the old depot or a nearby building—like a corbel, a window arch, or brick pattern—and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-5",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "A Musician's Memorial"
+      },
+      "prompt": {
+        "en": "Find a plaque, sign, or marker dedicated to a person from Clarksdale's past and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-6",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "The Resilient Weed"
+      },
+      "prompt": {
+        "en": "Find a plant or flower growing through a crack in the pavement or against a brick wall and photograph it as a symbol of resilience."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-7",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Ghost of a Train"
+      },
+      "prompt": {
+        "en": "Listen for the sound of a train. If you hear one, try to capture a video of it passing by. If not, take a photo of the empty tracks."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-8",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Somber Selfie"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a thoughtful selfie, considering the hardships and triumphs of the people who made this place famous."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-9",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes a historic building and a modern element (like a car or a new sign) in the same photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-10",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "A Moment of Silence"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or corner. Put on a Bessie Smith or Muddy Waters song and just listen for one full track, absorbing the history around you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-11",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "The Weight of a Name"
+      },
+      "prompt": {
+        "en": "Find a street sign named after a person or a significant place and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "depot-and-legacy-quarter-task-12",
+      "neighborhood_id": "depot-and-legacy-quarter",
+      "title": {
+        "en": "Sky Over the Depot"
+      },
+      "prompt": {
+        "en": "Capture a wide shot of a historic building against the vast Mississippi sky, emphasizing the sense of place and history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

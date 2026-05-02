@@ -15,6 +15,7 @@ We then found the two hour blue grass jam  and absolutely loved it. Another hidd
 
 More local pickings/jams: https://www.alabamabluegrassmusic.org/jams
 - u/basshead37 (7): Anyone know how often this takes place? I’m at Oak Mountain every other weekend and I’ve been looking for some peeps to play bluegrass with!
+- u/bachelorburner987 (6): That’s dope as hell
 
 ## The Weekly Recap
 
@@ -32,7 +33,7 @@ Woodfin isn’t the only one fighting the good fight. The anti-vax police were h
 
 ### Top comments
 
-- u/Bhamwiki (13): Bravo
+- u/Bhamwiki (14): Bravo
 
 ## YMCA, hidden gem!
 
@@ -54,10 +55,10 @@ Any hidden gems like this out there that y’all would recommend? Preferably som
 
 ### Top comments
 
-- u/ourHOPEhammer (28): i used to eat red mtn expresso bfast a lot. not many options but decently tasty, drive thru only. might be a little out of your way though
-- u/Complete-Secret9959 (16): When I lived over there I frequented the sneaky Pete’s in the shell gas station across from YMCA. Bacon egg and cheese is legit
+- u/ourHOPEhammer (26): i used to eat red mtn expresso bfast a lot. not many options but decently tasty, drive thru only. might be a little out of your way though
+- u/Complete-Secret9959 (14): When I lived over there I frequented the sneaky Pete’s in the shell gas station across from YMCA. Bacon egg and cheese is legit
 - u/aesopsgato (12): The Pit maybe? Not sure if it makes sense with your commute. Drive thru and open at 5:30
-- u/driplessCoin (11): I like jacks
+- u/driplessCoin (12): I like jacks
 - u/MeatlessComic (11): Jack's biscuit and gravy.  Cheap and delicious.
 
 ## Finding taco spots around town

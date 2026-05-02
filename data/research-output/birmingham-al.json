@@ -7,13 +7,11 @@
         "en": "Downtown"
       },
       "summary": {
-        "en": "A compelling landscape of contrast, where the solemn weight of American history exists alongside a vibrant, modern renaissance of food, art, and community spaces."
+        "en": "A district in transition, where Gilded Age architectural marvels stand beside modern high-rises, creating a dynamic urban tapestry for history buffs."
       },
-      "lat": 33.5175,
-      "lng": -86.8095,
-      "trending_score": 90,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.5174,
+      "lng": -86.8091,
+      "trending_score": 90
     },
     {
       "id": "southside",
@@ -22,13 +20,37 @@
         "en": "Southside & Five Points South"
       },
       "summary": {
-        "en": "A lively, energetic hub that blends high-brow and low-brow with effortless cool, best explored as the neon signs flicker on in the evening."
+        "en": "Birmingham's historic entertainment district, a lively and eclectic neighborhood with a bohemian spirit, radiating from its iconic fountain."
       },
-      "lat": 33.503,
-      "lng": -86.795,
-      "trending_score": 95,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.5045,
+      "lng": -86.7948,
+      "trending_score": 92
+    },
+    {
+      "id": "railroad-park",
+      "city_id": "birmingham-al",
+      "name": {
+        "en": "Railroad Park & The Loft District"
+      },
+      "summary": {
+        "en": "This area showcases Birmingham's remarkable transformation from a gritty expanse of warehouses to a hub of activity centered on a 19-acre green space."
+      },
+      "lat": 33.511,
+      "lng": -86.8115,
+      "trending_score": 88
+    },
+    {
+      "id": "sloss-furnaces",
+      "city_id": "birmingham-al",
+      "name": {
+        "en": "Sloss Furnaces & Eastside"
+      },
+      "summary": {
+        "en": "Raw, powerful, and hauntingly beautiful, this district is dominated by a sprawling industrial complex that stands as a monument to the city's iron-forged past."
+      },
+      "lat": 33.5205,
+      "lng": -86.793,
+      "trending_score": 75
     },
     {
       "id": "forest-park",
@@ -37,270 +59,431 @@
         "en": "Forest Park"
       },
       "summary": {
-        "en": "A charming, in-the-know secret with a relaxed and sophisticated atmosphere, home to some of the city's most specialized food and drink concepts."
+        "en": "A tranquil, historic residential neighborhood that feels like a small town nestled within the city, perfect for a quiet afternoon stroll."
       },
-      "lat": 33.509,
-      "lng": -86.772,
-      "trending_score": 80,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.506,
+      "lng": -86.775,
+      "trending_score": 80
+    },
+    {
+      "id": "westside",
+      "city_id": "birmingham-al",
+      "name": {
+        "en": "Westside"
+      },
+      "summary": {
+        "en": "For the truly adventurous urban explorer, the Westside offers a journey into Birmingham's deeper history and soul, holding some of the city's most authentic sites."
+      },
+      "lat": 33.502,
+      "lng": -86.843,
+      "trending_score": 65
     }
   ],
   "waypoints": [
     {
-      "id": "downtown-enr-guss-hot-dogs",
+      "id": "downtown-guss-hot-dogs",
       "city_id": "birmingham-al",
       "neighborhood_id": "downtown",
       "name": {
         "en": "Gus’s Hot Dogs"
       },
       "description": {
-        "en": "An essential downtown institution, this no-fuss, counter-service spot serves classic, delicious hot dogs and is a taste of old-school Birmingham."
+        "en": "A Birmingham institution and the definition of a no-fuss classic, serving perfect hot dogs to generations of locals."
       },
       "type": "food",
-      "lat": 33.5174,
+      "lat": 33.5152,
       "lng": -86.8123,
-      "trending_score": 92,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "trending_score": 85
     },
     {
-      "id": "downtown-enr-eugenes-hot-chicken",
+      "id": "downtown-eugenes-hot-chicken",
       "city_id": "birmingham-al",
       "neighborhood_id": "downtown",
       "name": {
         "en": "Eugene’s Hot Chicken"
       },
       "description": {
-        "en": "A must-try with a direct lineage to Nashville's original Prince's, serving authentic, fiery hot chicken for those who appreciate culinary history."
+        "en": "This spot serves up perfectly crispy, spicy fried chicken that commands a loyal following, bringing the fiery gospel of Nashville hot chicken to Birmingham."
       },
       "type": "food",
-      "lat": 33.5278,
-      "lng": -86.8011,
-      "trending_score": 90,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.5165,
+      "lng": -86.8041,
+      "trending_score": 88
     },
     {
-      "id": "downtown-enr-yo-mamas",
+      "id": "downtown-reed-books",
       "city_id": "birmingham-al",
       "neighborhood_id": "downtown",
       "name": {
-        "en": "Yo’ Mama’s"
+        "en": "Museum of Fond Memories at Reed Books"
       },
       "description": {
-        "en": "A beloved, spacious soul food spot serving what many locals consider the best chicken and waffles in town in a fast-casual setup."
+        "en": "More than a bookstore, this is a labyrinth of nostalgia with a collection of ephemera, old toys, and forgotten treasures."
       },
-      "type": "food",
-      "lat": 33.5146,
-      "lng": -86.8028,
-      "trending_score": 88,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "type": "hidden_gem",
+      "lat": 33.5155,
+      "lng": -86.8108,
+      "trending_score": 78
     },
     {
-      "id": "downtown-enr-kelly-ingram-park",
-      "city_id": "birmingham-al",
-      "neighborhood_id": "downtown",
-      "name": {
-        "en": "Kelly Ingram Park"
-      },
-      "description": {
-        "en": "A powerful outdoor museum and the epicenter of many 1960s Civil Rights protests, with unflinching and deeply moving sculptures."
-      },
-      "type": "landmark",
-      "lat": 33.5163,
-      "lng": -86.8143,
-      "trending_score": 98,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
-    },
-    {
-      "id": "downtown-enr-alabama-theatre",
+      "id": "downtown-alabama-theatre",
       "city_id": "birmingham-al",
       "neighborhood_id": "downtown",
       "name": {
         "en": "Alabama Theatre"
       },
       "description": {
-        "en": "A stunningly ornate 1927 movie palace whose glowing marquee and opulent interior are a portal to another era."
+        "en": "A stunningly ornate 1927 movie palace known as the 'Showplace of the South,' offering a window into a more glamorous era."
       },
-      "type": "culture",
-      "lat": 33.5157,
-      "lng": -86.8105,
-      "trending_score": 95,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "type": "landmark",
+      "lat": 33.515,
+      "lng": -86.808,
+      "trending_score": 95
     },
     {
-      "id": "downtown-enr-railroad-park",
+      "id": "downtown-carver-theatre",
       "city_id": "birmingham-al",
       "neighborhood_id": "downtown",
       "name": {
-        "en": "Railroad Park"
+        "en": "Carver Theatre"
       },
       "description": {
-        "en": "A 19-acre park symbolizing Birmingham's modern revitalization, offering fantastic skyline views, walking trails, and a beautiful urban lake."
+        "en": "The historic home of the Alabama Jazz Hall of Fame, this venue was a cornerstone of the African-American community, hosting legends like Duke Ellington."
       },
-      "type": "nature",
-      "lat": 33.5103,
-      "lng": -86.8119,
-      "trending_score": 93,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "type": "culture",
+      "lat": 33.518,
+      "lng": -86.813,
+      "trending_score": 82
     },
     {
-      "id": "southside-enr-the-garage",
+      "id": "southside-the-garage",
       "city_id": "birmingham-al",
       "neighborhood_id": "southside",
       "name": {
         "en": "The Garage"
       },
       "description": {
-        "en": "A true local's dive bar cherished for its unpretentious atmosphere, excellent sandwiches, and beautiful patio, valuing character over polish."
+        "en": "A quintessential gritty dive bar beloved by locals for its unpretentious atmosphere and beautiful, charming patio."
       },
       "type": "nightlife",
-      "lat": 33.5013,
-      "lng": -86.7943,
-      "trending_score": 91,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.5042,
+      "lng": -86.7941,
+      "trending_score": 85
     },
     {
-      "id": "southside-enr-bottega",
-      "city_id": "birmingham-al",
-      "neighborhood_id": "southside",
-      "name": {
-        "en": "Bottega"
-      },
-      "description": {
-        "en": "Widely considered the city's best destination for a splurge-worthy Italian meal, offering an elegant and refined experience."
-      },
-      "type": "food",
-      "lat": 33.5049,
-      "lng": -86.7891,
-      "trending_score": 96,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
-    },
-    {
-      "id": "southside-enr-chez-fonfon",
+      "id": "southside-chez-fonfon",
       "city_id": "birmingham-al",
       "neighborhood_id": "southside",
       "name": {
         "en": "Chez Fonfon"
       },
       "description": {
-        "en": "The quintessential French bistro experience in the heart of Five Points South, feeling both timeless and deeply rooted in the neighborhood."
+        "en": "Widely considered Birmingham’s best French bistro, it offers a classic, transportive experience without being stuffy."
       },
       "type": "food",
-      "lat": 33.5041,
-      "lng": -86.7963,
-      "trending_score": 94,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.5035,
+      "lng": -86.7935,
+      "trending_score": 94
     },
     {
-      "id": "southside-enr-vulcan-park-and-museum",
+      "id": "southside-bottega",
       "city_id": "birmingham-al",
       "neighborhood_id": "southside",
       "name": {
-        "en": "Vulcan Park and Museum"
+        "en": "Bottega"
       },
       "description": {
-        "en": "Home to the colossal cast-iron statue of Vulcan, the undeniable symbol of Birmingham's industrial roots, offering the best single viewpoint of the city."
+        "en": "The city’s best Italian splurge, perfect for a memorable dinner with refined takes on Italian classics in a grand dining room."
+      },
+      "type": "food",
+      "lat": 33.5036,
+      "lng": -86.7929,
+      "trending_score": 93
+    },
+    {
+      "id": "southside-vulcan-statue",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "southside",
+      "name": {
+        "en": "Statue of Vulcan"
+      },
+      "description": {
+        "en": "The 56-foot-tall iron statue of the Roman god of fire is the symbol of Birmingham, offering the single best panoramic view of the city skyline."
       },
       "type": "viewpoint",
-      "lat": 33.4926,
-      "lng": -86.7954,
-      "trending_score": 100,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.492,
+      "lng": -86.7955,
+      "trending_score": 98
     },
     {
-      "id": "southside-enr-workplay",
+      "id": "southside-storyteller-fountain",
       "city_id": "birmingham-al",
       "neighborhood_id": "southside",
       "name": {
-        "en": "Workplay"
+        "en": "'The Storyteller' Fountain"
       },
       "description": {
-        "en": "A unique, multi-purpose creative hub that houses an intimate theater and concert stage for touring artists and film screenings."
+        "en": "Located in the heart of Five Points, this fountain has a poignant backstory and depicts a storyteller surrounded by animals."
       },
-      "type": "culture",
-      "lat": 33.5073,
-      "lng": -86.7968,
-      "trending_score": 85,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "type": "landmark",
+      "lat": 33.5046,
+      "lng": -86.7949,
+      "trending_score": 80
     },
     {
-      "id": "forest-park-enr-juniper",
+      "id": "southside-donor-memorial",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "southside",
+      "name": {
+        "en": "Donor Memorial"
+      },
+      "description": {
+        "en": "A little-known and deeply moving memorial on the UAB campus honoring those who donated their bodies to medical science."
+      },
+      "type": "hidden_gem",
+      "lat": 33.503,
+      "lng": -86.805,
+      "trending_score": 72
+    },
+    {
+      "id": "railroad-park-yo-mamas",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "railroad-park",
+      "name": {
+        "en": "Yo’ Mama’s"
+      },
+      "description": {
+        "en": "A beloved fast-casual spot serving what many call the best chicken and waffles in town, drawing a crowd for its incredible soul food."
+      },
+      "type": "food",
+      "lat": 33.5133,
+      "lng": -86.8081,
+      "trending_score": 89
+    },
+    {
+      "id": "railroad-park-railroad-park",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "railroad-park",
+      "name": {
+        "en": "Railroad Park"
+      },
+      "description": {
+        "en": "The centerpiece of the neighborhood, this beautifully designed 19-acre urban park features walking trails, a lake, and stunning skyline views."
+      },
+      "type": "nature",
+      "lat": 33.5105,
+      "lng": -86.8125,
+      "trending_score": 96
+    },
+    {
+      "id": "railroad-park-regions-field",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "railroad-park",
+      "name": {
+        "en": "Regions Field"
+      },
+      "description": {
+        "en": "Home to the Birmingham Barons minor league baseball team, this modern ballpark is seamlessly integrated into the urban fabric."
+      },
+      "type": "culture",
+      "lat": 33.509,
+      "lng": -86.814,
+      "trending_score": 84
+    },
+    {
+      "id": "railroad-park-kelly-ingram-park",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "railroad-park",
+      "name": {
+        "en": "Kelly Ingram Park"
+      },
+      "description": {
+        "en": "A powerful and historic space that serves as an outdoor museum, with sculptures depicting the civil rights protests that took place on its grounds."
+      },
+      "type": "landmark",
+      "lat": 33.516,
+      "lng": -86.814,
+      "trending_score": 91
+    },
+    {
+      "id": "sloss-furnaces-sloss-furnaces",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "sloss-furnaces",
+      "name": {
+        "en": "Sloss Furnaces"
+      },
+      "description": {
+        "en": "A National Historic Landmark where you can wander through the silent, towering machinery of a former pig iron furnace, offering a connection to the city's soul."
+      },
+      "type": "landmark",
+      "lat": 33.5208,
+      "lng": -86.7933,
+      "trending_score": 97
+    },
+    {
+      "id": "sloss-furnaces-eastside-projects",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "sloss-furnaces",
+      "name": {
+        "en": "Eastside Projects"
+      },
+      "description": {
+        "en": "One of the city’s most exciting contemporary arts spaces, this artist-run gallery presents challenging and innovative exhibitions in a former industrial building."
+      },
+      "type": "culture",
+      "lat": 33.523,
+      "lng": -86.798,
+      "trending_score": 70
+    },
+    {
+      "id": "sloss-furnaces-grand-union",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "sloss-furnaces",
+      "name": {
+        "en": "Grand Union"
+      },
+      "description": {
+        "en": "A free gallery and studio space for Birmingham artists, focusing on community-engaged art and showing what the local creative community is working on."
+      },
+      "type": "culture",
+      "lat": 33.5232,
+      "lng": -86.7991,
+      "trending_score": 68
+    },
+    {
+      "id": "forest-park-juniper",
       "city_id": "birmingham-al",
       "neighborhood_id": "forest-park",
       "name": {
         "en": "Juniper"
       },
       "description": {
-        "en": "A true gem and Birmingham's only dedicated gin bar, designed to feel like an 'intoxicating, boozy garden party' with expertly crafted cocktails."
+        "en": "Birmingham’s only gin bar, designed to feel like a 'boozy garden party' with a stunning interior and an inventive cocktail list."
       },
       "type": "drink",
-      "lat": 33.5095,
-      "lng": -86.7701,
-      "trending_score": 92,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.5061,
+      "lng": -86.7742,
+      "trending_score": 83
     },
     {
-      "id": "forest-park-enr-rougaroux",
+      "id": "forest-park-rougaroux",
       "city_id": "birmingham-al",
       "neighborhood_id": "forest-park",
       "name": {
         "en": "Rougaroux"
       },
       "description": {
-        "en": "An unassuming spot with a modest exterior that serves some of the most authentic and powerful Cajun food in the city."
+        "en": "An unassuming exterior hides some of the best Cajun food in the city, delivering authentic Louisiana flavors in a relaxed setting."
       },
       "type": "food",
-      "lat": 33.5103,
-      "lng": -86.7668,
-      "trending_score": 89,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.5063,
+      "lng": -86.7745,
+      "trending_score": 81
     },
     {
-      "id": "forest-park-enr-birmingham-botanical-gardens",
+      "id": "forest-park-botanical-gardens",
       "city_id": "birmingham-al",
       "neighborhood_id": "forest-park",
       "name": {
         "en": "Birmingham Botanical Gardens"
       },
       "description": {
-        "en": "A sprawling 67-acre oasis that perfectly complements the neighborhood's green, relaxed vibe, offering hours of peaceful exploration."
+        "en": "A 67-acre oasis featuring a stunning variety of gardens, including a formal rose garden and an immaculate Japanese garden with a traditional teahouse."
       },
       "type": "nature",
-      "lat": 33.4919,
-      "lng": -86.775,
-      "trending_score": 95,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.491,
+      "lng": -86.774,
+      "trending_score": 90
     },
     {
-      "id": "forest-park-enr-forest-park-historic-homes",
+      "id": "forest-park-historic-streets",
       "city_id": "birmingham-al",
       "neighborhood_id": "forest-park",
       "name": {
-        "en": "Forest Park Historic Homes"
+        "en": "Historic Residential Streets"
       },
       "description": {
-        "en": "Wander the streets surrounding Clairmont Avenue to discover beautiful historic homes in a variety of early 20th-century architectural styles."
+        "en": "Wander down streets like Altamont Road or Clairmont Avenue to admire the diverse and stately architecture of the neighborhood's beautiful early 20th-century homes."
+      },
+      "type": "landmark",
+      "lat": 33.507,
+      "lng": -86.778,
+      "trending_score": 75
+    },
+    {
+      "id": "forest-park-birmingham-zoo",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "forest-park",
+      "name": {
+        "en": "Birmingham Zoo"
+      },
+      "description": {
+        "en": "A large regional attraction with more than 700 animals and an interactive children's section, located adjacent to the botanical gardens."
+      },
+      "type": "culture",
+      "lat": 33.486,
+      "lng": -86.779,
+      "trending_score": 85
+    },
+    {
+      "id": "westside-nikis-west",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Niki’s West Steak & Seafood Restaurant"
+      },
+      "description": {
+        "en": "A Birmingham classic that feels like a trip back in time, this meat-and-three serves up hearty Southern fare to a loyal clientele."
+      },
+      "type": "food",
+      "lat": 33.515,
+      "lng": -86.845,
+      "trending_score": 79
+    },
+    {
+      "id": "westside-african-village",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "African Village in America"
+      },
+      "description": {
+        "en": "A staggering work of outsider art by Joe Minter, this sprawling installation made from found objects tells the story of Black history in America."
       },
       "type": "hidden_gem",
-      "lat": 33.511,
-      "lng": -86.7735,
-      "trending_score": 87,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "lat": 33.491,
+      "lng": -86.843,
+      "trending_score": 88
+    },
+    {
+      "id": "westside-rickwood-field",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Rickwood Field"
+      },
+      "description": {
+        "en": "The oldest professional baseball park in the United States, where walking onto the field feels like stepping back in time."
+      },
+      "type": "landmark",
+      "lat": 33.5,
+      "lng": -86.842,
+      "trending_score": 92
+    },
+    {
+      "id": "westside-birmingham-crossplex",
+      "city_id": "birmingham-al",
+      "neighborhood_id": "westside",
+      "name": {
+        "en": "Birmingham CrossPlex"
+      },
+      "description": {
+        "en": "A modern, world-class indoor sports facility that stands in stark contrast to the area's historic sites, hosting major athletic events."
+      },
+      "type": "culture",
+      "lat": 33.498,
+      "lng": -86.877,
+      "trending_score": 65
     }
   ],
   "tasks": [
@@ -308,505 +491,865 @@
       "id": "downtown-task-1",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Historic Echoes"
+        "en": "Architectural Echoes"
       },
       "prompt": {
-        "en": "Find a building that looks like it has a hundred years of stories to tell and capture its most interesting detail."
+        "en": "Find a Gilded Age building and take a photo of its most ornate detail."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-2",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Then and Now"
+        "en": "City in Reflection"
       },
       "prompt": {
-        "en": "Frame a shot that includes both a historic landmark and a modern skyscraper in the same view."
+        "en": "Capture a photo of a historic building reflected in the glass of a modern skyscraper."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-3",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Street Art Story"
+        "en": "Vertical Views"
       },
       "prompt": {
-        "en": "Discover a piece of public art or a mural and take a photo that tells its story."
+        "en": "Take a photo looking straight up at the tallest building you can find, emphasizing its height against the sky."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-4",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Lunch Counter Classic"
+        "en": "Taste of History"
       },
       "prompt": {
-        "en": "Take a photo of a classic, no-frills meal that feels like a taste of local history."
+        "en": "Find a restaurant or cafe that looks like it has been here for decades and photograph its classic sign."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-5",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Civic Pride Selfie"
+        "en": "Streetlight Glow"
       },
       "prompt": {
-        "en": "Find a symbol of the city (a sign, a statue, a flag) and take a proud selfie with it."
+        "en": "As evening approaches, capture the warm glow of a streetlamp on a historic brick facade."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-6",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "The Resurgent City"
+        "en": "Urban Texture"
       },
       "prompt": {
-        "en": "Capture a scene of construction or renewal that shows the city's dynamic future."
+        "en": "Take a close-up shot of an interesting texture you find on a building: rust, peeling paint, or intricate stonework."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-7",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Park Life"
+        "en": "Marquee Magic"
       },
       "prompt": {
-        "en": "Find a quiet bench in a downtown park and take a photo of the view from your seat."
+        "en": "Photograph a vintage-style theater marquee, focusing on the lettering and lights."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-8",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Architectural Contrast"
+        "en": "Hidden Alleyway"
       },
       "prompt": {
-        "en": "Photograph an old brick building next to a modern glass one."
+        "en": "Discover and photograph a quiet or colorful alleyway that contrasts with the busy main streets."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-9",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Downtown Energy"
+        "en": "Sounds of the City"
       },
       "prompt": {
-        "en": "Take a photo that captures the movement and bustle of a downtown street."
+        "en": "Find a spot where you can hear a unique city sound (like a distant train or music) and take a photo that represents that sound."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-10",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "Hidden History"
+        "en": "Government Grandeur"
       },
       "prompt": {
-        "en": "Find a historical marker or plaque and take a photo of it. What did you learn?"
+        "en": "Take a picture of a government building, focusing on a symbol of power or justice like columns or a statue."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-11",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "A Worker's Lunch"
+        "en": "Lunch Rush"
       },
       "prompt": {
-        "en": "Capture a photo of a simple, delicious meal that looks like it fuels the city's workforce."
+        "en": "Capture the energy of the downtown lunch crowd from a distance."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "downtown-task-12",
       "neighborhood_id": "downtown",
       "title": {
-        "en": "City Reflection"
+        "en": "Historic Plaque Quest"
       },
       "prompt": {
-        "en": "Find a puddle or a glass window and capture a reflection of the downtown scenery."
+        "en": "Find and photograph a historical marker on the side of a building. What's the oldest date you can find?"
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-1",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Neon Glow"
+        "en": "Bohemian Spirit"
       },
       "prompt": {
-        "en": "As evening approaches, find a cool neon sign and capture its vibrant light."
+        "en": "Take a photo of a person or place that perfectly captures the bohemian vibe of the neighborhood."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-2",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Dive Bar Details"
+        "en": "Fountain Focus"
       },
       "prompt": {
-        "en": "Find a spot that looks like a beloved local dive and photograph a detail that gives it character."
+        "en": "Capture a creative shot of a public fountain, focusing on the movement of the water."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-3",
       "neighborhood_id": "southside",
       "title": {
-        "en": "The Perfect Pour"
+        "en": "Patio Life"
       },
       "prompt": {
-        "en": "Take an artistic photo of your evening drink, whether it's a craft beer or a fancy cocktail."
+        "en": "Find a lively restaurant or bar patio and take a photo that captures its social energy."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-4",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Nightlife Selfie"
+        "en": "Icon in the Distance"
       },
       "prompt": {
-        "en": "Take a selfie that captures the energetic, playful vibe of the neighborhood at night."
+        "en": "Frame a photo of a street scene with the Vulcan statue visible in the background on the mountain."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-5",
       "neighborhood_id": "southside",
       "title": {
-        "en": "High-Brow, Low-Brow"
+        "en": "Dive Bar Details"
       },
       "prompt": {
-        "en": "Create a photo that shows two contrasting things side-by-side, like a fancy restaurant next to a casual hangout."
+        "en": "Photograph the entrance of a bar that looks like it has a long and interesting history."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-6",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Sounds of the Southside"
+        "en": "Eclectic Architecture"
       },
       "prompt": {
-        "en": "Find a venue with live music and take a photo of the entrance, imagining the sounds inside."
+        "en": "Find a historic apartment building and photograph its most unique architectural feature."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-7",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Street Style"
+        "en": "Neon Glow"
       },
       "prompt": {
-        "en": "Capture a candid photo that shows off the unique fashion and style of the people in this neighborhood."
+        "en": "Capture the colorful glow of a neon sign from a local business at dusk."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-8",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Graffiti Gold"
+        "en": "A Quiet Corner"
       },
       "prompt": {
-        "en": "Find a piece of street art or graffiti and take a close-up shot of your favorite part."
+        "en": "Find a peaceful, hidden spot away from the main hustle and bustle and take a photo."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-9",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Alfresco Ambiance"
+        "en": "Street Art Discovery"
       },
       "prompt": {
-        "en": "Photograph a lively outdoor patio or seating area."
+        "en": "Find a piece of graffiti or street art and take a photo of it."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-10",
       "neighborhood_id": "southside",
       "title": {
-        "en": "A Toast to the Night"
+        "en": "Foodie Flat Lay"
       },
       "prompt": {
-        "en": "Take a photo of you and your friends raising a glass to a fun evening out."
+        "en": "Order a drink or a snack and create an artistic top-down photo of it on your table."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-11",
       "neighborhood_id": "southside",
       "title": {
-        "en": "The Story of a Sign"
+        "en": "Campus Contrast"
       },
       "prompt": {
-        "en": "Find a unique or funny sign for a local business and snap a picture."
+        "en": "Photograph a scene where the historic neighborhood architecture meets the modern UAB campus."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "southside-task-12",
       "neighborhood_id": "southside",
       "title": {
-        "en": "Urban Texture"
+        "en": "People Watching"
       },
       "prompt": {
-        "en": "Take a close-up photo of an interesting texture you find on a wall, door, or sidewalk in the neighborhood."
+        "en": "From a comfortable spot, take a photo that captures the diverse mix of people in the neighborhood."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-1",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Industrial Rebirth"
+      },
+      "prompt": {
+        "en": "Take a photo that shows something new and modern against an old industrial backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-2",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Skyline Framing"
+      },
+      "prompt": {
+        "en": "Use the landscape of Railroad Park to frame a beautiful shot of the Birmingham skyline."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-3",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Passing Train"
+      },
+      "prompt": {
+        "en": "Capture the motion of a train passing by the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-4",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Loft Living"
+      },
+      "prompt": {
+        "en": "Photograph the exterior of a converted warehouse loft building, focusing on the blend of old brick and new windows."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-5",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Take a photo of people enjoying the park - jogging, relaxing, or playing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-6",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "A Story in Sculpture"
+      },
+      "prompt": {
+        "en": "Find a public sculpture in the area and photograph it from a unique angle that tells a story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-7",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Water Reflection"
+      },
+      "prompt": {
+        "en": "Use the lake in Railroad Park to capture a reflection of the city or the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-8",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Green in the City"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of flowers or plants with the urban environment blurred in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-9",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "In the late afternoon, capture the long shadows cast by buildings or trees across the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-10",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Taste of the District"
+      },
+      "prompt": {
+        "en": "Photograph a delicious-looking plate of food from one of the area's popular eateries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-11",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Find a bridge or overpass and take a photo of the view from it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "railroad-park-task-12",
+      "neighborhood_id": "railroad-park",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "Take a photo in Kelly Ingram Park that conveys a sense of history and reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-1",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Rust & Ruin"
+      },
+      "prompt": {
+        "en": "Take a detailed, close-up photo of a rusty metal surface. Focus on the texture and color."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-2",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Nature's Reclamation"
+      },
+      "prompt": {
+        "en": "Find a place where nature is growing over an industrial structure and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-3",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Industrial Giant"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle to make the industrial structures of Sloss Furnaces look massive and imposing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-4",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Shadows of Steel"
+      },
+      "prompt": {
+        "en": "Photograph the interesting patterns created by shadows from the pipes and towers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-5",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Art in Industry"
+      },
+      "prompt": {
+        "en": "Find a modern art gallery and photograph how its exterior fits into the old industrial neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-6",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Abstract Shapes"
+      },
+      "prompt": {
+        "en": "Frame a photo that focuses only on the abstract shapes and lines of the industrial machinery, ignoring the larger context."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-7",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Hauntingly Beautiful"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the eerie or haunting beauty of the silent furnaces."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-8",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Creative Spark"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a gallery and take a picture of the most thought-provoking piece you see."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-9",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Pathways of the Past"
+      },
+      "prompt": {
+        "en": "Photograph a walkway, staircase, or path within the industrial complex, imagining the workers who once walked there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-10",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Monochrome Mood"
+      },
+      "prompt": {
+        "en": "Take a black and white photo that emphasizes the dramatic shapes and textures of the industrial landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-11",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "A Worker's View"
+      },
+      "prompt": {
+        "en": "Find a high point and take a photo looking down, imagining the view from a worker's perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sloss-furnaces-task-12",
+      "neighborhood_id": "sloss-furnaces",
+      "title": {
+        "en": "Color of Iron"
+      },
+      "prompt": {
+        "en": "Create a photo that is dominated by the color rust."
+      },
+      "points": 10,
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-1",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Porch Portrait"
+        "en": "Charming Facade"
       },
       "prompt": {
-        "en": "Find a charming front porch on one of the historic homes and take a photo of its most welcoming detail."
+        "en": "Find the most charming house on a residential street and take a photo of its front."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-2",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Garden Party Vibe"
+        "en": "Garden Oasis"
       },
       "prompt": {
-        "en": "Capture a photo that embodies a 'garden party' feel – it could be a beautiful cocktail, a lush plant, or a sun-dappled patio."
+        "en": "Take a close-up photo of the most beautiful flower you can find in a garden or yard."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-3",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Nature's Details"
+        "en": "Village Vibe"
       },
       "prompt": {
-        "en": "Find a flower or plant with an interesting pattern or color and take a macro shot of it."
+        "en": "Photograph the storefront of a locally-owned business in the neighborhood's commercial village."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-4",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Secret Hideaway Selfie"
+        "en": "Winding Road"
       },
       "prompt": {
-        "en": "Find a quiet, tucked-away spot that feels like a secret and take a selfie there."
+        "en": "Capture a photo of one of the neighborhood's winding residential streets, shaded by trees."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-5",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Architectural Gem"
+        "en": "Porch Life"
       },
       "prompt": {
-        "en": "Photograph an interesting architectural detail on a house, like a unique window, roofline, or doorway."
+        "en": "Find and photograph a welcoming and well-decorated front porch."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-6",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "A Sip of Sophistication"
+        "en": "A Moment of Zen"
       },
       "prompt": {
-        "en": "Take an elegant photo of a well-crafted drink at a local spot."
+        "en": "Find a peaceful spot in a park or garden and take a photo that conveys tranquility."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-7",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Leafy Streets"
+        "en": "Botanical Beauty"
       },
       "prompt": {
-        "en": "Capture a photo down a residential street that shows off the beautiful tree canopy."
+        "en": "Inside the Botanical Gardens, find an interesting plant in a greenhouse and photograph its unique texture or shape."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-8",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Unassuming Excellence"
+        "en": "Architectural Detail"
       },
       "prompt": {
-        "en": "Find a place with a modest exterior that hints at something amazing inside. Snap a photo of the entrance."
+        "en": "Take a close-up shot of an interesting architectural detail on one of the historic homes, like a stained-glass window or unique brickwork."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-9",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "A Moment of Peace"
+        "en": "Animal Portrait"
       },
       "prompt": {
-        "en": "Take a photo of a scene that feels completely calm and relaxing."
+        "en": "At the zoo, try to capture a photo of an animal that looks like it's posing for the camera."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-10",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Foodie Find"
+        "en": "Leafy Canopy"
       },
       "prompt": {
-        "en": "Take a picture of a delicious-looking dish that feels like a special, hidden discovery."
+        "en": "Stand under a large tree and take a photo looking straight up through the leaves and branches."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-11",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Shadow Play"
+        "en": "Stylish Sips"
       },
       "prompt": {
-        "en": "On a sunny day, find an interesting pattern made by shadows from trees or buildings and photograph it."
+        "en": "Take an artistic photo of a fancy cocktail or coffee from a neighborhood spot."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
     },
     {
       "id": "forest-park-task-12",
       "neighborhood_id": "forest-park",
       "title": {
-        "en": "Color Palette"
+        "en": "Neighborhood Watcher"
       },
       "prompt": {
-        "en": "Create a photo that focuses on the dominant colors of the neighborhood – think lush greens, warm brick, and colorful flowers."
+        "en": "Photograph a cat or dog watching the world go by from a window or porch."
       },
       "points": 10,
-      "duration_minutes": 5,
-      "source": "enrichment-gemini-2026-04",
-      "enriched_at": "2026-04-29T23:55:53.250030+00:00"
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-1",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "A Piece of History"
+      },
+      "prompt": {
+        "en": "Find a building or sign that looks like it hasn't changed in 50 years and take a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-2",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Symbol of Resilience"
+      },
+      "prompt": {
+        "en": "Take a photo of something that you feel represents the history and soul of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-3",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Field of Dreams"
+      },
+      "prompt": {
+        "en": "Take a photo of a historic sports field or venue, focusing on its timeless quality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-4",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Found Object Art"
+      },
+      "prompt": {
+        "en": "Find an everyday object used in an artistic or unusual way and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-5",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Authentic Taste"
+      },
+      "prompt": {
+        "en": "Photograph a plate of classic Southern food from a local, non-touristy restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-6",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Find a place that seems to be a gathering spot for the local community (like a church, park, or shop) and photograph its exterior."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-7",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Stories in the Walls"
+      },
+      "prompt": {
+        "en": "Take a photo of an old brick wall or weathered facade that looks like it has stories to tell."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-8",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Past Meets Present"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows a historic site alongside modern-day life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-9",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "A Powerful Detail"
+      },
+      "prompt": {
+        "en": "Find a small detail within a larger historic site or art installation that you find particularly powerful and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-10",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Player's Perspective"
+      },
+      "prompt": {
+        "en": "At a sports field, take a photo from the perspective of a player looking out at the stands or field."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-11",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Neighborhood Colors"
+      },
+      "prompt": {
+        "en": "Take a photo that is dominated by a single, vibrant color you find in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "westside-task-12",
+      "neighborhood_id": "westside",
+      "title": {
+        "en": "Unpolished Beauty"
+      },
+      "prompt": {
+        "en": "Photograph something that isn't traditionally beautiful but has a unique, authentic character."
+      },
+      "points": 10,
+      "duration_minutes": 5
     }
   ],
   "quality_status": "degraded"

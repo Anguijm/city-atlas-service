@@ -598,7 +598,7 @@ export async function writeCityToFirestore(
             JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY),
           ),
         })
-      : initializeApp();
+      : initializeApp({ projectId: 'urban-explorer-483600' });
 
   const db = getFirestore(app, 'urbanexplorer');
 
@@ -1070,7 +1070,7 @@ export async function writeLocalizedFieldsToFirestore(
     ? getApps()[0]
     : process.env.FIREBASE_SERVICE_ACCOUNT_KEY
       ? initializeApp({ credential: cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY)) })
-      : initializeApp();
+      : initializeApp({ projectId: 'urban-explorer-483600' });
 
   const db = getFirestore(app, 'urbanexplorer');
 

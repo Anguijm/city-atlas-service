@@ -1,294 +1,294 @@
 {
   "neighborhoods": [
     {
-      "id": "historic-main-street",
+      "id": "historic-downtown-galena",
       "city_id": "galena-il",
       "name": {
-        "en": "Historic Main Street & Bench Street"
+        "en": "Historic Downtown Galena"
       },
       "summary": {
-        "en": "A living museum where perfectly preserved 19th-century brick buildings line a narrow river, creating a bustling but relaxed time capsule of American urbanism."
+        "en": "Step into a time capsule on Main Street, a stunning collection of pre-Civil War architecture curving along the Galena River, built for relaxed, on-foot discovery."
       },
-      "lat": 42.4164,
-      "lng": -90.4287,
+      "lat": 42.4155,
+      "lng": -90.4285,
       "trending_score": 95
     }
   ],
   "waypoints": [
     {
-      "id": "historic-main-street-old-blacksmith-shop",
+      "id": "historic-downtown-galena-dowling-house",
       "city_id": "galena-il",
-      "neighborhood_id": "historic-main-street",
+      "neighborhood_id": "historic-downtown-galena",
+      "name": {
+        "en": "The Dowling House"
+      },
+      "description": {
+        "en": "Discover Galena's oldest house, a rugged 1826 stone trading post that offers an authentic glimpse into the town's frontier lead mining days."
+      },
+      "type": "landmark",
+      "lat": 42.415,
+      "lng": -90.428,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-galena-west-street-sculpture-park",
+      "city_id": "galena-il",
+      "neighborhood_id": "historic-downtown-galena",
+      "name": {
+        "en": "West Street Sculpture Park"
+      },
+      "description": {
+        "en": "Explore an open-air gallery of large, abstract steel sculptures, offering a fascinating industrial contrast to the historic town."
+      },
+      "type": "hidden_gem",
+      "lat": 42.4105,
+      "lng": -90.432,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-downtown-galena-desoto-house-hotel",
+      "city_id": "galena-il",
+      "neighborhood_id": "historic-downtown-galena",
+      "name": {
+        "en": "DeSoto House Hotel"
+      },
+      "description": {
+        "en": "Visit the oldest operating hotel in Illinois, a living landmark that has hosted figures like Abraham Lincoln and is filled with history and local lore."
+      },
+      "type": "landmark",
+      "lat": 42.4158,
+      "lng": -90.4289,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-galena-old-blacksmith-shop",
+      "city_id": "galena-il",
+      "neighborhood_id": "historic-downtown-galena",
       "name": {
         "en": "The Old Blacksmith Shop"
       },
       "description": {
-        "en": "A functioning, fire-breathing piece of living history where you can feel the heat from the forge and hear the ring of the anvil as artisans demonstrate their craft."
+        "en": "Experience a functioning 19th-century blacksmith shop where live demonstrations offer a multi-sensory connection to the town's essential craft."
       },
       "type": "culture",
-      "lat": 42.4155,
-      "lng": -90.428,
-      "trending_score": 88
-    },
-    {
-      "id": "historic-main-street-turner-hall",
-      "city_id": "galena-il",
-      "neighborhood_id": "historic-main-street",
-      "name": {
-        "en": "Turner Hall"
-      },
-      "description": {
-        "en": "A restored 19th-century hall and cultural anchor perched on the hill, offering a quiet, dignified glimpse into the town's historic social life."
-      },
-      "type": "landmark",
-      "lat": 42.4175,
-      "lng": -90.4299,
-      "trending_score": 75
-    },
-    {
-      "id": "historic-main-street-levee-panorama",
-      "city_id": "galena-il",
-      "neighborhood_id": "historic-main-street",
-      "name": {
-        "en": "The Levee Panorama Viewpoint"
-      },
-      "description": {
-        "en": "The definitive scenic overlook of Galena’s historic skyline, offering a layered panorama of brick storefronts and towering church spires from the riverbank."
-      },
-      "type": "viewpoint",
-      "lat": 42.416,
-      "lng": -90.4275,
-      "trending_score": 92
-    },
-    {
-      "id": "historic-main-street-galena-us-grant-museum",
-      "city_id": "galena-il",
-      "neighborhood_id": "historic-main-street",
-      "name": {
-        "en": "The Galena and U.S. Grant Museum"
-      },
-      "description": {
-        "en": "A museum offering deep context on the town's lead-mining boom, explaining the local stories and the very reason for Galena's existence."
-      },
-      "type": "culture",
-      "lat": 42.4171,
-      "lng": -90.4305,
-      "trending_score": 80
+      "lat": 42.418,
+      "lng": -90.4285,
+      "trending_score": 85
     }
   ],
   "tasks": [
     {
-      "id": "historic-main-street-task-1",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-1",
+      "neighborhood_id": "historic-downtown-galena",
+      "title": {
+        "en": "19th-Century Streetscape"
+      },
+      "prompt": {
+        "en": "Find a stretch of Main Street and capture a photo that feels like it could have been taken over 100 years ago."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-galena-task-2",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
         "en": "Brick & Mortar"
       },
       "prompt": {
-        "en": "Find the most interesting brick pattern or texture on a historic building and take a close-up photo."
+        "en": "Take a close-up photo focusing on the unique texture and color variations of an old red-brick wall."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-2",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-3",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Stairway to History"
+        "en": "Frontier Relic"
       },
       "prompt": {
-        "en": "Capture a photo looking up one of the steep wooden staircases that connect Main Street to the bluffs above."
+        "en": "Search for a piece of old, weathered hardware on a door or window—a rusty hinge, an ornate handle—and photograph it."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-3",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-4",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Window to the Past"
+        "en": "Architectural Details"
       },
       "prompt": {
-        "en": "Take a picture of your reflection in an old, wavy glass window of a storefront."
+        "en": "Look up! Find an interesting architectural detail high on a building's facade, like a cornice or a window arch, and snap a picture."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-4",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-5",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Architectural Detail"
+        "en": "Shopkeeper's Welcome"
       },
       "prompt": {
-        "en": "Find an ornate cornice, an interesting door knocker, or another small architectural detail and make it the subject of your photo."
+        "en": "Photograph a charming or unique sign hanging outside one of the independent shops."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-5",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-6",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
         "en": "River View"
       },
       "prompt": {
-        "en": "Take a photo that captures both a historic building and the Galena River in the same frame."
+        "en": "Find a spot where you can see the Galena River and capture how it curves alongside the historic buildings."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-6",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-7",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Alleyway Explorer"
+        "en": "Golden Hour Glow"
       },
       "prompt": {
-        "en": "Find a narrow side alley and take a creative shot looking down its length."
+        "en": "During the late afternoon, capture the warm light hitting the face of a historic building, making the stone or brick glow."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-7",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-8",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Sign of the Times"
+        "en": "Modern Meets Historic"
       },
       "prompt": {
-        "en": "Photograph a vintage-style or hand-painted shop sign that adds to the historic character of the street."
+        "en": "Find an example of something modern that creates an interesting contrast with the historic background, like a sculpture or a colorful sign."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-8",
-      "neighborhood_id": "historic-main-street",
-      "title": {
-        "en": "Historic Selfie"
-      },
-      "prompt": {
-        "en": "Take a selfie with a building that looks like it's straight out of the 19th century."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-main-street-task-9",
-      "neighborhood_id": "historic-main-street",
-      "title": {
-        "en": "Dating History"
-      },
-      "prompt": {
-        "en": "Find a date plaque or cornerstone on a building and take a photo of it. What's the oldest year you can find?"
-      },
-      "points": 10,
-      "duration_minutes": 10
-    },
-    {
-      "id": "historic-main-street-task-10",
-      "neighborhood_id": "historic-main-street",
-      "title": {
-        "en": "Small Town Sweetness"
-      },
-      "prompt": {
-        "en": "Find a candy shop or bakery and take a mouth-watering photo of the treats in the window display."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-main-street-task-11",
-      "neighborhood_id": "historic-main-street",
-      "title": {
-        "en": "Gallery Gaze"
-      },
-      "prompt": {
-        "en": "Photograph a piece of art in a gallery window that catches your eye."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-main-street-task-12",
-      "neighborhood_id": "historic-main-street",
-      "title": {
-        "en": "The Grand Homes"
-      },
-      "prompt": {
-        "en": "Walk up to Bench Street and capture a photo of one of the grand historic homes, focusing on its impressive scale."
-      },
-      "points": 10,
-      "duration_minutes": 10
-    },
-    {
-      "id": "historic-main-street-task-13",
-      "neighborhood_id": "historic-main-street",
-      "title": {
-        "en": "Streetscape Story"
-      },
-      "prompt": {
-        "en": "Take a photo down Main Street that shows the density of the historic buildings and the bustling atmosphere."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "historic-main-street-task-14",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-9",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
         "en": "Shadow Play"
       },
       "prompt": {
-        "en": "Capture an interesting pattern of light and shadow cast by the old buildings on the sidewalk or street."
+        "en": "Capture an interesting pattern of shadows cast by a balcony, fire escape, or ornate building feature onto the sidewalk or a wall."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-15",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-10",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Local Colors"
+        "en": "Reflections of the Past"
       },
       "prompt": {
-        "en": "Find a colorful storefront or flower box and take a vibrant photo that pops against the historic brick."
+        "en": "Take a photo of a historic building's reflection in a shop window or a puddle after it rains."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-16",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-11",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Church Spire Search"
+        "en": "A Plaque's Tale"
       },
       "prompt": {
-        "en": "Frame a shot that includes at least two different church steeples rising above the town's rooftops."
+        "en": "Find a historical marker or plaque on a building and take a photo of it. What story does it tell?"
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-17",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-12",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Ironwork Art"
+        "en": "Ghostly Ambiance"
       },
       "prompt": {
-        "en": "Find an example of decorative ironwork—a fence, a balcony, or a railing—and photograph its intricate design."
+        "en": "Take a photo of a building or alleyway that looks like it could be haunted. Use creative angles to enhance the spooky vibe."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "historic-main-street-task-18",
-      "neighborhood_id": "historic-main-street",
+      "id": "historic-downtown-galena-task-13",
+      "neighborhood_id": "historic-downtown-galena",
       "title": {
-        "en": "Time Capsule"
+        "en": "Craftsman's Mark"
       },
       "prompt": {
-        "en": "Take a photo that you think best captures the feeling of stepping back in time in Galena."
+        "en": "Look for evidence of old craftsmanship, like hand-carved stone, forged ironwork, or intricate woodwork, and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-galena-task-14",
+      "neighborhood_id": "historic-downtown-galena",
+      "title": {
+        "en": "Steeple in the Sky"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes one of Galena's historic church steeples against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-galena-task-15",
+      "neighborhood_id": "historic-downtown-galena",
+      "title": {
+        "en": "Ambler's Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up Main Street, to capture the feeling of ambling and discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-galena-task-16",
+      "neighborhood_id": "historic-downtown-galena",
+      "title": {
+        "en": "Gallery Glimpse"
+      },
+      "prompt": {
+        "en": "Without being disruptive, take a photo of an interesting piece of art visible through a gallery window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-galena-task-17",
+      "neighborhood_id": "historic-downtown-galena",
+      "title": {
+        "en": "The Color of History"
+      },
+      "prompt": {
+        "en": "Find a building that isn't red brick. Capture its unique color and how it fits into the historic streetscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-galena-task-18",
+      "neighborhood_id": "historic-downtown-galena",
+      "title": {
+        "en": "Hidden Greenery"
+      },
+      "prompt": {
+        "en": "Find a hidden patch of nature amidst the buildings—a flower box, ivy climbing a wall, or a small garden—and photograph it."
       },
       "points": 10,
       "duration_minutes": 5

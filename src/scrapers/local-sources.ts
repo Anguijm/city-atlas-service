@@ -315,21 +315,47 @@ async function scrapeTheInfatuation(page: Page, city: City): Promise<ScrapeResul
  * URL: https://www.timeout.com/{slug}
  */
 async function scrapeTimeOut(page: Page, city: City): Promise<ScrapeResult> {
-  const slug = slugify(city.name);
-
   // TimeOut is a prose-only source — landing pages are round-up articles,
   // not individual venue cards. Live inspection 2026-04-08 confirmed zero
   // individual venue pages on /{slug}/things-to-do or /{slug}/restaurants.
   // Save MD fullText only; structured extraction would produce article titles.
-  const urls = [
-    `https://www.timeout.com/${slug}/things-to-do`,
-    `https://www.timeout.com/${slug}/restaurants`,
-  ];
 
-  const result = await tryUrls(page, urls, city.name);
-  if (!result) return { places: [], fullText: "" };
+  const nameSlug = slugify(city.name);
 
-  return { places: [], fullText: result.text };
+  // Try city.id as the primary slug before the name-derived slug. city.id is
+  // already disambiguation-aware for US cities (e.g. "oxford-ms", "cape-may-nj"),
+  // so timeout.com/oxford-ms will 404 gracefully rather than returning Oxford UK
+  // content that happens to mention "Oxford". Fall back to the name slug for
+  // cities whose id and name slug are identical (no ambiguity) or for non-US cities.
+  const slugsToTry = city.id !== nameSlug ? [city.id, nameSlug] : [nameSlug];
+
+  // State guard: for US cities whose clinicalName includes a US state
+  // (e.g. "Birmingham, Alabama"), require the scraped page to mention that state.
+  // Prevents accepting wrong-country content — Birmingham UK page mentions
+  // "Birmingham" and passes the basic city-name check, but never mentions "Alabama".
+  const stateGuard: string | null = (() => {
+    if (city.country !== "United States") return null;
+    const cm = city.clinicalName;
+    if (!cm?.includes(",")) return null;
+    return cm.split(",")[1].trim(); // e.g. "Alabama", "Mississippi"
+  })();
+
+  for (const slug of slugsToTry) {
+    const urls = [
+      `https://www.timeout.com/${slug}/things-to-do`,
+      `https://www.timeout.com/${slug}/restaurants`,
+    ];
+    const candidate = await tryUrls(page, urls, city.name);
+    if (!candidate) continue;
+
+    if (stateGuard && !candidate.text.toUpperCase().includes(stateGuard.toUpperCase())) {
+      console.log(`  ⚠ Page mentions "${city.name}" but not "${stateGuard}" — likely wrong country, skipping`);
+      continue;
+    }
+    return { places: [], fullText: candidate.text };
+  }
+
+  return { places: [], fullText: "" };
 }
 
 /**

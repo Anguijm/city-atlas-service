@@ -2,37 +2,33 @@
 
 Based on the provided sources, here is a walking guide to Lambertville, United States.
 
-### **Lambertville Historic District**
+### **A Walker's Guide to Lambertville's Historic Core**
+
+Lambertville, a compact village-tier city on the banks of the Delaware River, is an urban explorer's delight. Its entire downtown is essentially a single, walkable historic district, packed with 19th-century architecture, hidden histories, and riverside charm. This guide focuses on the central historic district, an area easily covered on foot, where every street corner seems to hold a story.
+
+### **Downtown Lambertville / Historic District**
 
 **The Vibe:**
-Lambertville is a village frozen in time, nestled on the banks of the Delaware River. The entire town feels like an open-air museum, with its core designated as a National Historic District. The vibe is one of quiet, historical charm, where 18th and 19th-century architecture lines streets that lead down to the scenic Delaware and Raritan Canal. It's an exceptionally walkable town that rewards slow, deliberate exploration, attracting those who appreciate history, architecture, and the peaceful atmosphere of a well-preserved canal town.
+The core of Lambertville feels like a perfectly preserved piece of American history. The vibe is a unique blend of riverside tranquility and artistic energy. The dominant architectural styles are Federal and Victorian, with brick-fronted townhouses and ornate details lining the streets. The ever-present Delaware and Raritan Canal slices through the town, its quiet towpath offering a peaceful counterpoint to the main streets. This is a place for slow-paced discovery, where the main attractions are the historic streetscapes and the stories of the people who shaped the town.
 
----
-*Note: The provided research sources focused exclusively on historical landmarks and did not contain specific, resident-endorsed recommendations for independent cafes or restaurants. To ensure the quality and accuracy of this guide, those sections have been omitted.*
----
+**Interesting Spots & Cultural Landmarks**
 
-### **Points of Interest & Urban Discovery**
+**1. Delaware and Raritan Canal Towpath & Bridge Tender's House**
+*   **What makes it worth visiting:** This historic canal, a key artery of 19th-century commerce, is now a serene greenway bisecting the town. Walking the towpath feels like stepping back in time. The real hidden gem is the Bridge Tender's House, a small, functional structure that serves as a tangible link to the canal's working past. It’s a specific, photogenic piece of history often overlooked by those just strolling the main path.
+*   **Photo Challenge:** Frame a shot of the Bridge Tender's House with its reflection in the still canal water, ideally during the soft light of early morning or late afternoon.
+*   **Scavenger Hunt Task:** Find a lock or piece of original canal infrastructure (besides the house itself) and document its weathered texture.
 
-**1. Delaware and Raritan Canal Towpath**
-*   **What makes it special:** This historic canal is the artery of Lambertville. The preserved towpath offers a serene, flat walking trail that runs parallel to the river, providing a unique perspective on the back of the town's historic homes and buildings. It’s a tranquil escape just steps from the main streets. Look for the iconic Bridge Tender's House, a small, preserved building that once served the canal traffic.
-*   **Location:** Runs north-to-south through the eastern side of town, easily accessible from many side streets.
-*   **Photo Challenge:** At golden hour (late afternoon), stand on one of the small bridges crossing the canal and capture the long, sharp reflections of the trees and historic buildings in the still water.
-*   **Scavenger Hunt:** Locate the Bridge Tender's House along the canal. Can you find a marker or plaque nearby that explains its function?
+**2. James W. Marshall House**
+*   **What makes it worth visiting:** This unassuming house was the childhood home of James W. Marshall, the man whose discovery of gold at Sutter's Mill, California, in 1848 triggered the Gold Rush. It's a fascinating and unexpected link between this small New Jersey town and one of the most significant events in American history. The house stands as a quiet monument to a local who inadvertently changed the nation.
+*   **Photo Challenge:** Capture the historic plaque on the house. Try a creative angle that includes the period-appropriate architecture in the background, telling the story in a single image.
+*   **Scavenger Hunt Task:** From the front of the house, look for a detail (a shutter design, a type of brickwork) that you think might be original to Marshall's time.
 
-**2. The James W. Marshall House**
-*   **What makes it special:** This is the historic home of the man whose discovery of gold at Sutter's Mill, California, in 1848 triggered the Gold Rush. The house itself is a piece of Lambertville history, but its connection to a pivotal moment in American history makes it a fascinating, and somewhat hidden, landmark. It’s a tangible link between this small New Jersey town and the massive expansion of the American West.
-*   **Location:** 60 Bridge Street.
-*   **Photo Challenge:** Capture the texture of the house. Focus on the aged brickwork, the wooden shutters, or the period-specific architectural details that make it stand out from its neighbors.
-*   **Scavenger Hunt:** Find the official National Register of Historic Places plaque on or near the house. What year was it added to the register?
-
-**3. Lambertville House**
-*   **What makes it special:** A stately, historic hotel that has been a cornerstone of the town since the early 19th century. While it operates as a modern inn, its grand stone facade and prominent location make it a central landmark. It represents the town's long history as a stopping point for travelers and commerce. Its presence anchors the main street with a sense of enduring history.
-*   **Location:** 32 Bridge Street.
-*   **Photo Challenge:** Frame a shot that contrasts the inn's historic, rugged stone exterior with a modern detail, like the reflection of a passing car in a window or a contemporary sign.
-*   **Scavenger Hunt:** Look for any dates carved into the stonework or displayed on plaques that indicate when it was established.
+**3. The Lambertville House**
+*   **What makes it worth visiting:** A grand, historic hotel and a cornerstone of the town since the early 19th century, The Lambertville House is an icon of local architecture. While it functions as a hotel, its exterior is a landmark in itself. The stone facade, multi-level porches, and prominent position on Bridge Street make it a central point of reference and a beautiful example of the town's long history of hospitality.
+*   **Photo Challenge:** Stand across the street and take a photo that captures the full scale of the building's facade, emphasizing the symmetry of its porches and windows.
+*   **Scavenger Hunt Task:** Count the number of columns supporting the front porches.
 
 **4. The Kalmia Club**
-*   **What makes it special:** This unassuming building is home to one of the oldest continuously running women's clubs in New Jersey. Added to the National Register of Historic Places in 2012, it represents a significant piece of local social and cultural history. It’s a hidden gem that speaks to the civic-minded community that has long defined Lambertville, beyond its more famous industrial and revolutionary past.
-*   **Location:** 39 York Street.
-*   **Photo Challenge:** The building has a distinct, early 20th-century community hall design. Try to capture a photo that highlights its unique architectural character, perhaps focusing on the symmetry of its entrance or the pattern of its windows.
-*   **Scavenger Hunt:** From the street, try to spot any details—a sign, a symbol on the door, or a cornerstone—that identifies the building as The Kalmia Club.
+*   **What makes it worth visiting:** This building is an architectural standout and a piece of social history. As the home of one of the oldest continuously running women's clubs in New Jersey, its structure is as interesting as its story. The building itself is listed on the National Register of Historic Places, making it a significant cultural landmark to observe and appreciate from the street.
+*   **Photo Challenge:** Focus on an interesting architectural detail of the building—the entryway, a specific window, or the roofline—that makes it unique from the surrounding structures.
+*   **Scavenger Hunt Task:** Identify the material used for the building's foundation. Is it different from the rest of the facade?

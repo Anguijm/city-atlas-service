@@ -1,0 +1,388 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-lakefront",
+      "city_id": "cooperstown-ny",
+      "name": {
+        "en": "Downtown & The Lakefront"
+      },
+      "summary": {
+        "en": "A slice of pure Americana, this district blends the nostalgic buzz of baseball with the quiet elegance of Gilded Age architecture and literary history, all set against the serene backdrop of Otsego Lake."
+      },
+      "lat": 42.7009,
+      "lng": -74.9229,
+      "trending_score": 92
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-lakefront-brewery-ommegang",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "Brewery Ommegang"
+      },
+      "description": {
+        "en": "Located on a former hop farm, this brewery is renowned for its authentic, Belgian-style ales and farmhouse-inspired architecture that feels transported from the Belgian countryside."
+      },
+      "type": "drink",
+      "lat": 42.6735,
+      "lng": -74.9265,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-lakefront-cardiff-giant",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "The Cardiff Giant"
+      },
+      "description": {
+        "en": "See one of America's greatest hoaxes, a 10-foot-tall \"petrified man\" from the 1860s, an oddity hiding within The Farmers' Museum."
+      },
+      "type": "hidden_gem",
+      "lat": 42.7135,
+      "lng": -74.9215,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-lakefront-kingfisher-tower",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "Kingfisher Tower"
+      },
+      "description": {
+        "en": "A 60-foot-tall miniature Gothic castle built as a beautiful folly on the lake's shore, best viewed from Lakefront Park."
+      },
+      "type": "viewpoint",
+      "lat": 42.7255,
+      "lng": -74.8935,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-lakefront-art-association",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "Cooperstown Art Association"
+      },
+      "description": {
+        "en": "Housed in a handsome neo-classical building designed by famed architect Ernest Flagg, this is a hub of local culture hiding in plain sight."
+      },
+      "type": "culture",
+      "lat": 42.7001,
+      "lng": -74.9235,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-lakefront-doubleday-field",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "Doubleday Field"
+      },
+      "description": {
+        "en": "Believed to be the birthplace of baseball, this historic ballpark offers a quiet, contemplative atmosphere and feels frozen in time."
+      },
+      "type": "landmark",
+      "lat": 42.702,
+      "lng": -74.9245,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-lakefront-farmers-museum",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "The Farmers' Museum"
+      },
+      "description": {
+        "en": "Home to the famous Cardiff Giant hoax, this museum offers a unique look into rural history and peculiar moments from America's past."
+      },
+      "type": "culture",
+      "lat": 42.7136,
+      "lng": -74.9216,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-lakefront-baseball-hall-of-fame",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "National Baseball Hall of Fame"
+      },
+      "description": {
+        "en": "The epicenter of baseball heritage, this iconic museum is the source of the village's nostalgic buzz and a must-see for sports fans."
+      },
+      "type": "culture",
+      "lat": 42.7005,
+      "lng": -74.9238,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-lakefront-otsego-lake",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "Otsego Lake"
+      },
+      "description": {
+        "en": "The serene and beautiful backdrop to the entire village, this lake inspired the pastoral landscapes of James Fenimore Cooper's novels."
+      },
+      "type": "nature",
+      "lat": 42.705,
+      "lng": -74.9205,
+      "trending_score": 82
+    },
+    {
+      "id": "downtown-lakefront-lakefront-park",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "Lakefront Park"
+      },
+      "description": {
+        "en": "A lovely public park on the water's edge that offers the best and most accessible views of the fairytale-like Kingfisher Tower across the lake."
+      },
+      "type": "viewpoint",
+      "lat": 42.7035,
+      "lng": -74.9215,
+      "trending_score": 78
+    },
+    {
+      "id": "downtown-lakefront-main-street",
+      "city_id": "cooperstown-ny",
+      "neighborhood_id": "downtown-lakefront",
+      "name": {
+        "en": "Main Street"
+      },
+      "description": {
+        "en": "The historic heart of the village, lined with classic brick storefronts that create a nostalgic, all-American atmosphere."
+      },
+      "type": "landmark",
+      "lat": 42.7003,
+      "lng": -74.9236,
+      "trending_score": 89
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-lakefront-task-1",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Americana Moment"
+      },
+      "prompt": {
+        "en": "Capture a photo that perfectly embodies the 'slice of pure Americana' vibe of Cooperstown's Main Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-2",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Gilded Age Detail"
+      },
+      "prompt": {
+        "en": "Find an example of Gilded Age architecture and take a close-up shot of an interesting detail, like a cornice, column, or window frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-3",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Baseball Spirit Selfie"
+      },
+      "prompt": {
+        "en": "Find something—anything—related to baseball outside of the Hall of Fame and take a creative selfie with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-4",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Literary Landscape"
+      },
+      "prompt": {
+        "en": "Take a photo of a natural scene by the lake that looks like it could have inspired a James Fenimore Cooper novel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-5",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Historic Name Hunt"
+      },
+      "prompt": {
+        "en": "Find a plaque, building, or street sign that mentions the 'Cooper' or 'Clark' family and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-6",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Reflections of the Past"
+      },
+      "prompt": {
+        "en": "Capture a reflection of a historic building in a modern window or a puddle on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-7",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Brick Storefront Beauty"
+      },
+      "prompt": {
+        "en": "Take an artful photo focusing on the textures and patterns of the classic brick storefronts on Main Street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-8",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Local Flavor"
+      },
+      "prompt": {
+        "en": "Find a locally made snack, coffee, or treat and take a picture of it with a classic Cooperstown backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-9",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Timeless Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a spot that looks like it hasn't changed in 100 years."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-10",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by one of the village's historic buildings or trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-11",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a vintage or historic-looking sign on one of the local businesses."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-12",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Lake View"
+      },
+      "prompt": {
+        "en": "Find a unique angle to photograph Otsego Lake from the village, framing it with buildings or trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-13",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a contrast between old and new architecture in the village."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-14",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Doorway to History"
+      },
+      "prompt": {
+        "en": "Find an interesting or ornate doorway on a historic building and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-15",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of public art, a gallery window, or a mural and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-16",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Discover a quiet, peaceful spot away from the main crowds and take a photo that captures its tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-17",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Local Life Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that includes a detail representing local life, not just tourism (e.g., a post office, a local cafe, a library)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-lakefront-task-18",
+      "neighborhood_id": "downtown-lakefront",
+      "title": {
+        "en": "Pastoral Postcard"
+      },
+      "prompt": {
+        "en": "Compose a wide shot of the landscape that looks like a postcard, combining the village, hills, or lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
