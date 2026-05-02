@@ -1057,3 +1057,31 @@ Enrichment sweep: 101/119 thin/low cities enriched, ~1800 new waypoints, ~4600 t
 - In-flight branch: `fix/backfill-task-city-id-and-orphan-cleanup` (commits `bb0fbb3`, `52b614a`, `a8a4e6c`, `2414370`).
 - CI: all green on `main`. PR #49 awaiting council.
 - **24 failed cities still need Atlas Obscura + Reddit scraping and re-research.** Scrapers interrupted mid-session.
+
+---
+
+## 2026-05-02 — 26-city pipeline batch, birmingham-al rename, Firebase projectId fix
+
+### KEEP
+- **`--mode gemini` batch is the right approach for targeted small-town research.** NotebookLM mode (browser-based) took 60+ min per city and produced 0-neighborhood output for Birmingham. Gemini direct API mode took 2-4 min per city with good results (3-6 neighborhoods).
+- **`batch_research.py` sorts `--cities` list alphabetically** — useful to know when predicting which city is [N/26]; the order in the `--cities` arg doesn't match execution order.
+- **`rename_city_id.py` correctly handles all 3 steps** (copy nested tree, update flat vibe_ collections, delete old docs). Works reliably for ID alignment fixes.
+- **Monitor + background task pattern works well** for watching long-running batches. Use `tail -f log | grep --line-buffered` for per-city events.
+
+### IMPROVE
+- **Don't run `research_city.py` with default (NotebookLM) mode manually** when the batch is using `--mode gemini`. Inconsistency causes different quality results and much longer runtimes. Always match the batch mode.
+- **Check output file timestamps before assuming a city was never researched.** Files from earlier sessions persist — "MISSING" from the manifest doesn't mean missing from disk.
+- **`cities/N/neighborhoods` can accumulate stale entries with merge-only ingests.** `build_cache.ts` uses `merge: true` on all writes. Re-ingesting a city after a rename produces duplicate neighborhoods with different ID formats. Run `qc_cleanup.ts` after renames.
+
+### INSIGHT
+- **Firebase Admin Node.js `initializeApp()` without `projectId` fails with gRPC 5 NOT_FOUND** when `GOOGLE_CLOUD_PROJECT` / `GCLOUD_PROJECT` env vars are not set in the process environment. Python `google-cloud-firestore` auto-detects project from ADC; Node.js Firebase Admin does not. Fix: always pass `projectId: 'urban-explorer-483600'` explicitly in the ADC branch. Bug affected `build_cache.ts` and `backfill_task_neighborhoods.ts`. Fixed in commit `26cef79`.
+- **AtlasObscura URLs for US cities use `{city}-{state}` not `{city}-united-states`.** The scraper was failing for all 26 US target cities because it tried `bisbee-united-states` instead of `bisbee-arizona`. Fix: `US_STATE_SLUGS` map extracting state suffix from `city.id` (e.g. `bisbee-az` → `arizona`). Commit `c73269d`.
+- **11 small towns are permanently thin**: black-mountain-nc, camden-me, cannon-beach-or, galena-il, lambertville-nj, lenox-ma, ouray-co, stowe-vt, telluride-co, terlingua-tx, truth-or-consequences-nm. Even with Atlas Obscura data, Wikipedia is too thin to pass Phase C. These need a new data source (local newspapers, tourism boards) to ever pass.
+
+### Production state at session close
+
+- `main`: unchanged (PR #49 still open, council pending).
+- **269 live cities in `urbanexplorer` Firestore** (up from 257; 12 net new this session).
+- **Branch `fix/backfill-task-city-id-and-orphan-cleanup`** has 2 new commits: `26cef79` (Firebase projectId fix), `43ea383` (26-city batch data). NOT YET PUSHED — GitHub HTTPS/SSH both unreachable at session close (network outage).
+- **birmingham renamed to birmingham-al** everywhere: Firestore (rename_city_id.py), data files, global_city_cache.json. birmingham-al has 16 neighborhoods in Firestore (merge artifact: 10 old + 6 new from fresh research).
+- 11 Phase C failures remain unresolvable without new data sources.
