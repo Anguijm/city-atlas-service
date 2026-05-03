@@ -240,16 +240,25 @@ export function extractPlacesFromText(
     ) {
       const name = lines[i + 1]?.trim();
       const desc = lines[i + 2]?.trim() || "";
+
+      // PERMANENTLY CLOSED venues must not reach Firestore. Atlas Obscura renders
+      // this label as a standalone line BEFORE the location/name pair — typically
+      // 3-5 lines prior after UI noise ("Been Here?", "Want to Visit?", etc.).
+      // Check a lookback window of 6 lines to catch it regardless of spacing.
+      // Also check the name/desc lines as a secondary defense for other layouts.
+      const lookback = lines.slice(Math.max(0, i - 6), i);
+      const isClosed =
+        lookback.some((l) => l.trim().toUpperCase() === "PERMANENTLY CLOSED") ||
+        desc.toUpperCase().includes("PERMANENTLY CLOSED") ||
+        name?.toUpperCase().includes("PERMANENTLY CLOSED");
+
       // Skip UI noise entries (Atlas Obscura user-action buttons rendered as text)
-      // and permanently closed venues — Firestore should only contain visitable places.
-      // "PERMANENTLY CLOSED" appears as the description line (i+2) in AO page text.
       if (
         name &&
+        !isClosed &&
         !name.includes("Been Here") &&
         !name.includes("Want to Visit") &&
         !name.includes("Add to List") &&
-        !desc.toUpperCase().includes("PERMANENTLY CLOSED") &&
-        !name.toUpperCase().includes("PERMANENTLY CLOSED") &&
         name.length > 3 &&
         name.length < 120
       ) {

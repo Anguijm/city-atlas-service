@@ -106,12 +106,19 @@ describe("extractPlacesFromText", () => {
   });
 
   it("filters out permanently closed venues", () => {
-    // Atlas Obscura renders "PERMANENTLY CLOSED" as the description line (i+2)
-    // for venues that are no longer operational. They must not reach Firestore.
-    const line = "MIAMI, FLORIDA, UNITED STATES";
+    // Atlas Obscura renders "PERMANENTLY CLOSED" as a standalone label BEFORE
+    // the location/name pair — typically 3-5 lines prior after UI noise.
+    // The lookback window check must catch it regardless of exact spacing.
+    const locLine = "MIAMI, FLORIDA";
     const text = [
-      line, "Burger Museum", "PERMANENTLY CLOSED",
-      line, "Vizcaya Museum and Gardens", "An opulent villa estate.",
+      // Closed venue: PERMANENTLY CLOSED label precedes the location trigger
+      "PERMANENTLY CLOSED",
+      "Been Here?",
+      "Want to Visit?",
+      "Add to List",
+      locLine, "Burger Museum", "A shrine to fast food.",
+      // Open venue: no closed label
+      locLine, "Vizcaya Museum and Gardens", "An opulent villa estate.",
     ].join("\n");
     const places = extractPlacesFromText(text, "Miami");
     expect(places.map((p) => p.name)).not.toContain("Burger Museum");
