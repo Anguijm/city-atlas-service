@@ -25,7 +25,9 @@ const app = getApps().length > 0
   ? getApps()[0]
   : process.env.FIREBASE_SERVICE_ACCOUNT_KEY
     ? initializeApp({ credential: cert(JSON.parse(process.env.FIREBASE_SERVICE_ACCOUNT_KEY)) })
-    : initializeApp({ projectId: 'urban-explorer-483600' });
+    // projectId must be explicit when using ADC — Firebase Admin Node.js SDK does
+    // not auto-detect it from ADC credentials. Set GOOGLE_CLOUD_PROJECT to override.
+    : initializeApp({ projectId: process.env.GOOGLE_CLOUD_PROJECT || 'urban-explorer-483600' });
 
 const db = getFirestore(app, 'urbanexplorer');
 

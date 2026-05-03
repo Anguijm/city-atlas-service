@@ -46,6 +46,18 @@ docs/                           # DATA_COVERAGE_REPORT and other standing docs
 - [urban-explorer](https://github.com/Anguijm/urban-explorer) — Next.js photo-hunt app, reads cities + neighborhoods + waypoints + tasks (nested under cities, or via `vibe_tasks` flat collection).
 - Roadtripper (separate repo) — reads the same shape; per-app filtering lives on individual task docs, not separate collections.
 
+## Canonical data changes
+
+**City ID renames are breaking changes.** Consumer apps query Firestore by `city_id`; renaming a city ID orphans any app-side data keyed to the old ID (saved hunts, cached queries, deeplinks). Before merging a PR that renames a city ID:
+
+1. **File a coordination issue** in each consumer repo (UE, Roadtripper) describing the old ID, new ID, and target merge date.
+2. **Confirm no production user data references the old ID.** Check `saved_hunts` collection for `cityId == oldId` (Admin SDK or Firestore console).
+3. **Run `rename_city_id.py --dry-run`** to verify the Firestore migration plan, then `--run` on a maintenance window.
+4. **Deploy consumer updates first** (or simultaneously) — update any hardcoded city-ID references in consumer app code.
+5. **Update `global_city_cache.json`** and any scraper slug overrides in `configs/`.
+
+The `scripts/one-off/rename_city_id.py` script handles step 3. It is a one-off DANGER script — read its header before running.
+
 ## Open work
 
 Tracked as GitHub issues:

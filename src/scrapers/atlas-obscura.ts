@@ -240,11 +240,16 @@ export function extractPlacesFromText(
     ) {
       const name = lines[i + 1]?.trim();
       const desc = lines[i + 2]?.trim() || "";
+      // Skip UI noise entries (Atlas Obscura user-action buttons rendered as text)
+      // and permanently closed venues — Firestore should only contain visitable places.
+      // "PERMANENTLY CLOSED" appears as the description line (i+2) in AO page text.
       if (
         name &&
         !name.includes("Been Here") &&
         !name.includes("Want to Visit") &&
         !name.includes("Add to List") &&
+        !desc.toUpperCase().includes("PERMANENTLY CLOSED") &&
+        !name.toUpperCase().includes("PERMANENTLY CLOSED") &&
         name.length > 3 &&
         name.length < 120
       ) {

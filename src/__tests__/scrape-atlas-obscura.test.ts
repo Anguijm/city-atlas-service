@@ -105,6 +105,19 @@ describe("extractPlacesFromText", () => {
     expect(names.filter((n) => n === "Nishiki Market")).toHaveLength(1);
   });
 
+  it("filters out permanently closed venues", () => {
+    // Atlas Obscura renders "PERMANENTLY CLOSED" as the description line (i+2)
+    // for venues that are no longer operational. They must not reach Firestore.
+    const line = "MIAMI, FLORIDA, UNITED STATES";
+    const text = [
+      line, "Burger Museum", "PERMANENTLY CLOSED",
+      line, "Vizcaya Museum and Gardens", "An opulent villa estate.",
+    ].join("\n");
+    const places = extractPlacesFromText(text, "Miami");
+    expect(places.map((p) => p.name)).not.toContain("Burger Museum");
+    expect(places.map((p) => p.name)).toContain("Vizcaya Museum and Gardens");
+  });
+
   it("filters out UI noise entries", () => {
     const line = "PARIS, FRANCE";
     const text = [
