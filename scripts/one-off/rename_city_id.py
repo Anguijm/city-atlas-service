@@ -39,11 +39,14 @@ Usage:
 """
 
 import argparse
+import os
 from google.cloud import firestore
 
-GCP_PROJECT = "urban-explorer-483600"
+# Read from env var so this script is safe to run in non-prod environments.
+# Fallback to prod value — but verify with --dry-run first before any live run.
+GCP_PROJECT = os.environ.get("GCP_PROJECT", "urban-explorer-483600")
 DATABASE = "urbanexplorer"
-BATCH_SIZE = 400
+BATCH_SIZE = 400  # stay under Firestore's 500-op/batch hard limit with headroom
 
 
 def copy_doc(batch, src_ref, dst_ref, field_overrides: dict = None, dry_run: bool = True) -> None:

@@ -1083,5 +1083,5 @@ Enrichment sweep: 101/119 thin/low cities enriched, ~1800 new waypoints, ~4600 t
 - `main`: unchanged (PR #49 still open, council pending).
 - **269 live cities in `urbanexplorer` Firestore** (up from 257; 12 net new this session).
 - **Branch `fix/backfill-task-city-id-and-orphan-cleanup`** has 2 new commits: `26cef79` (Firebase projectId fix), `43ea383` (26-city batch data). NOT YET PUSHED — GitHub HTTPS/SSH both unreachable at session close (network outage).
-- **birmingham renamed to birmingham-al** everywhere: Firestore (rename_city_id.py), data files, global_city_cache.json. birmingham-al has 16 neighborhoods in Firestore (merge artifact: 10 old + 6 new from fresh research).
+- **birmingham renamed to birmingham-al** everywhere: Firestore (rename_city_id.py), data files, global_city_cache.json. RESOLVED 2026-05-03 (commit 9567f07): 10 stale `birmingham-*` neighborhood docs + 49 vibe_waypoints/vibe_tasks docs deleted. birmingham-al now has exactly 6 correct `birmingham-al-*` neighborhoods.
 - 11 Phase C failures remain unresolvable without new data sources.

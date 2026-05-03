@@ -43,10 +43,13 @@ Usage:
 """
 
 import argparse
+import os
 import sys
 from google.cloud import firestore
 
-GCP_PROJECT = "urban-explorer-483600"
+# Read from env var so this script is safe to run in non-prod environments.
+# Fallback to prod value — but verify with --dry-run first before any live run.
+GCP_PROJECT = os.environ.get("GCP_PROJECT", "urban-explorer-483600")
 DATABASE = "urbanexplorer"
 
 # Orphan city docs: in Firestore, not in global_city_cache.json, 0 waypoints.
