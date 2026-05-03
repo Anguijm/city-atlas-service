@@ -1,0 +1,645 @@
+{
+  "neighborhoods": [
+    {
+      "id": "university-core",
+      "city_id": "princeton-nj",
+      "name": {
+        "en": "The University Core & Its Secrets"
+      },
+      "summary": {
+        "en": "A mix of intellectual gravitas and youthful energy, where Gothic spires hide centuries of secrets and academic rivalries are literally carved in stone."
+      },
+      "lat": 40.3476,
+      "lng": -74.6604,
+      "trending_score": 95
+    },
+    {
+      "id": "witherspoon-jackson",
+      "city_id": "princeton-nj",
+      "name": {
+        "en": "The Witherspoon-Jackson Historic District"
+      },
+      "summary": {
+        "en": "A neighborhood of quiet resilience, community pride, and deep-rooted history, visible in its modest churches, pocket parks, and landmark school."
+      },
+      "lat": 40.3525,
+      "lng": -74.66,
+      "trending_score": 75
+    },
+    {
+      "id": "western-edge",
+      "city_id": "princeton-nj",
+      "name": {
+        "en": "The Western Edge & Einstein's Walk"
+      },
+      "summary": {
+        "en": "A tranquil and cerebral landscape of stately homes, a secluded research campus, and the peaceful towpath of a historic canal."
+      },
+      "lat": 40.3425,
+      "lng": -74.6715,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "university-core-yankee-doodle",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "university-core",
+      "name": {
+        "en": "Yankee Doodle Tap Room"
+      },
+      "description": {
+        "en": "A historic pub inside the Nassau Inn, this cozy, wood-paneled refuge is a Princeton institution featuring a massive Norman Rockwell mural."
+      },
+      "type": "drink",
+      "lat": 40.3495,
+      "lng": -74.6611,
+      "trending_score": 88
+    },
+    {
+      "id": "university-core-chapel-bulldog",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "university-core",
+      "name": {
+        "en": "The Princeton Chapel Bulldog"
+      },
+      "description": {
+        "en": "A mysterious stone bulldog perched high on the back of the University Chapel, rumored to be a clandestine tribute to Princeton's rival, Yale."
+      },
+      "type": "hidden_gem",
+      "lat": 40.3458,
+      "lng": -74.658,
+      "trending_score": 78
+    },
+    {
+      "id": "university-core-nassau-hall",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "university-core",
+      "name": {
+        "en": "Nassau Hall"
+      },
+      "description": {
+        "en": "The historic heart of the university where the Continental Congress met in 1783, bearing the scars of the Battle of Princeton."
+      },
+      "type": "landmark",
+      "lat": 40.3476,
+      "lng": -74.6604,
+      "trending_score": 98
+    },
+    {
+      "id": "university-core-death-masks",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "university-core",
+      "name": {
+        "en": "Laurence Hutton Collection of Life and Death Masks"
+      },
+      "description": {
+        "en": "A peculiar and haunting collection of plaster casts made from the faces of famous figures like Abraham Lincoln, Mark Twain, and Beethoven."
+      },
+      "type": "culture",
+      "lat": 40.3466,
+      "lng": -74.6591,
+      "trending_score": 85
+    },
+    {
+      "id": "witherspoon-jackson-school",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "witherspoon-jackson",
+      "name": {
+        "en": "Witherspoon Street School for Colored Children"
+      },
+      "description": {
+        "en": "A powerful monument that served as the primary educational institution for Princeton's Black children during the era of segregation."
+      },
+      "type": "landmark",
+      "lat": 40.353,
+      "lng": -74.6605,
+      "trending_score": 82
+    },
+    {
+      "id": "witherspoon-jackson-cemetery",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "witherspoon-jackson",
+      "name": {
+        "en": "Princeton Cemetery"
+      },
+      "description": {
+        "en": "The final resting place for luminaries like President Grover Cleveland and Vice President Aaron Burr, feeling more like a historical sculpture garden."
+      },
+      "type": "landmark",
+      "lat": 40.3555,
+      "lng": -74.6655,
+      "trending_score": 90
+    },
+    {
+      "id": "witherspoon-jackson-robeson-site",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "witherspoon-jackson",
+      "name": {
+        "en": "Paul Robeson's Birthplace Site"
+      },
+      "description": {
+        "en": "A plaque marking the area where the world-renowned singer, actor, and civil rights activist was born, honoring one of Princeton's most important native sons."
+      },
+      "type": "landmark",
+      "lat": 40.3545,
+      "lng": -74.6615,
+      "trending_score": 79
+    },
+    {
+      "id": "western-edge-einstein-house",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "western-edge",
+      "name": {
+        "en": "Albert Einstein House (View from Sidewalk)"
+      },
+      "description": {
+        "en": "The simple, white-clapboard house where Albert Einstein lived from 1936 until his death in 1955; a private residence viewable only from the street."
+      },
+      "type": "landmark",
+      "lat": 40.3444,
+      "lng": -74.6678,
+      "trending_score": 92
+    },
+    {
+      "id": "western-edge-ias",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "western-edge",
+      "name": {
+        "en": "Institute for Advanced Study"
+      },
+      "description": {
+        "en": "A legendary institution where minds like Einstein and Oppenheimer came to think, with a serene campus and woods often open for respectful walks."
+      },
+      "type": "landmark",
+      "lat": 40.3415,
+      "lng": -74.6725,
+      "trending_score": 89
+    },
+    {
+      "id": "western-edge-canal-park",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "western-edge",
+      "name": {
+        "en": "Delaware and Raritan Canal State Park"
+      },
+      "description": {
+        "en": "A historic, tree-lined canal towpath offering beautiful views of the water and 19th-century bridges, where locals go to run, bike, and clear their heads."
+      },
+      "type": "nature",
+      "lat": 40.34,
+      "lng": -74.658,
+      "trending_score": 85
+    },
+    {
+      "id": "western-edge-war-of-worlds",
+      "city_id": "princeton-nj",
+      "neighborhood_id": "western-edge",
+      "name": {
+        "en": "'War of the Worlds' Monument"
+      },
+      "description": {
+        "en": "A striking bronze monument commemorating the infamous 1938 Orson Welles radio broadcast that convinced many Americans Martians had landed nearby."
+      },
+      "type": "hidden_gem",
+      "lat": 40.3625,
+      "lng": -74.6075,
+      "trending_score": 81
+    }
+  ],
+  "tasks": [
+    {
+      "id": "university-core-task-1",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Gothic Archway"
+      },
+      "prompt": {
+        "en": "Find an interesting stone archway and take a photo looking through it to the scene beyond."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-2",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Campus Life Candid"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows the blend of historic architecture and modern student life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-3",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Secret Symbol Search"
+      },
+      "prompt": {
+        "en": "Look up! Find a strange or funny carving or detail on a building and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-4",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Intellectual Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie looking thoughtful in front of a grand, academic-looking building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-5",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Path to Knowledge"
+      },
+      "prompt": {
+        "en": "Take a low-angle photo of a well-worn path or walkway leading towards a university building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-6",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Tiger Pride"
+      },
+      "prompt": {
+        "en": "Find a representation of a tiger, Princeton's mascot, and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-7",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Ivy League Green"
+      },
+      "prompt": {
+        "en": "Capture the texture of ivy growing on a stone wall. Get as close as you can."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-8",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Scholarly Snack"
+      },
+      "prompt": {
+        "en": "Find a local cafe and take a picture of your coffee or snack with a book or a view of the campus in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-9",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking door you can and take a photo, imagining who has passed through it over the centuries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-10",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Spire in the Sky"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at one of the university's Gothic spires against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-11",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Courtyard Calm"
+      },
+      "prompt": {
+        "en": "Discover a quiet courtyard or green space and capture a photo that conveys its peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-core-task-12",
+      "neighborhood_id": "university-core",
+      "title": {
+        "en": "Stained Glass Light"
+      },
+      "prompt": {
+        "en": "Find a window with stained glass and take a photo of the colorful light it casts."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-1",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Community Corner"
+      },
+      "prompt": {
+        "en": "Find a small park, church, or community gathering spot and take a photo that captures its welcoming feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-2",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Historic Marker Story"
+      },
+      "prompt": {
+        "en": "Find any historical plaque or marker and take a photo of it. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-3",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Resilience in Bloom"
+      },
+      "prompt": {
+        "en": "Take a photo of flowers or a garden growing in front of one of the neighborhood's historic homes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-4",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Neighborhood Portrait"
+      },
+      "prompt": {
+        "en": "Capture a street scene that shows the unique architectural character of the homes in this district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-5",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Generations Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a building that looks like it has stood for many generations."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-6",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "The Welcoming Door"
+      },
+      "prompt": {
+        "en": "Find a brightly colored or uniquely decorated front door and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-7",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Street Name Significance"
+      },
+      "prompt": {
+        "en": "Take a photo of a street sign. Later, look up if the name has a special meaning to the neighborhood's history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-8",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "As the sun gets lower, capture a photo of long shadows cast by a historic building or old tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-9",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Community Pride"
+      },
+      "prompt": {
+        "en": "Find a sign, mural, or flag that expresses community identity or pride and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-10",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Texture of Time"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting texture on an old building, like weathered brick, peeling paint, or worn stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-11",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Quiet Street"
+      },
+      "prompt": {
+        "en": "Capture the peaceful, residential feeling of the neighborhood with a photo down a quiet street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "witherspoon-jackson-task-12",
+      "neighborhood_id": "witherspoon-jackson",
+      "title": {
+        "en": "Honoring Heritage"
+      },
+      "prompt": {
+        "en": "Take a moment of reflection at a historic site and capture an image that you feel honors its importance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-1",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Thinker's Path"
+      },
+      "prompt": {
+        "en": "Find a quiet path or sidewalk and take a photo from a low angle, imagining the great minds who have walked there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-2",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Nature's Geometry"
+      },
+      "prompt": {
+        "en": "Find a pattern in nature—like the branches of a tree, ripples in water, or the veins of a leaf—and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-3",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Cerebral Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie looking contemplative, with a backdrop of serene nature or a stately home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-4",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Architecture Meets Nature"
+      },
+      "prompt": {
+        "en": "Frame a shot that shows a man-made structure (a house, a bridge, a fence) blending with the natural landscape around it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-5",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Canal Reflection"
+      },
+      "prompt": {
+        "en": "If you're near the canal, take a photo of the trees and sky reflected on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-6",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Leafy Canopy"
+      },
+      "prompt": {
+        "en": "Find a street with large, overarching trees and take a photo looking up through the canopy of leaves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-7",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "A Moment of Genius"
+      },
+      "prompt": {
+        "en": "Find a quiet bench to sit on for a minute. Take a photo of your view and ponder a big question."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-8",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Historic Home Detail"
+      },
+      "prompt": {
+        "en": "Focus on an interesting architectural detail of one of the stately homes in the area—a unique window, a porch column, or a fence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-9",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "The Road Less Traveled"
+      },
+      "prompt": {
+        "en": "Find a small, unpaved path leading into the woods or along the canal and capture its mysterious entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-10",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Pop Culture Discovery"
+      },
+      "prompt": {
+        "en": "Find something that feels unexpectedly modern or related to pop culture in this historic and natural setting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-11",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Tranquil Waters"
+      },
+      "prompt": {
+        "en": "Take a photo of a body of water (pond, canal, lake) that captures a sense of peace and stillness."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-edge-task-12",
+      "neighborhood_id": "western-edge",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Take a photo of the interesting patterns created by shadows from trees or buildings on a sidewalk or wall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

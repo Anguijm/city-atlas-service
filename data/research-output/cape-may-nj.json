@@ -1,0 +1,870 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-victorian-core",
+      "city_id": "cape-may-nj",
+      "name": {
+        "en": "The Historic Victorian Core"
+      },
+      "summary": {
+        "en": "This is the Cape May of postcards, but with a deeper story to tell. The air is thick with history and salt, creating a transportive, almost theatrical atmosphere day and night."
+      },
+      "lat": 38.9341,
+      "lng": -74.9235,
+      "trending_score": 95
+    },
+    {
+      "id": "cape-may-point",
+      "city_id": "cape-may-nj",
+      "name": {
+        "en": "Cape May Point & Sunset Beach"
+      },
+      "summary": {
+        "en": "A windswept, contemplative landscape where nature and military history collide. The vibe is raw, quiet, and elemental, a place for beachcombing, birdwatching, and reflection."
+      },
+      "lat": 38.9335,
+      "lng": -74.9601,
+      "trending_score": 85
+    },
+    {
+      "id": "working-harbor",
+      "city_id": "cape-may-nj",
+      "name": {
+        "en": "The Working Harbor"
+      },
+      "summary": {
+        "en": "The gritty, authentic heart of Cape May's maritime industry. The air smells of salt, diesel, and the day's catch, offering a glimpse into the tough, practical life of a major commercial fishing port."
+      },
+      "lat": 38.9455,
+      "lng": -74.9152,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-victorian-core-c-view-inn",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "C-View Inn"
+      },
+      "description": {
+        "en": "A quintessential local's bar, this unpretentious spot is perfect for soaking in the town's authentic, year-round character, far from the seasonal crowds."
+      },
+      "type": "drink",
+      "lat": 38.9371,
+      "lng": -74.9212,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-victorian-core-mad-batter",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "The Mad Batter Restaurant & Bar"
+      },
+      "description": {
+        "en": "A Cape May institution housed in a whimsical Victorian inn, known for its lively atmosphere, eclectic American menu, and famous brunch."
+      },
+      "type": "food",
+      "lat": 38.9321,
+      "lng": -74.9211,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-victorian-core-ebbitt-room",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "The Ebbitt Room"
+      },
+      "description": {
+        "en": "A refined dining experience in the Virginia Hotel with a focus on farm-to-table American cuisine and a moody, elegant bar for classic cocktails."
+      },
+      "type": "food",
+      "lat": 38.9326,
+      "lng": -74.9216,
+      "trending_score": 88
+    },
+    {
+      "id": "historic-victorian-core-washington-inn",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "Washington Inn"
+      },
+      "description": {
+        "en": "An elegant restaurant in a former 19th-century plantation house, a local favorite for special occasions with a legendary wine cellar."
+      },
+      "type": "food",
+      "lat": 38.9361,
+      "lng": -74.9262,
+      "trending_score": 89
+    },
+    {
+      "id": "historic-victorian-core-emlen-physick-estate",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "Emlen Physick Estate"
+      },
+      "description": {
+        "en": "An 1879 Stick Style mansion that serves as a perfectly preserved time capsule into the intricate and sometimes eccentric details of high Victorian life."
+      },
+      "type": "culture",
+      "lat": 38.9382,
+      "lng": -74.9283,
+      "trending_score": 94
+    },
+    {
+      "id": "historic-victorian-core-harriet-tubman-museum",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "Harriet Tubman Museum"
+      },
+      "description": {
+        "en": "This museum illuminates the life of the famed abolitionist and her significant, often-overlooked, history in Cape May as a hub for her work."
+      },
+      "type": "culture",
+      "lat": 38.9351,
+      "lng": -74.9222,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-victorian-core-cape-may-stage",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "Cape May Stage"
+      },
+      "description": {
+        "en": "An intimate, professional Equity theater housed in a historic church, specializing in American classics and new works."
+      },
+      "type": "culture",
+      "lat": 38.9341,
+      "lng": -74.9215,
+      "trending_score": 82
+    },
+    {
+      "id": "historic-victorian-core-hughes-street",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "Hughes Street Gingerbread Homes"
+      },
+      "description": {
+        "en": "A street renowned for its stunning examples of Victorian homes with intricate, multi-colored fretwork and ornate verandas."
+      },
+      "type": "landmark",
+      "lat": 38.9315,
+      "lng": -74.9225,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-victorian-core-gurney-street",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "historic-victorian-core",
+      "name": {
+        "en": "Gurney Street Architecture"
+      },
+      "description": {
+        "en": "Wander this street to discover homes with 'witch's cap' turrets and some of the best examples of 'gingerbread' architecture in town."
+      },
+      "type": "landmark",
+      "lat": 38.9305,
+      "lng": -74.9215,
+      "trending_score": 79
+    },
+    {
+      "id": "cape-may-point-red-store",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "The Red Store"
+      },
+      "description": {
+        "en": "A beloved local gem that started as a general store and now serves surprisingly ambitious and delicious American fare in a casual setting."
+      },
+      "type": "food",
+      "lat": 38.9355,
+      "lng": -74.9565,
+      "trending_score": 88
+    },
+    {
+      "id": "cape-may-point-wwii-bunker",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "Bunker at Cape May Point"
+      },
+      "description": {
+        "en": "A stark, monolithic World War II bunker half-swallowed by the sand, now a haunting monument to a forgotten coastal frontline."
+      },
+      "type": "landmark",
+      "lat": 38.9311,
+      "lng": -74.9612,
+      "trending_score": 90
+    },
+    {
+      "id": "cape-may-point-ss-atlantus",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "Wreck of the S.S. Atlantus"
+      },
+      "description": {
+        "en": "The ghostly, skeletal remains of a WWI-era experimental concrete ship, most dramatic at low tide and sunset."
+      },
+      "type": "landmark",
+      "lat": 38.9442,
+      "lng": -74.9703,
+      "trending_score": 93
+    },
+    {
+      "id": "cape-may-point-sunset-beach",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "Sunset Beach"
+      },
+      "description": {
+        "en": "A famous beach for watching the sunset over Delaware Bay, beachcombing for 'Cape May Diamonds', and viewing coastal relics."
+      },
+      "type": "nature",
+      "lat": 38.9451,
+      "lng": -74.9695,
+      "trending_score": 95
+    },
+    {
+      "id": "cape-may-point-sometimes-train-tracks",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "\"Sometimes Train Tracks\" of Sunset Beach"
+      },
+      "description": {
+        "en": "A true hidden wonder where, at very low tides, shifting sands reveal historic train tracks from a former sand-mining operation."
+      },
+      "type": "hidden_gem",
+      "lat": 38.9462,
+      "lng": -74.9685,
+      "trending_score": 70
+    },
+    {
+      "id": "cape-may-point-diamond-hunting",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "Cape May Diamond Fields"
+      },
+      "description": {
+        "en": "Scour the shoreline at Sunset Beach for these naturally polished quartz pebbles that have traveled down the Delaware River."
+      },
+      "type": "nature",
+      "lat": 38.9458,
+      "lng": -74.9691,
+      "trending_score": 78
+    },
+    {
+      "id": "cape-may-point-birding-area",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "Cape May Point Birding Area"
+      },
+      "description": {
+        "en": "A world-renowned area for birdwatching, especially during migration seasons, offering a chance to see a wide variety of coastal and migratory birds."
+      },
+      "type": "nature",
+      "lat": 38.9333,
+      "lng": -74.9599,
+      "trending_score": 84
+    },
+    {
+      "id": "cape-may-point-sunset-viewpoint",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "cape-may-point",
+      "name": {
+        "en": "Sunset Beach Viewpoint"
+      },
+      "description": {
+        "en": "The prime location on the East Coast to watch the sun set directly over a body of water, creating a spectacular daily show."
+      },
+      "type": "viewpoint",
+      "lat": 38.9455,
+      "lng": -74.9701,
+      "trending_score": 96
+    },
+    {
+      "id": "working-harbor-mayers-tavern",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "Mayer’s Tavern"
+      },
+      "description": {
+        "en": "A classic, no-frills waterfront tavern where fishermen and locals gather for a cold beer and authentic stories."
+      },
+      "type": "drink",
+      "lat": 38.9441,
+      "lng": -74.9132,
+      "trending_score": 80
+    },
+    {
+      "id": "working-harbor-lucky-bones",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "Lucky Bones Beach Grill"
+      },
+      "description": {
+        "en": "A modern, harbor-side staple popular with locals for its reliable food, lively bar, and proximity to the docks."
+      },
+      "type": "food",
+      "lat": 38.9481,
+      "lng": -74.9143,
+      "trending_score": 85
+    },
+    {
+      "id": "working-harbor-lobster-house",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "The Lobster House"
+      },
+      "description": {
+        "en": "A sprawling, iconic complex right on the harbor that remains a local touchstone for fresh seafood."
+      },
+      "type": "food",
+      "lat": 38.9453,
+      "lng": -74.9144,
+      "trending_score": 94
+    },
+    {
+      "id": "working-harbor-lobster-house-raw-bar",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "The Lobster House Raw Bar"
+      },
+      "description": {
+        "en": "For an authentic experience, bypass the main dining room and head to the raw bar for the freshest clams and oysters."
+      },
+      "type": "food",
+      "lat": 38.9451,
+      "lng": -74.9141,
+      "trending_score": 90
+    },
+    {
+      "id": "working-harbor-hh-seafood",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "H&H Seafood Market"
+      },
+      "description": {
+        "en": "A working seafood market where you can buy the freshest scallops, fish, and crabs directly from the source."
+      },
+      "type": "shopping",
+      "lat": 38.9435,
+      "lng": -74.9125,
+      "trending_score": 82
+    },
+    {
+      "id": "working-harbor-fishing-fleet-docks",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "The Fishing Fleet Docks"
+      },
+      "description": {
+        "en": "Walk the docks to see the commercial fishing vessels—scallopers, trawlers, and draggers—that are the heart of the local economy."
+      },
+      "type": "landmark",
+      "lat": 38.9461,
+      "lng": -74.9155,
+      "trending_score": 85
+    },
+    {
+      "id": "working-harbor-whale-watching-cruises",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "Whale & Dolphin Watching Cruises"
+      },
+      "description": {
+        "en": "The harbor is the departure point for ecotourism cruises, offering a different perspective on the town and its rich marine ecosystem."
+      },
+      "type": "nature",
+      "lat": 38.9471,
+      "lng": -74.9161,
+      "trending_score": 88
+    },
+    {
+      "id": "working-harbor-spicers-creek",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "Spicer's Creek"
+      },
+      "description": {
+        "en": "Wander along this smaller creek off the main harbor to find quieter marinas and a more intimate view of maritime life."
+      },
+      "type": "hidden_gem",
+      "lat": 38.9491,
+      "lng": -74.9192,
+      "trending_score": 70
+    },
+    {
+      "id": "working-harbor-schooner-american",
+      "city_id": "cape-may-nj",
+      "neighborhood_id": "working-harbor",
+      "name": {
+        "en": "Schooner American"
+      },
+      "description": {
+        "en": "A historic vessel permanently docked at The Lobster House, offering a beautiful glimpse into sailing history."
+      },
+      "type": "landmark",
+      "lat": 38.9452,
+      "lng": -74.9136,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-victorian-core-task-1",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Victorian Veranda Selfie"
+      },
+      "prompt": {
+        "en": "Find a classic 'gingerbread' porch and take a selfie looking like a 19th-century resident enjoying the sea breeze."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-2",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Gaslight Glow"
+      },
+      "prompt": {
+        "en": "After dusk, capture the warm, moody glow of a historic gas lamp illuminating a sidewalk or building facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-3",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Hydrangea Hues"
+      },
+      "prompt": {
+        "en": "Create a color palette photo focusing on the vibrant blues, purples, and pinks of the neighborhood's blooming hydrangeas."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-4",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Architectural Alphabet"
+      },
+      "prompt": {
+        "en": "Find a piece of ironwork, fretwork, or wood trim that looks like the first letter of your name and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-5",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Innkeeper's Welcome"
+      },
+      "prompt": {
+        "en": "Photograph the most inviting-looking entrance to one of the many historic inns or bed & breakfasts."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-6",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Secret Garden Glimpse"
+      },
+      "prompt": {
+        "en": "Find a hidden garden or courtyard tucked away behind a historic home and capture its quiet beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-7",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Witch's Cap Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at one of the iconic pointed 'witch's cap' turrets against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-8",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Story in a Window"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the historic streetscape in an old, wavy glass window of a Victorian building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-9",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "The Local's View"
+      },
+      "prompt": {
+        "en": "Find a quiet side street off the main mall and capture a scene that feels authentically local, not touristy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-10",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Painted Lady Palette"
+      },
+      "prompt": {
+        "en": "Find a home with at least three distinct colors in its paint scheme and capture them all in one vibrant shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-11",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker and take a creative photo that includes it and the building it describes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-victorian-core-task-12",
+      "neighborhood_id": "historic-victorian-core",
+      "title": {
+        "en": "A Taste of History"
+      },
+      "prompt": {
+        "en": "Take a photo of a coffee and pastry from a local cafe, arranged in a way that feels timeless and elegant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-1",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Windswept Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie on the beach with your hair blowing in the wind, capturing the elemental feel of the coast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-2",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Nature's Textures"
+      },
+      "prompt": {
+        "en": "Create a close-up photo collage of three different natural textures: sand, a seashell, and a piece of driftwood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-3",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Horizon Line"
+      },
+      "prompt": {
+        "en": "Take a minimalist photo where the frame is perfectly divided between the sea and the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-4",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Footprints to the Sea"
+      },
+      "prompt": {
+        "en": "Capture a photo of your footprints in the sand leading towards the water, symbolizing a journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-5",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Birdwatcher's Patience"
+      },
+      "prompt": {
+        "en": "Find a shorebird and try to capture a photo of it in a unique pose - taking flight, hunting, or standing against the waves."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-6",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "The Diamond Hunter"
+      },
+      "prompt": {
+        "en": "Take a photo of your hand holding a piece of sea glass or a quartz 'Cape May Diamond' you found on the beach."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-7",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Low Tide Discovery"
+      },
+      "prompt": {
+        "en": "Explore the beach at low tide and photograph the most interesting thing you find revealed by the receding water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-8",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Sunset Silhouette"
+      },
+      "prompt": {
+        "en": "As the sun sets, create a silhouette of a person or object against the colorful sky over the bay."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-9",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Message in the Sand"
+      },
+      "prompt": {
+        "en": "Write a one-word message in the sand and take a photo of it before the waves wash it away."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-10",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Contemplative Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo from behind a person (or yourself) looking out thoughtfully over the water towards the horizon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-11",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Power of the Sea"
+      },
+      "prompt": {
+        "en": "Capture the motion of a wave crashing on the shore or against a historic relic like the bunker or wreck."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cape-may-point-task-12",
+      "neighborhood_id": "cape-may-point",
+      "title": {
+        "en": "Coastal Flora"
+      },
+      "prompt": {
+        "en": "Find and photograph the hardy dune grasses or other plants that survive in this windswept environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-1",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "Maritime Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie with the commercial fishing boats and their complex rigging as your background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-2",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "The Day's Catch"
+      },
+      "prompt": {
+        "en": "Photograph a detail that hints at the fishing industry, like a stack of crab pots, a neatly coiled net, or a bucket of ice."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-3",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "Harbor Reflections"
+      },
+      "prompt": {
+        "en": "Capture the colorful, distorted reflection of the boats and masts in the harbor water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-4",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "A Fisherman's Tools"
+      },
+      "prompt": {
+        "en": "Find a coiled rope, a heavy cleat, or an anchor and take a detailed, texture-rich photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-5",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "Seagull's Perch"
+      },
+      "prompt": {
+        "en": "Take a photo of a seagull in a classic harbor setting - on a piling, a roof, or the deck of a boat."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-6",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "Gritty and Real"
+      },
+      "prompt": {
+        "en": "Find a sign of wear and tear on a boat or the dock—like rust, peeling paint, or worn wood—and capture its story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-7",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "The Color of Work"
+      },
+      "prompt": {
+        "en": "Create a photo focusing on a single, bold color you find in the harbor, like the blue of a hull or the orange of a buoy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-8",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "From Sea to Table"
+      },
+      "prompt": {
+        "en": "Take a photo of the freshest seafood you can find, either at a market display or on your plate at a restaurant."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-9",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "Name on the Stern"
+      },
+      "prompt": {
+        "en": "Find a boat with a creative or interesting name and photograph its stern, showing the name and home port."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-10",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "Early Morning Light"
+      },
+      "prompt": {
+        "en": "If you're here in the morning, capture the golden light hitting the fleet as it prepares for the day."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-11",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, right at the edge of the dock, looking across the water towards the boats."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "working-harbor-task-12",
+      "neighborhood_id": "working-harbor",
+      "title": {
+        "en": "The Local's Watering Hole"
+      },
+      "prompt": {
+        "en": "Capture the authentic atmosphere of a no-frills harbor-side tavern or eatery where the fishermen go."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

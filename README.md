@@ -11,7 +11,7 @@ Batch data pipeline that builds the shared city atlas consumed by **Urban Explor
 
 ## Status
 
-Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). **285-city global registry** as of PR #34 (2026-04-28) — 200 US + 85 global cities. **~258 cities live in `urbanexplorer` Firestore** as of 2026-05-01 after a full enrichment sweep (101/119 thin/low cities enriched, ~1800 new waypoints + ~4600 tasks added). Tiered quality gates by `coverageTier` landed in PR #39; `enrich_ingest.ts` now strips undefined fields + Zod-validates required fields before every Firestore write (PR #44). Open PRs: #42 (Phase B prompt injection, CONDITIONAL), #43 (4 corridor cities). See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
+Pipeline operational and producing live Firestore data. Extracted from [urban-explorer](https://github.com/Anguijm/urban-explorer) in April 2026 (PR #2). **288-city global registry** (200 US + 88 global; `birmingham-al` duplicate removed 2026-05-01). **257 cities live in `urbanexplorer` Firestore** — 12,123 waypoints, 28,419 tasks, `city_id` backfilled on all serveable tasks (PR #49). Tiered quality gates by `coverageTier` in PR #39; `enrich_ingest.ts` strips undefined fields + Zod-validates before every write (PR #44). Open PR: #49 (timeout scraper disambiguation + backfill script). See `SESSION_HANDOFF.md` for the runbook + `BACKLOG.md` for active priorities.
 
 ## Governance
 
@@ -25,7 +25,7 @@ See `.harness/README.md` for the protocol, `.harness/council/*.md` for persona d
 .github/workflows/       council.yml, pr-watch.yml, ci.yml
 .harness/                council personas + scripts + hooks + learnings
 configs/
-  global_city_cache.json        # 285-city metadata source of truth
+  global_city_cache.json        # 288-city metadata source of truth
   seasonal-calendar.json
   city-sources.json             # per-city URL sources for Gemini/NotebookLM
   atlas-obscura-slugs.json      # city-id → URL slug suffix override (PR #15)
@@ -45,6 +45,18 @@ docs/                           # DATA_COVERAGE_REPORT and other standing docs
 
 - [urban-explorer](https://github.com/Anguijm/urban-explorer) — Next.js photo-hunt app, reads cities + neighborhoods + waypoints + tasks (nested under cities, or via `vibe_tasks` flat collection).
 - Roadtripper (separate repo) — reads the same shape; per-app filtering lives on individual task docs, not separate collections.
+
+## Canonical data changes
+
+**City ID renames are breaking changes.** Consumer apps query Firestore by `city_id`; renaming a city ID orphans any app-side data keyed to the old ID (saved hunts, cached queries, deeplinks). Before merging a PR that renames a city ID:
+
+1. **File a coordination issue** in each consumer repo (UE, Roadtripper) describing the old ID, new ID, and target merge date.
+2. **Confirm no production user data references the old ID.** Check `saved_hunts` collection for `cityId == oldId` (Admin SDK or Firestore console).
+3. **Run `rename_city_id.py --dry-run`** to verify the Firestore migration plan, then `--run` on a maintenance window.
+4. **Deploy consumer updates first** (or simultaneously) — update any hardcoded city-ID references in consumer app code.
+5. **Update `global_city_cache.json`** and any scraper slug overrides in `configs/`.
+
+The `scripts/one-off/rename_city_id.py` script handles step 3. It is a one-off DANGER script — read its header before running.
 
 ## Open work
 

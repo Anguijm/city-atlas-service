@@ -65,11 +65,40 @@ function buildAtlasUrl(city: City): string {
   return `https://www.atlasobscura.com/things-to-do/${slug}`;
 }
 
-async function scrapeCityPage(
-  page: Page,
+// Atlas Obscura uses {city}-{state} for US cities (e.g. bisbee-arizona,
+// deadwood-south-dakota). Map the two-letter state suffix in city.id to the
+// full state name so we can build that URL without a manual override per city.
+//
+// Coverage: 50 US states only. US territories (PR, GU, VI, etc.) are not
+// included because Atlas Obscura uses country-based slugs for them
+// (e.g., "san-juan-puerto-rico") rather than the state pattern. Add a
+// slug override in configs/atlas-obscura-slugs.json for any territory city.
+//
+// To add a new abbreviation: map the two-letter suffix to the full slug
+// Atlas Obscura uses in its URL (lowercase, hyphens for spaces). Verify
+// with a real URL before committing — Atlas Obscura is inconsistent.
+export const US_STATE_SLUGS: Record<string, string> = {
+  ak: "alaska", al: "alabama", ar: "arkansas", az: "arizona",
+  ca: "california", co: "colorado", ct: "connecticut", de: "delaware",
+  fl: "florida", ga: "georgia", hi: "hawaii", ia: "iowa", id: "idaho",
+  il: "illinois", in: "indiana", ks: "kansas", ky: "kentucky", la: "louisiana",
+  ma: "massachusetts", md: "maryland", me: "maine", mi: "michigan", mn: "minnesota",
+  mo: "missouri", ms: "mississippi", mt: "montana", nc: "north-carolina",
+  nd: "north-dakota", ne: "nebraska", nh: "new-hampshire", nj: "new-jersey",
+  nm: "new-mexico", nv: "nevada", ny: "new-york", oh: "ohio", ok: "oklahoma",
+  or: "oregon", pa: "pennsylvania", ri: "rhode-island", sc: "south-carolina",
+  sd: "south-dakota", tn: "tennessee", tx: "texas", ut: "utah", va: "virginia",
+  vt: "vermont", wa: "washington", wi: "wisconsin", wv: "west-virginia", wy: "wyoming",
+};
+
+/**
+ * Build the ordered list of Atlas Obscura URLs to try for a city.
+ * Exported for unit testing — the async scraper calls this internally.
+ */
+export function buildAtlasUrls(
   city: City,
   overrides: Record<string, string>,
-): Promise<{ places: ScrapedPlace[]; fullText: string }> {
+): string[] {
   // Try multiple URL patterns — Atlas Obscura is inconsistent with slugs
   const slug = city.name.toLowerCase().replace(/\s+/g, "-");
   const countrySlug = city.country.toLowerCase().replace(/\s+/g, "-");
@@ -79,13 +108,51 @@ async function scrapeCityPage(
     .replace("ho-chi-minh", "saigon")
     .replace("mexico-city", "mexico-city"); // keep as-is
   const overrideSlug = overrides[city.id];
-  const urls = [
+
+  // For US cities, derive the state slug from city.id suffix (e.g. bisbee-az → arizona)
+  // and try {city}-{state} first — that's Atlas Obscura's standard US URL pattern.
+  // Cities whose clinicalName has a comma also carry state info (birmingham → alabama).
+  const stateSlug: string | null = (() => {
+    const idSuffix = city.id.split("-").at(-1) ?? "";
+    if (US_STATE_SLUGS[idSuffix]) return US_STATE_SLUGS[idSuffix];
+    // Fallback: clinicalName "Birmingham, Alabama" → "alabama"
+    if (city.country === "United States" && city.clinicalName?.includes(",")) {
+      return city.clinicalName.split(",")[1].trim().toLowerCase().replace(/\s+/g, "-");
+    }
+    return null;
+  })();
+
+  // URL fallback chain — tried in priority order, stops at first URL with ≥5 places.
+  // Priority rationale:
+  //   1. Override slug from configs/atlas-obscura-slugs.json — human-verified, always wins.
+  //   2. US state pattern ({city}-{state-name}) — Atlas Obscura's canonical pattern for
+  //      all 50 states; most reliable for US cities (e.g., "bisbee-arizona").
+  //   3. Country pattern ({city}-{country}) — Atlas Obscura's standard for international
+  //      cities (e.g., "kyoto-japan").
+  //   4. Bare city slug ({city}) — some major cities use this (e.g., "tokyo", "paris").
+  //   5. Alt slug — handles common name variants (strips "-city", "ho-chi-minh" → "saigon").
+  //   6. Country-first-word only ({city}-{country-word-1}) — fallback for multi-word
+  //      countries where Atlas Obscura uses only the first word (e.g., "south" of
+  //      "south-korea" → unlikely but tried last).
+  // If a URL returns a "Page Not Found" title or doesn't mention the city name,
+  // it is skipped. The URL with the most extracted places wins.
+  return [
     ...(overrideSlug ? [`https://www.atlasobscura.com/things-to-do/${overrideSlug}`] : []),
+    // US state-based pattern (most reliable for US cities)
+    ...(stateSlug ? [`https://www.atlasobscura.com/things-to-do/${slug}-${stateSlug}`] : []),
     `https://www.atlasobscura.com/things-to-do/${slug}-${countrySlug}`,
     `https://www.atlasobscura.com/things-to-do/${slug}`,
     ...(altSlug !== slug ? [`https://www.atlasobscura.com/things-to-do/${altSlug}`] : []),
     `https://www.atlasobscura.com/things-to-do/${slug}-${countrySlug.split("-")[0]}`,
   ];
+}
+
+async function scrapeCityPage(
+  page: Page,
+  city: City,
+  overrides: Record<string, string>,
+): Promise<{ places: ScrapedPlace[]; fullText: string }> {
+  const urls = buildAtlasUrls(city, overrides);
 
   let loaded = false;
   let bestPlaces: { name: string; description: string; location: string; tags: string[]; url: string }[] = [];
@@ -155,7 +222,7 @@ async function scrapeCityPage(
   return { places: bestPlaces, fullText: bestFullText };
 }
 
-function extractPlacesFromText(
+export function extractPlacesFromText(
   text: string,
   cityName: string
 ): ScrapedPlace[] {
@@ -173,8 +240,22 @@ function extractPlacesFromText(
     ) {
       const name = lines[i + 1]?.trim();
       const desc = lines[i + 2]?.trim() || "";
+
+      // PERMANENTLY CLOSED venues must not reach Firestore. Atlas Obscura renders
+      // this label as a standalone line BEFORE the location/name pair — typically
+      // 3-5 lines prior after UI noise ("Been Here?", "Want to Visit?", etc.).
+      // Check a lookback window of 6 lines to catch it regardless of spacing.
+      // Also check the name/desc lines as a secondary defense for other layouts.
+      const lookback = lines.slice(Math.max(0, i - 6), i);
+      const isClosed =
+        lookback.some((l) => l.trim().toUpperCase() === "PERMANENTLY CLOSED") ||
+        desc.toUpperCase().includes("PERMANENTLY CLOSED") ||
+        name?.toUpperCase().includes("PERMANENTLY CLOSED");
+
+      // Skip UI noise entries (Atlas Obscura user-action buttons rendered as text)
       if (
         name &&
+        !isClosed &&
         !name.includes("Been Here") &&
         !name.includes("Want to Visit") &&
         !name.includes("Add to List") &&
@@ -192,7 +273,14 @@ function extractPlacesFromText(
     }
   }
 
-  return places;
+  // Deduplicate by name — Atlas Obscura pages can repeat the same place
+  // multiple times (e.g. pagination artifacts, sidebar reprompts).
+  const seen = new Set<string>();
+  return places.filter((p) => {
+    if (seen.has(p.name)) return false;
+    seen.add(p.name);
+    return true;
+  });
 }
 
 async function scrapeDetailPage(

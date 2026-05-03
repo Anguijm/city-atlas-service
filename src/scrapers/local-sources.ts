@@ -311,25 +311,71 @@ async function scrapeTheInfatuation(page: Page, city: City): Promise<ScrapeResul
 }
 
 /**
+ * Compute the state-name guard string for a US city, or null for non-US / unambiguous cities.
+ * Used by scrapeTimeOut to reject pages that mention the city name but belong to the wrong country.
+ * Exported for unit testing — pure function, no I/O.
+ *
+ * Returns the state name (e.g., "Alabama") extracted from clinicalName ("Birmingham, Alabama").
+ * Returns null if the city is not in the US, or its clinicalName has no comma (not disambiguated).
+ */
+export function buildStateGuard(city: Pick<City, "country" | "clinicalName">): string | null {
+  if (city.country !== "United States") return null;
+  const cm = city.clinicalName;
+  if (!cm?.includes(",")) return null;
+  return cm.split(",")[1].trim(); // e.g. "Alabama", "Mississippi"
+}
+
+/**
  * TimeOut — general city guide.
  * URL: https://www.timeout.com/{slug}
  */
 async function scrapeTimeOut(page: Page, city: City): Promise<ScrapeResult> {
-  const slug = slugify(city.name);
-
   // TimeOut is a prose-only source — landing pages are round-up articles,
   // not individual venue cards. Live inspection 2026-04-08 confirmed zero
   // individual venue pages on /{slug}/things-to-do or /{slug}/restaurants.
   // Save MD fullText only; structured extraction would produce article titles.
-  const urls = [
-    `https://www.timeout.com/${slug}/things-to-do`,
-    `https://www.timeout.com/${slug}/restaurants`,
-  ];
 
-  const result = await tryUrls(page, urls, city.name);
-  if (!result) return { places: [], fullText: "" };
+  const nameSlug = slugify(city.name);
 
-  return { places: [], fullText: result.text };
+  // Try city.id as the primary slug before the name-derived slug. city.id is
+  // already disambiguation-aware for US cities (e.g. "oxford-ms", "cape-may-nj"),
+  // so timeout.com/oxford-ms will 404 gracefully rather than returning Oxford UK
+  // content that happens to mention "Oxford". Fall back to the name slug for
+  // cities whose id and name slug are identical (no ambiguity) or for non-US cities.
+  const slugsToTry = city.id !== nameSlug ? [city.id, nameSlug] : [nameSlug];
+
+  // State guard: for US cities whose clinicalName includes a US state
+  // (e.g. "Birmingham, Alabama"), require the scraped page to mention that state.
+  // Prevents accepting wrong-country content — Birmingham UK page mentions
+  // "Birmingham" and passes the basic city-name check, but never mentions "Alabama".
+  //
+  // Why only clinicalName-with-comma? Cities whose id already encodes state
+  // (e.g., "oxford-ms") rely on the id slug to hit the right URL directly;
+  // the state guard provides a second layer for cities that have an ambiguous
+  // name slug. Null (non-US cities, or US cities without clinicalName comma)
+  // skips the check entirely — those city names are assumed unambiguous.
+  //
+  // If stateGuard is wrong (e.g., clinicalName format changed), the scraper
+  // skips all candidates and returns empty — which is safer than ingesting
+  // wrong-country data. Monitor "wrong country, skipping" log lines.
+  const stateGuard = buildStateGuard(city);
+
+  for (const slug of slugsToTry) {
+    const urls = [
+      `https://www.timeout.com/${slug}/things-to-do`,
+      `https://www.timeout.com/${slug}/restaurants`,
+    ];
+    const candidate = await tryUrls(page, urls, city.name);
+    if (!candidate) continue;
+
+    if (stateGuard && !candidate.text.toUpperCase().includes(stateGuard.toUpperCase())) {
+      console.log(`  ⚠ Page mentions "${city.name}" but not "${stateGuard}" — likely wrong country, skipping`);
+      continue;
+    }
+    return { places: [], fullText: candidate.text };
+  }
+
+  return { places: [], fullText: "" };
 }
 
 /**

@@ -1,5 +1,7 @@
 # The Infatuation: Birmingham, United States
 
+## City page (venue reviews)
+
 The Best Restaurants In Birmingham, Alabama
 Bottega
 ITALIAN

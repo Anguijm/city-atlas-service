@@ -1,222 +1,303 @@
 {
   "neighborhoods": [
     {
-      "id": "central-cannon-beach",
+      "id": "central-district",
       "city_id": "cannon-beach-or",
       "name": {
-        "en": "Central Cannon Beach"
+        "en": "Central District: Downtown & The Shoreline"
       },
       "summary": {
-        "en": "Experience the dramatic natural beauty of the Oregon coast where it meets a quaint, arts-focused village. The air is crisp with salt spray, and the colossal Haystack Rock serves as the undeniable focal point."
+        "en": "This district blends the wild, untamed beach with a quiet, arts-oriented village atmosphere. It's a serene coastal hub where the sound of the surf is never far away, encouraging visitors to slow down and browse."
       },
       "lat": 45.8918,
       "lng": -123.9616,
-      "trending_score": 95
+      "trending_score": 90
     }
   ],
   "waypoints": [
     {
-      "id": "central-cannon-beach-haystack-rock",
+      "id": "central-district-haystack-rock",
       "city_id": "cannon-beach-or",
-      "neighborhood_id": "central-cannon-beach",
+      "neighborhood_id": "central-district",
       "name": {
         "en": "Haystack Rock & The Needles"
       },
       "description": {
-        "en": "This 235-foot sea stack is a protected National Wildlife Refuge. At low tide, you can walk to its base to explore vibrant tide pools filled with sea stars and anemones."
+        "en": "A 235-foot sea stack and its smaller spires, offering access to vibrant tide pools at low tide. It is a protected National Wildlife Refuge, so tread carefully."
       },
-      "type": "landmark",
-      "lat": 45.8849,
-      "lng": -123.9676,
-      "trending_score": 98
+      "type": "nature",
+      "lat": 45.8845,
+      "lng": -123.968,
+      "trending_score": 100
     },
     {
-      "id": "central-cannon-beach-tolovana-beach",
+      "id": "central-district-crescent-beach",
       "city_id": "cannon-beach-or",
-      "neighborhood_id": "central-cannon-beach",
+      "neighborhood_id": "central-district",
+      "name": {
+        "en": "Crescent Beach"
+      },
+      "description": {
+        "en": "A secluded cove within Ecola State Park, shielded by two large headlands and accessible via a short hike, offering a quiet and intimate beach experience."
+      },
+      "type": "hidden_gem",
+      "lat": 45.9165,
+      "lng": -123.9725,
+      "trending_score": 85
+    },
+    {
+      "id": "central-district-tolovana-beach",
+      "city_id": "cannon-beach-or",
+      "neighborhood_id": "central-district",
       "name": {
         "en": "Tolovana Beach State Recreation Site"
       },
       "description": {
-        "en": "A quieter, local's access point to the beach, offering an expansive perspective of Haystack Rock and the coastline with fewer crowds."
-      },
-      "type": "nature",
-      "lat": 45.8759,
-      "lng": -123.9626,
-      "trending_score": 75
-    },
-    {
-      "id": "central-cannon-beach-haystack-hill-park",
-      "city_id": "cannon-beach-or",
-      "neighborhood_id": "central-cannon-beach",
-      "name": {
-        "en": "Haystack Hill State Park"
-      },
-      "description": {
-        "en": "A hidden-in-plain-sight gem offering a quiet, wooded refuge with trails winding through a coastal forest of Sitka spruce and western hemlock."
-      },
-      "type": "hidden_gem",
-      "lat": 45.8845,
-      "lng": -123.959,
-      "trending_score": 68
-    },
-    {
-      "id": "central-cannon-beach-les-shirley-park",
-      "city_id": "cannon-beach-or",
-      "neighborhood_id": "central-cannon-beach",
-      "name": {
-        "en": "Les Shirley Park"
-      },
-      "description": {
-        "en": "Located where Ecola Creek meets the Pacific, this park offers great birdwatching and dramatic views of the Tillamook Rock Lighthouse and northern headlands."
+        "en": "A relaxed, local-feeling access point at the southern end of Cannon Beach, providing a fantastic vantage point for viewing Haystack Rock with fewer crowds."
       },
       "type": "viewpoint",
-      "lat": 45.8975,
-      "lng": -123.9635,
-      "trending_score": 72
+      "lat": 45.875,
+      "lng": -123.963,
+      "trending_score": 75
     }
   ],
   "tasks": [
     {
-      "id": "central-cannon-beach-task-1",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-1",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Nature's Mirror"
+        "en": "Coastal Contemplation"
       },
       "prompt": {
-        "en": "Find a stretch of wet sand at low tide and capture a perfect, mirror-like reflection of the sky, a sea stack, or the coastal cliffs."
+        "en": "Find a quiet spot on the beach and take a photo of the waves rolling in. Try to capture the motion of the water."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-2",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-2",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Sculpted by the Sea"
+        "en": "Sand Patterns"
       },
       "prompt": {
-        "en": "Photograph the most interesting piece of driftwood you can find. Focus on its unique shape, texture, and how it has been weathered by the ocean."
+        "en": "Look down! Find an interesting pattern in the sand left by the tide and capture a close-up shot of it."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-3",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-3",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Human for Scale"
+        "en": "Hemlock Street Charm"
       },
       "prompt": {
-        "en": "Take a photo that emphasizes the immense scale of the Pacific coastline. Include a person or small object in the frame to show how vast the beach and sea stacks are."
+        "en": "Stroll down Hemlock Street and photograph a building or storefront that you find particularly charming or artistic."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-4",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-4",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Cedar & Salt"
+        "en": "Selfie with the Sea"
       },
       "prompt": {
-        "en": "Capture a detail of the town's cedar-shingled architecture. Look for interesting angles, textures, or how the wood contrasts with the coastal sky."
+        "en": "Take a selfie with the vast Pacific Ocean as your backdrop. Bonus points for wind-swept hair!"
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-5",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-5",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Tiny Ocean Worlds"
+        "en": "Shadow Play"
       },
       "prompt": {
-        "en": "Find a tide pool and take a close-up photo of the ecosystem within. Try to capture the color and life, like anemones, shells, or small crabs."
+        "en": "As the sun gets lower, find a long shadow cast by a person, a piece of driftwood, or a building and take a creative photo of it."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-6",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-6",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Forest Meets Sea"
+        "en": "Artistic Eye"
       },
       "prompt": {
-        "en": "Find a spot where the coastal forest comes close to the beach. Take a photo that captures the contrast between the lush green trees and the sandy shore."
+        "en": "Cannon Beach is known for its art galleries. Find a piece of public art or a gallery window display and take a photo of it."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-7",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-7",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Listen to the Surf"
+        "en": "Sky Watcher"
       },
       "prompt": {
-        "en": "Take a short video capturing the constant, powerful sound of the surf. Pan slowly across the horizon to show the waves rolling in."
+        "en": "Capture the color and texture of the Oregon sky. Is it cloudy, sunny, or misty?"
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-8",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-8",
+      "neighborhood_id": "central-district",
       "title": {
-        "en": "Coastal Contemplation Selfie"
+        "en": "Nature's Sculpture"
       },
       "prompt": {
-        "en": "Take a selfie on a contemplative walk along the beach. Your expression should capture the peaceful, dramatic mood of the Oregon coast."
+        "en": "Find a unique piece of driftwood on the beach and photograph it as if it were a modern sculpture."
       },
       "points": 10,
       "duration_minutes": 5
     },
     {
-      "id": "central-cannon-beach-task-9",
-      "neighborhood_id": "central-cannon-beach",
-      "title": {
-        "en": "Shadows and Stacks"
-      },
-      "prompt": {
-        "en": "During the golden hour (sunrise or sunset), capture a photo of the long shadows cast by the sea stacks or people on the beach."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "central-cannon-beach-task-10",
-      "neighborhood_id": "central-cannon-beach",
-      "title": {
-        "en": "Peek-a-Boo View"
-      },
-      "prompt": {
-        "en": "From the town's streets, find a view of the ocean or Haystack Rock framed by buildings, trees, or an alleyway."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "central-cannon-beach-task-11",
-      "neighborhood_id": "central-cannon-beach",
-      "title": {
-        "en": "Coastal Aviator"
-      },
-      "prompt": {
-        "en": "Photograph one of the many sea birds in the area. Try to capture it in flight, perched on a rock, or searching for food along the shoreline."
-      },
-      "points": 10,
-      "duration_minutes": 5
-    },
-    {
-      "id": "central-cannon-beach-task-12",
-      "neighborhood_id": "central-cannon-beach",
+      "id": "central-district-task-9",
+      "neighborhood_id": "central-district",
       "title": {
         "en": "Footprints in the Sand"
       },
       "prompt": {
-        "en": "Take an artistic photo of footprints in the sand leading towards the ocean or a landmark, telling a story of a walk just taken."
+        "en": "Take a photo of your own footprints leading towards the ocean, symbolizing your journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-10",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Seaside Snack Adventure"
+      },
+      "prompt": {
+        "en": "Find a local shop to buy a coastal snack and take a picture of you enjoying it with a beach view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-11",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Headland Horizon"
+      },
+      "prompt": {
+        "en": "Frame a shot that emphasizes the dramatic headlands that bookend the beach, creating a natural frame for the ocean."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-12",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Reflective Moment"
+      },
+      "prompt": {
+        "en": "After the tide goes out, find a patch of wet sand and capture the reflection of the sky or a sea stack in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-13",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Coastal Flora"
+      },
+      "prompt": {
+        "en": "Find some interesting coastal vegetation, like dune grass or shore pines, and take a detailed photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-14",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Village Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel captures the serene, arts-oriented vibe of the village center."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-15",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During sunrise or sunset, capture a photo of the warm, golden light hitting the beach or the town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-16",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "A Walker's Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from your point of view, showing your feet on the sand or the sidewalk, looking out at the scene ahead."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-17",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Feathered Friend"
+      },
+      "prompt": {
+        "en": "The coast is full of seabirds. Without disturbing them, try to get a photo of a seagull or other coastal bird."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-18",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on one of the shingled buildings along Hemlock Street and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-19",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "Tidelands Texture"
+      },
+      "prompt": {
+        "en": "At low tide, find a rock covered in barnacles or mussels and capture the rich texture of this tiny ecosystem."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "central-district-task-20",
+      "neighborhood_id": "central-district",
+      "title": {
+        "en": "The Sound of the Surf"
+      },
+      "prompt": {
+        "en": "Take a short video capturing the ambient sound of the waves crashing on the shore."
       },
       "points": 10,
       "duration_minutes": 5

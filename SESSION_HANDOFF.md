@@ -1,6 +1,6 @@
 # Session Handoff — city-atlas-service
 
-> Living document. Last refreshed 2026-04-28 at end-of-session. Edit in
+> Living document. Last refreshed 2026-05-01 (session 5/6 close). Edit in
 > place rather than appending date-stamped blocks — this is the "what would
 > you want to know on day one" index, not a changelog.
 >
@@ -13,13 +13,15 @@
 
 - **`main` HEAD:** `bc6d7a7` (PR #42 — Phase B prompt injection defense + golden-file tests)
 - **Last substantive code merge:** `bc6d7a7` (PR #42)
-- **Production state:** ~262 cities live in `urbanexplorer` Firestore (258 post-enrichment + 4 corridor cities: louisville, birmingham, wichita, amarillo). 8 cities still failing — see Known issues below. Birmingham and oxford-ms have wrong-city timeout scrapes (see #47).
-- **Open PRs:** none — PR queue cleared 2026-05-01 (session 5). PRs #40, #42, #43, #44, #45, #46 all merged.
+- **In-flight branch:** `fix/backfill-task-city-id-and-orphan-cleanup` — PR #49 open, awaiting council. Commits: `bb0fbb3` (backfill script), `52b614a` (session docs), `a8a4e6c` (timeout scraper fix), `2414370` (partial Atlas Obscura data). All Firestore writes already applied.
+- **Production state:** 257 legitimate cities in `urbanexplorer` Firestore. `vibe_tasks` now has `city_id` on 21,368/28,419 tasks; 7,051 orphaned tasks remain (--delete-orphans when ready). `birmingham-al` duplicate deleted; `birmingham` (Alabama) is authoritative. Wrong-country timeout scrapes removed for oxford-ms and birmingham.
+- **Open PRs:** #49 (`fix/backfill-task-city-id-and-orphan-cleanup` — awaiting council).
 - **Top-priority next actions, in order:**
-  1. **Fix oxford-ms and birmingham wrong-city scrapes (#47)** — `data/timeout/oxford-ms.md` is Oxford UK; `data/timeout/birmingham.md` is Birmingham UK. Delete both, re-scrape using clinicalName ("Oxford, Mississippi" / "Birmingham, Alabama"), re-run research. This also addresses #47's systematic fix ask.
-  2. **Supplemental scraping for 24 failed cities** — see BACKLOG.md "Now" section for the full list.
-  3. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
-  4. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
+  1. **Merge PR #49** — council review first. Contains: backfill script, timeout scraper disambiguation fix, global_city_cache cleanup.
+  2. **Supplemental scraping for 24 failed cities** — run Atlas Obscura + Reddit scrapers targeting these cities specifically, then re-run batch_research. See BACKLOG.md for full city list. NOTE: atlas-obscura.ts only has `--city` (singular); run a loop or add `--cities` support.
+  3. **Re-run research for oxford-ms and birmingham** — wrong-country timeout files removed; now need Reddit + Atlas Obscura data then re-research.
+  4. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
+  5. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
 - **Blockers:** none.
 - **Doctrine reminders:**
   - **All changes to main MUST go through PRs.** Direct push fails branch-guard post-hoc.
@@ -175,6 +177,20 @@ npx tsx src/scrapers/reddit.ts --cities "city1,city2" --interval 2000
 5. **London manifest mystery** — in `configs/global_city_cache.json` but absent from `manifest.cities`. Carryover.
 6. **CI `city-cache-validate` scope** — the validator in CI only checks `global_city_cache.json`. It does not validate scraped data files or research output JSON.
 7. **enrich_ingest.ts undefined field bug (fixed PR #44)** — Gemini occasionally emits `undefined` for optional numeric fields (e.g. `trending_score`). Fix: `stripUndefined()` + Zod required-field validation before every Firestore write.
+
+## Session 2026-05-01 (session 5/6) summary
+
+**PRs merged:** #40, #42, #43, #44, #45, #46 — entire PR queue cleared (earlier in session). **PR #49** opened (fix/backfill-task-city-id-and-orphan-cleanup), awaiting council.
+
+**Firestore audit:** confirmed 260 cities in DB (257 legitimate + 3 orphan stubs), debunked assumption that big cities were never researched. Ran full vibe_waypoints/vibe_tasks counts (12,123 wps, 28,419 tasks, 1,780 neighborhoods).
+
+**city_id backfill:** Wrote and ran `src/pipeline/backfill_task_city_id.py` — backfilled city_id onto 21,368 vibe_tasks docs via two-pass neighborhood lookup (flat vibe_neighborhoods → collection_group fallback). 7,051 orphaned tasks left in place.
+
+**Firestore cleanup:** Deleted 3 orphan city docs (bellevue, bellevue-wa-usa, new-york) + birmingham-al duplicate (154 docs). Removed birmingham-al from global_city_cache.json (288 entries).
+
+**Timeout scraper fix (commit `a8a4e6c`):** `scrapeTimeOut` now tries city.id slug first + state guard for disambiguated US cities. Prevents wrong-country scrapes (Oxford UK for oxford-ms, Birmingham UK for birmingham).
+
+**Supplemental scraping:** Atlas Obscura and Reddit scrapers launched for 24 failed cities. Interrupted before reaching the small-town targets. 8 major US cities got Atlas Obscura data (commit `2414370`). 24 failed cities still need targeted scraping.
 
 ## Session 2026-05-01 (session 4) summary
 

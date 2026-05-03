@@ -1,56 +1,223 @@
 {
-  "started": "2026-04-29T22:22:42.237194+00:00",
+  "started": "2026-05-01T22:43:22.252643+00:00",
   "tiers": null,
   "interval_s": 60,
   "cities": [
     {
-      "id": "amarillo",
+      "id": "birmingham-al",
       "status": "completed",
-      "started_at": "2026-04-29T22:23:21.583739+00:00",
-      "duration_s": 117,
+      "started_at": "2026-05-01T22:43:34.238347+00:00",
+      "duration_s": 239,
+      "neighborhoods": 6,
+      "waypoints": 29,
+      "tasks": 90
+    },
+    {
+      "id": "bisbee-az",
+      "status": "completed",
+      "started_at": "2026-05-01T22:52:52.088308+00:00",
+      "duration_s": 126,
+      "neighborhoods": 3,
+      "waypoints": 9,
+      "tasks": 36
+    },
+    {
+      "id": "black-mountain-nc",
+      "status": "failed",
+      "started_at": "2026-05-01T23:00:42.099450+00:00",
+      "error": "Exit code 1",
+      "duration_s": 69
+    },
+    {
+      "id": "boone-nc",
+      "status": "completed",
+      "started_at": "2026-05-01T23:07:39.281326+00:00",
+      "duration_s": 133,
+      "neighborhoods": 3,
+      "waypoints": 10,
+      "tasks": 36
+    },
+    {
+      "id": "camden-me",
+      "status": "failed",
+      "started_at": "2026-05-01T23:12:20.105658+00:00",
+      "error": "Exit code 1",
+      "duration_s": 37
+    },
+    {
+      "id": "cannon-beach-or",
+      "status": "failed",
+      "started_at": "2026-05-01T23:16:08.105342+00:00",
+      "error": "Exit code 1",
+      "duration_s": 82
+    },
+    {
+      "id": "cape-may-nj",
+      "status": "completed",
+      "started_at": "2026-05-01T23:20:44.616419+00:00",
+      "duration_s": 157,
+      "neighborhoods": 3,
+      "waypoints": 26,
+      "tasks": 36
+    },
+    {
+      "id": "charlottesville-va",
+      "status": "completed",
+      "started_at": "2026-05-01T23:25:10.434576+00:00",
+      "duration_s": 158,
+      "neighborhoods": 3,
+      "waypoints": 24,
+      "tasks": 36
+    },
+    {
+      "id": "clarksdale-ms",
+      "status": "completed",
+      "started_at": "2026-05-01T23:30:23.398835+00:00",
+      "duration_s": 112,
+      "neighborhoods": 3,
+      "waypoints": 6,
+      "tasks": 36
+    },
+    {
+      "id": "cooperstown-ny",
+      "status": "completed",
+      "started_at": "2026-05-01T23:34:06.416421+00:00",
+      "duration_s": 108,
+      "neighborhoods": 1,
+      "waypoints": 10,
+      "tasks": 18
+    },
+    {
+      "id": "deadwood-sd",
+      "status": "completed",
+      "started_at": "2026-05-01T23:37:54.869484+00:00",
+      "duration_s": 105,
+      "neighborhoods": 1,
+      "waypoints": 12,
+      "tasks": 20
+    },
+    {
+      "id": "galena-il",
+      "status": "failed",
+      "started_at": "2026-05-01T23:41:36.992161+00:00",
+      "error": "Exit code 1",
+      "duration_s": 78
+    },
+    {
+      "id": "gettysburg-pa",
+      "status": "completed",
+      "started_at": "2026-05-01T23:46:03.740424+00:00",
+      "duration_s": 152,
+      "neighborhoods": 3,
+      "waypoints": 12,
+      "tasks": 36
+    },
+    {
+      "id": "jerome-az",
+      "status": "completed",
+      "started_at": "2026-05-01T23:51:05.842341+00:00",
+      "duration_s": 104,
       "neighborhoods": 3,
       "waypoints": 5,
       "tasks": 36
     },
     {
-      "id": "birmingham",
-      "status": "completed",
-      "started_at": "2026-04-29T22:25:38.756259+00:00",
-      "duration_s": 191,
-      "neighborhoods": 6,
-      "waypoints": 27,
-      "tasks": 90
+      "id": "lambertville-nj",
+      "status": "failed",
+      "started_at": "2026-05-02T00:00:03.595152+00:00",
+      "error": "Exit code 1",
+      "duration_s": 87
     },
     {
-      "id": "little-rock",
+      "id": "lenox-ma",
+      "status": "failed",
+      "started_at": "2026-05-02T00:08:44.305546+00:00",
+      "error": "Exit code 1",
+      "duration_s": 30
+    },
+    {
+      "id": "natchez-ms",
       "status": "completed",
-      "started_at": "2026-04-29T22:29:20.165029+00:00",
-      "duration_s": 170,
+      "started_at": "2026-05-02T00:16:05.588192+00:00",
+      "duration_s": 164,
       "neighborhoods": 3,
-      "waypoints": 25,
+      "waypoints": 24,
       "tasks": 36
     },
     {
-      "id": "louisville",
-      "status": "completed",
-      "started_at": "2026-04-29T22:32:42.392258+00:00",
-      "duration_s": 240,
-      "neighborhoods": 6,
-      "waypoints": 26,
-      "tasks": 90
+      "id": "ouray-co",
+      "status": "failed",
+      "started_at": "2026-05-02T00:25:41.000184+00:00",
+      "error": "Exit code 1",
+      "duration_s": 75
     },
     {
-      "id": "wichita",
+      "id": "oxford-ms",
       "status": "completed",
-      "started_at": "2026-04-29T22:37:16.146297+00:00",
-      "duration_s": 119,
+      "started_at": "2026-05-02T00:33:01.058062+00:00",
+      "duration_s": 166,
       "neighborhoods": 3,
-      "waypoints": 8,
+      "waypoints": 14,
       "tasks": 36
+    },
+    {
+      "id": "princeton-nj",
+      "status": "completed",
+      "started_at": "2026-05-02T00:42:38.248518+00:00",
+      "duration_s": 144,
+      "neighborhoods": 3,
+      "waypoints": 11,
+      "tasks": 36
+    },
+    {
+      "id": "stowe-vt",
+      "status": "failed",
+      "started_at": "2026-05-02T00:46:53.845960+00:00",
+      "error": "Exit code 1",
+      "duration_s": 80
+    },
+    {
+      "id": "telluride-co",
+      "status": "failed",
+      "started_at": "2026-05-02T00:52:08.828800+00:00",
+      "error": "Exit code 1",
+      "duration_s": 33
+    },
+    {
+      "id": "terlingua-tx",
+      "status": "failed",
+      "started_at": "2026-05-02T00:57:18.688978+00:00",
+      "error": "Exit code 1",
+      "duration_s": 87
+    },
+    {
+      "id": "truth-or-consequences-nm",
+      "status": "failed",
+      "started_at": "2026-05-02T01:02:04.800255+00:00",
+      "error": "Exit code 1",
+      "duration_s": 103
+    },
+    {
+      "id": "williamsburg-va",
+      "status": "completed",
+      "started_at": "2026-05-02T01:04:51.834925+00:00",
+      "duration_s": 167,
+      "neighborhoods": 3,
+      "waypoints": 13,
+      "tasks": 36
+    },
+    {
+      "id": "wilmington-nc",
+      "status": "completed",
+      "started_at": "2026-05-02T01:13:43.668447+00:00",
+      "duration_s": 152,
+      "neighborhoods": 4,
+      "waypoints": 10,
+      "tasks": 60
     }
   ],
-  "completed": 5,
-  "failed": 0,
+  "completed": 15,
+  "failed": 11,
   "pending": 0,
   "skipped": 0
 }

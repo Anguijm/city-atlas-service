@@ -13,7 +13,8 @@ function createAdminDb() {
         });
       } else {
         // Application Default Credentials (Cloud Run, local dev with gcloud auth)
-        initializeApp();
+        // projectId must be explicit — ADC alone doesn't set it in all environments.
+        initializeApp({ projectId: process.env.GOOGLE_CLOUD_PROJECT || 'urban-explorer-483600' });
       }
     }
 
