@@ -70,6 +70,19 @@ The council's `maintainability` persona evaluates comment quality as a scored ax
 - **`data/{source}/`** — scraped markdown. Git-tracked so the pipeline is deterministic.
 - **`.harness/`** — council personas, scripts, hooks, evidence cache. See `.harness/README.md` for local protocol.
 
+## TypeScript configuration
+
+`tsconfig.json` uses `module: ESNext` and `moduleResolution: Bundler`. These were migrated from CommonJS in PR #26 (commit `db99f22`) to fix two pre-existing CI failures:
+
+- **TS1378** — top-level `await` in pipeline scripts requires a module system that supports it; CommonJS does not. ESNext does.
+- **TS1324** — dynamic `import()` assertions require ESNext module mode.
+
+`moduleResolution: Bundler` is the correct companion to `ESNext` when the runtime is `tsx` (which handles module resolution itself, not Node's native resolver). Using `Node16` or `NodeNext` with ESNext module output causes false-positive import errors on packages that ship dual ESM/CJS builds.
+
+`lib: ["ES2022", "DOM", "DOM.Iterable"]` — `DOM.Iterable` is needed for `for-of` on DOM collections in scraper code (Playwright iterables). Without it tsc reports TS2488.
+
+**Do not revert to CommonJS** without also auditing all top-level `await` call sites and dynamic imports across `src/pipeline/` and `src/scrapers/`. `tsc --noEmit` must stay clean.
+
 ## Firestore discipline
 
 **Before any manual pipeline run that writes to production Firestore** (`research_city.py --ingest`, `enrich_ingest.ts`, `build_cache.ts`, etc.) verify that `.github/workflows/branch-guard.yml` is **green on the HEAD commit of `main`** that you're running from. This closes the manual-run loophole the auto-deploy guard doesn't cover: if someone direct-pushed an unreviewed change to `main` and the guard failed post-hoc, running the pipeline from that HEAD propagates the unreviewed code to production data. Quick check:
