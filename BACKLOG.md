@@ -4,13 +4,11 @@
 > For long-form session learnings see `.harness/learnings.md`.
 > For start-here-next-session block see `SESSION_HANDOFF.md`.
 >
-> Last refreshed: 2026-05-01 (session 5/6 close).
+> Last refreshed: 2026-05-07 (session 7 close).
 
 ## Now (this week)
 
-- **Merge PR #49** (`fix/backfill-task-city-id-and-orphan-cleanup`) — awaiting council. Contains: vibe_tasks city_id backfill script, timeout scraper disambiguation fix, global_city_cache.json cleanup. All Firestore writes already applied.
-- **Supplemental scraping for 24 failed cities + re-research.** atlas-obscura.ts has no `--cities` flag — run per-city loop or add the flag. Failed cities: bisbee-az, black-mountain-nc, boone-nc, camden-me, cannon-beach-or, cape-may-nj, charlottesville-va, clarksdale-ms, cooperstown-ny, deadwood-sd, galena-il, gettysburg-pa, jerome-az, lambertville-nj, lenox-ma, natchez-ms, ouray-co, princeton-nj, stowe-vt, telluride-co, terlingua-tx, truth-or-consequences-nm, williamsburg-va, wilmington-nc. After scraping: `batch_research.py --cities <list> --ingest --mode gemini`.
-- **Re-run research for oxford-ms and birmingham** — wrong-country timeout files removed (commit `a8a4e6c`); needs Reddit + Atlas Obscura pass first, then re-research. ([#47](https://github.com/Anguijm/city-atlas-service/issues/47))
+- **11 permanently-thin US tier3 cities — need new data sources.** Current sources (Atlas Obscura + Wikipedia) produce too few POIs for these outdoor/rural destinations to pass Phase C reliably. Cities: `black-mountain-nc`, `camden-me`, `cannon-beach-or`, `crested-butte-co`, `kahului`, `lambertville-nj`, `lenox-ma`, `moab-ut`, `ouray-co`, `stowe-vt`, `telluride-co`. Unblocked by: TripAdvisor scraper, AllTrails integration, local tourism board scraping, or manual POI entry via #14. Not blocking — 277/288 cities live.
 - **Issue #21 — automate branch-guard preflight inside pipeline entry points.** ([#21](https://github.com/Anguijm/city-atlas-service/issues/21))
 - **Issue #8 — sanitize city-ID arguments in `batch_research.py` subprocess calls.** One-line allow-list (`^[a-z0-9-]+$`). ([#8](https://github.com/Anguijm/city-atlas-service/issues/8))
 
@@ -59,7 +57,7 @@
 
 ## In flight (branches not yet merged)
 
-- **fix/backfill-task-city-id-and-orphan-cleanup** — PR #49 open, awaiting council. Firestore writes already live. Contains: backfill script, timeout scraper fix, cache cleanup, partial Atlas Obscura data (8 major US cities).
+_(none)_
 
 ## Recently closed
 
