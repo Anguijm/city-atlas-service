@@ -24,6 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from phase_c_threshold import apply_proportional_fail_threshold
+from pipeline_utils import CITY_ID_RE, check_branch_guard
 
 
 # Gating keywords: phase_c_validate only runs name extraction + deletion on
@@ -1403,38 +1404,6 @@ Data sample:
     print(f"  Quality: {quality_status}")
 
 
-def check_branch_guard() -> None:
-    """Abort if main's last branch-guard run is not green.
-
-    Prevents writing to Firestore from a main commit that bypassed PR review.
-    Fails open (warn + proceed) when gh is unavailable — don't block environments
-    without the gh CLI (CI containers, fresh workstations).
-    """
-    try:
-        result = subprocess.run(
-            ["gh", "run", "list", "--workflow", "branch-guard.yml",
-             "--branch", "main", "--limit", "1",
-             "--json", "conclusion", "--jq", ".[0].conclusion"],
-            capture_output=True, text=True, timeout=15,
-        )
-        conclusion = result.stdout.strip()
-    except (subprocess.TimeoutExpired, FileNotFoundError):
-        print("⚠ WARNING: Could not verify branch-guard (gh unavailable or timed out). Proceeding.")
-        return
-
-    if conclusion == "success":
-        return
-    if not conclusion:
-        print("⚠ WARNING: No branch-guard runs found on main. Proceeding.")
-        return
-
-    print(f"ERROR: branch-guard.yml last run on main is '{conclusion}', not 'success'.")
-    print("  A direct push to main may have bypassed PR review.")
-    print("  Check: https://github.com/Anguijm/city-atlas-service/actions/workflows/branch-guard.yml")
-    print("  Re-run the workflow on main, or resolve the offending commit before writing to Firestore.")
-    sys.exit(1)
-
-
 def phase_d_ingest(city: dict, enrich: bool = False):
     """Phase D: Ingest JSON into Firestore.
 
@@ -1489,7 +1458,7 @@ async def main():
     args = parser.parse_args()
 
     # Validate city ID before any file or subprocess use (prevents path traversal).
-    if not re.match(r"^[a-z0-9-]+$", args.city):
+    if not CITY_ID_RE.match(args.city):
         print(f"ERROR: Invalid city ID '{args.city}'. Must match [a-z0-9-]+ (e.g. 'kyoto', 'new-york-city')")
         sys.exit(1)
 

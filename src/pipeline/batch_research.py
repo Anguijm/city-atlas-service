@@ -22,8 +22,6 @@ Usage:
 import argparse
 import json
 import os
-import re
-import subprocess
 import sys
 import time
 
@@ -31,6 +29,8 @@ import time
 sys.stdout.reconfigure(line_buffering=True)
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+
+from pipeline_utils import CITY_ID_RE, check_branch_guard
 
 # Paths — file is at src/pipeline/batch_research.py, repo root is two levels up
 PROJECT_ROOT = Path(__file__).parent.parent.parent
@@ -45,42 +45,6 @@ MAX_CONSECUTIVE_FAILURES = 10
 # Estimated costs (NotebookLM research is free via Google account auth;
 # Gemini Flash structuring is ~$0.03/city; Firestore writes negligible)
 EST_GEMINI_COST_PER_CITY = 0.03  # USD
-
-# City IDs are lowercase alphanumeric + hyphens (e.g. "new-york-city", "birmingham-al").
-# Validated before subprocess calls to prevent path traversal via crafted city IDs.
-CITY_ID_RE = re.compile(r"^[a-z0-9-]+$")
-
-
-def check_branch_guard() -> None:
-    """Abort if main's last branch-guard run is not green.
-
-    Prevents writing to Firestore from a main commit that bypassed PR review.
-    Fails open (warn + proceed) when gh is unavailable — don't block environments
-    without the gh CLI (CI containers, fresh workstations).
-    """
-    try:
-        result = subprocess.run(
-            ["gh", "run", "list", "--workflow", "branch-guard.yml",
-             "--branch", "main", "--limit", "1",
-             "--json", "conclusion", "--jq", ".[0].conclusion"],
-            capture_output=True, text=True, timeout=15,
-        )
-        conclusion = result.stdout.strip()
-    except (subprocess.TimeoutExpired, FileNotFoundError):
-        print("⚠ WARNING: Could not verify branch-guard (gh unavailable or timed out). Proceeding.")
-        return
-
-    if conclusion == "success":
-        return
-    if not conclusion:
-        print("⚠ WARNING: No branch-guard runs found on main. Proceeding.")
-        return
-
-    print(f"ERROR: branch-guard.yml last run on main is '{conclusion}', not 'success'.")
-    print("  A direct push to main may have bypassed PR review.")
-    print("  Check: https://github.com/Anguijm/city-atlas-service/actions/workflows/branch-guard.yml")
-    print("  Re-run the workflow on main, or resolve the offending commit before writing to Firestore.")
-    sys.exit(1)
 
 
 def load_cities(tiers: list[str] | None = None, city_ids: list[str] | None = None) -> list[dict]:
