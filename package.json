@@ -30,9 +30,10 @@
     "typescript": "5.9.3",
     "vitest": "4.1.5"
   },
+  "_overridesNote": "Exact-version pins to resolve transitive vulnerabilities that cannot be fixed via a direct dependency upgrade without a breaking firebase-admin downgrade (v13→v10). Pinned 2026-05-10. Re-evaluate when firebase-admin bumps its own @google-cloud/* deps. Refs: GHSA-vpq2-c234-7xj6 (@tootallnate/once), GHSA-5wm8-gmm8-39j9 + GHSA-45c6-75p6-83cc (fast-xml-builder), GHSA-w5hq-g745-h8pq (uuid). Issue #55.",
   "overrides": {
-    "@tootallnate/once": ">=3.0.1",
-    "fast-xml-builder": ">=1.2.0",
-    "uuid": ">=11.1.1"
+    "@tootallnate/once": "3.0.1",
+    "fast-xml-builder": "1.2.0",
+    "uuid": "11.1.1"
   }
 }
