@@ -18,17 +18,14 @@ CITY_ID_RE = re.compile(r"^[a-z0-9-]+$")
 def check_branch_guard() -> None:
     """Abort if main's last branch-guard run is not green.
 
-    Prevents writing to Firestore from a main commit that bypassed PR review.
-    Fails open (warn + proceed) in three non-fatal cases:
-      - gh CLI unavailable (FileNotFoundError)
-      - gh timed out (TimeoutExpired)
-      - gh exited non-zero (auth failure, rate limit, etc.) — CalledProcessError
-        would not be raised because we use check=False, but returncode is checked
-      - no runs found (empty stdout with returncode 0)
+    Fails CLOSED on any outcome that is not a definitive "success" verdict.
+    This includes infrastructure failures (gh unavailable, timeout, non-zero
+    exit) as well as actual branch-guard violations. The rationale: the blast
+    radius of writing unreviewed code to Firestore is the entire production
+    dataset; an operator who needs to bypass can temporarily remove the
+    check_branch_guard() call site rather than silently proceeding.
 
-    Hard-fails when conclusion is a known non-success string ("failure",
-    "cancelled", "skipped", etc.) — that indicates an actual branch-guard
-    violation on main, not an infrastructure hiccup.
+    Only way to pass: gh returns returncode=0 and stdout=="success".
     """
     try:
         result = subprocess.run(
@@ -45,28 +42,39 @@ def check_branch_guard() -> None:
             timeout=15,
             check=False,  # we inspect returncode ourselves
         )
-    except (subprocess.TimeoutExpired, FileNotFoundError):
-        print("⚠ WARNING: Could not verify branch-guard (gh unavailable or timed out). Proceeding.")
-        return
+    except subprocess.TimeoutExpired:
+        print("ERROR: branch-guard check timed out (gh took >15s). Cannot verify source integrity.")
+        print("  Fix: ensure the gh CLI can reach github.com, then re-run.")
+        sys.exit(1)
+    except FileNotFoundError:
+        print("ERROR: gh CLI not found. Cannot verify branch-guard on main.")
+        print("  Fix: install the GitHub CLI (https://cli.github.com/) and authenticate.")
+        sys.exit(1)
 
-    # gh exited non-zero: auth error, rate limit, network issue, etc.
-    # Fail open rather than blocking all pipeline runs when gh is misconfigured.
+    # gh exited non-zero: auth expired, rate limit, API error, etc.
+    # Any inability to get a definitive answer must block the pipeline — the
+    # blast radius of writing unreviewed code to Firestore is too high.
     if result.returncode != 0:
         stderr = result.stderr.strip()
-        detail = f": {stderr}" if stderr else ""
-        print(f"⚠ WARNING: gh exited {result.returncode}{detail}. Could not verify branch-guard. Proceeding.")
-        return
+        detail = f"\n  Details: {stderr}" if stderr else ""
+        print(f"ERROR: gh exited {result.returncode} querying branch-guard status.{detail}")
+        print("  Fix: run 'gh auth status' and 're-authenticate if needed, then re-run.")
+        sys.exit(1)
 
     conclusion = result.stdout.strip()
 
     if conclusion == "success":
         return
-    if not conclusion:
-        # No runs exist yet for this workflow on main (new repo or first push).
-        print("⚠ WARNING: No branch-guard runs found on main. Proceeding.")
-        return
 
-    # Known non-success conclusion: an actual branch-guard violation.
+    if not conclusion:
+        # No runs found — could be a new repo, or branch-guard was never triggered.
+        # Fail closed: we cannot confirm the last commit was reviewed.
+        print("ERROR: No branch-guard runs found on main. Cannot confirm source integrity.")
+        print("  Fix: push a commit to main via a merged PR to trigger branch-guard, then re-run.")
+        sys.exit(1)
+
+    # Known non-success conclusion ("failure", "cancelled", "skipped", etc.):
+    # an actual branch-guard violation.
     print(f"ERROR: branch-guard.yml last run on main is '{conclusion}', not 'success'.")
     print("  A direct push to main may have bypassed PR review.")
     print("  Check: https://github.com/Anguijm/city-atlas-service/actions/workflows/branch-guard.yml")

@@ -43,7 +43,7 @@ class TestCityIdRe:
 
 
 # ---------------------------------------------------------------------------
-# check_branch_guard
+# check_branch_guard — fail-closed: only "success" passes
 # ---------------------------------------------------------------------------
 
 def _make_run_result(returncode: int, stdout: str, stderr: str = "") -> MagicMock:
@@ -69,45 +69,53 @@ class TestCheckBranchGuard:
 
     def test_cancelled_conclusion_exits(self):
         with patch("pipeline_utils.subprocess.run", return_value=_make_run_result(0, "cancelled\n")):
+            with pytest.raises(SystemExit) as exc_info:
+                check_branch_guard()
+        assert exc_info.value.code == 1
+
+    def test_empty_stdout_exits(self):
+        """No runs found → fail closed."""
+        with patch("pipeline_utils.subprocess.run", return_value=_make_run_result(0, "")):
+            with pytest.raises(SystemExit) as exc_info:
+                check_branch_guard()
+        assert exc_info.value.code == 1
+
+    def test_empty_stdout_error_message(self, capsys):
+        """No runs found → informative error message."""
+        with patch("pipeline_utils.subprocess.run", return_value=_make_run_result(0, "")):
             with pytest.raises(SystemExit):
                 check_branch_guard()
-
-    def test_empty_stdout_warns_and_proceeds(self, capsys):
-        """No runs found → warn, don't exit."""
-        with patch("pipeline_utils.subprocess.run", return_value=_make_run_result(0, "")):
-            check_branch_guard()
         out = capsys.readouterr().out
-        assert "WARNING" in out
+        assert "ERROR" in out
         assert "No branch-guard runs" in out
 
-    def test_nonzero_returncode_warns_and_proceeds(self, capsys):
-        """gh exits non-zero (auth error, rate limit) → warn, don't exit."""
+    def test_nonzero_returncode_exits(self):
+        """gh exits non-zero (auth error, rate limit) → fail closed."""
         with patch("pipeline_utils.subprocess.run",
                    return_value=_make_run_result(1, "", "authentication required")):
-            check_branch_guard()
-        out = capsys.readouterr().out
-        assert "WARNING" in out
-        assert "gh exited 1" in out
-
-    def test_timeout_warns_and_proceeds(self, capsys):
-        """gh times out → warn, don't exit."""
-        with patch("pipeline_utils.subprocess.run", side_effect=subprocess.TimeoutExpired("gh", 15)):
-            check_branch_guard()
-        out = capsys.readouterr().out
-        assert "WARNING" in out
-        assert "timed out" in out
-
-    def test_file_not_found_warns_and_proceeds(self, capsys):
-        """gh not installed → warn, don't exit."""
-        with patch("pipeline_utils.subprocess.run", side_effect=FileNotFoundError):
-            check_branch_guard()
-        out = capsys.readouterr().out
-        assert "WARNING" in out
+            with pytest.raises(SystemExit) as exc_info:
+                check_branch_guard()
+        assert exc_info.value.code == 1
 
     def test_nonzero_returncode_includes_stderr(self, capsys):
-        """Error message from gh is surfaced in the warning."""
+        """Error message from gh is surfaced in the error output."""
         with patch("pipeline_utils.subprocess.run",
                    return_value=_make_run_result(1, "", "HTTP 403 Forbidden")):
-            check_branch_guard()
+            with pytest.raises(SystemExit):
+                check_branch_guard()
         out = capsys.readouterr().out
         assert "HTTP 403 Forbidden" in out
+
+    def test_timeout_exits(self):
+        """gh times out → fail closed."""
+        with patch("pipeline_utils.subprocess.run", side_effect=subprocess.TimeoutExpired("gh", 15)):
+            with pytest.raises(SystemExit) as exc_info:
+                check_branch_guard()
+        assert exc_info.value.code == 1
+
+    def test_file_not_found_exits(self):
+        """gh not installed → fail closed."""
+        with patch("pipeline_utils.subprocess.run", side_effect=FileNotFoundError):
+            with pytest.raises(SystemExit) as exc_info:
+                check_branch_guard()
+        assert exc_info.value.code == 1

@@ -42,8 +42,10 @@ MANIFEST_PATH = OUTPUT_DIR / "batch-manifest.json"
 DEFAULT_INTERVAL_SECONDS = 60
 MAX_CONSECUTIVE_FAILURES = 10
 
-# Estimated costs (NotebookLM research is free via Google account auth;
-# Gemini Flash structuring is ~$0.03/city; Firestore writes negligible)
+# Used for the pre-run cost estimate printed before a batch to help
+# the operator catch accidental large-scale runs. Re-evaluate after
+# significant changes to Gemini model or prompt token counts.
+# (NotebookLM research is free via Google account auth; Firestore writes negligible.)
 EST_GEMINI_COST_PER_CITY = 0.03  # USD
 
 
