@@ -1085,3 +1085,51 @@ Enrichment sweep: 101/119 thin/low cities enriched, ~1800 new waypoints, ~4600 t
 - **Branch `fix/backfill-task-city-id-and-orphan-cleanup`** has 2 new commits: `26cef79` (Firebase projectId fix), `43ea383` (26-city batch data). NOT YET PUSHED — GitHub HTTPS/SSH both unreachable at session close (network outage).
 - **birmingham renamed to birmingham-al** everywhere: Firestore (rename_city_id.py), data files, global_city_cache.json. RESOLVED 2026-05-03 (commit 9567f07): 10 stale `birmingham-*` neighborhood docs + 49 vibe_waypoints/vibe_tasks docs deleted. birmingham-al now has exactly 6 correct `birmingham-al-*` neighborhoods.
 - 11 Phase C failures remain unresolvable without new data sources.
+
+---
+
+## 2026-05-10/11 — Session 8: PR #33 close + npm audit fix + pipeline_utils refactor
+
+### KEEP
+
+- **`_overridesNote` top-level key is the right way to document npm overrides.** npm validates all keys inside `"overrides"` as package names — `"//"` and `"_comment"` both fail with "Override without name". The pattern: add a sibling top-level field (`"_overridesNote"`) that npm ignores. Include GHSA advisory refs, the reason a direct upgrade isn't possible, and when to re-evaluate.
+
+- **Don't pin uuid override across all packages to fix a single dep's 11.x requirement.** `@google-cloud/firestore` pulls in `uuid@11.x`; other packages in the same tree (`google-gax`, `gaxios`, `teeny-request`) legitimately use `uuid@^9` or `^8`. A top-level override forces them all to 11.x, marking them "invalid" in `npm ls`. The right scoping: override only at the dependency that needs it, or accept that moderate severity doesn't need to be fixed for `--audit-level=high` CI.
+
+- **`git stash push` without `-u` does NOT include untracked files.** New files created during work stay in the working tree after stash, even though they look like they were stashed. Use `git stash push -u` or track the files with `git add` before stashing. Symptom: after stash + checkout + stash pop, the "new" files are still present as untracked on the wrong branch.
+
+- **Extracting shared modules from duplicated code works cleanly with `pytest` co-located alongside the pipeline scripts.** `test_pipeline_utils.py` lives in `src/pipeline/` alongside `pipeline_utils.py`. Run with `python3.12 -m pytest src/pipeline/test_pipeline_utils.py -v` from repo root.
+
+### IMPROVE
+
+- **Don't create a branch from a feature branch.** PR #52 was accidentally based on `fix/city-id-validation-and-branch-guard-preflight` instead of `main` → the diff included all of PR #51's already-merged Python code. Council reviewed the wrong scope and gave 🟡 CONDITIONAL. Fix: always `git checkout main && git pull origin main && git checkout -b new-branch` before starting any new PR work. Verify with `git log --oneline main..HEAD` before opening a PR.
+
+- **Check `git log main..HEAD` before pushing a PR.** Would have caught the wrong-base problem on PR #52 before opening it. One-liner worth running every time.
+
+### INSIGHT
+
+- **`check_branch_guard` should be fail-closed, full stop.** The original implementation and the first refactor both failed open on infrastructure errors (gh timeout, FileNotFoundError, non-zero returncode). The council correctly pushed back: any inability to get a definitive "success" verdict means we can't confirm the code is reviewed. The blast radius is the entire production dataset. Fail-closed is the only defensible posture for a pipeline with direct Firestore write access.
+
+- **Council R2 on the fail-open behavior was legitimate, not drift.** The council identified a genuine data-integrity regression that the submitter introduced (not a re-raise of a prior-round OOS item). Round-2 genuinely new findings = address them, don't override.
+
+- **npm `overrides` semantics differ from yarn `resolutions`.** npm enforces that all keys in `"overrides"` are package names. It will NOT silently ignore comment-like keys — it errors out. This is by design (security). Plan ahead: documentation for overrides lives in `_overridesNote` at package.json top level, or in a commit message.
+
+### COUNCIL
+
+- **PR #53 (CLAUDE.md tsconfig docs):** 🟢 CLEAR R1. 10/10 all non-security axes; security 3/10 on pre-existing #7/#8/#9 (OOS). Doc-only diff → fast clear expected.
+- **PR #56 (npm audit):** R1 🔴 BLOCK (floating `>=` versions + no docs). R2 🔴 BLOCK (uuid `11.1.1` flagged as breaking `^8`/`^9` packages; removed). R3 queued.
+- **PR #57 (pipeline_utils):** R1 🔴 BLOCK (fail-open → fail-closed required). R2 🟡 CONDITIONAL (3 comment additions for `timeout=15`, `DEFAULT_INTERVAL_SECONDS`, `MAX_CONSECUTIVE_FAILURES`). R3 queued.
+
+### Production state at session close
+
+- `main`: `e069e1d` (PR #53, doc-only).
+- **277/288 cities live in `urbanexplorer` Firestore.** No pipeline runs this session.
+- Open PRs: **#56** (npm audit, council R3 queued), **#57** (pipeline_utils, council R3 queued).
+- Open issues: #5, #6, #7, #9, #12, #14, #17, #32, #35, #41, #47, #50, #54, #55.
+- CI: validate fails on npm audit (HIGH vulns, pre-PR #56 state) + 4 Vitest tests (fixture stale). tsc clean. branch-guard ✅.
+
+### Carryover for next session
+
+1. **Check council R3 on PR #56 and #57** — address remediations or admin-override if OOS drift.
+2. **Issue #6 — tier-aware Phase C deletion floor** (next in the backlog queue).
+3. **Issue #12 — CI smoke-test on entry-point scripts**.

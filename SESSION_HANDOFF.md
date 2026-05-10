@@ -1,6 +1,6 @@
 # Session Handoff — city-atlas-service
 
-> Living document. Last refreshed 2026-05-01 (session 5/6 close). Edit in
+> Living document. Last refreshed 2026-05-11 (session 8 close). Edit in
 > place rather than appending date-stamped blocks — this is the "what would
 > you want to know on day one" index, not a changelog.
 >
@@ -11,38 +11,35 @@
 
 ## Start here next session
 
-- **`main` HEAD:** `bc6d7a7` (PR #42 — Phase B prompt injection defense + golden-file tests)
-- **Last substantive code merge:** `bc6d7a7` (PR #42)
-- **In-flight branch:** `fix/backfill-task-city-id-and-orphan-cleanup` — PR #49 open, awaiting council. Commits: `bb0fbb3` (backfill script), `52b614a` (session docs), `a8a4e6c` (timeout scraper fix), `2414370` (partial Atlas Obscura data). All Firestore writes already applied.
-- **Production state:** 257 legitimate cities in `urbanexplorer` Firestore. `vibe_tasks` now has `city_id` on 21,368/28,419 tasks; 7,051 orphaned tasks remain (--delete-orphans when ready). `birmingham-al` duplicate deleted; `birmingham` (Alabama) is authoritative. Wrong-country timeout scrapes removed for oxford-ms and birmingham.
-- **Open PRs:** #49 (`fix/backfill-task-city-id-and-orphan-cleanup` — awaiting council).
+- **`main` HEAD:** `e069e1d` (PR #53 — CLAUDE.md TypeScript config section)
+- **Last substantive code merge:** `db251ec` (PR #51 — city-ID validation + branch-guard preflight)
+- **Open PRs:**
+  - **PR #56** (`fix/npm-audit-transitive-vulns`) — npm overrides for @tootallnate/once + fast-xml-builder; council R3 queued after R2 uuid-override fix. Closes #55.
+  - **PR #57** (`fix/pipeline-utils-check-branch-guard`) — `pipeline_utils.py` shared module, fail-closed `check_branch_guard()`, 18 pytest tests; council R3 queued after R2 comment additions. Closes #54.
+- **Production state:** 277/288 cities live in `urbanexplorer` Firestore (14,975+ waypoints, 34,400+ tasks). 11 permanently-thin US tier3 cities blocked on data sources.
 - **Top-priority next actions, in order:**
-  1. **Merge PR #49** — council review first. Contains: backfill script, timeout scraper disambiguation fix, global_city_cache cleanup.
-  2. **Supplemental scraping for 24 failed cities** — run Atlas Obscura + Reddit scrapers targeting these cities specifically, then re-run batch_research. See BACKLOG.md for full city list. NOTE: atlas-obscura.ts only has `--city` (singular); run a loop or add `--cities` support.
-  3. **Re-run research for oxford-ms and birmingham** — wrong-country timeout files removed; now need Reddit + Atlas Obscura data then re-research.
-  4. **Issue #21** — automate branch-guard preflight inside pipeline entry points.
-  5. **Issue #8** — sanitize city-ID arguments in `batch_research.py`.
+  1. **Check council on PR #56 and PR #57** — both awaiting R3. Address any new remediations; admin-override if OOS drift.
+  2. **Issue #6 — tier-aware Phase C deletion floor.** Next in the queue after #54/#55.
+  3. **Issue #12 — CI smoke-test on entry-point scripts.**
+  4. **11 thin cities** — unblocked only by new data sources (TripAdvisor, AllTrails, tourism boards).
 - **Blockers:** none.
 - **Doctrine reminders:**
   - **All changes to main MUST go through PRs.** Direct push fails branch-guard post-hoc.
-  - **Branch-guard preflight before any `--ingest` run:** `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` → expect `"success"`.
+  - **`check_branch_guard()` is now fail-closed** (PR #57, pending merge). Until merged, `batch_research.py` / `research_city.py` still have the old fail-open version.
   - **Use `python3.12`**, not `python3` (resolves to 3.14 via linuxbrew, lacks `google-genai`).
-  - Database is `urbanexplorer`, NOT `travel-cities`. Schemas at `src/schemas/cityAtlas.ts` (no npm package). Tasks nested under cities + flat in `vibe_tasks`.
+  - Database is `urbanexplorer`, NOT `travel-cities`. Schemas at `src/schemas/cityAtlas.ts` (no npm package).
   - Cross-round memory is live (PR #30). Post fixed-format submitter response after each council round.
-  - `enrich_ingest.ts` now strips undefined fields + validates required fields with Zod before every Firestore write (PR #44).
+  - Monthly council budget is 120 calls (raised from 60 in PR #51).
 
-## 8 cities still failing after enrichment sweep (2026-05-01)
+## 11 permanently-thin cities (blocked on data sources)
 
-| City | Reason | Fix |
-|---|---|---|
-| oxford-ms | Semantic audit FAIL: Gemini hallucinated Oxford, UK (timeout scrape pulled UK data) | Delete `data/timeout/oxford-ms.md`, re-scrape, re-run research |
-| fernandina-beach-fl | Data starvation — wiki only (1.7KB), no other sources | Manual scrape or add to low-priority queue |
-| frederick-md | Data starvation — wiki (3KB) + reddit (3KB) only | Same |
-| sitka-ak | Data starvation — wiki (4KB) only | Same |
-| winslow-az | Data starvation — wiki (1.4KB) + inf (2KB) only | Same |
-| geneva | International — English sources thin | Language-aware Phase A (#future) |
-| kaohsiung | International — reddit (5KB) only, no wiki | Same |
-| taipei | International — timeout + reddit only, no wiki | Same |
+| City | Reason |
+|---|---|
+| `black-mountain-nc`, `camden-me`, `cannon-beach-or`, `crested-butte-co` | Atlas Obscura + Wikipedia → <6 wp consistently |
+| `kahului`, `lambertville-nj`, `lenox-ma`, `moab-ut` | Same — outdoor/rural destination thin on structured POI data |
+| `ouray-co`, `stowe-vt`, `telluride-co` | Same |
+
+Fix requires a new source: TripAdvisor scraper, AllTrails integration, local tourism boards, or manual POI entry (#14).
 
 ## What this repo is
 
@@ -58,13 +55,14 @@ Firestore database (in GCP project `urban-explorer-483600`) consumed by:
 
 ## What's in main right now
 
-`main` = `7f7652c` at the end of the 2026-05-01 session. Recent history:
+`main` = `e069e1d` (session 8 close). Recent history:
 
 ```
-7f7652c fix: harden enrich_ingest against undefined Firestore fields (#44)
-10bd5e1 scrape: Wikipedia + Reddit data for 100 new US cities (#38)
-7782539 feat: tiered quality gates by coverageTier (#39)
-df1a69b feat: expand US city coverage from 100 to 200 cities (#34)
+e069e1d docs(tsconfig): CLAUDE.md TypeScript config section (PR #53, closes #33)
+db251ec fix: city-ID validation + branch-guard preflight + budget 60→120 (PR #51, closes #8, #21)
+c8c901e fix: city_id backfill, birmingham-al rename, scraper disambiguation (PR #49)
+94c2955 docs: session 5 close (PR #48)
+bc6d7a7 fix: Phase B prompt injection defense (PR #42)
 ```
 
 Layout:
@@ -72,7 +70,7 @@ Layout:
 ```
 .github/workflows/
   ci.yml                   # secret-scan + env-example-scrub + validate + city-cache-validate + council-script-check
-  council.yml              # 7-persona Gemini review per PR (the audit gate)
+  council.yml              # 7-persona Gemini review per PR (120-call monthly budget)
   pr-watch.yml             # Claude-powered read-only PR reviewer
   branch-guard.yml         # post-hoc direct-push detector
 .harness/
@@ -80,40 +78,36 @@ Layout:
                            #   product, accessibility, lead-architect)
   scripts/council.py       # runner; calls Gemini 2.5 Pro with diff + personas
   scripts/install_hooks.sh # pre-commit gitleaks
-  halt_instructions.md     # how to pause council via .harness_halt
 configs/
-  global_city_cache.json   # 285-city metadata (source of truth; 200 US, 85 global)
+  global_city_cache.json   # 288-city metadata (source of truth)
   seasonal-calendar.json   # 6 seasonal events keyed by city
   city-sources.json        # per-city URL sources for NotebookLM/Gemini
-  atlas-obscura-slugs.json # city-id → URL slug suffix override (PR #15)
-  urban-explorer/tasks.yaml # per-app task-prompt scaffolds (stub)
-  roadtripper/tasks.yaml    # per-app task-prompt scaffolds (stub)
+  atlas-obscura-slugs.json # city-id → URL slug suffix override
 src/
   scrapers/
-    atlas-obscura.ts       # Playwright (consults configs/atlas-obscura-slugs.json)
-    local-sources.ts       # Playwright (handles 3 sources: the-infatuation, timeout, locationscout)
+    atlas-obscura.ts       # Playwright; --city only (no --cities plural)
+    local-sources.ts       # Playwright; 3 sources: the-infatuation, timeout, locationscout
     wikipedia.ts           # fetch + MediaWiki REST API; stateFromId() for US disambiguation
-    reddit.ts              # fetch + unauthenticated Reddit JSON
+    reddit.ts              # fetch + unauthenticated Reddit JSON; --cities comma-separated
   pipeline/
     README.md              # architecture: Python orchestrates TS
     research_city.py       # Phase A (research) + B (structure) + C (audit)
-    phase_c_threshold.py   # proportional FAIL threshold helper (PR #4)
-    batch_research.py      # orchestrates research_city.py per-city; 25-city circuit breaker (PR #34)
+    phase_c_threshold.py   # proportional FAIL threshold helper
+    batch_research.py      # orchestrates research_city.py per-city; 25-city circuit breaker
+    pipeline_utils.py      # shared: CITY_ID_RE, check_branch_guard() — PENDING PR #57
     build_cache.ts         # Phase D baseline ingest (first-run cities)
     enrich_ingest.ts       # Phase D enrichment (additive, safe)
     qc_cleanup.ts          # duplicate neighborhood dedup
-    add_coverage_tiers.py  # tier-assignment helper
-    test_phase_c_threshold.py  # 41 pytest cases
+    test_phase_c_threshold.py  # 68 pytest cases
+    test_pipeline_utils.py     # 18 pytest cases — PENDING PR #57
   schemas/
     cityAtlas.ts           # Zod schemas — CROSS-CONSUMER CONTRACT
   firestore/
     admin.ts               # Firebase Admin SDK wrapper
   __tests__/               # vitest; Scrapers, Firestore writers, Zod schemas
 data/                      # scraped .md + .json content (git-tracked)
-firestore.rules            # security rules — deployed from this repo
-firestore.indexes.json     # composite indexes — deployed from this repo
-requirements.txt           # Python runtime deps
-requirements-dev.txt       # Python dev deps (pytest)
+firestore.rules            # security rules
+firestore.indexes.json     # composite indexes
 ```
 
 ## How to run the pipeline locally (RUNBOOK)
@@ -124,12 +118,7 @@ requirements-dev.txt       # Python dev deps (pytest)
 git clone https://github.com/Anguijm/city-atlas-service.git
 cd city-atlas-service
 cp .env.example .env.local
-
-# Fill in .env.local:
-#   GEMINI_API_KEY=<from firebase apphosting:secrets:access or Google AI Studio>
-#   GOOGLE_APPLICATION_CREDENTIALS=$HOME/.config/gcloud/application_default_credentials.json
-#   GOOGLE_CLOUD_PROJECT=urban-explorer-483600
-#   FIRESTORE_DATABASE=urbanexplorer
+# Fill in: GEMINI_API_KEY, GOOGLE_APPLICATION_CREDENTIALS, GOOGLE_CLOUD_PROJECT, FIRESTORE_DATABASE
 
 npm install
 pip install -r requirements.txt
@@ -144,6 +133,7 @@ gcloud auth application-default login
 ```bash
 gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'
 # Must return: "success"
+# Note: after PR #57 merges, batch_research.py and research_city.py run this automatically
 ```
 
 ### Research a single city
@@ -152,13 +142,13 @@ gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusio
 python3.12 src/pipeline/research_city.py --city portsmouth-nh --ingest
 ```
 
-### Batch mode (100 new cities)
+### Batch mode
 
 ```bash
 python3.12 src/pipeline/batch_research.py \
-  --cities "ann-arbor-mi,annapolis-md,..." \
+  --cities "city1,city2,city3" \
   --no-limit --ingest --interval 60 \
-  2>&1 | tee research-100-new.log
+  2>&1 | tee batch.log
 ```
 
 ### Scrapers
@@ -166,68 +156,58 @@ python3.12 src/pipeline/batch_research.py \
 ```bash
 npx tsx src/scrapers/wikipedia.ts --cities "city1,city2" --interval 1500
 npx tsx src/scrapers/reddit.ts --cities "city1,city2" --interval 2000
+# Atlas Obscura: --city only (singular); loop for multiple:
+for city in city1 city2 city3; do
+  npx tsx src/scrapers/atlas-obscura.ts --city $city
+done
 ```
 
 ## Known issues / gotchas
 
-1. **Small towns almost universally fail Reddit quality gate.** The gate is calibrated for cities with active subreddits. Issue #37 will add tiered thresholds by `coverageTier`.
-2. **Gemini subprocess non-determinism.** `batch_research.py` sometimes produces thinner output than direct `research_city.py` runs. Failed-cities queue + `--force` retry is the compensator.
-3. **oxford-ms timeout scrape pulled Oxford, UK data.** Gemini was given a 22KB file about the wrong city and hallucinated accordingly. Semantic audit caught it. Fix: delete the bad file and re-scrape.
-4. **Geneva, kaohsiung, taipei, ho-chi-minh-city** — English-only source coverage is thin for non-English-primary cities. Parked pending language-aware Phase A.
-5. **London manifest mystery** — in `configs/global_city_cache.json` but absent from `manifest.cities`. Carryover.
-6. **CI `city-cache-validate` scope** — the validator in CI only checks `global_city_cache.json`. It does not validate scraped data files or research output JSON.
-7. **enrich_ingest.ts undefined field bug (fixed PR #44)** — Gemini occasionally emits `undefined` for optional numeric fields (e.g. `trending_score`). Fix: `stripUndefined()` + Zod required-field validation before every Firestore write.
+1. **check_branch_guard() is fail-closed after PR #57 merges.** Until then, the current main version is fail-open on gh errors. Don't rely on it for safety guarantees until the PR merges.
+2. **atlas-obscura.ts has no `--cities` (plural) flag.** Use `--city` in a loop. (#improve)
+3. **npm audit has a moderate uuid vulnerability** (GHSA-w5hq-g745-h8pq) — not fixed because a top-level override forces ^8/^9 packages to use uuid 11.x. Moderate severity; doesn't block CI at `--audit-level=high`.
+4. **4 Vitest tests fail on main** — `city-coverage-tier.test.ts` fixtures haven't kept up with the 288-city list. Pre-existing; doesn't block shipping.
+5. **London manifest mystery** — in `global_city_cache.json` but absent from `manifest.cities`. Carryover.
+6. **Geneva, kaohsiung, taipei** — English-only source coverage thin; need language-aware Phase A.
 
-## Session 2026-05-01 (session 5/6) summary
+## Session 2026-05-10/11 (session 8) summary
 
-**PRs merged:** #40, #42, #43, #44, #45, #46 — entire PR queue cleared (earlier in session). **PR #49** opened (fix/backfill-task-city-id-and-orphan-cleanup), awaiting council.
+**Focus:** maintenance PRs — close the two issues filed in session 7 and knock out issue #33 (tsconfig docs).
 
-**Firestore audit:** confirmed 260 cities in DB (257 legitimate + 3 orphan stubs), debunked assumption that big cities were never researched. Ran full vibe_waypoints/vibe_tasks counts (12,123 wps, 28,419 tasks, 1,780 neighborhoods).
+**Merged:**
+- PR #53 — CLAUDE.md TypeScript configuration section (closes #33). 🟢 CLEAR R1 (doc-only). `e069e1d`.
 
-**city_id backfill:** Wrote and ran `src/pipeline/backfill_task_city_id.py` — backfilled city_id onto 21,368 vibe_tasks docs via two-pass neighborhood lookup (flat vibe_neighborhoods → collection_group fallback). 7,051 orphaned tasks left in place.
+**Opened:**
+- Issue #54 — `check_branch_guard` CalledProcessError gap + dedup ask
+- Issue #55 — npm audit HIGH vulns via firebase-admin transitive deps
+- PR #56 — npm audit fix (`@tootallnate/once 3.0.1`, `fast-xml-builder 1.2.0` via overrides). Council R1 🔴 (floating versions + no docs) → R2 🔴 (uuid 11.1.1 "invalid" — moderate, dropped from overrides). R3 queued.
+- PR #57 — `pipeline_utils.py` shared module + fail-closed `check_branch_guard()` + 18 tests. Council R1 🔴 (fail-open → fail-closed) → R2 🟡 (3 comment additions). R3 queued.
 
-**Firestore cleanup:** Deleted 3 orphan city docs (bellevue, bellevue-wa-usa, new-york) + birmingham-al duplicate (154 docs). Removed birmingham-al from global_city_cache.json (288 entries).
+**Key decisions:**
+- `check_branch_guard` is now fail-closed in PR #57: ANY inability to get a "success" verdict aborts the pipeline. Previous fail-open was inconsistent with the stated blast-radius reasoning.
+- uuid moderate override dropped: forcing ^8/^9 packages to use uuid 11.x violates their semver ranges; moderate severity doesn't trigger `--audit-level=high`.
 
-**Timeout scraper fix (commit `a8a4e6c`):** `scrapeTimeOut` now tries city.id slug first + state guard for disambiguated US cities. Prevents wrong-country scrapes (Oxford UK for oxford-ms, Birmingham UK for birmingham).
+## Session 2026-05-07 (session 7) summary
 
-**Supplemental scraping:** Atlas Obscura and Reddit scrapers launched for 24 failed cities. Interrupted before reaching the small-town targets. 8 major US cities got Atlas Obscura data (commit `2414370`). 24 failed cities still need targeted scraping.
+PR #51 merged: city-ID validation + `check_branch_guard()` in both entry points + monthly budget 60→120 + BACKLOG update. Admin-merged (OOS BLOCK on pre-existing #7/#8/#9). Closed #8, #21.
 
-## Session 2026-05-01 (session 4) summary
+Full 89-city batch run: 82/88 succeeded; 6 transient retried and cleared. Reached 277/288 Firestore cities. 11 permanently-thin cities confirmed as structurally blocked.
 
-PRs merged: **#44** (enrich_ingest: stripUndefined + Zod validation, 7 council rounds). Enrichment sweep: 101/119 thin/low cities enriched, ~1800 new waypoints + ~4600 tasks. Roadtripper visibility bug fixed: 23 partial city docs backfilled, city_fallback.json 102→258 cities. 4 corridor cities (louisville, birmingham, wichita, amarillo) added + researched (PR #43 open). 8 cities still failing. Scrape data committed on this branch.
+## Session 2026-05-02/04 (session 6) summary
 
-## Session 2026-04-29/30 (session 3) summary
+PRs merged: #48 (session 5 close docs), #49 (backfill + rename + scraper disambiguation — admin-merged OOS BLOCK). Ran 26-city batch (modes: Gemini direct), reached 269 cities. birmingham-al stale neighborhood cleanup. Firebase projectId fix. Atlas Obscura US URL slug fix (`{city}-{state}` not `{city}-united-states`). Confirmed 11 small towns permanently thin.
 
-PRs merged: **#38** (scrape data), **#39** (tiered quality gates). Batch run: 173→258 cities ingested (73/97 passed). PR #42 open (CONDITIONAL).
+## Session 2026-05-01 (session 5) summary
 
-## Session 2026-04-28 summary
-
-PR #34 landed: expanded US city coverage from 100 to 200 cities (285 total globally), added CI `city-cache-validate` job, added `batch_research.py` 25-city circuit breaker. Council took 4 rounds — R4 introduced brand-new disambiguation surface never raised in prior rounds (5/6 personas zero required remediations); admin-override with issue #36 filed. #36 resolved same session after Wikipedia scraper disambiguation audit PASS (8/8 pilot cities correct). Reddit scraper pilot: only Portsmouth, NH passed quality gate — surfaced the need for tiered gates (filed #37). Wikipedia scraped 89/92 new cities; Reddit scrape for 92 cities completed (results TBD at session close). Scrape data committed to `scrape/100-new-cities` branch; PR pending merge.
-
-## Session 2026-04-27 (session 2) summary
-
-PR #26 landed: schema alignment (`cityAtlas.ts` + `build_cache.ts`), CI fixed (tsc clean, Node 22.11.0). Admin-merged after 3 rounds of council drift on the tsconfig surface.
-
-## Session 2026-04-26 (pt3) summary
-
-Parked-metros backlog: 16/16 unparked. Honolulu landed via `enrich_ingest.ts` additive path. PR #27 (branch-guard retry) and PR #28–#31 (session-close docs) merged.
-
-## Roadmap (see BACKLOG.md for ranked list)
-
-- **Immediate:** merge scrape PR, run batch_research for 100 new cities
-- **Next:** tiered quality gates (#37), branch-guard preflight automation (#21), city-ID sanitization (#8)
-- **Medium:** unit tests (#17), CI smoke-tests (#12), wire `--app` flag, Python integration tests
-- **Longer:** Cloud Run + scheduler, Firestore snapshot-before-cycle, incremental queue
-- **Bigger:** operator web console (`city-atlas-ops`)
+Entire PR queue cleared (#40, #42, #43, #44, #45, #46). Firestore audit: 260 cities, 12,123 wps, 28,419 tasks. city_id backfill on 21,368 vibe_tasks. birmingham-al duplicate deleted. Timeout scraper disambiguation fixed (PR #49 opened).
 
 ## When you come back to this repo
 
 Cold-start checklist:
 
 1. Read this file top-to-bottom.
-2. Read `.harness/learnings.md` — most recent entry is 2026-04-28.
-3. Read `CLAUDE.md` for council workflow + Firestore discipline.
-4. `git log --oneline -10` for recent commits.
-5. `gh pr list` — check if `scrape/100-new-cities` PR is open/merged.
-6. `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` — confirm `"success"` before any ingest run.
-7. Top of queue: merge scrape PR, then run batch_research with the 100-city list above.
+2. `git log --oneline -10` for recent commits.
+3. `gh pr list` — check PR #56 and #57 council status.
+4. `gh run list --workflow branch-guard.yml --branch main --limit 1 --json conclusion --jq '.[0].conclusion'` → confirm `"success"` before any ingest run.
+5. Read `.harness/learnings.md` most recent entry for session context.
