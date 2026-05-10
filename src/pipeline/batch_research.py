@@ -38,8 +38,14 @@ CITY_CACHE = PROJECT_ROOT / "configs" / "global_city_cache.json"
 OUTPUT_DIR = PROJECT_ROOT / "data" / "research-output"
 MANIFEST_PATH = OUTPUT_DIR / "batch-manifest.json"
 
-# Defaults
+# Default pause between cities (seconds). Low enough for interactive dry-runs;
+# callers should pass --interval 3600 for polite production batches.
 DEFAULT_INTERVAL_SECONDS = 60
+
+# Abort the entire batch after this many consecutive per-city failures.
+# 10 is calibrated for a 25-city circuit-breaker batch (PR #34): tolerates
+# one bad stretch without halting a healthy run, but stops a runaway
+# mis-configuration before wasting budget on the full queue.
 MAX_CONSECUTIVE_FAILURES = 10
 
 # Used for the pre-run cost estimate printed before a batch to help

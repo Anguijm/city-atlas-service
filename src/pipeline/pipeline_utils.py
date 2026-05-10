@@ -39,6 +39,9 @@ def check_branch_guard() -> None:
             ],
             capture_output=True,
             text=True,
+            # 15s: generous for a single GitHub API call over cloud/corporate networks.
+            # Lower → false-positive failures on slow connections; higher → delays the
+            # operator's feedback loop without improving reliability.
             timeout=15,
             check=False,  # we inspect returncode ourselves
         )
