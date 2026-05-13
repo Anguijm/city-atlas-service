@@ -29,5 +29,10 @@
     "tsx": "4.21.0",
     "typescript": "5.9.3",
     "vitest": "4.1.5"
+  },
+  "_overridesNote": "Exact-version pins to resolve HIGH-severity transitive vulnerabilities in the firebase-admin dep tree that cannot be fixed via a direct upgrade without a breaking firebase-admin downgrade (v13→v10). Pinned 2026-05-10. Re-evaluate when firebase-admin bumps its own @google-cloud/* deps. Refs: GHSA-vpq2-c234-7xj6 (@tootallnate/once), GHSA-5wm8-gmm8-39j9 + GHSA-45c6-75p6-83cc (fast-xml-builder). uuid (GHSA-w5hq-g745-h8pq) is MODERATE severity only — not pinned here because CI uses --audit-level=high and pinning uuid 11.x breaks packages that expect ^8/^9. Issue #55.",
+  "overrides": {
+    "@tootallnate/once": "3.0.1",
+    "fast-xml-builder": "1.2.0"
   }
 }
