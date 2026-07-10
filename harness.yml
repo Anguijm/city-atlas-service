@@ -10,7 +10,7 @@ language: typescript
 council:
   # Personas auto-discovered from .harness/council/*.md (excludes README + lead-architect).
   # To disable an angle, rename to <angle>.md.disabled.
-  default_model: gemini-2.5-pro
+  default_model: gemini-3.5-flash
   # Must stay in sync with MONTHLY_CAP in .github/workflows/council.yml.
   monthly_cap: 60
   # Hard-enforced by CALL_CAP in .harness/scripts/council.py — change the
