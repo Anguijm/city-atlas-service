@@ -1,0 +1,585 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-arts-history",
+      "city_id": "san-angelo-tx",
+      "name": {
+        "en": "The Downtown Arts & History Core"
+      },
+      "summary": {
+        "en": "The historic heart of San Angelo, where turn-of-the-century brick buildings house a vibrant, creative spirit in a compelling mix of old and new."
+      },
+      "lat": 31.4632,
+      "lng": -100.437,
+      "trending_score": 90
+    },
+    {
+      "id": "concho-river-oasis",
+      "city_id": "san-angelo-tx",
+      "name": {
+        "en": "The Concho River & Civic Park Oasis"
+      },
+      "summary": {
+        "en": "San Angelo’s serene green lung, following the gentle curve of the Concho River for leisurely strolls, picnics, and discovering botanical treasures."
+      },
+      "lat": 31.4585,
+      "lng": -100.4345,
+      "trending_score": 85
+    },
+    {
+      "id": "state-park-mysteries",
+      "city_id": "san-angelo-tx",
+      "name": {
+        "en": "San Angelo State Park & Its Mysteries"
+      },
+      "summary": {
+        "en": "An adventurous exploration of rugged West Texas landscapes, steeped in mystery and local lore, showcasing stark beauty and the dramatic relationship between water and land."
+      },
+      "lat": 31.48,
+      "lng": -100.5,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-arts-history-paintbrush-alley",
+      "city_id": "san-angelo-tx",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "Paintbrush Alley"
+      },
+      "description": {
+        "en": "A dynamic outdoor art gallery tucked away from the main thoroughfare, featuring graffiti art, gorgeous murals, and mosaic tile masterpieces."
+      },
+      "type": "hidden_gem",
+      "lat": 31.4635,
+      "lng": -100.4365,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-arts-history-sapac",
+      "city_id": "san-angelo-tx",
+      "neighborhood_id": "downtown-arts-history",
+      "name": {
+        "en": "San Angelo Performing Arts Center (SAPAC)"
+      },
+      "description": {
+        "en": "A complex that beautifully marries the grand, historic 1928 Murphey Auditorium with a performing arts center cleverly repurposed from a former Coca-Cola factory."
+      },
+      "type": "culture",
+      "lat": 31.4648,
+      "lng": -100.4355,
+      "trending_score": 88
+    },
+    {
+      "id": "concho-river-oasis-water-lily-garden",
+      "city_id": "san-angelo-tx",
+      "neighborhood_id": "concho-river-oasis",
+      "name": {
+        "en": "International Water Lily Garden"
+      },
+      "description": {
+        "en": "An oasis featuring rare and stunningly beautiful lily varieties from around the globe, cultivated by the 'Indiana Jones of Water Lilies.'"
+      },
+      "type": "nature",
+      "lat": 31.458,
+      "lng": -100.433,
+      "trending_score": 98
+    },
+    {
+      "id": "concho-river-oasis-river-walk",
+      "city_id": "san-angelo-tx",
+      "neighborhood_id": "concho-river-oasis",
+      "name": {
+        "en": "The Concho River Walk"
+      },
+      "description": {
+        "en": "A paved path that follows the river, linking parks, gardens, and bridges, offering beautiful views of the water and local birdlife."
+      },
+      "type": "nature",
+      "lat": 31.46,
+      "lng": -100.435,
+      "trending_score": 92
+    },
+    {
+      "id": "concho-river-oasis-fort-concho",
+      "city_id": "san-angelo-tx",
+      "neighborhood_id": "concho-river-oasis",
+      "name": {
+        "en": "Fort Concho National Historic Landmark"
+      },
+      "description": {
+        "en": "A massive, well-preserved piece of American frontier history with an impressive collection of original stone buildings that provide a powerful historical backdrop."
+      },
+      "type": "landmark",
+      "lat": 31.459,
+      "lng": -100.43,
+      "trending_score": 85
+    },
+    {
+      "id": "state-park-mysteries-blood-lake",
+      "city_id": "san-angelo-tx",
+      "neighborhood_id": "state-park-mysteries",
+      "name": {
+        "en": "Blood Lake (O.C. Fisher Reservoir)"
+      },
+      "description": {
+        "en": "A stark and hauntingly beautiful landscape where vast, dry expanses meet the water's edge, a powerful visual of life in a semi-arid climate."
+      },
+      "type": "nature",
+      "lat": 31.485,
+      "lng": -100.505,
+      "trending_score": 80
+    },
+    {
+      "id": "state-park-mysteries-park-trails",
+      "city_id": "san-angelo-tx",
+      "neighborhood_id": "state-park-mysteries",
+      "name": {
+        "en": "San Angelo State Park Trails"
+      },
+      "description": {
+        "en": "An extensive trail system winding through mesquite and prickly pear cactus, offering chances to spot the official Texas State Longhorn Herd."
+      },
+      "type": "nature",
+      "lat": 31.475,
+      "lng": -100.495,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-arts-history-task-1",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a scene that captures both a historic, turn-of-the-century building and a piece of modern art or life in the same frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-2",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Historic Brickwork"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of the textured brick on an old building. Focus on the colors and patterns of the past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-3",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Alley Art Discovery"
+      },
+      "prompt": {
+        "en": "Wander down an alley and photograph the most unexpected piece of art you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-4",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Local Shop Window"
+      },
+      "prompt": {
+        "en": "Find an independent shop with a creative or quirky window display and capture its unique personality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-5",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Ghost Sign Detective"
+      },
+      "prompt": {
+        "en": "Look for a faded, painted advertisement on the side of a brick building—a 'ghost sign'—and take a picture of this whisper from the past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-6",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Look up! Find an interesting architectural detail high up on a building's facade, like a cornice or carving, and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-7",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Follow Your Nose"
+      },
+      "prompt": {
+        "en": "The guide says to let your nose guide you. Take a photo of the entrance to a local cafe or eatery that smells the most inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-8",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Streetlight and Shadow"
+      },
+      "prompt": {
+        "en": "Capture an interesting play of light and shadow created by a historic streetlight or building awning."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-9",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Creative Signage"
+      },
+      "prompt": {
+        "en": "Find and photograph the most creative or vintage-looking business sign in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-10",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "A Moment in Time"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes you look like you've stepped back in time, with a historic building as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-11",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different textures you find: peeling paint, smooth glass, and rough brick."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-arts-history-task-12",
+      "neighborhood_id": "downtown-arts-history",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Find a plaque or cornerstone with a date on it and take a photo. What's the oldest year you can find?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-1",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection on the surface of the Concho River. It could be the sky, a bridge, or the trees along the bank."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-2",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Bridge Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from on, under, or beside one of the pedestrian bridges, using its lines to frame your shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-3",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Nature's Palette"
+      },
+      "prompt": {
+        "en": "Find the most vibrant flower you can (lily or otherwise!) and take a close-up shot that fills the frame with color."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-4",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot and take a photo of the view that you find most serene and calming."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-5",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Feathered Friends"
+      },
+      "prompt": {
+        "en": "Try to snap a picture of any local birdlife you see near the river. Patience is key!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-6",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Picnic Perfect"
+      },
+      "prompt": {
+        "en": "Find the perfect spot for a picnic under a tree and take a photo of the inviting scene (even if you don't have a picnic with you!)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-7",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Path and Sky"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of the River Walk path as it curves into the distance, with plenty of sky in the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-8",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here in the late afternoon, capture the warm, golden light on the water or filtering through the trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-9",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Stone and Water"
+      },
+      "prompt": {
+        "en": "Photograph the contrast between the hard texture of the stone bridges or walls and the soft, flowing water of the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-10",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Park Bench View"
+      },
+      "prompt": {
+        "en": "Sit on a park bench and take a photo from your point of view, capturing the peaceful scene before you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-11",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Leaf and Light"
+      },
+      "prompt": {
+        "en": "Find a leaf with an interesting shape or pattern and photograph it with the sunlight shining through it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "concho-river-oasis-task-12",
+      "neighborhood_id": "concho-river-oasis",
+      "title": {
+        "en": "Riverside Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Concho River sparkling in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-1",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Vast Texas Sky"
+      },
+      "prompt": {
+        "en": "Take a photo where the wide-open West Texas sky takes up at least two-thirds of the frame, emphasizing its vastness."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-2",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Cactus Portrait"
+      },
+      "prompt": {
+        "en": "Find a prickly pear or other native cactus and take a portrait of it, focusing on its unique shape and texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-3",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Rugged Earth"
+      },
+      "prompt": {
+        "en": "Get low to the ground and capture the texture of the cracked, dry earth or the rocky terrain."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-4",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the bright sun to your advantage. Photograph a long, dramatic shadow cast by a cactus, yucca, or yourself."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-5",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Signs of Wildlife"
+      },
+      "prompt": {
+        "en": "Look for signs of animal life—tracks in the dirt, a feather, or maybe even the State Longhorn Herd—and document your discovery."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-6",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Survivor Plant"
+      },
+      "prompt": {
+        "en": "Find a lone plant, like a mesquite tree or a wildflower, that is thriving in the rugged landscape and make it the hero of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-7",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Distant Horizon"
+      },
+      "prompt": {
+        "en": "Find a high point and capture a panoramic shot of the landscape, emphasizing the flat, distant horizon line."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-8",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "A Touch of Mystery"
+      },
+      "prompt": {
+        "en": "Take a photo of something that feels mysterious or out of place in the natural landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-9",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Trail Marker"
+      },
+      "prompt": {
+        "en": "Photograph a trail marker or park sign against the backdrop of the wild terrain it guides you through."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-10",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Sun-Bleached Find"
+      },
+      "prompt": {
+        "en": "Find a piece of weathered driftwood or a sun-bleached rock and take a close-up photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-11",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Lone Tree"
+      },
+      "prompt": {
+        "en": "Frame a shot of a single, resilient tree standing alone against the vast landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "state-park-mysteries-task-12",
+      "neighborhood_id": "state-park-mysteries",
+      "title": {
+        "en": "Adventurer's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that shows you're ready for adventure, with the rugged park landscape behind you. Don't forget your sturdy shoes and water!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

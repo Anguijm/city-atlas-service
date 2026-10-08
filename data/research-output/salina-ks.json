@@ -1,0 +1,600 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-river-corridor",
+      "city_id": "salina-ks",
+      "name": {
+        "en": "Downtown & Smoky Hill River Corridor"
+      },
+      "summary": {
+        "en": "The historic and cultural heart of Salina, blending small-town civic pride with the natural beauty of the Smoky Hill River."
+      },
+      "lat": 38.8405,
+      "lng": -97.611,
+      "trending_score": 85
+    },
+    {
+      "id": "kenwood-park-hub",
+      "city_id": "salina-ks",
+      "name": {
+        "en": "Kenwood Park Recreation Hub"
+      },
+      "summary": {
+        "en": "Salina's active and family-friendly playground, centered around outdoor fun, sports history, and community recreation."
+      },
+      "lat": 38.826,
+      "lng": -97.61,
+      "trending_score": 75
+    },
+    {
+      "id": "west-salina-gateway",
+      "city_id": "salina-ks",
+      "name": {
+        "en": "West Salina Wildlife Gateway"
+      },
+      "summary": {
+        "en": "This area marks the transition from the city to the wide-open spaces of Kansas, offering a top-tier wildlife experience."
+      },
+      "lat": 38.85,
+      "lng": -97.725,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-river-corridor-smoky-hill-museum",
+      "city_id": "salina-ks",
+      "neighborhood_id": "downtown-river-corridor",
+      "name": {
+        "en": "Smoky Hill Museum"
+      },
+      "description": {
+        "en": "The city's attic, preserving the story of Salina's development, agricultural roots, and people since 1879."
+      },
+      "type": "culture",
+      "lat": 38.84051,
+      "lng": -97.61352,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-river-corridor-salina-community-theatre",
+      "city_id": "salina-ks",
+      "neighborhood_id": "downtown-river-corridor",
+      "name": {
+        "en": "Salina Community Theatre (SCT)"
+      },
+      "description": {
+        "en": "A cornerstone of the local arts scene, this regionally-acclaimed theater is a testament to Salina's vibrant community spirit."
+      },
+      "type": "culture",
+      "lat": 38.84053,
+      "lng": -97.60654,
+      "trending_score": 75
+    },
+    {
+      "id": "downtown-river-corridor-indian-rock-park",
+      "city_id": "salina-ks",
+      "neighborhood_id": "downtown-river-corridor",
+      "name": {
+        "en": "Indian Rock Park"
+      },
+      "description": {
+        "en": "Salina's best-kept secret for panoramic views, featuring dramatic 80-foot shale bluffs and a unique intersection of geology and engineering."
+      },
+      "type": "viewpoint",
+      "lat": 38.8181,
+      "lng": -97.6042,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-river-corridor-tonys-pizza-events-center",
+      "city_id": "salina-ks",
+      "neighborhood_id": "downtown-river-corridor",
+      "name": {
+        "en": "Tony's Pizza Events Center"
+      },
+      "description": {
+        "en": "A modern landmark and primary venue for large-scale events, from concerts to indoor football games."
+      },
+      "type": "landmark",
+      "lat": 38.832,
+      "lng": -97.612,
+      "trending_score": 70
+    },
+    {
+      "id": "kenwood-park-hub-kenwood-cove-aquatic-park",
+      "city_id": "salina-ks",
+      "neighborhood_id": "kenwood-park-hub",
+      "name": {
+        "en": "Kenwood Cove Aquatic Park"
+      },
+      "description": {
+        "en": "A regional attraction, this Caribbean-themed water park features over 1,400 feet of slides and a wave pool."
+      },
+      "type": "landmark",
+      "lat": 38.8261,
+      "lng": -97.6105,
+      "trending_score": 90
+    },
+    {
+      "id": "kenwood-park-hub-historic-kenwood-field-site",
+      "city_id": "salina-ks",
+      "neighborhood_id": "kenwood-park-hub",
+      "name": {
+        "en": "Historic Kenwood Field Site"
+      },
+      "description": {
+        "en": "Walk the grounds where Salina's minor league baseball teams played, a quiet nod to the city’s sporting past."
+      },
+      "type": "landmark",
+      "lat": 38.827,
+      "lng": -97.611,
+      "trending_score": 60
+    },
+    {
+      "id": "kenwood-park-hub-picnic-filming-location",
+      "city_id": "salina-ks",
+      "neighborhood_id": "kenwood-park-hub",
+      "name": {
+        "en": "Film History Landmark: Picnic Filming Location"
+      },
+      "description": {
+        "en": "Explore the historic neighborhoods where scenes for the 1955 classic *Picnic* were filmed, soaking in the cinematic atmosphere."
+      },
+      "type": "hidden_gem",
+      "lat": 38.8245,
+      "lng": -97.608,
+      "trending_score": 65
+    },
+    {
+      "id": "west-salina-gateway-rolling-hills-wildlife-adventure",
+      "city_id": "salina-ks",
+      "neighborhood_id": "west-salina-gateway",
+      "name": {
+        "en": "Rolling Hills Wildlife Adventure"
+      },
+      "description": {
+        "en": "A unique combination of a public zoo and a wildlife museum known for its spacious exhibits and educational focus."
+      },
+      "type": "nature",
+      "lat": 38.8501,
+      "lng": -97.7255,
+      "trending_score": 95
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-river-corridor-task-1",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Historic Heartbeat"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking building you can and capture a detail that speaks to its long history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-2",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "River Reflection"
+      },
+      "prompt": {
+        "en": "Take a photo near the Smoky Hill River that captures the reflection of the sky or a nearby structure on the water's surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-3",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Civic Pride Selfie"
+      },
+      "prompt": {
+        "en": "Find a flag, a public monument, or a civic building and take a selfie that shows your appreciation for local pride."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-4",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Art in the Open"
+      },
+      "prompt": {
+        "en": "Discover a piece of public art—a sculpture, mural, or artistic sign—and frame it in a creative way."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-5",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Main Street Perspective"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot looking down a main street, emphasizing the lines of the buildings leading into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-6",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern made by shadows from buildings, trees, or streetlights on the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-7",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Signs of Community"
+      },
+      "prompt": {
+        "en": "Photograph a flyer, poster, or sign for a local event. What's happening in Salina?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-8",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Nature Meets Town"
+      },
+      "prompt": {
+        "en": "Find a spot where greenery or natural elements contrast with the urban architecture and capture the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-9",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Find two different buildings that share a similar architectural feature (like a type of window or brickwork) and photograph them."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-10",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "The Color of Downtown"
+      },
+      "prompt": {
+        "en": "Identify a color that seems to define the neighborhood's character and take a photo focused on that hue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-11",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a peaceful-looking bench or small park space and capture it in a way that feels calm and inviting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-river-corridor-task-12",
+      "neighborhood_id": "downtown-river-corridor",
+      "title": {
+        "en": "Upward Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up at the facade of a historic building, focusing on the details against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-1",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Spirit of Play"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents fun and recreation, whether it's playground equipment, a sports field, or people enjoying the outdoors."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-2",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Cinematic Scene"
+      },
+      "prompt": {
+        "en": "Find a grand old house or a tree-lined street that looks like it could be a set from a classic movie and take a dramatic shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-3",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Action Shot Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie while you're in motion—walking, jogging, or even just pretending to run through a park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-4",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Green Expanse"
+      },
+      "prompt": {
+        "en": "Find a wide-open lawn or field and take a photo that emphasizes its size and greenness."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-5",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Family-Friendly Find"
+      },
+      "prompt": {
+        "en": "Photograph something that clearly shows this is a family-oriented area, like a stroller parking area, a child's lost toy, or a 'slow down' sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-6",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Signs of the Season"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a leaf, flower, or branch that represents the current season in the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-7",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Neighborhood Watch"
+      },
+      "prompt": {
+        "en": "Capture the architectural style of the homes surrounding the park. What makes them unique to this area?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-8",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Pathways and Trails"
+      },
+      "prompt": {
+        "en": "Photograph a walking path or trail as it curves into the distance, inviting exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-9",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Echoes of the Past"
+      },
+      "prompt": {
+        "en": "Find something that looks old or historic within the park—an old bench, a mature tree, or a worn-out sign—and capture its character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-10",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Take a photo of a place where people gather, like a picnic area, a pavilion, or a set of bleachers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-11",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Water Feature"
+      },
+      "prompt": {
+        "en": "Find any source of water—a fountain, a sprinkler, a pool, or a puddle—and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "kenwood-park-hub-task-12",
+      "neighborhood_id": "kenwood-park-hub",
+      "title": {
+        "en": "Sky View"
+      },
+      "prompt": {
+        "en": "Lie down in the grass (if possible) and take a photo looking straight up through the tree branches at the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-1",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "The Big Sky"
+      },
+      "prompt": {
+        "en": "Take a photo where the vast Kansas sky takes up at least two-thirds of the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-2",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Edge of Town"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the transition from urban or suburban to rural landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-3",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Wildlife Watcher Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a natural, wild background. Bonus points if you can spot an animal (even a bird or insect) in the distance!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-4",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Horizon Line"
+      },
+      "prompt": {
+        "en": "Find a clear view of the horizon and take a minimalist photo focusing on the line where earth meets sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-5",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Texture of Nature"
+      },
+      "prompt": {
+        "en": "Get up close and personal with a natural element—tree bark, a wild plant, a textured rock—and take a detailed macro shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-6",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Open Road"
+      },
+      "prompt": {
+        "en": "Photograph a road or path stretching out into the open landscape, creating a sense of journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-7",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Sounds of Silence"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that looks completely quiet and peaceful."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-8",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Human Element"
+      },
+      "prompt": {
+        "en": "Find a man-made object (like a fence, a sign, or a distant building) within the vast natural landscape and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-9",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Wind Power"
+      },
+      "prompt": {
+        "en": "Capture something being moved by the wind—tall grasses, leaves on a tree, or your own hair in a selfie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-10",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Shadows on the Plains"
+      },
+      "prompt": {
+        "en": "As the sun gets lower, capture the long shadows cast by objects across the open ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-11",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "A World Away"
+      },
+      "prompt": {
+        "en": "Take a photo that makes it feel like you are miles away from any city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-salina-gateway-task-12",
+      "neighborhood_id": "west-salina-gateway",
+      "title": {
+        "en": "Kansas Color Palette"
+      },
+      "prompt": {
+        "en": "Find and photograph the natural colors of the landscape—the greens, browns, and blues that define the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

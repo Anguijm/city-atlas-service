@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-core",
+      "city_id": "kearney-ne",
+      "name": {
+        "en": "The Downtown Core: \"The Bricks\""
+      },
+      "summary": {
+        "en": "The historic and social heart of Kearney, defined by beautifully preserved brick streets and late-19th-century architecture. It’s a compact, energetic area where local history meets a modern craft culture."
+      },
+      "lat": 40.69951,
+      "lng": -99.08355,
+      "trending_score": 90
+    },
+    {
+      "id": "university-district",
+      "city_id": "kearney-ne",
+      "name": {
+        "en": "The University District & West Kearney"
+      },
+      "summary": {
+        "en": "Centered around the University of Nebraska at Kearney (UNK), this area has a quieter, academic feel. It’s characterized by leafy streets, historic homes, and the unique businesses that thrive near a college campus."
+      },
+      "lat": 40.70115,
+      "lng": -99.09921,
+      "trending_score": 75
+    },
+    {
+      "id": "platte-river-gateway",
+      "city_id": "kearney-ne",
+      "name": {
+        "en": "The Platte River Gateway"
+      },
+      "summary": {
+        "en": "An area of monumental scale defined by the intersection of nature, history, and infrastructure. This district tells the epic story of America's westward expansion alongside the hum of Interstate 80."
+      },
+      "lat": 40.66528,
+      "lng": -99.08014,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-core-thunderhead-brewing",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Thunderhead Brewing"
+      },
+      "description": {
+        "en": "A cornerstone of the local craft beer scene, this microbrewery offers a robust selection of its own brews in a classic, unpretentious taproom setting."
+      },
+      "type": "drink",
+      "lat": 40.6989,
+      "lng": -99.0833,
+      "trending_score": 92
+    },
+    {
+      "id": "downtown-core-mona",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Museum of Nebraska Art (MONA)"
+      },
+      "description": {
+        "en": "The state's official art collection, this museum is an unexpected cultural powerhouse housing works that span 175 years of Nebraska's artistic evolution."
+      },
+      "type": "culture",
+      "lat": 40.7018,
+      "lng": -99.0836,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-core-brick-streets",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "The Brick Streets"
+      },
+      "description": {
+        "en": "The neighborhood's most defining feature, these historic brick-paved streets are a piece of living history, creating a unique texture and soundscape for a city walk."
+      },
+      "type": "landmark",
+      "lat": 40.6998,
+      "lng": -99.0835,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-core-trails-rails-museum",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "downtown-core",
+      "name": {
+        "en": "Trails & Rails Museum"
+      },
+      "description": {
+        "en": "A cluster of the county's historic structures, including an old fort and schoolhouse, offering a tangible connection to the area's pioneer roots."
+      },
+      "type": "culture",
+      "lat": 40.6933,
+      "lng": -99.0899,
+      "trending_score": 80
+    },
+    {
+      "id": "university-district-morris-press",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "Morris Press Cookbook Store"
+      },
+      "description": {
+        "en": "A true hidden gem dedicated to community cookbooks, this store is a fascinating, tangible archive of American community culture."
+      },
+      "type": "hidden_gem",
+      "lat": 40.7016,
+      "lng": -99.1025,
+      "trending_score": 82
+    },
+    {
+      "id": "university-district-frank-house",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "George W. Frank House"
+      },
+      "description": {
+        "en": "An 1890s architectural marvel on the UNK campus, this mansion is a stunning example of Richardsonian Romanesque architecture."
+      },
+      "type": "landmark",
+      "lat": 40.7004,
+      "lng": -99.1001,
+      "trending_score": 88
+    },
+    {
+      "id": "university-district-unk-campus",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "university-district",
+      "name": {
+        "en": "UNK Campus Walk"
+      },
+      "description": {
+        "en": "The grounds of the University of Nebraska at Kearney are an arboretum and sculpture park, offering a peaceful and stimulating environment for a long walk."
+      },
+      "type": "nature",
+      "lat": 40.7015,
+      "lng": -99.098,
+      "trending_score": 78
+    },
+    {
+      "id": "platte-river-gateway-archway",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "platte-river-gateway",
+      "name": {
+        "en": "The Great Platte River Road Archway Monument"
+      },
+      "description": {
+        "en": "An immersive museum that famously spans over Interstate 80, chronicling the history of the pioneer trails that converged in the area."
+      },
+      "type": "landmark",
+      "lat": 40.6658,
+      "lng": -99.0802,
+      "trending_score": 98
+    },
+    {
+      "id": "platte-river-gateway-i80-overlook",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "platte-river-gateway",
+      "name": {
+        "en": "The I-80 Overlook"
+      },
+      "description": {
+        "en": "Located inside the Archway, this viewpoint offers a mesmerizing, almost hypnotic perspective looking directly down onto the ceaseless flow of traffic on I-80."
+      },
+      "type": "viewpoint",
+      "lat": 40.6659,
+      "lng": -99.0803,
+      "trending_score": 90
+    },
+    {
+      "id": "platte-river-gateway-river-views",
+      "city_id": "kearney-ne",
+      "neighborhood_id": "platte-river-gateway",
+      "name": {
+        "en": "Platte River Views"
+      },
+      "description": {
+        "en": "Paths around the Archway lead to views of the wide, shallow, and braided Platte River, the lifeblood for pioneers on their westward journey."
+      },
+      "type": "nature",
+      "lat": 40.6635,
+      "lng": -99.0795,
+      "trending_score": 84
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-core-task-1",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Brick Street Perspective"
+      },
+      "prompt": {
+        "en": "Find a brick-paved street and take a low-angle photo that emphasizes its unique texture and historic pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-2",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "Photograph a modern object, like a car or a person on their phone, against a beautifully preserved historic building facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-3",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Find a business with a neon sign and take a photo of its reflection after a rain, or its vibrant glow at dusk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-4",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on a building from the late 19th century—like a cornice or window frame—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-5",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Local Flavors"
+      },
+      "prompt": {
+        "en": "Take a picture of a locally made craft beverage or dish you're about to enjoy in a downtown establishment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-6",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Shop Local Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of an independent shop with a unique window display that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-7",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Look for a faded advertisement painted on the side of an old brick building and photograph this piece of 'ghost signage'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-8",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Downtown Pattern Play"
+      },
+      "prompt": {
+        "en": "Find a repeating pattern in the architecture or streetscape—like bricks, windows, or tiles—and create an abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-9",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Golden Hour on The Bricks"
+      },
+      "prompt": {
+        "en": "Capture a photo of the downtown streets during the golden hour, just before sunset, to highlight the warm light on the old buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-10",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "The Sound of the City"
+      },
+      "prompt": {
+        "en": "Record a short video capturing the unique sound of cars driving over the brick streets."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-11",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of people enjoying a local shop, brewery, or public space, showcasing the neighborhood's community spirit."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-core-task-12",
+      "neighborhood_id": "downtown-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque and take a photo that includes both the marker and the modern-day scene it describes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-1",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Campus Calm"
+      },
+      "prompt": {
+        "en": "Find a quiet courtyard or green space on campus and capture the peaceful, academic atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-2",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Take a photo showing a historic building next to a modern one, highlighting the different architectural styles."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-3",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Leafy Street Scene"
+      },
+      "prompt": {
+        "en": "Photograph one of the neighborhood's leafy, residential streets, focusing on the canopy of trees overhead."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-4",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Hidden Art"
+      },
+      "prompt": {
+        "en": "Discover a piece of public art or a small sculpture on campus and photograph it from an interesting angle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-5",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Collegiate Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a sign or landmark that clearly identifies the University of Nebraska at Kearney."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-6",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "On a sunny day, capture an interesting pattern made by shadows from trees or buildings on a sidewalk or wall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-7",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "A Scholar's Path"
+      },
+      "prompt": {
+        "en": "Photograph a well-worn path or staircase on campus, imagining the generations of students who have walked there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-8",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Historic Home Detail"
+      },
+      "prompt": {
+        "en": "Find a historic home and take a close-up shot of a unique feature, like stained glass, a porch column, or intricate woodwork."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-9",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Quirky Discovery"
+      },
+      "prompt": {
+        "en": "Find a quirky or unexpected detail on a house or in a yard—like a unique mailbox or garden gnome—and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-10",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Bookworm's View"
+      },
+      "prompt": {
+        "en": "Take a photo that represents knowledge or learning, like a stack of books seen through a library window or an inspiring quote on a wall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-11",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "The Student's Ride"
+      },
+      "prompt": {
+        "en": "Find a bicycle rack and take an artistic photo of the bikes parked there, representing student life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-district-task-12",
+      "neighborhood_id": "university-district",
+      "title": {
+        "en": "Neighborhood Watcher"
+      },
+      "prompt": {
+        "en": "Find a comfortable bench and take a photo of the view, capturing the quiet, daily life of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-1",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Prairie Skyscape"
+      },
+      "prompt": {
+        "en": "Take a wide-angle photo that captures the vastness of the Nebraska sky over the flat landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-2",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Nature Meets Machine"
+      },
+      "prompt": {
+        "en": "Frame a shot that includes both natural elements (the river, grasses) and man-made infrastructure (the interstate, the Archway)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-3",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "The Endless Road"
+      },
+      "prompt": {
+        "en": "Take a photo looking down the interstate, trying to convey a sense of infinite movement and travel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-4",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "River's Reflection"
+      },
+      "prompt": {
+        "en": "Capture the reflection of the sky or the Archway in the shallow waters of the Platte River."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-5",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Monumental Scale"
+      },
+      "prompt": {
+        "en": "Take a photo of a person standing near the Archway or one of its support pillars to show its immense size."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-6",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Westward Gaze"
+      },
+      "prompt": {
+        "en": "Take a selfie looking west, in the direction the pioneers traveled, with the open landscape behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-7",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Pioneer's Perspective"
+      },
+      "prompt": {
+        "en": "Get low to the ground and take a photo of the landscape, imagining what a pioneer traveling by wagon might have seen."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-8",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Motion Blur"
+      },
+      "prompt": {
+        "en": "If your camera allows, use a slow shutter speed to capture the blur of cars passing on the interstate, turning them into streaks of light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-9",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "The Braided River"
+      },
+      "prompt": {
+        "en": "Find a viewpoint that shows the braided, multi-channel nature of the Platte River and photograph its intricate patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-10",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Sunset Over the Plains"
+      },
+      "prompt": {
+        "en": "Capture the sunset over the Platte River, focusing on the vibrant colors in the sky and their reflection in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-11",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "A Modern Caravan"
+      },
+      "prompt": {
+        "en": "Take a photo focusing on a line of semi-trucks on the interstate, the modern equivalent of a pioneer wagon train."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "platte-river-gateway-task-12",
+      "neighborhood_id": "platte-river-gateway",
+      "title": {
+        "en": "Sound of Two Worlds"
+      },
+      "prompt": {
+        "en": "Find a spot where you can hear both the wind in the prairie grass and the roar of the interstate. Record a short video."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

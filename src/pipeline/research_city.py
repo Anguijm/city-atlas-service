@@ -24,6 +24,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from phase_c_threshold import apply_proportional_fail_threshold
+from spatial_check import far_places
 
 
 # Gating keywords: phase_c_validate only runs name extraction + deletion on
@@ -1109,6 +1110,12 @@ def phase_c_validate(city: dict, data: dict, json_path: Path):
             errors.append(f"Waypoint '{w.get('id', i)}' has invalid coordinates ({lat}, {lng})")
         if w.get("neighborhood_id") and w["neighborhood_id"] not in nh_ids:
             errors.append(f"Waypoint '{w.get('id', i)}' references unknown neighborhood '{w['neighborhood_id']}'")
+
+    # Places far from the city's own point are another town of the same
+    # name (sweetwater-tx got Sweetwater, FL, 2,080 km away; see
+    # spatial_check.py). The semantic audit checks names, not places.
+    errors.extend(far_places(city, neighborhoods, "Neighborhood"))
+    errors.extend(far_places(city, waypoints, "Waypoint"))
 
     for i, t in enumerate(tasks):
         if not isinstance(t, dict):

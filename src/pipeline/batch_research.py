@@ -232,6 +232,13 @@ REDDIT_BATCH_CAP = int(os.environ.get("HARNESS_REDDIT_BATCH_CAP", "60"))
 _reddit_calls_this_batch = 0
 
 
+def _redact_paths(text: str) -> str:
+    """The project root as `.`, and any other home directory as `~`, so a
+    failure's text names files without naming the machine or its user."""
+    text = text.replace(str(PROJECT_ROOT), ".")
+    return re.sub(r"/(?:home|Users)/[^/\s]+", "~", text)
+
+
 def scrape_reddit_if_needed(city_id: str) -> None:
     """Pre-scrape Reddit threads if not already cached. Respects REDDIT_BATCH_CAP."""
     global _reddit_calls_this_batch
@@ -287,7 +294,13 @@ def run_city_research(city_id: str, ingest: bool = False, mode: str = "notebookl
                 "id": city_id,
                 "status": "failed",
                 "started_at": started_at,
-                "error": result.stderr[-500:] if result.stderr else f"Exit code {result.returncode}",
+                # research_city.py prints its failures (Phase C's structural
+                # errors, a missing key) to stdout, so stderr is usually
+                # empty; fall back to stdout's tail rather than a bare exit
+                # code, or a batch log says only "Exit code 1".
+                # The manifest is git-tracked: the machine's paths are cut
+                # from the text first (council R2 on #61).
+                "error": _redact_paths((result.stderr or result.stdout or "")[-500:]).strip() or f"Exit code {result.returncode}",
                 "duration_s": round(duration),
             }
 

@@ -1,0 +1,114 @@
+{
+  "neighborhoods": [
+    {
+      "id": "pioneer-university-core",
+      "city_id": "cedar-city-ut",
+      "name": {
+        "en": "The Pioneer & University Core"
+      },
+      "summary": {
+        "en": "This quiet and contemplative area connects the modern university town to its rugged pioneer roots through foundational stories of resilience and settlement."
+      },
+      "lat": 37.6775,
+      "lng": -113.0619,
+      "trending_score": 65
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "pioneer-university-core-unthank-memorial",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "pioneer-university-core",
+      "name": {
+        "en": "Nellie Pucell Unthank Memorial"
+      },
+      "description": {
+        "en": "A poignant memorial to a single individual's incredible story of survival, offering a deeply personal connection to the region's harsh pioneer past."
+      },
+      "type": "hidden_gem",
+      "lat": 37.6881,
+      "lng": -113.0685,
+      "trending_score": 60
+    },
+    {
+      "id": "pioneer-university-core-page-ranch-house",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "pioneer-university-core",
+      "name": {
+        "en": "Page Ranch House"
+      },
+      "description": {
+        "en": "A testament to pioneer ingenuity, this home was built from bricks made with clay dug from the property and is now part of the Frontier Homestead State Park Museum."
+      },
+      "type": "landmark",
+      "lat": 37.6843,
+      "lng": -113.0624,
+      "trending_score": 75
+    },
+    {
+      "id": "pioneer-university-core-eastern-mountain-viewpoint",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "pioneer-university-core",
+      "name": {
+        "en": "The Eastern Mountain Viewpoint"
+      },
+      "description": {
+        "en": "An informal vantage point on the east side of town offering a spectacular, unobstructed view of the mountains, especially at sunset."
+      },
+      "type": "viewpoint",
+      "lat": 37.6782,
+      "lng": -113.0551,
+      "trending_score": 70
+    }
+  ],
+  "tasks": [
+    {
+      "id": "pioneer-university-core-task-1",
+      "neighborhood_id": "pioneer-university-core",
+      "title": {
+        "en": "Pioneer Textures"
+      },
+      "prompt": {
+        "en": "Find a building or wall that looks like it's from the pioneer era. Take a close-up shot focusing on the texture of the old brick, stone, or wood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pioneer-university-core-task-2",
+      "neighborhood_id": "pioneer-university-core",
+      "title": {
+        "en": "Mountain Backdrop"
+      },
+      "prompt": {
+        "en": "Frame a photo of a modern street scene or building with the dramatic eastern mountains visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pioneer-university-core-task-3",
+      "neighborhood_id": "pioneer-university-core",
+      "title": {
+        "en": "A Contemplative Corner"
+      },
+      "prompt": {
+        "en": "This neighborhood is described as quiet and contemplative. Find a peaceful spot—a bench, a small garden, a quiet street—and take a photo that captures that feeling of calm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "pioneer-university-core-task-4",
+      "neighborhood_id": "pioneer-university-core",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Find a historical marker, a plaque, or even an old, faded sign on a building. Take a photo that makes the text or design the hero of the image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-core",
+      "city_id": "north-platte-ne",
+      "name": {
+        "en": "The Historic Core & Railroad Legacy"
+      },
+      "summary": {
+        "en": "This area is the civic heart of North Platte, defined by its railroad history and remarkable community spirit, offering a glimpse into the town's past."
+      },
+      "lat": 41.141,
+      "lng": -100.767,
+      "trending_score": 75
+    },
+    {
+      "id": "western-frontier",
+      "city_id": "north-platte-ne",
+      "name": {
+        "en": "Buffalo Bill's Western Frontier"
+      },
+      "summary": {
+        "en": "Located on the edge of town, this rustic and expansive area is dominated by the life and legend of the American West's most iconic showman, Buffalo Bill Cody."
+      },
+      "lat": 41.145,
+      "lng": -100.805,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-core-lincoln-museum",
+      "city_id": "north-platte-ne",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "Lincoln County Historical Museum"
+      },
+      "description": {
+        "en": "A portal to local history, with a centerpiece exhibit on the North Platte Canteen, a volunteer effort that served soldiers during WWII."
+      },
+      "type": "culture",
+      "lat": 41.1521,
+      "lng": -100.7685,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-core-prairie-village",
+      "city_id": "north-platte-ne",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "The Prairie Village"
+      },
+      "description": {
+        "en": "A hidden gem featuring a collection of relocated historic buildings, including an authentic Pony Express station and a pioneer church."
+      },
+      "type": "hidden_gem",
+      "lat": 41.1525,
+      "lng": -100.7689,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-core-notable-plattians",
+      "city_id": "north-platte-ne",
+      "neighborhood_id": "historic-core",
+      "name": {
+        "en": "A Search for Notable North Plattians"
+      },
+      "description": {
+        "en": "An activity focused on exploring the central streets for any plaques, street names, or art referencing famous former residents like Buffalo Bill Cody or Glenn Miller."
+      },
+      "type": "culture",
+      "lat": 41.1315,
+      "lng": -100.7652,
+      "trending_score": 65
+    },
+    {
+      "id": "western-frontier-buffalo-bill-ranch",
+      "city_id": "north-platte-ne",
+      "neighborhood_id": "western-frontier",
+      "name": {
+        "en": "Buffalo Bill Ranch State Historical Park"
+      },
+      "description": {
+        "en": "The authentic home of Buffalo Bill Cody, known as Scout's Rest Ranch, where the famous showman planned his Wild West extravaganzas."
+      },
+      "type": "landmark",
+      "lat": 41.1453,
+      "lng": -100.8051,
+      "trending_score": 90
+    },
+    {
+      "id": "western-frontier-scouts-rest-barn",
+      "city_id": "north-platte-ne",
+      "neighborhood_id": "western-frontier",
+      "name": {
+        "en": "The Barn at Scout's Rest Ranch"
+      },
+      "description": {
+        "en": "An immense and historic barn that housed the animals and equipment for Buffalo Bill's Wild West shows, showcasing the scale of his operation."
+      },
+      "type": "landmark",
+      "lat": 41.1461,
+      "lng": -100.8045,
+      "trending_score": 82
+    },
+    {
+      "id": "western-frontier-plains-viewpoint",
+      "city_id": "north-platte-ne",
+      "neighborhood_id": "western-frontier",
+      "name": {
+        "en": "The Edge of the Plains Viewpoint"
+      },
+      "description": {
+        "en": "An unobstructed vantage point at the edge of the park grounds, offering a chance to appreciate the vast Nebraska plains that defined the American West."
+      },
+      "type": "viewpoint",
+      "lat": 41.145,
+      "lng": -100.808,
+      "trending_score": 75
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-core-task-1",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Echoes of the Rails"
+      },
+      "prompt": {
+        "en": "Find a visual element in the neighborhood—a building, a street sign, a piece of old equipment—that connects to North Platte's railroad legacy. Photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-2",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Small-Town Pride"
+      },
+      "prompt": {
+        "en": "Capture a scene that you feel embodies quiet, small-town pride. This could be a well-kept storefront, a community notice board, or a local landmark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-3",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "A Window to the Past"
+      },
+      "prompt": {
+        "en": "Find an old window and frame a photo looking through it to capture a modern scene, creating a contrast between past and present."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-4",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "The Canteen Spirit"
+      },
+      "prompt": {
+        "en": "Take a selfie sharing a friendly gesture with a friend or a local (with permission!), celebrating the community spirit of the historic North Platte Canteen."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-5",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Historical Treasure Hunt"
+      },
+      "prompt": {
+        "en": "Find a plaque, cornerstone, or sign with a date from before 1950. Take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-6",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Civic Heart"
+      },
+      "prompt": {
+        "en": "Photograph a building that looks like it plays an important civic or community role in the town."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-7",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Pioneer Textures"
+      },
+      "prompt": {
+        "en": "Find a surface with a historic texture—like old brick, weathered wood, or rusted metal—and take a close-up, artistic shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-8",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Street Name Story"
+      },
+      "prompt": {
+        "en": "Find a street named after a person. Take a photo of the sign and imagine what that person's story might have been."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-9",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Generations"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a contrast between old and new architecture standing side-by-side."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-10",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Local Flavors Quest"
+      },
+      "prompt": {
+        "en": "Find a local, non-chain business and photograph its sign or storefront. What makes it unique to North Platte?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-11",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Community Gathering Spot"
+      },
+      "prompt": {
+        "en": "Identify a place that looks like a central gathering spot for the community (a park bench, a town square, a cafe entrance) and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-core-task-12",
+      "neighborhood_id": "historic-core",
+      "title": {
+        "en": "Shadows of History"
+      },
+      "prompt": {
+        "en": "Use the long shadows of late afternoon to create a dramatic photo of a historic building's facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-1",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Big Sky Country"
+      },
+      "prompt": {
+        "en": "Take a photo where the vast, open sky fills at least two-thirds of the frame, capturing the immense scale of the Nebraska plains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-2",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "The Showman's Pose"
+      },
+      "prompt": {
+        "en": "Strike your best 'Wild West showman' pose for a selfie against the backdrop of the open prairie or a rustic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-3",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Frontier Textures"
+      },
+      "prompt": {
+        "en": "Find a natural or rustic texture—weathered barn wood, prairie grass, a dusty path—and take a detailed, close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-4",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Edge of the World"
+      },
+      "prompt": {
+        "en": "Find a spot with an uninterrupted view of the horizon and take a panoramic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-5",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Cody's Perspective"
+      },
+      "prompt": {
+        "en": "Frame a shot of the landscape through a natural frame, like between tree branches or over a fence, as if you're scouting the territory."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-6",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Prairie Cathedral"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot looking up at a large structure, like a barn or a tall tree, against the sky to make it look grand and imposing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-7",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "During the late afternoon, capture a photo of the landscape or a building bathed in the warm, golden light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-8",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "The Lone Rider"
+      },
+      "prompt": {
+        "en": "Take a photo of a single, distant object (a tree, a sign, a person) against the vast landscape to emphasize a sense of solitude and scale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-9",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Shadow of the West"
+      },
+      "prompt": {
+        "en": "Use your own shadow to create a long, dramatic figure on the ground in the afternoon sun. Take a picture of your 'cowboy' shadow."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-10",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Nature's Palette"
+      },
+      "prompt": {
+        "en": "Find and photograph three different natural colors of the prairie—the green of the grass, the brown of the earth, the blue of the sky—all in one shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-11",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Whispers on the Wind"
+      },
+      "prompt": {
+        "en": "Take a short video capturing the sound of the wind blowing through the prairie grass or around a historic structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "western-frontier-task-12",
+      "neighborhood_id": "western-frontier",
+      "title": {
+        "en": "Homestead Dreams"
+      },
+      "prompt": {
+        "en": "Photograph a detail that speaks to the ambition of building a life here, whether it's a strong foundation, a large doorway, or a well-worn path."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
