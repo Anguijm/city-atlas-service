@@ -1,0 +1,570 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-cowboy-corridor",
+      "city_id": "elko-nv",
+      "name": {
+        "en": "Downtown Cowboy Corridor"
+      },
+      "summary": {
+        "en": "The genuine working heart of Elko, where historic brick buildings house casinos, museums, and cultural centers celebrating the spirit of the American West."
+      },
+      "lat": 40.833,
+      "lng": -115.763,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-pioneer-quarter",
+      "city_id": "elko-nv",
+      "name": {
+        "en": "Historic Pioneer Quarter"
+      },
+      "summary": {
+        "en": "Centered around the iconic Pioneer Hotel, this area is the cultural soul of the modern West, exploring living traditions and stories."
+      },
+      "lat": 40.8325,
+      "lng": -115.7645,
+      "trending_score": 80
+    },
+    {
+      "id": "geothermal-fringe",
+      "city_id": "elko-nv",
+      "name": {
+        "en": "Geothermal Fringe"
+      },
+      "summary": {
+        "en": "The edge of the urban environment where the wild, geothermal landscape bubbles to the surface, connecting the city to its pioneer past."
+      },
+      "lat": 40.828,
+      "lng": -115.761,
+      "trending_score": 65
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-pioneer-quarter-western-folklife-center",
+      "city_id": "elko-nv",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "name": {
+        "en": "Western Folklife Center"
+      },
+      "description": {
+        "en": "A vibrant cultural center in the historic Pioneer Hotel that explores the living traditions, music, and stories of the modern American West."
+      },
+      "type": "culture",
+      "lat": 40.8325,
+      "lng": -115.7646,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-cowboy-corridor-cowboy-arts-gear-museum",
+      "city_id": "elko-nv",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "name": {
+        "en": "Cowboy Arts & Gear Museum"
+      },
+      "description": {
+        "en": "A museum celebrating the master artisans behind the cowboy lifestyle, showcasing the functional art of leather tooling, silver engraving, and saddle making."
+      },
+      "type": "culture",
+      "lat": 40.8335,
+      "lng": -115.7625,
+      "trending_score": 90
+    },
+    {
+      "id": "downtown-cowboy-corridor-white-king",
+      "city_id": "elko-nv",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "name": {
+        "en": "The White King at the Commercial Casino"
+      },
+      "description": {
+        "en": "A surreal and unforgettable oddity: a magnificent, 10-foot-tall taxidermied polar bear standing incongruously inside a downtown casino."
+      },
+      "type": "hidden_gem",
+      "lat": 40.8328,
+      "lng": -115.7635,
+      "trending_score": 88
+    },
+    {
+      "id": "geothermal-fringe-elko-hot-hole",
+      "city_id": "elko-nv",
+      "neighborhood_id": "geothermal-fringe",
+      "name": {
+        "en": "Elko Hot Hole"
+      },
+      "description": {
+        "en": "A raw, steaming piece of natural history, this geothermal hot spring was a landmark for travelers on the historic California Trail."
+      },
+      "type": "nature",
+      "lat": 40.8271,
+      "lng": -115.7605,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-pioneer-quarter-pioneer-hotel",
+      "city_id": "elko-nv",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "name": {
+        "en": "Pioneer Hotel"
+      },
+      "description": {
+        "en": "A historic brick building that houses the Western Folklife Center, showcasing classic Western architecture in the heart of the city."
+      },
+      "type": "landmark",
+      "lat": 40.8324,
+      "lng": -115.7647,
+      "trending_score": 82
+    },
+    {
+      "id": "downtown-cowboy-corridor-commercial-casino",
+      "city_id": "elko-nv",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "name": {
+        "en": "Commercial Casino"
+      },
+      "description": {
+        "en": "An old-school downtown casino, home to the bizarre and famous 'White King' polar bear taxidermy."
+      },
+      "type": "nightlife",
+      "lat": 40.8329,
+      "lng": -115.7636,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-cowboy-corridor-task-1",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Neon West"
+      },
+      "prompt": {
+        "en": "Find a classic neon sign and capture a photo that feels like a still from an old Western movie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-2",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Cowboy Craftsmanship"
+      },
+      "prompt": {
+        "en": "Look for an example of detailed leather or metal work on display in a shop window or on a building. Take a close-up shot of the intricate details."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-3",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "The Unpretentious Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that you think best captures the 'genuine working downtown' feel of this neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-4",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Sounds of the City"
+      },
+      "prompt": {
+        "en": "Record a 10-second audio clip of the ambient sounds. Do you hear casino bells, passing trains, or conversations with a Western drawl?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-5",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Modern Cowboy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie striking your best cowboy or cowgirl pose in front of a modern storefront or vehicle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-6",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Old West, New West"
+      },
+      "prompt": {
+        "en": "Find a scene that shows a historic building next to something distinctly modern. Frame your photo to highlight the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-7",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Local Legends"
+      },
+      "prompt": {
+        "en": "Spot a mural, statue, or plaque dedicated to a local figure or event. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-8",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Reflections of Elko"
+      },
+      "prompt": {
+        "en": "Capture a reflection of a historic building or a neon sign in a puddle, a car window, or a modern glass facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-9",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "The Art of the Everyday"
+      },
+      "prompt": {
+        "en": "Photograph an everyday object that looks uniquely 'Elko' to you—maybe a style of boot, a type of truck, or a sign in a window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-10",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Find Your Brand"
+      },
+      "prompt": {
+        "en": "Many ranches have a unique brand. Look for logos or signs that use Western-style typography or imagery. Snap a picture of the most interesting one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-11",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Casino Floor Colors"
+      },
+      "prompt": {
+        "en": "Without being disruptive, take a photo that captures the chaotic, colorful patterns of a casino carpet or the flashing lights of the machines."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cowboy-corridor-task-12",
+      "neighborhood_id": "downtown-cowboy-corridor",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Find a local diner or saloon. Take a picture of its menu or daily specials board. What's the most intriguing item?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-1",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Brick & Mortar History"
+      },
+      "prompt": {
+        "en": "Find a historic brick building and take a photo focusing on the texture and age of the brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-2",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Story in a Window"
+      },
+      "prompt": {
+        "en": "Frame a shot looking through an old window, capturing both the reflection of the street and the scene inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-3",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Cultural Encounter"
+      },
+      "prompt": {
+        "en": "Find a sign or symbol that represents one of the diverse cultures of the Great Basin (e.g., Basque, Shoshone, etc.)."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-4",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Pioneer's Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at a historic building to make it seem as grand as it must have to early settlers."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-5",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Search the sides of old brick buildings for a faded, painted advertisement from a bygone era. Capture it before it disappears forever."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-6",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on an interesting architectural element: a cornice, a window frame, a cornerstone, or a decorative flourish."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-7",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Shadows of the Past"
+      },
+      "prompt": {
+        "en": "Use the afternoon light to capture a long shadow cast by a historic building. How does the shadow interact with the street?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-8",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Living History Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the oldest-looking building you can find. In the caption, guess what year it was built."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-9",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Echoes of Music"
+      },
+      "prompt": {
+        "en": "Find a place that hosts live music or storytelling, like the Folklife Center. Take a photo of its entrance and imagine the sounds coming from inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-10",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Photograph a historical marker or plaque. Try to frame the shot to include the modern-day view of what it's describing."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-11",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "Streetlight Portrait"
+      },
+      "prompt": {
+        "en": "As dusk falls, take a portrait of a traveling companion (or a selfie) illuminated only by the glow of a vintage-style streetlight."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-pioneer-quarter-task-12",
+      "neighborhood_id": "historic-pioneer-quarter",
+      "title": {
+        "en": "The Storyteller's Seat"
+      },
+      "prompt": {
+        "en": "Find a public bench with a view of a historic building. Take a photo from the bench's perspective, as if you're sitting and listening to its stories."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-1",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Nature Under the City"
+      },
+      "prompt": {
+        "en": "Capture an image that shows the contrast between the natural landscape (like the river or hot springs) and the urban environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-2",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Steamy Atmosphere"
+      },
+      "prompt": {
+        "en": "If you can see steam rising from the hot springs, take a moody, atmospheric photo that captures the vapor in the air."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-3",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Trailblazer's View"
+      },
+      "prompt": {
+        "en": "Find a spot near the river or hot springs and take a photo. Imagine you're a traveler on the California Trail seeing this for the first time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-4",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Edge of Town"
+      },
+      "prompt": {
+        "en": "Take a wide shot that shows where the developed town ends and the more rugged, natural landscape begins."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-5",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Water and Sky"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the big Nevada sky on the surface of the river or a pool of water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-6",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Look for plants or wildlife that thrive near the water's edge. Take a close-up photo of a hardy desert plant or a bird."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-7",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Find a dirt path or trail near the edge of town. Take a photo looking down the path, inviting the viewer to explore."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-8",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Weary Traveler Selfie"
+      },
+      "prompt": {
+        "en": "Find a resting spot and take a selfie looking like a weary but relieved pioneer who has just reached a source of water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-9",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Visit at dawn or dusk and capture the warm light of the sun on the landscape at the edge of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-10",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Listen to the Land"
+      },
+      "prompt": {
+        "en": "Find a quiet spot. Record 15 seconds of audio. Can you hear the water, the wind, or the distant sounds of the town?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-11",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Bridge to Somewhere"
+      },
+      "prompt": {
+        "en": "If you see a bridge crossing the river, take a photo that uses its lines to lead the eye from the urban side to the natural side."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "geothermal-fringe-task-12",
+      "neighborhood_id": "geothermal-fringe",
+      "title": {
+        "en": "Texture of the Earth"
+      },
+      "prompt": {
+        "en": "Get low and take a macro shot of the ground. Capture the texture of the desert soil, the rocks, or the mineral deposits near the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

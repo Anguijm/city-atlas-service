@@ -1,0 +1,600 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-historic-core",
+      "city_id": "abilene-tx",
+      "name": {
+        "en": "The Downtown Historic Core"
+      },
+      "summary": {
+        "en": "The heart of Abilene, where early 20th-century ambition is etched in stone and steel, creating a dialogue between ornate Jazz Age structures and modern towers."
+      },
+      "lat": 32.4495,
+      "lng": -99.7348,
+      "trending_score": 95
+    },
+    {
+      "id": "cultural-corridor",
+      "city_id": "abilene-tx",
+      "name": {
+        "en": "The Cultural Corridor (SoDA)"
+      },
+      "summary": {
+        "en": "Abilene's creative soul, where historic buildings find new life as galleries and museums in a contemplative neighborhood for immersing yourself in art."
+      },
+      "lat": 32.4472,
+      "lng": -99.7348,
+      "trending_score": 85
+    },
+    {
+      "id": "gothic-plains",
+      "city_id": "abilene-tx",
+      "name": {
+        "en": "The Gothic Plains"
+      },
+      "summary": {
+        "en": "A district of quieter streets where unexpected Gothic and Gothic Revival marvels rise from the plains, showcasing a side of Abilene that defies stereotypes."
+      },
+      "lat": 32.453,
+      "lng": -99.75,
+      "trending_score": 78
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-historic-core-paramount-theatre",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Paramount Theatre"
+      },
+      "description": {
+        "en": "A breathtakingly restored 1930 'atmospheric' palace theatre with a Spanish-Moorish fantasy interior and a massive, 1,400-bulb marquee."
+      },
+      "type": "culture",
+      "lat": 32.44951,
+      "lng": -99.73452,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-historic-core-hotel-wooten",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Hotel Wooten"
+      },
+      "description": {
+        "en": "A 16-story tower from 1930 modeled after Chicago's Drake Hotel, its grand exterior remains a powerful symbol of the city's historic aspirations."
+      },
+      "type": "landmark",
+      "lat": 32.44893,
+      "lng": -99.73451,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-historic-core-taylor-county-courthouse",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Taylor County Courthouse"
+      },
+      "description": {
+        "en": "A unique building with an international style and distinctive pink granite facade that feels more like a modern art museum than a civic center."
+      },
+      "type": "landmark",
+      "lat": 32.4487,
+      "lng": -99.7368,
+      "trending_score": 85
+    },
+    {
+      "id": "cultural-corridor-the-grace-museum",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "cultural-corridor",
+      "name": {
+        "en": "The Grace Museum"
+      },
+      "description": {
+        "en": "Housed in a magnificent 1909 railroad hotel, this is a cultural trifecta: a fine art gallery, a local history museum, and a children's museum."
+      },
+      "type": "culture",
+      "lat": 32.44701,
+      "lng": -99.73442,
+      "trending_score": 92
+    },
+    {
+      "id": "cultural-corridor-nccil",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "cultural-corridor",
+      "name": {
+        "en": "National Center for Children's Illustrated Literature (NCCIL)"
+      },
+      "description": {
+        "en": "A rare gem dedicated to the original artwork from children's books, connecting visitors of all ages to the magic of storytelling through art."
+      },
+      "type": "culture",
+      "lat": 32.44683,
+      "lng": -99.73551,
+      "trending_score": 90
+    },
+    {
+      "id": "cultural-corridor-center-for-contemporary-arts",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "cultural-corridor",
+      "name": {
+        "en": "Center for Contemporary Arts"
+      },
+      "description": {
+        "en": "The living heart of Abilene's art scene, this dynamic space with multiple galleries showcases the work of local and regional artists."
+      },
+      "type": "culture",
+      "lat": 32.44795,
+      "lng": -99.7345,
+      "trending_score": 84
+    },
+    {
+      "id": "gothic-plains-church-of-the-heavenly-rest",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "gothic-plains",
+      "name": {
+        "en": "Church of the Heavenly Rest, Episcopal"
+      },
+      "description": {
+        "en": "An architectural marvel, this classic, stone-clad Gothic church on the West Texas plains radiates a sense of peace and permanence."
+      },
+      "type": "landmark",
+      "lat": 32.45103,
+      "lng": -99.74355,
+      "trending_score": 89
+    },
+    {
+      "id": "gothic-plains-first-baptist-church",
+      "city_id": "abilene-tx",
+      "neighborhood_id": "gothic-plains",
+      "name": {
+        "en": "First Baptist Church"
+      },
+      "description": {
+        "en": "A landmark of mid-century modern design, this 1954 church is defined by its soaring, 140-foot spire, a key feature of the Abilene skyline."
+      },
+      "type": "landmark",
+      "lat": 32.4635,
+      "lng": -99.7315,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-historic-core-task-1",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic brick building stands next to a modern glass one. Capture the contrast in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-2",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Skyward Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight up the side of one of the district's tall buildings, emphasizing its height and geometric lines."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-3",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Jazz Age Details"
+      },
+      "prompt": {
+        "en": "Find an example of ornate, pre-war architectural detail—a carving, a metal grate, or a decorative window frame—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-4",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Puddlegram"
+      },
+      "prompt": {
+        "en": "After a rain, or with a water bottle, create a puddle and capture the reflection of a historic tower in it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-5",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Downtown Energy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the bustling energy of a downtown street corner behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-6",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the long shadow of a skyscraper falling across a smaller, older building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-7",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "The Local's Lunch"
+      },
+      "prompt": {
+        "en": "The report says to trust your instincts. Find a non-chain cafe or diner that looks busy with locals and snap a photo of its storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-8",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Echoes of Commerce"
+      },
+      "prompt": {
+        "en": "Find a 'ghost sign'—a faded, painted advertisement on the side of an old brick building—and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-9",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "City Texture"
+      },
+      "prompt": {
+        "en": "Create an abstract photo focusing on the textures of the city: weathered brick, smooth steel, and reflective glass all in one frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-10",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "The Commuter's View"
+      },
+      "prompt": {
+        "en": "Take a photo from a pedestrian's perspective, capturing the flow of traffic with the tall buildings as a backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-11",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Hidden Alleyway"
+      },
+      "prompt": {
+        "en": "Discover an interesting alley or side street and capture what makes it unique—murals, fire escapes, or interesting lighting."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-12",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "As the sun begins to set, capture the warm light hitting the facade of one of the historic downtown buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-1",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of public art—a mural, a sculpture, or a decorated utility box—and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-2",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Storybook Moment"
+      },
+      "prompt": {
+        "en": "Pose with one of the many storybook character statues in the area. Try to mimic the character's pose or emotion."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-3",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Museum Frame"
+      },
+      "prompt": {
+        "en": "Take a photo looking out from inside a museum or gallery lobby, using a window or doorway to frame the street scene outside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-4",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Creative Fuel"
+      },
+      "prompt": {
+        "en": "Find a coffee shop or cafe that looks like a popular spot for local artists and creatives. Photograph your drink with the artistic ambiance in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-5",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Reclaimed History"
+      },
+      "prompt": {
+        "en": "Find a detail on a historic building that shows its age, like a worn cornerstone or an old plaque, and capture it up close."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-6",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "The Curator's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a gallery or museum, looking thoughtful and contemplative."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-7",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Colors of Culture"
+      },
+      "prompt": {
+        "en": "Create a photo collage of three different, vibrant colors you find in the neighborhood's art, architecture, or nature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-8",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "A Reader's Nook"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or public seating area that looks like the perfect place to read a book. Take a picture of this peaceful spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-9",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Architectural Story"
+      },
+      "prompt": {
+        "en": "Photograph an old building that has clearly been repurposed, capturing both its historic features and its modern use."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-10",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "The Art Walk"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of someone strolling down the sidewalk, capturing the inviting storefronts of the galleries and museums."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-11",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Whimsical Detail"
+      },
+      "prompt": {
+        "en": "Look for a small, whimsical detail that adds character to the neighborhood—a unique door knocker, a creative sign, or a small garden plot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "cultural-corridor-task-12",
+      "neighborhood_id": "cultural-corridor",
+      "title": {
+        "en": "Taste of Inspiration"
+      },
+      "prompt": {
+        "en": "Step into a local eatery and order a dish that looks like a work of art. Take a picture before you dig in."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-1",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Gothic Silhouette"
+      },
+      "prompt": {
+        "en": "Capture the dramatic silhouette of a church spire or a gothic-style building against the wide-open Texas sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-2",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "A Moment of Peace"
+      },
+      "prompt": {
+        "en": "Find a quiet spot on the grounds of a church or historic building and take a photo that conveys a sense of tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-3",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Stone & Sky"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot looking up at a stone building, emphasizing the texture of the stone against the vastness of the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-4",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Unexpected Grandeur"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the surprising contrast of ornate, European-style architecture set against the West Texas landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-5",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "The Watcher"
+      },
+      "prompt": {
+        "en": "Find a gargoyle, statue, or other carved figure on a building and photograph it from an angle that makes it look like it's watching over the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-6",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Neighborhood Beacon"
+      },
+      "prompt": {
+        "en": "From a few blocks away, find a view where a tall church spire rises above the surrounding residential homes and trees."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-7",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Sacred Geometry"
+      },
+      "prompt": {
+        "en": "Find a stained-glass window or an arched doorway and take a photo that focuses on its beautiful geometric patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-8",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Legacy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the facade of a grand, historic school or church in the background, connecting yourself to the area's history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-9",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Plains Provisions"
+      },
+      "prompt": {
+        "en": "This is a quieter area. Find a small, neighborhood corner store or cafe and capture its humble, local charm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-10",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Photograph the way sunlight and shadows play across the intricate stone carvings or brickwork of a historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-11",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "A Walk Through Time"
+      },
+      "prompt": {
+        "en": "Take a photo down a quiet, tree-lined street that features one of the neighborhood's historic landmarks in the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "gothic-plains-task-12",
+      "neighborhood_id": "gothic-plains",
+      "title": {
+        "en": "The Spire and the Sun"
+      },
+      "prompt": {
+        "en": "At sunrise or sunset, capture a photo where the sun is flaring just behind or beside a tall church spire."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

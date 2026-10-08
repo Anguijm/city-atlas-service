@@ -1,0 +1,599 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-cultural-core",
+      "city_id": "salina-ks",
+      "name": {
+        "en": "The Downtown Cultural Core"
+      },
+      "summary": {
+        "en": "This is the historic heart of Salina, where late 19th-century history meets a living arts scene. It’s a compact area perfect for a slow-paced morning of discovery."
+      },
+      "lat": 38.8405,
+      "lng": -97.61,
+      "trending_score": 75
+    },
+    {
+      "id": "smoky-hill-river-greenbelt",
+      "city_id": "salina-ks",
+      "name": {
+        "en": "The Smoky Hill River Greenbelt"
+      },
+      "summary": {
+        "en": "This area showcases the dramatic intersection of nature and human intervention. The vibe is rugged and recreational, offering expansive views just minutes from the city center."
+      },
+      "lat": 38.8245,
+      "lng": -97.6017,
+      "trending_score": 80
+    },
+    {
+      "id": "the-western-edge",
+      "city_id": "salina-ks",
+      "name": {
+        "en": "The Western Edge"
+      },
+      "summary": {
+        "en": "This area is where the city gives way to the expansive prairie. The journey is part of the discovery, tracing the transition from urban grid to open country."
+      },
+      "lat": 38.847,
+      "lng": -97.68,
+      "trending_score": 70
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-cultural-core-smoky-hill-museum",
+      "city_id": "salina-ks",
+      "neighborhood_id": "downtown-cultural-core",
+      "name": {
+        "en": "Smoky Hill Museum"
+      },
+      "description": {
+        "en": "The official storyteller of the region, this museum houses artifacts and collections dating back to 1879, covering everything from agriculture to local education."
+      },
+      "type": "culture",
+      "lat": 38.84051,
+      "lng": -97.61332,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-cultural-core-salina-community-theatre",
+      "city_id": "salina-ks",
+      "neighborhood_id": "downtown-cultural-core",
+      "name": {
+        "en": "Salina Community Theatre (SCT)"
+      },
+      "description": {
+        "en": "A cornerstone of Salina's cultural life, this regionally acclaimed theater is a hub of activity and a thriving local arts institution."
+      },
+      "type": "culture",
+      "lat": 38.84049,
+      "lng": -97.60671,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-cultural-core-hitchcock-landmark",
+      "city_id": "salina-ks",
+      "neighborhood_id": "downtown-cultural-core",
+      "name": {
+        "en": "Hitchcock's Fictional Landmark"
+      },
+      "description": {
+        "en": "Walk down Maple Avenue, the street mentioned in Alfred Hitchcock's 'Vertigo' as the home of Judy Barton, and see the quiet streets that inspired the setting."
+      },
+      "type": "hidden_gem",
+      "lat": 38.8358,
+      "lng": -97.605,
+      "trending_score": 70
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-indian-rock-park",
+      "city_id": "salina-ks",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "name": {
+        "en": "Indian Rock Park"
+      },
+      "description": {
+        "en": "The highest point in the area, this park's dramatic 80-foot shale bluffs were created by a 1950s river diversion project and offer a stunning panoramic view of the city."
+      },
+      "type": "viewpoint",
+      "lat": 38.8183,
+      "lng": -97.6019,
+      "trending_score": 90
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-kenwood-cove",
+      "city_id": "salina-ks",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "name": {
+        "en": "Kenwood Cove Aquatic Park"
+      },
+      "description": {
+        "en": "A major local landmark whose massive, colorful slides rise unexpectedly from the landscape, looking like a piece of surrealist art against the Kansas sky."
+      },
+      "type": "landmark",
+      "lat": 38.825,
+      "lng": -97.6011,
+      "trending_score": 75
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-picnic-location",
+      "city_id": "salina-ks",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "name": {
+        "en": "The 'Picnic' Film Location"
+      },
+      "description": {
+        "en": "Walk through Oakdale Park and along the original riverbed to find old railway lines where key scenes for the 1955 classic film 'Picnic' were shot."
+      },
+      "type": "hidden_gem",
+      "lat": 38.8316,
+      "lng": -97.6019,
+      "trending_score": 78
+    },
+    {
+      "id": "the-western-edge-rolling-hills",
+      "city_id": "salina-ks",
+      "neighborhood_id": "the-western-edge",
+      "name": {
+        "en": "Rolling Hills Wildlife Adventure"
+      },
+      "description": {
+        "en": "More than a zoo, this destination combines animal exhibits with a wildlife museum and art gallery, creating a unique cultural and natural history experience on the Kansas plains."
+      },
+      "type": "culture",
+      "lat": 38.8495,
+      "lng": -97.7319,
+      "trending_score": 88
+    },
+    {
+      "id": "the-western-edge-st-johns-school",
+      "city_id": "salina-ks",
+      "neighborhood_id": "the-western-edge",
+      "name": {
+        "en": "St. John's Military School Campus"
+      },
+      "description": {
+        "en": "This historic campus was the primary filming location for the 1980 teen comedy 'Up the Academy', starring a young Ralph Macchio."
+      },
+      "type": "landmark",
+      "lat": 38.8508,
+      "lng": -97.6119,
+      "trending_score": 65
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-cultural-core-task-1",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Historic Echoes"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking building on the block and take a photo of its most interesting architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-2",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Artistic Pulse"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of a piece of public art or a theater poster that catches your eye."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-3",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Main Street Story"
+      },
+      "prompt": {
+        "en": "Capture a photo that tells a story about modern life in historic downtown Salina."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-4",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet, hidden spot just off the main street and take a photo looking back towards the bustle."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-5",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Typographic Treasure"
+      },
+      "prompt": {
+        "en": "Find a vintage or interesting sign on a storefront and take a close-up shot of the lettering."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-6",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Hitchcock Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo of a quiet residential street that feels like it could be a scene from a mystery movie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-7",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a place that seems to be a central gathering spot for the local community."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-8",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find an element of modern life (like an electric scooter or a new car) next to a historic building and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-9",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Local Flavors Quest"
+      },
+      "prompt": {
+        "en": "Though none are listed, find a local cafe or diner that looks inviting and snap a photo of its entrance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-10",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the afternoon sun to create an interesting shadow selfie against a brick wall."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-11",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Take a photo through the window of a museum or historic building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-cultural-core-task-12",
+      "neighborhood_id": "downtown-cultural-core",
+      "title": {
+        "en": "Salina's Signature"
+      },
+      "prompt": {
+        "en": "Find something that you feel uniquely represents the character of downtown Salina and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-1",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Panoramic Prairie"
+      },
+      "prompt": {
+        "en": "Find a high point and take a panoramic photo of the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-2",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Get a close-up shot of a natural texture: tree bark, a river rock, or the shale on the bluffs."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-3",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Man-Made vs. Nature"
+      },
+      "prompt": {
+        "en": "Capture a single image that shows both a natural element and a man-made structure in contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-4",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Recreation Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on a hiking trail, near a fishing spot, or with a piece of park equipment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-5",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Find a body of water and capture the reflection of the sky or the surrounding landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-6",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Color Pop"
+      },
+      "prompt": {
+        "en": "Find a surprisingly bright color in the landscape—like the slides at Kenwood Cove or a wildflower—and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-7",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Path to Adventure"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of a path, trail, or old railway line leading off into the distance."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-8",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "Capture the warm light of the late afternoon or early morning on the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-9",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph a sign of wildlife in the park—a bird, a footprint, or a nest."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-10",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Hollywood Moment"
+      },
+      "prompt": {
+        "en": "Find a spot that looks like it could be a set from a classic movie and take a dramatic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-11",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Explorer's View"
+      },
+      "prompt": {
+        "en": "Take a photo from your favorite viewpoint discovered in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "smoky-hill-river-greenbelt-task-12",
+      "neighborhood_id": "smoky-hill-river-greenbelt",
+      "title": {
+        "en": "Rugged Landscape Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the rugged, natural vibe of the Greenbelt."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-1",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Big Sky Country"
+      },
+      "prompt": {
+        "en": "Take a photo where the expansive Kansas sky takes up at least two-thirds of the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-2",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "The Open Road"
+      },
+      "prompt": {
+        "en": "Capture a photo of a road or path stretching out towards the horizon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-3",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Edge of Town"
+      },
+      "prompt": {
+        "en": "Photograph a scene that shows the transition from the city's edge to the open country."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-4",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Prairie Explorer Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the wide-open prairie landscape behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-5",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Unexpected Discovery"
+      },
+      "prompt": {
+        "en": "Find something you wouldn't expect to see on the edge of the prairie and take a picture of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-6",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Wildlife Watch"
+      },
+      "prompt": {
+        "en": "Keep an eye out for local or exotic animals (at the wildlife park) and capture one on camera."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-7",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Historic Architecture"
+      },
+      "prompt": {
+        "en": "Find an interesting piece of architecture, like on the St. John's campus, and photograph its most striking feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-8",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Long Shadows"
+      },
+      "prompt": {
+        "en": "Use the open space to take a photo of your own long shadow stretching across the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-9",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Capture an image that feels like a piece of art, using the natural landscape as your canvas."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-10",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Campus Comedy"
+      },
+      "prompt": {
+        "en": "On the St. John's campus, find a spot and pose as if you're a character in a 1980s teen movie."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-11",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Journey's View"
+      },
+      "prompt": {
+        "en": "Take a photo from the perspective of a traveler journeying out of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "the-western-edge-task-12",
+      "neighborhood_id": "the-western-edge",
+      "title": {
+        "en": "Colors of the Prairie"
+      },
+      "prompt": {
+        "en": "Create a photo that highlights the subtle and beautiful colors of the Kansas plains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

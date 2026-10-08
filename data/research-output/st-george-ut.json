@@ -1,0 +1,600 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-red-rock-gateway",
+      "city_id": "st-george-ut",
+      "name": {
+        "en": "Historic Downtown & Red Rock Gateway"
+      },
+      "summary": {
+        "en": "The heart of St. George, where cultural ambitions meet the raw beauty of the red rock landscape. This area blends manicured parks, a robust public art scene, and direct access to rugged terrain."
+      },
+      "lat": 37.1085,
+      "lng": -113.583,
+      "trending_score": 95
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub",
+      "city_id": "st-george-ut",
+      "name": {
+        "en": "Tonaquint Nature & Recreation Hub"
+      },
+      "summary": {
+        "en": "A quieter, suburban district focused on family-friendly recreation and preserving the local riparian environment. This is where local families go to play and connect with nature."
+      },
+      "lat": 37.0815,
+      "lng": -113.6085,
+      "trending_score": 80
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus",
+      "city_id": "st-george-ut",
+      "name": {
+        "en": "The Desert Garden & Bike Culture Nexus"
+      },
+      "summary": {
+        "en": "This northern area represents the modern, active identity of St. George, where manicured suburbs meet the untamed desert, showcasing innovative water conservation and a world-class bike park."
+      },
+      "lat": 37.1252,
+      "lng": -113.5851,
+      "trending_score": 88
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-red-rock-gateway-art-around-the-corner",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "name": {
+        "en": "Art Around the Corner Outdoor Sculptures"
+      },
+      "description": {
+        "en": "A dynamic, open-air gallery woven into the downtown streets, featuring a new collection of sculptures from various artists each year."
+      },
+      "type": "culture",
+      "lat": 37.1088,
+      "lng": -113.5835,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-pioneer-park",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "name": {
+        "en": "Pioneer Park"
+      },
+      "description": {
+        "en": "A rugged, 52-acre city park that feels like a miniature national park, with explorable red rock formations, small slot canyons, and stunning city overlooks."
+      },
+      "type": "nature",
+      "lat": 37.1181,
+      "lng": -113.5765,
+      "trending_score": 98
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-vernon-worthen-park",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "name": {
+        "en": "Vernon Worthen Park"
+      },
+      "description": {
+        "en": "The city's central green space and community living room, hosting concerts and art shows, offering a peaceful contrast to the surrounding desert landscape."
+      },
+      "type": "landmark",
+      "lat": 37.1033,
+      "lng": -113.5768,
+      "trending_score": 85
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-tonaquint-nature-center",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "name": {
+        "en": "Tonaquint Nature Center"
+      },
+      "description": {
+        "en": "A lush oasis dedicated to the ecology of the Virgin River, featuring walking paths through restored habitats and ponds teeming with waterfowl."
+      },
+      "type": "hidden_gem",
+      "lat": 37.0812,
+      "lng": -113.6082,
+      "trending_score": 89
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-thunder-junction-park",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "name": {
+        "en": "Thunder Junction All Abilities Park"
+      },
+      "description": {
+        "en": "A nationally recognized, dinosaur-themed park designed for children of all abilities, featuring a miniature train and wheelchair-accessible structures."
+      },
+      "type": "landmark",
+      "lat": 37.0825,
+      "lng": -113.6091,
+      "trending_score": 94
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-urban-trail-system",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "name": {
+        "en": "St. George Urban Trail System"
+      },
+      "description": {
+        "en": "Paved trails that serve as the connective tissue of the district, offering a ground-level view of the city away from cars along natural riverbeds."
+      },
+      "type": "nature",
+      "lat": 37.083,
+      "lng": -113.607,
+      "trending_score": 82
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-red-hills-desert-garden",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "name": {
+        "en": "Red Hills Desert Garden"
+      },
+      "description": {
+        "en": "Utah's first desert conservation garden, showcasing over 5,000 water-wise plants, a native fish stream, and preserved dinosaur tracks."
+      },
+      "type": "nature",
+      "lat": 37.1255,
+      "lng": -113.5853,
+      "trending_score": 96
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-snake-hollow-bike-park",
+      "city_id": "st-george-ut",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "name": {
+        "en": "Snake Hollow Bike Park"
+      },
+      "description": {
+        "en": "A nationally recognized, 80-acre hub for bike enthusiasts of all skill levels, featuring jump lines, pump tracks, and technical trails."
+      },
+      "type": "landmark",
+      "lat": 37.1411,
+      "lng": -113.6155,
+      "trending_score": 91
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-red-rock-gateway-task-1",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Red Rock Framing"
+      },
+      "prompt": {
+        "en": "Find a view where a historic downtown building perfectly frames the red rock cliffs in the distance. Capture the contrast between human architecture and natural geology."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-2",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Take a photo of a piece of public art. Try to capture how it interacts with the people or the environment around it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-3",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Pioneer Echoes"
+      },
+      "prompt": {
+        "en": "Find a street sign, plaque, or building named after an early pioneer or a historical event. What story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-4",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by a sculpture, a tree, or a unique piece of architecture on a downtown sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-5",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Civic Green"
+      },
+      "prompt": {
+        "en": "Take a photo in a public park that shows locals enjoying the green space, with the city or desert landscape in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-6",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find an old, historic building standing next to a modern one. Capture the architectural contrast in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-7",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Main Street Moment"
+      },
+      "prompt": {
+        "en": "Take a candid photo that captures the essence of downtown life. It could be people chatting, a street performer, or a bustling storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-8",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Gateway Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the iconic red cliffs visible over your shoulder from a downtown street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-9",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Color Palette"
+      },
+      "prompt": {
+        "en": "Find and photograph three distinct colors that define this neighborhood: the red of the rock, the green of the parks, and a color from a piece of public art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-10",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Hidden Details"
+      },
+      "prompt": {
+        "en": "Look closely at the architecture around you. Find and photograph an interesting detail: a unique door, an old sign, or ornate brickwork."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-11",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Skyline View"
+      },
+      "prompt": {
+        "en": "Find a spot that gives you a good view of the St. George skyline against the backdrop of the desert landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-red-rock-gateway-task-12",
+      "neighborhood_id": "historic-downtown-red-rock-gateway",
+      "title": {
+        "en": "Community Hub"
+      },
+      "prompt": {
+        "en": "Photograph a public space where people are gathering, like a town square, park bench, or plaza."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-1",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Water in the Desert"
+      },
+      "prompt": {
+        "en": "Find a body of water, like a pond or stream, and capture the reflection of the sky or trees on its surface."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-2",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Path to Adventure"
+      },
+      "prompt": {
+        "en": "Take a photo of a walking or biking trail as it winds into the distance, inviting exploration."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-3",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph a bird, a duck, an insect, or any other local wildlife you encounter in the area's natural spaces."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-4",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Family Fun"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of a family enjoying one of the neighborhood's parks or recreational areas."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-5",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Get up close and take a macro photo of a natural texture, like tree bark, a cattail, a smooth river stone, or a leaf."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-6",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Playground Perspective"
+      },
+      "prompt": {
+        "en": "Find a piece of playground equipment and photograph it from an unusual angle, like from down low looking up at the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-7",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Shady Spot Selfie"
+      },
+      "prompt": {
+        "en": "Find a cool, shady spot under a large tree and take a selfie enjoying the escape from the sun."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-8",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Trail Marker"
+      },
+      "prompt": {
+        "en": "Find and photograph an interpretive sign or trail marker that tells you something about the local environment or history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-9",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Sounds of Nature"
+      },
+      "prompt": {
+        "en": "Close your eyes for a minute and listen. Take a photo of the thing making the most interesting sound, whether it's rustling leaves, a bird call, or laughing children."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-10",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Bridge View"
+      },
+      "prompt": {
+        "en": "Find a small bridge or crossing over a wash or stream and take a photo looking down the waterway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-11",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Green and Brown"
+      },
+      "prompt": {
+        "en": "Capture a photo that strongly contrasts the lush green of the riparian areas with the brown and red tones of the surrounding desert."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tonaquint-nature-recreation-hub-task-12",
+      "neighborhood_id": "tonaquint-nature-recreation-hub",
+      "title": {
+        "en": "Recreation in Action"
+      },
+      "prompt": {
+        "en": "Photograph someone actively enjoying the outdoors—jogging, biking, playing a sport, or pushing a stroller."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-1",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Desert Survivor"
+      },
+      "prompt": {
+        "en": "Find a cactus, agave, or other succulent and take a close-up photo that highlights its unique shape and texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-2",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Water-Wise Design"
+      },
+      "prompt": {
+        "en": "Photograph an example of xeriscaping or water-wise landscaping in a public space or front yard. Look for decorative rocks, native plants, and drip irrigation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-3",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Life on Two Wheels"
+      },
+      "prompt": {
+        "en": "Capture a photo that represents the bike culture of the area. It could be a mountain biker on a trail, a bike rack full of bikes, or a dedicated bike lane."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-4",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Suburban Desert View"
+      },
+      "prompt": {
+        "en": "Find a spot where a modern suburban street ends and the untamed desert landscape begins. Capture this intersection of worlds."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-5",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Rock Solid"
+      },
+      "prompt": {
+        "en": "Photograph a unique red rock formation. Focus on the layers, colors, and textures carved by time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-6",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Adventure Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a backdrop that screams 'outdoor adventure'—a trailhead sign, a bike park feature, or a panoramic desert vista."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-7",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Desert Bloom"
+      },
+      "prompt": {
+        "en": "Search for a desert plant that is flowering. Capture the delicate beauty of a bloom in a harsh environment."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-8",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Man-Made vs. Natural"
+      },
+      "prompt": {
+        "en": "Take a photo that shows a strong contrast between a man-made structure (a building, a road, a fence) and the natural desert landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-9",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Sky High"
+      },
+      "prompt": {
+        "en": "Capture the vastness of the Utah sky. Find an open space and take a photo where the sky fills at least two-thirds of the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-10",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Conservation Message"
+      },
+      "prompt": {
+        "en": "Find a sign or plaque related to water conservation, native species, or trail etiquette and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-11",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Rider's Eye View"
+      },
+      "prompt": {
+        "en": "Imagine you are on a bike. Take a photo from a low perspective looking down a path or trail, capturing the sense of motion and the path ahead."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "desert-garden-bike-culture-nexus-task-12",
+      "neighborhood_id": "desert-garden-bike-culture-nexus",
+      "title": {
+        "en": "Modern St. George"
+      },
+      "prompt": {
+        "en": "Photograph a piece of modern architecture or design that reflects the forward-looking vibe of this part of the city."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

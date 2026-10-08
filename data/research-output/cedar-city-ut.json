@@ -1,0 +1,254 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-memorial-core",
+      "city_id": "cedar-city-ut",
+      "name": {
+        "en": "Historic Downtown & Memorial Core"
+      },
+      "summary": {
+        "en": "A quiet, reflective area steeped in 19th-century pioneer history, where hidden stories are found in memorials and old structures."
+      },
+      "lat": 37.6815,
+      "lng": -113.0648,
+      "trending_score": 65
+    },
+    {
+      "id": "university-ranchlands-fringe",
+      "city_id": "cedar-city-ut",
+      "name": {
+        "en": "University & Ranchlands Fringe"
+      },
+      "summary": {
+        "en": "A blend of collegiate energy and quiet, rural history with open, expansive streets and views of the nearby mountains."
+      },
+      "lat": 37.6761,
+      "lng": -113.0725,
+      "trending_score": 70
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-unthank-memorial",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "name": {
+        "en": "Nellie Pucell Unthank Memorial"
+      },
+      "description": {
+        "en": "A powerful monument in the Cedar City Cemetery dedicated to a teenage survivor of the Martin Handcart Company who endured a primitive double amputation."
+      },
+      "type": "landmark",
+      "lat": 37.6881,
+      "lng": -113.0603,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-downtown-frehner-museum",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "name": {
+        "en": "Garth and Jerri Frehner Museum of Natural History"
+      },
+      "description": {
+        "en": "A hidden gem on the SUU campus featuring an impressive collection of taxidermied animals from Southern Utah's ecosystems."
+      },
+      "type": "culture",
+      "lat": 37.6765,
+      "lng": -113.0712,
+      "trending_score": 68
+    },
+    {
+      "id": "historic-downtown-suma",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "name": {
+        "en": "Southern Utah Museum of Art (SUMA)"
+      },
+      "description": {
+        "en": "A museum with striking modern architecture inspired by slot canyons, showcasing work by Utah and Intermountain West artists."
+      },
+      "type": "culture",
+      "lat": 37.6772,
+      "lng": -113.0721,
+      "trending_score": 80
+    },
+    {
+      "id": "university-fringe-shakespeare-theatres",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "name": {
+        "en": "SUU Shakespeare Festival Theatres"
+      },
+      "description": {
+        "en": "Home to the Engelstad Shakespeare Theatre, an open-air replica of Shakespeare's Globe, offering a surprising piece of Elizabethan England in Utah."
+      },
+      "type": "culture",
+      "lat": 37.6775,
+      "lng": -113.0733,
+      "trending_score": 85
+    },
+    {
+      "id": "university-fringe-old-main",
+      "city_id": "cedar-city-ut",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "name": {
+        "en": "\"The Old Main\" at SUU"
+      },
+      "description": {
+        "en": "The original university building with a legendary founding story of community sacrifice, now serving as the historic and spiritual heart of the campus."
+      },
+      "type": "landmark",
+      "lat": 37.6782,
+      "lng": -113.0705,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-memorial-core-task-1",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "title": {
+        "en": "Pioneer Echoes"
+      },
+      "prompt": {
+        "en": "Find a building that looks like it's from the 19th century. Capture a photo of its oldest-looking detail, like a worn brick or a faded sign."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-memorial-core-task-2",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "title": {
+        "en": "Survivor's Story"
+      },
+      "prompt": {
+        "en": "Take a moment to reflect on the hardships of the early settlers. Take a selfie that captures a quiet, contemplative mood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-memorial-core-task-3",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "title": {
+        "en": "Frontier Foundation"
+      },
+      "prompt": {
+        "en": "Look for a historical marker or plaque on a building or monument. Take a photo of it and share one surprising fact you learned."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-memorial-core-task-4",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a spot where an old building stands next to a modern one. Frame a shot that captures the contrast between two eras."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-memorial-core-task-5",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "title": {
+        "en": "A Quiet Corner"
+      },
+      "prompt": {
+        "en": "Discover a peaceful spot away from the main street, like a small park or a quiet alley. Take a photo that conveys a sense of tranquility."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-memorial-core-task-6",
+      "neighborhood_id": "historic-downtown-memorial-core",
+      "title": {
+        "en": "The Weight of History"
+      },
+      "prompt": {
+        "en": "Photograph a shadow cast by a historic monument or building. Use the shadow to create a dramatic and thoughtful image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-ranchlands-fringe-task-1",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "title": {
+        "en": "Campus & Peaks"
+      },
+      "prompt": {
+        "en": "Frame a photo of a university building with the distinct red mountains visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-ranchlands-fringe-task-2",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "title": {
+        "en": "The Scholar's Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a spot that makes you look studious or inspired by the academic atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-ranchlands-fringe-task-3",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Find an example of modern architecture on campus and capture its most interesting angle or line."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-ranchlands-fringe-task-4",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "title": {
+        "en": "Agricultural Roots"
+      },
+      "prompt": {
+        "en": "Look for a sign of the area's ranching past or present—it could be a fence, an open field, or a piece of old farm equipment. Photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-ranchlands-fringe-task-5",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "title": {
+        "en": "Spirit of Community"
+      },
+      "prompt": {
+        "en": "Find a symbol of the university's mascot or colors. Take a creative photo incorporating it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-ranchlands-fringe-task-6",
+      "neighborhood_id": "university-ranchlands-fringe",
+      "title": {
+        "en": "Expansive Skies"
+      },
+      "prompt": {
+        "en": "This area is known for its open spaces. Take a photo that emphasizes the wide-open sky above the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

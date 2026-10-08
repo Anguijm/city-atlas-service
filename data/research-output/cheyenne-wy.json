@@ -1,0 +1,630 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-historic-core",
+      "city_id": "cheyenne-wy",
+      "name": {
+        "en": "The Downtown Historic Core"
+      },
+      "summary": {
+        "en": "The heart of Cheyenne, where the grandeur of the Union Pacific Railroad's golden age is etched into sandstone facades. The atmosphere is a blend of Old West history and a functioning city center, with wide streets and ornate, historic structures."
+      },
+      "lat": 41.1401,
+      "lng": -104.8215,
+      "trending_score": 95
+    },
+    {
+      "id": "capitol-north-rainsford-district",
+      "city_id": "cheyenne-wy",
+      "name": {
+        "en": "Capitol North & The Rainsford District"
+      },
+      "summary": {
+        "en": "North of the commercial core, this area has a stately grandeur with quiet, tree-lined streets. It's defined by the State Capitol and historic mansions, offering an architectural tour of early Wyoming's power and wealth."
+      },
+      "lat": 41.1445,
+      "lng": -104.8195,
+      "trending_score": 85
+    },
+    {
+      "id": "lions-park-greenway",
+      "city_id": "cheyenne-wy",
+      "name": {
+        "en": "Lions Park & The Greenway"
+      },
+      "summary": {
+        "en": "Cheyenne's green lung, a sprawling urban park space centered around Sloan's Lake. The vibe is relaxed and recreational, where locals walk and bike to escape the city grid."
+      },
+      "lat": 41.155,
+      "lng": -104.831,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-historic-core-depot-museum",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Cheyenne Depot Museum (Union Pacific Depot)"
+      },
+      "description": {
+        "en": "A National Historic Landmark whose grand clock tower and intricate Richardsonian Romanesque stonework dominate the downtown skyline, symbolizing the railroad's foundational role in Cheyenne."
+      },
+      "type": "landmark",
+      "lat": 41.1398,
+      "lng": -104.8203,
+      "trending_score": 98
+    },
+    {
+      "id": "downtown-historic-core-atlas-theatre",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "The Atlas Theatre"
+      },
+      "description": {
+        "en": "A tangible link to the city's early entertainment scene, this beautifully preserved historic theater stands as a testament to local preservation efforts."
+      },
+      "type": "culture",
+      "lat": 41.1405,
+      "lng": -104.822,
+      "trending_score": 80
+    },
+    {
+      "id": "downtown-historic-core-tivoli-building",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "downtown-historic-core",
+      "name": {
+        "en": "Tivoli Building"
+      },
+      "description": {
+        "en": "One of the most photographed buildings in downtown, its distinctive turrets and decorative elements represent the optimism and prosperity of the city's boom years."
+      },
+      "type": "landmark",
+      "lat": 41.1405,
+      "lng": -104.8235,
+      "trending_score": 88
+    },
+    {
+      "id": "capitol-north-rainsford-district-state-capitol",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "name": {
+        "en": "Wyoming State Capitol"
+      },
+      "description": {
+        "en": "A working government building, not just a monument, its accessibility allows for an up-close appreciation of the craftsmanship and history of its classical architecture and gold-leafed dome."
+      },
+      "type": "landmark",
+      "lat": 41.1447,
+      "lng": -104.8205,
+      "trending_score": 95
+    },
+    {
+      "id": "capitol-north-rainsford-district-nagle-warren-mansion",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "name": {
+        "en": "Nagle-Warren Mansion"
+      },
+      "description": {
+        "en": "This former cattle baron's home offers a direct glimpse into the opulent lifestyle of Cheyenne's early elite, with immaculately maintained intricate woodwork and period details."
+      },
+      "type": "landmark",
+      "lat": 41.1415,
+      "lng": -104.8175,
+      "trending_score": 85
+    },
+    {
+      "id": "capitol-north-rainsford-district-governors-mansion",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "name": {
+        "en": "Governor's Mansion"
+      },
+      "description": {
+        "en": "Now a museum, this historic residence offers a personal and intimate scale of history, where each room tells a story of a different era in Wyoming's leadership."
+      },
+      "type": "culture",
+      "lat": 41.144,
+      "lng": -104.8165,
+      "trending_score": 82
+    },
+    {
+      "id": "lions-park-greenway-big-boy-steam-engine",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "lions-park-greenway",
+      "name": {
+        "en": "Big Boy Steam Engine 4004"
+      },
+      "description": {
+        "en": "The sheer scale of this retired giant is breathtaking. Standing next to its massive wheels provides a visceral understanding of the power that drove westward expansion."
+      },
+      "type": "landmark",
+      "lat": 41.1485,
+      "lng": -104.825,
+      "trending_score": 92
+    },
+    {
+      "id": "lions-park-greenway-botanic-gardens",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "lions-park-greenway",
+      "name": {
+        "en": "Cheyenne Botanic Gardens"
+      },
+      "description": {
+        "en": "A peaceful, volunteer-built oasis featuring the Grand Conservatory, a striking piece of modern architecture housing tropical plants on the High Plains."
+      },
+      "type": "nature",
+      "lat": 41.1555,
+      "lng": -104.832,
+      "trending_score": 89
+    },
+    {
+      "id": "lions-park-greenway-greenway-path",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "lions-park-greenway",
+      "name": {
+        "en": "Greater Cheyenne Greenway"
+      },
+      "description": {
+        "en": "This 47-mile network of paths allows you to experience the transition from urban parks to the more open, natural landscape of the High Plains without ever leaving the trail."
+      },
+      "type": "nature",
+      "lat": 41.154,
+      "lng": -104.83,
+      "trending_score": 85
+    },
+    {
+      "id": "lions-park-greenway-pronghorn-viewing",
+      "city_id": "cheyenne-wy",
+      "neighborhood_id": "lions-park-greenway",
+      "name": {
+        "en": "Pronghorn of F.E. Warren Air Force Base"
+      },
+      "description": {
+        "en": "Witness the surreal intersection of high-security military operations and serene nature by viewing North America's fastest land animal grazing peacefully near the base."
+      },
+      "type": "hidden_gem",
+      "lat": 41.15,
+      "lng": -104.87,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-historic-core-task-1",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Sandstone Story"
+      },
+      "prompt": {
+        "en": "Find a building made of sandstone and take a close-up photo of its texture and color."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-2",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Railroad Echoes"
+      },
+      "prompt": {
+        "en": "Capture a photo that includes a historic building and a modern element, showing the blend of old and new."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-3",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Old West Window"
+      },
+      "prompt": {
+        "en": "Take a picture of your reflection in the window of a historic storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-4",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Wagon-Wide Streets"
+      },
+      "prompt": {
+        "en": "Find the widest street you can and take a low-angle shot looking down its length to emphasize its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-5",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Cornerstone Quest"
+      },
+      "prompt": {
+        "en": "Locate a cornerstone on a building and photograph the date carved into it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-6",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Historic Details"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail—like a turret, cornice, or carving—and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-7",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Magic City Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the most ornate, historic building facade you can find as your backdrop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-8",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Look for a faded, painted advertisement on the side of a brick building and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-9",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Urban Texture"
+      },
+      "prompt": {
+        "en": "Create a photo composition focusing on the contrasting textures of brick, stone, and glass."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-10",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Skyline Silhouette"
+      },
+      "prompt": {
+        "en": "Frame a shot of a historic building's roofline against the vast Wyoming sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-11",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque and take a photo of it with the building it describes in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-historic-core-task-12",
+      "neighborhood_id": "downtown-historic-core",
+      "title": {
+        "en": "Streetlight Glow"
+      },
+      "prompt": {
+        "en": "Capture the design of a vintage-style streetlight in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-1",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Mansion Gaze"
+      },
+      "prompt": {
+        "en": "Photograph a historic mansion, focusing on its most impressive feature, like a grand porch or a towering turret."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-2",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Golden Dome Framing"
+      },
+      "prompt": {
+        "en": "Find a view where the State Capitol's golden dome is framed by trees, another building, or a street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-3",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Stately Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie on the steps or in front of the grandest, most official-looking building you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-4",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Tree-Lined Perspective"
+      },
+      "prompt": {
+        "en": "Capture the quiet character of the neighborhood by taking a photo down a long, tree-lined residential street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-5",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Photograph the long shadows cast by a historic home or large tree in the morning or late afternoon light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-6",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Fence Line"
+      },
+      "prompt": {
+        "en": "Find an old, ornate wrought-iron or wooden fence and use it as a foreground element in a photo of a historic house."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-7",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Architectural Detail Hunt"
+      },
+      "prompt": {
+        "en": "Find and photograph a unique architectural detail: stained glass, a decorative chimney, or intricate woodwork."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-8",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Spot a house with a classic wrap-around porch and capture its welcoming feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-9",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Power and Wealth"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel best represents the 'stately grandeur' of this historic neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-10",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Historic Walkway"
+      },
+      "prompt": {
+        "en": "Photograph a sidewalk or pathway leading up to one of the area's historic homes or buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-11",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Symbol of Statehood"
+      },
+      "prompt": {
+        "en": "Take a minimalist photo focusing on just the Capitol dome against the blue sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "capitol-north-rainsford-district-task-12",
+      "neighborhood_id": "capitol-north-rainsford-district",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet bench or spot on a lawn and take a photo of the peaceful street scene from your point of view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-1",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Green Lung Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a wide-open green space or the lake in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-2",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Pathways and Passages"
+      },
+      "prompt": {
+        "en": "Photograph a section of the Greenway path as it curves into the distance, creating a leading line."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-3",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Sky Above the Plains"
+      },
+      "prompt": {
+        "en": "Take a photo where the vast Wyoming sky takes up at least two-thirds of the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-4",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Nature's Geometry"
+      },
+      "prompt": {
+        "en": "Find an interesting pattern in nature—tree bark, a flower's petals, ripples on the water—and capture a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-5",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Urban Oasis"
+      },
+      "prompt": {
+        "en": "Capture a scene that shows the intersection of the natural park and the city, like a view of buildings from across the lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-6",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Movement in the Park"
+      },
+      "prompt": {
+        "en": "Photograph someone in motion: a cyclist on the Greenway, a jogger, or a bird in flight."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-7",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Bridge Frame"
+      },
+      "prompt": {
+        "en": "Find a bridge or underpass along the Greenway and use it to frame a scenic view."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-8",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Botanic Beauty"
+      },
+      "prompt": {
+        "en": "Find the most colorful flower or plant you can and take a vibrant photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-9",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Water Reflection"
+      },
+      "prompt": {
+        "en": "Capture a reflection of the sky, trees, or a nearby structure on the surface of Sloan's Lake."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-10",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Industrial Giant"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the immense scale of a large object in the park, like the Big Boy engine or a large sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-11",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Trail Town USA"
+      },
+      "prompt": {
+        "en": "Find a sign for the Greenway or a park map and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "lions-park-greenway-task-12",
+      "neighborhood_id": "lions-park-greenway",
+      "title": {
+        "en": "Relaxation Mode"
+      },
+      "prompt": {
+        "en": "Find a park bench with a nice view and take a photo from that perspective, capturing a sense of peace and relaxation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

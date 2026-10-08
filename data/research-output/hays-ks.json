@@ -1,0 +1,840 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown",
+      "city_id": "hays-ks",
+      "name": {
+        "en": "Historic Downtown & The Chestnut Street District"
+      },
+      "summary": {
+        "en": "The historic and commercial heart of Hays, this area blends preserved 19th-century architecture with the quiet hum of modern local life. It's a district for architecture buffs and history lovers looking to feel the town's central pulse."
+      },
+      "lat": 38.8781,
+      "lng": -99.3285,
+      "trending_score": 85
+    },
+    {
+      "id": "university-quarter",
+      "city_id": "hays-ks",
+      "name": {
+        "en": "The University & Museum Quarter"
+      },
+      "summary": {
+        "en": "Centered around Fort Hays State University, this district has a palpable energy of academia and scientific discovery. It's a place for learning, from the deep past in a world-class fossil museum to the future of art from university students."
+      },
+      "lat": 38.8895,
+      "lng": -99.3432,
+      "trending_score": 90
+    },
+    {
+      "id": "frontier-park",
+      "city_id": "hays-ks",
+      "name": {
+        "en": "Frontier Park & The Old Fort"
+      },
+      "summary": {
+        "en": "This sprawling, rustic area embraces Hays' connection to the Great Plains, dedicated to recreation and remembrance. It's where the city’s frontier origins feel most present, from original fort buildings to the iconic bison herd."
+      },
+      "lat": 38.8588,
+      "lng": -99.3381,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-ellis-county-museum",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Ellis County Historical Society Museum"
+      },
+      "description": {
+        "en": "A full historical complex featuring Old West relics, a faithful reproduction of a Volga German settler home, and a beautiful stone chapel from 1879."
+      },
+      "type": "culture",
+      "lat": 38.8783,
+      "lng": -99.3299,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-volga-german-haus",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Volga German Haus"
+      },
+      "description": {
+        "en": "Part of the historical society complex, this is a tangible link to the German immigration that shaped Hays, offering a glimpse into early settler life."
+      },
+      "type": "landmark",
+      "lat": 38.8784,
+      "lng": -99.3301,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-downtown-stone-chapel",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "1879 Stone Chapel"
+      },
+      "description": {
+        "en": "A beautiful, simple stone chapel built in 1879, located on the grounds of the Ellis County Historical Society Museum."
+      },
+      "type": "landmark",
+      "lat": 38.8782,
+      "lng": -99.3303,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-downtown-chestnut-street-tour",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Chestnut Street Historic District Walking Tour"
+      },
+      "description": {
+        "en": "An area best explored on foot to appreciate architectural details like faded 'ghost signs' on brick walls, ornate cornices, and the sturdy character of late 1800s construction."
+      },
+      "type": "landmark",
+      "lat": 38.8795,
+      "lng": -99.3281,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-downtown-hays-arts-center",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Hays Arts Center Gallery"
+      },
+      "description": {
+        "en": "A contemporary counterpoint to the area's history, this gallery showcases the work of Kansas artists, providing a look at the region's modern creative spirit."
+      },
+      "type": "culture",
+      "lat": 38.8809,
+      "lng": -99.3275,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-downtown-coffee-shop",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Chestnut Street Coffee Shop"
+      },
+      "description": {
+        "en": "The downtown district is the primary hub for local coffee. Explore the historic storefronts to find a cozy, independent spot for a break."
+      },
+      "type": "drink",
+      "lat": 38.8798,
+      "lng": -99.3283,
+      "trending_score": 65
+    },
+    {
+      "id": "historic-downtown-local-diner",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Historic Main Street Diner"
+      },
+      "description": {
+        "en": "A walk along Main Street and its cross-streets will reveal local diners housed in historic buildings, offering a taste of local life."
+      },
+      "type": "food",
+      "lat": 38.8789,
+      "lng": -99.3288,
+      "trending_score": 70
+    },
+    {
+      "id": "historic-downtown-local-pub",
+      "city_id": "hays-ks",
+      "neighborhood_id": "historic-downtown",
+      "name": {
+        "en": "Downtown Local Pub"
+      },
+      "description": {
+        "en": "The Chestnut Street District is home to local pubs housed in historic storefronts, perfect for experiencing the town's evening social scene."
+      },
+      "type": "drink",
+      "lat": 38.8805,
+      "lng": -99.3279,
+      "trending_score": 68
+    },
+    {
+      "id": "university-quarter-sternberg-museum",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "Sternberg Museum of Natural History"
+      },
+      "description": {
+        "en": "An unexpected treasure housing an internationally recognized collection of fossils, including the iconic 'fish-within-a-fish' fossil from the Great Inland Sea."
+      },
+      "type": "culture",
+      "lat": 38.8816,
+      "lng": -99.3386,
+      "trending_score": 95
+    },
+    {
+      "id": "university-quarter-fhsu-campus",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "The FHSU Campus Grounds"
+      },
+      "description": {
+        "en": "Treat the university grounds as a large, well-manicured botanical garden and sculpture park, perfect for a long, contemplative walk among historic and modern buildings."
+      },
+      "type": "nature",
+      "lat": 38.8901,
+      "lng": -99.3435,
+      "trending_score": 80
+    },
+    {
+      "id": "university-quarter-moss-thorns-gallery",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "Moss-Thorns Gallery of Art"
+      },
+      "description": {
+        "en": "Located on campus, this gallery offers an intimate and often experimental art experience, primarily displaying work from FHSU students and faculty."
+      },
+      "type": "culture",
+      "lat": 38.8915,
+      "lng": -99.3465,
+      "trending_score": 75
+    },
+    {
+      "id": "university-quarter-picken-hall",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "Picken Hall"
+      },
+      "description": {
+        "en": "A prime example of the stately, historic university architecture on the FHSU campus, known for its symmetrical design."
+      },
+      "type": "landmark",
+      "lat": 38.8912,
+      "lng": -99.3438,
+      "trending_score": 70
+    },
+    {
+      "id": "university-quarter-campus-coffee",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "Campus-Side Coffee Shop"
+      },
+      "description": {
+        "en": "The streets bordering the FHSU campus are the best bet for independent coffee shops that cater to students and faculty, perfect for fueling a museum visit."
+      },
+      "type": "drink",
+      "lat": 38.8925,
+      "lng": -99.3411,
+      "trending_score": 65
+    },
+    {
+      "id": "university-quarter-campus-eatery",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "University Casual Eatery"
+      },
+      "description": {
+        "en": "Exploring the edges of the FHSU campus will likely yield casual eateries perfect for a quick, affordable lunch among students and faculty."
+      },
+      "type": "food",
+      "lat": 38.8928,
+      "lng": -99.3405,
+      "trending_score": 68
+    },
+    {
+      "id": "university-quarter-sculpture-park",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "FHSU Sculpture Park"
+      },
+      "description": {
+        "en": "The university grounds function as a public sculpture park, with various modern and experimental art pieces scattered among the buildings and green spaces."
+      },
+      "type": "culture",
+      "lat": 38.8908,
+      "lng": -99.3451,
+      "trending_score": 72
+    },
+    {
+      "id": "university-quarter-art-design-building",
+      "city_id": "hays-ks",
+      "neighborhood_id": "university-quarter",
+      "name": {
+        "en": "Art and Design Building"
+      },
+      "description": {
+        "en": "A modern facility on the FHSU campus that houses the Moss-Thorns Gallery of Art and serves as a hub for student creativity."
+      },
+      "type": "landmark",
+      "lat": 38.8916,
+      "lng": -99.3468,
+      "trending_score": 60
+    },
+    {
+      "id": "frontier-park-bison-herd",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "The Bison Herd at Frontier Park"
+      },
+      "description": {
+        "en": "A powerful experience connecting you to the region's natural history, this herd of American bison has been a symbol of the Great Plains in Hays since 1953."
+      },
+      "type": "nature",
+      "lat": 38.8615,
+      "lng": -99.3365,
+      "trending_score": 90
+    },
+    {
+      "id": "frontier-park-fort-hays-site",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "Fort Hays State Historic Site"
+      },
+      "description": {
+        "en": "The very reason Hays exists, this site preserves four original limestone buildings from the 1860s, letting you feel the ruggedness of life on the frontier."
+      },
+      "type": "landmark",
+      "lat": 38.8571,
+      "lng": -99.3391,
+      "trending_score": 88
+    },
+    {
+      "id": "frontier-park-boot-hill-cemetery",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "Boot Hill Cemetery"
+      },
+      "description": {
+        "en": "A stark and evocative piece of history, this was the city's first cemetery, where many residents 'died with their boots on' during the Old West."
+      },
+      "type": "landmark",
+      "lat": 38.8565,
+      "lng": -99.3405,
+      "trending_score": 75
+    },
+    {
+      "id": "frontier-park-fort-blockhouse",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "Fort Hays Blockhouse"
+      },
+      "description": {
+        "en": "One of the four original limestone buildings preserved at the Fort Hays Historic Site, offering a direct look into the fort's defensive structures."
+      },
+      "type": "landmark",
+      "lat": 38.8573,
+      "lng": -99.3394,
+      "trending_score": 70
+    },
+    {
+      "id": "frontier-park-fort-guardhouse",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "Fort Hays Guardhouse"
+      },
+      "description": {
+        "en": "An original 1860s building at the historic site which also served as the fort's jail, illustrating the harsh realities of frontier justice."
+      },
+      "type": "landmark",
+      "lat": 38.857,
+      "lng": -99.3389,
+      "trending_score": 70
+    },
+    {
+      "id": "frontier-park-officers-quarters",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "Officers' Quarters at Fort Hays"
+      },
+      "description": {
+        "en": "Two of the original fort buildings are preserved officers' quarters, showing the living conditions for military leaders on the Kansas frontier."
+      },
+      "type": "landmark",
+      "lat": 38.8575,
+      "lng": -99.3385,
+      "trending_score": 68
+    },
+    {
+      "id": "frontier-park-picnic-area",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "Frontier Park Picnic Area"
+      },
+      "description": {
+        "en": "This recreational area is the perfect place for a picnic. Find a spot with a view of the bison pens or the old fort grounds for a memorable meal."
+      },
+      "type": "nature",
+      "lat": 38.8621,
+      "lng": -99.3372,
+      "trending_score": 60
+    },
+    {
+      "id": "frontier-park-big-sky-viewpoint",
+      "city_id": "hays-ks",
+      "neighborhood_id": "frontier-park",
+      "name": {
+        "en": "Big Sky Viewing Point"
+      },
+      "description": {
+        "en": "This district is where you go to walk under a big sky. Find an open spot to connect with the vast landscape of the Great Plains."
+      },
+      "type": "viewpoint",
+      "lat": 38.8605,
+      "lng": -99.3359,
+      "trending_score": 65
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-task-1",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Historic Reflection"
+      },
+      "prompt": {
+        "en": "Capture a modern scene, like a person on their phone or a new car, reflected in the window of a historic downtown building."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-2",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Brick & Mortar"
+      },
+      "prompt": {
+        "en": "Find the most interesting brickwork or stone masonry on a building and take a close-up, artistic photo of its texture and pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-3",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Search the sides of old brick buildings for a faded, painted advertisement—a 'ghost sign'—and capture it before it disappears forever."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-4",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Shop Local Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the most charming or unique local shop sign you can find in the district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-5",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque and take a photo that includes both the plaque and the building it describes in the same shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-6",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Main Street Flavors"
+      },
+      "prompt": {
+        "en": "Photograph your coffee, drink, or meal from a local downtown establishment. Make the historic setting part of the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-7",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Look up! Find an ornate cornice, interesting window frame, or other decorative architectural detail high up on a building and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-8",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Pulse of the Town"
+      },
+      "prompt": {
+        "en": "Capture a candid moment of local life: people chatting on a bench, a shopkeeper sweeping a stoop, or friends greeting on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-9",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Alleyway Art"
+      },
+      "prompt": {
+        "en": "Explore a downtown alley and find an unexpected moment of beauty, like a colorful mural, interesting fire escape, or unique perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-10",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Curb Appeal"
+      },
+      "prompt": {
+        "en": "Find a storefront with a beautiful flower box, a welcoming bench, or a charming entryway and take a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-11",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "In the morning or late afternoon, find an interesting shadow cast by a historic building or lamppost and make it the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-task-12",
+      "neighborhood_id": "historic-downtown",
+      "title": {
+        "en": "Wild West Echoes"
+      },
+      "prompt": {
+        "en": "Take a photo of a building or street scene that you think would make Wild Bill Hickok feel right at home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-1",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Campus Contrast"
+      },
+      "prompt": {
+        "en": "Find a spot where a historic, stately university building is right next to a modern one. Capture both architectural styles in a single photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-2",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Scholarly Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in a thoughtful, studious pose in front of a campus library, lecture hall, or statue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-3",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Art in the Wild"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or sculpture on the campus grounds and take a creative photo interacting with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-4",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Study Break Snack"
+      },
+      "prompt": {
+        "en": "Grab a coffee or a snack from a campus-side spot and take a photo of it with a university building or green space in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-5",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Architectural Lines"
+      },
+      "prompt": {
+        "en": "Find a building with strong leading lines—like a long colonnade, a dramatic staircase, or a patterned facade—and use them to compose a powerful shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-6",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Signs of Learning"
+      },
+      "prompt": {
+        "en": "Photograph a sign for a university department, a historical marker on campus, or a bulletin board full of flyers to capture the academic energy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-7",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Campus Colors"
+      },
+      "prompt": {
+        "en": "Find the university's colors (black and gold for FHSU) on a banner, a piece of clothing, or landscaping and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-8",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Quiet Courtyard"
+      },
+      "prompt": {
+        "en": "Discover a hidden or quiet courtyard on campus and capture its peaceful atmosphere in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-9",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Student Life"
+      },
+      "prompt": {
+        "en": "From a respectful distance, capture the energy of student life—people studying on the grass, walking to class, or playing frisbee."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-10",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Nature on Campus"
+      },
+      "prompt": {
+        "en": "Find the most beautiful tree, flowerbed, or natural feature on the campus grounds and take a close-up photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-11",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Dino Perspective"
+      },
+      "prompt": {
+        "en": "Take a photo of a campus building from a very low angle, making it look as large and imposing as a dinosaur."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-quarter-task-12",
+      "neighborhood_id": "university-quarter",
+      "title": {
+        "en": "Through the Archway"
+      },
+      "prompt": {
+        "en": "Find an archway or gate on campus and use it to frame a photo of the scene beyond it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-1",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Big Sky Panorama"
+      },
+      "prompt": {
+        "en": "Take a wide, panoramic photo that captures the vast, open sky of the Great Plains. Try to make the sky take up at least two-thirds of your image."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-2",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Frontier Texture"
+      },
+      "prompt": {
+        "en": "Find a weathered wooden fence, a historic limestone wall, or the rough bark of a plains tree and take a close-up shot focusing on its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-3",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Golden Hour Glow"
+      },
+      "prompt": {
+        "en": "If you're here near sunrise or sunset, capture a photo of how the warm, golden light illuminates the landscape, a historic building, or the bison."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-4",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "A Window to the Past"
+      },
+      "prompt": {
+        "en": "Frame a photo by looking through a window or doorway of one of the historic fort buildings out towards the modern world."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-5",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Lone Sentinel"
+      },
+      "prompt": {
+        "en": "Photograph a single, isolated object—like a solitary tree, a historic marker, or a single bison—against the wide-open landscape to emphasize a sense of solitude."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-6",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Picnic with a View"
+      },
+      "prompt": {
+        "en": "If you brought a picnic, take a photo of your setup with the bison herd or the old fort grounds visible in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-7",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Symbol of the Plains"
+      },
+      "prompt": {
+        "en": "Take your best photo of the American bison. Try to capture their power and their connection to the landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-8",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Path Less Traveled"
+      },
+      "prompt": {
+        "en": "Find a walking path or dirt trail and take a photo looking down its length, inviting the viewer into the scene."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-9",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Shadows of the Fort"
+      },
+      "prompt": {
+        "en": "Use the low sun of morning or afternoon to capture the long shadows cast by the historic fort buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-10",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Tough Flora"
+      },
+      "prompt": {
+        "en": "Find a hardy plains plant, like a yucca, a wildflower, or prairie grass, that is surviving in the tough environment and make it your subject."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-11",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Historic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with one of the original 1860s fort buildings. Try to imagine what life was like for the people who lived there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "frontier-park-task-12",
+      "neighborhood_id": "frontier-park",
+      "title": {
+        "en": "Sky and Stone"
+      },
+      "prompt": {
+        "en": "Compose a photo that contrasts the rough, heavy limestone of a fort building against the light, airy expanse of the Kansas sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "verified"
+}

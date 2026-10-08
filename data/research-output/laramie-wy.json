@@ -1,0 +1,600 @@
+{
+  "neighborhoods": [
+    {
+      "id": "university-campus-heart",
+      "city_id": "laramie-wy",
+      "name": {
+        "en": "University Campus Heart"
+      },
+      "summary": {
+        "en": "The cultural and intellectual hub of Laramie, this area is defined by grand sandstone architecture, sprawling lawns, and the daily energy of student life."
+      },
+      "lat": 41.3133,
+      "lng": -105.5831,
+      "trending_score": 85
+    },
+    {
+      "id": "historic-laramie-core",
+      "city_id": "laramie-wy",
+      "name": {
+        "en": "Historic Laramie Core"
+      },
+      "summary": {
+        "en": "Explore the compact downtown grid where the spirit of the Old West lives on in 19th-century facades and the stories of historic figures like Bill Nye."
+      },
+      "lat": 41.3119,
+      "lng": -105.5938,
+      "trending_score": 78
+    },
+    {
+      "id": "laramies-reflective-spaces",
+      "city_id": "laramie-wy",
+      "name": {
+        "en": "Laramie's Reflective Spaces"
+      },
+      "summary": {
+        "en": "Discover the quiet, contemplative side of Laramie in its community parks and poignant memorials, offering a glimpse into local life and national history."
+      },
+      "lat": 41.3145,
+      "lng": -105.5855,
+      "trending_score": 70
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "university-campus-heart-uw-campus",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "university-campus-heart",
+      "name": {
+        "en": "University of Wyoming Campus"
+      },
+      "description": {
+        "en": "A sprawling, park-like campus with a mix of classic sandstone buildings and modern structures, perfect for an aimless, atmospheric walk."
+      },
+      "type": "landmark",
+      "lat": 41.3135,
+      "lng": -105.5833,
+      "trending_score": 88
+    },
+    {
+      "id": "university-campus-heart-prexys-pasture",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "university-campus-heart",
+      "name": {
+        "en": "Prexy's Pasture"
+      },
+      "description": {
+        "en": "The heart of the original campus, this large, open lawn is a central green space surrounded by major academic buildings."
+      },
+      "type": "nature",
+      "lat": 41.3138,
+      "lng": -105.5839,
+      "trending_score": 80
+    },
+    {
+      "id": "university-campus-heart-wyoming-union",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "university-campus-heart",
+      "name": {
+        "en": "Wyoming Union"
+      },
+      "description": {
+        "en": "The student union building on the University of Wyoming campus, a hub of activity and the location of a significant memorial."
+      },
+      "type": "culture",
+      "lat": 41.3122,
+      "lng": -105.5824,
+      "trending_score": 75
+    },
+    {
+      "id": "historic-laramie-core-bill-nye-trail",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "historic-laramie-core",
+      "name": {
+        "en": "Bill Nye Trail (Self-Guided)"
+      },
+      "description": {
+        "en": "A self-guided exploration of historic downtown, imagining the town through the eyes of 19th-century humorist Edgar Wilson 'Bill' Nye who lived and worked here."
+      },
+      "type": "culture",
+      "lat": 41.3115,
+      "lng": -105.5945,
+      "trending_score": 72
+    },
+    {
+      "id": "historic-laramie-core-ivinson-avenue",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "historic-laramie-core",
+      "name": {
+        "en": "Historic Ivinson Avenue"
+      },
+      "description": {
+        "en": "A key street in the historic downtown grid, perfect for discovering local eateries and observing 19th-century architecture."
+      },
+      "type": "landmark",
+      "lat": 41.3125,
+      "lng": -105.5941,
+      "trending_score": 68
+    },
+    {
+      "id": "historic-laramie-core-grand-avenue",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "historic-laramie-core",
+      "name": {
+        "en": "Historic Grand Avenue"
+      },
+      "description": {
+        "en": "One of downtown Laramie's main thoroughfares, offering opportunities to find local restaurants and soak in the historic atmosphere."
+      },
+      "type": "landmark",
+      "lat": 41.3109,
+      "lng": -105.5935,
+      "trending_score": 67
+    },
+    {
+      "id": "laramies-reflective-spaces-shepard-bench",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "name": {
+        "en": "Matthew Shepard Memorial Bench"
+      },
+      "description": {
+        "en": "A powerful, understated memorial to the university student whose 1998 murder was a turning point for LGBTQ+ rights in America."
+      },
+      "type": "landmark",
+      "lat": 41.3123,
+      "lng": -105.5821,
+      "trending_score": 95
+    },
+    {
+      "id": "laramies-reflective-spaces-washington-park",
+      "city_id": "laramie-wy",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "name": {
+        "en": "Washington Park"
+      },
+      "description": {
+        "en": "One of the city's oldest parks, this large, tree-filled expanse offers an authentic glimpse into local life and the town's unhurried pace."
+      },
+      "type": "nature",
+      "lat": 41.3172,
+      "lng": -105.5894,
+      "trending_score": 76
+    }
+  ],
+  "tasks": [
+    {
+      "id": "university-campus-heart-task-1",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Campus Architect"
+      },
+      "prompt": {
+        "en": "Find the oldest and newest buildings you can see from one spot. Take a photo that captures both, showing the contrast in architectural styles."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-2",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Signs of Student Life"
+      },
+      "prompt": {
+        "en": "Photograph a detail that could only exist on a university campus—a flyer for a club, a creatively decorated dorm window, or a well-used bike rack."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-3",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Public Art Perspective"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or sculpture and take a photo of it from an unusual angle—from ground level, through foliage, or capturing its reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-4",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Scholarly Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in front of the most impressive academic building you can find, striking a thoughtful, scholarly pose."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-5",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Hidden Garden Hunter"
+      },
+      "prompt": {
+        "en": "Many campuses have small, hidden gardens or quiet quads. Find one and capture a photo that conveys its peaceful atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-6",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Sandstone Textures"
+      },
+      "prompt": {
+        "en": "Get up close to one of the classic sandstone buildings and take a detailed photo of its texture and color."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-7",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Campus Pathways"
+      },
+      "prompt": {
+        "en": "Take a photo looking down a long, tree-lined path or walkway, emphasizing the lines and perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-8",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "University Colors"
+      },
+      "prompt": {
+        "en": "Find the university's official colors (brown and gold) represented somewhere on campus and make them the subject of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-9",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "The Perfect Study Spot"
+      },
+      "prompt": {
+        "en": "Find a bench or patch of grass that looks like the absolute perfect place to study or read a book. Photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-10",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Echoes of Learning"
+      },
+      "prompt": {
+        "en": "Capture an image that represents knowledge or learning—a library window, a lecture hall sign, or a statue of a historic figure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-11",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Campus Flow"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the movement and energy of people walking between classes."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-campus-heart-task-12",
+      "neighborhood_id": "university-campus-heart",
+      "title": {
+        "en": "Nature Meets Knowledge"
+      },
+      "prompt": {
+        "en": "Photograph a scene where the natural, park-like landscape of the campus interacts with the man-made academic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-1",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "1880s Time Traveler"
+      },
+      "prompt": {
+        "en": "Find a building facade that looks like it's straight out of the 1880s. Photograph it in black and white to enhance its historic feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-2",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Old West Detail"
+      },
+      "prompt": {
+        "en": "Find a small architectural detail that evokes the Old West—faded paint on brick, an old-fashioned sign font, or ornate ironwork. Make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-3",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Ghost Sign Hunter"
+      },
+      "prompt": {
+        "en": "Look for faint, painted advertisements on the sides of old brick buildings. Capture the best 'ghost sign' you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-4",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Cornerstone Quest"
+      },
+      "prompt": {
+        "en": "Search for a cornerstone or historical marker with a date on it. Take a photo of the oldest date you can find in the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-5",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Modern Cowboy Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that blends the historic, Old West background with a modern element, like you listening to headphones or checking your phone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-6",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Street Grid Perspective"
+      },
+      "prompt": {
+        "en": "Stand in a safe spot and take a photo looking down one of the long, straight streets of the downtown grid, emphasizing the sense of perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-7",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Local Flavor Finder"
+      },
+      "prompt": {
+        "en": "The report mentions seeking out non-chain spots. Photograph the storefront of the most interesting-looking independent shop or eatery you see."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-8",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows a historic building next to a modern car or sign, highlighting the passage of time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-9",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Upper Story Secrets"
+      },
+      "prompt": {
+        "en": "Look up! The most interesting architectural details are often on the second or third floors of old buildings. Photograph a cool window, cornice, or brick pattern above street level."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-10",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Reflections of History"
+      },
+      "prompt": {
+        "en": "Find a modern window or puddle that reflects an old, historic building. Capture the reflection."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-11",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "Shadows of the West"
+      },
+      "prompt": {
+        "en": "Use the late afternoon sun to capture dramatic shadows cast by the historic downtown buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-laramie-core-task-12",
+      "neighborhood_id": "historic-laramie-core",
+      "title": {
+        "en": "The Town Wit"
+      },
+      "prompt": {
+        "en": "Channeling the spirit of humorist Bill Nye, find something in the streetscape that strikes you as quirky or funny and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-1",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "A Quiet Moment"
+      },
+      "prompt": {
+        "en": "Find a simple, empty park bench and take a photo of it. Try to capture a sense of peace and quiet dignity."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-2",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Wyoming Sky"
+      },
+      "prompt": {
+        "en": "Find an open space in a park and take a photo that is at least two-thirds sky. Capture the vastness of the high-plains sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-3",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Slice of Local Life"
+      },
+      "prompt": {
+        "en": "Without being intrusive, capture an image that shows how locals use these green spaces—a dog being walked, a game of catch, or someone reading on the grass."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-4",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "The Oldest Tree"
+      },
+      "prompt": {
+        "en": "Find the most ancient-looking tree in the area. Take a photo that emphasizes its gnarled bark, thick trunk, and character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-5",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Contemplative Selfie"
+      },
+      "prompt": {
+        "en": "Find a peaceful spot and take a selfie looking thoughtful or reflective, with the natural or memorial background setting the mood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-6",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Nature's Textures"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of a natural texture: tree bark, a fallen leaf, blades of grass, or the surface of a stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-7",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Light and Shadow"
+      },
+      "prompt": {
+        "en": "Photograph the way sunlight filters through tree leaves, creating patterns of light and shadow on the ground."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-8",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Community's Backyard"
+      },
+      "prompt": {
+        "en": "Capture an image of a simple park feature—a water fountain, a swing set, a picnic table—that represents the idea of a shared community space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-9",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "A Plaque's Story"
+      },
+      "prompt": {
+        "en": "Find any plaque or inscription on a bench, statue, or monument. Take a photo focusing on a few powerful words."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-10",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Un-Touristy View"
+      },
+      "prompt": {
+        "en": "Take a photo of a scene that feels completely ordinary and authentic to Laramie, something a tourist might normally overlook."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-11",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Color of the Season"
+      },
+      "prompt": {
+        "en": "Find a plant, tree, or flower that best represents the current season in Laramie and make it the star of your photograph."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "laramies-reflective-spaces-task-12",
+      "neighborhood_id": "laramies-reflective-spaces",
+      "title": {
+        "en": "Path to Tranquility"
+      },
+      "prompt": {
+        "en": "Photograph a walking path as it curves and disappears into the distance, inviting a peaceful stroll."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}

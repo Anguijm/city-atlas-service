@@ -1,0 +1,312 @@
+{
+  "neighborhoods": [
+    {
+      "id": "historic-downtown-winnemucca",
+      "city_id": "winnemucca-nv",
+      "name": {
+        "en": "Historic Downtown Winnemucca"
+      },
+      "summary": {
+        "en": "A living museum of the American West, this district features historic brick buildings, vintage neon signs, and a quiet pioneer spirit rooted in its 'Buckaroo' culture."
+      },
+      "lat": 40.973,
+      "lng": -117.7358,
+      "trending_score": 75
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "historic-downtown-winnemucca-the-martin-hotel-bar",
+      "city_id": "winnemucca-nv",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "name": {
+        "en": "The Martin Hotel Bar"
+      },
+      "description": {
+        "en": "A classic, unpretentious bar in a historic hotel, serving as a time capsule of the town's Basque heritage and a gathering place for local ranchers."
+      },
+      "type": "drink",
+      "lat": 40.9725,
+      "lng": -117.7365,
+      "trending_score": 90
+    },
+    {
+      "id": "historic-downtown-winnemucca-the-martin-hotel-restaurant",
+      "city_id": "winnemucca-nv",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "name": {
+        "en": "The Martin Hotel Restaurant"
+      },
+      "description": {
+        "en": "The definitive Winnemucca dining experience, renowned for its traditional, family-style Basque dinners that reflect the region's sheepherding history."
+      },
+      "type": "food",
+      "lat": 40.9725,
+      "lng": -117.7365,
+      "trending_score": 92
+    },
+    {
+      "id": "historic-downtown-winnemucca-humboldt-museum",
+      "city_id": "winnemucca-nv",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "name": {
+        "en": "Humboldt Museum"
+      },
+      "description": {
+        "en": "A quintessential small-town museum featuring impressive mammoth bones, pioneer history, and exhibits on the local legend of the Si-Te-Cah."
+      },
+      "type": "culture",
+      "lat": 40.9785,
+      "lng": -117.7305,
+      "trending_score": 80
+    },
+    {
+      "id": "historic-downtown-winnemucca-sea-highway-marker",
+      "city_id": "winnemucca-nv",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "name": {
+        "en": "Winnemucca to the Sea Highway Marker"
+      },
+      "description": {
+        "en": "A quirky roadside monument featuring a massive slab of driftwood, marking the start of State Route 140 and a dream of connecting the town to the Pacific."
+      },
+      "type": "hidden_gem",
+      "lat": 40.9768,
+      "lng": -117.7401,
+      "trending_score": 78
+    },
+    {
+      "id": "historic-downtown-winnemucca-buckaroo-hall-of-fame",
+      "city_id": "winnemucca-nv",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "name": {
+        "en": "Buckaroo Hall of Fame and Heritage Museum"
+      },
+      "description": {
+        "en": "This museum celebrates the distinct culture of the Great Basin 'Buckaroo,' showcasing incredible leatherwork, custom saddles, and local ranching history."
+      },
+      "type": "culture",
+      "lat": 40.9715,
+      "lng": -117.735,
+      "trending_score": 85
+    }
+  ],
+  "tasks": [
+    {
+      "id": "historic-downtown-winnemucca-task-1",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Desert Sky Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie with the vast, high-desert sky as your backdrop. Try to capture the unique quality of the light."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-2",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Buckaroo Spirit"
+      },
+      "prompt": {
+        "en": "Find an example of 'Buckaroo' culture, whether it's a piece of clothing, a sign, or a work of art, and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-3",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Neon Glow"
+      },
+      "prompt": {
+        "en": "Capture the nostalgic glow of a vintage neon sign. Bonus points for capturing it at twilight."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-4",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Old West Architecture"
+      },
+      "prompt": {
+        "en": "Find a historic brick building that looks like it's straight out of a Western film and take a dramatic photo of its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-5",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Paved Street Pride"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot of one of Winnemucca's famous 'paved streets,' emphasizing its place in the middle of the desert landscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-6",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Basque Heritage Clue"
+      },
+      "prompt": {
+        "en": "Find a symbol or sign that hints at the town's Basque heritage. It could be a name, a flag, or a menu item."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-7",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Railroad Remnants"
+      },
+      "prompt": {
+        "en": "The transcontinental railroad shaped this town. Find a visual reminder of its railway history and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-8",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Frontier Flavors"
+      },
+      "prompt": {
+        "en": "Take a picture of a local dish or drink that feels unique to Northern Nevada. Describe what makes it special."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-9",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "A Story in Stone"
+      },
+      "prompt": {
+        "en": "Photograph a historic marker or plaque. What piece of Winnemucca's story does it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-10",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Roadside Quirk"
+      },
+      "prompt": {
+        "en": "Find something delightfully quirky or out of place—a unique statue, a strange sign, or an odd piece of decor—and capture its charm."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-11",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "The Unpretentious Vibe"
+      },
+      "prompt": {
+        "en": "Take a photo that you feel perfectly captures the unpretentious, pioneer spirit of downtown Winnemucca."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-12",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Shadow of the West"
+      },
+      "prompt": {
+        "en": "Play with the strong desert sun and capture a photo of interesting shadows cast by a historic building or object."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-13",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Cowboy Craftsmanship"
+      },
+      "prompt": {
+        "en": "Find an example of detailed craftsmanship, like leatherwork, metalwork, or woodwork, that reflects the town's heritage."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-14",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "High Desert Flora"
+      },
+      "prompt": {
+        "en": "Even in the desert, life finds a way. Photograph a resilient plant or flower growing in an unexpected urban spot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-15",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Take a photo that contrasts the old with the new in Winnemucca. It could be a historic building next to a modern car, for example."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-16",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "The Gathering Place"
+      },
+      "prompt": {
+        "en": "Find a spot that looks like a classic local hangout—a bar, a cafe, or a park bench—and capture its welcoming atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-17",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Twilight Transformation"
+      },
+      "prompt": {
+        "en": "As the sun sets, the desert light changes dramatically. Capture a photo of a downtown street during the 'blue hour' just after sunset."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "historic-downtown-winnemucca-task-18",
+      "neighborhood_id": "historic-downtown-winnemucca",
+      "title": {
+        "en": "Spirit of the West Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that embodies the spirit of the American West. Find a backdrop that feels historic and rugged."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

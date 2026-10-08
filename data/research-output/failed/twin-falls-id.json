@@ -1,0 +1,225 @@
+{
+  "neighborhoods": [
+    {
+      "id": "canyon-rim-trail",
+      "city_id": "twin-falls-id",
+      "name": {
+        "en": "The Canyon Rim Trail & Perrine Bridge Gateway"
+      },
+      "summary": {
+        "en": "Windswept, dramatic, and inspiring, this area is an open-air museum where raw nature, daredevil history, and engineering marvels converge."
+      },
+      "lat": 42.6001,
+      "lng": -114.4558,
+      "trending_score": 92
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "canyon-rim-trail-perrine-bridge",
+      "city_id": "twin-falls-id",
+      "neighborhood_id": "canyon-rim-trail",
+      "name": {
+        "en": "I. B. Perrine Bridge"
+      },
+      "description": {
+        "en": "A world-famous stage for extreme sports, this is the only man-made structure in the U.S. where BASE jumping is legal year-round without a permit, 486 feet above the Snake River."
+      },
+      "type": "viewpoint",
+      "lat": 42.60083,
+      "lng": -114.45651,
+      "trending_score": 98
+    },
+    {
+      "id": "canyon-rim-trail-evel-knievel-jump-site",
+      "city_id": "twin-falls-id",
+      "neighborhood_id": "canyon-rim-trail",
+      "name": {
+        "en": "Evel Knievel's Snake River Canyon Jump Site"
+      },
+      "description": {
+        "en": "A monument to glorious failure, this large earthen ramp is the exact spot where the daredevil attempted to launch his steam-powered 'Sky-Cycle' across the canyon in 1974."
+      },
+      "type": "landmark",
+      "lat": 42.5985,
+      "lng": -114.4515,
+      "trending_score": 85
+    },
+    {
+      "id": "canyon-rim-trail-shoshone-falls",
+      "city_id": "twin-falls-id",
+      "neighborhood_id": "canyon-rim-trail",
+      "name": {
+        "en": "Shoshone Falls"
+      },
+      "description": {
+        "en": "Known as the 'Niagara of the West,' this geological marvel is 45 feet taller than its famous counterpart, thundering over a 900-foot-wide rim of basalt."
+      },
+      "type": "nature",
+      "lat": 42.5958,
+      "lng": -114.4015,
+      "trending_score": 99
+    },
+    {
+      "id": "canyon-rim-trail-lost-twin-falls",
+      "city_id": "twin-falls-id",
+      "neighborhood_id": "canyon-rim-trail",
+      "name": {
+        "en": "The 'Lost' Twin Falls Waterfall"
+      },
+      "description": {
+        "en": "A hidden history lesson where one of the city's namesake falls was sacrificed for hydroelectric power, leaving a poignant reminder of the negotiation between nature and industry."
+      },
+      "type": "hidden_gem",
+      "lat": 42.5941,
+      "lng": -114.4032,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "canyon-rim-trail-task-1",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Canyon Vistas"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the immense scale and depth of the Snake River Canyon from the trail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-2",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Windswept Selfie"
+      },
+      "prompt": {
+        "en": "The canyon rim is known for its wind. Take a selfie that shows your hair blowing in the breeze."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-3",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Daredevil's Pose"
+      },
+      "prompt": {
+        "en": "Strike a pose like a daredevil about to take on the canyon. Be safe and stay behind the railings!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-4",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "BASE Jumper Watch"
+      },
+      "prompt": {
+        "en": "Find a safe spot to watch for BASE jumpers from the Perrine Bridge. Can you capture a photo of one in mid-air?"
+      },
+      "points": 15,
+      "duration_minutes": 10
+    },
+    {
+      "id": "canyon-rim-trail-task-5",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "River Below"
+      },
+      "prompt": {
+        "en": "Take a photo looking straight down at the Snake River, trying to make it look like a tiny ribbon."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-6",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Geology Explorer"
+      },
+      "prompt": {
+        "en": "Find an interesting rock formation along the canyon wall and take a close-up photo of its texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-7",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Sign Seeker"
+      },
+      "prompt": {
+        "en": "Locate an informational plaque along the trail and take a photo of the most interesting fact you learn."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-8",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Sounds of the Canyon"
+      },
+      "prompt": {
+        "en": "Take a short video and try to capture the sound of the wind whistling over the canyon's edge."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-9",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Bridge Framer"
+      },
+      "prompt": {
+        "en": "Use the steel arches of the Perrine Bridge to frame a beautiful shot of the canyon beyond it."
+      },
+      "points": 15,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-10",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Nature's Art"
+      },
+      "prompt": {
+        "en": "Find a wildflower, a hardy shrub, or a piece of sagebrush growing near the rim and take an artistic photo of it with the canyon blurred in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-11",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture a photo of your own shadow stretching out over the canyon rim."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "canyon-rim-trail-task-12",
+      "neighborhood_id": "canyon-rim-trail",
+      "title": {
+        "en": "Raptor Spotting"
+      },
+      "prompt": {
+        "en": "Look to the skies! Can you spot a hawk, eagle, or other bird of prey soaring on the updrafts? Try to get a picture."
+      },
+      "points": 15,
+      "duration_minutes": 10
+    }
+  ]
+}

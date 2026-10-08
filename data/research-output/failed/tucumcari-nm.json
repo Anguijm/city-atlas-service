@@ -1,0 +1,282 @@
+{
+  "neighborhoods": [
+    {
+      "id": "tucumcari-route-66",
+      "city_id": "tucumcari-nm",
+      "name": {
+        "en": "Tucumcari's Historic Route 66 Corridor"
+      },
+      "summary": {
+        "en": "Step into a preserved 1950s film set, where vintage motels, sprawling murals, and vibrant neon signs tell the story of the Mother Road's golden age."
+      },
+      "lat": 35.1715,
+      "lng": -103.725,
+      "trending_score": 85
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "tucumcari-route-66-murals",
+      "city_id": "tucumcari-nm",
+      "neighborhood_id": "tucumcari-route-66",
+      "name": {
+        "en": "The Tucumcari Murals"
+      },
+      "description": {
+        "en": "An outdoor art gallery of over 50 large-scale murals depicting Route 66 history, the Old West, and New Mexico culture."
+      },
+      "type": "culture",
+      "lat": 35.1718,
+      "lng": -103.7275,
+      "trending_score": 90
+    },
+    {
+      "id": "tucumcari-route-66-blue-swallow",
+      "city_id": "tucumcari-nm",
+      "neighborhood_id": "tucumcari-route-66",
+      "name": {
+        "en": "The Blue Swallow Motel Sign"
+      },
+      "description": {
+        "en": "An iconic, beautifully restored neon sign that is a masterpiece of mid-century advertising art and a powerful symbol of the Mother Road."
+      },
+      "type": "landmark",
+      "lat": 35.1735,
+      "lng": -103.7161,
+      "trending_score": 98
+    },
+    {
+      "id": "tucumcari-route-66-ghosts",
+      "city_id": "tucumcari-nm",
+      "neighborhood_id": "tucumcari-route-66",
+      "name": {
+        "en": "Architectural Ghosts of the Mother Road"
+      },
+      "description": {
+        "en": "Discover the faded beauty of former motels, cafes, and service stations with unique Googie-style and Art Deco details."
+      },
+      "type": "hidden_gem",
+      "lat": 35.1725,
+      "lng": -103.721,
+      "trending_score": 80
+    }
+  ],
+  "tasks": [
+    {
+      "id": "tucumcari-route-66-task-1",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Neon Dreams"
+      },
+      "prompt": {
+        "en": "Capture the vibrant glow of a vintage neon sign just after sunset during the 'blue hour'."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-2",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Ghost Sign Chronicle"
+      },
+      "prompt": {
+        "en": "Find a faded, hand-painted advertisement on a brick wall and capture its weathered texture. Try it in black and white."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-3",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Mid-Century Modern Lines"
+      },
+      "prompt": {
+        "en": "Photograph a building with distinctive 1950s or 60s architectural details, like sharp angles or geometric patterns."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-4",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "The Endless Road"
+      },
+      "prompt": {
+        "en": "Take a photo looking down Route 66, capturing the feeling of an endless American journey."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-5",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Mural Storyteller"
+      },
+      "prompt": {
+        "en": "Find a mural and take a photo of a specific detail that you think tells the most interesting story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-6",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Rust and Resilience"
+      },
+      "prompt": {
+        "en": "Capture a close-up detail of a weathered sign or abandoned building that shows both decay and beauty."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-7",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Slogan Search"
+      },
+      "prompt": {
+        "en": "Find a business with a classic slogan like 'Tucumcari Tonite!' or 'Refrigerated Air' and snap a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-8",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Architectural Detective"
+      },
+      "prompt": {
+        "en": "Identify a building with Googie-style architecture (think space-age angles and shapes) and photograph its most unique feature."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-9",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Gasoline Ghost"
+      },
+      "prompt": {
+        "en": "Locate a former service station. Based on its shape or colors, what brand of gas do you think it sold?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-10",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Diner Details"
+      },
+      "prompt": {
+        "en": "Peek inside a classic diner and spot a vintage detail, like a jukebox, a chrome stool, or a formica countertop."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-11",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Route 66 Wanderer"
+      },
+      "prompt": {
+        "en": "Take a selfie with an iconic Route 66 shield sign painted on the road or on a signpost."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-12",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Reflected in the Past"
+      },
+      "prompt": {
+        "en": "Capture your reflection in the window of a vintage shop or an old motel office."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-13",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Mural Me"
+      },
+      "prompt": {
+        "en": "Pose as if you are part of the scene in one of Tucumcari's many murals."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-14",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Sounds of the Boulevard"
+      },
+      "prompt": {
+        "en": "Pause for a moment. What do you hear? The wind, a passing train, classic rock from a car? Describe the soundscape."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-15",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "The Survivor"
+      },
+      "prompt": {
+        "en": "Find the oldest-looking business that is still in operation. What do you think is the secret to its longevity?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-16",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Roadside Color Palette"
+      },
+      "prompt": {
+        "en": "Note the dominant colors of the old signs and buildings. What mood does this color scheme create? Capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-17",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Diner's Delight"
+      },
+      "prompt": {
+        "en": "Step into a local diner and order a classic American meal like a burger and a milkshake. Snap a pic before you dig in!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "tucumcari-route-66-task-18",
+      "neighborhood_id": "tucumcari-route-66",
+      "title": {
+        "en": "Roadside Refreshment"
+      },
+      "prompt": {
+        "en": "Find a local spot for a coffee or a cold drink and take a photo that captures its authentic, time-worn atmosphere."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
+}

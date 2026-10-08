@@ -287,7 +287,11 @@ def run_city_research(city_id: str, ingest: bool = False, mode: str = "notebookl
                 "id": city_id,
                 "status": "failed",
                 "started_at": started_at,
-                "error": result.stderr[-500:] if result.stderr else f"Exit code {result.returncode}",
+                # research_city.py prints its failures (Phase C's structural
+                # errors, a missing key) to stdout, so stderr is usually
+                # empty; fall back to stdout's tail rather than a bare exit
+                # code, or a batch log says only "Exit code 1".
+                "error": (result.stderr or result.stdout or "")[-500:].strip() or f"Exit code {result.returncode}",
                 "duration_s": round(duration),
             }
 

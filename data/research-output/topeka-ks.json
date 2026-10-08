@@ -1,0 +1,570 @@
+{
+  "neighborhoods": [
+    {
+      "id": "downtown-capitol",
+      "city_id": "topeka-ks",
+      "name": {
+        "en": "Downtown & The Capitol Grounds"
+      },
+      "summary": {
+        "en": "This is the civic and historical heart of Kansas, a mix of stately government buildings and surprising pockets of grassroots history painted on flood walls."
+      },
+      "lat": 39.0474,
+      "lng": -95.6799,
+      "trending_score": 85
+    },
+    {
+      "id": "noto-arts-district",
+      "city_id": "topeka-ks",
+      "name": {
+        "en": "NOTO Arts & Entertainment District"
+      },
+      "summary": {
+        "en": "North of the Kansas River, NOTO is Topeka's creative soul, an eclectic and independent neighborhood revitalized by artists and entrepreneurs."
+      },
+      "lat": 39.0555,
+      "lng": -95.6715,
+      "trending_score": 90
+    },
+    {
+      "id": "west-topeka-gage-park",
+      "city_id": "topeka-ks",
+      "name": {
+        "en": "West Topeka & Gage Park"
+      },
+      "summary": {
+        "en": "A sprawling green escape where nature, culture, and history converge, centered around the massive Gage Park."
+      },
+      "lat": 39.043,
+      "lng": -95.725,
+      "trending_score": 80
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "downtown-capitol-kansas-capitol",
+      "city_id": "topeka-ks",
+      "neighborhood_id": "downtown-capitol",
+      "name": {
+        "en": "Kansas State Capitol Cupola"
+      },
+      "description": {
+        "en": "Climb 296 steps for an unparalleled, open-air panoramic view of Topeka from inside the iconic dome."
+      },
+      "type": "viewpoint",
+      "lat": 39.0476,
+      "lng": -95.6783,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-capitol-mural-wall",
+      "city_id": "topeka-ks",
+      "neighborhood_id": "downtown-capitol",
+      "name": {
+        "en": "Great Mural Wall of Topeka"
+      },
+      "description": {
+        "en": "A massive outdoor gallery along the Shunganunga Creek levee, this community-painted history book depicts key moments in Topeka's story."
+      },
+      "type": "culture",
+      "lat": 39.052,
+      "lng": -95.6708,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-capitol-brown-v-board",
+      "city_id": "topeka-ks",
+      "neighborhood_id": "downtown-capitol",
+      "name": {
+        "en": "Brown v. Board of Education National Historic Site"
+      },
+      "description": {
+        "en": "Housed in the former Monroe Elementary School, this powerful site commemorates the landmark 1954 Supreme Court decision."
+      },
+      "type": "landmark",
+      "lat": 39.0369,
+      "lng": -95.6739,
+      "trending_score": 92
+    },
+    {
+      "id": "noto-arts-district-overland-station",
+      "city_id": "topeka-ks",
+      "neighborhood_id": "noto-arts-district",
+      "name": {
+        "en": "Great Overland Station"
+      },
+      "description": {
+        "en": "A beautifully preserved 1927 railroad station that is a monument to the golden age of train travel, now housing museums."
+      },
+      "type": "landmark",
+      "lat": 39.0583,
+      "lng": -95.6718,
+      "trending_score": 85
+    },
+    {
+      "id": "west-topeka-gage-park-rose-garden",
+      "city_id": "topeka-ks",
+      "neighborhood_id": "west-topeka-gage-park",
+      "name": {
+        "en": "Reinisch Rose Garden & Doran Rock Garden"
+      },
+      "description": {
+        "en": "A stunningly beautiful and serene oasis within Gage Park, featuring over 400 varieties of roses and a meditative rock garden with waterfalls."
+      },
+      "type": "nature",
+      "lat": 39.0445,
+      "lng": -95.7245,
+      "trending_score": 87
+    },
+    {
+      "id": "west-topeka-gage-park-zoo-rainforest",
+      "city_id": "topeka-ks",
+      "neighborhood_id": "west-topeka-gage-park",
+      "name": {
+        "en": "Topeka Zoo's Indoor Rainforest"
+      },
+      "description": {
+        "en": "Step out of the Kansas plains and into the first indoor tropical rainforest built in a U.S. zoo, complete with free-flying birds."
+      },
+      "type": "culture",
+      "lat": 39.0417,
+      "lng": -95.7258,
+      "trending_score": 82
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-capitol-task-1",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Civic Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a stately government building in the background. Look as official as possible!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-2",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Echoes of History"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or monument and take a photo of a detail that tells a story."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-3",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Monumental Perspective"
+      },
+      "prompt": {
+        "en": "Use a low angle to photograph a statue or building, making it look grand and imposing against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-4",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Street Art Story"
+      },
+      "prompt": {
+        "en": "Find a piece of public art or a mural that represents Topeka's community spirit and capture its most vibrant section."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-5",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Reflections of Power"
+      },
+      "prompt": {
+        "en": "Capture the reflection of an old, historic building in the glass of a modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-6",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Avenue Explorer"
+      },
+      "prompt": {
+        "en": "Take a photo down one of the wide avenues, capturing the sense of scale and openness."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-7",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Taste of Downtown"
+      },
+      "prompt": {
+        "en": "Find a local cafe or eatery and photograph the most tempting item on their menu through the window."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-8",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Hidden History"
+      },
+      "prompt": {
+        "en": "Photograph a detail on a building that looks like it has a secret story to tell—a faded sign, an old cornerstone, or a unique carving."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-9",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting pattern made by the shadows of buildings or trees on the sidewalk."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-10",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Kansas Sky"
+      },
+      "prompt": {
+        "en": "Frame a shot that contrasts the sharp lines of a building with the vast, open Kansas sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-11",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "People's Story"
+      },
+      "prompt": {
+        "en": "Find a public bench or plaza and take a photo that captures a quiet, personal moment in this civic space."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-capitol-task-12",
+      "neighborhood_id": "downtown-capitol",
+      "title": {
+        "en": "Architectural Detail"
+      },
+      "prompt": {
+        "en": "Zoom in on an interesting architectural feature—a gargoyle, a column, or intricate brickwork—on one of the historic buildings."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-1",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Color Explosion"
+      },
+      "prompt": {
+        "en": "Find the most colorful building facade or mural and take a photo that captures its vibrant energy."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-2",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Creative Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie where you blend in with a piece of street art or a public sculpture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-3",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Independent Spirit"
+      },
+      "prompt": {
+        "en": "Photograph a sign or storefront of an independent, locally-owned business that looks unique."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-4",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Art in Unexpected Places"
+      },
+      "prompt": {
+        "en": "Find a piece of art where you wouldn't expect it—on a utility box, in an alley, or on a bench—and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-5",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Old Meets New"
+      },
+      "prompt": {
+        "en": "Capture a detail that shows an old building being given new life through art or renovation."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-6",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Eclectic Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of an interesting texture you find on a wall, sculpture, or piece of art."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-7",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Community Canvas"
+      },
+      "prompt": {
+        "en": "Photograph a piece of public art that feels like it was made by the community, for the community."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-8",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Artist's Fuel"
+      },
+      "prompt": {
+        "en": "Find a cool-looking coffee shop or cafe and take a picture of its artistic vibe from the outside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-9",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Message on a Wall"
+      },
+      "prompt": {
+        "en": "Find a mural or graffiti that has a powerful message and capture it in a photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-10",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Revitalization in Action"
+      },
+      "prompt": {
+        "en": "Take a photo that shows the contrast between an older, untouched part of a building and a newly renovated or painted section."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-11",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Gallery Gaze"
+      },
+      "prompt": {
+        "en": "Take a photo looking through the window of an art gallery, capturing the art inside."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "noto-arts-district-task-12",
+      "neighborhood_id": "noto-arts-district",
+      "title": {
+        "en": "Streetlight Spotlight"
+      },
+      "prompt": {
+        "en": "Find a uniquely designed streetlight or signpost and photograph it against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-1",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Nature's Frame"
+      },
+      "prompt": {
+        "en": "Use leaves, branches, or flowers to create a natural frame around a scenic view in the park."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-2",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Path to Discovery"
+      },
+      "prompt": {
+        "en": "Find an inviting path or trail and take a photo that makes you want to see where it leads."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-3",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Green Escape Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie in the greenest, most lush spot you can find."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-4",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Macro Marvel"
+      },
+      "prompt": {
+        "en": "Get up close and personal with nature. Take a macro photo of a flower petal, a leaf's veins, or an interesting insect."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-5",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Water's Reflection"
+      },
+      "prompt": {
+        "en": "Find a pond, fountain, or even a puddle and capture the reflection of the sky or trees in the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-6",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "A Moment of Zen"
+      },
+      "prompt": {
+        "en": "Find a quiet bench with a beautiful view and take a photo from its perspective."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-7",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Living History"
+      },
+      "prompt": {
+        "en": "Photograph an old, majestic tree that looks like it has been standing for centuries."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-8",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Seasonal Snapshot"
+      },
+      "prompt": {
+        "en": "Take a photo that perfectly captures the current season—blooming flowers for spring, colorful leaves for fall, etc."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-9",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Park Life"
+      },
+      "prompt": {
+        "en": "Capture a photo of people enjoying the park—playing, relaxing, or walking."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-10",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Sky View"
+      },
+      "prompt": {
+        "en": "Lie down in the grass and take a photo looking straight up through the tree canopy at the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-11",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Stone and Petal"
+      },
+      "prompt": {
+        "en": "Find a spot where man-made stone (like a path or statue) meets natural elements (like flowers or grass) and capture the contrast."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "west-topeka-gage-park-task-12",
+      "neighborhood_id": "west-topeka-gage-park",
+      "title": {
+        "en": "Local Mystery"
+      },
+      "prompt": {
+        "en": "Find something that seems out of place or has a mysterious story behind it and take a photo that enhances the intrigue."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
