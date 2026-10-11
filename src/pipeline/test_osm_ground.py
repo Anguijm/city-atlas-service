@@ -36,10 +36,11 @@ def test_only_an_exact_name_confirms():
 
 
 def test_a_contained_name_keeps_the_waypoint_unconfirmed_and_untouched():
-    w = dict(wp("Wave Pizza Company", 40.0, -98.0), description={"en": "Pizza."})
+    w = dict(wp("Wave Pizza Company", 40.0, -98.0), description={"en": "Perpetually lively."})
     kept, confirmed, dropped = ground_waypoints([w, wp("Balz Sports Bar")], PLACES, MD, "")
     assert [k["name"]["en"] for k in kept] == ["Wave Pizza Company"]
-    assert (kept[0]["lat"], kept[0]["description"]) == (40.0, {"en": "Pizza."})
+    assert kept[0]["lat"] == 40.0
+    assert "description" not in kept[0]  # the listing has no street for Wave Pizza
     assert confirmed == set()
     assert dropped == ["Balz Sports Bar"]
 
@@ -86,3 +87,11 @@ def test_a_confirmed_place_takes_the_mapped_spelling():
     kept, confirmed, _ = ground_waypoints([wp("wave pizza")], PLACES, MD, "")
     assert kept[0]["name"] == {"en": "Wave Pizza"}
     assert confirmed == {"wave pizza"}
+
+
+def test_a_contained_name_takes_the_listing_description_unless_a_source_describes_it():
+    places = parse_osm_markdown("- **Baribal Coffee** — cafe — 314 North Walnut Street — 40.92499, -98.34402\n")
+    ws = [dict(wp("Baribal Coffee House"), description={"en": "Single origin."}),
+          dict(wp("Baribal Coffee Roasters"), description={"en": "Roasts on site."})]
+    kept, _, _ = ground_waypoints(ws, places, "", "Baribal Coffee Roasters roasts on site.")
+    assert [k["description"]["en"] for k in kept] == ["Cafe on North Walnut Street.", "Roasts on site."]

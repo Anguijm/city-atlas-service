@@ -95,9 +95,18 @@ def osm_match(waypoint: dict, places: list[dict]) -> dict | None:
     return hits[0]
 
 
-def osm_contains(waypoint: dict, places: list[dict]) -> bool:
+def osm_contained(waypoint: dict, places: list[dict]) -> dict | None:
+    """An OSM place whose name contains, or is contained in, the waypoint's."""
     n = norm(_name(waypoint))
-    return bool(n) and any(_same_place(n, norm(p["name"])) for p in places)
+    return next((p for p in places if n and _same_place(n, norm(p["name"]))), None)
+
+
+def _describe_from_listing(waypoint: dict, place: dict) -> None:
+    plain = plain_description(place)
+    if plain:
+        waypoint["description"] = {"en": plain}
+    else:
+        waypoint.pop("description", None)
 
 
 def _mentions(corpus: str, name: str) -> bool:
@@ -110,9 +119,11 @@ def ground_waypoints(
 ) -> tuple[list, set[str], list[str]]:
     """Returns (kept waypoints, confirmed lowercased names, dropped names).
 
-    Confirmed waypoints are snapped to the OSM position. A waypoint that is
-    not an OSM place but is named in some source is kept unconfirmed: the
-    other sources still count. One named nowhere is dropped.
+    Confirmed waypoints are snapped to the OSM position. A waypoint whose
+    name only contains (or is contained in) an OSM place's is kept
+    unconfirmed and unmoved. One named in some other source is kept as is.
+    One named nowhere is dropped. Whatever no non-OSM source mentions is
+    described from the listing, or not at all.
     """
     corpus, others = norm(osm_text + "\n" + other_text), norm(other_text)
     kept, confirmed, dropped = [], set(), []
@@ -125,16 +136,19 @@ def ground_waypoints(
         if hit:
             w["lat"], w["lng"] = hit["lat"], hit["lng"]
             if not _mentions(others, name):
-                plain = plain_description(hit)
-                if plain:
-                    w["description"] = {"en": plain}
-                else:
-                    w.pop("description", None)
+                _describe_from_listing(w, hit)
             # The mapped spelling and case ("The Chocolate bar" -> OSM's).
             w["name"] = {**w["name"], "en": hit["name"]} if isinstance(w.get("name"), dict) else hit["name"]
             confirmed.add(hit["name"].strip().lower())
             kept.append(w)
-        elif osm_contains(w, places) or _mentions(corpus, name):
+        elif (near := osm_contained(w, places)) is not None:
+            # Kept unconfirmed and unmoved, but the listing still says what
+            # the place is better than Gemini did: "Wave Pizza Company" was
+            # "perpetually lively" on no evidence.
+            if not _mentions(others, name):
+                _describe_from_listing(w, near)
+            kept.append(w)
+        elif _mentions(corpus, name):
             kept.append(w)
         else:
             dropped.append(name)
