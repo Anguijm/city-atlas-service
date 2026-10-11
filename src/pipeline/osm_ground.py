@@ -24,7 +24,7 @@ from spatial_check import haversine_km
 
 # `- **Name** — kind — [address — ]lat, lng[ — website]`
 _LINE = re.compile(r"^- \*\*(?P<name>.+?)\*\* — (?P<rest>.*)$")
-_COORD = re.compile(r"(-?\d+\.\d+), (-?\d+\.\d+)")
+_COORD = re.compile(r"(-?\d+(?:\.\d+)?), (-?\d+(?:\.\d+)?)")
 
 # A shorter name must be this long to count as contained in a longer one.
 # Containment keeps a waypoint ("Wave Pizza Company" for OSM's "Wave Pizza")
@@ -51,7 +51,9 @@ def parse_osm_markdown(text: str) -> list[dict]:
         if not c:
             continue
         parts = [x.strip() for x in m.group("rest").split(" — ")]
-        coord_at = next(i for i, x in enumerate(parts) if _COORD.fullmatch(x))
+        coord_at = next((i for i, x in enumerate(parts) if _COORD.fullmatch(x)), None)
+        if coord_at is None:
+            continue
         places.append({
             "name": m.group("name"),
             "lat": float(c.group(1)),

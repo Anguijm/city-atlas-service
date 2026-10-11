@@ -95,3 +95,10 @@ def test_a_contained_name_takes_the_listing_description_unless_a_source_describe
           dict(wp("Baribal Coffee Roasters"), description={"en": "Roasts on site."})]
     kept, _, _ = ground_waypoints(ws, places, "", "Baribal Coffee Roasters roasts on site.")
     assert [k["description"]["en"] for k in kept] == ["Cafe on North Walnut Street.", "Roasts on site."]
+
+
+def test_a_line_with_coordinates_inside_other_text_is_skipped_and_integers_parse():
+    places = parse_osm_markdown(
+        "- **Odd** — museum — near 40.1, -98.2 here\n"
+        "- **Round** — park — 41, -98\n")
+    assert places == [{"name": "Round", "lat": 41.0, "lng": -98.0, "kind": "park", "address": ""}]

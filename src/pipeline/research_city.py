@@ -1377,6 +1377,8 @@ Data sample:
             # The audit sees no sources; every place it flagged is in the OSM
             # listing, so none is invented. Nothing to clean, nothing to fail.
             print(f"  OSM OVERRIDE: audit flagged only mapped places {sorted(flagged)}; accepted as WARNING")
+            # WARNING, not PASS: the audit did object, and the record should
+            # say so; quality_status still reflects the coverage counts.
             status = "WARNING"
             mentions_hallucination = False
         if status in ("FAIL", "WARNING") and mentions_hallucination:
