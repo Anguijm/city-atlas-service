@@ -109,6 +109,8 @@ def _describe_from_listing(waypoint: dict, place: dict) -> None:
         waypoint["description"] = {"en": plain}
     else:
         waypoint.pop("description", None)
+    # wiki_describe.py may replace what the listing wrote, and nothing else.
+    waypoint["description_source"] = "osm"
 
 
 def _mentions(corpus: str, name: str) -> bool:

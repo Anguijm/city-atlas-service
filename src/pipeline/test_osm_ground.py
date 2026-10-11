@@ -81,6 +81,8 @@ def test_a_place_only_osm_knows_gets_the_listing_as_its_description():
         None,
         "Railroad Town, rebuilt.",
     ]
+    # marked, so wiki_describe.py may replace these two and never the third
+    assert [w.get("description_source") for w in kept] == ["osm", "osm", None]
 
 
 def test_a_confirmed_place_takes_the_mapped_spelling():

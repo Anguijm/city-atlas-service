@@ -26,6 +26,7 @@ from pathlib import Path
 from phase_c_threshold import apply_proportional_fail_threshold
 from spatial_check import far_places
 from osm_ground import ground_waypoints, parse_osm_markdown
+from wiki_describe import describe_from_wikipedia, http_fetch
 
 
 # Gating keywords: phase_c_validate only runs name extraction + deletion on
@@ -1055,6 +1056,69 @@ def _move_to_failed(json_path: Path):
         print(f"  → Moved to {dest}")
 
 
+def _other_source_text(city: dict) -> str:
+    return "\n".join(
+        (PROJECT_ROOT / "data" / d / f"{city['id']}.md").read_text()
+        for d, _ in TEXT_SOURCE_DIRS
+        if d != "osm" and (PROJECT_ROOT / "data" / d / f"{city['id']}.md").exists()
+    )
+
+
+def apply_osm_grounding(city: dict, data: dict) -> set[str]:
+    """OSM grounding (osm_ground.py): a town researched from an OSM listing
+    has ground truth for which places exist. Runs before Phase C's floor,
+    so a run that was mostly invented fails structurally. Returns the
+    confirmed names, which the semantic audit may not delete."""
+    osm_path = PROJECT_ROOT / "data" / "osm" / f"{city['id']}.md"
+    waypoints = data.get("waypoints") if isinstance(data.get("waypoints"), list) else []
+    if not osm_path.exists() or not waypoints:
+        return set()
+    osm_text = osm_path.read_text()
+    kept, confirmed, dropped = ground_waypoints(
+        waypoints, parse_osm_markdown(osm_text), osm_text, _other_source_text(city)
+    )
+    kept_ids = {w.get("id") for w in kept if isinstance(w, dict)}
+    dropped_ids = {w.get("id") for w in waypoints if isinstance(w, dict)} - kept_ids
+    tasks = data.get("tasks") if isinstance(data.get("tasks"), list) else []
+    data["tasks"] = [t for t in tasks if not (isinstance(t, dict) and t.get("waypoint_id") in dropped_ids)]
+    data["waypoints"] = kept
+    print(f"  OSM grounding: {len(confirmed)} confirmed, {len(dropped)} named in no source")
+    if dropped:
+        print("OSM_GROUNDING_DROP " + json.dumps({"city_id": city["id"], "dropped": dropped}))
+    return confirmed
+
+
+def describe_city_from_wikipedia(city: dict, data: dict) -> None:
+    """wiki_describe.py: Wikipedia's first sentence for places the OSM
+    listing could only name. A network failure leaves them as they are."""
+    if not (PROJECT_ROOT / "data" / "osm" / f"{city['id']}.md").exists():
+        return
+    try:
+        described = describe_from_wikipedia(data.get("waypoints", []), city["lat"], city["lng"], http_fetch)
+    except Exception as e:  # descriptions are an improvement, never a gate
+        print(f"  ⚠ Wikipedia descriptions skipped: {e}")
+        return
+    print(f"  Wikipedia: {len(described)} described" + (f" {described}" if described else ""))
+
+
+def describe_only(city: dict) -> None:
+    """Re-mark a saved JSON's listing descriptions and add Wikipedia's, with
+    no Gemini call. Waypoint names, and so ingest's ids, stay as they are:
+    marks are copied from a re-grounded copy, and nothing is dropped."""
+    import copy
+    json_path = OUTPUT_DIR / f"{city['id']}.json"
+    data = json.loads(json_path.read_text())
+    probe = copy.deepcopy(data)
+    apply_osm_grounding(city, probe)
+    marked = {w.get("id"): w for w in probe["waypoints"] if isinstance(w, dict) and w.get("description_source") == "osm"}
+    for w in data.get("waypoints", []):
+        if isinstance(w, dict) and w.get("id") in marked and not w.get("description_source"):
+            if marked[w["id"]].get("description") == w.get("description"):
+                w["description_source"] = "osm"
+    describe_city_from_wikipedia(city, data)
+    json_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+
+
 def phase_c_validate(city: dict, data: dict, json_path: Path):
     """Phase C: Validate structural integrity + Gemini semantic audit."""
     from google import genai
@@ -1082,26 +1146,12 @@ def phase_c_validate(city: dict, data: dict, json_path: Path):
     # OSM grounding (osm_ground.py): a town researched from an OSM listing
     # has ground truth for which places exist. Runs before the floor below,
     # so a run that was mostly invented fails structurally.
-    osm_confirmed: set[str] = set()
-    osm_path = PROJECT_ROOT / "data" / "osm" / f"{city['id']}.md"
-    if osm_path.exists() and waypoints:
-        other_text = "\n".join(
-            (PROJECT_ROOT / "data" / d / f"{city['id']}.md").read_text()
-            for d, _ in TEXT_SOURCE_DIRS
-            if d != "osm" and (PROJECT_ROOT / "data" / d / f"{city['id']}.md").exists()
-        )
-        osm_text = osm_path.read_text()
-        waypoints, osm_confirmed, osm_dropped = ground_waypoints(
-            waypoints, parse_osm_markdown(osm_text), osm_text, other_text
-        )
-        dropped_ids = {w.get("id") for w in data.get("waypoints", []) if isinstance(w, dict)} - {
-            w.get("id") for w in waypoints if isinstance(w, dict)
-        }
-        tasks = [t for t in tasks if not (isinstance(t, dict) and t.get("waypoint_id") in dropped_ids)]
-        data["waypoints"], data["tasks"] = waypoints, tasks
-        print(f"  OSM grounding: {len(osm_confirmed)} confirmed, {len(osm_dropped)} named in no source")
-        if osm_dropped:
-            print("OSM_GROUNDING_DROP " + json.dumps({"city_id": city["id"], "dropped": osm_dropped}))
+    osm_confirmed = apply_osm_grounding(city, data)
+    if isinstance(data.get("waypoints"), list):
+        waypoints = data["waypoints"]
+    if isinstance(data.get("tasks"), list):
+        tasks = data["tasks"]
+    describe_city_from_wikipedia(city, data)
 
     # Structural checks — absolute floor for a usable hunt, regardless of tier.
     # Tier-specific thresholds (metro 6/48/72, town 3/24/36, village 1/12/18) are
@@ -1533,6 +1583,8 @@ async def main():
                         help="Skip research + structuring, just ingest existing JSON")
     parser.add_argument("--enrich", action="store_true",
                         help="Enrichment mode: find NEW places not in existing data and merge")
+    parser.add_argument("--describe-only", action="store_true",
+                        help="Add Wikipedia descriptions to an existing JSON's OSM-only places; no Gemini")
     parser.add_argument("--mode", choices=["notebooklm", "gemini", "claude"],
                         default="notebooklm",
                         help="Research backend: notebooklm (default), gemini (direct API), claude (future)")
@@ -1555,7 +1607,12 @@ async def main():
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    if args.ingest_only:
+    if args.describe_only:
+        describe_only(city)
+        if not args.ingest:
+            return
+
+    if args.ingest_only or args.describe_only:
         # Skip phases A+B+C; ingest existing JSON straight to Firestore.
         # Phase C already ran when the JSON was originally produced. Re-
         # running it here would burn a Gemini Pro call per city AND risk a
