@@ -1,19 +1,297 @@
 {
   "neighborhoods": [
     {
-      "id": "elk-city-center",
+      "id": "downtown-museum-district",
       "city_id": "elk-city-ok",
       "name": {
-        "en": "Elk City"
+        "en": "Downtown Museum District"
       },
       "summary": {
-        "en": "The provided research material contains no information about a central walkable district, its overall atmosphere, or specific points of interest."
+        "en": "Centered around the historic path of Route 66, this area is a living time capsule of Americana, blending the optimism of the open road with the grit of the oil boom."
       },
-      "lat": 35.4089,
-      "lng": -99.4062,
-      "trending_score": 50
+      "lat": 35.4095,
+      "lng": -99.4075,
+      "trending_score": 80
     }
   ],
-  "waypoints": [],
-  "tasks": []
+  "waypoints": [
+    {
+      "id": "downtown-museum-district-cafe-elk-city",
+      "city_id": "elk-city-ok",
+      "neighborhood_id": "downtown-museum-district",
+      "name": {
+        "en": "Cafe Elk City"
+      },
+      "description": {
+        "en": "A quintessential small-town eatery offering a genuine slice of local life and honest, home-style cooking away from the highway chains."
+      },
+      "type": "food",
+      "lat": 35.41001,
+      "lng": -99.40815,
+      "trending_score": 65
+    },
+    {
+      "id": "downtown-museum-district-route-66-museum",
+      "city_id": "elk-city-ok",
+      "neighborhood_id": "downtown-museum-district",
+      "name": {
+        "en": "National Route 66 and Transportation Museum"
+      },
+      "description": {
+        "en": "An interactive journey through the history of the iconic highway, featuring immersive displays and vintage cars that bring the golden age of American road trips to life."
+      },
+      "type": "culture",
+      "lat": 35.4083,
+      "lng": -99.4265,
+      "trending_score": 95
+    },
+    {
+      "id": "downtown-museum-district-old-town-museum",
+      "city_id": "elk-city-ok",
+      "neighborhood_id": "downtown-museum-district",
+      "name": {
+        "en": "Old Town Museum"
+      },
+      "description": {
+        "en": "Step into the world of Oklahoma's early pioneers in this complex of relocated and restored historic buildings, including a one-room schoolhouse and a general store."
+      },
+      "type": "culture",
+      "lat": 35.4081,
+      "lng": -99.4271,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-museum-district-parker-drilling-rig",
+      "city_id": "elk-city-ok",
+      "neighborhood_id": "downtown-museum-district",
+      "name": {
+        "en": "Parker Drilling Rig 114"
+      },
+      "description": {
+        "en": "A towering monument to the oil industry, this massive, authentic drilling rig stands as an impressive and slightly surreal piece of industrial sculpture."
+      },
+      "type": "hidden_gem",
+      "lat": 35.4084,
+      "lng": -99.4053,
+      "trending_score": 78
+    }
+  ],
+  "tasks": [
+    {
+      "id": "downtown-museum-district-task-1",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Mother Road Memories"
+      },
+      "prompt": {
+        "en": "Find a Route 66 shield or sign and take a creative photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-2",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Pioneer Perspective"
+      },
+      "prompt": {
+        "en": "Photograph a building that looks like it could have been here 100 years ago. Emphasize its historic character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-3",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Neon Dreams"
+      },
+      "prompt": {
+        "en": "Capture the glow of a neon sign, focusing on its colors and retro design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-4",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Small-Town Story"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the quiet, unhurried feeling of downtown Elk City."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-5",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Black Gold"
+      },
+      "prompt": {
+        "en": "Find a symbol or artifact related to the oil and gas industry and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-6",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Americana Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a backdrop that feels purely American, like a flag, an old truck, or a classic storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-7",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Taste of the Town"
+      },
+      "prompt": {
+        "en": "Find a local cafe or diner and photograph your coffee or a classic menu item."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-8",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Architectural Echoes"
+      },
+      "prompt": {
+        "en": "Find an interesting architectural detail on an old building—like brickwork, a cornice, or a window frame—and take a close-up shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-9",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "The Open Road"
+      },
+      "prompt": {
+        "en": "Capture a photo looking down a straight, quiet street that evokes the feeling of the open road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-10",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Look for a faded advertisement painted on the side of a brick building and capture its ghostly presence."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-11",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Local Knowledge Quest"
+      },
+      "prompt": {
+        "en": "Find a historical marker or plaque and discover one interesting fact about Elk City's past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-12",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Sky Above, Road Below"
+      },
+      "prompt": {
+        "en": "Take a low-angle shot that emphasizes the vast Oklahoma sky against a downtown landmark."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-13",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Frame a photo of a modern scene by shooting through the window of an old building or storefront."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-14",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Retro Ride"
+      },
+      "prompt": {
+        "en": "Find a vintage car or truck and take a photo focusing on a classic detail like a hood ornament or tail fin."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-15",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Use the late afternoon sun to capture a photo of long, dramatic shadows on the street."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-16",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Main Street Portrait"
+      },
+      "prompt": {
+        "en": "Take a selfie on the main street that captures the character of the town behind you."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-17",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Signs of Life"
+      },
+      "prompt": {
+        "en": "Photograph a unique, non-chain storefront sign that shows off the town's local personality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-museum-district-task-18",
+      "neighborhood_id": "downtown-museum-district",
+      "title": {
+        "en": "Texture of Time"
+      },
+      "prompt": {
+        "en": "Find a surface with interesting texture—like peeling paint, weathered wood, or old brick—and take a close-up, abstract photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ]
 }

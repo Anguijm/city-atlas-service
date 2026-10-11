@@ -1,0 +1,51 @@
+# OpenStreetMap: Snyder
+
+Named places mapped in OpenStreetMap within 3 km of Snyder's centre. Each line: name — kind — street address if mapped — latitude, longitude — website if mapped. A listing says the place exists; it says nothing about quality.
+
+- **Channel of Deep Creek** — historic site — 32.71709, -100.92096 — https://atlas.thc.texas.gov/Details/5415000802
+- **City of Snyder** — historic site — 32.71827, -100.91931 — https://atlas.thc.texas.gov/Details/5415000893
+- **Company G** — historic site — 32.71693, -100.91778 — https://atlas.thc.texas.gov/Details/5415001015
+- **County Named for Texas Confederate William R. Scurry 1821-1864** — historic site — 32.71701, -100.91777 — https://atlas.thc.texas.gov/Details/5415001089
+- **County's First Law Men** — historic site — 32.71674, -100.91799 — https://atlas.thc.texas.gov/Details/5415001091
+- **Dodson House** — historic site — 32.70613, -100.88988 — https://atlas.thc.texas.gov/Details/5415001239
+- **E. W. Clark House, 1908** — historic site — 32.71009, -100.92455 — https://atlas.thc.texas.gov/Details/5415001315
+- **F. J. Grayum Home** — historic site — 32.71009, -100.92377 — https://atlas.thc.texas.gov/Details/5415001524
+- **First Baptist Church of Snyder** — historic site — 32.71518, -100.91611 — https://atlas.thc.texas.gov/Details/5415001677
+- **First Christian Church** — historic site — 32.70488, -100.92892 — https://atlas.thc.texas.gov/Details/5415001702
+- **First Methodist Church** — historic site — 32.71502, -100.91736 — https://atlas.thc.texas.gov/Details/5415001744
+- **First Presbyterian Church** — historic site — 32.71434, -100.91716 — https://atlas.thc.texas.gov/Details/5415001820
+- **First State Bank Building** — historic site — 32.71703, -100.91852 — https://atlas.thc.texas.gov/Details/5415001870
+- **Home County of Famous Frontiersman J. Wright Mooar** — historic site — 32.71702, -100.91820 — https://atlas.thc.texas.gov/Details/5415002519
+- **Old Roscoe, Snyder & Pacific Railroad Engine No. 5** — historic site — 32.70636, -100.88909 — https://atlas.thc.texas.gov/Details/5415003802
+- **Old Snyder Graveyard** — historic site — 32.71636, -100.90191 — https://atlas.thc.texas.gov/Details/5415003813
+- **R. L. McMullan Home** — historic site — 32.71832, -100.91246 — https://atlas.thc.texas.gov/Details/5415004153
+- **Roscoe, Snyder & Pacific Railroad Company** — historic site — 32.71700, -100.91485 — https://atlas.thc.texas.gov/Details/5415004346
+- **Santa Fe Railway in Scurry County** — historic site — 32.71625, -100.91807 — https://atlas.thc.texas.gov/Details/5415004582
+- **Scurry County** — historic site — 32.71697, -100.91740 — https://atlas.thc.texas.gov/Details/5415004618
+- **Scurry County Courthouse Site and Building** — historic site — 32.71698, -100.91735 — https://atlas.thc.texas.gov/Details/5415004619
+- **Scurry County Jail of 1912** — historic site — 32.71437, -100.91858 — https://atlas.thc.texas.gov/Details/5415004620
+- **Scurry County's Canyon Reef Oil Field** — historic site — 32.71669, -100.91799 — https://atlas.thc.texas.gov/Details/5415004622
+- **Site of O.K. Wagon Yard** — historic site — 32.71827, -100.91699 — https://atlas.thc.texas.gov/Details/5415004843
+- **Site of Sanitarium of Alonzo Orrin Scarborough (1860-1952) Pioneer Doctor** — historic site — 32.71600, -100.91725 — https://atlas.thc.texas.gov/Details/5415004883
+- **Site of Store of William Henry (Pete) Snyder** — historic site — 32.71601, -100.91726 — https://atlas.thc.texas.gov/Details/5415004891
+- **Site of The MacKenzie Trail** — historic site — 32.71622, -100.91741 — https://atlas.thc.texas.gov/Details/5415004897
+- **Snyder Cemetery** — historic site — 32.73288, -100.90134 — https://atlas.thc.texas.gov/Details/5507016638
+- **Snyder National Bank** — historic site — 32.71729, -100.91698 — https://atlas.thc.texas.gov/Details/5415004971
+- **Stanfield House, 1910** — historic site — 32.70998, -100.92535 — https://atlas.thc.texas.gov/Details/5415005096
+- **T. J. Faught** — historic site — 32.73267, -100.90021 — https://atlas.thc.texas.gov/Details/5415005175
+- **The Prairie Dog (Cynomys Ludovicianus)** — historic site — 32.69631, -100.92285 — https://atlas.thc.texas.gov/Details/5415005404
+- **The Press in Snyder** — historic site — 32.71624, -100.91820 — https://atlas.thc.texas.gov/Details/5415005405
+- **Towle House** — historic site — 32.71224, -100.92151 — https://atlas.thc.texas.gov/Details/5507016902
+- **Witness Tree** — historic site — 32.71930, -100.91927 — https://atlas.thc.texas.gov/Details/5415005881
+- **North East Park** — park — 32.73049, -100.91220
+- **Winston Park** — park — 32.70316, -100.91016
+- **Amore Italian Restaurant & Bar** — restaurant — 32.69637, -100.91844
+- **Blue Agave** — restaurant — 32.70428, -100.91946
+- **Cielo** — restaurant — 4212 College Avenue — 32.69909, -100.91861
+- **Pizza Hut** — restaurant — 32.70215, -100.91955
+- **Polynesian Garden** — restaurant — 32.70709, -100.92046
+- **Sushi House** — restaurant — 4509 College Avenue — 32.69631, -100.91957
+- **Taco Chachos** — restaurant — 32.70182, -100.91887
+- **Taqueria Y Gorditas San Pancho** — restaurant — 208 Coliseum Drive — 32.71429, -100.89711
+- **7 Brew** — cafe — 32.70442, -100.91881
+- **HTeaO** — cafe — 32.70313, -100.91877
