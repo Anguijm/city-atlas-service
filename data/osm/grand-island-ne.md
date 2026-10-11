@@ -1,0 +1,84 @@
+# OpenStreetMap: Grand Island
+
+Named places mapped in OpenStreetMap within 10 km of Grand Island's centre. Each line: name — kind — street address if mapped — latitude, longitude — website if mapped. A listing says the place exists; it says nothing about quality.
+
+- **Stuhr Museum of the Prairie Pioneer** — museum — 3133 US-34 — 40.88164, -98.37326 — https://stuhrmuseum.org/
+- **Cornhusker Army Ammunition Plant** — historic site — 40.92416, -98.49301
+- **Nebraska Law Enforcement Memorial** — historic site — 40.90680, -98.33407
+- **Studio 10** — gallery — 40.92584, -98.34069
+- **Abbott Park** — park — 40.93778, -98.35585
+- **Ashley Park** — park — 40.94702, -98.35632
+- **Augustine Park** — park — 40.90914, -98.36440
+- **Broadwell Park** — park — 40.92278, -98.36178
+- **Buechler Park** — park — 40.91320, -98.36405
+- **Capital Heights Park** — park — 40.92387, -98.33892
+- **Eagle Scout Park** — park — 40.95821, -98.36304
+- **Fonner Park** — park — 40.90561, -98.33025
+- **George Clayton Hall County Park** — park — 40.87557, -98.37395
+- **George Park** — park — 40.94305, -98.40563
+- **Izaak Walton League Park** — park — 40.91140, -98.24311
+- **Lions Park** — park — 40.93223, -98.34117
+- **Memorial Park** — park — 40.91699, -98.36263
+- **Pier Park** — park — 40.91811, -98.33652
+- **Pioneer Park** — park — 40.92206, -98.34510
+- **Platt-Duetsche Softball Fields** — park — 40.91185, -98.34827
+- **Ryder Park** — park — 40.91867, -98.37154
+- **Schuff Park** — park — 40.91890, -98.33923
+- **Sothman Park** — park — 40.89896, -98.37005
+- **Sprague Park** — park — 40.94168, -98.33090
+- **Stolley State Park** — park — 40.90085, -98.36041 — https://www.giparks.com/o/gipr/page/stolley-park
+- **Vanosdall Softball Fields** — park — 40.88696, -98.33923
+- **Veterans Park** — park — 40.88057, -98.36117
+- **Hornady Marshall Auditorium** — theatre — 40.88938, -98.37425 — https://www.githeater.org/
+- **Colorful Rain Kids Art Academy** — arts centre — 356 North Elm Street — 40.92516, -98.34693 — https://colorfulrain.art/
+- **Amigos/King's Classic** — restaurant — 40.94400, -98.37779
+- **Applebee's** — restaurant — 40.92544, -98.38433 — https://restaurants.applebees.com/en-us/ne/grand-island/721-diers-ave.-94085
+- **Balz Sports Bar** — restaurant — 40.93722, -98.38268 — https://balzsportsbar.com/
+- **Bamboo Kitchen** — restaurant — 523 West 4th Street — 40.92625, -98.34691
+- **Chicken Coop** — restaurant — 40.92639, -98.33938
+- **Chuckwagon** — restaurant — 40.89739, -98.34011
+- **Coney Island** — restaurant — 40.92614, -98.33986
+- **Denny's** — restaurant — 40.88843, -98.34072
+- **Dickey's Barbecue Pit** — restaurant — 40.94099, -98.37951
+- **Double V Sports Bar** — restaurant — 40.92394, -98.34544
+- **El Alfarero Restaurant** — restaurant — 209 West 4th Street — 40.92803, -98.34356
+- **El Tapatio** — restaurant — 2610 South Locust Street — 40.89666, -98.34028
+- **El Tazumal** — restaurant — 424 West 4th Street — 40.92695, -98.34622
+- **El Toro Mexican** — restaurant — 40.93724, -98.38183
+- **El Tucanazo** — restaurant — 410 4th Street East — 40.93026, -98.33830
+- **Fiesta Latina** — restaurant — 2815 South Locust Street — 40.89368, -98.33895
+- **Finish Line** — restaurant — 700 East Stolley Park — 40.90606, -98.32923
+- **Fuji** — restaurant — 1004 Diers Avenue — 40.92781, -98.38615
+- **Golden Gate Express** — restaurant — 2302 North Webb Road — 40.94388, -98.37919 — https://goldengategi.com
+- **La Gran Via** — restaurant — 613 4th Street East — 40.93107, -98.33508
+- **Lee's Family Restaurant** — restaurant — 2920 Old Fair Road — 40.91642, -98.37421
+- **Los Dos Hermanos** — restaurant — 40.93990, -98.35919
+- **Mariscos Villarreal** — restaurant — 811 West 2nd Street — 40.92149, -98.34739
+- **Mongolian Grill** — restaurant — 40.93769, -98.37908
+- **Olive Garden** — restaurant — 40.92850, -98.38254
+- **Oriental Market** — restaurant — 40.92390, -98.34514
+- **Perkins** — restaurant — 40.91745, -98.38239
+- **Pizza Hut** — restaurant — 707 Diers Avenue — 40.92478, -98.38416 — https://locations.pizzahut.com/ne/grand-island/707-n-diers-ave
+- **Pizza Ranch** — restaurant — 1016 Diers Avenue — 40.92870, -98.38410 — https://pizzaranch.com/locations/ne/grand-island/1016-n-diers-ave
+- **Red Lobster** — restaurant — 40.93188, -98.38275
+- **Resident Suites Inn** — restaurant — 2114 West 2nd Street — 40.91602, -98.36171
+- **Sin City** — restaurant — 40.92454, -98.34390
+- **Sticky Rice** — restaurant — 305 West Koenig Street — 40.92120, -98.33998 — https://stickyricetlc.square.site
+- **Tacos Las Palmas** — restaurant — 40.91702, -98.33908
+- **Texas Roadhouse** — restaurant — 40.91965, -98.38217
+- **The Chocolate Bar** — restaurant — 40.92581, -98.34084
+- **The Faucet Bar & Grill** — restaurant — 40.92742, -98.38440
+- **Valentino's** — restaurant — 40.94333, -98.37760
+- **Wasabi** — restaurant — 40.94501, -98.38446
+- **Wave Pizza** — restaurant — 40.92313, -98.34212
+- **Baribal Coffee** — cafe — 314 North Walnut Street — 40.92499, -98.34402
+- **Barista's** — cafe — 40.92740, -98.37907
+- **Daily Dose** — cafe — 40.92557, -98.34105
+- **Starbucks** — cafe — 40.91907, -98.38223
+- **Infinity Lounge** — bar — 3333 Ramada Road — 40.88838, -98.34093
+- **Pam's Pub and Grub** — bar — 2848 South Locust Street — 40.89334, -98.34063
+- **Sluggers** — bar — 707 West Anna Street — 40.91588, -98.34174
+- **Stueby's Alibi Lounge & Sports Bar** — bar — 40.92739, -98.35943
+- **Upper Deck Sports Bar & Grill** — bar — 40.91617, -98.36157
+- **Images Bar & Grill** — pub — 40.89757, -98.33881
+- **Big Red Treats** — ice cream — 3548 Innate Lane — 40.88896, -98.38629 — https://www.bigredtreats.com/

@@ -693,7 +693,9 @@ export async function writeCityToFirestore(
       lat: w.lat,
       lng: w.lng,
       trending_score: w.trending_score,
-      description: w.description,
+      // Optional: OSM grounding leaves a place with no mapped street
+      // undescribed rather than keep Gemini's guess (osm_ground.py).
+      ...(w.description ? { description: w.description } : {}),
       google_place_id: vw.google_place_id ?? null,
       business_status: vw.business_status ?? null,
       is_active: true,

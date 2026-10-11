@@ -1,0 +1,55 @@
+# OpenStreetMap: Brownwood
+
+Named places mapped in OpenStreetMap within 5 km of Brownwood's centre. Each line: name — kind — street address if mapped — latitude, longitude — website if mapped. A listing says the place exists; it says nothing about quality.
+
+- **Brown County Museum of History** — museum — 209 North Broadway Street — 31.72319, -98.98142
+- **Martin & Frances Lehnis Railroad Musuem** — museum — 700 East Adams Street — 31.71676, -98.97889
+- **"Hey Paula"** — historic site — 31.71725, -98.98567 — https://atlas.thc.texas.gov/Details/5507017641
+- **Brooke Smith** — historic site — 31.71676, -98.98065 — https://atlas.thc.texas.gov/Details/5049013119
+- **Brown County** — historic site — 31.73203, -98.97281 — https://atlas.thc.texas.gov/Details/5049000528
+- **Brown County Jail** — historic site — 31.72356, -98.98101 — https://atlas.thc.texas.gov/Details/5000023448
+- **Brownwood Harvey House** — historic site — 31.71605, -98.97990 — https://atlas.thc.texas.gov/Details/5049011768
+- **Brownwood Santa Fe Passenger Depot** — historic site — 31.71604, -98.98000 — https://atlas.thc.texas.gov/Details/5049012464
+- **Camp Collier, C.S.A.** — historic site — 31.72284, -98.98033 — https://atlas.thc.texas.gov/Details/5049000655
+- **Charlie Webb and John Wesley Hardin** — historic site — 31.70544, -98.99808 — https://atlas.thc.texas.gov/Details/5507017341
+- **City of Brownwood** — historic site — 31.73168, -98.97303 — https://atlas.thc.texas.gov/Details/5049000882
+- **Coggin Academy-McClelland Library** — historic site — 31.71084, -98.97762 — https://atlas.thc.texas.gov/Details/5049003279
+- **Coggin and Parks Building** — historic site — 31.72260, -98.98088 — https://atlas.thc.texas.gov/Details/5049000931
+- **Courthouses of Brown County** — historic site — 31.72276, -98.97989 — https://atlas.thc.texas.gov/Details/5507014008
+- **Daniel Baker College** — historic site — 31.71090, -98.97780 — https://atlas.thc.texas.gov/Details/5049001165
+- **Dr. Mollie W. Armstrong** — historic site — 31.71186, -98.97873 — https://atlas.thc.texas.gov/Details/5507013605
+- **Emanuel Chapel United Methodist Church** — historic site — 31.72316, -98.99035 — https://atlas.thc.texas.gov/Details/5000022743
+- **Greenleaf Cemetery** — historic site — 31.70606, -98.99819 — https://atlas.thc.texas.gov/Details/5507017359
+- **Greenleaf Fisk** — historic site — 31.72286, -98.98042 — https://atlas.thc.texas.gov/Details/5049002273
+- **Henry Ford** — historic site — 31.70574, -98.99782 — https://atlas.thc.texas.gov/Details/5049002447
+- **Howard Payne University** — historic site — 31.71727, -98.98564 — https://atlas.thc.texas.gov/Details/5049002586
+- **J. A. Walker House** — historic site — 31.71881, -98.98453 — https://atlas.thc.texas.gov/Details/5049002668
+- **Lee Chapel A.M.E. Church** — historic site — 31.72367, -98.99107 — https://atlas.thc.texas.gov/Details/5049003062
+- **Old Gray Mare Band** — historic site — 31.71601, -98.98000 — https://atlas.thc.texas.gov/Details/5507016938
+- **R. B. Rogers House** — historic site — 31.71844, -98.98490 — https://atlas.thc.texas.gov/Details/5049004150
+- **Robert E. Howard** — historic site — 31.70173, -98.99827 — https://atlas.thc.texas.gov/Details/5049004294
+- **Rufus F. Hardin High School** — historic site — 31.72502, -98.99057 — https://atlas.thc.texas.gov/Details/5507014657
+- **Site of World War II Camp Bowie** — historic site — 31.67803, -98.99178 — https://atlas.thc.texas.gov/Details/5049004918
+- **The Rev. Dr. John David Robnett** — historic site — 31.71730, -98.98562 — https://atlas.thc.texas.gov/Details/5049012550
+- **The Rev. Noah Turner Byars** — historic site — 31.71731, -98.98562 — https://atlas.thc.texas.gov/Details/5049012549
+- **Welcome William Chandler** — historic site — 31.72355, -98.98110 — https://atlas.thc.texas.gov/Details/5049005746
+- **Lyric Theatre** — theatre — 318 Center Avenue — 31.72032, -98.98213
+- **Buffalo Wild Wings** — restaurant — 511 West Commerce Street — 31.73061, -98.98432
+- **China Cafe** — restaurant — 1417 Austin Avenue — 31.70895, -98.97695
+- **Emilio's Mexican Restaurant** — restaurant — 1520 Austin Avenue — 31.70807, -98.97547
+- **Jolene's Thai Cuisine** — restaurant — 2001 Coggin Avenue — 31.70260, -98.98585 — https://www.jolenethaicuisine.com/
+- **Lemongrass Asian Cuisine Brownwood** — restaurant — 1900 Coggin Avenue — 31.70308, -98.98463 — https://www.facebook.com/lemongrasscuisine
+- **Lucky Buffet** — restaurant — 716 West Commerce Street — 31.72914, -98.99386 — https://www.luckybuffetbrownwood.com/
+- **McAlister's Deli** — restaurant — 414 East Commerce Street — 31.73136, -98.97438
+- **Pioneer Tap House** — restaurant — 112 East Baker Street — 31.72120, -98.98065
+- **Prima Pasta** — restaurant — 210 Early Boulevard — 31.73476, -98.96537
+- **Red Wagon Restaurant** — restaurant — 401 NNorth Main Street Avenue — 31.72593, -98.98017
+- **Stick's BBQ** — restaurant — 31.69181, -98.99793
+- **Studebaker's Cafe and Grill** — restaurant — 31.73037, -98.97471
+- **The Turtle Restaurant** — restaurant — 514 Center Avenue — 31.71938, -98.98319
+- **Triple T Grill** — restaurant — 31.67967, -98.96353
+- **Underwood's Cafeteria** — restaurant — 402 West Commerce Street — 31.72808, -98.98331
+- **Wild Duck Bar & Grill** — restaurant — 102 Fisk Street — 31.72059, -98.97981
+- **Starbucks** — cafe — 31.73307, -98.96754
+- **Crazy Lemon** — bar — 540 Pecan Street — 31.72325, -98.97917
+- **Over the Rainbow** — ice cream — 201 Fisk Street — 31.72057, -98.98038
