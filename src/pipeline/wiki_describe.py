@@ -40,7 +40,12 @@ MAX_KM = 10
 # about five lines on a 390 px phone, the longest the atlas held before OSM.
 MAX_CHARS = 240
 BATCH = 20  # the MediaWiki API's limit for extracts per query
-# The shorter of a name and a title must be this long to count as contained.
+# The shorter of a name and a title must be this long (normalised) to count
+# as contained, whole words only. "stuhr museum" (12) inside "stuhr museum of
+# the prairie pioneer" passes. A short generic title such as "Prison" (6) or
+# "Museum" (6) inside a long name fails, since that article is about the kind
+# of place, not this one. The same 8 osm_ground.py uses. Raising it loses
+# shortened titles; lowering it lets one-word generic articles through.
 MIN_CONTAINED_CHARS = 8
 USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)"
 
