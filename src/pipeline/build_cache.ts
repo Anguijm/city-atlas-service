@@ -694,8 +694,10 @@ export async function writeCityToFirestore(
       lng: w.lng,
       trending_score: w.trending_score,
       // Optional: OSM grounding leaves a place with no mapped street
-      // undescribed rather than keep Gemini's guess (osm_ground.py).
-      ...(w.description ? { description: w.description } : {}),
+      // undescribed rather than keep Gemini's guess (osm_ground.py). The
+      // write merges, so an absent description must be deleted, not
+      // omitted: omitting it kept a refused Wikipedia sentence (U48).
+      description: w.description ?? FieldValue.delete(),
       google_place_id: vw.google_place_id ?? null,
       business_status: vw.business_status ?? null,
       is_active: true,
