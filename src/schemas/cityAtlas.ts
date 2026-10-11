@@ -103,6 +103,11 @@ export const WaypointSchema = z
     neighborhood_id: z.string().min(1),
     name: LocalizedTextSchema,
     description: LocalizedTextSchema.optional(),
+    // Where a description came from when the pipeline wrote it rather than
+    // Gemini: the OSM listing ("Museum on US-34.") or Wikipedia's first
+    // sentence (osm_ground.py, wiki_describe.py). Pipeline bookkeeping;
+    // build_cache.ts does not write it to Firestore.
+    description_source: z.enum(["osm", "wikipedia"]).optional(),
     type: WaypointTypeSchema,
     lat: z.number().min(-90).max(90),
     lng: z.number().min(-180).max(180),

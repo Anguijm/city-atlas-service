@@ -1,31 +1,31 @@
-# Active plan: OpenStreetMap as a source for thin towns
+# Active plan: Wikipedia descriptions for OSM-only places
 
-Branch: `feat/osm-source`
+Branch: `feat/wiki-descriptions`
 
-**Ship rule:** Grand Island, Rock Springs, Rawlins, Snyder, Santa Rosa,
-Brownwood, Colby, Ogallala, Elk City and West Wendover failed Phase C (<6
-waypoints) because Wikipedia and Atlas Obscura say almost nothing about them.
-After this change, at least 7 of the 10 pass Phase C and ingest. Every ingested
-waypoint is within the Phase C distance of its town, and none is invented: each
-name appears in a source.
+**Ship rule:** A waypoint whose description came from the OSM listing, or
+that has none, gets the first sentence of its Wikipedia article when one is
+found. The article must match the place's exact name, directly or by
+redirect ("Wyoming Frontier Prison" → "Wyoming State Penitentiary"). It must
+not be a disambiguation page, its coordinates must be within 10 km of the
+town, and the sentence must be 240 characters or fewer, since Roadtripper
+never cuts one. A description from any other source is never replaced. In
+the ten OSM towns this describes 7–9 sights, among them Rawlins' and Grand
+Island's picks.
 
 **What changes**
-- `src/scrapers/osm.ts` asks Overpass for named places within the town's
-  `maxRadiusKm`: museums, attractions, viewpoints, galleries, artwork, historic
-  sites, parks with a wikidata link, restaurants, cafés, bars, theatres and arts
-  centres. It writes `data/osm/<id>.md`, one line per place with its kind,
-  address and coordinates. Places sort by kind (sights before food), capped at
-  80 lines.
-- `TEXT_SOURCE_DIRS` gains `("osm", "OpenStreetMap")`, so Phase A grounds on it
-  like any other source, inside the same untrusted-data tags.
-- Pure helpers are unit tested: tags to kind, the sort and cap, markdown, and
-  dropping unnamed places and places without coordinates.
+- `osm_ground.py` marks the descriptions it writes or removes:
+  `description_source: "osm"`. Ingest copies named fields only, so the mark
+  stays in the JSON.
+- `wiki_describe.py`: pure selection and matching, with the fetch injected,
+  and unit tests.
+- Phase C runs it after OSM grounding. A new `--describe-only` re-grounds a
+  saved JSON offline and adds Wikipedia lines without a Gemini call, so the
+  waypoint IDs stay stable and a re-ingest leaves no orphans.
 
-**Cost:** One Overpass call per town, which is free with a 5 s pause. Re-running
-research costs 3–4 Gemini calls per town, about 40 for the ten.
+**Cost:** One or two Wikipedia API calls per town, for titles in batches of 20.
+No Gemini calls.
 
-**Weakest part:** OSM tells Gemini that a place exists, not why it is worth a
-stop. Gemini may write thin or generic descriptions from a bare list. The
-mitigation is a manual read of Grand Island's report before running the rest.
-Also, Wendover's places straddle the Utah–Nevada line, and the town's centre
-must be the right one.
+**Weakest part:** a redirect can point at a broader article. "Wyoming Frontier
+Prison" lands on "Wyoming State Penitentiary", whose first sentence covers
+the old and the current prison. The 10 km check keeps it local, but not
+specific.
