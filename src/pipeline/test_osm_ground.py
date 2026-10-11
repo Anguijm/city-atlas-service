@@ -30,9 +30,26 @@ def test_norm_ignores_case_punctuation_and_a_leading_the():
     assert norm("Images Bar & Grill") == "images bar and grill"
 
 
-def test_contained_name_matches_but_a_short_word_does_not():
-    assert osm_match(wp("Wave Pizza Company"), PLACES)["name"] == "Wave Pizza"
-    assert osm_match(wp("Balz Sports Bar"), PLACES) is None
+def test_only_an_exact_name_confirms():
+    assert osm_match(wp("the stuhr museum of the prairie-pioneer"), PLACES)["name"] == "Stuhr Museum of the Prairie Pioneer"
+    assert osm_match(wp("Wave Pizza Company"), PLACES) is None
+
+
+def test_a_contained_name_keeps_the_waypoint_unconfirmed_and_untouched():
+    w = dict(wp("Wave Pizza Company", 40.0, -98.0), description={"en": "Pizza."})
+    kept, confirmed, dropped = ground_waypoints([w, wp("Balz Sports Bar")], PLACES, MD, "")
+    assert [k["name"]["en"] for k in kept] == ["Wave Pizza Company"]
+    assert (kept[0]["lat"], kept[0]["description"]) == (40.0, {"en": "Pizza."})
+    assert confirmed == set()
+    assert dropped == ["Balz Sports Bar"]
+
+
+def test_route_66_auto_museum_is_not_the_route_66_restaurant():
+    places = parse_osm_markdown(
+        "- **Route 66 Auto Museum** — museum — 2436 Route 66 — 34.94624, -104.65455\n"
+        "- **Route 66** — restaurant — 34.94534, -104.66755\n")
+    hit = osm_match(wp("Route 66 Auto Museum", 34.9453, -104.6675), places)
+    assert hit["name"] == "Route 66 Auto Museum"
 
 
 def test_a_chain_matches_the_nearest_branch():
@@ -55,7 +72,7 @@ def test_a_source_word_inside_another_word_does_not_ground_a_name():
 
 def test_a_place_only_osm_knows_gets_the_listing_as_its_description():
     ws = [dict(wp("Baribal Coffee"), description={"en": "Single-origin beans, precisely pulled."}),
-          dict(wp("Wave Pizza Company"), description={"en": "Piled-high pizzas."}),
+          dict(wp("Wave Pizza"), description={"en": "Piled-high pizzas."}),
           dict(wp("Stuhr Museum of the Prairie Pioneer"), description={"en": "Railroad Town, rebuilt."})]
     kept, _, _ = ground_waypoints(ws, PLACES, MD, "Visit the Stuhr Museum of the Prairie Pioneer.")
     assert [w.get("description", {}).get("en") for w in kept] == [
@@ -66,15 +83,6 @@ def test_a_place_only_osm_knows_gets_the_listing_as_its_description():
 
 
 def test_a_confirmed_place_takes_the_mapped_spelling():
-    kept, confirmed, _ = ground_waypoints([wp("Wave Pizza Company")], PLACES, MD, "")
+    kept, confirmed, _ = ground_waypoints([wp("wave pizza")], PLACES, MD, "")
     assert kept[0]["name"] == {"en": "Wave Pizza"}
     assert confirmed == {"wave pizza"}
-
-
-def test_another_source_naming_either_spelling_keeps_the_description():
-    places = [{"name": "Stuhr Museum of the Prairie Pioneer", "lat": 40.88, "lng": -98.37, "kind": "museum", "address": ""},
-              {"name": "Wave Pizza", "lat": 40.92, "lng": -98.34, "kind": "restaurant", "address": ""}]
-    ws = [dict(wp("Stuhr Museum"), description={"en": "Railroad Town."}),
-          dict(wp("Wave Pizza Company"), description={"en": "Downtown pizza."})]
-    kept, _, _ = ground_waypoints(ws, places, "", "The Stuhr Museum is out west; Wave Pizza downtown.")
-    assert [w["description"]["en"] for w in kept] == ["Railroad Town.", "Downtown pizza."]

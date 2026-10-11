@@ -7,7 +7,7 @@ only a sample and no sources, deleted two real cafés from the listing as
 "hallucinated". Its gaps run both ways.
 
 When a city has an OSM listing, the listing is ground truth for existence:
-- A waypoint named like an OSM place is confirmed. It takes the place's
+- A waypoint with an OSM place's exact name is confirmed. It takes the place's
   mapped position, and the audit may not delete it.
 - A waypoint whose name appears in no source at all is dropped.
 - A confirmed waypoint that no other source mentions gets a plain
@@ -27,8 +27,9 @@ _LINE = re.compile(r"^- \*\*(?P<name>.+?)\*\* — (?P<rest>.*)$")
 _COORD = re.compile(r"(-?\d+\.\d+), (-?\d+\.\d+)")
 
 # A shorter name must be this long to count as contained in a longer one.
-# "Wave Pizza" inside "Wave Pizza Company" counts; "Bar" inside "Balz Sports
-# Bar" does not.
+# Containment keeps a waypoint ("Wave Pizza Company" for OSM's "Wave Pizza")
+# but never confirms it: "Old Scurry County Jail" contains the "Scurry County"
+# marker, and "Route 66 Auto Museum" a restaurant called "Route 66".
 MIN_CONTAINED_CHARS = 8
 
 
@@ -77,21 +78,26 @@ def _same_place(a: str, b: str) -> bool:
     return len(short) >= MIN_CONTAINED_CHARS and re.search(rf"\b{re.escape(short)}\b", long_) is not None
 
 
-def osm_match(waypoint: dict, places: list[dict]) -> dict | None:
-    """The nearest OSM place with the waypoint's name, or None."""
+def _name(waypoint: dict) -> str:
     name = waypoint.get("name")
-    if isinstance(name, dict):
-        name = name.get("en") or ""
-    n = norm(name or "")
-    if not n:
-        return None
-    hits = [p for p in places if _same_place(n, norm(p["name"]))]
+    return (name.get("en") or "") if isinstance(name, dict) else (name or "")
+
+
+def osm_match(waypoint: dict, places: list[dict]) -> dict | None:
+    """The nearest OSM place with exactly the waypoint's (normalised) name."""
+    n = norm(_name(waypoint))
+    hits = [p for p in places if n and norm(p["name"]) == n]
     if not hits:
         return None
     lat, lng = waypoint.get("lat"), waypoint.get("lng")
     if isinstance(lat, (int, float)) and isinstance(lng, (int, float)):
         return min(hits, key=lambda p: haversine_km(lat, lng, p["lat"], p["lng"]))
     return hits[0]
+
+
+def osm_contains(waypoint: dict, places: list[dict]) -> bool:
+    n = norm(_name(waypoint))
+    return bool(n) and any(_same_place(n, norm(p["name"])) for p in places)
 
 
 def _mentions(corpus: str, name: str) -> bool:
@@ -114,22 +120,21 @@ def ground_waypoints(
         if not isinstance(w, dict):
             kept.append(w)
             continue
-        name = w.get("name")
-        name = (name.get("en") or "") if isinstance(name, dict) else (name or "")
+        name = _name(w)
         hit = osm_match(w, places)
         if hit:
             w["lat"], w["lng"] = hit["lat"], hit["lng"]
-            if not _mentions(others, name) and not _mentions(others, hit["name"]):
+            if not _mentions(others, name):
                 plain = plain_description(hit)
                 if plain:
                     w["description"] = {"en": plain}
                 else:
                     w.pop("description", None)
-            # The mapped spelling, not Gemini's ("Wave Pizza Company").
+            # The mapped spelling and case ("The Chocolate bar" -> OSM's).
             w["name"] = {**w["name"], "en": hit["name"]} if isinstance(w.get("name"), dict) else hit["name"]
             confirmed.add(hit["name"].strip().lower())
             kept.append(w)
-        elif _mentions(corpus, name):
+        elif osm_contains(w, places) or _mentions(corpus, name):
             kept.append(w)
         else:
             dropped.append(name)
