@@ -1112,11 +1112,23 @@ def describe_only(city: dict) -> None:
     apply_osm_grounding(city, probe)
     marked = {w.get("id"): w for w in probe["waypoints"] if isinstance(w, dict) and w.get("description_source") == "osm"}
     for w in data.get("waypoints", []):
-        if isinstance(w, dict) and w.get("id") in marked and not w.get("description_source"):
-            if marked[w["id"]].get("description") == w.get("description"):
-                w["description_source"] = "osm"
+        if not isinstance(w, dict) or w.get("id") not in marked:
+            continue
+        listing = marked[w["id"]]
+        if w.get("description_source") == "wikipedia":
+            # Asked again under today's rules (U48: a broader article's
+            # sentence was refused), starting from the listing's line.
+            if listing.get("description"):
+                w["description"] = listing["description"]
+            else:
+                w.pop("description", None)
+            w["description_source"] = "osm"
+        elif not w.get("description_source") and listing.get("description") == w.get("description"):
+            w["description_source"] = "osm"
     describe_city_from_wikipedia(city, data)
-    json_path.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    tmp = json_path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+    tmp.replace(json_path)  # atomic: an interrupted run leaves the old file
 
 
 def phase_c_validate(city: dict, data: dict, json_path: Path):

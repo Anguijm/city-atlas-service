@@ -38,12 +38,29 @@ def test_only_listing_or_missing_descriptions_are_wanted():
     assert not wants_description(wp("A", "From Atlas Obscura."))
 
 
-def test_follows_a_redirect_and_describes_the_place():
+def test_follows_a_redirect_to_the_same_subject_and_describes_the_place():
+    museum = "The Stuhr Museum of the Prairie Pioneer is a museum located in Grand Island."
+    fetch = api([page("Stuhr Museum", extract=museum)], redirects=[("Stuhr Museum of the Prairie Pioneer", "Stuhr Museum")])
+    ws = [wp("Stuhr Museum of the Prairie Pioneer")]
+    assert describe_from_wikipedia(ws, *RAWLINS, fetch) == [("Stuhr Museum of the Prairie Pioneer", "Stuhr Museum")]
+    assert ws[0]["description"] == {"en": museum}
+    assert ws[0]["description_source"] == "wikipedia"
+
+
+def test_refuses_a_redirect_to_a_broader_subject():
+    # U48 critic: "historic and current prison" read as a working prison.
     fetch = api([page("Wyoming State Penitentiary")], redirects=[("Wyoming Frontier Prison", "Wyoming State Penitentiary")])
     ws = [wp("Wyoming Frontier Prison")]
-    assert describe_from_wikipedia(ws, *RAWLINS, fetch) == [("Wyoming Frontier Prison", "Wyoming State Penitentiary")]
-    assert ws[0]["description"] == {"en": PRISON}
-    assert ws[0]["description_source"] == "wikipedia"
+    assert describe_from_wikipedia(ws, *RAWLINS, fetch) == []
+    assert "description" not in ws[0]
+
+
+def test_an_empty_description_is_wanted_and_a_name_with_a_pipe_is_not_asked():
+    assert wants_description(wp("A", ""))
+    assert wants_description(wp("A", "   "))
+    fetch = api([])
+    lookup(["Bar | Grill", "Fonner Park"], fetch)
+    assert fetch.calls[0]["titles"] == "Fonner Park"
 
 
 def test_never_replaces_another_sources_description():
