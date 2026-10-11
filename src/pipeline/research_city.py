@@ -25,6 +25,7 @@ from pathlib import Path
 
 from phase_c_threshold import apply_proportional_fail_threshold
 from spatial_check import far_places
+from osm_ground import ground_waypoints, parse_osm_markdown
 
 
 # Gating keywords: phase_c_validate only runs name extraction + deletion on
@@ -482,6 +483,7 @@ TEXT_SOURCE_DIRS = [
     ("the-infatuation", "The Infatuation"),
     ("timeout", "TimeOut"),
     ("locationscout", "Locationscout"),
+    ("osm", "OpenStreetMap"),
     ("wikipedia", "Wikipedia"),
     ("reddit", "Reddit"),
 ]
@@ -561,6 +563,13 @@ using only the factual content (place names, neighborhoods, descriptions).
 Do NOT fabricate places not mentioned in these sources. If the sources lack
 enough places for 6 neighborhoods, cover fewer neighborhoods with higher
 quality data.
+
+OPENSTREETMAP RULE: The OpenStreetMap source is a bare listing (name, kind,
+address, coordinates). It proves a place exists, not what it is like. For a
+place known only from that listing, describe only what the listing and your
+confident general knowledge support. Never invent a signature dish, a history
+or an atmosphere. Every waypoint must be a place named in some source; do not
+create composite or descriptive "places" such as "the hidden walkways".
 
 HISTORICAL-GUARD RULE: You must only include currently existing, visitable places that a user could walk to today. Reject any location the source describes in a historical context — ignore anything worded like "was built in", "was demolished", "formerly located", "no longer stands", "was closed in", "used to be", "was founded but since relocated", etc. Only include a historical-era place if the source explicitly confirms it is still standing and still operating as of today.
 
@@ -1070,6 +1079,30 @@ def phase_c_validate(city: dict, data: dict, json_path: Path):
         errors.append(f"tasks is {type(tasks).__name__}, expected list")
         tasks = []
 
+    # OSM grounding (osm_ground.py): a town researched from an OSM listing
+    # has ground truth for which places exist. Runs before the floor below,
+    # so a run that was mostly invented fails structurally.
+    osm_confirmed: set[str] = set()
+    osm_path = PROJECT_ROOT / "data" / "osm" / f"{city['id']}.md"
+    if osm_path.exists() and waypoints:
+        other_text = "\n".join(
+            (PROJECT_ROOT / "data" / d / f"{city['id']}.md").read_text()
+            for d, _ in TEXT_SOURCE_DIRS
+            if d != "osm" and (PROJECT_ROOT / "data" / d / f"{city['id']}.md").exists()
+        )
+        osm_text = osm_path.read_text()
+        waypoints, osm_confirmed, osm_dropped = ground_waypoints(
+            waypoints, parse_osm_markdown(osm_text), osm_text, other_text
+        )
+        dropped_ids = {w.get("id") for w in data.get("waypoints", []) if isinstance(w, dict)} - {
+            w.get("id") for w in waypoints if isinstance(w, dict)
+        }
+        tasks = [t for t in tasks if not (isinstance(t, dict) and t.get("waypoint_id") in dropped_ids)]
+        data["waypoints"], data["tasks"] = waypoints, tasks
+        print(f"  OSM grounding: {len(osm_confirmed)} confirmed, {len(osm_dropped)} named in no source")
+        if osm_dropped:
+            print("OSM_GROUNDING_DROP " + json.dumps({"city_id": city["id"], "dropped": osm_dropped}))
+
     # Structural checks — absolute floor for a usable hunt, regardless of tier.
     # Tier-specific thresholds (metro 6/48/72, town 3/24/36, village 1/12/18) are
     # applied later in this function to mark output as "verified" vs "degraded".
@@ -1339,8 +1372,16 @@ Data sample:
         # the ratio is <= 25%; WARNING is escalated to FAIL if no specific
         # names could be identified (can't clean what we can't name).
         mentions_hallucination = any(kw in reason.lower() for kw in HALLUCINATION_KEYWORDS)
+        flagged = find_hallucinated_names(reason, sampled_waypoints) if mentions_hallucination else set()
+        if status in ("FAIL", "WARNING") and flagged and flagged <= osm_confirmed:
+            # The audit sees no sources; every place it flagged is in the OSM
+            # listing, so none is invented. Nothing to clean, nothing to fail.
+            print(f"  OSM OVERRIDE: audit flagged only mapped places {sorted(flagged)}; accepted as WARNING")
+            status = "WARNING"
+            mentions_hallucination = False
         if status in ("FAIL", "WARNING") and mentions_hallucination:
-            bad_names = find_hallucinated_names(reason, sampled_waypoints)
+            # An OSM-confirmed place is real whatever the audit says.
+            bad_names = flagged - osm_confirmed
             if status == "FAIL":
                 if not bad_names:
                     # Reason mentions hallucination but no sampled name
