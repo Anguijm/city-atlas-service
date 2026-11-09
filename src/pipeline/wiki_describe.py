@@ -20,6 +20,12 @@ A sentence is used only when:
   place elsewhere cannot lend its description;
 - the sentence is at most MAX_CHARS. Roadtripper never cuts a description,
   so a longer one would wrap to six lines.
+
+2026-11-10 (U49): the sentence is trimmed of what Roadtripper's screen
+already shows (trim_lead). The place's name sits above its line and the town
+above both, so "Fonner Park is a thoroughbred horse racing facility located
+in Grand Island, Nebraska." said two of its three things twice. The trim only
+deletes words, never rewrites, so the line is still Wikipedia's.
 """
 from __future__ import annotations
 
@@ -47,6 +53,13 @@ BATCH = 20  # the MediaWiki API's limit for extracts per query
 # of place, not this one. The same 8 osm_ground.py uses. Raising it loses
 # shortened titles; lowering it lets one-word generic articles through.
 MIN_CONTAINED_CHARS = 8
+# A trim that leaves fewer characters than this keeps the whole sentence
+# instead. Operator's choice, 2026-11-10: "Howard Payne University is a
+# private university in Brownwood, Texas, United States." trims to "A private
+# university." (21), which says less than the sentence it came from. The four
+# other U48 sentences trim to 37 or more. Raising it past 37 stops Fonner
+# Park's trim; lowering it below 21 lets Howard Payne's through.
+MIN_TRIMMED_CHARS = 25
 USER_AGENT = "city-atlas-service/0.1 (+https://github.com/Anguijm/city-atlas-service; ops@anguijm.dev)"
 
 Fetch = Callable[[dict], dict]
@@ -80,6 +93,30 @@ def _name(w: dict) -> str:
     return ((n.get("en") or "") if isinstance(n, dict) else (n or "")).strip()
 
 
+def trim_lead(text: str, name: str, title: str, place: str = "") -> str:
+    """Wikipedia's sentence without what the screen already says: the
+    place's own name as the subject ("Fonner Park is a ...") and the town
+    ("located in Grand Island, Nebraska"). `place` is the town as the
+    registry's clinicalName gives it ("Grand Island, Nebraska"); another town
+    of the same name elsewhere does not match it. Deletes words only. A
+    result under MIN_TRIMMED_CHARS returns the sentence unchanged."""
+    out = text
+    # "The Reliance Tipple is the site ..." -> "The site ...": the subject is
+    # the name or the article title, the verb is a form of "to be", and the
+    # article that follows is kept, capitalised, to start the line.
+    names = "|".join(re.escape(n) for n in sorted({name.strip(), title.strip()} - {""}, key=len, reverse=True))
+    if names:
+        m = re.match(rf"(?:the\s+)?(?:{names})\s+(?:is|was|are|were)\s+(a|an|the)\s+", out, flags=re.IGNORECASE)
+        if m:
+            out = m.group(1).capitalize() + " " + out[m.end():]
+    # ", located in Grand Island, Nebraska" or " in West Wendover, Nevada",
+    # with an optional ", United States", ending at a space or punctuation so
+    # "Nebraska City" is not read as "Nebraska".
+    if place.strip():
+        out = re.sub(rf",?\s+(?:located\s+)?in\s+{re.escape(place.strip())}(?:,\s+United States)?(?=[\s.,;:]|$)", "", out)
+    return out if len(out) >= MIN_TRIMMED_CHARS else text
+
+
 def lookup(names: list[str], fetch: Fetch) -> dict[str, dict]:
     """name -> {"title", "lat", "lng", "extract"} for names with a usable article."""
     found: dict[str, dict] = {}
@@ -110,8 +147,10 @@ def lookup(names: list[str], fetch: Fetch) -> dict[str, dict]:
     return found
 
 
-def describe_from_wikipedia(waypoints: list, town_lat: float, town_lng: float, fetch: Fetch) -> list[tuple[str, str]]:
-    """Mutates waypoints; returns (place name, article title) for each described."""
+def describe_from_wikipedia(waypoints: list, town_lat: float, town_lng: float, fetch: Fetch, place: str = "") -> list[tuple[str, str]]:
+    """Mutates waypoints; returns (place name, article title) for each described.
+    `place` is the town's clinicalName, for trim_lead; without it only the
+    name is trimmed."""
     wanted = [w for w in waypoints if wants_description(w) and _name(w)]
     if not wanted:
         return []
@@ -119,11 +158,15 @@ def describe_from_wikipedia(waypoints: list, town_lat: float, town_lng: float, f
     described = []
     for w in wanted:
         hit = found.get(_name(w))
-        if not hit or len(hit["extract"]) > MAX_CHARS:
+        if not hit:
+            continue
+        # MAX_CHARS bounds what is shown, so it is checked after the trim.
+        line = trim_lead(hit["extract"], _name(w), hit["title"], place)
+        if len(line) > MAX_CHARS:
             continue
         if haversine_km(town_lat, town_lng, hit["lat"], hit["lng"]) > MAX_KM:
             continue
-        w["description"] = {"en": hit["extract"]}
+        w["description"] = {"en": line}
         w["description_source"] = "wikipedia"
         described.append((_name(w), hit["title"]))
     return described
