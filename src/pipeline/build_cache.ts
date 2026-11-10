@@ -16,6 +16,7 @@
 
 import { readFile } from 'fs/promises';
 import { resolve } from 'path';
+import { applyDescriptionOverrides, loadDescriptionOverrides } from './description_overrides';
 import {
   CitySchema,
   SeasonalVariantSchema,
@@ -587,6 +588,10 @@ export async function writeCityToFirestore(
   waypoints: ValidatedWaypoint[] | Waypoint[],
   tasks: Task[],
 ): Promise<void> {
+  // Approved plain-word lines win over every source (U51,
+  // description_overrides.ts): applied here because every ingest path writes
+  // through this function, so no later run can put the old wording back.
+  waypoints = applyDescriptionOverrides(waypoints as Waypoint[], loadDescriptionOverrides());
   const { getFirestore, FieldValue } = await import('firebase-admin/firestore');
   const { initializeApp, getApps, cert } = await import('firebase-admin/app');
 
