@@ -1094,7 +1094,7 @@ def describe_city_from_wikipedia(city: dict, data: dict) -> None:
     if not (PROJECT_ROOT / "data" / "osm" / f"{city['id']}.md").exists():
         return
     try:
-        described = describe_from_wikipedia(data.get("waypoints", []), city["lat"], city["lng"], http_fetch)
+        described = describe_from_wikipedia(data.get("waypoints", []), city["lat"], city["lng"], http_fetch, city.get("clinicalName", ""))
     except Exception as e:  # descriptions are an improvement, never a gate
         print(f"  ⚠ Wikipedia descriptions skipped: {e}")
         return
