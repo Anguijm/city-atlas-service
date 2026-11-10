@@ -1,30 +1,33 @@
-# Active plan: approved plain-word place lines (U51)
+# Active plan: Toledo, Ohio joins the atlas
 
-Branch: `feat/description-overrides`
+Branch: `feat/toledo-oh`
 
-**Ship rule:** A place line John approved, kept in
-`data/description-overrides.json` with its source and approval, wins over
-every pipeline source at `writeCityToFirestore`, the one place every ingest
-writes through, so a later run cannot put the old wording back.
-`scripts/apply_description_overrides.py` writes them to the live atlas now
-(dry run by default). Five lines, all facts from each place's Wikipedia
-article, approved by John 2026-11-10: Stuhr Museum, Fonner Park, Wendover
-Will, Reliance Tipple, Howard Payne University.
+**Ship rule:** Toledo is in the registry (`toledo-oh`, metro, 20 km like
+Lincoln) and in the live `urbanexplorer` atlas with places that pass Phase C,
+so Roadtripper can stop there on I-75 between Ann Arbor and Dayton. Found by
+the roadtripper-car session on 2026-11-10 (a Detroit to Ohio drive had no town
+for 300 km); John picked it the same day. Same path as the October corridor
+towns (#61, #62): scrape every source, then `research_city.py --mode gemini
+--ingest`, with OSM grounding.
 
-**Proof:** tests for the file (sourced, approved, at most 240 characters),
-the pure apply, a malformed or over-long entry failing loudly, and the
-writer writing the override in both copies. Mutation proof: removing the
-hook in `writeCityToFirestore` turns the writer test red. Dry run on the
-live atlas: exactly the five lines.
+**Proof:** the registry still parses with unique ids; Phase C passes; the
+ingest's own counts, then a read back from Firestore of the city document and
+its waypoints; then Roadtripper's atlas export shows the city.
 
-**Also fixed:** the Firestore writer's tests mocked `FieldValue` without
-`delete`, which #63 started using, so seven tests failed on main, unseen
-because CI's validate job stops at its npm audit step first. Four other
-tests (index definitions, coverage tiers) fail on main and here alike;
-recorded, not touched.
+**Cost:** About four Gemini 2.5 Pro calls on the pipeline key (a few cents).
+Firestore writes for one city. No Places calls (ingest runs with
+`--skip-validation`, as in October).
 
-**Cost:** None at run time. Five Firestore updates, two documents each.
+**Weakest part:** Gemini writes the place descriptions. OSM grounding checks
+names and positions, not the sentences, so a wrong detail in a description
+can still get through. Spot-read them before merging.
 
-**Weakest part:** The rewrites are no longer the source's own sentences, so
-their accuracy rests on the drafting and John's approval; each cites its
-article so it can be checked.
+**Council round 1 (🟡 CONDITIONAL), answered on #67:**
+1. Maumee Uptown's distance: argued. There is no 5-mile Phase C rule; the
+   spatial check allows 60 km for Toledo. The place is 11 km from Toledo's
+   point, inside its 20 km radius, and its nearest neighbourhood already.
+2. The 48-place floor: argued. "Degraded" is the pipeline's outcome for
+   it, and 35 live metros are under 48, Lincoln (27) among them. Needs a
+   new source; filed as #68.
+3. Spot-check and Phase C verification: done before the PR, evidence in
+   the comment, including the Firestore read-back via Roadtripper's export.

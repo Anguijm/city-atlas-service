@@ -1,0 +1,84 @@
+# OpenStreetMap: Toledo
+
+Named places mapped in OpenStreetMap within 20 km of Toledo's centre. Each line: name — kind — street address if mapped — latitude, longitude — website if mapped. A listing says the place exists; it says nothing about quality.
+
+- **Fort Meigs Visitor Center** — museum — 29100 West River Road — 41.55091, -83.65314
+- **Heritage Center Museum/The Cooke-Kuhlman House** — museum — 5717 Main Street — 41.71771, -83.70354 — https://heritagesylvania.org/
+- **Imagination Station** — museum — 1 Discovery Way — 41.65195, -83.53156 — https://www.imaginationstationtoledo.org/
+- **National Museum of the Great Lakes** — museum — 1701 Front Street — 41.65661, -83.51504 — https://inlandseas.org/
+- **Spafford House Museum** — museum — 27340 West River Road — 41.54906, -83.65684
+- **Sylvania Historical Village** — museum — 41.71813, -83.70441
+- **The Col. James M. Schoonmaker** — museum — 41.65655, -83.51639
+- **The Promedica Museum of Natural History** — museum — 41.61912, -83.57965
+- **Toledo Firefighters Museum** — museum — 41.69291, -83.56414 — http://www.toledofirefightersmuseum.org/
+- **Toledo Museum of Art** — museum — 2445 Monroe Street — 41.65844, -83.55928 — https://www.toledomuseum.org/
+- **Toledo Museum of Art Glass Pavillon** — museum — 2444 Monroe Street — 41.65966, -83.55807
+- **Toledo Police Museum** — museum — 2201 North Cove Boulevard — 41.66954, -83.59599 — https://www.toledopolicemuseum.com
+- **Tugboat Ohio** — museum — 41.65701, -83.51535
+- **Wolcott Heritage Center** — museum — 1031 River Road — 41.57244, -83.63873
+- **Fort Miamis** — attraction — 41.57232, -83.62582
+- **Fossil Park** — attraction — 41.71273, -83.74784
+- **Hollywood Casino Toledo** — attraction — 41.62060, -83.54505
+- **The 577 Foundation** — attraction — 577 East Front Street — 41.56614, -83.62044 — https://www.577foundation.org/
+- **1858 Railroad Depot** — historic site — 41.71813, -83.70474
+- **Antique FireHose Reel** — historic site — 41.58775, -83.48394
+- **Armstrong Barn** — historic site — 41.71805, -83.70451
+- **Auburndale Lanes (historical)** — historic site — 41.66960, -83.58010
+- **Avalon Lanes (historical)** — historic site — 41.66743, -83.57663
+- **Aviary** — historic site — 41.61948, -83.58175
+- **Bush Street Historic District** — historic site — 41.66449, -83.51799
+- **Carnivore Cafe** — historic site — 41.61922, -83.58072
+- **Centennial Grove** — historic site — 41.66795, -83.67193
+- **Civil War** — historic site — 41.69801, -83.47894
+- **Civil War Monument** — historic site — 41.68180, -83.57893
+- **Commodore Perry Statue** — historic site — 41.56055, -83.63013
+- **Crucifixion Group** — historic site — 41.65453, -83.59927
+- **Cumberland Street Historic District** — historic site — 41.67949, -83.55271
+- **Czarnecki Recreation (historical)** — historic site — 41.64710, -83.57245
+- **Eagle Point Colony Historic District** — historic site — 41.61088, -83.57105
+- **Elk Memorial** — historic site — 41.71937, -83.69661
+- **Farmhouse** — historic site — 41.67742, -83.65669
+- **Fort Meigs Monument** — historic site — 41.55272, -83.65162
+- **Fort Meigs State Memorial** — historic site — 29100 West River Road — 41.55269, -83.65085
+- **Gen. James Steedman Statue** — historic site — 41.66942, -83.50685
+- **Geo. R Crosby Park Gardens Environmental Education Center** — historic site — 41.66824, -83.67114
+- **Gruetter Airport** — historic site — 41.59255, -83.37548
+- **Hagerty's Bowling Center (historical)** — historic site — 41.65724, -83.53942
+- **Infant Shrine** — historic site — 41.65647, -83.59876
+- **Iraq** — historic site — 41.69824, -83.47899
+- **Korea** — historic site — 41.69817, -83.47894
+- **Lambertville Historic Village** — historic site — 41.76320, -83.63145
+- **Libbey House** — historic site — 2008 Scottwood Avenue — 41.66056, -83.55854 — http://libbeyhouse.org/
+- **Log Home** — historic site — 41.71807, -83.70421
+- **Lucas County Medal of Honor Recipients** — historic site — 41.69797, -83.47895
+- **Main Line (New York Central Railroad)** — historic site — 42.00767, -80.66907
+- **Maumee Uptown Historic District** — historic site — 41.56227, -83.65355
+- **Melissa Anne Herstrum Memorial** — historic site — 41.65670, -83.61540
+- **Mercury Recreation (historical)** — historic site — 41.68242, -83.52710
+- **Milestone Marker** — historic site — 41.55582, -83.61671
+- **Moline Lanes (historical)** — historic site — 41.55712, -83.51066
+- **Monument to Civil War Soldiers and Sailors of Perrysburg and Perrysburg Township** — historic site — 41.56092, -83.63069
+- **Oak Grove Schoolhouse** — historic site — 41.67854, -83.65687
+- **Old West End Historic District** — historic site — 41.67310, -83.55105
+- **Ottawa Hills Memorial Flag** — historic site — 41.66962, -83.63220
+- **Owens Silo** — historic site — 41.59022, -83.53688
+- **Perrysburg Historic District** — historic site — 41.55947, -83.62925
+- **Peter Navarre Cabin** — historic site — 41.66758, -83.67273
+- **Police & Fireman Memorial** — historic site — 41.55133, -83.64156
+- **Pope Saint John Paul II Statue** — historic site — 41.68187, -83.54209
+- **Priest's Circle** — historic site — 41.65438, -83.59907
+- **Pythian Castle** — historic site — 41.65184, -83.54033
+- **Rossford Army Ordnance Depot** — historic site — 41.58613, -83.54117
+- **Saint Clair Street Historic District** — historic site — 41.64727, -83.53799
+- **Saint Gerome Statue of Christ** — historic site — 41.59245, -83.48800
+- **Saint Marys Parish House (historical)** — historic site — 41.65894, -83.53466
+- **Saint Peter and Saint Paul Historic District** — historic site — 41.63922, -83.54854
+- **Sheriff's Residence (historical)** — historic site — 41.65625, -83.53692
+- **Shrine of Saint Joseph** — historic site — 41.65940, -83.59597
+- **Shrine of the Crucifixion** — historic site — 41.65700, -83.59565
+- **Skowronek Recreation (historical)** — historic site — 41.69379, -83.54694
+- **Spanish American** — historic site — 41.69805, -83.47893
+- **Stations of the Cross** — historic site — 41.59262, -83.48816
+- **Stone Academy** — historic site — 41.71806, -83.70434
+- **Supreme Recreation (historical)** — historic site — 41.67998, -83.54062
+- **The Carolyn E. Edwards Memorial Rain Garden** — historic site — 41.65914, -83.61431
