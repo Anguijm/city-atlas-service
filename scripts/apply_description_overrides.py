@@ -21,7 +21,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT = "urban-explorer-483600"
 DATABASE = "urbanexplorer"
-MAX_CHARS = 240  # description_overrides.ts MAX_OVERRIDE_CHARS; keep equal
+# Must equal MAX_OVERRIDE_CHARS in src/pipeline/description_overrides.ts and
+# MAX_CHARS in src/pipeline/wiki_describe.py: Roadtripper never cuts a line,
+# and 240 is about five lines on a phone. Over it, this script refuses the
+# file (exit) rather than write a line ingest would also refuse. Check:
+# `npx vitest run src/__tests__/description-overrides.test.ts`.
+MAX_CHARS = 240
 
 
 def load() -> dict[str, str]:
@@ -51,8 +56,11 @@ def main() -> None:
             print(f"MISSING {wid}")
             continue
         v = snap.to_dict()
-        now = (v.get("description") or {}).get("en")
-        if now == line and set((v.get("description") or {}).keys()) == {"en"}:
+        # A legacy document may hold the line as a bare string, not a map
+        # (PR #66 council); read either.
+        desc = v.get("description")
+        now = desc if isinstance(desc, str) else (desc or {}).get("en") if isinstance(desc, dict) else None
+        if now == line and isinstance(desc, dict) and set(desc.keys()) == {"en"}:
             print(f"same    {wid}")
             continue
         changed += 1

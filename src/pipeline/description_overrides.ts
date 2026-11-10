@@ -16,6 +16,7 @@
  * Firestore writer's tests mock.
  */
 import { readFileSync } from 'node:fs';
+import { LocalizedTextSchema } from '../schemas/cityAtlas';
 
 export interface DescriptionOverride {
   /** The line shown. Every fact in it is from `source`; nothing is added. */
@@ -29,9 +30,14 @@ export interface DescriptionOverride {
 export type DescriptionOverrides = Record<string, DescriptionOverride>;
 
 /**
- * The longest line an override may hold: Roadtripper wraps a line whole and
- * never cuts it, and wiki_describe.py's MAX_CHARS (240) is about five lines
- * on a 390 px phone. Keep the two equal.
+ * The longest line an override may hold, 240 characters. Why: Roadtripper
+ * wraps a place's line whole and never cuts it (its quality bar, rule 2),
+ * and 240 is about five lines on a 390 px phone, the longest the atlas held
+ * before OSM. Must equal wiki_describe.py's MAX_CHARS and
+ * scripts/apply_description_overrides.py's MAX_CHARS. Raising it lets a
+ * line push a town's other places off a phone screen; lowering it can make
+ * an approved override fail to load, which stops every ingest (by design).
+ * Check after a change: `npx vitest run src/__tests__/description-overrides.test.ts`.
  */
 export const MAX_OVERRIDE_CHARS = 240;
 
@@ -50,6 +56,9 @@ export function loadDescriptionOverrides(path: URL | string = DEFAULT_PATH): Des
     if (o.line.length > MAX_OVERRIDE_CHARS) {
       throw new Error(`description override ${id}: line is ${o.line.length} characters, over ${MAX_OVERRIDE_CHARS}`);
     }
+    // The shape ingest writes must pass the atlas schema (PR #66 council).
+    const parsed = LocalizedTextSchema.safeParse({ en: o.line.trim() });
+    if (!parsed.success) throw new Error(`description override ${id}: fails LocalizedTextSchema`);
     out[id] = { line: o.line.trim(), source: o.source, approved: o.approved };
   }
   return out;
