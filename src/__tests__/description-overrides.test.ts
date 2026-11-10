@@ -19,13 +19,18 @@ const tmpFile = (body: unknown) => {
 describe('the approved overrides file', () => {
   it('loads, and every line is sourced, approved and short enough to show whole', () => {
     const o = loadDescriptionOverrides();
-    expect(Object.keys(o).length).toBe(5);
+    expect(Object.keys(o).length).toBe(6);
     for (const [id, v] of Object.entries(o)) {
       expect(id).not.toMatch(/^_/);
-      expect(v.source).toMatch(/^wikipedia:/);
+      // A source the pipeline scrapes and keeps in data/: Wikipedia for the
+      // U51 five, Atlas Obscura's listing for Toledo's Cloister (2026-11-10).
+      expect(v.source).toMatch(/^(wikipedia|atlas-obscura):\S/);
       expect(v.approved).toMatch(/John, \d{4}-\d{2}-\d{2}/);
       expect(v.line.length).toBeLessThanOrEqual(MAX_OVERRIDE_CHARS);
     }
+    expect(o['toledo-oh-the-old-west-end-the-cloister-at-the-toledo-museum-of-art'].line).toBe(
+      'A courtyard framed by centuries-old columns from French monasteries.',
+    );
     expect(o['grand-island-ne-fonner-park-the-east-side-hub-fonner-park'].line).toBe(
       'Thoroughbred racetrack since 1954; the Hall County and Nebraska State Fairs are held here too.',
     );

@@ -1,33 +1,28 @@
-# Active plan: Toledo, Ohio joins the atlas
+# Active plan: Toledo's Cloister gets a plain-word line
 
-Branch: `feat/toledo-oh`
+Branch: `feat/cloister-line`
 
-**Ship rule:** Toledo is in the registry (`toledo-oh`, metro, 20 km like
-Lincoln) and in the live `urbanexplorer` atlas with places that pass Phase C,
-so Roadtripper can stop there on I-75 between Ann Arbor and Dayton. Found by
-the roadtripper-car session on 2026-11-10 (a Detroit to Ohio drive had no town
-for 300 km); John picked it the same day. Same path as the October corridor
-towns (#61, #62): scrape every source, then `research_city.py --mode gemini
---ingest`, with OSM grounding.
+**Ship rule:** Toledo's Cloister read "Museum on Monroe Street.", the
+OpenStreetMap listing's line, because the grounding matched it to the
+museum's own map entry. John approved (2026-11-10) "A courtyard framed by
+centuries-old columns from French monasteries.", every fact from the Atlas
+Obscura listing saved at `data/atlas-obscura/toledo-oh.md` (Wikipedia's
+museum article does not mention the Cloister). It goes in
+`data/description-overrides.json`, the U51 file that wins at every ingest,
+and `scripts/apply_description_overrides.py --apply` writes it to the live
+atlas after merge.
 
-**Proof:** the registry still parses with unique ids; Phase C passes; the
-ingest's own counts, then a read back from Firestore of the city document and
-its waypoints; then Roadtripper's atlas export shows the city.
+**Proof:** the file's test pins the line and now allows a source the
+pipeline scrapes and keeps (`wikipedia:` or `atlas-obscura:`). Mutation
+proof: a `gemini:` source turns it red. Dry run on the live atlas: exactly
+this one line would change; the U51 five read "same".
 
-**Cost:** About four Gemini 2.5 Pro calls on the pipeline key (a few cents).
-Firestore writes for one city. No Places calls (ingest runs with
-`--skip-validation`, as in October).
+**Cost:** None. Two Firestore document updates.
 
-**Weakest part:** Gemini writes the place descriptions. OSM grounding checks
-names and positions, not the sentences, so a wrong detail in a description
-can still get through. Spot-read them before merging.
+**Weakest part:** the line paraphrases a short listing, so it says only
+what Atlas Obscura's one sentence says: no dates, no names of the
+monasteries.
 
-**Council round 1 (🟡 CONDITIONAL), answered on #67:**
-1. Maumee Uptown's distance: argued. There is no 5-mile Phase C rule; the
-   spatial check allows 60 km for Toledo. The place is 11 km from Toledo's
-   point, inside its 20 km radius, and its nearest neighbourhood already.
-2. The 48-place floor: argued. "Degraded" is the pipeline's outcome for
-   it, and 35 live metros are under 48, Lincoln (27) among them. Needs a
-   new source; filed as #68.
-3. Spot-check and Phase C verification: done before the PR, evidence in
-   the comment, including the Firestore read-back via Roadtripper's export.
+**Council round 1 (🟡 CONDITIONAL), answered on #70:** its one item, a dry
+run confirming the key and a single change, was run before the PR opened:
+"1 would change (dry run), 0 missing". Output posted on the PR.
