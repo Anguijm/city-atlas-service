@@ -22,3 +22,7 @@ this one line would change; the U51 five read "same".
 **Weakest part:** the line paraphrases a short listing, so it says only
 what Atlas Obscura's one sentence says: no dates, no names of the
 monasteries.
+
+**Council round 1 (🟡 CONDITIONAL), answered on #70:** its one item, a dry
+run confirming the key and a single change, was run before the PR opened:
+"1 would change (dry run), 0 missing". Output posted on the PR.
