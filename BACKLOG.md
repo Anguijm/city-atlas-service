@@ -63,6 +63,10 @@
 
 ## Recently closed
 
+- **PR #64 (2026-11-10)**: Wikipedia lines trimmed of the name and town Roadtripper already shows (U49). Words are only deleted, never rewritten. A trim leaving under 25 characters keeps the sentence. 🔴 BLOCK on round 1 for real bugs ("X is located in <town>." became "X is.", "was a" lost past tense, a state could be left dangling, two crashes), fixed with tests, then 🟢 CLEAR on round 2. Merged `c0a1c3e`. `scripts/one-off/trim_wiki_lines_2026_11_10.py --apply` changed four lines in Firestore (both copies), and a rerun finds none left. Roadtripper re-exported its atlas in its PR #160.
+- **CI note (2026-11-10):** `validate` fails at "npm audit (prod deps only)" (18 advisories in existing dependencies), and the PR Watcher fails too. Both were already failing on main for #62 and #63. Nothing has fixed them yet.
+- **This file's "In flight" section dates from May.** #56 and #57 there may have merged since. Check `gh pr list` before trusting it.
+
 - **PR #53** — CLAUDE.md TypeScript configuration section. 🟢 CLEAR R1. Merged `e069e1d`. Closed #33.
 - **PR #51** — city-ID validation, branch-guard preflight, monthly budget 60→120. Admin-merged `db251ec` (OOS BLOCK on pre-existing security issues #7/#8/#9). Closed #8, #21. Filed #54.
 - **PR #49** — city_id backfill, birmingham-al rename, scraper disambiguation fix. Admin-merged `c8c901e` (OOS BLOCK). Filed #47, #50.
