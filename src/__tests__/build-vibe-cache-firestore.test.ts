@@ -39,6 +39,10 @@ vi.mock('firebase-admin/firestore', () => ({
   getFirestore: () => mockGetFirestore(),
   FieldValue: {
     serverTimestamp: vi.fn(() => 'SERVER_TIMESTAMP'),
+    // #63 made the writer delete an absent description; without this the
+    // mock threw and seven tests here failed on main, unseen because CI's
+    // validate job stops at its npm audit step first (U51, 2026-11-10).
+    delete: vi.fn(() => 'FIELD_DELETE'),
   },
 }));
 
@@ -278,6 +282,28 @@ describe('Epic 4 — Firestore Batch Writer', () => {
     expect(flatNeighborhoodCalls.length).toBe(6);
     expect(flatWaypointCalls.length).toBe(48);
     expect(flatTaskCalls.length).toBe(72);
+  });
+
+  // U51: an approved plain-word line wins over the pipeline's, in both copies.
+  it('writes an approved override line instead of the pipeline line, and leaves other places alone', async () => {
+    const neighborhoods = makeNeighborhoods(6);
+    const waypoints = makeWaypoints(neighborhoods, 8);
+    const stuhr = 'grand-island-ne-stolley-park-the-prairie-pioneer-trail-stuhr-museum-of-the-prairie-pioneer';
+    const target = { ...waypoints[0], id: stuhr, description: { en: 'The pipeline line.' } };
+    const others = waypoints.slice(1);
+    const tasks = makeTasks(waypoints, 12);
+
+    await writeCityToFirestore(city, neighborhoods, [target, ...others], tasks);
+
+    const written = (path: string) =>
+      mockBatchSet.mock.calls.find((call: unknown[]) => (call[0] as { path: string }).path.endsWith(path))?.[1] as
+        | { description?: unknown }
+        | undefined;
+    const line = 'Prairie pioneer museum with Railroad Town, a living-history 1890s village of original buildings.';
+    expect(written(`vibe_waypoints/${stuhr}`)?.description).toEqual({ en: line });
+    expect(written(`/waypoints/${stuhr}`)?.description).toEqual({ en: line });
+    // The fixture's places have no line, so the writer deletes the field for them, as before.
+    expect(written(`vibe_waypoints/${others[0].id}`)?.description).toEqual(others[0].description ?? 'FIELD_DELETE');
   });
 
   // Test 7: throws FIRESTORE_WRITE_FAILED on commit failure

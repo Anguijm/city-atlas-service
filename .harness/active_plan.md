@@ -1,30 +1,30 @@
-# Active plan: trim Wikipedia lines of what the screen already shows (U49)
+# Active plan: approved plain-word place lines (U51)
 
-Branch: `feat/trim-wiki-lines`
+Branch: `feat/description-overrides`
 
-**Ship rule:** A Wikipedia sentence loses its own subject ("Fonner Park is a")
-and its town ("located in Grand Island, Nebraska", matched to the registry's
-clinicalName), because Roadtripper prints the name above the line and the
-town above both. Words are only deleted, never rewritten. A trim that leaves
-fewer than 25 characters keeps the whole sentence (operator's choice,
-2026-11-10: Howard Payne University keeps its line). On the live atlas
-exactly four lines change: Fonner Park, Stuhr Museum, Reliance Tipple,
-Wendover Will.
+**Ship rule:** A place line John approved, kept in
+`data/description-overrides.json` with its source and approval, wins over
+every pipeline source at `writeCityToFirestore`, the one place every ingest
+writes through, so a later run cannot put the old wording back.
+`scripts/apply_description_overrides.py` writes them to the live atlas now
+(dry run by default). Five lines, all facts from each place's Wikipedia
+article, approved by John 2026-11-10: Stuhr Museum, Fonner Park, Wendover
+Will, Reliance Tipple, Howard Payne University.
 
-**What changes**
-- `wiki_describe.py`: `trim_lead()` and `MIN_TRIMMED_CHARS`;
-  `describe_from_wikipedia` writes the trimmed line and checks `MAX_CHARS`
-  on it; `research_city.py` passes the town's clinicalName.
-- `scripts/one-off/trim_wiki_lines_2026_11_10.py`: the same trim on the five
-  sentences already in Firestore (the saved JSON is on the laptop, untracked).
-  Dry run by default; only `description.en`, both copies.
+**Proof:** tests for the file (sourced, approved, at most 240 characters),
+the pure apply, a malformed or over-long entry failing loudly, and the
+writer writing the override in both copies. Mutation proof: removing the
+hook in `writeCityToFirestore` turns the writer test red. Dry run on the
+live atlas: exactly the five lines.
 
-**Proof:** tests for the five real sentences, Howard Payne's floor, title
-matching and a same-named town elsewhere. Mutation proofs: removing the town
-trim fails 3 tests, removing the floor 1, unwiring the trim 2. Dry run on the
-live atlas lists exactly the four lines.
+**Also fixed:** the Firestore writer's tests mocked `FieldValue` without
+`delete`, which #63 started using, so seven tests failed on main, unseen
+because CI's validate job stops at its npm audit step first. Four other
+tests (index definitions, coverage tiers) fail on main and here alike;
+recorded, not touched.
 
-**Cost:** None at run time. Four Firestore updates, two documents each.
+**Cost:** None at run time. Five Firestore updates, two documents each.
 
-**Weakest part:** The town match is literal. A sentence saying "in Grand
-Island, Hall County, Nebraska" keeps its town; only a shorter line is lost.
+**Weakest part:** The rewrites are no longer the source's own sentences, so
+their accuracy rests on the drafting and John's approval; each cites its
+article so it can be checked.
