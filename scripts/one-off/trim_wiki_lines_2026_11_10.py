@@ -54,11 +54,14 @@ def main() -> None:
             others = sorted(k for k in desc if k != "en")
             print(f"{cid} | {nm}\n  before: {en}\n  after:  {new}" + (f"\n  other locales left as they are: {others}" if others else ""))
             if apply:
-                sub = (db.collection("cities").document(cid).collection("neighborhoods")
-                       .document(v["neighborhood_id"]).collection("waypoints").document(doc.id))
                 batch = db.batch()
                 batch.update(doc.reference, {"description.en": new})
-                if sub.get().exists:
+                # The subcollection copy needs the neighborhood; a document
+                # without one has only the flat copy (PR #64 council).
+                nb = v.get("neighborhood_id")
+                sub = (db.collection("cities").document(cid).collection("neighborhoods")
+                       .document(nb).collection("waypoints").document(doc.id)) if nb else None
+                if sub is not None and sub.get().exists:
                     batch.update(sub, {"description.en": new})
                 else:
                     print("  (no subcollection copy)")

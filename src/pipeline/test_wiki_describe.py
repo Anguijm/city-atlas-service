@@ -153,3 +153,17 @@ def test_describe_from_wikipedia_writes_the_trimmed_line():
     ws = [wp("Fonner Park", "Racetrack on Fonner Park Road.", "osm")]
     assert describe_from_wikipedia(ws, 40.9264, -98.342, fetch, place=GI) == [("Fonner Park", "Fonner Park")]
     assert ws[0]["description"] == {"en": "A thoroughbred horse racing facility."}
+
+
+def test_council_64_edge_cases_leave_the_sentence_whole_or_grammatical():
+    # The clause is the predicate: deleting it would leave "... is."
+    s = "The Stuhr Museum of the Prairie Pioneer is located in Grand Island, Nebraska."
+    assert trim_lead(s, "Stuhr Museum of the Prairie Pioneer", "Stuhr Museum", GI) == s
+    # Past tense says the place is gone; "A casino ..." would say it is open.
+    gone = "Stateline Casino was a casino and hotel in West Wendover, Nevada until 1993."
+    assert trim_lead(gone, "Stateline Casino", "Stateline Casino", "West Wendover, Nevada").startswith("Stateline Casino was a casino")
+    # A town given without its state leaves no dangling ", Nebraska".
+    fonner = "Fonner Park is a thoroughbred horse racing facility located in Grand Island, Nebraska."
+    assert trim_lead(fonner, "Fonner Park", "Fonner Park", "Grand Island") == "A thoroughbred horse racing facility located in Grand Island, Nebraska."
+    # A missing name, title or town is not a crash.
+    assert trim_lead(fonner, None, None, None) == fonner

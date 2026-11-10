@@ -101,19 +101,30 @@ def trim_lead(text: str, name: str, title: str, place: str = "") -> str:
     of the same name elsewhere does not match it. Deletes words only. A
     result under MIN_TRIMMED_CHARS returns the sentence unchanged."""
     out = text
+    name, title, place = (name or "").strip(), (title or "").strip(), (place or "").strip()
     # "The Reliance Tipple is the site ..." -> "The site ...": the subject is
-    # the name or the article title, the verb is a form of "to be", and the
-    # article that follows is kept, capitalised, to start the line.
-    names = "|".join(re.escape(n) for n in sorted({name.strip(), title.strip()} - {""}, key=len, reverse=True))
+    # the name or the article title, the verb is "is" or "are", and the
+    # article that follows is kept, capitalised, to start the line. Never
+    # "was"/"were": "X was a casino" says it is gone, and "A casino" would
+    # say it is open (PR #64 council).
+    names = "|".join(re.escape(n) for n in sorted({name, title} - {""}, key=len, reverse=True))
     if names:
-        m = re.match(rf"(?:the\s+)?(?:{names})\s+(?:is|was|are|were)\s+(a|an|the)\s+", out, flags=re.IGNORECASE)
+        m = re.match(rf"(?:the\s+)?(?:{names})\s+(?:is|are)\s+(a|an|the)\s+", out, flags=re.IGNORECASE)
         if m:
+            # group(1) is the article ("a", "an", "the"); it becomes the
+            # line's first word, so it is capitalised and the rest follows.
             out = m.group(1).capitalize() + " " + out[m.end():]
     # ", located in Grand Island, Nebraska" or " in West Wendover, Nevada",
-    # with an optional ", United States", ending at a space or punctuation so
-    # "Nebraska City" is not read as "Nebraska".
-    if place.strip():
-        out = re.sub(rf",?\s+(?:located\s+)?in\s+{re.escape(place.strip())}(?:,\s+United States)?(?=[\s.,;:]|$)", "", out)
+    # with an optional ", United States". It must end at a space, a full
+    # stop or other punctuation, or a comma NOT followed by a capitalised
+    # word: a clinicalName without its state ("Grand Island") would
+    # otherwise leave "A facility, Nebraska." behind (PR #64 council).
+    if place:
+        m = re.search(rf",?\s+(?:located\s+)?in\s+{re.escape(place)}(?:,\s+United States)?(?=[\s.;:]|,(?!\s+[A-Z])|$)", out)
+        # Not when the clause is the sentence's predicate: "X is located in
+        # Grand Island, Nebraska." would become "X is." (PR #64 council).
+        if m and not re.search(r"\b(?:is|are|was|were)$", out[:m.start()].rstrip(), flags=re.IGNORECASE):
+            out = out[:m.start()] + out[m.end():]
     return out if len(out) >= MIN_TRIMMED_CHARS else text
 
 
