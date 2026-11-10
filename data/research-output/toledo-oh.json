@@ -1,0 +1,1410 @@
+{
+  "neighborhoods": [
+    {
+      "id": "old-west-end",
+      "city_id": "toledo-oh",
+      "name": {
+        "en": "The Old West End"
+      },
+      "summary": {
+        "en": "A living museum of late 19th and early 20th-century architecture, this area features one of the largest collections of intact Victorian and Edwardian homes in the country."
+      },
+      "lat": 41.6605,
+      "lng": -83.5551,
+      "trending_score": 85
+    },
+    {
+      "id": "downtown-warehouse",
+      "city_id": "toledo-oh",
+      "name": {
+        "en": "Downtown & The Warehouse District"
+      },
+      "summary": {
+        "en": "Toledo's revitalizing heart, blending gritty, industrial-era brick buildings with modern venues, public art, and a palpable sense of resurgence."
+      },
+      "lat": 41.6501,
+      "lng": -83.5352,
+      "trending_score": 90
+    },
+    {
+      "id": "east-toledo-birmingham",
+      "city_id": "toledo-oh",
+      "name": {
+        "en": "East Toledo & The Birmingham Neighborhood"
+      },
+      "summary": {
+        "en": "A proud, working-class area with deep Eastern European roots and a strong connection to the city's industrial and maritime heritage."
+      },
+      "lat": 41.6578,
+      "lng": -83.5095,
+      "trending_score": 75
+    },
+    {
+      "id": "university-west-toledo",
+      "city_id": "toledo-oh",
+      "name": {
+        "en": "University & West Toledo"
+      },
+      "summary": {
+        "en": "A sprawling area defined by the University of Toledo's campus, extensive parkland, and quiet residential streets, perfect for botanical exploration."
+      },
+      "lat": 41.665,
+      "lng": -83.62,
+      "trending_score": 70
+    },
+    {
+      "id": "south-toledo-maumee",
+      "city_id": "toledo-oh",
+      "name": {
+        "en": "South Toledo & The Maumee River"
+      },
+      "summary": {
+        "en": "Centered around the world-class Toledo Zoo and the winding Maumee River, this area is a hub of recreation, natural beauty, and family-friendly attractions."
+      },
+      "lat": 41.6215,
+      "lng": -83.556,
+      "trending_score": 80
+    },
+    {
+      "id": "sylvania-outskirts",
+      "city_id": "toledo-oh",
+      "name": {
+        "en": "Sylvania & The Northwestern Outskirts"
+      },
+      "summary": {
+        "en": "Experience the charm of a historic Ohio town with a quaint, walkable downtown and unique, hands-on attractions."
+      },
+      "lat": 41.7145,
+      "lng": -83.7058,
+      "trending_score": 65
+    }
+  ],
+  "waypoints": [
+    {
+      "id": "old-west-end-the-cloister",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "old-west-end",
+      "name": {
+        "en": "The Cloister (at the Toledo Museum of Art)"
+      },
+      "description": {
+        "en": "Museum on Monroe Street."
+      },
+      "type": "culture",
+      "lat": 41.6586,
+      "lng": -83.5587,
+      "trending_score": 95,
+      "description_source": "osm"
+    },
+    {
+      "id": "old-west-end-blair-museum",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "old-west-end",
+      "name": {
+        "en": "Blair Museum of Lithophanes"
+      },
+      "description": {
+        "en": "A rare collection dedicated to lithophanes—intricate 19th-century porcelain carvings that reveal detailed images when backlit."
+      },
+      "type": "hidden_gem",
+      "lat": 41.6588,
+      "lng": -83.559,
+      "trending_score": 80
+    },
+    {
+      "id": "old-west-end-libbey-house",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "old-west-end",
+      "name": {
+        "en": "Libbey House"
+      },
+      "description": {
+        "en": "Historic site on Scottwood Avenue."
+      },
+      "type": "landmark",
+      "lat": 41.66056,
+      "lng": -83.55854,
+      "trending_score": 82,
+      "description_source": "osm"
+    },
+    {
+      "id": "downtown-warehouse-art-tatum-column",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "downtown-warehouse",
+      "name": {
+        "en": "Art Tatum Celebration Column"
+      },
+      "description": {
+        "en": "A striking 30-foot sculpture resembling a cascade of abstract piano keys, paying tribute to jazz pianist Art Tatum."
+      },
+      "type": "landmark",
+      "lat": 41.6517,
+      "lng": -83.5348,
+      "trending_score": 88
+    },
+    {
+      "id": "downtown-warehouse-pythian-castle",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "downtown-warehouse",
+      "name": {
+        "en": "Pythian Castle"
+      },
+      "type": "landmark",
+      "lat": 41.65184,
+      "lng": -83.54033,
+      "trending_score": 85,
+      "description_source": "osm"
+    },
+    {
+      "id": "downtown-warehouse-st-clair-historic",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "downtown-warehouse",
+      "name": {
+        "en": "Saint Clair Street Historic District"
+      },
+      "type": "landmark",
+      "lat": 41.64727,
+      "lng": -83.53799,
+      "trending_score": 75,
+      "description_source": "osm"
+    },
+    {
+      "id": "east-toledo-birmingham-great-lakes-museum",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "east-toledo-birmingham",
+      "name": {
+        "en": "National Museum of the Great Lakes"
+      },
+      "description": {
+        "en": "A museum in the Toledo Maritime Center, a heritage location on the banks of the Maumee River on the east side of Toledo, Ohio."
+      },
+      "type": "culture",
+      "lat": 41.65661,
+      "lng": -83.51504,
+      "trending_score": 90,
+      "description_source": "wikipedia"
+    },
+    {
+      "id": "east-toledo-birmingham-schoonmaker-ship",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "east-toledo-birmingham",
+      "name": {
+        "en": "Col. James M. Schoonmaker Museum Ship"
+      },
+      "type": "landmark",
+      "lat": 41.6607,
+      "lng": -83.5208,
+      "trending_score": 89,
+      "description_source": "osm"
+    },
+    {
+      "id": "east-toledo-birmingham-bush-street-historic",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "east-toledo-birmingham",
+      "name": {
+        "en": "Bush Street Historic District"
+      },
+      "type": "landmark",
+      "lat": 41.66449,
+      "lng": -83.51799,
+      "trending_score": 68,
+      "description_source": "osm"
+    },
+    {
+      "id": "university-west-toledo-botanical-garden",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "university-west-toledo",
+      "name": {
+        "en": "Toledo Botanical Garden"
+      },
+      "description": {
+        "en": "A 60-acre campus of greenery, sculpture, and art, featuring a renowned collection of public art scattered throughout themed gardens."
+      },
+      "type": "nature",
+      "lat": 41.677,
+      "lng": -83.645,
+      "trending_score": 85
+    },
+    {
+      "id": "university-west-toledo-police-museum",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "university-west-toledo",
+      "name": {
+        "en": "Toledo Police Museum"
+      },
+      "description": {
+        "en": "Museum on North Cove Boulevard."
+      },
+      "type": "hidden_gem",
+      "lat": 41.66954,
+      "lng": -83.59599,
+      "trending_score": 72,
+      "description_source": "osm"
+    },
+    {
+      "id": "university-west-toledo-stranahan-arboretum",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "university-west-toledo",
+      "name": {
+        "en": "R. A. Stranahan Arboretum"
+      },
+      "description": {
+        "en": "A tranquil 47-acre collection of rare and mature trees from around the world, maintained by the university."
+      },
+      "type": "nature",
+      "lat": 41.695,
+      "lng": -83.665,
+      "trending_score": 78
+    },
+    {
+      "id": "south-toledo-maumee-carnivore-cafe",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "south-toledo-maumee",
+      "name": {
+        "en": "Carnivore Cafe"
+      },
+      "type": "food",
+      "lat": 41.61922,
+      "lng": -83.58072,
+      "trending_score": 60,
+      "description_source": "osm"
+    },
+    {
+      "id": "south-toledo-maumee-zoo-bridge",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "south-toledo-maumee",
+      "name": {
+        "en": "Toledo Zoo Pedestrian Bridge"
+      },
+      "description": {
+        "en": "An iconic bridge over the Anthony Wayne Trail connecting the two halves of the zoo, offering a great vantage point of the area."
+      },
+      "type": "viewpoint",
+      "lat": 41.6235,
+      "lng": -83.557,
+      "trending_score": 75
+    },
+    {
+      "id": "south-toledo-maumee-maumee-uptown",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "south-toledo-maumee",
+      "name": {
+        "en": "Maumee Uptown Historic District"
+      },
+      "type": "landmark",
+      "lat": 41.56227,
+      "lng": -83.65355,
+      "trending_score": 78,
+      "description_source": "osm"
+    },
+    {
+      "id": "sylvania-outskirts-fossil-park",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "sylvania-outskirts",
+      "name": {
+        "en": "Fossil Park"
+      },
+      "type": "hidden_gem",
+      "lat": 41.71273,
+      "lng": -83.74784,
+      "trending_score": 85,
+      "description_source": "osm"
+    },
+    {
+      "id": "sylvania-outskirts-historical-village",
+      "city_id": "toledo-oh",
+      "neighborhood_id": "sylvania-outskirts",
+      "name": {
+        "en": "Sylvania Historical Village"
+      },
+      "type": "culture",
+      "lat": 41.71813,
+      "lng": -83.70441,
+      "trending_score": 75,
+      "description_source": "osm"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "old-west-end-task-1",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Gilded Age Grandeur"
+      },
+      "prompt": {
+        "en": "Find the most impressive Victorian mansion you can and take a photo emphasizing its most unique architectural detail."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-2",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Turret Hunter"
+      },
+      "prompt": {
+        "en": "Take a picture of a house with a circular or 'witch's hat' turret. Try to frame it against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-3",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Leafy Streetscape"
+      },
+      "prompt": {
+        "en": "Capture a photo down a long, tree-lined street where the branches form a natural canopy overhead."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-4",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Porch Life"
+      },
+      "prompt": {
+        "en": "Find a home with an inviting front porch and take a photo. What makes it look so welcoming?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-5",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Stained Glass Story"
+      },
+      "prompt": {
+        "en": "Spot a window with colorful stained glass and take a close-up shot of the design."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-6",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Bohemian Vibe Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the artistic and slightly bohemian atmosphere of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-7",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Architectural Contrast"
+      },
+      "prompt": {
+        "en": "Find two neighboring houses with dramatically different architectural styles and capture them in the same shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-8",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Historic Marker Discovery"
+      },
+      "prompt": {
+        "en": "Find a historical plaque or marker on a building or in a yard and take a photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-9",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Shadow Play"
+      },
+      "prompt": {
+        "en": "Capture an interesting shadow cast by an ornate fence, a turret, or a large tree on the side of a historic home."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-10",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "The Color Palette"
+      },
+      "prompt": {
+        "en": "Photograph a 'painted lady' or any house with a vibrant and unusual color scheme."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-11",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Wrought Iron Art"
+      },
+      "prompt": {
+        "en": "Find a piece of decorative wrought iron—a fence, a gate, or a window guard—and take a detailed photo of its pattern."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-12",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Time Traveler's View"
+      },
+      "prompt": {
+        "en": "Frame a photo of a street scene that, if you ignore the cars, could have been taken 100 years ago."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-13",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Garden Guardian"
+      },
+      "prompt": {
+        "en": "Find a statue, fountain, or unique piece of art in someone's front garden and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-14",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Roofline Rhythm"
+      },
+      "prompt": {
+        "en": "Look up! Take a photo focusing on the interesting shapes and patterns of the rooflines against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "old-west-end-task-15",
+      "neighborhood_id": "old-west-end",
+      "title": {
+        "en": "Quiet Contemplation"
+      },
+      "prompt": {
+        "en": "Find a quiet, leafy spot that feels peaceful and take a photo that captures the serene feeling."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-1",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Old Brick, New Vibe"
+      },
+      "prompt": {
+        "en": "Find a historic brick building and capture the texture of its weathered facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-2",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Urban Resurgence"
+      },
+      "prompt": {
+        "en": "Take a photo that shows something old next to something new, symbolizing the area's revitalization."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-3",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Public Art Discovery"
+      },
+      "prompt": {
+        "en": "Find a piece of public art—a sculpture or a mural—and take a creative photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-4",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Ghost Sign"
+      },
+      "prompt": {
+        "en": "Look for a faded advertisement painted on the side of an old brick building and capture a piece of history."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-5",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Industrial Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with a gritty, industrial-era building in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-6",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Architectural Arch"
+      },
+      "prompt": {
+        "en": "Find a building with a prominent archway over a door or window and make it the focus of your photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-7",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Reflections of the City"
+      },
+      "prompt": {
+        "en": "Capture the reflection of a historic building in the window of a modern one."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-8",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Look Up!"
+      },
+      "prompt": {
+        "en": "Take a photo from a low angle, looking up at the top of a tall downtown building against the sky."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-9",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Fire Escape Geometry"
+      },
+      "prompt": {
+        "en": "Find a building with an old fire escape and capture the interesting lines and shadows it creates."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-10",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Cornerstone Quest"
+      },
+      "prompt": {
+        "en": "Find a cornerstone with a date carved into it and take a photo to document the building's age."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-11",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Urban Alleyway"
+      },
+      "prompt": {
+        "en": "Find an interesting alleyway and take a photo that captures its character, whether gritty or charming."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-12",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "City Life"
+      },
+      "prompt": {
+        "en": "Take a photo that captures the motion and energy of downtown—people walking, cars moving, etc."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-13",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Ornate Cornice"
+      },
+      "prompt": {
+        "en": "Find a building with a highly decorative cornice (the molding at the very top) and get a detailed shot."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-14",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Streetlight Portrait"
+      },
+      "prompt": {
+        "en": "Photograph one of the city's streetlights, focusing on its design, whether old or new."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "downtown-warehouse-task-15",
+      "neighborhood_id": "downtown-warehouse",
+      "title": {
+        "en": "Window to the Past"
+      },
+      "prompt": {
+        "en": "Find a window on an old warehouse building and take a photo. What stories could it tell?"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-1",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Maritime Heritage"
+      },
+      "prompt": {
+        "en": "Take a photo that includes the river and a bridge or an industrial element, capturing the area's connection to the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-2",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Working-Class Pride"
+      },
+      "prompt": {
+        "en": "Capture an image that you feel represents the authentic, unpretentious, and proud character of the neighborhood."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-3",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Industrial Landscape"
+      },
+      "prompt": {
+        "en": "Photograph a scene that highlights the industrial backbone of East Toledo—smokestacks, factories, or freight trains."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-4",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Neighborhood Corner"
+      },
+      "prompt": {
+        "en": "Find a local corner store, tavern, or church and take a photo that captures a slice of neighborhood life."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-5",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "A Hint of Hungary"
+      },
+      "prompt": {
+        "en": "Look for a sign, a flag, or a building that hints at the neighborhood's Eastern European and Hungarian roots."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-6",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "River View Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie with the Maumee River and the downtown skyline in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-7",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Bridge Geometry"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the area's bridges, focusing on the patterns and lines of its structure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-8",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Historic Home"
+      },
+      "prompt": {
+        "en": "Find a residential home that looks like it has stood for a century and capture its enduring character."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-9",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Signs of the Times"
+      },
+      "prompt": {
+        "en": "Photograph a vintage or hand-painted sign on a local business."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-10",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Transportation Hub"
+      },
+      "prompt": {
+        "en": "Capture a photo that shows different modes of transport: a boat on the river, a train on the tracks, or trucks on the road."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-11",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Neighborhood Colors"
+      },
+      "prompt": {
+        "en": "Find a splash of unexpected color in the urban landscape—a brightly painted door, a mural, or a flower box."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-12",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "The Local's View"
+      },
+      "prompt": {
+        "en": "Try to take a photo from a perspective that feels like a genuine, everyday view for someone who lives here."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-13",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Water's Edge"
+      },
+      "prompt": {
+        "en": "Get as close to the river as you can and take a photo looking across the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-14",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Sky over Industry"
+      },
+      "prompt": {
+        "en": "Frame a shot that contrasts the wide open sky with the silhouette of an industrial building or smokestack."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "east-toledo-birmingham-task-15",
+      "neighborhood_id": "east-toledo-birmingham",
+      "title": {
+        "en": "Resilient Nature"
+      },
+      "prompt": {
+        "en": "Find a sign of nature thriving in an industrial setting—a tree growing by a factory, or wildflowers by a railway."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-1",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Campus Landmark"
+      },
+      "prompt": {
+        "en": "Find a building or statue that looks like an iconic part of the University of Toledo campus and take its picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-2",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Botanical Beauty"
+      },
+      "prompt": {
+        "en": "Find a beautiful flower, plant, or tree and take a close-up photo of it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-3",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Park Bench Peace"
+      },
+      "prompt": {
+        "en": "Find an empty park bench in a peaceful spot and take a photo that makes you want to sit and relax."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-4",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Art in Nature"
+      },
+      "prompt": {
+        "en": "Discover a sculpture or piece of public art located in a park or garden and capture it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-5",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Student Life Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the energy of campus life, with students or university buildings in the background."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-6",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Nature's Texture"
+      },
+      "prompt": {
+        "en": "Take a close-up photo of an interesting natural texture, like tree bark, a leaf's veins, or a pattern on a stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-7",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Quiet Residential Street"
+      },
+      "prompt": {
+        "en": "Photograph a quiet, tree-lined residential street in the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-8",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Walking Path"
+      },
+      "prompt": {
+        "en": "Find a walking or biking path and take a photo from a low angle, looking down its length."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-9",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Majestic Tree"
+      },
+      "prompt": {
+        "en": "Find the largest or most interesting-looking tree you can and take a photo that shows its scale."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-10",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Campus Architecture"
+      },
+      "prompt": {
+        "en": "Capture a photo of a university building with unique or classic collegiate architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-11",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "A Pop of School Spirit"
+      },
+      "prompt": {
+        "en": "Find something that shows off the university's colors (blue and gold) and snap a picture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-12",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Secret Garden Spot"
+      },
+      "prompt": {
+        "en": "Find a hidden or secluded spot in a park or garden that feels like a secret hideaway and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-13",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Sunlight Through Leaves"
+      },
+      "prompt": {
+        "en": "Take a photo looking up at the sun filtering through the leaves of a tree."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-14",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Local Hangout"
+      },
+      "prompt": {
+        "en": "Find a coffee shop, bookstore, or eatery that looks like a popular spot for students and locals."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "university-west-toledo-task-15",
+      "neighborhood_id": "university-west-toledo",
+      "title": {
+        "en": "Shadow Patterns"
+      },
+      "prompt": {
+        "en": "Capture the interesting patterns of shadows cast by trees or sculptures on a sunny day."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-1",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "River View"
+      },
+      "prompt": {
+        "en": "Find a scenic viewpoint of the Maumee River and capture the sweep of the water."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-2",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Main Street USA"
+      },
+      "prompt": {
+        "en": "Take a classic photo of a historic main street, focusing on the storefronts and small-town feel."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-3",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Bridge Portrait"
+      },
+      "prompt": {
+        "en": "Take a photo of one of the bridges crossing the river. Try to capture its reflection in the water if you can."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-4",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Animal Instinct"
+      },
+      "prompt": {
+        "en": "Find a statue, sign, or mural of an animal and take a fun photo with it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-5",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Family Fun Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that captures the family-friendly, recreational vibe of the area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-6",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Historic Architecture"
+      },
+      "prompt": {
+        "en": "Find a building in the historic district with classic American architecture and photograph its facade."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-7",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Riverside Flora"
+      },
+      "prompt": {
+        "en": "Take a picture of the plants, trees, or flowers growing along the banks of the Maumee River."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-8",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Themed Treat"
+      },
+      "prompt": {
+        "en": "Find a snack or drink that fits the recreational or zoo theme of the neighborhood and take a photo before you enjoy it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-9",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Old Town Clock"
+      },
+      "prompt": {
+        "en": "Look for a public clock on a building or street corner and capture a timeless photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-10",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Sounds of Nature"
+      },
+      "prompt": {
+        "en": "Find a spot where you can hear the sounds of nature—birds, the river, the wind—and take a photo that represents that peace."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-11",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Charming Storefront"
+      },
+      "prompt": {
+        "en": "Photograph the window display of a quaint shop in the historic district."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-12",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Water and Sky"
+      },
+      "prompt": {
+        "en": "Compose a photo where the river and the sky each take up about half of the frame."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-13",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Path to Adventure"
+      },
+      "prompt": {
+        "en": "Take a photo of a path, walkway, or bridge that looks like it's leading to an adventure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-14",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Historic Marker"
+      },
+      "prompt": {
+        "en": "Find and photograph a historic marker or plaque that tells a story about the area's past."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "south-toledo-maumee-task-15",
+      "neighborhood_id": "south-toledo-maumee",
+      "title": {
+        "en": "Evening Light"
+      },
+      "prompt": {
+        "en": "If you're here in the late afternoon, capture a photo of the warm 'golden hour' light on a historic building or the river."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-1",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Small Town Charm"
+      },
+      "prompt": {
+        "en": "Take a photo that perfectly captures the quaint, historic small-town feel of Sylvania's downtown."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-2",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Paleontologist Selfie"
+      },
+      "prompt": {
+        "en": "Take a selfie that makes you look like a paleontologist on a dig. Bonus points for a fossil or digging tool in the shot!"
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-3",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Pioneer Past"
+      },
+      "prompt": {
+        "en": "Find a log cabin or other 19th-century style building and take a photo that transports you back in time."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-4",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Historic Main Street"
+      },
+      "prompt": {
+        "en": "Capture a shot of Sylvania's Main Street, focusing on the classic brick architecture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-5",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Nature's Reclamation"
+      },
+      "prompt": {
+        "en": "Find a place where nature is interacting with a man-made object—vines on a historic wall, or moss on a stone."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-6",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Old School"
+      },
+      "prompt": {
+        "en": "Find a building that looks like an old schoolhouse and imagine what it was like to be a student there."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-7",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "A Piece of the Past"
+      },
+      "prompt": {
+        "en": "Photograph an object that looks like it belongs in a different century—an old sign, a piece of farm equipment, or a historic lamppost."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-8",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "River Bluff View"
+      },
+      "prompt": {
+        "en": "Find a view overlooking the Ottawa River and take a scenic photo."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-9",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Fossil Find"
+      },
+      "prompt": {
+        "en": "If you find a fossil, take a close-up, detailed photo of your 380-million-year-old treasure."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-10",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Charming Shop"
+      },
+      "prompt": {
+        "en": "Find a local shop with a charming or unique storefront and capture its personality."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-11",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Walkable Downtown"
+      },
+      "prompt": {
+        "en": "Take a photo that emphasizes the walkability and pleasant atmosphere of the downtown area."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-12",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "History in the Bricks"
+      },
+      "prompt": {
+        "en": "Take a close-up shot of the brickwork on a historic building, focusing on its color and texture."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-13",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Local Landmark"
+      },
+      "prompt": {
+        "en": "Find a building or statue that seems like a well-known local landmark and photograph it."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-14",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Then and Now"
+      },
+      "prompt": {
+        "en": "Capture a historic building with a modern car or person in front of it to show the contrast between past and present."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    },
+    {
+      "id": "sylvania-outskirts-task-15",
+      "neighborhood_id": "sylvania-outskirts",
+      "title": {
+        "en": "Quiet Corner"
+      },
+      "prompt": {
+        "en": "Find a quiet corner, a small park, or a bench that feels like a peaceful escape from the world."
+      },
+      "points": 10,
+      "duration_minutes": 5
+    }
+  ],
+  "quality_status": "degraded"
+}
